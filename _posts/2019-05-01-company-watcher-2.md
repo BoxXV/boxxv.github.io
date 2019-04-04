@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tản mạn kỳ #2: Tiki
+title: Tản mạn kỳ \#2: Tiki
 subtitle: startup tỷ đô la từ nhà kho
 ---
 
