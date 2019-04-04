@@ -16,4 +16,4 @@ Lead team Nhật (ở nhà 1 năm học tiếng Nhật) được chọn làm COO
 60 KHÁCH HÀNG
 3,000 M2 DIỆN TÍCH SÀN
 
-kết quả rút ra là: chỉ cần giỏi tiếng là sẽ ok
+<blockquote>kết quả rút ra là: chỉ cần giỏi tiếng là sẽ ok</blockquote>
