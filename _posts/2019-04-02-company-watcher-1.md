@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lịch sử và quà trình hình thành Co-well
-subtitle: Tản mạn kỳ #1
+subtitle: Tản mạn kỳ \#1
 ---
 
 Một cty có vốn của Nhật Âu Mỹ mua 1 cty VN có hơn 20 người: đổi tên thành Seta
