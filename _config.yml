@@ -1,0 +1,35 @@
+# Site settings
+title: Box XV
+image: img/home-bg.jpg
+logo: img/favicon.png
+email: tanvd357@gmail.com
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+author: "Tan Vu"
+url: "http://boxxv.com"
+twitter_username: vu_duc_tan
+github_username: boxxv
+facebook_username: TAn3685
+gaid: UA-XXXXX-X
+disqus_site_id: cleanblogjekyllgithubpages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jemoji
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+highlighter: rouge
+safe: false # safe need to be off for local preview
+lsi: false
+permalink: pretty
+paginate: 5
+exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md"]
+keep_files: []
