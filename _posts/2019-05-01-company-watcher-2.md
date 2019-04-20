@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tiki startup tỷ đô la từ nhà kho
-subtitle: Tản mạn kỳ \#2
+subtitle: Tản mạn kỳ №2
 ---
 
 From Wikipedia:
