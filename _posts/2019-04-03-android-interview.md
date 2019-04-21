@@ -54,6 +54,15 @@ if (!s.hasSystemFeature(Sensor.FEATURE_SENSOR_COMPASS)) {
 
 6. Mô tả ba trường hợp sử dụng phổ biến để sử dụng một `Intent`.
 
+7. Giả sử rằng bạn đang bắt đầu một service trong Activity như sau:
+```java
+Intent service = new Intent(context, MyService.class);
+startService(service);
+```
+nơi `MyService` truy cập là máy chủ từ xa thông qua kết nối Internet.
+
+Nếu Activity đang hiển thị một hình động cho biết một số loại tiến bộ, bạn có thể gặp phải vấn đề gì và làm thế nào bạn có thể giải quyết nó?
+
 -----
 ## Gợi ý trả lời
 
@@ -99,11 +108,22 @@ Tuy nhiên, nếu bạn chỉ muốn vô hiệu hóa các thành phần cụ th�
 
 Để tìm hiểu thêm về [khả năng tương thích và xử lý các loại thiết bị](https://developer.android.com/guide/practices/compatibility.html) hoặc [cảm biến](https://developer.android.com/guide/topics/sensors/sensors_overview.html) khác nhau, vui lòng tham khảo hướng dẫn dành cho nhà phát triển Android.
 
-6) Các trường hợp sử dụng phổ biến để sử dụng `Intent` bao gồm:
+6. Các trường hợp sử dụng phổ biến để sử dụng `Intent` bao gồm:
 
-- Để bắt đầu một activity: Bạn có thể bắt đầu một phiên bản mới của một Hoạt động bằng cách chuyển một phương thức Intent sang `startActivity()`.
-- Để bắt đầu một service: Bạn có thể bắt đầu một dịch vụ để thực hiện thao tác một lần (chẳng hạn như tải xuống một tệp) bằng cách chuyển một `Intent` đến `startService()`.
-- Để truyền broadcast: Bạn có thể truyền phát đến các ứng dụng khác bằng cách chuyển `Intent` đến `sendBroadcast()`, `sendOrderedBroadcast()` hoặc `sendStickyBroadcast()`.
+- Để bắt đầu một activity: Bạn có thể bắt đầu một phiên bản mới của một Activity bằng cách chuyển một phương thức Intent sang `startActivity()`.
+- Để bắt đầu một service: Bạn có thể bắt đầu một service để thực hiện thao tác một lần (chẳng hạn như tải xuống một tệp) bằng cách chuyển một `Intent` đến `startService()`.
+- Để truyền broadcast: Bạn có thể truyền broadcast các ứng dụng khác bằng cách chuyển `Intent` đến `sendBroadcast()`, `sendOrderedBroadcast()` hoặc `sendStickyBroadcast()`.
+
+7. Phản hồi từ dịch vụ từ xa qua Internet thường có thể mất một chút thời gian, do độ trễ của mạng hoặc tải trên máy chủ từ xa hoặc thời gian cần thiết để dịch vụ từ xa xử lý và đáp ứng yêu cầu.
+
+Kết quả là, nếu sự chậm trễ như vậy xảy ra, hình ảnh động trong hoạt động (và thậm chí tệ hơn, toàn bộ luồng UI) có thể bị chặn và có thể xuất hiện để người dùng bị đông lạnh trong khi khách hàng chờ phản hồi từ dịch vụ. Điều này là do dịch vụ được bắt đầu trên luồng ứng dụng chính (hoặc luồng UI) trong Hoạt động.
+
+Vấn đề có thể (và nên) tránh được bằng cách đưa bất kỳ yêu cầu từ xa nào vào luồng nền hoặc khi khả thi, sử dụng cơ chế phản hồi không đồng bộ.
+
+Lưu ý rõ: Truy cập mạng từ luồng UI sẽ ném ngoại lệ thời gian chạy trong các phiên bản Android mới hơn khiến ứng dụng bị sập.
+
+
+
 
 Thông tin thêm về [Intent](https://developer.android.com/guide/components/intents-filters.html) có thể được tìm thấy trong hướng dẫn của nhà phát triển Android.
 
