@@ -24,6 +24,10 @@ sendIntent.setType(HTTP.PLAIN_TEXT_TYPE); // "text/plain" MIME type
 startActivity(sendIntent);
 ```
 
+4. The last callback in the lifecycle of an activity is onDestroy(). The system calls this method on your activity as the final signal that your activity instance is being completely removed from the system memory. Usually, the system will call onPause() and onStop() before calling onDestroy(). Describe a scenario, though, where onPause() and onStop() would not be invoked.
+
+4. callback cuối cùng trong vòng đời của một activity là `onDestroy()`. Hệ thống gọi phương thức này trên hoạt động của bạn là tín hiệu cuối cùng cho thấy cá thể hoạt động của bạn đang bị xóa hoàn toàn khỏi bộ nhớ hệ thống. Thông thường, hệ thống sẽ gọi onPause () và onStop () trước khi gọi onDestroy (). Tuy nhiên, mô tả một kịch bản, trong đó onPause () và onStop () sẽ không được gọi.
+
 ## Gợi ý trả lời
 
 1) Bốn lớp Java liên quan đến việc sử dụng các cảm biến trên nền tảng Android là:
@@ -52,3 +56,5 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
+- [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb)
+- [ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-2-L4x5xkyglBM)
