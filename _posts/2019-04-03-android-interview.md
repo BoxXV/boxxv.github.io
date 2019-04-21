@@ -1,6 +1,9 @@
 ---
 layout: post
-title: 22+ Câu hỏi phỏng vấn Android
+title: 22+ Câu hỏi phỏng vấn Android và gợi ý trả lời
+subtitle: Vì một tương lai lương Android cao hơn iOS
 ---
 
-What is it with that Mary girl?  Dragging me to school every day. As if I had a choice.  What you don't hear in those nursery rhymes is that she starves me if I don't go to school with her; it's the only way I can stay alive!  I'm thinking about being adopted by Little Bo Peep, sure I may get lost, but anything is better than being with Mary and those little brats at school (shudder, shudder).
+1. Có bốn lớp Java liên quan đến việc sử dụng cảm biến trên nền tảng Android. Liệt kê và giải thích mục đích của mỗi lớp.
+
+2. 
