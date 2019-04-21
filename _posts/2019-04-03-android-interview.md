@@ -27,7 +27,30 @@ startActivity(sendIntent);
 4. Callback cuối cùng trong vòng đời của một activity là `onDestroy()`. Hệ thống gọi phương thức này trong activity của bạn là tín hiệu cuối cùng cho thấy activity của bạn đang bị xóa hoàn toàn khỏi bộ nhớ hệ thống. Thông thường, hệ thống sẽ gọi `onPause()` và `onStop()` trước khi gọi `onDestroy()`. Tuy nhiên, hãy mô tả một kịch bản, trong đó `onPause()` và `onStop()` sẽ không được gọi.
 
 5. Đoạn mã nào dưới đây là cách chính xác để kiểm tra xem có cảm biến La bàn trên hệ thống không? Giải thích câu trả lời của bạn.
-Answer 1:
+
+<ins>Câu trả lời 1:</ins>
+```java
+PackageManager m = getPackageManager();
+if (!m.hasSystemFeature(PackageManager.FEATURE_SENSOR_COMPASS)) {
+    // This device does not have a compass, turn off the compass feature
+}
+```
+
+<ins>Câu trả lời 2:</ins>
+```java
+SensorManager m = getSensorManager();
+if (!m.hasSystemFeature(SensorManager.FEATURE_SENSOR_COMPASS)) {
+    // This device does not have a compass, turn off the compass feature
+}
+```
+
+<ins>Câu trả lời 3:</ins>
+```java
+Sensor s = getSensor();
+if (!s.hasSystemFeature(Sensor.FEATURE_SENSOR_COMPASS)) {
+    // This device does not have a compass, turn off the compass feature
+}
+```
 
 -----
 ## Gợi ý trả lời
