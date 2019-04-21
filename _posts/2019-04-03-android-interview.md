@@ -15,6 +15,17 @@ modified: 2019-04-21
 
 2. ContentProvider là gì và nó thường được sử dụng để làm gì?
 
+3. Under what condition could the code sample below crash your application? How would you modify the code to avoid this potential problem? Explain your answer.
+
+3. Trong điều kiện nào code mẫu dưới đây có thể làm crash ứng dụng của bạn? Làm thế nào bạn sẽ sửa đổi mã để tránh vấn đề tiềm năng này? Giải thich câu trả lời của bạn.
+```java
+Intent sendIntent = new Intent();
+sendIntent.setAction(Intent.ACTION_SEND);
+sendIntent.putExtra(Intent.EXTRA_TEXT, textMessage);
+sendIntent.setType(HTTP.PLAIN_TEXT_TYPE); // "text/plain" MIME type
+startActivity(sendIntent);
+```
+
 ## Gợi ý trả lời
 
 1. Bốn lớp Java liên quan đến việc sử dụng các cảm biến trên nền tảng Android là:
@@ -25,7 +36,9 @@ modified: 2019-04-21
 
 Để tìm hiểu thêm về [Sensor](https://developer.android.com/guide/topics/sensors/sensors_overview.html), hãy tham khảo hướng dẫn dành cho nhà phát triển Android.
 
-2. 
+2. ContentProvider là một thành phần để quản lý truy cập dữ liệu. Nó đóng gói dữ liệu và cung cấp các cơ chế để xác định bảo mật dữ liệu. ContentProvider là interface chuẩn kết nối dữ liệu trong một quy trình với mã đang chạy trong quy trình khác.
+
+Thông tin thêm về các nhà ContentProvider có thể được tìm thấy [ở đây](https://developer.android.com/guide/topics/providers/content-providers.html) trong Hướng dẫn dành cho nhà phát triển Android.
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
