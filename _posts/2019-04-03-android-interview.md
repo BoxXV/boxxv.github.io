@@ -15,9 +15,7 @@ modified: 2019-04-21
 
 2. ContentProvider là gì và nó thường được sử dụng để làm gì?
 
-3. Under what condition could the code sample below crash your application? How would you modify the code to avoid this potential problem? Explain your answer.
-
-3. Trong điều kiện nào code mẫu dưới đây có thể làm crash ứng dụng của bạn? Làm thế nào bạn sẽ sửa đổi mã để tránh vấn đề tiềm năng này? Giải thich câu trả lời của bạn.
+3. Trong điều kiện nào code mẫu dưới đây có thể làm crash ứng dụng của bạn? Làm thế nào bạn sẽ sửa đổi mã để tránh vấn đề tiềm năng này? Giải thích câu trả lời của bạn.
 ```java
 Intent sendIntent = new Intent();
 sendIntent.setAction(Intent.ACTION_SEND);
@@ -39,6 +37,11 @@ startActivity(sendIntent);
 2. ContentProvider là một thành phần để quản lý truy cập dữ liệu. Nó đóng gói dữ liệu và cung cấp các cơ chế để xác định bảo mật dữ liệu. ContentProvider là interface chuẩn kết nối dữ liệu trong một quy trình với mã đang chạy trong quy trình khác.
 
 Thông tin thêm về các nhà ContentProvider có thể được tìm thấy [ở đây](https://developer.android.com/guide/topics/providers/content-providers.html) trong Hướng dẫn dành cho nhà phát triển Android.
+
+3. Mục đích ngầm định chỉ định một hành động có thể gọi bất kỳ ứng dụng nào trên thiết bị có thể thực hiện hành động. Sử dụng một ý định ngầm là hữu ích khi ứng dụng của bạn không thể thực hiện hành động, nhưng các ứng dụng khác có thể có thể. Nếu có nhiều ứng dụng được đăng ký có thể xử lý yêu cầu này, người dùng sẽ được nhắc chọn cái nào sẽ sử dụng.
+
+Tuy nhiên, có thể không có ứng dụng nào có thể xử lý ý định của bạn. Trong trường hợp này, ứng dụng của bạn sẽ gặp sự cố khi bạn gọi startActivity (). Để tránh điều này, trước khi gọi startActivity () trước tiên bạn nên xác minh rằng có ít nhất một ứng dụng được đăng ký trong hệ thống có thể xử lý ý định đó. Để thực hiện việc này, hãy sử dụng giải quyếtActivity () trên đối tượng mục đích của bạn:
+
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
