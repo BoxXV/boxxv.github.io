@@ -85,6 +85,18 @@ Mặc dù `onDestroy()` là callback cuối cùng trong vòng đời của một
 
 Xem hướng dẫn dành cho nhà phát triển Android để biết thêm [thông tin](https://developer.android.com/guide/components/activities/activity-lifecycle) về vòng đời activity.
 
+5) Câu trả lời đúng là Câu trả lời số 1, sử dụng PackageManager.
+
+`SensorManager` và `Sensor` là một phần của Android Sensor Framework và được sử dụng để truy cập trực tiếp và thu thập dữ liệu cảm biến thô. Các lớp này không cung cấp bất kỳ phương thức nào như `hasSystemFeature()` được sử dụng để đánh giá các khả năng của hệ thống.
+
+Android định nghĩa tính năng IDs, dưới dạng ENUM, cho bất kỳ tính năng phần cứng hoặc phần mềm nào có thể có trên thiết bị. Chẳng hạn, tính năng ID cho cảm biến la bàn là `FEATURE_SENSOR_COMPASS`.
+
+Nếu ứng dụng của bạn không thể hoạt động mà không có tính năng cụ thể có sẵn trên hệ thống, bạn có thể ngăn người dùng cài đặt ứng dụng của bạn với phần tử `<used-Feature>` trong tệp manifest của ứng dụng của bạn để chỉ định một phụ thuộc không thể thương lượng.
+
+Tuy nhiên, nếu bạn chỉ muốn vô hiệu hóa các thành phần cụ thể của ứng dụng của mình khi thiếu một tính năng, bạn có thể sử dụng lớp `PackageManager`. `PackageManager` được sử dụng để truy xuất các loại thông tin khác nhau liên quan đến các gói ứng dụng hiện đang được cài đặt trên thiết bị.
+
+Để tìm hiểu thêm về [khả năng tương thích và xử lý các loại thiết bị](https://developer.android.com/guide/practices/compatibility.html) hoặc [cảm biến](https://developer.android.com/guide/topics/sensors/sensors_overview.html) khác nhau, vui lòng tham khảo hướng dẫn dành cho nhà phát triển Android.
+
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
