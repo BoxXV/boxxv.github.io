@@ -19,7 +19,10 @@ modified: 2019-04-21
 ## Gợi ý trả lời
 
 1. Bốn lớp Java liên quan đến việc sử dụng các cảm biến trên nền tảng Android là:
-
+- Sensor: Cung cấp các phương pháp để xác định khả năng nào khả dụng cho một cảm biến cụ thể.
+- SensorManager: Cung cấp các phương pháp để đăng ký lắng nghe sự kiện cảm biến và hiệu chỉnh cảm biến.
+- SensorEvent: Cung cấp dữ liệu cảm biến thô (raw), bao gồm thông tin liên quan đến độ chính xác.
+- SensorEventListener: Interfacen định nghĩa phương thức gọi lại (callback) sẽ nhận thông báo sự kiện cảm biến.
 
 
 
