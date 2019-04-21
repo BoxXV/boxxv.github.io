@@ -11,11 +11,11 @@ tags:
 modified: 2019-04-21
 ---
 
-1. Có bốn lớp Java liên quan đến việc sử dụng cảm biến trên nền tảng Android. Liệt kê và giải thích mục đích của mỗi lớp.
+1) Có bốn lớp Java liên quan đến việc sử dụng cảm biến trên nền tảng Android. Liệt kê và giải thích mục đích của mỗi lớp.
 
-2. `ContentProvider` là gì và nó thường được sử dụng để làm gì?
+2) `ContentProvider` là gì và nó thường được sử dụng để làm gì?
 
-3. Trong điều kiện nào code mẫu dưới đây có thể làm crash ứng dụng của bạn? Làm thế nào bạn sẽ sửa đổi mã để tránh vấn đề tiềm năng này? Giải thích câu trả lời của bạn.
+3) Trong điều kiện nào code mẫu dưới đây có thể làm crash ứng dụng của bạn? Làm thế nào bạn sẽ sửa đổi mã để tránh vấn đề tiềm năng này? Giải thích câu trả lời của bạn.
 ```java
 Intent sendIntent = new Intent();
 sendIntent.setAction(Intent.ACTION_SEND);
@@ -24,9 +24,9 @@ sendIntent.setType(HTTP.PLAIN_TEXT_TYPE); // "text/plain" MIME type
 startActivity(sendIntent);
 ```
 
-4. Callback cuối cùng trong vòng đời của một activity là `onDestroy()`. Hệ thống gọi phương thức này trong activity của bạn là tín hiệu cuối cùng cho thấy activity của bạn đang bị xóa hoàn toàn khỏi bộ nhớ hệ thống. Thông thường, hệ thống sẽ gọi `onPause()` và `onStop()` trước khi gọi `onDestroy()`. Tuy nhiên, hãy mô tả một kịch bản, trong đó `onPause()` và `onStop()` sẽ không được gọi.
+4) Callback cuối cùng trong vòng đời của một activity là `onDestroy()`. Hệ thống gọi phương thức này trong activity của bạn là tín hiệu cuối cùng cho thấy activity của bạn đang bị xóa hoàn toàn khỏi bộ nhớ hệ thống. Thông thường, hệ thống sẽ gọi `onPause()` và `onStop()` trước khi gọi `onDestroy()`. Tuy nhiên, hãy mô tả một kịch bản, trong đó `onPause()` và `onStop()` sẽ không được gọi.
 
-5. Đoạn mã nào dưới đây là cách chính xác để kiểm tra xem có cảm biến La bàn trên hệ thống không? Giải thích câu trả lời của bạn.
+5) Đoạn mã nào dưới đây là cách chính xác để kiểm tra xem có cảm biến La bàn trên hệ thống không? Giải thích câu trả lời của bạn.
 
 <ins>Câu trả lời 1:</ins>
 ```java
@@ -52,9 +52,9 @@ if (!s.hasSystemFeature(Sensor.FEATURE_SENSOR_COMPASS)) {
 }
 ```
 
-6. Mô tả ba trường hợp sử dụng phổ biến để sử dụng một `Intent`.
+6) Mô tả ba trường hợp sử dụng phổ biến để sử dụng một `Intent`.
 
-7. Giả sử rằng bạn đang bắt đầu một service trong Activity như sau:
+7) Giả sử rằng bạn đang bắt đầu một service trong Activity như sau:
 ```java
 Intent service = new Intent(context, MyService.class);
 startService(service);
@@ -108,13 +108,13 @@ Tuy nhiên, nếu bạn chỉ muốn vô hiệu hóa các thành phần cụ th�
 
 Để tìm hiểu thêm về [khả năng tương thích và xử lý các loại thiết bị](https://developer.android.com/guide/practices/compatibility.html) hoặc [cảm biến](https://developer.android.com/guide/topics/sensors/sensors_overview.html) khác nhau, vui lòng tham khảo hướng dẫn dành cho nhà phát triển Android.
 
-6. Các trường hợp sử dụng phổ biến để sử dụng `Intent` bao gồm:
+6) Các trường hợp sử dụng phổ biến để sử dụng `Intent` bao gồm:
 
 - Để bắt đầu một activity: Bạn có thể bắt đầu một phiên bản mới của một Activity bằng cách chuyển một phương thức Intent sang `startActivity()`.
 - Để bắt đầu một service: Bạn có thể bắt đầu một service để thực hiện thao tác một lần (chẳng hạn như tải xuống một tệp) bằng cách chuyển một `Intent` đến `startService()`.
 - Để truyền broadcast: Bạn có thể truyền broadcast các ứng dụng khác bằng cách chuyển `Intent` đến `sendBroadcast()`, `sendOrderedBroadcast()` hoặc `sendStickyBroadcast()`.
 
-7. Phản hồi từ dịch vụ từ xa qua Internet thường có thể mất một chút thời gian, do độ trễ của mạng hoặc tải trên máy chủ từ xa hoặc thời gian cần thiết để dịch vụ từ xa xử lý và đáp ứng yêu cầu.
+7) Phản hồi từ dịch vụ từ xa qua Internet thường có thể mất một chút thời gian, do độ trễ của mạng hoặc tải trên máy chủ từ xa hoặc thời gian cần thiết để dịch vụ từ xa xử lý và đáp ứng yêu cầu.
 
 Kết quả là, nếu sự chậm trễ như vậy xảy ra, hình ảnh động trong hoạt động (và thậm chí tệ hơn, toàn bộ luồng UI) có thể bị chặn và có thể xuất hiện để người dùng bị đông lạnh trong khi khách hàng chờ phản hồi từ dịch vụ. Điều này là do dịch vụ được bắt đầu trên luồng ứng dụng chính (hoặc luồng UI) trong Hoạt động.
 
