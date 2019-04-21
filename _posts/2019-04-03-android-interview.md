@@ -26,7 +26,7 @@ startActivity(sendIntent);
 
 4. The last callback in the lifecycle of an activity is onDestroy(). The system calls this method on your activity as the final signal that your activity instance is being completely removed from the system memory. Usually, the system will call onPause() and onStop() before calling onDestroy(). Describe a scenario, though, where onPause() and onStop() would not be invoked.
 
-4. callback cuối cùng trong vòng đời của một activity là `onDestroy()`. Hệ thống gọi phương thức này trên hoạt động của bạn là tín hiệu cuối cùng cho thấy cá thể hoạt động của bạn đang bị xóa hoàn toàn khỏi bộ nhớ hệ thống. Thông thường, hệ thống sẽ gọi onPause () và onStop () trước khi gọi onDestroy (). Tuy nhiên, mô tả một kịch bản, trong đó onPause () và onStop () sẽ không được gọi.
+4. Callback cuối cùng trong vòng đời của một activity là `onDestroy()`. Hệ thống gọi phương thức này trong activity của bạn là tín hiệu cuối cùng cho thấy activity của bạn đang bị xóa hoàn toàn khỏi bộ nhớ hệ thống. Thông thường, hệ thống sẽ gọi `onPause()` và `onStop()` trước khi gọi `onDestroy()`. Tuy nhiên, hãy mô tả một kịch bản, trong đó `onPause()` và `onStop()` sẽ không được gọi.
 
 ## Gợi ý trả lời
 
@@ -53,6 +53,13 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
     startActivity(sendIntent);
 }
 ```
+
+4) `onPause()` và `onStop()` sẽ không được gọi nếu `finish()` được gọi từ bên trong phương thức `onCreate()`. Điều này có thể xảy ra, ví dụ, nếu bạn phát hiện ra lỗi trong khi `onCreate()` và gọi `finish()`. Tuy nhiên, trong trường hợp như vậy, mọi thao tác dọn dẹp mà bạn dự kiến sẽ được thực hiện trong `onPause()` và `onStop()` sẽ không được thực thi.
+
+Mặc dù `onDestroy()` là callback cuối cùng trong vòng đời của một activity, điều đáng nói là callback này có thể không luôn luôn được gọi và không nên dựa vào để giải phóng tài nguyên. Tốt hơn là có các tài nguyên được tạo trong `onStart()` và `onResume()` và giải phóng chúng tương ứng trong `onStop()` và `onPause()`.
+
+Xem hướng dẫn dành cho nhà phát triển Android để biết thêm [thông tin](https://developer.android.com/guide/components/activities/activity-lifecycle) về vòng đời activity.
+
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
