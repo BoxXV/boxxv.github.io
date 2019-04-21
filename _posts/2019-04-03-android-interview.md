@@ -52,6 +52,8 @@ if (!s.hasSystemFeature(Sensor.FEATURE_SENSOR_COMPASS)) {
 }
 ```
 
+6. Mô tả ba trường hợp sử dụng phổ biến để sử dụng một `Intent`.
+
 -----
 ## Gợi ý trả lời
 
@@ -96,6 +98,14 @@ Nếu ứng dụng của bạn không thể hoạt động mà không có tính 
 Tuy nhiên, nếu bạn chỉ muốn vô hiệu hóa các thành phần cụ thể của ứng dụng của mình khi thiếu một tính năng, bạn có thể sử dụng lớp `PackageManager`. `PackageManager` được sử dụng để truy xuất các loại thông tin khác nhau liên quan đến các gói ứng dụng hiện đang được cài đặt trên thiết bị.
 
 Để tìm hiểu thêm về [khả năng tương thích và xử lý các loại thiết bị](https://developer.android.com/guide/practices/compatibility.html) hoặc [cảm biến](https://developer.android.com/guide/topics/sensors/sensors_overview.html) khác nhau, vui lòng tham khảo hướng dẫn dành cho nhà phát triển Android.
+
+6) Các trường hợp sử dụng phổ biến để sử dụng `Intent` bao gồm:
+
+- Để bắt đầu một activity: Bạn có thể bắt đầu một phiên bản mới của một Hoạt động bằng cách chuyển một phương thức Intent sang `startActivity()`.
+- Để bắt đầu một service: Bạn có thể bắt đầu một dịch vụ để thực hiện thao tác một lần (chẳng hạn như tải xuống một tệp) bằng cách chuyển một `Intent` đến `startService()`.
+- Để truyền broadcast: Bạn có thể truyền phát đến các ứng dụng khác bằng cách chuyển `Intent` đến `sendBroadcast()`, `sendOrderedBroadcast()` hoặc `sendStickyBroadcast()`.
+
+Thông tin thêm về [Intent](https://developer.android.com/guide/components/intents-filters.html) có thể được tìm thấy trong hướng dẫn của nhà phát triển Android.
 
 
 Tham khảo:
