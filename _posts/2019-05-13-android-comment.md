@@ -77,3 +77,4 @@ Chú thích pháp lý giúp người khác biết mã nguồn đến từ đâu 
 Tham khảo:
 - [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html)
 - [How to write comment (from Clean code book)](https://viblo.asia/p/how-to-write-comment-from-clean-code-book-1VgZv3nYlAw)
+- [Source Code Comment Styling: Tips and Best Practices](https://www.hongkiat.com/blog/source-code-comment-styling-tips/)
