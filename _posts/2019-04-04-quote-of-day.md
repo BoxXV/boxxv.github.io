@@ -7,11 +7,11 @@ tags: [books, shakespeare, test]
 
 >Một ngày mà không học được cái gì thì đừng đi ngủ.
 
-_TS Lê Thẩm Dương_
+<em>_TS Lê Thẩm Dương_</em>
 
 
 >Cuộc sống khó hơn bạn nghĩ nhưng nó không khó nếu như bạn tư duy
-_TS Lê Thẩm Dương_
+<em>_TS Lê Thẩm Dương_</em>
 
 
 > Nếu bạn ghen tị với những người thành công, bạn tạo ra một trường lực lượng tiêu cực đẩy bạn khỏi những điều bạn cần làm để thành công. Nếu bạn khâm phục những người thành công, bạn tạo ra một trường lực lượng tích cực hấp dẫn bạn trở nên ngày càng giống những người bạn muốn giống.
