@@ -3,7 +3,7 @@ layout:     post
 title:      "A post with some code samples"
 subtitle:   "Let me show you my awesome codes"
 description: "Let me show you my awesome codes"
-date:       2015-08-23 12:00:00
+date:       2017-08-23 12:00:00
 author:     "Thanh Tran"
 image: "img/home-bg.jpg"
 ---
