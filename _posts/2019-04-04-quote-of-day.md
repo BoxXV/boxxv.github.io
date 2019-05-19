@@ -9,6 +9,7 @@ tags: [books, shakespeare, test]
 
 <em>\_TS Lê Thẩm Dương\_</em>
 
+<em>italicized</em> rather than Markdown _italicized_ or *italicized*
 
 >Cuộc sống khó hơn bạn nghĩ nhưng nó không khó nếu như bạn tư duy
 
