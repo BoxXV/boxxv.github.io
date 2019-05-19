@@ -12,7 +12,7 @@ tags: [books, shakespeare, test]
 
 >Cuộc sống khó hơn bạn nghĩ nhưng nó không khó nếu như bạn tư duy
 
-<em>\_TS Lê Thẩm Dương\_</em>
+_\_TS Lê Thẩm Dương\__
 
 
 > Nếu bạn ghen tị với những người thành công, bạn tạo ra một trường lực lượng tiêu cực đẩy bạn khỏi những điều bạn cần làm để thành công. Nếu bạn khâm phục những người thành công, bạn tạo ra một trường lực lượng tích cực hấp dẫn bạn trở nên ngày càng giống những người bạn muốn giống.
