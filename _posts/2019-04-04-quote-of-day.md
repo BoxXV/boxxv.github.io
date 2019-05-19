@@ -30,12 +30,14 @@ There is little difference in people, but that little difference makes a big dif
 
 
 >Nếu chơi đúng luật thì không gì phải sợ
+
 <em>\- Phan Quân \-</em>
 
 
 > Tiền dùng đúng, tiền hiền như Phật.
 > Bạc dùng sai, bạc ác hơn ma.
 
+## Bước vào xã hội, bạn đã hiểu được đạo lý nào?
 1. Thoát nghèo quan trọng hơn thoát ế.
 2. Xinh đẹp thật sự rất có lợi.
 
