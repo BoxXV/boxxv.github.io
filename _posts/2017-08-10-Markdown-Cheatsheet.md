@@ -9,7 +9,7 @@ tags:
 - Markdown
 - Cheatsheet
 - Process
-modified: 2015-09-08T10:43:30+07:00
+modified: 2017-08-08T10:43:30+07:00
 ---
 ![Tag Cloud]({{ site.baseurl }}/img/front-end-baseline.png "Tag Cloud được tạo bằng Wordle.net")_Tag Cloud được tạo bằng Wordle.net_
 
