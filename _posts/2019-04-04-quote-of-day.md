@@ -7,31 +7,30 @@ tags: [books, shakespeare, test]
 
 >Một ngày mà không học được cái gì thì đừng đi ngủ.
 
-<em>\_TS Lê Thẩm Dương\_</em>
+<em>\- TS Lê Thẩm Dương \-</em>
 
-<em>italicized</em> rather than Markdown _italicized_ or *italicized*
 
 >Cuộc sống khó hơn bạn nghĩ nhưng nó không khó nếu như bạn tư duy
 
-_\_TS Lê Thẩm Dương\__
+<em>\- TS Lê Thẩm Dương \-</em>
 
 
 > Nếu bạn ghen tị với những người thành công, bạn tạo ra một trường lực lượng tiêu cực đẩy bạn khỏi những điều bạn cần làm để thành công. Nếu bạn khâm phục những người thành công, bạn tạo ra một trường lực lượng tích cực hấp dẫn bạn trở nên ngày càng giống những người bạn muốn giống.
 
 If you envy successful people, you create a negative force field of attraction that repels you from ever doing the things that you need to do to be successful. If you admire successful people, you create a positive force field of attraction that draws you toward becoming more and more like the kinds of people that you want to be like.
 
-_Brian Tracy_
+<em>\- Brian Tracy \-</em>
 
 
 > Có một sự khác biệt nhỏ giữa người và người, nhưng khác biệt nhỏ ấy tạo ra khác biệt lớn. Khác biệt nhỏ là thái độ. Khác biệt lớn là việc nó tích cực hay tiêu cực.
 
 There is little difference in people, but that little difference makes a big difference. The little difference is attitude. The big difference is whether it is positive or negative.
 
-- Aristotle -
+<em>\- Aristotle \-</em>
 
 
-Nếu chơi đúng luật thì không gì phải sợ
-- Phan Quân -
+>Nếu chơi đúng luật thì không gì phải sợ
+<em>\- Phan Quân \-</em>
 
 
 > Tiền dùng đúng, tiền hiền như Phật.
@@ -85,7 +84,7 @@ Nếu chơi đúng luật thì không gì phải sợ
 34. Nếu bạn sợ làm một việc nào đó, thế thì hãy làm nó đi!
 35 Người đọc sách nhiều thực sự khí chất rất khác.
 36. Mọi mối quan hệ trở nên nhạt nhẽo là vì một người không nói, người kia không hỏi. Hoặc là một người hỏi qua loa, người kia trả lời cho có.
-- Lê Thẩm Dương -
+<em>\- Lê Thẩm Dương \-</em>
 
 
 ## 5 CÂU NÓI GIÚP NÂNG TẦM GIAO TIẾP TRỞ THÀNH" NGHỆ THUẬT"
@@ -105,7 +104,7 @@ Im ru mà nhiều..."
 
 5. Nói là một lọai năng lực, còn im lặng là đỉnh cao của trí tuệ.
 
--St-
+<em>\- St \-</em>
 
 ## CÂU NÓI NÀO THỨC TỈNH BẠN ?
 1. Tốc độ thành công của bạn nhất định phải vượt qua tốc độ già đi của bố mẹ.
@@ -139,5 +138,5 @@ Im ru mà nhiều..."
 29. Nếu bạn muốn làm những gì mình thích, họp lớp 5 năm sau, bạn không nên đi. Vì lúc đó đang là thời khắc khó khăn nhất của bạn, trong khi những người khác đang an phận ở những công ty khá khẩm. Họp lớp 10 năm sau bạn cũng không nên đi. Nhưng họp lớp 20 năm sau, bạn có thể đi. Bạn sẽ nhận ra được số mệnh khác biệt to lớn của những người kiên cường theo đuổi giấc mơ và những người ngoan ngoãn nghe sự sắp đặt của người khác.
 30. Dậy đi học đi con, con quên lúc bé đã hứa sẽ mua biệt thự cho bố mẹ rồi sao?
 31. Dần dần tôi hiểu ra rằng, ý nghĩa một đời người, thực ra chỉ đơn giản là từng ngày từng ngày một, bạn không ngừng dõi mắt theo bóng lưng khuất dần của bố mẹ. Bạn đứng ở đầu này con đường, còn bố mẹ đang dần mất hút phía xa xăm, bạn chỉ biết buồn bã dõi mắt theo, còn họ dùng bóng lưng đó như dịu dàng thầm nhủ: “Đừng tiễn nữa, về đi con.”
--St-
 
+<em>\- St \-</em>
