@@ -37,6 +37,8 @@ There is little difference in people, but that little difference makes a big dif
 > Tiền dùng đúng, tiền hiền như Phật.
 > Bạc dùng sai, bạc ác hơn ma.
 
+<em>\- Khuyết danh \-</em>
+
 ## Bước vào xã hội, bạn đã hiểu được đạo lý nào?
 1. Thoát nghèo quan trọng hơn thoát ế.
 2. Xinh đẹp thật sự rất có lợi.
