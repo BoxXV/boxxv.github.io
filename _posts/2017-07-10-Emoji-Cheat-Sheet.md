@@ -28,8 +28,8 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 
 ### People
 
-|   | ico | emoji | ico | emoji |
-| - | --- | ----- | --- | ----- |
+| ico | emoji | ico | emoji |
+| --- | ----- | --- | ----- |
 | :bowtie: | `:bowtie:` | :smile: | `:smile:` |
 | :laughing: | `:laughing:` | :blush: | `:blush:` |
 | :smiley: | `:smiley:` | :relaxed: | `:relaxed:` |
@@ -129,8 +129,8 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 
 ### Nature
 
-|   | ico | emoji | ico | emoji |
-| - | --- | ----- | --- | ----- |
+| ico | emoji | ico | emoji |
+| --- | ----- | --- | ----- |
 | :sunny: | `:sunny:` | :umbrella: | `:umbrella:` |
 | :cloud: | `:cloud:` | :snowflake: | `:snowflake:` |
 | :snowman: | `:snowman:` | :zap: | `:zap:` |
@@ -192,8 +192,8 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 
 ### Objects
 
-|   | ico | emoji | ico | emoji |
-| - | --- | ----- | --- | ----- |
+| ico | emoji | ico | emoji |
+| --- | ----- | --- | ----- |
 | :bamboo: | `:bamboo:` | :gift_heart: | `:gift_heart:` |
 | :dolls: | `:dolls:` | :school_satchel: | `:school_satchel:` |
 | :mortar_board: | `:mortar_board:` | :flags: | `:flags:` |
@@ -327,8 +327,8 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 
 ### Places
 
-|   | ico | emoji | ico | emoji |
-| - | --- | ----- | --- | ----- |
+| ico | emoji | ico | emoji |
+| --- | ----- | --- | ----- |
 | :house: | `:house:` | :house_with_garden: | `:house_with_garden:` |
 | :school: | `:school:` | :office: | `:office:` |
 | :post_office: | `:post_office:` | :hospital: | `:hospital:` |
@@ -385,8 +385,8 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 
 ### Symbols
 
-|   | ico | emoji | ico | emoji |
-| - | --- | ----- | --- | ----- |
+| ico | emoji | ico | emoji |
+| --- | ----- | --- | ----- |
 | :one: | `:one:` | :two: | `:two:` |
 | :three: | `:three:` | :four: | `:four:` |
 | :five: | `:five:` | :six: | `:six:` |
@@ -491,8 +491,8 @@ This cheat sheet is automatically generated from [GitHub Emoji API](https://api.
 
 ### Uncategorized
 
-|   | ico | emoji | ico | emoji |
-| - | --- | ----- | --- | ----- |
+| ico | emoji | ico | emoji |
+| --- | ----- | --- | ----- |
 | :1st_place_medal: | `:1st_place_medal:` | :2nd_place_medal: | `:2nd_place_medal:` |
 | :3rd_place_medal: | `:3rd_place_medal:` | :afghanistan: | `:afghanistan:` |
 | :aland_islands: | `:aland_islands:` | :albania: | `:albania:` |
