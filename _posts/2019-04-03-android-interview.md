@@ -131,4 +131,5 @@ Thông tin thêm về [Intent](https://developer.android.com/guide/components/in
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
 - [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb)
-- [ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-2-L4x5xkyglBM)
+- [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-2-L4x5xkyglBM)
+- [Top 22 câu hỏi thường gặp khi phỏng vấn xin việc (Mọi ngành)](https://timviec365.vn/cau-hoi-tuyen-dung)
