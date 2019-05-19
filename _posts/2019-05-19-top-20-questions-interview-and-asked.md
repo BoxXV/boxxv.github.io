@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Top 20 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo - Mọi ngành
+title: Top 20 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo Mọi ngành
 subtitle: Vì một tương lai rạng ngời
 date: "2019-05-19"
 tags:
 - Interview
 - Questions
 - Answers
-- Perfect Answers
+- Perfect
 modified: 2019-05-20
 ---
 
