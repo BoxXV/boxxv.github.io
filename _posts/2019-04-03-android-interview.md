@@ -217,7 +217,18 @@ Thông tin thêm về các chế độ khởi chạy có sẵn ở [đây](https
 
 `IntentService` là một lớp con của Dịch vụ xử lý các yêu cầu không đồng bộ (được thể hiện dưới dạng “Intents”) theo yêu cầu. Khách hàng gửi yêu cầu thông qua các cuộc gọi `startService(Intent)`). Dịch vụ được bắt đầu khi cần thiết, lần lượt xử lý từng `Intent` bằng cách sử dụng một worker thread và tự dừng khi xong việc. Viết một `IntentService` có thể khá đơn giản; chỉ cần mở rộng lớp `IntentService` và ghi đè phương thức `onHandleIntent(Intent intent)` nơi bạn có thể quản lý tất cả các yêu cầu đến.
 
+#### 16) Các đối số xây dựng cho một `Fragment` được truyền qua Bundle bằng phương thức `Fragment#setArgument(Bundle)`. `Bundle` được truyền vào sau đó có thể được truy xuất thông qua phương thức `Fragment#getArguments()` trong phương thức vòng đời Fragment thích hợp.
 
+Đó là một lỗi phổ biến để truyền dữ liệu thông qua một hàm tạo tùy chỉnh. Các hàm tạo không mặc định trên Fragment không được khuyến khích vì Fragment có thể bị hủy và được tạo lại do thay đổi cấu hình (ví dụ: thay đổi hướng). Sử dụng `#setArguments()` / `getArguments()` đảm bảo rằng khi Fragment cần được tạo lại, `Bundle` sẽ được tuần tự hóa / giải tuần tự một cách thích hợp để dữ liệu xây dựng được phục hồi.
+
+
+#### 17)
+
+#### 18)
+
+#### 19)
+
+#### 20)
 
 
 
