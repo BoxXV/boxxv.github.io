@@ -71,6 +71,7 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 10) Mối quan hệ giữa vòng đời của `AsyncTask` và `Activity` là gì? Những vấn đề này có thể dẫn đến? Làm thế nào những vấn đề này có thể tránh được?
 
+11) `Intent` là gì? Nó có thể được sử dụng để cung cấp dữ liệu cho một `ContentProvider`? Tại sao hoặc tại sao không?
 
 
 
@@ -154,13 +155,16 @@ Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/compo
 #### 10) `AsyncTask` không được gắn với vòng đời của `Activity` có chứa nó.
 Vì vậy, ví dụ, nếu bạn khởi động AsyncTask bên trong một Activity và người dùng xoay thiết bị, Activity sẽ bị hủy (và một phiên bản Activity mới sẽ được tạo) nhưng AsyncTask sẽ không chết mà thay vào đó tiếp tục tồn tại cho đến khi hoàn thành.
 
-Sau đó, khi AsyncTask hoàn thành, thay vì cập nhật giao diện người dùng của Activity mới, nó sẽ cập nhật phiên bản cũ của Activity (nghĩa là, trong đó nó đã được tạo nhưng nó không được hiển thị nữa!). Điều này có thể dẫn đến `Exception` (thuộc loại java.lang.IllegalArgumentException: Chế độ xem không được đính kèm với trình quản lý cửa sổ nếu bạn sử dụng, ví dụ, findViewById để truy xuất chế độ xem bên trong Activity).
+Sau đó, khi AsyncTask hoàn thành, thay vì cập nhật giao diện người dùng của Activity mới, nó sẽ cập nhật phiên bản cũ của Activity (nghĩa là, trong đó nó đã được tạo nhưng nó không được hiển thị nữa!). Điều này có thể dẫn đến `Exception` (thuộc loại `java.lang.IllegalArgumentException`: Chế độ xem không được đính kèm với trình quản lý cửa sổ nếu bạn sử dụng, ví dụ, `findViewById` để truy xuất chế độ xem bên trong Activity).
 
 Ngoài ra, còn có khả năng điều này dẫn đến leak memory do AsyncTask duy trì tham chiếu đến Activty, điều này ngăn Activity giair phóng bộ nhớ khi mà AsyncTask vẫn còn tồn tại.
 
 Vì những lý do này, sử dụng AsyncTask cho các tác vụ nền chạy dài thường là một ý tưởng tồi. Thay vào đó, đối với các tác vụ nền chạy dài, nên sử dụng một cơ chế khác (như service).
 
+#### 11) Đối tượng `Intent` là một cơ chế chung để bắt đầu activity mới và chuyển dữ liệu từ activity này sang activity khác.
+Tuy nhiên, bạn không thể khởi động `ContentProvider` bằng `Intent`.
 
+Khi bạn muốn truy cập dữ liệu trong `ContentProvider`, thay vào đó, bạn phải sử dụng đối tượng `ContentResolver` trong ứng dụng của bạn `Context` để liên lạc với nhà cung cấp với tư cách là client. Đối tượng `ContentResolver` giao tiếp với đối tượng nhà cung cấp, một thể hiện của lớp thực hiện `ContentProvider`. Đối tượng nhà cung cấp nhận các yêu cầu dữ liệu từ khách hàng, thực hiện hành động được yêu cầu và trả về kết quả.
 
 
 Tham khảo:
