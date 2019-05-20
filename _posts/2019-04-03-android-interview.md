@@ -69,6 +69,13 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 9) DDMS là gì? Mô tả một số khả năng của nó.
 
+10) Mối quan hệ giữa vòng đời của `AsyncTask` và `Activity` là gì? Những vấn đề này có thể dẫn đến? Làm thế nào những vấn đề này có thể tránh được?
+
+
+
+
+
+
 -----
 ## Gợi ý trả lời
 
@@ -124,13 +131,14 @@ Thông tin thêm về [Intent](https://developer.android.com/guide/components/in
 
 #### 7) Phản hồi từ dịch vụ từ xa qua Internet thường có thể mất một chút thời gian, do độ trễ của mạng hoặc tải trên máy chủ từ xa hoặc thời gian cần thiết để dịch vụ từ xa xử lý và đáp ứng yêu cầu.
 
-Kết quả là, nếu sự chậm trễ như vậy xảy ra, hình ảnh động trong hoạt động (và thậm chí tệ hơn, toàn bộ luồng UI) có thể bị chặn và có thể xuất hiện để người dùng bị đông lạnh trong khi khách hàng chờ phản hồi từ dịch vụ. Điều này là do dịch vụ được bắt đầu trên luồng ứng dụng chính (hoặc luồng UI) trong Hoạt động.
+Kết quả là, nếu sự chậm trễ như vậy xảy ra, hình ảnh động trong hoạt động (và thậm chí tệ hơn, toàn bộ luồng UI) có thể bị chặn và có thể xuất hiện để người dùng bị đông lạnh trong khi khách hàng chờ phản hồi từ dịch vụ. Điều này là do dịch vụ được bắt đầu trên luồng ứng dụng chính (hoặc luồng UI) trong Activity.
 
 Vấn đề có thể (và nên) tránh được bằng cách đưa bất kỳ yêu cầu từ xa nào vào luồng nền hoặc khi khả thi, sử dụng cơ chế phản hồi không đồng bộ.
 
 Lưu ý rõ: Truy cập mạng từ luồng UI sẽ ném ngoại lệ thời gian chạy trong các phiên bản Android mới hơn khiến ứng dụng bị sập.
 
-#### 8) Bạn nên xác minh rằng nó có id hợp lệ. Để hệ thống Android khôi phục trạng thái của các chế độ xem trong activity của bạn, mỗi chế độ xem phải có một ID duy nhất, được cung cấp bởi thuộc tính android: id.
+#### 8)
+Bạn nên xác minh rằng nó có `id` hợp lệ. Để hệ thống Android khôi phục trạng thái của các chế độ xem trong activity của bạn, mỗi chế độ xem phải có một ID duy nhất, được cung cấp bởi thuộc tính `android:id`.
 
 Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/components/activities/activity-lifecycle).
 
@@ -143,8 +151,14 @@ Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/compo
 - mô phỏng trạng thái mạng, tốc độ và độ trễ
 - giả mạo dữ liệu vị trí
 
+#### 10) `AsyncTask` không được gắn với vòng đời của `Activity` có chứa nó.
+Vì vậy, ví dụ, nếu bạn khởi động AsyncTask bên trong một Activity và người dùng xoay thiết bị, Activity sẽ bị hủy (và một phiên bản Activity mới sẽ được tạo) nhưng AsyncTask sẽ không chết mà thay vào đó tiếp tục tồn tại cho đến khi hoàn thành.
 
+Sau đó, khi AsyncTask hoàn thành, thay vì cập nhật giao diện người dùng của Activity mới, nó sẽ cập nhật phiên bản cũ của Activity (nghĩa là, trong đó nó đã được tạo nhưng nó không được hiển thị nữa!). Điều này có thể dẫn đến `Exception` (thuộc loại java.lang.IllegalArgumentException: Chế độ xem không được đính kèm với trình quản lý cửa sổ nếu bạn sử dụng, ví dụ, findViewById để truy xuất chế độ xem bên trong Activity).
 
+Ngoài ra, còn có khả năng điều này dẫn đến leak memory do AsyncTask duy trì tham chiếu đến Activty, điều này ngăn Activity giair phóng bộ nhớ khi mà AsyncTask vẫn còn tồn tại.
+
+Vì những lý do này, sử dụng AsyncTask cho các tác vụ nền chạy dài thường là một ý tưởng tồi. Thay vào đó, đối với các tác vụ nền chạy dài, nên sử dụng một cơ chế khác (như service).
 
 
 
