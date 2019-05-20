@@ -73,6 +73,7 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 11) `Intent` là gì? Nó có thể được sử dụng để cung cấp dữ liệu cho một `ContentProvider`? Tại sao hoặc tại sao không?
 
+12) Sự khác biệt giữa fragment và một activity là gì? Giải thích mối quan hệ giữa cả hai.
 
 
 
@@ -165,6 +166,21 @@ Vì những lý do này, sử dụng AsyncTask cho các tác vụ nền chạy d
 Tuy nhiên, bạn không thể khởi động `ContentProvider` bằng `Intent`.
 
 Khi bạn muốn truy cập dữ liệu trong `ContentProvider`, thay vào đó, bạn phải sử dụng đối tượng `ContentResolver` trong ứng dụng của bạn `Context` để liên lạc với nhà cung cấp với tư cách là client. Đối tượng `ContentResolver` giao tiếp với đối tượng nhà cung cấp, một thể hiện của lớp thực hiện `ContentProvider`. Đối tượng nhà cung cấp nhận các yêu cầu dữ liệu từ khách hàng, thực hiện hành động được yêu cầu và trả về kết quả.
+
+#### 12) Một [activity](https://developer.android.com/reference/android/app/Activity.html) thường là một hoạt động tập trung duy nhất mà người dùng có thể thực hiện (như quay số, chụp ảnh, gửi email, xem bản đồ, v.v.).
+Tuy nhiên, đồng thời, không có gì ngăn cản nhà phát triển tạo ra một activity phức tạp tùy ý.
+
+Việc triển khai activity có thể tùy ý sử dụng lớp [Fragment](https://developer.android.com/reference/android/app/Fragment.html) cho các mục đích lập trình theo mô-đun hơn, xây dựng giao diện người dùng tinh vi hơn cho màn hình lớn hơn, giúp mở rộng các ứng dụng giữa màn hình nhỏ và lớn, v.v. Nhiều fragments có thể được kết hợp trong một activity và ngược lại, cùng một đoạn thường có thể được sử dụng lại qua nhiều activity. Cấu trúc này chủ yếu nhằm thúc đẩy tái sử dụng mã và tạo điều kiện cho việc mở rộng tính năng.
+
+Một fragment thực chất là một phần mô-đun của một activity, với vòng đời và các sự kiện đầu vào của chính nó, và có thể được thêm hoặc xóa theo ý muốn. Tuy nhiên, điều quan trọng cần nhớ là vòng đời của fragment bị ảnh hưởng trực tiếp bởi vòng đời activity chủ của nó; tức là, khi activity bị tạm dừng, tất cả các fragment trong đó và khi activity bị phá hủy, thì tất cả các fragment của nó cũng vậy.
+
+Thông tin thêm có sẵn ở [đây](https://developer.android.com/guide/components/fragments.html) trong Hướng dẫn dành cho nhà phát triển Android.
+
+
+
+
+
+
 
 
 Tham khảo:
