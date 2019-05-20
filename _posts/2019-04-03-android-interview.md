@@ -81,6 +81,15 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 15) Sự khác biệt giữa `Service` và `IntentService` là gì? Mỗi loại được sử dụng như thế nào?
 
+16) Làm thế nào để bạn cung cấp các đối số xây dựng vào một Fragment?
+
+17) ANR là gì và tại sao nó lại xảy ra?
+
+18) Phương pháp nào chỉ được gọi là một lần trong một vòng đời của fragment?
+
+19) Trong lập trình Android có thể tạo activity mà không có giao diện người dùng không?
+
+20) Nhận broadcast là gì?
 
 -----
 ## Gợi ý trả lời
