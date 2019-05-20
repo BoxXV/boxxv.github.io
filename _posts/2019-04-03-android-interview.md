@@ -79,6 +79,7 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 14) Thế nào là "“launch modes"? Hai cơ chế mà theo đó chúng có thể được định nghĩa là gì? Loại chế độ khởi chạy cụ thể nào được hỗ trợ?
 
+15) Sự khác biệt giữa `Service` và `IntentService` là gì? Mỗi loại được sử dụng như thế nào?
 
 
 -----
@@ -185,8 +186,7 @@ Serializable là một interface Java tiêu chuẩn. Bạn chỉ cần đánh d�
 Parcelable là một giao diện cụ thể của Android nơi bạn tự thực hiện việc tuần tự hóa. Nó được tạo ra để hiệu quả hơn nhiều so với Serializable và để giải quyết một số vấn đề với sơ đồ Serializable Java mặc định.
 
 
-#### 14) Một chế độ “ra mắt” là cách thức mà một thể hiện mới của một activity là có liên quan đến nhiệm vụ hiện tại.
-
+#### 14) Một “launch mode” là cách thức mà một thể hiện mới của một activity là có liên quan đến nhiệm vụ hiện tại.
 
 Các chế độ khởi chạy có thể được xác định bằng một trong hai cơ chế:
 
@@ -203,7 +203,10 @@ Các chế độ khởi chạy có thể được xác định bằng một tron
 
 Thông tin thêm về các chế độ khởi chạy có sẵn ở [đây](https://developer.android.com/guide/components/activities/tasks-and-back-stack#TaskLaunchModes).
 
+#### 15)
+`Service` là lớp cơ sở cho các dịch vụ Android có thể được mở rộng để tạo bất kỳ dịch vụ nào. Một lớp trực tiếp mở rộng Dịch vụ chạy trên luồng chính vì vậy nó sẽ chặn UI (nếu có) và do đó chỉ nên được sử dụng cho các tác vụ ngắn hoặc nên sử dụng các luồng khác cho các tác vụ dài hơn.
 
+`IntentService` là một lớp con của Dịch vụ xử lý các yêu cầu không đồng bộ (được thể hiện dưới dạng “Intents”) theo yêu cầu. Khách hàng gửi yêu cầu thông qua các cuộc gọi `startService(Intent)`). Dịch vụ được bắt đầu khi cần thiết, lần lượt xử lý từng `Intent` bằng cách sử dụng một worker thread và tự dừng khi xong việc. Viết một `IntentService` có thể khá đơn giản; chỉ cần mở rộng lớp `IntentService` và ghi đè phương thức `onHandleIntent(Intent intent)` nơi bạn có thể quản lý tất cả các yêu cầu đến.
 
 
 
