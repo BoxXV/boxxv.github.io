@@ -75,6 +75,9 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 12) Sự khác biệt giữa fragment và một activity là gì? Giải thích mối quan hệ giữa cả hai.
 
+13) Sự khác biệt giữa `Serializable` và `Parcelable` là gì? Cách tiếp cận tốt nhất trong Android là gì?
+
+14) Thế nào là "“launch modes"? Hai cơ chế mà theo đó chúng có thể được định nghĩa là gì? Loại chế độ khởi chạy cụ thể nào được hỗ trợ?
 
 
 
@@ -176,6 +179,29 @@ Một fragment thực chất là một phần mô-đun của một activity, v�
 
 Thông tin thêm có sẵn ở [đây](https://developer.android.com/guide/components/fragments.html) trong Hướng dẫn dành cho nhà phát triển Android.
 
+#### 13) 
+Serializable là một interface Java tiêu chuẩn. Bạn chỉ cần đánh dấu một lớp Serializable bằng cách triển khai giao diện và Java sẽ tự động Serializable nó trong các tình huống nhất định.
+
+Parcelable là một giao diện cụ thể của Android nơi bạn tự thực hiện việc tuần tự hóa. Nó được tạo ra để hiệu quả hơn nhiều so với Serializable và để giải quyết một số vấn đề với sơ đồ Serializable Java mặc định.
+
+
+#### 14) Một chế độ “ra mắt” là cách thức mà một thể hiện mới của một activity là có liên quan đến nhiệm vụ hiện tại.
+
+
+Các chế độ khởi chạy có thể được xác định bằng một trong hai cơ chế:
+
+- Tệp Manifest. Khi khai báo một activity trong một manifest, bạn có thể chỉ định cách activity sẽ liên kết với các tác vụ khi nó bắt đầu. Các giá trị được hỗ trợ bao gồm:
+ - `standard` (mặc định). Nhiều instances  lớp activity có thể được khởi tạo và nhiều instances có thể được thêm vào cùng một tác vụ hoặc các tác vụ khác nhau. Đây là chế độ phổ biến cho hầu hết các activity.
+ - `singleTop`. Sự khác biệt so với `standard` là, nếu một instance của activity đã tồn tại ở đầu nhiệm vụ hiện tại và hệ thống định hướng ý định cho activity này, sẽ không có trường hợp mới nào được tạo ra bởi vì nó sẽ loại bỏ phương thức `onNewIntent()` thay vì tạo ra một đối tượng mới.
+ - `singleTask`. Một tác vụ mới sẽ luôn được tạo và một thể hiện mới sẽ được đẩy đến tác vụ là gốc. Tuy nhiên, nếu có bất kỳ trường hợp activity nào tồn tại trong bất kỳ tác vụ nào, hệ thống sẽ định hướng ý định đến thể hiện activity đó thông qua lệnh gọi phương thức `onNewIntent()`. Trong chế độ này, các trường hợp activity có thể được đẩy đến cùng một nhiệm vụ. Chế độ này hữu ích cho các activity đóng vai trò là điểm vào.
+ - `singleInstance`. Tương tự như `singleTask`, ngoại trừ trường hợp không có activity nào có thể được đẩy vào cùng một nhiệm vụ của SingleInstance. Theo đó, activity với chế độ khởi chạy luôn nằm trong một tác vụ thể hiện activity duy nhất. Đây là một chế độ rất chuyên biệt và chỉ nên được sử dụng trong các ứng dụng được triển khai hoàn toàn dưới dạng một activity.
+
+- Intent flags. Các lệnh gọi `startActivity()` có thể bao gồm một cờ trong Ý định khai báo nếu và cách activity mới sẽ được liên kết với tác vụ hiện tại. Các giá trị được hỗ trợ bao gồm:
+  - `FLAG_ACTIVITY_NEW_TASK`. Tương tự như giá trị singleTask trong tệp Manifest (xem bên trên).
+  - `FLAG_ACTIVITY_SINGLE_TOP`. Tương tự như giá trị singleTop trong tệp Manifest (xem bên trên).
+  - `FLAG_ACTIVITY_CLEAR_TOP`. Nếu activity đang bắt đầu đã chạy trong tác vụ hiện tại, thì thay vì khởi chạy một phiên bản mới của activity đó, tất cả các activity khác trên đầu activity đó sẽ bị hủy và ý định này được chuyển đến phiên bản tiếp tục của activity (bây giờ đầu trang), thông qua `onNewIntent()`. Không có giá trị tương ứng trong tệp Manifest tạo ra hành vi này.
+
+Thông tin thêm về các chế độ khởi chạy có sẵn ở [đây](https://developer.android.com/guide/components/activities/tasks-and-back-stack#TaskLaunchModes).
 
 
 
