@@ -67,6 +67,7 @@ Nếu Activity đang hiển thị một hình động cho biết một số lo�
 
 Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng giá trị của chế độ xem không được khôi phục sau khi định hướng lại màn hình. Điều gì có thể là nguyên nhân có thể của vấn đề mà bạn nên xác minh, ở mức tối thiểu, về quan điểm cụ thể đó?
 
+9) DDMS là gì? Mô tả một số khả năng của nó.
 
 -----
 ## Gợi ý trả lời
@@ -132,6 +133,18 @@ Lưu ý rõ: Truy cập mạng từ luồng UI sẽ ném ngoại lệ thời gia
 #### 8) Bạn nên xác minh rằng nó có id hợp lệ. Để hệ thống Android khôi phục trạng thái của các chế độ xem trong activity của bạn, mỗi chế độ xem phải có một ID duy nhất, được cung cấp bởi thuộc tính android: id.
 
 Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/components/activities/activity-lifecycle).
+
+#### 9) DDMS là [Dalvik Debug Monitor Server ](https://developer.android.com/studio/profile/monitor) đi kèm với Android. Nó cung cấp một loạt các tính năng sửa lỗi bao gồm:
+- services cổng chuyển tiếp
+- chụp màn hình
+- thông tin thread và heap
+- theo dõi lưu lượng mạng
+- cuộc gọi đến và giả mạo SMS
+- mô phỏng trạng thái mạng, tốc độ và độ trễ
+- giả mạo dữ liệu vị trí
+
+
+
 
 
 
