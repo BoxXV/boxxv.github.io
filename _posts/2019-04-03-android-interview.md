@@ -94,6 +94,7 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 -----
 ## Gợi ý trả lời
 
+
 #### 1) Bốn lớp Java liên quan đến việc sử dụng các cảm biến trên nền tảng Android là:
 - `Sensor`: Cung cấp các phương pháp để xác định khả năng nào khả dụng cho một cảm biến cụ thể.
 - `SensorManager`: Cung cấp các phương pháp để đăng ký lắng nghe sự kiện cảm biến và hiệu chỉnh cảm biến.
@@ -102,9 +103,11 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 
 Để tìm hiểu thêm về [Sensor](https://developer.android.com/guide/topics/sensors/sensors_overview.html), hãy tham khảo hướng dẫn dành cho nhà phát triển Android.
 
+
 #### 2) `ContentProvider` là một thành phần để quản lý truy cập dữ liệu. Nó đóng gói dữ liệu và cung cấp các cơ chế để xác định bảo mật dữ liệu. `ContentProvider` là interface chuẩn kết nối dữ liệu trong một quy trình với mã đang chạy trong quy trình khác.
 
 Thông tin thêm về `ContentProvider` có thể được tìm thấy [ở đây](https://developer.android.com/guide/topics/providers/content-providers.html) trong Hướng dẫn dành cho nhà phát triển Android.
+
 
 #### 3) Chỉ định một intent ngầm là một hành động có thể gọi bất kỳ ứng dụng nào trên thiết bị có thể thực hiện hành động. Sử dụng một intent ngầm rất hữu ích khi ứng dụng của bạn không thể thực hiện hành động, nhưng các ứng dụng khác có lẽ có thể. Nếu có nhiều ứng dụng được đăng ký có thể xử lý yêu cầu này, người dùng sẽ được nhắc chọn cái nào sẽ sử dụng.
 
@@ -118,11 +121,13 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 }
 ```
 
+
 #### 4) `onPause()` và `onStop()` sẽ không được gọi nếu `finish()` được gọi từ bên trong phương thức `onCreate()`. Điều này có thể xảy ra, ví dụ, nếu bạn phát hiện ra lỗi trong khi `onCreate()` và gọi `finish()`. Tuy nhiên, trong trường hợp như vậy, mọi thao tác dọn dẹp mà bạn dự kiến sẽ được thực hiện trong `onPause()` và `onStop()` sẽ không được thực thi.
 
 Mặc dù `onDestroy()` là callback cuối cùng trong vòng đời của một activity, điều đáng nói là callback này có thể không luôn luôn được gọi và không nên dựa vào để giải phóng tài nguyên. Tốt hơn là có các tài nguyên được tạo trong `onStart()` và `onResume()` và giải phóng chúng tương ứng trong `onStop()` và `onPause()`.
 
 Xem hướng dẫn dành cho nhà phát triển Android để biết thêm [thông tin](https://developer.android.com/guide/components/activities/activity-lifecycle) về vòng đời activity.
+
 
 #### 5) Câu trả lời đúng là Câu trả lời số 1, sử dụng PackageManager.
 
@@ -136,6 +141,7 @@ Tuy nhiên, nếu bạn chỉ muốn vô hiệu hóa các thành phần cụ th�
 
 Để tìm hiểu thêm về [khả năng tương thích và xử lý các loại thiết bị](https://developer.android.com/guide/practices/compatibility.html) hoặc [cảm biến](https://developer.android.com/guide/topics/sensors/sensors_overview.html) khác nhau, vui lòng tham khảo hướng dẫn dành cho nhà phát triển Android.
 
+
 #### 6) Các trường hợp sử dụng phổ biến để sử dụng `Intent` bao gồm:
 
 - Để bắt đầu một activity: Bạn có thể bắt đầu một phiên bản mới của một Activity bằng cách chuyển một phương thức Intent sang `startActivity()`.
@@ -143,6 +149,7 @@ Tuy nhiên, nếu bạn chỉ muốn vô hiệu hóa các thành phần cụ th�
 - Để truyền broadcast: Bạn có thể truyền broadcast các ứng dụng khác bằng cách chuyển `Intent` đến `sendBroadcast()`, `sendOrderedBroadcast()` hoặc `sendStickyBroadcast()`.
 
 Thông tin thêm về [Intent](https://developer.android.com/guide/components/intents-filters.html) có thể được tìm thấy trong hướng dẫn của nhà phát triển Android.
+
 
 #### 7) Phản hồi từ dịch vụ từ xa qua Internet thường có thể mất một chút thời gian, do độ trễ của mạng hoặc tải trên máy chủ từ xa hoặc thời gian cần thiết để dịch vụ từ xa xử lý và đáp ứng yêu cầu.
 
@@ -152,10 +159,12 @@ Vấn đề có thể (và nên) tránh được bằng cách đưa bất kỳ y
 
 Lưu ý rõ: Truy cập mạng từ luồng UI sẽ ném ngoại lệ thời gian chạy trong các phiên bản Android mới hơn khiến ứng dụng bị sập.
 
+
 #### 8)
 Bạn nên xác minh rằng nó có `id` hợp lệ. Để hệ thống Android khôi phục trạng thái của các chế độ xem trong activity của bạn, mỗi chế độ xem phải có một ID duy nhất, được cung cấp bởi thuộc tính `android:id`.
 
 Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/components/activities/activity-lifecycle).
+
 
 #### 9) DDMS là [Dalvik Debug Monitor Server ](https://developer.android.com/studio/profile/monitor) đi kèm với Android. Nó cung cấp một loạt các tính năng sửa lỗi bao gồm:
 - services cổng chuyển tiếp
@@ -166,6 +175,7 @@ Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/compo
 - mô phỏng trạng thái mạng, tốc độ và độ trễ
 - giả mạo dữ liệu vị trí
 
+
 #### 10) `AsyncTask` không được gắn với vòng đời của `Activity` có chứa nó.
 Vì vậy, ví dụ, nếu bạn khởi động AsyncTask bên trong một Activity và người dùng xoay thiết bị, Activity sẽ bị hủy (và một phiên bản Activity mới sẽ được tạo) nhưng AsyncTask sẽ không chết mà thay vào đó tiếp tục tồn tại cho đến khi hoàn thành.
 
@@ -175,10 +185,12 @@ Ngoài ra, còn có khả năng điều này dẫn đến leak memory do AsyncTa
 
 Vì những lý do này, sử dụng AsyncTask cho các tác vụ nền chạy dài thường là một ý tưởng tồi. Thay vào đó, đối với các tác vụ nền chạy dài, nên sử dụng một cơ chế khác (như service).
 
+
 #### 11) Đối tượng `Intent` là một cơ chế chung để bắt đầu activity mới và chuyển dữ liệu từ activity này sang activity khác.
 Tuy nhiên, bạn không thể khởi động `ContentProvider` bằng `Intent`.
 
 Khi bạn muốn truy cập dữ liệu trong `ContentProvider`, thay vào đó, bạn phải sử dụng đối tượng `ContentResolver` trong ứng dụng của bạn `Context` để liên lạc với nhà cung cấp với tư cách là client. Đối tượng `ContentResolver` giao tiếp với đối tượng nhà cung cấp, một thể hiện của lớp thực hiện `ContentProvider`. Đối tượng nhà cung cấp nhận các yêu cầu dữ liệu từ khách hàng, thực hiện hành động được yêu cầu và trả về kết quả.
+
 
 #### 12) Một [activity](https://developer.android.com/reference/android/app/Activity.html) thường là một hoạt động tập trung duy nhất mà người dùng có thể thực hiện (như quay số, chụp ảnh, gửi email, xem bản đồ, v.v.).
 Tuy nhiên, đồng thời, không có gì ngăn cản nhà phát triển tạo ra một activity phức tạp tùy ý.
@@ -188,6 +200,7 @@ Việc triển khai activity có thể tùy ý sử dụng lớp [Fragment](http
 Một fragment thực chất là một phần mô-đun của một activity, với vòng đời và các sự kiện đầu vào của chính nó, và có thể được thêm hoặc xóa theo ý muốn. Tuy nhiên, điều quan trọng cần nhớ là vòng đời của fragment bị ảnh hưởng trực tiếp bởi vòng đời activity chủ của nó; tức là, khi activity bị tạm dừng, tất cả các fragment trong đó và khi activity bị phá hủy, thì tất cả các fragment của nó cũng vậy.
 
 Thông tin thêm có sẵn ở [đây](https://developer.android.com/guide/components/fragments.html) trong Hướng dẫn dành cho nhà phát triển Android.
+
 
 #### 13) 
 Serializable là một interface Java tiêu chuẩn. Bạn chỉ cần đánh dấu một lớp Serializable bằng cách triển khai giao diện và Java sẽ tự động Serializable nó trong các tình huống nhất định.
@@ -212,10 +225,12 @@ Các chế độ khởi chạy có thể được xác định bằng một tron
 
 Thông tin thêm về các chế độ khởi chạy có sẵn ở [đây](https://developer.android.com/guide/components/activities/tasks-and-back-stack#TaskLaunchModes).
 
+
 #### 15)
 `Service` là lớp cơ sở cho các dịch vụ Android có thể được mở rộng để tạo bất kỳ dịch vụ nào. Một lớp trực tiếp mở rộng Dịch vụ chạy trên luồng chính vì vậy nó sẽ chặn UI (nếu có) và do đó chỉ nên được sử dụng cho các tác vụ ngắn hoặc nên sử dụng các luồng khác cho các tác vụ dài hơn.
 
 `IntentService` là một lớp con của Dịch vụ xử lý các yêu cầu không đồng bộ (được thể hiện dưới dạng “Intents”) theo yêu cầu. Khách hàng gửi yêu cầu thông qua các cuộc gọi `startService(Intent)`). Dịch vụ được bắt đầu khi cần thiết, lần lượt xử lý từng `Intent` bằng cách sử dụng một worker thread và tự dừng khi xong việc. Viết một `IntentService` có thể khá đơn giản; chỉ cần mở rộng lớp `IntentService` và ghi đè phương thức `onHandleIntent(Intent intent)` nơi bạn có thể quản lý tất cả các yêu cầu đến.
+
 
 #### 16) Các đối số xây dựng cho một `Fragment` được truyền qua Bundle bằng phương thức `Fragment#setArgument(Bundle)`. `Bundle` được truyền vào sau đó có thể được truy xuất thông qua phương thức `Fragment#getArguments()` trong phương thức vòng đời Fragment thích hợp.
 
@@ -223,12 +238,18 @@ Thông tin thêm về các chế độ khởi chạy có sẵn ở [đây](https
 
 
 #### 17)
+‘ANR’, trong Android là ‘Application Not Responding.’ Có nghĩa là khi người dùng đang tương tác với activity và activity trong phương thức `onResume()`, một hộp thoại xuất hiện hiển thị ứng dụng không phản hồi.
 
-#### 18)
+Nó xảy ra bởi vì chúng tôi bắt đầu một tác vụ nặng và dài như tải xuống dữ liệu trong luồng UI chính. Giải pháp của vấn đề là bắt đầu các tác vụ nặng của bạn ở nền sau bằng cách sử dụng lớp Async Task.
 
-#### 19)
 
-#### 20)
+#### 18) `onAttached()`
+
+
+#### 19) Có, một hoạt động có thể được tạo mà không cần bất kỳ giao diện người dùng. Những hoạt động này được coi là hoạt động trừu tượng.
+
+
+#### 20) Broadcast receiver liên lạc với các thông báo của hệ điều hành, chẳng hạn như kiểm tra xem có kết nối internet hay không, có phải là nhãn pin hay không, v.v.
 
 
 
