@@ -13,8 +13,27 @@ Các quy tắc tôi tuân theo là tùy ý và tùy chọn cá nhân, nhưng m�
 
 Quy tắc của tôi là như sau:
 
-- xmlns (tất cả các không gian tên được sử dụng, được sắp xếp theo thứ tự abc)
+- xmlns (tất cả các name spaces được sử dụng, được sắp xếp theo thứ tự abc)
 
+Để tập trung hơn vào các tags thực tế và thuộc tính, tôi khai báo name space android ở trên cùng như là:
+```java
+xmlns:a=”http://schemas.android.com/apk/res/android
+```
+Điều này sẽ được theo sau bởi tất cả các name spaces khác được sử dụng trong tệp, ví dụ: tools, app, custom, .v.v. được sắp xếp theo thứ tự abc
+
+- id
+- style
+- layout_width
+- layout_height
+- layout_weight
+- all other layout_* attributes
+- all other android: attributes except what follows below
+- text attributes (textColor, etc.) with the actual text last
+- background
+- orientation
+- visibility
+- elevation
+- all other name space attributes, sorted alphabetically
 
 
 Tham khảo:
