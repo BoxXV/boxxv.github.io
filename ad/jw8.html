@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./jwplayer-8.8.6/jwplayer.js" type="text/javascript"></script>
+</head>
+<body>
+  <center>
+    <div id='myvideo'></div>
+  </center>
+  <script type='text/javascript'>
+    jwplayer.key = "3SYLbRo6MN5cBDxwpZh3dl1gb0lMTUOos31M5hoAlf4=";
+    jwplayer('myvideo').setup({
+      base: './jwplayer-8.8.6/',
+      width: '680',
+      height: '382',
+      file: "http://vjs.zencdn.net/v/oceans.mp4",
+      //file: "http://sample.vodobox.net/skate_phantom_flex_4k/skate_phantom_flex_4k.m3u8",
+      image:'preview.jpg',
+      title: 'Video Title',
+      displaytitle: false,
+      skin: {
+        controlbar: {
+          "icons": "#3298da",
+          "iconsActive": "#29b765"
+        }
+      },
+      //abouttext: "Video Player",
+      //aboutlink: "https://www.jwplayer.com",
+      autostart: false,
+      //autostart: true,
+      repeat: false
+    });
+  </script>
+</body>
+</html>
