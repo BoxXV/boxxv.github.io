@@ -53,6 +53,8 @@ Formatting  tệp thậm chí còn có ý nghĩa hơn khi nhiều người đang
 
 Nhấp vào nút “Manage…” của các ứng dụng khác nhau cung cấp cho bạn để `export` kiểu định dạng của bạn. Trong Android Studio 2.2, người khác có thể nhập tệp này thông qua tính năng `import`. Điều này không tồn tại trong các phiên bản Android Studio trước đó. Để sử dụng kiểu định dạng xml được xác định trong các phiên bản đó, hãy truy cập `~/Library/Preferences` và chọn phiên bản Android Studio bạn đang sử dụng. Nếu bạn tìm thấy một thư mục có tên là `codeststyle`, hãy dán tệp xml được chia sẻ của bạn vào đó. Nếu không có thư mục đó, hãy tạo nó và sau đó dán tệp. Khởi động lại Android Studio, đi đến trình định dạng và tệp sẽ hiển thị trong trình đơn thả xuống bên cạnh “Manage…”
 
+Tham khảo file Formatting tại đây [Default.xml](/xml/Default.xml)
+
 Happy formatting!
 
 
