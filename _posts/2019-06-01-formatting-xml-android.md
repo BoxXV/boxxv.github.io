@@ -41,7 +41,7 @@ Danh sách này không đầy đủ tất cả các thuộc tính nhưng nó bao
 
 Trình định dạng xml (Tôi không biết phiên bản Android studio nào đã thêm phiên bản mở rộng này nhưng có trong Android Studio 2.1.1) bằng cách mở `Preferences` (Command +,), sau đó chuyển đến `Editor -> Code Style -> XML`. Có bốn tab, `Arrangement` sẽ cho phép bạn xác định thứ tự các attributes. (Bạn cũng có thể xác định thứ tự cho các thẻ. Điều này có ý nghĩa đối với các tệp chứa các giá trị độ phân giải khác nhau như dimen, số nguyên, bool nhưng tôi đã giành chiến thắng ở đây. Tôi thích giữ các tệp đó trong các tệp giá trị riêng cho hầu hết các phần.)
 
-![placeholder](/img/formatting-xml-android.png "Editor -> Code Style -> XML \ Arrangement Tab")_Editor -> Code Style -> XML \ Arrangement Tab_
+![placeholder](/img/formatting-xml-android.png "Editor -> Code Style -> XML: Arrangement Tab")_Editor -> Code Style -> XML \ Arrangement Tab_
 
 Bạn có thể thêm, xóa và di chuyển từng hàng khi bạn cần chúng. Theo quy tắc của tôi, tôi bắt đầu với các namespaces. Tôi rõ ràng đặt `xmlns:a` đầu tiên, chủ yếu là cho rõ ràng, tôi nghi ngờ tôi sẽ bao giờ có `xmlns:aa` cho bất cứ điều gì. Sau đó, các attributes dự kiến theo danh sách trên. Với điều này được tự động hóa bây giờ tôi đã lấy tự do để đảm bảo các định nghĩa lề và phần đệm tuân theo thứ tự css và tất cả các thuộc tính namespace Android được chuyển xuống dưới cùng, được sắp xếp theo thứ tự bảng chữ cái. Có lẽ nếu tôi có nhiều người trong số họ tại một số điểm, tôi sẽ chính xác hơn ở đây.
 
