@@ -41,7 +41,19 @@ Danh sách này không đầy đủ tất cả các thuộc tính nhưng nó bao
 
 Trình định dạng xml (Tôi không biết phiên bản Android studio nào đã thêm phiên bản mở rộng này nhưng có trong Android Studio 2.1.1) bằng cách mở `Preferences` (Command +,), sau đó chuyển đến `Editor -> Code Style -> XML`. Có bốn tab, `Arrangement` sẽ cho phép bạn xác định thứ tự các attributes. (Bạn cũng có thể xác định thứ tự cho các thẻ. Điều này có ý nghĩa đối với các tệp chứa các giá trị độ phân giải khác nhau như dimen, số nguyên, bool nhưng tôi đã giành chiến thắng ở đây. Tôi thích giữ các tệp đó trong các tệp giá trị riêng cho hầu hết các phần.)
 
-![placeholder](/img/formatting-xml-android.png "Large example image")_Caption large image_
+![placeholder](/img/formatting-xml-android.png "Editor -> Code Style -> XML \ Arrangement Tab")_Editor -> Code Style -> XML \ Arrangement Tab_
+
+Bạn có thể thêm, xóa và di chuyển từng hàng khi bạn cần chúng. Theo quy tắc của tôi, tôi bắt đầu với các namespaces. Tôi rõ ràng đặt `xmlns:a` đầu tiên, chủ yếu là cho rõ ràng, tôi nghi ngờ tôi sẽ bao giờ có `xmlns:aa` cho bất cứ điều gì. Sau đó, các attributes dự kiến theo danh sách trên. Với điều này được tự động hóa bây giờ tôi đã lấy tự do để đảm bảo các định nghĩa lề và phần đệm tuân theo thứ tự css và tất cả các thuộc tính namespace Android được chuyển xuống dưới cùng, được sắp xếp theo thứ tự bảng chữ cái. Có lẽ nếu tôi có nhiều người trong số họ tại một số điểm, tôi sẽ chính xác hơn ở đây.
+
+Phần khó khăn duy nhất là phần giữa, nơi tôi muốn tất cả các attributes Android khác nhưng một số và sau đó là tất cả các `text*` ngoại trừ `android:text` mà tôi muốn là thuộc tính cuối cùng của nhóm văn bản.
+
+### Share your rules
+
+Formatting  tệp thậm chí còn có ý nghĩa hơn khi nhiều người đang làm việc trên một dự án, vì vậy tất nhiên bạn nên chia sẻ quy tắc formatting của mình với nhóm của mình.
+
+Nhấp vào nút “Manage…” của các ứng dụng khác nhau cung cấp cho bạn để `export` kiểu định dạng của bạn. Trong Android Studio 2.2, người khác có thể nhập tệp này thông qua tính năng `import`. Điều này không tồn tại trong các phiên bản Android Studio trước đó. Để sử dụng kiểu định dạng xml được xác định trong các phiên bản đó, hãy truy cập `~/Library/Preferences` và chọn phiên bản Android Studio bạn đang sử dụng. Nếu bạn tìm thấy một thư mục có tên là `codeststyle`, hãy dán tệp xml được chia sẻ của bạn vào đó. Nếu không có thư mục đó, hãy tạo nó và sau đó dán tệp. Khởi động lại Android Studio, đi đến trình định dạng và tệp sẽ hiển thị trong trình đơn thả xuống bên cạnh “Manage…”
+
+Happy formatting!
 
 
 Tham khảo:
