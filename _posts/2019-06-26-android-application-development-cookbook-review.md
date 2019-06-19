@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Application Development Cookbook
+title: Review Android Application Development Cookbook
 subtitle: 93 Recipes for Building Winning Apps, 1st Edition
 ---
 
