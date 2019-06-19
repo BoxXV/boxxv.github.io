@@ -98,7 +98,7 @@ Build feature-rich, reliable Android Pie apps with the help of more than 100 pro
 - Accessing external storage with scoped directories in Android N 
 
 
-### 8. Alerts and Notifications
+### Alerts and Notifications
 
 - Introduction
 - Lights, Action, and Sound – getting the user's attention!
@@ -138,172 +138,57 @@ Build feature-rich, reliable Android Pie apps with the help of more than 100 pro
 
 ### A First Look at OpenGL ES
 
-11.1 Doing Something When the Phone Rings
+- Introduction
+- Setting up the OpenGL ES environment
+- Drawing shapes on GLSurfaceView
+- Applying the projection and camera view while drawing
+- Moving the triangle with rotation
+- Rotating the triangle with user input 
 
-11.2 Processing Outgoing Phone Calls
 
-11.3 Dialing the Phone
+### Multimedia
 
-11.4 Sending Single-part or Multipart SMS Messages
+- Introduction
+- Playing sound effects with SoundPool
+- Playing audio with MediaPlayer
+- Responding to hardware media controls in your app
+- Taking a photo with the default camera app
+- Taking a picture using the Camera2 API 
 
-11.5 Receiving an SMS Message
 
-11.6 Using Emulator Controls to Send SMS Messages to the Emulator
+### Telephony, Networks, and the Web 
 
-11.7 Using Android’s TelephonyManager to Obtain Device Information
+- Introduction
+- How to make a phone call
+- Monitoring phone call events
+- How to send SMS (text) messages
+- Receiving SMS messages
+- Displaying a web page in your application
+- Checking online status and connection type
+- Phone number blocking API 
 
 
-### 12. Networked Applications
+### Location and Using Geofencing 
 
-12.1 Consuming a RESTful Web Service Using a URLConnection
+- Introduction
+- How to get the device location
+- Resolving problems reported with the GoogleApiClient OnConnectionFailedListener
+- Creating and monitoring a Geofence 
 
-12.2 Consuming a RESTful Web Service with Volley
 
-12.3 Notifying Your App with Google Cloud Messaging “Push Messaging”
+### Getting Your App Ready for the Play Store 
 
-12.4 Extracting Information from Unstructured Text Using Regular Expressions
+- Introduction
+- The Android 6.0 Runtime Permission Model
+- How to schedule an alarm
+- Receiving notification of device boot
+- Using the AsyncTask for background work
+- Adding speech recognition to your app
+- How to add Google sign-in to your app 
 
-12.5 Parsing RSS/Atom Feeds Using ROME
+### Getting Started with Kotlin 
 
-12.6 Using MD5 to Digest Clear Text
-
-12.7 Converting Text into Hyperlinks
-
-12.8 Accessing a Web Page Using a WebView
-
-12.9 Customizing a WebView
-
-12.10 Writing an Inter-Process Communication Service
-
-
-### 13. Gaming and Animation
-
-13.1 Building an Android Game Using flixel-gdx
-
-13.2 Building an Android Game Using AndEngine
-
-13.3 Processing Timed Keyboard Input
-
-
-### 14. Social Networking
-
-14.1 Authenticating Users with OAUTH2
-
-14.2 Integrating Social Networking Using HTTP
-
-14.3 Loading a User’s Twitter Timeline Using HTML or JSON
-
-
-### 15. Location and Map Applications
-
-15.1 Getting Location Information
-
-15.2 Accessing GPS Information in Your Application
-
-15.3 Mocking GPS Coordinates on a Device
-
-15.4 Using Geocoding and Reverse Geocoding
-
-15.5 Getting Ready for Google Maps API V2 Development
-
-15.6 Using the Google Maps API V2
-
-15.7 Displaying Map Data Using OpenStreetMap
-
-15.8 Creating Overlays in OpenStreetMap Maps
-
-15.9 Using a Scale on an OpenStreetMap Map
-
-15.10 Handling Touch Events on an OpenStreetMap Overlay
-
-15.11 Getting Location Updates with OpenStreetMap Maps
-
-
-### 16. Accelerometer
-
-16.1 Checking for the Presence or Absence of a Sensor
-
-16.2 Using the Accelerometer to Detect Shaking
-
-16.3 Checking Whether a Device Is Facing Up or Down
-
-16.4 Reading the Temperature Sensor
-
-
-### 17. Bluetooth
-
-17.1 Enabling Bluetooth and Making the Device Discoverable
-
-17.2 Connecting to a Bluetooth-Enabled Device
-
-17.3 Accepting Connections from a Bluetooth Device
-
-17.4 Implementing Bluetooth Device Discovery
-
-
-### 18. System and Device Control
-
-18.1 Accessing Phone Network/Connectivity Information
-
-18.2 Obtaining Information from the Manifest File
-
-18.3 Changing Incoming Call Notification to Silent, Vibrate, or Normal
-
-18.4 Copying Text and Getting Text from the Clipboard
-
-18.5 Using LED-Based Notifications
-
-18.6 Making the Device Vibrate
-
-18.7 Determining Whether a Given Application Is Running
-
-
-### 19. All the World’s Not Java: Other Programming Languages and Frameworks
-
-19.1 Learning About Cross-Platform Solutions
-
-19.2 Running Shell Commands from Your Application
-
-19.3 Running Native C/C++ Code with JNI on the NDK
-
-19.4 Getting Started with SL4A, the Scripting Layer for Android
-
-19.5 Creating Alerts in SL4A
-
-19.6 Fetching Your Google Documents and Displaying Them in a ListView Using SL4A
-
-19.7 Sharing SL4A Scripts in QR Codes
-
-19.8 Using Native Handset Functionality from a WebView via JavaScript
-
-19.9 Building a Cross-Platform App with Xamarin
-
-19.10 Creating a Cross-Platform App Using PhoneGap/Cordova
-
-
-### 20. All the World’s Not English: Strings and Internationalization
-
-20.1 Internationalizing Application Text
-
-20.2 Finding and Translating Strings
-
-20.3 Handling the Nuances of strings.xml
-
-
-### 21. Packaging, Deploying, and Distributing/Selling Your App
-
-21.1 Creating a Signing Certificate and Using It to Sign Your Application
-
-21.2 Distributing Your Application via the Google Play Store
-
-21.3 Distributing Your Application via Other App Stores
-
-21.4 Monetizing Your App with AdMob
-
-21.5 Obfuscating and Optimizing with ProGuard
-
-21.6 Hosting Your App on Your Own Server
-
-21.7 Creating a “Self-Updating” App
-
-21.8 Providing a Link to Other Published Apps in the Google Play Store
+- Introduction
+- How to create an Android project with Kotlin
+- Creating a Toast in Kotlin
+- Runtime permission in Kotlin 
