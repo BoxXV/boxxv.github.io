@@ -30,9 +30,9 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 - Truy cập các dịch vụ web RESTful với JSON và các định dạng khác
 - Kiểm tra và khắc phục sự cố các thành phần riêng lẻ và toàn bộ ứng dụng của bạn
 
-###Mục lục
+### Mục lục
 
-##1. Getting Started
+## 1. Getting Started
 
 1.1 Understanding the Android Application Architecture
 
@@ -84,7 +84,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 1.25 Program: Tipster, a Tip Calculator for the Android OS
 
-##2. Designing a Successful Application
+## 2. Designing a Successful Application
 
 2.1 Exception Handling
 
@@ -117,3 +117,37 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 2.15 Backing Up Android Application Data
 
 2.16 Using Hints Instead of Tool Tips
+
+## 3. Application Testing
+
+3.1 Setting Up an Android Virtual Device (AVD) for App Testing
+
+3.2 Testing on a Wide Range of Devices with Cloud-Based Testing
+
+3.3 Testing with Eclipse and JUnit
+
+3.4 Testing with Android Studio and JUnit
+
+3.5 Testing with Robolectric and JUnit 4
+
+3.6 Testing with ATSL, Espresso, and JUnit 4
+
+3.7 Troubleshooting Application Crashes
+
+3.8 Debugging Using Log.d() and LogCat
+
+3.9 Getting Bug Reports Automatically with Crash Reporting
+
+3.10 Using a Local Runtime Application Log for Analysis of Field Errors or Situations
+
+3.11 Reproducing Activity Life-Cycle Scenarios for Testing
+
+3.12 Keeping Your App Snappy with StrictMode
+
+3.13 Static Code Testing with Android Lint
+
+3.14 Dynamic Testing with the Monkey Program
+
+3.15 Sending Text Messages and Placing Calls Between AVDs
+
+
