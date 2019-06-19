@@ -30,9 +30,9 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 - Truy cập các dịch vụ web RESTful với JSON và các định dạng khác
 - Kiểm tra và khắc phục sự cố các thành phần riêng lẻ và toàn bộ ứng dụng của bạn
 
-### Mục lục
+## Mục lục
 
-## 1. Getting Started
+### 1. Getting Started
 
 1.1 Understanding the Android Application Architecture
 
@@ -84,7 +84,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 1.25 Program: Tipster, a Tip Calculator for the Android OS
 
-## 2. Designing a Successful Application
+### 2. Designing a Successful Application
 
 2.1 Exception Handling
 
@@ -118,7 +118,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 2.16 Using Hints Instead of Tool Tips
 
-## 3. Application Testing
+### 3. Application Testing
 
 3.1 Setting Up an Android Virtual Device (AVD) for App Testing
 
@@ -150,4 +150,28 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 3.15 Sending Text Messages and Placing Calls Between AVDs
 
+### 4. Inter-/Intra-Process Communication
 
+4.1 Opening a Web Page, Phone Number, or Anything Else with an Intent
+
+4.2 Emailing Text from a View
+
+4.3 Sending an Email with Attachments
+
+4.4 Pushing String Values Using Intent.putExtra()
+
+4.5 Retrieving Data from a Subactivity Back to Your Main Activity
+
+4.6 Keeping a Background Service Running While Other Apps Are on Display
+
+4.7 Sending/Receiving a Broadcast Message
+
+4.8 Starting a Service After Device Reboot
+
+4.9 Creating a Responsive Application Using Threads
+
+4.10 Using AsyncTask to Do Background Processing
+
+4.11 Sending Messages Between Threads Using an Activity Thread Queue and Handler
+
+4.12 Creating an Android Epoch HTML/JavaScript Calendar
