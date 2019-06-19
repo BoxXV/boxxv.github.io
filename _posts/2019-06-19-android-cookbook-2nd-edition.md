@@ -439,4 +439,106 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 ### 14. Social Networking
 
+14.1 Authenticating Users with OAUTH2
+
+14.2 Integrating Social Networking Using HTTP
+
+14.3 Loading a User’s Twitter Timeline Using HTML or JSON
+
+
+### 15. Location and Map Applications
+
+15.1 Getting Location Information
+
+15.2 Accessing GPS Information in Your Application
+
+15.3 Mocking GPS Coordinates on a Device
+
+15.4 Using Geocoding and Reverse Geocoding
+
+15.5 Getting Ready for Google Maps API V2 Development
+
+15.6 Using the Google Maps API V2
+
+15.7 Displaying Map Data Using OpenStreetMap
+
+15.8 Creating Overlays in OpenStreetMap Maps
+
+15.9 Using a Scale on an OpenStreetMap Map
+
+15.10 Handling Touch Events on an OpenStreetMap Overlay
+
+15.11 Getting Location Updates with OpenStreetMap Maps
+
+
+### 16. Accelerometer
+
+16.1 Checking for the Presence or Absence of a Sensor
+
+16.2 Using the Accelerometer to Detect Shaking
+
+16.3 Checking Whether a Device Is Facing Up or Down
+
+16.4 Reading the Temperature Sensor
+
+
+### 17. Bluetooth
+
+17.1 Enabling Bluetooth and Making the Device Discoverable
+
+17.2 Connecting to a Bluetooth-Enabled Device
+
+17.3 Accepting Connections from a Bluetooth Device
+
+17.4 Implementing Bluetooth Device Discovery
+
+
+### 18. System and Device Control
+
+18.1 Accessing Phone Network/Connectivity Information
+
+18.2 Obtaining Information from the Manifest File
+
+18.3 Changing Incoming Call Notification to Silent, Vibrate, or Normal
+
+18.4 Copying Text and Getting Text from the Clipboard
+
+18.5 Using LED-Based Notifications
+
+18.6 Making the Device Vibrate
+
+18.7 Determining Whether a Given Application Is Running
+
+
+### 19. All the World’s Not Java: Other Programming Languages and Frameworks
+
+19.1 Learning About Cross-Platform Solutions
+
+19.2 Running Shell Commands from Your Application
+
+19.3 Running Native C/C++ Code with JNI on the NDK
+
+19.4 Getting Started with SL4A, the Scripting Layer for Android
+
+19.5 Creating Alerts in SL4A
+
+19.6 Fetching Your Google Documents and Displaying Them in a ListView Using SL4A
+
+19.7 Sharing SL4A Scripts in QR Codes
+
+19.8 Using Native Handset Functionality from a WebView via JavaScript
+
+19.9 Building a Cross-Platform App with Xamarin
+
+19.10 Creating a Cross-Platform App Using PhoneGap/Cordova
+
+### 
+
+
+### 
+
+
+
+
+
 
