@@ -35,72 +35,27 @@ Build feature-rich, reliable Android Pie apps with the help of more than 100 pro
 - Understanding the activity life cycle 
 
 
-### 2. Designing a Successful Application
+### Layouts
 
-2.1 Exception Handling
-
-2.2 Requesting Android Permissions at Runtime
-
-2.3 Accessing Android’s Application Object as a “Singleton”
-
-2.4 Keeping Data When the User Rotates the Device
-
-2.5 Monitoring the Battery Level of an Android Device
-
-2.6 Creating Splash Screens in Android
-
-2.7 Designing a Conference/Camp/Hackathon/Institution App
-
-2.8 Using Google Analytics in an Android Application
-
-2.9 Setting First-Run Preferences
-
-2.10 Formatting Numbers
-
-2.11 Formatting with Correct Plurals
-
-2.12 Formatting the Time and Date for Display
-
-2.13 Simplifying Date/Time Calculations with the Java 8 java.time API
-
-2.14 Controlling Input with KeyListeners
-
-2.15 Backing Up Android Application Data
-
-2.16 Using Hints Instead of Tool Tips
+- Introduction
+- Defining and inflating a layout
+- Using RelativeLayout
+- Using LinearLayout
+- Creating tables – TableLayout and GridLayout
+- RecyclerView replaces ListView
+- Changing layout properties during runtime 
 
 
-### 3. Application Testing
+### Views, Widgets, and Styles 
 
-3.1 Setting Up an Android Virtual Device (AVD) for App Testing
-
-3.2 Testing on a Wide Range of Devices with Cloud-Based Testing
-
-3.3 Testing with Eclipse and JUnit
-
-3.4 Testing with Android Studio and JUnit
-
-3.5 Testing with Robolectric and JUnit 4
-
-3.6 Testing with ATSL, Espresso, and JUnit 4
-
-3.7 Troubleshooting Application Crashes
-
-3.8 Debugging Using Log.d() and LogCat
-
-3.9 Getting Bug Reports Automatically with Crash Reporting
-
-3.10 Using a Local Runtime Application Log for Analysis of Field Errors or Situations
-
-3.11 Reproducing Activity Life-Cycle Scenarios for Testing
-
-3.12 Keeping Your App Snappy with StrictMode
-
-3.13 Static Code Testing with Android Lint
-
-3.14 Dynamic Testing with the Monkey Program
-
-3.15 Sending Text Messages and Placing Calls Between AVDs
+- Introduction
+- Inserting a widget into a layout
+- Using graphics to show button state
+- Creating a widget at runtime
+- Creating a custom component
+- Applying a style to a View
+- Turning a style into a theme
+- Selecting a theme based on the Android version
 
 
 ### 4. Inter-/Intra-Process Communication
