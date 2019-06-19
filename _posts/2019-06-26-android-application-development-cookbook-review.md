@@ -14,7 +14,7 @@ subtitle: 93 Recipes for Building Winning Apps, 1st Edition
 
 ✅ Pages: 	408
 
-✅ Size: 	23.3 MB
+✅ Size: 	32.1 MB
 
 A must-have collection of ready-to-use Android recipes!
 
