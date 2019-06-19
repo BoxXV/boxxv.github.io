@@ -208,3 +208,63 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 ### 6. Graphical User Interface
 
+6.1 Understanding and Following User Interface Guidelines
+
+6.2 Looking Good with Material Design
+
+6.3 Choosing a Layout Manager (a.k.a. ViewGroup) and Arranging Components
+
+6.4 Handling Configuration Changes by Decoupling the View from the Model
+
+6.5 Controlling the Action Bar
+
+6.6 Adding a Share Action to Your Action Bar
+
+6.7 Building Modern UIs with the Fragment API
+
+6.8 Creating a Button and Its Click Event Listener
+
+6.9 Enhancing UI Design Using Image Buttons
+
+6.10 Using a FloatingActionButton
+
+6.11 Wiring Up an Event Listener in Many Different Ways
+
+6.12 Using CheckBoxes and RadioButtons
+
+6.13 Using Card Widgets
+
+6.14 Offering a Drop-Down Chooser via the Spinner Class
+
+6.15 Handling Long-Press/Long-Click Events
+
+6.16 Displaying Text Fields with TextView and EditText
+
+6.17 Constraining EditText Values with Attributes and the TextWatcher Interface
+
+6.18 Implementing AutoCompleteTextView
+
+6.19 Feeding AutoCompleteTextView Using a SQLite Database Query
+
+6.20 Turning Edit Fields into Password Fields
+
+6.21 Changing the Enter Key to “Next” on the Soft Keyboard
+
+6.22 Processing Key-Press Events in an Activity
+
+6.23 Let Them See Stars: Using RatingBar
+
+6.24 Making a View Shake
+
+6.25 Providing Haptic Feedback
+
+6.26 Navigating Different Activities Within a TabView
+
+6.27 Creating a Loading Screen that Will Appear Between Two Activities
+
+6.28 Adding a Border with Rounded Corners to a Layout
+
+6.29 Detecting Gestures in Android
+
+6.30 Creating a Simple App Widget
+
