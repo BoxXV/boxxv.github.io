@@ -532,13 +532,30 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 19.10 Creating a Cross-Platform App Using PhoneGap/Cordova
 
-### 
+
+### 20. All the World’s Not English: Strings and Internationalization
+
+20.1 Internationalizing Application Text
+
+20.2 Finding and Translating Strings
+
+20.3 Handling the Nuances of strings.xml
 
 
-### 
+### 21. Packaging, Deploying, and Distributing/Selling Your App
 
+21.1 Creating a Signing Certificate and Using It to Sign Your Application
 
+21.2 Distributing Your Application via the Google Play Store
 
+21.3 Distributing Your Application via Other App Stores
 
+21.4 Monetizing Your App with AdMob
 
+21.5 Obfuscating and Optimizing with ProGuard
 
+21.6 Hosting Your App on Your Own Server
+
+21.7 Creating a “Self-Updating” App
+
+21.8 Providing a Link to Other Published Apps in the Google Play Store
