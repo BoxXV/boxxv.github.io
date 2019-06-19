@@ -30,9 +30,9 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 - Truy cập các dịch vụ web RESTful với JSON và các định dạng khác
 - Kiểm tra và khắc phục sự cố các thành phần riêng lẻ và toàn bộ ứng dụng của bạn
 
-### Mục lục
+###Mục lục
 
-1. Getting Started
+##1. Getting Started
 
 1.1 Understanding the Android Application Architecture
 
@@ -84,4 +84,36 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 1.25 Program: Tipster, a Tip Calculator for the Android OS
 
+##2. Designing a Successful Application
 
+2.1 Exception Handling
+
+2.2 Requesting Android Permissions at Runtime
+
+2.3 Accessing Android’s Application Object as a “Singleton”
+
+2.4 Keeping Data When the User Rotates the Device
+
+2.5 Monitoring the Battery Level of an Android Device
+
+2.6 Creating Splash Screens in Android
+
+2.7 Designing a Conference/Camp/Hackathon/Institution App
+
+2.8 Using Google Analytics in an Android Application
+
+2.9 Setting First-Run Preferences
+
+2.10 Formatting Numbers
+
+2.11 Formatting with Correct Plurals
+
+2.12 Formatting the Time and Date for Display
+
+2.13 Simplifying Date/Time Calculations with the Java 8 java.time API
+
+2.14 Controlling Input with KeyListeners
+
+2.15 Backing Up Android Application Data
+
+2.16 Using Hints Instead of Tool Tips
