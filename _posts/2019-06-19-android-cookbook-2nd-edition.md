@@ -30,7 +30,9 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 - Truy cập các dịch vụ web RESTful với JSON và các định dạng khác
 - Kiểm tra và khắc phục sự cố các thành phần riêng lẻ và toàn bộ ứng dụng của bạn
 
+
 ## Mục lục
+
 
 ### 1. Getting Started
 
@@ -84,6 +86,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 1.25 Program: Tipster, a Tip Calculator for the Android OS
 
+
 ### 2. Designing a Successful Application
 
 2.1 Exception Handling
@@ -118,6 +121,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 2.16 Using Hints Instead of Tool Tips
 
+
 ### 3. Application Testing
 
 3.1 Setting Up an Android Virtual Device (AVD) for App Testing
@@ -150,6 +154,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 
 3.15 Sending Text Messages and Placing Calls Between AVDs
 
+
 ### 4. Inter-/Intra-Process Communication
 
 4.1 Opening a Web Page, Phone Number, or Anything Else with an Intent
@@ -175,6 +180,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 4.11 Sending Messages Between Threads Using an Activity Thread Queue and Handler
 
 4.12 Creating an Android Epoch HTML/JavaScript Calendar
+
 
 ### 5. Graphics
 
@@ -205,6 +211,7 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 5.13 Adding a Simple Raster Animation
 
 5.14 Using Pinch to Zoom
+
 
 ### 6. Graphical User Interface
 
@@ -267,4 +274,169 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 6.29 Detecting Gestures in Android
 
 6.30 Creating a Simple App Widget
+
+
+### 7. GUI Alerts: Menus, Dialogs, Toasts, Snackbars, and Notifications
+
+7.1 Alerting the User with Toast and Snackbar
+
+7.2 Customizing the Appearance of a Toast
+
+7.3 Creating and Displaying a Menu
+
+7.4 Handling Choice Selection in a Menu
+
+7.5 Creating a Submenu
+
+7.6 Creating a Pop-up/Alert Dialog
+
+7.7 Using a Timepicker Widget
+
+7.8 Creating an iPhone-like WheelPicker for Selection
+
+7.9 Creating a Tabbed Dialog
+
+7.10 Creating a ProgressDialog
+
+7.11 Creating a Custom Dialog with Buttons, Images, and Text
+
+7.12 Creating a Reusable “About Box” Class
+
+7.13 Creating a Notification in the Status Bar
+
+
+### 8. Other GUI Elements: Lists and Views
+
+8.1 Building List-Based Applications with RecyclerView
+
+8.2 Building List-Based Applications with ListView
+
+8.3 Creating a “No Data” View for ListViews
+
+8.4 Creating an Advanced ListView with Images and Text
+
+8.5 Using Section Headers in ListViews
+
+8.6 Keeping the ListView with the User’s Focus
+
+8.7 Writing a Custom List Adapter
+
+8.8 Using a SearchView to Search Through Data in a ListView
+
+8.9 Handling Orientation Changes: From ListView Data Values to Landscape Charting
+
+
+### 9. Multimedia
+
+9.1 Playing a YouTube Video
+
+9.2 Capturing Video Using MediaRecorder
+
+9.3 Using Android’s Face Detection Capability
+
+9.4 Playing Audio from a File
+
+9.5 Playing Audio Without Interaction
+
+9.6 Using Speech to Text
+
+9.7 Making the Device Speak with Text-to-Speech
+
+
+### 10. Data Persistence
+
+10.1 Reading and Writing Files in Internal and External Storage
+
+10.2 Getting File and Directory Information
+
+10.3 Reading a File Shipped with the App Rather than in the Filesystem
+
+10.4 Getting Space Information About the SD Card
+
+10.5 Providing a Preference Activity
+
+10.6 Checking the Consistency of Default Shared Preferences
+
+10.7 Using a SQLite Database in an Android Application
+
+10.8 Performing Advanced Text Searches on a SQLite Database
+
+10.9 Working with Dates in SQLite
+
+10.10 Exposing Non-SQL Data as a SQL Cursor
+
+10.11 Displaying Data with a CursorLoader
+
+10.12 Parsing JSON Using JSONObject
+
+10.13 Parsing an XML Document Using the DOM API
+
+10.14 Storing and Retrieving Data via a Content Provider
+
+10.15 Writing a Content Provider
+
+10.16 Adding a Contact Through the Contacts Content Provider
+
+10.17 Reading Contact Data Using a Content Provider
+
+10.18 Implementing Drag and Drop
+
+10.19 Sharing Files via a FileProvider
+
+10.20 Backing Up Your SQLite Data to the Cloud with a SyncAdapter
+
+10.21 Storing Data in the Cloud with Google Firebase
+
+
+### 11. Telephone Applications
+
+11.1 Doing Something When the Phone Rings
+
+11.2 Processing Outgoing Phone Calls
+
+11.3 Dialing the Phone
+
+11.4 Sending Single-part or Multipart SMS Messages
+
+11.5 Receiving an SMS Message
+
+11.6 Using Emulator Controls to Send SMS Messages to the Emulator
+
+11.7 Using Android’s TelephonyManager to Obtain Device Information
+
+
+### 12. Networked Applications
+
+12.1 Consuming a RESTful Web Service Using a URLConnection
+
+12.2 Consuming a RESTful Web Service with Volley
+
+12.3 Notifying Your App with Google Cloud Messaging “Push Messaging”
+
+12.4 Extracting Information from Unstructured Text Using Regular Expressions
+
+12.5 Parsing RSS/Atom Feeds Using ROME
+
+12.6 Using MD5 to Digest Clear Text
+
+12.7 Converting Text into Hyperlinks
+
+12.8 Accessing a Web Page Using a WebView
+
+12.9 Customizing a WebView
+
+12.10 Writing an Inter-Process Communication Service
+
+
+### 13. Gaming and Animation
+
+13.1 Building an Android Game Using flixel-gdx
+
+13.2 Building an Android Game Using AndEngine
+
+13.3 Processing Timed Keyboard Input
+
+
+### 14. Social Networking
+
 
