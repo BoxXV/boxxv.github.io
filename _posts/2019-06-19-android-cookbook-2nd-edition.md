@@ -6,9 +6,11 @@ subtitle: Problems and Solutions for Android Developers
 
 ✅ Publisher: 	[O'Reilly Media](https://learning.oreilly.com/library/publisher/oreilly-media-inc/)
 
-✅ Year: 	2017
+✅ Year: 	May 10, 2017
 
 ✅ Authors: 	Ian F. Darwin
+
+✅ Language: English
 
 ✅ Pages: 	774
 
@@ -27,4 +29,35 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 - Lưu trữ và truy xuất dữ liệu liên tục trong các tệp và cơ sở dữ liệu nhúng
 - Truy cập các dịch vụ web RESTful với JSON và các định dạng khác
 - Kiểm tra và khắc phục sự cố các thành phần riêng lẻ và toàn bộ ứng dụng của bạn
+
+### Mục lục
+
+1. Getting Started
+
+1.1 Understanding the Android Application Architecture
+1.2 Understanding the Android Activity Life Cycle
+1.3 Learning About Android Releases
+1.4 Learning the Java Language
+1.5 Creating a “Hello, World” Application from the Command Line
+1.6 Creating a “Hello, World” App with Apache Maven
+1.7 Choosing an IDE for Android Development
+1.8 Setting Up Android Studio
+1.9 Installing Platform Editions and Keeping the SDK Updated
+1.10 Creating a “Hello, World” App Using Android Studio
+1.11 Converting an Eclipse ADT Project to Android Studio
+1.12 Preserving History While Converting from Eclipse to Android Studio
+1.13 Building an Android Application with both Eclipse and Android Studio
+1.14 Setting Up Eclipse with AndMore (Replacing ADT)
+1.15 Creating a “Hello, World” Application Using Eclipse
+1.16 Installing the Eclipse Marketplace Client in Your Eclipse
+1.17 Upgrading a Project from Eclipse ADT to Eclipse AndMore
+1.18 Controlling Emulators/Devices Using Command-Line ADB
+1.19 Sharing Java Classes from Another Eclipse Project
+1.20 Referencing Libraries to Implement External Functionality
+1.21 Using New Features on Old Devices via the Compatibility Libraries
+1.22 Using SDK Samples to Help Avoid Head Scratching
+1.23 Taking a Screenshot/Video from the Emulator/Android Device
+1.24 Program: A Simple CountDownTimer Example
+1.25 Program: Tipster, a Tip Calculator for the Android OS
+
 
