@@ -175,3 +175,36 @@ Lý tưởng cho các nhà phát triển quen thuộc với Java, kiến ​​t
 4.11 Sending Messages Between Threads Using an Activity Thread Queue and Handler
 
 4.12 Creating an Android Epoch HTML/JavaScript Calendar
+
+### 5. Graphics
+
+5.1 Using a Custom Font
+
+5.2 Drawing a Spinning Cube with OpenGL ES
+
+5.3 Adding Controls to the OpenGL Spinning Cube
+
+5.4 Freehand Drawing Smooth Curves
+
+5.5 Taking a Picture Using an Intent
+
+5.6 Taking a Picture Using android.media.Camera
+
+5.7 Scanning a Barcode or QR Code with the Google ZXing Barcode Scanner
+
+5.8 Using AndroidPlot to Display Charts and Graphs
+
+5.9 Using Inkscape to Create an Android Launcher Icon from OpenClipArt.org
+
+5.10 Using Paint.NET to Create Launcher Icons from OpenClipArt.org
+
+5.11 Using Nine Patch Files
+
+5.12 Creating HTML5 Charts with Android RGraph
+
+5.13 Adding a Simple Raster Animation
+
+5.14 Using Pinch to Zoom
+
+### 6. Graphical User Interface
+
