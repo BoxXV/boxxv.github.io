@@ -42,7 +42,7 @@ image: "img/post-book-cover.png"
 
 ## 19 SÁCH NÓI VỀ CHỦ ĐỀ TÀI CHÍNH
 
-![placeholder](http://placehold.it/800x400 "Large example image")
+![placeholder](img/post-book-img1.png "Large example image")
 
 1.	Sách lược đầu tư của Warren Buffet (Lý Thành Tư)
 2.	Nhà đầu tư thông minh (Ben Graham)
@@ -65,6 +65,9 @@ image: "img/post-book-cover.png"
 19.	Nghệ thuật quản lý tiền và tài sản của người Do Thái **
 
 ## 8 SÁCH NÓI VỀ MARKETING & SALES
+
+![placeholder](img/post-book-img2.png "Large example image")
+
 1.	Nghệ thuật bán hàng bậc cao (Zig Zig Lar)
 2.	22 Quy luật bất biến trong Marketing (Al Ries & Jack Trout)
 3.	Người bán hàng vĩ đại nhất thế giới (OG Mandino)
@@ -75,6 +78,9 @@ image: "img/post-book-cover.png"
 8.	Nghệ thuật bán hàng – giải mã thành công (Phạm Cao Tùng) **
 
 ## 14 SÁCH NÓI VỀ QUẢN TRỊ HAY NHẤT
+
+![placeholder](img/post-book-img3.png "Large example image")
+
 1.	Tuần làm việc 4 giờ (Tim Ferris)
 2.	Từ tốt đến vĩ đại (Jim Collins)
 3.	Đọc vị bất kỳ ai (Davis)
@@ -91,6 +97,9 @@ image: "img/post-book-cover.png"
 14.	Biết người, dùng người, quản người (Tạ Ngọc Ái)
 
 ## 16 SÁCH LỜI KHUYÊN KINH DOANH
+
+![placeholder](img/post-book-img4.png "Large example image")
+
 1.	Mặc kệ nó, làm tới đi (Richard Branson)
 2.	Những nguyên tắc thành công (Jack Canfield)
 3.	Tam quốc diễn nghĩa @ (Thành Quân Ức)
@@ -109,6 +118,9 @@ image: "img/post-book-cover.png"
 16.	11 lời khuyên dành cho thế hệ trẻ của Bill Gates **
 
 ## 7 CÂU CHUYỆN KINH DOANH CẢM HỨNG
+
+![placeholder](img/post-book-img5.png "Large example image")
+
 1.	Tứ đại quyền lực (Scott Galloway)
 2.	Quốc gia khởi nghiệp (Dan Senor, Saul Singer)
 3.	Sách đen về tinh thần doanh nhân (Fernando Trías De Bes)
