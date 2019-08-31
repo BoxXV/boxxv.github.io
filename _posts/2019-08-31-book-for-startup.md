@@ -41,6 +41,9 @@ image: "img/post-book-cover.png"
 18.	Tiền không phải là vấn đề (Bob Proctor) **
 
 ## 19 SÁCH NÓI VỀ CHỦ ĐỀ TÀI CHÍNH
+
+![placeholder](http://placehold.it/800x400 "Large example image")
+
 1.	Sách lược đầu tư của Warren Buffet (Lý Thành Tư)
 2.	Nhà đầu tư thông minh (Ben Graham)
 3.	Thịnh vượng tài chính tuổi 30
