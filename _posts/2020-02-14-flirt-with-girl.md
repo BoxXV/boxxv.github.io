@@ -2,6 +2,7 @@
 layout: post
 title: 22+ câu tán gái chất, thả thính cực mạnh
 subtitle: ... or not to be?
+image: "img/flirt-with-girl.jpg"
 tags: [tán gái, selfie, tán gái trong quán bar]
 ---
 
