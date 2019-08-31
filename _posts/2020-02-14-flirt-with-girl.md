@@ -2,7 +2,7 @@
 layout: post
 title: 22+ câu tán gái chất, thả thính cực mạnh
 subtitle: ... or not to be?
-image: "img/flirt-with-girl.jpg"
+image: "img/post-bg-01.jpg"
 tags: [tán gái, selfie, tán gái trong quán bar]
 ---
 ![placeholder](http://boxxv.com/img/flirt-with-girl.jpg "tán gái chất, thả thính cực mạnh")
