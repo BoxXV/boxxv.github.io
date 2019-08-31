@@ -4,17 +4,18 @@ title: 80 sách Kinh doanh - Làm giàu hay nhất mọi thời đại
 subtitle: Tổng hợp 80 quyển sách vĩ đại về kinh doanh kinh điển nhất do tạp chí New York Times bình chọn, giúp đạt được giấc mơ làm giàu 
 ---
 
-✅ 18 cuốn sách hay nhất về TƯ DUY KINH DOANH khác biệt của người thành công
+✅ 18 Cuốn sách hay nhất về `TƯ DUY KINH DOANH` khác biệt của người thành công
 
-✅ 19 cuốn sách bán chạy nhất về làm chủ và đạt được thịnh vượng TÀI CHÍNH từ các doanh nhân và nhà đầu tư sừng sỏ
+✅ 19 Cuốn sách bán chạy nhất về làm chủ và đạt được thịnh vượng `TÀI CHÍNH` từ các doanh nhân và nhà đầu tư sừng sỏ
 
-✅ 8 cuốn sách tiêu biểu về MARKETING & SALES, giúp bán được nhiều hàng, tạo dựng thương hiệu lớn
+✅ 8 Cuốn sách tiêu biểu về `MARKETING & SALES`, giúp bán được nhiều hàng, tạo dựng thương hiệu lớn
 
-✅ 14 cuốn sách kinh điển về QUẢN TRỊ, giúp bạn quản lý thật tốt công việc kinh doanh của mình
+✅ 14 Cuốn sách kinh điển về `QUẢN TRỊ`, giúp bạn quản lý thật tốt công việc kinh doanh của mình
 
-✅ 7 câu chuyện truyền cảm hứng từ các tập đoàn lớn và doanh nhân thành công nhất
+✅ 16 Sách lời khuyên kinh doanh
 
-✅ Size: 	7.43 MB
+✅ 7 Câu chuyện truyền cảm hứng từ các tập đoàn lớn và doanh nhân thành công nhất
+
 
 
 ## 18 CUỐN SÁCH VỀ TƯ DUY KINH DOANH
