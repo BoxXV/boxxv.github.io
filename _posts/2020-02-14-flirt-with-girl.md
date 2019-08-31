@@ -19,3 +19,11 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 >
 >
 >B: Kế bên em đó!
+
+
+>B: Anh bị thương rồi, em biết anh bị thương ở đâu hong?
+>
+>G: hong
+>
+>
+>B: Anh bị thương em đó!
