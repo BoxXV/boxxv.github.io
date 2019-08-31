@@ -55,4 +55,4 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 >B: Lúc em đánh rắm chắc cũng sẽ rất thơm
 
 
-[![](http://img.youtube.com/vi/VMDA04elOjI/0.jpg)](http://www.youtube.com/watch?v=VMDA04elOjI "")
+[![Thả thính xàm](http://img.youtube.com/vi/VMDA04elOjI/0.jpg)](http://www.youtube.com/watch?v=VMDA04elOjI "THẢ THÍNH XÀM")
