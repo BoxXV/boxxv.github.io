@@ -45,12 +45,12 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 >B: Vì những giấc mơ không có em chỉ toàn là ác mộng
 
 
-https://youtu.be/VMDA04elOjI
-
-
 >B: Em xinh như thế này á! Thì anh có thể đoán chắc chắn 1 điều về em.
 >
 >G: Là gì?
 >
 >
 >B: Lúc em đánh rắm chắc cũng sẽ rất thơm
+
+
+[![](http://img.youtube.com/vi/VMDA04elOjI/0.jpg)](http://www.youtube.com/watch?v=VMDA04elOjI "")
