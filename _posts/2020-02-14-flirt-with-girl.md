@@ -13,3 +13,9 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 >B: Tại vì em xinh giống như một ngôi sao vậy đó!
 
 
+>B: Em có biết trong 36 kế , thì kế nào là tốt nhất hong?
+>
+>G: hong
+>
+>
+>B: Kế bên em đó!
