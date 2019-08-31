@@ -3,7 +3,7 @@ layout: post
 title: 80 sách Kinh doanh - Làm giàu hay nhất mọi thời đại
 subtitle: Tổng hợp 80 quyển sách vĩ đại về kinh doanh kinh điển nhất do tạp chí New York Times bình chọn, giúp đạt được giấc mơ làm giàu 
 description: Tổng hợp 80 quyển sách vĩ đại về kinh doanh kinh điển nhất do tạp chí New York Times bình chọn, giúp đạt được giấc mơ làm giàu 
-image: "img/post-book-cover.jpg"
+image: "img/post-book-cover.png"
 ---
 
 ✅ 18 Cuốn sách hay nhất về `TƯ DUY KINH DOANH` khác biệt của người thành công
