@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 22+ câu tán gái chất
+title: 22+ câu tán gái chất, thả thính cực mạnh
 subtitle: ... or not to be?
 tags: [tán gái, selfie, tán gái trong quán bar]
 ---
@@ -27,3 +27,30 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 >
 >
 >B: Anh bị thương em đó!
+
+
+>B: Nếu em kết hôn với một người thì gọi người đó là gì?
+>
+>G: uhmm... chồng
+>
+>
+>B: Chồng đây vợ yếu.
+
+
+>B: Mấy nay anh ngủ mơ toàn ác mộng.
+>
+>G: Tại sao?
+>
+>
+>B: Vì những giấc mơ không có em chỉ toàn là ác mộng
+
+
+https://youtu.be/VMDA04elOjI
+
+
+>B: Em xinh như thế này á! Thì anh có thể đoán chắc chắn 1 điều về em.
+>
+>G: Là gì?
+>
+>
+>B: Lúc em đánh rắm chắc cũng sẽ rất thơm
