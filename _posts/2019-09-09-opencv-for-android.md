@@ -5,6 +5,7 @@ subtitle: Gần đây khi mình bắt đầu làm việc với OpenCV trên Andr
 ---
 
 [https://viblo.asia/search?q=opencv%20android](https://viblo.asia/search?q=opencv%20android)
+
 [https://medium.com/search?q=OpenCV%20Android](https://medium.com/search?q=OpenCV%20Android)
 
 
