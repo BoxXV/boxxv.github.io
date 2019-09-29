@@ -1,0 +1,134 @@
+@charset "utf-8";
+.Japanese-text12 {
+	font-family: "MS PMincho";
+	font-size: 12px;
+}
+.Japanese-text14 {
+	font-family: "MS PMincho";
+	font-size: 14px;
+}
+.Japanese-text16 {
+	font-family: "MS PMincho";
+	font-size: 16px;
+}
+.English-text12 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.English-text12-bold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.English-text14 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.English-code14 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+}
+.English-header16 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+.English-header18 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.English-header24 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+.English-header36 {
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.English-text12-red {
+	color: #F00;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.English-text12-green {
+	color: #0C0;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Dialogue-header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+.Japanese-text14-constant {
+	font-family: "MS Mincho";
+}
+.Japanese-text16-red    {
+	color: #F00;
+	font-family: "MS PMincho";
+	font-size: 16px;
+}
+.Japaneset-text18-Kyokasho {
+	font-family: HGPKyokashotai;
+	font-size: 18px;
+}
+
+.Japanese-text24 {
+	font-family: HGPKyokashotai;
+	font-size: 24px;
+}
+.J-100 {
+	font-size: 100px;
+}
+.Gyoushotai {
+	font-family: HGSGyoshotai;
+	font-size: 16px;
+}
+.Kyokashotai {
+	font-family: HGSKyokashotai;
+	font-size: 16px;
+}
+.Kakupopular {
+	font-family: HGSoeiKakupoptai;
+	font-size: 16px;
+}
+.Japanese-text36 {
+	font-size: 36px;
+	font-family: "MS PMincho";
+}
+.Japanese-text24-red {
+	color: #F00;
+	font-size: 24px;
+	font-family: HGSKyokashotai;
+}
+.Japanese-text18-red {
+	color: #F00;
+	font-family: HGPKyokashotai;
+	font-size: 18px;
+}
+.English-header14 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+.English-header14-red {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F00;
+	font-weight: bold;
+}
+.Japaneset-text16-Kyokasho {
+	font-size: 16px;
+	font-family: HGPKyokashotai;
+}
