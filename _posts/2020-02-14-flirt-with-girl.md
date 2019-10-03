@@ -55,7 +55,4 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 >B: Lúc em đánh rắm chắc cũng sẽ rất thơm
 
 
-
-<iframe width="720" height="315" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allowfullscreen></iframe>
-
-<iframe width="720" height="480" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allowfullscreen></iframe>
