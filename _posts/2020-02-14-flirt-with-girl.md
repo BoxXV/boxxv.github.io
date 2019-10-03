@@ -56,3 +56,5 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 
 
 [![Thả thính xàm](http://img.youtube.com/vi/VMDA04elOjI/0.jpg)](http://www.youtube.com/watch?v=VMDA04elOjI "THẢ THÍNH XÀM")
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allowfullscreen></iframe>
