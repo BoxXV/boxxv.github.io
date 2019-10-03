@@ -56,6 +56,6 @@ tags: [tán gái, selfie, tán gái trong quán bar]
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="315" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allowfullscreen></iframe>
 
-<iframe width="1226" height="480" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="720" height="480" src="https://www.youtube.com/embed/VMDA04elOjI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
