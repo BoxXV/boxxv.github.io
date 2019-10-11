@@ -8,8 +8,8 @@ image: /img/hello_world.jpeg
 
 | Từ vựng || Phiên âm || Dịch nghĩa |
 | -- | -- | -- | -- | -- |
-| `Minna No Nihongo` || みんな の 日本語 || Tiếng nhật cho mọi người |
-||| みんな の にほんご |||
+| `みんな の 日本語` || Minna No Nihongo || Tiếng nhật cho mọi người |
+| `みんな の にほんご` |||||
 | `わたし` || wa ta shi || tôi |
 | `あのひと` || ano hito || người kia |
 | `あのかた` || ano kata  || vị kia |
