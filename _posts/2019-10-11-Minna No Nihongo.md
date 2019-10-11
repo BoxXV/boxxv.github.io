@@ -35,3 +35,10 @@ image: /img/hello_world.jpeg
 | `フランス` || FURANSU || Pháp |
 | `ブラジル` || BURAJIRU || Brazil |
 
+| Ngữ pháp || Nghĩa || Ví dụ |
+| -- | -- | -- | -- | -- |
+| N1　`は`　N2　`です` || N1 là N2 || わたしは　がくせいです。 |
+||||| Tôi là học sinh |
+||||| さとさんは　せんせいです |
+||||| Sato là giáo viên |
+
