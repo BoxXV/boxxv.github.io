@@ -2,8 +2,7 @@
 layout: post
 title: Minna No Nihongo
 description: みんな の 日本語
-subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu. Cuốn sách bao gồm nhiều phiên bản hỗ trợ từng kỹ năng tiếng Nhật như Từ vựng, Ngữ pháp, Kanji, hay Đọc hiểu và Nghe hiểu.
-image: /img/hello_world.jpeg
+subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
 ---
 
 | Từ vựng || Phiên âm || Dịch nghĩa |
