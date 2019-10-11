@@ -18,4 +18,6 @@ Minna No Nihongo là cuốn sách được đông đảo người học tiếng 
 | `あのかた` || ano kata  || vị kia |
 | `～じん` || ～jina  || người nước ～ |
 | `かいしゃいん` || ～kai shain  || nhân viên công ty |
+| `エンジニア` || ENJINIA  || kỹ sư |
+
 
