@@ -69,6 +69,20 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `テレホンカード` || TELEHONKA-DO || thẻ điện thoại |
 | `えんびつ` || embitsu || bút chì |
 | `ポールペン` || BO-RUPEN || bút bi |
+| `シャープペンシル` || SHA-PUPENSHIRU || bút chì bấm |
+| `とけい` || tokei || đồng hồ |
+| `かさ` || kasa || cái dù |
+| `かばん` || kaban || cái cặp |
+| `テレビ` || TEREBI || cái TV |
+| `ラジオ` || RAZIO || cái radio |
+| `カメラ` || KAMERA || cái máy chụp hình |
+| `コンピューター` || KOMPYU-TA || máy vi tính |
+| `じどうしゃ` || jidousha || xe hơi |
+| `つくえ` || tsukue || cái bàn |
+| `チョコレート` || CHOKORE-TO || kẹo sôcôla |
+| `コーヒー` || KO-HI || cà phê |
+| `えいご` || eigo || tiếng Anh |
+| `にほんご` || nihongo || tiếng Nhật |
 
 [Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 1](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1)
 
