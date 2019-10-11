@@ -50,7 +50,7 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | -- | -- | -- | -- | -- |
 | `これ / それ / あれ`はNです || `kore` / `sore` / `are` || Cái này/cái đó/cái là N |
 | はい、そうです。 || hai, sou desu || Vâng, phải. |
-| N1`は`N2`じゃありません` || N1`wa`N2`jaa rimasen` || N1 `không phải là` N2 |
+| いいえ、そうじゃありません。 || iie, sō jaa rimasen` || N1 `không phải là` N2 |
 | N1`も`N2`です` || N1`mo`N2`desu` || N1 `cũng là` N2 |
 | N1`は`N2`の`N3`です` || N1`wa`N2`no`N3`desu` || N1 `là` N2 `của` N3 |
 
