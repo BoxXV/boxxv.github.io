@@ -70,10 +70,10 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `えんびつ` || embitsu || bút chì |
 | `ポールペン` || BO-RUPEN || bút bi |
 
-https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1
+[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 1](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1)
 
-https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-2
+[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 2](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-2)
 
-http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)
 
-http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)
