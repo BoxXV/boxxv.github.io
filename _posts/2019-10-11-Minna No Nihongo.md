@@ -20,5 +20,21 @@ Minna No Nihongo là cuốn sách được đông đảo người học tiếng 
 | `かいしゃいん` || ～kai shain  || nhân viên công ty |
 | `エンジニア` || ENJINIA  || kỹ sư |
 | `～さい` || ～sai  || tuổi |
-
+| `なんさい` || nan sai  || mấy tuổi |
+| `はい` || hai || vâng |
+| `いいえ` || iie || không |
+| `おなまえは？` || onamaewa || bạn tên gì? |
+| `はじめまして` || hajimemashite || chào lần đầu gặp nhau |
+| `どうぞよろしくおねがいします` || douzoyoroshiku onegaishimasu || rất hân hạnh được làm quen |
+| `アメリカ` || AMERIKA || Mỹ |
+| `イギリス` || IGIRISU || Anh |
+| `インド` || INDO || Ấn Độ |
+| `インドネシア` || INDONESHIA || Indonesia |
+| `かんこく` || kankoku || Hàn quốc |
+| `タイ` || TAI || Thái Lan |
+| `ちゅうごく` || chuugoku || Trung Quốc |
+| `ドイツ` || DOITSU || Đức |
+| `にほん` || nihon || Nhật |
+| `フランス` || FURANSU || Pháp |
+| `ブラジル` || BURAJIRU || Brazil |
 
