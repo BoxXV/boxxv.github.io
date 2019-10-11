@@ -36,8 +36,12 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 
 | Ngữ pháp || Nghĩa || Ví dụ |
 | -- | -- | -- | -- | -- |
-| N1　`は`　N2　`です` || N1 wa N2 desu || わたしは　がくせいです。 |
+| N1　`は`　N2　`です` || N1 `wa` N2 `desu` || わたしは　がくせいです。 |
 ||| N1 là N2 || Tôi là học sinh |
 ||||| さとさんは　せんせいです |
 ||||| Sato là giáo viên |
+| N1　`は`　N2　`じゃありません` || N1 `wa` N2 `` || わたしは　せんせい　じゃありません。 |
+||| N1 không phải là N2 || Tôi không phải là giáo viên |
+||||| ワンさんは　エンジニアじゃありません |
+||||| Wan không phải là kĩ sư |
 
