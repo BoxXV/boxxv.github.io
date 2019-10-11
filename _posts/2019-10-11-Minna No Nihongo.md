@@ -14,7 +14,8 @@ Minna No Nihongo là cuốn sách được đông đảo người học tiếng 
 | Từ vựng || Phiên âm || Dịch nghĩa |
 | -- | -- | -- | -- | -- |
 | `わたし` || wa ta shi || tôi |
-| `あのひと` || a no hi to || người kia |
-| `あのかた` || a no ka ta  || vị kia |
+| `あのひと` || ano hito || người kia |
+| `あのかた` || ano kata  || vị kia |
 | `～じん` || ～jina  || người nước ～ |
+| `かいしゃいん` || ～kai shain  || nhân viên công ty |
 
