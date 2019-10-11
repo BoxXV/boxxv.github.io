@@ -34,6 +34,8 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `フランス` || FURANSU || Pháp |
 | `ブラジル` || BURAJIRU || Brazil |
 
+-----
+
 | Ngữ pháp || Nghĩa || Ví dụ |
 | -- | -- | -- | -- | -- |
 | N1`は`N2`です` || N1`wa`N2`desu` || わたしはがくせいです。 |
