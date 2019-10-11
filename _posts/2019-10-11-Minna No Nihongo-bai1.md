@@ -35,10 +35,13 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `ブラジル` || BURAJIRU || Brazil |
 
 -----
+
 | Từ vựng || Phiên âm || Dịch nghĩa |
 | -- | -- | -- | -- | -- |
 | `みんな の 日本語` || Minna No Nihongo || Tiếng nhật cho mọi người |
+
 -----
+
 | Ngữ pháp | | Nghĩa | | Ví dụ |
 | -- | -- | -- | -- | -- |
 | N1`は`N2`です` | | N1`wa`N2`desu` | | わたしはがくせいです。 |
