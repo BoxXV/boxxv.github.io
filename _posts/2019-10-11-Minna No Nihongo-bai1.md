@@ -60,6 +60,15 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | -- | -- | -- | -- | -- |
 | `ほん` || hon || sách |
 | `じしょ` || jisho || từ điển |
+| `ざっし` || zasshi || tạp chí |
+| `しんぶん` || shimbun || báo |
+| `ノート` || NOTO || vở |
+| `てちょう` || techou || sổ tay |
+| `めいし` || meishi || danh thiếp |
+| `カード` || KA-DO || thẻ, các, cạc |
+| `テレホンカード` || TELEHONKA-DO || thẻ điện thoại |
+| `えんびつ` || embitsu || bút chì |
+| `ポールペン` || BO-RUPEN || bút bi |
 
 https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1
 
