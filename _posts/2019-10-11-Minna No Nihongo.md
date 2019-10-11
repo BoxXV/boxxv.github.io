@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Minna No Nihongo
+description: みんな の 日本語
 image: /img/hello_world.jpeg
 ---
 **Minna No Nihongo**
