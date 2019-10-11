@@ -19,5 +19,6 @@ Minna No Nihongo là cuốn sách được đông đảo người học tiếng 
 | `～じん` || ～jina  || người nước ～ |
 | `かいしゃいん` || ～kai shain  || nhân viên công ty |
 | `エンジニア` || ENJINIA  || kỹ sư |
+| `～さい` || ～sai  || tuổi |
 
 
