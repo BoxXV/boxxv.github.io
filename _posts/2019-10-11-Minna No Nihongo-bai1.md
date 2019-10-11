@@ -36,13 +36,13 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 
 -----
 
-| Ngữ pháp || Nghĩa || Ví dụ |
+| Ngữ pháp | | Nghĩa | | Ví dụ |
 | -- | -- | -- | -- | -- |
-| N1`は`N2`です` || N1`wa`N2`desu` || わたしはがくせいです。 |
-||| N1 `là` N2 || Tôi là học sinh |
-| N1`は`N2`じゃありません` || N1`wa`N2`jaa rimasen` || わたしは せんせい　じゃありません。 |
-||| N1 `không phải là` N2 || Tôi không phải là giáo viên |
-| N1`は`N2`ですか` || N1`wa`N2`desu ka` || あなた　は　さとさんですか。 |
-||| N1 có phải là N2 không? || Bạn có phải là Miller không? |
+| N1`は`N2`です` | | N1`wa`N2`desu` | | わたしはがくせいです。 |
+| | | N1 `là` N2 | | Tôi là học sinh |
+| N1`は`N2`じゃありません` | | N1`wa`N2`jaa rimasen` | | わたしは せんせい　じゃありません。 |
+| | | N1 `không phải là` N2 | | Tôi không phải là giáo viên |
+| N1`は`N2`ですか` | | N1`wa`N2`desu ka` | | あなた　は　さとさんですか。 |
+| | | N1 có phải là N2 không? | | Bạn có phải là Miller không? |
 
 
