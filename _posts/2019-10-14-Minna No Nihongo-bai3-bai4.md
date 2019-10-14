@@ -32,6 +32,17 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `でんわ` || denwa || máy điện thoại, điện thoại |
 | `くつ` || kutsu || giầy |
 | `ネクタイ` || nekutai || cà vạt |
+| `ワイン` || wain || rượu vang |
+| `たばこ` || tabako || thuốc lá |
+| `うり` || uriba || quầy bán (trong một cửa hàng bách hóa) |
+| `ちか` || chika || tầng hầm, dưới mặt đất |
+| `―かい（－がい）` || ～kai(-gai) || tầng thứ – |
+| `なんがい` || nangai || tầng mấy |
+| `―えん` || ～en || -yên |
+| `いくら` || ikura || bao nhiêu tiền |
+| `ひゃく` || hyaku || trăm |
+| `せん` || sen || nghìn |
+| `まん` || man || mười nghìn, vạn |
 
 | `いしゃ` || isha || bác |
 | `いしゃ` || isha || bác |
