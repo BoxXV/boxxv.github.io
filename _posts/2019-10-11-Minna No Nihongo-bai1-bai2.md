@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minna No Nihongo Bài 1
+title: Minna No Nihongo Bài 1 + Bài 2
 description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
 ---
@@ -90,4 +90,4 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)
 
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 2](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)
