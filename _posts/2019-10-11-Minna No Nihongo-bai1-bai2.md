@@ -22,9 +22,13 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `きょうし` || kyoushi || giáo viên ( dùng để nói đến nghề nghiệp) |
 | `がくせい` || gakusei || học sinh, sinh viên |
 | `かいしゃいん` || ～kai shain || nhân viên công ty |
-| `エンジニア` || ENJINIA  || kỹ sư |
+| `～しゃいん` || ～shain || nhân viên công ty ～ |
+| `ぎんこういん` || ginkouin  || nhân viên ngân hàng |
+| `いしゃ` || isha || bác sĩ |
+| `けんきゅうしゃ` || kenkyuusha || nghiên cứu sinh |
+| `エンジニア` || ENJINIA || kỹ sư |
 | `～さい` || ～sai  || tuổi |
-| `なんさい` || nan sai  || mấy tuổi |
+| `なんさい` || nan sai || mấy tuổi |
 | `はい` || hai || vâng |
 | `いいえ` || iie || không |
 | `おなまえは？` || onamaewa || bạn tên gì? |
