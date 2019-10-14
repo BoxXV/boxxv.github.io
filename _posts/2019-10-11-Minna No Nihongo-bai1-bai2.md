@@ -35,9 +35,12 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `なんさい` || nan sai || mấy tuổi |
 | `はい` || hai || vâng |
 | `いいえ` || iie || không |
+| `しつれいですが` || shitsurei desu ga || xin lỗi (khi muốn nhờ ai việc gì đó) |
 | `おなまえは？` || onamaewa || bạn tên gì? |
 | `はじめまして` || hajimemashite || chào lần đầu gặp nhau |
 | `どうぞよろしくおねがいします` || douzoyoroshiku onegaishimasu || rất hân hạnh được làm quen |
+| `こちらは～さんです` || kochirawa ～san desu || đây là ngài |
+| `～からきました` || ～kara kimashita || đến từ ～ |
 | `アメリカ` || AMERIKA || Mỹ |
 | `イギリス` || IGIRISU || Anh |
 | `インド` || INDO || Ấn Độ |
@@ -49,6 +52,7 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `にほん` || nihon || Nhật |
 | `フランス` || FURANSU || Pháp |
 | `ブラジル` || BURAJIRU || Brazil |
+| `さくらだいがく` || sakura daigaku || Trường ĐH Sakura (Hoa Anh Đào) |
 
 -----
 
