@@ -10,8 +10,13 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `みんな の 日本語` || Minna No Nihongo || Tiếng nhật cho mọi người |
 | `みんな の にほんご` |||||
 | `わたし` || wa ta shi || tôi |
+| `わたしたち` || watashitachi || chúng tôi |
 | `あのひと` || ano hito || người kia |
 | `あのかた` || ano kata  || vị kia |
+| `みなさん` || minasan || các bạn, các anh, các chị, mọi người |
+| `～さん` || ～san || anh ～, chị ～ |
+| `～ちゃん` || ～chan || bé ( dùng cho nữ) hoặc gọi thân mật cho trẻ con ( cả nam lẫn nữ) |
+| `～くん` || ～kun  || bé (dùng cho nam) hoặc gọi thân mật |
 | `～じん` || ～jina  || người nước ～ |
 | `かいしゃいん` || ～kai shain  || nhân viên công ty |
 | `エンジニア` || ENJINIA  || kỹ sư |
