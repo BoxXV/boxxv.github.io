@@ -74,6 +74,7 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `この/その/あの`N1`は`N2`の`です || `kono`/`sono`/`ano` || N1 này/đó/kia là của N2 |
 | はい、そうです。 || hai, sou desu || Vâng, phải. |
 | いいえ、そうじゃありません。 || iie, sou jaa rimasen || Không, Không phải |
+| そうですか。 || sou desu ka || Vậy à! |
 
 -----
 
