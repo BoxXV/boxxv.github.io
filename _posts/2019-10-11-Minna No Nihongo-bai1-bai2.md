@@ -16,9 +16,12 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `みなさん` || minasan || các bạn, các anh, các chị, mọi người |
 | `～さん` || ～san || anh ～, chị ～ |
 | `～ちゃん` || ～chan || bé ( dùng cho nữ) hoặc gọi thân mật cho trẻ con ( cả nam lẫn nữ) |
-| `～くん` || ～kun  || bé (dùng cho nam) hoặc gọi thân mật |
-| `～じん` || ～jina  || người nước ～ |
-| `かいしゃいん` || ～kai shain  || nhân viên công ty |
+| `～くん` || ～kun || bé (dùng cho nam) hoặc gọi thân mật |
+| `～じん` || ～jina || người nước ～ |
+| `せんせい` || sensei || giáo viên |
+| `きょうし` || kyoushi || giáo viên ( dùng để nói đến nghề nghiệp) |
+| `がくせい` || gakusei || học sinh, sinh viên |
+| `かいしゃいん` || ～kai shain || nhân viên công ty |
 | `エンジニア` || ENJINIA  || kỹ sư |
 | `～さい` || ～sai  || tuổi |
 | `なんさい` || nan sai  || mấy tuổi |
