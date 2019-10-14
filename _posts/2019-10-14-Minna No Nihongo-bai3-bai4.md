@@ -21,38 +21,22 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `かいぎしつ` || kaigishitsu || phòng họp |
 | `うけつけ` || uketsuke || bộ phận tiếp tân, phòng thường trực |
 | `ロビー` || robiｰ || hành lang, đại sảnh |
+| `へや` || heya || căn phòng |
+| `トイレ（おてあらい）` || toire(otearai) || nhà vệ sinh, phòng vệ sinh, toa-lét |
+| `かいだん` || kaidan || cầu thang |
+| `エレベーター` || erebeｰtaｰ || thang máy |
+| `エスカレーター` || esukareｰtaｰ || thang cuốn |
+| `[お]くに` || [o]kuni || đất nước (của anh/chị) |
+| `かいしゃ` || kaisha || công ty |
+| `うち` || uchi || nhà |
+| `でんわ` || denwa || máy điện thoại, điện thoại |
+| `くつ` || kutsu || giầy |
+| `ネクタイ` || nekutai || cà vạt |
 
-| `～しゃいん` || ～shain || nhân viên ngân hàng |
-| `ぎんこういん` || ginkouin  || bác sĩ |
-| `いしゃ` || isha || bác sĩ |
-| `けんきゅうしゃ` || kenkyuusha || nghiên cứu sinh |
-| `エンジニア` || ENJINIA || kỹ sư |
-| `だいがく` || daigaku || trường đại học |
-| `びょういん` || byouin || bệnh viện |
-| `だれ` || dare  || ai (hỏi người nào đó) |
-| `どなた` || donata  || ngài nào, vị nào |
-| `～さい` || ～sai  || tuổi |
-| `なんさい` || nan sai || mấy tuổi |
-| `はい` || hai || vâng |
-| `いいえ` || iie || không |
-| `しつれいですが` || shitsurei desu ga || xin lỗi (khi muốn nhờ ai việc gì đó) |
-| `おなまえは？` || onamaewa || bạn tên gì? |
-| `はじめまして` || hajimemashite || chào lần đầu gặp nhau |
-| `どうぞよろしくおねがいします` || douzoyoroshiku onegaishimasu || rất hân hạnh được làm quen |
-| `こちらは～さんです` || kochirawa ～san desu || đây là ngài |
-| `～からきました` || ～kara kimashita || đến từ ～ |
-| `アメリカ` || AMERIKA || Mỹ |
-| `イギリス` || IGIRISU || Anh |
-| `インド` || INDO || Ấn Độ |
-| `インドネシア` || INDONESHIA || Indonesia |
-| `かんこく` || kankoku || Hàn quốc |
-| `タイ` || TAI || Thái Lan |
-| `ちゅうごく` || chuugoku || Trung Quốc |
-| `ドイツ` || DOITSU || Đức |
-| `にほん` || nihon || Nhật |
-| `フランス` || FURANSU || Pháp |
-| `ブラジル` || BURAJIRU || Brazil |
-| `さくらだいがく` || sakura daigaku || Trường ĐH Sakura (Hoa Anh Đào) |
+| `いしゃ` || isha || bác |
+| `いしゃ` || isha || bác |
+| `いしゃ` || isha || bác |
+
 
 -----
 
