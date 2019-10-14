@@ -15,11 +15,11 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `あのかた` || ano kata  || vị kia |
 | `みなさん` || minasan || các bạn, các anh, các chị, mọi người |
 | `～さん` || ～san || anh ～, chị ～ |
-| `～ちゃん` || ～chan || bé ( dùng cho nữ) hoặc gọi thân mật cho trẻ con ( cả nam lẫn nữ) |
+| `～ちゃん` || ～chan || bé (dùng cho nữ) hoặc gọi thân mật cho trẻ con ( cả nam lẫn nữ) |
 | `～くん` || ～kun || bé (dùng cho nam) hoặc gọi thân mật |
 | `～じん` || ～jina || người nước ～ |
 | `せんせい` || sensei || giáo viên |
-| `きょうし` || kyoushi || giáo viên ( dùng để nói đến nghề nghiệp) |
+| `きょうし` || kyoushi || giáo viên (dùng để nói đến nghề nghiệp) |
 | `がくせい` || gakusei || học sinh, sinh viên |
 | `かいしゃいん` || ～kai shain || nhân viên công ty |
 | `～しゃいん` || ～shain || nhân viên công ty ～ |
@@ -27,6 +27,8 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `いしゃ` || isha || bác sĩ |
 | `けんきゅうしゃ` || kenkyuusha || nghiên cứu sinh |
 | `エンジニア` || ENJINIA || kỹ sư |
+| `だいがく` || daigaku || trường đại học |
+| `びょういん` || byouin || bệnh viện |
 | `～さい` || ～sai  || tuổi |
 | `なんさい` || nan sai || mấy tuổi |
 | `はい` || hai || vâng |
@@ -99,6 +101,10 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 [Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 1](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1)
 
 [Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 2](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-2)
+
+[Bài 01 - Từ vựng - Học tiếng Nhật online miễn phí](https://www.vnjpclub.com/minna-no-nihongo-1998/bai-1-tu-vung.html)
+
+[Từ vựng Minna no Nihongo bài 1](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-1.html)
 
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)
 
