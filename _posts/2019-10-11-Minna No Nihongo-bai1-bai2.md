@@ -29,6 +29,8 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `エンジニア` || ENJINIA || kỹ sư |
 | `だいがく` || daigaku || trường đại học |
 | `びょういん` || byouin || bệnh viện |
+| `だれ` || dare  || ai (hỏi người nào đó) |
+| `どなた` || donata  || ngài nào, vị nào |
 | `～さい` || ～sai  || tuổi |
 | `なんさい` || nan sai || mấy tuổi |
 | `はい` || hai || vâng |
