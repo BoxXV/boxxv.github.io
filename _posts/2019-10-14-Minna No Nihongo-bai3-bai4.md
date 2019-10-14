@@ -43,10 +43,15 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `ひゃく` || hyaku || trăm |
 | `せん` || sen || nghìn |
 | `まん` || man || mười nghìn, vạn |
-
-| `いしゃ` || isha || bác |
-| `いしゃ` || isha || bác |
-| `いしゃ` || isha || bác |
+| `すみません` || sumimasen || Xin lỗi |
+| `～でございます` || ～degozaimasu || cách nói lịch sự của 「です」 |
+| `みせてください` || misetekudasai || cho tôi xem [~] |
+| `じゃ` || ja || thế thì, vậy thì |
+| `[～を]ください` || [～wo]kudasai || cho tôi [~] |
+| `しんおおさか` || shinoosaka || tên một nhà ga ở Osaka |
+| `イタリア` || itaria || Ý |
+| `スイス` || suisu || Thụy Sĩ |
+| `ＭＴ/ヨーネン/アキックス	` || MT/yoｰnen/akikkusu || tên các công ty giả tưởng |
 
 
 -----
