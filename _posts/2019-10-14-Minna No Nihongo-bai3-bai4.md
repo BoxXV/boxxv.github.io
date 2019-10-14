@@ -7,23 +7,23 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 
 | Từ vựng || Phiên âm || Dịch nghĩa |
 | -- | -- | -- | -- | -- |
-| `みんな の 日本語` || Minna No Nihongo || Tiếng nhật cho mọi người |
-| `みんな の にほんご` |||||
-| `わたし` || wa ta shi || tôi |
-| `わたしたち` || watashitachi || chúng tôi |
-| `あのひと` || ano hito || người kia |
-| `あのかた` || ano kata  || vị kia |
-| `みなさん` || minasan || các bạn, các anh, các chị, mọi người |
-| `～さん` || ～san || anh ～, chị ～ |
-| `～ちゃん` || ～chan || bé (dùng cho nữ) hoặc gọi thân mật cho trẻ con ( cả nam lẫn nữ) |
-| `～くん` || ～kun || bé (dùng cho nam) hoặc gọi thân mật |
-| `～じん` || ～jina || người nước ～ |
-| `せんせい` || sensei || giáo viên |
-| `きょうし` || kyoushi || giáo viên (dùng để nói đến nghề nghiệp) |
-| `がくせい` || gakusei || học sinh, sinh viên |
-| `かいしゃいん` || ～kai shain || nhân viên công ty |
-| `～しゃいん` || ～shain || nhân viên công ty ～ |
-| `ぎんこういん` || ginkouin  || nhân viên ngân hàng |
+| `ここ` || koko || chỗ này, đây |
+| `そこ` || soko || chỗ đó, đó |
+| `あそこ` || asoko || chỗ kia, kia |
+| `どこ` || doko || chỗ nào, đâu |
+| `こちら` || kochira || phía này, đằng này, chỗ này, đây |
+| `そちら` || sochira || phía đó, đằng đó, chỗ đó, đó |
+| `あちら` || achira  || phía kia, đằng kia, chỗ kia, kia |
+| `どちら` || dochira || phía nào, đằng nào, chỗ nào, đâu |
+| `きょうしつ` || kyoushitsu || lớp học, phòng học |
+| `しょくどう` || shokudou || nhà ăn |
+| `じむしょ` || jimusho || văn phòng |
+| `かいぎしつ` || kaigishitsu || phòng họp |
+| `うけつけ` || uketsuke || bộ phận tiếp tân, phòng thường trực |
+| `ロビー` || robiｰ || hành lang, đại sảnh |
+
+| `～しゃいん` || ～shain || nhân viên ngân hàng |
+| `ぎんこういん` || ginkouin  || bác sĩ |
 | `いしゃ` || isha || bác sĩ |
 | `けんきゅうしゃ` || kenkyuusha || nghiên cứu sinh |
 | `エンジニア` || ENJINIA || kỹ sư |
