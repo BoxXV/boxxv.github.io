@@ -106,14 +106,7 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `えいご` || eigo || tiếng Anh |
 | `にほんご` || nihongo || tiếng Nhật |
 
-[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 1](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1)
+[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 3](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-3)
 
-[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 2](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-2)
+[Bài 03 - Từ vựng - Học tiếng Nhật online miễn phí](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-3.html)
 
-[Bài 01 - Từ vựng - Học tiếng Nhật online miễn phí](https://www.vnjpclub.com/minna-no-nihongo-1998/bai-1-tu-vung.html)
-
-[Từ vựng Minna no Nihongo bài 1](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-1.html)
-
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)
-
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 2](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)
