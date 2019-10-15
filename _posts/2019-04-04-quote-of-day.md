@@ -86,8 +86,9 @@ There is little difference in people, but that little difference makes a big dif
 
 33. Chúng ta có thể tự mua son môi, đừng mong mỏi người khác tặng.
 34. Nếu bạn sợ làm một việc nào đó, thế thì hãy làm nó đi!
-35 Người đọc sách nhiều thực sự khí chất rất khác.
+35. Người đọc sách nhiều thực sự khí chất rất khác.
 36. Mọi mối quan hệ trở nên nhạt nhẽo là vì một người không nói, người kia không hỏi. Hoặc là một người hỏi qua loa, người kia trả lời cho có.
+
 <em>\- Lê Thẩm Dương \-</em>
 
 
