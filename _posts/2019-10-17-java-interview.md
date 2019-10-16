@@ -59,6 +59,16 @@ tags:
 35. Người đọc sách nhiều thực sự khí chất rất khác.
 36. Mọi mối quan hệ trở nên nhạt nhẽo là vì một người không nói, người kia không hỏi. Hoặc là một người hỏi qua loa, người kia trả lời cho có.
 
+## Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question
+1. Lập trình hướng đối tượng là gì 
+2. Các tính chất của lập trình hướng đối tượng trong Java?
+3. Các kiểu dữ liệu nguyên thủy
+4. Autoboxing và Unboxing trong Java là gì?
+5. Phân biệt List và ArrayList?
+6. Sự khác nhau giữa Array và ArrayList? 
+
+Sự khác nhau cơ bản giữa SOAP và RESTful ?
+
 ## Top 10 câu hỏi phỏng vấn Java thường gặp
 1. Trên thang điểm 10 – Bạn đánh giá mình được bao nhiêu điểm?
 2. Bạn biết về những loại Collection nào?
@@ -74,6 +84,6 @@ tags:
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
-- [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb)
+- [Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question](https://giai-ma.blogspot.com/2017/04/ngan-hang-cau-hoi-phong-van-ngon-ngu.html)
 - [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](http://boxxv.com/2019/05/19/top-20-questions-interview-and-asked/)
