@@ -59,10 +59,21 @@ tags:
 35. Người đọc sách nhiều thực sự khí chất rất khác.
 36. Mọi mối quan hệ trở nên nhạt nhẽo là vì một người không nói, người kia không hỏi. Hoặc là một người hỏi qua loa, người kia trả lời cho có.
 
+## Top 10 câu hỏi phỏng vấn Java thường gặp
+1. Trên thang điểm 10 – Bạn đánh giá mình được bao nhiêu điểm?
+2. Bạn biết về những loại Collection nào?
+3. Liệt kê 5 đặc điểm bất kỳ của Java?
+4. Object Class có những Method nào?
+5. Tại sao String Object không thể thay đổi (Immutable) trong Java?
+6. Sự khác biệt giữa Final, Finally, và Finalize là gì?
+7. Vấn đề Diamond Problem là gì?
+8. Làm thế nào bạn có thể làm cho một class không thể thay đổi?
+9. Singleton có nghĩa là gì?
+10. Dependency Injection là gì?
 
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
 - [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb)
-- [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-2-L4x5xkyglBM)
+- [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](http://boxxv.com/2019/05/19/top-20-questions-interview-and-asked/)
