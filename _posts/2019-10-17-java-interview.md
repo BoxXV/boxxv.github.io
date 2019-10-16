@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tổng hợp những câu hỏi phỏng vấn Java và gợi ý trả lời
+title: Tổng hợp những câu hỏi phỏng vấn Java
 subtitle: Vì một tương lai lương Java cao ngất
 tags:
 - Java
