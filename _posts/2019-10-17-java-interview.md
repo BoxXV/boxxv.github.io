@@ -83,7 +83,7 @@ Sự khác nhau cơ bản giữa SOAP và RESTful ?
 
 
 Tham khảo:
-- [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
+- [69 câu hỏi phỏng vấn về Spring](https://codeaholicguy.com/2016/01/28/69-cau-hoi-phong-van-ve-spring-phan-1/)
 - [Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question](https://giai-ma.blogspot.com/2017/04/ngan-hang-cau-hoi-phong-van-ngon-ngu.html)
 - [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](http://boxxv.com/2019/05/19/top-20-questions-interview-and-asked/)
