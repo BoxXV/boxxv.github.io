@@ -40,7 +40,17 @@ Vì onCreate() chỉ được gọi tới một lần nên đây là thời đi�
 - IntentService là một loại Service để xử lý lần lượt các yêu cầu bất đồng bộ (thông qua Intent) ở background thread. Client sẽ gửi yêu cầu thông qua việc gọi tới startService(Intent) và nó cũng không yêu cầu bạn phải "động tay động chân" tới việc xử lý thread / handler.
 - Một Thread là một luồng thực thi tuần tự trong một chương trình. Thread có thể được coi là một mini-process chạy ở trong main process.
 
+#### 9. Job Scheduling là gì?
+Job Scheduling API, như tên gọi của nó, cho phép chúng ta lên lịch công việc trong khi hệ thống sẽ thực hiện công việc tối ưu hóa dựa trên bộ nhớ, nguồn và trạng thái kết nối. JobScheduler hỗ trợ lập lịch biểu các công việc. Hệ thống Android có thể kết hợp các công việc này để giảm lượng tiêu thụ pin. JobManager giúp việc xử lý upload dễ dàng hơn vì nó tự động xử lý các trạng thái kết nối của mạng. Nó cũng sẽ sống sót kể cả khi ứng dụng bị khởi động lại. Một số tình huống hữu ích:
+- Các tác vụ cần được thực hiện khi thiết bị được kết nối với nguồn điện.
+- Các tác vụ yêu cầu truy cập mạng hoặc kết nối Wi-Fi.
+- Các tác vụ không quan trọng hay không được người dụng chú ý đến.
+- Các tác vụ cần được chạy thường xuyên dưới dạng hàng loạt trong đó yếu tố thời gian không quá quan trọng.
 
+
+#### 
+#### 
+#### 
 #### 
 #### 
 #### 
