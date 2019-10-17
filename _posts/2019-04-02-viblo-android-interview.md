@@ -73,9 +73,48 @@ Serialization là quá trình chuyển đổi một đối tượng thành một
 #### 15. Bạn sẽ cập nhật UI trên activity từ một background service như thế nào?
 Ta cần phải đăng ký một LocalBroadcastReceiver trong activity đó. Và gửi một broadcast với dữ liệu chứa trong intent từ background service này. Miễn là activity còn hoạt động ở trên foreground, giao diện người dùng sẽ được cập nhật. Lưu ý bạn nên nhớ hủy đăng ký broadcast receiver ở trong phương thức Stop()của activity để tránh bị memory leak. Ta cũng có thể sử dụng một Handler để truyền dữ liệu thông qua nó.
 
-#### 
+#### 16. Sự khác biệt giữa việc add / replace fragment trong backstack?
+- replace loại bỏ fragment hiện có và thêm một fragment mới vào. Điều này có nghĩa là khi bạn nhấn nút quay lại, fragment đã được thay thế sẽ được khởi tạo lại với onCreateView của nó được gọi.
+- add giữ lại các fragment hiện có và thêm một fragment mới đè lên chúng, có nghĩa là fragment hiện có sẽ hoạt động và những fragment ở dưới sẽ không rơi vào trạng thái paused. Do đó khi nút back được nhấn onCreateView không được gọi cho những fragment này.
 
-#### 
+#### 17. Tại sao ta nên truyền các tham số vào Fragment thông qua Bundle?
+Lý do tại sao bạn nên chuyển các tham số thông qua bundle là vì khi hệ thống khôi phục một fragment (ví dụ: người dùng thay đổi cấu hình), nó sẽ tự động khôi phục bundle của bạn. Bằng cách này, bạn đảm bảo được rằng trạng thái của fragment sẽ được khôi phục một cách chính xác về đúng trạng thái của fragment đó khi được khởi tạo.
+
+#### 18. Retained fragment là gì?
+Mặc định, Fragment sẽ bị hủy và được tạo lại cùng với parent Activity của chúng khi thay đổi cấu hình xảy ra. Lời gọi tới phương thức setRetainInstance(true) cho phép chúng ta bỏ qua chu trình "hủy-và-tái tạo" này; báo hiệu cho hệ thống rằng bạn muốn giữ lại instance hiện tại của fragment khi activity được tạo lại, đó chính là retainted fragment.
+
+#### 19. Sự khác nhau giữa FragmentPagerAdapter và FragmentStatePagerAdapter?
+- FragmentPagerAdapter: fragment của mỗi trang mà người dùng truy cập sẽ được lưu trữ trong bộ nhớ, mặc dù view của nó sẽ bị hủy. Vì vậy, khi trang được hiển thị lại, chỉ view được tạo lại còn instance của fragment không được tạo lại. Điều này có thể dẫn đến việc một lượng bộ nhớ đáng kể được sử dụng cho công việc này. FragmentPagerAdapter chỉ nên được sử dụng khi chúng ta cần lưu toàn bộ fragment trong bộ nhớ. FragmentPagerAdapter gọi detach(Fragment) trong transaction thay vì remove(Fragment).
+- FragmentStatePagerAdapter: instance của fragment sẽ bị phá hủy khi nó không còn hiển thị cho người dùng nữa, ngoại trừ saved state của nó. Điều này dẫn đến việc chỉ sử dụng một lượng nhỏ bộ nhớ và có thể hữu ích để xử lý các tập dữ liệu lớn hơn. Nên được sử dụng khi chúng ta phải sử dụng các fragment động. Nó sẽ không ảnh hưởng đến hiệu suất ngay cả khi có số lượng fragment là rất lớn.
+
+#### 20. Sự khác nhau giữa margin & padding.
+Padding là khoảng không gian được thêm vào bên trong container (ví dụ, nếu nó là một button, padding sẽ được thêm vào bên trong button đó. Còn margin sẽ được thêm vào không gian bên ngoài của container.
+
+#### 21. View Group là gì? Nó khác View như thế nào?
+- View: các đối tượng View là các khối giao diện cơ bản User Interface (UI) trong Android. View là một hộp hình chữ nhật đơn giản, nó có thể phản hồi hành động của người dùng lên nó. Ví dụ: EditText, Button, CheckBox, ... View tham chiếu đến lớp android.view.View, là lớp cơ sở của tất cả các lớp UI.
+- ViewGroup: ViewGroup là một container vô hình. Nó có thể chứa các View và ViewGroup. Ví dụ, LinearLayout là một ViewGroup có thể chứa Button (View) và các Layouts khác. ViewGroup là lớp cơ sở cho Layout.
+
+#### 22. Sự khác nhau giữa hình ảnh .png thông thường và hình ảnh nine-patch là gì?
+Nine-patch là một trong những tài nguyên bitmap có thể thay đổi được kích thước, chúng được sử dụng làm hình nền hoặc các hình ảnh khác trên thiết bị. Lớp NinePatch cho phép vẽ một bitmap trong chín bộ phận (section). Bốn góc (corner) không scale được; phần ở giữa của hình ảnh có thể được scale theo cả hai trục, bốn cạnh được scale trên một trục.
+
+#### 23. Khi nào thì bạn nên sử dụng FrameLayout?
+FrameLayout được thiết kế để chứa một item duy nhất, làm cho chúng trở thành lựa chọn hiệu quả khi bạn cần hiển thị một View duy nhất. Nếu bạn thêm nhiều View vào FrameLayout thì chúng sẽ xếp chồng lên nhau (cái sau đè lên cái trước), vì vậy FrameLayout cũng hữu ích trong trường hợp nếu bạn cần các View xếp chồng chéo.
+
+#### 24. Adapter là gì?
+Một Adapter chịu trách nhiệm chuyển đổi từng data entry vào View, sau đó có thể được thêm vào AdapterView (ListView / RecyclerView) để hiển thị.
+
+#### 25. Tóm tắt quá trình tạo một custom View.
+- Tạo một lớp là Subclass của một View.
+- Tạo một file res/value/attrs.xml và định nghĩa các thuộc tính bạn muốn sử dụng với custom View đó.
+- Trong lớp này, tạo một constructor, khởi tạo các đối tượng Paint và lấy các thuộc tính ở trên.
+- Ghi đè onSizeChanged() hoặc onMeasure().
+- Vẽ View của bạn bằng cách ghi đè onDraw().
+
+#### 26. Mô tả ngắn gọn một số cách để tối ưu hóa View usage.
+- Kiểm tra những quá trình draw tiêu tốn nhiều tài nguyên (excessive overdraw): cài đặt ứng dụng của bạn trên thiết bị Android và sau đó bật tùy chọn Debug GPU Overview.
+- Làm phẳng view hierarchy: kiểm tra hệ thống phân cấp view của bạn bằng công cụ Hierarchy Viewer của Android Studio (nên sử dụng ConstraintLayout nhiều nhất có thể để đảm bảo layout của bạn luôn chỉ có một tầng duy nhất).
+- Ước lượng thời gian mỗi View cần để hoàn thành quá trình measure, layout và các giai đoạn draw. Bạn cũng có thể sử dụng Hierarchy Viewer để xác định bất kỳ phần nào của rendering pipeline mà bạn cần tối ưu hóa.
+
 
 #### 
 
