@@ -323,6 +323,35 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Trình bày cách để break bên trong vòng lặp lòng nhau
 - Cách hoán đổi 2 số a và b mà ko cần tạo thêm biến thứ 3
 
+Câu hỏi xã giao, cho điểm:
+- Fragment là gì? Xài chưa? Xài rồi thì cho anh cái ví dụ thực tế
+- Giờ anh muốn show 1 list với custom UI cho item thì anh làm sao?
+
+Luận kiếm:
+- Làm thế nào để implement MVP or MVC or MVVM trong Android.
+- Ngoài SQLite thì còn có những option nào khác với DB
+- Nếu anh muốn lưu trữ data trong Android, cưng chỉ cho anh mấy cách lưu trữ
+- Sự khác nhau giữ thread và asyntask là gì?
+- Biết ORM không?
+- Push notification trong Android là gì? Xài chưa
+- Đã xài Map view chưa? Giờ muốn track location của phone thì làm thế nào
+- Biết Kotlin ko?...
+- Muốn lazy loading 1 bức ảnh thì làm thế nào
+- Anh có 1 cái view, muốn nó show lên bằng animation kéo từ dưới lên, sau đó hide ngược xuống thì làm thế nào?
+
+Tùy vào project tuyển vào làm cái gì mà hỏi thêm mấy câu liên quan: Ảnh ọt, video, list với data lớn các kiểu...
+
+ Tung tuyệt chiêu Quỳ Hoa Bảo Điển:
+- Viết Unit Test, UI Test trong Android thì làm thế nào.
+- Biết code React style với Android ko? Xài có lợi hại gì
+- Anh có cái app có yêu cầu phải work offline không có network, khi có network thì tự động sync data lên server. Cưng cho anh giải pháp.
+- Giờ có yêu cầu 1 app sẽ sync data realtime với server thì làm cách nào
+- Cưng có hay xài Design Pattern hok? Có thì chém tiếp: SOLID? hỏi 1 vài pattern quen quen thử xem. Em có biết trong Android mấy cái pattern đấy xuất hiện ở đâu ko?
+- App anh có nhu cầu download gởi >100 cái http request, em có cách nào để quản lí hiệu quả không?
+
+
+
+
 Tham khảo:
 - [Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev cho sinh viên mới ra trường](https://forums.voz.vn/showthread.php?t=7216185)
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
