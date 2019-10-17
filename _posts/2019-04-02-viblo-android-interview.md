@@ -47,12 +47,38 @@ Job Scheduling API, như tên gọi của nó, cho phép chúng ta lên lịch c
 - Các tác vụ không quan trọng hay không được người dụng chú ý đến.
 - Các tác vụ cần được chạy thường xuyên dưới dạng hàng loạt trong đó yếu tố thời gian không quá quan trọng.
 
+#### 10. Mối quan hệ giữa vòng đời của AsyncTask và Activity? Những vấn đề gì có thể xảy ra khi sử dụng chúng chung với nhau? Giải quyết những vấn đề đó thế nào?
+AsyncTask không được gắn với vòng đời của Activity chứa nó. Ví dụ, nếu bạn khởi động AsyncTask bên trong một Activity và khi người dùng quay thiết bị, Activity sẽ bị hủy (và một instance mới của Activity sẽ được tạo) nhưng AsyncTask sẽ không bị hủy mà thay vào đó sẽ tiếp tục chạy cho đến khi nó hoàn thành.
+
+Sau đó, khi AsyncTask hoàn thành, thay vì cập nhật giao diện người dùng của Activity mới, nó sẽ cập nhật phiên bản Activity trước đó (Activity đã bị hủy). Điều này có thể dẫn đến một Exception: java.lang.IllegalArgumentException.
+
+Ngoài ra còn có khả năng dẫn đến rò rỉ bộ nhớ (memory leak) vì AsyncTask duy trì một tham chiếu đến Activity cũ, ngăn cản Activity này bị thu gom rác của Java thu thập khi vẫn còn hoạt động.
+
+Vì những lý do này, việc sử dụng AsyncTask cho các tác vụ nền chạy dài thường là một ý tưởng tồi. Thay vào đó đối với các tác vụ nền chạy dài, bạn nên sử dụng một cơ chế khác (chẳng hạn như service).
+
+#### 11. Phương thức onTrimMemory() là gì?
+onTrimMemory (): Được gọi khi hệ điều hành xác định rằng đây là thời điểm tốt để xử lý bộ nhớ không cần thiết từ một tiến trình của nó. Ví dụ điều này sẽ xảy ra khi tiến trình chạy ở chế độ nền và không đủ bộ nhớ để duy trì được nhiều tiến trình nền như mong muốn, khi đó hệ thống sẽ dựa trên độ ưu tiên của tiến trình để kill bớt cho tới khi bộ nhớ đã ổn định. Hệ thống Android có thể lấy lại bộ nhớ cấp phát cho ứng dụng của bạn theo nhiều cách hoặc kill ứng dụng của bạn nếu cần thiết để giải phóng bộ nhớ cho các tác vụ quan trọng. Để giúp cân bằng bộ nhớ của hệ thống và tránh việc hệ thống hủy tiến trình của ứng dụng, bạn có thể implement interface ComponentCallbacks2 ở trong các lớp Activity của mình. Phương thức callback onTrimMemory () được cung cấp cho phép ứng dụng của bạn lắng nghe các sự kiện liên quan đến bộ nhớ khi ứng dụng của bạn ở foreground hoặc background từ đó bạn có thể xử lý khi hệ thống cần thu hồi lại bộ nhớ từ ứng dụng của bạn.
+
+#### 12. Android Interface Definition Language (AIDL) và Messenger Queue.
+- Messenger Queue tạo cho ta một hàng đợi và các dữ liệu / thông điệp được truyền giữa 2 hoặc nhiều hơn các tiến trình một cách tuần tự. Trong trường hợp của AIDL thì các thông điệp được truyền đi một cách song song.
+- AIDL sử dụng dành cho mục đích khi bạn phải giao tiếp ở mức ứng dụng để chia sẻ và kiểm soát dữ liệu. Ví dụ: một ứng dụng yêu cầu danh sách tất cả các liên hệ từ ứng dụng Danh bạ và nó cũng muốn hiển thị thời lượng cuộc gọi và bạn có thể ngắt kết nối nó khỏi ứng dụng đó.
+- Đối với trương hợp của Messenger Queue, bạn sẽ chủ yếu làm việc trên nhiều thread và process để quản lý hàng đợi chứa các thông điệp để không xuất hiện sự can thiệp của các dịch vụ bên ngoài tại đây.
+
+#### 13. ThreadPool là gì? Có hiệu quả hơn nếu sử dụng nó thay vì sử dụng nhiều Thread riêng biệt.
+Việc tạo và hủy các Thread có mức sử dụng CPU cao, vì vậy khi chúng ta cần thực hiện rất nhiều tác vụ đơn giản, nhỏ, chi phí để tạo các Thread riêng rẽ có thể chiếm một phần đáng kể chu kỳ CPU và ảnh hưởng nghiêm trọng đến thời gian đáp ứng cuối cùng. ThreadPool bao gồm một hàng đợi nhiệm vụ và một nhóm các worker thread, cho phép nó chạy nhiều instance một cách song song của một tác vụ.
+
+#### 14. Sự khác biệt giữa Serializable và Parcelable?
+Serialization là quá trình chuyển đổi một đối tượng thành một luồng (stream) byte để lưu trữ một đối tượng vào bộ nhớ, để nó có thể được tái tạo sau này khi cần, trong khi vẫn giữ trạng thái và dữ liệu ban đầu của đối tượng. Serializable là một standard Java interface. Parcelable là một interface cụ thể của Android, bạn phải tự triển khai việc serialization. Tuy nhiên Parcelable có hiệu quả hơn nhiều so với Serializable (vấn đề với cách tiếp cận sử dụng Serializable là nó sự dụng cơ chế reflection và đó là một quá trình tương đối chậm. Cơ chế này cũng có xu hướng tạo ra rất nhiều đối tượng tạm thời và gây tiêu tốn tài nguyên khi bộ Garbage collection phải thu thập tất cả chúng).
+
+#### 15. Bạn sẽ cập nhật UI trên activity từ một background service như thế nào?
+Ta cần phải đăng ký một LocalBroadcastReceiver trong activity đó. Và gửi một broadcast với dữ liệu chứa trong intent từ background service này. Miễn là activity còn hoạt động ở trên foreground, giao diện người dùng sẽ được cập nhật. Lưu ý bạn nên nhớ hủy đăng ký broadcast receiver ở trong phương thức Stop()của activity để tránh bị memory leak. Ta cũng có thể sử dụng một Handler để truyền dữ liệu thông qua nó.
 
 #### 
+
 #### 
+
 #### 
-#### 
-#### 
+
 #### 
 
 
