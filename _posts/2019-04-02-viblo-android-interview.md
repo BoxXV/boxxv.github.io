@@ -150,7 +150,50 @@ Tuy nhiên, phương thức System.exit (int) có thể ném ra một SecurityEx
 #### 34. Garbage collector là gì? Nó hoạt động như thế nào?
 Tất cả các đối tượng được phân bổ trên vùng heap do JVM quản lý. Miễn là một đối tượng đang được tham chiếu tới hay còn đang được sử dụng, JVM sẽ coi rằng nó còn 'sống'. Khi một đối tượng không còn được tham chiếu và do đó không thể truy cập được bằng code trong ứng dụng, trình thu gom rác - Garbage collector sẽ loại bỏ nó và lấy lại bộ nhớ không sử dụng.
 
-#### 
+#### 35. Sự khác biệt giữa bộ nhớ stack và bộ nhớ heap?
+Stack được sử dụng để phân bố bộ nhớ tĩnh và Heap cho phân bố bộ nhớ động, cả hai được lưu trữ trong RAM của máy tính.
+
+Các biến được phân bổ trên stack được lưu trữ trực tiếp vào bộ nhớ và việc truy cập vào bộ nhớ này là rất nhanh; việc phân bổ của nó được xử lý khi chương trình được biên dịch. Khi một hàm hay một phương thức gọi một hàm khác và hàm này lại gọi một hàm khác nữa, ... việc thực thi các hàm này sẽ bị hoãn lại cho đến khi hàm cuối cùng trả về. Stack hoat động theo cơ chế Last In First Out (LIFO), khối gần hiện tại nhất sẽ luôn là khối tiếp theo được thực thi. Điều này làm cho việc theo dõi stack rất đơn giản, giải phóng một khối khỏi stack tương đương với việc điều chỉnh một con trỏ.
+
+Bộ nhớ của các biến ở trong heap được phân bổ tại run time và việc truy cập các vùng nhớ này tương đối chậm so với trên stack, bù lại thì kích thước heap chỉ bị giới hạn bởi kích thước bộ nhớ ảo. Các thành phần của heap không hề phụ thuộc vào nhau và có thể truy cập một cách ngẫu nhiên tại bất kỳ thời điểm nào. Bạn có thể xác định một khối tại mọi thời điểm và giải phóng nó bất cứ khi nào bạn muốn. Điều này làm cho việc theo dõi phần nào của heap đang được phân bổ và để giải phóng chúng phức tạp hơn.
+
+Bạn có thể sử dụng stack nếu bạn biết chính xác số lượng dữ liệu mà ban muốn cấp phát trước khi biên dịch và nó không quá lớn. Bạn có thể sử dụng heap nếu bạn không biết chính xác kích thước dữ liệu bạn sẽ cần tại thời điểm runtime hoặc bạn cần cấp phát mọt lượng lớn dữ liệu.
+
+Trong trường hợp multi-thread, mỗi thread sẽ có stack độc lập của nó nhưng đều sử dụng chung bộ nhớ heap. Stack được xác định riêng cho từng thread còn Heap là cho ứng dụng. Stack rất quan trọng trong việc xử lý ngoại lệ và luồng thực thi.
+
+Khi một object được khởi tạo, nó sẽ được lưu trữ ở trong không gian bộ nhớ của heap và bộ nhớ stack chứa tham chiếu tới nó. Bộ nhớ stack chỉ chứa các biến nguyên thủy cục bộ và tham chiếu tới các object lưu trữ trong heap. Object lưu trữ trong heap có thể được truy cập một cách toàn cục còn trong stack thì các luồng khác không thể truy cập được.
+
+Bộ nhớ stack tồn tại ngắn hơn trong khi bộ nhớ heap tồn tại từ khi ứng dụng khởi động cho tới khi nó kết thúc thực thi. Khi bộ nhớ stack bị đầy, Java runtime sẽ ném ngoại lệ java.lang.StackOverFlowError và trong trường hợp của heap là java.lang.OutOfMemoryError: Java Heap Space error. Kích thước của stack nhỏ hơn nhiều so với heap nhưng có tốc độ truy cập nhanh hơn.
+
+#### 36. Java có hỗ trợ đa kế thừa không?
+Java chỉ hỗ trợ đa kế thừa thông qua interface (vì các class có thể implement nhiều interface nhưng chỉ có thể extend từ một class).
+
+#### 37. Abstract class là gì?
+- Abstract class là những lớp chứa một hoặc nhiều phương thức abstract. Một phương thức abstract là một phương thức chỉ được định nghĩa chứ không được triển khai (không có thân hàm).
+- Kể cả nếu chỉ có một phương thức là abstract thì cả lớp đó phải được định nghĩa là abstract.
+- Các abstract class không thể được khởi tạo.
+- Bạn không thể định nghĩa một lớp vừa là abstract vừa là final.
+- Các phương thức non-abstract có thể truy cập các phương thức abstract.
+
+#### 38. Interface là gì?
+- Interface chỉ định nghĩa các phương thức mà một lớp kế thừa nó sẽ cần triển khai.
+- Interface không thể là final, các biến trong interface phải là static hoặc final.
+- Interface không thể được khởi tạo một cách trực tiếp.
+- Marker interface: marker interface là các interface không định nghĩa bất cứ phương thức nào. Ví dụ điển hình đó chính là java.io.Serializable, và mục đích chính của nó cũng chỉ là để đánh dấu.
+
+#### 39. Tại sao không nên gọi abstract method trong hàm khởi tạo?
+Vấn đề là khi một class chưa được khởi tạo một cách hoàn toàn thì khi phương thức abstract này được gọi trong một subclass, nó có thể dẫn đến những tình huống không mong muốn.
+
+#### 40. Sự khác nhau giữa == và phương thức equals() trong Java?
+Ta có thể sử dụng toán tử == khi so sánh tham chiếu (so sánh địa chỉ ô nhớ) của đối tượng, còn phương thức equals() để so sánh nội dung của đối tượng đó. Nói một cách đơn giản, == kiểm tra xem nếu hai đối tượng trỏ tới cùng một địa chỉ ô nhớ trong khi equals() so sánh dựa trên các giá trị của các đối tượng này.
+
+#### 41. String Pool trong Java
+String Pool trong Java là một pool (bể chứa) của các chuỗi kí tự được lưu trữ ở trọng bộ nhớ Heap. Khi ta sử dụng "" để tạo một đối tượng String, đầu tiên nó sẽ tìm String với giá trị tương tự ở trong String pool, nếu tìm thấy nó sẽ trả về tham chiếu tương ứng còn không sẽ tạo một String mới ở trong pool và trả về tham chiếu tới đối tượng mới này. Tuy nhiên, khi sử dụng toán tử new, ta bắt buộc lớp String tạo một đối tượng String mới ở trong heap. Ta có thể sử dụng phương thức intern() để đưa nó vào trong pool hoặc tham chiếu tới đối tượng String khác ở trong pool mà có giá trị tương tự.
+
+#### 42. String.intern() là gì? Khi nào thì nên sử dụng nó?
+- Phương thức String.intern() có thể được sử dụng để giải quyết vấn đề lặp String trong Java. Bằng cách cẩn thận sử dụng intern(), bạn có thể tiết kiệm khá nhiều bộ nhớ bị tiêu thụ bởi việc lặp các String instance. Một string bị lặp khi nó chứa cùng nội dung so với string khác nhưng chiếm vị trí bộ nhớ khác nhau.
+- Bằng cách gọi phương thức intern() cho một string (ví dụ "abc"), JVM sẽ đưa chuỗi này vào một pool và bất cứ khi nào một chuỗi "abc" khác được tạo ra, đối tượng ở trong pool sẽ được trả về thay vì tạo ra một đối tượng mới. Do vậy, bạn sẽ tiết kiệm được rất nhiều tài nguyên bộ nhớ, tùy thuộc vào việc các chuỗi của bạn có bị lặp nhiều hay không.
+
 #### 
 #### 
 #### 
