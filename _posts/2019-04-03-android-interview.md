@@ -13,6 +13,8 @@ modified: 2019-04-21
 ## Mục lục
 ✅ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev
 
+✅ Câu hỏi phỏng vấn xoáy vào thực hành
+
 ✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)
 
 ✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)
@@ -72,7 +74,7 @@ modified: 2019-04-21
 - Trình bày cách để break bên trong vòng lặp lòng nhau
 - Cách hoán đổi 2 số a và b mà ko cần tạo thêm biến thứ 3
 
-### Câu xoáy vào thực hành:
+## Câu hỏi phỏng vấn xoáy vào thực hành
 Câu hỏi xã giao, cho điểm:
 - Fragment là gì? Xài chưa? Xài rồi thì cho anh cái ví dụ thực tế
 - Giờ anh muốn show 1 list với custom UI cho item thì anh làm sao?
