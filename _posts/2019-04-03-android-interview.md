@@ -261,7 +261,7 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Ưu điểm của ConstraintLayout
 - Material design là gì, cách xây dựng app theo chuẩn Material design
 - Cách hỗ trợ cho nhiều kích thước màn hình khác nhau, hỗ trợ cả phone và tablet?
-- Cách xử lý khi xoay điện thoại. Ví dụ như đang nhân username thì xoay màn hình
+- Cách xử lý khi xoay điện thoại. Ví dụ như đang nhập username thì xoay màn hình
 - Vòng đời của Activity, 1 app ko có Activity/UI được ko?
 - Kinh nghiệm với kết nối và làm việc với Bluetooth (dự án FPT oto có liên quan đến Bluetooth)
 - Cách gửi và nhận Broadcast receiver
@@ -273,6 +273,55 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Câu hỏi phụ: mối liên hệ giữa MPV và Unit Test
 - .v.v.
 
+## Góc chia sẻ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev cho sinh viên mới ra trường 
+- 4 Component chính trong Android là gì
+- Phân biệt Implicit và Explicit Intent
+- Phân biệt Service và IntentService
+- Trình bày LifeCycle của Activity
+- Trình bày LifeCycle của Fragment
+- Sự khác nhau của Activity và Fragment
+- Khi nào thì dùng Fragment, cho ví dụ trong thực tế
+- Giải thích Back stack fragment manager
+- Giải thích dp, dpi, pt, sp trong Android
+- Cho biết công thức quy đổi giữa px và dp
+- Khi 1 activity đang chạy, ta nhấn nút Home thì activity đó đi vào những trạng thái nào.
+- Khi 1 Activity đang chạy, ta chọn recent apps, quét qua để kill app đó thì activity đó đi vào những trạng thái nào
+- Khi 1 Activity đang chạy mà bị crash, activity đó đi vào trạng thái nào
+- Nếu thêm nhiều Fragment vào cùng 1 FrameLayout bằng FragmentManager thì thực tế hiển thị fragment nào, các fragment kia rơi vào trạng thái gì.
+- Khi đang ở trong Activity, xoay màn hình thì Activity đi vào những trạng thái nào
+- Khi đang ở trong Activity, mở 1 AlertDialog thì activity đi vào những trạng thái nào
+- Tạo mới 1 Thread trong activity, khi mở activity mới thì Thread đó có còn chạy ko
+- Tạo mới 1 AsyncTask trong activity, mở activity mới thì AsyncTask đó còn chạy ko
+- MediaPlayer đang chạy trong, tạo mới activity khác, player đó còn chạy ko
+- Giải thích về 4 launchmode:standard, singleTop, singleTask, singleInstance
+- Foreground và Background Service là gì, Bound service là gì
+- Phân biệt Serializable và Parcelable, cái nào tốt hơn
+- ANR là gì, khi nào nó xảy ra
+- So sánh LinearLayout và ConstrainLayout
+- Sự khác nhau giữ View.GONE và View.INVISIBLE
+- Liệt kê một số thư viện http đã dùng
+- Rest APIs là gì, tại sao lại dùng nó
+- Tại sao Android dùng db SQLite
+- Khi nào dùng SQL, khi nào dùng XML
+- Android Gradle là gì
+- Dependency injection là gì
+- Làm thế nào để upload 1 file ảnh trong máy Android lên server
+
+- Liệt kê, giải thích 4 tính chất OOP
+- MVVM, MVP, MVC là gì, khi nào dùng cái nào
+- Singleton dùng để làm gì
+- Khi nào dùng Interface hoặc Abstract Class
+- Immutable và mutable là gì
+- Tại sao Class String trong Java lại immutable
+- Daemon Thread là gì
+- Android Garbage collection hoạt động ntn
+- Khi nào 1 object sẵn sàng for Garbage collection hốt
+- StringBuilder vs String
+- StringBuilder vs StringBuffer
+- Liệt kê những trường hợp mà finally ko đc gọi
+- Java dùng pass-by-value hay pass-by-reference
+- Trình bày cách để break bên trong vòng lặp lòng nhau
+- Cách hoán đổi 2 số a và b mà ko cần tạo thêm biến thứ 3
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
