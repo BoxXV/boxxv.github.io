@@ -10,7 +10,92 @@ tags:
 - Answers
 modified: 2019-04-21
 ---
+## Mục lục
+✅ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev
+✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)
+✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)
+✅ 20 Essential Android Interview Questions and Answers
+✅ Phụ lục: Các câu hỏi phỏng vấn Android ở FPT Software
 
+
+## Góc chia sẻ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev cho sinh viên mới ra trường
+- 4 Component chính trong Android là gì
+- Phân biệt Implicit và Explicit Intent
+- Phân biệt Service và IntentService
+- Trình bày LifeCycle của Activity
+- Trình bày LifeCycle của Fragment
+- Sự khác nhau của Activity và Fragment
+- Khi nào thì dùng Fragment, cho ví dụ trong thực tế
+- Giải thích Back stack fragment manager
+- Giải thích dp, dpi, pt, sp trong Android
+- Cho biết công thức quy đổi giữa px và dp
+- Khi 1 activity đang chạy, ta nhấn nút Home thì activity đó đi vào những trạng thái nào.
+- Khi 1 Activity đang chạy, ta chọn recent apps, quét qua để kill app đó thì activity đó đi vào những trạng thái nào
+- Khi 1 Activity đang chạy mà bị crash, activity đó đi vào trạng thái nào
+- Nếu thêm nhiều Fragment vào cùng 1 FrameLayout bằng FragmentManager thì thực tế hiển thị fragment nào, các fragment kia rơi vào trạng thái gì.
+- Khi đang ở trong Activity, xoay màn hình thì Activity đi vào những trạng thái nào
+- Khi đang ở trong Activity, mở 1 AlertDialog thì activity đi vào những trạng thái nào
+- Tạo mới 1 Thread trong activity, khi mở activity mới thì Thread đó có còn chạy ko
+- Tạo mới 1 AsyncTask trong activity, mở activity mới thì AsyncTask đó còn chạy ko
+- MediaPlayer đang chạy trong, tạo mới activity khác, player đó còn chạy ko
+- Giải thích về 4 launchmode: standard, singleTop, singleTask, singleInstance
+- Foreground và Background Service là gì, Bound service là gì
+- Phân biệt Serializable và Parcelable, cái nào tốt hơn
+- ANR là gì, khi nào nó xảy ra
+- So sánh LinearLayout và ConstrainLayout
+- Sự khác nhau giữ View.GONE và View.INVISIBLE
+- Liệt kê một số thư viện http đã dùng
+- Rest APIs là gì, tại sao lại dùng nó
+- Tại sao Android dùng db SQLite
+- Khi nào dùng SQL, khi nào dùng XML
+- Android Gradle là gì
+- Dependency injection là gì
+- Làm thế nào để upload 1 file ảnh trong máy Android lên server
+
+- Liệt kê, giải thích 4 tính chất OOP
+- MVVM, MVP, MVC là gì, khi nào dùng cái nào
+- Singleton dùng để làm gì
+- Khi nào dùng Interface hoặc Abstract Class
+- Immutable và mutable là gì
+- Tại sao Class String trong Java lại immutable
+- Daemon Thread là gì
+- Android Garbage collection hoạt động ntn
+- Khi nào 1 object sẵn sàng for Garbage collection hốt
+- StringBuilder vs String
+- StringBuilder vs StringBuffer
+- Liệt kê những trường hợp mà finally ko đc gọi
+- Java dùng pass-by-value hay pass-by-reference
+- Trình bày cách để break bên trong vòng lặp lòng nhau
+- Cách hoán đổi 2 số a và b mà ko cần tạo thêm biến thứ 3
+
+### Câu xoáy vào thực hành:
+Câu hỏi xã giao, cho điểm:
+- Fragment là gì? Xài chưa? Xài rồi thì cho anh cái ví dụ thực tế
+- Giờ anh muốn show 1 list với custom UI cho item thì anh làm sao?
+
+Luận kiếm:
+- Làm thế nào để implement MVP or MVC or MVVM trong Android.
+- Ngoài SQLite thì còn có những option nào khác với DB
+- Nếu anh muốn lưu trữ data trong Android, cưng chỉ cho anh mấy cách lưu trữ
+- Sự khác nhau giữ thread và asyntask là gì?
+- Biết ORM không?
+- Push notification trong Android là gì? Xài chưa
+- Đã xài Map view chưa? Giờ muốn track location của phone thì làm thế nào
+- Biết Kotlin ko?...
+- Muốn lazy loading 1 bức ảnh thì làm thế nào
+- Anh có 1 cái view, muốn nó show lên bằng animation kéo từ dưới lên, sau đó hide ngược xuống thì làm thế nào?
+
+Tùy vào project tuyển vào làm cái gì mà hỏi thêm mấy câu liên quan: Ảnh ọt, video, list với data lớn các kiểu...
+
+ Tung tuyệt chiêu Quỳ Hoa Bảo Điển:
+- Viết Unit Test, UI Test trong Android thì làm thế nào.
+- Biết code React style với Android ko? Xài có lợi hại gì
+- Anh có cái app có yêu cầu phải work offline không có network, khi có network thì tự động sync data lên server. Cưng cho anh giải pháp.
+- Giờ có yêu cầu 1 app sẽ sync data realtime với server thì làm cách nào
+- Cưng có hay xài Design Pattern hok? Có thì chém tiếp: SOLID? hỏi 1 vài pattern quen quen thử xem. Em có biết trong Android mấy cái pattern đấy xuất hiện ở đâu ko?
+- App anh có nhu cầu download gởi >100 cái http request, em có cách nào để quản lí hiệu quả không?
+
+## 20 Essential Android Interview Questions and Answers
 1) Có bốn lớp Java liên quan đến việc sử dụng cảm biến trên nền tảng Android. Liệt kê và giải thích mục đích của mỗi lớp.
 
 2) `ContentProvider` là gì và nó thường được sử dụng để làm gì?
@@ -92,7 +177,7 @@ Trong một ứng dụng mà bạn đang làm việc, bạn nhận thấy rằng
 20) Nhận broadcast là gì?
 
 -----
-## Gợi ý trả lời
+### Gợi ý trả lời
 
 
 #### 1) Bốn lớp Java liên quan đến việc sử dụng các cảm biến trên nền tảng Android là:
@@ -273,81 +358,7 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Câu hỏi phụ: mối liên hệ giữa MPV và Unit Test
 - .v.v.
 
-## Góc chia sẻ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev cho sinh viên mới ra trường
-- 4 Component chính trong Android là gì
-- Phân biệt Implicit và Explicit Intent
-- Phân biệt Service và IntentService
-- Trình bày LifeCycle của Activity
-- Trình bày LifeCycle của Fragment
-- Sự khác nhau của Activity và Fragment
-- Khi nào thì dùng Fragment, cho ví dụ trong thực tế
-- Giải thích Back stack fragment manager
-- Giải thích dp, dpi, pt, sp trong Android
-- Cho biết công thức quy đổi giữa px và dp
-- Khi 1 activity đang chạy, ta nhấn nút Home thì activity đó đi vào những trạng thái nào.
-- Khi 1 Activity đang chạy, ta chọn recent apps, quét qua để kill app đó thì activity đó đi vào những trạng thái nào
-- Khi 1 Activity đang chạy mà bị crash, activity đó đi vào trạng thái nào
-- Nếu thêm nhiều Fragment vào cùng 1 FrameLayout bằng FragmentManager thì thực tế hiển thị fragment nào, các fragment kia rơi vào trạng thái gì.
-- Khi đang ở trong Activity, xoay màn hình thì Activity đi vào những trạng thái nào
-- Khi đang ở trong Activity, mở 1 AlertDialog thì activity đi vào những trạng thái nào
-- Tạo mới 1 Thread trong activity, khi mở activity mới thì Thread đó có còn chạy ko
-- Tạo mới 1 AsyncTask trong activity, mở activity mới thì AsyncTask đó còn chạy ko
-- MediaPlayer đang chạy trong, tạo mới activity khác, player đó còn chạy ko
-- Giải thích về 4 launchmode: standard, singleTop, singleTask, singleInstance
-- Foreground và Background Service là gì, Bound service là gì
-- Phân biệt Serializable và Parcelable, cái nào tốt hơn
-- ANR là gì, khi nào nó xảy ra
-- So sánh LinearLayout và ConstrainLayout
-- Sự khác nhau giữ View.GONE và View.INVISIBLE
-- Liệt kê một số thư viện http đã dùng
-- Rest APIs là gì, tại sao lại dùng nó
-- Tại sao Android dùng db SQLite
-- Khi nào dùng SQL, khi nào dùng XML
-- Android Gradle là gì
-- Dependency injection là gì
-- Làm thế nào để upload 1 file ảnh trong máy Android lên server
 
-- Liệt kê, giải thích 4 tính chất OOP
-- MVVM, MVP, MVC là gì, khi nào dùng cái nào
-- Singleton dùng để làm gì
-- Khi nào dùng Interface hoặc Abstract Class
-- Immutable và mutable là gì
-- Tại sao Class String trong Java lại immutable
-- Daemon Thread là gì
-- Android Garbage collection hoạt động ntn
-- Khi nào 1 object sẵn sàng for Garbage collection hốt
-- StringBuilder vs String
-- StringBuilder vs StringBuffer
-- Liệt kê những trường hợp mà finally ko đc gọi
-- Java dùng pass-by-value hay pass-by-reference
-- Trình bày cách để break bên trong vòng lặp lòng nhau
-- Cách hoán đổi 2 số a và b mà ko cần tạo thêm biến thứ 3
-
-Câu hỏi xã giao, cho điểm:
-- Fragment là gì? Xài chưa? Xài rồi thì cho anh cái ví dụ thực tế
-- Giờ anh muốn show 1 list với custom UI cho item thì anh làm sao?
-
-Luận kiếm:
-- Làm thế nào để implement MVP or MVC or MVVM trong Android.
-- Ngoài SQLite thì còn có những option nào khác với DB
-- Nếu anh muốn lưu trữ data trong Android, cưng chỉ cho anh mấy cách lưu trữ
-- Sự khác nhau giữ thread và asyntask là gì?
-- Biết ORM không?
-- Push notification trong Android là gì? Xài chưa
-- Đã xài Map view chưa? Giờ muốn track location của phone thì làm thế nào
-- Biết Kotlin ko?...
-- Muốn lazy loading 1 bức ảnh thì làm thế nào
-- Anh có 1 cái view, muốn nó show lên bằng animation kéo từ dưới lên, sau đó hide ngược xuống thì làm thế nào?
-
-Tùy vào project tuyển vào làm cái gì mà hỏi thêm mấy câu liên quan: Ảnh ọt, video, list với data lớn các kiểu...
-
- Tung tuyệt chiêu Quỳ Hoa Bảo Điển:
-- Viết Unit Test, UI Test trong Android thì làm thế nào.
-- Biết code React style với Android ko? Xài có lợi hại gì
-- Anh có cái app có yêu cầu phải work offline không có network, khi có network thì tự động sync data lên server. Cưng cho anh giải pháp.
-- Giờ có yêu cầu 1 app sẽ sync data realtime với server thì làm cách nào
-- Cưng có hay xài Design Pattern hok? Có thì chém tiếp: SOLID? hỏi 1 vài pattern quen quen thử xem. Em có biết trong Android mấy cái pattern đấy xuất hiện ở đâu ko?
-- App anh có nhu cầu download gởi >100 cái http request, em có cách nào để quản lí hiệu quả không?
 
 
 
