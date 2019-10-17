@@ -257,6 +257,7 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 
 ## Phụ lục: Các câu hỏi phỏng vấn Android ở FPT Software
 - Trình bình các dự án đã làm, dùng công nghệ gì
+(Câu này nhớ kể những dự án mới nhất và chi tiết về kỹ thuật 1 chút)
 - Ưu điểm của ConstraintLayout
 - Material design là gì, cách xây dựng app theo chuẩn Material design
 - Cách hỗ trợ cho nhiều kích thước màn hình khác nhau, hỗ trợ cả phone và tablet?
