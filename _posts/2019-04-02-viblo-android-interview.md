@@ -28,9 +28,19 @@ Các loại build định nghĩa những thuộc tính mà Gradle sử dụng kh
 #### 5. Quá trình build một ứng dụng trong Android.
 ![placeholder](http://boxxv.com/img/android-build.png "Quá trình build một ứng dụng trong Android.")
 
-#### 
-#### 
-#### 
+#### 6. Ở trong activity, khi nào thì onDestroy() được gọi mà không có onPause() và onStop()?
+Khi finish() được gọi ở trong phương thức onCreate() của activity đó, hệ thống sẽ gọi trực tiếp onDestroy().
+
+#### 7. Tại sao chỉ nên gọi setContentView() trong onCreate() ở trong một activity?
+Vì onCreate() chỉ được gọi tới một lần nên đây là thời điểm chúng ta nên khởi tạo hầu hết các yếu tố cần thiết. Nó sẽ không hiệu quả nếu ta gọi setContentView() ở trong onResume() hay onStart() (bởi chúng được gọi tới nhiều lần) vì setContentView() là một hoạt động tiêu tốn khá nhiều tài nguyên.
+
+#### 8. Phân biệt Service, Intent Service, AsyncTask và Thread.
+- Service là một thành phần được sử dụng để thực hiện các tác vụ ở background ví dụ như chơi nhạc. Nó không có giao diện người dùng (user interface). Service có thể chạy ở trong background vô thời hạn ngay cả khi ứng dụng bị hủy.
+- AsyncTask cho phép bạn thực hiện các công việc bất đồng bộ ở background thread và publish kết quả lên trên UI thread mà không yêu cầu bạn phải xử lý cách các thread hay handler hoạt động.
+- IntentService là một loại Service để xử lý lần lượt các yêu cầu bất đồng bộ (thông qua Intent) ở background thread. Client sẽ gửi yêu cầu thông qua việc gọi tới startService(Intent) và nó cũng không yêu cầu bạn phải "động tay động chân" tới việc xử lý thread / handler.
+- Một Thread là một luồng thực thi tuần tự trong một chương trình. Thread có thể được coi là một mini-process chạy ở trong main process.
+
+
 #### 
 #### 
 #### 
