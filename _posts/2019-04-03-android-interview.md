@@ -270,7 +270,6 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Câu hỏi phụ: mối liên hệ giữa MPV và Unit Test
 
 
-
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
 - [Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb)
