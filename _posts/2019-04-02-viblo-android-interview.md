@@ -2,13 +2,11 @@
 layout: post
 title: Một số câu hỏi phỏng vấn Android bạn nên lưu ý
 subtitle: Vì một tương lai lương Android cao hơn iOS
-date: "2019-04-03"
 tags:
 - Android
 - Interview
 - Questions
 - Answers
-modified: 2019-04-21
 ---
 ## Mục lục
 ✅ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev
