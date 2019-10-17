@@ -115,9 +115,44 @@ Một Adapter chịu trách nhiệm chuyển đổi từng data entry vào View,
 - Làm phẳng view hierarchy: kiểm tra hệ thống phân cấp view của bạn bằng công cụ Hierarchy Viewer của Android Studio (nên sử dụng ConstraintLayout nhiều nhất có thể để đảm bảo layout của bạn luôn chỉ có một tầng duy nhất).
 - Ước lượng thời gian mỗi View cần để hoàn thành quá trình measure, layout và các giai đoạn draw. Bạn cũng có thể sử dụng Hierarchy Viewer để xác định bất kỳ phần nào của rendering pipeline mà bạn cần tối ưu hóa.
 
+#### 27. Bitmap pooling trong Android?
+Bitmap pooling là một kỹ thuật đơn giản nhằm mục đích sử dụng lại bitmap thay vì tạo các đối tượng bitmap mới mỗi lần cần. Khi bạn cần một bitmap, bạn sẽ kiểm tra một bitmap stack để xem có bất kỳ bitmap nào có sẵn hay không. Nếu không có bitmap có sẵn, bạn tạo một bitmap mới, ngược lại bạn pop một bitmap từ stack và sử dụng lại nó. Sau đó, khi bạn hoàn thành công việc với bitmap này, bạn có thể đặt nó lại lên một stack.
+
+#### 28. Sự khác biệt giữa commit() và apply() trong SharedPreferences là gì?
+commit () ghi dữ liệu một cách đồng bộ và trả về giá trị boolean thành công hay thất bại tùy thuộc vào kết quả ngay lập tức. apply() hoạt động một cách bất đồng bộ và nó sẽ không trả về bất kỳ giá trị boolean nào. Ngoài ra nếu có apply() chưa được hoàn thành và bạn thực hiện một commit() khác. commit() đó sẽ bị chặn cho đến khi apply() được hoàn thành. Về hiệu năng apply nhanh hơn commit vì nó xử lý việc lưu trữ dữ liệu một cách bất đồng bộ.
+
+#### 29. Làm giảm dung lượng file apk trong Android như thế nào?
+- Bật Proguard trong project của bạn.
+- Bật shrinkResources.
+- Loại bỏ tất cả các tài nguyên cục bộ không được sử dụng bằng cách thêm tên tài nguyên cần thiết trong resConfigs.
+- Chuyển đổi tất cả các hình ảnh sang dạng webp hoặc vector drawable.
+
+#### 30. S.O.L.I.D principles trong phát triển phần mềm.
+- The Single Responsibility Principle (SRP)
+- The Open-Closed Principle (OCP)
+- The Liskov Substitution Principle (LSP)
+- The Interface Segregation Principle (ISP)
+- The Dependency Inversion Principle (DIP)
+
+#### 31. Tại sao nói Java độc lập về nền tảng?
+Vì việc thực thi code java không phụ thuộc vào hệ điều hành (OS).
+
+#### 32. Khác biệt giữa 'throw' và 'throws' khi xử lý ngoại lệ trong Java?
+Từ khóa throw được sử dụng để ném Exception cụ thể từ bất kỳ phương thức hoặc khối tĩnh nào trong khi throws được sử dụng để chỉ ra rằng Exception có thể được ném bởi phương thức này. Ví dụ:
+throw new ArithmeticException("Arithmetic Exception");
+Và:
+throws ArithmeticException;
+
+#### 33. Trong trường hợp nào thì chúng ta có thể bỏ qua khối finally trong một đoạn code try catch?
+Bằng cách gọi System.exit (0) trong khối try hoặc catch, chúng ta có thể bỏ qua khối finally.
+Tuy nhiên, phương thức System.exit (int) có thể ném ra một SecurityException. Nếu System.exit (0) thoát JVM mà không ném ngoại lệ này thì khối finally sẽ không được thực thi. Ngược lại, nếu System.exit (0) ném ngoại lệ này thì khối finally vẫn sẽ được thực thi.
+
+#### 34. Garbage collector là gì? Nó hoạt động như thế nào?
+Tất cả các đối tượng được phân bổ trên vùng heap do JVM quản lý. Miễn là một đối tượng đang được tham chiếu tới hay còn đang được sử dụng, JVM sẽ coi rằng nó còn 'sống'. Khi một đối tượng không còn được tham chiếu và do đó không thể truy cập được bằng code trong ứng dụng, trình thu gom rác - Garbage collector sẽ loại bỏ nó và lấy lại bộ nhớ không sử dụng.
 
 #### 
-
+#### 
+#### 
 #### 
 
 
