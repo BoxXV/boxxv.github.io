@@ -12,9 +12,13 @@ modified: 2019-04-21
 ---
 ## Mục lục
 ✅ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev
+
 ✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)
+
 ✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)
+
 ✅ 20 Essential Android Interview Questions and Answers
+
 ✅ Phụ lục: Các câu hỏi phỏng vấn Android ở FPT Software
 
 
