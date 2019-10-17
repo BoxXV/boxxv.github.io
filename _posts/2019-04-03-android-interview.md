@@ -15,9 +15,7 @@ modified: 2019-04-21
 
 ✅ Câu hỏi phỏng vấn xoáy vào thực hành
 
-✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)
-
-✅ Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)
+✅ Viblo: Một số câu hỏi phỏng vấn Android bạn nên lưu ý
 
 ✅ 20 Essential Android Interview Questions and Answers
 
@@ -100,6 +98,14 @@ Tùy vào project tuyển vào làm cái gì mà hỏi thêm mấy câu liên qu
 - Giờ có yêu cầu 1 app sẽ sync data realtime với server thì làm cách nào
 - Cưng có hay xài Design Pattern hok? Có thì chém tiếp: SOLID? hỏi 1 vài pattern quen quen thử xem. Em có biết trong Android mấy cái pattern đấy xuất hiện ở đâu ko?
 - App anh có nhu cầu download gởi >100 cái http request, em có cách nào để quản lí hiệu quả không?
+
+## Một số câu hỏi phỏng vấn Android bạn nên lưu ý
+
+Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 1)
+[https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-1-3Q75wkLQ5Wb)
+
+Một số câu hỏi phỏng vấn Android bạn nên lưu ý (phần 2)
+[https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-2-L4x5xkyglBM)](https://viblo.asia/p/mot-so-cau-hoi-phong-van-android-ban-nen-luu-y-phan-2-L4x5xkyglBM)
 
 ## 20 Essential Android Interview Questions and Answers
 1) Có bốn lớp Java liên quan đến việc sử dụng cảm biến trên nền tảng Android. Liệt kê và giải thích mục đích của mỗi lớp.
