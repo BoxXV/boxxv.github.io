@@ -261,6 +261,7 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Ưu điểm của ConstraintLayout
 - Material design là gì, cách xây dựng app theo chuẩn Material design
 - Cách hỗ trợ cho nhiều kích thước màn hình khác nhau, hỗ trợ cả phone và tablet?
+- Cách xử lý khi xoay điện thoại. Ví dụ như đang nhân username thì xoay màn hình
 - Vòng đời của Activity, 1 app ko có Activity/UI được ko?
 - Kinh nghiệm với kết nối và làm việc với Bluetooth (dự án FPT oto có liên quan đến Bluetooth)
 - Cách gửi và nhận Broadcast receiver
