@@ -2,13 +2,11 @@
 layout: post
 title: Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)
 subtitle: Vì một tương lai rạng ngời
-date: "2019-05-19"
 tags:
 - Interview
 - Questions
 - Answers
 - Perfect
-modified: 2019-05-20
 ---
 
 Kể cả với những ứng viên có rất nhiều kinh nghiệm trong những buổi phỏng vấn việc làm thì việc trả lời phỏng vấn rất quan trọng và là thử thách khó khăn, điều cần có vẫn là sự tự tin, chuyên nghiệp, trao đổi linh hoạt, ngoài việc nhà tuyển dụng kiểm tra và đánh giá năng lực của bạn thì những gì bạn nói trong buổi phỏng vấn cực kỳ quan trọng.
