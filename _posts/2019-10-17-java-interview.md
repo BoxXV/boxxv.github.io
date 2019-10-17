@@ -176,6 +176,14 @@ Sự khác nhau cơ bản giữa SOAP và RESTful ?
 55. Bạn hiểu gì về Đa luồng (Multi-Thread)?
 56. Thread có thể được tạo bằng hai cách nào?
 57. Applet là gì?
+58. Một Applet kế thừa lớp nào?
+59. Giải thích trình dọn rác (Garbage Collector) trong Java?
+60. Định nghĩa đối tượng không thể biến đổi?
+61. Giải thích sự sử dụng của this() với các Constructor?
+
+
+
+
 
 
 
