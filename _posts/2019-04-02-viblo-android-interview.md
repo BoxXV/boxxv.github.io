@@ -194,10 +194,42 @@ String Pool trong Java là một pool (bể chứa) của các chuỗi kí tự 
 - Phương thức String.intern() có thể được sử dụng để giải quyết vấn đề lặp String trong Java. Bằng cách cẩn thận sử dụng intern(), bạn có thể tiết kiệm khá nhiều bộ nhớ bị tiêu thụ bởi việc lặp các String instance. Một string bị lặp khi nó chứa cùng nội dung so với string khác nhưng chiếm vị trí bộ nhớ khác nhau.
 - Bằng cách gọi phương thức intern() cho một string (ví dụ "abc"), JVM sẽ đưa chuỗi này vào một pool và bất cứ khi nào một chuỗi "abc" khác được tạo ra, đối tượng ở trong pool sẽ được trả về thay vì tạo ra một đối tượng mới. Do vậy, bạn sẽ tiết kiệm được rất nhiều tài nguyên bộ nhớ, tùy thuộc vào việc các chuỗi của bạn có bị lặp nhiều hay không.
 
-#### 
-#### 
-#### 
+#### 43. Final modifier?
+Final modifier: một khi đã được định nghĩa thì không thể sửa đổi được.
+- Final class: không thể kế thừa từ final class được.
+- Final variable: các biến final không thể bị thay đổi một khi nó đã được khởi tạo.
+- Final method: các phương thức final không thể bị ghi đè.
 
+#### 44. Phương thức finalize() là gì?
+finalize() là phương thức được sử dụng để thực hiện quá trình "clean up" trước khi một đối tượng được garbage collector thu thập lại. Nói đơn giản, nó được gọi trên đối tượng khi GC quyết định rằng đối tượng này không được tham chiếu tới nữa.
+
+#### 45. Từ khóa finally.
+Finally là một đoạn code và được sử dụng để đặt những dòng code quan trọng mà bạn muốn nó được thực thi cho dù ngoại lệ có được xử lý hay không. (try - catch - finally).
+
+#### 46. Từ khóa synchronized.
+Khi bạn có hai thread cùng đọc và ghi tới cùng một tài nguyên, ví dụ một biến test, bạn cần phải đảm bảo rằng các thread này truy cập biến trên một cách tuần tự. Nếu không sử dụng từ khóa synchronized, thread 1 có thể không biết những thay đổi mà thread 2 tạo ra đối với biến test và ngược lại. synchronized sẽ block lời gọi tiếp theo của thread tới tài nguyên nếu tài nguyên đó chưa được sử dụng trong một thread khác. Nói cách khác, chỉ có duy nhất một thread được truy cập tới tài nguyên này tại một thời điểm.
+
+#### 47. Từ khóa volatile.
+Giả sử hai thread đang cùng chạy trong một phương thức. Nếu hai thread này được chạy trên các processor khác nhau thì mỗi thread có thể có một bản ghi copy cục bộ riêng của biến. Nếu một thread chỉnh sửa giá trị của nó, thread còn lại có thể không biết được sự thay đổi của biến ban đầu (the original variable) một cách ngay lập tức. Điều này dẫn tới vấn đề không đồng nhất dữ liệu. Về cơ bản, volatile được sử dụng để chỉ định rằng giá trị của một biến sẽ bị chỉnh sửa bởi những thread khác nhau. volatile nói cho trình biên dịch rằng giá trị của một biến không nên được cache vì giá trị của nó có thể thay đổi ngoài phạm vi của chương trình. Giá trị của biến này sẽ không bao giờ được cache một cách cục bộ trên thread: tất cả quá trình đọc, ghi sẽ được thực hiện thẳng trong main memory.
+
+#### 48. Autoboxing và Unboxing là gì?
+Autoboxing là quá trình tự động chuyển đổi mà trình biên dịch Java tạo ra giữa kiểu dữ liệu nguyên thủy và các lớp wrapper tương ứng của chúng (ví dụ: int - Integer, long - Long, double - Double...). Quá trình chuyển đổi ngược lại chính là unboxing.
+
+#### 49. Externalization là gì?
+Trong serialization, JVM chịu trách nhiệm cho qúa trình ghi và đọc các đối tượng. Việc này khá là hữu ích trong đa số các tình huống bởi lập trình viên không cần tốn thời gian hay công sức quan tâm tới chi tiết của các tầng hoạt động phía dưới của quá trình serialization. Tuy nhiên, theo mặc định thì serialization không thể bảo vệ các thông tin nhạy cảm ví dụ như mật khẩu, thông tin nhân dạng, ... Bởi vậy, externalization sinh ra cho phép lập trình viên quyền điều khiển hoàn toàn quá trình đọc, ghi các đối tượng trong quá trình serialization. Việc bạn cần làm là implement java.io.Externalizable, sau đó triển khai code của riêng mình để ghi trạng thái của đối tượng trong phương thức writeExternal() và đọc trạng thái đối tượng trong phương thức readExternal().
+
+#### 50. Sự khác nhau giữa ArrayList và Vector?
+Vector là thread safe (synchronized) trong khi ArrayList thì không. Vì vậy hiệu năng của ArrayList sẽ tốt hơn so với Vector, nhưng Vector an toàn đối với những bài toán đa luồng mà bạn cần đồng bộ dữ liệu. Tuy nhiên nếu bạn sử dụng phương thức Collections.synchronizedList() thì nó cũng sẽ trả về cho bạn một synchronized list tương tự như Vector. Thực chất, cả hai đều chứa các phần tử của chúng ở trong một Array (mảng). Khi một phần tử mới được thêm vào một ArrayList hay Vector, chúng cần phải mở rộng mảng chứa phần tử của mình nếu kích thước của nó đã đạt giới hạn. Một Vector mặc định sẽ mở rộng ra gấp đôi kích thước mảng của nó, trong khi ArrayList thì chỉ gấp rưỡi.
+
+#### 51. Việc chèn và xóa phần tử trong ArrayList có chậm hơn so với LinkedList không?
+ArrayList sử dụng một mảng để lưu trữ các phần tử, khi mảng đó được lấp đầy thì một mảng mới có kích thước khoảng 1,5 lần kích thước của mảng ban đầu được tạo ra và tất cả dữ liệu của mảng cũ sẽ được sao chép sang mảng mới. Đối với quá trình xóa, tất cả phần tử trong mảng phải được lùi lại một index để lấp vào khoảng trống mà phần tử bị xóa để lại. Trong LinkedList, dữ liệu được lưu trữ trong các node và các node này có thể tham chiếu tới phần tử trước hoặc sau nó; vì vậy việc thêm phần tử mới vào rất đơn giản và nhanh chóng. Đó là tạo ra node mới, cập nhật con trỏ next của node cuối cùng và con trỏ previous của node mới. Quá trình xóa phần tử trong linked list cũng nhanh hơn vì nó chỉ cần cập nhật con trỏ next của node ngay trước node bị xóa và con trỏ previous của node nằm ngay sau node bị xóa.
+
+#### 52. HashMap hoạt động như thế nào?
+HashMap trong Java hoạt động dựa trên nguyên tắc băm. Đó là một cấu trúc dữ liệu cho phép chúng ta lưu trữ đối tượng và lấy nó với thời gian thực hiện là hằng số (độ khó O(1)) nếu ta biết trước key. Khi ta gọi phương thức put(), phương thức hashCode() của đối tượng đóng vai trò là key sẽ được gọi theo để hàm băm của map có thể tìm thấy vị trí để lưu trữ đối tượng Map.Entry (chính là đối tượng mà HashMap sử dụng để lưu trữ cả cặp key và value). Về cơ bản, HashMap sử dụng một mảng để lưu trữ các đối tượng Map.Entry này, và vì mảng có kích thước cố định nên nếu bạn tiếp tục đẩy vào các phần tử mới, đến một lúc hàm băm sẽ trả về cùng một địa chỉ cho hai key khác nhau, việc này được gọi là collision (xung đột) trong HashMap. Trong trường hợp này, một linked list sẽ hình thành tại vị trí đó và một entry mới được lưu trữ lại dưới dạng node tiếp theo. Nếu bạn cần lấy đối tượng từ linked list này, bạn sẽ cần phải thực hiện một quá trình kiểm tra thêm để tìm kiếm đúng giá trị mình mong muốn, điều này được thực hiện thông qua phương thức equals(). Vì mỗi node đều chứa một entry, HashMap sẽ liên tục so sánh key của các entry này với key được truyền vào sử dụng phương thức equals() và khi nó trả về true, Map sẽ trả về giá trị tương ứng cho bạn.
+
+Cảm ơn các bạn đã đọc bài của mình. Nếu có đóng góp hay thắc mắc các bạn hãy để lại ở phần comment nhé, mình sẽ cố gắng trả lời một cách sớm nhất có thể.
+
+Chúc các bạn thành công!
 
 Tham khảo:
 - [Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev cho sinh viên mới ra trường](https://forums.voz.vn/showthread.php?t=7216185)
