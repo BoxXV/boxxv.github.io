@@ -293,7 +293,7 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Tạo mới 1 Thread trong activity, khi mở activity mới thì Thread đó có còn chạy ko
 - Tạo mới 1 AsyncTask trong activity, mở activity mới thì AsyncTask đó còn chạy ko
 - MediaPlayer đang chạy trong, tạo mới activity khác, player đó còn chạy ko
-- Giải thích về 4 launchmode:standard, singleTop, singleTask, singleInstance
+- Giải thích về 4 launchmode: standard, singleTop, singleTask, singleInstance
 - Foreground và Background Service là gì, Bound service là gì
 - Phân biệt Serializable và Parcelable, cái nào tốt hơn
 - ANR là gì, khi nào nó xảy ra
