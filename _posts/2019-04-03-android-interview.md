@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 100 Câu hỏi phỏng vấn Android và gợi ý trả lời
+title: 101 Câu hỏi phỏng vấn Android và gợi ý trả lời
 subtitle: Vì một tương lai lương Android cao hơn iOS
 date: "2019-04-03"
 tags:
