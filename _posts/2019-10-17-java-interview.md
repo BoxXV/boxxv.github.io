@@ -143,19 +143,52 @@ Sự khác nhau cơ bản giữa SOAP và RESTful ?
 22. Biến static (biến tĩnh) là gì?
 23. Bạn hiểu gì về Access Modifier?
 24. Protected Access Modifier là gì?
+25. Synchronized Non Access Modifier là gì?
+26. Theo quyền ưu tiên của các toán tử trong Java, toán tử nào có quyền ưu tiên cao nhất?
+27. Các biến được sử dụng trong lệnh switch có thể được sử dụng với kiểu dữ liệu nào?
+28. Khi nào phương thức parseInt() có thể được sử dụng?
+29. Tại sao lớp String được coi như là bất biến (Immutable)?
+30. Tại sao StringBuffer được gọi là khả biến?
+31. Sự khác nhau giữa hai lớp StringBuffer và StringBuilder?
+32. Package nào được sử dụng để so khớp mẫu (Pattern Matching) với Regular Expression trong Java?
+33. java.util.regex gồm các lớp nào?
+34. Phương thức finalize() làm gì?
+35. Exception (Ngoại lệ) là gì?
+36. Bạn biết gì về Checked Exception?
+37. Giải thích Runtime Exception?
+38. Lớp Exception có hai lớp con nào?
+39. Khi nào từ kháo throws được sử dụng?
+40. Khi nào từ khóa throw được sử dụng?
+41. Cách finally được sử dụng dưới Exception Handling?
+42. Bạn nên ghi nhớ điều gì trong khi tạo Exception cho riêng mình trong Java?
+43. Tính kế thừa (Inheritance) là gì?
+44. Sử dụng từ khóa super khi nào?
+45. Định nghĩa tính đa hình (Polymorphism)?
+46. Tính trừu tượng (Abstraction) là gì?
+47. Lớp Abstract là gì?
+48. Khi nào phương thức abstract được sử dụng?
+49. Tính bao đóng (Encapsulation) là gì?
+50. Lợi ích chính của tính bao đóng?
+51. Interface là gì?
+52. Một số đặc điểm của Interface?
+53. Trong Java, Package là gì?
+54. Tại sao Package được sử dụng?
+55. Bạn hiểu gì về Đa luồng (Multi-Thread)?
+56. Thread có thể được tạo bằng hai cách nào?
+57. Applet là gì?
 
-25. Khi bạn còn trẻ, hãy quan tâm đến việc học và ước mơ, rồi hãy nói đến tình yêu và cuộc sống.
-26. Người muốn gặp bạn sẽ trực tiếp hỏi bạn đang ở đâu và đi tìm bạn, người thật lòng muốn cho bạn sẽ không hỏi bạn có cần không.
-27. Một người không chủ động liên lạc thì tức là không nhớ bạn, cũng có thể là không thích bạn, lúc nói chuyện chỉ ậm ừ vài ba câu hoặc tỏ vẻ không có hứng với bạn, nói những lời không liên quan hoặc không hành động thực tế, chính là người đó xem bạn là dự bị. Đừng viện cớ cho người đó nữa, đừng lãng phí tình cảm của mình, hãy hỏi thẳng, hoặc là từ bỏ đi.
-28. Đường vẫn còn dài, đừng quên lương tâm của mình.
-29. Hóa ra điều quan trọng nhất trong tình yêu là tìm đúng người, chứ không phải bạn nghiêm túc và cố gắng nhiều mà tình yêu chẳng cho lại bao nhiêu.
-30. Đừng lấy lòng kẻ khác, họ sẽ không hiểu lòng bạn đâu.
-31. Bạn và nhiều người có khả năng trở thành bạn bè nhưng cuối cùng có thể là không có ai cả, bạn nghĩ họ là bạn, nhưng thực chất họ không thân thiết đến vậy, bạn bè của bạn có rất nhiều đấy, nhưng có lẽ bạn vẫn cô độc thôi.
-32. Hy vọng vào người khác chi bằng hy vọng vào chính mình. Không thể nhờ cậy vào ai hết.
-33. Chúng ta có thể tự mua son môi, đừng mong mỏi người khác tặng.
-34. Nếu bạn sợ làm một việc nào đó, thế thì hãy làm nó đi!
-35. Người đọc sách nhiều thực sự khí chất rất khác.
-36. Mọi mối quan hệ trở nên nhạt nhẽo là vì một người không nói, người kia không hỏi. Hoặc là một người hỏi qua loa, người kia trả lời cho có.
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 201 câu hỏi phỏng vấn Java hay thường gặp
 1. Bạn biết gì về Java?
