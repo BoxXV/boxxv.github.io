@@ -364,7 +364,7 @@ Broadcast receiver liên lạc với các thông báo của hệ điều hành, 
 - Cách gửi và nhận Broadcast receiver
 - Phân biệt Service, Intent Service, AsyncTask và Thread
 - Cách lấy data từ server, cách gọi api .v.v.
-- Bạn hay dùng loại data base nào dùng trong app android? (trả lời: SQLite, Realm)
+- Bạn hay dùng loại data base nào dùng trong app android? (trả lời: SQLite, Realm .v.v.)
 - Trình bày về mô hình MVP
 - Unit Test trong Android
 - Câu hỏi phụ: mối liên hệ giữa MPV và Unit Test
