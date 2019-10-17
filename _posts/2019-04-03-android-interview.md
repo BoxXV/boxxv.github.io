@@ -255,6 +255,21 @@ Có, một hoạt động có thể được tạo mà không cần bất kỳ g
 Broadcast receiver liên lạc với các thông báo của hệ điều hành, chẳng hạn như kiểm tra xem có kết nối internet hay không, có phải là nhãn pin hay không, v.v.
 
 
+## Phụ lục: Các câu hỏi phỏng vấn Android ở FPT Software
+- Ưu điểm của ConstraintLayout
+- Material design là gì, cách xây dựng app theo chuẩn Material design
+- Cách hỗ trợ cho nhiều kích thước màn hình khác nhau, hỗ trợ cả phone và tablet?
+- Vòng đời của Activity, 1 app ko có Activity/UI được ko?
+- Kinh nghiệm với kết nối và làm việc với Bluetooth (dự án FPT oto có liên quan đến Bluetooth)
+- Cách gửi và nhận Broadcast receiver
+- Phân biệt Service, Intent Service, AsyncTask và Thread
+- Cách lấy data từ server, cách gọi api .v.v.
+- Bạn hay dùng loại data base nào dùng trong app android? (trả lời: SQLite, Realm)
+- Trình bày về mô hình MVP
+- Unit Test trong Android
+- Câu hỏi phụ: mối liên hệ giữa MPV và Unit Test
+
+
 
 Tham khảo:
 - [20 Essential Android Interview Questions and Answers](https://www.toptal.com/android/interview-questions)
