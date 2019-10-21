@@ -88,13 +88,15 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `おわります` || owarimasu || hết, kết thúc, xong |
 | `デパート` || depaｰto || bách hóa |
 
-| `カード` || KA-DO || thẻ, các, cạc |
-| `テレホンカード` || TELEHONKA-DO || thẻ điện thoại |
-| `えんびつ` || embitsu || bút chì |
-| `ポールペン` || BO-RUPEN || bút bi |
-| `シャープペンシル` || SHA-PUPENSHIRU || bút chì bấm |
-| `とけい` || tokei || đồng hồ |
-| `かさ` || kasa || cái dù |
+| `ぎんこう` || ginkou || ngân hàng |
+| `ゆうびんきょく` || yuubinkyoku || bưu điện |
+| `としょかん` || toshokan || thư viện |
+| `びじゅつかん` || bijutsukan || bảo tàng mỹ thuật |
+| `いま` || ima || bây giờ |
+| `―じ` || ～ji || -giờ |
+| `―ふん（－ぷん）` || ～fun(-pun) || - phút |
+
+
 | `かばん` || kaban || cái cặp |
 | `テレビ` || TEREBI || cái TV |
 | `ラジオ` || RAZIO || cái radio |
