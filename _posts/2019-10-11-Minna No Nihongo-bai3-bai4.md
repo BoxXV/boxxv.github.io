@@ -104,7 +104,6 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `ばん（よる）` || ban (yoru) || buổi tối, tối |
 | `おととい` || ototoi || hôm kia |
 | `きのう` || kinou || hôm qua |
-
 | `きょう` || kyou || hôm nay |
 | `あした` || ashita || ngày mai |
 | `あさって` || asatte || ngày kia |
