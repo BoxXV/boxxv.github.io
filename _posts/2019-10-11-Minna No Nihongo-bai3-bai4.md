@@ -135,16 +135,16 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `おねがいします` || onegai shimasu || Nhờ anh/chị. Phiền anh/chị. Xin vui lòng giúp đỡ |
 | `かしこまりました` || kashikomarimashita || Tôi hiểu rồi ạ./ vâng, được rồi ạ. |
 | `おといあわせのばんごう` || otoiawasenobangou || Số điện thoại mà ông/ bà muốn hỏi |
-| `[どうも]ありがとうございました。` || [doumo]arigatougozaimashita｡ || tiếng |
-| `ニューヨーク` || nyuｰyoｰku || tiếng |
-| `ペキン` || pekin || tiếng |
-| `ロンドン` || rondon || tiếng |
-| `バンコク` || bankoku || tiếng |
-| `ロサンゼルス` || rosanzerusu || tiếng |
-| `やまとびじゅつかん` || yamatobijutsukan || tiếng |
-| `おおさかデパート` || oosakadepaｰto || tiếng |
-| `みどりとしょかん` || midoritoshokan || tiếng |
-| `アップルぎんこう` || appuruginkou || tiếng |
+| `[どうも]ありがとうございました。` || [doumo]arigatougozaimashita｡ || Xin cám ơn ông/bà |
+| `ニューヨーク` || nyuｰyoｰku || New York |
+| `ペキン` || pekin || Bắc Kinh |
+| `ロンドン` || rondon || Luân Đôn |
+| `バンコク` || bankoku || Băng Cốc |
+| `ロサンゼルス` || rosanzerusu || Los Angeles |
+| `やまとびじゅつかん` || yamatobijutsukan || tên một bảo tàng Mỹ thuật (giả tưởng) |
+| `おおさかデパート` || oosakadepaｰto || tên một bách hóa (giả tưởng) |
+| `みどりとしょかん` || midoritoshokan || tên một thư viện (giả tưởng) |
+| `アップルぎんこう` || appuruginkou || tên một ngân hàng (giả tưởng) |
 
 [Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 3](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-3)
 
