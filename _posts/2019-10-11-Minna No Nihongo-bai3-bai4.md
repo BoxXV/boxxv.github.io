@@ -105,36 +105,36 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `おととい` || ototoi || hôm kia |
 | `きのう` || kinou || hôm qua |
 
-| `きょう` || kyou || tiếng |
-| `あした` || ashita || tiếng |
-| `あさって` || asatte || tiếng |
-| `けさ` || kesa || tiếng |
-| `こんばん` || konban || tiếng |
-| `やすみ` || yasumi || tiếng |
-| `ひるやすみ` || hiruyasumi || tiếng |
-| `まいあさ` || maiasa || tiếng |
-| `まいばん` || maiban || tiếng |
-| `まいにち` || mainichi || tiếng |
-| `げつようび` || getsuyoubi || tiếng |
-| `かようび` || kayoubi || tiếng |
-| `すいようび` || suiyoubi || tiếng |
-| `もくようび` || mokuyoubi || tiếng |
-| `きんようび` || kinyoubi || tiếng |
-| `どようび` || doyoubi || tiếng |
-| `にちようび` || nichiyoubi || tiếng |
-| `なんようび` || nanyoubi || tiếng |
-| `ばんごう` || bangou || tiếng |
-| `なんばん` || nanban || tiếng |
-| `～から` || ～kara || tiếng |
-| `～まで` || ～made || tiếng |
-| `～と` || ～to || tiếng |
-| `そちら` || sochira || tiếng |
-| `たいへんですね` || taihendesune || tiếng |
-| `えーと` ||  eｰto || tiếng |
-| `104` || 104 || tiếng |
-| `おねがいします` || onegai shimasu || tiếng |
-| `かしこまりました` || kashikomarimashita || tiếng |
-| `おといあわせのばんごう` || otoiawasenobangou || tiếng |
+| `きょう` || kyou || hôm nay |
+| `あした` || ashita || ngày mai |
+| `あさって` || asatte || ngày kia |
+| `けさ` || kesa || sáng nay |
+| `こんばん` || konban || tối nay |
+| `やすみ` || yasumi || nghỉ, nghỉ phép, ngày nghỉ |
+| `ひるやすみ` || hiruyasumi || nghỉ trưa |
+| `まいあさ` || maiasa || hàng sáng, mỗi sáng |
+| `まいばん` || maiban || hàng tối, mỗi tối |
+| `まいにち` || mainichi || hàng ngày, mỗi ngày |
+| `げつようび` || getsuyoubi || thứ hai |
+| `かようび` || kayoubi || thứ ba |
+| `すいようび` || suiyoubi || thứ tư |
+| `もくようび` || mokuyoubi || thứ năm |
+| `きんようび` || kinyoubi || thứ sáu |
+| `どようび` || doyoubi || thứ bảy |
+| `にちようび` || nichiyoubi || chủ nhật |
+| `なんようび` || nanyoubi || thứ mấy |
+| `ばんごう` || bangou || số (số điện thoại, số phòng) |
+| `なんばん` || nanban || số bao nhiêu, số mấy |
+| `～から` || ～kara || ~ từ |
+| `～まで` || ～made || ~ đến |
+| `～と` || ～to || ~ và (dùng để nối hai danh từ) |
+| `そちら` || sochira || phía đó, đằng đó, chỗ đó, đó |
+| `たいへんですね` || taihendesune || Anh/chị vất vả quá. |
+| `えーと` ||  eｰto || ừ, à  |
+| `104` || 104 || Số điện thoại của dịch vụ hướng dẫn số điện thoại |
+| `おねがいします` || onegai shimasu || Nhờ anh/chị. Phiền anh/chị. Xin vui lòng giúp đỡ |
+| `かしこまりました` || kashikomarimashita || Tôi hiểu rồi ạ./ vâng, được rồi ạ. |
+| `おといあわせのばんごう` || otoiawasenobangou || Số điện thoại mà ông/ bà muốn hỏi |
 | `[どうも]ありがとうございました。` || [doumo]arigatougozaimashita｡ || tiếng |
 | `ニューヨーク` || nyuｰyoｰku || tiếng |
 | `ペキン` || pekin || tiếng |
