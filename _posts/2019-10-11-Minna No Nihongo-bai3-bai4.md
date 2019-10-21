@@ -80,13 +80,14 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 
 | Từ vựng || Phiên âm || Dịch nghĩa |
 | -- | -- | -- | -- | -- |
-| `ほん` || hon || sách |
-| `じしょ` || jisho || từ điển |
-| `ざっし` || zasshi || tạp chí |
-| `しんぶん` || shimbun || báo |
-| `ノート` || NOTO || vở |
-| `てちょう` || techou || sổ tay |
-| `めいし` || meishi || danh thiếp |
+| `おきます` || okimasu || dậy, thức dậy |
+| `ねます` || nemasu || ngủ, đi ngủ |
+| `はたらきます` || hatarakimasu || làm việc |
+| `やすみます` || yasumimasu || nghỉ, nghỉ ngơi |
+| `べんきょうします` || benkyoushimasu || học |
+| `おわります` || owarimasu || hết, kết thúc, xong |
+| `デパート` || depaｰto || bách hóa |
+
 | `カード` || KA-DO || thẻ, các, cạc |
 | `テレホンカード` || TELEHONKA-DO || thẻ điện thoại |
 | `えんびつ` || embitsu || bút chì |
