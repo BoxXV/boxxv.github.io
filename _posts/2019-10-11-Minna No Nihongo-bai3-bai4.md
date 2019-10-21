@@ -87,7 +87,6 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `べんきょうします` || benkyoushimasu || học |
 | `おわります` || owarimasu || hết, kết thúc, xong |
 | `デパート` || depaｰto || bách hóa |
-
 | `ぎんこう` || ginkou || ngân hàng |
 | `ゆうびんきょく` || yuubinkyoku || bưu điện |
 | `としょかん` || toshokan || thư viện |
@@ -95,19 +94,23 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `いま` || ima || bây giờ |
 | `―じ` || ～ji || -giờ |
 | `―ふん（－ぷん）` || ～fun(-pun) || - phút |
+| `はん` || han || rưỡi, nửa |
+| `なんじ` || nanji || mấy giờ |
+| `なんぷん` || nanpun || mấy phút |
+| `ごぜん` || gozen || sáng, trước 12 giờ trưa |
+| `ごご` || gogo || chiều, sau 12 giờ trưa |
+| `あさ` || asa || buổi sáng, sáng |
+| `ひる` || hiru || buổi trưa, trưa |
+| `ばん（よる）` || ban (yoru) || buổi tối, tối |
+| `おととい` || ototoi || hôm kia |
+| `きのう` || kinou || hôm qua |
 
-
-| `かばん` || kaban || cái cặp |
-| `テレビ` || TEREBI || cái TV |
-| `ラジオ` || RAZIO || cái radio |
-| `カメラ` || KAMERA || cái máy chụp hình |
-| `コンピューター` || KOMPYU-TA || máy vi tính |
-| `じどうしゃ` || jidousha || xe hơi |
-| `つくえ` || tsukue || cái bàn |
-| `チョコレート` || CHOKORE-TO || kẹo sôcôla |
-| `コーヒー` || KO-HI || cà phê |
-| `えいご` || eigo || tiếng Anh |
-| `にほんご` || nihongo || tiếng Nhật |
+| `にほんご` || nihongo || tiếng |
+| `にほんご` || nihongo || tiếng |
+| `にほんご` || nihongo || tiếng |
+| `にほんご` || nihongo || tiếng |
+| `にほんご` || nihongo || tiếng |
+| `にほんご` || nihongo || tiếng |
 
 [Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 3](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-3)
 
