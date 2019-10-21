@@ -105,14 +105,50 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 | `おととい` || ototoi || hôm kia |
 | `きのう` || kinou || hôm qua |
 
-| `にほんご` || nihongo || tiếng |
-| `にほんご` || nihongo || tiếng |
-| `にほんご` || nihongo || tiếng |
-| `にほんご` || nihongo || tiếng |
-| `にほんご` || nihongo || tiếng |
-| `にほんご` || nihongo || tiếng |
+| `きょう` || kyou || tiếng |
+| `あした` || ashita || tiếng |
+| `あさって` || asatte || tiếng |
+| `けさ` || kesa || tiếng |
+| `こんばん` || konban || tiếng |
+| `やすみ` || yasumi || tiếng |
+| `ひるやすみ` || hiruyasumi || tiếng |
+| `まいあさ` || maiasa || tiếng |
+| `まいばん` || maiban || tiếng |
+| `まいにち` || mainichi || tiếng |
+| `げつようび` || getsuyoubi || tiếng |
+| `かようび` || kayoubi || tiếng |
+| `すいようび` || suiyoubi || tiếng |
+| `もくようび` || mokuyoubi || tiếng |
+| `きんようび` || kinyoubi || tiếng |
+| `どようび` || doyoubi || tiếng |
+| `にちようび` || nichiyoubi || tiếng |
+| `なんようび` || nanyoubi || tiếng |
+| `ばんごう` || bangou || tiếng |
+| `なんばん` || nanban || tiếng |
+| `～から` || ～kara || tiếng |
+| `～まで` || ～made || tiếng |
+| `～と` || ～to || tiếng |
+| `そちら` || sochira || tiếng |
+| `たいへんですね` || taihendesune || tiếng |
+| `えーと` ||  eｰto || tiếng |
+| `104` || 104 || tiếng |
+| `おねがいします` || onegai shimasu || tiếng |
+| `かしこまりました` || kashikomarimashita || tiếng |
+| `おといあわせのばんごう` || otoiawasenobangou || tiếng |
+| `[どうも]ありがとうございました。` || [doumo]arigatougozaimashita｡ || tiếng |
+| `ニューヨーク` || nyuｰyoｰku || tiếng |
+| `ペキン` || pekin || tiếng |
+| `ロンドン` || rondon || tiếng |
+| `バンコク` || bankoku || tiếng |
+| `ロサンゼルス` || rosanzerusu || tiếng |
+| `やまとびじゅつかん` || yamatobijutsukan || tiếng |
+| `おおさかデパート` || oosakadepaｰto || tiếng |
+| `みどりとしょかん` || midoritoshokan || tiếng |
+| `アップルぎんこう` || appuruginkou || tiếng |
 
 [Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 3](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-3)
 
 [Bài 03 - Từ vựng - Học tiếng Nhật online miễn phí](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-3.html)
+
+[Bài 04 - Từ vựng - Học tiếng Nhật online miễn phí](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-4.html)
 
