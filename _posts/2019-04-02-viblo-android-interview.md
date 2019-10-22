@@ -48,13 +48,13 @@ Vì `onCreate()` chỉ được gọi tới một lần nên đây là thời đ
 - Các tác vụ cần được chạy thường xuyên dưới dạng hàng loạt trong đó yếu tố thời gian không quá quan trọng.
 
 #### 10. Mối quan hệ giữa vòng đời của AsyncTask và Activity? Những vấn đề gì có thể xảy ra khi sử dụng chúng chung với nhau? Giải quyết những vấn đề đó thế nào?
-AsyncTask không được gắn với vòng đời của Activity chứa nó. Ví dụ, nếu bạn khởi động AsyncTask bên trong một Activity và khi người dùng quay thiết bị, Activity sẽ bị hủy (và một instance mới của Activity sẽ được tạo) nhưng AsyncTask sẽ không bị hủy mà thay vào đó sẽ tiếp tục chạy cho đến khi nó hoàn thành.
+`AsyncTask` không được gắn với vòng đời của `Activity` chứa nó. Ví dụ, nếu bạn khởi động `AsyncTask` bên trong một `Activity` và khi người dùng quay thiết bị, `Activity` sẽ bị hủy (và một instance mới của `Activity` sẽ được tạo) nhưng `AsyncTask` sẽ không bị hủy mà thay vào đó sẽ tiếp tục chạy cho đến khi nó hoàn thành.
 
-Sau đó, khi AsyncTask hoàn thành, thay vì cập nhật giao diện người dùng của Activity mới, nó sẽ cập nhật phiên bản Activity trước đó (Activity đã bị hủy). Điều này có thể dẫn đến một Exception: java.lang.IllegalArgumentException.
+Sau đó, khi `AsyncTask` hoàn thành, thay vì cập nhật giao diện người dùng của `Activity` mới, nó sẽ cập nhật phiên bản `Activity` trước đó (`Activity` đã bị hủy). Điều này có thể dẫn đến một `Exception`: `java.lang.IllegalArgumentException`.
 
-Ngoài ra còn có khả năng dẫn đến rò rỉ bộ nhớ (memory leak) vì AsyncTask duy trì một tham chiếu đến Activity cũ, ngăn cản Activity này bị thu gom rác của Java thu thập khi vẫn còn hoạt động.
+Ngoài ra còn có khả năng dẫn đến rò rỉ bộ nhớ (`memory leak`) vì `AsyncTask` duy trì một tham chiếu đến `Activity` cũ, ngăn cản `Activity` này bị thu gom rác của Java thu thập khi vẫn còn hoạt động.
 
-Vì những lý do này, việc sử dụng AsyncTask cho các tác vụ nền chạy dài thường là một ý tưởng tồi. Thay vào đó đối với các tác vụ nền chạy dài, bạn nên sử dụng một cơ chế khác (chẳng hạn như service).
+Vì những lý do này, việc sử dụng `AsyncTask` cho các tác vụ nền chạy dài thường là một ý tưởng tồi. Thay vào đó đối với các tác vụ nền chạy dài, bạn nên sử dụng một cơ chế khác (chẳng hạn như `service`).
 
 #### 11. Phương thức onTrimMemory() là gì?
 onTrimMemory (): Được gọi khi hệ điều hành xác định rằng đây là thời điểm tốt để xử lý bộ nhớ không cần thiết từ một tiến trình của nó. Ví dụ điều này sẽ xảy ra khi tiến trình chạy ở chế độ nền và không đủ bộ nhớ để duy trì được nhiều tiến trình nền như mong muốn, khi đó hệ thống sẽ dựa trên độ ưu tiên của tiến trình để kill bớt cho tới khi bộ nhớ đã ổn định. Hệ thống Android có thể lấy lại bộ nhớ cấp phát cho ứng dụng của bạn theo nhiều cách hoặc kill ứng dụng của bạn nếu cần thiết để giải phóng bộ nhớ cho các tác vụ quan trọng. Để giúp cân bằng bộ nhớ của hệ thống và tránh việc hệ thống hủy tiến trình của ứng dụng, bạn có thể implement interface ComponentCallbacks2 ở trong các lớp Activity của mình. Phương thức callback onTrimMemory () được cung cấp cho phép ứng dụng của bạn lắng nghe các sự kiện liên quan đến bộ nhớ khi ứng dụng của bạn ở foreground hoặc background từ đó bạn có thể xử lý khi hệ thống cần thu hồi lại bộ nhớ từ ứng dụng của bạn.
