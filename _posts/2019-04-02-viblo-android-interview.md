@@ -78,7 +78,7 @@ Ta cần phải đăng ký một `LocalBroadcastReceiver` trong `activity` đó.
 - **add** giữ lại các `fragment` hiện có và thêm một `fragment` mới đè lên chúng, có nghĩa là `fragment` hiện có sẽ hoạt động và những `fragment` ở dưới sẽ không rơi vào trạng thái `paused`. Do đó khi nút back được nhấn `onCreateView` không được gọi cho những `fragment` này.
 
 ### 17. Tại sao ta nên truyền các tham số vào Fragment thông qua Bundle?
-Lý do tại sao bạn nên chuyển các tham số thông qua bundle là vì khi hệ thống khôi phục một fragment (ví dụ: người dùng thay đổi cấu hình), nó sẽ tự động khôi phục bundle của bạn. Bằng cách này, bạn đảm bảo được rằng trạng thái của fragment sẽ được khôi phục một cách chính xác về đúng trạng thái của fragment đó khi được khởi tạo.
+Lý do tại sao bạn nên chuyển các tham số thông qua **bundle** là vì khi hệ thống khôi phục một `fragment` (ví dụ: người dùng thay đổi cấu hình), nó sẽ tự động khôi phục `bundle` của bạn. Bằng cách này, bạn đảm bảo được rằng trạng thái của `fragment` sẽ được khôi phục một cách chính xác về đúng trạng thái của `fragment` đó khi được khởi tạo.
 
 ### 18. Retained fragment là gì?
 Mặc định, Fragment sẽ bị hủy và được tạo lại cùng với parent Activity của chúng khi thay đổi cấu hình xảy ra. Lời gọi tới phương thức setRetainInstance(true) cho phép chúng ta bỏ qua chu trình "hủy-và-tái tạo" này; báo hiệu cho hệ thống rằng bạn muốn giữ lại instance hiện tại của fragment khi activity được tạo lại, đó chính là retainted fragment.
