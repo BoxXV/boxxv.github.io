@@ -74,8 +74,8 @@ Việc tạo và hủy các `Thread` có mức sử dụng CPU cao, vì vậy kh
 Ta cần phải đăng ký một `LocalBroadcastReceiver` trong `activity` đó. Và gửi một `broadcast` với dữ liệu chứa trong `intent` từ `background service` này. Miễn là `activity` còn hoạt động ở trên `foreground`, giao diện người dùng sẽ được cập nhật. Lưu ý bạn nên nhớ hủy đăng ký `broadcast receiver` ở trong phương thức `Stop()`của `activity` để tránh bị `memory leak`. Ta cũng có thể sử dụng một Handler để truyền dữ liệu thông qua nó.
 
 #### 16. Sự khác biệt giữa việc add / replace fragment trong backstack?
-- replace loại bỏ fragment hiện có và thêm một fragment mới vào. Điều này có nghĩa là khi bạn nhấn nút quay lại, fragment đã được thay thế sẽ được khởi tạo lại với onCreateView của nó được gọi.
-- add giữ lại các fragment hiện có và thêm một fragment mới đè lên chúng, có nghĩa là fragment hiện có sẽ hoạt động và những fragment ở dưới sẽ không rơi vào trạng thái paused. Do đó khi nút back được nhấn onCreateView không được gọi cho những fragment này.
+- **replace** loại bỏ `fragment` hiện có và thêm một `fragment` mới vào. Điều này có nghĩa là khi bạn nhấn nút quay lại, `fragment` đã được thay thế sẽ được khởi tạo lại với `onCreateView` của nó được gọi.
+- **add** giữ lại các `fragment` hiện có và thêm một `fragment` mới đè lên chúng, có nghĩa là `fragment` hiện có sẽ hoạt động và những `fragment` ở dưới sẽ không rơi vào trạng thái `paused`. Do đó khi nút back được nhấn `onCreateView` không được gọi cho những `fragment` này.
 
 #### 17. Tại sao ta nên truyền các tham số vào Fragment thông qua Bundle?
 Lý do tại sao bạn nên chuyển các tham số thông qua bundle là vì khi hệ thống khôi phục một fragment (ví dụ: người dùng thay đổi cấu hình), nó sẽ tự động khôi phục bundle của bạn. Bằng cách này, bạn đảm bảo được rằng trạng thái của fragment sẽ được khôi phục một cách chính xác về đúng trạng thái của fragment đó khi được khởi tạo.
