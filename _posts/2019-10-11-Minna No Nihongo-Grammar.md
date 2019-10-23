@@ -6,11 +6,12 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 ---
 
 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
-N `は` N2 です。 (N `wa` N2 `desu`)
+
+N **は** N2 **です**。 (N `wa` N2 `desu`)
 
 Ví dụ:
 
-わたし　`は`　マイク　ミラー　`です`。 (Watashi `wa` MAIKU MIRA- `desu`)
+`わたし`　**は**　`マイク　ミラー`　**です**。 (Watashi `wa` MAIKU MIRA- `desu`)
 
 Tôi là Michael Miler
 
