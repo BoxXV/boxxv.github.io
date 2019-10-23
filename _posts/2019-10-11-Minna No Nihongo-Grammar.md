@@ -14,14 +14,14 @@ Ví dụ:
 <watashi wa MAIKU MIRA- desu>
 (tôi là Michael Miler)
 
-`これ/それ/あれ`**は**N**です**
+2. `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
-2. `これ/それ/あれ`N1`ですか`、N2`ですか`
+3. `これ/それ/あれ`N1`ですか`、N2`ですか`
 `kore`/`sore`/`are`
 Cái này/cái đó/cái kia là N1 hay N2?
 
-3. `これ/それ/あれ`はN1のN2です
+4. `これ/それ/あれ`はN1のN2です
 kono`/`sono`/`ano`
 N1 này/đó/kia là của N2
 
