@@ -5,7 +5,16 @@ description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
 ---
 
-1. `これ/それ/あれ`**は**N**です**
+1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
+N `は` N2 です。
+N `wa` N2 `desu`
+
+Ví dụ:
+わたし　`は`　マイク　ミラー　`です`。
+<watashi wa MAIKU MIRA- desu>
+(tôi là Michael Miler)
+
+`これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
 2. `これ/それ/あれ`N1`ですか`、N2`ですか`
