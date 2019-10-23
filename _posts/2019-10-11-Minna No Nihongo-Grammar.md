@@ -8,6 +8,10 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 1. `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
+2. `これ/それ/あれ`N1`ですか`、N2`ですか`
+`kore`/`sore`/`are`
+Cái này/cái đó/cái kia là N1 hay N2?
+
 | Ngữ pháp || Phiên âm || Dịch nghĩa |
 | -- | -- | -- | -- | -- |
 | `これ/それ/あれ`はNです || `kore`/`sore`/`are` || Cái này/cái đó/cái là N |
