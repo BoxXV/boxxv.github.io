@@ -11,6 +11,7 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 Ví dụ:
 
 `わたし`**は**`マイク　ミラー`**です**。 (Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
+
 -----
 #### 2. `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
