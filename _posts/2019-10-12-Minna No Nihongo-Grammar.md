@@ -25,14 +25,13 @@ Cái này/cái đó/cái kia là N1 hay N2?
 kono`/`sono`/`ano`
 N1 này/đó/kia là của N2
 
-| -- | -- | -- | -- | -- |
-| `これ/それ/あれ`はNです || `kore`/`sore`/`are` || Cái này/cái đó/cái là N |
-| `これ/それ/あれ`N1`ですか`、N2`ですか` || `kore`/`sore`/`are` || Cái này/cái đó/cái kia là N1 hay N2? |
-| `これ/それ/あれ`はN1のN2です || `kore`/`sore`/`are` || Cái này/ cái đó/ cái kia là N2 của/về N1 |
-| `この/その/あの`N1`は`N2`の`です || `kono`/`sono`/`ano` || N1 này/đó/kia là của N2 |
-| はい、そうです。 || hai, sou desu || Vâng, phải. |
-| いいえ、そうじゃありません。 || iie, sou jaa rimasen || Không, Không phải |
-| そうですか。 || sou desu ka || Vậy à! |
+  `これ/それ/あれ`はNです    `kore`/`sore`/`are`    Cái này/cái đó/cái là N  
+  `これ/それ/あれ`N1`ですか`、N2`ですか`    `kore`/`sore`/`are`    Cái này/cái đó/cái kia là N1 hay N2?  
+  `これ/それ/あれ`はN1のN2です    `kore`/`sore`/`are`    Cái này/ cái đó/ cái kia là N2 của/về N1  
+  `この/その/あの`N1`は`N2`の`です    `kono`/`sono`/`ano`    N1 này/đó/kia là của N2  
+  はい、そうです。    hai, sou desu    Vâng, phải.  
+  いいえ、そうじゃありません。    iie, sou jaa rimasen    Không, Không phải  
+  そうですか。    sou desu ka    Vậy à!  
 
 -----
 
