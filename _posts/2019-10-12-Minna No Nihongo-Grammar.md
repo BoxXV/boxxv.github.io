@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minna No Nihongo: Ngữ pháp tiếng Nhật sơ cấp
+title: Minna No Nihongo Ngữ pháp tiếng Nhật sơ cấp
 description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
 ---
