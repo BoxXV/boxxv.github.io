@@ -43,7 +43,23 @@ A: いいえ、わたしはだいがくせいじゃありません。（わた�
 
 -----
 
-### 5. M
+### 5. Mẫu câu dùng trợ từ　の để chỉ sự sở hữu.
+`N1` **の** `N2` (**です**)。 (N1 `no` N2 (`desu`))
+N1のN2
+
+ミラーさん　**は**　かいしゃいん　**ですか**。 
+(Anh Miler có phải là nhân viên công ty không? - MIRA- san wa kaishain desuka)
+
+IMC　のしゃいん. 
+(Nhân viên của công ty IMC - IMC `no` shain)
+
+日本語　　の　ほん 
+(Sách tiếng Nhật - Nihongo `no` hon)
+
+-----
+
+
+
 `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
