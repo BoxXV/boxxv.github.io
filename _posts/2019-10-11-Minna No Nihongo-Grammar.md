@@ -6,19 +6,20 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 ---
 
 ### 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
-`N` **は** `N2` **です**。 (N `wa` N2 `desu`)
+`N1` **は** `N2` **です**。 (N1 `wa` N2 `desu`)
 
 `わたし`**は**`マイク　ミラー`**です**。 (Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
 
 -----
 
-### 2. Mẫu câu phủ định. Có thể dùng　じゃ<ja> hoặc　では<dewa> trước　ありません<arimasen>　đều được.
-`N` **は** `N2` **じゃ**/**では**`ありません`。 (N `wa` N2 **ja**/**dewa**`arimasen`。)
+### 2. Mẫu câu phủ định. Có thể dùng　じゃ hoặc　では trước　ありません　đều được.
+`N1` **は** `N2` **じゃ**/**では** `ありません`。 (N1 `wa` N2 **ja**/**dewa** `arimasen`。)
 
-`サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。
+`サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。  (Anh Santose không phải là sinh viên - SANTOSU san wa gakusei ja (dewa) arimasen)
 
 -----
 
+### 3. a
 `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
