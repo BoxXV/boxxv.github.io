@@ -19,7 +19,17 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 
 -----
 
-### 3. a
+### 3. Mẫu câu hỏi với ttrợ từ nghi vấn　か ở cuối câu
+`N1` **は** `N2` **ですか**。 (N1 `wa` N2 `desuka`)
+
+ミラーさん　**は**　かいしゃいん　**ですか**。 (Anh Miler có phải là nhân viên công ty không? - MIRA- san wa kaishain desuka)
+
+-----
+
+### 4. M
+
+-----
+
 `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
