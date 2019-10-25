@@ -8,25 +8,32 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 ### 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
 `N1` **は** `N2` **です**。 (N1 `wa` N2 `desu`)
 
-`わたし`**は**`マイク　ミラー`**です**。 (Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
+`わたし`**は**`マイク　ミラー`**です**。 
+(Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
 
 -----
 
 ### 2. Mẫu câu phủ định. Có thể dùng　じゃ hoặc　では trước　ありません　đều được.
 `N1` **は** `N2` **じゃ**/**では** `ありません`。 (N1 `wa` N2 **ja**/**dewa** `arimasen`。)
 
-`サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。  (Anh Santose không phải là sinh viên - SANTOSU san wa gakusei ja (dewa) arimasen)
+`サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。 
+(Anh Santose không phải là sinh viên - SANTOSU san wa gakusei ja (dewa) arimasen)
 
 -----
 
 ### 3. Mẫu câu hỏi với ttrợ từ nghi vấn　か ở cuối câu
 `N1` **は** `N2` **ですか**。 (N1 `wa` N2 `desuka`)
 
-ミラーさん　**は**　かいしゃいん　**ですか**。 (Anh Miler có phải là nhân viên công ty không? - MIRA- san wa kaishain desuka)
+ミラーさん　**は**　かいしゃいん　**ですか**。 
+(Anh Miler có phải là nhân viên công ty không? - MIRA- san wa kaishain desuka)
 
 -----
 
-### 4. M
+### 4. Mẫu câu dùng trợ từ も với ý nghĩa là “cũng là”
+`N1` **も** `N2` **です（か）**。 (N1 `mo` N2 `desu(ka)`)
+
+わたし **は** ベトナムじん`です`。あなた**も** ( ベトナムじん`ですか` ) 
+(Tôi là người Việt Nam, bạn cũng là người Việt Nam phải không? - Watashi wa BETONAMU jin desu. Anata mo ( BETONAMU jin desu ka?)
 
 -----
 
