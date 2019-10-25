@@ -94,7 +94,7 @@ B: やまださんはよんじゅうごさいです。 (Anh Yamada 45 tuổi - Y
 -----
 
 ### 7. a) Mẫu câu dùng để xác định lại tên một người.
-_____**は** `N1` ～さん（さま） **です**。 (_____`wa` N1～san(sama) `desu`)
+_ **は** `N1` ～さん（さま） **です**。 (_ `wa` N1～san(sama) `desu`)
 
 あの　**ひと**（**かた**）　`は`　きむらさんです。 
 (Người này (vị này) là anh (ông) Kimura - ano **hito** (**kata**) `wa` kimura san desu)
