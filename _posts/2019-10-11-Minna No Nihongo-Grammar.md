@@ -8,23 +8,23 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 ### 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
 `N1` **は** `N2` **です**。 (N1 `wa` N2 `desu`)
 
-`わたし`**は**`マイク　ミラー`**です**。 
+`わたし`**は**`マイク ミラー`**です**。 
 (Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
 
 -----
 
-### 2. Mẫu câu phủ định. Có thể dùng　じゃ hoặc　では trước　ありません　đều được.
+### 2. Mẫu câu phủ định. Có thể dùng じゃ hoặc では trước ありません đều được.
 `N1` **は** `N2` **じゃ**/**では** `ありません`。 (N1 `wa` N2 **ja**/**dewa** `arimasen`。)
 
-`サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。 
+`サントスさん` **は** `がくせい` **じゃ** (**では**) `ありません`。 
 (Anh Santose không phải là sinh viên - SANTOSU san wa gakusei ja (dewa) arimasen)
 
 -----
 
-### 3. Mẫu câu hỏi với ttrợ từ nghi vấn　か ở cuối câu
+### 3. Mẫu câu hỏi với ttrợ từ nghi vấn か ở cuối câu
 `N1` **は** `N2` **ですか**。 (N1 `wa` N2 `desuka`)
 
-ミラーさん　**は**　かいしゃいん　**ですか**。 
+ミラーさん **は** かいしゃいん **ですか**。 
 (Anh Miler có phải là nhân viên công ty không? - MIRA- san wa kaishain desuka)
 
 -----
@@ -46,16 +46,16 @@ A: いいえ、わたしはだいがくせいじゃありません。（わた�
 ### 5. Mẫu câu dùng trợ từ の để chỉ sự sở hữu.
 `N1` **の** `N2` (**です**)。 (N1 `no` N2 (`desu`))
 
-IMC　のしゃいん. 
+IMC のしゃいん. 
 (Nhân viên của công ty IMC - IMC `no` shain)
 
-日本語　　の　ほん。 
+日本語 の ほん。 
 (Sách tiếng Nhật - Nihongo `no` hon)
 
 -----
 
-### 6. Mẫu câu hỏi với từ để hỏi なんさい　（おいくつ） để hỏi tuổi
-`N1` `は` **なんさい** （**おいくつ**）　`ですか`。 (N1 `wa` N2 **nansai** `desuka`)
+### 6. Mẫu câu hỏi với từ để hỏi なんさい （おいくつ） để hỏi tuổi
+`N1` `は` **なんさい** （**おいくつ**） `ですか`。 (N1 `wa` N2 **nansai** `desuka`)
 
 A: `たろくん` `は` **なんさい** `ですか`。 (Bé Taro mấy tuổi vậy ? - Taro kun wa nan sai desu ka?)
 
@@ -96,7 +96,7 @@ B: やまださんはよんじゅうごさいです。 (Anh Yamada 45 tuổi - Y
 ### 7. a) Mẫu câu dùng để xác định lại tên một người.
 _ **は** `N1` ～さん（さま） **です**。 (_ `wa` N1～san(sama) `desu`)
 
-あの　**ひと**（**かた**）　`は`　きむらさんです。 
+あの **ひと**（**かた**） `は` きむらさんです。 
 (Người này (vị này) là anh (ông) Kimura - ano **hito** (**kata**) `wa` kimura san desu)
 
 -----
