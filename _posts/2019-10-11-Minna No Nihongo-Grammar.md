@@ -5,14 +5,14 @@ description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
 ---
 
-#### 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
+### 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch
 `N` **は** `N2` **です**。 (N `wa` N2 `desu`)
 
 `わたし`**は**`マイク　ミラー`**です**。 (Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
 
 -----
 
-#### 2. Mẫu câu phủ định. Có thể dùng　じゃ<ja> hoặc　では<dewa> trước　ありません<arimasen>　đều được.
+### 2. Mẫu câu phủ định. Có thể dùng　じゃ<ja> hoặc　では<dewa> trước　ありません<arimasen>　đều được.
 `N` **は** `N2` **じゃ**/**では**`ありません`。 (N `wa` N2 **ja**/**dewa**`arimasen`。)
 
 `サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。
