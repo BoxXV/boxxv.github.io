@@ -9,9 +9,14 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 `N` **は** `N2` **です**。 (N `wa` N2 `desu`)
 
 `わたし`**は**`マイク　ミラー`**です**。 (Tôi là Michael Miler - Watashi`wa`MAIKU MIRA-`desu`)
-
 -----
-#### 2. `これ/それ/あれ`**は**N**です**
+#### 2. Mẫu câu phủ định. Có thể dùng　じゃ<ja> hoặc　では<dewa> trước　ありません<arimasen>　đều được.
+`N` **は** `N2` **じゃ**/**では**`ありません`。 (N `wa` N2 **ja**/**dewa**`arimasen`。)
+
+`サントスさん`　**は**　`がくせい`　**じゃ** (**では**) `ありません`。
+-----
+
+`これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
 3. `これ/それ/あれ`N1`ですか`、N2`ですか`
