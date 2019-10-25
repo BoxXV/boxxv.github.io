@@ -32,11 +32,18 @@ subtitle: Minna No Nihongo là cuốn sách được đông đảo người họ
 ### 4. Mẫu câu dùng trợ từ も với ý nghĩa là “cũng là”
 `N1` **も** `N2` **です（か）**。 (N1 `mo` N2 `desu(ka)`)
 
-わたし **は** ベトナムじん`です`。あなた**も** ( ベトナムじん`ですか` ) 
+A: わたし **は** ベトナムじん`です`。あなた**も** ( ベトナムじん`ですか` ) 
 (Tôi là người Việt Nam, bạn cũng là người Việt Nam phải không? - Watashi wa BETONAMU jin desu. Anata mo ( BETONAMU jin desu ka?)
+
+B: はい、わたしもベトナムじんです。わたしはだいがくせいです、あなたも？ 
+(Vâng, tôi cũng là người Việt Nam. Tôi là sinh viên đại học, còn anh cũng vậy phải không - Hai, watashi mo BETONAMU jin desu. Watashi wa daigakusei desu, anata mo?)
+
+A: いいえ、わたしはだいがくせいじゃありません。（わたしは）かいしゃいんです 
+(Không, tôi không phải là sinh viên đại học, tôi là nhân viên công ty - iie, watashi wa daigakusei ja arimasen. (Watashi wa) Kaishain desu.)
 
 -----
 
+### 5. M
 `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
