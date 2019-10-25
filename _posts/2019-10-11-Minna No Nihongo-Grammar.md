@@ -82,12 +82,23 @@ B: やまださんはよんじゅうごさいです。 (Anh Yamada 45 tuổi - Y
 | `じゅういち` || juu ichi || １１ |
 | `じゅうに` || juu ni || １２ |
 | `にじゅう` || ni juu || ２０ |
+| `にじゅういち` || ni juu ichi || ２１ |
+| `にじゅうに` || ni juu ni || ２２ |
 
-にじゅういち <nijuuichi> ：２１
-にじゅうに <nijuuni> ：　２２
-いっさい　<issai> ： 1 tuổi
-にじゅういっさい <nijuu issai> ： 21 tuổi
-はたち <hatachi> ： 20 tuổi
+| Số tuổi || Phiên âm || Dịch nghĩa |
+| -- | -- | -- | -- | -- |
+| `いっさい` || issai || １ tuổi |
+| `にじゅう いっさい` || nijuu issai || ２１ tuổi |
+| `はたち いっさい` || hatachi || ２０ tuổi |
+
+-----
+
+### 7. a) Mẫu câu dùng để xác định lại tên một người.
+_____**は** `N1` ～さん（さま） **です**。 (_____`wa` N1～san(sama) `desu`)
+
+あの　**ひと**（**かた**）　`は`　きむらさんです。 
+(Người này (vị này) là anh (ông) Kimura - ano **hito** (**kata**) `wa` kimura san desu)
+
 -----
 
 `これ/それ/あれ`**は**N**です**
