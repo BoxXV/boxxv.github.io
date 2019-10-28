@@ -99,10 +99,7 @@ There is little difference in people, but that little difference makes a big dif
 2. Người ta ít quan tâm bạn vất vả ra sao, đã làm việc như thế nào, bạn nói gì... Họ quan tâm nhiều hơn tới những gì bạn đạt được.
 Vì thế.. hãy im lặng và để thành công nói thay lời bạn.
 
-3. Tiền xu luôn gây ra tiếng động.. nhưng tiền giấy thì luôn im lặng. Vì thế khi giá trị bạn tăng lên, hãy giữ cho mình sự khiêm tốn và nói ít đi. 
-"Leng keng một đống tiền xu.
-Không bằng tiền giấy
-Im ru mà nhiều..."
+3. Tiền xu luôn gây ra tiếng động.. nhưng tiền giấy thì luôn im lặng. Vì thế khi giá trị bạn tăng lên, hãy giữ cho mình sự khiêm tốn và nói ít đi. "Leng keng một đống tiền xu. Không bằng tiền giấy, Im ru mà nhiều..."
 
 4. Tất cả những gì một ai đó làm cho bạn đều hàm chứa chi phí cơ hội, nghĩa là nếu anh ta đã dành thời gian trong ngày của mình để tiếp bạn thì phải có điều gì đó anh ta đã không làm cho chính mình. Hãy biết ơn vì điều đó.
 
