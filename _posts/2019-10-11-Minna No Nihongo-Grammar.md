@@ -101,6 +101,18 @@ _ **は** `N1` ～さん（さま） **です**。 (_ `wa` N1～san(sama) `desu`
 
 -----
 
+### 7. b) Mẫu câu dùng để xác định lại tên một người.
+_ **は** `N1` ～だれ（どなた） **ですか**。 (_ `wa` N1～dare(donata) `desuka`)
+
+あのひとはだれですか。 
+(Người này là ai vậy ? - ano hito wa dare desu ka)
+
+あのかたはどなたですか
+(Vị này là ngài nào vậy? - ano kata wa donata desu ka)
+
+-----
+
+
 `これ/それ/あれ`**は**N**です**
 `kore`/`sore`/`are` Cái này/cái đó/cái là N
 
