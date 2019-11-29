@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kinh nghiệm viết CV IT
+title: Top 20 Web Players
 image: /img/hello_world.jpeg
 ---
 
