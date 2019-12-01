@@ -65,7 +65,8 @@ Bạn có thể chạy lệnh này nhiều lần như bạn muốn. Điều này
 
 #### 7) Cài đặt option cho plugin
 Đây là kết quả đầu ra trông như thế nào với các giá trị được đặt cho ví dụ này:
-<img align="left" alt="placeholder" src="/img/option-values.png" title="Plugin option values">_Option values_
+
+<img align="center" alt="placeholder" src="/img/option-values.png" title="Plugin option values">_Option values_
 
 Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi tiết về plugin của bạn. Dưới đây là danh sách các tùy chọn cũng như mô tả ngắn gọn cho mỗi tùy chọn.
 
@@ -85,5 +86,7 @@ Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi ti�
 
 #### 8) Khi thiết lập hoàn tất
 Bạn sẽ thấy một vài thông báo. Có thể có một số thông điệp cảnh báo, nhưng không có lỗi.
-<img align="left" alt="placeholder" src="/img/setup-complete.png" title="Plugin setup complete">_Setup complete_
+
+<img align="center" alt="placeholder" src="/img/setup-complete.png" title="Plugin setup complete">_Setup complete_
+
 Lưu ý rằng tên của plugin là videojs-demo.
