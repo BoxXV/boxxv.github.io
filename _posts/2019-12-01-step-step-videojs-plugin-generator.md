@@ -53,6 +53,7 @@ Mở ứng dụng Terminal trong thư mục bạn đã tạo ở bước trướ
 
 Trình tạo plugin video.js sử dụng trình tạo Yeoman, đây là công cụ tạo scaffolding để thiết lập nền tảng cho bất kỳ dự án nào. Điều này thiết lập các tập tin và thư mục cơ bản. Bạn không cần phải hiểu Yeoman. Bạn chỉ cần cài đặt nó với trình tạo plugin.
 
+
 ### II. Tạo nền tảng plugin
 Trong phần này, bạn sẽ tạo các thư mục và tệp nền tảng cho plugin của mình.
 
@@ -64,10 +65,6 @@ Trong phần này, bạn sẽ tạo các thư mục và tệp nền tảng cho p
 Bạn có thể chạy lệnh này nhiều lần như bạn muốn. Điều này rất hữu ích nếu bạn quyết định thêm một tùy chọn vào plugin của mình sau khi làm việc với nó. Công cụ sẽ ghi nhớ các lựa chọn trước đó của bạn, nhưng bạn có thể phải ghi đè lên một số tệp.
 
 #### 7) Cài đặt option cho plugin
-Đây là kết quả đầu ra trông như thế nào với các giá trị được đặt cho ví dụ này:
-
-<img align="center" alt="placeholder" src="/img/option-values.png" title="Plugin option values">_Option values_
-
 Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi tiết về plugin của bạn. Dưới đây là danh sách các tùy chọn cũng như mô tả ngắn gọn cho mỗi tùy chọn.
 
 | Option | Description | Values for this example |
@@ -84,9 +81,19 @@ Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi ti�
 | Lint changed files | Bao gồm một công cụ Linting được gọi là tiêu chuẩn videojs. Quá trình này kiểm tra mã của bạn cho một số lỗi phổ biến. | Yes |
 | Before Git push | Điều này cung cấp cho bạn tùy chọn để ngăn việc đẩy vào kho git nếu kiểm tra được chọn không thành công. Kiểm tra chất lượng mã là một cách tốt để ngăn chặn việc đẩy mã không đạt tiêu chuẩn. | Yes |
 
+Đây là kết quả đầu ra trông như thế nào với các giá trị được đặt cho ví dụ này:
+
+<img align="center" alt="placeholder" src="/img/option-values.png" title="Plugin option values">_Option values_
+
 #### 8) Khi thiết lập hoàn tất
 Bạn sẽ thấy một vài thông báo. Có thể có một số thông điệp cảnh báo, nhưng không có lỗi.
 
 <img align="center" alt="placeholder" src="/img/setup-complete.png" title="Plugin setup complete">_Setup complete_
 
 Lưu ý rằng tên của plugin là videojs-demo.
+
+
+### III. Xem các tập source
+Trong phần này, chúng tôi sẽ xem xét các tệp nguồn được tạo bởi videojs generator.
+
+Trong trình chỉnh sửa, hãy mở thư mục trên cùng nơi bạn đặt dự án plugin của mình. Mở thư mục src. Ở đây bạn sẽ tìm thấy như sau:9) 
