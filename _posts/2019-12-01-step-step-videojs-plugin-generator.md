@@ -38,6 +38,13 @@ v10.16.0
 6.9.0
 {% endhighlight %}
 
-2.
+2. Tạo một thư mục cục bộ trên máy tính của bạn.
+Trong ví dụ này, chúng tôi sẽ tạo một thư mục có tên là **test**. Đây là nơi tạo ra các tệp và plugin của bạn sẽ sinh ra.
+
+3. Read README
+Xem lại thông tin **README** cho [video.js plugin generator.](https://github.com/videojs/generator-videojs-plugin). Trong thư mục **docs**, mở và xem lại các quy ước Plugin video.js. Tài liệu này nói về các quy tắc được đề xuất để tạo plugin của bạn.
+
+4. Open Terminal
+Mở ứng dụng Terminal trong thư mục bạn đã tạo ở bước trước. Trong ví dụ này, hãy mở ứng dụng Terminal trong thư mục **test**.
 
 
