@@ -64,7 +64,7 @@ Trong phần này, bạn sẽ tạo các thư mục và tệp nền tảng cho p
 Bạn có thể chạy lệnh này nhiều lần như bạn muốn. Điều này rất hữu ích nếu bạn quyết định thêm một tùy chọn vào plugin của mình sau khi làm việc với nó. Công cụ sẽ ghi nhớ các lựa chọn trước đó của bạn, nhưng bạn có thể phải ghi đè lên một số tệp.
 
 #### 7) Cài đặt option cho plugin
-<img align="left" alt="placeholder" src="img/option-values.png" title="plugin option">_Option values_
+<img align="left" alt="placeholder" src="/img/option-values.png" title="Plugin option values">_Đây là kết quả đầu ra trông như thế nào với các giá trị được đặt cho ví dụ này:_
 
 Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi tiết về plugin của bạn. Dưới đây là danh sách các tùy chọn cũng như mô tả ngắn gọn cho mỗi tùy chọn.
 
@@ -75,3 +75,10 @@ Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi ti�
 | Description | Nhập mô tả cho plugin của bạn. | This is a demo |
 | Author | Định dạng tên và địa chỉ email là không bắt buộc, nhưng được sử dụng để điền vào trường tác giả trong tệp pack.json. Trình tạo sẽ cố gắng đoán các giá trị này dựa trên thiết lập git của bạn, nhưng bạn có thể thay đổi chúng. | [your name] <your email address> |
 | License | Chọn một trong các tùy chọn giấy phép. Đối với các plugin riêng tư của bạn, bạn có thể chọn Unlicensed. | Unlicensed |
+| Basic or Advanced Plugin | Plugin dựa trên chức năng cơ bản là một hàm JavaScript đơn giản. Nếu trước đây bạn đã viết một plugin Video.js, thì bạn nên làm quen với khái niệm plugin cơ bản. Plugin dựa trên lớp nâng cao đã được giới thiệu với Video.js 6. Loại plugin này bắt đầu bằng một lớp JavaScript, là một hàm tạo. Để biết chi tiết, hãy xem tài liệu readme Plugins của [Video.js Plugins](https://github.com/videojs/Video.js/blob/master/docs/guides/plugins.md). | Basic plugin (function-based) |
+| CSS tooling | Chọn có, nếu bạn muốn bao gồm kiểu CSS. Điều này sẽ tạo ra một tệp CSS. | Yes |
+| Documentation tooling | Nếu có, trình tạo bao gồm JSDoc và cung cấp lệnh để tạo tài liệu. | Yes |
+| Internationalized strings | Điều này rất hữu ích nếu bạn có văn bản mà bạn muốn dịch sang các ngôn ngữ khác nhau. Công cụ này không cung cấp dịch tự động, nhưng nó chuyển đổi các tệp từ định dạng JSON của video.js sang JavaScript. Sau đó, bạn có thể tạo ngôn ngữ như bạn muốn cho video.js và biên dịch chúng thành đầu ra của plugin. | Yes |
+| Lint changed files | Bao gồm một công cụ Linting được gọi là tiêu chuẩn videojs. Quá trình này kiểm tra mã của bạn cho một số lỗi phổ biến.
+ | Yes |
+| Before Git push | Điều này cung cấp cho bạn tùy chọn để ngăn việc đẩy vào kho git nếu kiểm tra được chọn không thành công. Kiểm tra chất lượng mã là một cách tốt để ngăn chặn việc đẩy mã không đạt tiêu chuẩn. | Yes |
