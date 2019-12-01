@@ -222,4 +222,29 @@ Bạn sẽ thấy trình phát với một video thử nghiệm. Trình tạo ch
 
 <img align="center" alt="placeholder" src="/img/browser-test.png" title="Browser testing">_Browser testing_
 
+#### 14) Kiểm tra các yếu tố của trang web này. Bạn sẽ thấy rằng lớp vjs-demo đã được thêm vào trình phát. Hãy nhớ rằng chúng tôi đã thêm lớp này cho trình phát trong mã plugin.
+
+<img align="center" alt="placeholder" src="/img/vjs-demo-class.png" title="vjs-demo class">_vjs-demo class_
+
+#### 15) Bây giờ, hãy thử thêm mã vào plugin để tự động bắt đầu phát video khi trình phát tải. Quay trở lại tệp **src> plugin.js** trong trình chỉnh sửa của bạn.
+
+#### 16) In the `onPlayerReady()` method, add code to start playback of the video.
+{% highlight js %}
+const onPlayerReady = (player, options) => {
+  player.addClass('vjs-demo');
+  player.play();
+};
+{% endhighlight %}
+
+#### 17) Lưu tệp plugin.js trong trình chỉnh sửa của bạn. Khi bạn làm mới trình duyệt của mình, bạn sẽ thấy rằng video bắt đầu phát trong môi trường thử nghiệm.
+
+Khi bạn phát triển plugin của mình trong tệp plugin.js và lưu các thay đổi, công cụ sẽ tự động xây dựng lại và tải lại trình phát trong trình duyệt. Điều này giúp dễ dàng phát triển và kiểm tra plugin của bạn.
+
+#### 18) Xóa dòng mã để bắt đầu phát video.
+{% highlight js %}
+player.play();
+{% endhighlight %}
+
+> Trong Terminal, nhấn **CTRL-C** để dừng máy chủ phát triển.
+
 
