@@ -50,3 +50,28 @@ Mở ứng dụng Terminal trong thư mục bạn đã tạo ở bước trướ
 {% highlight js %}
 > npm install -g yo generator-videojs-plugin
 {% endhighlight %}
+
+Trình tạo plugin video.js sử dụng trình tạo Yeoman, đây là công cụ tạo scaffolding để thiết lập nền tảng cho bất kỳ dự án nào. Điều này thiết lập các tập tin và thư mục cơ bản. Bạn không cần phải hiểu Yeoman. Bạn chỉ cần cài đặt nó với trình tạo plugin.
+
+### II. Tạo nền tảng plugin
+Trong phần này, bạn sẽ tạo các thư mục và tệp nền tảng cho plugin của mình.
+
+#### 6) Trong Terminal, chạy lệnh sau:
+{% highlight js %}
+> yo videojs-plugin
+{% endhighlight %}
+
+Bạn có thể chạy lệnh này nhiều lần như bạn muốn. Điều này rất hữu ích nếu bạn quyết định thêm một tùy chọn vào plugin của mình sau khi làm việc với nó. Công cụ sẽ ghi nhớ các lựa chọn trước đó của bạn, nhưng bạn có thể phải ghi đè lên một số tệp.
+
+#### 7) Cài đặt option cho plugin
+<img align="left" alt="placeholder" src="img/option-values.png" title="plugin option">_Option values_
+
+Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi tiết về plugin của bạn. Dưới đây là danh sách các tùy chọn cũng như mô tả ngắn gọn cho mỗi tùy chọn.
+
+| Option | Description | Values for this example |
+| -- | -- | -- |
+| Package scope | **Optional**: Điều này chỉ cần thiết nếu bạn có kế hoạch xuất bản plugin của mình lên một tổ chức npm riêng. Bạn có thể sử dụng tên công ty của bạn ở đây hoặc để trống. | blank |
+| Plugin name | Đặt tên cho plugin của bạn. Nhập tên **demo** sẽ tạo một plugin có tên **videojs-demo**. | demo |
+| Description | Nhập mô tả cho plugin của bạn. | This is a demo |
+| Author | Định dạng tên và địa chỉ email là không bắt buộc, nhưng được sử dụng để điền vào trường tác giả trong tệp pack.json. Trình tạo sẽ cố gắng đoán các giá trị này dựa trên thiết lập git của bạn, nhưng bạn có thể thay đổi chúng. | [your name] <your email address> |
+| License | Chọn một trong các tùy chọn giấy phép. Đối với các plugin riêng tư của bạn, bạn có thể chọn Unlicensed. | Unlicensed |
