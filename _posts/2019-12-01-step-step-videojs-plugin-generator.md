@@ -54,6 +54,7 @@ Mở ứng dụng Terminal trong thư mục bạn đã tạo ở bước trướ
 Trình tạo plugin video.js sử dụng trình tạo Yeoman, đây là công cụ tạo scaffolding để thiết lập nền tảng cho bất kỳ dự án nào. Điều này thiết lập các tập tin và thư mục cơ bản. Bạn không cần phải hiểu Yeoman. Bạn chỉ cần cài đặt nó với trình tạo plugin.
 
 
+-----
 ### II. Tạo nền tảng plugin
 Trong phần này, bạn sẽ tạo các thư mục và tệp nền tảng cho plugin của mình.
 
@@ -93,6 +94,7 @@ Bạn sẽ thấy một vài thông báo. Có thể có một số thông điệ
 Lưu ý rằng tên của plugin là videojs-demo.
 
 
+-----
 ### III. Xem các tập tin source
 Trong phần này, chúng tôi sẽ xem xét các tệp nguồn được tạo bởi videojs generator.
 
@@ -136,6 +138,68 @@ Mã của bạn sẽ trông giống như sau:
 }
 {% endhighlight %}
 
+#### 11) plugin.js
+Trình tạo sử dụng ES6, đây là phiên bản JavaScript mới nhất. Tìm hiểu thêm về các tính năng mới trong [ECMAScript 6](http://es6-features.org). Trình tạo dịch mã ES6 của bạn thành mã ES5 để mã phân phối của bạn sẽ chạy trên phần lớn các trình duyệt.
 
+Mã của bạn sẽ trông giống như sau:
+- Dòng 25-27: gọi hàm `onPlayerReady()`, khi trình phát sẵn sàng. Tại đây, bạn có thể chuyển các biến vào plugin bằng cách sử dụng đối tượng tùy chọn.
+- Dòng 26: thêm lớp `vjs-demo` cho trình phát của bạn. Theo mặc định, đây là điều duy nhất mã bộ xương làm. Đây là nơi bạn có thể thêm chức năng vào plugin của mình.
+- Dòng 48: đăng ký plugin của bạn với `video.js`.
+- Dòng 51: thêm một tham số phiên bản vào plugin của bạn. Khi bạn chạy tập lệnh phiên bản npm, nó sẽ cập nhật biến này thành phiên bản bạn đang bật.
 
+{% highlight js %}
+import videojs from 'video.js';
+import {version as VERSION} from '../package.json';
+
+// Default options for the plugin.
+const defaults = {};
+
+// Cross-compatibility for Video.js 5 and 6.
+const registerPlugin = videojs.registerPlugin || videojs.plugin;
+// const dom = videojs.dom || videojs;
+
+/**
+ * Function to invoke when the player is ready.
+ *
+ * This is a great place for your plugin to initialize itself. When this
+ * function is called, the player will have its DOM and child components
+ * in place.
+ *
+ * @function onPlayerReady
+ * @param    {Player} player
+ *           A Video.js player object.
+ *
+ * @param    {Object} [options={}]
+ *           A plain object containing options for the plugin.
+ */
+const onPlayerReady = (player, options) => {
+  player.addClass('vjs-demo');
+};
+
+/**
+ * A video.js plugin.
+ *
+ * In the plugin function, the value of `this` is a video.js `Player`
+ * instance. You cannot rely on the player being in a "ready" state here,
+ * depending on how the plugin is invoked. This may or may not be important
+ * to you; if not, remove the wait for "ready"!
+ *
+ * @function demo
+ * @param    {Object} [options={}]
+ *           An object of options left to the plugin author to define.
+ */
+const demo = function(options) {
+  this.ready(() => {
+    onPlayerReady(this, videojs.mergeOptions(defaults, options));
+  });
+};
+
+// Register the plugin with video.js.
+registerPlugin('demo', demo);
+
+// Include the version number.
+demo.VERSION = VERSION;
+
+export default demo;
+{% endhighlight %}
 
