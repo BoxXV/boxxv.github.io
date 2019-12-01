@@ -203,3 +203,23 @@ demo.VERSION = VERSION;
 export default demo;
 {% endhighlight %}
 
+
+-----
+### IV. Test plugin của bạn
+Trình tạo plugin giúp dễ dàng phát triển và kiểm tra plugin của bạn bằng môi trường kiểm tra cục bộ. Thực hiện theo các bước sau để kiểm tra plugin của bạn:
+
+#### 12) Trong Terminal, nhập lệnh sau để khởi động máy chủ phát triển:
+{% highlight js %}
+> npm start
+{% endhighlight %}
+
+#### 13) Trong trình duyệt, nhập thông tin sau để mở máy chủ phát triển:
+{% highlight js %}
+http://localhost:9999/
+{% endhighlight %}
+
+Bạn sẽ thấy trình phát với một video thử nghiệm. Trình tạo cho bạn một trình phát demo chạy trong trang. Trong các công cụ dành cho nhà phát triển trình duyệt, hãy mở tab Elements để xem HTML cho trình phát.
+
+<img align="center" alt="placeholder" src="/img/browser-test.png" title="Browser testing">_Browser testing_
+
+
