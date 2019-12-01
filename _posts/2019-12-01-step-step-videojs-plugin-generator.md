@@ -93,7 +93,49 @@ Bạn sẽ thấy một vài thông báo. Có thể có một số thông điệ
 Lưu ý rằng tên của plugin là videojs-demo.
 
 
-### III. Xem các tập source
+### III. Xem các tập tin source
 Trong phần này, chúng tôi sẽ xem xét các tệp nguồn được tạo bởi videojs generator.
 
-Trong trình chỉnh sửa, hãy mở thư mục trên cùng nơi bạn đặt dự án plugin của mình. Mở thư mục src. Ở đây bạn sẽ tìm thấy như sau:9) 
+#### 9) src folder
+Trong trình chỉnh sửa, hãy mở thư mục trên cùng nơi bạn đặt dự án plugin của mình. Mở thư mục src. Ở đây bạn sẽ tìm thấy như sau:
+- Một tập tin plugin.js. Tập tin này chứa mã cho plugin của bạn.
+- Một tập tin plugin.css, nếu bạn chọn Có với tùy chọn công cụ CSS.
+
+#### 10) plugin.css
+(Nếu bạn không chọn Có với tùy chọn công cụ CSS, bạn có thể bỏ qua bước này.) Mở tệp src> plugin.css.
+
+Mã của bạn sẽ trông giống như sau:
+{% highlight css %}
+/* Note: all vars must be defined here, there are no "local" vars */
+:root {
+  --main-color: red;
+  --base-font-size: 9;
+  --font-size: 7;
+}
+
+.video-js {
+
+  &.vjs-basic {
+    /* This class is added to the video.js element by the plugin by default. */
+    display: block;
+
+    & .remove-me, & .remove-me-too, &.finally-remove-me {
+      /* examples of postcss syntax, you probably want to remove this */
+
+      color: var(--main-color);
+
+      /**
+       * Note that you have to use calc and multiply by a value with a unit
+       * prepending the unit like `var(--base-font-size)px` or
+       * `calc(10 * var(--base-font-size)em` will NOT work!
+       */
+      font-size: calc(var(--font-size) * 8 * var(--base-font-size) * 1px);
+
+    }
+  }
+}
+{% endhighlight %}
+
+
+
+
