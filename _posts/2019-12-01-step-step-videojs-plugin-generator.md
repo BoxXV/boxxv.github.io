@@ -25,8 +25,7 @@ Trong chủ đề này, bạn sẽ thực hiện các tác vụ sau:
 
 Để thiết lập môi trường của bạn để chạy trình tạo plugin, hãy làm theo các bước sau:
 
-1. Install Node.js - https://nodejs.org
-
+##### 1) Install Node.js - https://nodejs.org
 Nếu bạn chưa có nó, hãy tải xuống và cài đặt Node.js JavaScript runtime. Điều này bao gồm npm, là một hệ sinh thái trọn gói bao gồm một bộ sưu tập lớn các thư viện nguồn mở.
 
 Để kiểm tra xem việc cài đạt đã thành công hay chưa, hãy sử dụng các lệnh sau:
@@ -38,13 +37,13 @@ v10.16.0
 6.9.0
 {% endhighlight %}
 
-2. Tạo một thư mục cục bộ trên máy tính của bạn.
+##### 2) Tạo một thư mục cục bộ trên máy tính của bạn.
 Trong ví dụ này, chúng tôi sẽ tạo một thư mục có tên là **test**. Đây là nơi tạo ra các tệp và plugin của bạn sẽ sinh ra.
 
-3. Read README
+##### 3) Read README
 Xem lại thông tin **README** cho [video.js plugin generator.](https://github.com/videojs/generator-videojs-plugin). Trong thư mục **docs**, mở và xem lại các quy ước Plugin video.js. Tài liệu này nói về các quy tắc được đề xuất để tạo plugin của bạn.
 
-4. Open Terminal
+##### 4) Open Terminal
 Mở ứng dụng Terminal trong thư mục bạn đã tạo ở bước trước. Trong ví dụ này, hãy mở ứng dụng Terminal trong thư mục **test**.
 
 
