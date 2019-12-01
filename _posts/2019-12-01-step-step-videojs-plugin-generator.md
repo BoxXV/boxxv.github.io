@@ -79,6 +79,5 @@ Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi ti�
 | CSS tooling | Chọn có, nếu bạn muốn bao gồm kiểu CSS. Điều này sẽ tạo ra một tệp CSS. | Yes |
 | Documentation tooling | Nếu có, trình tạo bao gồm JSDoc và cung cấp lệnh để tạo tài liệu. | Yes |
 | Internationalized strings | Điều này rất hữu ích nếu bạn có văn bản mà bạn muốn dịch sang các ngôn ngữ khác nhau. Công cụ này không cung cấp dịch tự động, nhưng nó chuyển đổi các tệp từ định dạng JSON của video.js sang JavaScript. Sau đó, bạn có thể tạo ngôn ngữ như bạn muốn cho video.js và biên dịch chúng thành đầu ra của plugin. | Yes |
-| Lint changed files | Bao gồm một công cụ Linting được gọi là tiêu chuẩn videojs. Quá trình này kiểm tra mã của bạn cho một số lỗi phổ biến.
- | Yes |
+| Lint changed files | Bao gồm một công cụ Linting được gọi là tiêu chuẩn videojs. Quá trình này kiểm tra mã của bạn cho một số lỗi phổ biến. | Yes |
 | Before Git push | Điều này cung cấp cho bạn tùy chọn để ngăn việc đẩy vào kho git nếu kiểm tra được chọn không thành công. Kiểm tra chất lượng mã là một cách tốt để ngăn chặn việc đẩy mã không đạt tiêu chuẩn. | Yes |
