@@ -323,6 +323,30 @@ Trong phần này, bạn sẽ xây dựng plugin của mình. Điều này lấy
 > npm run build
 {% endhighlight %}
 
+Bản dựng lấy mã nguồn ES6 của bạn và chuyển đổi thành mã JavaScript ES5.
+
+#### 29) Trong thư mục dự án của bạn, mở rộng thư mục **dist**. Đây là nơi bạn sẽ tìm thấy một phiên bản phân phối của plugin của bạn. Tại đây, bạn sẽ tìm thấy các tệp sau (giả sử bạn đã chọn Có cho công cụ CSS):
+- **videojs-demo.css**
+- **videojs-demo.js**
+- **videojs-demo.min.js**
+
+Bạn cũng sẽ tìm thấy các tệp ít được sử dụng này:
+- **videojs-demo.cjs.js** Đây là mô-đun CommonJS được sử dụng khi dự án của bạn được yêu cầu trong Node hoặc nếu bạn đang sử dụng Browserify để gói JavaScript.
+- **videojs-demo.es.js** Đây là mô-đun ES6 cho các dự án hiện đại sử dụng WebPack hoặc Rollup để đóng gói các phụ thuộc của chúng.
+
+#### 30) Trong thư mục **dist**, mở tệp videojs-demo.js.
+<img align="center" alt="placeholder" src="/img/plugin-generator/dist-js.png" title="Distribution files">_Distribution files_
+
+Một số điều cần lưu ý về tệp phân phối này:
+- Một biểu ngữ giấy phép đã được thêm vào đầu tập tin.
+- Plugin của bạn đã được bọc trong một không gian tên browserify. Điều này có nghĩa là không có biến toàn cục có thể xung đột với mã trang của bạn.
+- Các plugin nội bộ đăng ký chính nó với videojs. Điều này có nghĩa là bạn có thể tạo nhiều plugin, mỗi plugin hoạt động độc lập cho một người chơi.
+
+
+-----
+### VIII. Pass data to your plugin
+
+
 
 
 
