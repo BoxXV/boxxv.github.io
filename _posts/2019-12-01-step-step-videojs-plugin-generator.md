@@ -345,6 +345,48 @@ Một số điều cần lưu ý về tệp phân phối này:
 
 -----
 ### VIII. Pass data to your plugin
+Phần này là tùy chọn. Bạn có thể bỏ qua phần này trừ khi bạn muốn tìm hiểu cách truyền dữ liệu đến plugin của mình.
+
+#### 31) Chúng tôi sẽ sử dụng thuộc tính tùy chọn để chuyển dữ liệu từ trang HTML của chúng tôi vào plugin.
+Để biết chi tiết về cách sử dụng thuộc tính này, hãy xem  tài liệu [Truyền dữ liệu vào Plugin](https://support.brightcove.com/pass-data-plugin).
+
+#### 32) Trong trình chỉnh sửa của bạn, quay lại tệp src> plugin.js.
+
+#### 33) Trong hàm `onPlayerReady()`, thêm mã để sử dụng giá trị văn bản trong thuộc tính tùy chọn nếu nó tồn tại, nếu không thì sử dụng giá trị văn bản mặc định.
+- Dòng 4: tạo một phần tử đoạn
+- Dòng 5: gán loại lớp văn bản
+- Dòng 6: kiểm tra xem đối tượng displayText có tồn tại trong thuộc tính tùy chọn không
+- Dòng 7: sử dụng giá trị displayText để điền vào màn hình văn bản
+- Dòng 9: sử dụng giá trị hiển thị văn bản mặc định
+- Dòng 13: thêm phần tử văn bản hiển thị vào DOM
+{% highlight js %}
+const onPlayerReady = (player, options) => {
+  player.addClass('vjs-demo');
+
+  var textDisplay = document.createElement('p');
+  textDisplay.className = 'vjs-text';
+
+  if ('displayText' in options) {
+    textDisplay.innerHTML = options.displayText;
+  } else {
+    textDisplay.innerHTML = "Becoming a plugin developer";
+  }
+
+  player.el().appendChild(textDisplay);
+};
+{% endhighlight %}
+
+#### 34) Lưu tệp và quay lại trình duyệt thử nghiệm.
+Bạn không nên thấy bất kỳ thay đổi nào đối với màn hình văn bản.
+
+#### 35) Nếu bạn chưa làm như vậy, hãy thêm css cho `.vjs-text` selector từ phần Chỉnh sửa tệp CSS.
+
+#### 36) Xây dựng plugin của bạn. Chúng tôi sẽ sử dụng các tệp trong thư mục dist trong một trang web thử nghiệm.
+
+#### 37) Trong máy chủ thử nghiệm cục bộ của bạn, như MAMP, hãy tạo một thư mục có tên là **plugin-generator**.
+
+#### 38) Trong thư mục này, sao chép các tệp **videojs-demo.css** và **videojs-demo.js** từ thư mục **dist** và dán chúng vào thư mục máy chủ thử nghiệm, **plugin-generator**.
+
 
 
 
