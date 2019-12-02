@@ -272,9 +272,10 @@ const onPlayerReady = (player, options) => {
 
 Để xác minh rằng phần tử văn bản đã được thêm vào player, hãy sử dụng các công cụ phát triển trong trình duyệt. Trong phần **Elements**, mở rộng phần tử `<div>` của người chơi. Bạn sẽ thấy thẻ đoạn vừa được thêm vào.
 
-<img align="center" alt="placeholder" src="/img/plugin-generator/p-element.png" title="Browser testing">_Added paragraph tag_
+<img align="center" alt="placeholder" src="/img/plugin-generator/p-element.png" title="Added paragraph tag">_Added paragraph tag_
 
 Chúng tôi sẽ làm cho văn bản hiển thị trong phần tiếp theo bằng cách sử dụng CSS.
+
 
 -----
 ### VI. Edit the CSS file
@@ -303,12 +304,24 @@ Add the .vjs-text selector with styles to display the custom text in the player.
 }
 {% endhighlight %}
 
+#### 25) Lưu các tập tin. Hãy nhớ rằng những thay đổi của bạn sẽ được cập nhật tự động trong trình duyệt thử nghiệm.
+
+#### 26) Quay trở lại trình duyệt thử nghiệm. Bây giờ bạn sẽ thấy văn bản tùy chỉnh được hiển thị trên trình phát.
+<img align="center" alt="placeholder" src="/img/plugin-generator/text-display.png" title="Text displayed over the player">_Text displayed over the player_
+
+#### 27) Dừng máy chủ phát triển bằng cách nhấn **CTRL-C** trong ứng dụng Terminal.
+
+Bây giờ, bạn đã sẵn sàng để chuẩn bị plugin để phân phối. Chúng tôi sẽ làm điều đó tiếp theo.
 
 
+-----
+### VII. Build your plugin
+Trong phần này, bạn sẽ xây dựng plugin của mình. Điều này lấy mã nguồn của bạn và tạo các tệp CSS và JavaScript có thể phân phối.
 
-
-
-
+#### 28) Trong Terminal, chạy lệnh sau:
+{% highlight js %}
+> npm run build
+{% endhighlight %}
 
 
 
