@@ -387,6 +387,47 @@ Bạn không nên thấy bất kỳ thay đổi nào đối với màn hình vă
 
 #### 38) Trong thư mục này, sao chép các tệp **videojs-demo.css** và **videojs-demo.js** từ thư mục **dist** và dán chúng vào thư mục máy chủ thử nghiệm, **plugin-generator**.
 
+#### 39) Tiếp theo, trong thư mục này, tạo một tệp HTML với trình phát gọi plugin thử nghiệm của chúng tôi và chuyển vào một giá trị cho văn bản hiển thị. Chúng tôi sẽ đặt tên tệp này là tests.html.
+- Dòng 8: bao gồm các kiểu plugin của chúng tôi.
+- Dòng 13-22: thêm trình phát Brightcove vào trang web của chúng tôi.
+- Dòng 24: bao gồm tệp JavaScript plugin của chúng tôi.
+- Dòng 26-32: thực thi tập lệnh trang tùy chỉnh.
+- Dòng 27: chờ player sẵn sàng.
+- Dòng 28: được tham chiếu đến player.
+- Dòng 29: định nghĩa đối tượng `options`.
+- Dòng 30: gọi plugin `demo` của chúng tôi và chuyển vào đối tượng `options`. Lưu ý rằng tên plugin là `demo`, trong khi tên tệp plugin là `videojs-demo`.
+
+{% highlight html %}
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Passing data to the plugin</title>
+
+  <link href="videojs-demo.css" rel="stylesheet">
+</head>
+<body>
+  <video-js id="myPlayerID"
+    data-video-id="5977793284001"
+    data-account="1752604059001"
+    data-player="default"
+    data-embed="default"
+    data-application-id
+    class="video-js"
+    width="640px" height="360px"
+    controls></video-js>
+  <script src="//players.brightcove.net/1752604059001/default_default/index.min.js"></script>
+<script type="text/javascript" src="videojs-demo.js"></script>
+<script type="text/javascript">
+  videojs.getPlayer('myPlayerID').ready(function() {
+    var myPlayer = this,
+      options = {"displayText": "This data supplied at initialization"};
+      myPlayer.demo(options);
+  });
+</script>
+</body>
+</html>
+{% endhighlight %}
 
 
 
