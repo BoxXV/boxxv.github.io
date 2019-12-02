@@ -84,12 +84,12 @@ Tiếp theo, bạn sẽ được hỏi một loạt các câu hỏi về chi ti�
 
 Đây là kết quả đầu ra trông như thế nào với các giá trị được đặt cho ví dụ này:
 
-<img align="center" alt="placeholder" src="/img/option-values.png" title="Plugin option values">_Option values_
+<img align="center" alt="placeholder" src="/img/plugin-generator/option-values.png" title="Plugin option values">_Option values_
 
 #### 8) Khi thiết lập hoàn tất
 Bạn sẽ thấy một vài thông báo. Có thể có một số thông điệp cảnh báo, nhưng không có lỗi.
 
-<img align="center" alt="placeholder" src="/img/setup-complete.png" title="Plugin setup complete">_Setup complete_
+<img align="center" alt="placeholder" src="/img/plugin-generator/setup-complete.png" title="Plugin setup complete">_Setup complete_
 
 Lưu ý rằng tên của plugin là videojs-demo.
 
@@ -220,11 +220,11 @@ http://localhost:9999/
 
 Bạn sẽ thấy player với một video thử nghiệm. Trình tạo cho bạn một player demo chạy trong trang. Trong các công cụ dành cho nhà phát triển trình duyệt, hãy mở tab Elements để xem HTML cho player.
 
-<img align="center" alt="placeholder" src="/img/browser-test.png" title="Browser testing">_Browser testing_
+<img align="center" alt="placeholder" src="/img/plugin-generator/browser-test.png" title="Browser testing">_Browser testing_
 
 #### 14) Kiểm tra các yếu tố của trang web này. Bạn sẽ thấy rằng lớp vjs-demo đã được thêm vào player. Hãy nhớ rằng chúng tôi đã thêm lớp này cho player trong mã plugin.
 
-<img align="center" alt="placeholder" src="/img/vjs-demo-class.png" title="vjs-demo class">_vjs-demo class_
+<img align="center" alt="placeholder" src="/img/plugin-generator/vjs-demo-class.png" title="vjs-demo class">_vjs-demo class_
 
 #### 15) Bây giờ, hãy thử thêm mã vào plugin để tự động bắt đầu phát video khi player tải. Quay trở lại tệp **src> plugin.js** trong trình chỉnh sửa của bạn.
 
@@ -256,6 +256,31 @@ Trong phần này, bạn sẽ thêm mã vào tệp nguồn JavaScript để thê
 #### 19) Trong trình chỉnh sửa của bạn, quay lại tệp src> plugin.js.
 
 #### 20) Trong hàm `onPlayerReady()`, thêm mã để thêm phần tử `<p>` với văn bản tùy chỉnh vào player.
+{% highlight js %}
+const onPlayerReady = (player, options) => {
+  player.addClass('vjs-demo');
+  var textDisplay = document.createElement('p');
+  textDisplay.className = 'vjs-text';
+  textDisplay.innerHTML = "Becoming a plugin developer";
+  player.el().appendChild(textDisplay);
+};
+{% endhighlight %}
+
+#### 21) Lưu các tập tin. Hãy nhớ rằng những thay đổi của bạn sẽ được cập nhật tự động trong trình duyệt thử nghiệm.
+
+#### 22) Quay trở lại trình duyệt thử nghiệm. Bạn sẽ thấy không có gì thay đổi trong player. Vấn đề là văn bản ở đó, nhưng nó không nhìn thấy được. Chúng tôi sẽ sửa nó tiếp theo.
+
+Để xác minh rằng phần tử văn bản đã được thêm vào player, hãy sử dụng các công cụ phát triển trong trình duyệt. Trong phần Thành phần, mở rộng phần tử <div> của người chơi. Bạn sẽ thấy thẻ đoạn vừa được thêm vào.
+
+<img align="center" alt="placeholder" src="/img/plugin-generator/p-element.png" title="Browser testing">_Browser testing_
+
+
+
+
+
+
+
+
 
 
 
