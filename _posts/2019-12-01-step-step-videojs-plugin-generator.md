@@ -433,7 +433,23 @@ Bạn không nên thấy bất kỳ thay đổi nào đối với màn hình vă
 <img align="center" alt="placeholder" src="/img/plugin-generator/passed-data.png" title="Data passed to the plugin">_Data passed to the plugin_
 
 
+-----
+### IX. Khuyến nghị
+Bạn nên sử dụng trình tạo này cho tất cả các plugin của mình, ngay cả những plugin đơn giản. Bằng cách này, bạn sẽ luôn có cùng một thiết lập cho tất cả các plugin của mình. Nó cũng giải phóng bạn khỏi nhiệm vụ phải tạo các tập lệnh để thực hiện các chức năng nhất định, như linting hoặc minifying.
+
+Với trình tạo này, bạn có thể tập trung vào phát triển và thử nghiệm plugin của mình mà không phải lo lắng về các công cụ cơ bản.
+
+Bạn có thể giữ plugin của mình cục bộ hoặc đặt nó vào repo GitHub riêng tư của bạn. Tạo plugin videojs có nghĩa là nó sẽ hoạt động với trình phát Brightcove.
 
 
-
+-----
+### X. Resources
+Dưới đây là một bản tóm tắt các tài nguyên bạn sẽ sử dụng trong khi làm việc thông qua sự khởi đầu nhanh chóng này. Các liên kết này cũng được cung cấp trong các bước dưới đây:
+- Tải xuống và cài đặt: [Node.js](https://nodejs.org) (Điều này bao gồm npm) Sử dụng phiên bản "Recommended For Most Users".
+- [video.js generator](https://github.com/videojs/generator-videojs-plugin)
+- [video.js plugin conventions](https://github.com/videojs/generator-videojs-plugin/blob/master/docs/conventions.md)
+- [Getting started with npm](https://docs.npmjs.com)
+- [The yeoman scaffolding tool](https://yeoman.io)
+- [Step-by-Step: Plugin Development](https://support.brightcove.com/step-step-plugin-development)
+- [Pass Data to the Plugin](https://support.brightcove.com/pass-data-plugin)
 
