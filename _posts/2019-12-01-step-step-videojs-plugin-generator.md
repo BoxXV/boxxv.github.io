@@ -429,8 +429,8 @@ Bạn không nên thấy bất kỳ thay đổi nào đối với màn hình vă
 </html>
 {% endhighlight %}
 
-
-
+#### 40) Trong trình duyệt, hãy chạy tệp **tests.html**. Bạn sẽ thấy giá trị văn bản hiển thị đến từ mã trang thay vì plugin.
+<img align="center" alt="placeholder" src="/img/plugin-generator/passed-data.png" title="Data passed to the plugin">_Data passed to the plugin_
 
 
 
