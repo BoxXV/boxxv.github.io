@@ -270,9 +270,41 @@ const onPlayerReady = (player, options) => {
 
 #### 22) Quay trở lại trình duyệt thử nghiệm. Bạn sẽ thấy không có gì thay đổi trong player. Vấn đề là văn bản ở đó, nhưng nó không nhìn thấy được. Chúng tôi sẽ sửa nó tiếp theo.
 
-Để xác minh rằng phần tử văn bản đã được thêm vào player, hãy sử dụng các công cụ phát triển trong trình duyệt. Trong phần Thành phần, mở rộng phần tử <div> của người chơi. Bạn sẽ thấy thẻ đoạn vừa được thêm vào.
+Để xác minh rằng phần tử văn bản đã được thêm vào player, hãy sử dụng các công cụ phát triển trong trình duyệt. Trong phần **Elements**, mở rộng phần tử `<div>` của người chơi. Bạn sẽ thấy thẻ đoạn vừa được thêm vào.
 
-<img align="center" alt="placeholder" src="/img/plugin-generator/p-element.png" title="Browser testing">_Browser testing_
+<img align="center" alt="placeholder" src="/img/plugin-generator/p-element.png" title="Browser testing">_Added paragraph tag_
+
+Chúng tôi sẽ làm cho văn bản hiển thị trong phần tiếp theo bằng cách sử dụng CSS.
+
+-----
+### VI. Edit the CSS file
+Trong phần này, bạn sẽ thêm mã vào tệp nguồn CSS để hiển thị văn bản trên player.
+
+#### 23) Trong trình chỉnh sửa của bạn, quay lại tệp src> plugin.css.
+
+Add the .vjs-text selector with styles to display the custom text in the player.
+#### 24) Thêm `.vjs-text` selector với các styles để hiển thị văn bản tùy chỉnh trong player.
+{% highlight css %}
+/* Note: all vars must be defined here, there are no "local" vars */
+:root {
+  --main-color: red;
+  --base-font-size: 9;
+  --font-size: 7;
+}
+
+.vjs-text {
+  background-color: #333333;
+  color: white;
+  position: absolute;
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  margin-top: 10%;
+}
+{% endhighlight %}
+
+
+
 
 
 
