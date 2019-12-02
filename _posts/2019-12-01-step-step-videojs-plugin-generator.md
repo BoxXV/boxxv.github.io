@@ -450,6 +450,7 @@ Dưới đây là một bản tóm tắt các tài nguyên bạn sẽ sử dụn
 - [video.js plugin conventions](https://github.com/videojs/generator-videojs-plugin/blob/master/docs/conventions.md)
 - [Getting started with npm](https://docs.npmjs.com)
 - [The yeoman scaffolding tool](https://yeoman.io)
+- [Step-by-Step: Video.js Plugin Generator](https://support.brightcove.com/step-step-videojs-plugin-generator)
 - [Step-by-Step: Plugin Development](https://support.brightcove.com/step-step-plugin-development)
 - [Pass Data to the Plugin](https://support.brightcove.com/pass-data-plugin)
 
