@@ -452,5 +452,6 @@ Dưới đây là một bản tóm tắt các tài nguyên bạn sẽ sử dụn
 - [The yeoman scaffolding tool](https://yeoman.io)
 - [Step-by-Step: Video.js Plugin Generator](https://support.brightcove.com/step-step-videojs-plugin-generator)
 - [Step-by-Step: Plugin Development](https://support.brightcove.com/step-step-plugin-development)
+- [Creating a videojs plugin](https://rants.broonix.ca/creating-a-videojs-plugin)
 - [Pass Data to the Plugin](https://support.brightcove.com/pass-data-plugin)
 
