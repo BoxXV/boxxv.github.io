@@ -142,8 +142,8 @@ Mã của bạn sẽ trông giống như sau:
 Trình tạo sử dụng ES6, đây là phiên bản JavaScript mới nhất. Tìm hiểu thêm về các tính năng mới trong [ECMAScript 6](http://es6-features.org). Trình tạo dịch mã ES6 của bạn thành mã ES5 để mã phân phối của bạn sẽ chạy trên phần lớn các trình duyệt.
 
 Mã của bạn sẽ trông giống như sau:
-- Dòng 25-27: gọi hàm `onPlayerReady()`, khi trình phát sẵn sàng. Tại đây, bạn có thể chuyển các biến vào plugin bằng cách sử dụng đối tượng tùy chọn.
-- Dòng 26: thêm lớp `vjs-demo` cho trình phát của bạn. Theo mặc định, đây là điều duy nhất mã bộ xương làm. Đây là nơi bạn có thể thêm chức năng vào plugin của mình.
+- Dòng 25-27: gọi hàm `onPlayerReady()`, khi player sẵn sàng. Tại đây, bạn có thể chuyển các biến vào plugin bằng cách sử dụng đối tượng tùy chọn.
+- Dòng 26: thêm lớp `vjs-demo` cho player của bạn. Theo mặc định, đây là điều duy nhất mã bộ xương làm. Đây là nơi bạn có thể thêm chức năng vào plugin của mình.
 - Dòng 48: đăng ký plugin của bạn với `video.js`.
 - Dòng 51: thêm một tham số phiên bản vào plugin của bạn. Khi bạn chạy tập lệnh phiên bản npm, nó sẽ cập nhật biến này thành phiên bản bạn đang bật.
 
@@ -218,15 +218,15 @@ Trình tạo plugin giúp dễ dàng phát triển và kiểm tra plugin của b
 http://localhost:9999/
 {% endhighlight %}
 
-Bạn sẽ thấy trình phát với một video thử nghiệm. Trình tạo cho bạn một trình phát demo chạy trong trang. Trong các công cụ dành cho nhà phát triển trình duyệt, hãy mở tab Elements để xem HTML cho trình phát.
+Bạn sẽ thấy player với một video thử nghiệm. Trình tạo cho bạn một player demo chạy trong trang. Trong các công cụ dành cho nhà phát triển trình duyệt, hãy mở tab Elements để xem HTML cho player.
 
 <img align="center" alt="placeholder" src="/img/browser-test.png" title="Browser testing">_Browser testing_
 
-#### 14) Kiểm tra các yếu tố của trang web này. Bạn sẽ thấy rằng lớp vjs-demo đã được thêm vào trình phát. Hãy nhớ rằng chúng tôi đã thêm lớp này cho trình phát trong mã plugin.
+#### 14) Kiểm tra các yếu tố của trang web này. Bạn sẽ thấy rằng lớp vjs-demo đã được thêm vào player. Hãy nhớ rằng chúng tôi đã thêm lớp này cho player trong mã plugin.
 
 <img align="center" alt="placeholder" src="/img/vjs-demo-class.png" title="vjs-demo class">_vjs-demo class_
 
-#### 15) Bây giờ, hãy thử thêm mã vào plugin để tự động bắt đầu phát video khi trình phát tải. Quay trở lại tệp **src> plugin.js** trong trình chỉnh sửa của bạn.
+#### 15) Bây giờ, hãy thử thêm mã vào plugin để tự động bắt đầu phát video khi player tải. Quay trở lại tệp **src> plugin.js** trong trình chỉnh sửa của bạn.
 
 #### 16) In the `onPlayerReady()` method, add code to start playback of the video.
 {% highlight js %}
@@ -238,7 +238,7 @@ const onPlayerReady = (player, options) => {
 
 #### 17) Lưu tệp plugin.js trong trình chỉnh sửa của bạn. Khi bạn làm mới trình duyệt của mình, bạn sẽ thấy rằng video bắt đầu phát trong môi trường thử nghiệm.
 
-Khi bạn phát triển plugin của mình trong tệp plugin.js và lưu các thay đổi, công cụ sẽ tự động xây dựng lại và tải lại trình phát trong trình duyệt. Điều này giúp dễ dàng phát triển và kiểm tra plugin của bạn.
+Khi bạn phát triển plugin của mình trong tệp plugin.js và lưu các thay đổi, công cụ sẽ tự động xây dựng lại và tải lại player trong trình duyệt. Điều này giúp dễ dàng phát triển và kiểm tra plugin của bạn.
 
 #### 18) Xóa dòng mã để bắt đầu phát video.
 {% highlight js %}
@@ -246,5 +246,17 @@ player.play();
 {% endhighlight %}
 
 > Trong Terminal, nhấn **CTRL-C** để dừng máy chủ phát triển.
+
+
+-----
+### V. Edit the JavaScript file
+
+Trong phần này, bạn sẽ thêm mã vào tệp nguồn JavaScript để thêm một phần tử có văn bản tùy chỉnh vào player.
+
+#### 19) Trong trình chỉnh sửa của bạn, quay lại tệp src> plugin.js.
+
+#### 20) Trong hàm `onPlayerReady()`, thêm mã để thêm phần tử `<p>` với văn bản tùy chỉnh vào player.
+
+
 
 
