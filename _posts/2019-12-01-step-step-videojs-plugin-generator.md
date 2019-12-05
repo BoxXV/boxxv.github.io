@@ -453,7 +453,7 @@ Dưới đây là một bản tóm tắt các tài nguyên bạn sẽ sử dụn
 - [Step-by-Step: Video.js Plugin Generator](https://support.brightcove.com/step-step-videojs-plugin-generator)
 - [Step-by-Step: Plugin Development](https://support.brightcove.com/step-step-plugin-development)
 - [Creating a videojs plugin](https://rants.broonix.ca/creating-a-videojs-plugin)
-- [Tutorial plugins | Video.js Documentation](https://docs.videojs.com/tutorial-plugins.html)
+- [Tutorial plugins - Video.js Documentation](https://docs.videojs.com/tutorial-plugins.html)
 - [Video.js Plugins](https://github.com/videojs/Video.js/blob/master/docs/guides/plugins.md)
 - [Feature Spotlight: Advanced Plugins](https://blog.videojs.com/feature-spotlight-advanced-plugins/)
 - [Plugins](https://docs.videojs.com/docs/guides/plugins.html)
