@@ -2,6 +2,11 @@
 layout: post
 title: 8 ways to Stream IP Camera to web browser
 image: /img/hello_world.jpeg
+tags:
+- Embedded
+- IoT
+- Raspberry Pi
+- HTML5
 ---
 
 ### 8 ways to Stream IP Camera to web browser
