@@ -4,22 +4,29 @@ title: Top 10 Open Source HTML5 Video Players
 image: /img/hello_world.jpeg
 ---
 
-### Top 20 Web Players
-1. Hls.js
-2. Dash.js
-3. Shaka Player
-4. Shaka Player v1
-5. JW Player
-6. Video.js
-7. Bitmovin Player
-8. THEOplayer
-9. castLabs PRESTOplay
-10. Brightcove
-11. Clappr
-12. Flowplayer
-13. Akamai Adaptive Media Player
-14. Kaltura
-15. mpx Player
-16. Azure Media Player
-17. Radiant Media Player
-18. Rx-player
+## Top 10 Open Source HTML5 Video Players
+1. Video.js
+2. Plyr
+3. Afterglow
+4. MediaElement.js
+5. jPlayer
+6. Cloudinary
+7. JW Player
+8. Kaltura
+
+#### Additional Video Players You Should Know About
+- Hls.js
+- Dash.js
+- Shaka Player
+- Shaka Player v1
+- Bitmovin Player
+- THEOplayer
+- castLabs PRESTOplay
+- Brightcove
+- Clappr
+- Flowplayer
+- Akamai Adaptive Media Player
+- mpx Player
+- Azure Media Player
+- Radiant Media Player
+- Rx-player
