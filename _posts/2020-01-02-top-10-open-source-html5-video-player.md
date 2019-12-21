@@ -58,7 +58,7 @@ Afterglow is a super easy to integrate HTML5 video player. It comes loaded with 
 - Resolution switching
 - Drop-in replacement
 
-##### Credits
+#### Credits
 - [video.js](http://www.videojs.com/)
 - [videojs-youtube](https://github.com/eXon/videojs-youtube)
 - [videojs-vimeo](https://github.com/eXon/videojs-vimeo)
@@ -66,10 +66,15 @@ Afterglow is a super easy to integrate HTML5 video player. It comes loaded with 
 - [Emitter](https://github.com/component/emitter)
 - The font [Open Sans](https://www.google.com/fonts/specimen/Open+Sans)
 
-Our resolution switching component is based on videojs-resolutions by vidcaster published under the Apache License 2.0.
+Our resolution switching component is based on videojs-resolutions by vidcaster.
 
 
-### 4. MediaElement.js
+### 4. [MediaElement.js](http://www.mediaelementjs.com)
+[https://github.com/mediaelement/mediaelement](https://github.com/mediaelement/mediaelement)
+
+HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.
+
+
 ### 5. jPlayer
 ### 6. Cloudinary
 ### 7. JW Player
