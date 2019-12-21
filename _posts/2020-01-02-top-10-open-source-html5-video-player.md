@@ -92,7 +92,13 @@ JW Player has expanded its support to allow for HTML5 video playback. It is full
 
 Live on over 2 million sites with 1.3 billion unique plays per month, JW Player is the solution for seamless video playback across browsers and media types. It empowers the developer to interact with video programmatically to create unique and awesome user experiences.
 
-### 8. Kaltura
+### 8. [Kaltura](http://player.kaltura.com/docs/)
+[https://github.com/kaltura](https://github.com/kaltura)
+
+Kaltura Player is a free, open source HTML5 video player used to create multiple customized inter-device and inter-browser skins to match or complement your website. Some key features include:
+- Multi-Platform Support
+- Efficient, All Round Performance
+- Advertising & Analytics Support
 
 ## Additional Video Players You Should Know About
 - Hls.js
