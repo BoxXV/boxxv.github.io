@@ -25,6 +25,8 @@ It supports video playback on desktop and mobile devices. The project was starte
 ### 2. [Plyr](https://plyr.io)
 [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 
+![Plyr](http://boxxv.com/img/player/plyr.jpg "Plyr")_Plyr_
+
 Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player. It is lightweight, accessible and customizable and supports all modern browsers. You can access the complete source with NPM using npm install plyr.
 -   📼 **HTML Video & Audio, YouTube & Vimeo** - support for the major formats
 -   💪 **Accessible** - full support for VTT captions and screen readers
@@ -51,6 +53,8 @@ Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player
 ### 3. [Afterglow](http://afterglowplayer.com)
 [https://github.com/moay/afterglow](https://github.com/moay/afterglow)
 
+![Afterglow](http://boxxv.com/img/player/afterglow.png "Afterglow")_Afterglow_
+
 Afterglow is a super easy to integrate HTML5 video player. It comes loaded with features without forcing you to use any of them. It's self-integrating, configurable, open source and well documented.
 - HTML5 video player
 - Cross browser compatible
@@ -74,11 +78,15 @@ Our resolution switching component is based on videojs-resolutions by vidcaster.
 ### 4. [MediaElement.js](http://www.mediaelementjs.com)
 [https://github.com/mediaelement/mediaelement](https://github.com/mediaelement/mediaelement)
 
+![MediaElement.js](http://boxxv.com/img/player/mediaelement.jpg "MediaElement.js")_MediaElement.js_
+
 HTML5 `<audio>` or `<video>` player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.
 
 
 ### 5. [jPlayer](http://jplayer.org)
 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
+
+![jPlayer](http://boxxv.com/img/player/jplayer.png "jPlayer")_jPlayer_
 
 jPlayer is the completely free and open source (MIT) media library written in JavaScript. A jQuery plugin, (and now a Zepto plugin,) jPlayer allows you to rapidly weave cross platform audio and video into your web pages. jPlayer's comprehensive API allows you to create innovative media solutions while support and encouragement is provided by jPlayer's active and growing community. 
 
