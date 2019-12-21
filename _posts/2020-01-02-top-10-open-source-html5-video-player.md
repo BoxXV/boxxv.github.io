@@ -4,7 +4,10 @@ title: Top 10 Open Source HTML5 Video Players
 image: /img/hello_world.jpeg
 ---
 
+
 # Top 10 Open Source HTML5 Video Players
+
+
 ### 1. [Video.js](https://videojs.com)
 [https://github.com/videojs/video.js](https://github.com/videojs/video.js)
 
@@ -15,6 +18,7 @@ It supports video playback on desktop and mobile devices. The project was starte
 - Easy to style
 - 100s of plugins
 - Supported everywhere
+
 
 ### 2. [Plyr](https://plyr.io)
 [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
@@ -41,7 +45,30 @@ Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player
 -   🤟 **No frameworks** - written in "vanilla" ES6 JavaScript, no jQuery required
 -   💁‍♀️ **SASS** - to include in your build processes
 
-### 3. Afterglow
+
+### 3. [Afterglow](http://afterglowplayer.com)
+[https://github.com/moay/afterglow](https://github.com/moay/afterglow)
+
+Afterglow is a super easy to integrate HTML5 video player. It comes loaded with features without forcing you to use any of them. It's self-integrating, configurable, open source and well documented.
+- HTML5 video player
+- Cross browser compatible
+- Fully responsive
+- Automatic lightbox
+- Youtube & Vimeo
+- Resolution switching
+- Drop-in replacement
+
+##### Credits
+- [video.js](http://www.videojs.com/)
+- [videojs-youtube](https://github.com/eXon/videojs-youtube)
+- [videojs-vimeo](https://github.com/eXon/videojs-vimeo)
+- [videojs-hotkeys](https://github.com/ctd1500/videojs-hotkeys)
+- [Emitter](https://github.com/component/emitter)
+- The font [Open Sans](https://www.google.com/fonts/specimen/Open+Sans)
+
+Our resolution switching component is based on videojs-resolutions by vidcaster published under the Apache License 2.0.
+
+
 ### 4. MediaElement.js
 ### 5. jPlayer
 ### 6. Cloudinary
