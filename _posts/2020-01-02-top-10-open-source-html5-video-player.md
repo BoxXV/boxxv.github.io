@@ -4,8 +4,8 @@ title: Top 10 Open Source HTML5 Video Players
 image: /img/hello_world.jpeg
 ---
 
-## Top 10 Open Source HTML5 Video Players
-#### 1. [Video.js](https://videojs.com)
+# Top 10 Open Source HTML5 Video Players
+### 1. [Video.js](https://videojs.com)
 [https://github.com/videojs/video.js](https://github.com/videojs/video.js)
 
 Video.js is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later).
@@ -16,7 +16,7 @@ It supports video playback on desktop and mobile devices. The project was starte
 - 100s of plugins
 - Supported everywhere
 
-2. [Plyr](https://plyr.io)
+### 2. [Plyr](https://plyr.io)
 [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 
 Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player. It is lightweight, accessible and customizable and supports all modern browsers. You can access the complete source with NPM using npm install plyr.
@@ -41,14 +41,14 @@ Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player
 -   🤟 **No frameworks** - written in "vanilla" ES6 JavaScript, no jQuery required
 -   💁‍♀️ **SASS** - to include in your build processes
 
-3. Afterglow
-4. MediaElement.js
-5. jPlayer
-6. Cloudinary
-7. JW Player
-8. Kaltura
+### 3. Afterglow
+### 4. MediaElement.js
+### 5. jPlayer
+### 6. Cloudinary
+### 7. JW Player
+### 8. Kaltura
 
-### Additional Video Players You Should Know About
+## Additional Video Players You Should Know About
 - Hls.js
 - Dash.js
 - Shaka Player
