@@ -75,7 +75,11 @@ Our resolution switching component is based on videojs-resolutions by vidcaster.
 HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.
 
 
-### 5. jPlayer
+### 5. [jPlayer](http://jplayer.org)
+[https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
+
+jPlayer is the completely free and open source (MIT) media library written in JavaScript. A jQuery plugin, (and now a Zepto plugin,) jPlayer allows you to rapidly weave cross platform audio and video into your web pages. jPlayer's comprehensive API allows you to create innovative media solutions while support and encouragement is provided by jPlayer's active and growing community. 
+
 ### 6. Cloudinary
 ### 7. JW Player
 ### 8. Kaltura
