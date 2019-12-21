@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top 20 Web Players
+title: Top 10 Open Source HTML5 Video Players
 image: /img/hello_world.jpeg
 ---
 
