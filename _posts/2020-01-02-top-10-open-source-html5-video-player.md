@@ -11,6 +11,8 @@ image: /img/hello_world.jpeg
 ### 1. [Video.js](https://videojs.com)
 [https://github.com/videojs/video.js](https://github.com/videojs/video.js)
 
+![Video.js](http://boxxv.com/img/player/videojs.jpg "Video.js")_Video.js_
+
 Video.js is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later).
 
 It supports video playback on desktop and mobile devices. The project was started mid 2010, and now has hundreds of contributors and is used on over 450,000 websites.
