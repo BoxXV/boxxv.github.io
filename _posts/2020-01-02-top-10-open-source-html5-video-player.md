@@ -72,7 +72,7 @@ Our resolution switching component is based on videojs-resolutions by vidcaster.
 ### 4. [MediaElement.js](http://www.mediaelementjs.com)
 [https://github.com/mediaelement/mediaelement](https://github.com/mediaelement/mediaelement)
 
-HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.
+HTML5 `<audio>` or `<video>` player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.
 
 
 ### 5. [jPlayer](http://jplayer.org)
@@ -80,8 +80,18 @@ HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as H
 
 jPlayer is the completely free and open source (MIT) media library written in JavaScript. A jQuery plugin, (and now a Zepto plugin,) jPlayer allows you to rapidly weave cross platform audio and video into your web pages. jPlayer's comprehensive API allows you to create innovative media solutions while support and encouragement is provided by jPlayer's active and growing community. 
 
-### 6. Cloudinary
-### 7. JW Player
+### 6. [Cloudinary](https://cloudinary.com)
+[https://github.com/cloudinary](https://github.com/cloudinary)
+
+This HTML5 video player by Cloudinary is primarily aimed for businesses and enterprises. It is optimized to provide the best in class viewer experience and supports high-resolution videos and adaptive streaming.
+
+### 7. [JW Player](https://www.jwplayer.com)
+[https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
+
+JW Player has expanded its support to allow for HTML5 video playback. It is fully customizable, with response responsive HTML5 video and contains a wide range of exciting features from accessibility to analytics to full HTML5 video controls.
+
+Live on over 2 million sites with 1.3 billion unique plays per month, JW Player is the solution for seamless video playback across browsers and media types. It empowers the developer to interact with video programmatically to create unique and awesome user experiences.
+
 ### 8. Kaltura
 
 ## Additional Video Players You Should Know About
