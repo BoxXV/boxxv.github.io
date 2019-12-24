@@ -4,7 +4,7 @@ title: Videos Học Lập Trình NodeJS Căn Bản
 ---
 
 ## Videos Học Lập Trình NodeJS Căn Bản
-//www.youtube.com/results?search_query=nodejs
+[https://www.youtube.com/results?search_query=nodejs](https://www.youtube.com/results?search_query=nodejs)
 
 -----
 ### LẬP TRÌNH NODEJS CƠ BẢN TẠI KHOA PHẠM
