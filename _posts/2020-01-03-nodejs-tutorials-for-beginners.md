@@ -8,7 +8,7 @@ title: Videos Lập Trình NodeJS Căn Bản
 
 #### LẬP TRÌNH NODEJS CƠ BẢN TẠI KHOA PHẠM
 _- Trung Tâm Đào Tạo Tin Học Khoa Phạm -_
-//youtu.be/FHyAwXbPMVs?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-
+[https://www.youtube.com/playlist?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-](https://www.youtube.com/playlist?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-)
 
 #### Khóa học Node JS cơ bản | Node JS Tutorials For Beginners
 - RHP Team -
