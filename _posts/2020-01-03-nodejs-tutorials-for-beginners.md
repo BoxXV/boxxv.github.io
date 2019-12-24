@@ -61,3 +61,13 @@ _Nguyen Duc Hoang &#9679; 22 videos &#9679; Oct 4, 2019_
 
 [https://www.youtube.com/playlist?list=PLWBrqglnjNl0VDneZTLLiOApeBIrk1-S6](https://www.youtube.com/playlist?list=PLWBrqglnjNl0VDneZTLLiOApeBIrk1-S6)
 
+
+-----
+#### NodeJS căn bản
+_Freetuts.net &#9679; 9 videos &#9679; Mar 5, 2016_
+
+[https://www.youtube.com/playlist?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-](https://www.youtube.com/playlist?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-)
+
+
+-----
+
