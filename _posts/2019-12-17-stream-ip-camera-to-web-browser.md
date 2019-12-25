@@ -22,3 +22,13 @@ Các trình duyệt không hỗ trợ giao thức RTMP, nhưng đoán xem ai là
 ## 8. Method 8 – Android application, WebRTC
 ## 9. 
 ## 10. 
+
+
+HLS Streaming of RTSP Stream by Nginx and Apache Tomcat  
+https://dzone.com/articles/hls-streaming-by-nginx-and-apche-tomcat  
+
+How to Use the NGINX RTMP Module to Setup a Streaming Server  
+https://www.servermania.com/kb/articles/nginx-rtmp/  
+
+Serversetup a NGINX Server with the RTMP Module on Windows  
+https://github.com/illuspas/nginx-rtmp-win32
