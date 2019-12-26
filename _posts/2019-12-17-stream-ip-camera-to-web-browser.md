@@ -31,4 +31,8 @@ How to Use the NGINX RTMP Module to Setup a Streaming Server
 https://www.servermania.com/kb/articles/nginx-rtmp/  
 
 Serversetup a NGINX Server with the RTMP Module on Windows  
-https://github.com/illuspas/nginx-rtmp-win32
+https://github.com/illuspas/nginx-rtmp-win32  
+https://github.com/luowei/nginx-rtmp-sample  
+https://github.com/search?q=nginx-rtmp  
+
+http://nginx-rtmp.blogspot.com/2013/06/windows-support-in-101.html
