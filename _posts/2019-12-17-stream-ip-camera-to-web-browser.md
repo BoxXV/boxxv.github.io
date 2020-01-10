@@ -8,7 +8,7 @@ tags:
 - Raspberry Pi
 - HTML5
 ---
-## There are three streaming protocols / technology in HTML5
+## There're three streaming protocols/technology in HTML5
 - Live streaming, `low latency` - **WebRTC** - **Websocket**
 - VOD and Live streaming, `high latency` - **HLS**
 
