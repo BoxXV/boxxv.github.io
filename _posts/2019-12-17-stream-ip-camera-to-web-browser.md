@@ -8,6 +8,7 @@ tags:
 - Raspberry Pi
 - HTML5
 ---
+
 ## There're three streaming protocols/technology in HTML5
 - Live streaming, `low latency` - **WebRTC** - **Websocket**
 - VOD and Live streaming, `high latency` - **HLS**
@@ -54,9 +55,9 @@ The application retrieves the stream from the server via WebRTC. To goal of the 
 
 ### 9. Method 9 – iOS application, WebRTC
 Just like its Android brethren, the iOS application fetches a video stream from the server via WebRTC.
- 
 
 
+-----
 HLS Streaming of RTSP Stream by Nginx and Apache Tomcat  
 https://dzone.com/articles/hls-streaming-by-nginx-and-apche-tomcat  
 
