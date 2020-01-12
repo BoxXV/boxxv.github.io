@@ -33,7 +33,7 @@ We provide a variety of software development kits (SDKs) supporting the latest p
 ### 9. [Brightcove](https://www.brightcove.com)
 The Brightcove Player is up to 70% faster than any other video player. That’s fast. Each player is optimized by pre-compiling and compressing plugins, skin assets, and thumbnails to minimize download size.
 
-### 10. [Clappr] (http://clappr.io)
+### 10. [Clappr] (https://github.com/clappr/clappr)
 An extensible media player for the web.
 
 ### 11. [MOWPlayer](https://mowplayer.com)
