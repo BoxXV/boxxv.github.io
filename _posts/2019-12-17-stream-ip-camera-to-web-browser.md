@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8 ways to Stream IP Camera to web browser
-image: /img/hello_world.jpeg
+image: "/img/hello_world.jpeg"
 tags:
 - Embedded
 - IoT
