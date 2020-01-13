@@ -33,7 +33,7 @@ We provide a variety of software development kits (SDKs) supporting the latest p
 ### 9. [Brightcove](https://www.brightcove.com)
 The Brightcove Player is up to 70% faster than any other video player. That’s fast. Each player is optimized by pre-compiling and compressing plugins, skin assets, and thumbnails to minimize download size.
 
-### 10. [Clappr] (https://github.com/clappr/clappr)
+### 10. [Clappr](http://clappr.io)
 An extensible media player for the web.
 
 ### 11. [MOWPlayer](https://mowplayer.com)
@@ -51,14 +51,20 @@ A video platform focusing on user experience and performance.
 ### 15. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
 An extension and skin for video.js
 
-### 15. Akamai Adaptive Media Player
+### 15. [Akamai Adaptive Media Player](https://player.akamai.com)
+Deliver high-quality, responsive media playback into your web pages and applications using Adaptive Media Player.
 
-### 16. Kaltura
+### 16. [Kaltura](https://corp.kaltura.com)
+Everything Video - Built by you! 
 
-### 17. mpx Player
+### 17. [mpx Player](http://mplayerx.org)
+Simple. Powerful. Beautiful. The media player you must have.
 
-### 18. Azure Media Player
+### 18. [Azure Media Player](https://ampdemo.azureedge.net)
+Your content. Multiple devices. One player.
 
-### 19. Radiant Media Player
+### 19. [Radiant Media Player](https://www.radiantmediaplayer.com)
+HTML5 video player for every device
 
-### 20. Rx-player
+### 20. [Rx-player](https://developers.canal-plus.com/rx-player/)
+DASH/Smooth HTML5 Video Player
