@@ -43,6 +43,7 @@ Free HTML5 Video Player and Ad Monetization Solution
 A simple, accessible and customisable media player for Video, Audio, YouTube and Vimeo
 
 ### 13. [Afterglow](http://afterglowplayer.com)
+HTML5 video made easy. HTML5 video player with support for lightbox, Youtube and Vimeo.
 
 ### 14. [Flowplayer](https://flowplayer.com)
 A video platform focusing on user experience and performance.
