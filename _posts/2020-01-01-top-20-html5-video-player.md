@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Top 20 Web HTML5 Video Players
+title: Top 21 Web HTML5 Video Players
 image: "/img/hello_world.jpeg"
 ---
 
-# Top 20 Web Players
+# Top 21 Web Players
 
 ### 1. [Hls.js](https://github.com/video-dev/hls.js)
 JavaScript HLS client using Media Source Extension
@@ -51,20 +51,20 @@ A video platform focusing on user experience and performance.
 ### 15. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
 An extension and skin for video.js
 
-### 15. [Akamai Adaptive Media Player](https://player.akamai.com)
+### 16. [Akamai Adaptive Media Player](https://player.akamai.com)
 Deliver high-quality, responsive media playback into your web pages and applications using Adaptive Media Player.
 
-### 16. [Kaltura](https://corp.kaltura.com)
+### 17. [Kaltura](https://corp.kaltura.com)
 Everything Video - Built by you! 
 
-### 17. [mpx Player](http://mplayerx.org)
+### 18. [mpx Player](http://mplayerx.org)
 Simple. Powerful. Beautiful. The media player you must have.
 
-### 18. [Azure Media Player](https://ampdemo.azureedge.net)
+### 19. [Azure Media Player](https://ampdemo.azureedge.net)
 Your content. Multiple devices. One player.
 
-### 19. [Radiant Media Player](https://www.radiantmediaplayer.com)
+### 20. [Radiant Media Player](https://www.radiantmediaplayer.com)
 HTML5 video player for every device
 
-### 20. [Rx-player](https://developers.canal-plus.com/rx-player/)
+### 21. [Rx-player](https://developers.canal-plus.com/rx-player/)
 DASH/Smooth HTML5 Video Player
