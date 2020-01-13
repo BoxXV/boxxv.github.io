@@ -44,7 +44,11 @@ A simple, accessible and customisable media player for Video, Audio, YouTube and
 
 ### 13. [Afterglow](http://afterglowplayer.com)
 
-### 14. Flowplayer
+### 14. [Flowplayer](https://flowplayer.com)
+A video platform focusing on user experience and performance.
+
+### 15. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
+An extension and skin for video.js
 
 ### 15. Akamai Adaptive Media Player
 
