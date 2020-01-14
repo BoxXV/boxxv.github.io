@@ -143,6 +143,20 @@ N1 này/đó/kia là của N2
 
 [Từ vựng Minna no Nihongo bài 1](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-1.html)
 
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 2](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 3](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-3/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 4](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-4/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 5](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-5/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 6](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-6/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 7](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-7/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 8](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-8/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 9](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-9/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 10](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-minna-bai-10/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 11](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-minna-bai-11/)  
 
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 2](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)
+
+
+
+
+
