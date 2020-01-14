@@ -143,7 +143,7 @@ N1 này/đó/kia là của N2
 
 [Từ vựng Minna no Nihongo bài 1](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-1.html)
 
-### Giáo trình minano nihongo 1 tiếng việt.
+**Giáo trình minano nihongo 1 tiếng việt.**  
 [https://drive.google.com/file/d/0B12DCNP3dpz6ZTA0bkpvcFJ2MDg/](https://drive.google.com/file/d/0B12DCNP3dpz6ZTA0bkpvcFJ2MDg/view)  
 
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)  
@@ -172,7 +172,7 @@ N1 này/đó/kia là của N2
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 24](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-24-minna/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 25](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-25-minna/)  
 
-### Giáo trình minano nihongo 2 tiếng việt.
+**Giáo trình minano nihongo 2 tiếng việt.**  
 [https://drive.google.com/file/d/0B_u3dREM0Ie9TEYyY1NHbjRENGM](https://drive.google.com/file/d/0B_u3dREM0Ie9TEYyY1NHbjRENGM/view)  
 
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 26](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-26-minna/)  
