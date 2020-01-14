@@ -154,6 +154,24 @@ N1 này/đó/kia là của N2
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 9](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-9/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 10](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-minna-bai-10/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 11](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-minna-bai-11/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 12](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-12-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 13](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-13-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 14](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-14-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 15](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-15-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 16](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-16-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 17](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-17-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 18](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-18-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 19](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-19-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 20](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-20-minna-hoc-tu-vung-mien-phi-voi-minder/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 21](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-21-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 22](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-22-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 23](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-23-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 24](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-24-minna/)  
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 25](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-25-minna/)  
+
+[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 26](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-26-minna/)  
+
+[Tổng hợp kiến thức 50 bài Minna No Nihongo (Từ vựng + Ngữ pháp)](http://tiengnhat.minder.vn/tong-hop-kien-thuc-50-bai-minna-no-nihongo-tu-vung-ngu-phap/)  
 
 
 
