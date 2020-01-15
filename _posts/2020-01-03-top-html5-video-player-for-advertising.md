@@ -37,50 +37,50 @@ An extensible media player for the web.
 -----
 
 
-### 3. [Shaka Player](https://github.com/google/shaka-player/)
+### 4. [Shaka Player](https://github.com/google/shaka-player/)
 JavaScript player library / DASH & HLS client / MSE-EME player
 
-### 4. [Bitmovin Player](https://bitmovin.com)
+### 5. [Bitmovin Player](https://bitmovin.com)
 Adaptive streaming video infrastructure encoding and HTML5 player
 
-### 5. [THEOplayer](https://www.theoplayer.com)
+### 6. [THEOplayer](https://www.theoplayer.com)
 THEOplayer makes working with video easy | #1 VIDEO PLAYER WORLDWIDE
 
-### 6. [castLabs PRESTOplay](https://castlabs.com)
+### 7. [castLabs PRESTOplay](https://castlabs.com)
 We provide a variety of software development kits (SDKs) supporting the latest player features and standards across multiple platforms. All of our products are designed to greatly simplify playback application development for delivering digital rights management (DRM) encrypted adaptive bitrate streaming content.
 
-### 7. [Brightcove](https://www.brightcove.com)
+### 8. [Brightcove](https://www.brightcove.com)
 The Brightcove Player is up to 70% faster than any other video player. That’s fast. Each player is optimized by pre-compiling and compressing plugins, skin assets, and thumbnails to minimize download size.
 
-### 8. [MOWPlayer](https://mowplayer.com)
+### 9. [MOWPlayer](https://mowplayer.com)
 Free HTML5 Video Player and Ad Monetization Solution
 
-### 9. [Plyr](https://plyr.io)
+### 10. [Plyr](https://plyr.io)
 A simple, accessible and customisable media player for Video, Audio, YouTube and Vimeo
 
-### 10. [Afterglow](http://afterglowplayer.com)
+### 11. [Afterglow](http://afterglowplayer.com)
 HTML5 video made easy. HTML5 video player with support for lightbox, Youtube and Vimeo.
 
-### 11. [Flowplayer](https://flowplayer.com)
+### 12. [Flowplayer](https://flowplayer.com)
 A video platform focusing on user experience and performance.
 
-### 12. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
+### 13. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
 An extension and skin for video.js
 
-### 13. [Akamai Adaptive Media Player](https://player.akamai.com)
+### 14. [Akamai Adaptive Media Player](https://player.akamai.com)
 Deliver high-quality, responsive media playback into your web pages and applications using Adaptive Media Player.
 
-### 14. [Kaltura](https://corp.kaltura.com)
+### 15. [Kaltura](https://corp.kaltura.com)
 Everything Video - Built by you! 
 
-### 15. [mpx Player](http://mplayerx.org)
+### 16. [mpx Player](http://mplayerx.org)
 Simple. Powerful. Beautiful. The media player you must have.
 
-### 16. [Azure Media Player](https://ampdemo.azureedge.net)
+### 17. [Azure Media Player](https://ampdemo.azureedge.net)
 Your content. Multiple devices. One player.
 
-### 17. [Radiant Media Player](https://www.radiantmediaplayer.com)
+### 18. [Radiant Media Player](https://www.radiantmediaplayer.com)
 HTML5 video player for every device
 
-### 18. [Rx-player](https://developers.canal-plus.com/rx-player/)
+### 19. [Rx-player](https://developers.canal-plus.com/rx-player/)
 DASH/Smooth HTML5 Video Player
