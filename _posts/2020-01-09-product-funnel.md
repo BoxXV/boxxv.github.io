@@ -7,10 +7,10 @@ image: "img/projects-bg.jpg"
 
 ![placeholder](http://boxxv.com/img/posts/product_funnel.png "Cấu trúc xây dựng Phễu Sản phẩm")
 
-✅ Sản phẩm Miễn phí Free (trải nghiệm)
-✅ Sản phẩm Giá rẻ (up salse)
-✅ Sản phẩm Chủ lực
-✅ Sản phẩm Giá Cao (1 sản phẩm hoặc combo)
+✅ Sản phẩm Miễn phí Free (trải nghiệm)  
+✅ Sản phẩm Giá rẻ (up salse)  
+✅ Sản phẩm Chủ lực  
+✅ Sản phẩm Giá Cao (1 sản phẩm hoặc combo)  
 
 Thông phễu Cross-Sale
 
