@@ -28,6 +28,10 @@ Make your player yours with the world's most popular open source HTML5 player fr
 [https://github.com/stevennick/videojs-ad-scheduler](https://github.com/stevennick/videojs-ad-scheduler)  
 [http://stevennick.github.io/videojs-ad-scheduler/](http://stevennick.github.io/videojs-ad-scheduler/)  
 
+### 3. [Clappr](http://clappr.io)
+An extensible media player for the web.
+[VAST Ad plugin](https://github.com/canny-wasp/clappr-vast-ad-plugin)  
+[Googel IMA Pre Roll](https://github.com/kslimani/clappr-google-ima-html5-preroll)  
 
 -----
 -----
@@ -48,38 +52,35 @@ We provide a variety of software development kits (SDKs) supporting the latest p
 ### 7. [Brightcove](https://www.brightcove.com)
 The Brightcove Player is up to 70% faster than any other video player. That’s fast. Each player is optimized by pre-compiling and compressing plugins, skin assets, and thumbnails to minimize download size.
 
-### 8. [Clappr](http://clappr.io)
-An extensible media player for the web.
-
-### 9. [MOWPlayer](https://mowplayer.com)
+### 8. [MOWPlayer](https://mowplayer.com)
 Free HTML5 Video Player and Ad Monetization Solution
 
-### 10. [Plyr](https://plyr.io)
+### 9. [Plyr](https://plyr.io)
 A simple, accessible and customisable media player for Video, Audio, YouTube and Vimeo
 
-### 11. [Afterglow](http://afterglowplayer.com)
+### 10. [Afterglow](http://afterglowplayer.com)
 HTML5 video made easy. HTML5 video player with support for lightbox, Youtube and Vimeo.
 
-### 12. [Flowplayer](https://flowplayer.com)
+### 11. [Flowplayer](https://flowplayer.com)
 A video platform focusing on user experience and performance.
 
-### 13. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
+### 12. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
 An extension and skin for video.js
 
-### 14. [Akamai Adaptive Media Player](https://player.akamai.com)
+### 13. [Akamai Adaptive Media Player](https://player.akamai.com)
 Deliver high-quality, responsive media playback into your web pages and applications using Adaptive Media Player.
 
-### 15. [Kaltura](https://corp.kaltura.com)
+### 14. [Kaltura](https://corp.kaltura.com)
 Everything Video - Built by you! 
 
-### 16. [mpx Player](http://mplayerx.org)
+### 15. [mpx Player](http://mplayerx.org)
 Simple. Powerful. Beautiful. The media player you must have.
 
-### 17. [Azure Media Player](https://ampdemo.azureedge.net)
+### 16. [Azure Media Player](https://ampdemo.azureedge.net)
 Your content. Multiple devices. One player.
 
-### 18. [Radiant Media Player](https://www.radiantmediaplayer.com)
+### 17. [Radiant Media Player](https://www.radiantmediaplayer.com)
 HTML5 video player for every device
 
-### 19. [Rx-player](https://developers.canal-plus.com/rx-player/)
+### 18. [Rx-player](https://developers.canal-plus.com/rx-player/)
 DASH/Smooth HTML5 Video Player
