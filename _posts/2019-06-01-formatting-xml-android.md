@@ -2,7 +2,7 @@
 layout: post
 title: Formatting xml layout trong Android Studio
 subtitle: Formatting xml layout files for Android
-image: /img/hello_world.jpeg
+image: "img/hello_world.jpeg"
 ---
 
 Hôm nay tôi phát hiện ra trình formatting xml trong Android Studio, thử nghiệm với nó một chút và tôi đã rất hài lòng với nó cho đến nay. Tôi tuân theo các quy tắc nghiêm ngặt trong việc formatting các tệp xml để tăng khả năng đọc (một phần quan trọng để đánh giá mã cho tôi) và cho đến nay tôi đã formatting các thuộc tính theo cách thủ công và theo trí nhớ nhưng nó sẽ rất tốt để tự động.
