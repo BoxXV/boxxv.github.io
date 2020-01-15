@@ -17,6 +17,16 @@ The Most Powerful &amp; Flexible Video Platform
 
 ### 2. [Video.js](https://videojs.com)
 Make your player yours with the world's most popular open source HTML5 player framework
+[https://github.com/videojs/videojs-contrib-ads](https://github.com/videojs/videojs-contrib-ads)  
+[https://github.com/googleads/videojs-ima](https://github.com/googleads/videojs-ima)  
+[https://github.com/lingtalfi/videojs-ad-markers](https://github.com/lingtalfi/videojs-ad-markers)  
+[https://github.com/theonion/videojs-vast-plugin](https://github.com/theonion/videojs-vast-plugin)  
+[https://github.com/Manbearpixel/videojs-vpaid](https://github.com/Manbearpixel/videojs-vpaid)  
+[https://github.com/DoomTay/videojs-vast-vpaid-waterfall](https://github.com/DoomTay/videojs-vast-vpaid-waterfall)  
+[https://github.com/dirkjanm/videojs-preroll](https://github.com/dirkjanm/videojs-preroll)  
+[https://github.com/MailOnline/videojs-vast-vpaid/](https://github.com/MailOnline/videojs-vast-vpaid/)  
+[https://github.com/stevennick/videojs-ad-scheduler](https://github.com/stevennick/videojs-ad-scheduler)  
+[http://stevennick.github.io/videojs-ad-scheduler/](http://stevennick.github.io/videojs-ad-scheduler/)  
 
 
 -----
