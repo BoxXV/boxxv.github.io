@@ -29,49 +29,53 @@ Make your player yours with the world's most popular open source HTML5 player fr
 [http://stevennick.github.io/videojs-ad-scheduler/](http://stevennick.github.io/videojs-ad-scheduler/)  
 
 ### 3. [Clappr](http://clappr.io)
-An extensible media player for the web.
+An extensible media player for the web.  
 [VAST Ad plugin](https://github.com/canny-wasp/clappr-vast-ad-plugin)  
 [Googel IMA Pre Roll](https://github.com/kslimani/clappr-google-ima-html5-preroll)  
 
+### 4. [Kaltura](https://corp.kaltura.com)
+Everything Video - Built by you!  
+[https://kaltura.github.io/kaltura-player-js/docs/ads.html](https://kaltura.github.io/kaltura-player-js/docs/ads.html)  
+[https://developer.kaltura.com/](https://developer.kaltura.com/)  
+[]()  
+
+
 -----
 -----
 
 
-### 4. [Shaka Player](https://github.com/google/shaka-player/)
+### 5. [Shaka Player](https://github.com/google/shaka-player/)
 JavaScript player library / DASH & HLS client / MSE-EME player
 
-### 5. [Bitmovin Player](https://bitmovin.com)
+### 6. [Bitmovin Player](https://bitmovin.com)
 Adaptive streaming video infrastructure encoding and HTML5 player
 
-### 6. [THEOplayer](https://www.theoplayer.com)
+### 7. [THEOplayer](https://www.theoplayer.com)
 THEOplayer makes working with video easy | #1 VIDEO PLAYER WORLDWIDE
 
-### 7. [castLabs PRESTOplay](https://castlabs.com)
+### 8. [castLabs PRESTOplay](https://castlabs.com)
 We provide a variety of software development kits (SDKs) supporting the latest player features and standards across multiple platforms. All of our products are designed to greatly simplify playback application development for delivering digital rights management (DRM) encrypted adaptive bitrate streaming content.
 
-### 8. [Brightcove](https://www.brightcove.com)
+### 9. [Brightcove](https://www.brightcove.com)
 The Brightcove Player is up to 70% faster than any other video player. That’s fast. Each player is optimized by pre-compiling and compressing plugins, skin assets, and thumbnails to minimize download size.
 
-### 9. [MOWPlayer](https://mowplayer.com)
+### 10. [MOWPlayer](https://mowplayer.com)
 Free HTML5 Video Player and Ad Monetization Solution
 
-### 10. [Plyr](https://plyr.io)
+### 11. [Plyr](https://plyr.io)
 A simple, accessible and customisable media player for Video, Audio, YouTube and Vimeo
 
-### 11. [Afterglow](http://afterglowplayer.com)
+### 12. [Afterglow](http://afterglowplayer.com)
 HTML5 video made easy. HTML5 video player with support for lightbox, Youtube and Vimeo.
 
-### 12. [Flowplayer](https://flowplayer.com)
+### 13. [Flowplayer](https://flowplayer.com)
 A video platform focusing on user experience and performance.
 
-### 13. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
+### 14. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
 An extension and skin for video.js
 
-### 14. [Akamai Adaptive Media Player](https://player.akamai.com)
+### 15. [Akamai Adaptive Media Player](https://player.akamai.com)
 Deliver high-quality, responsive media playback into your web pages and applications using Adaptive Media Player.
-
-### 15. [Kaltura](https://corp.kaltura.com)
-Everything Video - Built by you! 
 
 ### 16. [mpx Player](http://mplayerx.org)
 Simple. Powerful. Beautiful. The media player you must have.
