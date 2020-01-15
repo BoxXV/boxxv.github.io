@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 21 Web HTML5 Video Players
-image: "https://boxxv.com/img/hello_world.jpeg"
+image: "img/hello_world.jpeg"
 ---
 
 # Top 21 Web Players
