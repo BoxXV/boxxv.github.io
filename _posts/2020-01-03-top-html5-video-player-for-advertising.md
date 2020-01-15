@@ -37,7 +37,6 @@ An extensible media player for the web.
 Everything Video - Built by you!  
 [https://kaltura.github.io/kaltura-player-js/docs/ads.html](https://kaltura.github.io/kaltura-player-js/docs/ads.html)  
 [https://developer.kaltura.com/](https://developer.kaltura.com/)  
-[]()  
 
 
 -----
