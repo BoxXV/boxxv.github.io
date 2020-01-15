@@ -20,7 +20,7 @@ _RHP Team &#9679; 36 videos &#9679; Nov 5, 2018_
 
 -----
 ### Khóa học NodeJS căn bản cho người mới bắt đầu
-_TEDU Channel &#9679; 26 videos3 &#9679; Jun 19, 2018_  
+_TEDU Channel &#9679; 26 videos &#9679; Jun 19, 2018_  
 [https://www.youtube.com/playlist?list=PLRhlTlpDUWsxi380-2wosaNACGkz6u0uR](https://www.youtube.com/playlist?list=PLRhlTlpDUWsxi380-2wosaNACGkz6u0uR)
 
 
@@ -32,7 +32,7 @@ _Trung Tâm Đào Tạo Tin Học Khoa Phạm &#9679; 13 videos &#9679; Sep 12, 
 
 -----
 ### Lập Trình NodeJS Căn Bản
-_ZendVN - Học Lập Trình Online 22 &#9679; videos33 &#9679; Jul 10, 2018_  
+_ZendVN - Học Lập Trình Online &#9679; 22 videos &#9679; Jul 10, 2018_  
 [https://www.youtube.com/playlist?list=PLv6GftO355AuLqfA6_EGjitcDQ5lg5leq](https://www.youtube.com/playlist?list=PLv6GftO355AuLqfA6_EGjitcDQ5lg5leq)
 
 

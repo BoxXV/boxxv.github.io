@@ -6,6 +6,9 @@ title: Videos Học Lập Trình C, C++ và C# Căn Bản
 ## Videos Học Lập Trình C, C++ và C# Căn Bản
 [https://www.youtube.com/results?search_query=C#](https://www.youtube.com/results?search_query=C%23)
 
+https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/
+https://devpro.edu.vn/diem-khac-nhau-c-va-c
+
 -----
 ### Lập trình C# cơ bản - HowKteam
 _K team &#9679; 28 videos &#9679; Oct 12, 2018_  
@@ -31,10 +34,23 @@ _K team &#9679; 26 videos &#9679; Jan 3, 2017_
 
 
 -----
-### Lập Trình NodeJS Căn Bản
-_ZendVN - Học Lập Trình Online 22 &#9679; videos33 &#9679; Jul 10, 2018_
+### [CSharp] Khóa học lập trình C# nâng cao - Howkteam
+_K team &#9679; 12 videos &#9679; Sep 18, 2018_  
+[https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU](https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU)
 
-[https://www.youtube.com/playlist?list=PLv6GftO355AuLqfA6_EGjitcDQ5lg5leq](https://www.youtube.com/playlist?list=PLv6GftO355AuLqfA6_EGjitcDQ5lg5leq)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 -----
