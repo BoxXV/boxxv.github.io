@@ -8,30 +8,26 @@ title: Videos Học Lập Trình C, C++ và C# Căn Bản
 
 -----
 ### Lập trình C# cơ bản - HowKteam
-_K team &#9679; 28 videos &#9679; Oct 12, 2018_
-
+_K team &#9679; 28 videos &#9679; Oct 12, 2018_  
 [https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)
 
 
 -----
 ### Hướng dẫn lập trình C# cho người mới bắt đầu
-_TEDU Channel &#9679; 22 videos &#9679; Feb 23, 2016_
-
+_TEDU Channel &#9679; 22 videos &#9679; Feb 23, 2016_  
 [https://www.youtube.com/playlist?list=PLRhlTlpDUWsyOEc-S8ovGVG5L92mZEjVu](https://www.youtube.com/playlist?list=PLRhlTlpDUWsyOEc-S8ovGVG5L92mZEjVu)
 
 
 -----
 ### C# tutorial for beginners
-_kudvenkat &#9679; 102 videos &#9679; Dec 18, 2019_
-
+_kudvenkat &#9679; 102 videos &#9679; Dec 18, 2019_  
 [https://www.youtube.com/playlist?list=PLAC325451207E3105](https://www.youtube.com/playlist?list=PLAC325451207E3105)
 
 
 -----
-### Lập trình web với NODEJS + EXPRESS + POSTGRESQL
-_Trung Tâm Đào Tạo Tin Học Khoa Phạm &#9679; 13 videos &#9679; Sep 12, 2016_
-
-[https://www.youtube.com/playlist?list=PLzrVYRai0riRcHcnBzMSqLIVodfHo9YGU](https://www.youtube.com/playlist?list=PLzrVYRai0riRcHcnBzMSqLIVodfHo9YGU)
+### Lập trình C# Winform cơ bản
+_K team &#9679; 26 videos &#9679; Jan 3, 2017_  
+[https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS](https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS)
 
 
 -----
