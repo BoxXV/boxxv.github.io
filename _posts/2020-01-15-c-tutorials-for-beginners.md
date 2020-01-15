@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Videos Học Lập Trình C, C++ và C# Căn Bản
+title: Videos Học Lập Trình C, C plus plus và C Sharp Căn Bản
 ---
 
 ## Videos Học Lập Trình C, C++ và C# Căn Bản
