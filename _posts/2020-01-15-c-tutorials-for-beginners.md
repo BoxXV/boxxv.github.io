@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Videos Học Lập Trình C, C++ và C# Căn Bản
 ---
 
@@ -14,17 +14,17 @@ _K team &#9679; 28 videos &#9679; Oct 12, 2018_
 
 
 -----
-### Khóa học Node JS cơ bản | Node JS Tutorials For Beginners
-_RHP Team &#9679; 36 videos &#9679; Nov 5, 2018_
+### Hướng dẫn lập trình C# cho người mới bắt đầu
+_TEDU Channel &#9679; 22 videos &#9679; Feb 23, 2016_
 
-[https://www.youtube.com/playlist?list=PLb9GOiDj30nSJLKeai7yWUtl7SD2cTTGn](https://www.youtube.com/playlist?list=PLb9GOiDj30nSJLKeai7yWUtl7SD2cTTGn)
+[https://www.youtube.com/playlist?list=PLRhlTlpDUWsyOEc-S8ovGVG5L92mZEjVu](https://www.youtube.com/playlist?list=PLRhlTlpDUWsyOEc-S8ovGVG5L92mZEjVu)
 
 
 -----
-### Khóa học NodeJS căn bản cho người mới bắt đầu
-_TEDU Channel &#9679; 26 videos3 &#9679; Jun 19, 2018_
+### C# tutorial for beginners
+_kudvenkat &#9679; 102 videos &#9679; Dec 18, 2019_
 
-[https://www.youtube.com/playlist?list=PLRhlTlpDUWsxi380-2wosaNACGkz6u0uR](https://www.youtube.com/playlist?list=PLRhlTlpDUWsxi380-2wosaNACGkz6u0uR)
+[https://www.youtube.com/playlist?list=PLAC325451207E3105](https://www.youtube.com/playlist?list=PLAC325451207E3105)
 
 
 -----
