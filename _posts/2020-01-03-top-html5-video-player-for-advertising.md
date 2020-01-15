@@ -78,7 +78,7 @@ A simple, accessible and customisable media player for Video, Audio, YouTube and
 HTML5 video made easy. HTML5 video player with support for lightbox, Youtube and Vimeo.
 
 ### 13. [Flowplayer](https://flowplayer.com)
-A video platform focusing on user experience and performance.
+A video platform focusing on user experience and performance.  
 [https://flowplayer.com/features/advertising](https://flowplayer.com/features/advertising)
 
 ### 14. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
