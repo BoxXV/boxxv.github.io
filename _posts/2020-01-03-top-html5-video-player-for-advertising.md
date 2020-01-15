@@ -28,12 +28,21 @@ Make your player yours with the world's most popular open source HTML5 player fr
 [https://github.com/stevennick/videojs-ad-scheduler](https://github.com/stevennick/videojs-ad-scheduler)  
 [http://stevennick.github.io/videojs-ad-scheduler/](http://stevennick.github.io/videojs-ad-scheduler/)  
 
-### 3. [Clappr](http://clappr.io)
+### 3. [Bitmovin Player](https://bitmovin.com)
+Adaptive streaming video infrastructure encoding and HTML5 player  
+[https://bitmovin.com/monetization/](https://bitmovin.com/monetization/)  
+[Ad Scheduling](https://bitmovin.com/demos/ad-scheduling)  
+[Overlay Ad](https://bitmovin.com/demos/overlay-ad)  
+[Server Side Ad Insertion](https://bitmovin.com/demos/ssai)  
+[Ad Event Verification](https://bitmovin.com/demos/ad-event-verification)  
+
+
+### 4. [Clappr](http://clappr.io)
 An extensible media player for the web.  
 [VAST Ad plugin](https://github.com/canny-wasp/clappr-vast-ad-plugin)  
 [Googel IMA Pre Roll](https://github.com/kslimani/clappr-google-ima-html5-preroll)  
 
-### 4. [Kaltura](https://corp.kaltura.com)
+### 5. [Kaltura](https://corp.kaltura.com)
 Everything Video - Built by you!  
 [https://kaltura.github.io/kaltura-player-js/docs/ads.html](https://kaltura.github.io/kaltura-player-js/docs/ads.html)  
 [https://developer.kaltura.com/](https://developer.kaltura.com/)  
@@ -43,11 +52,8 @@ Everything Video - Built by you!
 -----
 
 
-### 5. [Shaka Player](https://github.com/google/shaka-player/)
+### 6. [Shaka Player](https://github.com/google/shaka-player/)
 JavaScript player library / DASH & HLS client / MSE-EME player
-
-### 6. [Bitmovin Player](https://bitmovin.com)
-Adaptive streaming video infrastructure encoding and HTML5 player
 
 ### 7. [THEOplayer](https://www.theoplayer.com)
 THEOplayer makes working with video easy | #1 VIDEO PLAYER WORLDWIDE
