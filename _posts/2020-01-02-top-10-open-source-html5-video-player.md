@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Top 10 Open Source HTML5 Video Players
-image: ""img/hello_world.jpeg""
+image: "img/hello_world.jpeg"
 ---
 
 
