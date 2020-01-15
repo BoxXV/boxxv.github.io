@@ -6,7 +6,14 @@ subtitle: Search a player for easily to integrate advertising on your video cont
 
 
 ### 1. [JW Player](https://www.jwplayer.com)
-The Most Powerful &amp; Flexible Video Platform
+The Most Powerful &amp; Flexible Video Platform  
+[Video Ad Scheduling](https://www.jwplayer.com/developers/web-player-demos/video-ad-scheduling/)  
+[Ad Rules](https://www.jwplayer.com/developers/web-player-demos/ad-rules/)  
+[Ad Event Verification](https://www.jwplayer.com/developers/web-player-demos/ad-verification/)  
+[Google Dynamic Ad Insertion (DAI)](https://www.jwplayer.com/developers/web-player-demos/dai-integration/)  
+[Dynamic Ad Playback](https://www.jwplayer.com/developers/web-player-demos/dynamic-ad-playback/)  
+[Multiple Ad Companions](https://www.jwplayer.com/developers/web-player-demos/multiple-ad-companions/)  
+
 
 ### 2. [Video.js](https://videojs.com)
 Make your player yours with the world's most popular open source HTML5 player framework
