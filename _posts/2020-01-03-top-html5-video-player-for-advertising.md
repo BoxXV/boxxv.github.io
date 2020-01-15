@@ -47,16 +47,20 @@ Everything Video - Built by you!
 [https://kaltura.github.io/kaltura-player-js/docs/ads.html](https://kaltura.github.io/kaltura-player-js/docs/ads.html)  
 [https://developer.kaltura.com/](https://developer.kaltura.com/)  
 
-
------
------
-
-
-### 6. [Shaka Player](https://github.com/google/shaka-player/)
-JavaScript player library / DASH & HLS client / MSE-EME player
-
-### 7. [THEOplayer](https://www.theoplayer.com)
+### 6. [THEOplayer](https://www.theoplayer.com)
 THEOplayer makes working with video easy | #1 VIDEO PLAYER WORLDWIDE
+[https://demo.theoplayer.com/advertisement-tester](https://demo.theoplayer.com/advertisement-tester)  
+[https://demo.theoplayer.com/vast-vmap-vpaid-2-advertising](https://demo.theoplayer.com/vast-vmap-vpaid-2-advertising)  
+[https://demo.theoplayer.com/google-dai](https://demo.theoplayer.com/google-dai)  
+[https://www.theoplayer.com/addons/ads-api](https://www.theoplayer.com/addons/ads-api)  
+[https://www.theoplayer.com/addons](https://www.theoplayer.com/addons)  
+
+-----
+-----
+
+
+### 7. [Shaka Player](https://github.com/google/shaka-player/)
+JavaScript player library / DASH & HLS client / MSE-EME player
 
 ### 8. [castLabs PRESTOplay](https://castlabs.com)
 We provide a variety of software development kits (SDKs) supporting the latest player features and standards across multiple platforms. All of our products are designed to greatly simplify playback application development for delivering digital rights management (DRM) encrypted adaptive bitrate streaming content.
