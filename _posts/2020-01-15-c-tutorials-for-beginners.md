@@ -42,8 +42,7 @@ _K team &#9679; 12 videos &#9679; Sep 18, 2018_
 -----
 -----
 -----
------
------
+
 
 ### Học C++ cơ bản | Học lập trình C++ cơ bản
 _Son Nguyen &#9679; 60 videos &#9679; Nov 17, 2019_  
@@ -69,4 +68,3 @@ _The Cherno &#9679; 81 videos &#9679; Nov 16, 2019_
 _VertoStudio3D &#9679; 20 videos &#9679; Nov 27, 2015_  
 [https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq](https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq)
 
------
