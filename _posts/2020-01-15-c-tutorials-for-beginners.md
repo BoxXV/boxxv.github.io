@@ -1,16 +1,16 @@
 ---
-layout: default
+layout: page
 title: Videos Học Lập Trình C, C++ và C# Căn Bản
 ---
 
-## Videos Học Lập Trình NodeJS Căn Bản
-[https://www.youtube.com/results?search_query=nodejs](https://www.youtube.com/results?search_query=nodejs)
+## Videos Học Lập Trình C, C++ và C# Căn Bản
+[https://www.youtube.com/results?search_query=C#](https://www.youtube.com/results?search_query=C%23)
 
 -----
-### LẬP TRÌNH NODEJS CƠ BẢN TẠI KHOA PHẠM
-_Trung Tâm Đào Tạo Tin Học Khoa Phạm &#9679; 20 videos &#9679; Aug 17, 2016_
+### Lập trình C# cơ bản - HowKteam
+_K team &#9679; 28 videos &#9679; Oct 12, 2018_
 
-[https://www.youtube.com/playlist?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-](https://www.youtube.com/playlist?list=PLzrVYRai0riQXAXJL9rg62tBvwD0ltJn-)
+[https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)
 
 
 -----
