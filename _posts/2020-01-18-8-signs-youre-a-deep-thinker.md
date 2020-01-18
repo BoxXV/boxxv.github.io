@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8 Dấu Hiệu Bạn Là Người Có Tư Duy Sâu Sắc (Deep-thinker)
-image: "img/hello_world.jpg"
+image: "img/hello_world.jpeg"
 ---
 
 Bạn đã bao giờ khiến bản thân hay người khác cảm thấy bất ngờ với những góc nhìn có chiều sâu của mình về vấn đề nào đó chưa? Bạn có thích bàn luận và tranh cãi về những câu hỏi lớn của cuộc đời không? Bạn có dành nhiều thời gian tránh xa khỏi thế giới bên ngoài để bản thân được đắm chìm vào những suy nghĩ của mình không? Nếu là như vậy thì bạn có vẻ là một người có tư duy sâu sắc đấy!
