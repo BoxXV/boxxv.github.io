@@ -11,6 +11,11 @@ title: Videos Học Lập Trình C, C plus plus và C Sharp Căn Bản
 
 
 -----
+### Lập trình hướng đối tượng C++ trên Visual Studio
+_PGS. TS. Bùi Thế Tâm &#9679; 109 videos &#9679; Aug 24, 2018_  
+[https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+
+-----
 ### Lập trình C# cơ bản - HowKteam
 _K team &#9679; 28 videos &#9679; Oct 12, 2018_  
 [https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)
