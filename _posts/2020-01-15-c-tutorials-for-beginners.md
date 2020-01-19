@@ -7,7 +7,7 @@ title: Videos Học Lập Trình C, C plus plus và C Sharp Căn Bản
 [https://www.youtube.com/results?search_query=C#](https://www.youtube.com/results?search_query=C%23)
 
 [https://devpro.edu.vn/diem-khac-nhau-c-va-c](https://devpro.edu.vn/diem-khac-nhau-c-va-c)  
-[https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/](https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/)
+[https://topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/](https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/)
 
 
 -----
