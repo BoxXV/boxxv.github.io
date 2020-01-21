@@ -13,6 +13,7 @@ Visual Studio Code (or VS Code) has quickly become the standard for software dev
 
 
 ### 2. [Atom](https://atom.io)
+![Atom editor](http://boxxv.com/img/posts/atom.io.jpg "Atom editor")
 A hackable text editor for the 21st Century. Atom, a project started by Github and thus now owned by Microsoft, has established itself as one of the premiere code and text editors out there. The best part is that Atom is totally free, open source, and highly customizable. Built around a minimal core, Atom comes with multiple language-specific packages built in, and the library of community-written ones has exploded over the years since the editor was first released. Atom is as robust as you need it to be – if the editor doesn’t do something you need, you can create that feature yourself. The Teletype features has been embraced by users, too. It allows multiple developers to work on the same code from remote locations.  
 **Platforms**: Windows, MacOS, Linux
 
