@@ -19,6 +19,7 @@ A hackable text editor for the 21st Century. Atom, a project started by Github a
 
 
 ### 3. [Sublime Text](https://www.sublimetext.com)
+![Sublime Text](http://boxxv.com/img/posts/sublime_text_30.jpg "Sublime Text")
 A sophisticated text editor for code, markup and prose. Sublime Text is pretty close to the industry standard for text editors. There’s a reason for that. Being designed for code, markup, and prose is a big plus. They haven’t put the same consideration into their prose workflows as say, Scrivener or Final Draft, but you have the option of doing everything within one editor. Like Atom and VS Code, Sublime Text has as an incredibly active package repository that extends its features far beyond the initial download.  
 **Platforms**: Windows, MacOS, Linux  
 **Price**: FREE (technically it’s an indefinite, never-ending trial of the $80 upgrade)
