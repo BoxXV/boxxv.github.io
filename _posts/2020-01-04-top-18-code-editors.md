@@ -127,7 +127,13 @@ NetBeans is an open-source code editor tool for developing with Java, PHP, C++, 
 **Price**: Free
 
 
-## BONUS 2: PyCharm, RubyMine, and All Other [JetBrains](https://www.jetbrains.com) Products
+## BONUS 2: [Geany](https://www.geany.org)
+Geany is a text editor which uses GTK+ toolkit. It also has certain basic features of an integrated development environment. The tool supports many filetypes and has some nice features. Geany is a powerful, stable and lightweight programmer's text editor that provides tons of useful features without bogging down your workflow. It runs on Linux, Windows and MacOS is translated into over 40 languages, and has built-in support for more than 50 programming languages.   
+**Platforms**: Windows, MacOS, Linux  
+**Price**: Free
+
+
+## BONUS 3: PyCharm, RubyMine, and All Other [JetBrains](https://www.jetbrains.com) Products
 ![JetBrains](http://boxxv.com/img/posts/000-Best-Code-Editor-JetBrains-Products.png "PyCharm, RubyMine, and All Other JetBrains Products")
 
 Like we said above, JetBrains makes good software. If you’re not a PHP dev, but like the way the PhpStorm IDE sounds, we think you should absolutely check out the full suite of JetBrains products. Most likely, there’s an IDE or product for you. PyCharm is one of the best Python editors out there, and RubyMine helped me personally move from an academic career and into one in tech. Whether you write in C++, C#, Go, or whatever else, JetBrains has you covered. Instead of programming one IDE that can be customized into an environment for your specific language (such as VS Code), they are able to create the ideal software for each language’s unique quirks and quibbles.  
@@ -137,4 +143,5 @@ Like we said above, JetBrains makes good software. If you’re not a PHP dev, bu
 -----
 ### Reference
 [https://www.elegantthemes.com/blog/resources/best-code-editors](https://www.elegantthemes.com/blog/resources/best-code-editors)  
-[https://mythemeshop.com/blog/code-editors/](https://mythemeshop.com/blog/code-editors/)
+[https://mythemeshop.com/blog/code-editors/](https://mythemeshop.com/blog/code-editors/)  
+[https://www.guru99.com/best-free-code-editors-windows-mac.html](https://www.guru99.com/best-free-code-editors-windows-mac.html)
