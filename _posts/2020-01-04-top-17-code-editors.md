@@ -124,4 +124,5 @@ Like we said above, JetBrains makes good software. If you’re not a PHP dev, bu
 
 -----
 Reference
-[https://www.elegantthemes.com/blog/resources/best-code-editors](https://www.elegantthemes.com/blog/resources/best-code-editors)
+[https://www.elegantthemes.com/blog/resources/best-code-editors](https://www.elegantthemes.com/blog/resources/best-code-editors)  
+[https://mythemeshop.com/blog/code-editors/](https://mythemeshop.com/blog/code-editors/)
