@@ -11,14 +11,14 @@ Visual Studio Code (or VS Code) has quickly become the standard for software dev
 
 
 ### 2. [Atom](https://atom.io)
-A hackable text editor for the 21st Century.
+A hackable text editor for the 21st Century. Atom, a project started by Github and thus now owned by Microsoft, has established itself as one of the premiere code and text editors out there. The best part is that Atom is totally free, open source, and highly customizable. Built around a minimal core, Atom comes with multiple language-specific packages built in, and the library of community-written ones has exploded over the years since the editor was first released. Atom is as robust as you need it to be – if the editor doesn’t do something you need, you can create that feature yourself. The Teletype features has been embraced by users, too. It allows multiple developers to work on the same code from remote locations.
 
 
-### 3. [Shaka Player](https://github.com/google/shaka-player/)
-JavaScript player library / DASH & HLS client / MSE-EME player
+### 3. [Sublime Text](https://www.sublimetext.com)
+A sophisticated text editor for code, markup and prose. Sublime Text is pretty close to the industry standard for text editors. There’s a reason for that. Being designed for code, markup, and prose is a big plus. They haven’t put the same consideration into their prose workflows as say, Scrivener or Final Draft, but you have the option of doing everything within one editor. Like Atom and VS Code, Sublime Text has as an incredibly active package repository that extends its features far beyond the initial download.
 
-### 4. [JW Player](https://www.jwplayer.com)
-The Most Powerful &amp; Flexible Video Platform
+### 4. [Notepad++](https://notepad-plus-plus.org)
+Notepad++ is an extremely popular text editor. That is in part because it’s free and GPL-licensed open source. Even more than that, though, the reason it’s one of the best text editors around is that it’s simple. It doesn’t try to be Atom or VS Code or Sublime Text. It’s a code editor, plain and simple. Beginners and veterans can get everything they need out of it. Coders and developers often recommend this one as a great option for someone just getting into code editing and might be overwhelmed by the environment offered up by others. Notepad++ is a wonderful, simple option not just for beginners, but developers at any level. A lot of professional devs use Notepad++ as their daily driver because it’s light, effective, and does what it needs to do.
 
 ### 5. [Video.js](https://videojs.com)
 Make your player yours with the world's most popular open source HTML5 player framework
