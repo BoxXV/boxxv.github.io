@@ -4,7 +4,7 @@ title: The Best 17 Code Editors Available in 2020
 image: "img/projects-bg.jpg"
 ---
 
-# Top 11 Free Code Editors
+# Top 10 Free Code Editors
 
 ### 1. [Visual Studio Code](https://code.visualstudio.com)
 Visual Studio Code (or VS Code) has quickly become the standard for software development since its release in 2015. Like most Microsoft products these days, VS Code is available on all major platforms. That means that developers on Mac, Windows, and Linux can use this incredibly powerful tool. Not quite an IDE (that’s actually a separate product altogether), VS Code can take on most of the tasks of an IDE with the right configuration and plugin library. The community for VS Code is incredibly passionate, and that works to everyone’s benefit. With VS Code being open source, that community works exceptionally hard to keep VS Code competitive with the rest of the field. Written in Node.js and Electron, you can be sure the code isn’t going to become outdated or lag behind any time soon.  
@@ -56,24 +56,36 @@ Because Vim can be so intense to learn, [they created a game for you to play](ht
 Having included Vim, we feel compelled to include Emacs as well. For developers, Emacs and Vim have the same relationship as Pepsi and Coke, Star Wars and Star Trek, M&Ms and Reece’s Pieces. They’re almost two sides of the same coin in that they are absolutely designed for the best developer experience possible while cutting out many of the extraneous features that are barriers to efficiency. Emacs is lightweight, command-line based, and being a part of GNU, available totally for free across a plethora of operating systems.
 
 Emacs takes a slightly more visually appealing approach to editing than Vim, however, that doesn’t mean you lose any power or functionality. It may come down to taste when deciding which one you want. But if you’re in the market for a hardcore, no-nonsense text editor and IDE that will pretty much be around forever, Emacs is definitely an option. After all, the core came around in 1976 and this particular iteration (GNU Emacs) has been updated regularly since 1984.  
+**Platforms**: Windows, MacOS, Linux, GNU, Solaris, FreeBSD, NetBSD, OpenBSD
+
+
+### 10. [Spacemacs](https://www.spacemacs.org)
+Now that you’re familiar with VIM and Emacs, let us introduce you to Spacemacs, whose tagline is The best editor is neither Emacs nor Vin, it’s Emacs and VIM. That tells you most of what you need to know about it right there. Instead of having to choose between the Pepsi and Coke of code editors, you get the best of both worlds in a new, open-source editor. Just because it combines the two into a nicer package than either has on their own doesn’t mean it’s any more accessible. Spacemacs is still absolutely not for beginners. It is complex and full of function over form, but that function is smoother in general than either of its constituent parts. The dev team and community have created a set of conventions and shortcuts for the editor that make it every bit as quick as either Emacs or VIM. If the idea of learning a hybrid of the two doesn’t scare you off, Spacemacs is totally worth looking into. And like its sources, Spacemacs is free, too.  
 **Platforms**: Windows, MacOS, Linux
 
 
-### 10. [Clappr](http://clappr.io)
-An extensible media player for the web.
-**Platforms**: Windows, MacOS, Linux
+-----
+# Top 7 Premium Code Editors
 
-### 11. [MOWPlayer](https://mowplayer.com)
-Free HTML5 Video Player and Ad Monetization Solution
-**Platforms**: Windows, MacOS, Linux
+### 11. [PhpStorm](https://www.jetbrains.com/phpstorm/)
+JetBrains makes good products. One of their best is PhpStorm, a delightful IDE designed to make a PHP developer’s life better in so many ways. PhpStorm is more than a code editor. It’s a full PHP IDE (integrated development environment), which means you get debugging, version control (Git, for instance), testing, error checking, intuitive code navigation, and so much more within the software itself instead of having to keep multiple apps for each task. PhpStorm excels in nearly every area that an IDE consists of. The interface is clean and smooth, the IDE itself feels far more lightweight than it is, and there is support for tons of frameworks. Joomla!, WordPress, Drupal, Laravel, Magento…basically if you work in PHP, your framework is supported here. But not just PHP. You can’t do most PHP work without Coffee, JS, HTML/CSS, and lots of other front-end code, so JetBrains makes sure those are covered, too. Basically, this is your one-stop shop if you work in a PHP framework.  
+**Platforms**: Windows, MacOS, Linux  
+**Price**:
+- Lightning-smart PHP IDE: $199 per year, $159/2nd year, $119/3rd year onwards
+- All Products Pack: $649 per year, $519/2nd year, $389/3rd year onwards
 
-### 12. [Plyr](https://plyr.io)
-A simple, accessible and customisable media player for Video, Audio, YouTube and Vimeo
-**Platforms**: Windows, MacOS, Linux
 
-### 13. [Afterglow](http://afterglowplayer.com)
-HTML5 video made easy. HTML5 video player with support for lightbox, Youtube and Vimeo.
-**Platforms**: Windows, MacOS, Linux
+### 12. [WeBuilder](https://www.webuilderapp.com)
+WeBuilder is a great tool for folks working in nearly any language, but shines with PHP, JavaScript, HTML, and CSS. It is powerful enough that veteran coders can be comfortable using it on a daily basis, and it’s easy enough to learn and use that beginners will feel comfortable starting out with it and growing into its advanced features. WeBuilder lets you set up code snippets to keyboard shortcuts for re-use so that you don’t waste time rewriting work you’ve already done, and it features IDE features like integrated FTP. Lightweight and fast, it doesn’t bog down or get sluggish like other IDEs. It is, however, only available on Windows.  
+**Platforms**: Windows  
+**Price**: $89.95, $59.95 (Personal), $199.95 (Team)
+
+
+### 13. [UltraEdit](http://afterglowplayer.com)
+UltraEdit is part of a family of developer products by IDM Computer Solutions. It can be used to edit HTML, PHP, JavaScript, Perl, C/C++, Python, and just about any other programming language. By all indications this editor is a solid entry on this list and has some industry clout to prove it. We’ve listed some key features below, but its full feature list is quite extensive and can be found here. As a premium product (compared to many on this list), it is clear that they are actively developing their editor to compete with the rest of the best.  
+**Platforms**: Windows, MacOS, Linux  
+**Price**: $79.95/year
+
 
 ### 14. [Flowplayer](https://flowplayer.com)
 A video platform focusing on user experience and performance.
