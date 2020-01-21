@@ -91,18 +91,32 @@ UltraEdit is part of a family of developer products by IDM Computer Solutions. I
 The CoffeeCup HTML Editor is a simple tool for creating, organizing, and working on an HTML/CSS project. That’s what it does, even branding itself “The HTML Editor.” The devs are confident in their product, and it shows. They also offer a split view where you can see the edits you make in real-time (much like the Divi builder, but with code). CofeeCup isn’t just for HTML, however. It supports PHP development, as well as CSS and Markdown linting on top of the standard HTML.
 
 There’s a free version and a premium version with more features, too. We are including this in the premium section because the features that you gain are well worth upgrading for, rather than staying with the free version.  
-**Platforms**: Windows, MacOS, Linux
-
-### 15. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
-An extension and skin for video.js
-**Platforms**: Windows, MacOS, Linux
-
-### 16. [Akamai Adaptive Media Player](https://player.akamai.com)
-Deliver high-quality, responsive media playback into your web pages and applications using Adaptive Media Player.
-**Platforms**: Windows, MacOS, Linux
-
-### 17. [Kaltura](https://corp.kaltura.com)
-Everything Video - Built by you! 
-**Platforms**: Windows, MacOS, Linux
+**Platforms**: Windows, MacOS  
+**Price**: FREE, or $49 for a more feature-rich editor
 
 
+### 15. [Espresso](https://espressoapp.com/)
+Espresso is a Mac-only code editor, but it can’t not be mentioned. It’s nearly an IDE, but works as smoothly and cleanly as Atom or Sublime. The program is fast, and it’s relatively powerful. What sets Espresso apart is the real-time editing that you can do in the code editing window as well as in the browser, too. Anything you code will reflect in the browser, and you have an intuitive drag-and-drop interface that updates the back-end on the fly. With a slew of plugins and themes and a focus on efficiency and speed, Espresso has a strong community and users who advocate for its use. Espresso is not free, but you can download a free trial from the website so that you can see if it fits your work.  
+**Platforms**: MacOS  
+**Price**: $79 (with FREE trial)
+
+
+### 16. [BBEdit](http://www.barebones.com/products/bbedit)
+BBEdit by Bare Bones is a bit more advanced than the name lets on. It’s more of a product you graduate to if you’re a beginner who started with a simpler product and are looking to work in a bit more of a heavy-duty environment. BBEdit is full to the brim with professional-level features for creating, editing, and manipulating text for your coding projects. It is MacOS only, so keep that in mind as well.
+
+Plus, their tagline is “It doesn’t suck,” so you have to respect that.  
+**Platforms**: MacOS  
+**Price**: $49.99
+
+
+### 17. [Coda](https://panic.com/coda)
+Coda by Panic Inc. is everything you need to hand-code a website in one app. You get a real-time rendering of your code, a beautiful UI is beautiful, and regular updates and improvements to the softwar. It has a plug-in repo like many text editors, and you can contribute to development even if you don’t write Cocoa, the scripting language for Coda plugins. There’s also an iOS app you can buy if you’re on the go, and it seems to be just as rich as the desktop version.  
+**Platforms**: MacOS, iOS  
+**Price**: $99 for MacOS, $24.99 for iOS
+
+
+## BONUS: PyCharm, RubyMine, and All Other [JetBrains](https://www.jetbrains.com) Products
+![JetBrains](http://boxxv.com/img/posts/000-Best-Code-Editor-JetBrains-Products.png "PyCharm, RubyMine, and All Other JetBrains Products")
+
+Like we said above, JetBrains makes good software. If you’re not a PHP dev, but like the way the PhpStorm IDE sounds, we think you should absolutely check out the full suite of JetBrains products. Most likely, there’s an IDE or product for you. PyCharm is one of the best Python editors out there, and RubyMine helped me personally move from an academic career and into one in tech. Whether you write in C++, C#, Go, or whatever else, JetBrains has you covered. Instead of programming one IDE that can be customized into an environment for your specific language (such as VS Code), they are able to create the ideal software for each language’s unique quirks and quibbles.  
+**Price**: Starts at $129 per year
