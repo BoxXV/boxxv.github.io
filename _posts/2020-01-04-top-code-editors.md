@@ -25,6 +25,7 @@ A sophisticated text editor for code, markup and prose. Sublime Text is pretty c
 **Price**: FREE (technically it’s an indefinite, never-ending trial of the $80 upgrade)
 
 ### 4. [Notepad++](https://notepad-plus-plus.org)
+![Notepad++](http://boxxv.com/img/posts/notepad4ever.gif "Notepad++")
 Notepad++ is an extremely popular text editor. That is in part because it’s free and GPL-licensed open source. Even more than that, though, the reason it’s one of the best text editors around is that it’s simple. It doesn’t try to be Atom or VS Code or Sublime Text. It’s a code editor, plain and simple. Beginners and veterans can get everything they need out of it. Coders and developers often recommend this one as a great option for someone just getting into code editing and might be overwhelmed by the environment offered up by others. Notepad++ is a wonderful, simple option not just for beginners, but developers at any level. A lot of professional devs use Notepad++ as their daily driver because it’s light, effective, and does what it needs to do.  
 **Platforms**: Windows, Linux ([a forked version exists](https://snapcraft.io/notepad-plus-plus))
 
