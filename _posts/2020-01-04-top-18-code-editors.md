@@ -120,7 +120,14 @@ Coda by Panic Inc. is everything you need to hand-code a website in one app. You
 **Price**: $99 for MacOS, $24.99 for iOS
 
 
-## BONUS: PyCharm, RubyMine, and All Other [JetBrains](https://www.jetbrains.com) Products
+-----
+## BONUS 1: [NetBeans](https://netbeans.org)
+NetBeans is an open-source code editor tool for developing with Java, PHP, C++, and other programming languages. With this editor, code analyzers, and converters. It allows you to upgrade your applications to use new Java 8 language constructs.  
+**Platforms**: Windows, MacOS, Linux  
+**Price**: Free
+
+
+## BONUS 2: PyCharm, RubyMine, and All Other [JetBrains](https://www.jetbrains.com) Products
 ![JetBrains](http://boxxv.com/img/posts/000-Best-Code-Editor-JetBrains-Products.png "PyCharm, RubyMine, and All Other JetBrains Products")
 
 Like we said above, JetBrains makes good software. If you’re not a PHP dev, but like the way the PhpStorm IDE sounds, we think you should absolutely check out the full suite of JetBrains products. Most likely, there’s an IDE or product for you. PyCharm is one of the best Python editors out there, and RubyMine helped me personally move from an academic career and into one in tech. Whether you write in C++, C#, Go, or whatever else, JetBrains has you covered. Instead of programming one IDE that can be customized into an environment for your specific language (such as VS Code), they are able to create the ideal software for each language’s unique quirks and quibbles.  
