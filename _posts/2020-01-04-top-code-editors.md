@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best 18 Code Editors Available in 2020
+title: The Best 21 Code Editors Available in 2020
 image: "img/projects-bg.jpg"
 ---
 
