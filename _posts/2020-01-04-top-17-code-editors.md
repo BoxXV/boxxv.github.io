@@ -120,3 +120,8 @@ Coda by Panic Inc. is everything you need to hand-code a website in one app. You
 
 Like we said above, JetBrains makes good software. If you’re not a PHP dev, but like the way the PhpStorm IDE sounds, we think you should absolutely check out the full suite of JetBrains products. Most likely, there’s an IDE or product for you. PyCharm is one of the best Python editors out there, and RubyMine helped me personally move from an academic career and into one in tech. Whether you write in C++, C#, Go, or whatever else, JetBrains has you covered. Instead of programming one IDE that can be customized into an environment for your specific language (such as VS Code), they are able to create the ideal software for each language’s unique quirks and quibbles.  
 **Price**: Starts at $129 per year
+
+
+-----
+Reference
+[https://www.elegantthemes.com/blog/resources/best-code-editors](https://www.elegantthemes.com/blog/resources/best-code-editors)
