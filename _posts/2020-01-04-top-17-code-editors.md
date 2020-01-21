@@ -81,14 +81,16 @@ WeBuilder is a great tool for folks working in nearly any language, but shines w
 **Price**: $89.95, $59.95 (Personal), $199.95 (Team)
 
 
-### 13. [UltraEdit](http://afterglowplayer.com)
+### 13. [UltraEdit](http://www.ultraedit.com)
 UltraEdit is part of a family of developer products by IDM Computer Solutions. It can be used to edit HTML, PHP, JavaScript, Perl, C/C++, Python, and just about any other programming language. By all indications this editor is a solid entry on this list and has some industry clout to prove it. We’ve listed some key features below, but its full feature list is quite extensive and can be found here. As a premium product (compared to many on this list), it is clear that they are actively developing their editor to compete with the rest of the best.  
 **Platforms**: Windows, MacOS, Linux  
 **Price**: $79.95/year
 
 
-### 14. [Flowplayer](https://flowplayer.com)
-A video platform focusing on user experience and performance.
+### 14. [CoffeeCup HTML Editor](https://www.coffeecup.com/html-editor/)
+The CoffeeCup HTML Editor is a simple tool for creating, organizing, and working on an HTML/CSS project. That’s what it does, even branding itself “The HTML Editor.” The devs are confident in their product, and it shows. They also offer a split view where you can see the edits you make in real-time (much like the Divi builder, but with code). CofeeCup isn’t just for HTML, however. It supports PHP development, as well as CSS and Markdown linting on top of the standard HTML.
+
+There’s a free version and a premium version with more features, too. We are including this in the premium section because the features that you gain are well worth upgrading for, rather than staying with the free version.  
 **Platforms**: Windows, MacOS, Linux
 
 ### 15. [Flor Player](https://codecanyon.net/item/flor-html5-video-player/25396869) - HTML5 Video Player
