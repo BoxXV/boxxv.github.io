@@ -68,3 +68,7 @@ HTML5 video player for every device
 
 ### 21. [Rx-player](https://developers.canal-plus.com/rx-player/)
 DASH/Smooth HTML5 Video Player
+
+-----
+### Reference
+[https://www.vdocipher.com/blog/2019/12/online-video-player-html5-website/](https://www.vdocipher.com/blog/2019/12/online-video-player-html5-website/)
