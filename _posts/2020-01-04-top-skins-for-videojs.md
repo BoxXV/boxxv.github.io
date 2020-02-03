@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Top 10 Skins for Videojs
+title: Top 10 Skins for Video.js
 image: "img/projects-bg.jpg"
 ---
 
 # Top 11 Free Code Editors
 
-### 1. [Visual Studio Code](https://code.visualstudio.com)
-![Visual Studio Code](http://boxxv.com/img/posts/visual-studio-code.jpg "Visual Studio Code")
-Visual Studio Code (or VS Code) has quickly become the standard for software development since its release in 2015. Like most Microsoft products these days, VS Code is available on all major platforms. That means that developers on Mac, Windows, and Linux can use this incredibly powerful tool. Not quite an IDE (that’s actually a separate product altogether), VS Code can take on most of the tasks of an IDE with the right configuration and plugin library. The community for VS Code is incredibly passionate, and that works to everyone’s benefit. With VS Code being open source, that community works exceptionally hard to keep VS Code competitive with the rest of the field. Written in Node.js and Electron, you can be sure the code isn’t going to become outdated or lag behind any time soon.  
-**Platforms**: Windows, MacOS, Linux (Ubuntu, Fedora, SUSE, Red Hat, and Debian in particular)
+### 1. [Flat skin](https://codecanyon.net/item/flat-skin-retina-for-jw-player/12752001)
+![Flat Skin Retina for Video.js](http://boxxv.com/img/player/flat.jpg "Flat Skin Retina for VideoJS")_Flat Skin Retina for Video.js_
+Skin with Flat style, unlimited colors, change color with LESS file.  
+**Version**: v4, v5, v6, v7
 
 
 ### 2. [Atom](https://atom.io)
