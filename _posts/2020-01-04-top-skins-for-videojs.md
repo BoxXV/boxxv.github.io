@@ -38,11 +38,11 @@ Skin with Fuzzy style, unlimited colors, retina ready & fully responsive.
 **Price**: 30$
 
 
-### 6. [Brackets](http://brackets.io)
-A modern, open source text editor that understands web design. Brackets is another free and open-source editor. This time, it’s not simply a community-driven project: Adobe itself is behind this one. Yes, the Adobe. Of Photoshop, Illustrator, and so on. Because of that, expect polish and power.
-
-Brackets is designed to be minimal-yet-powerful. It does, however, offer some unique and useful features. One of those features being Extract, a tool which allows you to extract information such as colors, fonts, gradients, measurements, directly from PSDs as clean CSS. For front-end developers working in a design agency who have to recreate pixel-perfect sites from mock-ups, there may be no better tool for you.  
-**Platforms**: Windows, MacOS, Linux
+### 6. [Sublime skin](https://github.com/videojs/video.js/wiki/Skins)
+![Sublime skin for Video.js](http://boxxv.com/img/player/sublime.png "Sublime skin for VideoJS")_Sublime skin for Video.js_
+A Video.js skin modeled on SublimeVideo.
+**Version**: v5  
+**Price**: Free
 
 
 ### 7. [Codeshare.io](https://codeshare.io)
