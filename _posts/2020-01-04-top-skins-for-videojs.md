@@ -49,10 +49,11 @@ Video.js unique 3 Skins pack plugin makes Video.js player looks great. With just
 
 ### 7. [Nuevo Unique 7 Skins Pack](https://codecanyon.net/item/videojs-unique-3-skins-pack/19496137)
 ![Nuevo Unique 1 Skins Pack](http://boxxv.com/img/player/nuevo.jpg "Nuevo Unique 1 Skins Pack")_Nuevo Unique 1 Skins Pack_
-![Nuevo Unique 2 Skins Pack](http://boxxv.com/img/player/nuevo.jpg "Nuevo Unique 2 Skins Pack")_Nuevo Unique 2 Skins Pack_
+![Nuevo Unique 2 Skins Pack](http://boxxv.com/img/player/chrome.jpg "Nuevo Unique 2 Skins Pack")_Nuevo Unique 2 Skins Pack_
 There are total 7 different unique skins available for Videojs player with Nuevo plugin. Only one default skin "nuevo" is offered for basic order. Next 6 premium skins are available for bundle order.
 Each skin was carefully designed for desktop and mobile touch devices, including layout for Ima and VAST ads container and specific live playback. Each skin use very different controlbar layout and controlbar elements order. You do not have to worry about it. Nuevo plugin detects automatically skin type and adjust buttons and elements layout accordingly.  
-**Platforms**: Internet browsers
+**Version**: v6, v7  
+**Price**: € 39
 
 
 ### 8. [Sublime skin](https://github.com/videojs/video.js/wiki/Skins)
