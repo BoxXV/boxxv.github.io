@@ -10,8 +10,9 @@ Skin with Flat style, unlimited colors, change color with LESS file.
 **Version**: v4, v5, v6, v7  
 **Price**: 30$
 
-### 2. [Tube skin](https://codecanyon.net/item/tube-skin-retina-for-videojs/17661814)
+### 2. [Tube skin](https://codecanyon.net/item/tube-skin-retina-for-videojs/17661814) | [Flor skin](https://codecanyon.net/item/flor-html5-video-player/25396869)
 ![Tube Skin Retina for Video.js](http://boxxv.com/img/player/tube-videojs.jpg "Tube Skin Retina for VideoJS")_Tube Skin Retina for Video.js_
+![Flor Skin Retina for Video.js](http://boxxv.com/img/player/flor.jpg "Flor Skin Retina for VideoJS")_Flor Skin Retina for Video.js_
 Skin with Tube style, unlimited colors, retina ready & fully responsive.  
 **Version**: v5, v6, v7  
 **Price**: 20$
