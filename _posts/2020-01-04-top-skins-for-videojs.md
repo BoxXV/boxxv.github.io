@@ -33,9 +33,11 @@ Skin with Soccer style, unlimited colors, retina ready & fully responsive.
 **Price**: 30$
 
 
-### 5. [Bluefish](http://bluefish.openoffice.nl/index.html)
-Bluefish is more of an IDE than a real text editor, which means it may be a little advanced for brand new users. It’s free, supports pretty much every language because it’s open-source, and comes with a wide variety of useful features for use across many platforms. It’s constantly updated by the community that’s built itself around the editor and can handle some pretty complex code bases. You can edit in full-screen or wrap the text as you want, and the powerful search-and-replace tool keeps things tidy. The IDE also supports a lot of secure connections, so you won’t have to worry about a separate FTP client, as you can work on your sites and repos remotely from within Bluefish itself.  
-**Platforms**: Windows, MacOS, Linux, BSD, Solaris
+### 5. [Fuzzy skin](https://codecanyon.net/item/fuzzy-skin-retina-for-videojs/25162597)
+![Fuzzy Skin Retina for Video.js](http://boxxv.com/img/player/soccer.jpg "Fuzzy Skin Retina for VideoJS")_Fuzzy Skin Retina for Video.js_
+Skin with Fuzzy style, unlimited colors, retina ready & fully responsive.  
+**Version**: v7  
+**Price**: 30$
 
 
 ### 6. [Brackets](http://brackets.io)
