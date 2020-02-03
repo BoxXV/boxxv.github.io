@@ -7,22 +7,23 @@ image: "img/projects-bg.jpg"
 # Top 11 Free Code Editors
 
 ### 1. [Flat skin](https://codecanyon.net/item/flat-skin-retina-for-jw-player/12752001)
-![Flat Skin Retina for Video.js](http://boxxv.com/img/player/flat.jpg "Flat Skin Retina for VideoJS")_Flat Skin Retina for Video.js_
+![Flat Skin Retina for Video.js](http://boxxv.com/img/player/flat-videojs.jpg "Flat Skin Retina for VideoJS")_Flat Skin Retina for Video.js_
 Skin with Flat style, unlimited colors, change color with LESS file.  
-**Version**: v4, v5, v6, v7
-
+**Version**: v4, v5, v6, v7  
+**Price**: 30$
 
 ### 2. [Tube skin](https://codecanyon.net/item/tube-skin-retina-for-videojs/17661814)
 ![Tube Skin Retina for Video.js](http://boxxv.com/img/player/tube-videojs.jpg "Tube Skin Retina for VideoJS")_Tube Skin Retina for Video.js_
 Skin with Tube style, unlimited colors, retina ready & fully responsive.  
-**Version**: v5, v6, v7
+**Version**: v5, v6, v7  
+**Price**: 20$
 
 
-### 3. [Sublime Text](https://www.sublimetext.com)
-![Sublime Text](http://boxxv.com/img/posts/sublime_text_30.jpg "Sublime Text")
-A sophisticated text editor for code, markup and prose. Sublime Text is pretty close to the industry standard for text editors. There’s a reason for that. Being designed for code, markup, and prose is a big plus. They haven’t put the same consideration into their prose workflows as say, Scrivener or Final Draft, but you have the option of doing everything within one editor. Like Atom and VS Code, Sublime Text has as an incredibly active package repository that extends its features far beyond the initial download.  
-**Platforms**: Windows, MacOS, Linux  
-**Price**: FREE (technically it’s an indefinite, never-ending trial of the $80 upgrade)
+### 3. [Air skin](https://codecanyon.net/item/air-skin-retina-for-videojs/22886702)
+![Air Skin Retina for Video.js](http://boxxv.com/img/player/air-videojs.jpg "Air Skin Retina for VideoJS")_Air Skin Retina for Video.js_
+Skin with Air style, unlimited colors, retina ready & fully responsive.  
+**Version**: v5, v6, v7  
+**Price**: 30$
 
 ### 4. [Notepad++](https://notepad-plus-plus.org)
 ![Notepad++](http://boxxv.com/img/posts/notepad4ever.gif "Notepad++")
