@@ -4,8 +4,6 @@ title: Top 10 Skins for Video.js
 image: "img/projects-bg.jpg"
 ---
 
-# Top 11 Free Code Editors
-
 ### 1. [Flat skin](https://codecanyon.net/item/flat-skin-retina-for-jw-player/12752001)
 ![Flat Skin Retina for Video.js](http://boxxv.com/img/player/flat-videojs.jpg "Flat Skin Retina for VideoJS")_Flat Skin Retina for Video.js_
 Skin with Flat style, unlimited colors, change color with LESS file.  
@@ -34,7 +32,7 @@ Skin with Soccer style, unlimited colors, retina ready & fully responsive.
 
 
 ### 5. [Fuzzy skin](https://codecanyon.net/item/fuzzy-skin-retina-for-videojs/25162597)
-![Fuzzy Skin Retina for Video.js](http://boxxv.com/img/player/soccer.jpg "Fuzzy Skin Retina for VideoJS")_Fuzzy Skin Retina for Video.js_
+![Fuzzy Skin Retina for Video.js](http://boxxv.com/img/player/fuzzy.jpg "Fuzzy Skin Retina for VideoJS")_Fuzzy Skin Retina for Video.js_
 Skin with Fuzzy style, unlimited colors, retina ready & fully responsive.  
 **Version**: v7  
 **Price**: 30$
