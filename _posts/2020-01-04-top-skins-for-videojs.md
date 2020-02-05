@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top 10 Skins for Video.js
+title: Top 18 Skins for Video.js
 image: "img/projects-bg.jpg"
 ---
 
@@ -39,7 +39,7 @@ Skin with Fuzzy style, unlimited colors, retina ready & fully responsive.
 **Price**: 30$
 
 
-### 6. [Video.js Unique 3 Skins Pack](https://codecanyon.net/item/videojs-unique-3-skins-pack/19496137)
+### 6,7,8. [Video.js Unique 3 Skins Pack](https://codecanyon.net/item/videojs-unique-3-skins-pack/19496137)
 ![Video.js Unique 1 Skins Pack](http://boxxv.com/img/player/videojs-unique-skin-1.jpg "Video.js Unique 1 Skins Pack")_Video.js Unique 1 Skins Pack_
 ![Video.js Unique 2 Skins Pack](http://boxxv.com/img/player/videojs-unique-skin-2.jpg "Video.js Unique 2 Skins Pack")_Video.js Unique 2 Skins Pack_
 ![Video.js Unique 3 Skins Pack](http://boxxv.com/img/player/videojs-unique-skin-3.jpg "Video.js Unique 3 Skins Pack")_Video.js Unique 3 Skins Pack_
@@ -48,7 +48,7 @@ Video.js unique 3 Skins pack plugin makes Video.js player looks great. With just
 **Price**: 11$
 
 
-### 7. [Nuevo Unique 7 Skins Pack](https://codecanyon.net/item/videojs-unique-3-skins-pack/19496137)
+### 9,10,11,12,13,14,15. [Nuevo Unique 7 Skins Pack](https://codecanyon.net/item/videojs-unique-3-skins-pack/19496137)
 ![Nuevo Unique 1 Skins Pack](http://boxxv.com/img/player/nuevo.jpg "Nuevo Unique 1 Skins Pack")_Nuevo (default)_
 ![Nuevo Unique 2 Skins Pack](http://boxxv.com/img/player/chrome.jpg "Nuevo Unique 2 Skins Pack")_Chrome skin_
 ![Nuevo Unique 3 Skins Pack](http://boxxv.com/img/player/Jwlike.jpg "Nuevo Unique 3 Skins Pack")_Jwlike skin_
@@ -63,20 +63,20 @@ Each skin was carefully designed for desktop and mobile touch devices, including
 **Price**: € 39
 
 
-### 8. [Sublime skin](https://github.com/videojs/video.js/wiki/Skins)
+### 16. [Sublime skin](https://github.com/videojs/video.js/wiki/Skins)
 ![Sublime skin for Video.js](http://boxxv.com/img/player/sublime.png "Sublime skin for VideoJS")_Sublime skin for Video.js_
 A Video.js skin modeled on SublimeVideo.  
 **Version**: v5  
 **Price**: Free
 
 
-### 9. [Netflix skin](https://codepen.io/benjipott/pen/JELELN)
+### 17. [Netflix skin](https://codepen.io/benjipott/pen/JELELN)
 ![Netflix skin for Video.js](http://boxxv.com/img/player/netflix.jpg "Netflix skin for VideoJS")_Netflix skin for Video.js_
 A simple Netflix skin for Video.js.  
 **Version**: v5  
 **Price**: Free
 
-### 10. [https://github.com/bzawada/Video.js-Skin](https://github.com/bzawada/Video.js-Skin)
+### 18. [https://github.com/bzawada/Video.js-Skin](https://github.com/bzawada/Video.js-Skin)
 ![skin for VideoJS](http://boxxv.com/img/player/videojs-skin.png "skin for VideoJS")
 Custom skin for Video.js player  
 **Version**: v7  
