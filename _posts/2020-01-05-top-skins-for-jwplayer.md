@@ -35,7 +35,7 @@ Skin with Thin style, unlimited colors, retina ready & fully responsive.
 ![VastSkin for JWPlayer](http://boxxv.com/img/player/vastskin.jpeg "VastSkin for JW Player")_VastSkin for JWPlayer_
 - JW Player 8
 - VideoJS 7.5.4
-- MediaElementJS 4.2.9
+- MediaElementJS 4.2.9  
 **Version**: JW8  
 **Price**: -0$
 
