@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Top 10 Skins for JW Player
+title: Top Skins for JW Player
 image: "img/projects-bg.jpg"
 ---
 
