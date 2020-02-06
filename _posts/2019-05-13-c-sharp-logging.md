@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comment trong C#
+title: Logging trong C#
 tags:
 - C#
 - Comment
