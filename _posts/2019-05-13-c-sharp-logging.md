@@ -12,14 +12,21 @@ modified: 2019-05-13
 
 Ghi Log là một phần quan trọng của phát triển phần mềm trong nhiều năm nay. Người ta có thể lập luận rằng một cơ chế ghi Log là một phần bắt buộc phải có của bất kỳ ứng dụng hoặc thư viện nào.  
 
-Ghi Log có một phần quan trọng để chơi trong kịch bản mà bạn có thể sử dụng gỡ lỗi tương tác (nghĩa là đính kèm trình gỡ lỗi như Visual Studio). Nó cho phép chúng tôi điều tra lỗi sau khi sự cố đã xảy ra. Trong một số trường hợp, như Gỡ lỗi sản phẩm, Log có thể là thông tin duy nhất bạn có.
+Ghi Log có một phần quan trọng để chạy trong kịch bản mà bạn có thể sử dụng gỡ lỗi tương tác (nghĩa là đính kèm trình gỡ lỗi như Visual Studio). Nó cho phép chúng tôi điều tra lỗi sau khi sự cố đã xảy ra. Trong một số trường hợp, như Gỡ lỗi sản phẩm, Log có thể là thông tin duy nhất bạn có.
 
 Ngay cả khi bạn có thể gỡ lỗi quy trình của riêng mình, Log có thể cung cấp cho bạn thông tin vô giá về các thành phần khác như thư viện của bên thứ 3, có sẵn trong framework .NET và CLR.
 
 Bên cạnh việc ghi Log, một thuật ngữ mới đang trở nên phổ biến: Giám sát. Giám sát có nghĩa là có một công cụ tự động báo cáo thông tin về ứng dụng của bạn. Thông tin đó thường là lỗi (Giám sát lỗi Error, Giám sát sự cố Crash), nhưng cũng là thông tin về các yêu cầu và về hiệu suất (Giám sát hiệu suất). Điều này rất khác với việc ghi Log nơi mã của bạn chủ động viết tin nhắn và ngoại lệ để ghi Log.
 
+Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và số liệu thống kê về người dùng của bạn. Dữ liệu này có thể được sử dụng để nghiên cứu mô hình sử dụng, nhân khẩu học và hành vi. Không cần phải nói, loại dữ liệu này là vô giá trong một số sản phẩm.
 
+### Các nới có thể ghi Log - Logging Target Types
 
+Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
+- Cơ sở dữ liệu: ghi Log vào cơ sở dữ liệu có nhiều lợi thế
+  * Unordered sub-list. 
+  * Unordered sub-list. 
+- Cơ sở dữ liệu: ghi Log vào cơ sở dữ liệu có nhiều lợi thế
 
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
