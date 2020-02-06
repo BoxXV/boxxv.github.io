@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Logging trong C sharp
-subtitle: Thực tiễn hiện đại: Hướng dẫn đầy đủ
+title: Logging trong C#
+subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
 tags:
 - Csharp
 - Comment
