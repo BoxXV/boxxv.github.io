@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Logging trong C#
+title: Logging trong C sharp
 subtitle: Thực tiễn hiện đại: Hướng dẫn đầy đủ
 tags:
-- C#
+- Csharp
 - Comment
 - Commenting Convention
 - Coding Conventions
