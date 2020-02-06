@@ -2,7 +2,6 @@
 layout: post
 title: Comment trong Android
 subtitle: Vì một tương lai lương Android cao hơn iOS
-date: "2019-05-12"
 tags:
 - Android
 - Comment
