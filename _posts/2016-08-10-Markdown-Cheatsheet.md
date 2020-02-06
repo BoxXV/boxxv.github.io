@@ -3,7 +3,7 @@ layout: post
 title: "Markdown Cheatsheet"
 subtitle: A dummy post to test Vietnamese text display
 description: "Một bài viết để tham khảo việc hiển thị Tiếng Việt"
-date: "2017-08-10T10:04:00.003+07:00"
+date: "2016-08-10T10:04:00.003+07:00"
 author: Adam Pritchard
 tags:
 - Markdown

@@ -2,10 +2,10 @@
 layout: post
 title:      "Example Content"
 description: This is a modified version of Clean Blog Jekyll to be compatible with GitHub Pages. Modified by Thanh Tran for his own blog.
-date:     2017-09-20T11:29:15+07:00
+date:     2016-09-20T11:29:15+07:00
 author:     "Tran Trong Thanh"
 image: "img/post-bg-01.jpg"
-modified: 2017-03-30T19:17:42+07:00
+modified: 2016-03-30T19:17:42+07:00
 ---
 
 Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
