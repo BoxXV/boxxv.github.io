@@ -28,8 +28,7 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
   * Nó dễ dàng tổng hợp các bản ghi Log từ nhiều máy.
   * Không có trường hợp nào các bản ghi Log sẽ bị xóa khỏi một máy cục bộ.
   * Bạn có thể dễ dàng tìm kiếm và trích xuất số liệu thống kê từ Log. Điều này đặc biệt hữu ích nếu bạn sử dụng ghi Log có cấu trúc.
-
-Có rất nhiều lựa chọn cho cơ sở dữ liệu để lưu trữ nhật ký của bạn. Chúng ta có thể phân loại chúng như sau:
+- Có rất nhiều lựa chọn cho cơ sở dữ liệu để lưu trữ nhật ký của bạn. Chúng ta có thể phân loại chúng như sau:
   * **Relational Databases** luôn là một lựa chọn. Họ dễ dàng thiết lập, có thể được truy vấn bằng SQL và hầu hết các kỹ sư đã quen thuộc với họ.
   * Cơ sở dữ liệu `NoQuery` như [CouchDB](https://couchdb.apache.org). Đây là hoàn hảo cho các bản ghi có cấu trúc được lưu trữ ở định dạng JSON.
   * Cơ sở dữ liệu `Time-series` như [InfluxDB](https://www.influxdata.com) được tối ưu hóa để lưu trữ các sự kiện dựa trên thời gian. Điều này có nghĩa là hiệu suất ghi nhật ký của bạn sẽ tốt hơn và nhật ký của bạn sẽ chiếm ít dung lượng lưu trữ hơn. Đây là một lựa chọn tốt cho đăng nhập tải cao cường độ cao.
