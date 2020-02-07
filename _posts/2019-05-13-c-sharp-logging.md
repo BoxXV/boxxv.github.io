@@ -20,7 +20,7 @@ Bên cạnh việc ghi Log, một thuật ngữ mới đang trở nên phổ bi�
 
 Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và số liệu thống kê về người dùng của bạn. Dữ liệu này có thể được sử dụng để nghiên cứu mô hình sử dụng, nhân khẩu học và hành vi. Không cần phải nói, loại dữ liệu này là vô giá trong một số sản phẩm.
 
-### Các nơi có thể ghi Log - Logging Target Types
+## Các nơi có thể ghi Log - Logging Target Types
 
 Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
 - **Database**. Ghi Log vào cơ sở dữ liệu có nhiều lợi thế
@@ -39,7 +39,7 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
 - **Logging to Event Viewer** Ghi Log vào Trình xem sự kiện - Nếu ứng dụng của bạn có trên Windows, bạn có thể sử dụng [Windows Event Log](https://searchwindowsserver.techtarget.com/definition/Windows-event-log) để ghi Log tin nhắn. Nó rất dễ làm và bạn có thể [xem tin nhắn](https://www.loggly.com/ultimate-guide/net-logging-basics/) bằng chương trình [Event Viewer](https://www.howtogeek.com/123646/htg-explains-what-the-windows-event-viewer-is-and-how-you-can-use-it/). Như một phần thưởng, tất cả các sự cố được tự động thêm vào như Log sự kiện. Vì vậy, sau bất kỳ sự cố quy trình .NET nào, bạn có thể vào Trình xem sự kiện và xem Ngoại lệ và ngăn xếp cuộc gọi của nó. Điều này khá tốn kém về mặt hiệu suất, do đó, tốt nhất là chỉ sử dụng cho các thông báo quan trọng, như lỗi nghiêm trọng.
 - **Log to ETW** Ghi Log vào ETW - Windows có một hệ thống ghi Log tích hợp cực kỳ nhanh có tên là **Event Tracing for Windows (ETW)**. Bạn có thể sử dụng nó để xem các bản ghi từ .NET framework, hệ điều hành và thậm chí cả kernel. Nhưng bạn cũng có thể sử dụng ETW để ghi Log chính mình với `System.Diagnostics.Tracing.EventSource`. Đây là tùy chọn ghi Log nhanh nhất có sẵn trong .NET. Nếu bạn có một con đường hấp dẫn mà thực hiện 100.000 lần một giây, thì ETW có thể dành cho bạn. .NET Core 3.0 Preview 5+ hiện có một thay thế ETW được gọi là [dotnet-track](https://github.com/dotnet/diagnostics/blob/master/documentation/dotnet-trace-instructions.md) là đa nền tảng.
 
-### Structured Logging Revolution
+## Structured Logging Revolution
 
 Trong ghi Log truyền thống, chúng ta ghi Log một thông điệp chuỗi đơn giản. Đối với thông báo đó, chúng ta thường thêm Dấu thời gian, cấp độ Log và có thể là bối cảnh bổ sung như Exception.
 ```csharp
@@ -64,6 +64,13 @@ Khi được gửi đến máy chủ, điều này được lưu dưới dạng 
 
 Tất cả các frameworks ghi Log phổ biến đều hỗ trợ ghi Log tùy chỉnh, mặc dù tôi tin rằng [Serilog](https://serilog.net) là người đầu tiên thực hiện ghi Log có cấu trúc như một công dân hạng nhất.
 
+## Logging Frameworks
+
+Có 4 framework ghi Log thống trị chính trong .NET. Đó là [log4net](https://logging.apache.org/log4net), [NLog](https://nlog-project.org), [Serilog](https://serilog.net) và [Microsoft.Extensions.Logging](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1) (chỉ dành cho .NET Core và ASP.NET Core). Tất cả chúng đều tuyệt vời, miễn phí và cung cấp chức năng tương tự.
+
+Hãy nói chuyện trước với 3 framework ghi Log của cộng đồng: log4net, NLog và Serilog.
+
+### Logging Frameworks
 
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
