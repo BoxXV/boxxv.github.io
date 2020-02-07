@@ -23,7 +23,7 @@ Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và s�
 ### Các nơi có thể ghi Log - Logging Target Types
 
 Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
-- Cơ sở dữ liệu: ghi Log vào cơ sở dữ liệu có nhiều lợi thế
+- **Database**. Ghi Log vào cơ sở dữ liệu có nhiều lợi thế
   * Bạn có thể truy xuất Log từ bất cứ đâu mà không cần truy cập vào máy sản xuất.
   * Nó dễ dàng tổng hợp các bản ghi Log từ nhiều máy.
   * Không có trường hợp nào các bản ghi Log sẽ bị xóa khỏi một máy cục bộ.
@@ -32,7 +32,12 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
   * Cơ sở dữ liệu **Relational** luôn là một lựa chọn. Họ dễ dàng thiết lập, có thể được truy vấn bằng SQL và hầu hết các kỹ sư đã quen thuộc với họ. Cơ sở dữ liệu quan hệ chứa các bảng và mỗi bảng có Primary Key riêng.
   * Cơ sở dữ liệu **NoSQL** như [CouchDB](https://couchdb.apache.org). Đây là hoàn hảo cho các bản ghi có cấu trúc được lưu trữ ở định dạng JSON.
   * Cơ sở dữ liệu **Time-series** như [InfluxDB](https://www.influxdata.com) được tối ưu hóa để lưu trữ các sự kiện dựa trên thời gian. Điều này có nghĩa là hiệu suất ghi nhật ký của bạn sẽ tốt hơn và nhật ký của bạn sẽ chiếm ít dung lượng lưu trữ hơn. Đây là một lựa chọn tốt cho đăng nhập tải cao cường độ cao.
-- Searchable Solutions như [Logstash](https://www.elastic.co/logstash) + [Elastic Search](https://www.elastic.co/elasticsearch) + [Kibana](https://www.elastic.co/kibana) (`Elastic Stack`) cung cấp dịch vụ đầy đủ cho nhật ký của bạn. Họ sẽ lưu trữ, lập chỉ mục, thêm khả năng tìm kiếm và thậm chí trực quan hóa dữ liệu nhật ký của bạn. Họ làm việc tốt nhất với đăng nhập có cấu trúc.
+- **Searchable Solutions** như [Logstash](https://www.elastic.co/logstash) + [Elastic Search](https://www.elastic.co/elasticsearch) + [Kibana](https://www.elastic.co/kibana) (`Elastic Stack`) cung cấp dịch vụ đầy đủ cho nhật ký của bạn. Họ sẽ lưu trữ, lập chỉ mục, thêm khả năng tìm kiếm và thậm chí trực quan hóa dữ liệu nhật ký của bạn. Họ làm việc tốt nhất với đăng nhập có cấu trúc.
+- **Error Monitoring** a
+- **Logging to File** a
+- **Logging to Standard Output (Console) and Debug Output (Trace)** a
+- **Logging to Event Viewer** a
+- **Log to ETW** a
 
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
