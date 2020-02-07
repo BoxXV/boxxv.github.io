@@ -54,13 +54,13 @@ catch (Exception ex)
 }
 ```
 
-Trong Ghi Log có cấu trúc, chúng ta cũng thêm các trường có cấu trúc vào thông báo. Đó là, chúng ta đã đánh dấu một số dữ liệu dưới dạng các trường và đặt tên cho nó. Sau đó, chúng ta sẽ có thể tìm kiếm trong các trường đó, lọc theo chúng và thu thập dữ liệu. Theo thư viện đăng nhập của bạn, một thông điệp tường trình có cấu trúc có thể trông giống như thế này:
+Trong Ghi Log có cấu trúc, chúng ta cũng thêm các trường có cấu trúc vào thông báo. Đó là, chúng ta đã đánh dấu một số dữ liệu dưới dạng các trường và đặt tên cho nó. Sau đó, chúng ta sẽ có thể tìm kiếm trong các trường đó, lọc theo chúng và thu thập dữ liệu. Theo thư viện ghi Log của bạn, một thông điệp tường trình có cấu trúc có thể trông giống như thế này:
 ```csharp
 var requestInfo = new { Url = "https://myurl.com/data", Payload = 12 };
 _log.Information("Request info is {@RequestInfo}", requestInfo);
 ```
 
-Khi được gửi đến máy chủ, điều này được lưu dưới dạng JSON chứ không phải là một chuỗi thông thường. Ý nghĩa rất lớn. Bây giờ, chúng ta có thể tìm thấy tất cả các thông điệp tường trình với một giá trị `Payload` nhất định. Hoặc lọc thông điệp tường trình theo URL yêu cầu. Chúng tôi có thể lưu dữ liệu của người tiêu dùng và thử và tìm mối tương quan với việc sử dụng chúng. Có lẽ chúng tôi sẽ thấy rằng phụ nữ trong độ tuổi từ 30 đến 35 có nhiều khả năng mua giày trong mùa hè. Điều này có nghĩa là chúng tôi có thể đề xuất nhiều giày hơn, nhận được nhiều doanh số hơn và có tiền thưởng Giáng sinh lớn. Tất cả với sức mạnh của đăng nhập có cấu trúc.
+Khi được gửi đến máy chủ, điều này được lưu dưới dạng JSON chứ không phải là một chuỗi thông thường. Ý nghĩa rất lớn. Bây giờ, chúng ta có thể tìm thấy tất cả các thông điệp tường trình với một giá trị `Payload` nhất định. Hoặc lọc thông điệp tường trình theo URL yêu cầu. Chúng tôi có thể lưu dữ liệu của người tiêu dùng và thử và tìm mối tương quan với việc sử dụng chúng. Có lẽ chúng tôi sẽ thấy rằng phụ nữ trong độ tuổi từ 30 đến 35 có nhiều khả năng mua giày trong mùa hè. Điều này có nghĩa là chúng tôi có thể đề xuất nhiều giày hơn, nhận được nhiều doanh số hơn và có tiền thưởng Giáng sinh lớn. Tất cả với sức mạnh của ghi Log có cấu trúc.
 
 Tất cả các frameworks ghi Log phổ biến đều hỗ trợ ghi Log tùy chỉnh, mặc dù tôi tin rằng [Serilog](https://serilog.net) là người đầu tiên thực hiện ghi Log có cấu trúc như một công dân hạng nhất.
 
@@ -112,6 +112,9 @@ class MyClass
 }
 ```
 
+**log4net** hỗ trợ [ghi Log có cấu trúc](https://stackify.com/log4net-guide-dotnet-logging/), nhưng không hoàn toàn như những người khác. Nó hỗ trợ một loạt các mục tiêu ghi Log được gọi là appender. Mặc dù nó hỗ trợ ít mục tiêu hơn các mục tiêu khác, log4net rất lớn đến nỗi bất cứ thứ gì được hỗ trợ, bạn đều có thể tìm thấy một triển khai tùy chỉnh trên internet, như ứng dụng tìm kiếm log4net-to-Elaticsearch này.
+
+Vấn đề lớn nhất của log4net có lẽ là cấu hình khá khó khăn. Hãy cùng xem các đối thủ của mình xử lý việc này như thế nào.
 
 
 Tham khảo:
