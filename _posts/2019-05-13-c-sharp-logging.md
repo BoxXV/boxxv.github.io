@@ -127,15 +127,15 @@ Giống như các thư viện khác, NLog bắt đầu với [NuGet package](htt
 
 {% highlight csharp %}
 var config = new NLog.Config.LoggingConfiguration();
- 
+
 // Targets where to log to: File and Console
 var logfile = new NLog.Targets.FileTarget("logfile") { FileName = "file.txt" };
 var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
-            
+
 // Rules for mapping loggers to targets            
 config.AddRule(LogLevel.Info, LogLevel.Fatal, logconsole);
 config.AddRule(LogLevel.Debug, LogLevel.Fatal, logfile);
-            
+
 // Apply config           
 NLog.LogManager.Configuration = config;
 {% endhighlight %}
@@ -144,14 +144,14 @@ Bây giờ, bắt đầu ghi Log:
 ```javascript
 class MyClass
 {
-    private static readonly NLog.Logger _log_ = NLog.LogManager.GetCurrentClassLogger();
- 
-    public void Foo()
-    {
-        _log.Debug("Foo started");
-        // structured logging:
-        _log.Info("Hello {Name}", "Michael");
-    }
+	private static readonly NLog.Logger _log_ = NLog.LogManager.GetCurrentClassLogger();
+
+	public void Foo()
+	{
+		_log.Debug("Foo started");
+		// structured logging:
+		_log.Info("Hello {Name}", "Michael");
+	}
 }
 ```
 
@@ -162,6 +162,17 @@ Serilog cuối cùng đã tham gia bữa tiệc nhưng đã thêm một tính n�
 
 Để sử dụng Serilog, trước tiên hãy cài đặt [NuGet](https://www.nuget.org/packages/serilog) của họ. Sau đó, thêm thiết lập trong mã (xem [tài liệu chính thức](https://github.com/serilog/serilog/wiki/Getting-Started)):
 
+{% highlight js %}
+class Program
+{
+	static void Main()
+	{
+		Log.Logger = new LoggerConfiguration()
+			.MinimumLevel.Debug()
+			.WriteTo.Console()
+			.WriteTo.File("logs\\my_log.log", rollingInterval: RollingInterval.Day)
+			.CreateLogger();
+{% endhighlight %}
 
 
 
