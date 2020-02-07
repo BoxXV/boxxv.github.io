@@ -70,7 +70,31 @@ Có 4 framework ghi Log thống trị chính trong .NET. Đó là [log4net](http
 
 Hãy nói chuyện trước với 3 framework ghi Log của cộng đồng: log4net, NLog và Serilog.
 
-### Logging Frameworks
+### [log4net](https://logging.apache.org/log4net)
+[Apache log4net](https://logging.apache.org/log4net/release/features.html) là framework cũ nhất trong ba framework. Nó ban đầu được chuyển từ dự án **log4j** Java Java. Bạn sẽ tìm thấy nó trong hầu hết các dự án .NET cũ.
+
+Để thiết lập, bạn sẽ cần xây dựng tệp cấu hình XML (log4net.config) trông giống như thế này:
+```xml
+<log4net>
+  <appender name="RollingFile" type="log4net.Appender.RollingFileAppender">
+    <file value="my_log.log" />
+    <appendToFile value="true" />
+    <maximumFileSize value="50KB" />
+    <maxSizeRollBackups value="2" />
+ 
+    <layout type="log4net.Layout.PatternLayout">
+      <conversionPattern value="%date %level %message%newline" />
+    </layout>
+  </appender>
+ 
+  <root>
+    <level value="ALL" />
+    <appender-ref ref="RollingFile" />
+  </root>
+</log4net>
+```
+
+
 
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
