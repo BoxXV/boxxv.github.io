@@ -95,7 +95,7 @@ Hãy nói chuyện trước với 3 framework ghi Log của cộng đồng: log4
     <appender-ref ref="RollingFile" />
   </root>
 </log4net>
-{% endhighlight %}
+```
 
 Sau đó, thêm các mục sau vào `AssociationInfo.cs`:
 {% highlight js %}
@@ -189,6 +189,10 @@ class MyClass
 	}
 }
 {% endhighlight %}
+
+Vì vậy, nếu bạn nghĩ rằng NLog đơn giản như vậy, Serilog có thể giúp việc thiết lập trở nên dễ dàng hơn. Serilog cũng hỗ trợ một nhóm lớn các [targets (Sinks)](https://github.com/serilog/serilog/wiki/Provided-Sinks) ra khỏi hộp.
+
+<del>Theo như hiệu suất, Serilog dường như nhanh hơn khoảng hai lần so với NLog theo [Benchmark](https://www.darylcumbo.net/serilog-vs-nlog-benchmarks/) này.</del>  
 
 
 
