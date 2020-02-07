@@ -4,14 +4,14 @@ title: Top Skins for JW Player
 image: "img/projects-bg.jpg"
 ---
 
-### 1. [Tube skin](https://codecanyon.net/item/tube-skin-retina-for-videojs/17661814)
-![Tube Skin Retina for JWPlayer](http://boxxv.com/img/player/tube-videojs.jpg "Tube Skin Retina for JW Player")_Tube Skin Retina for JWPlayer_
+### 1. [Tube skin](https://codecanyon.net/item/tube-skin-retina-for-jw7/18213167)
+![Tube Skin Retina for JWPlayer](http://boxxv.com/img/player/tube-jwplayer.jpg "Tube Skin Retina for JW Player")_Tube Skin Retina for JWPlayer_
 Skin with Tube style, unlimited colors, retina ready & fully responsive.  
 **Version**: JW7, JW8  
 **Price**: 20$
 
 ### 2. [Flat skin](https://codecanyon.net/item/flat-skin-retina-for-jw-player/12752001)
-![Flat Skin Retina for JWPlayer](http://boxxv.com/img/player/flat-videojs.jpg "Flat Skin Retina for JW Player")_Flat Skin Retina for JWPlayer_
+![Flat Skin Retina for JWPlayer](http://boxxv.com/img/player/flat-jwplayer.jpg "Flat Skin Retina for JW Player")_Flat Skin Retina for JWPlayer_
 Skin with Flat style, unlimited colors, change color with LESS file.  
 **Version**: JW6, JW7, JW8  
 **Price**: 15$
