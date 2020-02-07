@@ -29,10 +29,10 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
   * Không có trường hợp nào các bản ghi Log sẽ bị xóa khỏi một máy cục bộ.
   * Bạn có thể dễ dàng tìm kiếm và trích xuất số liệu thống kê từ Log. Điều này đặc biệt hữu ích nếu bạn sử dụng ghi Log có cấu trúc.
 - Có rất nhiều lựa chọn cho cơ sở dữ liệu để lưu trữ nhật ký của bạn. Chúng ta có thể phân loại chúng như sau:
-  * Cơ sở dữ liệu **Relational** luôn là một lựa chọn. Họ dễ dàng thiết lập, có thể được truy vấn bằng SQL và hầu hết các kỹ sư đã quen thuộc với họ.
-  * Cơ sở dữ liệu **NoQuery** như [CouchDB](https://couchdb.apache.org). Đây là hoàn hảo cho các bản ghi có cấu trúc được lưu trữ ở định dạng JSON.
-  * Cơ sở dữ liệu `Time-series` như [InfluxDB](https://www.influxdata.com) được tối ưu hóa để lưu trữ các sự kiện dựa trên thời gian. Điều này có nghĩa là hiệu suất ghi nhật ký của bạn sẽ tốt hơn và nhật ký của bạn sẽ chiếm ít dung lượng lưu trữ hơn. Đây là một lựa chọn tốt cho đăng nhập tải cao cường độ cao.
-- Các giải pháp có thể tìm kiếm như Logstash + Tìm kiếm đàn hồi + Kibana ("Ngăn xếp đàn hồi") cung cấp dịch vụ đầy đủ cho nhật ký của bạn. Họ sẽ lưu trữ, lập chỉ mục, thêm khả năng tìm kiếm và thậm chí trực quan hóa dữ liệu nhật ký của bạn. Họ làm việc tốt nhất với đăng nhập có cấu trúc.
+  * Cơ sở dữ liệu **Relational** luôn là một lựa chọn. Họ dễ dàng thiết lập, có thể được truy vấn bằng SQL và hầu hết các kỹ sư đã quen thuộc với họ. Cơ sở dữ liệu quan hệ chứa các bảng và mỗi bảng có Primary Key riêng.
+  * Cơ sở dữ liệu **NoSQL** như [CouchDB](https://couchdb.apache.org). Đây là hoàn hảo cho các bản ghi có cấu trúc được lưu trữ ở định dạng JSON.
+  * Cơ sở dữ liệu **Time-series** như [InfluxDB](https://www.influxdata.com) được tối ưu hóa để lưu trữ các sự kiện dựa trên thời gian. Điều này có nghĩa là hiệu suất ghi nhật ký của bạn sẽ tốt hơn và nhật ký của bạn sẽ chiếm ít dung lượng lưu trữ hơn. Đây là một lựa chọn tốt cho đăng nhập tải cao cường độ cao.
+- Searchable Solutions như [Logstash](https://www.elastic.co/logstash) + [Elastic Search](https://www.elastic.co/elasticsearch) + [Kibana](https://www.elastic.co/kibana) ("Ngăn xếp đàn hồi") cung cấp dịch vụ đầy đủ cho nhật ký của bạn. Họ sẽ lưu trữ, lập chỉ mục, thêm khả năng tìm kiếm và thậm chí trực quan hóa dữ liệu nhật ký của bạn. Họ làm việc tốt nhất với đăng nhập có cấu trúc.
 
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
