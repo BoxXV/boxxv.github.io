@@ -174,6 +174,22 @@ class Program
 			.CreateLogger();
 {% endhighlight %}
 
+Và sử dụng:
+
+{% highlight js %}
+class MyClass
+{
+
+	public void Foo()
+	{
+		Log.Debug("Foo started");
+		// structured logging:
+		Log.Debug("Requesting from URL {A} with {B}", myUrl, myPayload);
+	}
+}
+{% endhighlight %}
+
+
 
 
 
