@@ -42,7 +42,6 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
 ### Structured Logging Revolution
 
 Trong ghi Log truyền thống, chúng ta ghi Log một thông điệp chuỗi đơn giản. Đối với thông báo đó, chúng ta thường thêm Dấu thời gian, cấp độ Log và có thể là bối cảnh bổ sung như Exception.
-
 ```csharp
 try
 {
@@ -54,12 +53,16 @@ catch (Exception ex)
 	_log.Error("Doing something failed with", ex);
 }
 ```
+
 Trong Ghi Log có cấu trúc, chúng ta cũng thêm các trường có cấu trúc vào thông báo. Đó là, chúng ta đã đánh dấu một số dữ liệu dưới dạng các trường và đặt tên cho nó. Sau đó, chúng ta sẽ có thể tìm kiếm trong các trường đó, lọc theo chúng và thu thập dữ liệu. Theo thư viện đăng nhập của bạn, một thông điệp tường trình có cấu trúc có thể trông giống như thế này:
 ```csharp
 var requestInfo = new { Url = "https://myurl.com/data", Payload = 12 };
 _log.Information("Request info is {@RequestInfo}", requestInfo);
 ```
 
+Khi được gửi đến máy chủ, điều này được lưu dưới dạng JSON chứ không phải là một chuỗi thông thường. Ý nghĩa rất lớn. Bây giờ, chúng ta có thể tìm thấy tất cả các thông điệp tường trình với một giá trị `Payload` nhất định. Hoặc lọc thông điệp tường trình theo URL yêu cầu. Chúng tôi có thể lưu dữ liệu của người tiêu dùng và thử và tìm mối tương quan với việc sử dụng chúng. Có lẽ chúng tôi sẽ thấy rằng phụ nữ trong độ tuổi từ 30 đến 35 có nhiều khả năng mua giày trong mùa hè. Điều này có nghĩa là chúng tôi có thể đề xuất nhiều giày hơn, nhận được nhiều doanh số hơn và có tiền thưởng Giáng sinh lớn. Tất cả với sức mạnh của đăng nhập có cấu trúc.
+
+Tất cả các frameworks ghi Log phổ biến đều hỗ trợ ghi Log tùy chỉnh, mặc dù tôi tin rằng [Serilog](https://serilog.net) là người đầu tiên thực hiện ghi Log có cấu trúc như một công dân hạng nhất.
 
 
 Tham khảo:
