@@ -155,6 +155,15 @@ class MyClass
 }
 ```
 
+NLog có một thiết lập và API dễ dàng. Theo một số tài khoản, nó cũng nhanh hơn log4net. Nó hỗ trợ ghi Log có cấu trúc và 84 mục tiêu ngoài hộp bao gồm tất cả các cơ sở dữ liệu phổ biến. Giống như với bất kỳ thư viện nào, bạn có thể mở rộng NLog để viết Log bất cứ nơi nào bạn muốn.
+
+### [Serilog](https://serilog.net)
+Serilog cuối cùng đã tham gia bữa tiệc nhưng đã thêm một tính năng rất cần thiết: Ghi Log cấu trúc như một công dân hạng nhất. Chúng ta sẽ trở lại với điều đó.
+
+Để sử dụng Serilog, trước tiên hãy cài đặt [NuGet](https://www.nuget.org/packages/serilog) của họ. Sau đó, thêm thiết lập trong mã (xem [tài liệu chính thức](https://github.com/serilog/serilog/wiki/Getting-Started)):
+
+
+
 
 
 Tham khảo:
