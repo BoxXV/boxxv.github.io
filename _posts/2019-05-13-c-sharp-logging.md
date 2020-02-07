@@ -41,7 +41,7 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
 
 ### Structured Logging Revolution
 
-Trong ghi Log truyền thống, chúng tôi đăng nhập một thông điệp chuỗi đơn giản. Đối với thông báo đó, chúng tôi thường thêm Dấu thời gian, cấp độ Log và có thể là bối cảnh bổ sung như Exception.
+Trong ghi Log truyền thống, chúng ta ghi Log một thông điệp chuỗi đơn giản. Đối với thông báo đó, chúng ta thường thêm Dấu thời gian, cấp độ Log và có thể là bối cảnh bổ sung như Exception.
 
 ```csharp
 try
@@ -53,6 +53,11 @@ catch (Exception ex)
 {
 	_log.Error("Doing something failed with", ex);
 }
+```
+Trong Ghi Log có cấu trúc, chúng ta cũng thêm các trường có cấu trúc vào thông báo. Đó là, chúng ta đã đánh dấu một số dữ liệu dưới dạng các trường và đặt tên cho nó. Sau đó, chúng ta sẽ có thể tìm kiếm trong các trường đó, lọc theo chúng và thu thập dữ liệu. Theo thư viện đăng nhập của bạn, một thông điệp tường trình có cấu trúc có thể trông giống như thế này:
+```csharp
+var requestInfo = new { Url = "https://myurl.com/data", Payload = 12 };
+_log.Information("Request info is {@RequestInfo}", requestInfo);
 ```
 
 
