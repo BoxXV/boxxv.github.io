@@ -20,6 +20,7 @@ Bên cạnh việc ghi Log, một thuật ngữ mới đang trở nên phổ bi�
 
 Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và số liệu thống kê về người dùng của bạn. Dữ liệu này có thể được sử dụng để nghiên cứu mô hình sử dụng, nhân khẩu học và hành vi. Không cần phải nói, loại dữ liệu này là vô giá trong một số sản phẩm.
 
+
 ## Các nơi có thể ghi Log - Logging Target Types
 
 Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
@@ -38,6 +39,7 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
 - **Logging to Standard Output (Console) and Debug Output (Trace)** Ghi Log vào Đầu ra tiêu chuẩn (Bảng điều khiển) và Đầu ra gỡ lỗi (Dấu vết) - Ghi Log vào Bảng điều khiển, còn được gọi là Đầu ra tiêu chuẩn, rất thuận tiện, đặc biệt là trong quá trình phát triển. Windows cũng hỗ trợ một mục tiêu ghi Log tương tự có tên là **Debug Output**, bạn có thể ghi Log bằng `System.Diagnostics.Trace ("My message")`. Điều tuyệt vời của cả hai về ghi Log Console và Trace là bạn cũng có thể ghi Log tin nhắn từ mã gốc, dễ dàng đạt được một hệ thống ghi Log dùng chung. Bạn có thể xem Đầu ra gỡ lỗi trực tiếp với một chương trình như [DebugView](https://docs.microsoft.com/en-us/sysinternals/downloads/debugview). Bạn cũng có thể sử dụng lớp [ConsoleTraceListener](https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.consoletracelistener?view=netframework-4.8) để hướng thông tin này đến mọi nơi, như đến cơ sở dữ liệu.
 - **Logging to Event Viewer** Ghi Log vào Trình xem sự kiện - Nếu ứng dụng của bạn có trên Windows, bạn có thể sử dụng [Windows Event Log](https://searchwindowsserver.techtarget.com/definition/Windows-event-log) để ghi Log tin nhắn. Nó rất dễ làm và bạn có thể [xem tin nhắn](https://www.loggly.com/ultimate-guide/net-logging-basics/) bằng chương trình [Event Viewer](https://www.howtogeek.com/123646/htg-explains-what-the-windows-event-viewer-is-and-how-you-can-use-it/). Như một phần thưởng, tất cả các sự cố được tự động thêm vào như Log sự kiện. Vì vậy, sau bất kỳ sự cố quy trình .NET nào, bạn có thể vào Trình xem sự kiện và xem Ngoại lệ và ngăn xếp cuộc gọi của nó. Điều này khá tốn kém về mặt hiệu suất, do đó, tốt nhất là chỉ sử dụng cho các thông báo quan trọng, như lỗi nghiêm trọng.
 - **Log to ETW** Ghi Log vào ETW - Windows có một hệ thống ghi Log tích hợp cực kỳ nhanh có tên là **Event Tracing for Windows (ETW)**. Bạn có thể sử dụng nó để xem các bản ghi từ .NET framework, hệ điều hành và thậm chí cả kernel. Nhưng bạn cũng có thể sử dụng ETW để ghi Log chính mình với `System.Diagnostics.Tracing.EventSource`. Đây là tùy chọn ghi Log nhanh nhất có sẵn trong .NET. Nếu bạn có một con đường hấp dẫn mà thực hiện 100.000 lần một giây, thì ETW có thể dành cho bạn. .NET Core 3.0 Preview 5+ hiện có một thay thế ETW được gọi là [dotnet-track](https://github.com/dotnet/diagnostics/blob/master/documentation/dotnet-trace-instructions.md) là đa nền tảng.
+
 
 ## Structured Logging Revolution
 
@@ -63,6 +65,7 @@ _log.Information("Request info is {@RequestInfo}", requestInfo);
 Khi được gửi đến máy chủ, điều này được lưu dưới dạng JSON chứ không phải là một chuỗi thông thường. Ý nghĩa rất lớn. Bây giờ, chúng ta có thể tìm thấy tất cả các thông điệp tường trình với một giá trị `Payload` nhất định. Hoặc lọc thông điệp tường trình theo URL yêu cầu. Chúng tôi có thể lưu dữ liệu của người tiêu dùng và thử và tìm mối tương quan với việc sử dụng chúng. Có lẽ chúng tôi sẽ thấy rằng phụ nữ trong độ tuổi từ 30 đến 35 có nhiều khả năng mua giày trong mùa hè. Điều này có nghĩa là chúng tôi có thể đề xuất nhiều giày hơn, nhận được nhiều doanh số hơn và có tiền thưởng Giáng sinh lớn. Tất cả với sức mạnh của ghi Log có cấu trúc.
 
 Tất cả các frameworks ghi Log phổ biến đều hỗ trợ ghi Log tùy chỉnh, mặc dù tôi tin rằng [Serilog](https://serilog.net) là người đầu tiên thực hiện ghi Log có cấu trúc như một công dân hạng nhất.
+
 
 ## Logging Frameworks
 
@@ -112,9 +115,35 @@ class MyClass
 }
 ```
 
-**log4net** hỗ trợ [ghi Log có cấu trúc](https://stackify.com/log4net-guide-dotnet-logging/), nhưng không hoàn toàn như những người khác. Nó hỗ trợ một loạt các mục tiêu ghi Log được gọi là appender. Mặc dù nó hỗ trợ ít mục tiêu hơn các mục tiêu khác, log4net rất lớn đến nỗi bất cứ thứ gì được hỗ trợ, bạn đều có thể tìm thấy một triển khai tùy chỉnh trên internet, như ứng dụng tìm kiếm log4net-to-Elaticsearch này.
+**log4net** hỗ trợ [ghi Log có cấu trúc](https://stackify.com/log4net-guide-dotnet-logging/), nhưng không hoàn toàn như những người khác. Nó hỗ trợ một loạt các mục tiêu ghi Log được gọi là [appender](https://logging.apache.org/log4net/release/config-examples.html). Mặc dù nó hỗ trợ ít mục tiêu hơn các mục tiêu khác, log4net rất lớn đến nỗi bất cứ thứ gì được hỗ trợ, bạn đều có thể tìm thấy một triển khai tùy chỉnh trên internet, như ứng dụng tìm kiếm [log4net-to-ElasticSearch](https://www.nuget.org/packages/log4net.ElasticSearch/) này.
 
 Vấn đề lớn nhất của log4net có lẽ là cấu hình khá khó khăn. Hãy cùng xem các đối thủ của mình xử lý việc này như thế nào.
+
+### [NLog](https://nlog-project.org)
+
+NLog xuất hiện thứ hai sau log4net và được rất nhiều người biết đến.
+
+Giống như các thư viện khác, NLog bắt đầu với [NuGet package](https://www.nuget.org/packages/NLog/). Sau đó, bạn có thể định cấu hình bằng XML như log4net hoặc bằng code. Tôi sẽ chỉ cho bạn cách làm điều đó trong code (từ [tài liệu](https://github.com/NLog/NLog/wiki/Tutorial#configure-nlog-targets-for-output):
+
+```csharp
+var config = new NLog.Config.LoggingConfiguration();
+ 
+// Targets where to log to: File and Console
+var logfile = new NLog.Targets.FileTarget("logfile") { FileName = "file.txt" };
+var logconsole = new NLog.Targets.ConsoleTarget("logconsole");
+            
+// Rules for mapping loggers to targets            
+config.AddRule(LogLevel.Info, LogLevel.Fatal, logconsole);
+config.AddRule(LogLevel.Debug, LogLevel.Fatal, logfile);
+            
+// Apply config           
+NLog.LogManager.Configuration = config;
+```
+
+
+
+
+
 
 
 Tham khảo:
