@@ -20,7 +20,7 @@ Bên cạnh việc ghi Log, một thuật ngữ mới đang trở nên phổ bi�
 
 Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và số liệu thống kê về người dùng của bạn. Dữ liệu này có thể được sử dụng để nghiên cứu mô hình sử dụng, nhân khẩu học và hành vi. Không cần phải nói, loại dữ liệu này là vô giá trong một số sản phẩm.
 
-### Các nới có thể ghi Log - Logging Target Types
+### Các nơi có thể ghi Log - Logging Target Types
 
 Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
 - Cơ sở dữ liệu: ghi Log vào cơ sở dữ liệu có nhiều lợi thế
@@ -28,10 +28,11 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
   * Nó dễ dàng tổng hợp các bản ghi Log từ nhiều máy.
   * Không có trường hợp nào các bản ghi Log sẽ bị xóa khỏi một máy cục bộ.
   * Bạn có thể dễ dàng tìm kiếm và trích xuất số liệu thống kê từ Log. Điều này đặc biệt hữu ích nếu bạn sử dụng ghi Log có cấu trúc.
+
 Có rất nhiều lựa chọn cho cơ sở dữ liệu để lưu trữ nhật ký của bạn. Chúng ta có thể phân loại chúng như sau:
   * **Relational Databases** luôn là một lựa chọn. Họ dễ dàng thiết lập, có thể được truy vấn bằng SQL và hầu hết các kỹ sư đã quen thuộc với họ.
-  * Cơ sở dữ liệu `NoQuery` như (CouchDB)[https://couchdb.apache.org]. Đây là hoàn hảo cho các bản ghi có cấu trúc được lưu trữ ở định dạng JSON.
-  * Cơ sở dữ liệu `Time-series` như (InfluxDB)[https://www.influxdata.com] được tối ưu hóa để lưu trữ các sự kiện dựa trên thời gian. Điều này có nghĩa là hiệu suất ghi nhật ký của bạn sẽ tốt hơn và nhật ký của bạn sẽ chiếm ít dung lượng lưu trữ hơn. Đây là một lựa chọn tốt cho đăng nhập tải cao cường độ cao.
+  * Cơ sở dữ liệu `NoQuery` như [CouchDB](https://couchdb.apache.org). Đây là hoàn hảo cho các bản ghi có cấu trúc được lưu trữ ở định dạng JSON.
+  * Cơ sở dữ liệu `Time-series` như [InfluxDB](https://www.influxdata.com) được tối ưu hóa để lưu trữ các sự kiện dựa trên thời gian. Điều này có nghĩa là hiệu suất ghi nhật ký của bạn sẽ tốt hơn và nhật ký của bạn sẽ chiếm ít dung lượng lưu trữ hơn. Đây là một lựa chọn tốt cho đăng nhập tải cao cường độ cao.
 - Các giải pháp có thể tìm kiếm như Logstash + Tìm kiếm đàn hồi + Kibana ("Ngăn xếp đàn hồi") cung cấp dịch vụ đầy đủ cho nhật ký của bạn. Họ sẽ lưu trữ, lập chỉ mục, thêm khả năng tìm kiếm và thậm chí trực quan hóa dữ liệu nhật ký của bạn. Họ làm việc tốt nhất với đăng nhập có cấu trúc.
 
 Tham khảo:
