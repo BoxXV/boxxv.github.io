@@ -46,38 +46,16 @@ Trong ghi Log truyền thống, chúng tôi đăng nhập một thông điệp c
 ```csharp
 try
 {
-    _log.Debug("About to do something");
-    // ...
+	_log.Debug("About to do something");
+	// ...
 }
 catch (Exception ex)
 {
-    _log.Error("Doing something failed with", ex);
+	_log.Error("Doing something failed with", ex);
 }
 ```
 
-```c
-try
-{
-    _log.Debug("About to do something");
-    // ...
-}
-catch (Exception ex)
-{
-    _log.Error("Doing something failed with", ex);
-}
-```
 
-```cpp
-try
-{
-    _log.Debug("About to do something");
-    // ...
-}
-catch (Exception ex)
-{
-    _log.Error("Doing something failed with", ex);
-}
-```
 
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
