@@ -39,6 +39,22 @@ Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa
 - **Logging to Event Viewer** Ghi Log vào Trình xem sự kiện - Nếu ứng dụng của bạn có trên Windows, bạn có thể sử dụng [Windows Event Log](https://searchwindowsserver.techtarget.com/definition/Windows-event-log) để ghi Log tin nhắn. Nó rất dễ làm và bạn có thể [xem tin nhắn](https://www.loggly.com/ultimate-guide/net-logging-basics/) bằng chương trình [Event Viewer](https://www.howtogeek.com/123646/htg-explains-what-the-windows-event-viewer-is-and-how-you-can-use-it/). Như một phần thưởng, tất cả các sự cố được tự động thêm vào như Log sự kiện. Vì vậy, sau bất kỳ sự cố quy trình .NET nào, bạn có thể vào Trình xem sự kiện và xem Ngoại lệ và ngăn xếp cuộc gọi của nó. Điều này khá tốn kém về mặt hiệu suất, do đó, tốt nhất là chỉ sử dụng cho các thông báo quan trọng, như lỗi nghiêm trọng.
 - **Log to ETW** Ghi Log vào ETW - Windows có một hệ thống ghi Log tích hợp cực kỳ nhanh có tên là **Event Tracing for Windows (ETW)**. Bạn có thể sử dụng nó để xem các bản ghi từ .NET framework, hệ điều hành và thậm chí cả kernel. Nhưng bạn cũng có thể sử dụng ETW để ghi Log chính mình với `System.Diagnostics.Tracing.EventSource`. Đây là tùy chọn ghi Log nhanh nhất có sẵn trong .NET. Nếu bạn có một con đường hấp dẫn mà thực hiện 100.000 lần một giây, thì ETW có thể dành cho bạn. .NET Core 3.0 Preview 5+ hiện có một thay thế ETW được gọi là [dotnet-track](https://github.com/dotnet/diagnostics/blob/master/documentation/dotnet-trace-instructions.md) là đa nền tảng.
 
+### Structured Logging Revolution
+
+Trong ghi Log truyền thống, chúng tôi đăng nhập một thông điệp chuỗi đơn giản. Đối với thông báo đó, chúng tôi thường thêm Dấu thời gian, cấp độ Log và có thể là bối cảnh bổ sung như Exception.
+
+```csharp
+try
+{
+    _log.Debug("About to do something");
+    // ...
+}
+catch (Exception ex)
+{
+    _log.Error("Doing something failed with", ex);
+}
+```
+
 
 
 Tham khảo:
