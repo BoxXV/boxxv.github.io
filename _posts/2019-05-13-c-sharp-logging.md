@@ -24,8 +24,12 @@ Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và s�
 
 Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
 - Cơ sở dữ liệu: ghi Log vào cơ sở dữ liệu có nhiều lợi thế
-  * Bạn có thể truy xuất nhật ký từ bất cứ đâu mà không cần truy cập vào máy sản xuất.
-  * Nó dễ dàng tổng hợp các bản ghi từ nhiều máy.
+  * Bạn có thể truy xuất Log từ bất cứ đâu mà không cần truy cập vào máy sản xuất.
+  * Nó dễ dàng tổng hợp các bản ghi Log từ nhiều máy.
+  * Không có trường hợp nào các bản ghi Log sẽ bị xóa khỏi một máy cục bộ.
+  * Bạn có thể dễ dàng tìm kiếm và trích xuất số liệu thống kê từ Log. Điều này đặc biệt hữu ích nếu bạn sử dụng ghi Log có cấu trúc.
+Có rất nhiều lựa chọn cho cơ sở dữ liệu để lưu trữ nhật ký của bạn. Chúng ta có thể phân loại chúng như sau:
+  * 
 - Cơ sở dữ liệu: ghi Log vào cơ sở dữ liệu có nhiều lợi thế
 
 Tham khảo:
