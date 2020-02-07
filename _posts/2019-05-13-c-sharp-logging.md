@@ -140,9 +140,20 @@ config.AddRule(LogLevel.Debug, LogLevel.Fatal, logfile);
 NLog.LogManager.Configuration = config;
 ```
 
-
-
-
+Bây giờ, bắt đầu ghi Log:
+```javascript
+class MyClass
+{
+    private static readonly NLog.Logger _log_ = NLog.LogManager.GetCurrentClassLogger();
+ 
+    public void Foo()
+    {
+        _log.Debug("Foo started");
+        // structured logging:
+        _log.Info("Hello {Name}", "Michael");
+    }
+}
+```
 
 
 
