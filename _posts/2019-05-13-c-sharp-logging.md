@@ -94,6 +94,24 @@ Hãy nói chuyện trước với 3 framework ghi Log của cộng đồng: log4
 </log4net>
 ```
 
+Sau đó, thêm các mục sau vào `AssociationInfo.cs`:
+```csharp
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config")]
+```
+
+Sau đó, chúng ta có thể bắt đầu ghi Log:
+```csharp
+class MyClass
+{
+	private static readonly log4net.ILog _log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
+	public void Foo()
+	{
+		_log.Debug("Foo started");
+	}
+}
+```
+
 
 
 Tham khảo:
