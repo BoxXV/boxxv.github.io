@@ -25,7 +25,7 @@ Skin with Air style, unlimited colors, retina ready & fully responsive.
 
 
 ### 4. [Thin skin](https://codecanyon.net/item/thin-skin-retina-for-jw-player/13834750)
-![Thin Skin Retina for JWPlayer](http://boxxv.com/img/player/soccer.jpg "Thin Skin Retina for JW Player")_Soccer Skin Retina for JWPlayer_
+![Thin Skin Retina for JWPlayer](http://boxxv.com/img/player/thin.jpg "Thin Skin Retina for JW Player")_Soccer Skin Retina for JWPlayer_
 Skin with Thin style, unlimited colors, retina ready & fully responsive.  
 **Version**: JW6, JW7  
 **Price**: 3$
