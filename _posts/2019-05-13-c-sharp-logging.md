@@ -192,7 +192,8 @@ class MyClass
 
 Vì vậy, nếu bạn nghĩ rằng NLog đơn giản như vậy, Serilog có thể giúp việc thiết lập trở nên dễ dàng hơn. Serilog cũng hỗ trợ một nhóm lớn các [targets (Sinks)](https://github.com/serilog/serilog/wiki/Provided-Sinks) ra khỏi hộp.
 
-<del>Theo như hiệu suất, Serilog dường như nhanh hơn khoảng hai lần so với NLog theo [Benchmark](https://www.darylcumbo.net/serilog-vs-nlog-benchmarks/) này.</del>  
+<del>Về mặt hiệu suất, Serilog dường như nhanh hơn khoảng hai lần so với NLog theo [Benchmark](https://www.darylcumbo.net/serilog-vs-nlog-benchmarks/) này.</del>  
+Về mặt hiệu suất, NLog dường như nhanh hơn Serilog theo các [Benchmark](https://github.com/panchengtao/LoggingPerformance/issues/1) này.
 
 
 
