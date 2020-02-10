@@ -196,6 +196,11 @@ Vì vậy, nếu bạn nghĩ rằng NLog đơn giản như vậy, Serilog có th
 Về mặt hiệu suất, NLog dường như nhanh hơn Serilog theo các [Benchmark](https://github.com/panchengtao/LoggingPerformance/issues/1) này.
 
 
+## Which to choose?
+Trước hết, cả 3 framework đều tốt và cung cấp một giá trị khá giống nhau. Trước khi trả lời câu hỏi này, hãy để một số nghiên cứu phổ biến. Nhìn vào thống kê gói NuGet trong [6 tuần qua](https://www.nuget.org/stats/packages) (đến ngày 11 tháng 8 năm 2019), chúng ta có thể thấy như sau:
+
+![Looking at NuGet package statistics](http://boxxv.com/img/posts/logs-in-nuget.png "Looking at NuGet package statistics")
+
 
 
 
