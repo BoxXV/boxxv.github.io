@@ -214,6 +214,14 @@ Một thống kê thú vị khác là số lượng câu hỏi trong StackOverfl
 
 Hỗ trợ cũng là một cân nhắc lớn. Nhìn vào các gói NuGet, chúng ta có thể thấy rằng các gói [NLog](https://www.nuget.org/packages/nlog/) và [Serilog](https://www.nuget.org/packages/serilog/) được phát hành một vài lần một tháng. Trong khi đó [log4net](https://www.nuget.org/packages/log4net/) được phát hành một hoặc hai lần một năm.
 
+**Phán quyết**: Do thiết lập khó khăn hơn, hỗ trợ ghi nhật ký có cấu trúc kém hơn, bảo trì ít hơn và hiệu suất kém hơn, tôi không khuyến nghị sử dụng `log4net` cho các dự án mới. Có những ngoại lệ cho quy tắc này. Ví dụ: bạn có thể có một ứng dụng tùy chỉnh được thực hiện mà bạn không muốn viết lại cho một framework khác.
+
+Đối với việc chọn `Serilog` hoặc `NLog`, tôi nghĩ cả hai lựa chọn đều tốt. Serilog dường như có sự hỗ trợ tốt hơn cho việc ghi nhật ký có cấu trúc, trong khi NLog dường như có hiệu suất tốt hơn. Cả hai đều phổ biến và duy trì tốt. Vì vậy, tôi có thể chọn một người chiến thắng rõ ràng.
+
+## Microsoft.Extensions.Logging (aka ASP.NET Core Logging)
+
+.NET Core và ASP.NET Core đi kèm với framework ghi Log tích hợp sẵn. Khi bạn tạo một dự án ASP.NET Core mới từ mẫu mặc định, Microsoft.Extensions.Logging sẽ được đưa vào dự án. Đây là một phần lý do tại sao framework này phổ biến hơn nhiều so với các framework khác như đã thấy trong Xu hướng nuget.
+
 
 
 
