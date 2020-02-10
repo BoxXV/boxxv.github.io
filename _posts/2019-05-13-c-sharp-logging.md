@@ -212,7 +212,7 @@ Theo đó, NLog và log4net đang cạnh tranh vị trí đầu tiên, và Seril
 
 Một thống kê thú vị khác là số lượng câu hỏi trong StackOverflow. Theo các [tags](https://stackoverflow.com/tags), log4net có khoảng 3794 câu hỏi, NLog có khoảng 2065 câu hỏi và Serilog với 977.
 
-
+Hỗ trợ cũng là một cân nhắc lớn. Nhìn vào các gói NuGet, chúng ta có thể thấy rằng các gói [NLog](https://www.nuget.org/packages/nlog/) và [Serilog](https://www.nuget.org/packages/serilog/) được phát hành một vài lần một tháng. Trong khi đó [log4net](https://www.nuget.org/packages/log4net/) được phát hành một hoặc hai lần một năm.
 
 
 
