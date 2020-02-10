@@ -201,6 +201,8 @@ Trước hết, cả 3 framework đều tốt và cung cấp một giá trị kh
 
 ![Looking at NuGet package statistics](http://boxxv.com/img/posts/logs-in-nuget.png "Looking at NuGet package statistics")
 
+Serilog đứng đầu ở vị trí thứ 3, NLog đứng thứ hai ở vị trí thứ 20 và log4net đứng ở vị trí thứ 28. Một tỷ lệ khá đáng kể ủng hộ Serilog.
+Đến ngày 10 tháng 02 năm 2020, Serilog đứng đầu ở vị trí thứ 1, NLog đứng thứ hai ở vị trí thứ 24 và log4net đứng ở vị trí thứ 33.
 
 
 
