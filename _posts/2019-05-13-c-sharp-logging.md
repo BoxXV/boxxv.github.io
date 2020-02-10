@@ -204,6 +204,19 @@ Trước hết, cả 3 framework đều tốt và cung cấp một giá trị kh
 Serilog đứng đầu ở vị trí thứ 3, NLog đứng thứ hai ở vị trí thứ 20 và log4net đứng ở vị trí thứ 28. Một tỷ lệ khá đáng kể ủng hộ Serilog.
 Đến ngày 10 tháng 02 năm 2020, Serilog đứng đầu ở vị trí thứ 1, NLog đứng thứ hai ở vị trí thứ 24 và log4net đứng ở vị trí thứ 33.
 
+Google Trends vẽ một bức tranh rất khác:
+
+![Google Trends](http://boxxv.com/img/posts/logs-google-trends.png "Google Trends")
+
+Theo đó, NLog và log4net đang cạnh tranh vị trí đầu tiên, và Serilog đứng thứ 3 với tỷ lệ khá thấp.
+
+Một thống kê thú vị khác là số lượng câu hỏi trong StackOverflow. Theo các [tags](https://stackoverflow.com/tags), log4net có khoảng 3794 câu hỏi, NLog có khoảng 2065 câu hỏi và Serilog với 977.
+
+
+
+
+
+
 
 
 Tham khảo:
