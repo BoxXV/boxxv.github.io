@@ -222,6 +222,8 @@ Hỗ trợ cũng là một cân nhắc lớn. Nhìn vào các gói NuGet, chúng
 
 .NET Core và ASP.NET Core đi kèm với framework ghi Log tích hợp sẵn. Khi bạn tạo một dự án ASP.NET Core mới từ mẫu mặc định, [Microsoft.Extensions.Logging](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-3.1) sẽ được đưa vào dự án. Đây là một phần lý do tại sao framework này phổ biến hơn nhiều so với các framework khác như đã thấy trong [NuGet Trends](https://nugettrends.com/packages?months=24&ids=Serilog&ids=NLog&ids=Microsoft.Extensions.Logging&ids=System.Diagnostics&ids=log4net).
 
+ASP.NET Core Logging framework là cả một abstraction và implementation. Nó chủ yếu đảm bảo rằng bạn có thể có giao diện `ILogger<T>` trong hệ thống tiêm phụ thuộc ASP.NET Core của bạn. Bạn có thể thực hiện các thao tác sau trong bộ điều khiển của mình:
+
 
 
 
