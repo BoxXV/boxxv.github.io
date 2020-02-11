@@ -329,9 +329,16 @@ Bằng cách đặt log level tối thiểu thành "Warn" hoặc "Error" trong s
 > Bạn có thể tìm thấy một danh sách rất tốt các thực hành tốt nhất bổ sung trong [bài viết này](https://www.loggly.com/blog/30-best-practices-logging-scale/) của Jason Skowronski.
 
 
+-----
+## Tổng kết
+
+Trong bài viết này, tôi đã cố gắng chỉ ra một con chim tốt là quan sát bằng mắt về các hoạt động khai thác gỗ hiện đại trong .NET. Mục tiêu của tôi là cho người đọc hiểu được sự phong phú của các công nghệ có sẵn và khi nào nên sử dụng. Hy vọng, điều này đã giúp bạn hiểu được mọi thứ và bây giờ bạn có thể nghiên cứu thêm về một công nghệ cụ thể hơn.
+
+
+**LƯU Ý**: Có rất nhiều công nghệ liên quan đến ghi Log ngoài kia. Công nghệ để lưu trữ Log, Log truy vấn và để trực quan hóa Log. Các công nghệ được mô tả ở đây chỉ là để truyền đạt các loại giải pháp bạn có thể tìm thấy.
 
 
 
-
+-----
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
