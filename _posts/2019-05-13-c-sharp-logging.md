@@ -303,6 +303,22 @@ Theo nguyên tắc thông thường, chúng tôi không muốn kích hoạt mứ
 Đó là lý do tại sao bạn nên đảm bảo thay đổi cấu hình ghi Log của mình khi triển khai vào sản phẩm. Nó có thể dễ dàng như mệnh đề `#IF DEBUG` trong code hoặc một bước đặc biệt để thay đổi tệp cấu hình trong đường ống CI/CD của bạn.
 
 
+### 3. Log Exceptions
+
+Đối với gỡ lỗi sản phẩm, ghi Log Exceptions là rất quan trọng. Nó thường là phần thông tin quan trọng nhất mà chúng ta cần để giải quyết lỗi. Điều đó có nghĩa là cả hai trường hợp ngoại lệ được xử lý và ngoại lệ chưa được xử lý. Đối với các trường hợp ngoại lệ được xử lý, hãy đảm bảo `log.Error()` trong mệnh đề `catch`. Đối với các trường hợp ngoại lệ chưa được xử lý, bạn có thể đăng ký vào một sự kiện đặc biệt phát sinh khi ném ngoại lệ. Hoặc một phần mềm trung gian trong ASP.NET Core, như [ở đây](https://code-maze.com/global-error-handling-aspnetcore/).
+
+
+### 4. Log Context
+
+Để hiểu vấn đề sản phẩm, chúng ta cần bối cảnh. Trong khi Ngoại lệ là điều quan trọng nhất, thì Bối cảnh là thứ quan trọng thứ 2. Chúng ta cần biết Http Request, luồng hiện tại, machine hiện tại, trạng thái, thông tin người dùng, v.v.
+
+Bạn có thể ghi Log ngữ cảnh với mọi thông báo, khi chuyển tiếp hoặc chỉ ngoại lệ. Tất cả các thư viện ghi Log hỗ trợ báo cáo về bối cảnh. Nó tốt nhất để sử dụng ghi Log có cấu trúc cho bối cảnh, vì vậy bạn sẽ có thể tìm kiếm và lọc theo nó sau này.
+
+
+### 5. Use Structured Logging
+
+
+
 
 
 
