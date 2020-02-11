@@ -315,9 +315,18 @@ Theo nguyên tắc thông thường, chúng tôi không muốn kích hoạt mứ
 Bạn có thể ghi Log ngữ cảnh với mọi thông báo, khi chuyển tiếp hoặc chỉ ngoại lệ. Tất cả các thư viện ghi Log hỗ trợ báo cáo về bối cảnh. Nó tốt nhất để sử dụng ghi Log có cấu trúc cho bối cảnh, vì vậy bạn sẽ có thể tìm kiếm và lọc theo nó sau này.
 
 
-### 5. Use Structured Logging
+### 5. Sử dụng ghi Log có cấu trúc
+
+Ghi Log có  cấu trúc trở nên cực kỳ phổ biến vì một lý do. Khi các ứng dụng tăng kích thước, log của chúng cũng tăng theo. Chúng ta cần các công cụ tinh vi hơn để tìm Log, tổng hợp chúng theo ngữ cảnh và phân tích chúng. Ghi Log có cấu trúc cho chúng ta phương tiện để làm việc đó. Ngay cả khi bạn không sử dụng các lợi ích của việc ghi Log có cấu trúc ngay lập tức, hãy coi đây là một khoản đầu tư dài hạn.
 
 
+### 6. Redact Sensitive Information
+
+Bạn nên lưu ý rằng ghi Log sản phẩm không nên chứa thông tin nhạy cảm hoặc riêng tư. Điều đó có thể bao gồm mật khẩu, số thẻ tín dụng, số an sinh xã hội, v.v. Nhưng nó cũng có thể bao gồm thông tin riêng tư như sở thích và mô hình sử dụng. Mặc dù, theo nhu cầu của bạn, có lẽ đây chính xác là loại thông tin bạn muốn ghi Log.
+
+Bằng cách đặt log level tối thiểu thành "Warn" hoặc "Error" trong sản phẩm, bạn sẽ giảm thiểu vấn đề này, nhưng ngay cả nhật ký lỗi cũng có thể chứa thông tin nhạy cảm. Sau đó, bạn có thể [xóa dữ liệu](https://www.loggly.com/docs/scrub-data-rsyslog/) hoặc tránh gửi hoàn toàn.
+
+> Bạn có thể tìm thấy một danh sách rất tốt các thực hành tốt nhất bổ sung trong [bài viết này](https://www.loggly.com/blog/30-best-practices-logging-scale/) của Jason Skowronski.
 
 
 
