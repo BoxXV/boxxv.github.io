@@ -296,8 +296,11 @@ Bất kể framework và logging targets bạn chọn, có một số thực ti�
 Mỗi frameworks ghi Log liên kết theo mặc định một mức ghi Log cho mỗi thông báo. Các levels thường là **Debug**, **Info**, **Warn**, **Error**, **Fatal** hoặc tương tự. Đó là những điều quan trọng để truyền đạt các loại thông tin ghi Log. **Debug** và **Info** hiển thị thông tin gỡ lỗi và thông tin theo ngữ cảnh hữu ích để hiểu luồng hiện tại. **Warn** cho thấy một cái gì đó có lẽ là sai. **Error** cho thấy một lỗi đã xảy ra. Thông thường, chúng tôi sẽ muốn ghi thông báo lỗi khi chúng tôi bắt exceptions. **Fatal** thường có nghĩa là một lỗi lớn đã xảy ra đòi hỏi phải chấm dứt ứng dụng.
 
 
+### 2. Chỉ kích hoạt các Log mức độ nghiêm trọng cao trong Production
 
+Theo nguyên tắc thông thường, chúng tôi không muốn kích hoạt mức độ Debug và Info trong sản phẩm. Chúng tôi muốn ghi Log chỉ các thông báo Warn trở lên hoặc chỉ Error và cao hơn. Lý do là hiệu suất tốt hơn, tránh sử dụng nhiều bộ nhớ hơn và có thể tránh gửi thông tin nhạy cảm.
 
+Đó là lý do tại sao bạn nên đảm bảo thay đổi cấu hình ghi Log của mình khi triển khai vào sản phẩm. Nó có thể dễ dàng như mệnh đề `#IF DEBUG` trong code hoặc một bước đặc biệt để thay đổi tệp cấu hình trong đường ống CI/CD của bạn.
 
 
 
