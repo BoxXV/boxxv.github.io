@@ -224,7 +224,34 @@ Hỗ trợ cũng là một cân nhắc lớn. Nhìn vào các gói NuGet, chúng
 
 ASP.NET Core Logging framework là cả một abstraction và implementation. Nó chủ yếu đảm bảo rằng bạn có thể có giao diện `ILogger<T>` trong hệ thống tiêm phụ thuộc ASP.NET Core của bạn. Bạn có thể thực hiện các thao tác sau trong bộ điều khiển của mình:
 
+{% highlight js %}
+public class MyController : Controller
+{
+	private readonly ILogger _logger;
 
+	public MyController(ILogger<MyController> logger){
+		logger.LogInformation("Hello world");
+		_logger = logger;
+	}
+}
+{% endhighlight %}
+
+Log ghi vào đâu? Điều này phụ thuộc vào các **providers** của nó, mà bạn có thể chỉ định khi khởi tạo trong `Program.cs`. Providers chỉ là một tên khác cho Logging Targets. Giống như Sinks trong Serilog và Appender trong log4net.
+
+{% highlight js %}
+public static IHostBuilder CreateHostBuilder(string[] args) =>
+	Host.CreateDefaultBuilder(args)
+		.ConfigureLogging(logging =>
+		{
+			logging.ClearProviders();
+			logging.AddConsole();//Adding Console provider
+		})
+		.ConfigureWebHostDefaults(webBuilder =>
+		{
+			webBuilder.UseStartup<Startup>();
+		});
+
+{% endhighlight %}
 
 
 
