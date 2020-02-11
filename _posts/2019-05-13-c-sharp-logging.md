@@ -256,7 +256,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 Trong trường hợp này, chúng tôi đã thêm Console provider, vì vậy tất cả các log messages sẽ ghi vào Console. Một số logging providers khác của Microsoft là: File, Debug, EventSource, TraceSource và ApplicationInsights. Nhưng bạn có thể tự thêm bất kỳ nhà cung cấp nào.
 
 
-Có các logging providers cho tất cả các frameworks ghi Log cộng đồng lớn. Vì vậy, bạn có thể sử dụng **Microsoft.Extensions.Logging** để ghi nhật ký tin nhắn với Serilog, NLog hoặc log4net. Ví dụ, đối với Serilog, nó đơn giản như việc thêm [Serilog.AspNetCore nuget package](https://www.nuget.org/packages/Serilog.AspNetCore) và thêm mã sau đây. Đầu tiên, hãy xác định Serilog’s logger trong `Program.cs`:
+Có các logging providers cho tất cả các frameworks ghi Log cộng đồng lớn. Vì vậy, bạn có thể sử dụng **Microsoft.Extensions.Logging** để ghi Log tin nhắn với Serilog, NLog hoặc log4net. Ví dụ, đối với Serilog, nó đơn giản như việc thêm [Serilog.AspNetCore nuget package](https://www.nuget.org/packages/Serilog.AspNetCore) và thêm mã sau đây. Đầu tiên, hãy xác định Serilog’s logger trong `Program.cs`:
 
 {% highlight js %}
 public static void Main(string[] args)
@@ -267,7 +267,22 @@ public static void Main(string[] args)
 		.CreateLogger();
 {% endhighlight %}
 
+Bây giờ, thêm nó vào Host Builder:
 
+{% highlight js %}
+public static IHostBuilder CreateHostBuilder(string[] args) =>
+	Host.CreateDefaultBuilder(args)
+	.UseSerilog();
+	.ConfigureWebHostDefaults(webBuilder =>
+		{
+				webBuilder.UseStartup<Startup>();
+		})
+{% endhighlight %}
+
+
+## Có nên sử dụng Microsoft.Extensions.Logging trong tất cả các ứng dụng ASP.NET Core không?
+
+Tôi thấy rằng các framework mới hơn, Serilog và NLog, tốt hơn so với ghi Log ASP.NET Core logging framework. Họ có nhiều tính năng hơn và khả năng sử dụng tốt hơn. Điều này bao gồm hỗ trợ ghi Log có cấu trúc tốt hơn và hỗ trợ dữ liệu theo ngữ cảnh tốt hơn. Khi bạn tích hợp Serilog hoặc NLog làm provider trong `Microsoft.Extensions.Logging`, bạn sẽ mất một số khả năng đó nếu làm việc với `ILogger` interface (mặc dù bạn có thể làm việc trực tiếp với trình ghi Log của bên thứ 3).
 
 
 
