@@ -253,6 +253,17 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 
 {% endhighlight %}
 
+Trong trường hợp này, chúng tôi đã thêm Console provider, vì vậy tất cả các log messages sẽ ghi vào Console. Một số logging providers khác của Microsoft là: File, Debug, EventSource, TraceSource và ApplicationInsights. Nhưng bạn có thể tự thêm bất kỳ nhà cung cấp nào.
+
+There are logging providers for all of the big community logging frameworks. So you can use Microsoft.Extensions.Logging to log messages with Serilog, NLog, or log4net. For Serilog, for example, it’s as simple as adding the Serilog.AspNetCore nuget package and adding the following code. First, define Serilog’s logger in Program.cs:
+
+Có các logging providers cho tất cả các frameworks ghi Log cộng đồng lớn. Vì vậy, bạn có thể sử dụng **Microsoft.Extensions.Logging** để ghi nhật ký tin nhắn với Serilog, NLog hoặc log4net. Ví dụ, đối với Serilog, nó đơn giản như việc thêm [Serilog.AspNetCore nuget package](https://www.nuget.org/packages/Serilog.AspNetCore) và thêm mã sau đây. Đầu tiên, hãy xác định trình ghi nhật ký Serilog sườn trong Program.cs:
+
+
+
+
+
+
 
 
 
