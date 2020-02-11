@@ -17,18 +17,18 @@ Skin with Flat style, unlimited colors, change color with LESS file.
 **Price**: 15$
 
 
+### 4. [Thin skin](https://codecanyon.net/item/thin-skin-retina-for-jw-player/13834750)
+![Thin Skin Retina for JWPlayer](http://boxxv.com/img/player/thin.jpg "Thin Skin Retina for JW Player")_Soccer Skin Retina for JWPlayer_
+Skin with Thin style, unlimited colors, retina ready & fully responsive.  
+**Version**: JW6, JW7, JW8  
+**Price**: 30$
+
+
 ### 3. [Air skin](https://codecanyon.net/item/air-skin-for-jw6/15106240)
 ![Air Skin Retina for JWPlayer](http://boxxv.com/img/player/air-videojs.jpg "Air Skin Retina for JW Player")_Air Skin Retina for JWPlayer_
 Skin with Air style, unlimited colors, retina ready & fully responsive.  
 **Version**: JW6, JW7  
-**Price**: 3$
-
-
-### 4. [Thin skin](https://codecanyon.net/item/thin-skin-retina-for-jw-player/13834750)
-![Thin Skin Retina for JWPlayer](http://boxxv.com/img/player/thin.jpg "Thin Skin Retina for JW Player")_Soccer Skin Retina for JWPlayer_
-Skin with Thin style, unlimited colors, retina ready & fully responsive.  
-**Version**: JW6, JW7  
-**Price**: 3$
+**Price**: 5$
 
 
 ### 5. [VastSkin for JW Player](https://www.themeslide.com/vastskin-for-jw-player-videojs-mediaelementjs/)
