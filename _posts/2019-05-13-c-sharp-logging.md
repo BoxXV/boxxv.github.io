@@ -284,6 +284,22 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 
 Tôi thấy rằng các framework mới hơn, Serilog và NLog, tốt hơn so với ghi Log ASP.NET Core logging framework. Họ có nhiều tính năng hơn và khả năng sử dụng tốt hơn. Điều này bao gồm hỗ trợ ghi Log có cấu trúc tốt hơn và hỗ trợ dữ liệu theo ngữ cảnh tốt hơn. Khi bạn tích hợp Serilog hoặc NLog làm provider trong `Microsoft.Extensions.Logging`, bạn sẽ mất một số khả năng đó nếu làm việc với `ILogger` interface (mặc dù bạn có thể làm việc trực tiếp với trình ghi Log của bên thứ 3).
 
+Phải nói rằng, tôi là một người tin tưởng lớn vào việc làm những gì phổ biến. Các nhà phát triển sẽ quen thuộc hơn với các công nghệ phổ biến, bạn sẽ có nhiều tài liệu hơn, cộng đồng lớn hơn và nhiều câu hỏi hơn về StackOverflow. Vì vậy, tôi vẫn sẽ chọn đi cùng `Microsoft.Extensions.Logging` cho các dự án mới. Nó cung cấp hầu hết các chức năng mà bạn sẽ cần và abstraction cho phép dễ dàng thay đổi nó sang một framework khác sau này.
+
+
+## Logging Best Practices
+
+Bất kể framework và logging targets bạn chọn, có một số thực tiễn tốt nhất phổ biến để làm theo.
+
+### 1. Sử dụng Log Levels một cách thích hợp
+
+Mỗi frameworks ghi Log liên kết theo mặc định một mức ghi Log cho mỗi thông báo. Các levels thường là **Debug**, **Info**, **Warn**, **Error**, **Fatal** hoặc tương tự. Đó là những điều quan trọng để truyền đạt các loại thông tin ghi Log. **Debug** và **Info** hiển thị thông tin gỡ lỗi và thông tin theo ngữ cảnh hữu ích để hiểu luồng hiện tại. **Warn** cho thấy một cái gì đó có lẽ là sai. **Error** cho thấy một lỗi đã xảy ra. Thông thường, chúng tôi sẽ muốn ghi thông báo lỗi khi chúng tôi bắt exceptions. **Fatal** thường có nghĩa là một lỗi lớn đã xảy ra đòi hỏi phải chấm dứt ứng dụng.
+
+
+
+
+
+
 
 
 
