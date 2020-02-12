@@ -12,7 +12,7 @@ modified: 2019-05-13
 
 Ghi Log là một phần quan trọng của phát triển phần mềm trong nhiều năm nay. Người ta có thể lập luận rằng một cơ chế ghi Log là một phần bắt buộc phải có của bất kỳ ứng dụng hoặc thư viện nào.  
 
-Ghi Log có một phần quan trọng để chạy trong kịch bản mà bạn có thể sử dụng gỡ lỗi tương tác (nghĩa là đính kèm trình gỡ lỗi như Visual Studio). Nó cho phép chúng tôi điều tra lỗi sau khi sự cố đã xảy ra. Trong một số trường hợp, như Gỡ lỗi sản phẩm, Log có thể là thông tin duy nhất bạn có.
+Ghi Log có một phần quan trọng để chạy trong kịch bản mà bạn có thể sử dụng gỡ lỗi tương tác (nghĩa là đính kèm trình gỡ lỗi như Visual Studio). Nó cho phép chúng ta điều tra lỗi sau khi sự cố đã xảy ra. Trong một số trường hợp, như Gỡ lỗi sản phẩm, Log có thể là thông tin duy nhất bạn có.
 
 Ngay cả khi bạn có thể gỡ lỗi quy trình của riêng mình, Log có thể cung cấp cho bạn thông tin vô giá về các thành phần khác như thư viện của bên thứ 3, có sẵn trong framework .NET và CLR.
 
@@ -23,7 +23,7 @@ Ghi Log cũng có thể được sử dụng để thu thập dữ liệu và s�
 
 ## Các nơi có thể ghi Log - Logging Target Types
 
-Khi chúng tôi nói về ghi Log, theo truyền thống, chúng tôi có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
+Khi chúng ta nói về ghi Log, theo truyền thống, chúng ta có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
 - **Database**. Ghi Log vào cơ sở dữ liệu có nhiều lợi thế
   * Bạn có thể truy xuất Log từ bất cứ đâu mà không cần truy cập vào máy sản xuất.
   * Nó dễ dàng tổng hợp các bản ghi Log từ nhiều máy.
@@ -62,7 +62,7 @@ var requestInfo = new { Url = "https://myurl.com/data", Payload = 12 };
 _log.Information("Request info is {@RequestInfo}", requestInfo);
 {% endhighlight %}
 
-Khi được gửi đến máy chủ, điều này được lưu dưới dạng JSON chứ không phải là một chuỗi thông thường. Ý nghĩa rất lớn. Bây giờ, chúng ta có thể tìm thấy tất cả các thông điệp tường trình với một giá trị `Payload` nhất định. Hoặc lọc thông điệp tường trình theo URL yêu cầu. Chúng tôi có thể lưu dữ liệu của người tiêu dùng và thử và tìm mối tương quan với việc sử dụng chúng. Có lẽ chúng tôi sẽ thấy rằng phụ nữ trong độ tuổi từ 30 đến 35 có nhiều khả năng mua giày trong mùa hè. Điều này có nghĩa là chúng tôi có thể đề xuất nhiều giày hơn, nhận được nhiều doanh số hơn và có tiền thưởng Giáng sinh lớn. Tất cả với sức mạnh của ghi Log có cấu trúc.
+Khi được gửi đến máy chủ, điều này được lưu dưới dạng JSON chứ không phải là một chuỗi thông thường. Ý nghĩa rất lớn. Bây giờ, chúng ta có thể tìm thấy tất cả các thông điệp tường trình với một giá trị `Payload` nhất định. Hoặc lọc thông điệp tường trình theo URL yêu cầu. Chúng ta có thể lưu dữ liệu của người tiêu dùng và thử và tìm mối tương quan với việc sử dụng chúng. Có lẽ chúng ta sẽ thấy rằng phụ nữ trong độ tuổi từ 30 đến 35 có nhiều khả năng mua giày trong mùa hè. Điều này có nghĩa là chúng ta có thể đề xuất nhiều giày hơn, nhận được nhiều doanh số hơn và có tiền thưởng Giáng sinh lớn. Tất cả với sức mạnh của ghi Log có cấu trúc.
 
 Tất cả các frameworks ghi Log phổ biến đều hỗ trợ ghi Log tùy chỉnh, mặc dù tôi tin rằng [Serilog](https://serilog.net) là người đầu tiên thực hiện ghi Log có cấu trúc như một công dân hạng nhất.
 
@@ -253,7 +253,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 
 {% endhighlight %}
 
-Trong trường hợp này, chúng tôi đã thêm Console provider, vì vậy tất cả các log messages sẽ ghi vào Console. Một số logging providers khác của Microsoft là: File, Debug, EventSource, TraceSource và ApplicationInsights. Nhưng bạn có thể tự thêm bất kỳ nhà cung cấp nào.
+Trong trường hợp này, chúng ta đã thêm Console provider, vì vậy tất cả các log messages sẽ ghi vào Console. Một số logging providers khác của Microsoft là: File, Debug, EventSource, TraceSource và ApplicationInsights. Nhưng bạn có thể tự thêm bất kỳ nhà cung cấp nào.
 
 
 Có các logging providers cho tất cả các frameworks ghi Log cộng đồng lớn. Vì vậy, bạn có thể sử dụng **Microsoft.Extensions.Logging** để ghi Log tin nhắn với Serilog, NLog hoặc log4net. Ví dụ, đối với Serilog, nó đơn giản như việc thêm [Serilog.AspNetCore nuget package](https://www.nuget.org/packages/Serilog.AspNetCore) và thêm mã sau đây. Đầu tiên, hãy xác định Serilog’s logger trong `Program.cs`:
@@ -293,12 +293,12 @@ Bất kể framework và logging targets bạn chọn, có một số thực ti�
 
 ### 1. Sử dụng Log Levels một cách thích hợp
 
-Mỗi frameworks ghi Log liên kết theo mặc định một mức ghi Log cho mỗi thông báo. Các levels thường là **Debug**, **Info**, **Warn**, **Error**, **Fatal** hoặc tương tự. Đó là những điều quan trọng để truyền đạt các loại thông tin ghi Log. **Debug** và **Info** hiển thị thông tin gỡ lỗi và thông tin theo ngữ cảnh hữu ích để hiểu luồng hiện tại. **Warn** cho thấy một cái gì đó có lẽ là sai. **Error** cho thấy một lỗi đã xảy ra. Thông thường, chúng tôi sẽ muốn ghi thông báo lỗi khi chúng tôi bắt exceptions. **Fatal** thường có nghĩa là một lỗi lớn đã xảy ra đòi hỏi phải chấm dứt ứng dụng.
+Mỗi frameworks ghi Log liên kết theo mặc định một mức ghi Log cho mỗi thông báo. Các levels thường là **Debug**, **Info**, **Warn**, **Error**, **Fatal** hoặc tương tự. Đó là những điều quan trọng để truyền đạt các loại thông tin ghi Log. **Debug** và **Info** hiển thị thông tin gỡ lỗi và thông tin theo ngữ cảnh hữu ích để hiểu luồng hiện tại. **Warn** cho thấy một cái gì đó có lẽ là sai. **Error** cho thấy một lỗi đã xảy ra. Thông thường, chúng ta sẽ muốn ghi thông báo lỗi khi chúng ta bắt exceptions. **Fatal** thường có nghĩa là một lỗi lớn đã xảy ra đòi hỏi phải chấm dứt ứng dụng.
 
 
 ### 2. Chỉ kích hoạt các Log mức độ nghiêm trọng cao trong Production
 
-Theo nguyên tắc thông thường, chúng tôi không muốn kích hoạt mức độ Debug và Info trong sản phẩm. Chúng tôi muốn ghi Log chỉ các thông báo Warn trở lên hoặc chỉ Error và cao hơn. Lý do là hiệu suất tốt hơn, tránh sử dụng nhiều bộ nhớ hơn và có thể tránh gửi thông tin nhạy cảm.
+Theo nguyên tắc thông thường, chúng ta không muốn kích hoạt mức độ Debug và Info trong sản phẩm. Chúng ta muốn ghi Log chỉ các thông báo Warn trở lên hoặc chỉ Error và cao hơn. Lý do là hiệu suất tốt hơn, tránh sử dụng nhiều bộ nhớ hơn và có thể tránh gửi thông tin nhạy cảm.
 
 Đó là lý do tại sao bạn nên đảm bảo thay đổi cấu hình ghi Log của mình khi triển khai vào sản phẩm. Nó có thể dễ dàng như mệnh đề `#IF DEBUG` trong code hoặc một bước đặc biệt để thay đổi tệp cấu hình trong đường ống CI/CD của bạn.
 
