@@ -115,7 +115,7 @@ class MyClass
 }
 {% endhighlight %}
 
-**log4net** hỗ trợ [ghi Log có cấu trúc](https://stackify.com/log4net-guide-dotnet-logging/), nhưng không hoàn toàn như những người khác. Nó hỗ trợ một loạt các mục tiêu ghi Log được gọi là [appender](https://logging.apache.org/log4net/release/config-examples.html). Mặc dù nó hỗ trợ ít mục tiêu hơn các mục tiêu khác, log4net rất lớn đến nỗi bất cứ thứ gì được hỗ trợ, bạn đều có thể tìm thấy một triển khai tùy chỉnh trên internet, như ứng dụng tìm kiếm [log4net-to-ElasticSearch](https://www.nuget.org/packages/log4net.ElasticSearch/) này.
+**log4net** hỗ trợ [ghi Log có cấu trúc](https://stackify.com/log4net-guide-dotnet-logging/), nhưng không hoàn toàn như những thư viện khác. Nó hỗ trợ một loạt các mục tiêu ghi Log được gọi là [appender](https://logging.apache.org/log4net/release/config-examples.html). Mặc dù nó hỗ trợ ít mục tiêu hơn các mục tiêu khác, log4net rất lớn đến nỗi bất cứ thứ gì được hỗ trợ, bạn đều có thể tìm thấy một triển khai tùy chỉnh trên internet, như ứng dụng tìm kiếm [log4net-to-ElasticSearch](https://www.nuget.org/packages/log4net.ElasticSearch/) này.
 
 Vấn đề lớn nhất của log4net có lẽ là cấu hình khá khó khăn. Hãy cùng xem các đối thủ của mình xử lý việc này như thế nào.
 
