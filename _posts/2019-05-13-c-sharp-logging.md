@@ -324,7 +324,7 @@ Ghi Log có  cấu trúc trở nên cực kỳ phổ biến vì một lý do. Kh
 
 Bạn nên lưu ý rằng ghi Log sản phẩm không nên chứa thông tin nhạy cảm hoặc riêng tư. Điều đó có thể bao gồm mật khẩu, số thẻ tín dụng, số an sinh xã hội, v.v. Nhưng nó cũng có thể bao gồm thông tin riêng tư như sở thích và mô hình sử dụng. Mặc dù, theo nhu cầu của bạn, có lẽ đây chính xác là loại thông tin bạn muốn ghi Log.
 
-Bằng cách đặt log level tối thiểu thành "Warn" hoặc "Error" trong sản phẩm, bạn sẽ giảm thiểu vấn đề này, nhưng ngay cả nhật ký lỗi cũng có thể chứa thông tin nhạy cảm. Sau đó, bạn có thể [xóa dữ liệu](https://www.loggly.com/docs/scrub-data-rsyslog/) hoặc tránh gửi hoàn toàn.
+Bằng cách đặt log level tối thiểu thành "Warn" hoặc "Error" trong sản phẩm, bạn sẽ giảm thiểu vấn đề này, nhưng ngay cả ghi Log Error cũng có thể chứa thông tin nhạy cảm. Sau đó, bạn có thể [xóa dữ liệu](https://www.loggly.com/docs/scrub-data-rsyslog/) hoặc tránh gửi hoàn toàn.
 
 > Bạn có thể tìm thấy một danh sách rất tốt các thực hành tốt nhất bổ sung trong [bài viết này](https://www.loggly.com/blog/30-best-practices-logging-scale/) của Jason Skowronski.
 
