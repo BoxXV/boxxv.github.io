@@ -216,7 +216,7 @@ Hỗ trợ cũng là một cân nhắc lớn. Nhìn vào các gói NuGet, chúng
 
 **Lựa chọn**: Do thiết lập khó khăn hơn, hỗ trợ ghi Log có cấu trúc kém hơn, bảo trì ít hơn và hiệu suất kém hơn, tôi không khuyến nghị sử dụng `log4net` cho các dự án mới. Có những ngoại lệ cho quy tắc này. Ví dụ: bạn có thể có một ứng dụng tùy chỉnh được thực hiện mà bạn không muốn viết lại cho một framework khác.
 
-Đối với việc chọn `Serilog` hoặc `NLog`, tôi nghĩ cả hai lựa chọn đều tốt. Serilog dường như có sự hỗ trợ tốt hơn cho việc ghi Log có cấu trúc, trong khi NLog dường như có hiệu suất tốt hơn. Cả hai đều phổ biến và duy trì tốt. Vì vậy, tôi có thể chọn một người chiến thắng rõ ràng.
+Đối với việc chọn `Serilog` hoặc `NLog`, tôi nghĩ cả hai lựa chọn đều tốt. Serilog dường như có sự hỗ trợ tốt hơn cho việc ghi Log có cấu trúc, trong khi NLog dường như có hiệu suất tốt hơn. Cả hai đều phổ biến và duy trì tốt. Vì vậy, tôi không thể chọn một người chiến thắng rõ ràng.
 
 ## Microsoft.Extensions.Logging (aka ASP.NET Core Logging)
 
