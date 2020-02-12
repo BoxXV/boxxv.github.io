@@ -123,7 +123,7 @@ Vấn đề lớn nhất của log4net có lẽ là cấu hình khá khó khăn.
 
 NLog xuất hiện thứ hai sau log4net và được rất nhiều người biết đến.
 
-Giống như các thư viện khác, NLog bắt đầu với [NuGet package](https://www.nuget.org/packages/NLog/). Sau đó, bạn có thể định cấu hình bằng XML như log4net hoặc bằng code. Tôi sẽ chỉ cho bạn cách làm điều đó trong code (từ [tài liệu](https://github.com/NLog/NLog/wiki/Tutorial#configure-nlog-targets-for-output):
+Giống như các thư viện khác, NLog bắt đầu với [NuGet package](https://www.nuget.org/packages/NLog/). Sau đó, bạn có thể định cấu hình bằng XML như log4net hoặc bằng code. Tôi sẽ chỉ cho bạn cách làm điều đó trong code (từ [tài liệu](https://github.com/NLog/NLog/wiki/Tutorial#configure-nlog-targets-for-output)):
 
 {% highlight csharp %}
 var config = new NLog.Config.LoggingConfiguration();
