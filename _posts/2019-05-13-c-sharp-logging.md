@@ -202,7 +202,7 @@ Trước hết, cả 3 framework đều tốt và cung cấp một giá trị kh
 ![Looking at NuGet package statistics](http://boxxv.com/img/posts/logs-in-nuget.png "Looking at NuGet package statistics")
 
 Serilog đứng đầu ở vị trí thứ 3, NLog đứng thứ hai ở vị trí thứ 20 và log4net đứng ở vị trí thứ 28. Một tỷ lệ khá đáng kể ủng hộ Serilog.
-Đến ngày 10 tháng 02 năm 2020, Serilog đứng đầu ở vị trí thứ 1, NLog đứng thứ hai ở vị trí thứ 24 và log4net đứng ở vị trí thứ 33.
+Đến ngày 10 tháng 02 năm 2020, Serilog đứng đầu ở vị trí thứ 2, NLog đứng thứ hai ở vị trí thứ 24 và log4net đứng ở vị trí thứ 33.
 
 Google Trends vẽ một bức tranh rất khác:
 
@@ -210,11 +210,11 @@ Google Trends vẽ một bức tranh rất khác:
 
 Theo đó, NLog và log4net đang cạnh tranh vị trí đầu tiên, và Serilog đứng thứ 3 với tỷ lệ khá thấp.
 
-Một thống kê thú vị khác là số lượng câu hỏi trong StackOverflow. Theo các [tags](https://stackoverflow.com/tags), log4net có khoảng 3794 câu hỏi, NLog có khoảng 2065 câu hỏi và Serilog với 977.
+Một thống kê thú vị khác là số lượng câu hỏi trong StackOverflow. Theo các [tags](https://stackoverflow.com/tags), log4net có khoảng 3795 câu hỏi, NLog có khoảng 2067 câu hỏi và Serilog với 978.
 
 Hỗ trợ cũng là một cân nhắc lớn. Nhìn vào các gói NuGet, chúng ta có thể thấy rằng các gói [NLog](https://www.nuget.org/packages/nlog/) và [Serilog](https://www.nuget.org/packages/serilog/) được phát hành một vài lần một tháng. Trong khi đó [log4net](https://www.nuget.org/packages/log4net/) được phát hành một hoặc hai lần một năm.
 
-**Phán quyết**: Do thiết lập khó khăn hơn, hỗ trợ ghi Log có cấu trúc kém hơn, bảo trì ít hơn và hiệu suất kém hơn, tôi không khuyến nghị sử dụng `log4net` cho các dự án mới. Có những ngoại lệ cho quy tắc này. Ví dụ: bạn có thể có một ứng dụng tùy chỉnh được thực hiện mà bạn không muốn viết lại cho một framework khác.
+**Lựa chọn**: Do thiết lập khó khăn hơn, hỗ trợ ghi Log có cấu trúc kém hơn, bảo trì ít hơn và hiệu suất kém hơn, tôi không khuyến nghị sử dụng `log4net` cho các dự án mới. Có những ngoại lệ cho quy tắc này. Ví dụ: bạn có thể có một ứng dụng tùy chỉnh được thực hiện mà bạn không muốn viết lại cho một framework khác.
 
 Đối với việc chọn `Serilog` hoặc `NLog`, tôi nghĩ cả hai lựa chọn đều tốt. Serilog dường như có sự hỗ trợ tốt hơn cho việc ghi Log có cấu trúc, trong khi NLog dường như có hiệu suất tốt hơn. Cả hai đều phổ biến và duy trì tốt. Vì vậy, tôi có thể chọn một người chiến thắng rõ ràng.
 
