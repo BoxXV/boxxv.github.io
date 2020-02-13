@@ -36,8 +36,30 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 [https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA](https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA)
 
 -----
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+### Lập trình C# trong 5 tuần – Nâng cao
+- Có được kiến thức toàn diện về ngôn ngữ lập trình C#
+- Có khả năng phát triển phần mềm ứng dụng bằng C#
+- Là nền tảng để tiếp tục học tương tác cơ sở dữ liệu với ADO.NET, LINQ, WPF
+- Cung cấp kiến thức về lập trình hướng đối tượng trong C#
+- Sử dụng thuần thục các control nâng cao khi thiết kế giao diện
+- Khả năng gỡ lỗi và kiểm soát biệt lệ
+- Kết nối và tương tác cơ sở dữ liệu với Microsoft Access
+- Kết nối và tương tác cơ sở dữ liệu với Microsoft SQL Server
+- Triển khai được mô hình đa tầng
+- Sử dụng được một số Third Party Component nổi tiếng
+- Đóng gói được ứng dụng để xuất bản cho khách hàng
+- Có được kiến thức toàn diện về ngôn ngữ lập trình C#
+- Có khả năng phát triển phần mềm tương tác cơ sở dữ liệu bằng C#
+- Xây dựng được kiến trúc đa tầng trong C#
+- Là cơ sở để lập trình di động đa nền tảng với Xamarin
+- Là cơ sở để tiếp tục nghiên cứu công nghệ mới LINQ
+- Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
+- Cung cấp những cơ hội thực hành tạo ứng dụng C# ngay trong quá trình học
+- Sau khi hoàn thành khóa học, có thể xin việc vào các công ty sử dụng công nghệ .Net
+- Học viên có thể tiếp tục học C# nâng cao với phần tương tác cơ sở dữ liệu
+- Khóa họ̣c sử dụng những công cụ, Framework mới nhất.
+- Tìm hiểu cơ bản về ngôn ngữ lập trình C# (Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển trong C#, phương thức, lớp….)
+[https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8](https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8)
 
 -----
 ### Trọn bộ video học lập trình C, C++ từ A – Z
