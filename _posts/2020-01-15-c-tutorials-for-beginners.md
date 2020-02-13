@@ -36,6 +36,7 @@ Lập trình C# trong 5 tuần – Cơ bản khóa họctrang bị cho học vi�
 - Là nền tảng để tiếp tục học tương tác cơ sở dữ liệu với ADO.NET, LINQ, WPF
 [https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA](https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA)
 
+
 -----
 ### Lập trình C# trong 5 tuần – Nâng cao
 Lập trình C# trong 5 tuần – Nâng cao khóa học cung cấp kiến thức chuyên sâu về ngôn ngữ lập trình C# (MDI, control nâng cao, tương tác cơ sở dữ liệu, in ấn, đóng gói…)
@@ -64,6 +65,7 @@ Lập trình C# trong 5 tuần – Nâng cao khóa học cung cấp kiến thứ
 
 [https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8](https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8)
 
+
 -----
 ### Làm chủ C/C++ trong 4 tuần
 Làm chủ C/C++ trong 4 tuần  khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình C/C++. Bao gồm các kỹ thuật lập trình trên các kiểu dữ liệu cơ bản, các phát biểu lựa chọn, câu lệnh điều khiển, vòng lặp, mảng, con trỏ, kiểu cấu trúc.
@@ -80,9 +82,36 @@ Làm chủ C/C++ trong 4 tuần  khóa học cung cấp trọn bộ kiến th
 
 [https://drive.google.com/drive/folders/1oyYBMPmcjFqimVDSLtBGdpEyOdYhKqVt](https://drive.google.com/drive/folders/1oyYBMPmcjFqimVDSLtBGdpEyOdYhKqVt)
 
+
+-----
+### Thành thạo C++ qua 108 bài học
+Thành thạo C++ qua 108 bài học cung cấp và trang bị trọn bộ kiến thức ngôn ngữ lập trình c++ từ cơ bản đến nâng cao , giúp học viên có thể tạo ra một chương trình một ứng dụng hoàn chỉnh và có thể tự tin đi xin việc
+- Tìm hiểu cơ bản về ngôn ngữ lập trình C++(Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển, cấu trúc vòng lặp trong C++….)
+- Cách tạo và gọi hàm trong C++
+- Xử lý mảng
+- Xử lý con trỏ
+- Xử lý chuỗi
+- xử lý cấu trúc
+- Xử lý tập tin
+- Sau khi hoàn thành khóa học, học viên sẽ có kiến thức để tiếp tục học các môn khác nhau: Cấu trúc dữ liệu, lập trình C#, lập trình Java, lập trình Android…
+- Cung cấp những cơ hội thực hành tạo ứng dụng C++ ngay trong quá trình học
+- Có được kiến thức toàn diện về ngôn ngữ lập trình C++.
+- Là cơ sở để học tiếp các khóa: Cấu trúc dữ liệu, lập trình C#, lập trình java, lập trình Android….
+- Làm chủ được C++ sẽ giúp học viên dễ dàng tiếp thu các ngôn ngữ mới.
+- Có thể tham gia các dự án liên quan tới lập trình C++.
+
+[https://drive.google.com/drive/folders/1JlaZLRSxu-Ckx_QFOaZSUqm6gysU48gD](https://drive.google.com/drive/folders/1JlaZLRSxu-Ckx_QFOaZSUqm6gysU48gD)
+
+
 -----
 ### Trọn bộ video học lập trình C, C++ từ A – Z
 [http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+
+
+-----
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+
 
 -----
 ### Lập trình hướng đối tượng C++ trên Visual Studio
