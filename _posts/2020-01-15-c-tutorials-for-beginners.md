@@ -15,6 +15,7 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 
 -----
 ### Lập trình C# trong 5 tuần – Cơ bản
+Lập trình C# trong 5 tuần – Cơ bản khóa họctrang bị cho học viên trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
 - Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
 - Cung cấp những cơ hội thực hành tạo ứng dụng C# ngay trong quá trình học
 - Sau khi hoàn thành khóa học, có thể xin việc vào các công ty sử dụng công nghệ .Net
@@ -37,6 +38,7 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 
 -----
 ### Lập trình C# trong 5 tuần – Nâng cao
+Lập trình C# trong 5 tuần – Nâng cao khóa học cung cấp kiến thức chuyên sâu về ngôn ngữ lập trình C# (MDI, control nâng cao, tương tác cơ sở dữ liệu, in ấn, đóng gói…)
 - Có được kiến thức toàn diện về ngôn ngữ lập trình C#
 - Có khả năng phát triển phần mềm ứng dụng bằng C#
 - Là nền tảng để tiếp tục học tương tác cơ sở dữ liệu với ADO.NET, LINQ, WPF
@@ -59,11 +61,24 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 - Học viên có thể tiếp tục học C# nâng cao với phần tương tác cơ sở dữ liệu
 - Khóa họ̣c sử dụng những công cụ, Framework mới nhất.
 - Tìm hiểu cơ bản về ngôn ngữ lập trình C# (Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển trong C#, phương thức, lớp….)
+
 [https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8](https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8)
 
 -----
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+### Làm chủ C/C++ trong 4 tuần
+Làm chủ C/C++ trong 4 tuần  khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình C/C++. Bao gồm các kỹ thuật lập trình trên các kiểu dữ liệu cơ bản, các phát biểu lựa chọn, câu lệnh điều khiển, vòng lặp, mảng, con trỏ, kiểu cấu trúc.
+- Có thể phân tích thiết kế thuật giải bài toán từ đơn giản đến phức tạp
+- Sử dụng thành thạo ngôn ngữ C/C++ với các kiểu dữ liệu như, mảng, con trỏ, kiểu cấu trúc, kiểu tập tin, các câu lệnh rẽ nhánh, vòng lặp
+- Biết sử dụng kỹ thuật lập trình hàm
+- Biết sử dụng kỹ thuật đệ quy để giải quyết bài toán phức tạp
+- Thiết kế, xây dựng, thử nghiệm và gỡ lỗi (design, implement, test, and debug) chương trình
+- Là cơ sở để tiếp cận phương pháp lập trình hướng đối tượng
+- Bên cạnh đó khóa học cũng trang bị cho học viên kiến thức xử lý tập tin, cách viết chương trình theo kiểu lập trình hàm
+- Dành cho những bạn yêu thích lập trình bắt đầu tìm hiểu về lập trình
+- Dành cho học sinh, sinh viên ngành CNTT muốn nâng cao khả năng lập trình của mình
+- Đây là môn học nền tảng để các bạn lập trình viên dễ dàng tiếp thu các môn học sau này
+
+[https://drive.google.com/drive/folders/1oyYBMPmcjFqimVDSLtBGdpEyOdYhKqVt](https://drive.google.com/drive/folders/1oyYBMPmcjFqimVDSLtBGdpEyOdYhKqVt)
 
 -----
 ### Trọn bộ video học lập trình C, C++ từ A – Z
