@@ -8,9 +8,9 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 ✅ [Lập trình C# trong 5 tuần – Cơ bản](https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA)  
 ✅ [Lập trình C# trong 5 tuần – Nâng cao](https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8)  
 ✅ [Làm chủ C/C++ trong 4 tuần](https://drive.google.com/drive/folders/1oyYBMPmcjFqimVDSLtBGdpEyOdYhKqVt)  
-✅ Thành thạo C++ qua 108 bài học  
-✅ Lập trình hướng đối tượng C++ trên Visual Studio  
-✅ Làm chủ C/C++ trong 4 tuần (Youtube)  
+✅ [Thành thạo C++ qua 108 bài học](https://drive.google.com/drive/folders/1JlaZLRSxu-Ckx_QFOaZSUqm6gysU48gD)  
+✅ [Lập trình hướng đối tượng C++ trên Visual Studio](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)  
+✅ [Làm chủ C/C++ trong 4 tuần](https://www.youtube.com/playlist?list=PLq-dyFJDwDFwdCel5fMLb5g3eVyLJJgdb) ([Youtube](https://www.youtube.com/playlist?list=PLZ-6-jOIPiw0suqnQfXgK51bgnQG8r1jo))  
 ✅ Lập trình C# cơ bản - HowKteam  
 ✅ Hướng dẫn lập trình C# cho người mới bắt đầu  
 ✅ C# tutorial for beginners  
