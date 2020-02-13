@@ -11,21 +11,21 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 ✅ [Thành thạo C++ qua 108 bài học](https://drive.google.com/drive/folders/1JlaZLRSxu-Ckx_QFOaZSUqm6gysU48gD)  
 ✅ [Lập trình hướng đối tượng C++ trên Visual Studio](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)  
 ✅ [Làm chủ C/C++ trong 4 tuần](https://www.youtube.com/playlist?list=PLq-dyFJDwDFwdCel5fMLb5g3eVyLJJgdb) ([Youtube](https://www.youtube.com/playlist?list=PLZ-6-jOIPiw0suqnQfXgK51bgnQG8r1jo))  
-✅ Lập trình C# cơ bản - HowKteam  
-✅ Hướng dẫn lập trình C# cho người mới bắt đầu  
-✅ C# tutorial for beginners  
-✅ Lập trình C# Winform cơ bản  
-✅ [CSharp] Khóa học lập trình C# nâng cao - Howkteam  
-✅ Học lập trình c++ cơ bản cho người mới học  
-✅ Học C++ cơ bản | Học lập trình C++ cơ bản  
-✅ Lập trình C++ cơ bản - HowKteam  
-✅ Học lập trình C++  
-✅ C++  
-✅ Learn C++ for Video Game Programming  
-✅ Học thiết kế Website động với ASP.NET WebForm và SQL Server  
-✅ Thành thạo LinQ trong 6 tuần  
-✅ Robotics căn bản – Chế tạo Robot điều khiển bằng bluetooth  
-✅ Internet of things started  
+✅ [Lập trình C# cơ bản - HowKteam](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)  
+✅ [Hướng dẫn lập trình C# cho người mới bắt đầu](https://www.youtube.com/playlist?list=PLRhlTlpDUWsyOEc-S8ovGVG5L92mZEjVu)  
+✅ [C# tutorial for beginners](https://www.youtube.com/playlist?list=PLAC325451207E3105)  
+✅ [Lập trình C# Winform cơ bản](https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS)  
+✅ [CSharp] [Khóa học lập trình C# nâng cao - Howkteam](https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU)  
+✅ [Học lập trình c++ cơ bản cho người mới học](https://www.youtube.com/playlist?list=PLfuyf4LvBOUpoB8Hai9-TMiANbjv5IiJx)  
+✅ [Học C++ cơ bản | Học lập trình C++ cơ bản](https://www.youtube.com/playlist?list=PLZEIt444jqpD6NUtMg5X6Y3T4lYqcudO9)  
+✅ [Lập trình C++ cơ bản - HowKteam](https://www.youtube.com/playlist?list=PL33lvabfss1xagFyyQPRcppjFKMQ7lvJM)  
+✅ [Học lập trình C++](https://www.youtube.com/playlist?list=PLRlbFp7jBO4IwyRIILcX1zacu7T5J2v39)  
+✅ [C++](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)  
+✅ [Learn C++ for Video Game Programming](https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq)  
+✅ [Học thiết kế Website động với ASP.NET WebForm và SQL Server](https://drive.google.com/drive/folders/1H8DNHidd_S4BQzukVkm9WCs9qVR-Wdf-)  
+✅ [Thành thạo LinQ trong 6 tuần](https://drive.google.com/drive/folders/1y_lwM2w6beDMrjfy02bgezbkofxnZO92)  
+✅ [Robotics căn bản – Chế tạo Robot điều khiển bằng bluetooth](https://drive.google.com/drive/folders/1__3SAzksJA6bWl-8hB9uxkmgzY64R0IH)  
+✅ [Internet of things](https://iotmakervn.github.io/iot-starter-book/) [started](https://edumall.vn/course/internet-of-things-starter.html)    
 
 
 -----
