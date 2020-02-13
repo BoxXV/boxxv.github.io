@@ -86,12 +86,12 @@ Làm chủ C/C++ trong 4 tuần  khóa học cung cấp trọn bộ kiến th
 -----
 ### Thành thạo C++ qua 108 bài học
 Thành thạo C++ qua 108 bài học cung cấp và trang bị trọn bộ kiến thức ngôn ngữ lập trình c++ từ cơ bản đến nâng cao , giúp học viên có thể tạo ra một chương trình một ứng dụng hoàn chỉnh và có thể tự tin đi xin việc
-- Tìm hiểu cơ bản về ngôn ngữ lập trình C++(Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển, cấu trúc vòng lặp trong C++….)
+- Tìm hiểu cơ bản về ngôn ngữ lập trình C++(Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển, cấu trúc vòng lặp trong C++…)
 - Cách tạo và gọi hàm trong C++
 - Xử lý mảng
 - Xử lý con trỏ
 - Xử lý chuỗi
-- xử lý cấu trúc
+- Xử lý cấu trúc
 - Xử lý tập tin
 - Sau khi hoàn thành khóa học, học viên sẽ có kiến thức để tiếp tục học các môn khác nhau: Cấu trúc dữ liệu, lập trình C#, lập trình Java, lập trình Android…
 - Cung cấp những cơ hội thực hành tạo ứng dụng C++ ngay trong quá trình học
@@ -159,28 +159,38 @@ _K team &#9679; 12 videos &#9679; Sep 18, 2018_
 -----
 -----
 
+### Học lập trình c++ cơ bản cho người mới học
+_Stanford - Dạy kinh nghiệm thực tế &#9679; 13 videos &#9679; Aug 29, 2016_  
+[https://www.youtube.com/playlist?list=PLfuyf4LvBOUpoB8Hai9-TMiANbjv5IiJx](https://www.youtube.com/playlist?list=PLfuyf4LvBOUpoB8Hai9-TMiANbjv5IiJx)
 
+
+-----
 ### Học C++ cơ bản | Học lập trình C++ cơ bản
 _Son Nguyen &#9679; 60 videos &#9679; Nov 17, 2019_  
 [https://www.youtube.com/playlist?list=PLZEIt444jqpD6NUtMg5X6Y3T4lYqcudO9](https://www.youtube.com/playlist?list=PLZEIt444jqpD6NUtMg5X6Y3T4lYqcudO9)
+
 
 -----
 ### Lập trình C++ cơ bản - HowKteam
 _K team  &#9679; 58 videos &#9679; Jun 29, 2019_  
 [https://www.youtube.com/playlist?list=PL33lvabfss1xagFyyQPRcppjFKMQ7lvJM](https://www.youtube.com/playlist?list=PL33lvabfss1xagFyyQPRcppjFKMQ7lvJM)
 
+
 -----
 ### Học lập trình C++ 
 _Phan Hoàng Nguyễn &#9679; 77 videos &#9679; Nov 15, 2014_  
 [https://www.youtube.com/playlist?list=PLRlbFp7jBO4IwyRIILcX1zacu7T5J2v39](https://www.youtube.com/playlist?list=PLRlbFp7jBO4IwyRIILcX1zacu7T5J2v39)
+
 
 -----
 ### C++
 _The Cherno &#9679; 81 videos &#9679; Nov 16, 2019_  
 [https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb](https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb)
 
+
 -----
 ### Learn C++ for Video Game Programming
 _VertoStudio3D &#9679; 20 videos &#9679; Nov 27, 2015_  
 [https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq](https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq)
+
 
