@@ -1,14 +1,51 @@
 ---
 layout: post
-title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản
+title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng cao
 ---
 
-## Videos Học Lập Trình C, C++ và C# Căn Bản
+## Videos Học Lập Trình C, C++ và C# Căn Bản và Nâng cao
+
+[https://tuhocplus.com/lap-trinh-c](https://tuhocplus.com/lap-trinh-c)  
+
 [https://www.youtube.com/results?search_query=C#](https://www.youtube.com/results?search_query=C%23)
 
 [https://devpro.edu.vn/diem-khac-nhau-c-va-c](https://devpro.edu.vn/diem-khac-nhau-c-va-c)  
 [https://topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/](https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/)
 
+
+-----
+### Lập trình C# trong 5 tuần – Cơ bản
+- Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
+- Cung cấp những cơ hội thực hành tạo ứng dụng C# ngay trong quá trình học
+- Sau khi hoàn thành khóa học, có thể xin việc vào các công ty sử dụng công nghệ .Net
+- Học viên có thể tiếp tục học C# nâng cao với phần tương tác cơ sở dữ liệu
+- Khóa họ̣c sử dụng những công cụ, Framework mới nhất.
+- Cung cấp những cơ hội thực hành tạo ứng dụng C# ngay trong quá trình học
+- Sau khi hoàn thành khóa học, có thể xin việc vào các công ty sử dụng công nghệ .Net
+- Học viên có thể tiếp tục học C# nâng cao với phần tương tác cơ sở dữ liệu
+- Khóa họ̣c sử dụng những công cụ, Framework mới nhất.
+- Tìm hiểu cơ bản về ngôn ngữ lập trình C# (Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển trong C#, phương thức, lớp….)
+- Các kiến thức về lập trình hướng đối tượng trong C#
+- Xử lý chuỗi, mảng, collections
+- Sử dụng thuần thục các control khi thiết kế giao diện
+- Khả năng gỡ lỗi và kiểm soát biệt lệ.
+- Có được kiến thức toàn diện về ngôn ngữ lập trình C#
+- Có khả năng phát triển phần mềm ứng dụng bằng C#
+- Là cơ sở để lập trình di động đa nền tảng với Xamarin
+- Là nền tảng để tiếp tục học tương tác cơ sở dữ liệu với ADO.NET, LINQ, WPF
+[https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA](https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA)
+
+-----
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+
+-----
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+
+-----
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
 
 -----
 ### Lập trình hướng đối tượng C++ trên Visual Studio
