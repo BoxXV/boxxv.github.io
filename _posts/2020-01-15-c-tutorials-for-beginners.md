@@ -5,12 +5,27 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 
 ## Videos Học Lập Trình C, C++ và C# Căn Bản và Nâng cao
 
-[https://tuhocplus.com/lap-trinh-c](https://tuhocplus.com/lap-trinh-c)  
-
-[https://www.youtube.com/results?search_query=C#](https://www.youtube.com/results?search_query=C%23)
-
-[https://devpro.edu.vn/diem-khac-nhau-c-va-c](https://devpro.edu.vn/diem-khac-nhau-c-va-c)  
-[https://topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/](https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/)
+✅ Lập trình C# trong 5 tuần – Cơ bản  
+✅ Lập trình C# trong 5 tuần – Nâng cao  
+✅ Làm chủ C/C++ trong 4 tuần  
+✅ Thành thạo C++ qua 108 bài học  
+✅ Lập trình hướng đối tượng C++ trên Visual Studio  
+✅ Làm chủ C/C++ trong 4 tuần (Youtube)  
+✅ Lập trình C# cơ bản - HowKteam  
+✅ Hướng dẫn lập trình C# cho người mới bắt đầu  
+✅ C# tutorial for beginners  
+✅ Lập trình C# Winform cơ bản  
+✅ [CSharp] Khóa học lập trình C# nâng cao - Howkteam  
+✅ Học lập trình c++ cơ bản cho người mới học  
+✅ Học C++ cơ bản | Học lập trình C++ cơ bản  
+✅ Lập trình C++ cơ bản - HowKteam  
+✅ Học lập trình C++  
+✅ C++  
+✅ Learn C++ for Video Game Programming  
+✅ Học thiết kế Website động với ASP.NET WebForm và SQL Server  
+✅ Thành thạo LinQ trong 6 tuần  
+✅ Robotics căn bản – Chế tạo Robot điều khiển bằng bluetooth  
+✅ Internet of things started  
 
 
 -----
@@ -258,3 +273,12 @@ Internet of things started Khóa học IoT Starter được thiết kế để n
 [https://iotmakervn.github.io/iot-starter-book/](https://iotmakervn.github.io/iot-starter-book/)  
 [https://edumall.vn/course/internet-of-things-starter.html](https://edumall.vn/course/internet-of-things-starter.html)  
 
+-----
+-----
+
+[https://tuhocplus.com/lap-trinh-c](https://tuhocplus.com/lap-trinh-c)  
+
+[https://www.youtube.com/results?search_query=C#](https://www.youtube.com/results?search_query=C%23)
+
+[https://devpro.edu.vn/diem-khac-nhau-c-va-c](https://devpro.edu.vn/diem-khac-nhau-c-va-c)  
+[https://topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/](https://www.topitworks.com/blogs/diem-khac-nhau-giua-ngon-ngu-lap-trinh-c-c-c/)
