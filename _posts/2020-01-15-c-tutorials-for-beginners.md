@@ -104,16 +104,6 @@ Thành thạo C++ qua 108 bài học cung cấp và trang bị trọn bộ ki�
 
 
 -----
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
-
-
------
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
-
-
------
 ### Lập trình hướng đối tượng C++ trên Visual Studio
 _PGS. TS. Bùi Thế Tâm &#9679; 103 videos &#9679; Sep 17, 2019_  
 [http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
@@ -193,4 +183,17 @@ _The Cherno &#9679; 81 videos &#9679; Nov 16, 2019_
 _VertoStudio3D &#9679; 20 videos &#9679; Nov 27, 2015_  
 [https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq](https://www.youtube.com/playlist?list=PLT6WFYYZE6uKFATgSrIn-_JzKpmr-qQMq)
 
+
+-----
+-----
+-----
+
+
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+
+
+-----
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
 
