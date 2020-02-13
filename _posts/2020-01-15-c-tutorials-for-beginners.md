@@ -204,6 +204,26 @@ Học thiết kế Website động với ASP.NET WebForm và SQL Server khóa h�
 
 
 -----
+### Thành thạo LinQ trong 6 tuần
+Thành thạo LinQ trong 6 tuần  Khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh
+- Có được kiến thức toàn diện về ngôn ngữ lập trình C#
+- Có khả năng phát triển phần mềm tương tác cơ sở dữ liệu bằng C#
+- Thành thạo LinQ: LinQ to Object, LinQ to SQL
+- Xây dựng được kiến trúc đa tầng trong C#
+- Là cơ sở để lập trình di động đa nền tảng với Xamarin
+- ,Làm chủ LinQ: Linq to object, Linq to SQL,
+- sử dụng những công cụ, Framework mới nhất,Extension method,
+- Xử lý chuỗi, mảng, collections,thuần thục các control khi thiết kế giao diện,Khả năng gỡ lỗi và kiểm soát biệt lệ,Kết nối và tương tác cơ sở dữ liệu với Micrsoft SQL Server
+- Bất cứ ai muốn học lập trình ứng dụng C#
+- Những ai đã học Lập trình C# trong 5 tuần
+- Những người chưa biết gì, yêu thích lĩnh vực lập trình C# – LinQ
+- Sinh viên không học CNTT muốn tìm cơ hội việc làm khác trong lĩnh vực công nghệ thông tin
+
+[https://drive.google.com/drive/folders/1y_lwM2w6beDMrjfy02bgezbkofxnZO92](https://drive.google.com/drive/folders/1y_lwM2w6beDMrjfy02bgezbkofxnZO92)
+-----
+### Trọn bộ video học lập trình C, C++ từ A – Z
+[]()
+-----
 ### Trọn bộ video học lập trình C, C++ từ A – Z
 []()
 
