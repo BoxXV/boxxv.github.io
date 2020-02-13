@@ -255,5 +255,6 @@ Internet of things started Khóa học IoT Starter được thiết kế để n
 - Hiểu được các giao thức truyền tin trong IoT (MQTT, HTTP,…), cách một sản phẩm IoT hoạt động như thế nào, các thành phần của hệ thống IoT.
 - Cách kết nối dữ liệu lên cloud (website, mobile), hiển thị dữ liệu và điều khiển các thiết bị thông qua cloud (website, mobile).
 
-[https://iotmakervn.github.io/iot-starter-book/](https://iotmakervn.github.io/iot-starter-book/)
+[https://iotmakervn.github.io/iot-starter-book/](https://iotmakervn.github.io/iot-starter-book/)  
+[https://edumall.vn/course/internet-of-things-starter.html](https://edumall.vn/course/internet-of-things-starter.html)  
 
