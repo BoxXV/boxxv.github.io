@@ -220,9 +220,28 @@ Thành thạo LinQ trong 6 tuần  Khóa học cung cấp trọn bộ kiến 
 - Sinh viên không học CNTT muốn tìm cơ hội việc làm khác trong lĩnh vực công nghệ thông tin
 
 [https://drive.google.com/drive/folders/1y_lwM2w6beDMrjfy02bgezbkofxnZO92](https://drive.google.com/drive/folders/1y_lwM2w6beDMrjfy02bgezbkofxnZO92)
+
 -----
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[]()
+### Robotics căn bản – Chế tạo Robot điều khiển bằng bluetooth
+Robotics căn bản – Chế tạo Robot điều khiển bằng bluetooth  khóa học sử dụng các ngôn từ thông dụng, dễ hiểu, nếu có thuật ngữ sẽ giải thích chi tiết, để người học không chuyên và trẻ em cảm thấy dễ hiểu, nhanh chóng thực hành và nhìn thấy kêt quả luôn.
+- Biết được thành phần board mạch Arduino
+- Biết cách lập trình cơ bản cho một board mạch Arduino
+- Biết sử dụng Arduino để chế tao một số sản phẩm hoặc đồ chơi thông mình
+- Biết cách tạo một ứng dụng Android cơ bản
+- Biết cách thiết kế một phần mềm điều khiển robot cơ bản chạy trên hệ điều hành Windows
+- Khơi gợi đam mê và óc sáng tạo, đánh thức nhà khoa học bên trong con người bạn
+- Tạo một thú vui lành mạnh và niềm yêu thích học tập cho các bạn học sinh.
+- Có khả năng tự nghiên cứu và tìm hiểu khoa học công nghệ
+- Có thể mang vào giảng dạy trong các trường trung học
+- Bất cứ ai muốn tìm tòi học hỏi về điện tử, tự động, điều khiển
+- Người chưa có kinh nghiệm về điện tử
+- Các bạn trẻ trên 12 tuổi ( những bạn trẻ hơn thì cần có người giám sát) + Học sinh (cấp 2- cấp 3) sử dụng trong học tập, Stem, dự án nhỏ
+- Sinh viên kỹ thuật (điện, điện tử, tự động hóa, CNTT..) sử dụng trong đồ án học tập, nghiên cứu, dự án
+- Người đi làm thích sáng tạo, muốn tạo ra sản phẩm cải tiến công cụ sản xuất: ví dụ hệ thống tưới nước tự đông, điều khiển từ xa…..
+
+[https://drive.google.com/drive/folders/1__3SAzksJA6bWl-8hB9uxkmgzY64R0IH](https://drive.google.com/drive/folders/1__3SAzksJA6bWl-8hB9uxkmgzY64R0IH)
+
+
 -----
 ### Trọn bộ video học lập trình C, C++ từ A – Z
 []()
