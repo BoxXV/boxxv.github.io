@@ -189,11 +189,21 @@ _VertoStudio3D &#9679; 20 videos &#9679; Nov 27, 2015_
 -----
 
 
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+###  Học thiết kế Website động với ASP.NET WebForm và SQL Server
+Học thiết kế Website động với ASP.NET WebForm và SQL Server khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình .NET trên nền tảng ASP.NET WebForm.
+- Cung cấp những bài học sinh động với các bước thực hành step by step.
+- Khi hoàn thành khóa học, học viên có thể tự nghiên cứu các lĩnh vực khác trên nền tảng .NET như ASP.NET MVC, SharePoint.
+- Khóa họ̣c sử dụng công cụ Visual Studio, Framework mới nhất.
+- Hỗ trợ đa giao diện trên với công cụ Bootstrap. Đặc biệt, thay vì học code một cách máy móc, bạn sẽ được thao tác với dự án thực tế để triển khai ra ngoài doanh nghiệp một cách tốt nhất.
+- Có được kiến thức và kỹ năng cơ bản để thiết kế 1 website hoàn chỉnh.
+- Nắm rõ những kiến thức về lập trình ASP.NET WebForm từ cơ bản đến nâng cao.
+- Tự xây dựng hoàn chỉnh website với công nghệ ASP.NET
+- Làm tiền đề cho việc tự học thiết kế website bằng ASP.NET MVC cũng như khả năng tạo hệ thống lớn trên nền tảng web.
+
+[https://drive.google.com/drive/folders/1H8DNHidd_S4BQzukVkm9WCs9qVR-Wdf-](https://drive.google.com/drive/folders/1H8DNHidd_S4BQzukVkm9WCs9qVR-Wdf-)
 
 
 -----
 ### Trọn bộ video học lập trình C, C++ từ A – Z
-[http://youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)
+[]()
 
