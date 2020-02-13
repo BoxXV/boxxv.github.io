@@ -243,6 +243,17 @@ Robotics căn bản – Chế tạo Robot điều khiển bằng bluetooth  khó
 
 
 -----
-### Trọn bộ video học lập trình C, C++ từ A – Z
-[]()
+### Internet of things started
+Internet of things started Khóa học IoT Starter được thiết kế để người học có thể tiếp cận với IoT một cách nhanh, đơn giản nhất. Được thiết kế theo phương pháp project-based, tức là học qua thực hành, giúp người học dễ dàng hiểu và ghi nhớ kiến thức được truyền tải trong khóa. có kỹ năng để tự mình xây dựng một hệ thống IoT đơn giản bao gồm cả phần cứng và phần mềm, có khả năng sử dụng các tài nguyên mở (opensource) trong IoT.
+- Sau khi hoàn thành khóa học, học viên sẽ:
+- Có kỹ năng cơ bản để làm sản phẩm IoT: điện tử cơ bản, cloud, mobile app.
+- Hiểu được kiến trúc và các thành phần của một hệ thống IoT.
+- Biết dùng các nền tảng có sẵn trên cloud và mobile.
+- Xây dựng hoàn thiện sản phẩm IoT nhanh và đơn giản.
+- Cụ thể, trong khóa học, học viên sẽ được học:
+- Làm việc với ngôn ngữ Arduino trên KIT ESP8266 (có kết nối Wifi), lập trình tương tác với môi trường thông qua các loại sensor thông dụng.
+- Hiểu được các giao thức truyền tin trong IoT (MQTT, HTTP,…), cách một sản phẩm IoT hoạt động như thế nào, các thành phần của hệ thống IoT.
+- Cách kết nối dữ liệu lên cloud (website, mobile), hiển thị dữ liệu và điều khiển các thiết bị thông qua cloud (website, mobile).
+
+[https://drive.google.com/drive/folders/1jvwRK3DtcDeJAAhrdkeEYBAIr4hNGCBk](https://drive.google.com/drive/folders/1jvwRK3DtcDeJAAhrdkeEYBAIr4hNGCBk)
 
