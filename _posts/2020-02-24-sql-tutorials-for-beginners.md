@@ -40,3 +40,8 @@ Kết thúc khóa học, nếu làm theo các bài thực hành trong khóa họ
 • Cung cấp kiến thức cơ bản qua bài thực hành đáp ứng nhu cầu tuyển dụng nhân sự quản trị CSDL của các doanh nghiệp hiện nay
 
 https://www.youtube.com/playlist?list=PLdxDYNyqNPwEsFCEtaSxHzgKzzBEiP2Le
+
+-----
+-----
+
+https://www.youtube.com/results?search_query=c%C6%A1+s%E1%BB%9F+d%E1%BB%AF+li%E1%BB%87u&sp=EgIQAw%253D%253D
