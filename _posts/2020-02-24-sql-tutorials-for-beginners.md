@@ -21,23 +21,23 @@ https://www.youtube.com/playlist?list=PLE1qPKuGSJaDkQQB5vK7t7-PRIVjtqeHB
 #### 1.GIỚI THIỆU KHÓA HỌC:
 Dữ liệu được coi là "trái tim của doanh nghiệp" là tài sản quý giá nhất của mỗi doanh nghiệp, đặc biệt trong thời đại bùng nổ thông tin như hiện nay, doanh nghiệp nào càng có nhiều dữ liệu, biết cách khai thác sẽ đem lại hiệu quả rất cao, có lợi thế cạnh tranh. Việc bảo vệ an toàn, quản trị dữ liệu đảm bảo hiệu năng cao là công việc được đánh giá rất cao trong mỗi doanh nghiệp hiện nay.
 Khóa học "Quản trị CSDL Oracle 12c cơ bản" sẽ cung cấp những thông tin, kiến thức cốt lõi về quản trị CSDL Oracle tốt nhất thế giới và phức tạp nhất hiện nay, cụ thể:
- • Hiểu về kiến trúc CSDL
- • Cấu hình CSDL để tương thích với ứng dụng
- • Sử dụng các công cụ quản trị
- • Các tác vụ quản trị CSDL (quản trị tablespace, undo, redo, archive log, object, tắt/bật listener, tắt/bật database instance, …)
- • Giám sát CSDL, lock và quản lý hiệu năng
- • Quản lý tài nguyên và các job tự động của CSDL
- • Quản trị backup, recovery
- • Quản trị bảo mật CSDL và thực thi audit 
- • Chuyển dữ liệu giữa các CSDL và file
- • Phát hiện, chuẩn đoán, khắc phục lỗi, sự cố và làm việc với Oracle Support
+ - Hiểu về kiến trúc CSDL
+ - Cấu hình CSDL để tương thích với ứng dụng
+ - Sử dụng các công cụ quản trị
+ - Các tác vụ quản trị CSDL (quản trị tablespace, undo, redo, archive log, object, tắt/bật listener, tắt/bật database instance, …)
+ - Giám sát CSDL, lock và quản lý hiệu năng
+ - Quản lý tài nguyên và các job tự động của CSDL
+ - Quản trị backup, recovery
+ - Quản trị bảo mật CSDL và thực thi audit 
+ - Chuyển dữ liệu giữa các CSDL và file
+ - Phát hiện, chuẩn đoán, khắc phục lỗi, sự cố và làm việc với Oracle Support
 Kết thúc khóa học, nếu làm theo các bài thực hành trong khóa học, thì tôi tin bạn đã sẵn sàng để trở thành DBA.
 
 #### 2.LỢI ÍCH SAU KHÓA HỌC:
-• Làm chủ kiến thức quản trị CSDL Oracle tốt nhất thế giới mà trên 70% doanh nghiệp sử dụng.
-• Cung cấp đủ thời lượng để bạn có thể hiểu được bản chất của việc quản trị CSDL Oracle
-• Đưa bạn tiếp cận với môi trường làm việc thực tế, giúp bạn tự tin khi đi phỏng vấn.
-• Cung cấp kiến thức cơ bản qua bài thực hành đáp ứng nhu cầu tuyển dụng nhân sự quản trị CSDL của các doanh nghiệp hiện nay
+- Làm chủ kiến thức quản trị CSDL Oracle tốt nhất thế giới mà trên 70% doanh nghiệp sử dụng.
+- Cung cấp đủ thời lượng để bạn có thể hiểu được bản chất của việc quản trị CSDL Oracle
+- Đưa bạn tiếp cận với môi trường làm việc thực tế, giúp bạn tự tin khi đi phỏng vấn.
+- Cung cấp kiến thức cơ bản qua bài thực hành đáp ứng nhu cầu tuyển dụng nhân sự quản trị CSDL của các doanh nghiệp hiện nay
 
 https://www.youtube.com/playlist?list=PLdxDYNyqNPwEsFCEtaSxHzgKzzBEiP2Le
 
