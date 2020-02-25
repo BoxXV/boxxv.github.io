@@ -7,14 +7,28 @@ title: Videos Học Lập Trình SQL, SQL server, MySQL và OracleCăn Bản và
 
 
 ✅ [Học SQL Cơ Bản](https://www.youtube.com/playlist?list=PLE1qPKuGSJaDkQQB5vK7t7-PRIVjtqeHB)  
+✅ [Học Microsoft Sqlserver 2019](https://drive.google.com/file/d/1oWalOIi-NUf12gGsQLsNsYmlimTYeRlC/view)  
 ✅ [Quản trị Cơ sở dữ liệu Oracle từ A đến Z](https://www.youtube.com/playlist?list=PLdxDYNyqNPwEsFCEtaSxHzgKzzBEiP2Le)  
 
 -----
 ### Học SQL Cơ Bản
 Loạt bài CSDL cơ bản này sẽ cung cấp cho các bạn những kiến thức cơ sở về các câu truy vấn SQL, cách sử dụng các câu truy vấn trong một số hệ quản trị cơ sở dữ liệu như SQL Server, MySQL. Đồng thời, mình cũng sẽ trang bị cho các bạn khả năng phân tích vấn đề và tạo mối quan hệ giữa các bảng trong CSDL quan hệ. Bạn đã sẵn sàng chưa? Trở thành lập trình viên Back-End chuyên gia về Database thôi nào.
 
-https://www.youtube.com/playlist?list=PLE1qPKuGSJaDkQQB5vK7t7-PRIVjtqeHB
+[https://www.youtube.com/playlist?list=PLE1qPKuGSJaDkQQB5vK7t7-PRIVjtqeHB](https://www.youtube.com/playlist?list=PLE1qPKuGSJaDkQQB5vK7t7-PRIVjtqeHB)
 
+-----
+### Học Microsoft Sqlserver 2019
+Khóa học sẽ dạy cho bạn tất cả những gì bạn cần biết để sử dụng cơ sở dữ liệu sql server và các tính năng mới đi kèm với chúng.
+
+Chúng ta sẽ bắt đầu với việc thiết lập và cài đặt hệ thống và sau đó chúng ta sẽ chuyển sang tìm hiểu các truy vấn cơ bản, nâng cao, bảo mật, xử lý file.
+
+Học các bài về Store procedure, view, trigger, cursor...
+
+Bạn cũng sẽ học cách sử dụng một số tính năng rất hữu ích.
+
+Ví dụ như  Import và Export data, Backup, Database email, Job và các giải pháp bảo mật lỗ hổng...
+
+[https://drive.google.com/file/d/1oWalOIi-NUf12gGsQLsNsYmlimTYeRlC/view](https://drive.google.com/file/d/1oWalOIi-NUf12gGsQLsNsYmlimTYeRlC/view)
 
 -----
 ### Quản trị Cơ sở dữ liệu Oracle từ A đến Z
@@ -39,9 +53,11 @@ Kết thúc khóa học, nếu làm theo các bài thực hành trong khóa họ
 - Đưa bạn tiếp cận với môi trường làm việc thực tế, giúp bạn tự tin khi đi phỏng vấn.
 - Cung cấp kiến thức cơ bản qua bài thực hành đáp ứng nhu cầu tuyển dụng nhân sự quản trị CSDL của các doanh nghiệp hiện nay
 
-https://www.youtube.com/playlist?list=PLdxDYNyqNPwEsFCEtaSxHzgKzzBEiP2Le
+[https://www.youtube.com/playlist?list=PLdxDYNyqNPwEsFCEtaSxHzgKzzBEiP2Le](https://www.youtube.com/playlist?list=PLdxDYNyqNPwEsFCEtaSxHzgKzzBEiP2Le)
 
 -----
 -----
 
-https://www.youtube.com/results?search_query=c%C6%A1+s%E1%BB%9F+d%E1%BB%AF+li%E1%BB%87u&sp=EgIQAw%253D%253D
+[https://laptrinhvb.net/ebook-it.html](https://laptrinhvb.net/ebook-it.html)
+
+[https://www.youtube.com/results?search_query=c%C6%A1+s%E1%BB%9F+d%E1%BB%AF+li%E1%BB%87u&sp=EgIQAw%253D%253D](https://www.youtube.com/results?search_query=c%C6%A1+s%E1%BB%9F+d%E1%BB%AF+li%E1%BB%87u&sp=EgIQAw%253D%253D)
