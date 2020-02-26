@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Videos Học Lập Trình SQL, SQL server, MySQL và Oracle Căn Bản và Nâng cao
+title: Videos Học Lập Trình SQL, SQL server, MySQL và Oracle
 ---
 
 ✅ [Học SQL Cơ Bản](https://www.youtube.com/playlist?list=PLE1qPKuGSJaDkQQB5vK7t7-PRIVjtqeHB)  
