@@ -6,7 +6,9 @@ tags:
 - Csharp
 - Tips
 - Tricks
-- Coding Conventions
+- volatile
+- Invoke
+- InvokeRequired
 modified: 2019-05-13
 ---
 
@@ -22,8 +24,47 @@ Khi chúng ta nói về ghi Log, theo truyền thống, chúng ta có nghĩa là
   * Bạn có thể dễ dàng tìm kiếm và trích xuất số liệu thống kê từ Log. Điều này đặc biệt hữu ích nếu bạn sử dụng ghi Log có cấu trúc.
 
 
-### 2. B
+-----
+### 2. Invoke, InvokeRequired trong C# có nghĩa là gì?
+- Khi ứng dụng của bạn chạy, có một thread được tạo ra để chạy hàm Main(). Đó là thread chính (main-thrread). Nếu chương trình của bạn có nhiều thread thực hiện các tác vụ xử lý khác và các thread này cần sử dụng tài nguyên từ thread chính thì bạn phải cần tới Invoke. Thực ra, bạn có thể đặt thuộc tính CheckForIllegalCrossThreadCalls = false; cho form (hoặc control) và sử dụng các tài nguyên từ thread khác một cách thoải mái. Nhưng như vậy, chương trình của bạn sẽ rơi vào trạng thái ko an toàn (unsafe) và sẽ bị crash bất cứ lúc nào khi mà các thread tranh chấp tài nguyên với nhau.
+- C# cung cấp 1 giải pháp an toàn hơn đó là Invoke. Khi bạn gọi phương thức này của 1 form (hoặc control) từ 1 thread khác, form (control) đó sẽ bị lock, chỉ cho phép thread đã gọi nó truy cập. Khi thread này hoàn thành tác vụ của nó, form (control) lại được giải phóng cho thread khác gọi. Như vậy, các thread sẽ được đồng bộ với nhau và chương trình của bạn sẽ ko bị crash. Đó gọi là thread-safe.
+- Có những control ko yêu cầu Invoke để thực hiện thread-safe. Nghĩa là nó có thể được truy cập một cách trực tiếp ko qua Invoke. Thuộc tính InvokeRequired sẽ cho biết một control có yêu cầu Invoke khi gọi hay ko ?
+- Khi gọi Invoke, bạn phải truyền cho nó 1 delegate. Bạn có thể sử dụng delegate MethodInvoker có sẵn của C#.
+- VD : Chương trình của mình có 1 listbox, mình sẽ tạo 1 thread mới. Thread này có nhiệm vụ thêm các số từ 1-1000 vào listbox, đồng thời cập nhật tiến độ qua 1 progressbar.
+{% highlight js %}
+private void cmdGenerate_Click(object sender, EventArgs e)
+{
+    // Chuẩn bị
+    lstNumber.Items.Clear();
+ 
+    // Tạo và chạy thread
+    Thread thrGenerating = new Thread(new ThreadStart(DoWork));
+    thrGenerating.Start();
+}
+ 
+private void DoWork()
+{
+    for (int i = 1; i <= 1000; i++)
+    {
+        // Thêm item vào list qua invoke
+        lstNumber.Invoke(new MethodInvoker(delegate()
+            {
+                lstNumber.Items.Add(i);
+                lstNumber.TopIndex = lstNumber.Items.Count - 1;
+            }));
+ 
+        // Cập nhật tiến độ qua progress bar
+        pgrOperation.Invoke(new MethodInvoker(delegate()
+        {
+            pgrOperation.Value = (i * 100 / 1000);
+        }));
+    }
+ 
+    MessageBox.Show("Hoàn tất");
+}
+{% endhighlight %}
 
+-----
 ### 3. Viết phương thức C# tính tổng tất cả các số chẵn trong một mảng số nguyên.
 {% highlight js %}
 static long TotalAllEvenInts(int[] intArray) {
@@ -35,3 +76,4 @@ static long TotalAllEvenInts(int[] intArray) {
 -----
 Tham khảo:
 - [Ý Nghĩa Của Từ Khóa Volatile Trong C](https://ktmt.github.io/blog/2013/05/09/y-nghia-cua-tu-khoa-volatile-trong-c/)
+- [Top 16 C# Programming Tips & Tricks](https://www.vn.freelancer.com/community/articles/top-16-c-programming-tips-tricks)
