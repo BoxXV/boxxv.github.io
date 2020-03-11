@@ -12,16 +12,19 @@ tags:
 modified: 2019-05-13
 ---
 
+### 1. Ý Nghĩa Của Từ Khóa Volatile Trong C
+Trong lập trình nhúng (embedded system), ta rất thường hay gặp khai báo biến với từ khóa volatile. Việc khai báo biến volatile là rất cần thiết để tránh những lỗi sai khó phát hiện do tính năng optimization của compiler. Trong bài viết này, ta sẽ tìm hiểu ý nghĩa của từ khóa này, cách sử dụng nó và giải thích tại sao nó quan trọng trong một số trường hợp lập trình với hệ thống nhúng và lập trình ứng dụng đa luồng.
+{% highlight js %}
+volatile int foo;//both this way...
+int volatile foo;//... and this way is OK! Define a volatile integer variable
 
-
-### 1 A
-
-Khi chúng ta nói về ghi Log, theo truyền thống, chúng ta có nghĩa là lưu tin nhắn vào một tệp. Đó thực sự là ghi Log, nhưng còn nhiều các loại ghi Log duy nhất này. Dưới đây là một số mục tiêu ghi Log phổ biến để xem xét:
-- **Database**. Ghi Log vào cơ sở dữ liệu có nhiều lợi thế
-  * Bạn có thể truy xuất Log từ bất cứ đâu mà không cần truy cập vào máy sản xuất.
-  * Nó dễ dàng tổng hợp các bản ghi Log từ nhiều máy.
-  * Không có trường hợp nào các bản ghi Log sẽ bị xóa khỏi một máy cục bộ.
-  * Bạn có thể dễ dàng tìm kiếm và trích xuất số liệu thống kê từ Log. Điều này đặc biệt hữu ích nếu bạn sử dụng ghi Log có cấu trúc.
+volatile uint8_t *pReg;//both this way...
+uint8_t volatile *pReg;//... and this way is OK! Define a pointer to a volatile unsigned 8-bit integer
+{% endhighlight %}
+Một biến cần được khai báo dưới dạng biến volatile khi nào? Khi mà giá trị của nó có thể thay đổi một cách không báo trước. Trong thực tế, có 3 loại biến mà giá trị có thể bị thay đổi như vậy:
+ - Memory-mapped peripheral registers (thanh ghi ngoại vi có ánh xạ đến ô nhớ)
+ - Biến toàn cục được truy xuất từ các tiến trình con xử lý ngắt (interrupt service routine)
+ - Biến toàn cục được truy xuất từ nhiều tác vụ trong một ứng dụng đa luồng.
 
 
 -----
