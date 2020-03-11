@@ -15,11 +15,11 @@ modified: 2019-05-13
 ### 1. Ý Nghĩa Của Từ Khóa Volatile Trong C
 Trong lập trình nhúng (embedded system), ta rất thường hay gặp khai báo biến với từ khóa volatile. Việc khai báo biến volatile là rất cần thiết để tránh những lỗi sai khó phát hiện do tính năng optimization của compiler. Trong bài viết này, ta sẽ tìm hiểu ý nghĩa của từ khóa này, cách sử dụng nó và giải thích tại sao nó quan trọng trong một số trường hợp lập trình với hệ thống nhúng và lập trình ứng dụng đa luồng.
 {% highlight js %}
-volatile int foo;//both this way...
-int volatile foo;//... and this way is OK! Define a volatile integer variable
+private volatile int foo;//both this way...
+private int volatile foo;//... and this way is OK! Define a volatile integer variable
 
-volatile uint8_t *pReg;//both this way...
-uint8_t volatile *pReg;//... and this way is OK! Define a pointer to a volatile unsigned 8-bit integer
+private volatile uint8_t *pReg;//both this way...
+private uint8_t volatile *pReg;//... and this way is OK! Define a pointer to a volatile unsigned 8-bit integer
 {% endhighlight %}
 Một biến cần được khai báo dưới dạng biến volatile khi nào? Khi mà giá trị của nó có thể thay đổi một cách không báo trước. Trong thực tế, có 3 loại biến mà giá trị có thể bị thay đổi như vậy:
  - Memory-mapped peripheral registers (thanh ghi ngoại vi có ánh xạ đến ô nhớ)
