@@ -9,7 +9,6 @@ tags:
 - volatile
 - Invoke
 - InvokeRequired
-modified: 2019-05-13
 ---
 
 ### 1. Ý Nghĩa Của Từ Khóa Volatile Trong C

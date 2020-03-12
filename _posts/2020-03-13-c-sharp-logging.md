@@ -7,7 +7,6 @@ tags:
 - Comment
 - Commenting Convention
 - Coding Conventions
-modified: 2019-05-13
 ---
 
 Ghi Log là một phần quan trọng của phát triển phần mềm trong nhiều năm nay. Người ta có thể lập luận rằng một cơ chế ghi Log là một phần bắt buộc phải có của bất kỳ ứng dụng hoặc thư viện nào.  
