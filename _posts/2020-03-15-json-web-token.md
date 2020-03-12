@@ -65,3 +65,22 @@ Tham khảo:
 - [JSON Web Token: Lưu trữ và bảo mật tokens trên client như thế nào?](https://anonystick.com/blog-developer/json-web-token-luu-tru-va-bao-mat-tokens-tren-client-nhu-the-nao-2019062144827814.jsx)
 - [Authorization Framework: Access Token, Refresh Token cũng giống việc sinh viên thuê nhà trọ](https://anonystick.com/blog-developer/authorization-framework-access-token-refresh-token-cung-giong-viec-sinh-vien-thue-nha-tro-2019061161976500.jsx)
 - [JSON Web Token: Bảo mật RESTful API với JWT và Cookie httpOnly, Secure.](https://anonystick.com/blog-developer/json-web-token-bao-mat-restful-api-voi-jwt-va-cookie-httponly-secure-201906223285306.jsx)
+
+https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage
+
+https://stackoverflow.com/questions/42286781/jwt-token-with-ajax-non-ajax-jquery
+{% highlight js %}
+$.ajax({
+    type: "POST", //GET, POST, PUT
+    url: '/authenticatedService'  //the url to call
+    data: yourData,     //Data sent to server
+    contentType: contentType,           
+    beforeSend: function (xhr) {   //Include the bearer token in header
+        xhr.setRequestHeader("Authorization", 'Bearer '+ jwt);
+    }
+}).done(function (response) {
+    //Response ok. process reuslt
+}).fail(function (err)  {
+    //Error during request
+});
+{% endhighlight %}
