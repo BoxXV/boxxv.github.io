@@ -39,9 +39,9 @@ Nội dung bài viết:
  - Access Token là gì?
  - Refresh Token là gì?
  - Create refresh token
- - # Tại sao phải là hai token mà không phải là một token?
- - # Xác thực Access Token và Refresh Token khác biệt gì?
- - # Vậy có thể nói Refresh Token tồn tại mãi mãi không?
+ - ✔ Tại sao phải là hai token mà không phải là một token?
+ - ✔ Xác thực Access Token và Refresh Token khác biệt gì?
+ - ✔ Vậy có thể nói Refresh Token tồn tại mãi mãi không?
 Như vậy những bài viết về JSON Web Token chúng tôi đã nhận được rất nhiều phản hồi qua Email về việc sử dụng Token như thế nào? Và tại sao chúng ta lại phải sử dụng Refresh Token khi mà có token rồi? Và đây chính là bài viết sẽ làm sáng tỏ những thắc mắc của bạn.
 
 Ở bài trước tôi đã hướng dẫn các bạn cách xác thực REST API với JWT(JSON Web Token) thông qua một Access Token, và hôm nay chúng ta tiếp tục tìm hiểu về Refresh Token. Tại sao lại có thêm Refresh Token? Và Refresh Token dùng để làm gì? 
