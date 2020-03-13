@@ -74,6 +74,20 @@ static long TotalAllEvenInts(int[] intArray) {
 }
 {% endhighlight %}
 
+-----
+### 4. How to: Make thread-safe calls to Windows Forms controls
+{% highlight js %}
+private void Button1_Click(object sender, EventArgs e)
+{
+    thread2 = new Thread(new ThreadStart(WriteTextUnsafe));
+    thread2.Start();
+}
+private void WriteTextUnsafe()
+{
+    textBox1.Text = "This text was set unsafely.";
+}
+{% endhighlight %}
+https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls?redirectedfrom=MSDN
 
 -----
 Tham khảo:
