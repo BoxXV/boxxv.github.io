@@ -48,7 +48,7 @@ Video.js unique 3 Skins pack plugin makes Video.js player looks great. With just
 **Price**: 11$
 
 
-### 9,10,11,12,13,14,15. [Nuevo Unique 7 Skins Pack](https://codecanyon.net/item/videojs-unique-3-skins-pack/19496137)
+### 9,10,11,12,13,14,15. [Nuevo Unique 7 Skins Pack](https://www.nuevodevel.com/nuevo/skins)
 ![Nuevo Unique 1 Skins Pack](http://boxxv.com/img/player/nuevo.jpg "Nuevo Unique 1 Skins Pack")_Nuevo (default)_
 ![Nuevo Unique 2 Skins Pack](http://boxxv.com/img/player/chrome.jpg "Nuevo Unique 2 Skins Pack")_Chrome skin_
 ![Nuevo Unique 3 Skins Pack](http://boxxv.com/img/player/Jwlike.jpg "Nuevo Unique 3 Skins Pack")_Jwlike skin_
