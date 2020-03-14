@@ -87,7 +87,9 @@ private void WriteTextUnsafe()
     textBox1.Text = "This text was set unsafely.";
 }
 {% endhighlight %}
-https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls?redirectedfrom=MSDN
+[How to: Make thread-safe calls to Windows Forms controls](https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls?redirectedfrom=MSDN)
+
+
 
 -----
 Tham khảo:
