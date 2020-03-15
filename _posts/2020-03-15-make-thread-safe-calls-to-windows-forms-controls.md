@@ -1,7 +1,7 @@
 ---
 layout: post
-title: C# Programming Tips & Tricks
-subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
+title: Make thread-safe calls to Windows Forms controls
+subtitle: C# Programming Tips & Tricks
 tags:
 - Csharp
 - Tips
