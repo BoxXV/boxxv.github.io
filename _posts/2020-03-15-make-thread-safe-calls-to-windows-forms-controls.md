@@ -191,3 +191,8 @@ public class BackgroundWorkerForm : Form
 -----
 Tham khảo:
 - [How to: Make thread-safe calls to Windows Forms controls](https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls)
+- [Multithreading – Lập trình đa luồng, đa tiến trình](https://cameoplus.com/multithreading-lap-trinh-da-luong-da-tien-trinh/)
+- [Giới thiệu và hướng dẫn sử dụng Thread và Multi Thread, Process trong visual dot net](https://laptrinhvb.net/bai-viet/chuyen-de-vb-net/Gioi-thieu-va-huong-dan-su-dung-Thread-va-Multi-Thread,-Process-trong-visual-dot-net/a54766b0b5180aa5.html)
+- [Threading - Nền tảng lập trình C#](https://www.mastercode.vn/blog/web-development/bai-10-threading-nen-tang-lap-trinh-c.58)
+
+
