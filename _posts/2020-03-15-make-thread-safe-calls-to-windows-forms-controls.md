@@ -11,7 +11,7 @@ tags:
 - InvokeRequired
 ---
 
-Đa luồng có thể cải thiện hiệu suất của các ứng dụng Windows Forms, nhưng việc truy cập vào các điều khiển của Windows Forms không phải là chủ đề an toàn. Đa luồng có thể làm lộ mã của bạn thành các lỗi rất nghiêm trọng và phức tạp. Hai hoặc nhiều luồng điều khiển một điều khiển có thể buộc điều khiển vào trạng thái không nhất quán và dẫn đến tình trạng race, bế tắc và đóng băng hoặc treo. Nếu bạn triển khai đa luồng trong ứng dụng của mình, hãy nhớ gọi điều khiển đa luồng theo cách an toàn cho luồng. Để biết thêm thông tin, hãy xem Thực hành tốt nhất về [quản lý luồng](https://docs.microsoft.com/en-us/dotnet/standard/threading/managed-threading-best-practices).
+Đa luồng có thể cải thiện hiệu suất của các ứng dụng Windows Forms, nhưng việc truy cập vào các điều khiển của Windows Forms không phải là chủ đề an toàn. Đa luồng có thể làm lộ mã của bạn thành các lỗi rất nghiêm trọng và phức tạp. Hai hoặc nhiều luồng điều khiển một điều khiển có thể buộc điều khiển vào trạng thái không nhất quán và dẫn đến tình trạng race, bế tắc và đóng băng hoặc treo. Nếu bạn triển khai đa luồng trong ứng dụng của mình, hãy nhớ gọi điều khiển đa luồng theo cách an toàn cho luồng. Để biết thêm thông tin, hãy xem [Thực hành tốt nhất về quản lý luồng](https://docs.microsoft.com/en-us/dotnet/standard/threading/managed-threading-best-practices).
 
 Có hai cách để gọi điều khiển Windows Forms một cách an toàn từ một luồng không tạo điều khiển đó. Bạn có thể sử dụng phương thức `System.Windows.Forms.Control.Invoke` để gọi một đại biểu được tạo trong luồng chính, lần lượt gọi điều khiển. Hoặc, bạn có thể triển khai `System.ComponentModel.BackgroundWorker`, sử dụng mô hình hướng sự kiện để tách công việc được thực hiện trong luồng chạy nền khỏi báo cáo kết quả.
 
@@ -24,22 +24,23 @@ private void Button1_Click(object sender, EventArgs e)
     thread2 = new Thread(new ThreadStart(WriteTextUnsafe));
     thread2.Start();
 }
-priv
-ate void WriteTextUnsafe()
+
+private void WriteTextUnsafe()
 {
     textBox1.Text = "This text was set unsafely.";
 }
 {% endhighlight %}
 
+Trình gỡ lỗi Visual Studio phát hiện các cuộc gọi luồng không an toàn này bằng cách đưa ra một `InvalidOperationException` với thông báo, **Cross-thread operation not valid. Control "" accessed from a thread other than the thread it was created on.** InvalidOperationException luôn xảy ra đối với các cuộc gọi đa luồng không an toàn trong quá trình gỡ lỗi Visual Studio và có thể xảy ra khi chạy ứng dụng. Bạn nên khắc phục sự cố, nhưng bạn có thể vô hiệu hóa ngoại lệ bằng cách đặt thuộc tính `Control.CheckForIllegalCrossThreadCalls` thành false.
 
 
 -----
-### 2. Invoke, InvokeRequired trong C# có nghĩa là gì?
-- Khi ứng dụng của bạn chạy, có một thread được tạo ra để chạy hàm Main(). Đó là thread chính (main-thrread). Nếu chương trình của bạn có nhiều thread thực hiện các tác vụ xử lý khác và các thread này cần sử dụng tài nguyên từ thread chính thì bạn phải cần tới Invoke. Thực ra, bạn có thể đặt thuộc tính CheckForIllegalCrossThreadCalls = false; cho form (hoặc control) và sử dụng các tài nguyên từ thread khác một cách thoải mái. Nhưng như vậy, chương trình của bạn sẽ rơi vào trạng thái ko an toàn (unsafe) và sẽ bị crash bất cứ lúc nào khi mà các thread tranh chấp tài nguyên với nhau.
-- C# cung cấp 1 giải pháp an toàn hơn đó là Invoke. Khi bạn gọi phương thức này của 1 form (hoặc control) từ 1 thread khác, form (control) đó sẽ bị lock, chỉ cho phép thread đã gọi nó truy cập. Khi thread này hoàn thành tác vụ của nó, form (control) lại được giải phóng cho thread khác gọi. Như vậy, các thread sẽ được đồng bộ với nhau và chương trình của bạn sẽ ko bị crash. Đó gọi là thread-safe.
-- Có những control ko yêu cầu Invoke để thực hiện thread-safe. Nghĩa là nó có thể được truy cập một cách trực tiếp ko qua Invoke. Thuộc tính InvokeRequired sẽ cho biết một control có yêu cầu Invoke khi gọi hay ko ?
-- Khi gọi Invoke, bạn phải truyền cho nó 1 delegate. Bạn có thể sử dụng delegate MethodInvoker có sẵn của C#.
-- VD : Chương trình của mình có 1 listbox, mình sẽ tạo 1 thread mới. Thread này có nhiệm vụ thêm các số từ 1-1000 vào listbox, đồng thời cập nhật tiến độ qua 1 progressbar.
+### 2. Safe cross-thread calls - Cuộc gọi giữa các luồng an toàn
+
+Các ví dụ mã sau đây trình bày hai cách để gọi điều khiển Windows Forms một cách an toàn từ một luồng không tạo ra nó:
+1. Phương thức System.Windows.Forms.Control.Invoke, gọi một ủy nhiệm từ luồng chính để gọi điều khiển.
+2. Một thành phần System.ComponentModel.BackgroundWorker, cung cấp một mô hình hướng sự kiện.
+
 {% highlight js %}
 private void cmdGenerate_Click(object sender, EventArgs e)
 {
