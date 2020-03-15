@@ -120,32 +120,73 @@ public class InvokeThreadSafeForm : Form
 {% endhighlight %}
 
 -----
-### 3. Viết phương thức C# tính tổng tất cả các số chẵn trong một mảng số nguyên.
+### 4. Sử dụng trình xử lý sự kiện BackgroundWorker
+
+Một cách dễ dàng để thực hiện đa luồng là với thành phần `System.ComponentModel.BackgroundWorker`, sử dụng mô hình hướng sự kiện. Chủ đề Background chạy sự kiện [BackgroundWorker.DoWork](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker.dowork?view=netframework-4.8), không tương tác với chủ đề chính. Chuỗi chính chạy các trình xử lý sự kiện [BackgroundWorker.ProgressChanged](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker.progresschanged?view=netframework-4.8) và [BackgroundWorker.RunWorkerCompleted](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker.runworkercompleted?view=netframework-4.8), có thể gọi các điều khiển của luồng chính.
+
+Để thực hiện cuộc gọi an toàn luồng bằng cách sử dụng BackgroundWorker, hãy tạo một phương thức trong luồng background để thực hiện công việc và liên kết nó với sự kiện DoWork. Tạo một phương thức khác trong luồng chính để báo cáo kết quả của công việc nền và liên kết nó với sự kiện ProgressChanged hoặc RunWorkerCompleted. Để bắt đầu chuỗi nền, hãy gọi BackgroundWorker.RunWorkerAsync.
+
+
 {% highlight js %}
-static long TotalAllEvenInts(int[] intArray) {
-  return (from i in intArray where i % 2 == 0 select (long)i).Sum();
+using System;
+using System.ComponentModel;
+using System.Drawing;
+using System.Threading;
+using System.Windows.Forms;
+
+public class BackgroundWorkerForm : Form
+{
+    private BackgroundWorker backgroundWorker1;
+    private Button button1;
+    private TextBox textBox1;
+
+    [STAThread]
+    static void Main()
+    {
+        Application.SetCompatibleTextRenderingDefault(false);
+        Application.EnableVisualStyles();
+        Application.Run(new BackgroundWorkerForm());
+    }
+    public BackgroundWorkerForm()
+    {
+        backgroundWorker1 = new BackgroundWorker();
+        backgroundWorker1.DoWork += new DoWorkEventHandler(BackgroundWorker1_DoWork);
+        backgroundWorker1.RunWorkerCompleted += new RunWorkerCompletedEventHandler(BackgroundWorker1_RunWorkerCompleted);
+        button1 = new Button
+        {
+            Location = new Point(15, 55),
+            Size = new Size(240, 20),
+            Text = "Set text safely with BackgroundWorker"
+        };
+        button1.Click += new EventHandler(Button1_Click);
+        textBox1 = new TextBox
+        {
+            Location = new Point(15, 15),
+            Size = new Size(240, 20)
+        };
+        Controls.Add(button1);
+        Controls.Add(textBox1);
+    }
+    private void Button1_Click(object sender, EventArgs e)
+    {
+        backgroundWorker1.RunWorkerAsync();
+    }
+
+    private void BackgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+    {
+        // Sleep 2 seconds to emulate getting data.
+        Thread.Sleep(2000);
+        e.Result = "This text was set safely by BackgroundWorker.";
+    }
+
+    private void BackgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+    {
+        textBox1.Text = e.Result.ToString();
+    }
 }
 {% endhighlight %}
-
------
-### 4. How to: Make thread-safe calls to Windows Forms controls
-{% highlight js %}
-private void Button1_Click(object sender, EventArgs e)
-{
-    thread2 = new Thread(new ThreadStart(WriteTextUnsafe));
-    thread2.Start();
-}
-private void WriteTextUnsafe()
-{
-    textBox1.Text = "This text was set unsafely.";
-}
-{% endhighlight %}
-[How to: Make thread-safe calls to Windows Forms controls](https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls?redirectedfrom=MSDN)
-
 
 
 -----
 Tham khảo:
-- [Ý Nghĩa Của Từ Khóa Volatile Trong C](https://ktmt.github.io/blog/2013/05/09/y-nghia-cua-tu-khoa-volatile-trong-c/)
-- [Top 16 C# Programming Tips & Tricks](https://www.vn.freelancer.com/community/articles/top-16-c-programming-tips-tricks)
-- [Invoke, InvokeRequired trong C# có nghĩa là gì?](http://diendan.congdongcviet.com/threads/t52293::invoke-invokerequired-trong-csharp-co-nghia-la-gi.cpp)
+- [How to: Make thread-safe calls to Windows Forms controls](https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/how-to-make-thread-safe-calls-to-windows-forms-controls)
