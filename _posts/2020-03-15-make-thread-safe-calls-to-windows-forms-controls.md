@@ -11,19 +11,26 @@ tags:
 - InvokeRequired
 ---
 
-### 1. Ý Nghĩa Của Từ Khóa Volatile Trong C
-Trong lập trình nhúng (embedded system), ta rất thường hay gặp khai báo biến với từ khóa volatile. Việc khai báo biến volatile là rất cần thiết để tránh những lỗi sai khó phát hiện do tính năng optimization của compiler. Trong bài viết này, ta sẽ tìm hiểu ý nghĩa của từ khóa này, cách sử dụng nó và giải thích tại sao nó quan trọng trong một số trường hợp lập trình với hệ thống nhúng và lập trình ứng dụng đa luồng.
-{% highlight js %}
-private volatile int foo;//both this way...
-private int volatile foo;//... and this way is OK! Define a volatile integer variable
+Đa luồng có thể cải thiện hiệu suất của các ứng dụng Windows Forms, nhưng việc truy cập vào các điều khiển của Windows Forms không phải là chủ đề an toàn. Đa luồng có thể làm lộ mã của bạn thành các lỗi rất nghiêm trọng và phức tạp. Hai hoặc nhiều luồng điều khiển một điều khiển có thể buộc điều khiển vào trạng thái không nhất quán và dẫn đến tình trạng race, bế tắc và đóng băng hoặc treo. Nếu bạn triển khai đa luồng trong ứng dụng của mình, hãy nhớ gọi điều khiển đa luồng theo cách an toàn cho luồng. Để biết thêm thông tin, hãy xem Thực hành tốt nhất về [quản lý luồng](https://docs.microsoft.com/en-us/dotnet/standard/threading/managed-threading-best-practices).
 
-private volatile uint8_t *pReg;//both this way...
-private uint8_t volatile *pReg;//... and this way is OK! Define a pointer to a volatile unsigned 8-bit integer
+Có hai cách để gọi điều khiển Windows Forms một cách an toàn từ một luồng không tạo điều khiển đó. Bạn có thể sử dụng phương thức `System.Windows.Forms.Control.Invoke` để gọi một đại biểu được tạo trong luồng chính, lần lượt gọi điều khiển. Hoặc, bạn có thể triển khai `System.ComponentModel.BackgroundWorker`, sử dụng mô hình hướng sự kiện để tách công việc được thực hiện trong luồng chạy nền khỏi báo cáo kết quả.
+
+
+### 1. Unsafe cross-thread calls - Cuộc gọi giữa các luồng không an toàn
+Sẽ không an toàn khi gọi điều khiển trực tiếp từ một luồng không tạo ra nó. Đoạn mã sau minh họa một cuộc gọi không an toàn đến điều khiển `System.Windows.Forms.TextBox`. Trình xử lý sự kiện `Button1_Click` tạo ra một luồng `WriteTextUnsafe` mới, trực tiếp đặt thuộc tính `TextBox.Text` của luồng chính.
+{% highlight js %}
+private void Button1_Click(object sender, EventArgs e)
+{
+    thread2 = new Thread(new ThreadStart(WriteTextUnsafe));
+    thread2.Start();
+}
+priv
+ate void WriteTextUnsafe()
+{
+    textBox1.Text = "This text was set unsafely.";
+}
 {% endhighlight %}
-Một biến cần được khai báo dưới dạng biến volatile khi nào? Khi mà giá trị của nó có thể thay đổi một cách không báo trước. Trong thực tế, có 3 loại biến mà giá trị có thể bị thay đổi như vậy:
- - Memory-mapped peripheral registers (thanh ghi ngoại vi có ánh xạ đến ô nhớ)
- - Biến toàn cục được truy xuất từ các tiến trình con xử lý ngắt (interrupt service routine)
- - Biến toàn cục được truy xuất từ nhiều tác vụ trong một ứng dụng đa luồng.
+
 
 
 -----
