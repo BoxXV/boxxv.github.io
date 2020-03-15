@@ -38,39 +38,84 @@ Trình gỡ lỗi Visual Studio phát hiện các cuộc gọi luồng không an
 ### 2. Safe cross-thread calls - Cuộc gọi giữa các luồng an toàn
 
 Các ví dụ mã sau đây trình bày hai cách để gọi điều khiển Windows Forms một cách an toàn từ một luồng không tạo ra nó:
-1. Phương thức System.Windows.Forms.Control.Invoke, gọi một ủy nhiệm từ luồng chính để gọi điều khiển.
-2. Một thành phần System.ComponentModel.BackgroundWorker, cung cấp một mô hình hướng sự kiện.
+1. Phương thức [System.Windows.Forms.Control.Invoke](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.invoke), gọi một ủy nhiệm từ luồng chính để gọi điều khiển.
+2. Một thành phần [System.ComponentModel.BackgroundWorker](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.backgroundworker?view=netframework-4.8), cung cấp một mô hình hướng sự kiện.
+
+Trong cả hai ví dụ, luồng background sleeps trong một giây để mô phỏng công việc đang được thực hiện trong luồng đó.
+
+Bạn có thể xây dựng và chạy các ví dụ này dưới dạng các ứng dụng .NET Framework từ dòng lệnh C# hoặc Visual Basic. Để biết thêm thông tin, hãy xem [Xây dựng dòng lệnh với csc.exe](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe) hoặc [Build từ dòng lệnh (Visual Basic)](https://docs.microsoft.com/en-us/dotnet/visual-basic/reference/command-line-compiler/building-from-the-command-line).
+
+Bắt đầu với .NET Core 3.0, bạn cũng có thể xây dựng và chạy các ví dụ dưới dạng ứng dụng Windows .NET Core từ một thư mục có tệp .NET Core Windows Forms <tên thư mục>.csproj tệp dự án.
+
+-----
+### 3. Sử dụng phương thức Invoke với một delegate
+
+Ví dụ sau đây minh họa một mẫu để đảm bảo các cuộc gọi an toàn luồng cho điều khiển Windows Forms. Nó truy vấn thuộc tính `System.Windows.Forms.Control.InvokeRequired`, so sánh ID luồng tạo của điều khiển với ID luồng gọi. Nếu ID luồng giống nhau, nó gọi điều khiển trực tiếp. Nếu ID luồng khác nhau, nó gọi phương thức `Control.Invoke` với một ủy nhiệm từ luồng chính, thực hiện cuộc gọi thực tế đến điều khiển.
+
+`SafeCallDelegate` cho phép thiết lập thuộc tính Text của điều khiển TextBox. Phương thức `WriteTextSafe` truy vấn [InvokeRequired](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.invokerequired?view=netframework-4.8). Nếu `InvokeRequired` trả về `true`, `WriteTextSafe` sẽ chuyển `SafeCallDelegate` sang phương thức `Invoke` để thực hiện cuộc gọi thực tế đến điều khiển. Nếu `InvokeRequired` trả về `false`, `WriteTextSafe` sẽ đặt [TextBox.Text](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.textbox.text?view=netframework-4.8) trực tiếp. Trình xử lý sự kiện `Button1_Click` tạo luồng mới và chạy phương thức `WriteTextSafe`.
 
 {% highlight js %}
-private void cmdGenerate_Click(object sender, EventArgs e)
+using System;
+using System.Drawing;
+using System.Threading;
+using System.Windows.Forms;
+
+public class InvokeThreadSafeForm : Form
 {
-    // Chuẩn bị
-    lstNumber.Items.Clear();
- 
-    // Tạo và chạy thread
-    Thread thrGenerating = new Thread(new ThreadStart(DoWork));
-    thrGenerating.Start();
-}
- 
-private void DoWork()
-{
-    for (int i = 1; i <= 1000; i++)
+    private delegate void SafeCallDelegate(string text);
+    private Button button1;
+    private TextBox textBox1;
+    private Thread thread2 = null;
+
+    [STAThread]
+    static void Main()
     {
-        // Thêm item vào list qua invoke
-        lstNumber.Invoke(new MethodInvoker(delegate()
-            {
-                lstNumber.Items.Add(i);
-                lstNumber.TopIndex = lstNumber.Items.Count - 1;
-            }));
- 
-        // Cập nhật tiến độ qua progress bar
-        pgrOperation.Invoke(new MethodInvoker(delegate()
-        {
-            pgrOperation.Value = (i * 100 / 1000);
-        }));
+        Application.SetCompatibleTextRenderingDefault(false);
+        Application.EnableVisualStyles();
+        Application.Run(new InvokeThreadSafeForm());
     }
- 
-    MessageBox.Show("Hoàn tất");
+    public InvokeThreadSafeForm()
+    {
+        button1 = new Button
+        {
+            Location = new Point(15, 55),
+            Size = new Size(240, 20),
+            Text = "Set text safely"
+        };
+        button1.Click += new EventHandler(Button1_Click);
+        textBox1 = new TextBox
+        {
+            Location = new Point(15, 15),
+            Size = new Size(240, 20)
+        };
+        Controls.Add(button1);
+        Controls.Add(textBox1);
+    }
+
+    private void Button1_Click(object sender, EventArgs e)
+    {
+        thread2 = new Thread(new ThreadStart(SetText));
+        thread2.Start();
+        Thread.Sleep(1000);
+    }
+
+    private void WriteTextSafe(string text)
+    {
+        if (textBox1.InvokeRequired)
+        {
+            var d = new SafeCallDelegate(WriteTextSafe);
+            textBox1.Invoke(d, new object[] { text });
+        }
+        else
+        {
+            textBox1.Text = text;
+        }
+    }
+
+    private void SetText()
+    {
+        WriteTextSafe("This text was set safely.");
+    }
 }
 {% endhighlight %}
 
