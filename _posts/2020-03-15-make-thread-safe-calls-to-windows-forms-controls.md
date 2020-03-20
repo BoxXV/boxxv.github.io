@@ -119,6 +119,10 @@ public class InvokeThreadSafeForm : Form
 }
 {% endhighlight %}
 
+[InvokeHelper.cs](https://github.com/DavidTyler/Door-Lock/blob/master/TwitterDoorLock/InvokeHelper.cs)
+
+https://github.com/search?q=%22void+SetPropertyThreadSafe%22&type=Code
+
 -----
 ### 4. Sử dụng trình xử lý sự kiện BackgroundWorker
 
