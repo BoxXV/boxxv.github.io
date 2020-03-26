@@ -52,11 +52,32 @@ Theo mặc định, chế độ fluid sẽ sử dụng kích thước nội tạ
 Kích hoạt chế độ fluid sẽ vô hiệu hóa chế độ fill. Nếu cả hai được kích hoạt, chế độ chất fluid được ưu tiên.
 
 Bạn có thể kích hoạt fluid theo một số cách:
-- Thêm `vjs-liquid`, `vjs-16-9` hoặc `vjs-4-3` làm lớp cho thành phần người chơi.
+- Thêm `vjs-liquid`, `vjs-16-9` hoặc `vjs-4-3` làm class cho thành phần người chơi.
 - Truyền tùy chọn `fluid` cho người chơi.
 - Gọi `player.fluid(true)`.
 - Truyền tùy chọn `aspectRatio` cho người chơi.
 - Gọi `player.aspectRatio('16:9')`.
+
+{% highlight js %}
+var player = videojs('vid1', {
+  fluid: true
+});
+{% endhighlight %}
+
+{% highlight js %}
+var player = videojs('vid2');
+
+player.fluid(true);
+{% endhighlight %}
+
+
+Có ba class liên quan đến chế độ Fluid, `vjs-liquid`, `vjs-16-9` và `vjs-4-3`.
+
+`vjs-liquid` bật chế độ Fluid chung sẽ đợi video tải để tính tỷ lệ khung hình của video.
+
+Ngoài ra, vì tỷ lệ khung hình `16:9` và `4:3` rất phổ biến, chúng tôi đã cung cấp chúng dưới dạng các class theo mặc định để bạn sử dụng nếu bạn biết rằng video của mình là 16:9 hoặc 4:3.
+
+
 
 ### Fill Mode
 [Fill Mode](https://docs.videojs.com/tutorial-layout.html#fill-mode) cho phép trình phát Video.js thay đổi kích thước linh hoạt, nhưng vẫn nằm trong giới hạn của vùng chứa chính. Điều này tương tự với [Fluid Mode](https://docs.videojs.com/tutorial-layout.html#fluid-mode), nhưng đôi khi, hộp chứa của bạn đã được đặt đúng kích cỡ.
