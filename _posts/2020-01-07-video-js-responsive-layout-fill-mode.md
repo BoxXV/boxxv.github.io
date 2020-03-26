@@ -45,11 +45,13 @@ player.responsive(true);
 Chế độ `Responsive` độc lập với `fluid mode` hoặc `fill mode` - nó chỉ liên quan đến sự sắp xếp của UI trong trình phát, không phải với kích thước của trình phát. Tuy nhiên, thường hữu ích khi sử dụng 'Responsive mode' kết hợp với `fluid mode` hoặc `fill mode`!
 
 ### Fluid Mode
-Video.js có chế độ lưu giữ cho trình phát có kích thước theo tỷ lệ khung hình cụ thể.
+Video.js ở chế độ Fluid sẽ giữ cho trình phát có kích thước theo tỷ lệ khung hình cụ thể.
 
-Theo mặc định, chế độ chất lỏng sẽ sử dụng kích thước nội tại của video khi được tải nhưng bạn có thể thay đổi nó bằng các lớp hoặc với tùy chọn `aspectRatio`.
+Theo mặc định, chế độ fluid sẽ sử dụng kích thước nội tại của video khi được tải nhưng bạn có thể thay đổi nó bằng các lớp hoặc với tùy chọn `aspectRatio`.
 
-Kích hoạt chế độ chất lỏng sẽ vô hiệu hóa chế độ điền. Nếu cả hai được kích hoạt, chế độ chất lỏng được ưu tiên.
+Kích hoạt chế độ fluid sẽ vô hiệu hóa chế độ fill. Nếu cả hai được kích hoạt, chế độ chất fluid được ưu tiên.
+
+
 
 ### Fill Mode
 [Fill Mode](https://docs.videojs.com/tutorial-layout.html#fill-mode) cho phép trình phát Video.js thay đổi kích thước linh hoạt, nhưng vẫn nằm trong giới hạn của vùng chứa chính. Điều này tương tự với [Fluid Mode](https://docs.videojs.com/tutorial-layout.html#fluid-mode), nhưng đôi khi, hộp chứa của bạn đã được đặt đúng kích cỡ.
