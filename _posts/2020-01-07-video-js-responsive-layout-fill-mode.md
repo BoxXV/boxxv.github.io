@@ -77,6 +77,23 @@ Có ba class liên quan đến chế độ Fluid, `vjs-liquid`, `vjs-16-9` và `
 
 Ngoài ra, vì tỷ lệ khung hình `16:9` và `4:3` rất phổ biến, chúng tôi đã cung cấp chúng dưới dạng các class theo mặc định để bạn sử dụng nếu bạn biết rằng video của mình là 16:9 hoặc 4:3.
 
+Bạn có thể chỉ định tỷ lệ khung hình để chúng tôi sử dụng nếu bạn không muốn sử dụng các giá trị nội tại từ thành phần video hoặc nếu bạn có một tỷ lệ cụ thể trong tâm trí. Nó hoạt động như một cuộc gọi phương thức hoặc một tùy chọn cho người chơi.
+
+Tùy chọn này ở dạng hai số nguyên được phân tách bằng dấu hai chấm như `21:9`, `16:9` hoặc `4:3`.
+
+{% highlight js %}
+// make a vertical video
+var player = videojs('vid1', {
+  aspectRatio: '9:16'
+});
+{% endhighlight %}
+
+{% highlight js %}
+var player = videojs('vid2');
+
+// make a square video
+player.aspectRatio('1:1');
+{% endhighlight %}
 
 
 ### Fill Mode
