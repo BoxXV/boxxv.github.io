@@ -18,15 +18,15 @@ Bạn có thể tìm hiểu cách bật `Responsive Mode` và hơn thế nữa t
 
 Một người chơi trong chế độ 'responsive ' sẽ thêm và xóa các lớp dựa trên các breakpoints kích thước của nó. Các breakpoints, class và kích thước mặc định được nêu bên dưới:
 
-| **Name** | **Class** | **Min. Width** | **Max. Width** |
-| -- | -- | -- | -- |
-| `tiny` | `vjs-layout-tiny` | 0 | 210 |
-| `xsmall` | `vjs-layout-x-small` | 211 | 320 |
-| `small` | `vjs-layout-small` | 321 | 425 |
-| `medium` | `vjs-layout-medium` | 426 | 768 |
-| `large` | `vjs-layout-large` | 769 | 1440 |
-| `xlarge` | `vjs-layout-x-large` | 1441 | 2560 |
-| `huge` | `vjs-layout-huge` | 2561 | Infinity |
+| **Name** |  | **Class** | **Min. Width** | **Max. Width** |
+| -- | -- | -- | -- | -- |
+| `tiny` |  |  `vjs-layout-tiny` | 0 | 210 |
+| `xsmall` |  |  `vjs-layout-x-small` | 211 | 320 |
+| `small` |  |  `vjs-layout-small` | 321 | 425 |
+| `medium` |  |  `vjs-layout-medium` | 426 | 768 |
+| `large` |  |  `vjs-layout-large` | 769 | 1440 |
+| `xlarge` |  |  `vjs-layout-x-large` | 1441 | 2560 |
+| `huge` |  |  `vjs-layout-huge` | 2561 | Infinity |
 
 Chế độ `Responsive` độc lập với `fluid mode` hoặc `fill mode` - nó chỉ liên quan đến sự sắp xếp của UI trong trình phát, không phải với kích thước của trình phát. Tuy nhiên, thường hữu ích khi sử dụng 'Responsive mode' kết hợp với `fluid mode` hoặc `fill mode`!
 
