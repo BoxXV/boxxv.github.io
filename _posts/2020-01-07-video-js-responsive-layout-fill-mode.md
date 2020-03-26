@@ -49,8 +49,6 @@ Video.js ở chế độ Fluid sẽ giữ cho trình phát có kích thước th
 
 Theo mặc định, chế độ fluid sẽ sử dụng kích thước nội tại của video khi được tải nhưng bạn có thể thay đổi nó bằng các lớp hoặc với tùy chọn `aspectRatio`.
 
-Kích hoạt chế độ fluid sẽ vô hiệu hóa chế độ fill. Nếu cả hai được kích hoạt, chế độ chất fluid được ưu tiên.
-
 Bạn có thể kích hoạt fluid theo một số cách:
 - Thêm `vjs-liquid`, `vjs-16-9` hoặc `vjs-4-3` làm class cho thành phần người chơi.
 - Truyền tùy chọn `fluid` cho người chơi.
@@ -71,6 +69,7 @@ player.fluid(true);
 {% endhighlight %}
 
 
+##### Aspect Ratio - Tỷ lệ khung hình
 Có ba class liên quan đến chế độ Fluid, `vjs-liquid`, `vjs-16-9` và `vjs-4-3`.
 
 `vjs-liquid` bật chế độ Fluid chung sẽ đợi video tải để tính tỷ lệ khung hình của video.
@@ -97,16 +96,27 @@ player.aspectRatio('1:1');
 
 
 ### Fill Mode
-[Fill Mode](https://docs.videojs.com/tutorial-layout.html#fill-mode) cho phép trình phát Video.js thay đổi kích thước linh hoạt, nhưng vẫn nằm trong giới hạn của vùng chứa chính. Điều này tương tự với [Fluid Mode](https://docs.videojs.com/tutorial-layout.html#fluid-mode), nhưng đôi khi, hộp chứa của bạn đã được đặt đúng kích cỡ.
+[Fill Mode](https://docs.videojs.com/tutorial-layout.html#fill-mode) cho phép trình phát Video.js thay đổi kích thước linh hoạt, nhưng vẫn nằm trong giới hạn của vùng chứa chính nó. Điều này tương tự với [Fluid Mode](https://docs.videojs.com/tutorial-layout.html#fluid-mode), nhưng đôi khi, hộp chứa của bạn đã được đặt đúng kích cỡ.
+
+Bạn có thể chuyển trong tùy chọn `fill` vào trình phát hoặc gọi `player.fill(true)`. Điều này sẽ kích hoạt chế độ fill.
+{% highlight js %}
+var player = videojs('vid1', {
+  fill: true
+});
+{% endhighlight %}
+
+{% highlight js %}
+var player = videojs('vid2');
+
+player.fill(true);
+{% endhighlight %}
+
+Kích hoạt chế độ fluid sẽ vô hiệu hóa chế độ fill. Nếu cả hai được kích hoạt, chế độ chất fluid được ưu tiên.
 
 Fill Mode không phải là một chế độ hoàn toàn mới, lớp `vjs-fill` đã có sẵn trong Video.js khá lâu. Điều này cuối cùng làm cho nó trở thành một tính năng hạng nhất đi cùng với Chế độ Fluid.
 
 
-
-
-
-
 -----
 Reference
-- [Tutorial: layout | Video.js Documentation](https://docs.videojs.com/tutorial-layout.html)
+- [Tutorial: layout Video.js Documentation](https://docs.videojs.com/tutorial-layout.html)
 - [Video.js 7.3: Responsive Layout, Fill Mode, createLogger](https://blog.videojs.com/video-js-7-3-responsive-layout-fill-mode-createlogger/)
