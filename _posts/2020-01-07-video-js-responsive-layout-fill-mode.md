@@ -28,6 +28,20 @@ Một người chơi trong chế độ 'responsive ' sẽ thêm và xóa các l�
 | `xlarge` |  |  `vjs-layout-x-large` | 1441 | 2560 |
 | `huge` |  |  `vjs-layout-huge` | 2561 | Infinity |
 
+Bạn có thể bật chế độ `responsive` bằng cách chuyển tùy chọn `responsive` hoặc bằng cách gọi `player.responsive(true)`.
+
+{% highlight js %}
+var player = videojs('vid1', {
+  responsive: true
+});
+{% endhighlight %}
+
+{% highlight js %}
+var player = videojs('vid2');
+
+player.responsive(true);
+{% endhighlight %}
+
 Chế độ `Responsive` độc lập với `fluid mode` hoặc `fill mode` - nó chỉ liên quan đến sự sắp xếp của UI trong trình phát, không phải với kích thước của trình phát. Tuy nhiên, thường hữu ích khi sử dụng 'Responsive mode' kết hợp với `fluid mode` hoặc `fill mode`!
 
 ### Fill Mode
@@ -35,9 +49,7 @@ Chế độ `Responsive` độc lập với `fluid mode` hoặc `fill mode` - n�
 
 Fill Mode không phải là một chế độ hoàn toàn mới, lớp `vjs-fill` đã có sẵn trong Video.js khá lâu. Điều này cuối cùng làm cho nó trở thành một tính năng hạng nhất đi cùng với Chế độ Fluid.
 
-{% highlight js %}
-> npm start
-{% endhighlight %}
+
 
 
 
