@@ -18,15 +18,15 @@ Bạn có thể tìm hiểu cách bật `Responsive Mode` và hơn thế nữa t
 
 Một người chơi trong chế độ 'responsive ' sẽ thêm và xóa các lớp dựa trên các breakpoints kích thước của nó. Các breakpoints, class và kích thước mặc định được nêu bên dưới:
 
-| **Name** |  | **Class** | **Min. Width** | **Max. Width** |
-| -- | -- | -- | -- | -- |
-| `tiny` |  |  `vjs-layout-tiny` | 0 | 210 |
-| `xsmall` |  |  `vjs-layout-x-small` | 211 | 320 |
-| `small` |  |  `vjs-layout-small` | 321 | 425 |
-| `medium` |  |  `vjs-layout-medium` | 426 | 768 |
-| `large` |  |  `vjs-layout-large` | 769 | 1440 |
-| `xlarge` |  |  `vjs-layout-x-large` | 1441 | 2560 |
-| `huge` |  |  `vjs-layout-huge` | 2561 | Infinity |
+| Name |  |  | Class |  |  | Min. Width | Max. Width |
+| -- | -- | -- | -- | -- | -- | -- | -- |
+| `tiny`   |  |  |  `vjs-layout-tiny`    |  |  | 0 | 210 |
+| `xsmall` |  |  |  `vjs-layout-x-small` |  |  | 211 | 320 |
+| `small`  |  |  |  `vjs-layout-small`   |  |  | 321 | 425 |
+| `medium` |  |  |  `vjs-layout-medium`  |  |  | 426 | 768 |
+| `large`  |  |  |  `vjs-layout-large`   |  |  | 769 | 1440 |
+| `xlarge` |  |  |  `vjs-layout-x-large` |  |  | 1441 | 2560 |
+| `huge`   |  |  |  `vjs-layout-huge`    |  |  | 2561 | Infinity |
 
 Bạn có thể bật chế độ `responsive` bằng cách chuyển tùy chọn `responsive` hoặc bằng cách gọi `player.responsive(true)`.
 
@@ -43,6 +43,13 @@ player.responsive(true);
 {% endhighlight %}
 
 Chế độ `Responsive` độc lập với `fluid mode` hoặc `fill mode` - nó chỉ liên quan đến sự sắp xếp của UI trong trình phát, không phải với kích thước của trình phát. Tuy nhiên, thường hữu ích khi sử dụng 'Responsive mode' kết hợp với `fluid mode` hoặc `fill mode`!
+
+### Fluid Mode
+Video.js có chế độ lưu giữ cho trình phát có kích thước theo tỷ lệ khung hình cụ thể.
+
+Theo mặc định, chế độ chất lỏng sẽ sử dụng kích thước nội tại của video khi được tải nhưng bạn có thể thay đổi nó bằng các lớp hoặc với tùy chọn `aspectRatio`.
+
+Kích hoạt chế độ chất lỏng sẽ vô hiệu hóa chế độ điền. Nếu cả hai được kích hoạt, chế độ chất lỏng được ưu tiên.
 
 ### Fill Mode
 [Fill Mode](https://docs.videojs.com/tutorial-layout.html#fill-mode) cho phép trình phát Video.js thay đổi kích thước linh hoạt, nhưng vẫn nằm trong giới hạn của vùng chứa chính. Điều này tương tự với [Fluid Mode](https://docs.videojs.com/tutorial-layout.html#fluid-mode), nhưng đôi khi, hộp chứa của bạn đã được đặt đúng kích cỡ.
