@@ -16,6 +16,19 @@ Ví dụ: với `vjs-layout-small`, các điều khiển thời gian sẽ không
 
 Bạn có thể tìm hiểu cách bật `Responsive Mode` và hơn thế nữa trong trang [tài liệu](https://docs.videojs.com/tutorial-layout.html#responsive-mode) của chúng tôi. Ngoài ra còn có một [example playground](https://github.com/videojs/video.js/blob/master/sandbox/responsive.html.example) trong thư mục sandbox trong repo.
 
+Một người chơi trong chế độ 'responsive ' sẽ thêm và xóa các lớp dựa trên các breakpoints kích thước của nó. Các breakpoints, class và kích thước mặc định được nêu bên dưới:
+
+| **Name** | **Class** | **Min. Width** | **Max. Width** |
+| -- | -- | -- | -- |
+| `tiny` | `vjs-layout-tiny` | 0 | 210 |
+| `xsmall` | `vjs-layout-x-small` | 211 | 320 |
+| `small` | `vjs-layout-small` | 321 | 425 |
+| `medium` | `vjs-layout-medium` | 426 | 768 |
+| `large` | `vjs-layout-large` | 769 | 1440 |
+| `xlarge` | `vjs-layout-x-large` | 1441 | 2560 |
+| `huge` | `vjs-layout-huge` | 2561 | Infinity |
+
+Chế độ `Responsive` độc lập với `fluid mode` hoặc `fill mode` - nó chỉ liên quan đến sự sắp xếp của UI trong trình phát, không phải với kích thước của trình phát. Tuy nhiên, thường hữu ích khi sử dụng 'Responsive mode' kết hợp với `fluid mode` hoặc `fill mode`!
 
 ### Fill Mode
 [Fill Mode](https://docs.videojs.com/tutorial-layout.html#fill-mode) cho phép trình phát Video.js thay đổi kích thước linh hoạt, nhưng vẫn nằm trong giới hạn của vùng chứa chính. Điều này tương tự với [Fluid Mode](https://docs.videojs.com/tutorial-layout.html#fluid-mode), nhưng đôi khi, hộp chứa của bạn đã được đặt đúng kích cỡ.
