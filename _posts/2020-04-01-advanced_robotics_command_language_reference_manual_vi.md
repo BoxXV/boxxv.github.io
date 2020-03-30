@@ -7,9 +7,10 @@ tags:
 - Tricks
 ---
 
-Đa luồng có thể cải thiện hiệu suất của các ứng dụng Windows Forms, nhưng việc truy cập vào các điều khiển của Windows Forms không phải là chủ đề an toàn. Đa luồng có thể làm lộ mã của bạn thành các lỗi rất nghiêm trọng và phức tạp. Hai hoặc nhiều luồng điều khiển một điều khiển có thể buộc điều khiển vào trạng thái không nhất quán và dẫn đến tình trạng race, bế tắc và đóng băng hoặc treo. Nếu bạn triển khai đa luồng trong ứng dụng của mình, hãy nhớ gọi điều khiển đa luồng theo cách an toàn cho luồng. Để biết thêm thông tin, hãy xem [Thực hành tốt nhất về quản lý luồng](https://docs.microsoft.com/en-us/dotnet/standard/threading/managed-threading-best-practices).
+[Advanced_Robotics_Command_Language_RefMan_en_201701_I617-E-01_tcm849-112545.pdf](http://products.omron.us/Asset/Advanced_Robotics_Command_Language_RefMan_en_201701_I617-E-01_tcm849-112545.pdf)
+[i617_advanced_robotics_command_language_reference_manual_en.pdf](https://assets.omron.eu/downloads/manual/en/v1/i617_advanced_robotics_command_language_reference_manual_en.pdf)
 
-Có hai cách để gọi điều khiển Windows Forms một cách an toàn từ một luồng không tạo điều khiển đó. Bạn có thể sử dụng phương thức `System.Windows.Forms.Control.Invoke` để gọi một đại biểu được tạo trong luồng chính, lần lượt gọi điều khiển. Hoặc, bạn có thể triển khai `System.ComponentModel.BackgroundWorker`, sử dụng mô hình hướng sự kiện để tách công việc được thực hiện trong luồng chạy nền khỏi báo cáo kết quả.
+
 
 
 ### 1. Unsafe cross-thread calls - Cuộc gọi giữa các luồng không an toàn
