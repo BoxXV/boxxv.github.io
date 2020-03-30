@@ -11,24 +11,8 @@ tags:
 [i617_advanced_robotics_command_language_reference_manual_en.pdf](https://assets.omron.eu/downloads/manual/en/v1/i617_advanced_robotics_command_language_reference_manual_en.pdf)
 
 
-
-
-### 1. Unsafe cross-thread calls - Cuộc gọi giữa các luồng không an toàn
-Sẽ không an toàn khi gọi điều khiển trực tiếp từ một luồng không tạo ra nó. Đoạn mã sau minh họa một cuộc gọi không an toàn đến điều khiển `System.Windows.Forms.TextBox`. Trình xử lý sự kiện `Button1_Click` tạo ra một luồng `WriteTextUnsafe` mới, trực tiếp đặt thuộc tính `TextBox.Text` của luồng chính.
-{% highlight js %}
-private void Button1_Click(object sender, EventArgs e)
-{
-    thread2 = new Thread(new ThreadStart(WriteTextUnsafe));
-    thread2.Start();
-}
-
-private void WriteTextUnsafe()
-{
-    textBox1.Text = "This text was set unsafely.";
-}
-{% endhighlight %}
-
-Trình gỡ lỗi Visual Studio phát hiện các cuộc gọi luồng không an toàn này bằng cách đưa ra một `InvalidOperationException` với thông báo, **Cross-thread operation not valid. Control "" accessed from a thread other than the thread it was created on.** InvalidOperationException luôn xảy ra đối với các cuộc gọi đa luồng không an toàn trong quá trình gỡ lỗi Visual Studio và có thể xảy ra khi chạy ứng dụng. Bạn nên khắc phục sự cố, nhưng bạn có thể vô hiệu hóa ngoại lệ bằng cách đặt thuộc tính `Control.CheckForIllegalCrossThreadCalls` thành false.
+### ARCL Reference Guide - Mobile Robots
+This is a PDF/print version of the ARCL Reference Guide. A Table of Contents is provided so that you can locate the desired topics. Because the ARCL Reference Guide was designed for online viewing,there may be slight formatting anomalies in the PDF/print version. Addi-tionally, links to external documents will not work in the PDF file.
 
 
 -----
