@@ -14,6 +14,10 @@ tags:
 ### ARCL Reference Guide - Mobile Robots
 This is a PDF/print version of the ARCL Reference Guide. A Table of Contents is provided so that you can locate the desired topics. Because the ARCL Reference Guide was designed for online viewing,there may be slight formatting anomalies in the PDF/print version. Addi-tionally, links to external documents will not work in the PDF file.
 
+Đây là phiên bản PDF / in của Hướng dẫn tham khảo ARCL. Mục lục được cung cấp để bạn có thể định vị các chủ đề mong muốn. Vì Hướng dẫn tham khảo ARCL được thiết kế để xem trực tuyến, có thể có sự bất thường về định dạng nhỏ trong phiên bản PDF / in. Ngoài ra, các liên kết đến các tài liệu bên ngoài sẽ không hoạt động trong tệp PDF.
+
+> LƯU Ý: Vui lòng xem tệp ReadMe, được bao gồm trong phần mềm Motivity của bạn, để biết mô tả về mọi thay đổi gần đây.
+
 
 -----
 ### 2. Safe cross-thread calls - Cuộc gọi giữa các luồng an toàn
