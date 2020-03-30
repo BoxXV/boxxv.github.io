@@ -30,10 +30,13 @@ Advanced Robotics Command Language (ARCL) là ngôn ngữ vận hành đơn gi�
 
 ARCL cho phép bạn vận hành và giám sát robot di động, phụ kiện và thiết bị tải trọng của nó qua mạng; nó được thiết kế để tự động hóa robot di động của bạn. Đối với mục đích gỡ lỗi, bạn có thể sử dụng Telnet hoặc PuTTY để truy cập các lệnh ARCL từ dấu nhắc lệnh.
 
-> 
+> ARCL allows you to submit jobs to the Enterprise Manager, and monitor the job status from start to finish. It also allows you to monitor payload information, if reported, by the robots in the fleet.
 
+ARCL cho phép bạn gửi công việc đến Enterprise Manager và theo dõi trạng thái công việc từ đầu đến cuối. Nó cũng cho phép bạn giám sát thông tin tải trọng, nếu được báo cáo, bởi các robot trong hạm đội.
 
-> 
+> The Enterprise Manager (EM) version of ARCL is for use with the Enterprise Manager software and appli ance. This hardware and software combination has been specially designed and configured to manage a fleet of robots operating in a facility. Therefore, it uses a minimal ARCL command set, because all of the crit- ical work is being handled directly by the appliance and Enterprise Manager software. 
+
+Phiên bản ARCL của Enterprise Manager (EM) được sử dụng với phần mềm Enterprise Manager và ứng dụng. Sự kết hợp phần cứng và phần mềm này đã được thiết kế và cấu hình đặc biệt để quản lý một đội robot hoạt động trong một cơ sở. Do đó, nó sử dụng một bộ lệnh ARCL tối thiểu, bởi vì tất cả các công việc quan trọng đang được xử lý trực tiếp bởi thiết bị và phần mềm Enterprise Manager.
 
 -----
 ### 3. Sử dụng phương thức Invoke với một delegate
