@@ -158,9 +158,29 @@ Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các k�
 ### Tự chọn chyên ngành
 #### Mô đun 1:
 67.	Bảo mật thông tin
-68.	Bảo mật thông tin
-69.	Bảo mật thông tin
-70.	Bảo mật thông tin
+68.	Lập trình hệ thống
+69.	Kiến trúc phần mềm mạng
+70.	Bảo mật mạng máy tính
+71.	Hệ thống máy tinh
+72.	Hệ phân tán
+73.	Truyền thông đa phương tiện
+74.	Hệ điều hành và quản trị mạng Linux theo chuẩn kỹ năng ITSS
+75.	Linux hệ nhúng theo chuẩn kỹ năng ITSS
+#### Mô đun 2:
+76.	Trí tuệ nhân tạo
+77.	Hệ thống thời gian thực
+78.	Mô hình hóa dữ liệu
+79.	Kỹ nghệ tri thức
+80.	Giao diện người dùng
+81.	Lập trình cấu trúc
+82.	Quản trị phát triển phần mềm
+83.	Phát triển phần mềm theo chuẩn kỹ năng ITSS
+84.	Quản trị dự án hệ nhúng theo chuẩn kỹ năng ITSS
+### Thực tập tốt nghiệp và Đồ án tốt nghiệp Kỹ sư
+85.	Nghiên cứu tốt nghiệp 3
+86.	Đồ án tốt nghiệp
+
+[https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view](https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view)
 
 
 
