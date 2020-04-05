@@ -1,12 +1,17 @@
 ---
 layout: post
-title: 80 sách Kinh doanh - Làm giàu hay nhất mọi thời đại
-subtitle: Tổng hợp 80 quyển sách vĩ đại về kinh doanh kinh điển nhất do tạp chí New York Times bình chọn, giúp đạt được giấc mơ làm giàu 
-description: Tổng hợp 80 quyển sách vĩ đại về kinh doanh kinh điển nhất do tạp chí New York Times bình chọn, giúp đạt được giấc mơ làm giàu 
+title: Tổng hợp Chương trình đào tạo ngành Công nghệ thông tin
+subtitle: Vì một tương lai rạng ngời
+description: Vì một tương lai rạng ngời
+tags:
+- CNTT
+- T3H
+- hust
+- Perfect
 image: "img/post-book-cover.png"
 ---
 
-✅ 18 Cuốn sách hay nhất về `TƯ DUY KINH DOANH` khác biệt của người thành công
+✅ Đào tạo lập trình viên chuyên nghiệp - Hệ thống đào tạo CNTT T3H - TTTH
 
 ✅ 19 Cuốn sách bán chạy nhất về làm chủ và đạt được thịnh vượng `TÀI CHÍNH` từ các doanh nhân và nhà đầu tư sừng sỏ
 
@@ -20,84 +25,60 @@ image: "img/post-book-cover.png"
 
 
 
-## 18 CUỐN SÁCH VỀ TƯ DUY KINH DOANH
+## [Hệ thống đào tạo CNTT T3H - TTTH](http://t3h.edu.vn)
 
-![placeholder](http://boxxv.com/img/post-book-img1.png "18 Cuốn sách về tư duy kinh doanh")
+### Học kỳ I: Lập trình Web PHP (4 tháng)
+1.	Tin học căn bản và tư duy lập trình
+2.	Anh văn giao tiếp
+3.	Kỹ năng thuyết trình và làm việc nhóm
+4.	Phong cách lập trình
+5.	Nhập môn lập trình Web (Xây dựng trang web với HTML/HTML5, CSS/CSS3, cắt và chuyển image thành web layout, tổng quan lập trình PHP)
+6.	PHP cơ bản (Lập trình HĐT, xây dựng ứng dụng Web đơn giản, sử dụng Web Services)
+7.	Kỹ thuật lập trình PHP (Lập trình HĐT nâng cao, kết hợp PHP & JavaScript, XML, tích hợp mã, hoàn chỉnh ứng dụng Web và upload website lên Internet)
+8.	Lập trình ứng dụng Web với PHP và MySQL (Quản trị cơ sở dữ liệu MySQL, PHP & MySQL, PDO, Smarty Template, Email, xây dựng Web Services)
+9.	Xây dựng hoàn chỉnh website(Xây dựng Web theo mô hình MVC, sử dụng những công nghệ tiên tiến như Ajax, Jquery, JSON, SEO…)
+10.	Đồ án học kỳ I
 
-1.	Think and Grow Rich - Suy nghĩ và làm giàu (Napoleon Hills)
-2.	Người giàu nhất thành Babylon (George Clason)
-3.	Bí quyết gây dựng cơ nghiệp bạc Tỷ (Adam Khoo)
-4.	Bí mật tư duy triệu phú (T. Harv Eker)
-5.	Thế giới phẳng (Thomas L. Friedman)
-6.	Cú Hích (Richard Thaler, Cass Sunstein)
-7.	Dám nghĩ lớn – The Magic Of Thinking BIG (David Schwartz)
-8.	Hẹn bạn trên đỉnh thành công (Zig Zig Lar)
-9.	Làm giàu một cách khoa học (Wallace D. Wattles)
-10.	Làm chủ tư duy, thay đổi vận mệnh (Adam Khoo)
-11.	Những mẩu chuyện hài hước trong kinh doanh của người Do Thái
-12.	Trí tuệ kinh doanh và lý thuyết trò
-13.	Binh pháp Tôn Tử và nghệ thuật kiếm tiền **
-14.	Những nguyên tắc cơ bản của việc kinh doanh **
-15.	48 nguyên tắc chủ chốt của quyền lực (Robert Greene) **
-16.	Tư duy đột phát – Breakthrough Thinking (Gerald Nadler, Shozo Hibino)
-17.	Dám thất bại – Dare to Fail (Billi P. S. Lim) **
-18.	Tiền không phải là vấn đề (Bob Proctor) **
 
-## 19 CUỐN SÁCH VỀ CHỦ ĐỀ TÀI CHÍNH
+### Học kỳ II: Lập trình công nghệ .NET (3,5 tháng)
 
-![placeholder](http://boxxv.com/img/post-book-img2.png "19 Cuốn sách về chủ đề tài chính")
+1.	Anh văn chuyên ngành
+2.	Kỹ năng mềm
+3.	Kỹ thuật lập trình .Net(Lập trình HĐT, xây dựng ứng dụng Windows Forms đơn giản, sử dụng Web Services)
+4.	Công nghệ ADO.Net và Entity Framework (LT HĐT nâng cao, làm việc với CSDL SQL Server, XML, LinQ, Entity Framework, hoàn chỉnh ứng dụng Windows Forms)
+5.	Lập trình Web với ASP.Net(Xây dựng hoàn chỉnh ứng dụng Web với ASP.Net)
+6.	Xây dựng ứng dụng Web với ASP.Net MVC 4.0 (Hoàn chỉnh ứng dụng web với ASP.Net MVC 4.0 sử dụng Razor View Engine, upload website lên Internet)
 
-1.	Sách lược đầu tư của Warren Buffet (Lý Thành Tư)
-2.	Nhà đầu tư thông minh (Ben Graham)
-3.	Thịnh vượng tài chính tuổi 30
-4.	Tư duy như những nhà Đầu tư vĩ đại (Colin Nicholson)
-5.	Cổ phiếu thường lợi nhuận phi thường (Philip A. Fisher)
-6.	Bí mật của vua Solomon (Bruce Fleet)
-7.	Dạy con làm giàu tập 1 - Để Không Có Tiền Vẫn Tạo Ra Tiền (Robert T. Kiyosaki)
-8.	Dạy con làm giàu tập 2 - Sử Dụng Đồng Vốn (Robert T. Kiyosaki)
-9.	Dạy con làm giàu tập 3 - Hướng Dẫn Đầu Tư (Robert T. Kiyosaki)
-10.	Dạy con làm giàu tập 4 - Con Giàu Con Thông Minh (Robert T. Kiyosaki)
-11.	Dạy con làm giàu tập 5 - Để Có Sức Mạnh Về Tài Chính‎ (Robert T. Kiyosaki)
-12.	Dạy con làm giàu tập 6 - Những câu chuyện thành công (Robert T. Kiyosaki)
-13.	Dạy con làm giàu tập 7 - Ai đã lấy tiền của tôi (Robert T. Kiyosaki)
-14.	Dạy con làm giàu tập 8 - Để Có Những Đồng Tiền Tích Cực (Robert T. Kiyosaki)
-15.	Dạy con làm giàu tập 9 - Những Bí Mật Về Tiền Bạc (Robert T. Kiyosaki)
-16.	Dạy con làm giàu tập 10 - Trước Khi Bạn Thôi Việc (Robert T. Kiyosaki)
-17.	Dạy con làm giàu tập 11 - Trường dạy kinh doanh (Robert T. Kiyosaki)
-18.	Đừng bận tâm về chuyện tiền bạc (Richard Carlson) **
-19.	Nghệ thuật quản lý tiền và tài sản của người Do Thái **
 
-## 8 CUỐN SÁCH VỀ MARKETING & SALES
+### Học kỳ III: Lập trình công nghệ Java
 
-![placeholder](http://boxxv.com/img/post-book-img3.png "8 Cuốn sách về marketing & sales")
+1.	Tiếng anh chuyên ngành
+2.	Thực hành kỹ năng lập dự án - lập trình
+3.	Java cơ bản(Lập trình HĐT, xây dựng ứng dụng J2SE đơn giản, sử dụng Web Services)
+4.	Kỹ thuật lập trình Java (Lập trình HĐT nâng cao, làm việc với XML DOM, CSDL MySQL/ Oracle, bảo mật, Design Patterns khi xây dựng ứng dụng)
+5.	Lập trình Web với Java(Xây dựng web J2EE theo mô hình MVC, xây dựng Web Services, bảo mật ứng dụng Web, hoàn chỉnh ứng dụng)
+6.	Công nghệ xây dựng ứng dụng Web trong Java(Sử dụng công nghệ EJB, mô hình Spring MVC, Hibernate, triển khai website lên các ứng dụng server như Tomcat EJB, Glassfish và Jboss…)
+7.	Đồ án tốt nghiệp Kỳ III
 
-1.	Nghệ thuật bán hàng bậc cao (Zig Zig Lar)
-2.	22 Quy luật bất biến trong Marketing (Al Ries & Jack Trout)
-3.	Người bán hàng vĩ đại nhất thế giới (OG Mandino)
-4.	100 ý tưởng tiếp thị tuyệt hay (Jim Blythe)
-5.	Cỗ máy bán hàng tối ưu (Chet Holmes) **
-6.	Nâng tầm dịch vụ (Ron Kaufman) **
-7.	1001 ý tưởng quảng cáo đột phát (Dupoint) **
-8.	Nghệ thuật bán hàng – giải mã thành công (Phạm Cao Tùng) **
+### Học kỳ IV: Lập trình công nghệ Java (Java Andoid)
 
-## 14 CUỐN SÁCH VỀ QUẢN TRỊ HAY NHẤT
-
-![placeholder](http://boxxv.com/img/post-book-img4.png "14 Cuốn sách về quản trị hay nhất")
-
-1.	Tuần làm việc 4 giờ (Tim Ferris)
-2.	Từ tốt đến vĩ đại (Jim Collins)
-3.	Đọc vị bất kỳ ai (Davis)
-4.	Phong cách lãnh đạo của các tập đoàn Nhật Bản
-5.	Con người 80/20 – 9 yếu tố cốt lõi của lãnh đạo thành công (Richard Koch)
-6.	Đừng bao giờ đi ăn một mình (Keith Ferrazzi)
-7.	Mỗi ngày tiết kiệm 1 giờ (Michael Heppell)
-8.	Tứ thư lãnh đạo – thuật xử thế (Hoà Nhân)
-9.	Thương gia Do Thái – bậc thầy kinh doanh (Trương Đổng Triết)
-10.	Góc nhìn người của người thông thái **
-11.	Nghiên cứu phong cách lãnh đạo của các doanh nhân Nhật Bản **
-12.	Nhà quản lý tài năng (Noriyuki Sasaki) **
-13.	Bí mật trị vì vương quốc đến quản lý công ty (Seldon Bowles)
-14.	Biết người, dùng người, quản người (Tạ Ngọc Ái)
+1.	Cài đặt môi trường Android, Cài đặt và chạy máy ảo Genimotion.
+2. Thực hành xử lý giao diện layout với các đối tượng Layout và view, Thực hành vẽ trong CustomView
+3. Thực hành in log và check các trạng thái của Activity bằng LogCat và các sự kiện Click của các View ánh xạ
+4. Chuyển đổi layout hiển thị giữa các Activity, xây dựng và trao đổi dữ liệu qua lại giữa Activity.
+5. Thực hành với các dạng Drawable android để tạo giao diện các layout, Custome giao diện Progressbar, button, Editext, TextView, Các bài toán Animation dùng AnimationDrawable===> Tạo mini Game ứng dụng.
+6. Xử lý Thread trong Android và viết các ứng dụng.
+7. Viết ứng dụng đa nhiệm với các đối tượng Handler, Đối tượng Asyntask
+8. Xây dựng danh sách item animal bằng ListView, ScrollView và Xây dựng Navigation bar và các page hiển thị.
+9. Thực hành xây dựng màn hình giao diện bằng Fragment
+10. Thực hành xây dựng database cho Game.
+11. Thực hành xây dựng broadcast lắng nghe các thao tác của người dùng, xây dựng Servicelocal và remote.
+12. Lấy và hiển thị danh sách các bài hát trong bộ nhớ External bằng ListView, xây dựng giao diện chơi nhạc, sử dụng MediaPlayer.
+13. Thực hành sử dụng đối tượng SoudPool để chơi các bài nhạc game, Xây dựng LiveWallPaper ứng dụng
+14. Viết ứng dụng đa phương tiện với Đối tượng GoogleMap, thực hành lồng khung tranh vào layout và chụp ảnh bằng đối tượng CameraCamera , xây dựng View để soạn tin nhắn, nhắn tin trên screen, sử dụng WindowManager và Service WindowManager,.....
+15. Xây dựng các phương thức đổi màu background của layout để test bộ cảm biến trên thiết bị.
+16. Thực hành xây dựng kết nối client-server để chat text
+17. Xây dựng các ứng dụng App/ Game chất lượng cao, fix bug.
 
 ## 16 CUỐN SÁCH LỜI KHUYÊN KINH DOANH
 
