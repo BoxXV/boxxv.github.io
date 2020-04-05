@@ -7,17 +7,20 @@ tags:
 - CNTT
 - T3H
 - hust
-- Perfect
+- lịch học khoa công nghệ thông tin đại học bách khoa hà nội
 image: "img/post-book-cover.png"
 ---
 
 ✅ Đào tạo lập trình viên chuyên nghiệp | Hệ thống đào tạo CNTT T3H - TTTH
 
+
 ✅ Chương trình tiên tiến Công nghệ thông tin Việt- Nhật | Đại học Bách Khoa Hà Nội
 
 
+-----
 
-## [Hệ thống đào tạo CNTT T3H - TTTH](http://t3h.edu.vn)
+
+## ✅ [Hệ thống đào tạo CNTT T3H - TTTH](http://t3h.edu.vn)
 
 ### Học kỳ I: Lập trình Web PHP (4 tháng)
 1.	Tin học căn bản và tư duy lập trình
@@ -80,7 +83,11 @@ image: "img/post-book-cover.png"
 3. Đồ án tốt ngiệp - Chọn nghề ra trường
 
 
-## [Công nghệ thông tin Việt-Nhật](https://ts.hust.edu.vn/nganh-dao-tao/cong-nghe-thong-tin-viet-nhat)
+
+-----
+
+
+## ✅ [Công nghệ thông tin Việt-Nhật](https://ts.hust.edu.vn/nganh-dao-tao/cong-nghe-thong-tin-viet-nhat)
 
 Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các kỹ sư CNTT tương đương với các kỹ sư người Nhật, được đào tạo tại các trường đại học CNTT tại Nhật Bản. Ra trường, các kỹ sư CNTT Việt Nhật có thể được tuyển dụng sang Nhật Bản làm việc ngay với vị trí công việc và mức thu nhập tương đương các kỹ sư CNTT Nhật Bản.
 
