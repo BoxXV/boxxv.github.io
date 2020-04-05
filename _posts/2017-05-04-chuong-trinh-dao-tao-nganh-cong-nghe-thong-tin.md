@@ -123,8 +123,44 @@ Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các k�
 32.	Hệ điều hành
 33.	Mạng máy tính
 34.	Lý thuyết và ngôn ngữ hướng đối tượng
-35.	Toán rời rạc
-36.	Toán rời rạc
+35.	C Programming Language
+36.	C Programming (Introduction)
+37.	Lập trình C cơ bản
+38.	Lập trình C (nâng cao)
+39.	Đạo đức máy tính
+40.	Lý thuyết mạch logic
+41.	Thực hành mạch logic
+42.	Thực hành kiến trúc máy tính
+43.	Kiến trúc máy tính
+44.	Thực hành cơ sở dữ liệu
+45.	Cơ sở dữ liệu
+46.	Cấu trúc dữ liệu và giải thuật
+47.	Xây dựng chương trình dịch
+48.	Hệ thống thông tin trên Web
+49.	Thực hành Lập trình mạng
+50.	Kỹ thuật phần mềm
+51.	Thực hành xây dựng chương trình dịch
+52.	Thực hành Lập trình Web
+53.	Lý thuyết thông tin
+54.	Mạng Internet
+55.	Thực tập công nghiệp
+56.	Nghiên cứu tốt nghiệp 1
+57.	Nghiên cứu tốt nghiệp 2
+58.	Math I
+59.	Math II
+60.	Math III
+61.	Math IV
+62.	Lý thuyết xác suất
+63.	Vật lý
+64.	Vật lý
+65.	Tiếng anh 2
+66.	TOEIC II
+### Tự chọn chyên ngành
+#### Mô đun 1:
+67.	Bảo mật thông tin
+68.	Bảo mật thông tin
+69.	Bảo mật thông tin
+70.	Bảo mật thông tin
 
 
 
