@@ -11,17 +11,9 @@ tags:
 image: "img/post-book-cover.png"
 ---
 
-✅ Đào tạo lập trình viên chuyên nghiệp - Hệ thống đào tạo CNTT T3H - TTTH
+✅ Đào tạo lập trình viên chuyên nghiệp | Hệ thống đào tạo CNTT T3H - TTTH
 
-✅ 19 Cuốn sách bán chạy nhất về làm chủ và đạt được thịnh vượng `TÀI CHÍNH` từ các doanh nhân và nhà đầu tư sừng sỏ
-
-✅ 8 Cuốn sách tiêu biểu về `MARKETING & SALES`, giúp bán được nhiều hàng, tạo dựng thương hiệu lớn
-
-✅ 14 Cuốn sách kinh điển về `QUẢN TRỊ`, giúp bạn quản lý thật tốt công việc kinh doanh của mình
-
-✅ 16 Sách lời khuyên kinh doanh
-
-✅ 7 Câu chuyện truyền cảm hứng từ các tập đoàn lớn và doanh nhân thành công nhất
+✅ Chương trình tiên tiến Công nghệ thông tin Việt- Nhật | Đại học Bách Khoa Hà Nội
 
 
 
@@ -79,36 +71,71 @@ image: "img/post-book-cover.png"
 15. Xây dựng các phương thức đổi màu background của layout để test bộ cảm biến trên thiết bị.
 16. Thực hành xây dựng kết nối client-server để chat text
 17. Xây dựng các ứng dụng App/ Game chất lượng cao, fix bug.
+18.  Đồ án tốt nghiệp Kỳ IV
 
-## 16 CUỐN SÁCH LỜI KHUYÊN KINH DOANH
+### Học kỳ V: THỰC TẬP - ĐỒ ÁN TỐT NGHỆP
 
-![placeholder](http://boxxv.com/img/post-book-img5.png "16 Cuốn sách lời khuyên kinh doanh")
+1. Thực tại doanh nghiệp
+2. Kỹ năng viết CV và phỏng vấn tuyển dụng
+3. Đồ án tốt ngiệp - Chọn nghề ra trường
 
-1.	Mặc kệ nó, làm tới đi (Richard Branson)
-2.	Những nguyên tắc thành công (Jack Canfield)
-3.	Tam quốc diễn nghĩa @ (Thành Quân Ức)
-4.	Cách sống từ bình thường trở nên phi thường (Inamori Kazuo)
-5.	Đánh thức con người phi thường trong bạn (Tony Robbins)
-6.	80 chiêu thức thành công trong kinh doanh (Vương Chí Cương)
-7.	100 quy luật bất biến để thành công trong kinh doanh (Brian Tracy)
-8.	999 bí quyết vàng trong kinh doanh
-9.	Dám làm giàu (Phạm Tuấn Sơn)
-10.	Thành công không còn là bí mật (Noah St. Jonhson)
-11.	Kinh doanh bằng tâm lý (Brian Tracy)
-12.	101 Trí Tuệ người Do Thái (Đàm Đức) **
-13.	9 loại người bạn cần phòng tránh (Trương Lăng Tùng) **
-14.	Chi tiết quyết định sự thành bại (Uông Trung Cầu) **
-15.	Vị giám đốc 1 phút (Ken Blanchard) **
-16.	11 lời khuyên dành cho thế hệ trẻ của Bill Gates **
 
-## 7 CÂU CHUYỆN KINH DOANH CẢM HỨNG
+## [Công nghệ thông tin Việt-Nhật](https://ts.hust.edu.vn/nganh-dao-tao/cong-nghe-thong-tin-viet-nhat)
 
-![placeholder](http://boxxv.com/img/post-book-img6.png "7 Câu chuyện kinh doanh cảm hứng")
+Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các kỹ sư CNTT tương đương với các kỹ sư người Nhật, được đào tạo tại các trường đại học CNTT tại Nhật Bản. Ra trường, các kỹ sư CNTT Việt Nhật có thể được tuyển dụng sang Nhật Bản làm việc ngay với vị trí công việc và mức thu nhập tương đương các kỹ sư CNTT Nhật Bản.
 
-1.	Tứ đại quyền lực (Scott Galloway)
-2.	Quốc gia khởi nghiệp (Dan Senor, Saul Singer)
-3.	Sách đen về tinh thần doanh nhân (Fernando Trías De Bes)
-4.	Bạch Thái Bưởi – khẳng định doanh tài nước Việt **
-5.	Henry Ford – đặt thế giới lên 4 bánh xe
-6.	Bí mật của may mắn
-7.	Steve Jobs – Sức mạnh của sự khác biệt **
+### Lý luận chính trị + Pháp luật đại cương
+1.	Những NLCB của CN Mác-Lênin I
+2.	Những NLCB của CN Mác-Lênin
+3.	Tư tưởng Hồ Chí Minh
+4.	Đường lối CM của Đảng CSVN
+5.	Pháp luật đại cương
+### Giáo dục thể chất
+6.	Lý luận thể dục thể thao (bắt buộc)
+7.	Bơi lội (bắt buộc)
+8.	Tự chọn thể dục 1
+9.	Tự chọn thể dục 2
+10.	Tự chọn thể dục 3
+### Giáo dục Quốc phòng - An ninh (165 tiết)
+11.	Đường lối quân sự của Đảng
+12.	Công tác quốc phòng, an ninh
+13.	QS chung và chiến thuật, kỹ thuật bắn súng tiểu liên AK (CKC)
+### Cơ sở ngành bắt buộc
+14.	Tiếng Anh VN VI
+15.	Tiếng Nhật 1
+16.	Tiếng Nhật 2
+17.	Tiếng Nhật 3
+18.	Tiếng Nhật 4
+19.	Tiếng Nhật 5
+20.	Tiếng Nhật 6
+21.	Tiếng Nhật 7
+22.	Tiếng Nhật 8
+23.	Tiếng Nhật chuyên ngành 1
+24.	Tiếng Nhật chuyên ngành 2
+25.	Tiếng Nhật chuyên ngành 3
+### Chuyên ngành bắt buộc
+26.	Hoá học đại cương
+27.	Kỹ thuật điện
+28.	Kỹ thuật điện tử
+29.	Nhập môn CNTT và TT
+30.	Kiến thức máy tính
+31.	Toán rời rạc
+32.	Hệ điều hành
+33.	Mạng máy tính
+34.	Lý thuyết và ngôn ngữ hướng đối tượng
+35.	Toán rời rạc
+36.	Toán rời rạc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
