@@ -189,6 +189,14 @@ Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các k�
 
 [https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view](https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view)
 
+https://drive.google.com/drive/u/0/folders/1uFHx5hG6Y0008BRw4lkfjM3phAbPlixV
+
+https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-chuan
+
+https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-quoc-te
+
+https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-elitech
+
 
 
 
