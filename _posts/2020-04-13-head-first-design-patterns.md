@@ -46,161 +46,19 @@ Joe làm việc cho một công ty rất thành công trò chơi mô phỏng v�
 
 ![tempsnip](http://boxxv.com/img/patterns/tempsnip.png "tempsnip")_tempsnip_
 
+Trong năm ngoái, công ty đã chịu áp lực ngày càng tăng từ các đối thủ cạnh tranh. Sau một tuần “động não” ngoài sân golf, các giám đốc điều hành của công ty nghĩ rằng đây là thời gian cho một sự thay đổi lớn. Công ty cần một cái gì đó thực sự ấn tượng để trình bày tại cuộc họp cổ đông sắp tới ở Maui.
 
-### Layouts
+**Nhưng bây giờ chúng tôi cần những con vịt BAY**
 
-- Introduction
-- Defining and inflating a layout
-- Using RelativeLayout
-- Using LinearLayout
-- Creating tables – TableLayout and GridLayout
-- RecyclerView replaces ListView
-- Changing layout properties during runtime 
+Giám đốc điều hành đã quyết định rằng vịt biết bay là thứ mà trình giả lập cần để thổi bay các đối thủ cạnh tranh khác. Và tất nhiên, người quản lý của Joe, nói với anh rằng nó sẽ không có vấn đề gì nên chỉ cần làm gì đó trong một tuần. “Sau tất cả”, ông chủ của Joe nói, “Khi anh ấy là một lập trình viên OO … nó sẽ khó đến mức nào?”
 
+“Tôi chỉ cần thêm một phương thức fly() trong lớp Duck và sau đó tất cả các con vịt sẽ thừa hưởng nó. Bây giờ, thời gian của tôi để thực sự thể hiện tài năng OO thực sự của tôi.” 
 
-### Views, Widgets, and Styles 
-
-- Introduction
-- Inserting a widget into a layout
-- Using graphics to show button state
-- Creating a widget at runtime
-- Creating a custom component
-- Applying a style to a View
-- Turning a style into a theme
-- Selecting a theme based on the Android version
+![pasted](http://boxxv.com/img/patterns/pastedimage0.png "pasted")_pasted_
 
 
-### Menus and Action Mode 
-
-- Introduction
-- Creating an options menu
-- Modifying menus and menu items during runtime
-- Enabling Contextual Action Mode for a view
-- Using Contextual Batch Mode with RecyclerView
-- Creating a pop-up menu 
 
 
-###  Fragments
-
-- Introduction
-- Creating and using a Fragment
-- Adding and removing Fragments during runtime
-- Passing data between Fragments
-- Handling the Fragment back stack 
-
-
-### Home Screen Widgets, Search, and the System UI
-
-- Introduction
-- Creating a shortcut on the Home screen
-- Creating a Home screen widget
-- Adding Search to the Action Bar
-- Showing your app full-screen 
-
-
-### Data Storage
-
-- Introduction
-- Storing simple data
-- Read and write a text file to internal storage
-- Read and write a text file to external storage
-- Including resource files in your project
-- Creating and using an SQLite database
-- Accessing data in the background using a Loader
-- Accessing external storage with scoped directories in Android N 
-
-
-### Alerts and Notifications
-
-- Introduction
-- Lights, Action, and Sound – getting the user's attention!
-- Creating a Toast with a custom layout
-- Displaying a message box with AlertDialog
-- Displaying a progress dialog
-- Lights, Action, and Sound Redux using Notifications
-- Creating a Media Player Notification
-- Making a Flashlight with a Heads-Up Notification
-- Notifications with Direct Reply 
-
-
-### Using the Touchscreen and Sensors 
-
-- Introduction
-- Listening for click and long-press events
-- Recognizing tap and other common gestures
-- Pinch-to-zoom with multi-touch gestures
-- Swipe-to-Refresh
-- Listing available sensors – an introduction to the Android Sensor Framework
-- Reading sensor data – using Android Sensor Framework events
-- Reading device orientation 
-
-
-### Graphics and Animation 
-
-- Introduction
-- Scaling down large images to avoid Out of Memory exceptions
-- A transition animation – defining scenes and applying a transition
-- Creating a Compass using sensor data and RotateAnimation
-- Creating a slideshow with ViewPager
-- Creating a Card Flip Animation with Fragments
-- Creating a Zoom Animation with a Custom Transition
-- Displaying animated image (GIF/WebP) with the new ImageDecoder library
-- Creating a circle image with the new ImageDecoder 
-
-
-### A First Look at OpenGL ES
-
-- Introduction
-- Setting up the OpenGL ES environment
-- Drawing shapes on GLSurfaceView
-- Applying the projection and camera view while drawing
-- Moving the triangle with rotation
-- Rotating the triangle with user input 
-
-
-### Multimedia
-
-- Introduction
-- Playing sound effects with SoundPool
-- Playing audio with MediaPlayer
-- Responding to hardware media controls in your app
-- Taking a photo with the default camera app
-- Taking a picture using the Camera2 API 
-
-
-### Telephony, Networks, and the Web 
-
-- Introduction
-- How to make a phone call
-- Monitoring phone call events
-- How to send SMS (text) messages
-- Receiving SMS messages
-- Displaying a web page in your application
-- Checking online status and connection type
-- Phone number blocking API 
-
-
-### Location and Using Geofencing 
-
-- Introduction
-- How to get the device location
-- Resolving problems reported with the GoogleApiClient OnConnectionFailedListener
-- Creating and monitoring a Geofence 
-
-
-### Getting Your App Ready for the Play Store 
-
-- Introduction
-- The Android 6.0 Runtime Permission Model
-- How to schedule an alarm
-- Receiving notification of device boot
-- Using the AsyncTask for background work
-- Adding speech recognition to your app
-- How to add Google sign-in to your app 
-
-### Getting Started with Kotlin 
-
-- Introduction
-- How to create an Android project with Kotlin
-- Creating a Toast in Kotlin
-- Runtime permission in Kotlin 
+Tham khảo:
+- [Bài dịch Head First Design Patterns Tiếng Việt](https://toihocdesignpattern.com/dich-sach/head-first-design-patterns)
+- [Head First Design Patterns: A Brain-Friendly Guide](https://www.amazon.com/Head-First-Design-Patterns-Brain-Friendly/dp/0596007124)
