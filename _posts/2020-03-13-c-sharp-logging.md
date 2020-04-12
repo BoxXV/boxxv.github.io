@@ -55,6 +55,18 @@ catch (Exception ex)
 }
 {% endhighlight %}
 
+```csharp
+try
+{
+	_log.Debug("About to do something");
+	// ...
+}
+catch (Exception ex)
+{
+	_log.Error("Doing something failed with", ex);
+}
+```
+
 Trong Ghi Log có cấu trúc, chúng ta cũng thêm các trường có cấu trúc vào thông báo. Đó là, chúng ta đã đánh dấu một số dữ liệu dưới dạng các trường và đặt tên cho nó. Sau đó, chúng ta sẽ có thể tìm kiếm trong các trường đó, lọc theo chúng và thu thập dữ liệu. Theo thư viện ghi Log của bạn, một thông điệp tường trình có cấu trúc có thể trông giống như thế này:
 {% highlight js %}
 var requestInfo = new { Url = "https://myurl.com/data", Payload = 12 };
