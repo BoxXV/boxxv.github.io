@@ -33,17 +33,18 @@ subtitle: Your brain on Design Patterns
 ✅ Chapter 13: Better Living with Patterns
 
 
-### Activities
+-----
+### Chương 1: Strategy Pattern (Mẫu chiến lược)
 
-- Introduction
-- Declaring an activity
-- Starting a new activity with an intent object
-- Switching between activities
-- Passing data to another activity
-- Returning a result from an activity
-- Saving an activity's state
-- Storing persistent activity data
-- Understanding the activity life cycle 
+**Strategy Pattern – Chào mừng đến với Design Patterns**
+
+Ai đó đã giải quyết những vấn đề của bạn. Trong chương này Strategy Pattern (Mẫu chiến lược), bạn sẽ học được lý do tại sao (và làm thế nào) bạn có thể khai thác kiến thức và kinh nghiệm của những developer khác. Trước khi chúng ta hoàn thành, chúng ta sẽ xem xét việc sử dụng và lợi ích của các mẫu thiết kế, xem xét một số nguyên tắc thiết kế OO chính và xem qua một ví dụ về cách một mẫu hoạt động. Cách tốt nhất để sử dụng các mẫu là suy nghĩ về chúng và sau đó nhận ra nơi nào cần sử dụng trong thiết kế của bạn và các ứng dụng hiện có, nơi bạn có thể áp dụng chúng. Thay vì tự viết code, với các mẫu thiết kế bạn có được kinh nghiệm sử dụng lại code (reuse code).
+
+**Bắt đầu với một ứng dụng SimUDuck đơn giản**
+
+Joe làm việc cho một công ty rất thành công trò chơi mô phỏng vịt, SimUDuck. Trò chơi có thể hiển thị rất nhiều loài vịt bơi và tạo ra âm thanh “quack quack”. Thiết kế ban đầu của hệ thống đã sử dụng các kỹ thuật OO tiêu chuẩn và tạo ra một superclass Duck mà tất cả các loại vịt khác sẽ kế thừa nó.
+
+![tempsnip](http://boxxv.com/img/patterns/tempsnip.png "tempsnip")_tempsnip_
 
 
 ### Layouts
