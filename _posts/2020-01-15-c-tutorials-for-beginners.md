@@ -7,15 +7,17 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 
 ✅ [Lập trình C# trong 5 tuần – Cơ bản](https://drive.google.com/drive/folders/0B4fU5__VXkIkX0JxNkpRWDdsUjA)  
 ✅ [Lập trình C# trong 5 tuần – Nâng cao](https://drive.google.com/drive/folders/0B4fU5__VXkIkZE54cXctU3ZUeG8)  
+
+✅ [Lập trình C# cơ bản - HowKteam](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)  
+✅ [Lập trình C# nâng cao - Howkteam](https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU)  
+
 ✅ [Làm chủ C/C++ trong 4 tuần](https://drive.google.com/drive/folders/1oyYBMPmcjFqimVDSLtBGdpEyOdYhKqVt)  
 ✅ [Thành thạo C++ qua 108 bài học](https://drive.google.com/drive/folders/1JlaZLRSxu-Ckx_QFOaZSUqm6gysU48gD)  
 ✅ [Lập trình hướng đối tượng C++ trên Visual Studio](https://www.youtube.com/playlist?list=PLrELTMOV6omz9OUfGUE0WxRrBzju1CzKE)  
 ✅ [Làm chủ C/C++ trong 4 tuần](https://www.youtube.com/playlist?list=PLq-dyFJDwDFwdCel5fMLb5g3eVyLJJgdb) ([Youtube](https://www.youtube.com/playlist?list=PLZ-6-jOIPiw0suqnQfXgK51bgnQG8r1jo))  
-✅ [Lập trình C# cơ bản - HowKteam](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)  
 ✅ [Hướng dẫn lập trình C# cho người mới bắt đầu](https://www.youtube.com/playlist?list=PLRhlTlpDUWsyOEc-S8ovGVG5L92mZEjVu)  
 ✅ [C# tutorial for beginners](https://www.youtube.com/playlist?list=PLAC325451207E3105)  
 ✅ [Lập trình C# Winform cơ bản](https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS)  
-✅ [CSharp] [Khóa học lập trình C# nâng cao - Howkteam](https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU)  
 ✅ [Học lập trình c++ cơ bản cho người mới học](https://www.youtube.com/playlist?list=PLfuyf4LvBOUpoB8Hai9-TMiANbjv5IiJx)  
 ✅ [Học C++ cơ bản | Học lập trình C++ cơ bản](https://www.youtube.com/playlist?list=PLZEIt444jqpD6NUtMg5X6Y3T4lYqcudO9)  
 ✅ [Lập trình C++ cơ bản - HowKteam](https://www.youtube.com/playlist?list=PL33lvabfss1xagFyyQPRcppjFKMQ7lvJM)  
@@ -82,6 +84,18 @@ Lập trình C# trong 5 tuần – Nâng cao khóa học cung cấp kiến thứ
 
 
 -----
+### Lập trình C# cơ bản - HowKteam
+_K team &#9679; 28 videos &#9679; Oct 12, 2018_  
+[https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)
+
+
+-----
+### [CSharp] Khóa học lập trình C# nâng cao - Howkteam
+_K team &#9679; 12 videos &#9679; Sep 18, 2018_  
+[https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU](https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU)
+
+
+-----
 ### Làm chủ C/C++ trong 4 tuần
 Làm chủ C/C++ trong 4 tuần  khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình C/C++. Bao gồm các kỹ thuật lập trình trên các kiểu dữ liệu cơ bản, các phát biểu lựa chọn, câu lệnh điều khiển, vòng lặp, mảng, con trỏ, kiểu cấu trúc.
 - Có thể phân tích thiết kế thuật giải bài toán từ đơn giản đến phức tạp
@@ -130,11 +144,6 @@ _Việt Phan &#9679; 109 videos &#9679; Aug 24, 2018_
 [https://www.youtube.com/playlist?list=PLq-dyFJDwDFwdCel5fMLb5g3eVyLJJgdb](https://www.youtube.com/playlist?list=PLq-dyFJDwDFwdCel5fMLb5g3eVyLJJgdb)  
 [https://www.youtube.com/playlist?list=PLZ-6-jOIPiw0suqnQfXgK51bgnQG8r1jo](https://www.youtube.com/playlist?list=PLZ-6-jOIPiw0suqnQfXgK51bgnQG8r1jo)  
 
------
-### Lập trình C# cơ bản - HowKteam
-_K team &#9679; 28 videos &#9679; Oct 12, 2018_  
-[https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK](https://www.youtube.com/playlist?list=PL33lvabfss1wUj15ea6W0A-TtDOrWWSRK)
-
 
 -----
 ### Hướng dẫn lập trình C# cho người mới bắt đầu
@@ -152,12 +161,6 @@ _kudvenkat &#9679; 102 videos &#9679; Dec 18, 2019_
 ### Lập trình C# Winform cơ bản
 _K team &#9679; 26 videos &#9679; Jan 3, 2017_  
 [https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS](https://www.youtube.com/playlist?list=PL33lvabfss1y2T7yK--YZJHCsU7LZVzBS)
-
-
------
-### [CSharp] Khóa học lập trình C# nâng cao - Howkteam
-_K team &#9679; 12 videos &#9679; Sep 18, 2018_  
-[https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU](https://www.youtube.com/playlist?list=PL33lvabfss1y5jmklzilr2W2LZiltk6bU)
 
 
 -----
