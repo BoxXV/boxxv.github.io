@@ -164,96 +164,63 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 ### Chapter 5. Concurrent Data Structures
 
-5.1 Using a Custom Font
+5.1 Simplifying Thread Safety
 
-5.2 Drawing a Spinning Cube with OpenGL ES
+5.2 Lazy<T>
 
-5.3 Adding Controls to the OpenGL Spinning Cube
+5.3 Concurrent Collections
 
-5.4 Freehand Drawing Smooth Curves
+5.4 ConcurrentDictionary<K,V>
+- Locking Mechanics
 
-5.5 Taking a Picture Using an Intent
+5.5 ConcurrentQueue<T> and ConcurrentStack<T>
 
-5.6 Taking a Picture Using android.media.Camera
+5.6 ConcurrentBag<T>
 
-5.7 Scanning a Barcode or QR Code with the Google ZXing Barcode Scanner
+5.7 Blocking Collections
+- Graceful Shutdown
+- Consuming Enumerable
+- BlockingCollection of X
 
-5.8 Using AndroidPlot to Display Charts and Graphs
+5.8 Summary
 
-5.9 Using Inkscape to Create an Android Launcher Icon from OpenClipArt.org
+-----
 
-5.10 Using Paint.NET to Create Launcher Icons from OpenClipArt.org
+### Chapter 6. Asynchronous UI
 
-5.11 Using Nine Patch Files
+6.1 UI Mechanics
 
-5.12 Creating HTML5 Charts with Android RGraph
+6.2 UI Threading Model
 
-5.13 Adding a Simple Raster Animation
+6.3 Synchronization Context
+- Send and Post
+- Task Continuations
+- Event-Based Asynchronous Pattern (EAP)
+- Background Worker
 
-5.14 Using Pinch to Zoom
+6.4 Data Binding
+- Windows Forms
+- Windows Presentation Foundation (WPF)
+- WinRT
 
+6.5 WPF Dispatcher
+- Obtaining the Dispatcher
+- Executing Work Through the Dispatcher
 
-### 6. Graphical User Interface
+6.6 WinRT Dispatcher
+- Obtaining the Dispatcher
+- Executing Work Through the Dispatcher
 
-6.1 Understanding and Following User Interface Guidelines
+6.7 UI Timers
+- Windows Forms Timer
+- WinRT and WPF Dispatch Timers
 
-6.2 Looking Good with Material Design
+6.8 WPF Freezable Components
 
-6.3 Choosing a Layout Manager (a.k.a. ViewGroup) and Arranging Components
+6.9 Too Much of a Good Thing
 
-6.4 Handling Configuration Changes by Decoupling the View from the Model
+6.10 Summary
 
-6.5 Controlling the Action Bar
-
-6.6 Adding a Share Action to Your Action Bar
-
-6.7 Building Modern UIs with the Fragment API
-
-6.8 Creating a Button and Its Click Event Listener
-
-6.9 Enhancing UI Design Using Image Buttons
-
-6.10 Using a FloatingActionButton
-
-6.11 Wiring Up an Event Listener in Many Different Ways
-
-6.12 Using CheckBoxes and RadioButtons
-
-6.13 Using Card Widgets
-
-6.14 Offering a Drop-Down Chooser via the Spinner Class
-
-6.15 Handling Long-Press/Long-Click Events
-
-6.16 Displaying Text Fields with TextView and EditText
-
-6.17 Constraining EditText Values with Attributes and the TextWatcher Interface
-
-6.18 Implementing AutoCompleteTextView
-
-6.19 Feeding AutoCompleteTextView Using a SQLite Database Query
-
-6.20 Turning Edit Fields into Password Fields
-
-6.21 Changing the Enter Key to “Next” on the Soft Keyboard
-
-6.22 Processing Key-Press Events in an Activity
-
-6.23 Let Them See Stars: Using RatingBar
-
-6.24 Making a View Shake
-
-6.25 Providing Haptic Feedback
-
-6.26 Navigating Different Activities Within a TabView
-
-6.27 Creating a Loading Screen that Will Appear Between Two Activities
-
-6.28 Adding a Border with Rounded Corners to a Layout
-
-6.29 Detecting Gestures in Android
-
-6.30 Creating a Simple App Widget
 
 
 ### 7. GUI Alerts: Menus, Dialogs, Toasts, Snackbars, and Notifications
