@@ -382,12 +382,25 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 14. Social Networking
+### Chapter 14. Debugging Async—Beyond Visual Studio
 
-14.1 Authenticating Users with OAUTH2
+14.1 Memory Dumps
 
-14.2 Integrating Social Networking Using HTTP
+14.2 Generating a Memory Dump
+- Task Manager
+- DebugDiag
+- ADPLUS
 
-14.3 Loading a User’s Twitter Timeline Using HTML or JSON
+14.3 Analyzing Memory Dump
+- WinDbg
+- SOS
+- SOSEX
+- PSSCOR
+
+14.4 Summary
 
 
+-----
+
+https://www.apress.com/gp/book/9781430259206  
+https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205
