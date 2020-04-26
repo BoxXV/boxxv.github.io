@@ -281,49 +281,31 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 10. Data Persistence
+### Chapter 10. TPL Dataflow
 
-10.1 Reading and Writing Files in Internal and External Storage
+10.1 The Building Blocks
 
-10.2 Getting File and Directory Information
+10.2 Producer and Consumer Revisited
 
-10.3 Reading a File Shipped with the App Rather than in the Filesystem
+10.3 Linking Blocks
+- Transform Block
+- Transform Many Block
+- Linking to Multiple Targets
 
-10.4 Getting Space Information About the SD Card
+10.4 Shutting Down Gracefully
+- Propagating Completion
+- Error Handling
+- Cancellation
 
-10.5 Providing a Preference Activity
+10.5 Glue Blocks
+- Buffer Block
+- Batch Block
+- Broadcast Block
+- Joining
 
-10.6 Checking the Consistency of Default Shared Preferences
+10.6 Asynchronous Blocks
 
-10.7 Using a SQLite Database in an Android Application
-
-10.8 Performing Advanced Text Searches on a SQLite Database
-
-10.9 Working with Dates in SQLite
-
-10.10 Exposing Non-SQL Data as a SQL Cursor
-
-10.11 Displaying Data with a CursorLoader
-
-10.12 Parsing JSON Using JSONObject
-
-10.13 Parsing an XML Document Using the DOM API
-
-10.14 Storing and Retrieving Data via a Content Provider
-
-10.15 Writing a Content Provider
-
-10.16 Adding a Contact Through the Contacts Content Provider
-
-10.17 Reading Contact Data Using a Content Provider
-
-10.18 Implementing Drag and Drop
-
-10.19 Sharing Files via a FileProvider
-
-10.20 Backing Up Your SQLite Data to the Cloud with a SyncAdapter
-
-10.21 Storing Data in the Cloud with Google Firebase
+10.7 Summary
 
 -----
 
