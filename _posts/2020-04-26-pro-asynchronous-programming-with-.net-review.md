@@ -84,65 +84,85 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 ### Chapter 3. Tasks
 
-3.1 Setting Up an Android Virtual Device (AVD) for App Testing
+3.1 What Is a Task?
 
-3.2 Testing on a Wide Range of Devices with Cloud-Based Testing
+3.2 Creating a Compute-Based Task
+- Passing Data into a Task
+- Dangers of Closures
 
-3.3 Testing with Eclipse and JUnit
+3.3 Returning Data from a Task
+- Creating I/O-Based Tasks
 
-3.4 Testing with Android Studio and JUnit
+3.4 Error Handling
+- Ignoring Errors
+  + .NET 4.0
+  + .NET 4.5
+- Designing Task-Based APIs
+- Cancellation
+- Progress
 
-3.5 Testing with Robolectric and JUnit 4
+3.5 Task Relationships
+- Chaining Tasks (Continuations)
+  + Why Use Continuations?
+- Nested and Child Tasks
+  + Why Use Child Tasks?
 
-3.6 Testing with ATSL, Espresso, and JUnit 4
+3.6 Conclusion
 
-3.7 Troubleshooting Application Crashes
+-----
 
-3.8 Debugging Using Log.d() and LogCat
+### Chapter 4. Basic Thread Safety
 
-3.9 Getting Bug Reports Automatically with Crash Reporting
+4.1 Asynchrony and Data
+- It’s Not Always Good to Share
+- Immutable State
+- Atomic State Transition
+- Nonatomic State Transition
+- Correctness Is Not the Only Problem
+- Thread Safety
 
-3.10 Using a Local Runtime Application Log for Analysis of Field Errors or Situations
+4.2 The Interlocked Class
+- Basic Operations
+- Richer Functions
+  + Interlocked.Exchange
+  + Interlocked.CompareExchange
 
-3.11 Reproducing Activity Life-Cycle Scenarios for Testing
+4.3 Monitor: The Workhorse of .NET Synchronization
+- The lock Keyword
+- Timing Out of Monitor Acquisition
+- Signaling with Monitors
+- Signaling As a Building Block
 
-3.12 Keeping Your App Snappy with StrictMode
+4.4 Optimizing for Read
+- ReaderWriterLock
+- ReaderWriterLockSlim
 
-3.13 Static Code Testing with Android Lint
+4.5 A Semaphore Out of the Box
 
-3.14 Dynamic Testing with the Monkey Program
+4.6 Raising the Starting Gate: ManualResetEventSlim
 
-3.15 Sending Text Messages and Placing Calls Between AVDs
+4.7 CountdownEvent: Simplifying Fork and Join
 
+4.8 Barrier: Rendezvous-Based Synchronization
 
-### 4. Inter-/Intra-Process Communication
+4.9 Crossing the AppDomain Boundary with WaitHandle
+- Mutex
+- Semaphore
+- Events
+- WaitHandle—The Kernel Synchronization Abstraction
+- Working with Multiple WaitHandles
+  + WaitHandle.WaitAll
+  + WaitHandle.WaitAny
+  + WaitHandle.SignalAndWait
+- Integrating Standard Primitives and Kernel Objects
 
-4.1 Opening a Web Page, Phone Number, or Anything Else with an Intent
+4.10 Synchronization Is Not the Only Answer
 
-4.2 Emailing Text from a View
+4.11 Conclusion
 
-4.3 Sending an Email with Attachments
+-----
 
-4.4 Pushing String Values Using Intent.putExtra()
-
-4.5 Retrieving Data from a Subactivity Back to Your Main Activity
-
-4.6 Keeping a Background Service Running While Other Apps Are on Display
-
-4.7 Sending/Receiving a Broadcast Message
-
-4.8 Starting a Service After Device Reboot
-
-4.9 Creating a Responsive Application Using Threads
-
-4.10 Using AsyncTask to Do Background Processing
-
-4.11 Sending Messages Between Threads Using an Activity Thread Queue and Handler
-
-4.12 Creating an Android Epoch HTML/JavaScript Calendar
-
-
-### 5. Graphics
+### Chapter 5. Concurrent Data Structures
 
 5.1 Using a Custom Font
 
