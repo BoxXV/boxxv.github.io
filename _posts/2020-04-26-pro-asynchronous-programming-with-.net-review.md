@@ -309,21 +309,25 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 11. Telephone Applications
+### Chapter 11. Parallel Programming
 
-11.1 Doing Something When the Phone Rings
+11.1 What Is Driving the Need for Parallelism?
+- Coarse- and Fine-Grained Parallelism
+- Task and Data-Based Parallelism
+- Is It Worth Trying to Parallelize Everything?
+- Before You Parallelize
 
-11.2 Processing Outgoing Phone Calls
+11.2 Parallel Class
+- Parallel.Invoke
+- Parallel Loops
 
-11.3 Dialing the Phone
+11.3 PLINQ
+- Moving from Sequential LINQ to PLINQ
+- Influencing and Configuring the Query
+- ForAll
+- Aggregating Results
 
-11.4 Sending Single-part or Multipart SMS Messages
-
-11.5 Receiving an SMS Message
-
-11.6 Using Emulator Controls to Send SMS Messages to the Emulator
-
-11.7 Using Android’s TelephonyManager to Obtain Device Information
+11.4 Summary
 
 -----
 
