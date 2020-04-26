@@ -240,26 +240,21 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 8. Other GUI Elements: Lists and Views
+### Chapter 8. Everything a Task
 
-8.1 Building List-Based Applications with RecyclerView
+8.1 TaskCompletionSource<T>
 
-8.2 Building List-Based Applications with ListView
+8.2 Worked Example: Creating a Foreground Task
 
-8.3 Creating a “No Data” View for ListViews
+8.3 Unit Testing and Stubbing Asynchronous Methods
 
-8.4 Creating an Advanced ListView with Images and Text
+8.4 Building Task-Based Combinators
+- Improved WhenAny
+- lternative WhenAll, WhenAllOrFail
 
-8.5 Using Section Headers in ListViews
+8.5 Summary
 
-8.6 Keeping the ListView with the User’s Focus
-
-8.7 Writing a Custom List Adapter
-
-8.8 Using a SearchView to Search Through Data in a ListView
-
-8.9 Handling Orientation Changes: From ListView Data Values to Landscape Charting
-
+-----
 
 ### 9. Multimedia
 
