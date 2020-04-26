@@ -256,21 +256,28 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 9. Multimedia
+### Chapter 9. Server-Side Async
 
-9.1 Playing a YouTube Video
+9.1 Natural Parallelism
 
-9.2 Capturing Video Using MediaRecorder
+9.2 The Problem of I/O
 
-9.3 Using Android’s Face Detection Capability
+9.3 ASP.NET WebForms
+- A Synchronous WebForms Implementation
+- Asynchronous Pages in WebForms 4.0
+- Asynchronous Pages in WebForms 4.5
 
-9.4 Playing Audio from a File
+9.4 ASP.NET MVC
+- Asynchronous MVC Processing in .NET 4.0
+- Asynchronous MVC Processing in .NET 4.5
 
-9.5 Playing Audio Without Interaction
+9.5 Windows Communication Foundation
+- Asynchronous WCF Services in .NET 4.0
+- Asynchronous WCF Services in .NET 4.5
 
 9.6 Using Speech to Text
 
-9.7 Making the Device Speak with Text-to-Speech
+9.7 Summary
 
 -----
 
