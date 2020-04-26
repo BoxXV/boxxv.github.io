@@ -49,40 +49,40 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 ### Chapter 2. The Evolution of the .NET Asynchronous API
 
-2.1 Exception Handling
+2.1 Asynchrony in the World of .NET 1.0
+- System.Threading.Thread
+  + The Start Method
+  + Stopping a Thread
+  + Coordinating Threads (Join)
+  + Controlling a Thread’s Interaction with COM
+  + Issues with the Thread Class
+- Using the System Thread Pool
+  + Worker and I/O Threads
+  + Getting Work on to the Thread Pool
 
-2.2 Requesting Android Permissions at Runtime
+2.2 Changes to Async in .NET 1.1
 
-2.3 Accessing Android’s Application Object as a “Singleton”
+2.3 Asynchrony in .NET 2.0
+- Logical and Physical Separation
+- Passing Data into a Thread
+- Closures
+- SynchronizationContext
+- Event-Based Asynchronous Pattern
 
-2.4 Keeping Data When the User Rotates the Device
+2.4 Minor Changes in .NET 3.5
+- Lambda Expressions
+- Thread Pool Heuristics in .NET 3.5
 
-2.5 Monitoring the Battery Level of an Android Device
+2.5 Big Changes in .NET 4.0
+- Remodeling the Thread Pool Queue
+- Work-Stealing Queues
+- Thread Pool Heuristics in .NET 4.0
 
-2.6 Creating Splash Screens in Android
+2.6 Summary
 
-2.7 Designing a Conference/Camp/Hackathon/Institution App
+-----
 
-2.8 Using Google Analytics in an Android Application
-
-2.9 Setting First-Run Preferences
-
-2.10 Formatting Numbers
-
-2.11 Formatting with Correct Plurals
-
-2.12 Formatting the Time and Date for Display
-
-2.13 Simplifying Date/Time Calculations with the Java 8 java.time API
-
-2.14 Controlling Input with KeyListeners
-
-2.15 Backing Up Android Application Data
-
-2.16 Using Hints Instead of Tool Tips
-
-
-### 3. Application Testing
+### Chapter 3. Tasks
 
 3.1 Setting Up an Android Virtual Device (AVD) for App Testing
 
