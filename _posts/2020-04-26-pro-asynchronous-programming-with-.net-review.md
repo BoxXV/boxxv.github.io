@@ -331,27 +331,29 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 12. Networked Applications
+### Chapter 12. Task Scheduling
 
-12.1 Consuming a RESTful Web Service Using a URLConnection
+12.1 ConcurrentExclusiveSchedulerPair
 
-12.2 Consuming a RESTful Web Service with Volley
+12.2 Why Write a Task Scheduler?
 
-12.3 Notifying Your App with Google Cloud Messaging “Push Messaging”
+12.3 The TaskScheduler Abstraction
+- Implementing QueueTask
+- Implementing GetScheduledTasks
+- Implementing TryExecuteTaskInline
+- Executing Tasks
 
-12.4 Extracting Information from Unstructured Text Using Regular Expressions
+12.4 Implementing a Custom Scheduler
+- Creating a Basic Implementation
+- Adding Threads on Demand
+- Removing Idle Threads
 
-12.5 Parsing RSS/Atom Feeds Using ROME
+12.5 Unit Testing Custom Schedulers
+- Controlling Execution Order with Synchronization Primitives
+- Adding Members to the Scheduler to Provide Insight
+- Deriving a Testable Class from the Scheduler
 
-12.6 Using MD5 to Digest Clear Text
-
-12.7 Converting Text into Hyperlinks
-
-12.8 Accessing a Web Page Using a WebView
-
-12.9 Customizing a WebView
-
-12.10 Writing an Inter-Process Communication Service
+12.6 Summary
 
 -----
 
