@@ -357,13 +357,28 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-### 13. Gaming and Animation
+### Chapter 13. Debugging Async with Visual Studio
 
-13.1 Building an Android Game Using flixel-gdx
+13.1 Types of Multithreading Bugs
+- Data Corruption
+- Race Conditions
+- Deadlocks
+- Runaway Threads
 
-13.2 Building an Android Game Using AndEngine
+13.2 The Limitations of Using Visual Studio for Debugging
+- The Interactive Debugger
+- It Works on My Machine
 
-13.3 Processing Timed Keyboard Input
+13.3 Multithreaded Visual Studio Debugging Basics
+- Breakpoints and Threads
+- Locals, Autos, and Watch Windows
+- The Call Stack Window
+- The Threads Window
+
+13.4 Debugging Tasks
+- The Parallel Tasks / Tasks Window
+- The Parallel Stacks Window
+- The Concurrency Visualizer
 
 -----
 
