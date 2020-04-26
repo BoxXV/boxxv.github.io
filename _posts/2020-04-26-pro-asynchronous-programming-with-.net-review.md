@@ -221,36 +221,24 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 6.10 Summary
 
+-----
 
+### Chapter 7. async and await
 
-### 7. GUI Alerts: Menus, Dialogs, Toasts, Snackbars, and Notifications
+7.1 Making Asynchronous Programming Simpler
 
-7.1 Alerting the User with Toast and Snackbar
+7.2 What Do async and await Actually Do?
+- Returning Values from async Methods
+- Should You Always Continue on the UI Thread?
+- Task.Delay
+- Task.WhenAll
+- Task.WhenAll, Error Handling
+- Task.WhenAny
+- async/await Mechanics
 
-7.2 Customizing the Appearance of a Toast
+7.3 Summary
 
-7.3 Creating and Displaying a Menu
-
-7.4 Handling Choice Selection in a Menu
-
-7.5 Creating a Submenu
-
-7.6 Creating a Pop-up/Alert Dialog
-
-7.7 Using a Timepicker Widget
-
-7.8 Creating an iPhone-like WheelPicker for Selection
-
-7.9 Creating a Tabbed Dialog
-
-7.10 Creating a ProgressDialog
-
-7.11 Creating a Custom Dialog with Buttons, Images, and Text
-
-7.12 Creating a Reusable “About Box” Class
-
-7.13 Creating a Notification in the Status Bar
-
+-----
 
 ### 8. Other GUI Elements: Lists and Views
 
