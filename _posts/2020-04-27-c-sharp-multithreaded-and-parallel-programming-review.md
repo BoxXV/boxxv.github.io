@@ -130,54 +130,37 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 4. Basic Thread Safety
+### Chapter 4: Advanced Thread Processing
 
-4.1 Asynchrony and Data
-- It’s Not Always Good to Share
-- Immutable State
-- Atomic State Transition
-- Nonatomic State Transition
-- Correctness Is Not the Only Problem
-- Thread Safety
+4.1 Pipelining
+- Explaining pipelining using an image processing application
+- How to do it
+- How it works
+- Understanding the pixels' color compositions
 
-4.2 The Interlocked Class
-- Basic Operations
-- Richer Functions
-  + Interlocked.Exchange
-  + Interlocked.CompareExchange
+4.2 Pausing and restarting threads
+- How to do it
+- How it works
 
-4.3 Monitor: The Workhorse of .NET Synchronization
-- The lock Keyword
-- Timing Out of Monitor Acquisition
-- Signaling with Monitors
-- Signaling As a Building Block
+4.3 Signals between threads
+- How to do it
+- How it works
+- Using the AutoResetEvent class to handle signals between threads
+- Using the WaitHandle class to check  for signals
 
-4.4 Optimizing for Read
-- ReaderWriterLock
-- ReaderWriterLockSlim
+4.4 Joining threads
+- How to do it
+- How it works
 
-4.5 A Semaphore Out of the Box
+4.5 Locking resources to ensure thread-safe data
+- How to do it
+- How it works
 
-4.6 Raising the Starting Gate: ManualResetEventSlim
+4.6 Error handling with threads
+- How to do it
+- How it works
 
-4.7 CountdownEvent: Simplifying Fork and Join
-
-4.8 Barrier: Rendezvous-Based Synchronization
-
-4.9 Crossing the AppDomain Boundary with WaitHandle
-- Mutex
-- Semaphore
-- Events
-- WaitHandle—The Kernel Synchronization Abstraction
-- Working with Multiple WaitHandles
-  + WaitHandle.WaitAll
-  + WaitHandle.WaitAny
-  + WaitHandle.SignalAndWait
-- Integrating Standard Primitives and Kernel Objects
-
-4.10 Synchronization Is Not the Only Answer
-
-4.11 Conclusion
+4.7 Summary
 
 -----
 
