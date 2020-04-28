@@ -216,20 +216,29 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 7. async and await
+### Chapter 7: Data Parallelism
 
-7.1 Making Asynchronous Programming Simpler
+7.1 Parallel loop processing
+- How to do it
+- How it works
 
-7.2 What Do async and await Actually Do?
-- Returning Values from async Methods
-- Should You Always Continue on the UI Thread?
-- Task.Delay
-- Task.WhenAll
-- Task.WhenAll, Error Handling
-- Task.WhenAny
-- async/await Mechanics
+7.2 Data parallelism on collections using Parallel.ForEach
+- How to do it
+- How it works
 
-7.3 Summary
+7.3 Canceling a parallel loop
+- How to do it
+- How it works
+
+7.4 Handling exceptions in parallel loops
+- How to do it
+- How it works
+
+7.5 Using thread-local variables in parallel loops
+- How to do it
+- How it works
+
+7.6 Summary
 
 -----
 
