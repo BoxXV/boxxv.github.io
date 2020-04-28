@@ -19,7 +19,7 @@ subtitle: Over 100 recipes and solutions to solve the most common problems faced
 Build feature-rich, reliable Android Pie apps with the help of more than 100 proven industry standard recipes and strategies.
 
 
-## Mục lục
+## Table of contents
 
 
 ### Activities

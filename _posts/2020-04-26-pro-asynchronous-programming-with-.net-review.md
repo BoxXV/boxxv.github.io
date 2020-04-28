@@ -22,7 +22,7 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-## Mục lục
+## Table of contents
 
 
 ### Chapter 1. An Introduction to Asynchronous Programming

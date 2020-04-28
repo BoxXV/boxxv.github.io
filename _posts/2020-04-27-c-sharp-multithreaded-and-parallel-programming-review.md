@@ -4,23 +4,25 @@ title: C# Multithreaded and Parallel Programming
 subtitle: Asynchronous programming is an essential skill for the modern .NET developer. Pro Asynchronous Programming with .NET is your guide to using this important programming model to build responsive and scalable applications anywhere on the .NET platform.
 ---
 
+![placeholder](http://boxxv.com/img/multithread/8321en_cov.jpg "C# Multithreaded and Parallel Programming")
+
 ✅ Publisher: [Apress](http://www.apress.com/9781430259206)
 
-✅ Year: December 23, 2013
+✅ Year: December 24, 2014
 
-✅ Authors: Blewett, Richard, Clymer, Andrew, Ltd, Rock Solid Knowledge 
+✅ Authors: Rodney Ringler
 
 ✅ Language: English
 
-✅ Pages: 368
+✅ Pages: 344
 
-✅ Size: 7.13 MB
+✅ Size: 27.7 MB
 
-✅ Download source code: [pro-asynchronous-programming-w-.net](https://github.com/apress/pro-asynchronous-programming-w-.net)
+✅ Download source code: [9781849688321_code.zip](https://www.packtpub.com/codedownloaderrata/index/index/sku/9781849688321)
 
 -----
 
-## Mục lục
+## Table of contents
 
 
 ### Chapter 1. An Introduction to Asynchronous Programming

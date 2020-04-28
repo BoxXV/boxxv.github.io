@@ -29,7 +29,7 @@ Covering the scope of multiple Android releases up through Android 4, this refer
 Android Application Development Cookbook is your solution to discovering...solutions!
 
 
-## Mục lục
+## Table of contents
 
 
 ### Chapter 1: Android Fundamentals
