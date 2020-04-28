@@ -244,21 +244,21 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 8: Debugging Multithreaded Applications with Visual Studio
 
-8.1 Considerations for debugging multithreaded applications
+8.1 [Considerations for debugging multithreaded applications](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec59/considerations-for-debugging-multithreaded-applications)
 
-8.2 Using the Threads window
+8.2 [Using the Threads window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec60/using-the-threads-window)
 
-8.3 Using the Tasks window
+8.3 [Using the Tasks window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec61/using-the-tasks-window)
 
-8.4 Using the Parallel Stacks window
+8.4 [Using the Parallel Stacks window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec62/using-the-parallel-stacks-window)
 
-8.5 Using the Parallel Watch window
+8.5 [Using the Parallel Watch window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec63/using-the-parallel-watch-window)
 
-8.6 Debugging an entire application
+8.6 [Debugging an entire application](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec64/debugging-an-entire-application)
 - How to do it
 - How it works
 
-8.7 Summary
+8.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec65/summary)
 
 -----
 
