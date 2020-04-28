@@ -49,7 +49,7 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 1: Understanding Multiprocessing and  Multiple Cores
 
-1.1 Mono-processor systems – the old gladiators
+1.1 [Mono-processor systems – the old gladiators](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec08/mono-processor-systems---the-old-gladiators)
 - Single core – only one warrior to fight against everybody
 - Doing a tiny bit of each task
 
@@ -68,38 +68,38 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 2. The Evolution of the .NET Asynchronous API
+### Chapter 2: Looking at Multithreaded Classes – BackgroundWorker
 
-2.1 Asynchrony in the World of .NET 1.0
-- System.Threading.Thread
-  + The Start Method
-  + Stopping a Thread
-  + Coordinating Threads (Join)
-  + Controlling a Thread’s Interaction with COM
-  + Issues with the Thread Class
-- Using the System Thread Pool
-  + Worker and I/O Threads
-  + Getting Work on to the Thread Pool
+2.1 Getting started with the BackgroundWorker component
 
-2.2 Changes to Async in .NET 1.1
+2.2 Simple example without a BackgroundWorker object
 
-2.3 Asynchrony in .NET 2.0
-- Logical and Physical Separation
-- Passing Data into a Thread
-- Closures
-- SynchronizationContext
-- Event-Based Asynchronous Pattern
+2.3 Simple example without a BackgroundWorker object
+- How to do it
+- How does it work?
 
-2.4 Minor Changes in .NET 3.5
-- Lambda Expressions
-- Thread Pool Heuristics in .NET 3.5
+2.4 WPF example with an asynchronous BackgroundWorker
+- How to do it
+- How does it work?
+- How does it work without blocking the UI?
+- How to do it
+- How does it work?
 
-2.5 Big Changes in .NET 4.0
-- Remodeling the Thread Pool Queue
-- Work-Stealing Queues
-- Thread Pool Heuristics in .NET 4.0
+2.5 Showing progress
+- How to do it
+- How does it work?
 
-2.6 Summary
+2.6 Canceling a BackgroundWorker thread
+- How to do it
+- How does it work?
+
+2.7 Working with multiple BackgroundWorker components
+- How does it work?
+- How does it work?
+
+2.8 Exploring other examples
+
+2.9 Summary
 
 -----
 
