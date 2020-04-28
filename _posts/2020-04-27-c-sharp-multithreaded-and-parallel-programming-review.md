@@ -164,27 +164,35 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 5. Concurrent Data Structures
+### Chapter 5: Lightweight Concurrency – Task Parallel Library (TPL)
 
-5.1 Simplifying Thread Safety
+5.1 Task Parallel Library
 
-5.2 Lazy<T>
+5.2 Exploring tasks
+- How to do it
+- How it works
 
-5.3 Concurrent Collections
+5.3 Tasks with return values
+- How to do it
+- How it works
 
-5.4 ConcurrentDictionary<K,V>
-- Locking Mechanics
+5.4 Concurrent collections
+- How to do it
+- How it works
 
-5.5 ConcurrentQueue<T> and ConcurrentStack<T>
+5.5 Exploring the TaskFactory class
+- How to do it
+- How it works
 
-5.6 ConcurrentBag<T>
+5.6 Task schedulers
 
-5.7 Blocking Collections
-- Graceful Shutdown
-- Consuming Enumerable
-- BlockingCollection of X
+5.7 Introducing the Parallel class
+- How to do it
+- How it works
 
-5.8 Summary
+5.8 Delegates and lambda expressions
+
+5.9 Summary
 
 -----
 
