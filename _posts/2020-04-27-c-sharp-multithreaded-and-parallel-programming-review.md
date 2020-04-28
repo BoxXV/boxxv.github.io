@@ -218,31 +218,31 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 7: Data Parallelism
 
-7.1 Parallel loop processing
+7.1 [Parallel loop processing](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec53/parallel-loop-processing)
 - How to do it
 - How it works
 
-7.2 Data parallelism on collections using Parallel.ForEach
+7.2 [Data parallelism on collections using Parallel.ForEach](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec54/data-parallelism-on-collections-using-parallel.foreach)
 - How to do it
 - How it works
 
-7.3 Canceling a parallel loop
+7.3 [Canceling a parallel loop](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec55/canceling-a-parallel-loop)
 - How to do it
 - How it works
 
-7.4 Handling exceptions in parallel loops
+7.4 [Handling exceptions in parallel loops](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec56/handling-exceptions-in-parallel-loops)
 - How to do it
 - How it works
 
-7.5 Using thread-local variables in parallel loops
+7.5 [Using thread-local variables in parallel loops](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec57/using-thread-local-variables-in-parallel-loops)
 - How to do it
 - How it works
 
-7.6 Summary
+7.6 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec58/summary)
 
 -----
 
-### Chapter 8. Everything a Task
+### Chapter 8: Debugging Multithreaded Applications with Visual Studio
 
 8.1 TaskCompletionSource<T>
 
