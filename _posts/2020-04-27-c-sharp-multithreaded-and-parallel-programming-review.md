@@ -166,33 +166,33 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 5: Lightweight Concurrency – Task Parallel Library (TPL)
 
-5.1 Task Parallel Library
+5.1 [Task Parallel Library](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec38/task-parallel-library)
 
-5.2 Exploring tasks
+5.2 [Exploring tasks](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec39/exploring-tasks)
 - How to do it
 - How it works
 
-5.3 Tasks with return values
+5.3 [Tasks with return values](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec40/tasks-with-return-values)
 - How to do it
 - How it works
 
-5.4 Concurrent collections
+5.4 [Concurrent collections](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec41/concurrent-collections)
 - How to do it
 - How it works
 
-5.5 Exploring the TaskFactory class
+5.5 [Exploring the TaskFactory class](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec42/exploring-the-taskfactory-class)
 - How to do it
 - How it works
 
-5.6 Task schedulers
+5.6 [Task schedulers](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec43/task-schedulers)
 
-5.7 Introducing the Parallel class
+5.7 [Introducing the Parallel class](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec44/introducing-the-parallel-class)
 - How to do it
 - How it works
 
-5.8 Delegates and lambda expressions
+5.8 [Delegates and lambda expressions](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec45/delegates-and-lambda-expressions)
 
-5.9 Summary
+5.9 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec46/summary)
 
 -----
 
