@@ -282,25 +282,25 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 10: Parallel LINQ – PLINQ
 
-10.1 Executing a PLINQ
+10.1 [Executing a PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec71/executing-a-plinq)
 - How to do it
 - How it works
 
-10.2 Ordering in PLINQ
+10.2 [Ordering in PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec72/ordering-in-plinq)
 - How to do it
 - How it works
 
-10.3 Merging in PLINQ
+10.3 [Merging in PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec73/merging-in-plinq)
 - How to do it
 - How it works
 
-10.4 Canceling a PLINQ
+10.4 [Canceling a PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec74/canceling-a-plinq)
 - How to do it
 - How it works
 
-10.5 Understanding performance improvements in PLINQ
+10.5 [Understanding performance improvements in PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec75/understanding-performance-improvements-in-plinq)
 
-10.6 Summary
+10.6 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec76/summary)
 
 -----
 
