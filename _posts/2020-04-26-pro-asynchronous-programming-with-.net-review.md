@@ -4,6 +4,8 @@ title: Pro Asynchronous Programming with .NET
 subtitle: Asynchronous programming is an essential skill for the modern .NET developer. Pro Asynchronous Programming with .NET is your guide to using this important programming model to build responsive and scalable applications anywhere on the .NET platform.
 ---
 
+![placeholder](http://boxxv.com/img/multithread/71mFOtFqTNL.jpg "Pro Asynchronous Programming with .NET")
+
 ✅ Publisher: [Apress](http://www.apress.com/9781430259206)
 
 ✅ Year: December 23, 2013
@@ -402,6 +404,6 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
-https://www.apress.com/gp/book/9781430259206  
-https://www.oreilly.com/library/view/pro-asynchronous-programming/9781430259206/  
-https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205
+[https://www.apress.com/gp/book/9781430259206](https://www.apress.com/gp/book/9781430259206)  
+[https://www.oreilly.com/library/view/pro-asynchronous-programming/9781430259206/](https://www.oreilly.com/library/view/pro-asynchronous-programming/9781430259206/)  
+[https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205](https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pro Asynchronous Programming with .NET
+title: C# Multithreaded and Parallel Programming
 subtitle: Asynchronous programming is an essential skill for the modern .NET developer. Pro Asynchronous Programming with .NET is your guide to using this important programming model to build responsive and scalable applications anywhere on the .NET platform.
 ---
 
