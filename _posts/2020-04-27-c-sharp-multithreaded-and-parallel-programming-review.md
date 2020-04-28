@@ -22,6 +22,28 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 
 -----
 
+### Learn
+- Explore all the essential methods used for programming multithreaded applications
+- Enhance the performance of an application by designing various parallel operations to achieve concurrency
+- Build powerful applications using the Task Parallel Library (TPL), which makes concurrent processing of items in a data collection simple
+- Implement data parallelism using the Parallel library, concurrent collections, and PLINQ
+- Debug your multithreaded applications using the Threads view, Tasks window, Parallel Stacks window, and Parallel Watch window
+- Accomplish any given parallel task using two of the most popular parallel patterns for development: Pipelining and producer-consumer
+- Get to grips with the Asynchronous Programming Model (APM) to learn to begin and end asynchronous operations
+
+### About
+Most modern machines have dual-core processors. This means that the present-day computer has the ability to multitask. Using multiple cores means your applications can process data faster and be more responsive to users. However, to fully exploit this in your applications, you need to write multithreading code.
+
+We will begin by covering some techniques that have been around since the beginning of .NET, including the BackgroundWorker component, timers, and the Thread class. We will use tasks, task factories, and parallel loops to develop multithreaded applications at a higher level than directly creating and managing individual threads. Finally, we will look at the tools Visual Studio provides for debugging parallel applications, common concurrent design patterns, and the latest updates in PLINQ and async.
+
+### Features
+- Make use of the latest Visual Studio debugging tools, to manage and debug multiple threads running simultaneously
+- Learn how to use the Thread, Task, and Parallel libraries in your C# applications
+- Explore the evolution of multithreaded development in C#, starting with BackgroundWorker classes and moving on to threads and tasks and finally covering Async
+
+
+-----
+
 ## Table of contents
 
 
