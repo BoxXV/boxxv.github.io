@@ -262,28 +262,21 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 9. Server-Side Async
+### Chapter 9: Pipeline and Producer-consumer Design Patterns
 
-9.1 Natural Parallelism
+9.1 Pipeline design pattern
+- How to do it
+- How it works
 
-9.2 The Problem of I/O
+9.2 Explaining message blocks
+- BufferBlock
+- ActionBlock
 
-9.3 ASP.NET WebForms
-- A Synchronous WebForms Implementation
-- Asynchronous Pages in WebForms 4.0
-- Asynchronous Pages in WebForms 4.5
+9.3 Producer-consumer design pattern
+- How to do it
+- How it works
 
-9.4 ASP.NET MVC
-- Asynchronous MVC Processing in .NET 4.0
-- Asynchronous MVC Processing in .NET 4.5
-
-9.5 Windows Communication Foundation
-- Asynchronous WCF Services in .NET 4.0
-- Asynchronous WCF Services in .NET 4.5
-
-9.6 Using Speech to Text
-
-9.7 Summary
+9.4 Summary
 
 -----
 
