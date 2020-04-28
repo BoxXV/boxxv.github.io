@@ -47,27 +47,24 @@ We will begin by covering some techniques that have been around since the beginn
 ## Table of contents
 
 
-### Chapter 1. An Introduction to Asynchronous Programming
+### Chapter 1: Understanding Multiprocessing and  Multiple Cores
 
-1.1 What Is Asynchronous Programming?
+1.1 Mono-processor systems – the old gladiators
+- Single core – only one warrior to fight against everybody
+- Doing a tiny bit of each task
 
-1.2 The Drive to Asynchrony
+1.2 Multiprocessor systems – many warriors to win a battle
 
-1.3 Mechanisms for Asynchrony
-- Multiple Machines
-- Multiple Processes
-- Multiple Threads
+1.3 Multiple core processors and hyperthreading
+- Taking advantage of multiple execution cores
 
-1.4 Thread Scheduling
+1.4 Examining our hardware
 
-1.5 Threads and Resources
-- Thread-Specific Resources
-  + The Stack
-  + Thread Local Storage
-  + Registers
-- Resources Shared by Threads
+1.5 OS scheduler operations
 
-1.6 Summary
+1.6 Designing for concurrency
+
+1.7 Summary
 
 -----
 
