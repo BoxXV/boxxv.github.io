@@ -63,6 +63,9 @@ We will begin by covering some techniques that have been around since the beginn
 1.5 [OS scheduler operations](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec12/os-scheduler-operations)
 
 1.6 [Designing for concurrency](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec13/designing-for-concurrency)
+- Estimating performance improvements
+- Amdahl's law
+- Gustafson's law
 
 1.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec14/summary)
 
@@ -70,36 +73,36 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 2: Looking at Multithreaded Classes – BackgroundWorker
 
-2.1 Getting started with the BackgroundWorker component
+2.1 [Getting started with the BackgroundWorker component](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec15/getting-started-with-the-backgroundworker-component)
 
-2.2 Simple example without a BackgroundWorker object
-
-2.3 Simple example without a BackgroundWorker object
+2.2 [Simple example without a BackgroundWorker object](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec16/simple-example-without-a-backgroundworker-object)
 - How to do it
 - How does it work?
 
-2.4 WPF example with an asynchronous BackgroundWorker
+2.3 [WPF example with an asynchronous BackgroundWorker](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec18/wpf-example-with-an-asynchronous-backgroundworker)
 - How to do it
 - How does it work?
 - How does it work without blocking the UI?
 - How to do it
 - How does it work?
 
-2.5 Showing progress
+2.4 [WPF example with an synchronous BackgroundWorker](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec19/wpf-example-with-a-synchronous-backgroundworker)
+
+2.5 [Showing progress](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec20/showing-progress)
 - How to do it
 - How does it work?
 
-2.6 Canceling a BackgroundWorker thread
+2.6 [Canceling a BackgroundWorker thread](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec21/canceling-a-backgroundworker-thread)
 - How to do it
 - How does it work?
 
-2.7 Working with multiple BackgroundWorker components
+2.7 [Working with multiple BackgroundWorker components](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec22/working-with-multiple-backgroundworker-components)
 - How does it work?
 - How does it work?
 
-2.8 Exploring other examples
+2.8 [Exploring other examples](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec23/exploring-other-examples)
 
-2.9 Summary
+2.9 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec24/summary)
 
 -----
 
