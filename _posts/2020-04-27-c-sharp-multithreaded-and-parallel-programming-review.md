@@ -244,17 +244,21 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 8: Debugging Multithreaded Applications with Visual Studio
 
-8.1 TaskCompletionSource<T>
+8.1 Considerations for debugging multithreaded applications
 
-8.2 Worked Example: Creating a Foreground Task
+8.2 Using the Threads window
 
-8.3 Unit Testing and Stubbing Asynchronous Methods
+8.3 Using the Tasks window
 
-8.4 Building Task-Based Combinators
-- Improved WhenAny
-- lternative WhenAll, WhenAllOrFail
+8.4 Using the Parallel Stacks window
 
-8.5 Summary
+8.5 Using the Parallel Watch window
+
+8.6 Debugging an entire application
+- How to do it
+- How it works
+
+8.7 Summary
 
 -----
 
