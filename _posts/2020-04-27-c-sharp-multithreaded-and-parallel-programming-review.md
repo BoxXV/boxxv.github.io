@@ -264,19 +264,19 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 9: Pipeline and Producer-consumer Design Patterns
 
-9.1 Pipeline design pattern
+9.1 [Pipeline design pattern](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec66/pipeline-design-pattern)
 - How to do it
 - How it works
 
-9.2 Explaining message blocks
+9.2 [Explaining message blocks](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec67/explaining-message-blocks)
 - BufferBlock
 - ActionBlock
 
-9.3 Producer-consumer design pattern
+9.3 [Producer-consumer design pattern](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec68/producer-consumer-design-pattern)
 - How to do it
 - How it works
 
-9.4 Summary
+9.4 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec69/summary)
 
 -----
 
