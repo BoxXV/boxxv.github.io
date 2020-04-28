@@ -106,32 +106,27 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 3. Tasks
+### Chapter 3: Thread Class – Heavyweight Concurrency in C#
 
-3.1 What Is a Task?
+3.1 Creating threads with the Thread class
+- Let's get started with an encryption program
+- How to do it
+- How it works
 
-3.2 Creating a Compute-Based Task
-- Passing Data into a Task
-- Dangers of Closures
+3.2 Creating an application with threads
+- How to do it
+- How it works
 
-3.3 Returning Data from a Task
-- Creating I/O-Based Tasks
+3.3 Sharing data between threads
+- How to do it
+- How it works
 
-3.4 Error Handling
-- Ignoring Errors
-  + .NET 4.0
-  + .NET 4.5
-- Designing Task-Based APIs
-- Cancellation
-- Progress
+3.4 Passing parameters to threads
+- How to do it
+- How it works
+- Have a go hero – concurrent UI feedback
 
-3.5 Task Relationships
-- Chaining Tasks (Continuations)
-  + Why Use Continuations?
-- Nested and Child Tasks
-  + Why Use Child Tasks?
-
-3.6 Conclusion
+3.5 Summary
 
 -----
 
