@@ -53,18 +53,18 @@ We will begin by covering some techniques that have been around since the beginn
 - Single core – only one warrior to fight against everybody
 - Doing a tiny bit of each task
 
-1.2 Multiprocessor systems – many warriors to win a battle
+1.2 [Multiprocessor systems – many warriors to win a battle](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec09/multiprocessor-systems---many-warriors-to-win-a-battle)
 
-1.3 Multiple core processors and hyperthreading
+1.3 [Multiple core processors and hyperthreading](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec10/multiple-core-processors-and-hyperthreading)
 - Taking advantage of multiple execution cores
 
-1.4 Examining our hardware
+1.4 [Examining our hardware](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec11/examining-our-hardware)
 
-1.5 OS scheduler operations
+1.5 [OS scheduler operations](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec12/os-scheduler-operations)
 
-1.6 Designing for concurrency
+1.6 [Designing for concurrency](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec13/designing-for-concurrency)
 
-1.7 Summary
+1.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec14/summary)
 
 -----
 
