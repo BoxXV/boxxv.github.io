@@ -198,21 +198,21 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 6: Task-based Parallelism
 
-6.1 Waiting for a task to complete
+6.1 [Waiting for a task to complete](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec47/waiting-for-a-task-to-complete)
 - How to do it
 - How it works
 
-6.2 Waiting for multiple tasks to complete
+6.2 [Waiting for multiple tasks to complete](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec48/waiting-for-multiple-tasks-to-complete)
 - How to do it
 - How it works
 
-6.3 Canceling a task
+6.3 [Canceling a task](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec49/canceling-a-task)
 - How to do it
 - How it works
 
-6.4 Task exception handling
+6.4 [Task exception handling](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec50/task-exception-handling)
 
-6.5 Summary
+6.5 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec51/summary)
 
 -----
 
