@@ -108,25 +108,25 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 3: Thread Class – Heavyweight Concurrency in C#
 
-3.1 Creating threads with the Thread class
+3.1 [Creating threads with the Thread class](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec25/creating-threads-with-the-thread-class)
 - Let's get started with an encryption program
 - How to do it
 - How it works
 
-3.2 Creating an application with threads
+3.2 [Creating an application with threads](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec26/creating-an-application-with-threads)
 - How to do it
 - How it works
 
-3.3 Sharing data between threads
+3.3 [Sharing data between threads](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec27/sharing-data-between-threads)
 - How to do it
 - How it works
 
-3.4 Passing parameters to threads
+3.4 [Passing parameters to threads](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec28/passing-parameters-to-threads)
 - How to do it
 - How it works
 - Have a go hero – concurrent UI feedback
 
-3.5 Summary
+3.5 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec29/summary)
 
 -----
 
