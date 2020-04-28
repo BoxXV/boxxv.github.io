@@ -196,40 +196,23 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 6. Asynchronous UI
+### Chapter 6: Task-based Parallelism
 
-6.1 UI Mechanics
+6.1 Waiting for a task to complete
+- How to do it
+- How it works
 
-6.2 UI Threading Model
+6.2 Waiting for multiple tasks to complete
+- How to do it
+- How it works
 
-6.3 Synchronization Context
-- Send and Post
-- Task Continuations
-- Event-Based Asynchronous Pattern (EAP)
-- Background Worker
+6.3 Canceling a task
+- How to do it
+- How it works
 
-6.4 Data Binding
-- Windows Forms
-- Windows Presentation Foundation (WPF)
-- WinRT
+6.4 Task exception handling
 
-6.5 WPF Dispatcher
-- Obtaining the Dispatcher
-- Executing Work Through the Dispatcher
-
-6.6 WinRT Dispatcher
-- Obtaining the Dispatcher
-- Executing Work Through the Dispatcher
-
-6.7 UI Timers
-- Windows Forms Timer
-- WinRT and WPF Dispatch Timers
-
-6.8 WPF Freezable Components
-
-6.9 Too Much of a Good Thing
-
-6.10 Summary
+6.5 Summary
 
 -----
 
