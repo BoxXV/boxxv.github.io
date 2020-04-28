@@ -304,95 +304,22 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 11. Parallel Programming
+### Chapter 11: The Asynchronous Programming Model
 
-11.1 What Is Driving the Need for Parallelism?
-- Coarse- and Fine-Grained Parallelism
-- Task and Data-Based Parallelism
-- Is It Worth Trying to Parallelize Everything?
-- Before You Parallelize
+11.1 [Introduction to the Asynchronous Programming Model](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec78/introduction-to-the-asynchronous-programming-model)
+- How to do it
+- How it works
 
-11.2 Parallel Class
-- Parallel.Invoke
-- Parallel Loops
+11.2 [Using an AsyncCallback delegate method](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec79/using-an-asynccallback-delegate-method)
+- How to do it
+- How it works
 
-11.3 PLINQ
-- Moving from Sequential LINQ to PLINQ
-- Influencing and Configuring the Query
-- ForAll
-- Aggregating Results
+11.3 [The async and await keywords](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec80/the-async-and-await-keywords)
+- How to do it
+- How it works
 
-11.4 Summary
+11.4 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec81/summary)
 
------
-
-### Chapter 12. Task Scheduling
-
-12.1 ConcurrentExclusiveSchedulerPair
-
-12.2 Why Write a Task Scheduler?
-
-12.3 The TaskScheduler Abstraction
-- Implementing QueueTask
-- Implementing GetScheduledTasks
-- Implementing TryExecuteTaskInline
-- Executing Tasks
-
-12.4 Implementing a Custom Scheduler
-- Creating a Basic Implementation
-- Adding Threads on Demand
-- Removing Idle Threads
-
-12.5 Unit Testing Custom Schedulers
-- Controlling Execution Order with Synchronization Primitives
-- Adding Members to the Scheduler to Provide Insight
-- Deriving a Testable Class from the Scheduler
-
-12.6 Summary
-
------
-
-### Chapter 13. Debugging Async with Visual Studio
-
-13.1 Types of Multithreading Bugs
-- Data Corruption
-- Race Conditions
-- Deadlocks
-- Runaway Threads
-
-13.2 The Limitations of Using Visual Studio for Debugging
-- The Interactive Debugger
-- It Works on My Machine
-
-13.3 Multithreaded Visual Studio Debugging Basics
-- Breakpoints and Threads
-- Locals, Autos, and Watch Windows
-- The Call Stack Window
-- The Threads Window
-
-13.4 Debugging Tasks
-- The Parallel Tasks / Tasks Window
-- The Parallel Stacks Window
-- The Concurrency Visualizer
-
------
-
-### Chapter 14. Debugging Async—Beyond Visual Studio
-
-14.1 Memory Dumps
-
-14.2 Generating a Memory Dump
-- Task Manager
-- DebugDiag
-- ADPLUS
-
-14.3 Analyzing Memory Dump
-- WinDbg
-- SOS
-- SOSEX
-- PSSCOR
-
-14.4 Summary
 
 
 -----
