@@ -6,7 +6,7 @@ subtitle: Develop powerful C# applications to take advantage of today's multicor
 
 ![placeholder](http://boxxv.com/img/multithread/8321en_cov.jpg "C# Multithreaded and Parallel Programming")
 
-✅ Publisher: [Apress](http://www.apress.com/9781430259206)
+✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)
 
 ✅ Year: December 24, 2014
 
@@ -14,7 +14,7 @@ subtitle: Develop powerful C# applications to take advantage of today's multicor
 
 ✅ Language: English
 
-✅ Pages: 344
+✅ Pages: 346
 
 ✅ Size: 27.7 MB
 
@@ -426,6 +426,5 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-https://www.apress.com/gp/book/9781430259206  
-https://www.oreilly.com/library/view/pro-asynchronous-programming/9781430259206/  
-https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205
+[https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)  
+[https://www.amazon.com/Multithreaded-Parallel-Programming-Rodney-Ringler-ebook/dp/B00RP13BKS/](https://www.amazon.com/Multithreaded-Parallel-Programming-Rodney-Ringler-ebook/dp/B00RP13BKS/)
