@@ -280,31 +280,27 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-### Chapter 10. TPL Dataflow
+### Chapter 10: Parallel LINQ – PLINQ
 
-10.1 The Building Blocks
+10.1 Executing a PLINQ
+- How to do it
+- How it works
 
-10.2 Producer and Consumer Revisited
+10.2 Ordering in PLINQ
+- How to do it
+- How it works
 
-10.3 Linking Blocks
-- Transform Block
-- Transform Many Block
-- Linking to Multiple Targets
+10.3 Merging in PLINQ
+- How to do it
+- How it works
 
-10.4 Shutting Down Gracefully
-- Propagating Completion
-- Error Handling
-- Cancellation
+10.4 Canceling a PLINQ
+- How to do it
+- How it works
 
-10.5 Glue Blocks
-- Buffer Block
-- Batch Block
-- Broadcast Block
-- Joining
+10.5 Understanding performance improvements in PLINQ
 
-10.6 Asynchronous Blocks
-
-10.7 Summary
+10.6 Summary
 
 -----
 
