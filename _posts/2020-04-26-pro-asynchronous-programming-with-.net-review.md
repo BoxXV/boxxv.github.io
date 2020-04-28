@@ -407,3 +407,5 @@ subtitle: Asynchronous programming is an essential skill for the modern .NET dev
 [https://www.apress.com/gp/book/9781430259206](https://www.apress.com/gp/book/9781430259206)  
 [https://www.oreilly.com/library/view/pro-asynchronous-programming/9781430259206/](https://www.oreilly.com/library/view/pro-asynchronous-programming/9781430259206/)  
 [https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205](https://www.amazon.com/Asynchronous-Programming-NET-Richard-Blewett/dp/1430259205)
+
+[Pro .NET 4 Parallel Programming in C#](https://www.amazon.com/NET-Parallel-Programming-Experts-Voice/dp/1430229675)
