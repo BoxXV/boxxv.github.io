@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming
+title: Concurrency in C# Cookbook - Asynchronous, Parallel, and Multithreaded Programming
 subtitle: Develop powerful C# applications to take advantage of today's multicore hardware
 ---
 
-![placeholder](http://boxxv.com/img/multithread/8321en_cov.jpg "C# Multithreaded and Parallel Programming")
+![placeholder](http://boxxv.com/img/multithread/lrg.jpg "Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming")
 
 ✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)
 
@@ -324,5 +324,5 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-[https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)  
-[https://www.amazon.com/Multithreaded-Parallel-Programming-Rodney-Ringler-ebook/dp/B00RP13BKS/](https://www.amazon.com/Multithreaded-Parallel-Programming-Rodney-Ringler-ebook/dp/B00RP13BKS/)
+[https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/](https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/)  
+[https://www.amazon.com/Concurrency-Cookbook-Asynchronous-Multithreaded-Programming-ebook/dp/B07WRN3SSK/](https://www.amazon.com/Concurrency-Cookbook-Asynchronous-Multithreaded-Programming-ebook/dp/B07WRN3SSK/)
