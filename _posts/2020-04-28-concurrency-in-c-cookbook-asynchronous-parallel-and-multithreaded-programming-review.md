@@ -176,10 +176,19 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 6: System.Reactive Basics
 
 6.1. Converting .NET Events
+- Problem, Solution, Discussion, See Also
+
 6.2. Sending Notifications to a Context
+- Problem, Solution, Discussion, See Also
+
 6.3. Grouping Event Data with Windows and Buffers
+- Problem, Solution, Discussion, See Also
+
 6.4. Taming Event Streams with Throttling and Sampling
+- Problem, Solution, Discussion, See Also
+
 6.5. Timeouts
+- Problem, Solution, Discussion, See Also
 
 
 -----
