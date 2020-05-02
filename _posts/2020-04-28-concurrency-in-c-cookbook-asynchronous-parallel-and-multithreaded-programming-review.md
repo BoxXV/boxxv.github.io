@@ -342,11 +342,19 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 12: Synchronization
 
 12.1. Blocking Locks
-12.2. Async Locks
-12.3. Blocking Signals
-12.4. Async Signals
-12.5. Throttling
+- Problem, Solution, Discussion, See Also
 
+12.2. Async Locks
+- Problem, Solution, Discussion, See Also
+
+12.3. Blocking Signals
+- Problem, Solution, Discussion, See Also
+
+12.4. Async Signals
+- Problem, Solution, Discussion, See Also
+
+12.5. Throttling
+- Problem, Solution, Discussion, See Also
 
 
 -----
@@ -354,9 +362,16 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 13: Scheduling
 
 13.1. Scheduling Work to the Thread Pool
+- Problem, Solution, Discussion, See Also
+
 13.2. Executing Code with a Task Scheduler
+- Problem, Solution, Discussion, See Also
+
 13.3. Scheduling Parallel Code
+- Problem, Solution, Discussion, See Also
+
 13.4. Dataflow Synchronization Using Schedulers
+- Problem, Solution, Discussion, See Also
 
 
 -----
