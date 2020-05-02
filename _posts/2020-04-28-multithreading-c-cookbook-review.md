@@ -50,6 +50,27 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 ## Table of contents
 
+- Multithreading with C# Cookbook Second Edition
+- Credits
+- About the Author
+- About the Reviewers
+- www.PacktPub.com
+  + eBooks, discount offers, and more
+  + Why Subscribe?
+
+
+### Preface
+- What this book covers
+- What you need for this book
+- Who this book is for
+- Conventions
+- Reader feedback
+- Customer support
+  + Downloading the example code
+  + Errata
+  + Piracy
+  + Questions
+
 
 ### Chapter 1: Understanding Multiprocessing and  Multiple Cores
 
