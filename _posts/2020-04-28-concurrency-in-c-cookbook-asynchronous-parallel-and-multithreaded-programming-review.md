@@ -287,14 +287,31 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 10: Cancellation
 
 10.1. Issuing Cancellation Requests
+- Problem, Solution, Discussion, See Also
+
 10.2. Responding to Cancellation Requests by Polling
+- Problem, Solution, Discussion, See Also
+
 10.3. Canceling Due to Timeouts
+- Problem, Solution, Discussion, See Also
+
 10.4. Canceling async Code
+- Problem, Solution, Discussion, See Also
+
 10.5. Canceling Parallel Code
+- Problem, Solution, Discussion, See Also
+
 10.6. Canceling System.Reactive Code
+- Problem, Solution, Discussion, See Also
+
 10.7. Canceling Dataflow Meshes
+- Problem, Solution, Discussion, See Also
+
 10.8. Injecting Cancellation Requests
+- Problem, Solution, Discussion, See Also
+
 10.9. Interop with Other Cancellation Systems
+- Problem, Solution, Discussion, See Also
 
 
 -----
@@ -302,11 +319,23 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 11: Functional-Friendly OOP
 
 11.1. Async Interfaces and Inheritance
+- Problem, Solution, Discussion, See Also
+
 11.2. Async Construction: Factories
+- Problem, Solution, Discussion, See Also
+
 11.3. Async Construction: The Asynchronous Initialization Pattern
+- Problem, Solution, Discussion, See Also
+
 11.4. Async Properties
+- Problem, Solution, Discussion, See Also
+
 11.5. Async Events
+- Problem, Solution, Discussion, See Also
+
 11.6. Async Disposal
+- Problem, Solution, Discussion, See Also
+
 
 -----
 
