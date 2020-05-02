@@ -114,14 +114,18 @@ Concurrency is now more common in responsive and scalable application developmen
 
 ### Chapter 3: Asynchronous Streams
 
-Asynchronous Streams and Task<T>
-Asynchronous Streams and IEnumerable<T>
-Asynchronous Streams and Task<IEnumerable<T>>
-Asynchronous Streams and IObservable<T>
-Summary
+- Asynchronous Streams and Task<T>
+- Asynchronous Streams and IEnumerable<T>
+- Asynchronous Streams and Task<IEnumerable<T>>
+- Asynchronous Streams and IObservable<T>
+- Summary
+
 3.1. Creating Asynchronous Streams
+
 3.2. Consuming Asynchronous Streams
+
 3.3. Using LINQ with Asynchronous Streams
+
 3.4. Asynchronous Streams and Cancellation
 
 
@@ -130,10 +134,19 @@ Summary
 ### Chapter 4: Parallel Basics
 
 4.1. Parallel Processing of Data
+- Problem, Solution, Discussion, See Also
+
 4.2. Parallel Aggregation
+- Problem, Solution, Discussion, See Also
+
 4.3. Parallel Invocation
+- Problem, Solution, Discussion, See Also
+
 4.4. Dynamic Parallelism
+- Problem, Solution, Discussion, See Also
+
 4.5. Parallel LINQ
+- Problem, Solution, Discussion, See Also
 
 
 -----
