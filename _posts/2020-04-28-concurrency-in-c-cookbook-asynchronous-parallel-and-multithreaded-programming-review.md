@@ -250,17 +250,36 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 9: Collections
 
 9.1. Immutable Stacks and Queues
+- Problem, Solution, Discussion, See Also
+
 9.2. Immutable Lists
+- Problem, Solution, Discussion, See Also
+
 9.3. Immutable Sets
+- Problem, Solution, Discussion, See Also
+
 9.4. Immutable Dictionaries
+- Problem, Solution, Discussion, See Also
+
 9.5. Threadsafe Dictionaries
+- Problem, Solution, Discussion, See Also
+
 9.6. Blocking Queues
+- Problem, Solution, Discussion, See Also
+
 9.7. Blocking Stacks and Bags
+- Problem, Solution, Discussion, See Also
+
 9.8. Asynchronous Queues
+
 9.9. Throttling Queues
+
 9.10. Sampling Queues
+
 9.11. Asynchronous Stacks and Bags
+
 9.12. Blocking/Asynchronous Queues
+- Problem, Solution, Discussion, See Also
 
 
 -----
