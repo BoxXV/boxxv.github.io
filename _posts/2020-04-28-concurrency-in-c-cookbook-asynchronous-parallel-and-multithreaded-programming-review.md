@@ -218,14 +218,31 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 8: Interop
 
 8.1. Async Wrappers for “Async” Methods with “Completed” Events
+- Problem, Solution, Discussion, See Also
+
 8.2. Async Wrappers for “Begin/End” Methods
+- Problem, Solution, Discussion, See Also
+
 8.3. Async Wrappers for Anything
+- Problem, Solution, Discussion, See Also
+
 8.4. Async Wrappers for Parallel Code
+- Problem, Solution, Discussion, See Also
+
 8.5. Async Wrappers for System.Reactive Observables
+- Problem, Solution, Discussion, See Also
+
 8.6. System.Reactive Observable Wrappers for async Code
+- Problem, Solution, Discussion, See Also
+
 8.7. Asynchronous Streams and Dataflow Meshes
+- Problem, Solution, Discussion, See Also
+
 8.8. System.Reactive Observables and Dataflow Meshes
+- Problem, Solution, Discussion, See Also
+
 8.9. Converting System.Reactive Observables to Asynchronous Streams
+- Problem, Solution, Discussion, See Also
 
 
 -----
