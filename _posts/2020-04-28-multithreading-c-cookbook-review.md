@@ -80,34 +80,34 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 1.2 [Creating a thread in C#](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec09/creating-a-thread-in-c#)
 - Getting ready, How to do it..., How it works...
 
-1.3 [Pausing a thread]()
+1.3 [Pausing a thread](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec10/pausing-a-thread)
 - Getting ready, How to do it..., How it works...
 
-1.4 [Making a thread wait]()
+1.4 [Making a thread wait](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec11/making-a-thread-wait)
 - Getting ready, How to do it..., How it works...
 
-1.5 [Aborting a thread]()
+1.5 [Aborting a thread](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec12/aborting-a-thread)
 - Getting ready, How to do it..., How it works...
 
-1.6 [Determining a thread state]()
+1.6 [Determining a thread state](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec13/determining-a-thread-state)
 - Getting ready, How to do it..., How it works...
 
-1.7 [Thread priority]()
+1.7 [Thread priority](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec14/thread-priority)
 - Getting ready, How to do it..., How it works...
 
-1.8 [Foreground and background threads]()
+1.8 [Foreground and background threads](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec15/foreground-and-background-threads)
 - Getting ready, How to do it..., How it works...
 
-1.9 [Passing parameters to a thread]()
+1.9 [Passing parameters to a thread](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec16/passing-parameters-to-a-thread)
 - Getting ready, How to do it..., How it works...
 
-1.11 [Locking with a C# lock keyword]()
+1.10 [Locking with a C# lock keyword](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec17/locking-with-a-c#-lock-keyword)
 - Getting ready, How to do it..., How it works...
 
-1.12 [Locking with a Monitor construct]()
+1.11 [Locking with a Monitor construct](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec18/locking-with-a-monitor-construct)
 - Getting ready, How to do it..., How it works...
 
-1.13 [Handling exceptions]()
+1.12 [Handling exceptions](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec19/handling-exceptions)
 - Getting ready, How to do it..., How it works...
 
 -----
