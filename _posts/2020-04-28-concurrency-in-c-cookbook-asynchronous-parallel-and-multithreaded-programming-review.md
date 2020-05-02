@@ -154,12 +154,22 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 5: Dataflow Basics
 
 5.1. Linking Blocks
-5.2. Propagating Errors
-5.3. Unlinking Blocks
-5.4. Throttling Blocks
-5.5. Parallel Processing with Dataflow Blocks
-5.6. Creating Custom Blocks
+- Problem, Solution, Discussion, See Also
 
+5.2. Propagating Errors
+- Problem, Solution, Discussion, See Also
+
+5.3. Unlinking Blocks
+- Problem, Solution, Discussion, See Also
+
+5.4. Throttling Blocks
+- Problem, Solution, Discussion, See Also
+
+5.5. Parallel Processing with Dataflow Blocks
+- Problem, Solution, Discussion, See Also
+
+5.6. Creating Custom Blocks
+- Problem, Solution, Discussion, See Also
 
 -----
 
