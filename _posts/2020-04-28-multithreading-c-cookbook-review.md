@@ -112,38 +112,38 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 2: Looking at Multithreaded Classes – BackgroundWorker
+### Chapter 2: Thread Synchronization
 
-2.1 [Getting started with the BackgroundWorker component](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec15/getting-started-with-the-backgroundworker-component)
+2.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec20/introduction)
+- Getting ready, How to do it..., How it works...
 
-2.2 [Simple example without a BackgroundWorker object](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec16/simple-example-without-a-backgroundworker-object)
-- How to do it
-- How does it work?
+2.2 [Performing basic atomic operations](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec21/performing-basic-atomic-operations)
+- Getting ready, How to do it..., How it works...
 
-2.3 [WPF example with an asynchronous BackgroundWorker](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec18/wpf-example-with-an-asynchronous-backgroundworker)
-- How to do it
-- How does it work?
-- How does it work without blocking the UI?
-- How to do it
-- How does it work?
+2.3 [Using the Mutex construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec22/using-the-mutex-construct)
+- Getting ready, How to do it..., How it works...
 
-2.4 [WPF example with an synchronous BackgroundWorker](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec19/wpf-example-with-a-synchronous-backgroundworker)
+2.4 [Using the SemaphoreSlim construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec23/using-the-semaphoreslim-construct)
+- Getting ready, How to do it..., How it works...
 
-2.5 [Showing progress](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec20/showing-progress)
-- How to do it
-- How does it work?
+2.5 [Using the AutoResetEvent construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec24/using-the-autoresetevent-construct)
+- Getting ready, How to do it..., How it works...
 
-2.6 [Canceling a BackgroundWorker thread](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec21/canceling-a-backgroundworker-thread)
-- How to do it
-- How does it work?
+2.6 [Using the ManualResetEventSlim construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec25/using-the-manualreseteventslim-construct)
+- Getting ready, How to do it..., How it works...
 
-2.7 [Working with multiple BackgroundWorker components](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec22/working-with-multiple-backgroundworker-components)
-- How does it work?
-- How does it work?
+2.7 [Using the CountDownEvent construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec26/using-the-countdownevent-construct)
+- Getting ready, How to do it..., How it works...
 
-2.8 [Exploring other examples](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec23/exploring-other-examples)
+2.8 [Using the Barrier construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec27/using-the-barrier-construct)
+- Getting ready, How to do it..., How it works...
 
-2.9 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/2/ch02lvl1sec24/summary)
+2.9 [Using the ReaderWriterLockSlim construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec28/using-the-readerwriterlockslim-construct)
+- Getting ready, How to do it..., How it works...
+
+2.10 [Using the SpinWait construct](https://subscription.packtpub.com/book/programming/9781785881251/2/ch02lvl1sec29/using-the-spinwait-construct)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
