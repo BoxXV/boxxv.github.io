@@ -196,11 +196,22 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 7: Testing
 
 7.1. Unit Testing async Methods
+- Problem, Solution, Discussion, See Also
+
 7.2. Unit Testing async Methods Expected to Fail
+- Problem, Solution, Discussion, See Also
+
 7.3. Unit Testing async void Methods
+- Problem, Solution, Discussion, See Also
+
 7.4. Unit Testing Dataflow Meshes
+- Problem, Solution, Discussion, See Also
+
 7.5. Unit Testing System.Reactive Observables
+- Problem, Solution, Discussion, See Also
+
 7.6. Unit Testing System.Reactive Observables with Faked Scheduling
+- Problem, Solution, Discussion, See Also
 
 -----
 
