@@ -18,7 +18,6 @@ subtitle: If you’re one of many developers still uncertain about concurrent an
 
 ✅ Size: 2.38 MB
 
-✅ Download source code: [9781849688321_code.zip](https://www.packtpub.com/codedownloaderrata/index/index/sku/9781849688321)
 
 -----
 
@@ -48,8 +47,20 @@ We will begin by covering some techniques that have been around since the beginn
 
 
 ### Preface
+- Who Should Read This Book
+- Why I Wrote This Book
+- Navigating This Book
+- Online Resources
+- Conventions Used in This Book
+- Safari® Books Online
+- How to Contact Us
+- Acknowledgments
 
-0.1 Who Should Read This Book
+-----
+
+### Chapter 1. Concurrency: An Overview
+
+1.1 Who Should Read This Book
 
 1.2 [Multiprocessor systems – many warriors to win a battle](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec09/multiprocessor-systems---many-warriors-to-win-a-battle)
 
