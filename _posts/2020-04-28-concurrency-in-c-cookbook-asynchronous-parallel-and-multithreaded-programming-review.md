@@ -1,22 +1,22 @@
 ---
 layout: post
 title: Concurrency in C# Cookbook - Asynchronous, Parallel, and Multithreaded Programming
-subtitle: Develop powerful C# applications to take advantage of today's multicore hardware
+subtitle: If you’re one of many developers still uncertain about concurrent and multithreaded development, this practical cookbook will change your mind. With more than 85 code-rich recipes in this updated second edition, author Stephen Cleary demonstrates parallel processing and asynchronous programming techniques using libraries and language features in .NET and C# 8.0.
 ---
 
 ![placeholder](http://boxxv.com/img/multithread/lrg.jpg "Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming")
 
-✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)
+✅ Publisher: [O'Reilly Media](https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/)
 
-✅ Year: December 24, 2014
+✅ Year: August 20, 2019
 
-✅ Authors: Rodney Ringler
+✅ Authors: Stephen Cleary
 
 ✅ Language: English
 
-✅ Pages: 346
+✅ Pages: 254
 
-✅ Size: 27.7 MB
+✅ Size: 2.38 MB
 
 ✅ Download source code: [9781849688321_code.zip](https://www.packtpub.com/codedownloaderrata/index/index/sku/9781849688321)
 
@@ -47,11 +47,9 @@ We will begin by covering some techniques that have been around since the beginn
 ## Table of contents
 
 
-### Chapter 1: Understanding Multiprocessing and  Multiple Cores
+### Preface
 
-1.1 [Mono-processor systems – the old gladiators](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec08/mono-processor-systems---the-old-gladiators)
-- Single core – only one warrior to fight against everybody
-- Doing a tiny bit of each task
+0.1 Who Should Read This Book
 
 1.2 [Multiprocessor systems – many warriors to win a battle](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec09/multiprocessor-systems---many-warriors-to-win-a-battle)
 
