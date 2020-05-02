@@ -147,31 +147,39 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 3: Thread Class – Heavyweight Concurrency in C#
+### Chapter 3: Using a Thread Pool 
 
-3.1 [Creating threads with the Thread class](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec25/creating-threads-with-the-thread-class)
-- Let's get started with an encryption program
-- How to do it
-- How it works
+3.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec30/introduction)
+- Getting ready, How to do it..., How it works...
 
-3.2 [Creating an application with threads](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec26/creating-an-application-with-threads)
-- How to do it
-- How it works
+3.2 [Invoking a delegate on a thread pool](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec31/invoking-a-delegate-on-a-thread-pool)
+- Getting ready, How to do it..., How it works...
 
-3.3 [Sharing data between threads](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec27/sharing-data-between-threads)
-- How to do it
-- How it works
+3.3 [Posting an asynchronous operation on a thread pool](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec32/posting-an-asynchronous-operation-on-a-thread-pool)
+- Getting ready, How to do it..., How it works...
 
-3.4 [Passing parameters to threads](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec28/passing-parameters-to-threads)
-- How to do it
-- How it works
-- Have a go hero – concurrent UI feedback
+3.4 [A thread pool and the degree of parallelism](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec33/a-thread-pool-and-the-degree-of-parallelism)
+- Getting ready, How to do it..., How it works...
 
-3.5 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/3/ch03lvl1sec29/summary)
+3.5 [Implementing a cancellation option](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec34/implementing-a-cancellation-option)
+- Getting ready, How to do it..., How it works...
+
+3.5 [Using a wait handle and timeout with a thread pool](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec35/using-a-wait-handle-and-timeout-with-a-thread-pool)
+- Getting ready, How to do it..., How it works...
+
+3.5 [Using a timer](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec36/using-a-timer)
+- Getting ready, How to do it..., How it works...
+
+3.5 [Using the BackgroundWorker component](https://subscription.packtpub.com/book/programming/9781785881251/3/ch03lvl1sec37/using-the-backgroundworker-component)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
 ### Chapter 4: Advanced Thread Processing
+
+3.5 []()
+- Getting ready, How to do it..., How it works...
 
 4.1 [Pipelining](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec30/pipelining)
 - Explaining pipelining using an image processing application
