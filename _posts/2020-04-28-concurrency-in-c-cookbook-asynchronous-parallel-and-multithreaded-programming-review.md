@@ -79,21 +79,34 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 2. Async Basics
 
 2.1. Pausing for a Period of Time
-- Problem
-- Solution
-- Discussion
-- See Also
+- Problem, Solution, Discussion, See Also
 
 2.2. Returning Completed Tasks
+- Problem, Solution, Discussion, See Also
 
 2.3. Reporting Progress
+- Problem, Solution, Discussion, See Also
+
 2.4. Waiting for a Set of Tasks to Complete
+- Problem, Solution, Discussion, See Also
+
 2.5. Waiting for Any Task to Complete
+- Problem, Solution, Discussion, See Also
+
 2.6. Processing Tasks as They Complete
+- Problem, Solution, Discussion, See Also
+
 2.7. Avoiding Context for Continuations
+- Problem, Solution, Discussion, See Also
+
 2.8. Handling Exceptions from async Task Methods
+- Problem, Solution, Discussion, See Also
+
 2.9. Handling Exceptions from async void Methods
+- Problem, Solution, Discussion, See Also
+
 2.10. Creating a ValueTask
+
 2.11. Consuming a ValueTask 
 
 
