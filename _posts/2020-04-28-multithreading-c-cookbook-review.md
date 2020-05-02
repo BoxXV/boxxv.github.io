@@ -6,7 +6,7 @@ subtitle: Over 70 recipes to get you writing powerful and efficient multithreade
 
 ![placeholder](http://boxxv.com/img/multithread/1251cov_.jpg "Multithreading with C# Cookbook")
 
-✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)
+✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/multithreading-c-cookbook-second-edition)
 
 ✅ Year: December 24, 2014
 
@@ -16,25 +16,11 @@ subtitle: Over 70 recipes to get you writing powerful and efficient multithreade
 
 ✅ Pages: 346
 
-✅ Size: 27.7 MB
+✅ Size: 30.38 MB
 
-✅ Download source code: [9781849688321_code.zip](https://www.packtpub.com/codedownloaderrata/index/index/sku/9781849688321)
+✅ Download source code: [9781785881251_Code.zip](https://www.packtpub.com/codedownloaderrata/index/index/sku/9781785881251)
 
 -----
-
-### Learn
-- Explore all the essential methods used for programming multithreaded applications
-- Enhance the performance of an application by designing various parallel operations to achieve concurrency
-- Build powerful applications using the Task Parallel Library (TPL), which makes concurrent processing of items in a data collection simple
-- Implement data parallelism using the Parallel library, concurrent collections, and PLINQ
-- Debug your multithreaded applications using the Threads view, Tasks window, Parallel Stacks window, and Parallel Watch window
-- Accomplish any given parallel task using two of the most popular parallel patterns for development: Pipelining and producer-consumer
-- Get to grips with the Asynchronous Programming Model (APM) to learn to begin and end asynchronous operations
-
-### About
-Most modern machines have dual-core processors. This means that the present-day computer has the ability to multitask. Using multiple cores means your applications can process data faster and be more responsive to users. However, to fully exploit this in your applications, you need to write multithreading code.
-
-We will begin by covering some techniques that have been around since the beginning of .NET, including the BackgroundWorker component, timers, and the Thread class. We will use tasks, task factories, and parallel loops to develop multithreaded applications at a higher level than directly creating and managing individual threads. Finally, we will look at the tools Visual Studio provides for debugging parallel applications, common concurrent design patterns, and the latest updates in PLINQ and async.
 
 ### Features
 - Make use of the latest Visual Studio debugging tools, to manage and debug multiple threads running simultaneously
@@ -324,5 +310,6 @@ We will begin by covering some techniques that have been around since the beginn
 
 -----
 
-[https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)  
-[https://www.amazon.com/Multithreaded-Parallel-Programming-Rodney-Ringler-ebook/dp/B00RP13BKS/](https://www.amazon.com/Multithreaded-Parallel-Programming-Rodney-Ringler-ebook/dp/B00RP13BKS/)
+[https://www.oreilly.com/library/view/multithreading-with-c/9781785881251/]()  
+[https://www.packtpub.com/application-development/multithreading-c-cookbook-second-edition](https://www.packtpub.com/application-development/multithreading-c-cookbook-second-edition)  
+[https://www.amazon.com/Multithreading-Cookbook-Second-Eugene-Agafonov-ebook/dp/B01BDQK5A4](https://www.amazon.com/Multithreading-Cookbook-Second-Eugene-Agafonov-ebook/dp/B01BDQK5A4)
