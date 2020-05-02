@@ -8,13 +8,13 @@ subtitle: Over 70 recipes to get you writing powerful and efficient multithreade
 
 ✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/multithreading-c-cookbook-second-edition)
 
-✅ Year: December 24, 2014
+✅ Year: April 21, 2016
 
-✅ Authors: Rodney Ringler
+✅ Authors: Eugene Agafonov
 
 ✅ Language: English
 
-✅ Pages: 346
+✅ Pages: 264
 
 ✅ Size: 30.38 MB
 
@@ -22,10 +22,28 @@ subtitle: Over 70 recipes to get you writing powerful and efficient multithreade
 
 -----
 
+### Learn
+- Use C# 6.0 asynchronous language features
+- Work with raw threads, synchronize threads, and coordinate their work
+- Develop your own asynchronous API with Task Parallel Library
+- Work effectively with a thread pool
+- Scale up your server application with I/O threads
+- Parallelize your LINQ queries with PLINQ
+- Use common concurrent collections
+- Apply different parallel programming patterns
+- Use Reactive Extensions to run asynchronous operations and manage their options
+
+### About
+Multi-core processors are synonymous with computing speed and power in today’s world, which is why multithreading has become a key concern for C# developers. Multithreaded code helps you create effective, scalable, and responsive applications.
+
+This is an easy-to-follow guide that will show you difficult programming problems in context. You will learn how to solve them with practical, hands-on, recipes. With these recipes, you’ll be able to start creating your own scalable and reliable multithreaded applications. Starting from learning what a thread is, we guide you through the basics and then move on to more advanced concepts such as task parallel libraries, C# asynchronous functions, and much more.
+
+Rewritten to the latest C# specification, C# 6, and updated with new and modern recipes to help you make the most of the hardware you have available, this book will help you push the boundaries of what you thought possible in C#.
+
 ### Features
-- Make use of the latest Visual Studio debugging tools, to manage and debug multiple threads running simultaneously
-- Learn how to use the Thread, Task, and Parallel libraries in your C# applications
-- Explore the evolution of multithreaded development in C#, starting with BackgroundWorker classes and moving on to threads and tasks and finally covering Async
+- Rewritten and updated to take advantage of the latest C# 6 features
+- Learn about multithreaded, asynchronous, and parallel programming through hands-on, code-first examples
+- Use these recipes to build fast, scalable, and reliable applications in C#
 
 
 -----
