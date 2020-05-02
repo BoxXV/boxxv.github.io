@@ -75,34 +75,40 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 ### Chapter 1: Threading Basics
 
 1.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec08/introduction)
-- Single core – only one warrior to fight against everybody
-- Doing a tiny bit of each task
+- Getting ready, How to do it..., How it works...
 
 1.2 [Creating a thread in C#](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec09/creating-a-thread-in-c#)
+- Getting ready, How to do it..., How it works...
 
 1.3 [Pausing a thread]()
-- Taking advantage of multiple execution cores
+- Getting ready, How to do it..., How it works...
 
 1.4 [Making a thread wait]()
+- Getting ready, How to do it..., How it works...
 
 1.5 [Aborting a thread]()
+- Getting ready, How to do it..., How it works...
 
 1.6 [Determining a thread state]()
-- Estimating performance improvements
-- Amdahl's law
-- Gustafson's law
+- Getting ready, How to do it..., How it works...
 
 1.7 [Thread priority]()
+- Getting ready, How to do it..., How it works...
 
 1.8 [Foreground and background threads]()
+- Getting ready, How to do it..., How it works...
 
 1.9 [Passing parameters to a thread]()
+- Getting ready, How to do it..., How it works...
 
 1.11 [Locking with a C# lock keyword]()
+- Getting ready, How to do it..., How it works...
 
 1.12 [Locking with a Monitor construct]()
+- Getting ready, How to do it..., How it works...
 
 1.13 [Handling exceptions]()
+- Getting ready, How to do it..., How it works...
 
 -----
 
