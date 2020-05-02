@@ -21,24 +21,20 @@ subtitle: If you’re one of many developers still uncertain about concurrent an
 
 -----
 
-### Learn
-- Explore all the essential methods used for programming multithreaded applications
-- Enhance the performance of an application by designing various parallel operations to achieve concurrency
-- Build powerful applications using the Task Parallel Library (TPL), which makes concurrent processing of items in a data collection simple
-- Implement data parallelism using the Parallel library, concurrent collections, and PLINQ
-- Debug your multithreaded applications using the Threads view, Tasks window, Parallel Stacks window, and Parallel Watch window
-- Accomplish any given parallel task using two of the most popular parallel patterns for development: Pipelining and producer-consumer
-- Get to grips with the Asynchronous Programming Model (APM) to learn to begin and end asynchronous operations
-
-### About
-Most modern machines have dual-core processors. This means that the present-day computer has the ability to multitask. Using multiple cores means your applications can process data faster and be more responsive to users. However, to fully exploit this in your applications, you need to write multithreading code.
-
-We will begin by covering some techniques that have been around since the beginning of .NET, including the BackgroundWorker component, timers, and the Thread class. We will use tasks, task factories, and parallel loops to develop multithreaded applications at a higher level than directly creating and managing individual threads. Finally, we will look at the tools Visual Studio provides for debugging parallel applications, common concurrent design patterns, and the latest updates in PLINQ and async.
-
-### Features
-- Make use of the latest Visual Studio debugging tools, to manage and debug multiple threads running simultaneously
-- Learn how to use the Thread, Task, and Parallel libraries in your C# applications
-- Explore the evolution of multithreaded development in C#, starting with BackgroundWorker classes and moving on to threads and tasks and finally covering Async
+Concurrency is now more common in responsive and scalable application development, but it’s still extremely difficult to code. The detailed solutions in this cookbook show you how modern tools raise the level of abstraction, making concurrency much easier than before. Complete with ready-to-use code and discussions about how and why solutions work, these recipes help you:
+- Get up to speed on concurrency and async and parallel programming
+- Use async and await for asynchronous operations
+- Enhance your code with asynchronous streams
+- Explore parallel programming with .NET’s Task Parallel Library
+- Create dataflow pipelines with .NET’s TPL Dataflow library
+- Understand the capabilities that System.Reactive builds on top of LINQ
+- Utilize threadsafe and immutable collections
+- Learn how to conduct unit testing with concurrent code
+- Make the thread pool work for you
+- Enable clean, cooperative cancellation
+- Examine scenarios for combining concurrent approaches
+- Dive into asynchronous-friendly object-oriented programming
+- Recognize and write adapters for code using older asynchronous styles
 
 
 -----
@@ -60,23 +56,23 @@ We will begin by covering some techniques that have been around since the beginn
 
 ### Chapter 1. Concurrency: An Overview
 
-1.1 Who Should Read This Book
+1.1. Introduction to Concurrency
 
-1.2 [Multiprocessor systems – many warriors to win a battle](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec09/multiprocessor-systems---many-warriors-to-win-a-battle)
+1.2. Introduction to Asynchronous Programming
 
-1.3 [Multiple core processors and hyperthreading](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec10/multiple-core-processors-and-hyperthreading)
-- Taking advantage of multiple execution cores
+1.3. Introduction to Parallel Programming
 
-1.4 [Examining our hardware](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec11/examining-our-hardware)
+1.4. Introduction to Reactive Programming (Rx)
 
-1.5 [OS scheduler operations](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec12/os-scheduler-operations)
+1.5. Introduction to Dataflows
 
-1.6 [Designing for concurrency](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec13/designing-for-concurrency)
-- Estimating performance improvements
-- Amdahl's law
-- Gustafson's law
+1.6. Introduction to Multithreaded Programming
 
-1.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec14/summary)
+1.7. Collections for Concurrent Applications
+
+1.8. Modern Design
+
+1.9. Summary of Key Technologies
 
 -----
 
