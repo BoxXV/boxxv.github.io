@@ -72,27 +72,37 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
   + Questions
 
 
-### Chapter 1: Understanding Multiprocessing and  Multiple Cores
+### Chapter 1: Threading Basics
 
-1.1 [Mono-processor systems – the old gladiators](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec08/mono-processor-systems---the-old-gladiators)
+1.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec08/introduction)
 - Single core – only one warrior to fight against everybody
 - Doing a tiny bit of each task
 
-1.2 [Multiprocessor systems – many warriors to win a battle](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec09/multiprocessor-systems---many-warriors-to-win-a-battle)
+1.2 [Creating a thread in C#](https://subscription.packtpub.com/book/programming/9781785881251/1/ch01lvl1sec09/creating-a-thread-in-c#)
 
-1.3 [Multiple core processors and hyperthreading](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec10/multiple-core-processors-and-hyperthreading)
+1.3 [Pausing a thread]()
 - Taking advantage of multiple execution cores
 
-1.4 [Examining our hardware](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec11/examining-our-hardware)
+1.4 [Making a thread wait]()
 
-1.5 [OS scheduler operations](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec12/os-scheduler-operations)
+1.5 [Aborting a thread]()
 
-1.6 [Designing for concurrency](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec13/designing-for-concurrency)
+1.6 [Determining a thread state]()
 - Estimating performance improvements
 - Amdahl's law
 - Gustafson's law
 
-1.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/1/ch01lvl1sec14/summary)
+1.7 [Thread priority]()
+
+1.8 [Foreground and background threads]()
+
+1.9 [Passing parameters to a thread]()
+
+1.11 [Locking with a C# lock keyword]()
+
+1.12 [Locking with a Monitor construct]()
+
+1.13 [Handling exceptions]()
 
 -----
 
