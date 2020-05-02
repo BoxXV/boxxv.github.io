@@ -379,12 +379,23 @@ Concurrency is now more common in responsive and scalable application developmen
 ### Chapter 14: Scenarios
 
 14.1. Initializing Shared Resources
+- Problem, Solution, Discussion, See Also
+
 14.2. System.Reactive Deferred Evaluation
+- Problem, Solution, Discussion, See Also
+
 14.3. Asynchronous Data Binding
+- Problem, Solution, Discussion, See Also
+
 14.4. Implicit State
+- Problem, Solution, Discussion, See Also
+
 14.5. Identical Synchronous and Asynchronous Code
+
 14.6. Railway Programming with Dataflow Meshes
+
 14.7. Throttling Progress Updates
+
 
 -----
 
