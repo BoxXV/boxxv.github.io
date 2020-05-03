@@ -244,23 +244,25 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 6: Task-based Parallelism
+### Chapter 6: Using Concurrent Collections
 
-6.1 [Waiting for a task to complete](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec47/waiting-for-a-task-to-complete)
-- How to do it
-- How it works
+6.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec58/introduction)
 
-6.2 [Waiting for multiple tasks to complete](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec48/waiting-for-multiple-tasks-to-complete)
-- How to do it
-- How it works
+6.2 [Using ConcurrentDictionary](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec59/using-concurrentdictionary)
+- Getting ready, How to do it..., How it works...
 
-6.3 [Canceling a task](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec49/canceling-a-task)
-- How to do it
-- How it works
+6.3 [Implementing asynchronous processing using ConcurrentQueue](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec60/implementing-asynchronous-processing-using-concurrentqueue)
+- Getting ready, How to do it..., How it works...
 
-6.4 [Task exception handling](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec50/task-exception-handling)
+6.4 [Changing asynchronous processing order with ConcurrentStack](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec61/changing-asynchronous-processing-order-with-concurrentstack)
+- Getting ready, How to do it..., How it works...
 
-6.5 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/6/ch06lvl1sec51/summary)
+6.5 [Creating a scalable crawler with ConcurrentBag](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec62/creating-a-scalable-crawler-with-concurrentbag)
+- Getting ready, How to do it..., How it works...
+
+6.6 [Generalizing asynchronous processing with BlockingCollection ](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec63/generalizing-asynchronous-processing-with-blockingcollection)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
