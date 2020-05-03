@@ -176,40 +176,37 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 4: Advanced Thread Processing
+### Chapter 4: Using Task Parallel Library
 
-3.5 []()
+4.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec38/introduction)
+
+4.2 [Creating a task](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec39/creating-a-task)
 - Getting ready, How to do it..., How it works...
 
-4.1 [Pipelining](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec30/pipelining)
-- Explaining pipelining using an image processing application
-- How to do it
-- How it works
-- Understanding the pixels' color compositions
+4.3 [Performing basic operations with a task](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec40/performing-basic-operations-with-a-task)
+- Getting ready, How to do it..., How it works...
 
-4.2 [Pausing and restarting threads](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec31/pausing-and-restarting-threads)
-- How to do it
-- How it works
+4.4 [Combining tasks](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec41/combining-tasks)
+- Getting ready, How to do it..., How it works...
 
-4.3 [Signals between threads](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec32/signals-between-threads)
-- How to do it
-- How it works
-- Using the AutoResetEvent class to handle signals between threads
-- Using the WaitHandle class to check  for signals
+4.5 [Converting the APM pattern to tasks](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec42/converting-the-apm-pattern-to-tasks)
+- Getting ready, How to do it..., How it works...
 
-4.4 [Joining threads](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec33/joining-threads)
-- How to do it
-- How it works
+4.6 [Converting the EAP pattern to tasks](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec43/converting-the-eap-pattern-to-tasks)
+- Getting ready, How to do it..., How it works...
 
-4.5 [Locking resources to ensure thread-safe data](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec34/locking-resources-to-ensure-thread-safe-data)
-- How to do it
-- How it works
+4.7 [Implementing a cancelation option](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec44/implementing-a-cancelation-option)
+- Getting ready, How to do it..., How it works...
 
-4.6 [Error handling with threads](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec35/error-handling-with-threads)
-- How to do it
-- How it works
+4.8 [Handling exceptions in tasks](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec45/handling-exceptions-in-tasks)
+- Getting ready, How to do it..., How it works...
 
-4.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/4/ch04lvl1sec36/summary)
+4.9 [Running tasks in parallel](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec46/running-tasks-in-parallel)
+- Getting ready, How to do it..., How it works...
+
+4.10 [Tweaking the execution of tasks with TaskScheduler](https://subscription.packtpub.com/book/programming/9781785881251/4/ch04lvl1sec47/tweaking-the-execution-of-tasks-with-taskscheduler)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
