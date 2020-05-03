@@ -210,35 +210,37 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 5: Lightweight Concurrency – Task Parallel Library (TPL)
+### Chapter 5: Using C# 6.0 
 
-5.1 [Task Parallel Library](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec38/task-parallel-library)
+5.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec48/introduction)
 
-5.2 [Exploring tasks](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec39/exploring-tasks)
-- How to do it
-- How it works
+5.2 [Using the await operator to get asynchronous task results](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec49/using-the-await-operator-to-get-asynchronous-task-results)
+- Getting ready, How to do it..., How it works...
 
-5.3 [Tasks with return values](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec40/tasks-with-return-values)
-- How to do it
-- How it works
+5.3 [Using the await operator in a lambda expression](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec50/using-the-await-operator-in-a-lambda-expression)
+- Getting ready, How to do it..., How it works...
 
-5.4 [Concurrent collections](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec41/concurrent-collections)
-- How to do it
-- How it works
+5.4 [Using the await operator with consequent asynchronous tasks](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec51/using-the-await-operator-with-consequent-asynchronous-tasks)
+- Getting ready, How to do it..., How it works...
 
-5.5 [Exploring the TaskFactory class](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec42/exploring-the-taskfactory-class)
-- How to do it
-- How it works
+5.5 [Using the await operator for the execution of parallel asynchronous tasks](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec52/using-the-await-operator-for-the-execution-of-parallel-asynchronous-tasks)
+- Getting ready, How to do it..., How it works...
 
-5.6 [Task schedulers](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec43/task-schedulers)
+5.6 [Handling exceptions in asynchronous operations](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec53/handling-exceptions-in-asynchronous-operations)
+- Getting ready, How to do it..., How it works...
 
-5.7 [Introducing the Parallel class](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec44/introducing-the-parallel-class)
-- How to do it
-- How it works
+5.7 [Avoiding the use of the captured synchronization context](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec54/avoiding-the-use-of-the-captured-synchronization-context)
+- Getting ready, How to do it..., How it works...
 
-5.8 [Delegates and lambda expressions](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec45/delegates-and-lambda-expressions)
+5.8 [Working around the async void method](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec55/working-around-the-async-void-method)
+- Getting ready, How to do it..., How it works...
 
-5.9 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/5/ch05lvl1sec46/summary)
+5.9 [Designing a custom awaitable type](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec56/designing-a-custom-awaitable-type)
+- Getting ready, How to do it..., How it works...
+
+5.10 [Using the dynamic type with await](https://subscription.packtpub.com/book/programming/9781785881251/5/ch05lvl1sec57/using-the-dynamic-type-with-await)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
