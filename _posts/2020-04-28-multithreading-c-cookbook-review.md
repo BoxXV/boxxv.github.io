@@ -316,21 +316,22 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 9: Pipeline and Producer-consumer Design Patterns
+### Chapter 9: Using Asynchronous I/O
 
-9.1 [Pipeline design pattern](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec66/pipeline-design-pattern)
-- How to do it
-- How it works
+9.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/9/ch09lvl1sec78/introduction)
 
-9.2 [Explaining message blocks](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec67/explaining-message-blocks)
-- BufferBlock
-- ActionBlock
+9.2 [Working with files asynchronously](https://subscription.packtpub.com/book/programming/9781785881251/9/ch09lvl1sec79/working-with-files-asynchronously)
+- Getting ready, How to do it..., How it works...
 
-9.3 [Producer-consumer design pattern](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec68/producer-consumer-design-pattern)
-- How to do it
-- How it works
+9.3 [Writing an asynchronous HTTP server and client](https://subscription.packtpub.com/book/programming/9781785881251/9/ch09lvl1sec80/writing-an-asynchronous-http-server-and-client)
+- Getting ready, How to do it..., How it works...
 
-9.4 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/9/ch09lvl1sec69/summary)
+9.4 [Working with a database asynchronously](https://subscription.packtpub.com/book/programming/9781785881251/9/ch09lvl1sec81/working-with-a-database-asynchronously)
+- Getting ready, How to do it..., How it works...
+
+9.5 [Calling a WCF service asynchronously](https://subscription.packtpub.com/book/programming/9781785881251/9/ch09lvl1sec82/calling-a-wcf-service-asynchronously)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
