@@ -335,27 +335,22 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 10: Parallel LINQ – PLINQ
+### Chapter 10: Parallel Programming Patterns
 
-10.1 [Executing a PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec71/executing-a-plinq)
-- How to do it
-- How it works
+10.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/10/ch10lvl1sec83/introduction)
 
-10.2 [Ordering in PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec72/ordering-in-plinq)
-- How to do it
-- How it works
+10.2 [Implementing Lazy-evaluated shared states](https://subscription.packtpub.com/book/programming/9781785881251/10/ch10lvl1sec84/implementing-lazy-evaluated-shared-states)
+- Getting ready, How to do it..., How it works...
 
-10.3 [Merging in PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec73/merging-in-plinq)
-- How to do it
-- How it works
+10.3 [Implementing Parallel Pipeline with BlockingCollection](https://subscription.packtpub.com/book/programming/9781785881251/10/ch10lvl1sec85/implementing-parallel-pipeline-with-blockingcollection)
+- Getting ready, How to do it..., How it works...
 
-10.4 [Canceling a PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec74/canceling-a-plinq)
-- How to do it
-- How it works
+10.4 [Implementing Parallel Pipeline with TPL DataFlow](https://subscription.packtpub.com/book/programming/9781785881251/10/ch10lvl1sec86/implementing-parallel-pipeline-with-tpl-dataflow)
+- Getting ready, How to do it..., How it works...
 
-10.5 [Understanding performance improvements in PLINQ](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec75/understanding-performance-improvements-in-plinq)
+10.5 [Implementing Map/Reduce with PLINQ](https://subscription.packtpub.com/book/programming/9781785881251/10/ch10lvl1sec87/implementing-map/reduce-with-plinq)
+- Getting ready, How to do it..., How it works...
 
-10.6 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/10/ch10lvl1sec76/summary)
 
 -----
 
