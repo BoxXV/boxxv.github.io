@@ -354,22 +354,24 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 11: The Asynchronous Programming Model
+### Chapter 11: There's More
 
-11.1 [Introduction to the Asynchronous Programming Model](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec78/introduction-to-the-asynchronous-programming-model)
-- How to do it
-- How it works
+11.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/11/ch11lvl1sec88/introduction)
 
-11.2 [Using an AsyncCallback delegate method](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec79/using-an-asynccallback-delegate-method)
-- How to do it
-- How it works
+11.2 [Using a timer in a Universal Windows Platform application](https://subscription.packtpub.com/book/programming/9781785881251/11/ch11lvl1sec89/using-a-timer-in-a-universal-windows-platform-application)
+- Getting ready, How to do it..., How it works...
 
-11.3 [The async and await keywords](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec80/the-async-and-await-keywords)
-- How to do it
-- How it works
+11.3 [Using WinRT from usual applications](https://subscription.packtpub.com/book/programming/9781785881251/11/ch11lvl1sec90/using-winrt-from-usual-applications)
+- Getting ready, How to do it..., How it works...
 
-11.4 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/11/ch11lvl1sec81/summary)
+11.4 [Using BackgroundTask in Universal Windows Platform applications](https://subscription.packtpub.com/book/programming/9781785881251/11/ch11lvl1sec91/using-backgroundtask-in-universal-windows-platform-applications)
+- Getting ready, How to do it..., How it works...
 
+11.5 [Running a .NET Core application on OS X](https://subscription.packtpub.com/book/programming/9781785881251/11/ch11lvl1sec92/running-a-.net-core-application-on-os-x)
+- Getting ready, How to do it..., How it works...
+
+11.6 [Running a .NET Core application on Ubuntu Linux](https://subscription.packtpub.com/book/programming/9781785881251/11/ch11lvl1sec93/running-a-.net-core-application-on-ubuntu-linux)
+- Getting ready, How to do it..., How it works...
 
 
 -----
