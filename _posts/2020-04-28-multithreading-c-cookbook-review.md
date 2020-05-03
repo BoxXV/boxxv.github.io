@@ -291,23 +291,28 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 8: Debugging Multithreaded Applications with Visual Studio
+### Chapter 8: Reactive Extensions 
 
-8.1 [Considerations for debugging multithreaded applications](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec59/considerations-for-debugging-multithreaded-applications)
+8.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec71/introduction)
 
-8.2 [Using the Threads window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec60/using-the-threads-window)
+8.2 [Converting a collection to an asynchronous Observable](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec72/converting-a-collection-to-an-asynchronous-observable)
+- Getting ready, How to do it..., How it works...
 
-8.3 [Using the Tasks window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec61/using-the-tasks-window)
+8.3 [Writing custom Observable](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec73/writing-custom-observable)
+- Getting ready, How to do it..., How it works...
 
-8.4 [Using the Parallel Stacks window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec62/using-the-parallel-stacks-window)
+8.4 [Using the Subject type family](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec74/using-the-subject-type-family)
+- Getting ready, How to do it..., How it works...
 
-8.5 [Using the Parallel Watch window](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec63/using-the-parallel-watch-window)
+8.5 [Creating an Observable object](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec75/creating-an-observable-object)
+- Getting ready, How to do it..., How it works...
 
-8.6 [Debugging an entire application](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec64/debugging-an-entire-application)
-- How to do it
-- How it works
+8.6 [Using LINQ queries against an observable collection](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec76/using-linq-queries-against-an-observable-collection)
+- Getting ready, How to do it..., How it works...
 
-8.7 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/8/ch08lvl1sec65/summary)
+8.7 [Creating asynchronous operations with Rx](https://subscription.packtpub.com/book/programming/9781785881251/8/ch08lvl1sec77/creating-asynchronous-operations-with-rx)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
