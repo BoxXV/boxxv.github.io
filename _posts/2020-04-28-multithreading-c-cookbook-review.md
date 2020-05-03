@@ -266,29 +266,28 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 
 -----
 
-### Chapter 7: Data Parallelism
+### Chapter 7: Using PLINQ
 
-7.1 [Parallel loop processing](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec53/parallel-loop-processing)
-- How to do it
-- How it works
+7.1 [Introduction](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec64/introduction)
 
-7.2 [Data parallelism on collections using Parallel.ForEach](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec54/data-parallelism-on-collections-using-parallel.foreach)
-- How to do it
-- How it works
+7.2 [Using the Parallel class](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec65/using-the-parallel-class)
+- Getting ready, How to do it..., How it works...
 
-7.3 [Canceling a parallel loop](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec55/canceling-a-parallel-loop)
-- How to do it
-- How it works
+7.3 [Parallelizing a LINQ query](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec66/parallelizing-a-linq-query)
+- Getting ready, How to do it..., How it works...
 
-7.4 [Handling exceptions in parallel loops](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec56/handling-exceptions-in-parallel-loops)
-- How to do it
-- How it works
+7.4 [Tweaking the parameters of a PLINQ query](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec67/tweaking-the-parameters-of-a-plinq-query)
+- Getting ready, How to do it..., How it works...
 
-7.5 [Using thread-local variables in parallel loops](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec57/using-thread-local-variables-in-parallel-loops)
-- How to do it
-- How it works
+7.5 [Handling exceptions in a PLINQ query](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec68/handling-exceptions-in-a-plinq-query)
+- Getting ready, How to do it..., How it works...
 
-7.6 [Summary](https://subscription.packtpub.com/book/programming/9781849688321/7/ch07lvl1sec58/summary)
+7.6 [Managing data partitioning in a PLINQ query](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec69/managing-data-partitioning-in-a-plinq-query)
+- Getting ready, How to do it..., How it works...
+
+7.7 [Creating a custom aggregator for a PLINQ query](https://subscription.packtpub.com/book/programming/9781785881251/7/ch07lvl1sec70/creating-a-custom-aggregator-for-a-plinq-query)
+- Getting ready, How to do it..., How it works...
+
 
 -----
 
