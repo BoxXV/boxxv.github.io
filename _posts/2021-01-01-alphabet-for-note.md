@@ -49,5 +49,5 @@ image: "img/projects-bg.jpg"
 
 -----
 Nguồn: [Jun the Foureyes](https://www.instagram.com/juniiiel_)  
-[✨ Viết Chữ Đẹp Như Thế Nào? // Bảng Chữ Cái / Quy Tắc Viết Chữ Cho Người Thích Note Đẹp](https://youtu.be/SczIIVhFgBw)  
+[✨ Bảng Chữ Cái / Quy Tắc Viết Chữ Cho Người Thích Note Đẹp](https://youtu.be/SczIIVhFgBw)  
 [✏️ 10 Tips Viết Note Hiệu Quả Và Bí Kíp Ghi Chép Bài Sạch Sẽ / Tips On Note Taking ](https://youtu.be/mJeqWd1QKkE)
