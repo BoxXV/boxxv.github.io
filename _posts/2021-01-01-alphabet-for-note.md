@@ -21,6 +21,8 @@ image: "img/projects-bg.jpg"
 - Viết thẳng hàng
 - Viết sai thì sửa lại luôn
 
+![placeholder](http://boxxv.com/img/posts/71198356_180636316313165_8651669721616778874_n.jpg "10 Tip for Note")
+
 ### 10 Tip for Note
 - Chọn một quyển vở phù hợp với cách ghi bài của bạn => Miquelrius Notebook
 - Viết chữ với chiều cao ngang bằng nhau
@@ -46,6 +48,6 @@ image: "img/projects-bg.jpg"
 
 
 -----
-Nguồn: Jun the Foureyes
-[Jun Viết Chữ Đẹp Như Thế Nào? // Bảng Chữ Cái // Quy Tắc Viết Chữ Cho Người Thích Note Đẹp ✨](https://youtu.be/SczIIVhFgBw)  
-[10 Tips Viết Note Hiệu Quả Và Bí Kíp Ghi Chép Bài Sạch Sẽ // Tips On Note Taking ✏️](https://youtu.be/mJeqWd1QKkE)
+Nguồn: [Jun the Foureyes](https://www.instagram.com/juniiiel_)  
+[✨ Viết Chữ Đẹp Như Thế Nào? // Bảng Chữ Cái / Quy Tắc Viết Chữ Cho Người Thích Note Đẹp](https://youtu.be/SczIIVhFgBw)  
+[✏️ 10 Tips Viết Note Hiệu Quả Và Bí Kíp Ghi Chép Bài Sạch Sẽ / Tips On Note Taking ](https://youtu.be/mJeqWd1QKkE)
