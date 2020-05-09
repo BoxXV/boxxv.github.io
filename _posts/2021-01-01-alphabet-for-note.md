@@ -31,6 +31,7 @@ image: "img/projects-bg.jpg"
 ![placeholder](http://boxxv.com/img/posts/note_demo_1.png "Demo 1")
 ![placeholder](http://boxxv.com/img/posts/note_demo_2.png "Demo 2")
 ![placeholder](http://boxxv.com/img/posts/note_demo_3.png "Demo 3")
+![placeholder](http://boxxv.com/img/posts/note_demo_4.png "Demo 4")
 
 
 -----
