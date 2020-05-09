@@ -29,8 +29,8 @@ image: "img/projects-bg.jpg"
 - Đặt câu hỏi và trả lời cho những vấn đề mà bạn gặp rắc rối
 - Vẽ hình minh họa
 - Vẽ biểu đồ, lập bảng
-- 
-- 
+- Đóng hộp riêng cho những thông tin bổ sung hoặc những chú thích cần lưu ý
+- Dùng bút Highlight từ khóa, ý chính
 - Sử dụng bút dạ màu cho mỗi chức năng cụ thể:
     + Bút Xanh: viết thông tin chung chung
     + Bút Đen: vẽ hình minh họa, bảng hay biểu đồ
