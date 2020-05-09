@@ -21,12 +21,23 @@ image: "img/projects-bg.jpg"
 - Viết thẳng hàng
 - Viết sai thì sửa lại luôn
 
-### Tip for Note
+### 10 Tip for Note
+- Chọn một quyển vở phù hợp với cách ghi bài của bạn => Miquelrius Notebook
+- Viết chữ với chiều cao ngang bằng nhau
+- Hệ thống hóa cách trình bày luận điểm, viết tắt và ký tự
+- Tóm tắt thông tin và biến điều phức tạp thành đơn giản => sử dụng hệ thống Cành cây
+- Đặt câu hỏi và trả lời cho những vấn đề mà bạn gặp rắc rối
+- Vẽ hình minh họa
+- Vẽ biểu đồ, lập bảng
 - 
 - 
-- 
-- 
-- 
+- Sử dụng bút dạ màu cho mỗi chức năng cụ thể:
+    + Bút Xanh: viết thông tin chung chung
+    + Bút Đen: vẽ hình minh họa, bảng hay biểu đồ
+    + Bút Đỏ: viết câu hỏi
+    + Bút Cam: trả lời câu hỏi, chú thích các nguyên tố của biểu đồ hoặc hình minh họa
+    + Bút màu còn lại dùng để tô màu.
+
 
 ![placeholder](http://boxxv.com/img/posts/note_demo_1.png "Demo 1")
 ![placeholder](http://boxxv.com/img/posts/note_demo_2.png "Demo 2")
