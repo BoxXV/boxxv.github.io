@@ -112,6 +112,7 @@ namespace Singleton
 
 -----
 Tham khảo:
-- [Singleton](https://refactoring.guru/design-patterns/singleton)
-- [Top 16 C# Programming Tips & Tricks](https://www.vn.freelancer.com/community/articles/top-16-c-programming-tips-tricks)
-- [Invoke, InvokeRequired trong C# có nghĩa là gì?](http://diendan.congdongcviet.com/threads/t52293::invoke-invokerequired-trong-csharp-co-nghia-la-gi.cpp)
+- [Singleton Main article](https://refactoring.guru/design-patterns/singleton)
+- [Singleton Usage in C#](https://refactoring.guru/design-patterns/singleton/csharp/example#lang-features)
+- [Singleton Pattern in C#](https://viblo.asia/p/singleton-pattern-in-c-07LKXA2DZV4)
+- [Singleton Design Pattern](https://www.dofactory.com/net/singleton-design-pattern)
