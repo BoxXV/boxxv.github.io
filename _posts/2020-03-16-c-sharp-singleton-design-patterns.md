@@ -210,3 +210,4 @@ Tham khảo:
 - [Singleton Usage in C#](https://refactoring.guru/design-patterns/singleton/csharp/example#lang-features)
 - [Singleton Pattern in C#](https://viblo.asia/p/singleton-pattern-in-c-07LKXA2DZV4)
 - [Singleton Design Pattern](https://www.dofactory.com/net/singleton-design-pattern)
+- [Implementing the Singleton Pattern in C#](https://csharpindepth.com/Articles/Singleton)
