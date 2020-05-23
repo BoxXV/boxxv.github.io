@@ -14,9 +14,9 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 ✅ Language: English
 
-✅ Pages: 616
+✅ Pages: 528
 
-✅ Size: 14.3 MB
+✅ Size: 4.78 MB
 
 ✅ Download source code:  
 [source-4thEdition.zip](https://csharpindepth.com/files/source-4thEdition.zip)  
@@ -36,46 +36,28 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 # Table of contents
 
 
-## Part 1. Preparing for the journey
+## Part 1. C# in context
 
-### Chapter 1. The changing face of C# development
+### Chapter 1. Survival of the sharpest
 
-#### 1.1 Starting with a simple data type
-- 1.1.1 The Product type in C# 1
-- 1.1.2 Strongly typed collections in C# 2
-- 1.1.3 Automatically implemented properties in C# 3
-- 1.1.4 Named arguments in C# 4
+#### 1.1 An evolving language
+- 1.1.1 A helpful type system at large and small scales
+- 1.1.2 Ever more concise code
+- 1.1.3 Simple data access with LINQ
+- 1.1.4 Asynchrony
+- 1.1.5 Balancing efficiency and complexity
+- 1.1.6 Evolution at speed: Using minor versions
 
-#### 1.2 Sorting and filtering
-- 1.2.1 Sorting products by name
-- 1.2.2 Querying collections
+#### 1.2 An evolving platform
 
-#### 1.3 Handling an absence of data
-- 1.3.1 Representing an unknown price
-- 1.3.2 Optional parameters and default values
+#### 1.3 An evolving community
 
-#### 1.4 Introducing LINQ
-- 1.4.1 Query expressions and in-process queries
-- 1.4.2 Querying XML
-- 1.4.3 LINQ to SQL
+#### 1.4 An evolving book
+- 1.4.1 Mixed-level coverage
+- 1.4.2 Examples using Noda Time
+- 1.4.3 Terminology choices
 
-#### 1.5 COM and dynamic typing
-- 1.5.1 Simplifying COM interoperability
-- 1.5.2 Interoperating with a dynamic language
-
-#### 1.6 Writing asynchronous code without the heartache
-
-#### 1.7 Dissecting the .NET platform
-- 1.7.1 C#, the language
-- 1.7.2 Runtime
-- 1.7.3 Framework libraries
-
-#### 1.8 Making your code super awesome
-- 1.8.1 Presenting full programs as snippets
-- 1.8.2 Didactic code isn’t production code
-- 1.8.3 Your new best friend: the language specification
-
-#### 1.9 Summary
+#### Summary
 
 -----
 
