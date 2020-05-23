@@ -153,31 +153,32 @@ Part two describes C# versions 2 through 5. This is effectively a rewritten and 
 
 -----
 
-### Chapter 4.Saying nothing with nullable types
+### Chapter 4. C# 4: Improving interoperability
 
-#### 4.1 What do you do when you just don’t have a value?
-- 4.1.1 Why value type variables can’t be null
-- 4.1.2 Patterns for representing null values in C# 1
+#### 4.1 Dynamic typing
+- 4.1.1 Introduction to dynamic typing
+- 4.1.2 Dynamic behavior beyond reflection
+- 4.1.3 A brief look behind the scenes
+- 4.1.4 Limitations and surprises in dynamic typing
+- 4.1.5 Usage suggestions
 
-#### 4.2 System.Nullable<T> and System.Nullable
-- 4.2.1 Introducing Nullable<T>
-- 4.2.2 Boxing Nullable<T> and unboxing
-- 4.2.3 Equality of Nullable<T> instances
-- 4.2.4 Support from the nongeneric Nullable class
+#### 4.2 Optional parameters and named arguments
+- 4.2.1 Parameters with default values and arguments with names
+- 4.2.2 Determining the meaning of a method call
+- 4.2.3 Impact on versioning
 
-#### 4.3 C# 2’s syntactic sugar for nullable types
-- 4.3.1 The ? modifier
-- 4.3.2 Assigning and comparing with null
-- 4.3.3 Nullable conversions and operators
-- 4.3.4 Nullable logic
-- 4.3.5 Using the as operator with nullable types
-- 4.3.6 The null coalescing operator
+#### 4.3 COM interoperability improvements
+- 4.3.1 Linking primary interop assemblies
+- 4.3.2 Optional parameters in COM
+- 4.3.3 Named indexers
 
-#### 4.4 Novel uses of nullable types
-- 4.4.1 Trying an operation without using output parameters
-- 4.4.2 Painless comparisons with the null coalescing operator
+#### 4.4 Generic variance
+- 4.4.1 Simple examples of variance in action
+- 4.4.2 Syntax for variance in interface and delegate declarations
+- 4.4.3 Restrictions on using variance
+- 4.4.4 Generic variance in practice
 
-#### 4.5 Summary
+#### Summary
 
 
 -----
