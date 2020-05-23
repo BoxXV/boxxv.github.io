@@ -512,45 +512,41 @@ Part four addresses C# 7 (all the way up to C# 7.3) and completes the book by pe
 
 -----
 
-## Part 5. C# 5: Asynchrony made simple
+### Chapter 15. C# 8 and beyond
 
-### Chapter 15. Asynchrony with async/await
+#### 15.1 Nullable reference types
+- 15.1.1 What problem do nullable reference types solve?
+- 15.1.2 Changing the meaning when using reference types
+- 15.1.3 Enter nullable reference types
+- 15.1.4 Nullable reference types at compile time and execution time
+- 15.1.5 The damn it or bang operator
+- 15.1.6 Experiences of nullable reference type migration
+- 15.1.7 Future improvements
 
-#### 15.1 Introducing asynchronous functions
-- 15.1.1 First encounters of the asynchronous kind
-- 15.1.2 Breaking down the first example
+#### 15.2 Switch expressions
 
-#### 15.2 Thinking about asynchrony
-- 15.2.1 Fundamentals of asynchronous execution
-- 15.2.2 Modeling asynchronous methods
+#### 15.3 Recursive pattern matching
+- 15.3.1 Matching properties in patterns
+- 15.3.2 Deconstruction patterns
+- 15.3.3 Omitting types from patterns
 
-#### 15.3 Syntax and semantics
-- 15.3.1 Declaring an async method
-- 15.3.2 Return types from async methods
-- 15.3.3 The awaitable pattern
-- 15.3.4 The flow of await expressions
-- 15.3.5 Returning from an async method
-- 15.3.6 Exceptions
+#### 15.4 Indexes and ranges
+- 15.4.1 Index and Range types and literals
+- 15.4.2 Applying indexes and ranges
 
-#### 15.4 Asynchronous anonymous functions
+#### 15.5 More async integration
+- 15.5.1 Asynchronous resource disposal with using await
+- 15.5.2 Asynchronous iteration with foreach await
+- 15.5.3 Asynchronous iterators
 
-#### 15.5 Implementation details: compiler transformation
-- 15.5.1 Overview of the generated code
-- 15.5.2 Structure of the skeleton method
-- 15.5.3 Structure of the state machine
-- 15.5.4 One entry point to rule them all
-- 15.5.5 Control around await expressions
-- 15.5.6 Keeping track of a stack
-- 15.5.7 Finding out more
+#### 15.6 Features not yet in preview
+- 15.6.1 Default interface methods
+- 15.6.2 Record types
+- 15.6.3 Even more features in brief
 
-#### 15.6 Using async/await effectively
-- 15.6.1 The task-based asynchronous pattern
-- 15.6.2 Composing async operations
-- 15.6.3 Unit testing asynchronous code
-- 15.6.4 The awaitable pattern redux
-- 15.6.5 Asynchronous operations in WinRT
+#### 15.7 Getting involved
 
-#### 15.7 Summary
+#### Summary
 
 -----
 
