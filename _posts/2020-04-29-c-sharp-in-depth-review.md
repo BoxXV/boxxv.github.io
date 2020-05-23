@@ -4,19 +4,19 @@ title: C# in Depth
 subtitle: C# in Depth is a book for those who are passionate about C#. It aims to be a bridge between the existing introductory books and the language specification: something readable but detailed, exploring every aspect of the language from version 2 onwards.
 ---
 
-![placeholder](http://boxxv.com/img/multithread/lrg.jpg "Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming")
+![placeholder](http://boxxv.com/img/multithread/41prHleW6NL._SX397_BO1,204,203,200_.jpg "C# in Depth")
 
-✅ Publisher: [O'Reilly Media](https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/)
+✅ Publisher: [Manning Publications](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)
 
-✅ Year: August 20, 2019
+✅ Year: October 8, 2013
 
-✅ Authors: Stephen Cleary
+✅ Authors:  Jon Skeet
 
 ✅ Language: English
 
-✅ Pages: 254
+✅ Pages: 616
 
-✅ Size: 2.38 MB
+✅ Size: 14.3 MB
 
 
 -----
