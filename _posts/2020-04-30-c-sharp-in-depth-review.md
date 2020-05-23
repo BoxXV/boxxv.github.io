@@ -31,9 +31,9 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 # Table of contents
 
 
-## Part 1 Preparing for the journey
+## Part 1. Preparing for the journey
 
-### Chapter 1 The changing face of C# development
+### Chapter 1. The changing face of C# development
 
 #### 1.1 Starting with a simple data type
 - 1.1.1 The Product type in C# 1
@@ -74,7 +74,7 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 2 Core foundations: building on C# 1
+### Chapter 2. Core foundations: building on C# 1
 
 #### 2.1 Delegates
 - 2.1.1 A recipe for simple delegates
@@ -103,57 +103,65 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 2. Async Basics
+## Part 2. C# 2: Solving the issues of C# 1
 
-2.1. Pausing for a Period of Time
-- Problem, Solution, Discussion, See Also
+### Chapter 3. Parameterized typing with generics
 
-2.2. Returning Completed Tasks
-- Problem, Solution, Discussion, See Also
+#### 3.1 Why generics are necessary
 
-2.3. Reporting Progress
-- Problem, Solution, Discussion, See Also
+#### 3.2 Simple generics for everyday use
+- 3.2.1 Learning by example: a generic dictionary
+- 3.2.2 Generic types and type parameters
+- 3.2.3 Generic methods and reading generic declarations
 
-2.4. Waiting for a Set of Tasks to Complete
-- Problem, Solution, Discussion, See Also
+#### 3.3 Beyond the basics
+- 3.3.1 Type constraints
+- 3.3.2 Type inference for type arguments of generic methods
+- 3.3.3 Implementing generics
 
-2.5. Waiting for Any Task to Complete
-- Problem, Solution, Discussion, See Also
+#### 3.4 Advanced generics
+- 3.4.1 Static fields and static constructors
+- 3.4.2 How the JIT compiler handles generics
+- 3.4.3 Generic iteration
+- 3.4.4 Reflection and generics
 
-2.6. Processing Tasks as They Complete
-- Problem, Solution, Discussion, See Also
+#### 3.5 Limitations of generics in C# and other languages
+- 3.5.1 Lack of generic variance
+- 3.5.2 Lack of operator constraints or a “numeric” constraint
+- 3.5.3 Lack of generic properties, indexers, and other member types
+- 3.5.4 Comparison with C++ templates
+- 3.5.5 Comparison with Java generics
 
-2.7. Avoiding Context for Continuations
-- Problem, Solution, Discussion, See Also
-
-2.8. Handling Exceptions from async Task Methods
-- Problem, Solution, Discussion, See Also
-
-2.9. Handling Exceptions from async void Methods
-- Problem, Solution, Discussion, See Also
-
-2.10. Creating a ValueTask
-
-2.11. Consuming a ValueTask 
+#### 3.6 Summary
 
 
 -----
 
-### Chapter 3: Asynchronous Streams
+### Chapter 4.  Saying nothing with nullable types
 
-- Asynchronous Streams and Task<T>
-- Asynchronous Streams and IEnumerable<T>
-- Asynchronous Streams and Task<IEnumerable<T>>
-- Asynchronous Streams and IObservable<T>
-- Summary
+#### 4.1 What do you do when you just don’t have a value?
+- 4.1.1 Why value type variables can’t be null
+- 4.1.2 Patterns for representing null values in C# 1
 
-3.1. Creating Asynchronous Streams
+#### 4.2 System.Nullable<T> and System.Nullable
+- 4.2.1 Introducing Nullable<T>
+- 4.2.2 Boxing Nullable<T> and unboxing
+- 4.2.3 Equality of Nullable<T> instances
+- 4.2.4 Support from the nongeneric Nullable class
 
-3.2. Consuming Asynchronous Streams
+#### 4.3 C# 2’s syntactic sugar for nullable types
+- 4.3.1 The ? modifier
+- 4.3.2 Assigning and comparing with null
+- 4.3.3 Nullable conversions and operators
+- 4.3.4 Nullable logic
+- 4.3.5 Using the as operator with nullable types
+- 4.3.6 The null coalescing operator
 
-3.3. Using LINQ with Asynchronous Streams
+#### 4.4 Novel uses of nullable types
+- 4.4.1 Trying an operation without using output parameters
+- 4.4.2 Painless comparisons with the null coalescing operator
 
-3.4. Asynchronous Streams and Cancellation
+#### 4.5 Summary
 
 
 -----
