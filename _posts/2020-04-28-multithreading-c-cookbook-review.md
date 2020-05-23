@@ -4,7 +4,7 @@ title: Multithreading with C# Cookbook
 subtitle: Over 70 recipes to get you writing powerful and efficient multithreaded, asynchronous, and parallel programs in C# 6.0
 ---
 
-![placeholder](http://boxxv.com/img/multithread/1251cov_.jpg "Multithreading with C# Cookbook")
+![Multithreading with C# Cookbook](http://boxxv.com/img/multithread/1251cov_.jpg "Multithreading with C# Cookbook")
 
 ✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/multithreading-c-cookbook-second-edition)
 

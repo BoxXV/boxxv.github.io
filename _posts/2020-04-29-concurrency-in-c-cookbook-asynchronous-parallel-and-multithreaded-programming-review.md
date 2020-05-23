@@ -4,7 +4,7 @@ title: Concurrency in C# Cookbook - Asynchronous, Parallel, and Multithreaded Pr
 subtitle: If you’re one of many developers still uncertain about concurrent and multithreaded development, this practical cookbook will change your mind. With more than 85 code-rich recipes in this updated second edition, author Stephen Cleary demonstrates parallel processing and asynchronous programming techniques using libraries and language features in .NET and C# 8.0.
 ---
 
-![placeholder](http://boxxv.com/img/multithread/lrg.jpg "Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming")
+![Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming](http://boxxv.com/img/multithread/lrg.jpg "Concurrency in C# Cookbook: Asynchronous, Parallel, and Multithreaded Programming")
 
 ✅ Publisher: [O'Reilly Media](https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/)
 
