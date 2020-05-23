@@ -230,24 +230,29 @@ Part two describes C# versions 2 through 5. This is effectively a rewritten and 
 
 -----
 
-### Chapter 6. Implementing iterators the easy way
+### Chapter 6. Async implementation
 
-#### 6.1 C# 1: The pain of handwritten iterators
+#### 6.1 Structure of the generated code
+- 6.1.1 The stub method: Preparation and taking the first step
+- 6.1.2 Structure of the state machine
+- 6.1.3 The MoveNext() method (high level)
+- 6.1.4 The SetStateMachine method and the state machine boxing dance
 
-#### 6.2 C# 2: Simple iterators with yield statements
-- 6.2.1 Introducing iterator blocks and yield return
-- 6.2.2 Visualizing an iterator’s workflow
-- 6.2.3 Advanced iterator execution flow
-- 6.2.4 Quirks in the implementation
+#### 6.2 A simple MoveNext() implementation
+- 6.2.1 A full concrete example
+- 6.2.2 MoveNext() method general structure
+- 6.2.3 Zooming into an await expression
 
-#### 6.3 Real-life iterator examples
-- 6.3.1 Iterating over the dates in a timetable
-- 6.3.2 Iterating over lines in a file
-- 6.3.3 Filtering items lazily using an iterator block and a predicate
+#### 6.3 How control flow affects MoveNext()
+- 6.3.1 Control flow between await expressions is simple
+- 6.3.2 Awaiting within a loop
+- 6.3.3 Awaiting within a try/finally block
 
-#### 6.4 Pseudo-synchronous code with the Concurrency and Coordination Runtime
+#### 6.4 Execution contexts and flow
 
-#### 6.5 Summary
+#### 6.5 Custom task types revisited
+
+#### Summary
 
 -----
 
