@@ -256,66 +256,43 @@ Part two describes C# versions 2 through 5. This is effectively a rewritten and 
 
 -----
 
-### Chapter 7. Concluding C# 2: the final features
+### Chapter 7. C# 5 bonus features
 
-#### 7.1 Partial types
-- 7.1.1 Creating a type with multiple files
-- 7.1.2 Uses of partial types
-- 7.1.3 Partial methods—C# 3 only!
+#### 7.1 Capturing variables in foreach loops
 
-#### 7.2 Static classes
+#### 7.2 Caller information attributes
+- 7.2.1 Basic behavior
+- 7.2.2 Logging
+- 7.2.3 Simplifying INotifyPropertyChanged implementations
+- 7.2.4 Corner cases of caller information attributes
+- 7.2.5 Using caller information attributes with old versions of .NET
 
-#### 7.3 Separate getter/setter property access
-
-#### 7.4 Namespace aliases
-- 7.4.1 Qualifying namespace aliases
-- 7.4.2 The global namespace alias
-- 7.4.3 Extern aliases
-
-#### 7.5 Pragma directives
-- 7.5.1 Warning pragmas
-- 7.5.2 Checksum pragmas
-
-#### 7.6 Fixed-size buffers in unsafe code
-
-#### 7.7 Exposing internal members to selected assemblies
-- 7.7.1 Friend assemblies in the simple case
-- 7.7.2 Why use InternalsVisibleTo?
-- 7.7.3 InternalsVisibleTo and signed assemblies
-
-#### 7.8 Summary
+#### Summary
 
 
 -----
 
-## Part 3. C# 3: Revolutionizing data access
+## Part 3 C# 6
+Part three describes C# 6 in detail.
 
-### Chapter 8. Cutting fluff with a smart compiler
 
-#### 8.1 Automatically implemented properties
+### Chapter 8. Super-sleek properties and expression-bodied members
 
-#### 8.2 Implicit typing of local variables
-- 8.2.1 Using var to declare a local variable
-- 8.2.2 Restrictions on implicit typing
-- 8.2.3 Pros and cons of implicit typing
-- 8.2.4 Recommendations
+#### 8.1 A brief history of properties
 
-#### 8.3 Simplified initialization
-- 8.3.1 Defining some sample types
-- 8.3.2 Setting simple properties
-- 8.3.3 Setting properties on embedded objects
-- 8.3.4 Collection initializers
-- 8.3.5 Uses of initialization features
+#### 8.2 Upgrades to automatically implemented properties
+- 8.2.1 Read-only automatically implemented properties
+- 8.2.2 Initializing automatically implemented properties
+- 8.2.3 Automatically implemented properties in structs
 
-#### 8.4 Implicitly typed arrays
+#### 8.3 Expression-bodied members
+- 8.3.1 Even simpler read-only computed properties
+- 8.3.2 Expression-bodied methods, indexers, and operators
+- 8.3.3 Restrictions on expression-bodied members in C# 6
+- 8.3.4 Guidelines for using expression-bodied members
 
-#### 8.5 Anonymous types
-- 8.5.1 First encounters of the anonymous kind
-- 8.5.2 Members of anonymous types
-- 8.5.3 Projection initializers
-- 8.5.4 What’s the point?
+#### Summary
 
-#### 8.6 Summary
 
 -----
 
