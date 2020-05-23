@@ -524,33 +524,15 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 ### Chapter 16. C# 5 bonus features and closing thoughts
 
-#### 14.1 What? When? Why? How?
-- Problem, Solution, Discussion, See Also
+#### 16.1 Changes to captured variables in foreach loops
 
-#### 14.2. System.Reactive Deferred Evaluation
-- Problem, Solution, Discussion, See Also
+#### 16.2 Caller information attributes
+- 16.2.1 Basic behavior
+- 16.2.2 Logging
+- 16.2.3 Implementing INotifyPropertyChanged
+- 16.2.4 Using caller information attributes without .NET 4.5
 
-#### 14.3. Asynchronous Data Binding
-- Problem, Solution, Discussion, See Also
-
-#### 14.4. Implicit State
-- Problem, Solution, Discussion, See Also
-
-#### 14.5. Identical Synchronous and Asynchronous Code
-
-#### 14.6. Railway Programming with Dataflow Meshes
-
-
------
-
-### Recognizing and Interpreting Asynchronous Patterns
-
-- Task-Based Asynchronous Pattern (TAP)
-- Asynchronous Programming Model (APM)
-- Event-Based Asynchronous Programming (EAP)
-- Continuation Passing Style (CPS)
-- Custom Async Patterns
-- ISynchronizeInvoke
+#### 16.3 Closing thoughts
 
 
 -----
