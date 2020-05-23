@@ -310,39 +310,30 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 9: Collections
+### Chapter 10. Extension methods
 
-9.1. Immutable Stacks and Queues
-- Problem, Solution, Discussion, See Also
+#### 10.1 Life before extension methods
 
-9.2. Immutable Lists
-- Problem, Solution, Discussion, See Also
+#### 10.2 Extension method syntax
+- 10.2.1 Declaring extension methods
+- 10.2.2 Calling extension methods
+- 10.2.3 Extension method discovery
+- 10.2.4 Calling a method on a null reference
 
-9.3. Immutable Sets
-- Problem, Solution, Discussion, See Also
+#### 10.3 Extension methods in .NET 3.5
+- 10.3.1 First steps with Enumerable
+- 10.3.2 Filtering with Where and chaining method calls together
+- 10.3.3 Interlude: haven’t we seen the Where method before?
+- 10.3.4 Projections using the Select method and anonymous types
+- 10.3.5 Sorting using the OrderBy method
+- 10.3.6 Business examples involving chaining
 
-9.4. Immutable Dictionaries
-- Problem, Solution, Discussion, See Also
+#### 10.4 Usage ideas and guidelines
+- 10.4.1 “Extending the world” and making interfaces richer
+- 10.4.2 Fluent interfaces
+- 10.4.3 Using extension methods sensibly
 
-9.5. Threadsafe Dictionaries
-- Problem, Solution, Discussion, See Also
-
-9.6. Blocking Queues
-- Problem, Solution, Discussion, See Also
-
-9.7. Blocking Stacks and Bags
-- Problem, Solution, Discussion, See Also
-
-9.8. Asynchronous Queues
-
-9.9. Throttling Queues
-
-9.10. Sampling Queues
-
-9.11. Asynchronous Stacks and Bags
-
-9.12. Blocking/Asynchronous Queues
-- Problem, Solution, Discussion, See Also
+#### 10.5 Summary
 
 
 -----
