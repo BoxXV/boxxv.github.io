@@ -378,26 +378,43 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 11: Functional-Friendly OOP
+### Chapter 12. LINQ beyond collections
 
-11.1. Async Interfaces and Inheritance
-- Problem, Solution, Discussion, See Also
+#### 12.1 Querying a database with LINQ to SQL
+- 12.1.1 Getting started: the database and model
+- 12.1.2 Initial queries
+- 12.1.3 Queries involving joins
 
-11.2. Async Construction: Factories
-- Problem, Solution, Discussion, See Also
+#### 12.2 Translations using IQueryable and IQueryProvider
+- 12.2.1 Introducing IQueryable<T> and related interfaces
+- 12.2.2 Faking it: interface implementations to log calls
+- 12.2.3 Gluing expressions together: the Queryable extension methods
+- 12.2.4 The fake query provider in action
+- 12.2.5 Wrapping up IQueryable
 
-11.3. Async Construction: The Asynchronous Initialization Pattern
-- Problem, Solution, Discussion, See Also
+#### 12.3 LINQ-friendly APIs and LINQ to XML
+- 12.3.1 Core types in LINQ to XML
+- 12.3.2 Declarative construction
+- 12.3.3 Queries on single nodes
+- 12.3.4 Flattened query operators
+- 12.3.5 Working in harmony with LINQ
 
-11.4. Async Properties
-- Problem, Solution, Discussion, See Also
+#### 12.4 Replacing LINQ to Objects with Parallel LINQ
+- 12.4.1 Plotting the Mandelbrot set with a single thread
+- 12.4.2 Introducing ParallelEnumerable, ParallelQuery, and AsParallel
+- 12.4.3 Tweaking parallel queries
 
-11.5. Async Events
-- Problem, Solution, Discussion, See Also
+#### 12.5 Inverting the query model with LINQ to Rx
+- 12.5.1 IObservable<T> and IObserver<T>
+- 12.5.2 Starting simply (again)
+- 12.5.3 Querying observables
+- 12.5.4 What’s the point?
 
-11.6. Async Disposal
-- Problem, Solution, Discussion, See Also
+#### 12.6 Extending LINQ to Objects
+- 12.6.1 Design and implementation guidelines
+- 12.6.2 Sample extension: selecting a random element
 
+#### 12.7 Summary
 
 -----
 
