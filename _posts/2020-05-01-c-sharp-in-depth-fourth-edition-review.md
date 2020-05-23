@@ -479,33 +479,35 @@ Part four addresses C# 7 (all the way up to C# 7.3) and completes the book by pe
 
 -----
 
-### Chapter 14. Dynamic binding in a static language
+### Chapter 14. Concise code in C# 7
 
-#### 14.1 What? When? Why? How?
-- 14.1.1 What is dynamic typing?
-- 14.1.2 When is dynamic typing useful, and why?
-- 14.1.3 How does C# 4 provide dynamic typing?
+#### 14.1 Local methods
+- 14.1.1 Variable access within local methods
+- 14.1.2 Local method implementations
+- 14.1.3 Usage guidelines
 
-#### 14.2 The five-minute guide to dynamic
+#### 14.2 Out variables
+- 14.2.1 Inline variable declarations for out parameters
+- 14.2.2 Restrictions lifted in C# 7.3 for out variables and pattern variables
 
-#### 14.3 Examples of dynamic typing
-- 14.3.1 COM in general, and Microsoft Office in particular
-- 14.3.2 Dynamic languages such as IronPython
-- 14.3.3 Dynamic typing in purely managed code
+#### 14.3 Improvements to numeric literals
+- 14.3.1 Binary integer literals
+- 14.3.2 Underscore separators
 
-#### 14.4 Looking behind the scenes
-- 14.4.1 Introducing the Dynamic Language Runtime
-- 14.4.2 DLR core concepts
-- 14.4.3 How the C# compiler handles dynamic
-- 14.4.4 The C# compiler gets even smarter
-- 14.4.5 Restrictions on dynamic code
+#### 14.4 Throw expressions
 
-#### 14.5 Implementing dynamic behavior
-- 14.5.1 Using ExpandoObject
-- 14.5.2 Using DynamicObject
-- 14.5.3 Implementing IDynamicMetaObjectProvider
+#### 14.5 Default literals (C# 7.1)
 
-#### 14.6 Summary
+#### 14.6 Nontrailing named arguments (C# 7.2)
+
+#### 14.7 Private protected access (C# 7.2)
+
+#### 14.8 Minor improvements in C# 7.3
+- 14.8.1 Generic type constraints
+- 14.8.2 Overload resolution improvements
+- 14.8.3 Attributes for fields backing automatically implemented properties
+
+#### Summary
 
 
 -----
