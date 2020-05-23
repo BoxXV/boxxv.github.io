@@ -1,14 +1,14 @@
 ---
 layout: post
-title: C# in Depth
+title: C# in Depth (4th edition)
 subtitle: C# in Depth is a book for those who are passionate about C#. It aims to be a bridge between the existing introductory books and the language specification, something readable but detailed, exploring every aspect of the language from version 2 onwards.
 ---
 
-![placeholder](http://boxxv.com/img/multithread/41prHleW6NL._SX397_BO1,204,203,200_.jpg "C# in Depth")
+![placeholder](http://boxxv.com/img/multithread/Skeet-4ED-HI.png "C# in Depth")
 
 ✅ Publisher: [Manning Publications](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)
 
-✅ Year: October 8, 2013
+✅ Year: August 23, 2019 (Fourth Edition)
 
 ✅ Authors:  Jon Skeet
 
