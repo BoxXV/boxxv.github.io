@@ -18,10 +18,10 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 ✅ Size: 14.3 MB
 
-✅ Download source code:
-[source-4thEdition.zip](https://csharpindepth.com/files/source-4thEdition.zip)
-[source-3rdEdition.zip](https://csharpindepth.com/files/source-3rdEdition.zip)
-[source-2ndEdition.zip](https://csharpindepth.com/files/source-2ndEdition.zip)
+✅ Download source code:  
+[source-4thEdition.zip](https://csharpindepth.com/files/source-4thEdition.zip)  
+[source-3rdEdition.zip](https://csharpindepth.com/files/source-3rdEdition.zip)  
+[source-2ndEdition.zip](https://csharpindepth.com/files/source-2ndEdition.zip)  
 [source-1stEdition.zip](https://csharpindepth.com/files/source-1stEdition.zip)
 
 -----
