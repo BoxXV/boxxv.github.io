@@ -21,36 +21,55 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 -----
 
-Concurrency is now more common in responsive and scalable application development, but it’s still extremely difficult to code. The detailed solutions in this cookbook show you how modern tools raise the level of abstraction, making concurrency much easier than before. Complete with ready-to-use code and discussions about how and why solutions work, these recipes help you:
-- Get up to speed on concurrency and async and parallel programming
-- Use async and await for asynchronous operations
-- Enhance your code with asynchronous streams
-- Explore parallel programming with .NET’s Task Parallel Library
-- Create dataflow pipelines with .NET’s TPL Dataflow library
-- Understand the capabilities that System.Reactive builds on top of LINQ
-- Utilize threadsafe and immutable collections
-- Learn how to conduct unit testing with concurrent code
-- Make the thread pool work for you
-- Enable clean, cooperative cancellation
-- Examine scenarios for combining concurrent approaches
-- Dive into asynchronous-friendly object-oriented programming
-- Recognize and write adapters for code using older asynchronous styles
+C# in Depth is a book for those who are passionate about C#. It aims to be a bridge between the existing introductory books and the language specification: something readable but detailed, exploring every aspect of the language from version 2 onwards. In the interests of brevity, it doesn't spend much time on C# 1 - readers are already expected to know the first version at least reasonably. Every new feature from C# 2 onwards is covered, however, as shown in the table of contents below.
+
+One of my hobbies is helping other developers on sites such as Stack Overflow. before Stack Overflow came along, I used to post a lot on the C# newsgroups. I've come to appreciate that whatever technologies you might use on top of C# - MVC, WPF, Windows Forms, etc - if you don't have a firm grasp of the language, you'll find it a lot harder. My hope is that C# in Depth helps readers to really "grok" the language, so they feel they're working in tandem with the compiler rather than fighting against it; making the most of new features instead of constantly being caught out by subtle "gotcha" behaviour. 
 
 
 -----
 
-## Table of contents
+# Table of contents
 
 
-### Preface
-- Who Should Read This Book
-- Why I Wrote This Book
-- Navigating This Book
-- Online Resources
-- Conventions Used in This Book
-- Safari® Books Online
-- How to Contact Us
-- Acknowledgments
+## Part 1 Preparing for the journey
+
+### Chapter 1  The changing face of C# development
+1.1 Starting with a simple data type
+- 1.1.1 The Product type in C# 1
+- 1.1.2 Strongly typed collections in C# 2
+- 1.1.3 Automatically implemented properties in C# 3
+- 1.1.4 Named arguments in C# 4
+
+1.2 Sorting and filtering
+- 1.2.1 Sorting products by name
+- 1.2.2 Querying collections
+
+1.3 Handling an absence of data
+- 1.3.1 Representing an unknown price
+- 1.3.2 Optional parameters and default values
+
+1.4 Introducing LINQ
+- 1.4.1 Query expressions and in-process queries
+- 1.4.2 Querying XML
+- 1.4.3 LINQ to SQL
+
+1.5 COM and dynamic typing
+- 1.5.1 Simplifying COM interoperability
+- 1.5.2 Interoperating with a dynamic language
+
+1.6 Writing asynchronous code without the heartache
+
+1.7 Dissecting the .NET platform
+- 1.7.1 C#, the language
+- 1.7.2 Runtime
+- 1.7.3 Framework libraries
+
+1.8 Making your code super awesome
+- 1.8.1 Presenting full programs as snippets
+- 1.8.2 Didactic code isn’t production code
+- 1.8.3 Your new best friend: the language specification
+
+1.9 Summary
 
 -----
 
