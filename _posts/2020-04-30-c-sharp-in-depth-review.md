@@ -166,23 +166,32 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 4: Parallel Basics
+### Chapter 5. Fast-tracked delegates
 
-4.1. Parallel Processing of Data
-- Problem, Solution, Discussion, See Also
+#### 5.1 Saying goodbye to awkward delegate syntax
 
-4.2. Parallel Aggregation
-- Problem, Solution, Discussion, See Also
+#### 5.2 Method group conversions
 
-4.3. Parallel Invocation
-- Problem, Solution, Discussion, See Also
+#### 5.3 Covariance and contravariance
+- 5.3.1 Contravariance for delegate parameters
+- 5.3.2 Covariance of delegate return types
+- 5.3.3 A small risk of incompatibility
 
-4.4. Dynamic Parallelism
-- Problem, Solution, Discussion, See Also
+#### 5.4 Inline delegate actions with anonymous methods
+- 5.4.1 Starting simply: acting on a parameter
+- 5.4.2 Returning values from anonymous methods
+- 5.4.3 Ignoring delegate parameters
 
-4.5. Parallel LINQ
-- Problem, Solution, Discussion, See Also
+#### 5.5 Capturing variables in anonymous methods
+- 5.5.1 Defining closures and different types of variables
+- 5.5.2 Examining the behavior of captured variables
+- 5.5.3 What’s the point of captured variables?
+- 5.5.4 The extended lifetime of captured variables
+- 5.5.5 Local variable instantiations
+- 5.5.6 Mixtures of shared and distinct variables
+- 5.5.7 Captured variable guidelines and summary
 
+#### 5.6 Summary
 
 -----
 
