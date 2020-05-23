@@ -216,22 +216,34 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 6: System.Reactive Basics
+### Chapter 7. Concluding C# 2: the final features
 
-6.1. Converting .NET Events
-- Problem, Solution, Discussion, See Also
+#### 7.1 Partial types
+- 7.1.1 Creating a type with multiple files
+- 7.1.2 Uses of partial types
+- 7.1.3 Partial methods—C# 3 only!
 
-6.2. Sending Notifications to a Context
-- Problem, Solution, Discussion, See Also
+#### 7.2 Static classes
 
-6.3. Grouping Event Data with Windows and Buffers
-- Problem, Solution, Discussion, See Also
+#### 7.3 Separate getter/setter property access
 
-6.4. Taming Event Streams with Throttling and Sampling
-- Problem, Solution, Discussion, See Also
+#### 7.4 Namespace aliases
+- 7.4.1 Qualifying namespace aliases
+- 7.4.2 The global namespace alias
+- 7.4.3 Extern aliases
 
-6.5. Timeouts
-- Problem, Solution, Discussion, See Also
+#### 7.5 Pragma directives
+- 7.5.1 Warning pragmas
+- 7.5.2 Checksum pragmas
+
+#### 7.6 Fixed-size buffers in unsafe code
+
+#### 7.7 Exposing internal members to selected assemblies
+- 7.7.1 Friend assemblies in the simple case
+- 7.7.2 Why use InternalsVisibleTo?
+- 7.7.3 InternalsVisibleTo and signed assemblies
+
+#### 7.8 Summary
 
 
 -----
