@@ -8,7 +8,7 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 ✅ Publisher: [Manning Publications](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)
 
-✅ Year: October 8, 2013
+✅ Year: October 8, 2013 - March 2019 (Fourth Edition)
 
 ✅ Authors:  Jon Skeet
 
@@ -33,65 +33,63 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 ## Part 1 Preparing for the journey
 
-### Chapter 1  The changing face of C# development
-1.1 Starting with a simple data type
+### Chapter 1 The changing face of C# development
+
+#### 1.1 Starting with a simple data type
 - 1.1.1 The Product type in C# 1
 - 1.1.2 Strongly typed collections in C# 2
 - 1.1.3 Automatically implemented properties in C# 3
 - 1.1.4 Named arguments in C# 4
 
-1.2 Sorting and filtering
+#### 1.2 Sorting and filtering
 - 1.2.1 Sorting products by name
 - 1.2.2 Querying collections
 
-1.3 Handling an absence of data
+#### 1.3 Handling an absence of data
 - 1.3.1 Representing an unknown price
 - 1.3.2 Optional parameters and default values
 
-1.4 Introducing LINQ
+#### 1.4 Introducing LINQ
 - 1.4.1 Query expressions and in-process queries
 - 1.4.2 Querying XML
 - 1.4.3 LINQ to SQL
 
-1.5 COM and dynamic typing
+#### 1.5 COM and dynamic typing
 - 1.5.1 Simplifying COM interoperability
 - 1.5.2 Interoperating with a dynamic language
 
-1.6 Writing asynchronous code without the heartache
+#### 1.6 Writing asynchronous code without the heartache
 
-1.7 Dissecting the .NET platform
+#### 1.7 Dissecting the .NET platform
 - 1.7.1 C#, the language
 - 1.7.2 Runtime
 - 1.7.3 Framework libraries
 
-1.8 Making your code super awesome
+#### 1.8 Making your code super awesome
 - 1.8.1 Presenting full programs as snippets
 - 1.8.2 Didactic code isn’t production code
 - 1.8.3 Your new best friend: the language specification
 
-1.9 Summary
+#### 1.9 Summary
 
 -----
 
-### Chapter 1. Concurrency: An Overview
+### Chapter 2 Core foundations: building on C# 1
 
-1.1. Introduction to Concurrency
+#### 2.1 Delegates
+- 2.1.1 A recipe for simple delegates
+- 2.1.2 Combining and removing delegates
+- 2.1.3 A brief diversion into events
+- 2.1.4 Summary of delegates
 
-1.2. Introduction to Asynchronous Programming
+#### 1.2. Introduction to Asynchronous Programming
 
-1.3. Introduction to Parallel Programming
+#### 1.3. Introduction to Parallel Programming
 
-1.4. Introduction to Reactive Programming (Rx)
+#### 1.4. Introduction to Reactive Programming (Rx)
 
-1.5. Introduction to Dataflows
+#### 1.5. Introduction to Dataflows
 
-1.6. Introduction to Multithreaded Programming
-
-1.7. Collections for Concurrent Applications
-
-1.8. Modern Design
-
-1.9. Summary of Key Technologies
 
 -----
 
