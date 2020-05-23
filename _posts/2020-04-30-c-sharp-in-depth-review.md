@@ -8,7 +8,7 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 ✅ Publisher: [Manning Publications](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)
 
-✅ Year: October 8, 2013 - March 2019 (Fourth Edition)
+✅ Year: October 8, 2013 - August 23, 2019 (Fourth Edition)
 
 ✅ Authors:  Jon Skeet
 
@@ -18,6 +18,11 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 ✅ Size: 14.3 MB
 
+✅ Download source code:
+[source-4thEdition.zip](https://csharpindepth.com/files/source-4thEdition.zip)
+[source-3rdEdition.zip](https://csharpindepth.com/files/source-3rdEdition.zip)
+[source-2ndEdition.zip](https://csharpindepth.com/files/source-2ndEdition.zip)
+[source-1stEdition.zip](https://csharpindepth.com/files/source-1stEdition.zip)
 
 -----
 
@@ -537,5 +542,5 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-[https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/](https://www.oreilly.com/library/view/concurrency-in-c/9781492054498/)  
-[https://www.amazon.com/Concurrency-Cookbook-Asynchronous-Multithreaded-Programming-ebook/dp/B07WRN3SSK/](https://www.amazon.com/Concurrency-Cookbook-Asynchronous-Multithreaded-Programming-ebook/dp/B07WRN3SSK/)
+[C# in Depth](https://www.amazon.com/C-in-Depth-Jon-Skeet-audiobook/dp/B07WTR5LHN/)  
+[https://csharpindepth.com](https://csharpindepth.com)
