@@ -37,6 +37,8 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 
 ## Part 1. C# in context
+Part one provides a brief history of the language.
+
 
 ### Chapter 1. Survival of the sharpest
 
@@ -61,38 +63,55 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 2. Core foundations: building on C# 1
+## Part 2 C# 2-5
+Part two describes C# versions 2 through 5. This is effectively a rewritten and condensed form of the third edition of this book.
 
-#### 2.1 Delegates
-- 2.1.1 A recipe for simple delegates
-- 2.1.2 Combining and removing delegates
-- 2.1.3 A brief diversion into events
-- 2.1.4 Summary of delegates
 
-#### 2.2 Type system characteristics
-- 2.2.1 C#’s place in the world of type systems
-- 2.2.2 When is C# 1’s type system not rich enough?
-- 2.2.3 Summary of type system characteristics
+### Chapter 2. C# 2
 
-#### 2.3 Value types and reference types
-- 2.3.1 Values and references in the real world
-- 2.3.2 Value and reference type fundamentals
-- 2.3.3 Dispelling myths
-- 2.3.4 Boxing and unboxing
-- 2.3.5 Summary of value types and reference types
+#### 2.1 Generics
+- 2.1.1 Introduction by example: Collections before generics
+- 2.1.2 Generics save the day
+- 2.1.3 What can be generic?
+- 2.1.4 Type inference for type arguments to methods
+- 2.1.5 Type constraints
+- 2.1.6 The default and typeof operators
+- 2.1.7 Generic type initialization and state
 
-#### 2.4 Beyond C# 1: new features on a solid base
-- 2.4.1 Features related to delegates
-- 2.4.2 Features related to the type system
-- 2.4.3 Features related to value types
+#### 2.2 Nullable value types
+- 2.2.1 Aim: Expressing an absence of information
+- 2.2.2 CLR and framework support: The Nullable<T> struct
+- 2.2.3 Language support
 
-#### 2.5 Summary
+#### 2.3 Simplified delegate creation
+- 2.3.1 Method group conversions
+- 2.3.2 Anonymous methods
+- 2.3.3 Delegate compatibility
+
+#### 2.4 Iterators
+- 2.4.1 Introduction to iterators
+- 2.4.2 Lazy execution
+- 2.4.3 Evaluation of yield statements
+- 2.4.4 The importance of being lazy
+- 2.4.5 Evaluation of finally blocks
+- 2.4.6 The importance of finally handling
+- 2.4.7 Implementation sketch
+
+#### 2.5 Minor features
+- 2.5.1 Partial types
+- 2.5.2 Static classes
+- 2.5.3 Separate getter/setter access for properties
+- 2.5.4 Namespace aliases
+- 2.5.5 Pragma directives
+- 2.5.6 Fixed-size buffers
+- 2.5.7 InternalsVisibleTo
+
+#### Summary
 
 -----
 
-## Part 2. C# 2: Solving the issues of C# 1
 
-### Chapter 3. Parameterized typing with generics
+### Chapter 3. C# 3: LINQ and everything that comes with it
 
 #### 3.1 Why generics are necessary
 
