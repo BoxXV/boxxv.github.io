@@ -248,25 +248,34 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 7: Testing
+## Part 3. C# 3: Revolutionizing data access
 
-7.1. Unit Testing async Methods
-- Problem, Solution, Discussion, See Also
+### Chapter 8. Cutting fluff with a smart compiler
 
-7.2. Unit Testing async Methods Expected to Fail
-- Problem, Solution, Discussion, See Also
+#### 8.1 Automatically implemented properties
 
-7.3. Unit Testing async void Methods
-- Problem, Solution, Discussion, See Also
+#### 8.2 Implicit typing of local variables
+- 8.2.1 Using var to declare a local variable
+- 8.2.2 Restrictions on implicit typing
+- 8.2.3 Pros and cons of implicit typing
+- 8.2.4 Recommendations
 
-7.4. Unit Testing Dataflow Meshes
-- Problem, Solution, Discussion, See Also
+#### 8.3 Simplified initialization
+- 8.3.1 Defining some sample types
+- 8.3.2 Setting simple properties
+- 8.3.3 Setting properties on embedded objects
+- 8.3.4 Collection initializers
+- 8.3.5 Uses of initialization features
 
-7.5. Unit Testing System.Reactive Observables
-- Problem, Solution, Discussion, See Also
+#### 8.4 Implicitly typed arrays
 
-7.6. Unit Testing System.Reactive Observables with Faked Scheduling
-- Problem, Solution, Discussion, See Also
+#### 8.5 Anonymous types
+- 8.5.1 First encounters of the anonymous kind
+- 8.5.2 Members of anonymous types
+- 8.5.3 Projection initializers
+- 8.5.4 What’s the point?
+
+#### 8.6 Summary
 
 -----
 
