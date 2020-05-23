@@ -480,30 +480,49 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-## Part 4. C# 4: Playing nicely with others
+## Part 5. C# 5: Asynchrony made simple
 
-### Chapter 14: Scenarios
+### Chapter 15. Asynchrony with async/await
 
-#### 14.1 What? When? Why? How?
-- Problem, Solution, Discussion, See Also
+#### 15.1 Introducing asynchronous functions
+- 15.1.1 First encounters of the asynchronous kind
+- 15.1.2 Breaking down the first example
 
-#### 14.2. System.Reactive Deferred Evaluation
-- Problem, Solution, Discussion, See Also
+#### 15.2 Thinking about asynchrony
+- 15.2.1 Fundamentals of asynchronous execution
+- 15.2.2 Modeling asynchronous methods
 
-#### 14.3. Asynchronous Data Binding
-- Problem, Solution, Discussion, See Also
+#### 15.3 Syntax and semantics
+- 15.3.1 Declaring an async method
+- 15.3.2 Return types from async methods
+- 15.3.3 The awaitable pattern
+- 15.3.4 The flow of await expressions
+- 15.3.5 Returning from an async method
+- 15.3.6 Exceptions
 
-#### 14.4. Implicit State
-- Problem, Solution, Discussion, See Also
+#### 15.4 Asynchronous anonymous functions
 
-#### 14.5. Identical Synchronous and Asynchronous Code
+#### 15.5 Implementation details: compiler transformation
+- 15.5.1 Overview of the generated code
+- 15.5.2 Structure of the skeleton method
+- 15.5.3 Structure of the state machine
+- 15.5.4 One entry point to rule them all
+- 15.5.5 Control around await expressions
+- 15.5.6 Keeping track of a stack
+- 15.5.7 Finding out more
 
-#### 14.6. Railway Programming with Dataflow Meshes
+#### 15.6 Using async/await effectively
+- 15.6.1 The task-based asynchronous pattern
+- 15.6.2 Composing async operations
+- 15.6.3 Unit testing asynchronous code
+- 15.6.4 The awaitable pattern redux
+- 15.6.5 Asynchronous operations in WinRT
 
+#### 15.7 Summary
 
 -----
 
-### Chapter 14: Scenarios
+### Chapter 16. C# 5 bonus features and closing thoughts
 
 #### 14.1 What? When? Why? How?
 - Problem, Solution, Discussion, See Also
