@@ -418,23 +418,34 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 12: Synchronization
+## Part 4. C# 4: Playing nicely with others
 
-12.1. Blocking Locks
-- Problem, Solution, Discussion, See Also
+### Chapter 13. Minor changes to simplify code
 
-12.2. Async Locks
-- Problem, Solution, Discussion, See Also
+#### 13.1 Optional parameters and named arguments
+- 13.1.1 Optional parameters
+- 13.1.2 Named arguments
+- 13.1.3 Putting the two together
 
-12.3. Blocking Signals
-- Problem, Solution, Discussion, See Also
+#### 13.2 Improvements for COM interoperability
+- 13.2.1 The horrors of automating Word before C# 4
+- 13.2.2 The revenge of optional parameters and named arguments
+- 13.2.3 When is a ref parameter not a ref parameter?
+- 13.2.4 Calling named indexers
+- 13.2.5 Linking primary interop assemblies
 
-12.4. Async Signals
-- Problem, Solution, Discussion, See Also
+#### 13.3 Generic variance for interfaces and delegates
+- 13.3.1 Types of variance: covariance and contravariance
+- 13.3.2 Using variance in interfaces
+- 13.3.3 Using variance in delegates
+- 13.3.4 Complex situations
+- 13.3.5 Restrictions and notes
 
-12.5. Throttling
-- Problem, Solution, Discussion, See Also
+#### 13.4 Teeny tiny changes to locking and field-like events
+- 13.4.1 Robust locking
+- 13.4.2 Changes to field-like events
 
+#### 13.5 Summary
 
 -----
 
