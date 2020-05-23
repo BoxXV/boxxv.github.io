@@ -183,32 +183,50 @@ Part two describes C# versions 2 through 5. This is effectively a rewritten and 
 
 -----
 
-### Chapter 5. Fast-tracked delegates
+### Chapter 5. Writing asynchronous code
 
-#### 5.1 Saying goodbye to awkward delegate syntax
+#### 5.1 Introducing asynchronous functions
+- 5.1.1 First encounters of the asynchronous kind
+- 5.1.2 Breaking down the first example
 
-#### 5.2 Method group conversions
+#### 5.2 Thinking about asynchrony
+- 5.2.1 Fundamentals of asynchronous execution
+- 5.2.2 Synchronization contexts
+- 5.2.3 Modeling asynchronous methods
 
-#### 5.3 Covariance and contravariance
-- 5.3.1 Contravariance for delegate parameters
-- 5.3.2 Covariance of delegate return types
-- 5.3.3 A small risk of incompatibility
+#### 5.3 Async method declarations
+- 5.3.1 Return types from async methods
+- 5.3.2 Parameters in async methods
 
-#### 5.4 Inline delegate actions with anonymous methods
-- 5.4.1 Starting simply: acting on a parameter
-- 5.4.2 Returning values from anonymous methods
-- 5.4.3 Ignoring delegate parameters
+#### 5.4 Await expressions
+- 5.4.1 The awaitable pattern
+- 5.4.2 Restrictions on await expressions
 
-#### 5.5 Capturing variables in anonymous methods
-- 5.5.1 Defining closures and different types of variables
-- 5.5.2 Examining the behavior of captured variables
-- 5.5.3 What’s the point of captured variables?
-- 5.5.4 The extended lifetime of captured variables
-- 5.5.5 Local variable instantiations
-- 5.5.6 Mixtures of shared and distinct variables
-- 5.5.7 Captured variable guidelines and summary
+#### 5.5 Wrapping of return values
 
-#### 5.6 Summary
+#### 5.6 Asynchronous method flow
+- 5.6.1 What is awaited and when?
+- 5.6.2 Evaluation of await expressions
+- 5.6.3 The use of awaitable pattern members
+- 5.6.4 Exception unwrapping
+- 5.6.5 Method completion
+
+#### 5.7 Asynchronous anonymous functions
+
+#### 5.8 Custom task types in C# 7
+- 5.8.1 The 99.9% case: ValueTask<TResult>
+- 5.8.2 The 0.1% case: Building your own custom task type
+
+#### 5.9 Async main methods in C# 7.1
+
+#### 5.10 Usage tips
+- 5.10.1 Avoid context capture by using ConfigureAwait (where appropriate)
+- 5.10.2 Enable parallelism by starting multiple independent tasks
+- 5.10.3 Avoid mixing synchronous and asynchronous code
+- 5.10.4 Allow cancellation wherever possible
+- 5.10.5 Testing asynchrony
+
+#### Summary
 
 -----
 
