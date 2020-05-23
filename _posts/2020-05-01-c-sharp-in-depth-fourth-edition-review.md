@@ -296,61 +296,67 @@ Part three describes C# 6 in detail.
 
 -----
 
-### Chapter 9. Lambda expressions and expression trees
+### Chapter 9. Stringy features
 
-#### 9.1 Lambda expressions as delegates
-- 9.1.1 Preliminaries: Introducing the Func<…> delegate types
-- 9.1.2 First transformation to a lambda expression
-- 9.1.3 Using a single expression as the body
-- 9.1.4 Implicitly typed parameter lists
-- 9.1.5 Shortcut for a single parameter
+#### 9.1 A recap on string formatting in .NET
+- 9.1.1 Simple string formatting
+- 9.1.2 Custom formatting with format strings
+- 9.1.3 Localization
 
-#### 9.2 Simple examples using List<T> and events
-- 9.2.1 Filtering, sorting, and actions on lists
-- 9.2.2 Logging in an event handler
+#### 9.2 Introducing interpolated string literals
+- 9.2.1 Simple interpolation
+- 9.2.2 Format strings in interpolated string literals
+- 9.2.3 Interpolated verbatim string literals
+- 9.2.4 Compiler handling of interpolated string literals (part 1)
 
-#### 9.3 Expression trees
-- 9.3.1 Building expression trees programmatically
-- 9.3.2 Compiling expression trees into delegates
-- 9.3.3 Converting C# lambda expressions to expression trees
-- 9.3.4 Expression trees at the heart of LINQ
-- 9.3.5 Expression trees beyond LINQ
+#### 9.3 Localization using FormattableString
+- 9.3.1 Compiler handling of interpolated string literals (part 2)
+- 9.3.2 Formatting a FormattableString in a specific culture
+- 9.3.3 Other uses for FormattableString
+- 9.3.4 Using FormattableString with older versions of .NET
 
-#### 9.4 Changes to type inference and overload resolution
-- 9.4.1 Reasons for change: streamlining generic method calls
-- 9.4.2 Inferred return types of anonymous functions
-- 9.4.3 Two-phase type inference
-- 9.4.4 Picking the right overloaded method
-- 9.4.5 Wrapping up type inference and overload resolution
+#### 9.4 Uses, guidelines, and limitations
+- 9.4.1 Developers and machines, but maybe not end users
+- 9.4.2 Hard limitations of interpolated string literals
+- 9.4.3 When you can but really shouldn?t
 
-#### 9.5 Summary
+#### 9.5 Accessing identifiers with nameof
+- 9.5.1 First examples of nameof
+- 9.5.2 Common uses of nameof
+- 9.5.3 Tricks and traps when using nameof
+
+#### Summary
+
 
 -----
 
-### Chapter 10. Extension methods
+### Chapter 10. A smörgåsbord of features for concise code
 
-#### 10.1 Life before extension methods
+#### 10.1 Using static directives
+- 10.1.1 Importing static members
+- 10.1.2 Extension methods and using static
 
-#### 10.2 Extension method syntax
-- 10.2.1 Declaring extension methods
-- 10.2.2 Calling extension methods
-- 10.2.3 Extension method discovery
-- 10.2.4 Calling a method on a null reference
+#### 10.2 Object and collection initializer enhancements
+- 10.2.1 Indexers in object initializers
+- 10.2.2 Using extension methods in collection initializers
+- 10.2.3 Test code vs. production code
 
-#### 10.3 Extension methods in .NET 3.5
-- 10.3.1 First steps with Enumerable
-- 10.3.2 Filtering with Where and chaining method calls together
-- 10.3.3 Interlude: haven’t we seen the Where method before?
-- 10.3.4 Projections using the Select method and anonymous types
-- 10.3.5 Sorting using the OrderBy method
-- 10.3.6 Business examples involving chaining
+#### 10.3 The null conditional operator
+- 10.3.1 Simple and safe property dereferencing
+- 10.3.2 The null conditional operator in more detail
+- 10.3.3 Handling Boolean comparisons
+- 10.3.4 Indexers and the null conditional operator
+- 10.3.5 Working effectively with the null conditional operator
+- 10.3.6 Limitations of the null conditional operator
 
-#### 10.4 Usage ideas and guidelines
-- 10.4.1 “Extending the world” and making interfaces richer
-- 10.4.2 Fluent interfaces
-- 10.4.3 Using extension methods sensibly
+#### 10.4 Exception filters
+- 10.4.1 Syntax and semantics of exception filters
+- 10.4.2 Retrying operations
+- 10.4.3 Logging as a side effect
+- 10.4.4 Individual, case-specific exception filters
+- 10.4.5 Why not just throw?
 
-#### 10.5 Summary
+#### Summary
 
 
 -----
