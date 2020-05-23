@@ -338,34 +338,42 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 10: Cancellation
+### Chapter 11. Query expressions and LINQ to Objects
 
-10.1. Issuing Cancellation Requests
-- Problem, Solution, Discussion, See Also
+#### 11.1 Introducing LINQ
+- 11.1.1 Fundamental concepts in LINQ
+- 11.1.2 Defining the sample data model
 
-10.2. Responding to Cancellation Requests by Polling
-- Problem, Solution, Discussion, See Also
+#### 11.2 Simple beginnings: selecting elements
+- 11.2.1 Starting with a source and ending with a selection
+- 11.2.2 Compiler translations as the basis of query expressions
+- 11.2.3 Range variables and nontrivial projections
+- 11.2.3 Range variables and nontrivial projections
 
-10.3. Canceling Due to Timeouts
-- Problem, Solution, Discussion, See Also
+#### 11.3 Filtering and ordering a sequence
+- 11.3.1 Filtering using a where clause
+- 11.3.2 Degenerate query expressions
+- 11.3.3 Ordering using an orderby clause
 
-10.4. Canceling async Code
-- Problem, Solution, Discussion, See Also
+#### 11.4 Let clauses and transparent identifiers
+- 11.4.1 Introducing an intermediate computation with let
+- 11.4.2 Transparent identifiers
 
-10.5. Canceling Parallel Code
-- Problem, Solution, Discussion, See Also
+#### 11.5 Joins
+- 11.5.1 Inner joins using join clauses
+- 11.5.2 Group joins with join...into clauses
+- 11.5.3 Cross joins and flattening sequences using multiple from clauses
 
-10.6. Canceling System.Reactive Code
-- Problem, Solution, Discussion, See Also
+#### 11.6 Groupings and continuations
+- 11.6.1 Grouping with the group...by clause
+- 11.6.2 Query continuations
 
-10.7. Canceling Dataflow Meshes
-- Problem, Solution, Discussion, See Also
+#### 11.7 Choosing between query expressions and dot notation
+- 11.7.1 Operations that require dot notation
+- 11.7.2 Query expressions where dot notation may be simpler
+- 11.7.3 Where query expressions shine
 
-10.8. Injecting Cancellation Requests
-- Problem, Solution, Discussion, See Also
-
-10.9. Interop with Other Cancellation Systems
-- Problem, Solution, Discussion, See Also
+#### 11.8 Summary
 
 
 -----
