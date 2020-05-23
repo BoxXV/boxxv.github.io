@@ -361,42 +361,50 @@ Part three describes C# 6 in detail.
 
 -----
 
-### Chapter 11. Query expressions and LINQ to Objects
+## Part 4. C# 4: Playing nicely with others
+Part four addresses C# 7 (all the way up to C# 7.3) and completes the book by peering a short distance into the future.
 
-#### 11.1 Introducing LINQ
-- 11.1.1 Fundamental concepts in LINQ
-- 11.1.2 Defining the sample data model
 
-#### 11.2 Simple beginnings: selecting elements
-- 11.2.1 Starting with a source and ending with a selection
-- 11.2.2 Compiler translations as the basis of query expressions
-- 11.2.3 Range variables and nontrivial projections
-- 11.2.3 Range variables and nontrivial projections
+### Chapter 11. Composition using tuples
 
-#### 11.3 Filtering and ordering a sequence
-- 11.3.1 Filtering using a where clause
-- 11.3.2 Degenerate query expressions
-- 11.3.3 Ordering using an orderby clause
+#### 11.1 Introduction to tuples
 
-#### 11.4 Let clauses and transparent identifiers
-- 11.4.1 Introducing an intermediate computation with let
-- 11.4.2 Transparent identifiers
+#### 11.2 Tuple literals and tuple types
+- 11.2.1 Syntax
+- 11.2.2 Inferred element names for tuple literals (C# 7.1)
+- 11.2.3 Tuples as bags of variables
 
-#### 11.5 Joins
-- 11.5.1 Inner joins using join clauses
-- 11.5.2 Group joins with join...into clauses
-- 11.5.3 Cross joins and flattening sequences using multiple from clauses
+#### 11.3 Tuple types and conversions
+- 11.3.1 Types of tuple literals
+- 11.3.2 Conversions from tuple literals to tuple types
+- 11.3.3 Conversions between tuple types
+- 11.3.4 Uses of conversions
+- 11.3.5 Element name checking in inheritance
+- 11.3.6 Equality and inequality operators (C# 7.3)
 
-#### 11.6 Groupings and continuations
-- 11.6.1 Grouping with the group...by clause
-- 11.6.2 Query continuations
+#### 11.4 Tuples in the CLR
+- 11.4.1 Introducing System.ValueTuple<...>
+- 11.4.2 Element name handling
+- 11.4.3 Tuple conversion implementations
+- 11.4.4 String representations of tuples
+- 11.4.5 Regular equality and ordering comparisons
+- 11.4.6 Structural equality and ordering comparisons
+- 11.4.7 Womples and large tuples
+- 11.4.8 The nongeneric ValueTuple struct
+- 11.4.8 The nongeneric ValueTuple struct
 
-#### 11.7 Choosing between query expressions and dot notation
-- 11.7.1 Operations that require dot notation
-- 11.7.2 Query expressions where dot notation may be simpler
-- 11.7.3 Where query expressions shine
+#### 11.5 Alternatives to tuples
+- 11.5.1 System.Tuple<...>
+- 11.5.2 Anonymous types
+- 11.5.3 Named types
 
-#### 11.8 Summary
+#### 11.6 Uses and recommendations
+- 11.6.1 Nonpublic APIs and easily changed code
+- 11.6.2 Local variables
+- 11.6.3 Fields
+- 11.6.4 Tuples and dynamic don?t play together nicely
+
+#### Summary
 
 
 -----
@@ -441,7 +449,7 @@ Part three describes C# 6 in detail.
 
 -----
 
-## Part 4. C# 4: Playing nicely with others
+
 
 ### Chapter 13. Minor changes to simplify code
 
