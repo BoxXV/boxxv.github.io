@@ -449,51 +449,77 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 13: Scheduling
+### Chapter 14. Dynamic binding in a static language
 
-13.1. Scheduling Work to the Thread Pool
+#### 14.1 What? When? Why? How?
+- 14.1.1 What is dynamic typing?
+- 14.1.2 When is dynamic typing useful, and why?
+- 14.1.3 How does C# 4 provide dynamic typing?
+
+#### 14.2 The five-minute guide to dynamic
+
+#### 14.3 Examples of dynamic typing
+- 14.3.1 COM in general, and Microsoft Office in particular
+- 14.3.2 Dynamic languages such as IronPython
+- 14.3.3 Dynamic typing in purely managed code
+
+#### 14.4 Looking behind the scenes
+- 14.4.1 Introducing the Dynamic Language Runtime
+- 14.4.2 DLR core concepts
+- 14.4.3 How the C# compiler handles dynamic
+- 14.4.4 The C# compiler gets even smarter
+- 14.4.5 Restrictions on dynamic code
+
+#### 14.5 Implementing dynamic behavior
+- 14.5.1 Using ExpandoObject
+- 14.5.2 Using DynamicObject
+- 14.5.3 Implementing IDynamicMetaObjectProvider
+
+#### 14.6 Summary
+
+
+-----
+
+## Part 4. C# 4: Playing nicely with others
+
+### Chapter 14: Scenarios
+
+#### 14.1 What? When? Why? How?
 - Problem, Solution, Discussion, See Also
 
-13.2. Executing Code with a Task Scheduler
+#### 14.2. System.Reactive Deferred Evaluation
 - Problem, Solution, Discussion, See Also
 
-13.3. Scheduling Parallel Code
+#### 14.3. Asynchronous Data Binding
 - Problem, Solution, Discussion, See Also
 
-13.4. Dataflow Synchronization Using Schedulers
+#### 14.4. Implicit State
 - Problem, Solution, Discussion, See Also
+
+#### 14.5. Identical Synchronous and Asynchronous Code
+
+#### 14.6. Railway Programming with Dataflow Meshes
 
 
 -----
 
 ### Chapter 14: Scenarios
 
-14.1. Initializing Shared Resources
+#### 14.1 What? When? Why? How?
 - Problem, Solution, Discussion, See Also
 
-14.2. System.Reactive Deferred Evaluation
+#### 14.2. System.Reactive Deferred Evaluation
 - Problem, Solution, Discussion, See Also
 
-14.3. Asynchronous Data Binding
+#### 14.3. Asynchronous Data Binding
 - Problem, Solution, Discussion, See Also
 
-14.4. Implicit State
+#### 14.4. Implicit State
 - Problem, Solution, Discussion, See Also
 
-14.5. Identical Synchronous and Asynchronous Code
+#### 14.5. Identical Synchronous and Asynchronous Code
 
-14.6. Railway Programming with Dataflow Meshes
-
-14.7. Throttling Progress Updates
-
-
------
-
-### Legacy Platform Support
-
-- Legacy Platform Support for Async
-- Legacy Platform Support for Dataflow
-- Legacy Platform Support for System.Reactive
+#### 14.6. Railway Programming with Dataflow Meshes
 
 
 -----
