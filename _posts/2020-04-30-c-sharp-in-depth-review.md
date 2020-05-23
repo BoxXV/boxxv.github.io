@@ -279,35 +279,34 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 8: Interop
+### Chapter 9. Lambda expressions and expression trees
 
-8.1. Async Wrappers for “Async” Methods with “Completed” Events
-- Problem, Solution, Discussion, See Also
+#### 9.1 Lambda expressions as delegates
+- 9.1.1 Preliminaries: Introducing the Func<…> delegate types
+- 9.1.2 First transformation to a lambda expression
+- 9.1.3 Using a single expression as the body
+- 9.1.4 Implicitly typed parameter lists
+- 9.1.5 Shortcut for a single parameter
 
-8.2. Async Wrappers for “Begin/End” Methods
-- Problem, Solution, Discussion, See Also
+#### 9.2 Simple examples using List<T> and events
+- 9.2.1 Filtering, sorting, and actions on lists
+- 9.2.2 Logging in an event handler
 
-8.3. Async Wrappers for Anything
-- Problem, Solution, Discussion, See Also
+#### 9.3 Expression trees
+- 9.3.1 Building expression trees programmatically
+- 9.3.2 Compiling expression trees into delegates
+- 9.3.3 Converting C# lambda expressions to expression trees
+- 9.3.4 Expression trees at the heart of LINQ
+- 9.3.5 Expression trees beyond LINQ
 
-8.4. Async Wrappers for Parallel Code
-- Problem, Solution, Discussion, See Also
+#### 9.4 Changes to type inference and overload resolution
+- 9.4.1 Reasons for change: streamlining generic method calls
+- 9.4.2 Inferred return types of anonymous functions
+- 9.4.3 Two-phase type inference
+- 9.4.4 Picking the right overloaded method
+- 9.4.5 Wrapping up type inference and overload resolution
 
-8.5. Async Wrappers for System.Reactive Observables
-- Problem, Solution, Discussion, See Also
-
-8.6. System.Reactive Observable Wrappers for async Code
-- Problem, Solution, Discussion, See Also
-
-8.7. Asynchronous Streams and Dataflow Meshes
-- Problem, Solution, Discussion, See Also
-
-8.8. System.Reactive Observables and Dataflow Meshes
-- Problem, Solution, Discussion, See Also
-
-8.9. Converting System.Reactive Observables to Asynchronous Streams
-- Problem, Solution, Discussion, See Also
-
+#### 9.5 Summary
 
 -----
 
