@@ -82,14 +82,24 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 - 2.1.3 A brief diversion into events
 - 2.1.4 Summary of delegates
 
-#### 1.2. Introduction to Asynchronous Programming
+#### 2.2 Type system characteristics
+- 2.2.1 C#’s place in the world of type systems
+- 2.2.2 When is C# 1’s type system not rich enough?
+- 2.2.3 Summary of type system characteristics
 
-#### 1.3. Introduction to Parallel Programming
+#### 2.3 Value types and reference types
+- 2.3.1 Values and references in the real world
+- 2.3.2 Value and reference type fundamentals
+- 2.3.3 Dispelling myths
+- 2.3.4 Boxing and unboxing
+- 2.3.5 Summary of value types and reference types
 
-#### 1.4. Introduction to Reactive Programming (Rx)
+#### 2.4 Beyond C# 1: new features on a solid base
+- 2.4.1 Features related to delegates
+- 2.4.2 Features related to the type system
+- 2.4.3 Features related to value types
 
-#### 1.5. Introduction to Dataflows
-
+#### 2.5 Summary
 
 -----
 
