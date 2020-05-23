@@ -544,3 +544,4 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 [C# in Depth](https://www.amazon.com/C-in-Depth-Jon-Skeet-audiobook/dp/B07WTR5LHN/)  
 [https://csharpindepth.com](https://csharpindepth.com)
+[C# in Depth, Fourth Edition](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)
