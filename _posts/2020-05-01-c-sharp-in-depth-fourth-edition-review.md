@@ -113,32 +113,42 @@ Part two describes C# versions 2 through 5. This is effectively a rewritten and 
 
 ### Chapter 3. C# 3: LINQ and everything that comes with it
 
-#### 3.1 Why generics are necessary
+#### 3.1 Automatically implemented properties
 
-#### 3.2 Simple generics for everyday use
-- 3.2.1 Learning by example: a generic dictionary
-- 3.2.2 Generic types and type parameters
-- 3.2.3 Generic methods and reading generic declarations
+#### 3.2 Implicit typing
+- 3.2.1 Typing terminology
+- 3.2.2 Implicitly typed local variables (var)
+- 3.2.3 Implicitly typed arrays
 
-#### 3.3 Beyond the basics
-- 3.3.1 Type constraints
-- 3.3.2 Type inference for type arguments of generic methods
-- 3.3.3 Implementing generics
+#### 3.3 Object and collection initializers
+- 3.3.1 Introduction to object and collection initializers
+- 3.3.2 Object initializers
+- 3.3.3 Collection initializers
+- 3.3.4 The benefits of single expressions for initialization
 
-#### 3.4 Advanced generics
-- 3.4.1 Static fields and static constructors
-- 3.4.2 How the JIT compiler handles generics
-- 3.4.3 Generic iteration
-- 3.4.4 Reflection and generics
+#### 3.4 Anonymous types
+- 3.4.1 Syntax and basic behavior
+- 3.4.2 The compiler-generated type
+- 3.4.3 Limitations
 
-#### 3.5 Limitations of generics in C# and other languages
-- 3.5.1 Lack of generic variance
-- 3.5.2 Lack of operator constraints or a “numeric” constraint
-- 3.5.3 Lack of generic properties, indexers, and other member types
-- 3.5.4 Comparison with C++ templates
-- 3.5.5 Comparison with Java generics
+#### 3.5 Lambda expressions
+- 3.5.1 Lambda expression syntax
+- 3.5.2 Capturing variables
+- 3.5.3 Expression trees
 
-#### 3.6 Summary
+#### 3.6 Extension methods
+- 3.6.1 Declaring an extension method
+- 3.6.2 Invoking an extension method
+- 3.6.3 Chaining method calls
+
+#### 3.7 Query expressions
+- 3.7.1 Query expressions translate from C# to C#
+- 3.7.2 Range variables and transparent identifiers
+- 3.7.3 Deciding when to use which syntax for LINQ
+
+#### 3.8 The end result: LINQ
+
+#### Summary
 
 
 -----
