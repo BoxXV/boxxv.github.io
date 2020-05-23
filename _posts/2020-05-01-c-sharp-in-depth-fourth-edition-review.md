@@ -445,33 +445,37 @@ Part four addresses C# 7 (all the way up to C# 7.3) and completes the book by pe
 -----
 
 
+### Chapter 13. Improving efficiency with more pass by reference
 
-### Chapter 13. Minor changes to simplify code
+#### 13.1 Recap: What do you know about ref?
 
-#### 13.1 Optional parameters and named arguments
-- 13.1.1 Optional parameters
-- 13.1.2 Named arguments
-- 13.1.3 Putting the two together
+#### 13.2 Ref locals and ref returns
+- 13.2.1 Ref localsts
+- 13.2.2 Ref returns
+- 13.2.3 The conditional ?: operator and ref values (C# 7.2)
+- 13.2.4 Ref readonly (C# 7.2)
 
-#### 13.2 Improvements for COM interoperability
-- 13.2.1 The horrors of automating Word before C# 4
-- 13.2.2 The revenge of optional parameters and named arguments
-- 13.2.3 When is a ref parameter not a ref parameter?
-- 13.2.4 Calling named indexers
-- 13.2.5 Linking primary interop assemblies
+#### 13.3 in parameters (C# 7.2)
+- 13.3.1 Compatibility considerations
+- 13.3.2 The surprising mutability of in parameters: External changes
+- 13.3.3 Overloading with in parameters
+- 13.3.4 Guidance for in parameters
 
-#### 13.3 Generic variance for interfaces and delegates
-- 13.3.1 Types of variance: covariance and contravariance
-- 13.3.2 Using variance in interfaces
-- 13.3.3 Using variance in delegates
-- 13.3.4 Complex situations
-- 13.3.5 Restrictions and notes
+#### 13.4 Declaring structs as readonly (C# 7.2)
+- 13.4.1 Background: Implicit copying with read-only variables
+- 13.4.2 The readonly modifier for structs
+- 13.4.3 XML serialization is implicitly read-write
 
-#### 13.4 Teeny tiny changes to locking and field-like events
-- 13.4.1 Robust locking
-- 13.4.2 Changes to field-like events
+#### 13.5 Extension methods with ref or in parameters (C# 7.2)
+- 13.5.1 Using ref/in parameters in extension methods to avoid copying
+- 13.5.2 Restrictions on ref and in extension methods
 
-#### 13.5 Summary
+#### 13.6 Ref-like structs (C# 7.2)
+- 13.6.1 Rules for ref-like structs
+- 13.6.2 Span<T> and stackalloc
+- 13.6.3 IL representation of ref-like structs
+
+#### Summary
 
 -----
 
