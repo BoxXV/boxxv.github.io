@@ -409,43 +409,38 @@ Part four addresses C# 7 (all the way up to C# 7.3) and completes the book by pe
 
 -----
 
-### Chapter 12. LINQ beyond collections
+### Chapter 12. Deconstruction and pattern matching
 
-#### 12.1 Querying a database with LINQ to SQL
-- 12.1.1 Getting started: the database and model
-- 12.1.2 Initial queries
-- 12.1.3 Queries involving joins
+#### 12.1 Deconstruction of tuples
+- 12.1.1 Deconstruction to new variables
+- 12.1.2 Deconstruction assignments to existing variables and properties
+- 12.1.3 Details of tuple literal deconstruction
 
-#### 12.2 Translations using IQueryable and IQueryProvider
-- 12.2.1 Introducing IQueryable<T> and related interfaces
-- 12.2.2 Faking it: interface implementations to log calls
-- 12.2.3 Gluing expressions together: the Queryable extension methods
-- 12.2.4 The fake query provider in action
-- 12.2.5 Wrapping up IQueryable
+#### 12.2 Deconstruction of nontuple types
+- 12.2.1 Instance deconstruction methods
+- 12.2.2 Extension deconstruction methods and overloading
+- 12.2.3 Compiler handling of Deconstruct calls
 
-#### 12.3 LINQ-friendly APIs and LINQ to XML
-- 12.3.1 Core types in LINQ to XML
-- 12.3.2 Declarative construction
-- 12.3.3 Queries on single nodes
-- 12.3.4 Flattened query operators
-- 12.3.5 Working in harmony with LINQ
+#### 12.3 Introduction to pattern matching
 
-#### 12.4 Replacing LINQ to Objects with Parallel LINQ
-- 12.4.1 Plotting the Mandelbrot set with a single thread
-- 12.4.2 Introducing ParallelEnumerable, ParallelQuery, and AsParallel
-- 12.4.3 Tweaking parallel queries
+#### 12.4 Patterns available in C# 7.0
+- 12.4.1 Constant patterns
+- 12.4.2 Type patterns
+- 12.4.3 The var pattern
 
-#### 12.5 Inverting the query model with LINQ to Rx
-- 12.5.1 IObservable<T> and IObserver<T>
-- 12.5.2 Starting simply (again)
-- 12.5.3 Querying observables
-- 12.5.4 What’s the point?
+#### 12.5 Using patterns with the is operator
 
-#### 12.6 Extending LINQ to Objects
-- 12.6.1 Design and implementation guidelines
-- 12.6.2 Sample extension: selecting a random element
+#### 12.6 Using patterns with switch statements
+- 12.6.1 Guard clauses
+- 12.6.2 Pattern variable scope for case labels
+- 12.6.3 Evaluation order of pattern-based switch statements
 
-#### 12.7 Summary
+#### 12.7 Thoughts on usage
+- 12.7.1 Spotting deconstruction opportunities
+- 12.7.2 Spotting pattern matching opportunities
+
+
+#### Summary
 
 -----
 
