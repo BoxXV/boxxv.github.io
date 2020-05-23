@@ -10,7 +10,7 @@ subtitle: C# in Depth is a book for those who are passionate about C#. It aims t
 
 ✅ Year: August 23, 2019 (Fourth Edition)
 
-✅ Authors:  Jon Skeet
+✅ Authors:Jon Skeet
 
 ✅ Language: English
 
@@ -153,7 +153,7 @@ Part two describes C# versions 2 through 5. This is effectively a rewritten and 
 
 -----
 
-### Chapter 4.  Saying nothing with nullable types
+### Chapter 4.Saying nothing with nullable types
 
 #### 4.1 What do you do when you just don’t have a value?
 - 4.1.1 Why value type variables can’t be null
