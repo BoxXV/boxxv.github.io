@@ -195,25 +195,24 @@ One of my hobbies is helping other developers on sites such as Stack Overflow. b
 
 -----
 
-### Chapter 5: Dataflow Basics
+### Chapter 6. Implementing iterators the easy way
 
-5.1. Linking Blocks
-- Problem, Solution, Discussion, See Also
+#### 6.1 C# 1: The pain of handwritten iterators
 
-5.2. Propagating Errors
-- Problem, Solution, Discussion, See Also
+#### 6.2 C# 2: Simple iterators with yield statements
+- 6.2.1 Introducing iterator blocks and yield return
+- 6.2.2 Visualizing an iterator’s workflow
+- 6.2.3 Advanced iterator execution flow
+- 6.2.4 Quirks in the implementation
 
-5.3. Unlinking Blocks
-- Problem, Solution, Discussion, See Also
+#### 6.3 Real-life iterator examples
+- 6.3.1 Iterating over the dates in a timetable
+- 6.3.2 Iterating over lines in a file
+- 6.3.3 Filtering items lazily using an iterator block and a predicate
 
-5.4. Throttling Blocks
-- Problem, Solution, Discussion, See Also
+#### 6.4 Pseudo-synchronous code with the Concurrency and Coordination Runtime
 
-5.5. Parallel Processing with Dataflow Blocks
-- Problem, Solution, Discussion, See Also
-
-5.6. Creating Custom Blocks
-- Problem, Solution, Discussion, See Also
+#### 6.5 Summary
 
 -----
 
