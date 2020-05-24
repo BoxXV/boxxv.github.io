@@ -49,9 +49,13 @@ Năm 1994, bốn tác giả **Erich Gamma, Richard Helm, Ralph Johnson và John 
 
 Bốn tác giả trên được biết đến rộng rãi dưới tên **Gang of Four** (bộ tứ). Theo quan điểm của bốn người, design pattern chủ yếu được dựa theo những quy tắc sau đây về thiết kế hướng đối tượng.
 
-![singleton](http://boxxv.com/img/patterns/singleton.png "singleton")_singleton_
+![Design Patterns](http://boxxv.com/img/patterns/design-patterns-classify.png "Design Patterns")_Design Patterns_
 
+Hệ thống các mẫu Design pattern hiện có **23 mẫu** được định nghĩa trong cuốn "**Design patterns Elements of Reusable Object Oriented Software**" và được chia thành **3 nhóm**:
 
+- `Creational Pattern` (nhóm khởi tạo – 5 mẫu) gồm: Factory Method, Abstract Factory, Builder, Prototype, Singleton. Những Design pattern loại này cung cấp một giải pháp để tạo ra các object và che giấu được logic của việc tạo ra nó, thay vì tạo ra object một cách trực tiếp bằng cách sử dụng method new. Điều này giúp cho chương trình trở nên mềm dẻo hơn trong việc quyết định object nào cần được tạo ra trong những tình huống được đưa ra.
+- `Structural Pattern` (nhóm cấu trúc – 7 mẫu) gồm: Adapter, Bridge, Composite, Decorator, Facade, Flyweight và Proxy. Những Design pattern loại này liên quan tới class và các thành phần của object. Nó dùng để thiết lập, định nghĩa quan hệ giữa các đối tượng.
+- `Behavioral Pattern` (nhóm tương tác/ hành vi – 11 mẫu) gồm: Interpreter, Template Method, Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy và Visitor. Nhóm này dùng trong thực hiện các hành vi của đối tượng, sự giao tiếp giữa các object với nhau.
 
 -----
 ### 5. Cấu trúc
