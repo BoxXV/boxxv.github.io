@@ -168,13 +168,73 @@ Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có th
   - Cho phép định nghĩa thêm phép toán mới tác động lên các phần tử của một cấu trúc đối tượng mà không cần thay đổi các lớp định nghĩa cấu trúc đó.
   - Tần suất sử dụng: thấp.
 
+
+-----
+
+### 5. Để học Design Patterns cần có gì?
+
+Để học tốt Design Pattern bạn nắm vững được Bốn đặc tính của OOP: Kế thừa, Đa hình, Trừu tượng, Bao đóng.
+
+Tiếp theo là hai khái niệm interface và abstract : cái này cực kỳ quan trọng, để hiểu và áp dụng 2 khái niệm này có thể sẽ mất một thời gian, nhưng khi bạn nắm chắc nó bạn sẽ thấy nó thực sự cần thiết.
+
+Bỏ tư duy theo lối cấu trúc, nâng tư duy hoàn toàn OOP.
+
+Sau khi bạn đã nắm chắc các thứ kể trên, bạn nên bắt tay vào học Design Pattern càng sớm càng tốt. Design Pattern giúp bạn đặt trình cao mới :).
+
+-----
+
+### 6. Học ở đâu?
+
+Sách:
+- Design Patterns: Elements of Reusable Object-Oriented Software
+- Head First Design Patterns
+- Design Patterns For Dummies
+- Pattern Hatching: Design Patterns Applied.
+- Refactoring to Patterns.
+- Patterns of Enterprise Application Architecture.
+
+Các website viết về Design Pattern:
+- https://sourcemaking.com/design_patterns
+- https://refactoring.guru
+- https://www.tutorialspoint.com/design_pattern/index.htm
+- https://www.javatpoint.com/design-patterns-in-java
+- http://www.oodesign.com/
+- http://java-design-patterns.com
+- http://www.javacamp.org/designPattern/
+- <del>http://www.thejavageek.com/design-patterns/</del>
+- https://en.wikipedia.org/wiki/Software_design_pattern
+- dotNet Design Patterns: https://www.dofactory.com/net/design-patterns
+- Javascript Design Patterns: https://www.dofactory.com/javascript/design-patterns
+
+
+-----
+
+### 7. Học Design Pattern như thế nào?
+
+Để học tốt một Design Pattern bạn hãy tập trung chú ý vào 3 phần sau:
+- Nó được sử dụng khi nào, vấn đề mà design pattern đó giải quyết là gì?
+- Sơ đồ UML mô tả design pattern.
+- Code minh họa, ứng dụng thực tiễn của nó là gì?
+
+
+-----
+
+### 8. Lời kết
+
+Design pattern thể hiện tính kinh nghiệm của công việc lập trình, xây dựng và thiết kế phần mềm. Người hiểu và vận dụng được Design Pattern thích hợp trong hệ thống sẽ tiết kiệm được rất nhiều thời gian, công sức, dễ phát triển, mở rộng, bảo trì. Tuy nhiên không nên quá lạm dụng nó.
+
+Chúng ta nên nhớ rằng:
+- Design patterns là 1 đoạn mô tả, hoặc 1 khuôn mẫu để giải quyết 1 vấn đề nào đó. Nó không phải là thiết kế cuối cùng.
+- Design Pattern được tạo ra để giải quyết vấn đề, chứ không phải để phức tạp hóa nó.
+- Design Pattern giúp code được tối ưu hóa, dễ tái sử dụng, dễ hiểu, dễ nâng cấp sửa chữa.
+
+Qua bài này mình hi vọng mọi người có thể hiểu hơn về design pattern và ưu điểm của nó. Bài tiếp theo chúng ta sẽ đi vào tìm hiểu từng mẫu Design Patterns. Vào chi tiết, nội dung tôi sẽ sử dụng thông tin chủ yếu từ trang SourceMaking, TutorialsPoint , sách Design Patterns – Elements of Reusable Object-Oriented Software (GOF), Design Pattern for dummies và tìm hiểu thêm những kiến thức từ nhiều trang khác để các bạn dễ hiểu hơn. Vì đây là những kiến thức nâng cao nên tôi cũng phải tìm hiểu từ rất nhiều nguồn để tổng hợp lại, cũng như những kinh nghiệm trong các dự án thực tế vào bài viết để giúp cho các bạn dễ tiếp cận nhất có thể. Mong nhận được sự phản hồi và góp ý của các bạn. Thanks a lot!!!
+
+
+
 -----
 Tham khảo:
-- [Singleton Main article](https://refactoring.guru/design-patterns/singleton)
-- [Singleton Usage in C#](https://refactoring.guru/design-patterns/singleton/csharp/example#lang-features)
-- [Singleton Pattern in C#](https://viblo.asia/p/singleton-pattern-in-c-07LKXA2DZV4)
-- [Singleton Design Pattern](https://www.dofactory.com/net/singleton-design-pattern)
-- [Implementing the Singleton Pattern in C#](https://csharpindepth.com/Articles/Singleton)
-
+- [Nhập môn Design Pattern (Phong cách kiếm hiệp)](https://toidicodedao.com/2016/03/01/nhap-mon-design-pattern-phong-cach-kiem-hiep/)
+- 
 - [Lập trình cho interface chứ không phải để implement interface đó.](https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean)
 - [Ưu tiên object composition (chứa trong) hơn là inheritance (thừa kế).](https://stackoverflow.com/questions/49002/prefer-composition-over-inheritance)
