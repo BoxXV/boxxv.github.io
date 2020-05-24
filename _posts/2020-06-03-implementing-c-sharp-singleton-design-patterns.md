@@ -142,170 +142,105 @@ Việc triển khai này cố gắng an toàn cho luồng mà không cần phả
 - Nó vẫn không thực hiện tốt như các triển khai sau này.
 
 -----
-### 5. Cấu trúc
+### 5. Fourth version - not quite as lazy, but thread-safe without using locks
 
 {% highlight js %}
-{% endhighlight %}
-
-
------
-### 6. Cách sử dụng mẫu Singleton trong C#
-
-{% highlight js %}
-using System;
-
-namespace Singleton
+namespace ThreadSafeNotLock
 {
-    // The Singleton class defines the `GetInstance` method that serves as an
-    // alternative to constructor and lets clients access the same instance of
-    // this class over and over.
-    class Singleton
+    public sealed class Singleton
     {
-        // The Singleton's constructor should always be private to prevent
-        // direct construction calls with the `new` operator.
-        private Singleton() { }
+        private static readonly Singleton instance = new Singleton();
 
-        // The Singleton's instance is stored in a static field. There there are
-        // multiple ways to initialize this field, all of them have various pros
-        // and cons. In this example we'll show the simplest of these ways,
-        // which, however, doesn't work really well in multithreaded program.
-        private static Singleton _instance;
-
-        // This is the static method that controls the access to the singleton
-        // instance. On the first run, it creates a singleton object and places
-        // it into the static field. On subsequent runs, it returns the client
-        // existing object stored in the static field.
-        public static Singleton GetInstance()
+        // Explicit static constructor to tell C# compiler
+        // not to mark type as beforefieldinit
+        static Singleton()
         {
-            if (_instance == null)
-            {
-                _instance = new Singleton();
-            }
-            return _instance;
         }
 
-        // Finally, any singleton should define some business logic, which can
-        // be executed on its instance.
-        public static void someBusinessLogic()
+        private Singleton()
         {
-            // ...
         }
-    }
 
-    class Program
-    {
-        static void Main(string[] args)
+        public static Singleton Instance
         {
-            // The client code.
-            Singleton s1 = Singleton.GetInstance();
-            Singleton s2 = Singleton.GetInstance();
-
-            if (s1 == s2)
+            get
             {
-                Console.WriteLine("Singleton works, both variables contain the same instance.");
-            }
-            else
-            {
-                Console.WriteLine("Singleton failed, variables contain different instances.");
+                return instance;
             }
         }
     }
 }
 {% endhighlight %}
 
+Trình static constructor rõ ràng để báo cho trình biên dịch C# không đánh dấu kiểu như `beforefieldinit`
+
+Như bạn có thể thấy, điều này thực sự cực kỳ đơn giản - nhưng tại sao nó lại an toàn cho chủ đề và nó lười đến mức nào? Chà, các hàm tạo tĩnh trong C # được chỉ định để thực thi chỉ khi một thể hiện của lớp được tạo hoặc một thành viên tĩnh được tham chiếu và chỉ thực hiện một lần cho mỗi AppDomain. Cho rằng kiểm tra này cho loại đang được xây dựng mới cần được thực hiện bất cứ điều gì khác xảy ra, nó sẽ nhanh hơn việc thêm kiểm tra bổ sung như trong các ví dụ trước. Tuy nhiên, có một vài nếp nhăn:
+- Nó không lười biếng như các triển khai khác. Cụ thể, nếu bạn có các thành viên tĩnh ngoài Instance, tham chiếu đầu tiên cho các thành viên đó sẽ liên quan đến việc tạo cá thể. Điều này được sửa chữa trong việc thực hiện tiếp theo.
+- Có những sự phức tạp nếu một hàm tạo tĩnh gọi một cái khác gọi cái đầu tiên một lần nữa. Xem trong thông số kỹ thuật .NET (hiện tại là mục 9.5.3 của phân vùng II) để biết thêm chi tiết về bản chất chính xác của trình khởi tạo kiểu - chúng không thể cắn bạn, nhưng đáng để nhận ra hậu quả của các hàm tạo tĩnh liên quan đến từng hàm khác trong một chu kỳ.
+- Sự lười biếng của các trình khởi tạo kiểu chỉ được đảm bảo bởi .NET khi loại không được đánh dấu bằng một cờ đặc biệt có tên là `beforefieldinit`. Thật không may, trình biên dịch C # (như được cung cấp trong thời gian chạy .NET 1.1, ít nhất) đánh dấu tất cả các loại không có hàm tạo tĩnh (nghĩa là một khối trông giống như một hàm tạo nhưng được đánh dấu tĩnh) là `beforefieldinit`. Bây giờ tôi có một bài viết với nhiều chi tiết hơn về vấn đề này. Cũng lưu ý rằng nó ảnh hưởng đến hiệu suất, như được thảo luận ở gần cuối trang.
+
+Một lối tắt bạn có thể thực hiện với cách triển khai này (và chỉ có một phím tắt này) là chỉ tạo một biến chỉ đọc tĩnh công khai và loại bỏ hoàn toàn thuộc tính. Điều này làm cho mã bộ xương cơ bản hoàn toàn nhỏ bé! Tuy nhiên, nhiều người thích có một tài sản trong trường hợp cần thêm hành động trong tương lai và nội tuyến JIT có khả năng làm cho hiệu suất giống hệt nhau. (Lưu ý rằng bản thân hàm tạo tĩnh vẫn được yêu cầu nếu bạn yêu cầu sự lười biếng.)
+
+
 -----
-### 7. Thread-safe Singleton
+### 6. Fifth version - fully lazy instantiation
 
 {% highlight js %}
-using System;
-using System.Threading;
-
-namespace Singleton
+namespace FullyLazy
 {
-    // This Singleton implementation is called "double check lock". It is safe
-    // in multithreaded environment and provides lazy initialization for the
-    // Singleton object.
-    class Singleton
+    public sealed class Singleton
     {
-        private Singleton() { }
-
-        private static Singleton _instance;
-
-        // We now have a lock object that will be used to synchronize threads
-        // during first access to the Singleton.
-        private static readonly object _lock = new object();
-
-        public static Singleton GetInstance(string value)
+        private Singleton()
         {
-            // This conditional is needed to prevent threads stumbling over the
-            // lock once the instance is ready.
-            if (_instance == null)
+        }
+
+        public static Singleton Instance { get { return Nested.instance; } }
+
+        private class Nested
+        {
+            // Explicit static constructor to tell C# compiler
+            // not to mark type as beforefieldinit
+            static Nested()
             {
-                // Now, imagine that the program has just been launched. Since
-                // there's no Singleton instance yet, multiple threads can
-                // simultaneously pass the previous conditional and reach this
-                // point almost at the same time. The first of them will acquire
-                // lock and will proceed further, while the rest will wait here.
-                lock (_lock)
-                {
-                    // The first thread to acquire the lock, reaches this
-                    // conditional, goes inside and creates the Singleton
-                    // instance. Once it leaves the lock block, a thread that
-                    // might have been waiting for the lock release may then
-                    // enter this section. But since the Singleton field is
-                    // already initialized, the thread won't create a new
-                    // object.
-                    if (_instance == null)
-                    {
-                        _instance = new Singleton();
-                        _instance.Value = value;
-                    }
-                }
             }
-            return _instance;
-        }
 
-        // We'll use this property to prove that our Singleton really works.
-        public string Value { get; set; }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // The client code.
-            
-            Console.WriteLine(
-                "{0}\n{1}\n\n{2}\n",
-                "If you see the same value, then singleton was reused (yay!)",
-                "If you see different values, then 2 singletons were created (booo!!)",
-                "RESULT:"
-            );
-            
-            Thread process1 = new Thread(() =>
-            {
-                TestSingleton("FOO");
-            });
-            Thread process2 = new Thread(() =>
-            {
-                TestSingleton("BAR");
-            });
-            
-            process1.Start();
-            process2.Start();
-            
-            process1.Join();
-            process2.Join();
+            internal static readonly Singleton instance = new Singleton();
         }
-        
-        public static void TestSingleton(string value)
-        {
-            Singleton singleton = Singleton.GetInstance(value);
-            Console.WriteLine(singleton.Value);
-        } 
     }
 }
 {% endhighlight %}
+
+Ở đây, khởi tạo được kích hoạt bởi tham chiếu đầu tiên đến thành viên tĩnh của lớp lồng nhau, chỉ xảy ra trong Instance. Điều này có nghĩa là việc thực hiện hoàn toàn lười biếng, nhưng có tất cả các lợi ích hiệu suất của những lần trước. Lưu ý rằng mặc dù các lớp lồng nhau có quyền truy cập vào các thành viên riêng của lớp kèm theo, nhưng điều ngược lại là không đúng, do đó, ví dụ cần phải là nội bộ ở đây. Tuy nhiên, điều đó không gây ra bất kỳ vấn đề nào khác, vì bản thân lớp học là riêng tư. Tuy nhiên, mã phức tạp hơn một chút để làm cho việc khởi tạo trở nên lười biếng.
+
+-----
+### 7. Sixth version - using .NET 4's Lazy<T> type
+
+Nếu bạn đang sử dụng .NET 4 (hoặc cao hơn), bạn có thể sử dụng loại System.Lazy <T> để làm cho sự lười biếng thực sự đơn giản. Tất cả những gì bạn cần làm là chuyển một ủy nhiệm cho hàm tạo gọi hàm tạo Singleton - được thực hiện dễ dàng nhất với biểu thức lambda.
+
+{% highlight js %}
+using System;
+
+namespace LazyT
+{
+    public sealed class Singleton
+    {
+        private static readonly Lazy<Singleton> lazy = new Lazy<Singleton>(() => new Singleton());
+
+        public static Singleton Instance { get { return lazy.Value; } }
+
+        private Singleton()
+        {
+        }
+    }
+}
+{% endhighlight %}
+
+Nó đơn giản và thực hiện tốt. Nó cũng cho phép bạn kiểm tra xem cá thể đã được tạo hay chưa với thuộc tính `IsValueCreated`, nếu bạn cần điều đó.
+
+Đoạn mã trên hoàn toàn sử dụng `LazyThreadSquilMode.ExecutAndPublication` làm chế độ an toàn luồng cho `Lazy<Singleton>`. Tùy thuộc vào yêu cầu của bạn, bạn có thể muốn thử nghiệm với các chế độ khác.
+
+-----
+### 8. Performance vs laziness
 
 
 -----
