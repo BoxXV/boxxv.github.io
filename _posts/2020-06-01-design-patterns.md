@@ -69,7 +69,23 @@ Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
 - [Singleton](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
   - Đảm bảo 1 class chỉ có 1 instance và cung cấp 1 điểm truy xuất toàn cục đến nó.
   - Tần suất sử dụng: cao trung bình.
-- [Singleton](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
+
+- [Abstract Factory](https://gpcoder.com/4365-huong-dan-java-design-pattern-abstract-factory/)
+  - Cung cấp một interface cho việc tạo lập các đối tượng (có liên hệ với nhau) mà không cần qui định lớp khi hay xác định lớp cụ thể (concrete) tạo mỗi đối tượng.
+  - Tần suất sử dụng: cao.
+
+- [Factory Method](https://gpcoder.com/4352-huong-dan-java-design-pattern-factory-method/)
+  - Định nghĩa Interface để sinh ra đối tượng nhưng để cho lớp con quyết định lớp nào được dùng để sinh ra đối tượng Factory method cho phép một lớp chuyển quá trình khởi tạo đối tượng cho lớp con.
+  - Tần suất sử dụng: cao.
+
+- [Builder](https://gpcoder.com/4434-huong-dan-java-design-pattern-builder/)
+  - Tách rời việc xây dựng (construction) một đối tượng phức tạp khỏi biểu diễn của nó sao cho cùng một tiến trình xây dựng có thể tạo được các biểu diễn khác nhau.
+  - Tần suất sử dụng: trung bình thấp.
+
+- [Prototype](https://gpcoder.com/4413-huong-dan-java-design-pattern-prototype/)
+  - Qui định loại của các đối tượng cần tạo bằng cách dùng một đối tượng mẫu, tạo mới nhờ vào sao chép đối tượng mẫu này.
+  - Tần suất sử dụng: trung bình.
+
 
 -----
 ### 6. Cách sử dụng mẫu Singleton trong C#
