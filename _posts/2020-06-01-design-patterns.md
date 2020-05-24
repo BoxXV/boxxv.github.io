@@ -88,10 +88,10 @@ Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
 
 
 -----
-### 6. Cách sử dụng mẫu Singleton trong C#
+### 4.2. Nhóm Structural (nhóm cấu trúc)
 
-{% highlight js %}
-using System;
+![Structural](http://boxxv.com/img/patterns/Structural.png "Structural")_Structural_
+
 
 namespace Singleton
 {
