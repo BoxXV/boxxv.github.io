@@ -58,13 +58,41 @@ namespace NonThreadSafe
 }
 {% endhighlight %}
 
------
-### 3. Giải pháp
-Tất cả các triển khai của Singleton đều có hai bước chung:
-- Đặt hàm tạo mặc định ở chế độ riêng tư, để ngăn các đối tượng khác sử dụng toán tử mới với lớp Singleton.
-- Tạo một phương thức tạo tĩnh hoạt động như một hàm tạo. Trong mui xe, phương thức này gọi hàm tạo riêng để tạo một đối tượng và lưu nó trong trường tĩnh. Tất cả các cuộc gọi sau đến phương thức này trả về đối tượng được lưu trữ.
+Như đã nói ở trên, ở trên không phải là chủ đề an toàn. Hai luồng khác nhau có thể cả hai đã đánh giá thử nghiệm `if (instance == null)` và thấy nó là đúng, sau đó cả hai đều tạo ra các trường hợp vi phạm mẫu đơn. Lưu ý rằng trong thực tế, thể hiện có thể đã được tạo trước khi biểu thức được ước tính, nhưng mô hình bộ nhớ không đảm bảo rằng giá trị mới của cá thể sẽ được nhìn thấy bởi các luồng khác trừ khi các rào cản bộ nhớ phù hợp đã được thông qua.
 
-Nếu mã của bạn có quyền truy cập vào lớp Singleton, thì nó có thể gọi phương thức tĩnh Singleton. Vì vậy, bất cứ khi nào phương thức đó được gọi, cùng một đối tượng luôn được trả về.
+
+-----
+### 3. Second version - simple thread-safety
+
+{% highlight js %}
+namespace SimpleThreadSafe
+{
+    public sealed class Singleton
+    {
+        private static Singleton instance = null;
+        private static readonly object padlock = new object();
+
+        Singleton()
+        {
+        }
+
+        public static Singleton Instance
+        {
+            get
+            {
+                lock (padlock)
+                {
+                    if (instance == null)
+                    {
+                        instance = new Singleton();
+                    }
+                    return instance;
+                }
+            }
+        }
+    }
+}
+{% endhighlight %}
 
 -----
 ### 4. Tương tự thế giới thực
