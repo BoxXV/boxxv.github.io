@@ -124,98 +124,39 @@ Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có th
 
 
 -----
-### 7. Thread-safe Singleton
+### 4.2. Nhóm Behavioral (nhóm hành vi/ tương tác)
 
-{% highlight js %}
-using System;
-using System.Threading;
+![Behavioral](http://boxxv.com/img/patterns/Behavioral.png "Behavioral")_Behavioral_
 
-namespace Singleton
-{
-    // This Singleton implementation is called "double check lock". It is safe
-    // in multithreaded environment and provides lazy initialization for the
-    // Singleton object.
-    class Singleton
-    {
-        private Singleton() { }
+- [Chain of Responsibility](https://gpcoder.com/4665-huong-dan-java-design-pattern-chain-of-responsibility/)
+  - Khắc phục việc ghép cặp giữa bộ gởi và bộ nhận thông điệp. Các đối tượng nhận thông điệp được kết nối thành một chuỗi và thông điệp được chuyển dọc theo chuỗi nầy đến khi gặp được đối tượng xử lý nó. Tránh việc gắn kết cứng giữa phần tử gởi request với phần tử nhận và xử lý request bằng cách cho phép hơn 1 đối tượng có có cơ hội xử lý request. Liên kết các đối tượng nhận request thành 1 dây chuyền rồi gửi request xuyên qua từng đối tượng xử lý đến khi gặp đối tượng xử lý cụ thể.
+  - Tần suất sử dụng: trung bình thấp.
 
-        private static Singleton _instance;
+- [Command](https://gpcoder.com/4686-huong-dan-java-design-pattern-command/)
+  - Mỗi yêu cầu (thực hiện một thao tác nào đó) được bao bọc thành một đối tượng. Các yêu cầu sẽ được lưu trữ và gởi đi như các đối tượng.Đóng gói request vào trong một Object, nhờ đó có thể nthông số hoá chương trình nhận request và thực hiện các thao tác trên request: sắp xếp, log, undo…
+  - Tần suất sử dụng: cao trung bình.
 
-        // We now have a lock object that will be used to synchronize threads
-        // during first access to the Singleton.
-        private static readonly object _lock = new object();
+- [Composite](https://gpcoder.com/4554-huong-dan-java-design-pattern-composite/)
+  - Tổ chức các đối tượng theo cấu trúc phân cấp dạng cây. Tất cả các đối tượng trong cấu trúc được thao tác theo một cách thuần nhất như nhau.
+Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có thể xem đối tượng bao gộp và bị bao gộp như nhau -> khả năng tổng quát hoá trong code của client -> dễ phát triển, nâng cấp, bảo trì.
+  - Tần suất sử dụng: cao trung bình.
 
-        public static Singleton GetInstance(string value)
-        {
-            // This conditional is needed to prevent threads stumbling over the
-            // lock once the instance is ready.
-            if (_instance == null)
-            {
-                // Now, imagine that the program has just been launched. Since
-                // there's no Singleton instance yet, multiple threads can
-                // simultaneously pass the previous conditional and reach this
-                // point almost at the same time. The first of them will acquire
-                // lock and will proceed further, while the rest will wait here.
-                lock (_lock)
-                {
-                    // The first thread to acquire the lock, reaches this
-                    // conditional, goes inside and creates the Singleton
-                    // instance. Once it leaves the lock block, a thread that
-                    // might have been waiting for the lock release may then
-                    // enter this section. But since the Singleton field is
-                    // already initialized, the thread won't create a new
-                    // object.
-                    if (_instance == null)
-                    {
-                        _instance = new Singleton();
-                        _instance.Value = value;
-                    }
-                }
-            }
-            return _instance;
-        }
+- [Decorator](https://gpcoder.com/4574-huong-dan-java-design-pattern-decorator/)
+  - Gán thêm trách nhiệm cho đối tượng (mở rộng chức năng) vào lúc chạy (dynamically).
+  - Tần suất sử dụng:trung bình.
 
-        // We'll use this property to prove that our Singleton really works.
-        public string Value { get; set; }
-    }
+- [Facade](https://gpcoder.com/4604-huong-dan-java-design-pattern-facade/)
+  - Cung cấp một interface thuần nhất cho một tập hợp các interface trong một “hệ thống con” (subsystem). Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho hệ thống con dễ sử dụng hơn.
+  - Tần suất sử dụng: cao.
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // The client code.
-            
-            Console.WriteLine(
-                "{0}\n{1}\n\n{2}\n",
-                "If you see the same value, then singleton was reused (yay!)",
-                "If you see different values, then 2 singletons were created (booo!!)",
-                "RESULT:"
-            );
-            
-            Thread process1 = new Thread(() =>
-            {
-                TestSingleton("FOO");
-            });
-            Thread process2 = new Thread(() =>
-            {
-                TestSingleton("BAR");
-            });
-            
-            process1.Start();
-            process2.Start();
-            
-            process1.Join();
-            process2.Join();
-        }
-        
-        public static void TestSingleton(string value)
-        {
-            Singleton singleton = Singleton.GetInstance(value);
-            Console.WriteLine(singleton.Value);
-        } 
-    }
-}
-{% endhighlight %}
+- [Flyweight](https://gpcoder.com/4626-huong-dan-java-design-pattern-flyweight/)
+  - Sử dụng việc chia sẻ để thao tác hiệu quả trên một số lượng lớn đối tượng “cở nhỏ” (chẳng hạn paragraph, dòng, cột, ký tự…).
+  - Tần suất sử dụng: thấp.
+
+- [Proxy](https://gpcoder.com/4644-huong-dan-java-design-pattern-proxy/)
+  - Cung cấp đối tượng đại diện cho một đối tượng khác để hỗ trợ hoặc kiểm soát quá trình truy xuất đối tượng đó. Đối tượng thay thế gọi là proxy.
+  - Tần suất sử dụng: cao trung bình.
+
 
 
 -----
