@@ -235,6 +235,11 @@ Qua bài này mình hi vọng mọi người có thể hiểu hơn về design p
 -----
 Tham khảo:
 - [Nhập môn Design Pattern (Phong cách kiếm hiệp)](https://toidicodedao.com/2016/03/01/nhap-mon-design-pattern-phong-cach-kiem-hiep/)
-- 
+- [https://tuanitpro.com/design-pattern-la-gi/](https://tuanitpro.com/design-pattern-la-gi/)
+- [https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html](https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html)
+- [https://refactoring.guru/design-patterns/catalog](https://refactoring.guru/design-patterns/catalog)
+- [https://www.ibm.com/developerworks/java/tutorials/j-patterns/j-patterns.html](https://www.ibm.com/developerworks/java/tutorials/j-patterns/j-patterns.html)
+- [https://www.journaldev.com/1827/java-design-patterns-example-tutorial](https://www.journaldev.com/1827/java-design-patterns-example-tutorial)
+- [https://viblo.asia/tags/design-pattern](https://viblo.asia/tags/design-pattern)
 - [Lập trình cho interface chứ không phải để implement interface đó.](https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean)
 - [Ưu tiên object composition (chứa trong) hơn là inheritance (thừa kế).](https://stackoverflow.com/questions/49002/prefer-composition-over-inheritance)
