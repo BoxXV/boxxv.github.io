@@ -62,9 +62,14 @@ Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
 ![Relationships between Design Patterns](http://boxxv.com/img/patterns/relationwithpatterns2.jpg "Relationships between Design Patterns")_Relationships between Design Patterns_
 
 -----
-### 5. Cấu trúc
-![Structure](http://boxxv.com/img/patterns/structure-en.png "Structure")_Structure_
+### 4.1. Nhóm Creational (nhóm khởi tạo)
 
+![Creational](http://boxxv.com/img/patterns/Creational.png "Creational")_Creational_
+
+- [Singleton](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
+  - Đảm bảo 1 class chỉ có 1 instance và cung cấp 1 điểm truy xuất toàn cục đến nó.
+  - Tần suất sử dụng: cao trung bình.
+- [Singleton](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
 
 -----
 ### 6. Cách sử dụng mẫu Singleton trong C#
