@@ -136,28 +136,37 @@ Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có th
   - Mỗi yêu cầu (thực hiện một thao tác nào đó) được bao bọc thành một đối tượng. Các yêu cầu sẽ được lưu trữ và gởi đi như các đối tượng.Đóng gói request vào trong một Object, nhờ đó có thể nthông số hoá chương trình nhận request và thực hiện các thao tác trên request: sắp xếp, log, undo…
   - Tần suất sử dụng: cao trung bình.
 
-- [Composite](https://gpcoder.com/4554-huong-dan-java-design-pattern-composite/)
-  - Tổ chức các đối tượng theo cấu trúc phân cấp dạng cây. Tất cả các đối tượng trong cấu trúc được thao tác theo một cách thuần nhất như nhau.
-Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có thể xem đối tượng bao gộp và bị bao gộp như nhau -> khả năng tổng quát hoá trong code của client -> dễ phát triển, nâng cấp, bảo trì.
-  - Tần suất sử dụng: cao trung bình.
-
-- [Decorator](https://gpcoder.com/4574-huong-dan-java-design-pattern-decorator/)
-  - Gán thêm trách nhiệm cho đối tượng (mở rộng chức năng) vào lúc chạy (dynamically).
-  - Tần suất sử dụng:trung bình.
-
-- [Facade](https://gpcoder.com/4604-huong-dan-java-design-pattern-facade/)
-  - Cung cấp một interface thuần nhất cho một tập hợp các interface trong một “hệ thống con” (subsystem). Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho hệ thống con dễ sử dụng hơn.
-  - Tần suất sử dụng: cao.
-
-- [Flyweight](https://gpcoder.com/4626-huong-dan-java-design-pattern-flyweight/)
-  - Sử dụng việc chia sẻ để thao tác hiệu quả trên một số lượng lớn đối tượng “cở nhỏ” (chẳng hạn paragraph, dòng, cột, ký tự…).
+- [Interpreter](https://gpcoder.com/4702-huong-dan-java-design-pattern-interpreter/)
+  - Hỗ trợ việc định nghĩa biểu diễn văn phạm và bộ thông dịch cho một ngôn ngữ.
   - Tần suất sử dụng: thấp.
 
-- [Proxy](https://gpcoder.com/4644-huong-dan-java-design-pattern-proxy/)
-  - Cung cấp đối tượng đại diện cho một đối tượng khác để hỗ trợ hoặc kiểm soát quá trình truy xuất đối tượng đó. Đối tượng thay thế gọi là proxy.
+- [Iterator](https://gpcoder.com/4724-huong-dan-java-design-pattern-iterator/)
+  - Truy xuất các phần tử của đối tượng dạng tập hợp tuần tự (list, array, …) mà không phụ thuộc vào biểu diễn bên trong của các phần tử.
+  - Tần suất sử dụng: cao.
+
+- [Mediator](https://gpcoder.com/4740-huong-dan-java-design-pattern-mediator/)
+  - Hiệu chỉnh và trả lại như cũ trạng thái bên trong của đối tượng mà vẫn không vi phạm việc bao bọc dữ liệu.
+  - Tần suất sử dụng: thấp.
+
+- [Observer](https://gpcoder.com/4747-huong-dan-java-design-pattern-observer/)
+  - Định nghĩa sự phụ thuộc một-nhiều giữa các đối tượng sao cho khi một đối tượng thay đổi trạng thái thì tất cả các đối tượng phụ thuộc nó cũng thay đổi theo.
+  - Tần suất sử dụng: cao.
+
+- [State](https://gpcoder.com/4785-huong-dan-java-design-pattern-state/)
+  - Cho phép một đối tượng thay đổi hành vi khi trạng thái bên trong của nó thay đổi, ta có cảm giác như class của đối tượng bị thay đổi.
+  - Tần suất sử dụng: trung bình.
+
+- [Strategy](https://gpcoder.com/4796-huong-dan-java-design-pattern-strategy/)
+  - Bao bọc một họ các thuật toán bằng các lớp đối tượng để thuật toán có thể thay đổi độc lập đối với chương trình sử dụng thuật toán.Cung cấp một họ giải thuật cho phép client chọn lựa linh động một giải thuật cụ thể khi sử dụng.
   - Tần suất sử dụng: cao trung bình.
 
+- [Template Method](https://gpcoder.com/4810-huong-dan-java-design-pattern-template-method/)
+  - Định nghĩa phần khung của một thuật toán, tức là một thuật toán tổng quát gọi đến một số phương thức chưa được cài đặt trong lớp cơ sở; việc cài đặt các phương thức được ủy nhiệm cho các lớp kế thừa.
+  - Tần suất sử dụng: trung bình.
 
+- [Visitor](https://gpcoder.com/4813-huong-dan-java-design-pattern-visitor/)
+  - Cho phép định nghĩa thêm phép toán mới tác động lên các phần tử của một cấu trúc đối tượng mà không cần thay đổi các lớp định nghĩa cấu trúc đó.
+  - Tần suất sử dụng: thấp.
 
 -----
 Tham khảo:
