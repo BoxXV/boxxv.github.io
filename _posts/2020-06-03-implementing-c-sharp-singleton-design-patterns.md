@@ -240,8 +240,29 @@ Nó đơn giản và thực hiện tốt. Nó cũng cho phép bạn kiểm tra x
 Đoạn mã trên hoàn toàn sử dụng `LazyThreadSquilMode.ExecutAndPublication` làm chế độ an toàn luồng cho `Lazy<Singleton>`. Tùy thuộc vào yêu cầu của bạn, bạn có thể muốn thử nghiệm với các chế độ khác.
 
 -----
-### 8. Performance vs laziness
+### Performance vs laziness
 
+Trong nhiều trường hợp, bạn thực sự sẽ không yêu cầu sự lười biếng hoàn toàn - trừ khi việc khởi tạo lớp của bạn làm một việc gì đó đặc biệt tốn thời gian hoặc có một số tác dụng phụ ở nơi khác, có lẽ không nên bỏ qua hàm tạo tĩnh rõ ràng được trình bày ở trên. Điều này có thể tăng hiệu suất vì nó cho phép trình biên dịch JIT thực hiện một kiểm tra duy nhất (ví dụ khi bắt đầu một phương thức) để đảm bảo rằng loại đã được khởi tạo, và sau đó giả sử nó. Nếu cá thể đơn lẻ của bạn được tham chiếu trong một vòng lặp tương đối chặt chẽ, điều này có thể tạo ra sự khác biệt đáng kể (tương đối). Bạn nên quyết định xem có cần phải khởi tạo hoàn toàn lười biếng hay không và ghi lại quyết định này một cách thích hợp trong lớp.
+
+Rất nhiều lý do cho sự tồn tại của trang này là những người cố gắng tỏ ra thông minh, và do đó đưa ra thuật toán khóa được kiểm tra hai lần. Có một thái độ của khóa là đắt tiền là phổ biến và sai lầm. Tôi đã viết một điểm chuẩn rất nhanh, chỉ cần mua các trường hợp đơn lẻ trong một tỷ cách, thử các biến thể khác nhau. Điều đó không khoa học lắm, bởi vì trong cuộc sống thực, bạn có thể muốn biết nó nhanh đến mức nào nếu mỗi lần lặp thực sự liên quan đến một cuộc gọi vào một phương thức tìm nạp đơn, v.v. Tuy nhiên, nó cho thấy một điểm quan trọng. Trên máy tính xách tay của tôi, giải pháp chậm nhất (theo hệ số khoảng 5) là khóa một (giải pháp 2). Nó rất quan trọng? Có lẽ là không, khi bạn nhớ rằng nó vẫn có thể thu được đơn lẻ một tỷ lần trong vòng dưới 40 giây. (Lưu ý: bài viết này ban đầu được viết cách đây khá lâu - Tôi mong đợi hiệu suất tốt hơn bây giờ.) Điều đó có nghĩa là nếu bạn "chỉ" có được đơn vị bốn trăm nghìn lần mỗi giây, chi phí mua lại sẽ tăng đạt 1% hiệu suất - vì vậy việc cải thiện nó sẽ không làm được gì nhiều. Bây giờ, nếu bạn có được singleton thường xuyên - không phải là bạn đang sử dụng nó trong một vòng lặp sao? Nếu bạn quan tâm nhiều đến việc cải thiện hiệu suất một chút, tại sao không khai báo một biến cục bộ bên ngoài vòng lặp, hãy lấy singleton một lần rồi lặp lại. Bingo, ngay cả việc thực hiện chậm nhất cũng trở nên dễ dàng đầy đủ.
+
+Tôi sẽ rất thích thú khi thấy một ứng dụng trong thế giới thực, nơi sự khác biệt giữa sử dụng khóa đơn giản và sử dụng một trong những giải pháp nhanh hơn thực sự tạo ra sự khác biệt đáng kể về hiệu suất.
+
+-----
+### Exceptions
+
+Đôi khi, bạn cần thực hiện công việc trong một hàm tạo đơn lẻ có thể tạo ra ngoại lệ, nhưng có thể không gây tử vong cho toàn bộ ứng dụng. Có khả năng, ứng dụng của bạn có thể khắc phục sự cố và muốn thử lại. Sử dụng bộ khởi tạo kiểu để xây dựng singleton trở nên có vấn đề ở giai đoạn này. Các thời gian chạy khác nhau xử lý trường hợp này khác nhau, nhưng tôi không biết bất kỳ điều gì làm điều mong muốn (chạy lại trình khởi tạo kiểu) và ngay cả khi có, mã của bạn sẽ bị hỏng trong các thời gian chạy khác. Để tránh những vấn đề này, tôi khuyên bạn nên sử dụng mẫu thứ hai được liệt kê trên trang - chỉ cần sử dụng một khóa đơn giản và kiểm tra mỗi lần, xây dựng thể hiện trong phương thức / thuộc tính nếu nó chưa được xây dựng thành công.
+
+-----
+### Conclusion
+
+Có nhiều cách khác nhau để thực hiện mẫu singleton trong C #. Một độc giả đã viết cho tôi chi tiết một cách anh ta đã gói gọn khía cạnh đồng bộ hóa, điều mà trong khi tôi thừa nhận có thể hữu ích trong một vài tình huống rất đặc biệt (cụ thể là bạn muốn hiệu suất rất cao và khả năng xác định liệu đơn có được hay không được tạo và sự lười biếng hoàn toàn bất kể các thành viên tĩnh khác được gọi). Cá nhân tôi không thấy rằng tình huống sắp tới thường đủ để xứng đáng tiến xa hơn trên trang này, nhưng vui lòng gửi thư cho tôi nếu bạn ở trong tình huống đó.
+
+Sở thích cá nhân của tôi là giải pháp 4: lần duy nhất tôi thường rời xa nó là nếu tôi cần có thể gọi các phương thức tĩnh khác mà không kích hoạt khởi tạo, hoặc nếu tôi cần biết liệu singleton đã được khởi tạo hay chưa. Tôi không nhớ lần cuối cùng tôi ở trong tình huống đó, giả sử tôi thậm chí còn có. Trong trường hợp đó, có lẽ tôi sẽ tìm giải pháp 2, vẫn còn tốt và dễ dàng để có được quyền.
+
+Giải pháp 5 thanh lịch, nhưng phức tạp hơn 2 hoặc 4, và như tôi đã nói ở trên, những lợi ích mà nó cung cấp dường như chỉ hiếm khi hữu ích. Giải pháp 6 là một cách đơn giản hơn để đạt được sự lười biếng, nếu bạn đang sử dụng .NET 4. Nó cũng có một ưu điểm là rõ ràng là lười biếng. Hiện tại tôi có xu hướng vẫn sử dụng giải pháp 4, đơn giản là thông qua thói quen - nhưng nếu tôi làm việc với các nhà phát triển thiếu kinh nghiệm, tôi hoàn toàn có thể tìm giải pháp 6 để bắt đầu như một mô hình dễ áp ​​dụng và phổ biến.
+
+(Tôi sẽ không sử dụng giải pháp 1 vì nó bị hỏng và tôi sẽ không sử dụng giải pháp 3 vì nó không có lợi ích hơn 5.)
 
 -----
 Tham khảo:
