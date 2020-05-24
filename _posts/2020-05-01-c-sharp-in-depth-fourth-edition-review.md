@@ -552,5 +552,6 @@ Part four addresses C# 7 (all the way up to C# 7.3) and completes the book by pe
 -----
 
 [C# in Depth](https://www.amazon.com/C-in-Depth-Jon-Skeet-audiobook/dp/B07WTR5LHN/)  
-[https://csharpindepth.com](https://csharpindepth.com)
-[C# in Depth, Fourth Edition](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)
+[https://csharpindepth.com](https://csharpindepth.com)  
+[C# in Depth, Fourth Edition](https://www.manning.com/books/c-sharp-in-depth-fourth-edition)  
+[https://livebook.manning.com/book/c-sharp-in-depth-fourth-edition](https://livebook.manning.com/book/c-sharp-in-depth-fourth-edition/about-this-book/)
