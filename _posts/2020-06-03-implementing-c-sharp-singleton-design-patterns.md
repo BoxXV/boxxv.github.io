@@ -21,14 +21,42 @@ Mẫu singleton là một trong những mẫu được biết đến nhiều nh�
 Có nhiều cách khác nhau để thực hiện mẫu singleton trong C #. Tôi sẽ trình bày chúng ở đây theo thứ tự ngược lại của sự thanh lịch, bắt đầu với phiên bản thường thấy nhất, không an toàn cho chủ đề, và làm việc với một phiên bản đầy đủ, đơn giản và hiệu suất cao được tải đầy đủ.
 
 Tuy nhiên, tất cả các triển khai này đều có chung bốn đặc điểm chung:
+- Một constructor duy nhất, là riêng tư và không tham số. Điều này ngăn các lớp khác khởi tạo nó (sẽ vi phạm mẫu). Lưu ý rằng nó cũng ngăn chặn phân lớp - nếu một singleton có thể được phân lớp một lần, nó có thể được phân lớp hai lần và nếu mỗi phân lớp đó có thể tạo một thể hiện, mẫu bị vi phạm. Mẫu nhà máy có thể được sử dụng nếu bạn cần một phiên bản duy nhất của loại cơ sở, nhưng loại chính xác không được biết cho đến khi chạy.
+- Lớp học được niêm phong. Điều này là không cần thiết, nói đúng, do quan điểm trên, nhưng có thể giúp JIT tối ưu hóa mọi thứ nhiều hơn.
+- Một biến tĩnh chứa tham chiếu đến cá thể được tạo, nếu có.
+- Một phương tiện tĩnh công khai để có được tham chiếu đến cá thể được tạo duy nhất, tạo một tham chiếu nếu cần thiết.
+
+Lưu ý rằng tất cả các triển khai này cũng sử dụng Trường hợp thuộc tính tĩnh công khai làm phương tiện truy cập thể hiện. Trong mọi trường hợp, thuộc tính có thể dễ dàng được chuyển đổi thành một phương thức, không ảnh hưởng đến an toàn hoặc hiệu suất của luồng.
 
 -----
-### 2. Vấn đề
-Mẫu Singleton giải quyết hai vấn đề cùng một lúc, vi phạm Nguyên tắc Trách nhiệm duy nhất:
-- Đảm bảo rằng một lớp chỉ có một đối tượng duy nhất.
-- Cung cấp một điểm truy cập toàn cầu cho trường hợp đó.
+### 2. First version - not thread-safe
 
-Ngày nay, mẫu Singleton đã trở nên phổ biến đến mức mọi người có thể gọi một cái gì đó là singleton ngay cả khi nó chỉ giải quyết được một trong những vấn đề được liệt kê.
+{% highlight js %}
+namespace NonThreadSafe
+{
+    // Bad code! Do not use!
+    public sealed class Singleton
+    {
+        private static Singleton instance = null;
+
+        private Singleton()
+        {
+        }
+
+        public static Singleton Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new Singleton();
+                }
+                return instance;
+            }
+        }
+    }
+}
+{% endhighlight %}
 
 -----
 ### 3. Giải pháp
