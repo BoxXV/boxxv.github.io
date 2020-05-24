@@ -10,32 +10,48 @@ tags:
 - Behavioral
 ---
 
-### 1. Ý Nghĩa
+Có thể chúng ta đã gặp Design patterns ở đâu đó trong các ứng dụng, cũng có thể chúng ta đã từng sử dụng những mẫu tương tự như Design pattern để giải quyết những tình huống của mình, nhưng chúng ta không rõ hoặc không có một khái niệm gì về nó. Trong bài này, chúng ta sẽ cùng tìm hiểu một số kiến thức tổng quan Design Pattern, sau đó sẽ tìm hiểu chi tiết về từng Design Pattern trong các bài viết tiếp theo.
+
+### 1. Design Patterns là gì?
+
+`Design Patterns` (mẫu thiết kế) là một kỹ thuật trong lập trình hướng đối tượng, nó khá quan trọng và mọi lập trình viên muốn giỏi đều phải biết. Design Pattern được sử dụng thường xuyên trong các ngôn ngữ OOP. Nó cung cấp cho bạn các “mẫu thiết kế”, giải pháp để giải quyết các vấn đề chung, thường gặp trong lập trình. Các vấn đề mà bạn gặp phải có thể bạn sẽ tự nghĩ ra cách giải quyết nhưng có thể nó chưa phải là tối ưu. Design Pattern giúp bạn giải quyết vấn đề một cách tối ưu nhất, cung cấp cho bạn các giải pháp trong lập trình OOP.
+
+**Design Patterns** không phải là ngôn ngữ cụ thể nào cả. Nó có thể thực hiện được ở phần lớn các ngôn ngữ lập trình, chẳng hạn như Java, C#, thậm chí là Javascript hay bất kỳ ngôn ngữ lập trình nào khác.
+
+> Mỗi pattern mô tả một vấn đề xảy ra lặp đi lặp lại, và trình bày trọng tâm của giải pháp cho vấn đề đó, theo cách mà bạn có thể dùng đi dùng lại hàng triệu lần mà không cần phải suy nghĩ.
+— Christopher Alexander —
+
+-----
+
+### 2. Tại sao phải sử dụng Design Patterns?
+
+Design Pattern giúp bạn tái sử dụng mã lệnh và dẽ dàng mở rộng.
+
+Nó là tập hơn những giải pháp đã được tối ưu hóa, đã được kiểm chứng để giải quyết các vấn đề trong software engineering. Vậy khi bạn gặp bất kỳ khó khăn gì, design patterns là kim chỉ nam giúp bạn giải quyết vấn đề thay vì tự tìm kiếm giải pháp cho một vấn đề đã được chứng minh.
+
+Design pattern cung cấp giải pháp ở dạng tổng quát, giúp tăng tốc độ phát triển phần mềm bằng cách đưa ra các mô hình test, mô hình phát triển đã qua kiểm nghiệm.
+
+Dùng lại các design pattern giúp tránh được các vấn đề tiềm ẩn có thể gây ra những lỗi lớn, dễ dàng nâng cấp, bảo trì về sau.
+
+Giúp cho các lập trình viên có thể hiểu code của người khác 1 cách nhanh chóng (có thể hiểu là tính communicate). Mọi thành viên trong team có thể dễ dàng trao đổi với nhau để cùng xây dựng dự án mà không mất quá nhiều thời gian.
+
+-----
+
+### 3. Khi nào nên sử dụng Design patterns?
+
+Khi bạn muốn giữ cho chương trình của mình thực sự đơn giản. Việc sử dụng các design pattern sẽ giúp chúng ta giảm được thời gian và công sức suy nghĩ ra các cách giải quyết cho những vấn đề đã có lời giải.
+
+-----
+
+### 4. Phân loại Design Patterns
+
+Năm 1994, bốn tác giả **Erich Gamma, Richard Helm, Ralph Johnson và John Vlissides** đã cho xuất bản một cuốn sách với tiêu đề **Design Patterns – Elements of Reusable Object-Oriented Software**, đây là khởi nguồn của khái niệm design pattern trong lập trình phần mềm.
+
+Bốn tác giả trên được biết đến rộng rãi dưới tên **Gang of Four** (bộ tứ). Theo quan điểm của bốn người, design pattern chủ yếu được dựa theo những quy tắc sau đây về thiết kế hướng đối tượng.
 
 ![singleton](http://boxxv.com/img/patterns/singleton.png "singleton")_singleton_
 
-Singleton là một mẫu thiết kế sáng tạo cho phép bạn đảm bảo rằng một lớp chỉ có một đối tượng duy nhất, trong khi cung cấp một điểm truy cập toàn cầu cho đối tượng này.
 
-
------
-### 2. Vấn đề
-Mẫu Singleton giải quyết hai vấn đề cùng một lúc, vi phạm Nguyên tắc Trách nhiệm duy nhất:
-- Đảm bảo rằng một lớp chỉ có một đối tượng duy nhất.
-- Cung cấp một điểm truy cập toàn cầu cho trường hợp đó.
-
-Ngày nay, mẫu Singleton đã trở nên phổ biến đến mức mọi người có thể gọi một cái gì đó là singleton ngay cả khi nó chỉ giải quyết được một trong những vấn đề được liệt kê.
-
------
-### 3. Giải pháp
-Tất cả các triển khai của Singleton đều có hai bước chung:
-- Đặt hàm tạo mặc định ở chế độ riêng tư, để ngăn các đối tượng khác sử dụng toán tử mới với lớp Singleton.
-- Tạo một phương thức tạo tĩnh hoạt động như một hàm tạo. Trong mui xe, phương thức này gọi hàm tạo riêng để tạo một đối tượng và lưu nó trong trường tĩnh. Tất cả các cuộc gọi sau đến phương thức này trả về đối tượng được lưu trữ.
-
-Nếu mã của bạn có quyền truy cập vào lớp Singleton, thì nó có thể gọi phương thức tĩnh Singleton. Vì vậy, bất cứ khi nào phương thức đó được gọi, cùng một đối tượng luôn được trả về.
-
------
-### 4. Tương tự thế giới thực
-Chính phủ là một ví dụ tuyệt vời của mô hình Singleton. Một quốc gia chỉ có thể có một chính phủ. Bất kể danh tính cá nhân của các cá nhân thành lập chính phủ, tiêu đề, Chính phủ của X, là một điểm truy cập toàn cầu xác định nhóm người phụ trách.
 
 -----
 ### 5. Cấu trúc
@@ -209,3 +225,6 @@ Tham khảo:
 - [Singleton Pattern in C#](https://viblo.asia/p/singleton-pattern-in-c-07LKXA2DZV4)
 - [Singleton Design Pattern](https://www.dofactory.com/net/singleton-design-pattern)
 - [Implementing the Singleton Pattern in C#](https://csharpindepth.com/Articles/Singleton)
+
+- [Lập trình cho interface chứ không phải để implement interface đó.](https://stackoverflow.com/questions/2697783/what-does-program-to-interfaces-not-implementations-mean)
+- [Ưu tiên object composition (chứa trong) hơn là inheritance (thừa kế).](https://stackoverflow.com/questions/49002/prefer-composition-over-inheritance)
