@@ -96,21 +96,32 @@ Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
   - Do vấn đề tương thích, thay đổi interface của một lớp thành một interface khác phù hợp với yêu cầu người sử dụng lớp.
   - Tần suất sử dụng: cao trung bình.
 
-- [Abstract Factory](https://gpcoder.com/4365-huong-dan-java-design-pattern-abstract-factory/)
-  - Cung cấp một interface cho việc tạo lập các đối tượng (có liên hệ với nhau) mà không cần qui định lớp khi hay xác định lớp cụ thể (concrete) tạo mỗi đối tượng.
-  - Tần suất sử dụng: cao.
-
-- [Factory Method](https://gpcoder.com/4352-huong-dan-java-design-pattern-factory-method/)
-  - Định nghĩa Interface để sinh ra đối tượng nhưng để cho lớp con quyết định lớp nào được dùng để sinh ra đối tượng Factory method cho phép một lớp chuyển quá trình khởi tạo đối tượng cho lớp con.
-  - Tần suất sử dụng: cao.
-
-- [Builder](https://gpcoder.com/4434-huong-dan-java-design-pattern-builder/)
-  - Tách rời việc xây dựng (construction) một đối tượng phức tạp khỏi biểu diễn của nó sao cho cùng một tiến trình xây dựng có thể tạo được các biểu diễn khác nhau.
-  - Tần suất sử dụng: trung bình thấp.
-
-- [Prototype](https://gpcoder.com/4413-huong-dan-java-design-pattern-prototype/)
-  - Qui định loại của các đối tượng cần tạo bằng cách dùng một đối tượng mẫu, tạo mới nhờ vào sao chép đối tượng mẫu này.
+- [Bridge](https://gpcoder.com/4520-huong-dan-java-design-pattern-bridge/)
+  - Tách rời ngữ nghĩa của một vấn đề khỏi việc cài đặt, mục đích để cả hai bộ phận (ngữ nghĩa và cài đặt) có thể thay đổi độc lập nhau.
   - Tần suất sử dụng: trung bình.
+
+- [Composite](https://gpcoder.com/4554-huong-dan-java-design-pattern-composite/)
+  - Tổ chức các đối tượng theo cấu trúc phân cấp dạng cây. Tất cả các đối tượng trong cấu trúc được thao tác theo một cách thuần nhất như nhau.
+Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có thể xem đối tượng bao gộp và bị bao gộp như nhau -> khả năng tổng quát hoá trong code của client -> dễ phát triển, nâng cấp, bảo trì.
+  - Tần suất sử dụng: cao trung bình.
+
+- [Decorator](https://gpcoder.com/4574-huong-dan-java-design-pattern-decorator/)
+  - Gán thêm trách nhiệm cho đối tượng (mở rộng chức năng) vào lúc chạy (dynamically).
+  - Tần suất sử dụng:trung bình.
+
+- [Facade](https://gpcoder.com/4604-huong-dan-java-design-pattern-facade/)
+  - Cung cấp một interface thuần nhất cho một tập hợp các interface trong một “hệ thống con” (subsystem). Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho hệ thống con dễ sử dụng hơn.
+  - Tần suất sử dụng: cao.
+
+- [Flyweight](https://gpcoder.com/4626-huong-dan-java-design-pattern-flyweight/)
+  - Sử dụng việc chia sẻ để thao tác hiệu quả trên một số lượng lớn đối tượng “cở nhỏ” (chẳng hạn paragraph, dòng, cột, ký tự…).
+  - Tần suất sử dụng: thấp.
+
+- [Proxy](https://gpcoder.com/4644-huong-dan-java-design-pattern-proxy/)
+  - Cung cấp đối tượng đại diện cho một đối tượng khác để hỗ trợ hoặc kiểm soát quá trình truy xuất đối tượng đó. Đối tượng thay thế gọi là proxy.
+  - Tần suất sử dụng: cao trung bình.
+
+
 
 -----
 ### 7. Thread-safe Singleton
