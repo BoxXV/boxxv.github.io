@@ -57,6 +57,10 @@ Hệ thống các mẫu Design pattern hiện có **23 mẫu** được định 
 - `Structural Pattern` (nhóm cấu trúc – 7 mẫu) gồm: Adapter, Bridge, Composite, Decorator, Facade, Flyweight và Proxy. Những Design pattern loại này liên quan tới class và các thành phần của object. Nó dùng để thiết lập, định nghĩa quan hệ giữa các đối tượng.
 - `Behavioral Pattern` (nhóm tương tác/ hành vi – 11 mẫu) gồm: Interpreter, Template Method, Chain of Responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy và Visitor. Nhóm này dùng trong thực hiện các hành vi của đối tượng, sự giao tiếp giữa các object với nhau.
 
+Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
+
+![Relationships between Design Patterns](http://boxxv.com/img/patterns/relationwithpatterns2.jpg "Relationships between Design Patterns")_Relationships between Design Patterns_
+
 -----
 ### 5. Cấu trúc
 ![Structure](http://boxxv.com/img/patterns/structure-en.png "Structure")_Structure_
