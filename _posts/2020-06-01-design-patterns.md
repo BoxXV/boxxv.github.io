@@ -92,65 +92,25 @@ Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
 
 ![Structural](http://boxxv.com/img/patterns/Structural.png "Structural")_Structural_
 
+- [Adapter](https://gpcoder.com/4483-huong-dan-java-design-pattern-adapter/)
+  - Do vấn đề tương thích, thay đổi interface của một lớp thành một interface khác phù hợp với yêu cầu người sử dụng lớp.
+  - Tần suất sử dụng: cao trung bình.
 
-namespace Singleton
-{
-    // The Singleton class defines the `GetInstance` method that serves as an
-    // alternative to constructor and lets clients access the same instance of
-    // this class over and over.
-    class Singleton
-    {
-        // The Singleton's constructor should always be private to prevent
-        // direct construction calls with the `new` operator.
-        private Singleton() { }
+- [Abstract Factory](https://gpcoder.com/4365-huong-dan-java-design-pattern-abstract-factory/)
+  - Cung cấp một interface cho việc tạo lập các đối tượng (có liên hệ với nhau) mà không cần qui định lớp khi hay xác định lớp cụ thể (concrete) tạo mỗi đối tượng.
+  - Tần suất sử dụng: cao.
 
-        // The Singleton's instance is stored in a static field. There there are
-        // multiple ways to initialize this field, all of them have various pros
-        // and cons. In this example we'll show the simplest of these ways,
-        // which, however, doesn't work really well in multithreaded program.
-        private static Singleton _instance;
+- [Factory Method](https://gpcoder.com/4352-huong-dan-java-design-pattern-factory-method/)
+  - Định nghĩa Interface để sinh ra đối tượng nhưng để cho lớp con quyết định lớp nào được dùng để sinh ra đối tượng Factory method cho phép một lớp chuyển quá trình khởi tạo đối tượng cho lớp con.
+  - Tần suất sử dụng: cao.
 
-        // This is the static method that controls the access to the singleton
-        // instance. On the first run, it creates a singleton object and places
-        // it into the static field. On subsequent runs, it returns the client
-        // existing object stored in the static field.
-        public static Singleton GetInstance()
-        {
-            if (_instance == null)
-            {
-                _instance = new Singleton();
-            }
-            return _instance;
-        }
+- [Builder](https://gpcoder.com/4434-huong-dan-java-design-pattern-builder/)
+  - Tách rời việc xây dựng (construction) một đối tượng phức tạp khỏi biểu diễn của nó sao cho cùng một tiến trình xây dựng có thể tạo được các biểu diễn khác nhau.
+  - Tần suất sử dụng: trung bình thấp.
 
-        // Finally, any singleton should define some business logic, which can
-        // be executed on its instance.
-        public static void someBusinessLogic()
-        {
-            // ...
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            // The client code.
-            Singleton s1 = Singleton.GetInstance();
-            Singleton s2 = Singleton.GetInstance();
-
-            if (s1 == s2)
-            {
-                Console.WriteLine("Singleton works, both variables contain the same instance.");
-            }
-            else
-            {
-                Console.WriteLine("Singleton failed, variables contain different instances.");
-            }
-        }
-    }
-}
-{% endhighlight %}
+- [Prototype](https://gpcoder.com/4413-huong-dan-java-design-pattern-prototype/)
+  - Qui định loại của các đối tượng cần tạo bằng cách dùng một đối tượng mẫu, tạo mới nhờ vào sao chép đối tượng mẫu này.
+  - Tần suất sử dụng: trung bình.
 
 -----
 ### 7. Thread-safe Singleton
