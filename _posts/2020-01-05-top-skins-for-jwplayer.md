@@ -41,14 +41,14 @@ Skin with Air style, unlimited colors, retina ready & fully responsive.
 
 
 ### 6. [Mockup for JW Player 6](https://github.com/mrwii/mockup-skin-for-jw6)
-![Mockup Skin for JWPlayer 6](http://boxxv.com/img/player/vskin.jpg "Mockup Skin for JW Player 6")_Mockup Skin for JWPlayer 6_
+![Mockup Skin for JWPlayer 6](http://boxxv.com/img/player/mockup.jpg "Mockup Skin for JW Player 6")_Mockup Skin for JWPlayer 6_
 Skin with Mockup Style.  
 **Version**: JW6  
 **Price**: [Free](https://github.com/mrwii/mockup-skin-for-jw6)
 
 
 ### 7. [vSkin for JW Player 6](https://github.com/mrwii/vskin-for-jw6)
-![vSkin for JW Player 6](http://boxxv.com/img/player/mockup.jpg "vSkin for JW Player 6")_vSkin for JW Player 6_
-Skin with Mockup vStyle.  
+![vSkin for JW Player 6](http://boxxv.com/img/player/vskin.jpg "vSkin for JW Player 6")_vSkin for JW Player 6_
+Skin with vStyle.  
 **Version**: JW6  
 **Price**: [Free](https://github.com/mrwii/vskin-for-jw6)
