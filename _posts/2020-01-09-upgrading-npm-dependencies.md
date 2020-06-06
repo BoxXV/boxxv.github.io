@@ -29,16 +29,17 @@ Nếu các gói chưa được cài đặt và tồn tại trong tệp `pack-loc
 
 `npm install` sẽ cài đặt phiên bản an toàn mới nhất của các phụ thuộc nếu chúng không tồn tại trong thư mục `node_modules` và không có tệp `pack-lock.json`. Tuy nhiên, bạn có thể nghĩ rằng phiên bản an toàn mới nhất đã được cài đặt vì `package.json` không thay đổi, nhưng nếu bạn kiểm tra các gói trong thư mục `node_modules`, phiên bản an toàn mới nhất sẽ được cài đặt.
 
-npm install will install the latest safe version of the dependencies if they don’t exist in the node_modules folder and, there is no package-lock.json file. However, you may think the latest safe version hasn’t been installed because package.json is unchanged, but if you check the packages in the node_modules folder, the latest safe version will have been installed.
 
+#### Vì vậy, làm thế nào để tôi cập nhật một cách an toàn tất cả các phụ thuộc?
+
+Thứ nhất, các phụ thuộc đã hết hạn có thể được phát hiện bằng cách chạy lệnh sau:
 
 {% highlight js %}
-> node -v
-v10.16.0
-
-> npm -v
-6.9.0
+npm outdated
 {% endhighlight %}
+
+
+
 
 
 
