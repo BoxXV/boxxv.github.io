@@ -19,6 +19,19 @@ Một phiên bản thường có một ^ ở phía trước của nó (ví dụ 
 Đôi khi, một phiên bản có ~ ở phía trước của nó (ví dụ: ~ 16.8.6). Điều này có nghĩa là chỉ có phiên bản vá mới nhất có thể được cài đặt an toàn. Vì vậy, trong ví dụ này, ^ 16.8.12 có thể được cài đặt an toàn nếu đây là phiên bản mới nhất trong 16.8.x.
 
 
+#### Vì vậy, `npm install` cài đặt phiên bản an toàn mới nhất của các phụ thuộc?
+
+Có và không!
+
+Nếu các gói đã được cài đặt vào thư mục `node_modules`, thì `npm install` sẽ không cập nhật bất kỳ gói nào.
+
+Nếu các gói chưa được cài đặt và tồn tại trong tệp `pack-lock.json`, thì `npm install` sẽ cài đặt các phiên bản phụ thuộc chính xác được chỉ định trong gói-lock.json.
+
+`npm install` sẽ cài đặt phiên bản an toàn mới nhất của các phụ thuộc nếu chúng không tồn tại trong thư mục `node_modules` và không có tệp `pack-lock.json`. Tuy nhiên, bạn có thể nghĩ rằng phiên bản an toàn mới nhất đã được cài đặt vì `package.json` không thay đổi, nhưng nếu bạn kiểm tra các gói trong thư mục `node_modules`, phiên bản an toàn mới nhất sẽ được cài đặt.
+
+npm install will install the latest safe version of the dependencies if they don’t exist in the node_modules folder and, there is no package-lock.json file. However, you may think the latest safe version hasn’t been installed because package.json is unchanged, but if you check the packages in the node_modules folder, the latest safe version will have been installed.
+
+
 {% highlight js %}
 > node -v
 v10.16.0
