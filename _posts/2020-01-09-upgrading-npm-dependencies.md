@@ -50,6 +50,29 @@ Tất cả các phụ thuộc có thể được cập nhật an toàn lên phi�
 npm update
 {% endhighlight %}
 
+Cũng như cập nhật các gói trong thư mục `node_modules`, các tệp `pack.json` và `package-lock.json` sẽ được cập nhật.
+
+
+Nếu bạn không muốn cập nhật tất cả các gói, thì tên gói có thể được chỉ định ở cuối lệnh:
+
+{% highlight js %}
+npm update "react" "react-dom"
+{% endhighlight %}
+
+React được cập nhật trong ví dụ trên.
+
+
+### Cập nhật tất cả các phụ thuộc với những thay đổi lớn
+
+Vì vậy, làm thế nào để chúng tôi nâng cấp phụ thuộc khi đã có một sự thay đổi phiên bản lớn?
+
+Có lẽ cách an toàn nhất là như sau:
+- Kiểm tra thay đổi của gói phụ thuộc để biết các thay đổi có thể ảnh hưởng đến ứng dụng của chúng ta
+- Nếu chúng tôi nghĩ rằng chúng tôi an toàn để thực hiện nâng cấp, hãy chạy lệnh sau:
+
+{% highlight js %}
+npm install <packagename>@latest
+{% endhighlight %}
 
 
 -----
