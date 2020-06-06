@@ -69,10 +69,23 @@ Vì vậy, làm thế nào để chúng tôi nâng cấp phụ thuộc khi đã 
 Có lẽ cách an toàn nhất là như sau:
 - Kiểm tra thay đổi của gói phụ thuộc để biết các thay đổi có thể ảnh hưởng đến ứng dụng của chúng ta
 - Nếu chúng tôi nghĩ rằng chúng tôi an toàn để thực hiện nâng cấp, hãy chạy lệnh sau:
+{% highlight js %}npm install <packagename>@latest{% endhighlight %}
+- Nếu nhiều gói đi cùng nhau, bạn có thể liệt kê tất cả chúng ra. Ví dụ dưới đây sẽ cập nhật React lên phiên bản mới nhất:
+{% highlight js %}npm install react@latest react-dom@latest{% endhighlight %}
+- Xác minh ứng dụng không bị hỏng bằng cách thực hiện một số thử nghiệm
+- Lặp lại quy trình cho các gói khác khi có sự thay đổi phiên bản chính
+
+Có cách nào nhanh hơn để chỉ cập nhật tất cả các phụ thuộc, bao gồm các thay đổi phiên bản chính? Vì vậy, như `npm update` nhưng đối với các bản cập nhật lớn là tốt?
+
+Vâng, có một công cụ gọi là [npm-check-update](https://github.com/raineorshine/npm-check-updates) sẽ làm điều này. Chỉ cần chạy lệnh sau:
 
 {% highlight js %}
-npm install <packagename>@latest
+npx npm-check-updates -u
 {% endhighlight %}
+
+Điều này sẽ cập nhật các phụ thuộc lên các phiên bản mới nhất (bao gồm các thay đổi phiên bản chính) trong `package.json`. Nếu chúng ta vui lòng tiếp tục nâng cấp, chúng ta cần chạy lệnh sau:
+
+
 
 
 -----
