@@ -85,7 +85,19 @@ npx npm-check-updates -u
 
 Điều này sẽ cập nhật các phụ thuộc lên các phiên bản mới nhất (bao gồm các thay đổi phiên bản chính) trong `package.json`. Nếu chúng ta vui lòng tiếp tục nâng cấp, chúng ta cần chạy lệnh sau:
 
+{% highlight js %}
+npm install
+{% endhighlight %}
 
+Điều này sau đó sẽ nâng cấp các gói trong thư mục `node_modules` và `package-lock.json` cũng sẽ được cập nhật.
+
+
+### Tóm lại
+
+- Sử dụng `npm outdated` để khám phá các phụ thuộc đã lỗi thời
+- Sử dụng `npm update` để thực hiện nâng cấp phụ thuộc an toàn
+- Sử dụng `npm install <packagename>@latest` để nâng cấp lên phiên bản chính mới nhất của gói
+- Sử dụng `npx npm-check-updates -u` và `npm install` tất cả các phụ thuộc lên các phiên bản chính mới nhất của chúng
 
 
 -----
