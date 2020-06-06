@@ -103,3 +103,7 @@ npm install
 -----
 Tham khảo:
 - [Upgrading npm dependencies](https://www.carlrippon.com/upgrading-npm-dependencies/)
+- [Cùng tìm hiểu về Npm và package](https://codelearn.io/sharing/cung-tim-hieu-ve-npm-va-package)
+- [Sự Khác Nhau Giữa devDependencies và Dependencies](https://hungphamdevweb.com/devdependencies-dependencies-va-su-khac-nhau.html)
+- [Sử dụng npm như một Build Tool](https://viblo.asia/p/su-dung-npm-nhu-mot-build-tool-jdWrvwq8Mw38)
+- [Câu hỏi phỏng vấn: Liệt kê npm package dependencies](https://medium.com/@dinhthibc/c%C3%A2u-h%E1%BB%8Fi-ph%E1%BB%8Fng-v%E1%BA%A5n-li%E1%BB%87t-k%C3%AA-npm-package-dependencies-18806ffc632d)
