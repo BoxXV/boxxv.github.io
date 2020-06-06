@@ -38,7 +38,9 @@ Thứ nhất, các phụ thuộc đã hết hạn có thể được phát hiệ
 npm outdated
 {% endhighlight %}
 
+Các phụ thuộc sẽ được liệt kê ra:
 
+![npm-outdated](http://boxxv.com/img/posts/npm-outdated.png "npm-outdated")
 
 
 
