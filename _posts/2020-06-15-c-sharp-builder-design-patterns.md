@@ -16,8 +16,11 @@ tags:
 
 ![builder](http://boxxv.com/img/patterns/builder-en.png "builder")_builder_
 
-Singleton là một mẫu thiết kế sáng tạo cho phép bạn đảm bảo rằng một lớp chỉ có một đối tượng duy nhất, trong khi cung cấp một điểm truy cập toàn cầu cho đối tượng này.
+Builder là một mẫu thiết kế khởi tạo (Creational) cho phép bạn xây dựng các đối tượng phức tạp từng bước. Mẫu cho phép bạn tạo ra các loại và biểu diễn khác nhau của một đối tượng bằng cách sử dụng cùng một mã xây dựng.
 
+Các hàm xây dựng (constructor) trong C# được sử dụng để tạo đối tượng và có thể lấy các tham số cần thiết để tạo đối tượng. Vấn đề khi một đối tượng có thể được tạo ra với nhiều tham số (param), một số có thể là bắt buộc và một số khác có thể là tùy chọn tuỳ theo từng yêu cầu của người dùng, tuỳ vào hoàn cảnh của ứng dụng. Chúng ta, có thể tạo ra nhiều constructor theo từng nhu cầu hoặc gán giá trị null cho các param không cần thiết. Tuy nhiên, code rất khó đọc, khó bảo trì, người sử dụng có thể gán nhầm giá trị nếu một loạt các tham số có cùng kiểu. Chúng ta cũng có thể sử dụng một giải pháp khác là sử dụng setter() để thay thế cho constructor. Tuy nhiên, nếu muốn đối tượng này là immutable thì không thể.
+
+Do vậy, người ta mong muốn giao công việc này cho một đối tượng chịu trách nhiêm khởi tạo và chia việc khởi tạo đối tượng riêng lẽ, từng bước, để có thể tiến hành khởi tạo riêng biệt ở các hoàn cảnh khác nhau. Và giải pháp được đưa ra là sử dụng Builder Pattern như một người xây dựng.
 
 -----
 ### 2. Vấn đề

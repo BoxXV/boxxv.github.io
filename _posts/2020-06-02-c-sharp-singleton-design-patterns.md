@@ -16,7 +16,7 @@ tags:
 
 ![singleton](http://boxxv.com/img/patterns/singleton.png "singleton")_singleton_
 
-Singleton là một mẫu thiết kế sáng tạo cho phép bạn đảm bảo rằng một lớp chỉ có một đối tượng duy nhất, trong khi cung cấp một điểm truy cập toàn cầu cho đối tượng này.
+Singleton là một mẫu thiết kế khởi tạo cho phép bạn đảm bảo rằng một lớp chỉ có một đối tượng duy nhất, trong khi cung cấp một điểm truy cập toàn cầu cho đối tượng này.
 
 
 -----
