@@ -6,7 +6,7 @@ tags:
 - Csharp
 - Tips
 - Tricks
-- Singleton
+- Builder
 - volatile
 - Invoke
 - InvokeRequired
@@ -14,7 +14,7 @@ tags:
 
 ### 1. Ý Nghĩa
 
-![singleton](http://boxxv.com/img/patterns/singleton.png "singleton")_singleton_
+![builder](http://boxxv.com/img/patterns/builder-en.png "builder")_builder_
 
 Singleton là một mẫu thiết kế sáng tạo cho phép bạn đảm bảo rằng một lớp chỉ có một đối tượng duy nhất, trong khi cung cấp một điểm truy cập toàn cầu cho đối tượng này.
 

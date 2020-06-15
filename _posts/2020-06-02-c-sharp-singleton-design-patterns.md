@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Singleton Pattern in C# 
-subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
+subtitle: Hướng dẫn C# Design Pattern - Singleton
 tags:
 - Csharp
 - Tips
