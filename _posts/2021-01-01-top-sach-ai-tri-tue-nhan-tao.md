@@ -44,5 +44,17 @@ Life 3.0: Being Human in the Age of Artificial Intelligence là một tác phẩ
 Cuốn sách được viết rất lâu trước khi khoa học dữ liệu và học máy phổ biến rộng rãi như hiện nay. Tuy nhiên, chủ đề và nội dung của cuốn sách vẫn hoàn toàn phù hợp với những gì đã và đang có hiện nay. Một số chủ đề được đề cập trong cuốn sách là các kỹ thuật lọc cộng tác, các tính năng của công cụ tìm kiếm, các máy vector hỗ trợ (SVM), bộ lọc Bayesian... Cuốn sách này còn sử dụng Python để cung cấp những ví dụ thực tế một cách hấp dẫn với người đọc.
 
 
+### Python Machine Learning
+
+![placeholder](http://boxxv.com/img/ai/51YEg2lDZ4L._SX404_BO1,204,203,200_.jpg "Life 3.0: Being Human in the Age of Artificial Intelligence")
+
+Cuốn sách do Sebastian Raschka viết, có nội dung nói về việc sử dụng Python trong một số ví dụ cụ thể thực tế, với các nội dung:
+
+- Sử dụng các thư viện mã nguồn mở mạnh mẽ nhất của Python về học sâu, mô tả dữ liệu và hình dung dữ liệu.
+
+- Tìm hiểu các chiến lược hiệu quả và các phương pháp hay nhất để cải tiến và tối ưu hóa các hệ thống và thuật toán học máy.
+
+- Những câu hỏi thực tế về xử lý dữ liệu và các mô hình học tập xây dựng cho các tập dữ liệu.
+
 
 -----
