@@ -100,5 +100,14 @@ Cuốn sách “Ứng dụng Trí tuệ nhân tạo để dẫn đầu: 50 câu 
 Đọc thêm bài này Walt Disney đã ứng dụng trí tuệ nhân tạo để tạo ra những trải nghiệm khách hàng tuyệt vời ở những công viên giải trí của mình như thế nào?
 
 
+### Cuộc cách mạng AI
+
+![placeholder](http://boxxv.com/img/ai/MvcAaviTzTaPSDve.jpg "Cuộc cách mạng AI")
+
+Ngày nay, sự thay đổi về công nghệ đang diễn ra với tốc độ chóng mặt và theo dự đoán, chỉ trong vòng hai đến ba thập niên nữa, nhân loại sẽ trải qua nhiều thay đổi hơn một nghìn năm trước đây cộng lại. Những thay đổi ở cường độ này thường mang lại nhiều cơ hội đáng kinh ngạc, nó cũng tác động đến nhiều khía cạnh của xã hội và thậm chí trong nhiều trường hợp còn mang tới bạo lực.
+Mạng Internet, các phương tiện truyền thông xã hội và những chiếc điện thoại thông minh đã mang đến cho chúng ta email, ảnh tự sướng, hashtag và YouTube; nhưng chúng cũng là tác nhân dẫn đến “mùa xuân Ả Rập”, sự lan truyền của ISIS, Wikileaks, chương trình PRISM của NSA (Cơ quan An ninh Quốc gia Hoa Kỳ) và làn sóng “chiếm phố Wall” trên toàn cầu. Các phương tiện truyền thông xã hội đã cho chúng ta Facebook và Twitter, và những ứng dụng này rất có thể là lý do chính đưa Barack Obama đến chức Tổng thống vào năm 2008, nhưng đồng thời cũng tạo điều kiện cho những lời phỉ báng chủng tộc và hăm dọa tồi tệ nhất trong lịch sử hiện đại. Nó đã tạo ra làn sóng bắt nạt trực tuyến gây hại cho rất nhiều nạn nhân, đồng thời phơi bày thông tin cá nhân của các nhân vật nổi tiếng lẫn các cơ quan bí mật của chính phủ.
+Vậy những tiến bộ công nghệ này tốt hay xấu? Liệu những thay đổi đang diễn ra sẽ mang nhân loại đến một thời kỳ hoàng kim mới, hay dẫn tới một thời kỳ đổ vỡ lớn hơn?
+Cuộc cách mạng AI của tác giả Brett King sẽ cho chúng ta một cái nhìn tổng quan về những thay đổi công nghệ trong những năm gần đây và phần nào rút ra những bài học cần thiết để có thể hướng đến tương lai mà không bị tương lai đó nhấn chìm.
+
 
 -----
