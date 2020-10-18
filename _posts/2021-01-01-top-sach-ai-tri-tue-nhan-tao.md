@@ -102,6 +102,19 @@ Khi tìm lời giải cho những câu hỏi về người máy và trí tuệ n
 Thuật toán ngày càng điều khiển cuộc sống hàng ngày của nhiều người – từ những gì xuất hiện trên news feed mạng xã hội, cho đến những món hàng khi mua sắm online, và nhiều hơn thế nữa. Chúng cũng có tác động đến quá trình tự động hóa sản xuất, làm ảnh hưởng đến công việc của phần lớn dân số. Trong cuốn sách của Havens, tác giả khám phá những hàm ý và đạo đức liên quan đến các thuật toán, và những hệ quả của chúng.
 
 
+### Our Robots, Ourselves (tạm dịch: Robot của chúng ta, Bản thân chúng ta) – David A. Mindell
+
+![placeholder](http://boxxv.com/img/ai/9780525426974.jpg "Our Robots, Ourselves")
+
+David A. Mindell, giảng viên tại MIT, đã đưa ra một số câu hỏi đáng suy ngẫm trong Our Robots, Ourselves – gồm cả vấn đề về mối quan hệ cộng sinh giữa con người và robot. Ông lần lượt đi qua các câu hỏi về cơ giới hoá và tự động hóa, và đưa ra một loạt các câu trả lời có liên quan sâu sắc đến cuộc thảo luận đang diễn ra trong lĩnh vực công nghệ và chính trị.
+
+
+### Robot Uprisings (tạm dịch: Robot nổi dậy)- Daniel H. Wilson và John Joseph Adams (Biên soạn)
+
+![placeholder](http://boxxv.com/img/ai/9780345803634.jpg "Robot Uprisings")
+
+Có thể tác phẩm về những tiến bộ công nghệ này sẽ không thuyết phục được bạn. Nhưng cũng có thể bạn tin rằng robot thực sự có thể nổi dậy. Từ các tác phẩm điện ảnh The Matrix và Battlestar Galactica, đến Westworld và Human, điều ấy đã là trở thành khái niệm văn hóa đại chúng khó lòng thay đổi. Nếu là vậy, tập truyện ngắn về những cuộc nổi dậy của robot – với các cây bút như Charles Yu, Robin Wasserman, và Cory Doctorow – có thể trở thành cuốn sách yêu thích tiếp theo của bạn. (Hoặc một thứ khiến bạn mất ngủ cả đêm.)
+
 
 ### Trí tuệ Nhân Tạo Trong Marketing
 
