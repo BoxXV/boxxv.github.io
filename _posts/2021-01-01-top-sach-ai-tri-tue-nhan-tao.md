@@ -67,6 +67,42 @@ Cuốn sách do Sebastian Raschka viết, có nội dung nói về việc sử d
 Đây là một trong những cuốn sách kinh điển nhất về học máy của tác giả Tom M. Mitchell, được sử dụng làm giáo trình cho rất nhiều trường đại học nổi tiếng trên thế giới. Cuốn sách này sẽ giới thiệu cho bạn đọc những kiến thức, khái niệm chuyên sâu, những định lý trong học máy, cách giải mã của một số thuật toán học máy. Cuốn sách cũng cung cấp một số ví dụ đơn giản để người đọc có thể hiểu rõ hơn về các thuật toán.
 
 
+### To Be a Machine (tạm dịch: Để trở thành một cỗ máy) – Mark O’Connell
+
+![placeholder](http://boxxv.com/img/ai/9780385540414.jpg "To Be a Machine")
+
+Sự hiện diện ngày càng gia tăng của robot và trí tuệ nhân tạo trong xã hội loài người chỉ là một trong những vấn đề mà O’Connell bàn luận trong cuốn sách này. To Be a Machine đem tới cái nhìn rõ nét về các quan điểm trái chiều của những người đang tìm cách dùng công nghệ để kéo dài tuổi thọ và đạt được sự bất tử. Ngay cả nếu bạn chưa sẵn sàng, thì câu chuyện O’Connell viết về hành trình của Zoltan Istvan, nhà tư tưởng theo thuyết Siêu Nhân Học, vẫn rất đáng đọc!
+
+
+### Thinking Machines (tạm dịch: Máy móc Suy nghĩ) – Luke Dormehl
+
+![placeholder](http://boxxv.com/img/ai/9780143130581.jpg "To Be a Machine")
+
+Tác phẩm về công nghệ của Luke Dormehl bao gồm mọi thứ, từ lịch sử của Apple, cho đến vai trò của thuật toán trong cuộc sống hàng ngày của chúng ta. Trong Thinking Machines, Dormehl điểm lại hàng thập niên phát triển của trí tuệ nhân tạo, xem xét những dự đoán về ngành này trong quá khứ, cũng như việc nó chiếm trọn cuộc sống nhiều người, theo cách này hay cách khác.
+
+
+### The Most Human Human (tạm dịch: Con người giống người nhất) – Brian Christian
+
+![placeholder](http://boxxv.com/img/ai/9780307476708.jpg "The Most Human Human")
+
+Sách của Brian Humanist có xuất phát điểm là Phép thử Turing nhằm xác định liệu một máy tính có thể trả lời các câu hỏi như một con người thật hay không. Nó là một cuộc thi thường niên, với trao giải thưởng dành cho “The Most Human Human”. Christian, một người tham gia, đã dùng cuộc thi như một phương tiện để khám phá những thay đổi trong nhận thức về con người và về trí tuệ.
+
+
+### Wired for War (tạm dịch: Kết nối cho chiến tranh) – P. W. Singer
+
+![placeholder](http://boxxv.com/img/ai/9780143116844.jpg "Wired for War")
+
+Khi tìm lời giải cho những câu hỏi về người máy và trí tuệ nhân tạo, không nên bỏ qua cách mà hai khái niệm này được dùng trong chiến đấu. Wired For War đã đào sâu vào chủ đề này, dựa trên kinh nghiệm của tác giả khi làm việc tại Viện Brookings, và khám phá những tiến bộ công nghệ sẽ định hình cách mà các quốc gia sẽ ra chiến trường.
+
+
+### Heartificial Intelligence – John C. Havens
+
+![placeholder](http://boxxv.com/img/ai/9780399171710.jpg "Heartificial Intelligence")
+
+Thuật toán ngày càng điều khiển cuộc sống hàng ngày của nhiều người – từ những gì xuất hiện trên news feed mạng xã hội, cho đến những món hàng khi mua sắm online, và nhiều hơn thế nữa. Chúng cũng có tác động đến quá trình tự động hóa sản xuất, làm ảnh hưởng đến công việc của phần lớn dân số. Trong cuốn sách của Havens, tác giả khám phá những hàm ý và đạo đức liên quan đến các thuật toán, và những hệ quả của chúng.
+
+
+
 ### Trí tuệ Nhân Tạo Trong Marketing
 
 ![placeholder](http://boxxv.com/img/ai/Bia-Tri-tue-nhan-tao-trong-marketing.jpg "Trí tuệ Nhân Tạo Trong Marketing")
