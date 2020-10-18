@@ -176,4 +176,61 @@ Cuốn sách “AI trong cuộc cách mạng công nghệ 4.0” là tác phẩm
 
 Nhiều người sợ hãi rằng sự phát triển của AI sẽ khiến chúng ta mất việc làm, hoặc tệ hơn, AI sẽ nổi loạn và chống lại chúng ta giống như cảnh tượng kinh hoàng trong những bộ phim khoa học viễn tưởng. Nhưng với cuốn sách kịp thời và đầy đủ thông tin này, một tương lai tươi sáng hơn dường như được hé mở cùng vô vàn những cơ hội mới, những điều tưởng chừng như không thể thực hiện được cho đến khi có sự trợ giúp của AI.
 
+
+### Tôi, tương lai và thế giới
+
+![placeholder](http://boxxv.com/img/ai/d1e1d65a881c7f764fff8fd9c3536773.jpg "AI Trong Cuộc Cách Mạng Công Nghệ 4.0")
+
+Công nghệ 4.0, nơi luật tiến hóa của vạn vật sẽ là tấm lưới chọn lọc những ai tồn tại. Đó không phải người thông minh nhất, cũng không phải người mạnh nhất hay nhanh nhất mà là người có khả năng thích nghi cao nhất. Với sự phát triển vượt bậc của công nghệ. Ở thời đại này, người trẻ đã từ lâu không chỉ là tương lai nữa. Họ là những nhà lãnh đạo của hiện tại, và là người mang trong mình những kỳ vọng lớn lao với sứ mệnh sinh tồn trong kỷ nguyên kỹ thuật số.
+
+Tôi, tương lai và thế giới ra đời vào thời điểm cần thiết đối với Việt Nam, khi môi trường sống của chúng ta đang không ngừng chuyển mình với thế giới, và thay đổi với tốc độ chưa từng có do cuộc cách mạng 4.0 mang lại. Tác giả Nguyễn Phi Vân đã chỉ ra những thứ bạn bắt buộc phải có để sinh tồn trong thời đại công nghệ 4.0 này, đặc biệt là những bạn trẻ, các nhà làm giáo dục, những nhà làm chính sách hay những người đang chuẩn bị khởi nghiệp:
+
+- Phải trở thành công dân toàn cầu.
+
+- Làm quen với cuộc đời kỹ thuật số.
+
+- Tư duy phản biện và kỹ năng giải quyết các vấn đề phức tạp.
+
+- Kỹ năng sáng tạo và hợp tác, phẩm chất người trong thời đại máy.
+
+- EQ – trí thông minh cảm xúc.
+
+Nếu không muốn bị đào thải, chắc chắn cuốn sách này sẽ là kim chỉ nam cho hiện tại và tương lai của bạn trong thời đại công nghệ 4.0. Tôi, tương lai và thế giới là một cẩm nang giúp người trẻ trang bị những kỹ năng cần thiết để bước chân vào một thế giới mới – một thế giới bị thay đổi hoàn toàn bởi sự tác động của Cuộc cách mạng công nghiệp 4.0. 
+
+
+### Chạy đua với Robot
+
+![placeholder](http://boxxv.com/img/ai/f747fb98291635ca81222c1e0eec0ec6.jpg "Chạy đua với Robot")
+
+Tương tự như “Tôi, tương lai và thế giới” và “Cuộc cách mạng AI”, Chạy đua với Robot cũng đề cập đến các thách thức của con người khi cuộc chạy đua AI đang diễn ra trên phạm vi toàn cầu. Tuy nhiên quyển sách khai thác sâu hơn về lĩnh vực khoa học robot đang tạo ra thế hệ máy móc tối tân nhất trong lịch sử.
+
+Chúng ta sống trong thời đại kỹ thuật số, sinh viên, người trẻ phải đối mặt với một tương lai kỹ thuật số nơi robot, phần mềm, và các cỗ máy được điều khiển bởi trí tuệ nhân tạo sẽ thực hiện ngày càng nhiều những công việc mà chúng ta đang làm.
+
+Các chuyên gia trong lĩnh vực lao động đang nảy sinh những lo lắng rằng máy tính đang ngày càng thành thạo những kỹ năng của con người, đến mức chúng sẽ sớm không còn cần đến bất cứ dữ liệu đầu vào nào từ chúng ta nữa.
+
+Chạy đua với robot là một cuốn sách không chỉ dành cho những ai quan tâm đến lĩnh vực khoa học robot mà còn dành cho toàn thế giới. Vì đây là một cuốn sách nêu lên rất rõ những thực tế con người sẽ đối mặt với tương lai tăm tối khi robot xâm chiếm thế giới.
+
+Joseph E. Aoun viết cuốn sách này với mục đích để đảm bảo rằng con người sẽ cạnh tranh được với robot trong môi trường làm việc. Ông cho rằng dựa trên các hiểu biết nền tảng mới và năng lực nhận thức sẽ giúp sinh viên, các bạn trẻ vượt qua khả năng xử lý của các cỗ máy thông minh bằng sự sáng tạo, qua đó cho phép họ cộng tác với máy móc và những người khác trong khi vẫn tập trung vào điểm mạnh của cả hai bên.
+
+
+### Tạo lập mối quan hệ trong kỷ nguyên số
+
+![placeholder](http://boxxv.com/img/ai/450x420.png "Tạo lập mối quan hệ trong kỷ nguyên số")
+
+Hơn ai hết, chúng ta – những bạn trẻ đang sống dưới kỷ nguyên mới – kỷ nguyên cách mạng 4.0 sẽ hiểu rất rõ sự thâm nhập, ảnh hưởng của công nghệ trong cuộc sống hằng ngày. Công nghệ phát triển kéo theo sự thay đổi về thói quen sinh hoạt cũng như tâm sinh lý của con người.
+
+
+Tạo lập mối quan hệ trong kỷ nguyên số của Susan RoAne nêu lên những vấn đề tâm lý bạn gặp phải trong các sự kiện đòi hỏi sự giao tiếp. Đồng thời cuốn sách cho bạn những lời khuyên để khiến cho việc kết giao với người khác trở nên dễ chịu, hiệu quả và thú vị hơn.
+
+
+Nội dung sách cũng hướng tới việc giúp bạn kết giao hiệu quả ở mọi nơi bạn đặt chân tới và gặt hái được nhiều lợi ích – cả về đời sống cá nhân lẫn nghề nghiệp. Quyển sách này dành cho những ai thực sự muốn tập trung vào những kỹ năng xã hội và giao tiếp xuyên văn hóa.
+
+
+Kỷ nguyên cách mạng 4.0 còn là nơi mà chúng ta có khao khát thể hiện bản thân và có xu hướng kết nối với người khác. Vì mọi người ở khắp nơi trên thế giới đều muốn học hỏi về nghệ thuật kết giao, hòa nhập, và hội nhập nên cuốn sách ấn tượng này từng được xuất bản tại hơn 13 quốc gia với nhiều ngôn ngữ khác nhau. 
+
+
+
+
+
+
 -----
