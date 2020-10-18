@@ -5,49 +5,29 @@ subtitle: Top sách AI trí tuệ nhân tạo hay nhất không thể bỏ qua
 image: "img/projects-bg.jpg"
 ---
 
+Ngày nay trí tuệ nhân tạo đang là một trong những chủ đề nóng nhất trong giới công nghệ nói riêng và xã hội nói chung. Đây là một lĩnh vực khó, đòi hỏi khắt khe nên không phải ai cũng có phương hướng tiếp cận đúng. Dưới đây là Top 3 cuốn sách về trí tuệ nhân tạo từ cơ bản đến nâng cao được đề cử nhiều nhất, dành cho người mới bắt đầu do Aimesoft tổng hợp và giới thiệu đến bạn:
+
+### Artificial Intelligence: A Modern Approach (4th Edition)
+
 ![placeholder](http://boxxv.com/img/ai/51IxpHRWi7L._SX393_BO1,204,203,200_.jpg "Artificial Intelligence: A Modern Approach")
 
-### Đặc tính:
-- Các chữ cao bằng nhau
-- Không quá nhiều nét
-- Không quá thấp
-- Không quá cao
-
-### How to improve handwriting:
-- Dùng bảng chữ cái trên khi viết note
-- Khoảng cách giữa các chữ bằng nhau
-- Kích thước các chữ đồng đều
-- Viết thẳng chữ
-- Viết thẳng hàng
-- Viết sai thì sửa lại luôn
-
-![placeholder](http://boxxv.com/img/posts/71198356_180636316313165_8651669721616778874_n.jpg "10 Tip for Note")
-
-### 10 Tip for Note
-- Chọn một quyển vở phù hợp với cách ghi bài của bạn => Miquelrius Notebook
-- Viết chữ với chiều cao ngang bằng nhau
-- Hệ thống hóa cách trình bày luận điểm, viết tắt và ký tự
-- Tóm tắt thông tin và biến điều phức tạp thành đơn giản => sử dụng hệ thống Cành cây
-- Đặt câu hỏi và trả lời cho những vấn đề mà bạn gặp rắc rối
-- Vẽ hình minh họa
-- Vẽ biểu đồ, lập bảng
-- Đóng hộp riêng cho những thông tin bổ sung hoặc những chú thích cần lưu ý
-- Dùng bút Highlight từ khóa, ý chính
-- Sử dụng bút dạ màu cho mỗi chức năng cụ thể:
-    + Bút Xanh: viết thông tin chung chung
-    + Bút Đen: vẽ hình minh họa, bảng hay biểu đồ
-    + Bút Đỏ: viết câu hỏi
-    + Bút Cam: trả lời câu hỏi, chú thích các nguyên tố của biểu đồ hoặc hình minh họa
-    + Bút màu còn lại dùng để tô màu.
+Luôn đứng đầu trong danh sách được đề cử, top 5 cuốn sách bán chạy nhất về trí tuệ nhân tạo trên Amazon, Artificial Intelligence: A Modern Approach của Stuart Russell và Peter Norvig được coi là “sách giáo khoa về trí tuệ nhân tạo phổ biến nhất trên thế giới”. Đặc biệt, ở phiên bản thứ tư này, tác giả đã cập nhật những công nghệ mới nhất và hệ thống kiến thức toàn diện hơn về học máy, học sâu, học chuyển giao, hệ thống Multi Agent, robot, xử lý ngôn ngữ tự nhiên, lập trình xác suất, trí tuệ nhân tạo an toàn, công bằng và bảo mật.
 
 
-![placeholder](http://boxxv.com/img/posts/note_demo_1.png "Demo 1")
-![placeholder](http://boxxv.com/img/posts/note_demo_2.png "Demo 2")
-![placeholder](http://boxxv.com/img/posts/note_demo_3.png "Demo 3")
-![placeholder](http://boxxv.com/img/posts/note_demo_4.png "Demo 4")
+### Artificial Intelligence By Example: Acquire advanced AI, machine learning, and deep learning design skills
+
+![placeholder](http://boxxv.com/img/ai/51zx-V7+8ML.jpg "Artificial Intelligence By Example")
+
+Với các ví dụ thực tế và các nghiên cứu điển hình, Artificial Intelligence By Example của Denis Rothman đóng vai trò như là điểm khởi đầu để bạn có thể hiểu cách mà trí tuệ nhân tạo hoạt động. Thông qua cuốn sách này, bạn có thể nắm bắt được các mô hình học máy tiên tiến nhất, hiểu cách áp dụng AI vào Blockchain và IoT, đồng thời phát triển chỉ số cảm xúc (EQ) trong chatbot ứng dụng mạng nơ ron. Cuối cùng, cuốn sách này sẽ giúp bạn phát triển tư duy ứng dụng để giải quyết các vấn đề AI trong thực tế.
+
+
+### Life 3.0: Being Human in the Age of Artificial Intelligence
+
+![placeholder](http://boxxv.com/img/ai/41-KHndhtVL._SX337_BO1,204,203,200_.jpg "Life 3.0: Being Human in the Age of Artificial Intelligence")
+
+Life 3.0: Being Human in the Age of Artificial Intelligence là một tác phẩm của Max Tegmark nói về sự trỗi dậy của AI hiện nay. Ở đây, tác giả tập trung phân tích những vấn đề xoay quanh việc làm thế nào để phát triển cuộc sống bằng cách tự động hóa mà không gia tăng tỉ lệ thất nghiệp của con người, làm thế nào để đảm bảo các hệ thống AI trong tương lai hoạt động theo dự kiến mà không bị trục trặc hay bị tấn công, và làm thế nào để trở nên hùng mạnh dựa trên AI mà không bị các “cỗ máy sát thương tự động” này vượt mặt.
+
+
 
 
 -----
-Nguồn: [Jun the Foureyes](https://www.instagram.com/juniiiel_)  
-[✨ Bảng Chữ Cái / Quy Tắc Viết Chữ Cho Người Thích Note Đẹp](https://youtu.be/SczIIVhFgBw)  
-[✏️ 10 Tips Viết Note Hiệu Quả Và Bí Kíp Ghi Chép Bài Sạch Sẽ / Tips On Note Taking ](https://youtu.be/mJeqWd1QKkE)
