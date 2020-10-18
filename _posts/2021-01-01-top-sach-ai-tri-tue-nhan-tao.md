@@ -242,7 +242,25 @@ Thông qua việc phỏng vấn với những người có tầm nhìn xa về c
 Nhấn nút tái tạo là câu chuyện kể về sự thay đổi rất riêng, cuộc chuyển mình xảy ra bên trong Microsoft, và làn sóng công nghệ đột phá và thú vị đang ập tới nhân loại – bao gồm Trí Tuệ Nhân Tạo, Thực Tại Kết Hợp và Vi Tính Lượng Tử. Cuốn sách mổ xẻ cách con người và các tổ chức, xã hội có thể, và phải thay đổi, phải “nhấn nút tái tạo” trong nỗ lực không ngừng tìm kiếm năng lượng mới, ý tưởng mới và tiếp tục làm mới mình để vẫn còn tiếp tục có ý nghĩa. Tuy vậy, trọng tâm của nó vẫn là con người, và làm thế nào để một trong những giá trị cốt yếu của chúng ta – sự cảm thông – sẽ trở nên giá trị hơn trong một thế giới mà sự phát triển công nghệ sẽ làm thay đổi những giá trị hiện hữu hơn bao giờ hết.
 
 
+### Trí Tuệ Nhân Tạo – Jack Challoner
 
+![placeholder](http://boxxv.com/img/ai/img578_7.jpg "Phát Minh Cuối Cùng")
+
+Trí tuệ nhân tạo là gì? Liệu có thể tạo cho những chiếc máy tính, những con rôbốt năng lực trí tuệ hay ý thức của con người được không? Phải chăng trong tương lai, con người có thể đàm thoại được với máy tính, một việc mà chỉ có thể làm được giữa người với người? Một ngày nào đó liệu máy tính có thể trở thành nghệ sĩ, chính trị gia, thầy giáo hay chúng chỉ luôn là những người hầu điện tử chẳng có tâm trí. Các nhà khoa học có làm được điều đó không và họ bắt đầu như thế nào trong việc tiến tới phát triển trí tuệ nhân tạo? Đây là cuốn cẩm nang dành cho người bắt đầu tìm hiểu về người máy và trí tuệ nhân tạo.
+
+
+### Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề
+
+![placeholder](http://boxxv.com/img/ai/578_p4767.jpg "Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề")
+
+Cuốn sách viết về trí tuệ nhân tạo: các cấu trúc & chiến lược giải quyết vấn đề này là một công trình nghiên cứu kỹ lưỡng về những nền tảng của trí tuệ nhân tạo. Cuốn sách kết hợp một cách nhuần nhuyễn giữa nền tảng lý thuyết của giải quyết vấn đề thông minh với những cấu trúc dữ liệu và thuật toán cần thiết cho việc cài đặt nó. Cuốn sách này rất cần thiết cho các sinh viên ngành công nghệ thông tin, các chuyên viên làm công tác phần mềm.
+
+
+### Trí Tuệ Nhân Tạo: Các Phương Pháp Giải Quyết Vấn Đề Và Kỹ Thuật Xử Lý Tri Thức
+
+![placeholder](http://boxxv.com/img/ai/irr1556779148.jpg "Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề")
+
+Cuốn sách này trình bày nội dung của môn học “Trí tuệ Nhân tạo”, một môn cơ sở chuyên ngành trong chương trình đào tạo kỹ sư Tin học. Ở đây, sinh viên được làm quen với một số kiến thức cơ bản nhất về các phương pháp giải quyết vấn đề (Problem solving) và kỹ thuật xử lý tri thức. Chúng sẽ giúp cho bạn có được nền tảng để có thể đi sâu vào các chuyên đề khác, như phần mềm dạy học thông minh, hệ chuyên gia, hệ trợ giúp ra quyết định…
 
 
 -----
