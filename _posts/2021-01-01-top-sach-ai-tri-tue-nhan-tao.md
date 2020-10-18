@@ -110,4 +110,21 @@ Vậy những tiến bộ công nghệ này tốt hay xấu? Liệu những thay
 Cuộc cách mạng AI của tác giả Brett King sẽ cho chúng ta một cái nhìn tổng quan về những thay đổi công nghệ trong những năm gần đây và phần nào rút ra những bài học cần thiết để có thể hướng đến tương lai mà không bị tương lai đó nhấn chìm.
 
 
+
+### AI Trong Cuộc Cách Mạng Công Nghệ 4.0
+
+![placeholder](http://boxxv.com/img/ai/image_180164.png "AI Trong Cuộc Cách Mạng Công Nghệ 4.0")
+
+AI giờ đây đã không còn là khái niệm xa lạ nữa. Nó có mặt ở mọi nơi: trong điện thoại, trong xe ô tô, trong những trải nghiệm mua sắm, ứng dụng hẹn hò, ở trong bệnh viện, ngân hàng hay ở trên các tin tức. Một cuộc chạy đua về AI đang diễn ra trên phạm vi toàn cầu. Mọi giám đốc doanh nghiệp, những nhà quản lý, người khởi nghiệp, nhà đầu tư, tư vấn viên, nhà hoạch định chính sách đều gấp rút học hỏi, phát triển và sở hữu trí thông minh nhân tạo, bởi họ hiểu rằng nó sẽ tạo ra những thay đổi đột phá lên doanh nghiệp và tổ chức của họ.
+
+Cuốn sách “AI trong cuộc cách mạng công nghệ 4.0” là tác phẩm mang ý nghĩa khai sáng trong cuộc đua thần tốc này. Các tác giả Ajay Agrawal, Joshua Gans và Avi Goldfarb đã làm rõ ba nội dung:
+
+– Sự phát triển của AI không thực sự đem lại cho chúng ta “trí tuệ”, thay vào đó là một yếu tố quan trọng của trí tuệ: sự dự đoán
+
+– Dự đoán đem lại các dữ liệu đầu vào quan trọng cho quá trình đưa ra quyết định
+
+– Những tính năng của AI có thể dẫn đến những đánh đổi: tốc độ nhanh hơn đồng nghĩa với ít chính xác hơn; tự động hóa nhiều hơn đồng nghĩa với ít sự kiểm soát hơn; nhiều dữ liệu hơn đồng nghĩa với ít riêng tư hơn
+
+Nhiều người sợ hãi rằng sự phát triển của AI sẽ khiến chúng ta mất việc làm, hoặc tệ hơn, AI sẽ nổi loạn và chống lại chúng ta giống như cảnh tượng kinh hoàng trong những bộ phim khoa học viễn tưởng. Nhưng với cuốn sách kịp thời và đầy đủ thông tin này, một tương lai tươi sáng hơn dường như được hé mở cùng vô vàn những cơ hội mới, những điều tưởng chừng như không thể thực hiện được cho đến khi có sự trợ giúp của AI.
+
 -----
