@@ -85,7 +85,19 @@ Mục lục:
 9. Tương lai của marketing đã đến: Ảnh hưởng rộng hơn của ai đến giáo dục, chính sách và chính trị
 
 
+### Ứng dụng trí tuệ nhân tạo để dẫn đầu
 
+![placeholder](http://boxxv.com/img/ai/41ki8XtYZVL.jpg "Ứng dụng trí tuệ nhân tạo để dẫn đầu")
+
+“Ứng dụng Trí tuệ Nhân Tạo để dẫn đầu” là một góc nhìn hấp dẫn về cách các công ty ứng dụng AI và Học Máy (Machine Learning) để giải quyết vấn đề trong kinh doanh. Giới thiệu 50 câu chuyện thực tế với những tình huống thực tế, cuốn sách này mô tả cách thức AI được ứng dụng vào thực tế nhằm giải quyết những vấn đề mà các doanh nghiệp trên toàn cầu phải đối mặt. Lĩnh vực trí tuệ nhân tạo đã phát triển vượt ra ngoài khuôn khổ phòng thí nghiệm cũng như các khoa khoa học máy tính và thâm nhập vào môi trường kinh doanh chính thống. Trí tuệ nhân tạo và Học Máy được đề cập tới như là xu hướng kinh doanh hiện đại quan trọng nhất để thúc đẩy thành công. Nó được sử dụng trong các lĩnh vực từ ngân hàng, tài chính đến truyền thông xã hội và marketing. Công nghệ này tiếp tục cung cấp các giải pháp đổi mới cho các doanh nghiệp thuộc mọi quy mô, mọi lĩnh vực và mọi ngành công nghiệp. Cuốn sách chuyên đề hấp dẫn này khám phá rất nhiều trường hợp minh họa về cách thức các doanh nghiệp sử dụng AI để đẩy mạnh hiệu suất và tính hiệu quả, phân tích sở thích thị trường và nhiều trường hợp khác.
+Chuyên gia AI nổi tiếng, đồng thời cũng là tác giả có sách bán chạy nhất — Bernard Marr hé mở cách thức công nghệ Machine Learning đang thay đổi cách thức kinh doanh của các doanh nghiệp. Những ví dụ được kiểm chứng một cách chi tiết này cung cấp cho chúng ta một cái nhìn tổng quan về từng công ty, mô tả vấn đề cụ thể và giải thích cách AI đơn giản hóa các quyết định. Mỗi câu chuyện thực tế sẽ cho ta biết góc nhìn toàn diện, bao gồm một số chi tiết kỹ thuật cũng như tóm tắt những điều mà ta có thể học hỏi được:
+• Hiểu cách các vấn đề kinh doanh được giải quyết cụ thể bằng các phương pháp Machine Learning mang tính đổi mới và sáng tạo.
+• Khám phá cách thức các ứng dụng trí tuệ nhân tạo hiện tại cải thiện hiệu suất và tăng cường hiệu quả trong các tình huống khác nhau.
+• Mở rộng kiến thức của bạn về những tiến bộ AI mới trong công nghệ.
+• Hiểu rõ hơn về tương lai của AI và vai trò ngày càng quan trọng của nó trong kinh doanh và công nghiệp.
+Cuốn sách “Ứng dụng Trí tuệ nhân tạo để dẫn đầu: 50 câu chuyện thành công của các doanh nghiệp hàng đầu thế giới” là một khám phá sâu sắc và bổ ích về sức mạnh biến đổi của công nghệ trong thương mại thế kỷ 21.
+
+Đọc thêm bài này Walt Disney đã ứng dụng trí tuệ nhân tạo để tạo ra những trải nghiệm khách hàng tuyệt vời ở những công viên giải trí của mình như thế nào?
 
 
 
