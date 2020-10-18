@@ -28,6 +28,21 @@ Với các ví dụ thực tế và các nghiên cứu điển hình, Artificial
 Life 3.0: Being Human in the Age of Artificial Intelligence là một tác phẩm của Max Tegmark nói về sự trỗi dậy của AI hiện nay. Ở đây, tác giả tập trung phân tích những vấn đề xoay quanh việc làm thế nào để phát triển cuộc sống bằng cách tự động hóa mà không gia tăng tỉ lệ thất nghiệp của con người, làm thế nào để đảm bảo các hệ thống AI trong tương lai hoạt động theo dự kiến mà không bị trục trặc hay bị tấn công, và làm thế nào để trở nên hùng mạnh dựa trên AI mà không bị các “cỗ máy sát thương tự động” này vượt mặt.
 
 
+### A Course of Machine Learning
+
+![placeholder](http://boxxv.com/img/ai/41Dg1LNcwvL.jpg "A Course of Machine Learning")
+
+Đây là cuốn sách được viết bởi Hal Daumé III. Cuốn sách khá tốt cho bất cứ ai mới bắt đầu nghiên cứu về học máy. Nội dung cuốn sách rất cô đọng và cung cấp đầy đủ những khái niệm đầu tiên về học máy. Với dung lượng gần 200 trang, A Course of Machine Learning giải thích đầy đủ các khái niệm về cây quyết định, các mô hình học máy dựa trên thống kê, mạng nơron... Bên cạnh đó, cuốn sách cũng cung cấp cho bạn đọc những khái niệm ban đầu về các mô hình học có giám sát, học không giám sát, nửa giám sát và một số mô hình ứng dụng trong thực tế của học máy.
+
+
+### Programming Collective Intelligence
+
+![placeholder](http://boxxv.com/img/ai/sachhocmay-(2).jpg "Programming Collective Intelligence")
+
+Được biết đến rộng rãi như là một trong những cuốn sách hay nhất để bắt đầu tìm hiểu về học máy. Cuốn sách của tác giả Segaran xứng đáng được coi là "gối đầu giường" cho bất cứ ai tìm hiểu về học máy.
+
+Cuốn sách được viết rất lâu trước khi khoa học dữ liệu và học máy phổ biến rộng rãi như hiện nay. Tuy nhiên, chủ đề và nội dung của cuốn sách vẫn hoàn toàn phù hợp với những gì đã và đang có hiện nay. Một số chủ đề được đề cập trong cuốn sách là các kỹ thuật lọc cộng tác, các tính năng của công cụ tìm kiếm, các máy vector hỗ trợ (SVM), bộ lọc Bayesian... Cuốn sách này còn sử dụng Python để cung cấp những ví dụ thực tế một cách hấp dẫn với người đọc.
+
 
 
 -----
