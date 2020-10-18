@@ -235,6 +235,12 @@ Chỉ trong một thập kỷ, AI có thể đạt ngang ngửa và sau đó vư
 Thông qua việc phỏng vấn với những người có tầm nhìn xa về công nghệ, các cơ quan giám sát công nghiệp, và những hệ thống AI, cuốn sách viết về trí tuệ nhân tạo tựa đề Phát Minh Cuối Cùng khám phá những nguy cơ của việc theo đuổi AI cao cấp. Cho đến nay, trí thông minh của con người không có đối thủ. Liệu chúng ta có thể cùng tồn tại với những thứ mà trí tuệ của chúng ta trở nên nhỏ bé hơn hẳn? Và liệu chúng sẽ cho phép chúng ta cùng tồn tại?
 
 
+### Nhấn Nút Tái Tạo – Satya Nadella
+
+![placeholder](http://boxxv.com/img/ai/nxbtre_full_13522017_125229.jpg "Phát Minh Cuối Cùng")
+
+Nhấn nút tái tạo là câu chuyện kể về sự thay đổi rất riêng, cuộc chuyển mình xảy ra bên trong Microsoft, và làn sóng công nghệ đột phá và thú vị đang ập tới nhân loại – bao gồm Trí Tuệ Nhân Tạo, Thực Tại Kết Hợp và Vi Tính Lượng Tử. Cuốn sách mổ xẻ cách con người và các tổ chức, xã hội có thể, và phải thay đổi, phải “nhấn nút tái tạo” trong nỗ lực không ngừng tìm kiếm năng lượng mới, ý tưởng mới và tiếp tục làm mới mình để vẫn còn tiếp tục có ý nghĩa. Tuy vậy, trọng tâm của nó vẫn là con người, và làm thế nào để một trong những giá trị cốt yếu của chúng ta – sự cảm thông – sẽ trở nên giá trị hơn trong một thế giới mà sự phát triển công nghệ sẽ làm thay đổi những giá trị hiện hữu hơn bao giờ hết.
+
 
 
 
