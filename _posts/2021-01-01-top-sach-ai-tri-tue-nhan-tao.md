@@ -219,14 +219,20 @@ Joseph E. Aoun viết cuốn sách này với mục đích để đảm bảo r�
 
 Hơn ai hết, chúng ta – những bạn trẻ đang sống dưới kỷ nguyên mới – kỷ nguyên cách mạng 4.0 sẽ hiểu rất rõ sự thâm nhập, ảnh hưởng của công nghệ trong cuộc sống hằng ngày. Công nghệ phát triển kéo theo sự thay đổi về thói quen sinh hoạt cũng như tâm sinh lý của con người.
 
-
 Tạo lập mối quan hệ trong kỷ nguyên số của Susan RoAne nêu lên những vấn đề tâm lý bạn gặp phải trong các sự kiện đòi hỏi sự giao tiếp. Đồng thời cuốn sách cho bạn những lời khuyên để khiến cho việc kết giao với người khác trở nên dễ chịu, hiệu quả và thú vị hơn.
-
 
 Nội dung sách cũng hướng tới việc giúp bạn kết giao hiệu quả ở mọi nơi bạn đặt chân tới và gặt hái được nhiều lợi ích – cả về đời sống cá nhân lẫn nghề nghiệp. Quyển sách này dành cho những ai thực sự muốn tập trung vào những kỹ năng xã hội và giao tiếp xuyên văn hóa.
 
-
 Kỷ nguyên cách mạng 4.0 còn là nơi mà chúng ta có khao khát thể hiện bản thân và có xu hướng kết nối với người khác. Vì mọi người ở khắp nơi trên thế giới đều muốn học hỏi về nghệ thuật kết giao, hòa nhập, và hội nhập nên cuốn sách ấn tượng này từng được xuất bản tại hơn 13 quốc gia với nhiều ngôn ngữ khác nhau. 
+
+
+### Phát Minh Cuối Cùng – James Barrat
+
+![placeholder](http://boxxv.com/img/ai/phat-minh-cuoi-cung.jpg "Phát Minh Cuối Cùng")
+
+Chỉ trong một thập kỷ, AI có thể đạt ngang ngửa và sau đó vượt qua trí thông minh của con người. Các công ty và cơ quan chính phủ đang rót hàng tỷ đô-la để thu được một AI với trí thông minh ở cấp độ con người. Một khi AI đã phát triển đến mức này, các nhà khoa học lập luận rằng, nó sẽ có những động lực sống giống như con người. Chúng ta có thể sẽ buộc phải cạnh tranh với một kẻ thù ngoan cường hơn, mạnh mẽ hơn và khác biệt hơn chúng ta tưởng tượng.
+
+Thông qua việc phỏng vấn với những người có tầm nhìn xa về công nghệ, các cơ quan giám sát công nghiệp, và những hệ thống AI, cuốn sách viết về trí tuệ nhân tạo tựa đề Phát Minh Cuối Cùng khám phá những nguy cơ của việc theo đuổi AI cao cấp. Cho đến nay, trí thông minh của con người không có đối thủ. Liệu chúng ta có thể cùng tồn tại với những thứ mà trí tuệ của chúng ta trở nên nhỏ bé hơn hẳn? Và liệu chúng sẽ cho phép chúng ta cùng tồn tại?
 
 
 
