@@ -57,4 +57,12 @@ Cuốn sách do Sebastian Raschka viết, có nội dung nói về việc sử d
 - Những câu hỏi thực tế về xử lý dữ liệu và các mô hình học tập xây dựng cho các tập dữ liệu.
 
 
+### Machine Learning
+
+![placeholder](http://boxxv.com/img/ai/41nTpcpgmiL._SX330_BO1,204,203,200_.jpg "Programming Collective Intelligence")
+
+Đây là một trong những cuốn sách kinh điển nhất về học máy của tác giả Tom M. Mitchell, được sử dụng làm giáo trình cho rất nhiều trường đại học nổi tiếng trên thế giới. Cuốn sách này sẽ giới thiệu cho bạn đọc những kiến thức, khái niệm chuyên sâu, những định lý trong học máy, cách giải mã của một số thuật toán học máy. Cuốn sách cũng cung cấp một số ví dụ đơn giản để người đọc có thể hiểu rõ hơn về các thuật toán.
+
+
+
 -----
