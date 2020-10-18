@@ -5,7 +5,7 @@ subtitle: Top sách AI trí tuệ nhân tạo hay nhất không thể bỏ qua
 image: "img/projects-bg.jpg"
 ---
 
-![placeholder](http://boxxv.com/img/posts/alphabet-for-note.jpg "Bảng Chữ Cái Cho Người Thích Note Đẹp")
+![placeholder](http://boxxv.com/img/ai/51IxpHRWi7L._SX393_BO1,204,203,200_.jpg "Artificial Intelligence: A Modern Approach")
 
 ### Đặc tính:
 - Các chữ cao bằng nhau
