@@ -25,7 +25,7 @@ Hy vọng bài viết này bao gồm những chi tiết nhỏ mà tôi tìm th�
 
 # Flask on IIS
 
-Mặc dù Windows Server thường không phải là hệ điều hành ưa thích của tôi để triển khai web [sites|services] dựa trên Python, nhưng đôi khi tình huống này lại dẫn đến điều đó. Đối với những tình huống xảy ra như vậy, tôi vẫn thường sử dụng Apache bằng mod_python cho đến bây giờ. FastCGI tương đối dễ thiết lập trên Windows Server 2012R2 và IIS bằng Microsoft Web Platform Installer.
+Mặc dù Windows Server thường không phải là hệ điều hành ưa thích của tôi để triển khai web (sites, services) dựa trên Python, nhưng đôi khi tình huống này lại dẫn đến điều đó. Đối với những tình huống xảy ra như vậy, tôi vẫn thường sử dụng Apache bằng mod_python cho đến bây giờ. FastCGI tương đối dễ thiết lập trên Windows Server 2012R2 và IIS bằng Microsoft Web Platform Installer.
 
 (LƯU Ý: Tôi đang sử dụng Flask, nhưng bất kỳ ứng dụng Python nào tương thích với WSGI sẽ hoạt động theo cùng một cách)
 
