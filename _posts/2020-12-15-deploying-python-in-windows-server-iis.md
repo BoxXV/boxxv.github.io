@@ -79,6 +79,11 @@ Những bài học quan trọng mà tôi đã có khi thực hiện dự án nà
 | Web server serving on   | https port (443)                 |
 
 
+
+# Setting Up Anaconda Python WSGI Apps On IIS
+
+
+
 {% highlight js %}
 > node -v
 v10.16.0
@@ -91,9 +96,7 @@ v10.16.0
 
 
 -----
-### X. Resources
-Dưới đây là một bản tóm tắt các tài nguyên bạn sẽ sử dụng trong khi làm việc thông qua sự khởi đầu nhanh chóng này. Các liên kết này cũng được cung cấp trong các bước dưới đây:
-- Tải xuống và cài đặt: [Node.js](https://nodejs.org) (Điều này bao gồm npm) Sử dụng phiên bản "Recommended For Most Users".
-- [Getting started with npm](https://docs.npmjs.com)
-- [The yeoman scaffolding tool](https://yeoman.io)
+Tham khảo:
+- [Setting Up Anaconda Python WSGI Apps On IIS](https://taoofmac.com/space/blog/2016/03/20/2330)
+- [Deploying Flask app on IIS](https://medium.com/@rajesh.r6r/deploying-a-python-flask-rest-api-on-iis-d8d9ebf886e9)
 
