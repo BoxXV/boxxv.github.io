@@ -17,9 +17,9 @@ tags:
 - FastCGI
 ---
 
-Trong chủ đề này, chúng ta sẽ tìm hiểu cách sử dụng generator-videojs-plugin để tạo và kiểm tra plugin cho video.js.
+Động lực cho bài viết này đến sau khi trải qua một thời gian dài theo đuổi trên các diễn đàn khác nhau, github how-to-dos và tìm hiểu một số điều mới và cuối cùng lưu trữ API REST của dự án của tôi được viết bằng Python với PostgreSQL là back end trong IIS thành công.
 
-Trình tạo plugin video.js tạo các tệp và thư mục cần thiết để tạo một plugin thông thường. Nó bao gồm một môi trường thử nghiệm để bạn có thể dễ dàng thấy những thay đổi của mình khi bạn phát triển plugin. Nó thậm chí còn tạo các tệp plugin cuối cùng mà bạn có thể sử dụng khi bạn sẵn sàng phát hành nó.
+Hy vọng bài viết này bao gồm những chi tiết nhỏ mà tôi tìm thấy và hữu ích cho bất kỳ ai đang theo đuổi.
 
 ### Tổng quan
 
