@@ -55,6 +55,10 @@ https://netdot.co/2015/03/09/flask-on-iis/
 
 -----
 
+https://stackoverflow.com/questions/5072166/how-do-i-deploy-a-flask-application-in-iis
+
+-----
+
 # Deploying Flask app on IIS
 
 Những bài học quan trọng mà tôi đã có khi thực hiện dự án này:
