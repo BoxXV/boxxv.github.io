@@ -33,8 +33,25 @@ Mặc dù Windows Server thường không phải là hệ điều hành ưa thí
 
 Bạn cần đảm bảo rằng IIS được cài đặt và định cấu hình với dịch vụ vai trò CGI (điều này cũng cho phép FastCGI).
 
+- Server manager -> Manage -> Add Roles and Features
+- Choose: Role-based or feature-based installation:
+- Server Selection: `windows-vultr`
+- Server Roles: `Web Server (IIS)`
+- Role Services: `CGI`
 
+Launch the IIS Manager:
+- install `Web Platform Installer`
+- install **WFastCGI**
+- select Python version (3.4 or 2.7.9)
+- Setup your site - copy the wfastcgi.py from C:\Python34 (may be named C:\Python34_x86 if you had an existing Python34 directory) to your Flask application root
 
+Handler Mappings
+- Click “Add Module Mapping”
+- Click “Request Restrictions”. Make sure “Invoke handler only if request is mapped to:” checkbox is unchecked:
+- Go to the root server settings and click “FastCGI Settings”:
+- 
+
+https://netdot.co/2015/03/09/flask-on-iis/
 
 -----
 
@@ -73,16 +90,6 @@ v10.16.0
 ### X. Resources
 Dưới đây là một bản tóm tắt các tài nguyên bạn sẽ sử dụng trong khi làm việc thông qua sự khởi đầu nhanh chóng này. Các liên kết này cũng được cung cấp trong các bước dưới đây:
 - Tải xuống và cài đặt: [Node.js](https://nodejs.org) (Điều này bao gồm npm) Sử dụng phiên bản "Recommended For Most Users".
-- [video.js generator](https://github.com/videojs/generator-videojs-plugin)
-- [video.js plugin conventions](https://github.com/videojs/generator-videojs-plugin/blob/master/docs/conventions.md)
 - [Getting started with npm](https://docs.npmjs.com)
 - [The yeoman scaffolding tool](https://yeoman.io)
-- [Step-by-Step: Video.js Plugin Generator](https://support.brightcove.com/step-step-videojs-plugin-generator)
-- [Step-by-Step: Plugin Development](https://support.brightcove.com/step-step-plugin-development)
-- [Creating a videojs plugin](https://rants.broonix.ca/creating-a-videojs-plugin)
-- [Tutorial plugins - Video.js Documentation](https://docs.videojs.com/tutorial-plugins.html)
-- [Video.js Plugins](https://github.com/videojs/Video.js/blob/master/docs/guides/plugins.md)
-- [Feature Spotlight: Advanced Plugins](https://blog.videojs.com/feature-spotlight-advanced-plugins/)
-- [Plugins](https://docs.videojs.com/docs/guides/plugins.html)
-- [Pass Data to the Plugin](https://support.brightcove.com/pass-data-plugin)
 
