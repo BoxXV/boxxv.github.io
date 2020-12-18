@@ -84,13 +84,7 @@ Những bài học quan trọng mà tôi đã có khi thực hiện dự án nà
 
 
 
-{% highlight js %}
-> node -v
-v10.16.0
 
-> npm -v
-6.9.0
-{% endhighlight %}
 
 
 
