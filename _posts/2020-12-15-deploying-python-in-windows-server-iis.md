@@ -23,13 +23,13 @@ Hy vọng bài viết này bao gồm những chi tiết nhỏ mà tôi tìm th�
 
 -----
 
-# Flask on IIS
+## Flask on IIS
 
 Mặc dù Windows Server thường không phải là hệ điều hành ưa thích của tôi để triển khai web (sites, services) dựa trên Python, nhưng đôi khi tình huống này lại dẫn đến điều đó. Đối với những tình huống xảy ra như vậy, tôi vẫn thường sử dụng Apache bằng mod_python cho đến bây giờ. FastCGI tương đối dễ thiết lập trên Windows Server 2012R2 và IIS bằng Microsoft Web Platform Installer.
 
 (LƯU Ý: Tôi đang sử dụng Flask, nhưng bất kỳ ứng dụng Python nào tương thích với WSGI sẽ hoạt động theo cùng một cách)
 
-## Cài đặt IIS
+### Cài đặt IIS
 
 Bạn cần đảm bảo rằng IIS được cài đặt và định cấu hình với dịch vụ vai trò CGI (điều này cũng cho phép FastCGI).
 
@@ -59,7 +59,7 @@ https://stackoverflow.com/questions/5072166/how-do-i-deploy-a-flask-application-
 
 -----
 
-# Deploying Flask app on IIS
+## Deploying Flask app on IIS
 
 Những bài học quan trọng mà tôi đã có khi thực hiện dự án này:
 
@@ -69,7 +69,7 @@ Những bài học quan trọng mà tôi đã có khi thực hiện dự án nà
 
 3. Quyền của người dùng để thiết lập điều này là tối quan trọng. Chỉ cần xác nhận từ quản trị viên máy chủ rằng ID của bạn có đặc quyền máy cục bộ hoặc là một phần của nhóm quản trị viên là không đủ.
 
-## Cơ sở hạ tầng của tôi để thiết lập:
+### Cơ sở hạ tầng của tôi để thiết lập:
 
 | Server Operating System | Windows Server 2012              |
 |-------------------------|----------------------------------|
@@ -80,7 +80,7 @@ Những bài học quan trọng mà tôi đã có khi thực hiện dự án nà
 
 
 
-# Setting Up Anaconda Python WSGI Apps On IIS
+## Setting Up Anaconda Python WSGI Apps On IIS
 
 
 
