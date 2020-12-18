@@ -38,7 +38,9 @@ Những bài học quan trọng mà tôi đã có khi thực hiện dự án nà
 | Server Operating System | Windows Server 2012              |
 |-------------------------|----------------------------------|
 | IIS version             | 8.5                              |
-
+| Python version          | 3.6.3 on a virtual environment   |
+| wfastcgi package        | 3.0.0                            |
+| Web server serving on   | https port (443)                 |
 
 
 {% highlight js %}
