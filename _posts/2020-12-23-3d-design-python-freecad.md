@@ -61,10 +61,24 @@ import FreeCAD
 Cách nhanh nhất để có được `conda` là cài đặt [Miniconda](https://docs.conda.io/en/latest/miniconda.html), một phiên bản mini của [Anaconda](https://www.anaconda.com) chỉ bao gồm conda và các phụ thuộc của nó. Nếu bạn muốn có [conda](https://docs.conda.io/en/latest/) cộng với hơn 7.500 gói mã nguồn mở, hãy cài đặt [Anaconda](https://www.anaconda.com/products/individual).
 
 
-### Install FreeCAD by Anaconda
-[https://www.freecadweb.org/downloads.php](https://www.freecadweb.org/downloads.php)
+```sh
+conda create --name fcenv --channel conda-forge freecad
+```
 
-### Install FreeCAD by Anaconda
+```zsh
+conda create --name fcenv --channel conda-forge freecad
+```
+
+```console
+foo@bar:~$ whoami
+foo
+```
+
+```bat
+cd \
+copy a b
+ping 192.168.0.1
+```
 
 
 -----
