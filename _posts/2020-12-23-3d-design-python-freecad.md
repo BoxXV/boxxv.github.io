@@ -27,7 +27,7 @@ Hầu hết các gói hỗ trợ một số dạng tập lệnh, vậy tại sao
 
 Các ví dụ ở đây đã được thử nghiệm với FreeCAD v0.16 và phiên bản hiện tại 0.18
 
-## Install FreeCAD
+# Install FreeCAD
 
 [https://www.freecadweb.org/downloads.php](https://www.freecadweb.org/downloads.php)
 
@@ -54,6 +54,12 @@ import sys
 sys.path.append("C:\\Users\\{username}\\programs\\FreeCAD\\bin") 
 import FreeCAD
 ```
+
+# Install FreeCAD by Conda
+
+## Install FreeCAD by Anaconda
+
+## Install FreeCAD by Anaconda
 
 -----
 Tham khảo:
