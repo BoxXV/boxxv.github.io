@@ -45,7 +45,18 @@ Dec 9, 2020
 [https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage)
 
 
+## Import FreeCAD to external python apps
+
+Đảm bảo rằng `...\FreeCAD\bin\` có trong đường dẫn.
+
+```python
+import sys 
+sys.path.append("C:\\Users\\{username}\\programs\\FreeCAD\\bin") 
+import FreeCAD
+```
+
 -----
 Tham khảo:
 - [3D design with Python and FreeCAD](https://iosoft.blog/2019/05/22/3d-design-python-freecad/)
+- [How can I import FreeCAD to external python apps? *RESOLVED*](https://forum.freecadweb.org/viewtopic.php?t=4650)
 
