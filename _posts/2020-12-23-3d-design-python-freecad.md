@@ -23,6 +23,10 @@ Hầu hết các gói hỗ trợ một số dạng tập lệnh, vậy tại sao
 
 ![placeholder](http://boxxv.com/img/posts/freecad.png "FreeCAD")
 
+Điều này đơn giản về lý thuyết, nhưng hơi phức tạp trong thực tế; Tôi sẽ không tiếc cho bạn nhiều lần bắt đầu sai khó chịu mà tôi đã thực hiện và mô tả một số cách đơn giản để tạo các đối tượng 3D từ đầu bằng Python. Đây là một công việc đang được tiến hành, nhưng hy vọng sẽ cung cấp một số gợi ý hữu ích nếu bạn là một lập trình viên Python thỉnh thoảng thực hiện thiết kế 3D.
+
+Các ví dụ ở đây đã được thử nghiệm với FreeCAD v0.16 và phiên bản hiện tại 0.18
+
 
 
 
