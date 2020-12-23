@@ -27,8 +27,22 @@ Hầu hết các gói hỗ trợ một số dạng tập lệnh, vậy tại sao
 
 Các ví dụ ở đây đã được thử nghiệm với FreeCAD v0.16 và phiên bản hiện tại 0.18
 
+## Install FreeCAD
 
+[https://www.freecadweb.org/downloads.php](https://www.freecadweb.org/downloads.php)
 
+**Windows**
+Dec 9, 2020
+[https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x32-installer.exe](https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x32-installer.exe)  
+[https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x64-installer.exe](https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD-0.18.4.980bf90-WIN-x64-installer.exe)
+
+**Mac**
+Dec 9, 2020
+[https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-OSX-x86_64-conda-Qt5-Py3.dmg](https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-OSX-x86_64-conda-Qt5-Py3.dmg)
+
+**Linux**
+Dec 9, 2020
+[https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage)
 
 
 -----
