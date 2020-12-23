@@ -21,8 +21,7 @@ Các gói 3D CAD có thể là công việc khó khăn; có rất nhiều thứ 
 
 Hầu hết các gói hỗ trợ một số dạng tập lệnh, vậy tại sao không lập trình thiết kế hoàn chỉnh của tôi từ đầu mà không cần chạm vào GUI? FreeCAD là một gói thiết kế 3D (miễn phí), với giao diện Python toàn diện, vì vậy có vẻ là lý tưởng…
 
-
-
+![placeholder](http://boxxv.com/img/posts/freecad.png "FreeCAD")
 
 
 
