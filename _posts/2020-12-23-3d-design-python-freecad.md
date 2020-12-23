@@ -29,6 +29,7 @@ Các ví dụ ở đây đã được thử nghiệm với FreeCAD v0.16 và phi
 
 # Install FreeCAD
 
+### Download FreeCAD
 [https://www.freecadweb.org/downloads.php](https://www.freecadweb.org/downloads.php)
 
 **Windows**  
@@ -45,21 +46,26 @@ Dec 9, 2020
 [https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage](https://github.com/FreeCAD/FreeCAD/releases/download/0.18.4/FreeCAD_0.18-16146-rev1-Linux-Conda_Py3Qt5_glibc2.12-x86_64.AppImage)
 
 
-## Import FreeCAD to external python apps
+### Import FreeCAD to external python apps
 
 Đảm bảo rằng `...\FreeCAD\bin\` có trong đường dẫn.
 
 ```python
 import sys 
-sys.path.append("C:\\Users\\{username}\\programs\\FreeCAD\\bin") 
+sys.path.append("C:\\Program Files\\FreeCAD 0.18\\bin") 
 import FreeCAD
 ```
 
 # Install FreeCAD by Conda
 
-## Install FreeCAD by Anaconda
+Cách nhanh nhất để có được `conda` là cài đặt [Miniconda](https://docs.conda.io/en/latest/miniconda.html), một phiên bản mini của [Anaconda](https://www.anaconda.com) chỉ bao gồm conda và các phụ thuộc của nó. Nếu bạn muốn có [conda](https://docs.conda.io/en/latest/) cộng với hơn 7.500 gói mã nguồn mở, hãy cài đặt [Anaconda](https://www.anaconda.com/products/individual).
 
-## Install FreeCAD by Anaconda
+
+### Install FreeCAD by Anaconda
+[https://www.freecadweb.org/downloads.php](https://www.freecadweb.org/downloads.php)
+
+### Install FreeCAD by Anaconda
+
 
 -----
 Tham khảo:
