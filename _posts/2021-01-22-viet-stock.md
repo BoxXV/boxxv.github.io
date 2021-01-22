@@ -5,29 +5,29 @@ subtitle: Chứng khoán Việt Nam 101
 image: "img/projects-bg.jpg"
 ---
 
-### Hướng dẫn nhanh
+## Hướng dẫn nhanh
 **Bảng giá trực tuyến**  
 https://banggia.vps.com.vn  
 https://trade.vndirect.com.vn/chung-khoan/danh-muc  
 https://liveboard.cafef.vn  
 
-### Bắt đầu
+## Bắt đầu
 
 
-### Mở tài khoản
+## Mở tài khoản
 
 
-### Các khái niệm
+## Các khái niệm
 
 
-### Chỉ số tài chính cơ bản
+## Chỉ số tài chính cơ bản
 
-### Các loại cổ phiếu
+## Các loại cổ phiếu
 
-### 5 Lợi thế cạnh tranh
+## 5 Lợi thế cạnh tranh
 
 
-# Update 2021
+## Update 2021
 
 -  VPBank lãi hơn 13.000 tỷ đồng trong năm 2020, ngân hàng mẹ đóng góp 71%
 - FPT, REE
