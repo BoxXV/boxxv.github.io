@@ -11,7 +11,7 @@ tags:
 
 
 
-### Materials
+## Materials
 _Vật liệu, Chất liệu_
 
 Hình học xác định hình dạng của các đối tượng 3D của chúng ta, nhưng không xác định hình dạng của chúng. Để làm được điều đó, chúng ta cần thêm một `material`
@@ -20,8 +20,7 @@ Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu đi�
 
 ![Materials](http://boxxv.com/img/posts/material.png "Materials")_Materials_
 
-#### MeshNormalMaterial
-**MeshNormalMaterial**  
+### MeshNormalMaterial
 [https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial)
 
 Hữu ích cho: thiết lập và chạy nhanh chóng
@@ -36,9 +35,23 @@ Lưu ý rằng, nếu bạn muốn thay đổi màu sắc của MeshNormalMateri
 
 Theo kinh nghiệm của tôi, `MeshNormalMaterial` hữu ích nhất để bắt đầu và vận hành nhanh chóng. Để kiểm soát nhiều hơn giao diện của các đối tượng, tốt nhất bạn nên sử dụng một thứ khác.
 
+### MeshBasicMaterial
+[https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial)
 
+Hữu ích cho: wireframes
 
+Nếu bạn muốn đối tượng của mình có màu đồng nhất, bạn có thể sử dụng `MeshBasicMaterial`, vì nó không bị ảnh hưởng bởi ánh sáng. Tôi thấy điều này hữu ích cho wireframe. Để sử dụng chế độ wireframe, chỉ cần chuyển `{wireframe: true}` làm đối số. 
 
+```javascript
+const material = new THREE.MeshBasicMaterial({ 
+  wireframe: true, 
+  color: 0xdaa520
+});
+```
+
+[Demo](https://codepen.io/BretCameron/pen/ZEzwERw?editors=0010)
+
+Nhược điểm của `MeshBasicMaterial` là nó không cung cấp manh mối về độ sâu của vật liệu. Mọi vật liệu đều có các tùy chọn để tạo khung dây, nhưng một giải pháp hiệu quả bao gồm chiều sâu là `MeshDepthMaterial`.
 
 
 
