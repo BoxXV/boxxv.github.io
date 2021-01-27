@@ -80,7 +80,7 @@ frontSpot2.position.set(-500, -500, -500);
 scene.add(frontSpot2);
 ```
 
-Bây giờ, hãy thêm `material` cho hình dạng của chúng ta. Vì nó trông hơi giống một món đồ trang sức, tôi nghĩ tôi sẽ chọn màu vàng. Thuộc tính khác, `emissive`, là màu sắc mà vật thể phát ra từ chính nó (không có bất kỳ nguồn sáng nào). Thông thường, nó hoạt động tốt nhất khi có màu tối - chẳng hạn như bóng tối của màu xám, như bên dưới: 
+Bây giờ, hãy thêm `material` cho hình dạng của chúng ta. Vì nó trông hơi giống một món đồ trang sức, tôi nghĩ tôi sẽ chọn màu vàng. Thuộc tính khác, `emissive`, là màu sắc mà vật thể phát ra từ chính nó (không có bất kỳ nguồn sáng nào). Thông thường, nó hoạt động tốt nhất khi có màu tối - chẳng hạn như bóng tối của màu xám, như bên dưới:
 
 ```javascript
 const material = new THREE.MeshLambertMaterial({
@@ -103,6 +103,19 @@ Hữu ích cho: _hiệu suất và độ chính xác trung bình_
 Vật liệu này mang lại sự dung hòa giữa hiệu suất và hình thức, và do đó nó là điểm trung gian tốt cho các ứng dụng cần hiệu suất cao đồng thời đạt được mức chất lượng cao hơn `MeshLambertMaterial`.
 
 Giờ đây, chúng tôi có thể thay đổi một thuộc tính mới, `specular`, xác định độ sáng và màu sắc của hệ số phản xạ của bề mặt. Trong khi đặc tính `emissive` thường có màu tối, đặc tính `specular` thường hoạt động tốt nhất khi có màu sáng. Bên dưới, chúng tôi đang sử dụng màu xám nhạt: 
+
+```javascript
+const material = new THREE.MeshPhongMaterial({
+  color: 0xdaa520,
+  emissive: 0x000000,
+  specular: 0xbcbcbc,
+});
+```
+
+[https://codepen.io/BretCameron/pen/YzKBwwQ](https://codepen.io/BretCameron/pen/YzKBwwQ?editors=0010)
+
+Về mặt trực quan, hình ảnh trên phản chiếu ánh sáng theo cách thuyết phục hơn nhiều, nhưng nó vẫn chưa hoàn hảo. Ánh sáng trắng hơi quá sáng và vật liệu trông giống như cao su hơn là kim loại (hiệu ứng mong muốn của chúng tôi). Chúng ta có thể có được kết quả tốt hơn bằng cách sử dụng `MeshStandardMaterial`.
+
 
 -----
 ### MeshStandardMaterial
