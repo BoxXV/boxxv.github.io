@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hiển thị 3D trong JavaScript với Three.js
-subtitle: JavaScript in 3D: Three.js
+subtitle: JavaScript in 3D with Three.js
 tags:
 - Three.js
 - Threejs
