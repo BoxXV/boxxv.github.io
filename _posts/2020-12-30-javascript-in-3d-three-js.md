@@ -41,6 +41,9 @@ Theo kinh nghiệm của tôi, `MeshNormalMaterial` hữu ích nhất để bắ
 
 -----
 ### MeshBasicMaterial
+
+![MeshBasicMaterial](http://boxxv.com/img/posts/MeshBasicMaterial.png "MeshBasicMaterial")_MeshBasicMaterial_
+
 Hữu ích cho: _wireframes_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial)
