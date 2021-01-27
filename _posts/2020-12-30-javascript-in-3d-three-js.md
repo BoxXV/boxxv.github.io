@@ -24,6 +24,76 @@ Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu đi�
 **MeshNormalMaterial**  
 [https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial)
 
+Hữu ích cho: thiết lập và chạy nhanh chóng
+
+Chúng tôi sẽ bắt đầu với `MeshNormalMaterial`, vật liệu nhiều màu mà chúng tôi đã sử dụng trong các ví dụ cho đến nay. Nó ánh xạ các vectơ thông thường sang màu RGB: nói cách khác, nó sử dụng màu sắc để phân biệt vị trí của vectơ trong không gian 3D.
+
+
+
+```javascript
+const material = new THREE.MeshNormalMaterial();
+```
+
+```javascript
+const material = new THREE.MeshNormalMaterial();
+```
+
+{% highlight js %}
+import videojs from 'video.js';
+import {version as VERSION} from '../package.json';
+
+// Default options for the plugin.
+const defaults = {};
+
+// Cross-compatibility for Video.js 5 and 6.
+const registerPlugin = videojs.registerPlugin || videojs.plugin;
+// const dom = videojs.dom || videojs;
+
+/**
+ * Function to invoke when the player is ready.
+ *
+ * This is a great place for your plugin to initialize itself. When this
+ * function is called, the player will have its DOM and child components
+ * in place.
+ *
+ * @function onPlayerReady
+ * @param    {Player} player
+ *           A Video.js player object.
+ *
+ * @param    {Object} [options={}]
+ *           A plain object containing options for the plugin.
+ */
+const onPlayerReady = (player, options) => {
+  player.addClass('vjs-demo');
+};
+
+/**
+ * A video.js plugin.
+ *
+ * In the plugin function, the value of `this` is a video.js `Player`
+ * instance. You cannot rely on the player being in a "ready" state here,
+ * depending on how the plugin is invoked. This may or may not be important
+ * to you; if not, remove the wait for "ready"!
+ *
+ * @function demo
+ * @param    {Object} [options={}]
+ *           An object of options left to the plugin author to define.
+ */
+const demo = function(options) {
+  this.ready(() => {
+    onPlayerReady(this, videojs.mergeOptions(defaults, options));
+  });
+};
+
+// Register the plugin with video.js.
+registerPlugin('demo', demo);
+
+// Include the version number.
+demo.VERSION = VERSION;
+
+export default demo;
+{% endhighlight %}
+
 
 
 
