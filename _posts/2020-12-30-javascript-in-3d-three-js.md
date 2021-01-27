@@ -10,7 +10,7 @@ tags:
 ---
 
 
-
+-----
 ## Materials
 _Vật liệu, Chất liệu_
 
@@ -21,6 +21,7 @@ Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu đi�
 ![Materials](http://boxxv.com/img/posts/material.png "Materials")_Materials_
 
 
+-----
 ### MeshNormalMaterial
 Hữu ích cho: _thiết lập và chạy nhanh chóng_
 
@@ -38,6 +39,7 @@ Lưu ý rằng, nếu bạn muốn thay đổi màu sắc của MeshNormalMateri
 Theo kinh nghiệm của tôi, `MeshNormalMaterial` hữu ích nhất để bắt đầu và vận hành nhanh chóng. Để kiểm soát nhiều hơn giao diện của các đối tượng, tốt nhất bạn nên sử dụng một thứ khác.
 
 
+-----
 ### MeshBasicMaterial
 Hữu ích cho: _wireframes_
 
@@ -57,14 +59,42 @@ const material = new THREE.MeshBasicMaterial({
 Nhược điểm của `MeshBasicMaterial` là nó không cung cấp manh mối về độ sâu của vật liệu. Mọi vật liệu đều có các tùy chọn để tạo khung dây, nhưng một giải pháp hiệu quả bao gồm chiều sâu là `MeshDepthMaterial`.
 
 
+
+-----
 ### MeshLambertMaterial
 Hữu ích cho: **hiệu suất cao** _(nhưng độ chính xác thấp hơn)_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshLambertMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshLambertMaterial)
 
+Đây là vật liệu đầu tiên bị ảnh hưởng bởi ánh sáng, vì vậy, để xem những gì chúng tôi đang làm, chúng tôi sẽ cần thêm một số ánh sáng vào cảnh của chúng tôi. Trong đoạn mã dưới đây, chúng tôi sẽ thêm vào đèn sân khấu, với một chút màu vàng để tạo hiệu ứng ấm hơn: 
+
+```javascript
+const scene = new THREE.Scene();
+
+const frontSpot = new THREE.SpotLight(0xeeeece);
+frontSpot.position.set(1000, 1000, 1000);
+scene.add(frontSpot);
+
+const frontSpot2 = new THREE.SpotLight(0xddddce);
+frontSpot2.position.set(-500, -500, -500);
+scene.add(frontSpot2);
+```
+
+Bây giờ, hãy thêm `material` cho hình dạng của chúng ta. Vì nó trông hơi giống một món đồ trang sức, tôi nghĩ tôi sẽ chọn màu vàng. Thuộc tính khác, `emissive`, là màu sắc mà vật thể phát ra từ chính nó (không có bất kỳ nguồn sáng nào). Thông thường, nó hoạt động tốt nhất khi có màu tối - chẳng hạn như bóng tối của màu xám, như bên dưới: 
+
+```javascript
+const material = new THREE.MeshLambertMaterial({
+  color: 0xdaa520,
+  emissive: 0x111111,
+});
+```
+
+[https://codepen.io/BretCameron/pen/OJLdJGz](https://codepen.io/BretCameron/pen/OJLdJGz?editors=0010)
 
 
 
+
+-----
 ### MeshPhongMaterial
 Hữu ích cho: _hiệu suất và độ chính xác trung bình_
 
@@ -72,6 +102,7 @@ Hữu ích cho: _hiệu suất và độ chính xác trung bình_
 
 
 
+-----
 ### MeshStandardMaterial
 Hữu ích cho: **độ chính xác cao** _(nhưng hiệu suất thấp hơn)_
 
