@@ -123,6 +123,21 @@ Hữu ích cho: **độ chính xác cao** _(nhưng hiệu suất thấp hơn)_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshStandardMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshStandardMaterial)
 
+Đây là vật liệu có độ chính xác cao nhất trong số các vật liệu của Three.js, mặc dù nó phải trả giá bằng công suất xử lý lớn hơn. `MeshStandardMaterial` đi kèm với một số đặc tính bổ sung - `metalness` (tính kim loại) và `roughness` (độ nhám), cả hai đều có giá trị từ `0` đến `1`. 
+
+Đặc tính kim loại `metalness` làm thay đổi cách phản xạ của đối tượng để nó có bản chất gần hơn với kim loại. Điều này là do các vật liệu dẫn điện, như kim loại, có đặc tính phản xạ khác với vật liệu điện môi, như gốm sứ.
+
+Độ nhám `roughness` thêm một lớp tùy chỉnh khác. Bạn có thể nghĩ nó ngược lại với độ bóng: giá trị `0` là cực kỳ bóng, trong khi giá trị `1` là cực kỳ thô (có nghĩa là rất ít ánh sáng bị phản chiếu).
+
+```javascript
+const material = new THREE.MeshStandardMaterial({
+  color: 0xfcc742,
+  emissive: 0x111111,
+  specular: 0xffffff,
+  metalness: 1,
+  roughness: 0.55,
+});
+```
 
 
 
