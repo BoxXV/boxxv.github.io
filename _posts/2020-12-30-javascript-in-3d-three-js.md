@@ -14,6 +14,11 @@ tags:
 ### Materials
 _Vật liệu, Chất liệu_
 
+Hình học xác định hình dạng của các đối tượng 3D của chúng ta, nhưng không xác định hình dạng của chúng. Để làm được điều đó, chúng ta cần thêm một `material`
+
+Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu điểm và đặc tính có thể tùy chỉnh riêng. Chúng tôi sẽ xem xét một số ít những điều hữu ích nhất.
+
+![Materials](http://boxxv.com/img/posts/material.png "Materials")_Materials_
 
 
 
