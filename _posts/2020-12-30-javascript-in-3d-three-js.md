@@ -26,7 +26,8 @@ Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu đi�
 
 ![MeshNormalMaterial](http://boxxv.com/img/posts/MeshNormalMaterial.png "MeshNormalMaterial")_MeshNormalMaterial_
 
-<ins>Hữu ích cho:</ins> _thiết lập và chạy nhanh chóng_
+<ins>Hữu ích cho:</ins> 
+_thiết lập và chạy nhanh chóng_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial)
 
@@ -47,7 +48,8 @@ Theo kinh nghiệm của tôi, `MeshNormalMaterial` hữu ích nhất để bắ
 
 ![MeshBasicMaterial](http://boxxv.com/img/posts/MeshBasicMaterial.png "MeshBasicMaterial")_MeshBasicMaterial_
 
-<ins>Hữu ích cho:</ins> _wireframes_
+<ins>Hữu ích cho:</ins> 
+_wireframes_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshBasicMaterial)
 
@@ -71,7 +73,8 @@ Nhược điểm của `MeshBasicMaterial` là nó không cung cấp manh mối 
 
 ![MeshLambertMaterial](http://boxxv.com/img/posts/MeshLambertMaterial.png "MeshLambertMaterial")_MeshLambertMaterial_
 
-<ins>Hữu ích cho:</ins> **hiệu suất cao** _(nhưng độ chính xác thấp hơn)_
+<ins>Hữu ích cho:</ins> 
+**hiệu suất cao** _(nhưng độ chính xác thấp hơn)_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshLambertMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshLambertMaterial)
 
@@ -106,7 +109,10 @@ Như bạn có thể thấy trong ví dụ bên dưới, màu sắc ít nhiều 
 -----
 ### MeshPhongMaterial
 
-<ins>Hữu ích cho:</ins> _hiệu suất và độ chính xác trung bình_
+![MeshPhongMaterial](http://boxxv.com/img/posts/MeshPhongMaterial.png "MeshPhongMaterial")_MeshPhongMaterial_
+
+<ins>Hữu ích cho:</ins> 
+_hiệu suất và độ chính xác trung bình_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshPhongMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshPhongMaterial)
 
@@ -130,7 +136,8 @@ Về mặt trực quan, hình ảnh trên phản chiếu ánh sáng theo cách t
 -----
 ### MeshStandardMaterial
 
-<ins>Hữu ích cho:</ins> **độ chính xác cao** _(nhưng hiệu suất thấp hơn)_
+<ins>Hữu ích cho:</ins> 
+**độ chính xác cao** _(nhưng hiệu suất thấp hơn)_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshStandardMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshStandardMaterial)
 
