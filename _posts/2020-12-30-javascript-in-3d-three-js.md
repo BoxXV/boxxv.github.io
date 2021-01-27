@@ -136,6 +136,8 @@ Về mặt trực quan, hình ảnh trên phản chiếu ánh sáng theo cách t
 -----
 ### MeshStandardMaterial
 
+![MeshStandardMaterial](http://boxxv.com/img/posts/MeshStandardMaterial.png "MeshStandardMaterial")_MeshStandardMaterial_
+
 <ins>Hữu ích cho:</ins> 
 **độ chính xác cao** _(nhưng hiệu suất thấp hơn)_
 
