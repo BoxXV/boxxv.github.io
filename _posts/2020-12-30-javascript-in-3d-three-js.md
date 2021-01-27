@@ -54,7 +54,7 @@ const material = new THREE.MeshBasicMaterial({
 });
 ```
 
-[Demo](https://codepen.io/BretCameron/pen/ZEzwERw?editors=0010)
+[https://codepen.io/BretCameron/pen/ZEzwERw](https://codepen.io/BretCameron/pen/ZEzwERw?editors=0010)
 
 Nhược điểm của `MeshBasicMaterial` là nó không cung cấp manh mối về độ sâu của vật liệu. Mọi vật liệu đều có các tùy chọn để tạo khung dây, nhưng một giải pháp hiệu quả bao gồm chiều sâu là `MeshDepthMaterial`.
 
@@ -138,6 +138,12 @@ const material = new THREE.MeshStandardMaterial({
   roughness: 0.55,
 });
 ```
+
+[https://codepen.io/BretCameron/pen/gOYqPMv](https://codepen.io/BretCameron/pen/gOYqPMv?editors=0010)
+
+Đây chắc chắn là kết quả thực tế nhất nhưng hãy nhớ rằng nó tiêu tốn nhiều tài nguyên hơn.
+
+
 
 
 
