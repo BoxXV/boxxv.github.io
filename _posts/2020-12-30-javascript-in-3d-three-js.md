@@ -32,6 +32,10 @@ Chúng tôi sẽ bắt đầu với `MeshNormalMaterial`, vật liệu nhiều m
 const material = new THREE.MeshNormalMaterial();
 ```
 
+Lưu ý rằng, nếu bạn muốn thay đổi màu sắc của MeshNormalMaterial, bạn có thể chỉ cần sử dụng bộ lọc CSS và thay đổi màu sắc: ví dụ: `filter: hue-rotate(90deg)`.
+
+Theo kinh nghiệm của tôi, `MeshNormalMaterial` hữu ích nhất để bắt đầu và vận hành nhanh chóng. Để kiểm soát nhiều hơn giao diện của các đối tượng, tốt nhất bạn nên sử dụng một thứ khác.
+
 
 
 
