@@ -20,6 +20,11 @@ Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu đi�
 
 ![Materials](http://boxxv.com/img/posts/material.png "Materials")_Materials_
 
+#### MeshNormalMaterial
+**MeshNormalMaterial**  
+[https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshNormalMaterial)
+
+
 
 
 
