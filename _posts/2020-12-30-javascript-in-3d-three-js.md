@@ -91,7 +91,7 @@ const material = new THREE.MeshLambertMaterial({
 
 [https://codepen.io/BretCameron/pen/OJLdJGz](https://codepen.io/BretCameron/pen/OJLdJGz?editors=0010)
 
-
+Như bạn có thể thấy trong ví dụ bên dưới, màu sắc ít nhiều đều đúng, nhưng cách nó tương tác với ánh sáng không tạo ra vẻ ngoài chân thực nhất. Để làm được điều đó, chúng ta sẽ cần sử dụng `MeshPhongMaterial` hoặc `MeshStandardMaterial`.
 
 
 -----
@@ -100,7 +100,9 @@ Hữu ích cho: _hiệu suất và độ chính xác trung bình_
 
 [https://threejs.org/docs/index.html#api/en/materials/MeshPhongMaterial](https://threejs.org/docs/index.html#api/en/materials/MeshPhongMaterial)
 
+Vật liệu này mang lại sự dung hòa giữa hiệu suất và hình thức, và do đó nó là điểm trung gian tốt cho các ứng dụng cần hiệu suất cao đồng thời đạt được mức chất lượng cao hơn `MeshLambertMaterial`.
 
+Giờ đây, chúng tôi có thể thay đổi một thuộc tính mới, `specular`, xác định độ sáng và màu sắc của hệ số phản xạ của bề mặt. Trong khi đặc tính `emissive` thường có màu tối, đặc tính `specular` thường hoạt động tốt nhất khi có màu sáng. Bên dưới, chúng tôi đang sử dụng màu xám nhạt: 
 
 -----
 ### MeshStandardMaterial
