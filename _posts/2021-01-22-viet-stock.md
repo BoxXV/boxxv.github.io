@@ -11,6 +11,10 @@ image: "img/projects-bg.jpg"
 [https://trade.vndirect.com.vn/chung-khoan/danh-muc](https://trade.vndirect.com.vn/chung-khoan/danh-muc)  
 [https://liveboard.cafef.vn](https://liveboard.cafef.vn)  
 
+**Biểu đồ giá vàng**  
+[https://vn.tradingview.com/symbols/XAUUSD](https://vn.tradingview.com/symbols/XAUUSD/)  
+[https://bieudogiavang.vn](https://bieudogiavang.vn)
+
 
 ## Bắt đầu
 
