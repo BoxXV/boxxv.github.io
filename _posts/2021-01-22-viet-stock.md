@@ -30,7 +30,8 @@ image: "img/projects-bg.jpg"
 
 ## Update 2021
 
--  VPBank lãi hơn 13.000 tỷ đồng trong năm 2020, ngân hàng mẹ đóng góp 71%
+- VPBank lãi hơn 13.000 tỷ đồng trong năm 2020, ngân hàng mẹ đóng góp 71%
+- Toàn bộ nhân viên Coteccons được thưởng ít nhất 10 tháng lương
 - FPT, REE
 
 -----
