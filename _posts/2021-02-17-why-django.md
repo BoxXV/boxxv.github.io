@@ -29,7 +29,7 @@ Django có những góc cạnh thô ráp, nhưng cách tiếp cận thực dụn
 
 Top 10:
 1. Python
-2. Pin bao gồm
+2. Bao gồm Pin
 3. Không cản trở bạn
 4. Quản trị viên tích hợp
 5. Có thể mở rộng
@@ -39,6 +39,15 @@ Top 10:
 9. Bản phát hành ổn định
 10. Tài liệu hạng nhất 
 
+### 2. Batteries Included (Bao gồm Pin)
+
+![placeholder](http://boxxv.com/img/posts/Python_batteries_included.jpg "Batteries Included")
+
+`Django` kế thừa triết lý `“bao gồm pin”` từ `Python`.
+
+Điều này thường được hiểu là `Django` bao gồm rất nhiều thứ bổ sung mà bạn không cần. Điều này LAF không đúng. Một cách tương tự tốt hơn là thay vì phải mở ngôn ngữ để lắp nguồn điện (pin) của riêng bạn, bạn chỉ cần “gạt nhẹ công tắc” và `Django` thực hiện phần còn lại.
+
+Về mặt thực tế, điều này có nghĩa là `Django` triển khai một số các quy trình phức tạp bằng cách cung cấp các công cụ và trình bao bọc đơn giản để che giấu sự phức tạp mà không ảnh hưởng đến sức mạnh.
 
 
 -----
