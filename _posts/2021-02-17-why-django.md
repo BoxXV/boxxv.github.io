@@ -39,6 +39,16 @@ Top 10:
 9. Bản phát hành ổn định
 10. Tài liệu hạng nhất 
 
+-----
+
+### 1. Python
+
+Python được cho là ngôn ngữ lập trình dễ học nhất.
+
+Với việc sử dụng các cấu trúc ngôn ngữ tự nhiên (ví dụ: bố cục giống đoạn văn và thụt đầu dòng) và cú pháp đơn giản để học, Python làm cho việc hiểu cấu trúc và luồng chương trình dễ học hơn đáng kể so với các ngôn ngữ phổ biến khác. 
+
+
+
 ### 2. Batteries Included (Bao gồm Pin)
 
 ![placeholder](http://boxxv.com/img/posts/Python_batteries_included.jpg "Batteries Included")
