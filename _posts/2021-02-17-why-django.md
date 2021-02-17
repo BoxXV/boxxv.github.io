@@ -53,3 +53,4 @@ Về mặt thực tế, điều này có nghĩa là `Django` triển khai một 
 -----
 
 [Build a website with Django 3](https://djangobook.com/build-a-website-with-django-3/)
+[Giới thiệu về ngôn ngữ lập trình Python](https://dnmtechs.com/gioi-thieu-ve-ngon-ngu-lap-trinh-python/)
