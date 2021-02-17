@@ -5,9 +5,21 @@ subtitle: Build a website with Django 3
 image: "img/projects-bg.jpg"
 ---
 
+Django là một trong nhiều web framework có sẵn; tuy nhiên, trong thập kỷ qua, Django đã tự phân biệt mình như một framework hàng đầu để phát triển các ứng dụng web có thể mở rộng, bảo mật và có thể bảo trì.
+Đây không phải là may mắn.
+
+Django không phải là kết quả của một bài tập học thuật hay sản phẩm trí tuệ của một nhà phát triển đã nghĩ rằng họ có thể làm mọi thứ tốt hơn.
+
+Django được tạo ra trong một môi trường tòa soạn, nơi mà “ngày nay” quan trọng hơn nhiều so với “thông minh”.
+
+Mặc dù cách Django đơn giản hóa nhiều nhiệm vụ phức tạp có thể được coi là cực kỳ thông minh, nhưng trọng tâm chính của Django là hoàn thành công việc được đưa vào DNA của nó. 
+
+
+### So, Why Django?
+
 Lập trình, giống như hầu hết các hoạt động theo đuổi sáng tạo, có nhiều người tận tâm với đam mê của họ ở bên ngoài.
 
-Chính vì lý do này mà tôi rất cảnh giác khi so sánh Phần mềm này với Phần mềm đó. Điểm mấu chốt: tất cả các ngôn ngữ lập trình cũng như các công cụ và khuôn khổ được xây dựng trên chúng, đều có điểm tốt và điểm xấu.
+Chính vì lý do này mà tôi rất cảnh giác khi so sánh Phần mềm này với Phần mềm đó. Điểm mấu chốt: tất cả các ngôn ngữ lập trình cũng như các công cụ và framework được xây dựng trên chúng, đều có điểm tốt và điểm xấu.
 
 Tôi tin chắc rằng sự so sánh duy nhất đáng xem xét là chủ nghĩa thực dụng và sự hoàn hảo
 
