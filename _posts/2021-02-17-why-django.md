@@ -82,8 +82,8 @@ Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Founda
 
 ### Các phiên bản
 
-| Release | Latest  | End of mainstream | End of       |
-| Series  | Release |  support | extended support |
+| Release | Latest  | End of mainstream | End of extended |
+| Series  | Release |  support |  support |
 | ------- |:----------:| -------------:| -------------:|
 | 4.2 LTS | April 2023 | December 2023 | April 2026    |
 | 3.2 LTS | April 2021 | December 2021 | April 2024    |
