@@ -53,7 +53,7 @@ Django có những góc cạnh thô ráp, nhưng cách tiếp cận thực dụn
 
 -----
 
-### 1. Python
+#### 1. Python
 
 Python được cho là ngôn ngữ lập trình dễ học nhất.
 
@@ -61,7 +61,7 @@ Với việc sử dụng các cấu trúc ngôn ngữ tự nhiên (ví dụ: b�
 
 
 
-### 2. Batteries Included (Bao gồm Pin)
+#### 2. Batteries Included (Bao gồm Pin)
 
 ![placeholder](http://boxxv.com/img/posts/Python_batteries_included.jpg "Batteries Included")
 
@@ -70,6 +70,13 @@ Với việc sử dụng các cấu trúc ngôn ngữ tự nhiên (ví dụ: b�
 Điều này thường được hiểu là `Django` bao gồm rất nhiều thứ bổ sung mà bạn không cần. Điều này LAF không đúng. Một cách tương tự tốt hơn là thay vì phải mở ngôn ngữ để lắp nguồn điện (pin) của riêng bạn, bạn chỉ cần “gạt nhẹ công tắc” và `Django` thực hiện phần còn lại.
 
 Về mặt thực tế, điều này có nghĩa là `Django` triển khai một số các quy trình phức tạp bằng cách cung cấp các công cụ và trình bao bọc đơn giản để che giấu sự phức tạp mà không ảnh hưởng đến sức mạnh.
+
+
+### Sự phổ biến của Django
+Thực sự chưa có một bài thống kê cụ thể về sự phố biến các framework. Việc đánh gía hiện nay dựa vào số lượng các web phổ biến dùng Django, số lượng người đóng góp codebase, và số lượng người phát triển cả tình nguyện lẫn được trả công. Thì có thể cho rằng Django là framework phổ biến.
+
+Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Foundation, MacArthur Foundation, Mozilla, National Geographic, Open Knowledge Foundation, Pinterest, and Open Stack
+
 
 
 -----
