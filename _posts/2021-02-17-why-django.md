@@ -123,6 +123,6 @@ Ngoài ra còn có một số cơ sở dữ liệu phụ trợ được cung c�
 [http://configurator.simotopgroup.com/admin](http://configurator.simotopgroup.com/admin)  
 
 -----
-[https://www.djangoproject.com](https://www.djangoproject.com/download/)
-[Build a website with Django 3](https://djangobook.com/build-a-website-with-django-3/)
-[Giới thiệu về ngôn ngữ lập trình Python](https://dnmtechs.com/gioi-thieu-ve-ngon-ngu-lap-trinh-python/)
+[https://www.djangoproject.com](https://www.djangoproject.com/download/)  
+[Build a website with Django 3](https://djangobook.com/build-a-website-with-django-3/)  
+[Giới thiệu về ngôn ngữ lập trình Python](https://dnmtechs.com/gioi-thieu-ve-ngon-ngu-lap-trinh-python/)  
