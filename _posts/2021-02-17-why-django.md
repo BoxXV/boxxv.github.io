@@ -5,6 +5,10 @@ subtitle: Build a website with Django 3
 image: "img/projects-bg.jpg"
 ---
 
+### Tổng quan về Django
+
+Django là một framework bậc cao của Python có thể thúc đẩy việc phát triển phần mềm thần tốc và clean, thiết kế thực dụng. Được xây dựng bởi nhiều lập trình viên kinh nghiệm, Django tập trung lớn những vấn đề phát triển Web, bạn có thể phát triển trang web của bạn mà không cần xây dựng từ những căn bản. Đặc biệt nó free và open source.
+
 Django là một trong nhiều web framework có sẵn; tuy nhiên, trong thập kỷ qua, Django đã tự phân biệt mình như một framework hàng đầu để phát triển các ứng dụng web có thể mở rộng, bảo mật và có thể bảo trì.
 Đây không phải là may mắn.
 
@@ -27,7 +31,7 @@ Hay nói một cách khác, bạn có muốn mã ổn định, có thể bảo t
 
 Django có những góc cạnh thô ráp, nhưng cách tiếp cận thực dụng để hoàn thành công việc là nơi nó thực sự nổi bật so với đám đông. Django có rất nhiều người ủng hộ và một số người gièm pha, vì vậy hãy thoải mái đưa ra kết luận của riêng bạn. Tuy nhiên, nếu bạn muốn ý kiến ​​khiêm tốn của tôi, đây là những điều của Django
 
-Top 10:
+#### Top 10:
 1. Python
 2. Bao gồm Pin
 3. Không cản trở bạn
@@ -38,6 +42,14 @@ Top 10:
 8. Tích cực phát triển
 9. Bản phát hành ổn định
 10. Tài liệu hạng nhất 
+
+#### Những lợi thế của Django
+- `Hoàn thiện`: Django phát triển theo tư tưởng "Batteries included" (có thể hiểu ý nghĩa là tích hợp toàn bộ, chỉ cần gọi ra mà dùng). Nó cung cấp mọi thứ cho developer không cần phải nghĩ phải dùng cái ngoài. Chúng ta chỉ cần tập trung vào sản phẩm, tất cả đều hoạt động liền mạch với nhau. 
+- `Đa năng`: Django có thể được dùng để xây dựng hầu hết các loại website, từ hệ thống quản lý nội dung, cho đến các trang mạng xã hội hay web tin tức. Nó có thể làm việc với framework client-side, và chuyển nội dung hầu hết các loại format (HTML, RESS, JSON, XML, ...) 
+- `Bảo mật`: Django giúp các developer trang các lỗi bảo mật thông thường bằng cách cung cấp framework rằng có những kĩ thuật "phải làm như vậy" để bảo vệ website. Ví dụ: Django cung cấp bảo mật quản lý tên tài khoản và mật khẩu, tránh các lỗi cơ bản như để thông tin session lên cookie, mã hóa mật khẩu thay vì lưu thẳng. 
+- `Dễ Scale`: Django sử dụng kiến trúc shared-nothing dựa vào component (mỗi phần của kiến trúc sẽ độc lập với nhau, và có thể thay thế hoặc sửa đổi nếu cần thiết). Có sự chia tách rõ ràng giữa các phần nghĩa là nó có thể scale cho việc gia tăng traffic bằng cách thêm phần cứng ở mỗi cấp độ: caching, servers, database servers, hoặc application servers. Nhiều web về kinh doanh đã thành công khi Django được scale đáp ứng yêu cầu của họ 
+- `Dễ maintain`: code Django được viết theo nguyên tắc thiết kế và pattern có thể khuyến khích ý tưởng bảo trì và tái sử dụng code. Trên thực tế, nó sự theo khái niệm Don't Repeat Yourself làm cho không có sự lặp lại không cần thiết, giảm một lượng code. 
+- `Tính linh động`: Django được viết bằng Python, nó có thể chạy đa nền tảng. Nó có nghĩa rằng bạn không ràng buộc một platform server cụ thể. Django được hỗ trợ tốt ở nhiều nhà cung cấp hosting, họ sẽ cung cấp hạ tầng và tài liệu cụ thể cho hosting web Django.
 
 -----
 
