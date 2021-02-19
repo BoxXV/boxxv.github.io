@@ -82,18 +82,17 @@ Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Founda
 
 ### Các phiên bản
 
-| Release Series | Latest Release | End of mainstream support1 | End of extended support2 |
-| Release | Latest | End of | End of |
-| Series | Release | mainstream support1 | extended support2 |
-| -------------- |:--------------:| --------------------------:| ------------------------:|
-| 4.2 LTS        | April 2023     | December 2023 | April 2026    |
-| 3.2 LTS        | April 2021     | December 2021 | April 2024    |
-| 3.1            | 3.1.6          | April 2021    | December 2021 |
-| 2.2 LTS        | 2.2.18         | December 2019 | April 2022    |
+| Release | Latest  | End of             | End of           |
+| Series  | Release | mainstream support | extended support |
+| ------- |:----------:| -------------:| -------------:|
+| 4.2 LTS | April 2023 | December 2023 | April 2026    |
+| 3.2 LTS | April 2021 | December 2021 | April 2024    |
+| 3.1     | 3.1.6      | April 2021    | December 2021 |
+| 2.2 LTS | 2.2.18     | December 2019 | April 2022    |
 
 
 
 -----
-
+[https://www.djangoproject.com](https://www.djangoproject.com/download/)
 [Build a website with Django 3](https://djangobook.com/build-a-website-with-django-3/)
 [Giới thiệu về ngôn ngữ lập trình Python](https://dnmtechs.com/gioi-thieu-ve-ngon-ngu-lap-trinh-python/)
