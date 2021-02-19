@@ -90,7 +90,37 @@ Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Founda
 | 3.1     | 3.1.6      | April 2021    | December 2021 |
 | 2.2 LTS | 2.2.18     | December 2019 | April 2022    |
 
+### Databases
+Django chính thức hỗ trợ các cơ sở dữ liệu sau: 
+- PostgreSQL
+- MariaDB
+- MySQL
+- Oracle
+- SQLite
 
+Ngoài ra còn có một số cơ sở dữ liệu phụ trợ được cung cấp bởi các bên thứ ba. 
+- CockroachDB
+- Firebird
+- Microsoft SQL Server
+  https://pypi.org/project/django-mssql-backend/
+
+
+
+### Các trang web sử dụng Django
+[https://okfn.org/admin](https://okfn.org/admin)
+[https://www.redditgifts.com/admin](https://www.redditgifts.com/admin)
+[https://app.liberfit.fr/admin](https://app.liberfit.fr/admin)
+[https://admin.bigbasket.com](https://admin.bigbasket.com)
+[http://responsive.thrivehive.com/_admin](http://responsive.thrivehive.com/_admin)
+[https://www.maritimeuk.org/admin](https://www.maritimeuk.org/admin)
+[https://www.fortifi.com/admin](https://www.fortifi.com/admin)
+[https://django-adminlte3.herokuapp.com/admin](https://django-adminlte3.herokuapp.com/admin)
+[https://www.orientering.se/admin](https://www.orientering.se/admin)
+[https://www.prd.com.au/admin](https://www.prd.com.au/admin)
+[https://smkt.kedirikab.go.id/admin](https://smkt.kedirikab.go.id/admin)
+[https://v2.swissqualiquest.ch/admin](https://v2.swissqualiquest.ch/admin)
+[https://marsbluebook.surfstudio.ru/admin](https://marsbluebook.surfstudio.ru/admin)
+[http://configurator.simotopgroup.com/admin](http://configurator.simotopgroup.com/admin)
 
 -----
 [https://www.djangoproject.com](https://www.djangoproject.com/download/)
