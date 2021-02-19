@@ -9,6 +9,8 @@ image: "img/projects-bg.jpg"
 
 Django là một framework bậc cao của Python có thể thúc đẩy việc phát triển phần mềm thần tốc và clean, thiết kế thực dụng. Được xây dựng bởi nhiều lập trình viên kinh nghiệm, Django tập trung lớn những vấn đề phát triển Web, bạn có thể phát triển trang web của bạn mà không cần xây dựng từ những căn bản. Đặc biệt nó free và open source.
 
+Django tập trung vào tính năng “có thể tái sử dụng” và “có thể tự chạy” của các component, tính năng phát triển nhanh, không làm lại những gì đã làm.
+
 Django là một trong nhiều web framework có sẵn; tuy nhiên, trong thập kỷ qua, Django đã tự phân biệt mình như một framework hàng đầu để phát triển các ứng dụng web có thể mở rộng, bảo mật và có thể bảo trì.
 Đây không phải là may mắn.
 
@@ -77,6 +79,21 @@ Thực sự chưa có một bài thống kê cụ thể về sự phố biến c
 
 Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Foundation, MacArthur Foundation, Mozilla, National Geographic, Open Knowledge Foundation, Pinterest, and Open Stack
 
+
+### Các phiên bản
+
+| Release Series | Latest Release | End of mainstream support1 | End of extended support2 |
+| -------------- |:--------------:| --------------------------:| ------------------------:|
+| 4.2 LTS        | April 2023     | December 2023 | April 2026    |
+| 3.2 LTS        | April 2021     | December 2021 | April 2024    |
+| 3.1            | 3.1.6          | April 2021    | December 2021 |
+| 2.2 LTS        | 2.2.18         | December 2019 | April 2022    |
+
+Release Series	Latest Release	End of mainstream support1	End of extended support2
+4.2 LTS			April 2023		December 2023				April 2026
+3.2 LTS			April 2021		December 2021				April 2024
+3.1				3.1.6			April    2021				December 2021
+2.2 LTS			2.2.18			December 2019				April 2022
 
 
 -----
