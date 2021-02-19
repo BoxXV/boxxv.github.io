@@ -84,7 +84,7 @@ Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Founda
 
 | Release | Latest  | End of  | End of extended |
 | Series  | Release | mainstream support |  support |
-| ------- |:----------:| -------------:| -------------:|
+| ------- |:----------:| :-------------| -------------:|
 | 4.2 LTS | April 2023 | December 2023 | April 2026    |
 | 3.2 LTS | April 2021 | December 2021 | April 2024    |
 | 3.1     | 3.1.6      | April 2021    | December 2021 |
@@ -101,12 +101,14 @@ Django chính thức hỗ trợ các cơ sở dữ liệu sau:
 Ngoài ra còn có một số cơ sở dữ liệu phụ trợ được cung cấp bởi các bên thứ ba. 
 - CockroachDB
 - Firebird
-- Microsoft SQL Server
+- Microsoft SQL Server  
   https://pypi.org/project/django-mssql-backend/
 
 
 
 ### Các trang web sử dụng Django
+Các trang web phổ biến sử dụng Django: Disqus, Instagram, Knight Foundation, MacArthur Foundation, Mozilla, National Geographic, Open Knowledge Foundation, Pinterest, and Open Stack
+
 [https://okfn.org/admin](https://okfn.org/admin)  
 [https://www.redditgifts.com/admin](https://www.redditgifts.com/admin)  
 [https://app.liberfit.fr/admin](https://app.liberfit.fr/admin)  
