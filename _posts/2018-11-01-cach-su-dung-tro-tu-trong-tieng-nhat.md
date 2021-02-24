@@ -23,9 +23,20 @@ Mỗi tối tôi đều ngủ lúc 9 giờ.
 -----
 
 ### 3. Cách dùng trợ từ `で`: Biểu thị `địa điểm` diễn ra hành động
-`N1` **は** `N2` **ですか**。 (N1 `wa` N2 `desuka`)
+毎日食堂 **で** 昼ご飯を食べている。
 
-毎日食堂で昼ご飯を食べている。 Mainichi shokudou de hiru gohan wo tabete iru. Mỗi ngày tôi đều ăn trưa ở nhà ăn.
+Mainichi shokudou de hiru gohan wo tabete iru.
+
+Mỗi ngày tôi đều ăn trưa ở nhà ăn.
+
+Biểu thị phương tiện
+
+バス **で** 大学へ行く。
+
+Basu de daigaku e iku.
+
+Tôi sẽ đến trường bằng xe buýt.
+
 
 -----
 
