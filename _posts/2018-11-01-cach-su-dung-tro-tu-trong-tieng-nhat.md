@@ -5,18 +5,20 @@ description: に を へ が
 subtitle: Cách sử dụng trợ từ に を へ が
 ---
 
-### 1. Cách sử dụng trợ từ が
+### 1. Cách sử dụng trợ từ `が`
 
 私 **が** いきます。
 Tôi sẽ đi.
 
 -----
 
-### 2. Mẫu câu phủ định. Có thể dùng じゃ hoặc では trước ありません đều được.
-`N1` **は** `N2` **じゃ**/**では** `ありません`。 (N1 `wa` N2 **ja**/**dewa** `arimasen`。)
+### 2. Cách dùng trợ từ `に`
+毎晩9時 **に** 寝ている。
 
-`サントスさん` **は** `がくせい` **じゃ** (**では**) `ありません`。 
-(Anh Santose không phải là sinh viên - SANTOSU san wa gakusei ja (dewa) arimasen)
+Watashi wa maiban ku ji ni nete iru.
+
+Mỗi tối tôi đều ngủ lúc 9 giờ.
+
 
 -----
 
@@ -133,19 +135,7 @@ N1 này/đó/kia là của N2
 
 -----
 
-
-[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 1](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-1)
-
-[Tiếng Nhật sơ cấp] [Ngữ pháp Giáo trình Minano Nihongo: Bài 2](https://jes.edu.vn/ngu-phap-minna-no-nihongo-bai-2)
-
-[Bài 01 - Từ vựng - Học tiếng Nhật online miễn phí](https://www.vnjpclub.com/minna-no-nihongo-1998/bai-1-tu-vung.html)
-
-[Từ vựng Minna no Nihongo bài 1](http://jls.vnjpclub.com/tu-vung-minna-no-nihongo-bai-1.html)
-
-**Giáo trình minano nihongo 1 tiếng việt.**  
-[https://drive.google.com/file/d/0B12DCNP3dpz6ZTA0bkpvcFJ2MDg/](https://drive.google.com/file/d/0B12DCNP3dpz6ZTA0bkpvcFJ2MDg/view)  
-
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 1](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-minna-bai-1/)  
+[Cách sử dụng trợ từ trong Tiếng Nhật – Phần 1 (が)](https://akira.edu.vn/cach-su-dung-tro-tu-trong-tieng-nhat-phan-1/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 2](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 3](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-3/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 4](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-4/)  
@@ -170,13 +160,6 @@ N1 này/đó/kia là của N2
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 23](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-23-minna/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 24](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-24-minna/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 25](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-25-minna/)  
-
-**Giáo trình minano nihongo 2 tiếng việt.**  
-[https://drive.google.com/file/d/0B_u3dREM0Ie9TEYyY1NHbjRENGM](https://drive.google.com/file/d/0B_u3dREM0Ie9TEYyY1NHbjRENGM/view)  
-
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 26](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-26-minna/)  
-
-[Tổng hợp kiến thức 50 bài Minna No Nihongo (Từ vựng + Ngữ pháp)](http://tiengnhat.minder.vn/tong-hop-kien-thuc-50-bai-minna-no-nihongo-tu-vung-ngu-phap/)  
 
 
 
