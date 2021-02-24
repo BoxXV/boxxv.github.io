@@ -12,7 +12,7 @@ Tôi sẽ đi.
 
 -----
 
-### 2. Cách dùng trợ từ `に`
+### 2. Cách dùng trợ từ `に`: Biểu thị `thời gian`
 毎晩9時 **に** 寝ている。
 
 Watashi wa maiban ku ji ni nete iru.
@@ -22,11 +22,10 @@ Mỗi tối tôi đều ngủ lúc 9 giờ.
 
 -----
 
-### 3. Mẫu câu hỏi với ttrợ từ nghi vấn か ở cuối câu
+### 3. Cách dùng trợ từ `で`: Biểu thị `địa điểm` diễn ra hành động
 `N1` **は** `N2` **ですか**。 (N1 `wa` N2 `desuka`)
 
-ミラーさん **は** かいしゃいん **ですか**。 
-(Anh Miler có phải là nhân viên công ty không? - MIRA- san wa kaishain desuka)
+毎日食堂で昼ご飯を食べている。 Mainichi shokudou de hiru gohan wo tabete iru. Mỗi ngày tôi đều ăn trưa ở nhà ăn.
 
 -----
 
@@ -136,33 +135,8 @@ N1 này/đó/kia là của N2
 -----
 
 [Cách sử dụng trợ từ trong Tiếng Nhật – Phần 1 (が)](https://akira.edu.vn/cach-su-dung-tro-tu-trong-tieng-nhat-phan-1/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 2](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-2/)  
+[Cách dùng trợ trong tiếng Nhật: に và で khi học tiếng Nhật](https://dekiru.vn/blog/detail-20180425085945966.htm)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 3](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-3/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 4](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-4/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 5](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-5/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 6](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-6/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 7](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-7/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 8](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-8/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 9](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-9/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 10](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-minna-bai-10/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 11](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-minna-bai-11/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 12](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-12-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 13](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-13-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 14](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-14-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 15](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-15-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 16](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-16-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 17](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-17-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 18](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-18-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 19](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-19-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 20](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-20-minna-hoc-tu-vung-mien-phi-voi-minder/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 21](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-21-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 22](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-22-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 23](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-23-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 24](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-24-minna/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 25](http://tiengnhat.minder.vn/tu-vung-tieng-nhat-bai-25-minna/)  
-
-
-
-
-
-
