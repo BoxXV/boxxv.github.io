@@ -29,7 +29,7 @@ Mainichi shokudou de hiru gohan wo tabete iru.
 
 Mỗi ngày tôi đều ăn trưa ở nhà ăn.
 
-Biểu thị phương tiện
+**Biểu thị phương tiện**
 
 バス **で** 大学へ行く。
 
