@@ -147,7 +147,7 @@ N1 này/đó/kia là của N2
 
 [Cách sử dụng trợ từ trong Tiếng Nhật – Phần 1 (が)](https://akira.edu.vn/cach-su-dung-tro-tu-trong-tieng-nhat-phan-1/)  
 [Cách dùng trợ trong tiếng Nhật: に và で khi học tiếng Nhật](https://dekiru.vn/blog/detail-20180425085945966.htm)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 3](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-3/)  
-[Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 4](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-4/)  
+[Đề thi JLPT N5 - Kỳ tháng 10/2020](https://www.kosei.vn/de-thi-thu-jlpt-n5-ky-thang-12-2020-n3120.html)  
+[Đề thi JLPT N5 - Kỳ tháng 07-2016](https://lophoctiengnhat.com/de-thi-jlpt-N5-thang-07-2016(mogishiken)-phan-doc-hieu-ngu-phap-dap-an.html)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 5](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-5/)  
 [Tiếng Nhật sơ cấp] [Từ vựng Giáo trình Minano Nihongo: Bài 6](http://tiengnhat.minder.vn/hoc-tu-vung-tieng-nhat-bai-6/)  
