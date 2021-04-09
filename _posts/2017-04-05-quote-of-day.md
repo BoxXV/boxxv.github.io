@@ -15,6 +15,14 @@ tags: [books, shakespeare, test]
 <em>\- TS Lê Thẩm Dương \-</em>
 
 
+"Ra xã hội làm ăn bươn chải, liều thì ăn nhiều, không liều thì ăn ít.
+Muốn thành công thì phải chấp nhận trải qua đắng cay ngọt bùi. Làm ăn muốn kiếm được tiền thì phải chấp nhận mạo hiểm, nguy hiểm một tí nhưng trong tầm kiểm soát.
+Xã hội này, chỉ có làm, chịu khó cần cù thì bù siêng năng.
+Chỉ có làm thì mới có ăn.
+Những cái loại không làm mà đòi có ăn thì ăn đầu bu*i nhá, ăn cứt. Thế cho nó dễ!"
+<em>\- Huấn Rose \-</em>
+
+
 > Nếu bạn ghen tị với những người thành công, bạn tạo ra một trường lực lượng tiêu cực đẩy bạn khỏi những điều bạn cần làm để thành công. Nếu bạn khâm phục những người thành công, bạn tạo ra một trường lực lượng tích cực hấp dẫn bạn trở nên ngày càng giống những người bạn muốn giống.
 
 If you envy successful people, you create a negative force field of attraction that repels you from ever doing the things that you need to do to be successful. If you admire successful people, you create a positive force field of attraction that draws you toward becoming more and more like the kinds of people that you want to be like.
