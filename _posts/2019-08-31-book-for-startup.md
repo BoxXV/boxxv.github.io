@@ -22,7 +22,7 @@ image: "img/post-book-cover.png"
 
 ## 18 CUỐN SÁCH VỀ TƯ DUY KINH DOANH
 
-![placeholder](http://boxxv.com/img/post-book-img1.png "18 Cuốn sách về tư duy kinh doanh")
+![placeholder](https://boxxv.github.io/img/post-book-img1.png "18 Cuốn sách về tư duy kinh doanh")
 
 1.	Think and Grow Rich - Suy nghĩ và làm giàu (Napoleon Hills)
 2.	Người giàu nhất thành Babylon (George Clason)
@@ -45,7 +45,7 @@ image: "img/post-book-cover.png"
 
 ## 19 CUỐN SÁCH VỀ CHỦ ĐỀ TÀI CHÍNH
 
-![placeholder](http://boxxv.com/img/post-book-img2.png "19 Cuốn sách về chủ đề tài chính")
+![placeholder](https://boxxv.github.io/img/post-book-img2.png "19 Cuốn sách về chủ đề tài chính")
 
 1.	Sách lược đầu tư của Warren Buffet (Lý Thành Tư)
 2.	Nhà đầu tư thông minh (Ben Graham)
@@ -69,7 +69,7 @@ image: "img/post-book-cover.png"
 
 ## 8 CUỐN SÁCH VỀ MARKETING & SALES
 
-![placeholder](http://boxxv.com/img/post-book-img3.png "8 Cuốn sách về marketing & sales")
+![placeholder](https://boxxv.github.io/img/post-book-img3.png "8 Cuốn sách về marketing & sales")
 
 1.	Nghệ thuật bán hàng bậc cao (Zig Zig Lar)
 2.	22 Quy luật bất biến trong Marketing (Al Ries & Jack Trout)
@@ -82,7 +82,7 @@ image: "img/post-book-cover.png"
 
 ## 14 CUỐN SÁCH VỀ QUẢN TRỊ HAY NHẤT
 
-![placeholder](http://boxxv.com/img/post-book-img4.png "14 Cuốn sách về quản trị hay nhất")
+![placeholder](https://boxxv.github.io/img/post-book-img4.png "14 Cuốn sách về quản trị hay nhất")
 
 1.	Tuần làm việc 4 giờ (Tim Ferris)
 2.	Từ tốt đến vĩ đại (Jim Collins)
@@ -101,7 +101,7 @@ image: "img/post-book-cover.png"
 
 ## 16 CUỐN SÁCH LỜI KHUYÊN KINH DOANH
 
-![placeholder](http://boxxv.com/img/post-book-img5.png "16 Cuốn sách lời khuyên kinh doanh")
+![placeholder](https://boxxv.github.io/img/post-book-img5.png "16 Cuốn sách lời khuyên kinh doanh")
 
 1.	Mặc kệ nó, làm tới đi (Richard Branson)
 2.	Những nguyên tắc thành công (Jack Canfield)
@@ -122,7 +122,7 @@ image: "img/post-book-cover.png"
 
 ## 7 CÂU CHUYỆN KINH DOANH CẢM HỨNG
 
-![placeholder](http://boxxv.com/img/post-book-img6.png "7 Câu chuyện kinh doanh cảm hứng")
+![placeholder](https://boxxv.github.io/img/post-book-img6.png "7 Câu chuyện kinh doanh cảm hứng")
 
 1.	Tứ đại quyền lực (Scott Galloway)
 2.	Quốc gia khởi nghiệp (Dan Senor, Saul Singer)

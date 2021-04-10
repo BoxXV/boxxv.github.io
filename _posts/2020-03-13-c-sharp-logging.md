@@ -198,14 +198,14 @@ Về mặt hiệu suất, NLog dường như nhanh hơn Serilog theo các [Bench
 ## Which to choose?
 Trước hết, cả 3 framework đều tốt và cung cấp một giá trị khá giống nhau. Trước khi trả lời câu hỏi này, hãy để một số nghiên cứu phổ biến. Nhìn vào thống kê gói NuGet trong [6 tuần qua](https://www.nuget.org/stats/packages) (đến ngày 11 tháng 8 năm 2019), chúng ta có thể thấy như sau:
 
-![Looking at NuGet package statistics](http://boxxv.com/img/posts/logs-in-nuget.png "Looking at NuGet package statistics")
+![Looking at NuGet package statistics](https://boxxv.github.io/img/posts/logs-in-nuget.png "Looking at NuGet package statistics")
 
 Serilog đứng đầu ở vị trí thứ 3, NLog đứng thứ hai ở vị trí thứ 20 và log4net đứng ở vị trí thứ 28. Một tỷ lệ khá đáng kể ủng hộ Serilog.
 Đến ngày 10 tháng 02 năm 2020, Serilog đứng đầu ở vị trí thứ 2, NLog đứng thứ hai ở vị trí thứ 24 và log4net đứng ở vị trí thứ 33.
 
 Google Trends vẽ một bức tranh rất khác:
 
-![Google Trends](http://boxxv.com/img/posts/logs-google-trends.png "Google Trends")
+![Google Trends](https://boxxv.github.io/img/posts/logs-google-trends.png "Google Trends")
 
 Theo đó, NLog và log4net đang cạnh tranh vị trí đầu tiên, và Serilog đứng thứ 3 với tỷ lệ khá thấp.
 

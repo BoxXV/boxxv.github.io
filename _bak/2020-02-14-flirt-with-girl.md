@@ -5,7 +5,7 @@ subtitle: ... or not to be?
 image: "img/post-bg-01.jpg"
 tags: [tán gái, selfie, tán gái trong quán bar]
 ---
-![placeholder](http://boxxv.com/img/flirt-with-girl.jpg "tán gái chất, thả thính cực mạnh")
+![placeholder](https://boxxv.github.io/img/flirt-with-girl.jpg "tán gái chất, thả thính cực mạnh")
 
 >B: Lát nữa anh nghĩ em nên gửi ảnh selfie của em qua bên Nasa. Em có biết tại sao hông?
 >

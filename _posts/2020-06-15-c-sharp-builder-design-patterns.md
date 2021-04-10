@@ -14,7 +14,7 @@ tags:
 
 ### 1. Ý Nghĩa
 
-![builder](http://boxxv.com/img/patterns/builder-en.png "builder")_builder_
+![builder](https://boxxv.github.io/img/patterns/builder-en.png "builder")_builder_
 
 Builder là một mẫu thiết kế khởi tạo (Creational) cho phép bạn xây dựng các đối tượng phức tạp từng bước. Mẫu cho phép bạn tạo ra các loại và biểu diễn khác nhau của một đối tượng bằng cách sử dụng cùng một mã xây dựng.
 
@@ -44,7 +44,7 @@ Chính phủ là một ví dụ tuyệt vời của mô hình Singleton. Một q
 
 -----
 ### 5. Cấu trúc
-![Structure](http://boxxv.com/img/patterns/structure-en.png "Structure")_Structure_
+![Structure](https://boxxv.github.io/img/patterns/structure-en.png "Structure")_Structure_
 
 
 -----

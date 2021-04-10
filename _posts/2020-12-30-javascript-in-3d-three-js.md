@@ -18,13 +18,13 @@ Hình học xác định hình dạng của các đối tượng 3D của chúng
 
 Three.js đi kèm với 10 `mesh materials`, mỗi material có những ưu điểm và đặc tính có thể tùy chỉnh riêng. Chúng tôi sẽ xem xét một số ít những điều hữu ích nhất.
 
-![Materials](http://boxxv.com/img/posts/material.png "Materials")_Materials_
+![Materials](https://boxxv.github.io/img/posts/material.png "Materials")_Materials_
 
 
 -----
 ### MeshNormalMaterial
 
-![MeshNormalMaterial](http://boxxv.com/img/posts/MeshNormalMaterial.png "MeshNormalMaterial")_MeshNormalMaterial_
+![MeshNormalMaterial](https://boxxv.github.io/img/posts/MeshNormalMaterial.png "MeshNormalMaterial")_MeshNormalMaterial_
 
 <ins>Hữu ích cho:</ins> 
 _thiết lập và chạy nhanh chóng_
@@ -46,7 +46,7 @@ Theo kinh nghiệm của tôi, `MeshNormalMaterial` hữu ích nhất để bắ
 -----
 ### MeshBasicMaterial
 
-![MeshBasicMaterial](http://boxxv.com/img/posts/MeshBasicMaterial.png "MeshBasicMaterial")_MeshBasicMaterial_
+![MeshBasicMaterial](https://boxxv.github.io/img/posts/MeshBasicMaterial.png "MeshBasicMaterial")_MeshBasicMaterial_
 
 <ins>Hữu ích cho:</ins> 
 _wireframes_
@@ -71,7 +71,7 @@ Nhược điểm của `MeshBasicMaterial` là nó không cung cấp manh mối 
 -----
 ### MeshLambertMaterial
 
-![MeshLambertMaterial](http://boxxv.com/img/posts/MeshLambertMaterial.png "MeshLambertMaterial")_MeshLambertMaterial_
+![MeshLambertMaterial](https://boxxv.github.io/img/posts/MeshLambertMaterial.png "MeshLambertMaterial")_MeshLambertMaterial_
 
 <ins>Hữu ích cho:</ins> 
 **hiệu suất cao** _(nhưng độ chính xác thấp hơn)_
@@ -109,7 +109,7 @@ Như bạn có thể thấy trong ví dụ bên dưới, màu sắc ít nhiều 
 -----
 ### MeshPhongMaterial
 
-![MeshPhongMaterial](http://boxxv.com/img/posts/MeshPhongMaterial.png "MeshPhongMaterial")_MeshPhongMaterial_
+![MeshPhongMaterial](https://boxxv.github.io/img/posts/MeshPhongMaterial.png "MeshPhongMaterial")_MeshPhongMaterial_
 
 <ins>Hữu ích cho:</ins> 
 _hiệu suất và độ chính xác trung bình_
@@ -136,7 +136,7 @@ Về mặt trực quan, hình ảnh trên phản chiếu ánh sáng theo cách t
 -----
 ### MeshStandardMaterial
 
-![MeshStandardMaterial](http://boxxv.com/img/posts/MeshStandardMaterial.png "MeshStandardMaterial")_MeshStandardMaterial_
+![MeshStandardMaterial](https://boxxv.github.io/img/posts/MeshStandardMaterial.png "MeshStandardMaterial")_MeshStandardMaterial_
 
 <ins>Hữu ích cho:</ins> 
 **độ chính xác cao** _(nhưng hiệu suất thấp hơn)_
