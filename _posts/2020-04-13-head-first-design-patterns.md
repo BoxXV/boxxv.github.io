@@ -44,7 +44,7 @@ Ai đó đã giải quyết những vấn đề của bạn. Trong chương này
 
 Joe làm việc cho một công ty rất thành công trò chơi mô phỏng vịt, SimUDuck. Trò chơi có thể hiển thị rất nhiều loài vịt bơi và tạo ra âm thanh “quack quack”. Thiết kế ban đầu của hệ thống đã sử dụng các kỹ thuật OO tiêu chuẩn và tạo ra một superclass Duck mà tất cả các loại vịt khác sẽ kế thừa nó.
 
-![tempsnip](http://boxxv.com/img/patterns/tempsnip.png "tempsnip")_tempsnip_
+![tempsnip](https://boxxv.github.io/img/patterns/tempsnip.png "tempsnip")_tempsnip_
 
 Trong năm ngoái, công ty đã chịu áp lực ngày càng tăng từ các đối thủ cạnh tranh. Sau một tuần “động não” ngoài sân golf, các giám đốc điều hành của công ty nghĩ rằng đây là thời gian cho một sự thay đổi lớn. Công ty cần một cái gì đó thực sự ấn tượng để trình bày tại cuộc họp cổ đông sắp tới ở Maui.
 
@@ -54,7 +54,7 @@ Giám đốc điều hành đã quyết định rằng vịt biết bay là th�
 
 “Tôi chỉ cần thêm một phương thức fly() trong lớp Duck và sau đó tất cả các con vịt sẽ thừa hưởng nó. Bây giờ, thời gian của tôi để thực sự thể hiện tài năng OO thực sự của tôi.” 
 
-![pasted](http://boxxv.com/img/patterns/pastedimage0.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage0.png "pasted")_pasted_
 
 **Nhưng một cái gì đó đã sai khủng khiếp …**
 
@@ -68,23 +68,23 @@ Joe: “OK, có một lỗ hổng nhỏ trong thiết kế của tôi. Tôi khô
 
 Joe đã nghĩ việc sử dụng thừa kế là điều tuyệt vời cho mục đích tái sử dụng code, nhưng đã không thành công lắm khi nói đến bảo trì.
 
-![pasted](http://boxxv.com/img/patterns/pastedimage1.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage1.png "pasted")_pasted_
 
 **Joe nghĩ về kế thừa…**
 
-![pasted](http://boxxv.com/img/patterns/pastedimage2.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage2.png "pasted")_pasted_
 
 **How about an interface?**
 
 Joe nhận ra rằng sự kế thừa có lẽ không phải là câu trả lời đúng, bởi vì anh ta vừa nhận được một bản ghi chú nói rằng giám đốc điều hành hiện muốn cập nhật sản phẩm 6 tháng một lần (theo cách mà họ sẽ quyết định). Joe biết rằng yêu cầu sẽ tiếp tục thay đổi và anh ấy sẽ bị buộc phải xem xét và có thể override fly() và quack() cho mỗi lớp Vịt mới sẽ thêm vào chương trình … mãi mãi. 
 
-![pasted](http://boxxv.com/img/patterns/pastedimage3.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage3.png "pasted")_pasted_
 
-![tempsnip-2](http://boxxv.com/img/patterns/tempsnip-2.png "tempsnip-2")_tempsnip-2_
+![tempsnip-2](https://boxxv.github.io/img/patterns/tempsnip-2.png "tempsnip-2")_tempsnip-2_
 
 **Bạn nghĩ gì về thiết kế trên?**
 
-![pasted](http://boxxv.com/img/patterns/pastedimage4.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage4.png "pasted")_pasted_
 
 **Bạn sẽ làm gì nếu bạn là Joe?**
 
@@ -108,7 +108,7 @@ Chúng tôi biết việc sử dụng tính kế thừa sẽ rất hiệu quả,
 
 May mắn thay, có một nguyên tắc thiết kế cho tình huống này.
 
-![pasted](http://boxxv.com/img/patterns/pastedimage5.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage5.png "pasted")_pasted_
 
 Nói cách khác, nếu bạn có một số đoạn code đang thay đổi, hãy xem xét với tất cả những yêu cầu mới, sau đó bạn biết bạn sẽ có một hành vi cần phải được tách ra khỏi tất cả những thứ không thay đổi.
 
@@ -127,7 +127,7 @@ Bây giờ, để phân tách các phần thay đổi từ các phần không th
 Chúng ta biết rằng fly() và quack() là các thành phần có thể thay đổi giữa các con vịt.  
 Để tách các hành vi này khỏi lớp Vịt, chúng tôi sẽ lấy cả hai phương thức ra khỏi lớp Duck và tạo một tập hợp các lớp mới để thể hiện mỗi hành vi. 
 
-![tempsnip-3](http://boxxv.com/img/patterns/tempsnip-3.png "tempsnip-3")_tempsnip-3_
+![tempsnip-3](https://boxxv.github.io/img/patterns/tempsnip-3.png "tempsnip-3")_tempsnip-3_
 
 **Thiết kế hành vi của Duck**
 
@@ -140,7 +140,7 @@ Theo cách đó, các lớp Vịt không cần phải biết bất kỳ implemen
 
 Đưa ra những mục tiêu này, chúng ta hãy nhìn vào nguyên tắc thiết kế thứ hai của chúng tôi:
 
-![pasted](http://boxxv.com/img/patterns/pastedimage5.png "pasted")_Bài dịch Head first design patterns - Quy tắc thiết kế hướng đối tượngLập trình với một interface, không phải một lớp con_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage5.png "pasted")_Bài dịch Head first design patterns - Quy tắc thiết kế hướng đối tượngLập trình với một interface, không phải một lớp con_
 
 Chúng tôi sẽ sử dụng một interface để thể hiện từng hành vi – ví dụ: `FlyBehavior` và `QuackBehavior` – và mỗi lần cần một hành vi thì sẽ implement một trong những interface đó.
 
@@ -150,7 +150,7 @@ Vì vậy, lần này lớp Duck sẽ không chứa phương thức flying và q
 
 Với thiết kế mới của chúng tôi, các lớp con của Duck sẽ sử dụng một hành vi được đại diện bởi một interface (FlyBehavior và QuackBehavior), vì vậy thứ thực sự thực hiện các hành vi sẽ không bị khóa chặt trong các lớp con của Duck .
 
-![tempsnip-4](http://boxxv.com/img/patterns/tempsnip-4.png "tempsnip-4")_tempsnip-4_
+![tempsnip-4](https://boxxv.github.io/img/patterns/tempsnip-4.png "tempsnip-4")_tempsnip-4_
 
 Thắc mắc: Tôi không thấy lý do tại sao bạn phải tạo interface cho FlyBehavior. Bạn có thể làm điều tương tự với một abstract class. Interface không phải là toàn bộ cách để sử dụng đa hình đúng chứ?
 
@@ -160,7 +160,7 @@ Từ interface đã bị sử dụng quá nhiều ở đây. Có một khái ni�
 
 Dưới đây có lẽ là kiến thức cũ đối với bạn, nhưng chỉ để đảm bảo rằng tất cả chúng ta đều nói về cùng một thứ, ở đây, một ví dụ đơn giản về việc sử dụng một loại đa hình – hãy tưởng tượng một lớp Animal trừu tượng, với hai triển khai cụ thể là Dog và Cat.
 
-![tempsnip-5](http://boxxv.com/img/patterns/tempsnip-5.png "tempsnip-5")_tempsnip-5_
+![tempsnip-5](https://boxxv.github.io/img/patterns/tempsnip-5.png "tempsnip-5")_tempsnip-5_
 
 “Programming to an implementation” sẽ là:
 
@@ -193,7 +193,7 @@ Chúng tôi không biết rằng loại animal thực tế là gì … tất c�
 
 Ở đây chúng ta có hai giao diện, `FlyBehavior` và `QuackBehavior` cùng với các lớp tương ứng implement từng hành vi cụ thể:
 
-![pasted](http://boxxv.com/img/patterns/pastedimage7.png "pasted")_pasted_
+![pasted](https://boxxv.github.io/img/patterns/pastedimage7.png "pasted")_pasted_
 
 Với thiết kế này, các loại đối tượng khác có thể sử dụng lại các hành vi fly và quack, bởi vì chúng không còn bị che giấu trong các lớp Duck của chúng ta! Và chúng ta có thể thêm các hành vi mới mà không cần sửa đổi bất kỳ hành vi hiện có nào hoặc sửa đổi vào bất kỳ lớp Duck nào sử dụng hành vi fly().
 

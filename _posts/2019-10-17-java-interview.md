@@ -189,4 +189,4 @@ Tham khảo:
 )](https://codeaholicguy.com/2016/02/04/69-cau-hoi-phong-van-ve-spring-phan-cuoi//)
 - [Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question](https://giai-ma.blogspot.com/2017/04/ngan-hang-cau-hoi-phong-van-ngon-ngu.html)
 - [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
-- [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](http://boxxv.com/2019/05/19/top-20-questions-interview-and-asked/)
+- [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](https://boxxv.github.io/2019/05/19/top-20-questions-interview-and-asked/)

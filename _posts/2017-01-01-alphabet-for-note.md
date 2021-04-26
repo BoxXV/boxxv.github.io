@@ -5,7 +5,7 @@ subtitle: Tips viết chữ cho người thích viết note sạch đẹp
 image: "img/projects-bg.jpg"
 ---
 
-![placeholder](http://boxxv.com/img/posts/alphabet-for-note.jpg "Bảng Chữ Cái Cho Người Thích Note Đẹp")
+![placeholder](https://boxxv.github.io/img/posts/alphabet-for-note.jpg "Bảng Chữ Cái Cho Người Thích Note Đẹp")
 
 ### Đặc tính:
 - Các chữ cao bằng nhau
@@ -21,7 +21,7 @@ image: "img/projects-bg.jpg"
 - Viết thẳng hàng
 - Viết sai thì sửa lại luôn
 
-![placeholder](http://boxxv.com/img/posts/71198356_180636316313165_8651669721616778874_n.jpg "10 Tip for Note")
+![placeholder](https://boxxv.github.io/img/posts/71198356_180636316313165_8651669721616778874_n.jpg "10 Tip for Note")
 
 ### 10 Tip for Note
 - Chọn một quyển vở phù hợp với cách ghi bài của bạn => Miquelrius Notebook
@@ -41,10 +41,10 @@ image: "img/projects-bg.jpg"
     + Bút màu còn lại dùng để tô màu.
 
 
-![placeholder](http://boxxv.com/img/posts/note_demo_1.png "Demo 1")
-![placeholder](http://boxxv.com/img/posts/note_demo_2.png "Demo 2")
-![placeholder](http://boxxv.com/img/posts/note_demo_3.png "Demo 3")
-![placeholder](http://boxxv.com/img/posts/note_demo_4.png "Demo 4")
+![placeholder](https://boxxv.github.io/img/posts/note_demo_1.png "Demo 1")
+![placeholder](https://boxxv.github.io/img/posts/note_demo_2.png "Demo 2")
+![placeholder](https://boxxv.github.io/img/posts/note_demo_3.png "Demo 3")
+![placeholder](https://boxxv.github.io/img/posts/note_demo_4.png "Demo 4")
 
 
 -----

@@ -49,7 +49,7 @@ Năm 1994, bốn tác giả **Erich Gamma, Richard Helm, Ralph Johnson và John 
 
 Bốn tác giả trên được biết đến rộng rãi dưới tên **Gang of Four** (bộ tứ). Theo quan điểm của bốn người, design pattern chủ yếu được dựa theo những quy tắc sau đây về thiết kế hướng đối tượng.
 
-![Design Patterns](http://boxxv.com/img/patterns/design-patterns-classify.png "Design Patterns")_Design Patterns_
+![Design Patterns](https://boxxv.github.io/img/patterns/design-patterns-classify.png "Design Patterns")_Design Patterns_
 
 Hệ thống các mẫu Design pattern hiện có **23 mẫu** được định nghĩa trong cuốn "**Design patterns Elements of Reusable Object Oriented Software**" và được chia thành **3 nhóm**:
 
@@ -59,12 +59,12 @@ Hệ thống các mẫu Design pattern hiện có **23 mẫu** được định 
 
 Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
 
-![Relationships between Design Patterns](http://boxxv.com/img/patterns/relationwithpatterns2.jpg "Relationships between Design Patterns")_Relationships between Design Patterns_
+![Relationships between Design Patterns](https://boxxv.github.io/img/patterns/relationwithpatterns2.jpg "Relationships between Design Patterns")_Relationships between Design Patterns_
 
 -----
 ### 4.1. Nhóm Creational (nhóm khởi tạo)
 
-![Creational](http://boxxv.com/img/patterns/Creational.png "Creational")_Creational_
+![Creational](https://boxxv.github.io/img/patterns/Creational.png "Creational")_Creational_
 
 - [Singleton](https://gpcoder.com/4190-huong-dan-java-design-pattern-singleton/)
   - Đảm bảo 1 class chỉ có 1 instance và cung cấp 1 điểm truy xuất toàn cục đến nó.
@@ -90,7 +90,7 @@ Hình dưới là mối quan hệ giữa 23 Design Pattern cơ bản (GoF):
 -----
 ### 4.2. Nhóm Structural (nhóm cấu trúc)
 
-![Structural](http://boxxv.com/img/patterns/Structural.png "Structural")_Structural_
+![Structural](https://boxxv.github.io/img/patterns/Structural.png "Structural")_Structural_
 
 - [Adapter](https://gpcoder.com/4483-huong-dan-java-design-pattern-adapter/)
   - Do vấn đề tương thích, thay đổi interface của một lớp thành một interface khác phù hợp với yêu cầu người sử dụng lớp.
@@ -126,7 +126,7 @@ Tạo quan hệ thứ bậc bao gộp giữa các đối tượng. Client có th
 -----
 ### 4.2. Nhóm Behavioral (nhóm hành vi/ tương tác)
 
-![Behavioral](http://boxxv.com/img/patterns/Behavioral.png "Behavioral")_Behavioral_
+![Behavioral](https://boxxv.github.io/img/patterns/Behavioral.png "Behavioral")_Behavioral_
 
 - [Chain of Responsibility](https://gpcoder.com/4665-huong-dan-java-design-pattern-chain-of-responsibility/)
   - Khắc phục việc ghép cặp giữa bộ gởi và bộ nhận thông điệp. Các đối tượng nhận thông điệp được kết nối thành một chuỗi và thông điệp được chuyển dọc theo chuỗi nầy đến khi gặp được đối tượng xử lý nó. Tránh việc gắn kết cứng giữa phần tử gởi request với phần tử nhận và xử lý request bằng cách cho phép hơn 1 đối tượng có có cơ hội xử lý request. Liên kết các đối tượng nhận request thành 1 dây chuyền rồi gửi request xuyên qua từng đối tượng xử lý đến khi gặp đối tượng xử lý cụ thể.

@@ -11,7 +11,7 @@ image: "img/hello_world.jpeg"
 ### 1. [Video.js](https://videojs.com)
 [https://github.com/videojs/video.js](https://github.com/videojs/video.js)
 
-![Video.js](http://boxxv.com/img/player/videojs.jpg "Video.js")_Video.js_
+![Video.js](https://boxxv.github.io/img/player/videojs.jpg "Video.js")_Video.js_
 
 Video.js is a web video player built from the ground up for an HTML5 world. It supports HTML5 video and modern streaming formats, as well as YouTube, Vimeo, and even Flash (through plugins, more on that later).
 
@@ -25,7 +25,7 @@ It supports video playback on desktop and mobile devices. The project was starte
 ### 2. [Plyr](https://plyr.io)
 [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 
-![Plyr](http://boxxv.com/img/player/plyr.jpg "Plyr")_Plyr_
+![Plyr](https://boxxv.github.io/img/player/plyr.jpg "Plyr")_Plyr_
 
 Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player. It is lightweight, accessible and customizable and supports all modern browsers. You can access the complete source with NPM using npm install plyr.
 -   📼 **HTML Video & Audio, YouTube & Vimeo** - support for the major formats
@@ -53,7 +53,7 @@ Plyr is a customizable and straightforward HTML5, Vimeo and YouTube media player
 ### 3. [Afterglow](http://afterglowplayer.com)
 [https://github.com/moay/afterglow](https://github.com/moay/afterglow)
 
-![Afterglow](http://boxxv.com/img/player/afterglow.png "Afterglow")_Afterglow_
+![Afterglow](https://boxxv.github.io/img/player/afterglow.png "Afterglow")_Afterglow_
 
 Afterglow is a super easy to integrate HTML5 video player. It comes loaded with features without forcing you to use any of them. It's self-integrating, configurable, open source and well documented.
 - HTML5 video player
@@ -78,7 +78,7 @@ Our resolution switching component is based on videojs-resolutions by vidcaster.
 ### 4. [MediaElement.js](http://www.mediaelementjs.com)
 [https://github.com/mediaelement/mediaelement](https://github.com/mediaelement/mediaelement)
 
-![MediaElement.js](http://boxxv.com/img/player/mediaelement.jpg "MediaElement.js")_MediaElement.js_
+![MediaElement.js](https://boxxv.github.io/img/player/mediaelement.jpg "MediaElement.js")_MediaElement.js_
 
 HTML5 `<audio>` or `<video>` player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.
 
@@ -86,7 +86,7 @@ HTML5 `<audio>` or `<video>` player with support for MP4, WebM, and MP3 as well 
 ### 5. [jPlayer](http://jplayer.org)
 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
 
-![jPlayer](http://boxxv.com/img/player/jplayer.png "jPlayer")_jPlayer_
+![jPlayer](https://boxxv.github.io/img/player/jplayer.png "jPlayer")_jPlayer_
 
 jPlayer is the completely free and open source (MIT) media library written in JavaScript. A jQuery plugin, (and now a Zepto plugin,) jPlayer allows you to rapidly weave cross platform audio and video into your web pages. jPlayer's comprehensive API allows you to create innovative media solutions while support and encouragement is provided by jPlayer's active and growing community. 
 

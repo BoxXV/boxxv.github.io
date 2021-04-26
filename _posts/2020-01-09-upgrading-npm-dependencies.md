@@ -40,7 +40,7 @@ npm outdated
 
 Các phụ thuộc sẽ được liệt kê ra:
 
-![npm-outdated](http://boxxv.com/img/posts/npm-outdated.png "npm-outdated")
+![npm-outdated](https://boxxv.github.io/img/posts/npm-outdated.png "npm-outdated")
 
 Phiên bản mong muốn là phiên bản an toàn mới nhất có thể được thực hiện (theo phiên bản ngữ nghĩa và tiền tố ^ hoặc ~). Phiên bản mới nhất là phiên bản mới nhất có sẵn trong sổ đăng ký npm.
 

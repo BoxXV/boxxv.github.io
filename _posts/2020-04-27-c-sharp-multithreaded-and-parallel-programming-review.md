@@ -4,7 +4,7 @@ title: C# Multithreaded and Parallel Programming
 subtitle: Develop powerful C# applications to take advantage of today's multicore hardware
 ---
 
-![C# Multithreaded and Parallel Programming](http://boxxv.com/img/multithread/8321en_cov.jpg "C# Multithreaded and Parallel Programming")
+![C# Multithreaded and Parallel Programming](https://boxxv.github.io/img/multithread/8321en_cov.jpg "C# Multithreaded and Parallel Programming")
 
 ✅ Publisher: [Packt Publishing](https://www.packtpub.com/application-development/c-multithreaded-and-parallel-programming)
 

@@ -14,7 +14,7 @@ tags:
 
 ### 1. Ý Nghĩa
 
-![singleton](http://boxxv.com/img/patterns/singleton.png "singleton")_singleton_
+![singleton](https://boxxv.github.io/img/patterns/singleton.png "singleton")_singleton_
 
 Singleton là một mẫu thiết kế khởi tạo cho phép bạn đảm bảo rằng một lớp chỉ có một đối tượng duy nhất, trong khi cung cấp một điểm truy cập toàn cầu cho đối tượng này.
 
@@ -41,7 +41,7 @@ Chính phủ là một ví dụ tuyệt vời của mô hình Singleton. Một q
 
 -----
 ### 5. Cấu trúc
-![Structure](http://boxxv.com/img/patterns/structure-en.png "Structure")_Structure_
+![Structure](https://boxxv.github.io/img/patterns/structure-en.png "Structure")_Structure_
 
 
 -----

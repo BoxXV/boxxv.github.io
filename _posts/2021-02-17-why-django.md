@@ -65,7 +65,7 @@ Với việc sử dụng các cấu trúc ngôn ngữ tự nhiên (ví dụ: b�
 
 #### 2. Batteries Included (Bao gồm Pin)
 
-![placeholder](http://boxxv.com/img/posts/Python_batteries_included.jpg "Batteries Included")
+![placeholder](https://boxxv.github.io/img/posts/Python_batteries_included.jpg "Batteries Included")
 
 `Django` kế thừa triết lý `“bao gồm pin”` từ `Python`.
 

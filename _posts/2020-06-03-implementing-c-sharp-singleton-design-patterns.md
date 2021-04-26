@@ -14,7 +14,7 @@ tags:
 
 ### 1. Introduction
 
-![singleton](http://boxxv.com/img/patterns/singleton.png "singleton")_singleton_
+![singleton](https://boxxv.github.io/img/patterns/singleton.png "singleton")_singleton_
 
 Mẫu singleton là một trong những mẫu được biết đến nhiều nhất trong công nghệ phần mềm. Về cơ bản, singleton là một lớp chỉ cho phép tạo một thể hiện duy nhất của chính nó và thường cung cấp quyền truy cập đơn giản vào thể hiện đó. Thông thường nhất, singletons không cho phép bất kỳ tham số nào được chỉ định khi tạo cá thể - vì nếu không thì yêu cầu thứ hai cho một thể hiện nhưng với một tham số khác có thể có vấn đề! (Nếu cùng một trường hợp nên được truy cập cho tất cả các yêu cầu có cùng tham số, mẫu nhà máy phù hợp hơn.) Bài viết này chỉ đề cập đến tình huống không yêu cầu tham số. Thông thường, một yêu cầu của singletons là chúng được tạo ra một cách lười biếng - tức là trường hợp đó không được tạo cho đến khi nó cần thiết trước tiên.
 

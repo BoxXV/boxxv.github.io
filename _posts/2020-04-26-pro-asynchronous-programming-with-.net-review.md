@@ -4,7 +4,7 @@ title: Pro Asynchronous Programming with .NET
 subtitle: Asynchronous programming is an essential skill for the modern .NET developer. Pro Asynchronous Programming with .NET is your guide to using this important programming model to build responsive and scalable applications anywhere on the .NET platform.
 ---
 
-![Pro Asynchronous Programming with .NET](http://boxxv.com/img/multithread/71mFOtFqTNL.jpg "Pro Asynchronous Programming with .NET")
+![Pro Asynchronous Programming with .NET](https://boxxv.github.io/img/multithread/71mFOtFqTNL.jpg "Pro Asynchronous Programming with .NET")
 
 ✅ Publisher: [Apress](http://www.apress.com/9781430259206)
 

@@ -6,7 +6,7 @@ email: tanvd357@gmail.com
 description: "Programming Blog"
 baseurl: ""
 author: "Tan Vu"
-url: "http://boxxv.com"
+url: "https://boxxv.github.io"
 twitter_username: vu_duc_tan
 github_username: boxxv
 facebook_username: TAn3685
@@ -30,6 +30,6 @@ highlighter: rouge
 safe: false # safe need to be off for local preview
 lsi: false
 permalink: pretty
-paginate: 5
+paginate: 15
 exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md"]
 keep_files: []

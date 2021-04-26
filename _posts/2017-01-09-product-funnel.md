@@ -5,7 +5,7 @@ subtitle: Product Funnel structure
 image: "img/projects-bg.jpg"
 ---
 
-![placeholder](http://boxxv.com/img/posts/product_funnel.png "Cấu trúc xây dựng Phễu Sản phẩm")
+![placeholder](https://boxxv.github.io/img/posts/product_funnel.png "Cấu trúc xây dựng Phễu Sản phẩm")
 
 ✅ Sản phẩm Miễn phí Free (trải nghiệm)  
 ✅ Sản phẩm Giá rẻ (up salse)  

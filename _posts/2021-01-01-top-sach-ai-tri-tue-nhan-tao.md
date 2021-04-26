@@ -12,35 +12,35 @@ Trí tuệ nhân tạo (AI) đã được ứng dụng rất nhiều trên thế
 
 ### Artificial Intelligence: A Modern Approach (4th Edition)
 
-![placeholder](http://boxxv.com/img/ai/51IxpHRWi7L._SX393_BO1,204,203,200_.jpg "Artificial Intelligence: A Modern Approach")
+![placeholder](https://boxxv.github.io/img/ai/51IxpHRWi7L._SX393_BO1,204,203,200_.jpg "Artificial Intelligence: A Modern Approach")
 
 Luôn đứng đầu trong danh sách được đề cử, top 5 cuốn sách bán chạy nhất về trí tuệ nhân tạo trên Amazon, Artificial Intelligence: A Modern Approach của Stuart Russell và Peter Norvig được coi là “sách giáo khoa về trí tuệ nhân tạo phổ biến nhất trên thế giới”. Đặc biệt, ở phiên bản thứ tư này, tác giả đã cập nhật những công nghệ mới nhất và hệ thống kiến thức toàn diện hơn về học máy, học sâu, học chuyển giao, hệ thống Multi Agent, robot, xử lý ngôn ngữ tự nhiên, lập trình xác suất, trí tuệ nhân tạo an toàn, công bằng và bảo mật.
 
 
 ### Artificial Intelligence By Example: Acquire advanced AI, machine learning, and deep learning design skills
 
-![placeholder](http://boxxv.com/img/ai/51zx-V7+8ML.jpg "Artificial Intelligence By Example")
+![placeholder](https://boxxv.github.io/img/ai/51zx-V7+8ML.jpg "Artificial Intelligence By Example")
 
 Với các ví dụ thực tế và các nghiên cứu điển hình, Artificial Intelligence By Example của Denis Rothman đóng vai trò như là điểm khởi đầu để bạn có thể hiểu cách mà trí tuệ nhân tạo hoạt động. Thông qua cuốn sách này, bạn có thể nắm bắt được các mô hình học máy tiên tiến nhất, hiểu cách áp dụng AI vào Blockchain và IoT, đồng thời phát triển chỉ số cảm xúc (EQ) trong chatbot ứng dụng mạng nơ ron. Cuối cùng, cuốn sách này sẽ giúp bạn phát triển tư duy ứng dụng để giải quyết các vấn đề AI trong thực tế.
 
 
 ### Life 3.0: Being Human in the Age of Artificial Intelligence
 
-![placeholder](http://boxxv.com/img/ai/41-KHndhtVL._SX337_BO1,204,203,200_.jpg "Life 3.0: Being Human in the Age of Artificial Intelligence")
+![placeholder](https://boxxv.github.io/img/ai/41-KHndhtVL._SX337_BO1,204,203,200_.jpg "Life 3.0: Being Human in the Age of Artificial Intelligence")
 
 Life 3.0: Being Human in the Age of Artificial Intelligence là một tác phẩm của Max Tegmark nói về sự trỗi dậy của AI hiện nay. Ở đây, tác giả tập trung phân tích những vấn đề xoay quanh việc làm thế nào để phát triển cuộc sống bằng cách tự động hóa mà không gia tăng tỉ lệ thất nghiệp của con người, làm thế nào để đảm bảo các hệ thống AI trong tương lai hoạt động theo dự kiến mà không bị trục trặc hay bị tấn công, và làm thế nào để trở nên hùng mạnh dựa trên AI mà không bị các “cỗ máy sát thương tự động” này vượt mặt.
 
 
 ### A Course of Machine Learning
 
-![placeholder](http://boxxv.com/img/ai/41Dg1LNcwvL.jpg "A Course of Machine Learning")
+![placeholder](https://boxxv.github.io/img/ai/41Dg1LNcwvL.jpg "A Course of Machine Learning")
 
 Đây là cuốn sách được viết bởi Hal Daumé III. Cuốn sách khá tốt cho bất cứ ai mới bắt đầu nghiên cứu về học máy. Nội dung cuốn sách rất cô đọng và cung cấp đầy đủ những khái niệm đầu tiên về học máy. Với dung lượng gần 200 trang, A Course of Machine Learning giải thích đầy đủ các khái niệm về cây quyết định, các mô hình học máy dựa trên thống kê, mạng nơron... Bên cạnh đó, cuốn sách cũng cung cấp cho bạn đọc những khái niệm ban đầu về các mô hình học có giám sát, học không giám sát, nửa giám sát và một số mô hình ứng dụng trong thực tế của học máy.
 
 
 ### Programming Collective Intelligence
 
-![placeholder](http://boxxv.com/img/ai/sachhocmay-(2).jpg "Programming Collective Intelligence")
+![placeholder](https://boxxv.github.io/img/ai/sachhocmay-(2).jpg "Programming Collective Intelligence")
 
 Được biết đến rộng rãi như là một trong những cuốn sách hay nhất để bắt đầu tìm hiểu về học máy. Cuốn sách của tác giả Segaran xứng đáng được coi là "gối đầu giường" cho bất cứ ai tìm hiểu về học máy.
 
@@ -49,7 +49,7 @@ Cuốn sách được viết rất lâu trước khi khoa học dữ liệu và 
 
 ### Python Machine Learning
 
-![placeholder](http://boxxv.com/img/ai/51YEg2lDZ4L._SX404_BO1,204,203,200_.jpg "Life 3.0: Being Human in the Age of Artificial Intelligence")
+![placeholder](https://boxxv.github.io/img/ai/51YEg2lDZ4L._SX404_BO1,204,203,200_.jpg "Life 3.0: Being Human in the Age of Artificial Intelligence")
 
 Cuốn sách do Sebastian Raschka viết, có nội dung nói về việc sử dụng Python trong một số ví dụ cụ thể thực tế, với các nội dung:
 
@@ -62,63 +62,63 @@ Cuốn sách do Sebastian Raschka viết, có nội dung nói về việc sử d
 
 ### Machine Learning
 
-![placeholder](http://boxxv.com/img/ai/41nTpcpgmiL._SX330_BO1,204,203,200_.jpg "Programming Collective Intelligence")
+![placeholder](https://boxxv.github.io/img/ai/41nTpcpgmiL._SX330_BO1,204,203,200_.jpg "Programming Collective Intelligence")
 
 Đây là một trong những cuốn sách kinh điển nhất về học máy của tác giả Tom M. Mitchell, được sử dụng làm giáo trình cho rất nhiều trường đại học nổi tiếng trên thế giới. Cuốn sách này sẽ giới thiệu cho bạn đọc những kiến thức, khái niệm chuyên sâu, những định lý trong học máy, cách giải mã của một số thuật toán học máy. Cuốn sách cũng cung cấp một số ví dụ đơn giản để người đọc có thể hiểu rõ hơn về các thuật toán.
 
 
 ### To Be a Machine (tạm dịch: Để trở thành một cỗ máy) – Mark O’Connell
 
-![placeholder](http://boxxv.com/img/ai/9780385540414.jpg "To Be a Machine")
+![placeholder](https://boxxv.github.io/img/ai/9780385540414.jpg "To Be a Machine")
 
 Sự hiện diện ngày càng gia tăng của robot và trí tuệ nhân tạo trong xã hội loài người chỉ là một trong những vấn đề mà O’Connell bàn luận trong cuốn sách này. To Be a Machine đem tới cái nhìn rõ nét về các quan điểm trái chiều của những người đang tìm cách dùng công nghệ để kéo dài tuổi thọ và đạt được sự bất tử. Ngay cả nếu bạn chưa sẵn sàng, thì câu chuyện O’Connell viết về hành trình của Zoltan Istvan, nhà tư tưởng theo thuyết Siêu Nhân Học, vẫn rất đáng đọc!
 
 
 ### Thinking Machines (tạm dịch: Máy móc Suy nghĩ) – Luke Dormehl
 
-![placeholder](http://boxxv.com/img/ai/9780143130581.jpg "To Be a Machine")
+![placeholder](https://boxxv.github.io/img/ai/9780143130581.jpg "To Be a Machine")
 
 Tác phẩm về công nghệ của Luke Dormehl bao gồm mọi thứ, từ lịch sử của Apple, cho đến vai trò của thuật toán trong cuộc sống hàng ngày của chúng ta. Trong Thinking Machines, Dormehl điểm lại hàng thập niên phát triển của trí tuệ nhân tạo, xem xét những dự đoán về ngành này trong quá khứ, cũng như việc nó chiếm trọn cuộc sống nhiều người, theo cách này hay cách khác.
 
 
 ### The Most Human Human (tạm dịch: Con người giống người nhất) – Brian Christian
 
-![placeholder](http://boxxv.com/img/ai/9780307476708.jpg "The Most Human Human")
+![placeholder](https://boxxv.github.io/img/ai/9780307476708.jpg "The Most Human Human")
 
 Sách của Brian Humanist có xuất phát điểm là Phép thử Turing nhằm xác định liệu một máy tính có thể trả lời các câu hỏi như một con người thật hay không. Nó là một cuộc thi thường niên, với trao giải thưởng dành cho “The Most Human Human”. Christian, một người tham gia, đã dùng cuộc thi như một phương tiện để khám phá những thay đổi trong nhận thức về con người và về trí tuệ.
 
 
 ### Wired for War (tạm dịch: Kết nối cho chiến tranh) – P. W. Singer
 
-![placeholder](http://boxxv.com/img/ai/9780143116844.jpg "Wired for War")
+![placeholder](https://boxxv.github.io/img/ai/9780143116844.jpg "Wired for War")
 
 Khi tìm lời giải cho những câu hỏi về người máy và trí tuệ nhân tạo, không nên bỏ qua cách mà hai khái niệm này được dùng trong chiến đấu. Wired For War đã đào sâu vào chủ đề này, dựa trên kinh nghiệm của tác giả khi làm việc tại Viện Brookings, và khám phá những tiến bộ công nghệ sẽ định hình cách mà các quốc gia sẽ ra chiến trường.
 
 
 ### Heartificial Intelligence – John C. Havens
 
-![placeholder](http://boxxv.com/img/ai/9780399171710.jpg "Heartificial Intelligence")
+![placeholder](https://boxxv.github.io/img/ai/9780399171710.jpg "Heartificial Intelligence")
 
 Thuật toán ngày càng điều khiển cuộc sống hàng ngày của nhiều người – từ những gì xuất hiện trên news feed mạng xã hội, cho đến những món hàng khi mua sắm online, và nhiều hơn thế nữa. Chúng cũng có tác động đến quá trình tự động hóa sản xuất, làm ảnh hưởng đến công việc của phần lớn dân số. Trong cuốn sách của Havens, tác giả khám phá những hàm ý và đạo đức liên quan đến các thuật toán, và những hệ quả của chúng.
 
 
 ### Our Robots, Ourselves (tạm dịch: Robot của chúng ta, Bản thân chúng ta) – David A. Mindell
 
-![placeholder](http://boxxv.com/img/ai/9780525426974.jpg "Our Robots, Ourselves")
+![placeholder](https://boxxv.github.io/img/ai/9780525426974.jpg "Our Robots, Ourselves")
 
 David A. Mindell, giảng viên tại MIT, đã đưa ra một số câu hỏi đáng suy ngẫm trong Our Robots, Ourselves – gồm cả vấn đề về mối quan hệ cộng sinh giữa con người và robot. Ông lần lượt đi qua các câu hỏi về cơ giới hoá và tự động hóa, và đưa ra một loạt các câu trả lời có liên quan sâu sắc đến cuộc thảo luận đang diễn ra trong lĩnh vực công nghệ và chính trị.
 
 
 ### Robot Uprisings (tạm dịch: Robot nổi dậy)- Daniel H. Wilson và John Joseph Adams (Biên soạn)
 
-![placeholder](http://boxxv.com/img/ai/9780345803634.jpg "Robot Uprisings")
+![placeholder](https://boxxv.github.io/img/ai/9780345803634.jpg "Robot Uprisings")
 
 Có thể tác phẩm về những tiến bộ công nghệ này sẽ không thuyết phục được bạn. Nhưng cũng có thể bạn tin rằng robot thực sự có thể nổi dậy. Từ các tác phẩm điện ảnh The Matrix và Battlestar Galactica, đến Westworld và Human, điều ấy đã là trở thành khái niệm văn hóa đại chúng khó lòng thay đổi. Nếu là vậy, tập truyện ngắn về những cuộc nổi dậy của robot – với các cây bút như Charles Yu, Robin Wasserman, và Cory Doctorow – có thể trở thành cuốn sách yêu thích tiếp theo của bạn. (Hoặc một thứ khiến bạn mất ngủ cả đêm.)
 
 
 ### Trí tuệ Nhân Tạo Trong Marketing
 
-![placeholder](http://boxxv.com/img/ai/Bia-Tri-tue-nhan-tao-trong-marketing.jpg "Trí tuệ Nhân Tạo Trong Marketing")
+![placeholder](https://boxxv.github.io/img/ai/Bia-Tri-tue-nhan-tao-trong-marketing.jpg "Trí tuệ Nhân Tạo Trong Marketing")
 
 Trí tuệ nhân tạo đang có những phát triển vượt bậc trong những năm vừa qua, đem đến cả cơ hội và thách thức cho mọi lĩnh vực. Marketing cũng không phải là ngoại lệ. Trí tuệ nhân tạo hứa hẹn giúp các chuyên gia marketing nghiên cứu thị trường chính xác hơn, tiếp cận dữ liệu lớn trong giây lát, và đáp ứng nhu cầu của khách hàng 24/7. Nhưng làm thế nào để tận dụng hiệu quả tiến bộ công nghệ này trong marketing? Những tác động của AI đến các lĩnh vực khác nhau như thế nào? Bạn sẽ tìm thấy câu trả lời toàn diện nhất trong cuốn sách gối đầu giường của mọi chiến lược gia marketing thời 4.0: Trí tuệ nhân tạo trong marketing.
 Những ngành nghề và châu lục sẽ được phân tích trực tiếp bao gồm: khu vực châu Á — Thái Bình Dương với ngành du lịch; khu vực châu u với ba ngành mà AI đang tạo ra sự đổi lớn: viễn thông, ngân hàng và môi trường xây dựng (bao gồm bất động sản, xây dựng và quản lý cơ sở vật chất); khu vực Bắc Mỹ, Anh với ngành ngân hàng và bán lẻ; cuối cùng là khu vục Trung Đông với ngành công nghệ.
@@ -136,7 +136,7 @@ Mục lục:
 
 ### Ứng dụng trí tuệ nhân tạo để dẫn đầu
 
-![placeholder](http://boxxv.com/img/ai/41ki8XtYZVL.jpg "Ứng dụng trí tuệ nhân tạo để dẫn đầu")
+![placeholder](https://boxxv.github.io/img/ai/41ki8XtYZVL.jpg "Ứng dụng trí tuệ nhân tạo để dẫn đầu")
 
 “Ứng dụng Trí tuệ Nhân Tạo để dẫn đầu” là một góc nhìn hấp dẫn về cách các công ty ứng dụng AI và Học Máy (Machine Learning) để giải quyết vấn đề trong kinh doanh. Giới thiệu 50 câu chuyện thực tế với những tình huống thực tế, cuốn sách này mô tả cách thức AI được ứng dụng vào thực tế nhằm giải quyết những vấn đề mà các doanh nghiệp trên toàn cầu phải đối mặt. Lĩnh vực trí tuệ nhân tạo đã phát triển vượt ra ngoài khuôn khổ phòng thí nghiệm cũng như các khoa khoa học máy tính và thâm nhập vào môi trường kinh doanh chính thống. Trí tuệ nhân tạo và Học Máy được đề cập tới như là xu hướng kinh doanh hiện đại quan trọng nhất để thúc đẩy thành công. Nó được sử dụng trong các lĩnh vực từ ngân hàng, tài chính đến truyền thông xã hội và marketing. Công nghệ này tiếp tục cung cấp các giải pháp đổi mới cho các doanh nghiệp thuộc mọi quy mô, mọi lĩnh vực và mọi ngành công nghiệp. Cuốn sách chuyên đề hấp dẫn này khám phá rất nhiều trường hợp minh họa về cách thức các doanh nghiệp sử dụng AI để đẩy mạnh hiệu suất và tính hiệu quả, phân tích sở thích thị trường và nhiều trường hợp khác.
 Chuyên gia AI nổi tiếng, đồng thời cũng là tác giả có sách bán chạy nhất — Bernard Marr hé mở cách thức công nghệ Machine Learning đang thay đổi cách thức kinh doanh của các doanh nghiệp. Những ví dụ được kiểm chứng một cách chi tiết này cung cấp cho chúng ta một cái nhìn tổng quan về từng công ty, mô tả vấn đề cụ thể và giải thích cách AI đơn giản hóa các quyết định. Mỗi câu chuyện thực tế sẽ cho ta biết góc nhìn toàn diện, bao gồm một số chi tiết kỹ thuật cũng như tóm tắt những điều mà ta có thể học hỏi được:
@@ -151,7 +151,7 @@ Cuốn sách “Ứng dụng Trí tuệ nhân tạo để dẫn đầu: 50 câu 
 
 ### Cuộc cách mạng AI
 
-![placeholder](http://boxxv.com/img/ai/MvcAaviTzTaPSDve.jpg "Cuộc cách mạng AI")
+![placeholder](https://boxxv.github.io/img/ai/MvcAaviTzTaPSDve.jpg "Cuộc cách mạng AI")
 
 Ngày nay, sự thay đổi về công nghệ đang diễn ra với tốc độ chóng mặt và theo dự đoán, chỉ trong vòng hai đến ba thập niên nữa, nhân loại sẽ trải qua nhiều thay đổi hơn một nghìn năm trước đây cộng lại. Những thay đổi ở cường độ này thường mang lại nhiều cơ hội đáng kinh ngạc, nó cũng tác động đến nhiều khía cạnh của xã hội và thậm chí trong nhiều trường hợp còn mang tới bạo lực.
 Mạng Internet, các phương tiện truyền thông xã hội và những chiếc điện thoại thông minh đã mang đến cho chúng ta email, ảnh tự sướng, hashtag và YouTube; nhưng chúng cũng là tác nhân dẫn đến “mùa xuân Ả Rập”, sự lan truyền của ISIS, Wikileaks, chương trình PRISM của NSA (Cơ quan An ninh Quốc gia Hoa Kỳ) và làn sóng “chiếm phố Wall” trên toàn cầu. Các phương tiện truyền thông xã hội đã cho chúng ta Facebook và Twitter, và những ứng dụng này rất có thể là lý do chính đưa Barack Obama đến chức Tổng thống vào năm 2008, nhưng đồng thời cũng tạo điều kiện cho những lời phỉ báng chủng tộc và hăm dọa tồi tệ nhất trong lịch sử hiện đại. Nó đã tạo ra làn sóng bắt nạt trực tuyến gây hại cho rất nhiều nạn nhân, đồng thời phơi bày thông tin cá nhân của các nhân vật nổi tiếng lẫn các cơ quan bí mật của chính phủ.
@@ -162,7 +162,7 @@ Cuộc cách mạng AI của tác giả Brett King sẽ cho chúng ta một cái
 
 ### AI Trong Cuộc Cách Mạng Công Nghệ 4.0
 
-![placeholder](http://boxxv.com/img/ai/image_180164.png "AI Trong Cuộc Cách Mạng Công Nghệ 4.0")
+![placeholder](https://boxxv.github.io/img/ai/image_180164.png "AI Trong Cuộc Cách Mạng Công Nghệ 4.0")
 
 AI giờ đây đã không còn là khái niệm xa lạ nữa. Nó có mặt ở mọi nơi: trong điện thoại, trong xe ô tô, trong những trải nghiệm mua sắm, ứng dụng hẹn hò, ở trong bệnh viện, ngân hàng hay ở trên các tin tức. Một cuộc chạy đua về AI đang diễn ra trên phạm vi toàn cầu. Mọi giám đốc doanh nghiệp, những nhà quản lý, người khởi nghiệp, nhà đầu tư, tư vấn viên, nhà hoạch định chính sách đều gấp rút học hỏi, phát triển và sở hữu trí thông minh nhân tạo, bởi họ hiểu rằng nó sẽ tạo ra những thay đổi đột phá lên doanh nghiệp và tổ chức của họ.
 
@@ -179,7 +179,7 @@ Nhiều người sợ hãi rằng sự phát triển của AI sẽ khiến chún
 
 ### Tôi, tương lai và thế giới
 
-![placeholder](http://boxxv.com/img/ai/d1e1d65a881c7f764fff8fd9c3536773.jpg "AI Trong Cuộc Cách Mạng Công Nghệ 4.0")
+![placeholder](https://boxxv.github.io/img/ai/d1e1d65a881c7f764fff8fd9c3536773.jpg "AI Trong Cuộc Cách Mạng Công Nghệ 4.0")
 
 Công nghệ 4.0, nơi luật tiến hóa của vạn vật sẽ là tấm lưới chọn lọc những ai tồn tại. Đó không phải người thông minh nhất, cũng không phải người mạnh nhất hay nhanh nhất mà là người có khả năng thích nghi cao nhất. Với sự phát triển vượt bậc của công nghệ. Ở thời đại này, người trẻ đã từ lâu không chỉ là tương lai nữa. Họ là những nhà lãnh đạo của hiện tại, và là người mang trong mình những kỳ vọng lớn lao với sứ mệnh sinh tồn trong kỷ nguyên kỹ thuật số.
 
@@ -200,7 +200,7 @@ Nếu không muốn bị đào thải, chắc chắn cuốn sách này sẽ là 
 
 ### Chạy đua với Robot
 
-![placeholder](http://boxxv.com/img/ai/f747fb98291635ca81222c1e0eec0ec6.jpg "Chạy đua với Robot")
+![placeholder](https://boxxv.github.io/img/ai/f747fb98291635ca81222c1e0eec0ec6.jpg "Chạy đua với Robot")
 
 Tương tự như “Tôi, tương lai và thế giới” và “Cuộc cách mạng AI”, Chạy đua với Robot cũng đề cập đến các thách thức của con người khi cuộc chạy đua AI đang diễn ra trên phạm vi toàn cầu. Tuy nhiên quyển sách khai thác sâu hơn về lĩnh vực khoa học robot đang tạo ra thế hệ máy móc tối tân nhất trong lịch sử.
 
@@ -215,7 +215,7 @@ Joseph E. Aoun viết cuốn sách này với mục đích để đảm bảo r�
 
 ### Tạo lập mối quan hệ trong kỷ nguyên số
 
-![placeholder](http://boxxv.com/img/ai/450x420.png "Tạo lập mối quan hệ trong kỷ nguyên số")
+![placeholder](https://boxxv.github.io/img/ai/450x420.png "Tạo lập mối quan hệ trong kỷ nguyên số")
 
 Hơn ai hết, chúng ta – những bạn trẻ đang sống dưới kỷ nguyên mới – kỷ nguyên cách mạng 4.0 sẽ hiểu rất rõ sự thâm nhập, ảnh hưởng của công nghệ trong cuộc sống hằng ngày. Công nghệ phát triển kéo theo sự thay đổi về thói quen sinh hoạt cũng như tâm sinh lý của con người.
 
@@ -228,7 +228,7 @@ Kỷ nguyên cách mạng 4.0 còn là nơi mà chúng ta có khao khát thể h
 
 ### Phát Minh Cuối Cùng – James Barrat
 
-![placeholder](http://boxxv.com/img/ai/phat-minh-cuoi-cung.jpg "Phát Minh Cuối Cùng")
+![placeholder](https://boxxv.github.io/img/ai/phat-minh-cuoi-cung.jpg "Phát Minh Cuối Cùng")
 
 Chỉ trong một thập kỷ, AI có thể đạt ngang ngửa và sau đó vượt qua trí thông minh của con người. Các công ty và cơ quan chính phủ đang rót hàng tỷ đô-la để thu được một AI với trí thông minh ở cấp độ con người. Một khi AI đã phát triển đến mức này, các nhà khoa học lập luận rằng, nó sẽ có những động lực sống giống như con người. Chúng ta có thể sẽ buộc phải cạnh tranh với một kẻ thù ngoan cường hơn, mạnh mẽ hơn và khác biệt hơn chúng ta tưởng tượng.
 
@@ -237,28 +237,28 @@ Thông qua việc phỏng vấn với những người có tầm nhìn xa về c
 
 ### Nhấn Nút Tái Tạo – Satya Nadella
 
-![placeholder](http://boxxv.com/img/ai/nxbtre_full_13522017_125229.jpg "Phát Minh Cuối Cùng")
+![placeholder](https://boxxv.github.io/img/ai/nxbtre_full_13522017_125229.jpg "Phát Minh Cuối Cùng")
 
 Nhấn nút tái tạo là câu chuyện kể về sự thay đổi rất riêng, cuộc chuyển mình xảy ra bên trong Microsoft, và làn sóng công nghệ đột phá và thú vị đang ập tới nhân loại – bao gồm Trí Tuệ Nhân Tạo, Thực Tại Kết Hợp và Vi Tính Lượng Tử. Cuốn sách mổ xẻ cách con người và các tổ chức, xã hội có thể, và phải thay đổi, phải “nhấn nút tái tạo” trong nỗ lực không ngừng tìm kiếm năng lượng mới, ý tưởng mới và tiếp tục làm mới mình để vẫn còn tiếp tục có ý nghĩa. Tuy vậy, trọng tâm của nó vẫn là con người, và làm thế nào để một trong những giá trị cốt yếu của chúng ta – sự cảm thông – sẽ trở nên giá trị hơn trong một thế giới mà sự phát triển công nghệ sẽ làm thay đổi những giá trị hiện hữu hơn bao giờ hết.
 
 
 ### Trí Tuệ Nhân Tạo – Jack Challoner
 
-![placeholder](http://boxxv.com/img/ai/img578_7.jpg "Phát Minh Cuối Cùng")
+![placeholder](https://boxxv.github.io/img/ai/img578_7.jpg "Phát Minh Cuối Cùng")
 
 Trí tuệ nhân tạo là gì? Liệu có thể tạo cho những chiếc máy tính, những con rôbốt năng lực trí tuệ hay ý thức của con người được không? Phải chăng trong tương lai, con người có thể đàm thoại được với máy tính, một việc mà chỉ có thể làm được giữa người với người? Một ngày nào đó liệu máy tính có thể trở thành nghệ sĩ, chính trị gia, thầy giáo hay chúng chỉ luôn là những người hầu điện tử chẳng có tâm trí. Các nhà khoa học có làm được điều đó không và họ bắt đầu như thế nào trong việc tiến tới phát triển trí tuệ nhân tạo? Đây là cuốn cẩm nang dành cho người bắt đầu tìm hiểu về người máy và trí tuệ nhân tạo.
 
 
 ### Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề
 
-![placeholder](http://boxxv.com/img/ai/578_p4767.jpg "Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề")
+![placeholder](https://boxxv.github.io/img/ai/578_p4767.jpg "Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề")
 
 Cuốn sách viết về trí tuệ nhân tạo: các cấu trúc & chiến lược giải quyết vấn đề này là một công trình nghiên cứu kỹ lưỡng về những nền tảng của trí tuệ nhân tạo. Cuốn sách kết hợp một cách nhuần nhuyễn giữa nền tảng lý thuyết của giải quyết vấn đề thông minh với những cấu trúc dữ liệu và thuật toán cần thiết cho việc cài đặt nó. Cuốn sách này rất cần thiết cho các sinh viên ngành công nghệ thông tin, các chuyên viên làm công tác phần mềm.
 
 
 ### Trí Tuệ Nhân Tạo: Các Phương Pháp Giải Quyết Vấn Đề Và Kỹ Thuật Xử Lý Tri Thức
 
-![placeholder](http://boxxv.com/img/ai/irr1556779148.jpg "Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề")
+![placeholder](https://boxxv.github.io/img/ai/irr1556779148.jpg "Trí Tuệ Nhân Tạo: Các Cấu Trúc & Chiến Lược Giải Quyết Vấn Đề")
 
 Cuốn sách này trình bày nội dung của môn học “Trí tuệ Nhân tạo”, một môn cơ sở chuyên ngành trong chương trình đào tạo kỹ sư Tin học. Ở đây, sinh viên được làm quen với một số kiến thức cơ bản nhất về các phương pháp giải quyết vấn đề (Problem solving) và kỹ thuật xử lý tri thức. Chúng sẽ giúp cho bạn có được nền tảng để có thể đi sâu vào các chuyên đề khác, như phần mềm dạy học thông minh, hệ chuyên gia, hệ trợ giúp ra quyết định…
 
