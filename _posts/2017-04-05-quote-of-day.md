@@ -15,11 +15,12 @@ tags: [books, shakespeare, test]
 <em>\- TS Lê Thẩm Dương \-</em>
 
 
-"Ra xã hội làm ăn bươn chải, liều thì ăn nhiều, không liều thì ăn ít.
-Muốn thành công thì phải chấp nhận trải qua đắng cay ngọt bùi. Làm ăn muốn kiếm được tiền thì phải chấp nhận mạo hiểm, nguy hiểm một tí nhưng trong tầm kiểm soát.
-Xã hội này, chỉ có làm, chịu khó cần cù thì bù siêng năng.
-Chỉ có làm thì mới có ăn.
-Những cái loại không làm mà đòi có ăn thì ăn đầu bu*i nhá, ăn cứt. Thế cho nó dễ!"
+> "Ra xã hội làm ăn bươn chải, liều thì ăn nhiều, không liều thì ăn ít.
+> Muốn thành công thì phải chấp nhận trải qua đắng cay ngọt bùi. Làm ăn muốn kiếm được tiền thì phải chấp nhận mạo hiểm, nguy hiểm một tí nhưng trong tầm kiểm soát.
+> Xã hội này, chỉ có làm, chịu khó cần cù thì bù siêng năng.
+> Chỉ có làm thì mới có ăn.
+> Những cái loại không làm mà đòi có ăn thì ăn đầu bu*i nhá, ăn cứt. Thế cho nó dễ!"
+
 <em>\- Huấn Rose \-</em>
 
 
