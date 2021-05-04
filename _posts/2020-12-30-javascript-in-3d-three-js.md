@@ -9,6 +9,14 @@ tags:
 - 3D
 ---
 
+## Scene
+Bạn có thể thấy từ `Scene` được đề cập trong tài liệu. Đây chỉ đơn giản là nơi mọi thứ diễn ra. Nói cách khác, đó là không gian 3D x, y, z của bạn.
+
+![Scene](https://boxxv.github.io/img/posts/scene.png "Scene")_Scene_
+
+
+
+
 
 -----
 ## Materials
