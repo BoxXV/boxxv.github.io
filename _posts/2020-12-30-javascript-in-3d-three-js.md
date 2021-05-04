@@ -38,7 +38,7 @@ Scene không được tự động chiếu sáng và đó là thứ bạn cần 
 
 ![Geometry](https://boxxv.github.io/img/posts/geometry.png "Geometry")
 
-![Geometry](https://boxxv.github.io/img/posts/geometry2.png "Geometry")_Geometry_
+![Geometry](https://boxxv.github.io/img/posts/geometry2.jpeg "Geometry")_Geometry_
 
 
 -----
@@ -205,3 +205,5 @@ const material = new THREE.MeshStandardMaterial({
 -----
 Tham khảo:
 - [JavaScript in 3D: an Introduction to Three.js](https://medium.com/javascript-in-plain-english/javascript-in-3d-an-introduction-to-three-js-780f1e4a2e6d)
+- [Three.js Tutorial – How to Render 3D Objects in the Browser](https://www.freecodecamp.org/news/render-3d-objects-in-browser-drawing-a-box-with-threejs/)
+- [Understanding the Core Concepts of react-three-fiber](https://victorscholz.medium.com/understanding-the-core-concepts-of-react-three-fiber-27f3fcfef0)
