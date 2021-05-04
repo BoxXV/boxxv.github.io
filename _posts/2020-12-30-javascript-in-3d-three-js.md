@@ -36,7 +36,9 @@ Scene không được tự động chiếu sáng và đó là thứ bạn cần 
 ## Geometry
 `Geometry` là cách các hình dạng cụ thể được gán cho lưới trong cảnh của bạn. Hình cầu, hình hộp, hình nón và hình trụ chỉ là một số ít các vật thể có thể được tạo ra. Bạn có thể tìm thấy danh sách đầy đủ ở đây trong tài liệu.
 
-![Geometry](https://boxxv.github.io/img/posts/geometry.png "Geometry")_Geometry_
+![Geometry](https://boxxv.github.io/img/posts/geometry.png "Geometry")
+
+![Geometry](https://boxxv.github.io/img/posts/geometry2.png "Geometry")_Geometry_
 
 
 -----
