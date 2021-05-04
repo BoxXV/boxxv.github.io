@@ -27,6 +27,14 @@ Scene không được tự động chiếu sáng và đó là thứ bạn cần 
 ![Light](https://boxxv.github.io/img/posts/light.jpeg "Light")_Light_
 
 
+## Mesh
+`Mesh` là những gì chúng ta đặt vào cảnh của mình tại một tọa độ cụ thể. Nó chấp nhận một hình học để chỉ định hình dạng của đối tượng của bạn, một `material` cho các hiệu ứng mức bề mặt và nó cho phép đính kèm các trình xử lý sự kiện để bạn có thể tương tác với nó.
+
+![Scene](https://boxxv.github.io/img/posts/mesh.png "Scene")_Scene_
+
+
+
+
 -----
 ## Materials
 _Vật liệu, Chất liệu_
