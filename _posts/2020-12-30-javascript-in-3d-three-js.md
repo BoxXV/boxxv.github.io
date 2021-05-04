@@ -21,6 +21,12 @@ Bây giờ bạn đã có scene của mình, `Camera` là cách nó được xem
 ![Camera](https://boxxv.github.io/img/posts/camera.jpeg "Camera")_Camera_
 
 
+## Light
+Scene không được tự động chiếu sáng và đó là thứ bạn cần thêm theo cách thủ công. Tất cả các loại khác nhau trong hình ảnh dưới đây sẽ thay đổi cách đối tượng của bạn xuất hiện trong Scene của bạn. Ánh sáng xung quanh đến từ mọi hướng, ánh sáng định hướng đến từ một phía, ánh sáng điểm đến từ một điểm cụ thể ở một phía và ánh sáng điểm gần giống với ánh sáng điểm trong thế giới thực.
+
+![Light](https://boxxv.github.io/img/posts/light.jpeg "Light")_Light_
+
+
 -----
 ## Materials
 _Vật liệu, Chất liệu_
