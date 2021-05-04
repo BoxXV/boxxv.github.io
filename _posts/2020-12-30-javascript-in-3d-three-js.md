@@ -30,7 +30,7 @@ Scene không được tự động chiếu sáng và đó là thứ bạn cần 
 ## Mesh
 `Mesh` là những gì chúng ta đặt vào cảnh của mình tại một tọa độ cụ thể. Nó chấp nhận một hình học để chỉ định hình dạng của đối tượng của bạn, một `material` cho các hiệu ứng mức bề mặt và nó cho phép đính kèm các trình xử lý sự kiện để bạn có thể tương tác với nó.
 
-![Scene](https://boxxv.github.io/img/posts/mesh.png "Scene")_Scene_
+![Mesh](https://boxxv.github.io/img/posts/mesh.png "Mesh")_Mesh_
 
 
 ## Geometry
@@ -39,13 +39,14 @@ Scene không được tự động chiếu sáng và đó là thứ bạn cần 
 ![Geometry](https://boxxv.github.io/img/posts/geometry.png "Geometry")_Geometry_
 
 
-
-
-
-
 -----
-## Materials
+## Material
 _Vật liệu, Chất liệu_
+
+`Material` là những gì được áp dụng cho bề mặt bên ngoài của lưới của bạn. Việc chọn cơ bản, lambert, phong hoặc bình thường đều sẽ ảnh hưởng đến cách ánh sáng tương tác với vật thể của bạn. Các Material khác nhau có thể làm cho cảnh của bạn trở nên chân thực hơn.
+
+![Material](https://boxxv.github.io/img/posts/material2.png "Material")_Material_
+
 
 Hình học xác định hình dạng của các đối tượng 3D của chúng ta, nhưng không xác định hình dạng của chúng. Để làm được điều đó, chúng ta cần thêm một `material`
 
