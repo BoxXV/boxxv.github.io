@@ -15,7 +15,10 @@ Bạn có thể thấy từ `Scene` được đề cập trong tài liệu. Đâ
 ![Scene](https://boxxv.github.io/img/posts/scene.png "Scene")_Scene_
 
 
+## Camera
+Bây giờ bạn đã có scene của mình, `Camera` là cách nó được xem. Bạn có thể sử dụng nhiều loại Camera khác nhau để thay đổi cách hiển thị scene của bạn.
 
+![Camera](https://boxxv.github.io/img/posts/camera.jpeg "Camera")_Camera_
 
 
 -----
