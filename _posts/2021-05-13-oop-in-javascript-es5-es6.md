@@ -88,6 +88,16 @@ function GroupDog2(dogName, dogAge, dogWeight){
 }
 ```
 
+Để kế thừa các thuộc tính từ nhóm đầu tiên, chúng tôi đã sử dụng phương thức `call()` được sử dụng để gọi nhà thầu mà chúng tôi muốn kế thừa các thuộc tính của nó và nó lấy đây làm tham số đầu tiên và sau đó là các tham số sẽ được kế thừa từ phương thức khởi tạo đó (trong trường hợp này: - dogName và dogAge). Sau đó, chúng ta đặt thuộc tính đặc biệt của đối tượng (trong trường hợp này là: dogWeight)
+
+Điều này chỉ kế thừa các thuộc tính chứ không phải nguyên mẫu. Để kế thừa các nguyên mẫu, chúng tôi sẽ nói:
+
+```js
+Group2.prototype = object.create(Group1.prototype);
+```
+
+Với điều này, chúng ta đã làm cho nhóm 2 những con chó sở hữu tất cả các tài sản và đồ vật của nhóm 1.
+
 
 ### Cú pháp ES6
 
