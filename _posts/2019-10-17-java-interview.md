@@ -277,45 +277,44 @@ https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/
     60. Định nghĩa đối tượng không thể biến đổi?
     61. Giải thích sự sử dụng của this() với các Constructor?
 
-1. Bạn biết gì về Java?
-
+##### 1. Bạn biết gì về Java?
 Java là một ngôn ngữ lập trình cấp cao, được phát triển đầu tiên bởi Sun Microsystems và được công bố năm 1995. Java chạy trên các nền tảng đa dạng, như Windows, Mac OS, và các phiên bản UNIX đa dạng.
 
 Tham khảo thêm: Java là gì? Tại sao nên chọn Java?
 
-2. Các nền tảng được hỗ trợ bởi Ngôn ngữ lập trình Java?
+###### 2. Các nền tảng được hỗ trợ bởi Ngôn ngữ lập trình Java?
 
 Java là ngôn ngữ lập trình đa nền tảng, có thể chạy trên Windows, Mac OS, và các phiên bản UNIX đa dạng như HP-Unix, Sun Solaris, Redhat Linux, Ubuntu, CentOS,…
 
-3. Liệt kê 5 đặc điểm bất kỳ của Java?
+###### 3. Liệt kê 5 đặc điểm bất kỳ của Java?
 
 Một số đặc điểm của Java là Hướng đối tượng, Độc lập nền tảng, Thông dịch, Đa luồng (Multi-thread), mạnh mẽ (robust).
 
-4. Tại sao Java là độc lập cấu trúc?
+###### 4. Tại sao Java là độc lập cấu trúc?
 
 Trình biên dịch của nó tạo ra một định dạng file độc lập cấu trúc, làm cho code được biên dịch có thể thực thi trên bất kỳ bộ xử lý nào nào, với sự có mặt của hệ thống Java runtime.
 
-5. Hiệu suất cao (High Performance) được kích hoạt như thế nào trong Java?
+###### 5. Hiệu suất cao (High Performance) được kích hoạt như thế nào trong Java?
 
 Java sử dụng Just-In-Time compiler để kích hoạt hiệu năng cao. Trình biên dịch này biến Java Bytecode (một chương trình chứa các chỉ thị cần được thông dịch) thành các chỉ thị có thể được gửi trực tiếp tới bộ xử lý.
 
-6. Tại sao Java được coi là động (Dynamic)?
+###### 6. Tại sao Java được coi là động (Dynamic)?
 
 Nó được thiết kế để thích nghi với môi trường đang phát triển. Các chương trình Java có thể mang một lượng lớn thông tin trong thời điểm chạy có thể được sử dụng để kiểm tra và xử lý các truy cập tới đối tượng tại thời điểm chạy (runtime).
 
-7. Java Virtual Machine là gì và nó có vai trò gì trong đặc điểm độc lập nền tảng của Java?
+###### 7. Java Virtual Machine là gì và nó có vai trò gì trong đặc điểm độc lập nền tảng của Java?
 
 Khi Java được biên dịch, nó không được biên dịch sang nền tảng máy cụ thể nào, mà được dịch sang Bytecode độc lập nền tảng. Bytecode này được phân phối thông qua Web và được thông dịch bởi Java Virtual Machine (JVM) trên bất kỳ nền tảng nào nó đang chạy.
 
-8. Liệt kê hai JDE của Java?
+###### 8. Liệt kê hai JDE của Java?
 
 Netbeans, Eclipse,... (hãy kể nhiều JDE hơn hoặc nói chi tiết hơn một chút về 2 JDE này để ghi điểm với nhà tuyển dụng).
 
-9. Liệt kê một số từ khóa trong Java (không giống từ khóa trong C, C++)?
+###### 9. Liệt kê một số từ khóa trong Java (không giống từ khóa trong C, C++)?
 
 Một số từ khóa trong Java là import, super, finally,…
 
-10. Bạn hiểu gì về Đối tượng?
+###### 10. Bạn hiểu gì về Đối tượng?
 
 Đối tượng là một thực thể tại runtime, trạng thái của nó được lưu trữ trong các trường và hành vi được thể hiện thông qua các phương thức. Các phương thức vận hành trên trạng thái nội tại của đối tượng và đóng vai trò như là cơ chế chính để giao tiếp giữa các đối tượng với nhau.
 
@@ -1126,4 +1125,7 @@ Tham khảo:
 - [Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question](https://giai-ma.blogspot.com/2017/04/ngan-hang-cau-hoi-phong-van-ngon-ngu.html)
 - [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](https://boxxv.github.io/2019/05/19/top-20-questions-interview-and-asked/)
+- [200 câu hỏi phỏng vấn Java hay thường gặp, có đáp án tham khảo](https://quantrimang.com/200-cau-hoi-phong-van-java-hay-thuong-gap-co-dap-an-144832)
+- [200 Câu hỏi phỏng vấn Java](https://vietjack.com/cau_hoi_phong_van_java/phan_20.jsp)
+- [ Kinh nghiệm đi phỏng vấn cho sinh viên IT mới ra trường - Phần 1 ](https://viblo.asia/p/kinh-nghiem-di-phong-van-cho-sinh-vien-it-moi-ra-truong-phan-1-924lJOxb5PM)
 - [https://viblo.asia/tags/java](https://viblo.asia/tags/java)
