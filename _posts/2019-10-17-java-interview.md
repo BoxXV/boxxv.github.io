@@ -106,6 +106,29 @@ Trong bài viết này, tôi sẽ tổng hợp lại những kiến thức về 
 
 Sự khác nhau cơ bản giữa SOAP và RESTful ?
 
+- Liệt kê, giải thích 4 tính chất OOP
+- MVVM, MVP, MVC là gì, khi nào dùng cái nào
+- Singleton dùng để làm gì
+- Khi nào dùng Interface hoặc Abstract Class
+- Immutable và mutable là gì
+- Tại sao Class String trong Java lại immutable
+- Daemon Thread là gì
+- Android Garbage collection hoạt động ntn
+- Khi nào 1 object sẵn sàng for Garbage collection hốt
+- StringBuilder vs String
+- StringBuilder vs StringBuffer
+- Liệt kê những trường hợp mà finally ko đc gọi
+- Java dùng pass-by-value hay pass-by-reference
+- Trình bày cách để break bên trong vòng lặp lòng nhau
+- Cách hoán đổi 2 số a và b mà ko cần tạo thêm biến thứ 3
+
+https://shareprogramming.net/co-che-pass-by-value-va-pass-by-reference-trong-java/  
+https://kipalog.com/posts/Pass-by-reference-va-pass-by-value  
+https://viettuts.vn/java/truyen-gia-tri-va-tham-chieu-pass-value-va-pass-reference-trong-java  
+https://daynhauhoc.com/t/java-pass-by-value-or-pass-by-reference-d-chu-de-muon-thuo/23908  
+https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/  
+
+
 ## Top 10 câu hỏi phỏng vấn Java thường gặp
 1. Trên thang điểm 10 – Bạn đánh giá mình được bao nhiêu điểm?
 2. Bạn biết về những loại Collection nào?
@@ -117,6 +140,46 @@ Sự khác nhau cơ bản giữa SOAP và RESTful ?
 8. Làm thế nào bạn có thể làm cho một class không thể thay đổi?
 9. Singleton có nghĩa là gì?
 10. Dependency Injection là gì?
+
+## 201 câu hỏi phỏng vấn java core
+
+### Java Core - java cơ bản
+1. Sự khác nhau giữa JDK,JRE và JVM?
+2. Sự khác nhau giữa bộ nhớ heap và stack trong java?
+3. Trình biên dịch JIT là gì?
+4. Platform là gì?
+5. Sự khác nhau giữa Java platform và các platform khác?
+6. Tính chất "viết một lần chạy nhiều nơi" của java là gì?
+7. Classloader trong java là gì?
+8. File có tên trống ".java" có hợp lệ không?
+9. Các từ delete, next, main, exit và null có phải là từ khóa trong java không?
+10. Nếu không cung cấp bất kỳ đối số nào trên command line, thì mảng String của hàm main là empty hay null?
+11. Chuyện gì xảy ra nếu khai báo static public void thay vì public static void?
+12. Giá trị mặc định của các biến local là gì?
+
+### Java Core - các khái niệm về OPPs
+    1. Sự khác biệt giữa ngôn ngữ lập trình hướng đối tượng và ngôn ngữ lập trình dựa trên đối tượng là gì?
+    2. Giá trị khởi tạo của biến tham chiếu đối tượng được định nghĩa là biến instance là gì?
+
+### Java Core - các khái niệm về OPPs: Câu hỏi phỏng vấn Constructor
+    1. Constructor là gì?
+    2. Mục đích của constructor là gì?
+    3. Constructor trả về kiểu giá trị gì?
+    4. Constructor được kế thừa không?
+    5. Có thể tạo constructor final không?
+
+### Java Core - các khái niệm về OPPs: Câu hỏi phỏng vấn từ khóa static
+    1. Biến static là gì?
+    2. Phương thức static là gì?
+    3. Tại sao phương thức main là static?
+    4. Khối static là gì?
+    5. Chúng ta có thể thực thi một chương trình không có phương thức main() không?
+    6. Chuyện gì xảy ra khi phương thức main không có static?
+    7. Sự khác nhau giữa phương thức static và phương thức instance?
+
+
+
+
 
 ## 200 câu hỏi phỏng vấn Java hay thường gặp
 1. Bạn biết gì về Java?
@@ -190,3 +253,4 @@ Tham khảo:
 - [Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question](https://giai-ma.blogspot.com/2017/04/ngan-hang-cau-hoi-phong-van-ngon-ngu.html)
 - [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](https://boxxv.github.io/2019/05/19/top-20-questions-interview-and-asked/)
+- [https://viblo.asia/tags/java](https://viblo.asia/tags/java)
