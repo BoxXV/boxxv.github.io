@@ -124,3 +124,6 @@ http://kangax.github.io/compat-table/es6/
 [Object-Oriented Programming in Javascript(ES5 & ES6) EXPLAINED.](https://dev.to/orighoprecious/object-oriented-programming-in-javascript-es5-es6-explained-4jbk)  
 [https://www.w3schools.com/js/js_versions.asp](https://www.w3schools.com/js/js_versions.asp)  
 [https://www.w3schools.com/js/js_history.asp](https://www.w3schools.com/js/js_history.asp)  
+[Lập trình hướng đối tượng với ES6](https://viblo.asia/p/lap-trinh-huong-doi-tuong-voi-es6-aWj534XeK6m)  
+[Một số cú pháp bị lãng quên trong JavaScript (Part 3)](https://viblo.asia/p/mot-so-cu-phap-bi-lang-quen-trong-javascript-part-3-jvEla0wdZkw)  
+
