@@ -5,42 +5,21 @@ subtitle: Lập trình hướng đối tượng với ES5 và ES6
 image: "img/projects-bg.jpg"
 ---
 
+Nói chung, OOP - Lập trình hướng đối tượng rất hữu ích. Nó giúp các nhà phát triển mô hình hóa những thứ trong thế giới thực mà chúng tôi muốn thể hiện bên trong mã của mình và / hoặc cung cấp một cách đơn giản để truy cập vào chức năng mà nếu không sẽ khó hoặc không thể sử dụng được.
+
+Hiểu đầy đủ về cách OOP hoạt động trong javascript là một chút khó khăn, đặc biệt là trong cú pháp ES5, lớp ES6 đã làm cho việc sử dụng hàm tạo đối tượng dễ dàng hơn rất nhiều nhưng với tư cách là nhà phát triển, chúng tôi sẽ gặp phải mã nguyên mẫu đối tượng ES5 trong quá trình của chúng tôi và trong trường hợp bạn làm không biết, lớp ES6, hoạt động như nguyên mẫu đối tượng dưới mui xe.
+
+Bài viết này sẽ giải thích object  javascript trong cú pháp ES5 và ES6. Hãy theo dõi!
+
+### Cú pháp ES5
 
 
-### Một số tính năng
-
-- Riot.Js cho phép người dùng áp dụng các thẻ HTML tùy chỉnh trên tất cả các trang và ứng dụng web. Bạn cũng có thể sử dụng lại các thẻ đó.
-- Framework này tương tự như polymer và Reac.js. Tuy nhiên, so với hai framework kia, Riot.Js có tổ chức và nhỏ gọn hơn.
-- Framekwork này tập trung cao độ vào các chức năng vi mô cho phép bạn làm việc cá nhân với các ứng dụng khác nhau cùng một lúc.
 
 
-### Sample code
+### Cú pháp ES6
 
-index.html
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Riot App</title>
-</head>
-<body>
-  <!-- place the custom component anywhere inside the body -->
-  <my-component></my-component>
 
-  <!-- include riot.js -->
-  <script src="riot.min.js"></script>
-  <script src="my-component.js"></script>
-  <script>
-    riot.compile().then(function() {
-      riot.mount('my-component', { message: 'Hello world!' })
-    })
-  </script>
-</body>
-</html>
-```
 
-my-component.riot
 ```js
 <my-component>
 
@@ -66,43 +45,6 @@ my-component.riot
     /** other component specific styles **/
   </style>
 
-</my-component>
-```
-
-### Syntax - Cú pháp
-
-Riot component  là sự kết hợp layout của HTML và logic của JavaScript. Dưới đây là các quy tắc cơ bản: 
-- Mỗi tệp `.riot` chỉ có thể chứa logic cho một component duy nhất
-- HTML được định nghĩa đầu tiên và logic được bao bọc bên trong thẻ `<script>`
-- Các component tùy chỉnh có thể để trống, chỉ có HTML hoặc chỉ có JavaScript 
-
-
-
-### Lifecycle
-```js
-<my-component>
-  <script>
-    export default {
-      onBeforeMount(props, state) {
-        // before the component is mounted
-      },
-      onMounted(props, state) {
-        // right after the component is mounted on the page
-      },
-      onBeforeUpdate(props, state) {
-        // allows recalculation of context data before the update
-      },
-      onUpdated(props, state) {
-        // right after the component template is updated after an update call
-      },
-      onBeforeUnmount(props, state) {
-        // before the component is removed
-      },
-      onUnmounted(props, state) {
-        // when the component is removed from the page
-      }
-    }
-  </script>
 </my-component>
 ```
 
