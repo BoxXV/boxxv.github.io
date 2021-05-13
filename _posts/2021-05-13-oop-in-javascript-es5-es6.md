@@ -33,6 +33,25 @@ function Dog(name, age){
 }
 ```
 
+Phương thức trong hàm khởi tạo tốt hơn có thể được viết bằng javascript bằng cách viết nó dưới dạng một nguyên mẫu như sau: 
+
+```js
+function Dog(name, age){
+  // Properties
+  this.name = name;
+  this.age = age;
+}
+
+  // Object Prototype
+Dog.prototype.canBark = function(){
+  if(this.age => '180 days'){
+     return 'YES';
+  } else{
+    return 'NO';
+  }
+}
+```
+
 
 
 ### Cú pháp ES6
