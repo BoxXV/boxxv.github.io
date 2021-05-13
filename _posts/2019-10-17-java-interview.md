@@ -211,6 +211,62 @@ https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/
     12. Có thể khởi tạo giá trị cho biến final blank không?
     13. Có thể khai báo phương thức main là final không?
 
+#### Java Core – các khái niệm về OPPs: Các câu hỏi phỏng vấn đa hình
+    1. Đa hình tại runtime là gì?
+    2. Có thể thực hiện đa hình lúc runtime với các thành viên dữ liệu không?
+    3. Sự khác nhau giữa ràng buộc tĩnh và ràng buộc động là gì?
+
+#### Java Core – các khái niệm về OPPs: Các câu hỏi phỏng vấn trừu tượng
+    1.Trừu tượng là gì?
+    2. Sự khác nhau giữa trừu tượng và đóng gói là gì?
+    3. Lớp trừu tượng là gì?
+    59. Có phương thức trừu tượng không nằm trong lớp trừu tượng không?
+    4. Có thể sử dụng cả abstract và final cho một phương thức không?
+    5. Có thể tạo thể hiện của lớp trừu tượng không?
+    6. Interface là gì?
+    7. Có thể khai báo một phương thức của interface với từ khóa static không?
+    8. Một interface có thể là final không?
+    9. Marker interface là gì?
+    10. Sự khác nhau giữa lớp abstract và interface là gì?
+    11. Có thẻ định nghĩa private hoặc protected cho các biến trong interface không?
+    12. Khi nào một tham chiếu đối tượng có thể được ép sang kiểu interface tham chiếu?
+
+#### Java Core – các khái niệm về OPPs: Các câu hỏi phỏng vấn package
+    1. Package là gì?
+    2. Có cần import package import java.lang không? tại sao?
+    3. Có thể import package/lớp giống nhau hai lần không? JVM sẽ tải package hai lần khi chạy không?
+    4. Static import là gì?
+
+#### Câu hỏi phỏng vấn xử lý ngoại lệ trong java
+    1. Xử lý ngoại lệ (handling exception) là gì?
+    2. Sự khác biệt giữa checked exception và unchecked exception là gì?
+    3. Có phải mỗi khối try phải đi kèm với một khối catch?
+    4. Khối finally là gì?
+    5. Khối finally có thể được sử dụng mà không cần khối catch không?
+    6. Có trường hợp nào khối finally không được thực thi không?
+    7. Sự khác nhau giữa throw và throws là gì?
+    8. Có thể khai báo phương thức overriding của lớp con một ngoại lệ nếu phương thức của lớp cha không throw một ngoại lệ?
+    9. Việc tuyên truyền ngoại lệ là gì?
+
+#### Câu hỏi phỏng vấn String trong java
+    1. Ý nghĩa của immutable (bất biến) trong String là gì?
+    2. Tại sao các đối tượng String trong java là immutable?
+    3. Có bao nhiêu cách để tạo ra một đối tượng String trong java?
+    4. Có bao nhiêu đối tượng String được tạo ra trong đoạn code sau?
+    5. Tại sao java sử dụng khái niệm string literal?
+    6. Có bao nhiêu đối tượng được tạo ra trong đoạn code sau?
+    8. Sự khác nhau giữa String và StringBuffer là gì?
+    9. Sự khác nhau giữa StringBuffer và StringBuilder là gì?
+    10. Làm thế nào để tạo lớp immutable trong java?
+    11. Mục đích của phương thức toString() trong java là gì?
+
+#### Câu hỏi phỏng vấn Nested class và Interface
+    1. Nested class (lớp lồng nhau) là gì?
+    2. Có sự khác nhau giữa nested class và inner class không?
+    3. Nested interface là gì?
+    4. Có thể khai báo interface trong class không?
+    5. Có thể khai báo một class trong interface không?
+
 
 
 
