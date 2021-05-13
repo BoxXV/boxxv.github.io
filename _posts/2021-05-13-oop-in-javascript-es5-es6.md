@@ -13,6 +13,25 @@ Bài viết này sẽ giải thích object  javascript trong cú pháp ES5 và E
 
 ### Cú pháp ES5
 
+`Prototype` Nguyên mẫu và Kế thừa nguyên mẫu:
+Chúng ta đã xem xét cách thức tạo đối tượng được viết theo cú pháp ES5, bây giờ hãy xem nguyên mẫu đối tượng là gì. Cú pháp:
+
+```js
+function Dog(name, age){
+  // Properties
+  this.name = name;
+  this.age = age;
+
+  // Method
+  this.canBark = function(){
+    if(this.age => '180 days'){
+       return 'YES';
+    } else{
+      return 'NO';
+    }
+  }
+}
+```
 
 
 
@@ -20,47 +39,22 @@ Bài viết này sẽ giải thích object  javascript trong cú pháp ES5 và E
 
 
 
-```js
-<my-component>
 
-  <!-- layout -->
-  <h1>{ props.message }</h1>
-  <ul>
-    <li>Learn Riot.js</li>
-    <li>Build something cool</li>
-  </ul>
-
-  <script>
-    export default {
-      onMounted() {
-        const title = this.$('h1') // single element
-        const items = this.$$('li') // multiple elements
-      }
-    }
-  </script>
-
-  <style>
-    /** other component specific styles **/
-    h1 { font-size: 120% }
-    /** other component specific styles **/
-  </style>
-
-</my-component>
-```
 
 ### Releases
-- v5.3.0  - Feb 13, 2021
-- v4.14.0 - Sep 01, 2020
-- v3.13.2 - Nov 25, 2018
-- v2.6.9  - Feb 15, 2019
-- v1.0.4  - Sep 17, 2014
+- ES1 - ECMAScript 1 (1997)
+- ES2 - ECMAScript 2 (1998)
+- ES3 - ECMAScript 3 (1999)
+- ES4 - ECMAScript 4
+- ES5 - ECMAScript 5 (2009)
+- ES6 - ECMAScript 2015, ECMAScript 2016, ECMAScript 2017, ECMAScript 2018
 
 
 ### Những trình duyệt nào được hỗ trợ?
 
-Riot.js 4 hỗ trợ tất cả các trình duyệt hiện đại chính. Các trình duyệt như IE11 không được hỗ trợ: nếu bạn cần hỗ trợ các trình duyệt cũ hơn, bạn có thể cân nhắc sử dụng phiên bản Riot cũ hơn
+http://kangax.github.io/compat-table/es5/
+
+http://kangax.github.io/compat-table/es6/
 
 -----
-
-[https://github.com/riot/riot](https://github.com/riot/riot)  
-[https://github.com/riot/examples](https://github.com/riot/examples)  
+[Object-Oriented Programming in Javascript(ES5 & ES6) EXPLAINED.](https://dev.to/orighoprecious/object-oriented-programming-in-javascript-es5-es6-explained-4jbk)  
