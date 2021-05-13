@@ -42,7 +42,7 @@ function Dog(name, age){
   this.age = age;
 }
 
-  // Object Prototype
+// Object Prototype
 Dog.prototype.canBark = function(){
   if(this.age => '180 days'){
      return 'YES';
