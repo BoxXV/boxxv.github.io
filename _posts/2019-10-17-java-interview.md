@@ -177,6 +177,39 @@ https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/
     6. Chuyện gì xảy ra khi phương thức main không có static?
     7. Sự khác nhau giữa phương thức static và phương thức instance?
 
+### Các khái niệm về OPPs: Các câu hỏi phỏng vấn kế thừa
+    1. this trong java là gì?
+    2. Kế thừa là gì?
+    3. Lớp nào là lớp cha cho tất cả các lớp.
+    4. Tại sao đa kế thừa không được hỗ trợ trong java.
+    5. Composition là gì?
+    6. Sự khác nhau giữa aggregation và composition?
+    7. Tại sao java không support con trỏ?
+    8. super trong java là gì?
+    9. Có thể sử dụng cả this() và super() trong một constructor?
+    10. Object cloning là gì?
+
+### Các khái niệm về OPPs: Các câu hỏi phỏng vấn overloading phương thức
+    11. Overloading (nạp chồng) phương thức là gì?
+    12. Tại sao overloading phương thức không xảy ra khi thay đổi kiểu giá trị trả về?
+    13. Có thể overload phương thúc main() không?
+
+### Các khái niệm về OPPs: Các câu hỏi phỏng vấn overriding phương thức
+    1. Ghi đè (overriding) phương thức là gì?
+    2. Có thể ghi đè phương thức static không?
+    3. Tại sao không thể ghi đè phương thức static?
+    4. Có thể ghi đè phương thức đã nạp chồng?
+    5. Có thể ghi đè biến instance không?
+    6. Sự khác nhau giữa nạp chồng và ghi đè là gì?
+    7. Kiểu trả về hiệp biến là gì?
+
+### Các khái niệm về OPPs: Các câu hỏi phỏng vấn từ khóa final
+    8. Biến final là gì?
+    9. Phương thức final là gì?
+    10. Lớp final là gì?
+    11. Biến final blank là gì?
+    12. Có thể khởi tạo giá trị cho biến final blank không?
+    13. Có thể khai báo phương thức main là final không?
 
 
 
