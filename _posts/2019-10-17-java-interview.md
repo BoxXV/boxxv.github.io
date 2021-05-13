@@ -701,163 +701,123 @@ Ví dụ, sleep(2000); làm Thread đợi đúng 2 giây. Trong khi wait(2000); 
 ArithmeticException được ném khi chia số nguyên cho số 0 hoặc lấy phần dư của phép chia cho số 0. Nó không bao giờ được ném trong các phép toán về số thực.
 
 108. Một biến là transient (tạm thời) là gì?
-
 Một biến transient là một biến mà không thể được xếp theo thứ tự trong Serialization và nó được khởi tạo bởi giá trị mặc định của nó trong Deserialization.
 
 109. Synchronization (Đồng bộ hóa) là gì?
-
 Synchronization là khả năng điều khiển truy cập của nhiều Thread tới nguồn đã chia sẻ. Từ khóa synchronized trong Java cung cấp locking để đảm bảo sự truy cập tương hỗ mang tính loại trừ của nguồn đã chia sẻ và ngăn cản Data Race (Tranh đoạt dữ liệu).
 
 110. Collection API là gì?
-
 Collection API là một tập hợp các lớp và Interface mà hỗ trợ các hoạt động trên các Collection của đối tượng.
 
 111. Trình dọn rác có bảo đảm rằng một chương trình sẽ không chạy hết bộ nhớ?
-
 Trình dọn rác không bảo đảm rằng một chương trình sẽ không chạy hết bộ nhớ. Nó là có thể để cho các chương trình sử dụng hết nguồn bộ nhớ nhanh hơn việc chúng bị thu thập bởi trình dọn rác. Các chương trình cũng là có thể tạo các đối tượng mà không phụ thuộc vào trình dọn rác.
 
 112. Lớp cha gần nhất (trực tiếp) của lớp Applet?
-
 Panel là lớp cha gần nhất (trực tiếp). Một panel cung cấp không gian trong đó một ứng dụng có thể đính kèm bất cứ thành phần nào, bao gồm các panel khác.
 
 113. Toán tử nào trong Java là Right-Associative?
-
 Toán tử = là Right-Associative. (Nếu bạn chưa hiểu right và left associative, bạn theo dõi: Toán tử = cho phép bạn thực hiện nhiều phép gán trong cùng một lệnh. Ví dụ: a=b=c=d=99;)
 
 114. Điểm khác nhau giữa lệnh break và lệnh continue?
-
 Lệnh break chấm dứt một lệnh mà nó áp dụng (switch, for, do, hoặc while). Một lệnh continue được sử dụng để kết thúc vòng lặp hiện tại và trả về điều khiển cho lệnh vòng lặp.
 
 115. Nếu một biến được khai báo là private, thì nó có thể được truy cập trong phạm vi nào?
-
 Biến private chỉ có thể được truy cập bên trong lớp mà nó được khai báo.
 
 116. Mục đích của lớp System?
-
 Mục đích của lớp System là cung cấp truy cập tới nguồn hệ thống.
 
 117. Liệt kê các kiểu gốc trong Java?
-
 Có 8 kiểu dữ liệu gốc trong Java là byte, char, short, int, long, float, double và Boolean.
 
 118. Mối quan hệ giữa Clipping và Repainting dưới AWT?
-
 Khi một cửa sổ được repaint bởi AWT Thread, nó thiết lập các khu vực Clipping thành khu vực của cửa sổ mà cần Repainting.
 
 119. Lớp nào là lớp cha gần nhất (trực tiếp) của lớp Container?
-
 Lớp Component là lớp cha gần nhất.
 
 120. Lớp Exception nào được tạo bởi Java runtime?
-
 Java runtime tạo các RuntimeException và Error.
 
 121. Dưới các điều kiện nào thì một phương thức finalize() của đối tượng được triệu hồi bởi trình dọn rác (Garbage Collector)?
-
 Trình dọn rác triệu hồi một phương thức finalize() của đối tượng khi nó phát hiện rằng đối tượng đã thất bại.
 
 122. Một Thread đã chết có thể được restart lại như thế nào?
-
 Một Thread đã chết không thể restart lại được.
 
 123. Các toán tử số học nào có thể gây ra sự kiện ném một ArithmeticException?
-
 Phép chia / và lấy phần dư % số nguyên có thể gây ra sự kiện ném một ArithmeticException.
 
 124. Biến kiểu Boolean được tự động khởi tạo với giá trị?
-
 Giá trị mặc định của kiểu Boolean là false.
 
 125. Các lệnh try có thể lồng nhau không?
-
 Có.
 
 126. ClassLoader là gì?
-
 ClassLoader là một đối tượng mà đảm nhiệm việc tải các lớp. Lớp ClassLoader là một lớp abstract.
 
 127. Điểm khác nhau giữa một Interface và một lớp Abstract?
-
 Một lớp Abstract là một lớp có thể có các phương thức instance mà triển khai một hành vi mặc định. Một Interface chỉ có thể khai báo các hằng và các phương thức instance, nhưng không thể triển khai hành vi mặc định và tất cả phương thức là abstract ngầm định. Một Interface có tất cả thành viên public và không có trình triển khai.
 
 128. Điều gì xảy ra nếu Static Modifier bị gỡ bỏ từ phương thức main?
-
 Chương trình ném lỗi NoSuchMethodError tại runtime.
 
 129. Giá trị mặc định của một tham chiếu đối tượng được khai báo như là một biến instance?
-
 Giá trị Null, trừ khi nó được khai báo tường minh.
 
 130. Lớp cao nhất có thể là private hoặc protected không?
-
 Không, một lớp cao nhất không thể là private hoặc protected. Nó chỉ có thể là public hoặc không có modifier nào.
 
 131. Tại sao chúng ta cần các lớp wrapper?
-
 Chúng ta có thể truyền chúng ở dạng các tham số phương thức khi một phương thức chờ đợi một đối tượng. Nó cũng cung cấp các phương thức tiện ích.
 
 132. Điểm khác nhau giữa Error và Exception?
-
 Một Error là một điều kiện không thể cứu chữa xuất hiện tại runtime, ví dụ OutOfMemory error. Các Exception là các điều kiện mà xuất hiện là do input không phù hợp, hoặc sai, … ví dụ FileNotFoundException sẽ bị ném nếu file đã cho không tồn tại.
 
 133. Có cần thiết để mỗi khối try phải được theo sau bởi một khối catch không?
-
 Không cần thiết để mỗi khối try phải được theo sau bởi một khối catch. Mỗi khối try nên được theo sau bởi hoặc một khối catch hoặc một khối finally.
 
 134. Khi một Thread được tạo và bắt đầu, trạng thái ban đầu (initial state) của nó là gì?
-
 Một Thread sau khi được tạo và được bắt đầu, nó trong trạng thái sẵn sàng (ready state).
 
 135. Lớp Locale là gì?
-
 Lớp Locale được sử dụng để thiết kế đầu ra output của chương trình theo các qui ước của một khu vực địa lý, chính trị, hoặc văn hóa cụ thể.
 
 136. Phương thức synchronized và lệnh synchronized là gì?
-
 Các phương thức synchronized là các phương thức được sử dụng để điều khiển truy cập tới một đối tượng. Một lệnh synchronized có thể chỉ được thực thi sau khi một Thread đã thu được lock cho đối tượng hoặc lớp được tham chiếu trong lệnh synchronized đó.
 
 137. Gửi phương thức động hoặc đa hình tại runtime là gì?
-
 Gửi phương thức động hoặc đa hình tại runtime là một tiến trình trong đó một lời gọi tới một phương thức bị ghi đè được giải quyết tại runtime thay vì tại compile time. Trong tiến trình này, một phương thức bị ghi đè được gọi thông qua biến tham chiếu của một lớp cha.
 
 138. Dynamic Binding (Late Biding) là gì?
-
 Binding là nói tới việc gắn kết lời gọi một tới code để được thực thi để phản hồi lại lời gọi đó. Dynamic Binding nghĩa là code được liên kết với lời gọi một thủ tục đã cho không được biết cho tới thời điểm của lời gọi đó tại runtime.
 
 139. Constructor có thể được kế thừa không?
-
 Không, Constructor không thể bị kế thừa.
 
 140. Lợi thế của ArrayList so với các mảng?
-
 ArrayList có thể tự động tăng kích cỡ và cung cấp một kỹ thuật chèn và tìm kiếm mạnh mẽ hơn khi so sánh với mảng thông thường.
 
 141. Hoạt động xóa trong LinkedList là nhanh hơn trong ArrayList, tại sao?
-
 Hoạt động xóa trong LinkedList là nhanh hơn bởi vì nó chỉ bao gồm việc cập nhật con trỏ kế tiếp trong node trước node bị xóa và cập nhật con trỏ đằng trước trong node sau node bị xóa.
 
 142. Bạn quyết định khi nào sử dụng ArrayList và LinkedList?
-
 Nếu bạn cần thường xuyên thêm và xóa các phần tử từ giữa danh sách và chỉ truy cập các phần tử theo dãy, thì LinkedList nên được sử dụng. Nếu bạn cần hỗ trợ truy cập ngẫu nhiên, mà không chèn hoặc xóa các phần tử từ bất kỳ vị trí nào khác ngoài vị trí cuối, thì nên sử dụng ArrayList.
 
 143. Một Values Collection View là gì?
-
 Nó là một Collection được trả về bởi phương thức values() của Map Interface. Nó bao gồm tất cả đối tượng hiện diện như là các value trong Map đó.
 
 144. Dot Operator (Toán tử .) là gì?
-
 Dot Operator được sử dụng để truy cập các biến và phương thức instance của các đối tượng lớp. Nó cũng được sử dụng để truy cập các lớp, các package con từ một Package.
 
 145. Bạn có thể sử dụng Private Constructor ở đâu và như thế nào?
-
 Constructor dạng private được sử dụng nếu bạn không muốn các lớp khác khởi tạo đối tượng và để ngăn cản việc xuất hiện các lớp con.
 
 146. Type Casting (Ép kiểu) là gì?
-
 Type Casting (Ép kiểu) nghĩa là xem một biến ở một kiểu này như thể nó là kiểu khác.
 
 147. Miêu tả vòng đời (Life Cycle) của Thread?
-
 Một Thread là một sự thực thi trong một chương trình. Vòng đời của Thread bao gồm:
     Trạng thái Newborn
     Trạng thái Runnable
@@ -866,59 +826,45 @@ Một Thread là một sự thực thi trong một chương trình. Vòng đời
     Trạng thái Dead
 
 148. Điểm khác nhau giữa hai toán tử >> và >>> ?
-
 Toán tử >> mang sign bit khi dịch chuyển sang phải. Toán tử >>> điền bit 0 khi đã được dịch chuyển.
 
 149. Phương thức nào của lớp Component được sử dụng để thiết lập vị trí và kích cỡ của một component?
-
 Sử dụng phương thức setBounds() cho mục đích này.
 
 150. Dãy giá trị của kiểu short?
-
 Dãy giá trị của kiểu short là từ -(2^15) tới 2^15 - 1.
 
 151. Lớp cha gần nhất của Menu?
-
 Là lớp MenuItem.
 
 152. Java có cho phép các tham số mặc định không?
-
 Java không cho phép các tham số mặc định (Default Argument).
 
 153. Trong Java, hệ cơ số nào được biểu thị với số 0 bắt đầu?
-
 Hệ cơ số 8, ví dụ: 06
 
 154. Trong Java, hệ cơ số nào được biểu thị với phần bắt đầu là 0x hoặc 0X?
-
 Hệ thập lục phân, ví dụ: 0XF.
 
 155. Lệnh break có thể được sử dụng như là các nhãn (label) trong Java?
-
 Có, ví dụ như break one;
 
 156. Lệnh import được sử dụng ở đâu trong một chương trình Java?
-
 Lệnh import được sử dụng ở phần đầu chương trình sau lệnh package.
 
 157. Giải thích phương thức suspend() dưới lớp Thread?
-
 Nó được sử dụng để tạm dừng sự thực thi của Thread.
 
 158. Giải thích phương thức isAlive() dưới lớp Thread?
-
 Nó được sử dụng để tìm xem có hay không một Thread là vẫn đang chạy.
 
 159. Bạn hiểu gì về phương thức currentThread()?
-
 Đây là một phương thức public và static để thu nhận một tham chiếu tới Thread hiện tại.
 
 160. Giải thích main thread dưới sự thực thi của lớp Thread?
-
 Main thread được tạo tự động và nó bắt đầu thực thi ngay khi một chương trình bắt đầu. Nó là một thread mà từ đó hình thành tất cả thread con khác.
 
 161. Vòng đời của một Applet?
-
 Vòng đời của một Applet gồm:
     Khởi tạo
     Bắt đầu
@@ -927,159 +873,120 @@ Vòng đời của một Applet gồm:
     Vẽ
 
 162. Vai trò của phương thức init() dưới Applet?
-
 Nó khởi tạo Applet và là phương thức đầu tiên được gọi.
 
 163. Phương thức nào được gọi bởi lớp Applet để tải một hình ảnh?
-
 Sử dụng phương thức getImage(URL của đối tượng, tên file).
 
 164. Định nghĩa phần code được sử dụng như là một thuộc tính của Applet?
-
 Nó được sử dụng để xác định tên của lớp Applet.
 
 165. Canvas là gì?
-
 Nó là một bề mặt bản vẽ đơn giản mà được sử dụng để vẽ các hình ảnh hoặc để thực hiện các hoạt động đồ họa khác.
 
 166. Định nghĩa Lập trình mạng?
-
 Nó nói tới việc viết các chương trình mà thực thi qua nhiều thiết bị (máy tính), trong đó các thiết bị được kết nối với nhau bởi sử dụng mạng.
 
 167. Socket là gì?
-
 Socket cung cấp kỹ thuật giao tiếp giữa hai máy tính bởi sử dụng TCP. Một chương trình Client tạo một Socket trên đầu giao tiếp của nó và cố gắng kết nối Socket đó tới một Server.
 
 168. Lợi thế của Java Socket?
-
 Lập trình dựa trên Socket hiệu quả có thể dễ dàng được triển khai cho truyền thông chung. Các Socket là linh động và nó làm lưu lượng truyền qua mạng ít hơn.
 
 169. Hạn chế của Java Socket?
-
 Truyền thông dựa trên Socket chỉ cho phép gửi các gói dữ liệu thô giữa các ứng dụng. Cả Clietn-Side và Server-Side phải cung cấp các kỹ thuật để làm cho dữ liệu đó có thể dùng được trong bất cứ cách thức nào.
 
 170. Lớp nào được sử dụng bởi các ứng dụng Server để thu nhận một cổng (port) và các yêu cầu từ Client?
-
 Lớp java.net.ServerSocket được sử dụng cho mục đích này.
 
 171. Lớp nào biểu diễn Socket mà cả Server và Client sử dụng để giao tiếp với nhau?
-
 Đó là lớp java.net.Socket.
 
 172. Tại sao Generic được sử dụng trong Java?
-
 Generic cung cấp tính an toàn kiểu tại compile-time mà cho phép lập trình viên để bắt các kiểu không hợp lệ tại thời gian biên dịch. Các phương thức Generic và các lớp Generic trong Java cho phép lập trình viên xác định, với một khai báo phương thức đơn, một tập hợp các phương thức liên quan, hoặc với một khai báo lớp đơn là một tập hợp các kiểu liên quan.
 
 173. Bạn cần thiết lập các biến môi trường nào trên thiết bị để có thể chạy các chương trình Java?
-
 Hai biến môi trường CLASSPATH và PATH.
 
 174. Có cần thiết phải nhập java.lang package không?
-
 Không. Nó được tải theo mặc định bởi JVM.
 
 175. Lớp cao nhất được lồng là gì?
-
 Nếu một lớp được khai báo bên trong một lớp và xác định Static Modifier, bộ biên dịch xem lớp đó giống như bất cứ lớp cao nhất nào khác. Lớp cao nhất bị lồng là một lớp Inner.
 
 176. Trình bày Externalizable Interface?
-
 Externalizable là một Interface chứa hai phương thức readExternal và writeExternal. Hai phương thức này cung cấp cho bạn một điều khiển thông qua kỹ thuật Serialization.
 
 177. Khối finally sẽ vẫn thực thi nếu như có System.exit(0); được viết ở cuối khối try?
-
 Trong trường hợp này, khối finaaly sẽ không thực thi, bởi vì khi bạn cung cấp System.exit(0); thì điều khiển ngay lập tức thoát khỏi chương trình đó, và vì thế khối finally này sẽ không bao giờ thực thi.
 
 178. Bạn hiểu gì về Daemon Thread?
-
 Daemon Thread là một Thread có quyền ưu tiên thấp, chạy không liên tục trong Background thực hiện hoạt động của trình dọn rác cho Java Runtime System.
 
 179. Phương thức được sử dụng để tạo Daemon Thread?
-
 Phương thức setDaemon được sử dụng để tạo một Daemon Thread.
 
 180. Tất cả Thread phải triển khai phương thức nào?
-
 Tất cả tác vụ phải triển khai phương thức run().
 
 181. Lớp GregorianCalendar là gì?
-
 Lớp GregorianCalendar cung cấp sự hỗ trợ Western Calendar truyền thống.
 
 182. Bạn hiểu gì về lớp SimpleTimeZone?
-
 Lớp SimpleTimeZone cung cấp sự hỗ trợ cho một Gregorian Calendar.
 
 183. Điểm khác nhau giữa hai tham số size và capacity của một Vector?
-
 Tham số size là số phần tử thực sự được lưu giữ trong Vector đó, trong khi capacity là số phần tử tối đa nó có thể lưu giữ tại một thời điểm nào đó.
 
 184. Một Vector có thể chứa các đối tượng hỗn tạp không?
-
 Có, một Vector có thể chứa các đối tượng hỗn tạp. Bởi vì một Vector lưu trữ mọi thứ theo khái niệm Đối tượng.
 
 185. Trình bày Enumeration?
-
 Một Enumeration là một Interface chứa các phương thức để truy cập cấu trúc dữ liệu lớp dưới mà từ đó Enumeration được thu nhận. Nó cho phép sự truy cập liên tiếp tới tất cả phần tử được lưu trữ trong Collection đó.
 
 186. Path và Classpath khác nhau ở điểm nào?
-
 Cả Path và Classpath đều là các biến môi trường của hệ điều hành. Path là các định nghĩa từ đó hệ thống có thể tìm thấy các file có thể thực thi (với đuôi .exe) và Classpath được sử dụng để xác định vị trí của .class file.
 
 187. Một lớp được khai báo là private có thể được truy cập từ bên ngoài package của nó không?
-
 Không.
 
 188. Ràng buộc nào phải được tuân theo trên một phương thức static hoặc một khối static?
-
 Một phương thức static không nên tham chiếu tới các biến instance mà không tạo một instance và không thể sử dụng toán tử this để tham chiếu Instance đó.
 
 189. Một Interface có thể kế thừa Interface khác không?
-
 Có. Một Interface có thể kế thừa Interface khác, từ đó một Interface có thể kế thừa nhiều hơn một Interface.
 
 190. Ghi đè và nạp chồng là dựa trên khái niệm hướng đối tượng nào?
-
 Đó là tính đa hình (Polymorphism)
 
 191. Lock của một đối tượng là gì và các đối tượng nào có lock?
-
 Một lock của đối tượng là một kỹ thuật được sử dụng bởi nhiều Thread để thu được truy cập được đồng bộ hóa (synchronized) tới đối tượng đó. Một Thread có thể thực thi một phương thức synchronized của một đối tượng chỉ sau khi nó đã giành được lock của đối tượng đó.
 
 192. Khái niệm Downcasting là gì?
-
 Nó là ép kiểu từ một kiểu chung thành một kiểu cụ thể hơn, ví dụ: ép kiểu xuống theo cấu trúc thứ bậc.
 
 193. Thứ tự độ ưu tiên và Associativity là gì và cách chúng được sử dụng?
-
 Độ ưu tiên quyết định thứ tự trong đó toán tử được ước lượng trong các biểu thức. Associativity xác định xem một biểu thức là được tính toán từ trái-qua-phải hay từ phải-qua-trái.
 
 194. Nếu một phương thức được khai báo là protected, thì phương thức đó có thể được truy cập ở đâu?
-
 Một phương thức protected chỉ có thể được truy cập bởi các lớp hoặc Interface của cùng package hoặc bởi các lớp con của lớp trong đó nó được khai báo.
 
 195. Điểm khác nhau giữa Inner Class và Nested Class?
-
 Khi một lớp được định nghĩa bên trong một phạm vi của lớp khác, thì nó trở thành Inner Class. Nếu Access Modifier của Inner Class là static, thì nó trở thành Nested Class.
 
 196. Bạn cần chú ý điều gì khi thực hiện ghi đè phương thức?
-
 Các phương thức bị ghi đè phải có cùng tên, danh sách tham số, và kiểu trả về. Phương thức ghi đè không thể giới hạn sự truy cập của phương thức nó ghi đè.
 
 197. Chuỗi Constructor (hay Constructor Chaining) là gì và cách thực hiện nó trong Java?
-
 Một Constructor của đối tượng con đầu tiên luôn luôn cần để xây dựng cha của nó. Trong Java, điều này được thực hiện thông qua một lời gọi ngầm định tới constructor (không có tham số) như là lệnh đầu tiên.
 
 198. Có thể ép kiểu giá trị double thành một byte được không?
-
 Có.
 
 199. Cách một lệnh try quyết định mệnh đề catch nào nên được sử dụng để xử lý một Exception?
-
 Khi một Exception được ném bên trong thân khối lệnh try, thì các mệnh đề catch của lệnh try đó được kiểm tra. Mệnh đề catch đầu tiên nào có khả năng xử lý Exception đó sẽ được thực thi. Các mệnh đề catch còn lại được bỏ qua.
 
 200. Các giá trị mặc định của tất cả phần tử trong một mảng khi được định nghĩa như là một biến instance là gì?
-
 Nếu mảng là một mảng các kiểu cơ sở (primitive type), thì tất cả phần tử của mảng đó sẽ được khởi tạo với giá trị mặc định tương ứng với kiểu cơ sở đó.
 
 
