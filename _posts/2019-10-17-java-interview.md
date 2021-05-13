@@ -996,6 +996,8 @@ Tham khảo:
 - [69 câu hỏi phỏng vấn về Spring (Phần 2)](https://codeaholicguy.com/2016/02/02/69-cau-hoi-phong-van-ve-spring-phan-2/)
 - [69 câu hỏi phỏng vấn về Spring (Phần cuối)
 )](https://codeaholicguy.com/2016/02/04/69-cau-hoi-phong-van-ve-spring-phan-cuoi//)
+- [Các câu hỏi phỏng vấn Java Spring cho vị trí Java Developer](https://vn.bitdegree.org/huong-dan/java-spring/)
+- [Top 70 câu hỏi và câu trả lời về Spring Boot khi phỏng vấn](https://hocspringboot.net/2021/04/18/top-70-cau-hoi-va-cau-tra-loi-ve-spring-boot-khi-phong-van/)
 - [Tổng hợp câu hỏi phỏng vấn JAVA - Java Interview Question](https://giai-ma.blogspot.com/2017/04/ngan-hang-cau-hoi-phong-van-ngon-ngu.html)
 - [Top 10 câu hỏi phỏng vấn Java thường gặp](https://techtalk.vn/top-10-cau-hoi-phong-van-java-thuong-gap.html)
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](https://boxxv.github.io/2019/05/19/top-20-questions-interview-and-asked/)
