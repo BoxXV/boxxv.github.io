@@ -33,7 +33,7 @@ function Dog(name, age){
 }
 ```
 
-Phương thức trong hàm khởi tạo tốt hơn có thể được viết bằng javascript bằng cách viết nó dưới dạng một nguyên mẫu như sau: 
+Phương thức trong hàm khởi tạo tốt hơn có thể được viết bằng javascript bằng cách viết nó dưới dạng một nguyên mẫu prototype như sau: 
 
 ```js
 function Dog(name, age){
@@ -51,6 +51,15 @@ Dog.prototype.canBark = function(){
   }
 }
 ```
+
+Bây giờ, `Object Prototype` Nguyên mẫu Đối tượng là gì? Nguyên mẫu đối tượng là một đối tượng được liên kết với mọi phiên bản của đối tượng theo mặc định trong JavaScript. Nguyên mẫu cho phép bạn dễ dàng xác định các phương thức cho tất cả các trường hợp của một đối tượng cụ thể. Điều này rất hữu ích vì phương thức được áp dụng cho nguyên mẫu, vì vậy nó chỉ được lưu trữ trong bộ nhớ một lần, nhưng mọi thể hiện của đối tượng đều có quyền truy cập vào nó.
+
+Chúng tôi cũng có thể thêm một thuộc tính vào đối tượng bằng cách sử dụng một nguyên mẫu, điều này không thể thực hiện được bình thường sau khi khai báo một hàm khởi tạo, nhưng nó chỉ nên được sử dụng cho các thuộc tính mà chúng tôi muốn tất cả các phiên bản chia sẻ:
+
+```js
+Dog.prototype.breed = 'German shepherd'
+```
+
 
 
 
@@ -77,3 +86,5 @@ http://kangax.github.io/compat-table/es6/
 
 -----
 [Object-Oriented Programming in Javascript(ES5 & ES6) EXPLAINED.](https://dev.to/orighoprecious/object-oriented-programming-in-javascript-es5-es6-explained-4jbk)  
+[https://www.w3schools.com/js/js_versions.asp](https://www.w3schools.com/js/js_versions.asp)  
+[https://www.w3schools.com/js/js_history.asp](https://www.w3schools.com/js/js_history.asp)  
