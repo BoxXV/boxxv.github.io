@@ -400,174 +400,174 @@ Một lớp là một thiết kế (blueprint) từ đó các đối tượng ri
 ##### 12. Class có thể chứa những kiểu biến nào?
 Một lớp có thể gồm biến local, biến instance, và biến lớp.
 
-13. Biến local hay biến cục bộ là gì?
+##### 13. Biến local hay biến cục bộ là gì?
 Các biến được định nghĩa bên trong phương thức, constructor hoặc các khối được gọi là biến local. Biến này sẽ được khai báo và khởi tạo bên trong phương thức và nó sẽ bị hủy khi phương thức kết thúc.
 
-14. Biến instance là gì?
+##### 14. Biến instance là gì?
 Biến instance là các biến bên trong một lớp nhưng bên ngoài bất cứ phương thức nào. Những biến này được khởi tạo khi lớp được tải.
 
-15. Biến lớp là gì?
+##### 15. Biến lớp là gì?
 Đây là các biến được khai báo với một lớp, bên ngoài bất cứ phương thức nào, với từ khóa static.
 
-16. Lớp Singleton là gì?
+##### 16. Lớp Singleton là gì?
 Lớp Singleton trong Java kiểm soát việc tạo đối tượng, giới hạn số đối tượng là một nhưng nó cũng linh động khi cho phép bạn tạo nhiều đối tượng hơn nếu tình huống thay đổi.
 
-17. Bạn hiểu gì về Contructor?
+##### 17. Bạn hiểu gì về Contructor?
 Contructor được gọi khi một đối tượng mới được tạo. Mỗi lớp có một Constructor. Nếu chúng ta không viết constructor cho lớp một cách tường minh, thì trình biên dịch Java sẽ xây dựng một Constructor mặc định cho lớp đó.
 
-18. Liệt kê ba bước để tạo một đối tượng cho một lớp?
+##### 18. Liệt kê ba bước để tạo một đối tượng cho một lớp?
 Đầu tiên, một đối tượng được khai báo, sau đó khởi tạo và cuối cùng là khởi chạy.
 
-19. Giá trị mặc định của kiểu dữ liệu byte trong Java?
+##### 19. Giá trị mặc định của kiểu dữ liệu byte trong Java?
 Giá trị mặc định của kiểu dữ liệu byte là 0.
 
-20. Giá trị mặc định của kiểu dữ liệu float và double trong Java?
+##### 20. Giá trị mặc định của kiểu dữ liệu float và double trong Java?
 Giá trị mặc định của kiểu dữ liệu float và double trong Python khác với trong C/C++. Mặc định của float là 0.0f và của double là 0.0d.
 
-21. Kiểu dữ liệu byte được sử dụng khi nào?
+##### 21. Kiểu dữ liệu byte được sử dụng khi nào?
 Kiểu dữ liệu này được sử dụng để lưu trữ không gian trong các mảng rộng, chủ yếu để thay thế cho các số nguyên, vì một byte nhỏ hơn 4 lần so với một int.
 
-22. Biến static (biến tĩnh) là gì?
+##### 22. Biến static (biến tĩnh) là gì?
 Các biến lớp cũng còn được biết đến với tên gọi là biến tĩnh (biến static) được khai báo với từ khóa static trong một lớp, nhưng nằm ngoài một phương thức, constructor hoặc một khối.
 
-23. Bạn hiểu gì về Access Modifier?
+##### 23. Bạn hiểu gì về Access Modifier?
 Java cung cấp một số Access Modifier để thiết lập mức độ truy cập cho các lớp, các biến, phương thức và constructor. Một thành viên có khả năng truy cập mặc định khi không có Access Modifier nào được xác định.
 
-24. Protected Access Modifier là gì?
+##### 24. Protected Access Modifier là gì?
 Các biến, phương thức và constructor, mà được khai báo protected trong một lớp cha (superclass), chỉ được truy cập bởi các lớp cha trong package khác hoặc bất kỳ lớp nào bên trong package đó của lớp được protected.
 
-25. Synchronized Non Access Modifier là gì?
+##### 25. Synchronized Non Access Modifier là gì?
 Java cung cấp Synchronized Non Access Modifier để mang tới những tính năng khác ngoài Access Modifier, từ Synchronized chỉ ra rằng một phương thức chỉ được truy cập bởi một luồng tại một thời điểm.
 
-26. Theo quyền ưu tiên của các toán tử trong Java, toán tử nào có quyền ưu tiên cao nhất?
+##### 26. Theo quyền ưu tiên của các toán tử trong Java, toán tử nào có quyền ưu tiên cao nhất?
 Các toán tử postfix như (), [], . là có quyền ưu tiên cao nhất.
 
-27. Các biến được sử dụng trong lệnh switch có thể được sử dụng với kiểu dữ liệu nào?
+##### 27. Các biến được sử dụng trong lệnh switch có thể được sử dụng với kiểu dữ liệu nào?
 Các biến được sử dụng trong một lệnh switch chỉ có thể là một byte, string, enum, short, int hoặc char.
 
-28. Khi nào phương thức parseInt() có thể được sử dụng?
+##### 28. Khi nào phương thức parseInt() có thể được sử dụng?
 Phương thức này được sử dụng để lấy kiểu dữ liệu gốc của một chuỗi nhất định.
 
-29. Tại sao lớp String được coi như là bất biến (Immutable)?
+##### 29. Tại sao lớp String được coi như là bất biến (Immutable)?
 Lớp String là bất biến hay không thể thay đổi, và khi nó đã được tạo, một đối tượng String không thể bị biến đổi. Do String là bất biến, nên nó có thể được chia sẻ an toàn giữa nhiều luồng. Điều này là một phần rất quan trọng cho lập trình đa luồng.
 
-30. Tại sao StringBuffer được gọi là khả biến?
+##### 30. Tại sao StringBuffer được gọi là khả biến?
 Các đối tượng StringBuffer có thể sửa đổi. Nếu có một tình huống bạn cần tạo nhiều sửa đổi đến các chuỗi ký tự thì nên sử dụng StringBuffer.
 
-31. Sự khác nhau giữa hai lớp StringBuffer và StringBuilder?
+##### 31. Sự khác nhau giữa hai lớp StringBuffer và StringBuilder?
 Sử dụng StringBuilder bất cứ khi nào có thể bởi vì nó nhanh hơn StringBuffer. Nhưng, nếu an toàn luồng (Thread Safety) là cần thiết, thì bạn nên sử dụng các đối tượng StringBuffer.
 
-32. Package nào được sử dụng để so khớp mẫu (Pattern Matching) với Regular Expression trong Java?
+##### 32. Package nào được sử dụng để so khớp mẫu (Pattern Matching) với Regular Expression trong Java?
 Để sử dụng cho mục đích này, bạn dùng package java.util.regex.
 
-33. java.util.regex gồm các lớp nào?
+##### 33. java.util.regex gồm các lớp nào?
 java.util.regex gồm ba lớp: lớp Pattern, lớp Matcher và lớp PatternSyntaxException.
 
-34. Phương thức finalize() làm gì?
+##### 34. Phương thức finalize() làm gì?
 Có thể định nghĩa một phương thức mà sẽ được gọi ngay trước khi hủy đối tượng bởi Garbage Collector (Trình dọn rác). Phương thức này được gọi là finalize(), và nó có thể được sử dụng để bảo đảm rằng đã hoàn toàn kết thúc một đối tượng.
 
-35. Exception (Ngoại lệ) là gì?
+##### 35. Exception (Ngoại lệ) là gì?
 Một Exception là một vấn đề được tạo ra trong khi thực thi một chương trình. Các Exception được bắt bởi Handler được xác định cùng với lời gọi phương thức của Thread.
 
-36. Bạn biết gì về Checked Exception?
+##### 36. Bạn biết gì về Checked Exception?
 Đặc trưng của loại Exception này là một lỗi người dùng hoặc một vấn đề không thể biết trước bởi lập trình viên. Ví dụ, nếu một file đã được mở, nhưng không tìm thấy file đó, thì một Exception xuất hiện. Những Exception này không thể được bỏ qua một cách đơn giản tại thời điểm biên dịch.
 
-37. Giải thích Runtime Exception?
+##### 37. Giải thích Runtime Exception?
 Nó là một Exception mà có thể được tránh bởi lập trình viên. Trái ngược với Checked Exception, các Runtime Exception bị bỏ qua tại thời điểm biên dịch.
 
-38. Lớp Exception có hai lớp con nào?
+##### 38. Lớp Exception có hai lớp con nào?
 Lớp Exception có hai lớp con chính là: lớp IOException và lớp RuntimeException.
 
-39. Khi nào từ kháo throws được sử dụng?
+##### 39. Khi nào từ kháo throws được sử dụng?
 Nếu một phương thức không xử lý một Checked Exception, phương thức phải được khai báo với từ khóa throws. Từ khóa throws xuất hiện ở phần cuối một phương thức.
 
-40. Khi nào từ khóa throw được sử dụng?
+##### 40. Khi nào từ khóa throw được sử dụng?
 Một Exception có thể được ném, hoặc bởi được khởi tạo hoặc một Exception mà bạn vừa bắt, bởi sử dụng từ khóa throw.
 
-41. Cách finally được sử dụng dưới Exception Handling?
+##### 41. Cách finally được sử dụng dưới Exception Handling?
 Từ khóa finally được sử dụng để tạo một khối code mà theo sau một khối try. Một khối finally luôn luôn thực thi, dù có xuất hiện một Exception hay không.
 
-42. Bạn nên ghi nhớ điều gì trong khi tạo Exception cho riêng mình trong Java?
+##### 42. Bạn nên ghi nhớ điều gì trong khi tạo Exception cho riêng mình trong Java?
 Trong khi tạo riêng cho mình các Exception:
     Tất cả Exception phải là con của Throwable.
     Nếu bạn muốn viết một Checked Exception mà tự động được tuân theo bởi Handler hoặc Declare Rule (Qui tắc khai báo và xử lý ngoại lệ), thì bạn cần kế thừa lớp Exception.
     Nếu bạn muốn viết một Runtime Exception, bạn cần kế thừa lớp RuntimeException.
 
-43. Tính kế thừa (Inheritance) là gì?
+##### 43. Tính kế thừa (Inheritance) là gì?
 Nó là một tiến trình mà một đối tượng thu được các thuộc tính của đối tượng khác. Sử dụng tính kế thừa, bạn có thể quản lý dễ dàng hơn với thông tin được tạo ra trong một cấu trúc có thứ bậc.
 
-44. Sử dụng từ khóa super khi nào?
+##### 44. Sử dụng từ khóa super khi nào?
 Nếu phương thức ghi đè một trong các phương thức của lớp cha, thì phương thức bị ghi đè có thể được triệu hồi thông qua việc sử dụng từ khóa super. Nó cũng có thể được sử dụng để tham chiếu một trường bị ẩn.
 
-45. Định nghĩa tính đa hình (Polymorphism)?
+##### 45. Định nghĩa tính đa hình (Polymorphism)?
 Tính đa hình là khả năng giúp cho một đối tượng có nhiều hình thái. Trong OOP, sự sử dụng phổ biến nhất của tính đa hình là khi một tham chiếu lớp cha được sử dụng để tham chiếu tới một đối tượng lớp con.
 
-46. Tính trừu tượng (Abstraction) là gì?
+##### 46. Tính trừu tượng (Abstraction) là gì?
 Nó liên quan tới khả năng tạo một lớp trừu tượng (lớp abstract) trong OOP. Nó giúp giảm thiểu sự phức tạp và cũng cải thiện khả năng duy trì của hệ thống.
 
-47. Lớp Abstract là gì?
+##### 47. Lớp Abstract là gì?
 Những lớp này không thể được khởi tạo và được triển khai hoặc một phần hoặc không. Lớp này chứa một hoặc nhiều phương thức abstract, mà phần khai báo phương thức được đơn giản hóa với việc không có phần thân.
 
-48. Khi nào phương thức abstract được sử dụng?
+##### 48. Khi nào phương thức abstract được sử dụng?
 Nếu bạn muốn một lớp chứa một phương thức cụ thể nhưng bạn muốn trình triển khai thực sự của phương thức đó được quyết định bởi các lớp con, bạn có thể khai báo phương thức trong lớp cha ở dạng abstract.
 
-49. Tính bao đóng (Encapsulation) là gì?
+##### 49. Tính bao đóng (Encapsulation) là gì?
 Nó là một kỹ thuật tạo các trường trong một lớp private và cung cấp truy cập tới các trường thông qua các phương thức public. Nếu một trường được khai báo là private,, nó không thể được truy cập bởi bất cứ phương thức nào bên ngoài lớp đó, từ đó ẩn các trường bên trong lớp. Vì thế, tính bao đóng cũng được xem như là Data hiding (ẩn dữ liệu).
 
-50. Lợi ích chính của tính bao đóng?
+##### 50. Lợi ích chính của tính bao đóng?
 Lợi thế chủ yếu của tính bao đóng là khả năng để sửa đổi các code đã được triển khai của bạn mà không phá hủy phần code của ai đó. Nó như là tấm bảo vệ code và tránh code và dữ liệu của bạn bị truy cập một cách ngẫu nhiên từ code bên ngoài. Tính bao đóng cung cấp cho code tính duy trì, tính linh động, và mở rộng.
 
-51. Interface là gì?
+##### 51. Interface là gì?
 Một Interface là một tập hợp các phương thức abstract. Một lớp triển khai một Interface, từ đó kế thừa các phương thức abstract của Interface đó.
 
-52. Một số đặc điểm của Interface?
+##### 52. Một số đặc điểm của Interface?
 Bao gồm:
     Interface không thể được khởi tạo.
     Một Interface không chứa bất cứ Constructor nào.
     Tất cả phương thức trong một Interface là Abtract.
 
-53. Trong Java, Package là gì?
+##### 53. Trong Java, Package là gì?
 Một Package có thể được định nghĩa như là một nhóm các kiểu (lớp, interface, kiểu liệt kê) có liên quan với nhau, cung cấp bảo vệ truy cập và trình quản lý namespace.
 
-54. Tại sao Package được sử dụng?
+##### 54. Tại sao Package được sử dụng?
 Package được sử dụng trong Java để ngăn ngừa các xung đột khi đặt tên, để điều khiển truy cập, để tìm kiếm và xác định vị trí, và để sử dụng các lớp, Interface, kiểu liệt kê … dễ dàng hơn.
 
-55. Bạn hiểu gì về Đa luồng (Multi-Thread)?
+##### 55. Bạn hiểu gì về Đa luồng (Multi-Thread)?
 Một chương trình đa luồng bao gồm hai hoặc nhiều phần mà có thể chạy đồng thời. Mỗi phần của chương trình đó được gọi là một Thread, và một Thread xác định một trình thực thi khác nhau.
 
-56. Thread có thể được tạo bằng hai cách nào?
+##### 56. Thread có thể được tạo bằng hai cách nào?
 Thread có thể được tạo bởi: triển khai Runable Interface, kế thừa lớp Thread.
 
-57. Applet là gì?
+##### 57. Applet là gì?
 Một Applet (vi mã) là một chương trình Java mà chạy trong một trình duyệt Web. Một Applet có thể là một ứng dụng Java đầy đủ tính năng bởi vì nó có toàn bộ Java API trong bố trí của nó.
 
-58. Một Applet kế thừa lớp nào?
+##### 58. Một Applet kế thừa lớp nào?
 Một Applet kế thừa lớp java.applet.Applet.
 
-59. Giải thích trình dọn rác (Garbage Collector) trong Java?
+##### 59. Giải thích trình dọn rác (Garbage Collector) trong Java?
 Java sử dụng trình dọn rác để giải phóng bộ nhớ. Bằng việc xóa bỏ các đối tượng mà không còn được sử dụng bởi bất cứ chương trình nào.
 
-60. Định nghĩa đối tượng không thể biến đổi?
+##### 60. Định nghĩa đối tượng không thể biến đổi?
 Một đối tượng không thể biến đổi (immutable object) là không thể bị thay đổi từ khi nó được tạo.
 
-61. Giải thích sự sử dụng của this() với các Constructor?
+##### 61. Giải thích sự sử dụng của this() với các Constructor?
 Nó được sử dụng với các biến hoặc phương thức và được sử dụng để gọi Constructor của cùng lớp đó.
 
-62. Bạn biết gì về Set Interface?
+##### 62. Bạn biết gì về Set Interface?
 Nó là một tập hợp phần tử mà không thể chứa bản sao các phần tử. Set Interface chỉ bao gồm các phương thức được kế thừa từ Collection và bổ sung thêm các giới hạn về ngăn cấm bản sao phần tử xuất hiện.
 
-63. Trình bày TreeSet?
+##### 63. Trình bày TreeSet?
 Nó là một Set được triển khai khi chúng ta muốn các phần tử trong một thứ tự được sắp xếp.
 
-64. Comparable Interface là gì?
+##### 64. Comparable Interface là gì?
 Nó được sử dụng để sắp xếp các Collection và các mảng đối tượng bởi sử dụng phương thức collection.sort() và java.utils. Các đối tượng của lớp triển khai Comparable Interface có thể được sắp xếp.
 
-65. Điểm khác nhau giữa throws và throw?
+##### 65. Điểm khác nhau giữa throws và throw?
 Bao gồm:
     Throw được sử dụng để kích hoạt một Exception trong khi throws được sử dụng trong khai báo của Exception.
     Không có throw, Checked Exception không thể được xử lý, trong khi throws được sử dụng để biểu thị những Exception không được xử lý bởi hàm.
 
-66. Giải thích dòng code sau bằng ngôn ngữ Java?
+##### 66. Giải thích dòng code sau bằng ngôn ngữ Java?
 public static void main (String args[ ])
 
 Dưới đây là phần giải tích chi tiết:
@@ -577,43 +577,43 @@ Dưới đây là phần giải tích chi tiết:
     main() − phương thức này được gọi ở phần đầu chương trình Java.
     String args[ ] − tham số args là một mảng thể hiện của lớp String.
 
-67. JRE (Java Runtime Environment) là gì?
+##### 67. JRE (Java Runtime Environment) là gì?
 JRE là một trình triển khai của Java Virtual Machine mà thực thi các chương trình Java. Nó cung cấp các điều kiện tối thiểu để thực thi một ứng dụng Java.
 
-68. JAR file là gì?
+##### 68. JAR file là gì?
 JAR là viết tắt của Java Archive và nó kết hợp nhiều file lại thành một. Nó giữ các lớp Java trong một thư viện. JAR file được xây dựng trên định dạng ZIP file và có đuôi là .jar.
 
-69. WAR file là gì?
+##### 69. WAR file là gì?
 Đây là Web Archive File và được sử dụng để lưu trữ XML, các lớp Java, và JavaServer pages, mà được sử dụng để phân phối một tập hợp các JavaServer Page, Java Servlet, các lớp Java, XML file, Webpage tĩnh, …
 
-70. Định nghĩa JIT Compiler?
+##### 70. Định nghĩa JIT Compiler?
 Nó cải thiện hiệu suất runtime của các chương trình máy tính dựa trên Bytecode.
 
-71. Điểm khác nhau giữa Ngôn ngữ lập trình hướng đối tượng và ngôn ngữ lập trình dựa vào đối tượng?
+##### 71. Điểm khác nhau giữa Ngôn ngữ lập trình hướng đối tượng và ngôn ngữ lập trình dựa vào đối tượng?
 Ngôn ngữ lập trình dựa vào đối tượng có tất cả đặc điểm của OOP ngoại trừ Tính kế thừa (Inheritance). JavaScript là một ví dụ về Ngôn ngữ lập trình dựa trên đối tượng.
 
-72. Mục đích của Constructor mặc định?
+##### 72. Mục đích của Constructor mặc định?
 Java Compiler tạo một Constructor mặc định chỉ nếu khi không có constructor nào trong lớp.
 
-73. Một Constructor có thể được tạo là final không?
+##### 73. Một Constructor có thể được tạo là final không?
 Không, đây là điều không thể.
 
-74. Khối static là gì?
+##### 74. Khối static là gì?
 Nó được sử dụng để khởi tạo thành viên dữ liệu static. Nó được thực thi trước phương thức main tại thời gian tải lớp đó.
 
-75. Định nghĩa Composition?
+##### 75. Định nghĩa Composition?
 Việc giữ tham chiếu của lớp khác bên trong một vài lớp khác được biết đến như là Composition.
 
-76. Quá tải phương thức (Method Overloading) là gì?
+##### 76. Quá tải phương thức (Method Overloading) là gì?
 Nếu một lớp có nhiều hàm có cùng tên nhưng có tham số khác nhau, nó được xem như là quá tải phương thức (Method Overloading) hoặc quá tải hàm (Function Overloading).
 
-77. Ghi đè phương thức (Method Overriding) là gì?
+##### 77. Ghi đè phương thức (Method Overriding) là gì?
 Nếu một lớp con cung cấp một trình triển khai cụ thể của một phương thức mà đã được cung cấp bởi lớp cha của nó, thì đó là Ghi đè phương thức.
 
-78. Sự khác nhau giữa nạp chồng và ghi đè (Overloading vs Overriding)?
+##### 78. Sự khác nhau giữa nạp chồng và ghi đè (Overloading vs Overriding)?
 Nạp chồng phương thức tăng khả nang đọc của chương trình. Ghi đè phương thức cung cấp trình triển khai cụ thể của phương thức mà đã được cung cấp bởi lớp cha của nó. Tham số phải là khác kiểu trong nạp chồng, và trong ghi đè, các tham số là cùng kiểu.
 
-79. Lớp final là gì?
+##### 79. Lớp final là gì?
 Các lớp final được tạo để các phương thức được triển khai bởi lớp đó không thể bị ghi đè. Nó không thể bị kế thừa.
 
 80. NullPointerException là gì?
