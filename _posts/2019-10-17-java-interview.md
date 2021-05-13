@@ -267,7 +267,36 @@ https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/
     4. Có thể khai báo interface trong class không?
     5. Có thể khai báo một class trong interface không?
 
+#### Câu hỏi phỏng vấn Java Collection
+    1. Sự khác nhau giữa ArrayList và Vector là gì? 
+    2. Sự khác nhau giữa ArrayList và LinkedList là gì? 
+    3. Sự khác nhau giữa Iterator và ListIterator là gì? 
+    4. Sự khác biệt giữa Iterator và Enumeration là gì? 
+    5. Sự khác nhau giữa List và Set là gì? 
+    6. Sự khác nhau giữa HashSet và TreeSet là gì? 
+    7. Sự khác nhau giữa Set và Map là gì? 
+    8. Sự khác biệt giữa HashSet và HashMap là gì? 
+    9. Sự khác nhau giữa HashMap và TreeMap là gì? 
+    10. Sự khác nhau giữa HashMap và Hashtable là gì? 
+    11. Sự khác nhau giữa Collection và Collections là gì? 
+    12. Sự khác nhau giữa Comparable và Comparator là gì? 
+    13. Lợi thế của Properties file là gì? 
+    14. Phương thức hashCode() là gì? 
+    15. Tại sao chúng ta phải nghi đè phương thức equals()? 
+    16. Làm thế nào để đồng bộ List, Set và Map? 
+    17. Lợi ích của generic collection là gì? 
+    18. Hash-collision trong Hashtable là gì? Và nó được xử lý như thế nào? 
+    19. Lớp Dictionary là gì? 
+    20. Sự khác nhau giữa Array và ArrayList là gì? 
 
+#### Câu hỏi phỏng vấn servlet
+https://viettuts.vn/interview/list-cau-hoi-phong-van-servlet
+
+#### Câu hỏi phỏng vấn JSP
+https://viettuts.vn/interview/list-cau-hoi-phong-van-jsp
+
+#### Câu hỏi phỏng vấn Hibernate
+https://viettuts.vn/interview/list-cau-hoi-phong-van-hibernate
 
 
 ## 200 câu hỏi phỏng vấn Java hay thường gặp
