@@ -60,7 +60,33 @@ Chúng tôi cũng có thể thêm một thuộc tính vào đối tượng bằn
 Dog.prototype.breed = 'German shepherd'
 ```
 
+Điều gì sẽ xảy ra nếu chúng ta có một đối tượng khác mà chúng ta muốn có tất cả các thuộc tính và phương thức của đối tượng đầu tiên cũng như các thuộc tính và / hoặc phương thức đặc biệt của riêng chúng, chúng ta sẽ làm gì khi ghi nhớ DRY?
 
+Câu trả lời cho điều đó được cung cấp bởi `prototypes inheritance`, đơn giản có nghĩa là một đối tượng kế thừa các thuộc tính và phương thức của đối tượng khác. ví dụ: chúng tôi muốn một nhóm dog khác kế thừa một số thuộc tính của nhóm đầu tiên cộng với các thuộc tính đặc biệt của chúng (dog weight):
+
+```js
+// Group 1
+function GroupDog1(dogName, dogAge){
+ // Properties
+  this.dogName = dogName;
+  this.dogAge = dogAge;
+}
+
+// Object Prototype
+GroupDog1.prototype.canBark = function(){
+  if(this.dogAge => '180 days'){
+     return 'YES';
+  } else{
+    return 'NO';
+  }
+}
+
+// Group 2
+function GroupDog2(dogName, dogAge, dogWeight){
+  GroupDog1.call(this, dogName, dogAge);
+  this.dogWeight = dogWeight;
+}
+```
 
 
 ### Cú pháp ES6
