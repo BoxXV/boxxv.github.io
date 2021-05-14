@@ -421,9 +421,85 @@ https://viettuts.vn/interview/list-cau-hoi-phong-van-hibernate
     119. Lớp nào là lớp cha gần nhất (trực tiếp) của lớp Container?
     120. Lớp Exception nào được tạo bởi Java runtime?
     121. Dưới các điều kiện nào thì một phương thức finalize() của đối tượng được triệu hồi bởi trình dọn rác (Garbage Collector)?
-    
-    
-    
+    122. Một Thread đã chết có thể được restart lại như thế nào?
+    123. Các toán tử số học nào có thể gây ra sự kiện ném một ArithmeticException?
+    124. Biến kiểu Boolean được tự động khởi tạo với giá trị?
+    125. Các lệnh try có thể lồng nhau không?
+    126. ClassLoader là gì?
+    127. Điểm khác nhau giữa một Interface và một lớp Abstract?
+    128. Điều gì xảy ra nếu Static Modifier bị gỡ bỏ từ phương thức main?
+    129. Giá trị mặc định của một tham chiếu đối tượng được khai báo như là một biến instance?
+    130. Lớp cao nhất có thể là private hoặc protected không?
+    131. Tại sao chúng ta cần các lớp wrapper?
+    132. Điểm khác nhau giữa Error và Exception?
+    133. Có cần thiết để mỗi khối try phải được theo sau bởi một khối catch không?
+    134. Khi một Thread được tạo và bắt đầu, trạng thái ban đầu (initial state) của nó là gì?
+    135. Lớp Locale là gì?
+    136. Phương thức synchronized và lệnh synchronized là gì?
+    137. Gửi phương thức động hoặc đa hình tại runtime là gì?
+    138. Dynamic Binding (Late Biding) là gì?
+    139. Constructor có thể được kế thừa không?
+    140. Lợi thế của ArrayList so với các mảng?
+    141. Hoạt động xóa trong LinkedList là nhanh hơn trong ArrayList, tại sao?
+    142. Bạn quyết định khi nào sử dụng ArrayList và LinkedList?
+    143. Một Values Collection View là gì?
+    144. Dot Operator (Toán tử .) là gì?
+    145. Bạn có thể sử dụng Private Constructor ở đâu và như thế nào?
+    146. Type Casting (Ép kiểu) là gì?
+    147. Miêu tả vòng đời (Life Cycle) của Thread?
+    148. Điểm khác nhau giữa hai toán tử » và »> ?
+    149. Phương thức nào của lớp Component được sử dụng để thiết lập vị trí và kích cỡ của một component?
+    150. Dãy giá trị của kiểu short?
+    151. Lớp cha gần nhất của Menu?
+    152. Java có cho phép các tham số mặc định không?
+    153. Trong Java, hệ cơ số nào được biểu thị với số 0 bắt đầu?
+    154. Trong Java, hệ cơ số nào được biểu thị với phần bắt đầu là 0x hoặc 0X?
+    155. Lệnh break có thể được sử dụng như là các nhãn (label) trong Java?
+    156. Lệnh import được sử dụng ở đâu trong một chương trình Java?
+    157. Giải thích phương thức suspend() dưới lớp Thread?
+    158. Giải thích phương thức isAlive() dưới lớp Thread?
+    159. Bạn hiểu gì về phương thức currentThread()?
+    160. Giải thích main thread dưới sự thực thi của lớp Thread?
+    161. Vòng đời của một Applet?
+    162. Vai trò của phương thức init() dưới Applet?
+    163. Phương thức nào được gọi bởi lớp Applet để tải một hình ảnh?
+    164. Định nghĩa phần code được sử dụng như là một thuộc tính của Applet?
+    165. Canvas là gì?
+    166. Định nghĩa Lập trình mạng?
+    167. Socket là gì?
+    168. Lợi thế của Java Socket?
+    169. Hạn chế của Java Socket?
+    170. Lớp nào được sử dụng bởi các ứng dụng Server để thu nhận một cổng (port) và các yêu cầu từ Client?
+    171. Lớp nào biểu diễn Socket mà cả Server và Client sử dụng để giao tiếp với nhau?
+    172. Tại sao Generic được sử dụng trong Java?
+    173. Bạn cần thiết lập các biến môi trường nào trên thiết bị để có thể chạy các chương trình Java?
+    174. Có cần thiết phải nhập java.lang package không?
+    175. Lớp cao nhất được lồng là gì?
+    176. Trình bày Externalizable Interface?
+    177. Khối finally sẽ vẫn thực thi nếu như có System.exit(0); được viết ở cuối khối try?
+    178. Bạn hiểu gì về Daemon Thread?
+    179. Phương thức được sử dụng để tạo Daemon Thread?
+    180. Tất cả Thread phải triển khai phương thức nào?
+    181. Lớp GregorianCalendar là gì?
+    182. Bạn hiểu gì về lớp SimpleTimeZone?
+    183. Điểm khác nhau giữa hai tham số size và capacity của một Vector?
+    184. Một Vector có thể chứa các đối tượng hỗn tạp không?
+    185. Trình bày Enumeration?
+    186. Path và Classpath khác nhau ở điểm nào?
+    187. Một lớp được khai báo là private có thể được truy cập từ bên ngoài package của nó không?
+    188. Ràng buộc nào phải được tuân theo trên một phương thức static hoặc một khối static?
+    189. Một Interface có thể kế thừa Interface khác không?
+    190. Ghi đè và nạp chồng là dựa trên khái niệm hướng đối tượng nào?
+    191. Lock của một đối tượng là gì và các đối tượng nào có lock?
+    192. Khái niệm Downcasting là gì?
+    193. Thứ tự độ ưu tiên và Associativity là gì và cách chúng được sử dụng?
+    194. Nếu một phương thức được khai báo là protected, thì phương thức đó có thể được truy cập ở đâu?
+    195. Điểm khác nhau giữa Inner Class và Nested Class?
+    196. Bạn cần chú ý điều gì khi thực hiện ghi đè phương thức?
+    197. Chuỗi Constructor (hay Constructor Chaining) là gì và cách thực hiện nó trong Java?
+    198. Có thể ép kiểu giá trị double thành một byte được không?
+    199. Cách một lệnh try quyết định mệnh đề catch nào nên được sử dụng để xử lý một Exception?
+    200. Các giá trị mặc định của tất cả phần tử trong một mảng khi được định nghĩa như là một biến instance là gì?
 
 
 #### 1. Bạn biết gì về Java?
