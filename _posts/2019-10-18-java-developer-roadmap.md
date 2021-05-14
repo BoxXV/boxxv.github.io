@@ -38,4 +38,5 @@ Muốn giỏi, phải liên tục trau dồi, luyện tập ở cty và ở nhà
 Tham khảo:
 - [Luồng học cho Java web developer](https://luanvv.com/blog/luong-hoc-java-web/)
 - [Java Developer Roadmap](https://github.com/s4kibs4mi/java-developer-roadmap)
+- [The 2021 Java Developer RoadMap [UPDATED]](https://javarevisited.blogspot.com/2019/10/the-java-developer-roadmap.html)
 - [Java Developer Road Map 2021 - How to Become a Java Developer](https://youtu.be/vK_-vld-tS4)
