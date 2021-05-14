@@ -1003,5 +1003,6 @@ Tham khảo:
 - [Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)](https://boxxv.github.io/2019/05/19/top-20-questions-interview-and-asked/)
 - [200 câu hỏi phỏng vấn Java hay thường gặp, có đáp án tham khảo](https://quantrimang.com/200-cau-hoi-phong-van-java-hay-thuong-gap-co-dap-an-144832)
 - [200 Câu hỏi phỏng vấn Java](https://vietjack.com/cau_hoi_phong_van_java/phan_20.jsp)
+- [201 câu hỏi phỏng vấn Java Core](https://viettuts.vn/interview/list-cau-hoi-phong-van-java-core)
 - [ Kinh nghiệm đi phỏng vấn cho sinh viên IT mới ra trường - Phần 1 ](https://viblo.asia/p/kinh-nghiem-di-phong-van-cho-sinh-vien-it-moi-ra-truong-phan-1-924lJOxb5PM)
 - [https://viblo.asia/tags/java](https://viblo.asia/tags/java)
