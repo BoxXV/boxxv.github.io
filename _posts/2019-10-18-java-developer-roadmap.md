@@ -8,6 +8,8 @@ tags:
 ---
 Thấy khá nhiều bạn sinh viên mới ra trường hiện nay khá mù mờ về con đường học, vẫn mãi lẹt đẹt học nhỏ giọt, thiếu chọn lọc và hiệu quả. Với kinh nghiệm éo có nhiều (nên nghe thì nghe, ko nghe thì cũng không ảnh hưởng đến hòa bình thế giới ạ), theo mình thì Java Web Developer Starter pack nên như sau:
 
+![Java Developer Roadmap](https://boxxv.github.io/img/posts/java-developer-roadmap.png "Java Developer Roadmap")_Java Developer Roadmap_
+
 ## 1. Java Core, OOP.
 Java core gồm những gì? Các bạn cứ vô trang này check cho ngắn gọn . Cái này dành cho bạn nào chưa biết làm hoặc còn gà Java. Tất cả hoàn toàn là cơ bản, advance hơn tý thì có thể kể đến một số mẹo tăng Perfomance, sử dụng nhuần nhuyễn các loại Collection, khi nào dùng List, khi nào dùng Set, perfomance nó khác nhau ntn,... Mình đi phỏng vấn nhiều, thực sự người nắm tốt Java Core chỉ đếm trên đầu ngón tay(tay trái thôi đấy). Các bạn quá lười học, đâm đầu vào làm dự án mà không chịu học hỏi thêm. Không nói cái gì xa xôi, chính những thứ các bạn đó làm hằng ngày, nhưng do không chịu tìm hiểu, dẫn đến vận dụng sai lầm. Không biết đến Set thì khi cần một list không trùng lặp phải làm như thế nào? Không biết final class/method thì sao có thể code OOP tốt được? Không biết synchronized hay Immutable class thì code multi-thread sẽ ra sao. Đừng nói các bạn không dùng, chẳng qua các bạn không biết mà dùng thôi! Java core không khó, cứ code nhiều, ĐỌC SÁCH và học hỏi là lên trình, ko vấn đề.
 
