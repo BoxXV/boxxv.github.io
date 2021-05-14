@@ -361,6 +361,69 @@ https://viettuts.vn/interview/list-cau-hoi-phong-van-hibernate
     59. Giải thích trình dọn rác (Garbage Collector) trong Java?
     60. Định nghĩa đối tượng không thể biến đổi?
     61. Giải thích sự sử dụng của this() với các Constructor?
+    62. Bạn biết gì về Set Interface?
+    63. Trình bày TreeSet?
+    64. Comparable Interface là gì?
+    65. Điểm khác nhau giữa throws và throw?
+    66. Giải thích dòng code sau bằng ngôn ngữ Java?
+    67. JRE (Java Runtime Environment) là gì?
+    68. JAR file là gì?
+    69. WAR file là gì?
+    70. Định nghĩa JIT Compiler?
+    71. Điểm khác nhau giữa Ngôn ngữ lập trình hướng đối tượng và ngôn ngữ lập trình dựa vào đối tượng?
+    72. Mục đích của Constructor mặc định?
+    73. Một Constructor có thể được tạo là final không?
+    74. Khối static là gì?
+    75. Định nghĩa Composition?
+    76. Quá tải phương thức (Method Overloading) là gì?
+    77. Ghi đè phương thức (Method Overriding) là gì?
+    78. Sự khác nhau giữa nạp chồng và ghi đè (Overloading vs Overriding)?
+    79. Lớp final là gì?
+    80. NullPointerException là gì?
+    81. Các cách mà một Thread có thể đi vào trạng thái đợi?
+    82. Cách mà Đa luồng (Multi-Thread) diễn ra trên một máy tính với một CPU đơn?
+    83. Triệu hồi phương thức run() của một Thread là gì?
+    84. Có vấn đề gì không với thứ tự của các lệnh catch được viết cho FileNotFoundException và IOException?
+    85. Điểm khác nhau giữa yield và sleep?
+    86. Tại sao lớp Vector được sử dụng?
+    87. Có bao nhiêu Bit được sử dụng để biểu diễn các ký tự Unicode, ASCII, UTF-16 và UTF-8?
+    88. Các lớp Wrapper là gì?
+    89. Điểm khác nhau giữa một Window và một Frame?
+    90. Package nào có các thành phần gọn nhẹ (lightweight)?
+    91. Đâu là điểm khác nhau giữa hai phương thức paint() và repaint()?
+    92. Lớp File có mục đích gì?
+    93. Điểm khác nhau giữa cấu trúc lớp Reader/Writer và cấu trúc lớp InputStream/OutputStream.
+    94. Bạn sử dụng lớp nào để lấy thông tin thiết kế về một đối tượng?
+    95. Biến static và biến non-static khác nhau ở điểm nào?
+    96. Serialization và Deserialization là gì?
+    97. Case là gì?
+    98. Giải thích sự sử dụng của lớp con trong một chương trình Java?
+    99. Cách thêm menushortcut tới menu item?
+    100. Bạn có thể viết môt lớp Java mà có thể được sử dụng như một Applet cũng như một ứng dụng không?
+    101. Điểm khác nhau giữa các thành phần Swing và AWT?
+    102. Điểm khác nhau giữa Constructor và các phương thức khác?
+    103. Có bất kỳ giới hạn nào khi sử dụng Tính kế thừa (Inheritance)?
+    104. Khi nào ArrayStoreException được ném?
+    105. Bạn có thể gọi một Constructor này từ Constructor khác nến một lớp có nhiều Constructor không?
+    106. Phương thức sleep() và wait() khác nhau ở điểm nào?
+    107. ArithmeticException được ném khi nào?
+    108. Một biến là transient (tạm thời) là gì?
+    109. Synchronization (Đồng bộ hóa) là gì?
+    110. Collection API là gì?
+    111. Trình dọn rác có bảo đảm rằng một chương trình sẽ không chạy hết bộ nhớ?
+    112. Lớp cha gần nhất (trực tiếp) của lớp Applet?
+    113. Toán tử nào trong Java là Right-Associative?
+    114. Điểm khác nhau giữa lệnh break và lệnh continue?
+    115. Nếu một biến được khai báo là private, thì nó có thể được truy cập trong phạm vi nào?
+    116. Mục đích của lớp System?
+    117. Liệt kê các kiểu gốc trong Java?
+    118. Mối quan hệ giữa Clipping và Repainting dưới AWT?
+    119. Lớp nào là lớp cha gần nhất (trực tiếp) của lớp Container?
+    120. Lớp Exception nào được tạo bởi Java runtime?
+    121. Dưới các điều kiện nào thì một phương thức finalize() của đối tượng được triệu hồi bởi trình dọn rác (Garbage Collector)?
+    
+    
+    
 
 
 #### 1. Bạn biết gì về Java?
