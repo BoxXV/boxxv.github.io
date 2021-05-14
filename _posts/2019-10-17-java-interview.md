@@ -144,22 +144,22 @@ https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/
 ## 201 câu hỏi phỏng vấn java core
 
 ### Java Core - java cơ bản
-1. Sự khác nhau giữa JDK,JRE và JVM?
-2. Sự khác nhau giữa bộ nhớ heap và stack trong java?
-3. Trình biên dịch JIT là gì?
-4. Platform là gì?
-5. Sự khác nhau giữa Java platform và các platform khác?
-6. Tính chất "viết một lần chạy nhiều nơi" của java là gì?
-7. Classloader trong java là gì?
-8. File có tên trống ".java" có hợp lệ không?
-9. Các từ delete, next, main, exit và null có phải là từ khóa trong java không?
-10. Nếu không cung cấp bất kỳ đối số nào trên command line, thì mảng String của hàm main là empty hay null?
-11. Chuyện gì xảy ra nếu khai báo static public void thay vì public static void?
-12. Giá trị mặc định của các biến local là gì?
+    1. Sự khác nhau giữa JDK,JRE và JVM?
+    2. Sự khác nhau giữa bộ nhớ heap và stack trong java?
+    3. Trình biên dịch JIT là gì?
+    4. Platform là gì?
+    5. Sự khác nhau giữa Java platform và các platform khác?
+    6. Tính chất "viết một lần chạy nhiều nơi" của java là gì?
+    7. Classloader trong java là gì?
+    8. File có tên trống ".java" có hợp lệ không?
+    9. Các từ delete, next, main, exit và null có phải là từ khóa trong java không?
+    10. Nếu không cung cấp bất kỳ đối số nào trên command line, thì mảng String của hàm main là empty hay null?
+    11. Chuyện gì xảy ra nếu khai báo static public void thay vì public static void?
+    12. Giá trị mặc định của các biến local là gì?
 
 ####  Java Core - các khái niệm về OPPs
-1. Sự khác biệt giữa ngôn ngữ lập trình hướng đối tượng và ngôn ngữ lập trình dựa trên đối tượng là gì?
-2. Giá trị khởi tạo của biến tham chiếu đối tượng được định nghĩa là biến instance là gì?
+    1. Sự khác biệt giữa ngôn ngữ lập trình hướng đối tượng và ngôn ngữ lập trình dựa trên đối tượng là gì?
+    2. Giá trị khởi tạo của biến tham chiếu đối tượng được định nghĩa là biến instance là gì?
 
 #### Java Core - các khái niệm về OPPs: Câu hỏi phỏng vấn Constructor
     1. Constructor là gì?
