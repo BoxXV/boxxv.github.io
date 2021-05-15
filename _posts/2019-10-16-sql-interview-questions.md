@@ -20,14 +20,13 @@ Viết tắt của Structured Query Language – ngôn ngữ truy vấn cấu tr
 Tham khảo thêm: SQL là gì? Công việc của SQL Developer?
 
 #### 2. Câu lệnh để chọn tất cả bản ghi từ table?
-Cú pháp: Select * from table_name
+Cú pháp: `Select * from table_name`
 
 #### 3. Định nghĩa JOIN và các loại JOIN
 
 Từ khóa JOIN được dùng để nạp dữ liệu từ 2 hay nhiều bảng liên quan. Sử dụng từ khóa JOIN khi cần truy vấn các cột dữ liệu từ nhiều bảng khác nhau để trả về trong cùng một tập kết quả.
 
 Các loại JOIN:
-
     INNER JOIN
     LEFT OUTER JOIN
     RIGHT OUTER JOIN
@@ -38,25 +37,25 @@ Các loại JOIN:
 #### 4. Cú pháp để thêm bản ghi vào 1 bảng là gì?
 Sử dụng cú pháp INSERT để thêm bản ghi vào 1 bảng
 
-Ví dụ: INSERT into table_name VALUES (value1, value2,…)
+Ví dụ: `INSERT` into table_name `VALUES` (value1, value2,…)
 
 #### 5. Làm thế nào để bạn thêm 1 cột vào 1 bảng?
 Để thêm một cột khác vào bảng, sử dụng cú pháp:
 
-ALTER TABLE table_name ADD (column_name)
+`ALTER TABLE` table_name `ADD` (column_name)
 
 #### 6. Xác định câu lệnh Delete SQL
 Câu lệnh này được sử dụng để xóa hàng hoặc các hàng từ một bảng dựa trên điều kiện được chỉ định.
 
 Cú pháp:
 
-DELETE FROM table_name<br>WHERE<Condition>
+`DELETE FROM` table_name<br>`WHERE`<Condition>
 
 #### 7. Xác định COMMIT
 COMMIT lưu lại tất cả các thay đổi được thực hiện bởi các câu lệnh DML. DML cho phép thực hiện các truy vấn, bao gồm cú pháp để cập nhật, sửa đổi, chèn thêm và xóa các mẫu tin.
 
 #### 8. Khóa chính (PRIMARY KEY) là gì?
-Khóa chính là cột có các giá trị xác định duy nhất mỗi hàng trong một bảng. Giá trị khóa chính không bao giờ được sử dụng lại.
+Khóa chính là cột có các giá trị xác định `duy nhất` mỗi hàng trong một bảng. Giá trị khóa chính không bao giờ được sử dụng lại.
 
 Một cột là PRIMARY KEY thì không được phép có giá trị NULL. Mỗi bảng chỉ cho phép tối đa một PRIMARY KEY. Mỗi bảng đều cần có khóa chính
 
@@ -87,7 +86,7 @@ Trigger là một thủ tục được thực thi từ phía máy chủ cơ sở
 #### 17. Làm thế nào để lấy ra các hàng ngẫu nhiên từ một bảng?
 Sử dụng câu lệnh SAMPLE chúng ta có thể chọn các hàng ngẫu nhiên. Ví dụ:
 
-SELECT*FROM table_name SAMPLE(10)
+`SELECT*FROM` table_name `SAMPLE(10)`
 
 #### 18. Cổng TCP/IP nào mà SQL server chạy?
 Mặc định SQL Server chạy trên cổng 1433
@@ -103,13 +102,13 @@ DML là viết tắt của Ngôn ngữ thao tác dữ liệu (Data Manipulation 
 DDL là viết tắt của Ngôn ngữ định nghĩa dữ liệu (Data Definition Language): CREATE, ALTER, DROP, RENAME là các câu lệnh DDL.
 
 #### 21. Lệnh nào để đổi tên một cột trong đầu ra của truy vấn SQL?
-Sử dụng cú pháp: SELECT column_name AS new_name FROM table_name;
+Sử dụng cú pháp: `SELECT` column_name `AS` new_name `FROM` table_name;
 
 #### 22. Thứ tự của SQL SELECT?
 Thứ tự các mệnh đề SQL SELECT là: SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY. Trong đó SELECT, FROM là bắt buộc.
 
 #### 23. Giả sử một cột Student có 2 cột, Name và Marks. Làm thế nào để có được điểm của 3 sinh viên top đầu?
-Câu lệnh: SELECT Name, Marks FROM Student s1 where 3 <= (SELECT COUNT(*) FROM Student s1.marks = s2.marks)
+Câu lệnh: `SELECT` Name, Marks `FROM` Student s1 where 3 <= (`SELECT COUNT(*) FROM` Student s1.marks = s2.marks)
 
 #### 24. SQL comments là gì?
 Khi muốn thêm chú thích vào truy vấn SQL để rõ ràng, chi tiết hơn, người ta sử dụng SQL comment. SQL comment có thể được đặt bởi 2 dấu nối liên tiếp (-) hoặc /*….*/.
