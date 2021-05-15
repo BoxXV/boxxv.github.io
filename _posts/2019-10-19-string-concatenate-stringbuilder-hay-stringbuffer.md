@@ -328,3 +328,4 @@ Với vòng lặp lớn, chắc chắn việc dùng `MessageFormat` hay khiến 
 
 Tham khảo:
 - [String concatenate, StringBuilder hay StringBuffer](https://luanvv.com/blog/string-concatenate-stringbuilder-hay-stringbuffer/)
+- [Why String is Immutable in Java](https://dzone.com/articles/why-string-immutable-java)
