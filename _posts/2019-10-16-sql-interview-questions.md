@@ -218,4 +218,9 @@ Tham khảo:
 - [SQL Interview Questions](https://www.interviewbit.com/sql-interview-questions/)
 - [Top 50 SQL Interview Questions and Answers (2021 Update)](https://www.guru99.com/sql-interview-questions-answers.html)
 - [Top 65 SQL Interview Questions You Must Prepare In 2021](https://www.edureka.co/blog/interview-questions/sql-interview-questions)
+- [41 Essential SQL Interview Questions](https://www.toptal.com/sql/interview-questions)
+- [Top 90 SQL Interview Questions and Answers (LATEST)](https://www.softwaretestinghelp.com/50-popular-sql-interview-questions-for-testers/)
+- [SQL Interview Questions and Answers](https://hackr.io/blog/top-sql-interview-questions)
+- [SQL Interview Questions](https://www.javatpoint.com/sql-interview-questions)
+- [142 SQL Interview Questions and Answers you must Prepare in 2021](https://www.mygreatlearning.com/blog/sql-interview-questions/)
 
