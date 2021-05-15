@@ -223,4 +223,10 @@ Tham khảo:
 - [SQL Interview Questions and Answers](https://hackr.io/blog/top-sql-interview-questions)
 - [SQL Interview Questions](https://www.javatpoint.com/sql-interview-questions)
 - [142 SQL Interview Questions and Answers you must Prepare in 2021](https://www.mygreatlearning.com/blog/sql-interview-questions/)
+- [Câu hỏi phỏng vấn SQL cho vị trí Quản trị dữ liệu](https://vn.bitdegree.org/huong-dan/cau-hoi-phong-van-sql/)
 
+https://viblo.asia/p/joins-va-nhung-dieu-can-biet-trong-co-so-du-lieu-djeZ10QoKWz
+
+https://hainh2k3.com/phan-biet-va-cach-su-dung-cac-loai-join-trong-mssql-server/
+
+https://www.w3schools.com/sql/sql_join_left.asp
