@@ -17,7 +17,7 @@ Trước khi trả lời câu hỏi này, chúng ta cần hiểu sự khác bi�
 
 `Pass-by-value` được hiểu là khi bạn pass biến vào làm argument cho một function, chương trình sẽ không dùng thẳng biến đó mà sao chép giá trị và đưa cho function, và hệ quả là dù bên trong function xảy ra chuyện gì thì biến thực tế vẫn được bảo toàn
 
-![Pass by Value và Pass by Reference trong Java](https://boxxv.github.io/img/posts/1_gZpx1_-g6SNPmtjET0eHSQ.webp "Pass by Value và Pass by Reference trong Java")_Pass by Value và Pass by Reference trong Java_
+![Pass by Value và Pass by Reference trong Java](https://boxxv.github.io/img/posts/1_gZpx1_-g6SNPmtjET0eHSQ.webp "Pass by Value và Pass by Reference trong Java")
 
 
 
