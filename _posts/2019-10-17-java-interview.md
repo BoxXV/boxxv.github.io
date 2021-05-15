@@ -130,16 +130,98 @@ https://luanvv.com/blog/pass-by-value-va-pass-by-reference-trong-java/
 
 
 ## Top 10 câu hỏi phỏng vấn Java thường gặp
-1. Trên thang điểm 10 – Bạn đánh giá mình được bao nhiêu điểm?
-2. Bạn biết về những loại Collection nào?
-3. Liệt kê 5 đặc điểm bất kỳ của Java?
-4. Object Class có những Method nào?
-5. Tại sao String Object không thể thay đổi (Immutable) trong Java?
-6. Sự khác biệt giữa Final, Finally, và Finalize là gì?
-7. Vấn đề Diamond Problem là gì?
-8. Làm thế nào bạn có thể làm cho một class không thể thay đổi?
-9. Singleton có nghĩa là gì?
-10. Dependency Injection là gì?
+    1. Trên thang điểm 10 – Bạn đánh giá mình được bao nhiêu điểm?
+    2. Bạn biết về những loại Collection nào?
+    3. Liệt kê 5 đặc điểm bất kỳ của Java?
+    4. Object Class có những Method nào?
+    5. Tại sao String Object không thể thay đổi (Immutable) trong Java?
+    6. Sự khác biệt giữa Final, Finally, và Finalize là gì?
+    7. Vấn đề Diamond Problem là gì?
+    8. Làm thế nào bạn có thể làm cho một class không thể thay đổi?
+    9. Singleton có nghĩa là gì?
+    10. Dependency Injection là gì?
+
+
+## Một số câu hỏi hay gặp khi phỏng vấn vị trí lập trình Java
+
+### Phỏng vấn thực tập, freshser
+
+Với những bạn mới ra trường thì phỏng vấn sẽ nhẹ nhàng, chủ yếu đánh giá kiến thức nền tảng của các bạn.
+
+#### 1. Lập trình hướng đối tượng là gì?
+Trả lời: lập trình hướng đối tượng là 1 kỹ thuật lập trình, cho phép lập trình viên trừu tượng hóa các đối tượng thực tế thành các đối tượng trong code
+
+#### 2. Các tính chất của lập trình hướng đối tượng trong Java?
+Trả lời: Có 4 tính chất (tính trừu tượng, tính đóng gói, tính kế thừa, tính đa hình)  https://stackjava.com/oop/cac-tinh-chat-huong-doi-tuong-cua-java.html
+
+#### 3. Hỏi về collection Framework (Cái này hầu như 100% ở đâu phỏng vấn cũng hỏi).
+- Sự khác nhau giữa Set với Map
+- Sự khác nhau giữa Linklist với Arraylist; Vector với Arraylist; HashTable với HashMap
+
+#### 4. Sự khác nhau giữa Hashcode và Equals.
+Trả lời: https://stackjava.com/java/hashcode-va-equals-trong-java.html
+
+#### 5. Immutable là gì? Cách để tạo đối tượng immutable? 
+Trả lời: https://stackjava.com/java/immuable-la-gi.html
+
+#### 6. Sự khác nhau giữa abstract class và Interface.
+Trả lời: https://stackjava.com/oop/su-khac-nhau-giua-abstract-class-voi-interface-trong-java.html
+(* Chú ý: Từ Java 8 và Java 9, có khá nhiều thay đổi đối với Interface)
+
+Phần này thường hỏi đối với người đã có kinh nghiệm đi làm.
+
+#### 7. Khái niệm DI là gì?
+
+#### 8. Hỏi về các design pattern (1 số design pattern quen thuộc).
+
+#### 9. Hỏi về thuật toán.
+1 số thuật toán quen thuộc như DFS, BFS, các thuật toán đồ thị, tìm kiếm…, thường thì phần này sẽ rơi vào phần làm bài test nhưng đôi khi cũng sẽ hỏi miệng chủ yếu để xác định bạn có biết tới những thuật toán đó không.
+
+#### 10. Hỏi về các dự án bạn đã làm, nghiên cứu.
+Dự án ở đây là các bài tập lớn bạn đã làm, đồ án tốt nghiệp.
+
+Để tạo ấn tượng tốt bạn nên có 1 số project trên github đối với các bài tập lớn của mình hoặc tham gia viết bài trên một blog nào đó về lập trình.
+
+#### 11. Hỏi về khả năng tự học, tiếp cận/giải quyết vấn đề.
+Cái này chủ yếu về cách mà bạn giải quyết vấn đề, tiếp cận cái mới. Thí dụ cách mà bạn search google cũng được đánh giá khá cao.
+
+Ví dụ: nhà tuyển dụng hỏi bạn: “em làm chức năng Login” hết bao lâu thời gian thì đừng trả lời mà phải hỏi lại là chức năng login như nào, áp dụng công nghệ nào, các role, permission ra sao…
+
+Hỏi về những kỹ thuật, ngôn ngữ nào mà bạn tự học, tìm hiểu?
+
+Đặc biệt nếu bạn đọc nhiều sách về lập trình thì sẽ được đánh giá rất cao. Một số sách hay về Java như: Sun Certified Programmer for Java®Platform; Clean Code, Java Effective.
+
+### Phỏng vấn với vị trí có kinh nghiệm
+Đối với vị trí yêu cầu kinh nghiệm thì yêu cầu cao hơn, các nhà phỏng vấn sẽ đánh giá nhiều về những gì bạn đã làm được.
+
+Giả sử bạn giỏi, kinh nghiệm 2,3 năm nhưng bạn chỉ xào đi xào lại 1 dự án, chẳng có công nghệ, framework gì mới thì sẽ bị đánh giá rất thấp do đó những năm đầu đi xin việc mọi người đừng quá quan tâm vào lương mà hãy để ý xem nơi mình vào làm sẽ giúp mình học được gì, phát triển được gì.
+
+Và thông thường nếu chỉ tầm 3 năm kinh nghiệm trở xuống thì bạn sẽ vẫn gặp những câu hỏi cơ bản giống như lúc tuyển fresher
+
+#### 1. Bạn đã làm những dự án nào? dự án đó làm cái gì, kích thước dự án ra sao và đóng góp vào dự án của bạn là gì?
+
+#### 2. Bạn biết những kỹ thuật, công nghệ, framework gì?
+Cái này chủ yếu để xác định xem bạn có phù hợp với vị trí ứng tuyển không.
+
+Ví dụ công ty đang làm về JSF và đang rất cần người biết về JSF nhưng bạn lại chỉ biết Spring thì sẽ không được ưu tiên bằng các ứng viên khác. Một số ít công ty thì chủ yếu maintain các dự án cũ nên sẽ làm nhiều về Struts (cái này giờ ít dùng), thậm chí có lần mình phỏng vấn 1 công ty mà sản phẩm của họ không hề dùng các công nghệ mới chỉ vì sản phẩm của họ đang ổn định.
+
+#### 3. Hỏi sâu về kiến thức mà bạn bảo mình biết 🙂
+Phần này sẽ là phần đánh giá chủ yếu về kỹ thuật, nó giúp nhà tuyển dụng đánh giá những gì bạn trình bày có đúng ko.
+Ví dụ:
+- Bạn bảo mình làm về Spring thì sẽ hỏi đại loại như Spring có những module nào? DI trong Spring như nào;
+- Bạn bảo mình biết JSF thì sẽ hỏi JSF có những phase nào…
+- Về Hibernate thì hỏi hibernat khác gì JPA, save – saveOrUpdate – merge khác gì nhau…
+- Hỏi về REST, maven…
+
+Nếu cái gì bạn không biết thì ko nên đề cập tới trong CV. Nếu có hỏi tới thì cứ thoải mái thừa nhận là phần đó em chưa làm nhiều.
+
+#### 4. Ở các vị trí cao hơn
+Với người có kinh nghiệm làm leader, hoặc kinh nghiệm lâu năm 8,9 năm gì đó thì sẽ hỏi nhiều về kiến trúc, pattern, cách lead team.
+
+Chú ý lúc phỏng vấn cũng là lúc bạn phỏng vấn ngược lại để biết được mình sẽ làm việc với ai, làm về cái gì, khả năng phát triển/ học hỏi được ở công ty ra sao.
+Và đừng ngại đi phỏng vấn, mình phỏng cũng có lần tạch, cũng nhận được khá nhiều lời mời. Sau mỗi lần như thế bạn sẽ thể hiện mình tốt hơn trước nhà phỏng vấn.
+Chúc bạn tự tin khi đi phỏng vấn nha!
+
 
 ## 201 câu hỏi phỏng vấn java core
 
