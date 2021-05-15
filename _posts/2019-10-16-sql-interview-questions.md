@@ -217,4 +217,5 @@ Tham khảo:
 - [50 câu hỏi phỏng vấn về SQL thường gặp](https://www.bacs.vn/vi/blog/kien-thuc/50-cau-hoi-phong-van-ve-sql-thuong-gap-8778.html)
 - [SQL Interview Questions](https://www.interviewbit.com/sql-interview-questions/)
 - [Top 50 SQL Interview Questions and Answers (2021 Update)](https://www.guru99.com/sql-interview-questions-answers.html)
+- [Top 65 SQL Interview Questions You Must Prepare In 2021](https://www.edureka.co/blog/interview-questions/sql-interview-questions)
 
