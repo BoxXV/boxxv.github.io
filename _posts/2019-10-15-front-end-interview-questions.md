@@ -260,10 +260,43 @@ HTML5:
 ```
 
 ### 24. Thẻ tự đóng (self closing tag) là gì?
-
+Trong HTML5, không nhất thiết phải đóng các thẻ HTML nhất định. Các thẻ không bắt buộc phải có thẻ đóng được gọi là thẻ “tự đóng”.
+Ví dụ thẻ tự đóng xuống hàng <br/> hoặc thẻ <meta>, nghĩa là HTML chấp nhận 2 kiểu khai báo thẻ như sau:
+```html
+<meta charset="UTF-8"> 
+... 
+<meta charset="UTF-8" />
+```
 
 ### 25. Sự khác biệt giữa "attribute" (thuộc tính) và "property" (đặc tính) trong HTML?
+Đầu tiên bạn đọc cần hiểu rõ rằng trong document của HTML chỉ có khái niệm attribute của thẻ và không có khái niệm property của thẻ.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <input id="test-id" name="test-name" type="text" value="Test Value">
+</body>
+</html>
+```
+Ta nói rằng phần tử input của trang có các thuộc tính id, name, type, value.
+Ta có đoạn mã bên dưới:
+```html
+var inputElement = document.getElementById("test-id");
+```
+Với ví dụ trên thì biến inputElement là một DOM Object tạo bởi JavaScript và đối tượng này được dùng để gắn với phần tử input trong HTML.
 
+Biến inputElement này có cả hai Attribute và Property.
+
+Và sự khác nhau giữa attribute và property nằm ở chỗ:
+
+Attribute của DOM object phản ánh (và liên hệ chặt chẽ với) attribute của phần tử HTML. Ngược lại, property của DOM object được quy định bởi JavaScript và không hẳn liên quan tới phần tử HTML.
+
+Ví dụ đối tượng inputElement của JavaScript ở trên còn có các property khác như children, childNodes, childElementCount, baseURI....
+
+Bạn nhớ rằng phần tử HTML không có property mà chỉ có attribute. Ngược lại DOM Object có cả attribute và property.
 
 ### 26. Khi nào thì thích hợp để sử dụng thẻ small?
 
