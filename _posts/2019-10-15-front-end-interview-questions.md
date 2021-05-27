@@ -74,9 +74,20 @@ Trong bài viết này, tôi sẽ tổng hợp lại những kiến thức về 
     58. Làm thế nào để tạo khoá công khai (public key) trong HTML?
     59. IndexedDB là gì?
     60. Accessibility và ARIA role có ý nghĩa gì trong một ứng dụng web?
-61. Web Components là gì?
+    61. Web Components là gì?
 
-1. Thẻ Meta được dùng để làm gì trong hmtl?
+### 1. Thẻ Meta được dùng để làm gì trong hmtl?
+Thẻ Meta trong html được các developer sử dụng để báo cho trình duyệt về mô tả trang, tác giả, tập ký tự, các từ khóa và nhiều thứ khác.
+
+Thẻ Meta được sử dụng cho việc tối ưu hóa công cụ tìm kiếm để nói cho công cụ tìm kiếm về nội dung trang.
+```html
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale = 1.0">
+<meta name="description" content="HTML interview questions">
+<meta name="author" content="Author Name">
+<meta name="copyright" content="All Rights Reserved">
+```
+
 2. Iframe là gì và nó hoạt động như thế nào?
 3. Giới thiệu sơ về thẻ meta trong HTML?
 4. Mục đích của thuộc tính alt trong thẻ img?
