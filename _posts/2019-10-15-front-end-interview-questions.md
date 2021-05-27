@@ -138,31 +138,77 @@ Thuộc tính alt thường được dùng để mô tả thông tin hình ảnh
 - Pt: points ( 1pt = 1/72 in) - Px: pixels ( 1/96 in)
 
 ### 9. CSS có phân biệt hoa thường không?
-
+Không phân biệt.
 
 ### 10. Thuộc tính float trong CSS thường dùng để làm gì?
-
+Dùng để đặt các thẻ HTML theo hướng nằm ngang, float thường dùng 2 giá trị left và right.
 
 ### 11. Margin và padding khác nhau thế nào?
-
+Hiểu đơn giản thì margin căn lề ngoài và padding căn lề trong của thẻ đó.
 
 ### 12. Display:inline và display:block khác nhau thể nào?
-
+Block sẽ làm thẻ đó có space trước và sau nó, và space đó sẽ chiếm hết các width có sẵn. Inline thì chỉ xài đủ width yêu cầu.
 
 ### 13. Làm sao để add 1 comments trong CSS?
-
+Dùng cặp dấu /* comments */.
 
 ### 14. Điểm khác nhau giữa CSS và CSS3?
-
+Một số tính năng nổi bật được bổ sung thêm trong CSS3:
+    animation: Xác định chuyển động của một thành phần
+    appearance: Định dạng cho thành phần trông như giao diện chuẩn gần với người dùng.
+    backface-visibility: Xác định bề mặt sau của thành phần khi thực hiện một chuyển động xoay.
+    background-clip: Xác định vùng background được cắt bớt theo vùng được giới hạn.
+    background-origin: Xác định giá trị tương đối của background giới hạn theo vùng giới hạn.
+    background gradient: Tạo màu sắc cho background theo biên độ giảm dần đều.
+    multiple background: Sử dụng để khai báo nhiều background khác nhau trong cùng một tag.
+    border-image: Dùng để định dạng các border bằng hình ảnh.
+    border-radius: Dùng để định dạng các dạng bo góc của border.
+    box-align: Xác định vị trí cho thành phần thoe chiều dọc hoặc theo chiều thẳng đứng.
+    box-direction: Xác định hướng cho thành phần.
+    box-flex: Xác định sự ưu tiên linh hoạt theo các thành phần khác.
+    box-ordinal-group: Cho biết thứ tự ưu tiên của các thành phần.
+    box-orient: Xác định thành phần theo mép rìa của thành phần.
+    box-sizing: Xác định lại chiều rộng và chiều cao của thành phần.
+    box-shadow: Định dạng bóng cho thành phần.
+    column: Dùng để chia nội dung thành phần thành nhiều cột khác nhau.
+    @font-face: Định dạng các dạng font chữ khác nhau theo các dạng font riêng.
+    font-size-adjust: Dùng để định dạng điều chỉnh cho font chữ, độ lớn của chữ được thể hiện bởi phép nhân.
+    @keyframes: Dùng để điều khiển diễn biến một hoạt động của thành phần, được dùng kèm với thuộc tính animation
+    nav: Di chuyển qua lại giữa các thành phần điều hướng (navigate) bằng ác di chuyển các phím mũi tên
+    opacity: Hiển thị cấp độ trong suốt cho thành phần.
+    perspective: Cho ta thấy được chiều sâu của thành phần trong khai báo 3D.
+    perspective-origin: Định nghĩa trục quay cho thành phần sử dụng perspective.
+    resize: Định dạng cho vùng nội dung mà người dụng có thể thay đổi được kích thước.
+    text-justify: Tăng hoặc giảm khoảng cách giữa các từ và giữa các ký tự sao cho dàn đều thành phần.
+    text-overflow: Xác định vùng text được cắt bớt.
+    text-shadow: Xác định đổ bóng cho text.
+    transform: Xác định một quá trình chuyển đổi khi có một hành động.
+    word-break: Sẽ làm cho những hữ trong một từ không còn là một thể thống nhất, nghĩa là có thể xuống dòng bất cứ vị trí nào trong từ.
+    word-wrap: Sẽ làm cho những từ dài xuống hàng mà không làm vỡ layout.
 
 ### 15. Thuộc tính “opacity” được dùng làm gì?
-
+Nó thể hiện như thuộc tính visibility và nó mờ dần từ 1-> 0 ( 1 -> 0.9 -> 0.8 …)
 
 ### 16. Điểm khác biệt giữa “width: auto” và “width: 100%” trong CSS?
-
+- Auto sẽ đạt điểm độ rộng đầy đủ và sẽ trừ đi độ rộng của border, margin, padding,…
+- 100% sẽ buộc thẻ đó bằng độ rộng của thẻ cha và tự động nới rộng ra them nếu có them các border, padding, margin,… điều đó sẽ gây ra một số vấn đề không mong muốn)
 
 ### 17. Thẻ “div” và thẻ “span” khác nhau thế nào?
-
+- Thẻ “span” với thuộc tính “display: inline” và thẻ “div” với thuộc tính “display:block”.
+- Chúng ta thường dùng thẻ “span” khi muốn các element nằm trên cùng 1 line.
+- Không được đặt thẻ block vào trong thẻ inline được, nhưng ngược lại có thể đặt thẻ inline trong thẻ block.
+```html
+<div>
+   <span>inline content</span>
+</div>
+```
+Thẻ div có thể có một thẻ p và thẻ p có thể có 1 thẻ span.
+```html
+<span>
+   <div>content</div>
+</span>
+```
+Thẻ span không thể có thẻ div hoặc thẻ p ở bên trong.
 
 ### 18. Giải thích các giá trị của thuộc tính position: Fixed, Absolute, Relative, Static.
 
