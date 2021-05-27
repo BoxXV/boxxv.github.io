@@ -111,19 +111,31 @@ Iframe là một văn bản HTML (HTML document) được nhúng vào một tran
 ```
 
 ### 4. Mục đích của thuộc tính alt trong thẻ img?
+Thuộc tính alt cung cấp thông tin về hình ảnh trong trường hợp người dùng không xem được ảnh (sai đường dẫn hoặc ảnh không tìm thấy).
 
+Thuộc tính alt thường được dùng để mô tả thông tin hình ảnh , một số trường hợp thuộc tính alt được dùng trong mục đích trang trí, một số trường hợp thuộc tính alt có thể bị bỏ trống.
 
-### 5. Khai báo “DOCTYPE” dùng để làm gì?
-
+### 5. Khai báo `DOCTYPE` dùng để làm gì?
+Để trình duyệt nhận biết trang html đó được viết ở phiên bản nào.
 
 ### 6. Liệt kê 3 cách để định nghĩa 1 color trong html?
-
+- Hex (color: #FFFFFF) 
+- Name (color: red) 
+- RGB(0,0,225)
 
 ### 7. Giải thích ý nghĩa các CSS selectors dưới đây?
-
+“div, p”: chọn tất cả các thẻ div và tất cả các thẻ p.
+“div p”: chọn tất cả các thẻ p nằm trong thẻ div.
+“div > p”: chọn tất cả thẻ p có thẻ cha trực tiếp là thẻ div.
+“div + p”: chọn tất cả thẻ p được đặt trực tiếp sau thẻ div.
+“div ~ p”: chọn tất cả thẻ p đứng trước nó là thẻ div.
 
 ### 8. Giải thích các đơn vị độ dài trong css dưới đây?
-
+- Cm: centimeters.
+- Em: elements, ví dụ 2 em = 2 lần font-size của thẻ đó.
+- In: inches. - Mm: millimeters.
+- Pc: picas ( 1pc = 12pt = 1/6 in)
+- Pt: points ( 1pt = 1/72 in) - Px: pixels ( 1/96 in)
 
 ### 9. CSS có phân biệt hoa thường không?
 
