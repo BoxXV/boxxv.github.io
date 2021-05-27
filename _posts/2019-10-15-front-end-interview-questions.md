@@ -88,8 +88,15 @@ Thẻ Meta được sử dụng cho việc tối ưu hóa công cụ tìm kiếm
 <meta name="copyright" content="All Rights Reserved">
 ```
 
-2. Iframe là gì và nó hoạt động như thế nào?
-3. Giới thiệu sơ về thẻ meta trong HTML?
+### 2. Iframe là gì và nó hoạt động như thế nào?
+Iframe là một văn bản HTML (HTML document) được nhúng vào một trang html khác.
+```html
+<iframe src="https://github.com" height="300px" width="300px"></iframe>
+```
+
+### 3. Giới thiệu sơ về thẻ meta trong HTML?
+
+
 4. Mục đích của thuộc tính alt trong thẻ img?
 5. Khai báo “DOCTYPE” dùng để làm gì?
 6. Liệt kê 3 cách để định nghĩa 1 color trong html?
