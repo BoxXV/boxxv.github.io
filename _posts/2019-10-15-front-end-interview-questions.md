@@ -211,22 +211,53 @@ Thẻ div có thể có một thẻ p và thẻ p có thể có 1 thẻ span.
 Thẻ span không thể có thẻ div hoặc thẻ p ở bên trong.
 
 ### 18. Giải thích các giá trị của thuộc tính position: Fixed, Absolute, Relative, Static.
-
+- Relative: Định vị trí tuyệt đối (vị trí bao ngoài), lúc này các thẻ HTML bên trong sẽ coi nó là thẻ cha.
+- Absolute: Định vị trí tương đối theo thẻ cha (thẻ khai báo relative) hoặc thẻ body nếu ko có khai báo.
+- Fixed: Định vị trí tương đối cho của sổ Browser của trình duyệt (khi kéo scroll nó sẽ không bị ẩn đi).
+- Static: Dạng mặc định - sẽ hiển thị theo đúng thứ tự của nó (thường dùng để hủy các thuộc tính bên dưới).
 
 ### 19. Làm cách nào để có có thứ hạng tốt hơn trong SEO bởi Search Engines (ví dụ Google)?
-
+Đặt thẻ meta name= “keywords” và name= “description” vào giữa thẻ <head> trong trang html.
+```html
+<META NAME="keywords" CONTENT="keyword keyword keyword keyword" />
+<META NAME="description" CONTENT="description of your site" />
+```
+Content có thể nhập tối đa 1022 ký tự. Nếu một từ khoá (keyword) dùng nhiều hơn 7 lần, thẻ từ khoá sẽ bị bỏ qua hoàn toàn. Ngoài ra, bạn không thể đặt đánh dấu (markup) trong mô tả hoặc danh sách từ khóa.
 
 ### 20. Mô tả các tính năng chính của HTML5?
-
+HTML5 được thiết kế để thay thế HTML 4, XHTML và HTML DOM. Các mục tiêu và yêu cầu của HTML5 là:
+- Cung cấp nội dung phong phú (đồ họa, phim, v.v.) mà không cần bổ sung plugin, chẳng hạn như Flash.
+- Cung cấp hỗ trợ ngữ nghĩa tốt hơn cho cấu trúc trang web thông qua các thẻ phần tử cấu trúc mới.
+- Cung cấp tiêu chuẩn phân tích cú pháp chặt chẽ hơn để đơn giản hóa việc xử lý lỗi, đảm bảo hành vi trên nhiều trình duyệt nhất quán hơn và đơn giản hóa khả năng tương thích với các tài liệu được viết theo tiêu chuẩn cũ hơn.
+- Cung cấp hỗ trợ đa nền tảng tốt hơn dù chạy trên PC, Máy tính bảng hay Điện thoại thông minh.
 
 ### 21. Làm sao để làm nổi bật (highlight) text trong HTML?
-
+Nếu bạn đang làm việc với html5, thẻ <mark> có thể nhanh chóng và dễ dàng để làm nổi bật hoặc đánh dấu văn bảng trong trang.
+```html
+<mark>highlighted text</mark>
+```
+Để nổi bật đoạn văn bảng chỉ dùng mã HTML và hỗ trợ tất cả trình duyệt, dùng thuộc tính css như bên dưới:
+```html
+<span style="background-color: #FFFF00">Yellow text.</span>
+```
 
 ### 22. Mô tả ngắn gọn cách sử dụng chính xác các phần tử ngữ nghĩa HTML5 sau: <header>, <article>, <section>, <footer>
-
+`<header>` được sử dụng để chứa thông tin giới thiệu và điều hướng về một phần của trang. Điều này có thể bao gồm tiêu đề phần, tên tác giả, ngày giờ xuất bản, mục lục hoặc thông tin điều hướng khác.
+`<article>` có nghĩa là chứa một bố cục độc lập có thể được tạo lại một cách hợp lý bên ngoài trang mà không làm mất đi sự phức tạp. Các bài đăng trên blog cá nhân hoặc các câu chuyện tin tức là những ví dụ tốt.
+`<section>` là một vùng chứa linh hoạt để chứa nội dung có chung một chủ đề hoặc mục đích thông tin.
+`<footer>` được sử dụng để giữ thông tin sẽ xuất hiện ở cuối phần nội dung và chứa thông tin bổ sung về phần đó. Tên tác giả, thông tin bản quyền và các liên kết liên quan là những ví dụ điển hình của nội dung đó.
 
 ### 23. Character Encoding là gì?
-
+Để hiển thị trang HTML một cách chính xác, trình duyệt web phải biết bộ ký tự nào (mã hóa ký tự) sẽ sử dụng.
+Điều này được chỉ định trong thẻ:
+HTML4:
+```html
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+```
+HTML5:
+```html
+<meta charset="UTF-8" />
+```
 
 ### 24. Thẻ tự đóng (self closing tag) là gì?
 
