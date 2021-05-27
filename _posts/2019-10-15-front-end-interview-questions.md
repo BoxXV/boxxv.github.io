@@ -244,6 +244,7 @@ Nó thể hiện như thuộc tính visibility và nó mờ dần từ 1-> 0 ( 1
 - Thẻ “span” với thuộc tính “display: inline” và thẻ “div” với thuộc tính “display:block”.
 - Chúng ta thường dùng thẻ “span” khi muốn các element nằm trên cùng 1 line.
 - Không được đặt thẻ block vào trong thẻ inline được, nhưng ngược lại có thể đặt thẻ inline trong thẻ block.
+
 ```html
 <div>
    <span>inline content</span>
