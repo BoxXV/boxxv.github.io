@@ -145,6 +145,7 @@ Iframe là một văn bản HTML (HTML document) được nhúng vào một tran
 - Thẻ meta luôn có cặp tên/giá trị.
 - Dữ liệu meta sẽ không được hiển thị trên trang nhưng có thể phân tích cú pháp bằng máy.
 - Thẻ meta được sử dụng bởi các trình duyệt (cách hiển thị nội dung hoặc tải lại trang), công cụ tìm kiếm (từ khóa) và các dịch vụ web khác.
+
 ```html
 <!DOCTYPE html>
 <html>
