@@ -456,49 +456,131 @@ Bạn nhớ rằng phần tử HTML không có property mà chỉ có attribute.
 -----
 
 ## 42 câu hỏi phỏng vấn Javascript
-1. Khác nhau giữa null và undefined?
-2. Khác nhau giữa 2 hàm document.ready và body.onload?
-3. Kể tên 3 loại dữ liệu cơ bản của javascript
-4. Cho biết output của 2 dòng lệnh dưới?
-5. Cho biết output của lệnh: Console.log(typeof undefined == typeof NULL)
-6. Cho biết output của lệnh dưới đây: console.log(typeof typeof 1)
-7. Sự khác nhau giữa call và apply?
-8. Hàm anonymous là gì và khi nào nên sử dụng nó?
-9. Lập trình bất đồng bộ trong javascript là gì?
-10. Strict mode trong JavaScript là gì?
-11. Khi nào cần sử dụng async và defer trong javascript?
-12. Làm sao để clone một mảng?
-13. Scope của 1 biến trong javascript là gì? Có bao nhiêu loại scope?
-14. "This" trong javascript được dùng để làm gì?
-15. Closure trong javascript là gì? Cho ví dụ.
-16. Kể các cách khai báo 1 biến trong Javascript?
-17. Kiểu object là gì?
-18. Giải thích về Arrays trong JavaScript?
-19. Toán tử typeof là gì?
-20. Giải thích về Equality trong JavaScript?
-21. Điểm khác nhau giữa GET và POST?
-22. Khác nhau giữa so sánh “==” và “===”?
-23. Kể tên các loại dữ liệu tích hợp sẵn trong Javascript?
-24. Giải thích chính sách same-origin trong JavaScript?
-25. Có cách nào để buộc sử dụng Strict mode trong Node.js không?
-26. Tại sao bạn lại sử dụng sự kiện load? Sự kiện này có nhược điểm gì không? Bạn có sự thay thế nào cho sự kiện load này không, và tại sao bạn lại sử dụng chúng?
-27. Sự khác biệt giữa các Host objects và Native objects là gì?
-28. Bạn sử dụng câu lệnh nào để lặp qua các thuộc tính của đối tượng và các items của mảng?
-29. Giải thích về bubbling event và cách để ngăn chặn nó?
-30. Tại sao nói rằng ý tưởng giữ nguyên global scope của một trang web và không bao giờ chạm vào nó là một ý tưởng hay?
-31. Polyfill là gì?
-32. Sự khác biệt giữa throw Error('msg') so với throw new Error(‘msg’) là gì?
-33. IIFEs (Immediately Invoked Function Expressions) là gì?
-34. Coercion trong JavaScript là gì?
-35. Sự khác biệt giữa shim và polyfill là gì?
-36. Hãy định nghĩa một Higher-Order Function?
-37. Bạn nghĩ gì về AMD (Asynchronous Module Definition) và CommonJS?
-38. Giải thích sự khác biệt về cách sử dụng foo giữa "function foo () {}" và "var foo = function () {}" ?
-39. Hạn chế của việc tạo phương thức private trong JavaScript là gì?
-40. Cú pháp ưa thích để định nghĩa enums trong JavaScript?
-41. Trình bày sự khác biệt giữa ES5 và ES6?
-42. Lợi ích của việc sử dụng cú pháp spread trong ES6 và nó khác với cú pháp rest như thế nào?
 
+### 1. Khác nhau giữa null và undefined?
+
+
+### 2. Khác nhau giữa 2 hàm document.ready và body.onload?
+
+
+### 3. Kể tên 3 loại dữ liệu cơ bản của javascript
+
+
+### 4. Cho biết output của 2 dòng lệnh dưới?
+
+
+### 5. Cho biết output của lệnh: Console.log(typeof undefined == typeof NULL)
+
+
+### 6. Cho biết output của lệnh dưới đây: console.log(typeof typeof 1)
+
+
+### 7. Sự khác nhau giữa call và apply?
+
+
+### 8. Hàm anonymous là gì và khi nào nên sử dụng nó?
+
+
+### 9. Lập trình bất đồng bộ trong javascript là gì?
+
+
+### 10. Strict mode trong JavaScript là gì?
+
+
+### 11. Khi nào cần sử dụng async và defer trong javascript?
+
+
+### 12. Làm sao để clone một mảng?
+
+
+### 13. Scope của 1 biến trong javascript là gì? Có bao nhiêu loại scope?
+
+
+### 14. "This" trong javascript được dùng để làm gì?
+
+
+### 15. Closure trong javascript là gì? Cho ví dụ.
+
+
+### 16. Kể các cách khai báo 1 biến trong Javascript?
+
+
+### 17. Kiểu object là gì?
+
+
+### 18. Giải thích về Arrays trong JavaScript?
+
+
+### 19. Toán tử typeof là gì?
+
+
+### 20. Giải thích về Equality trong JavaScript?
+
+
+### 21. Điểm khác nhau giữa GET và POST?
+
+
+### 22. Khác nhau giữa so sánh “==” và “===”?
+
+
+### 23. Kể tên các loại dữ liệu tích hợp sẵn trong Javascript?
+
+
+### 24. Giải thích chính sách same-origin trong JavaScript?
+
+
+### 25. Có cách nào để buộc sử dụng Strict mode trong Node.js không?
+
+
+### 26. Tại sao bạn lại sử dụng sự kiện load? Sự kiện này có nhược điểm gì không? Bạn có sự thay thế nào cho sự kiện load này không, và tại sao bạn lại sử dụng chúng?
+
+
+### 27. Sự khác biệt giữa các Host objects và Native objects là gì?
+
+
+### 28. Bạn sử dụng câu lệnh nào để lặp qua các thuộc tính của đối tượng và các items của mảng?
+
+
+### 29. Giải thích về bubbling event và cách để ngăn chặn nó?
+
+
+### 30. Tại sao nói rằng ý tưởng giữ nguyên global scope của một trang web và không bao giờ chạm vào nó là một ý tưởng hay?
+
+
+### 31. Polyfill là gì?
+
+
+### 32. Sự khác biệt giữa throw Error('msg') so với throw new Error(‘msg’) là gì?
+
+
+### 33. IIFEs (Immediately Invoked Function Expressions) là gì?
+
+
+### 34. Coercion trong JavaScript là gì?
+
+
+### 35. Sự khác biệt giữa shim và polyfill là gì?
+
+
+### 36. Hãy định nghĩa một Higher-Order Function?
+
+
+### 37. Bạn nghĩ gì về AMD (Asynchronous Module Definition) và CommonJS?
+
+
+### 38. Giải thích sự khác biệt về cách sử dụng foo giữa "function foo () {}" và "var foo = function () {}" ?
+
+
+### 39. Hạn chế của việc tạo phương thức private trong JavaScript là gì?
+
+
+### 40. Cú pháp ưa thích để định nghĩa enums trong JavaScript?
+
+
+### 41. Trình bày sự khác biệt giữa ES5 và ES6?
+
+
+### 42. Lợi ích của việc sử dụng cú pháp spread trong ES6 và nó khác với cú pháp rest như thế nào?
 
 
 
