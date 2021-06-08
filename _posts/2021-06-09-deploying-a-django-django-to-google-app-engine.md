@@ -89,9 +89,64 @@ Trong đầu ra, lưu ý giá trị được hiển thị cho `[CONNECTION_NAME]
 Giá trị `[CONNECTION_NAME]` có định dạng `[PROJECT_NAME]: [REGION_NAME]: [INSTANCE_NAME]`.
 
 
+#### Initializing your Cloud SQL instance
+
+1. Khởi động Cloud SQL Proxy bằng cách sử dụng giá trị `[CONNECTION_NAME]` từ bước trước: 
+```bat
+cloud_sql_proxy.exe -instances="[YOUR_INSTANCE_CONNECTION_NAME]"=tcp:3306
+```
+
+Thay thế `[YOUR_INSTANCE_CONNECTION_NAME]` bằng giá trị `[CONNECTION_NAME]` mà bạn đã ghi ở bước trước.
+
+Bước này thiết lập kết nối từ máy tính cục bộ của bạn đến phiên bản Cloud SQL của bạn cho mục đích kiểm tra cục bộ. Giữ cho Cloud SQL Proxy chạy trong toàn bộ thời gian bạn kiểm tra ứng dụng của mình cục bộ.
+
+2. Tạo cơ sở dữ liệu và người dùng Cloud SQL:
+
+Cloud Console
+a. Tạo [new database by using the Cloud Console](https://cloud.google.com/sql/docs/mysql/create-manage-databases#create) cho `polls-instance` Cloud SQL của bạn. Ví dụ, bạn có thể sử dụng các cuộc thăm dò tên.
+
+b. Tạo [new user by using the Cloud Console](https://cloud.google.com/sql/docs/mysql/create-manage-users#creating) cho phiên bản `polls-instance` Cloud SQL của bạn.
+
+
+### Configuring the database settings
 
 
 
+### Running the app on your local computer
+```bat
+python manage.py runserver
+```
+
+### Using the Django admin console
+```bat
+python manage.py createsuperuser
+```
+
+
+### Deploying the app to the App Engine standard environment
+```bat
+python manage.py collectstatic
+
+gcloud app deploy
+```
+
+### Seeing the app run in Google Cloud
+
+Lệnh sau triển khai ứng dụng như được mô tả trong `app.yaml` và đặt phiên bản mới được triển khai làm phiên bản mặc định, khiến nó phân phát tất cả lưu lượng truy cập mới.
+
+Trong trình duyệt của bạn, hãy nhập URL sau:
+
+https://`PROJECT_ID`.`REGION_ID`.r.appspot.com
+
+Thay thế những điều sau:
+- `PROJECT_ID`: ID dự án Google Cloud của bạn
+- `REGION_ID`: Mã mà App Engine chỉ định cho ứng dụng của bạn 
+
+Yêu cầu của bạn được phục vụ bởi một máy chủ web chạy trong môi trường tiêu chuẩn của App Engine.
+
+Nếu bạn cập nhật ứng dụng của mình, bạn triển khai phiên bản cập nhật bằng cách nhập cùng một lệnh mà bạn đã sử dụng để triển khai ứng dụng. Việc triển khai tạo ra một [phiên bản mới](https://console.cloud.google.com/projectselector2/appengine/versions) của ứng dụng của bạn và quảng bá nó lên phiên bản mặc định. Các phiên bản trước đó của ứng dụng của bạn vẫn còn. Tất cả các phiên bản ứng dụng này đều là tài nguyên có thể thanh toán. Để giảm chi phí, hãy xóa các phiên bản không phải mặc định của ứng dụng.
+
+Để biết thông tin về cách xóa các phiên bản không phải mặc định của ứng dụng, hãy xem [Cleaning up](https://cloud.google.com/python/getting-started/delete-tutorial-resources).
 
 
 
