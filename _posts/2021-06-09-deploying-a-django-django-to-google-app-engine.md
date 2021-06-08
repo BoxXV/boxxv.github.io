@@ -154,5 +154,6 @@ Nếu bạn cập nhật ứng dụng của mình, bạn triển khai phiên b�
 
 -----
 [Running Django on the App Engine standard environment](https://cloud.google.com/python/django/appengine)  
+[Deploying a Django Application to Google App Engine](https://bennettgarner.medium.com/deploying-a-django-application-to-google-app-engine-f9c91a30bd35)  
 [Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
 
