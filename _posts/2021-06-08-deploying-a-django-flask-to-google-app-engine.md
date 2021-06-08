@@ -133,6 +133,8 @@ gcloud app browse
 
 Chúc bạn thành công !!!
 
+[![Introduction App Engine’s new Python 3 Runtime](https://img.youtube.com/vi/qeSpDwA2qcU/0.jpg)](https://www.youtube.com/watch?v=qeSpDwA2qcU)
+
 -----
 [Hướng dẫn tạo ứng dụng web Python đơn giản trên Google App Engine](https://viblo.asia/p/huong-dan-tao-ung-dung-web-python-don-gian-tren-google-app-engine-QpmleARnlrd)  
 [Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
