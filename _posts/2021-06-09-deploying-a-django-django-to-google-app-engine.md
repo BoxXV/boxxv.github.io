@@ -52,11 +52,17 @@ Nhận thông tin đăng nhập mới để sử dụng Cloud SQL Admin API:
 gcloud auth application-default login
 ```
 
+### Tải xuống và chạy ứng dụng mẫu
+
+source code: [https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard_python3/django](https://github.com/GoogleCloudPlatform/python-docs-samples/tree/master/appengine/standard_python3/django)
+
+
+### Setting up your local environment
 
 
 [![Deploy Django Website to Google Cloud](https://img.youtube.com/vi/8Vxo0P_P8TU/0.jpg)](https://www.youtube.com/watch?v=8Vxo0P_P8TU)
 
 -----
-[Hướng dẫn tạo ứng dụng web Python đơn giản trên Google App Engine](https://viblo.asia/p/huong-dan-tao-ung-dung-web-python-don-gian-tren-google-app-engine-QpmleARnlrd)  
+[Running Django on the App Engine standard environment](https://cloud.google.com/python/django/appengine)  
 [Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
 
