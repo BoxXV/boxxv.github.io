@@ -139,5 +139,9 @@ source code: [https://github.com/GoogleCloudPlatform/python-docs-samples/tree/ma
 
 -----
 [Hướng dẫn tạo ứng dụng web Python đơn giản trên Google App Engine](https://viblo.asia/p/huong-dan-tao-ung-dung-web-python-don-gian-tren-google-app-engine-QpmleARnlrd)  
+[Deploying Envoy with a Python Flask web app and Google Kubernetes Engine](https://cloud.google.com/community/tutorials/envoy-flask-google-container-engine)  
 [Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
+
+
+
 

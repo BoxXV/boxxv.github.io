@@ -152,8 +152,13 @@ Nếu bạn cập nhật ứng dụng của mình, bạn triển khai phiên b�
 
 [![Deploy Django Website to Google Cloud](https://img.youtube.com/vi/8Vxo0P_P8TU/0.jpg)](https://www.youtube.com/watch?v=8Vxo0P_P8TU)
 
+
+[![How to Deploy Django to Google Cloud in One Click](https://img.youtube.com/vi/NcgcN2t19ww/0.jpg)](https://www.youtube.com/watch?v=NcgcN2t19ww)
+
 -----
 [Running Django on the App Engine standard environment](https://cloud.google.com/python/django/appengine)  
 [Deploying a Django Application to Google App Engine](https://bennettgarner.medium.com/deploying-a-django-application-to-google-app-engine-f9c91a30bd35)  
+[Get started with Bitnami Django on Google Cloud](https://cloud.google.com/community/tutorials/get-started-bitnami-django)  
+[Using SQLITE for local Django development for Google App Engine?](https://stackoverflow.com/questions/21302612/using-sqlite-for-local-django-development-for-google-app-engine)  
 [Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
 
