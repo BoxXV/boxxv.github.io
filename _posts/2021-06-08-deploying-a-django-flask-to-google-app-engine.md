@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hướng dẫn tạo ứng dụng web Python Flask trên Google App Engine 
-subtitle: Lập trình hướng đối tượng với ES5 và ES6
+subtitle: Deploying with a Python Flask web app and Google
 image: "img/projects-bg.jpg"
 tags:
 - Flask
@@ -32,7 +32,7 @@ Cài đặt một số tool cần thiết:
 - `requirements.txt`: quản lý lib python
 - `app.yaml`: cấu hình deploy và chạy code trên Google App Engine
 
-Tạo một file `main.py` có nội dung như sau:
+#### 1. Tạo một file `main.py` có nội dung như sau:
 ```python
 import logging
 
@@ -63,7 +63,75 @@ if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
 ```
 
+#### 2. Tạo một file `requirements.txt` để quản lý các gói
+```txt
+Flask==0.12.2
+gunicorn==19.7.1
+```
 
+#### 3. Tiếp theo, bạn chạy thử ứng dụng:
+
+1. Nếu bạn không có `virtualenv` bạn có thể cài đặt chúng qua pip
+```python
+sudo pip install virtualenv
+```
+
+2. Tạo môi trường cô lập và cài đặt các gói cần thiết
+```python
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+3. Chạy thử
+```python
+python main.py
+```
+
+4. Trên trình duyệt, gõ địa chỉ:
+```python
+http://localhost:8080
+```
+
+![localhost:8080](https://boxxv.github.io/img/posts/d2565015-fab5-4302-8879-a274c7ee7318.png "localhost")_localhost:8080_
+
+### Deploy
+Trước khi deploy, bạn cần tạo một file `app.yaml` để cấu hình việc deploy
+```python
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+  python_version: 2
+```
+
+Điểm chú ý ở đây là `env: flex`  
+`flex` là tên môi trường mà web app sẽ chạy trên đó. Thông tin cụ thể bạn có thể vào đây: [https://cloud.google.com/appengine/docs/flexible/](https://cloud.google.com/appengine/docs/flexible/)
+
+OK. Tiếp theo là việc deploy.
+
+#### 1. `cd` tới thư mục project `hello_world`. Sau đó, gõ lệnh deploy:
+```bat
+gcloud app deploy
+```
+
+Sau khi bạn cài đặt xong Google Cloud SDK bạn có thể sử dụng CLI `gcloud` để thực hiện deloy app
+
+#### 2. Trên browser bạn có thể xem kết quả của bạn tại `http://YOUR_PROJECT_ID.appspot.com`. Hoặc có thể sử dụng `gcloud`:
+```bat
+gcloud app browse
+```
+
+Đã hoàn thành!!
+
+Điểm mấu chốt của bài hướng dẫn
+- Tạo được project trên Goold App Engine
+- Cài được CLI `gcloud` tools
+- Có một web app Python: tất nhiên rồi
+- Chú ý cấu hình trên `app.yaml` file.
+
+Chúc bạn thành công !!!
 
 -----
 [Hướng dẫn tạo ứng dụng web Python đơn giản trên Google App Engine](https://viblo.asia/p/huong-dan-tao-ung-dung-web-python-don-gian-tren-google-app-engine-QpmleARnlrd)  
