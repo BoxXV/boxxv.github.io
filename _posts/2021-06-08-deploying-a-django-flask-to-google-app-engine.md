@@ -25,6 +25,14 @@ Cài đặt một số tool cần thiết:
 
 ### Tạo web Flask đơn giản
 
+Ở bài hưởng dẫn này, mình sẽ tạo một web đơn giản. Nó sẽ in ra dòng `Hello Word`
+
+Đầu tiên, tạo một thư mục project `hello_world`. Trong thư mực project, ta sẽ tạo lần lượt các file:
+- `main.py`: chạy web
+- `requirements.txt`: quản lý lib python
+- `app.yaml`: cấu hình deploy và chạy code trên Google App Engine
+
+Tạo một file `main.py` có nội dung như sau:
 ```python
 import logging
 
