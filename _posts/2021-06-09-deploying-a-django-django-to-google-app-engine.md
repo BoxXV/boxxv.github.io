@@ -15,12 +15,12 @@ tags:
 Đây là các tùy chọn có sẵn để triển khai Django trên Google Cloud: 
 
 | Django deployment option        | Get started           |
-| ------------- |:-------------:|
-| App Engine standard environment      | Running Django on App Engine standard environment |
-| App Engine flexible Environment      | Running Django on App Engine flexible environment |
-| Cloud Run | Running Django on Cloud Run, Running Django on Cloud Run with Cloud Code for VS Code, Running Django on Cloud Run with Cloud Code for IntelliJ |
-| Google Kubernetes Engine (GKE) | Running Django on Google Kubernetes Engine |
-| Compute Engine | Django in Google Cloud Marketplace |
+| ------------- |:-------------|
+| App Engine standard environment | [Running Django on App Engine standard environment](https://cloud.google.com/python/django/appengine) |
+| App Engine flexible Environment | [Running Django on App Engine flexible environment](https://cloud.google.com/python/django/flexible-environment) |
+| Cloud Run | [Running Django on Cloud Run](https://cloud.google.com/python/django/run), <br>[Running Django on Cloud Run with Cloud Code for VS Code](https://cloud.google.com/code/docs/vscode/quickstart-cloud-run), <br>[Running Django on Cloud Run with Cloud Code for IntelliJ](https://cloud.google.com/code/docs/intellij/quickstart-cloud-run) |
+| Google Kubernetes Engine (GKE) | [Running Django on Google Kubernetes Engine](https://cloud.google.com/python/django/kubernetes-engine) |
+| Compute Engine | [Django in Google Cloud Marketplace](https://cloud.google.com/marketplace/solution/bitnami-launchpad/djangostack?q=django) |
 
 ### Databases
 Bộ ánh xạ quan hệ đối tượng Django (ORM) hoạt động tốt nhất với cơ sở dữ liệu quan hệ SQL.
