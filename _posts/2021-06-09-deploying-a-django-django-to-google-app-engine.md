@@ -77,6 +77,21 @@ Windows 64-bit: [https://dl.google.com/cloudsql/cloud_sql_proxy_x64.exe](https:/
 
 1. [Create a Cloud SQL for MySQL Second Generation instance](https://cloud.google.com/sql/docs/mysql/create-instance).
 
+Đặt tên cho instance `polls-instance` hoặc tương tự. Có thể mất vài phút để phiên bản sẵn sàng. Khi phiên bản đã sẵn sàng, nó sẽ hiển thị trong danh sách phiên bản. 
+
+2. Sử dụng Cloud SDK để chạy lệnh sau trong đó [YOUR_INSTANCE_NAME] đại diện cho tên của phiên bản Cloud SQL của bạn: 
+```bat
+gcloud sql instances describe [YOUR_INSTANCE_NAME]
+```
+
+Trong đầu ra, lưu ý giá trị được hiển thị cho `[CONNECTION_NAME]`.
+
+Giá trị `[CONNECTION_NAME]` có định dạng `[PROJECT_NAME]: [REGION_NAME]: [INSTANCE_NAME]`.
+
+
+
+
+
 
 
 
