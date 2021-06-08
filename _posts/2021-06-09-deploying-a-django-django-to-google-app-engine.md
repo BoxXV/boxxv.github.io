@@ -10,7 +10,7 @@ tags:
 - Google App Engine 
 ---
 
-### Hosting platforms
+## Hosting platforms
 
 Đây là các tùy chọn có sẵn để triển khai Django trên Google Cloud: 
 
@@ -22,13 +22,22 @@ tags:
 | Google Kubernetes Engine (GKE) | [Running Django on Google Kubernetes Engine](https://cloud.google.com/python/django/kubernetes-engine) |
 | Compute Engine | [Django in Google Cloud Marketplace](https://cloud.google.com/marketplace/solution/bitnami-launchpad/djangostack?q=django) |
 
-### Databases
+## Databases
 Bộ ánh xạ quan hệ đối tượng Django (ORM) hoạt động tốt nhất với cơ sở dữ liệu quan hệ SQL.
 
 Nếu bạn đang bắt đầu một dự án mới, Cloud SQL là một lựa chọn tốt. Bạn có thể triển khai cơ sở dữ liệu PostgreSQL hoặc MySQL do Google quản lý và mở rộng, và được hỗ trợ bởi Django.
 
 
-### Chạy Django trên môi trường tiêu chuẩn của App Engine 
+## Chạy Django trên môi trường tiêu chuẩn của App Engine 
+
+Các ứng dụng Django chạy trên môi trường tiêu chuẩn của App Engine sẽ thay đổi tỷ lệ động theo lưu lượng truy cập.
+
+### Chuẩn bị
+
+1. Nếu bạn là người mới sử dụng Google Cloud, hãy [tạo một tài khoản](https://console.cloud.google.com/freetrial) để đánh giá cách các sản phẩm của chúng tôi hoạt động trong các tình huống thực tế. Khách hàng mới cũng nhận được 300 đô la tín dụng miễn phí để chạy, thử nghiệm và triển khai khối lượng công việc.
+
+2. Trong Google Cloud Console, trên trang chọn dự án, hãy chọn hoặc tạo một dự án Google Cloud.
+<a href="https://console.cloud.google.com/projectselector2/home/dashboard" target="_blank">Go to project selector</a>
 
 
 
