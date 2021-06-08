@@ -46,7 +46,7 @@ Các ứng dụng Django chạy trên môi trường tiêu chuẩn của App Eng
 5. Cài đặt và khởi chạy [Cloud SDK](https://cloud.google.com/sdk/docs/install)
 
 
-### Đăng nhập `gcloud`
+#### Đăng nhập `gcloud`
 Nhận thông tin đăng nhập mới để sử dụng Cloud SQL Admin API:
 ```bat
 gcloud auth application-default login
@@ -58,6 +58,26 @@ source code: [https://github.com/GoogleCloudPlatform/python-docs-samples/tree/ma
 
 
 ### Setting up your local environment
+
+Khi được triển khai, ứng dụng của bạn sử dụng Cloud SQL Proxy được tích hợp sẵn trong môi trường App Engine để giao tiếp với phiên bản Cloud SQL của bạn. Tuy nhiên, để kiểm tra cục bộ ứng dụng của bạn, bạn phải cài đặt và sử dụng bản sao cục bộ của proxy trong môi trường phát triển của mình.
+
+Tìm hiểu thêm về [Cloud SQL Proxy](https://cloud.google.com/sql/docs/postgres/sql-proxy).
+
+Để thực hiện các tác vụ quản trị cơ bản trên phiên bản Cloud SQL của bạn, bạn có thể sử dụng ứng dụng PostgreSQL client.
+
+
+#### Installing the Cloud SQL Proxy
+
+Tải xuống và cài đặt `Cloud SQL Proxy`. `Cloud SQL Proxy` kết nối với phiên bản `Cloud SQL` của bạn khi chạy cục bộ. 
+
+Windows 64-bit: [https://dl.google.com/cloudsql/cloud_sql_proxy_x64.exe](https://dl.google.com/cloudsql/cloud_sql_proxy_x64.exe)
+
+
+#### Creating a Cloud SQL instance
+
+1. [Create a Cloud SQL for MySQL Second Generation instance](https://cloud.google.com/sql/docs/mysql/create-instance).
+
+
 
 
 [![Deploy Django Website to Google Cloud](https://img.youtube.com/vi/8Vxo0P_P8TU/0.jpg)](https://www.youtube.com/watch?v=8Vxo0P_P8TU)
