@@ -148,6 +148,30 @@ Cách thức hoạt động của nó dựa trên việc chia sẻ tài nguyên 
 - Bước 7: Trong bài viết này, tôi sử dụng hệ điều hành Linux, nên khi đăng ký thành công xong, tôi sẽ nhận được kết quả như sau:
 
 
+## App Engine
+
+App Engine là một nền tảng không máy chủ, được quản lý hoàn toàn để phát triển và lưu trữ các ứng dụng web trên quy mô lớn.
+
+Bạn có thể chọn từ một số ngôn ngữ, thư viện và khuôn khổ phổ biến để phát triển ứng dụng của mình, sau đó để App Engine đảm nhận việc cấp phép máy chủ và mở rộng các phiên bản ứng dụng của bạn dựa trên nhu cầu.
+
+
+### App Engine Standard Environment
+
+Môi trường tiêu chuẩn của App Engine dựa trên các phiên bản container  chạy trên cơ sở hạ tầng của Google. Các container  được định cấu hình sẵn với một trong một số thời gian chạy có sẵn.
+
+Môi trường tiêu chuẩn của App Engine giúp dễ dàng xây dựng và triển khai một ứng dụng chạy đáng tin cậy ngay cả khi tải nặng và với lượng lớn dữ liệu.
+
+Các ứng dụng chạy trong môi trường sandbox an toàn, cho phép môi trường tiêu chuẩn của App Engine phân phối các yêu cầu trên nhiều máy chủ và mở rộng các máy chủ để đáp ứng nhu cầu lưu lượng. Ứng dụng của bạn chạy trong môi trường an toàn, đáng tin cậy của riêng nó, độc lập với phần cứng, hệ điều hành hoặc vị trí thực của máy chủ.
+
+### App Engine Flexible Environment
+
+
+
+
+
+
+
+
 
 -----
 [Google Cloud Là Gì? Những Dịch Vụ Mà Google Cloud Cung Cấp](https://blog.itnavi.com.vn/google-cloud-la-gi-nhung-dich-vu-ma-google-cloud-cung-cap/)  
