@@ -20,8 +20,12 @@ Google Cloud cung cấp tất cả các giải pháp quản lý cho doanh nghi�
 
 Một điểm khác biệt nữa mà GC mang lại so với các dịch vụ đám mây khác đó chính là hệ thống DataCenter luôn ổn định và có độ bảo mật dữ liệu cực cao, giúp bảo vệ dữ liệu người dùng và khách hàng trước sự dòm ngó và xâm nhập trái phép của các hacker công nghệ.
 
+![Google Cloud Platform](https://boxxv.github.io/img/posts/23d1d5bf-3655-464e-964c-96be3a490893.png "Google Cloud Platform")_Google Cloud Platform_
+
+
 -----
 [Google Cloud Là Gì? Những Dịch Vụ Mà Google Cloud Cung Cấp](https://blog.itnavi.com.vn/google-cloud-la-gi-nhung-dich-vu-ma-google-cloud-cung-cap/)  
+
 
 
 
