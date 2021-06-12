@@ -41,87 +41,85 @@ Những dịch vụ Google Cloud cấp cao
 Google liệt kê hơn [100 sản phẩm](https://cloud.google.com/products) dưới thương hiệu Google Cloud. Một số dịch vụ chính được liệt kê dưới đây.
 
 ### Tính toán
-{% highlight actionscript3 %}
-App Engine - Nền tảng là một Dịch vụ để triển khai Java, PHP, Node.js, Python, C #, . Các ứng dụng Net, Ruby và Go.
-Compute Engine - Cơ sở hạ tầng như một Dịch vụ để chạy các máy ảo Microsoft Windows và Linux.
-Kubernetes Engine - Container như một dịch vụ dựa trên Kubernetes.
-Cloud Functions - Chức năng như một Dịch vụ để chạy mã theo sự kiện được viết bằng Node.js hoặc Python.
-{% endhighlight %}
+- App Engine - Nền tảng là một Dịch vụ để triển khai Java, PHP, Node.js, Python, C #, . Các ứng dụng Net, Ruby và Go.
+- Compute Engine - Cơ sở hạ tầng như một Dịch vụ để chạy các máy ảo Microsoft Windows và Linux.
+- Kubernetes Engine - Container như một dịch vụ dựa trên Kubernetes.
+- Cloud Functions - Chức năng như một Dịch vụ để chạy mã theo sự kiện được viết bằng Node.js hoặc Python.
 
 ### Lưu trữ và cơ sở dữ liệu
-	Cloud Storage - Lưu trữ đối tượng với bộ nhớ đệm cạnh tích hợp để lưu trữ dữ liệu phi cấu trúc.
-	Cloud SQL - Cơ sở dữ liệu dưới dạng Dịch vụ dựa trên MySQL và PostgreSQL.
-	Cloud BigTable -   Quản lý dịch vụ cơ sở dữ liệu NoQuery.
-	Cloud Spanner - Dịch vụ cơ sở dữ liệu quan hệ có thể mở rộng theo chiều ngang, phù hợp mạnh mẽ.
-	Cloud Datastore - Cơ sở dữ liệu NoQuery cho các ứng dụng web và di động.
-	Persistent Disk -   Khối lưu trữ cho máy ảo Compute Engine.
-	Cloud MemoryStore - Lưu trữ dữ liệu trong bộ nhớ được quản lý dựa trên Redis.
+- Cloud Storage - Lưu trữ đối tượng với bộ nhớ đệm cạnh tích hợp để lưu trữ dữ liệu phi cấu trúc.
+- Cloud SQL - Cơ sở dữ liệu dưới dạng Dịch vụ dựa trên MySQL và PostgreSQL.
+- Cloud BigTable -   Quản lý dịch vụ cơ sở dữ liệu NoQuery.
+- Cloud Spanner - Dịch vụ cơ sở dữ liệu quan hệ có thể mở rộng theo chiều ngang, phù hợp mạnh mẽ.
+- Cloud Datastore - Cơ sở dữ liệu NoQuery cho các ứng dụng web và di động.
+- Persistent Disk -   Khối lưu trữ cho máy ảo Compute Engine.
+- Cloud MemoryStore - Lưu trữ dữ liệu trong bộ nhớ được quản lý dựa trên Redis.
 
 ### Mạng
-- [x] VPC - Đám mây riêng ảo để quản lý mạng được xác định bằng phần mềm của tài nguyên đám mây.
-- [x] Cloud Load Balancing - Dịch vụ được quản lý, được xác định bằng phần mềm để cân bằng tải lưu lượng.
-- [x] Cloud Armor - Tường lửa ứng dụng web để bảo vệ khối lượng công việc khỏi các cuộc tấn công DDoS.
-- [x] Cloud CDN - Mạng phân phối nội dung dựa trên các điểm hiện diện được phân phối toàn cầu của Google. Kể từ tháng 6 năm 2018, dịch vụ này đang trong giai đoạn Beta.
-- [x] Cloud Interconnect - Dịch vụ kết nối trung tâm dữ liệu với Google Cloud Platform
-- [x] Cloud DNS - Dịch vụ DNS được quản lý, có thẩm quyền chạy trên cùng cơ sở hạ tầng với Google.
-- [x] Các tầng dịch vụ mạng - Tùy chọn để chọn lớp mạng Premium so với tiêu chuẩn cho mạng hiệu suất cao hơn.
+- VPC - Đám mây riêng ảo để quản lý mạng được xác định bằng phần mềm của tài nguyên đám mây.
+- Cloud Load Balancing - Dịch vụ được quản lý, được xác định bằng phần mềm để cân bằng tải lưu lượng.
+- Cloud Armor - Tường lửa ứng dụng web để bảo vệ khối lượng công việc khỏi các cuộc tấn công DDoS.
+- Cloud CDN - Mạng phân phối nội dung dựa trên các điểm hiện diện được phân phối toàn cầu của Google. Kể từ tháng 6 năm 2018, dịch vụ này đang trong giai đoạn Beta.
+- Cloud Interconnect - Dịch vụ kết nối trung tâm dữ liệu với Google Cloud Platform
+- Cloud DNS - Dịch vụ DNS được quản lý, có thẩm quyền chạy trên cùng cơ sở hạ tầng với Google.
+- Các tầng dịch vụ mạng - Tùy chọn để chọn lớp mạng Premium so với tiêu chuẩn cho mạng hiệu suất cao hơn.
 
 ### Dữ liệu lớn
-    BigQuery - Kho dữ liệu doanh nghiệp được quản lý, có thể mở rộng để phân tích.
-    Cloud Dataflow - Dịch vụ được quản lý dựa trên Apache Beam để xử lý dữ liệu hàng loạt và luồng.
-    Cloud Dataproc - Nền tảng dữ liệu lớn để chạy các công việc Apache Hadoop và Apache Spark.
-    Cloud Composer - Dịch vụ điều phối quy trình công việc được quản lý được xây dựng trên Apache Airflow.
-    Cloud Datalab - Công cụ để khám phá dữ liệu, phân tích, trực quan hóa và học máy. Đây là một dịch vụ Jupyter Notebook được quản lý hoàn toàn.
-    Cloud Dataprep - Dịch vụ dữ liệu dựa trên Trifacta để khám phá trực quan, dọn dẹp và chuẩn bị dữ liệu để phân tích.
-    Cloud Pub / Sub - Dịch vụ nhập sự kiện có thể mở rộng dựa trên hàng đợi tin nhắn.
-    Cloud Data Studio - Công cụ kinh doanh thông minh để trực quan hóa dữ liệu thông qua bảng điều khiển và báo cáo.
+- BigQuery - Kho dữ liệu doanh nghiệp được quản lý, có thể mở rộng để phân tích.
+- Cloud Dataflow - Dịch vụ được quản lý dựa trên Apache Beam để xử lý dữ liệu hàng loạt và luồng.
+- Cloud Dataproc - Nền tảng dữ liệu lớn để chạy các công việc Apache Hadoop và Apache Spark.
+- Cloud Composer - Dịch vụ điều phối quy trình công việc được quản lý được xây dựng trên Apache Airflow.
+- Cloud Datalab - Công cụ để khám phá dữ liệu, phân tích, trực quan hóa và học máy. Đây là một dịch vụ Jupyter Notebook được quản lý hoàn toàn.
+- Cloud Dataprep - Dịch vụ dữ liệu dựa trên Trifacta để khám phá trực quan, dọn dẹp và chuẩn bị dữ liệu để phân tích.
+- Cloud Pub / Sub - Dịch vụ nhập sự kiện có thể mở rộng dựa trên hàng đợi tin nhắn.
+- Cloud Data Studio - Công cụ kinh doanh thông minh để trực quan hóa dữ liệu thông qua bảng điều khiển và báo cáo.
 
 ### AI trên đám mây
-    Cloud AutoML - Dịch vụ đào tạo và triển khai các mô hình học máy tùy chỉnh. Kể từ tháng 9 năm 2018, dịch vụ này đang trong giai đoạn Beta.
-    Cloud TPU - Máy gia tốc được Google sử dụng để đào tạo các mô hình học máy.
-    Cloud Machine Learning Engine - Dịch vụ được quản lý để đào tạo và xây dựng các mô hình học máy dựa trên các khung chính.
-    Cloud Job Discovery - Dịch vụ dựa trên khả năng tìm kiếm và học máy của Google để tuyển dụng hệ sinh thái.
-    Dialogflow Enterprise - Môi trường phát triển dựa trên học máy của Google để xây dựng giao diện đàm thoại.
-    Cloud Natural Language - Dịch vụ phân tích văn bản dựa trên các mô hình Google Deep Learning.
-    Cloud Speech-to-Text - Dịch vụ chuyển đổi giọng nói thành văn bản dựa trên học máy.
-    Cloud Text-to-Speech - Dịch vụ chuyển đổi văn bản thành giọng nói dựa trên học máy.
-    Cloud Translation API - Dịch vụ dịch động giữa hàng ngàn cặp ngôn ngữ khả dụng
-    Cloud Vision API - Dịch vụ phân tích hình ảnh dựa trên học máy
-    Cloud Video Intelligence - Dịch vụ phân tích video dựa trên học máy
+- Cloud AutoML - Dịch vụ đào tạo và triển khai các mô hình học máy tùy chỉnh. Kể từ tháng 9 năm 2018, dịch vụ này đang trong giai đoạn Beta.
+- Cloud TPU - Máy gia tốc được Google sử dụng để đào tạo các mô hình học máy.
+- Cloud Machine Learning Engine - Dịch vụ được quản lý để đào tạo và xây dựng các mô hình học máy dựa trên các khung chính.
+- Cloud Job Discovery - Dịch vụ dựa trên khả năng tìm kiếm và học máy của Google để tuyển dụng hệ sinh thái.
+- Dialogflow Enterprise - Môi trường phát triển dựa trên học máy của Google để xây dựng giao diện đàm thoại.
+- Cloud Natural Language - Dịch vụ phân tích văn bản dựa trên các mô hình Google Deep Learning.
+- Cloud Speech-to-Text - Dịch vụ chuyển đổi giọng nói thành văn bản dựa trên học máy.
+- Cloud Text-to-Speech - Dịch vụ chuyển đổi văn bản thành giọng nói dựa trên học máy.
+- Cloud Translation API - Dịch vụ dịch động giữa hàng ngàn cặp ngôn ngữ khả dụng
+- Cloud Vision API - Dịch vụ phân tích hình ảnh dựa trên học máy
+- Cloud Video Intelligence - Dịch vụ phân tích video dựa trên học máy
 
 ### Công cụ quản lý
-    Stackdriver - Theo dõi, ghi nhật ký và chẩn đoán cho các ứng dụng trên Google Cloud Platform và AWS.
-    Cloud Deployment Manager - Công cụ để triển khai các tài nguyên Google Cloud Platform được xác định trong các mẫu được tạo trong YAML, Python hoặc Jinja2.
-    Cloud Console - Giao diện web để quản lý tài nguyên Google Cloud Platform.
-    Cloud Shell - Truy cập dòng lệnh shell dựa trên trình duyệt để quản lý tài nguyên Google Cloud Platform.
-    Cloud Console Mobile App - Ứng dụng Android và iOS để quản lý tài nguyên Google Cloud Platform.
-    Cloud API - API để truy cập theo cách lập trình tài nguyên Google Cloud Platform
+- Stackdriver - Theo dõi, ghi nhật ký và chẩn đoán cho các ứng dụng trên Google Cloud Platform và AWS.
+- Cloud Deployment Manager - Công cụ để triển khai các tài nguyên Google Cloud Platform được xác định trong các mẫu được tạo trong YAML, Python hoặc Jinja2.
+- Cloud Console - Giao diện web để quản lý tài nguyên Google Cloud Platform.
+- Cloud Shell - Truy cập dòng lệnh shell dựa trên trình duyệt để quản lý tài nguyên Google Cloud Platform.
+- Cloud Console Mobile App - Ứng dụng Android và iOS để quản lý tài nguyên Google Cloud Platform.
+- Cloud API - API để truy cập theo cách lập trình tài nguyên Google Cloud Platform
 
 ### Định danh & Bảo mật
-    Cloud Identity - sign-on đơn dịch vụ (SSO) dựa trên SAML 2.0 và OpenID.
-    Cloud IAM - Dịch vụ nhận dạng &amp; quản lý truy cập (IAM) để xác định các chính sách dựa trên kiểm soát truy cập dựa trên vai trò.
-    Cloud Identity-Aware Proxy - Dịch vụ để kiểm soát quyền truy cập vào các ứng dụng đám mây chạy trên Google Cloud Platform mà không cần sử dụng VPN.
-    Cloud Data Loss Prevention API - Dịch vụ tự động khám phá, phân loại và sắp xếp lại dữ liệu nhạy cảm.
-    Thực thi khóa bảo mật - Dịch vụ xác minh hai bước dựa trên khóa bảo mật.
-    Dịch vụ quản lý khóa trên đám mây - Dịch vụ quản lý khóa được lưu trữ trên đám mây được tích hợp với IAM và ghi nhật ký kiểm toán.
-    Trình quản lý tài nguyên đám mây - Dịch vụ để quản lý tài nguyên theo dự án, thư mục và tổ chức dựa trên cấu trúc phân cấp.
-    Trung tâm chỉ huy bảo mật đám mây - Nền tảng rủi ro bảo mật và dữ liệu cho dữ liệu và dịch vụ đang chạy trong Google Cloud Platform.
-    Cloud Security Scanner - Dịch vụ quét lỗ hổng tự động cho các ứng dụng được triển khai trong Máy ứng dụng.
-    Truy cập tính minh bạch - Nhật ký kiểm toán gần thời gian thực cung cấp khả năng hiển thị cho quản trị viên Google Cloud Platform.
+- Cloud Identity - sign-on đơn dịch vụ (SSO) dựa trên SAML 2.0 và OpenID.
+- Cloud IAM - Dịch vụ nhận dạng &amp; quản lý truy cập (IAM) để xác định các chính sách dựa trên kiểm soát truy cập dựa trên vai trò.
+- Cloud Identity-Aware Proxy - Dịch vụ để kiểm soát quyền truy cập vào các ứng dụng đám mây chạy trên Google Cloud Platform mà không cần sử dụng VPN.
+- Cloud Data Loss Prevention API - Dịch vụ tự động khám phá, phân loại và sắp xếp lại dữ liệu nhạy cảm.
+- Thực thi khóa bảo mật - Dịch vụ xác minh hai bước dựa trên khóa bảo mật.
+- Dịch vụ quản lý khóa trên đám mây - Dịch vụ quản lý khóa được lưu trữ trên đám mây được tích hợp với IAM và ghi nhật ký kiểm toán.
+- Trình quản lý tài nguyên đám mây - Dịch vụ để quản lý tài nguyên theo dự án, thư mục và tổ chức dựa trên cấu trúc phân cấp.
+- Trung tâm chỉ huy bảo mật đám mây - Nền tảng rủi ro bảo mật và dữ liệu cho dữ liệu và dịch vụ đang chạy trong Google Cloud Platform.
+- Cloud Security Scanner - Dịch vụ quét lỗ hổng tự động cho các ứng dụng được triển khai trong Máy ứng dụng.
+- Truy cập tính minh bạch - Nhật ký kiểm toán gần thời gian thực cung cấp khả năng hiển thị cho quản trị viên Google Cloud Platform.
 
 ### IoT
-    Cloud IoT Core - Dịch vụ quản lý và kết nối thiết bị an toàn cho Internet vạn vật.
-    Edge TPU - ASIC được xây dựng có mục đích được thiết kế để chạy suy luận ở cạnh. Kể từ tháng 9 năm 2018, sản phẩm này đang trong giai đoạn thử nghiệm riêng tư.
-    Cloud IoT Edge - Đưa AI đến lớp tính toán cạnh.
+- Cloud IoT Core - Dịch vụ quản lý và kết nối thiết bị an toàn cho Internet vạn vật.
+- Edge TPU - ASIC được xây dựng có mục đích được thiết kế để chạy suy luận ở cạnh. Kể từ tháng 9 năm 2018, sản phẩm này đang trong giai đoạn thử nghiệm riêng tư.
+- Cloud IoT Edge - Đưa AI đến lớp tính toán cạnh.
 
 ### Nền tảng API
-    Nền tảng Bản đồ - API cho bản đồ, tuyến đường và địa điểm dựa trên Google Maps.
-    Nền tảng API Apigee - Nền tảng quản lý vòng đời để thiết kế, bảo mật, triển khai, giám sát và mở rộng API.
-    API Monetization - Giải pháp cho các nhà cung cấp API để tạo mô hình doanh thu, báo cáo, cổng thanh toán và tích hợp cổng nhà phát triển.
-    Cổng thông tin dành cho nhà phát triển - Nền tảng tự phục vụ để các nhà phát triển xuất bản và quản lý API.
-    API Analytics - Dịch vụ để phân tích các chương trình dựa trên API thông qua giám sát, đo lường và quản lý API.
-    Apigee Sense - Cho phép bảo mật API bằng cách xác định và cảnh báo cho quản trị viên về các hành vi API đáng ngờ.
-    Cloud Endpoints - Proxy dựa trên NGINX để triển khai và quản lý API.
+- Nền tảng Bản đồ - API cho bản đồ, tuyến đường và địa điểm dựa trên Google Maps.
+- Nền tảng API Apigee - Nền tảng quản lý vòng đời để thiết kế, bảo mật, triển khai, giám sát và mở rộng API.
+- API Monetization - Giải pháp cho các nhà cung cấp API để tạo mô hình doanh thu, báo cáo, cổng thanh toán và tích hợp cổng nhà phát triển.
+- Cổng thông tin dành cho nhà phát triển - Nền tảng tự phục vụ để các nhà phát triển xuất bản và quản lý API.
+- API Analytics - Dịch vụ để phân tích các chương trình dựa trên API thông qua giám sát, đo lường và quản lý API.
+- Apigee Sense - Cho phép bảo mật API bằng cách xác định và cảnh báo cho quản trị viên về các hành vi API đáng ngờ.
+- Cloud Endpoints - Proxy dựa trên NGINX để triển khai và quản lý API.
 
 
 ## VPS Google là gì?
