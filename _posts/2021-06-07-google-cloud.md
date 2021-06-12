@@ -51,6 +51,15 @@ Cách thức hoạt động của nó dựa trên việc chia sẻ tài nguyên 
 - Phát triển các loại platform, lưu trữ các dữ liệu như hình ảnh, tài liệu, video…
 
 
+### Cách thức đăng ký tài khoản Google VPS
+- Bước 1: Việc đầu tiên mà các bạn cần phải làm trước khi đọc phần tiếp theo, đó chính là ra ngoài và tạo ngay một tài khoản gmail đi nhé! (việc tạo một tài khoản gmail đã quá dễ dàng rồi phải không), sau đó quay lại và truy cập vào đường dẫn dưới đây: https://cloud.google.com
+- Bước 2: Xuất hiện bảng mời chào dùng thử, nhấn vào try free, chấp nhận các điều khoản của google và điền vào các thông tin như hình bên dưới
+- Bước 3: đây cũng là một phần khá quan trọng đấy, và bạn cũng cần phải có một thẻ VISA để kích hoạt và sử dụng được. Trong phần khai báo một phương thức thanh toán, bạn cần nhập thông tin thẻ Visa của mình vào, và Google sẽ trừ đi của bạn 1 đô la (nhưng bạn đừng quá lo lắng, bởi google sẽ hoàn trả lại cho bạn ngay trong ngày, yên tâm và tiếp tục đi nhé). Ngoài ra còn có một cách khác nếu như bạn không có thẻ VISA, đó là đăng ký một thẻ visa ảo tại địa chỉ: app.emoney.tpb.vn và chịu mất 30k để google xác nhận đăng ký VPS nhé !
+- Bước 4: Google VPS sẽ tạo cho bạn một dự án (project) mẫu
+- Bước 5: ở phần tiếp theo, bạn chọn cấu hình cho VPS của mình, chẳng hạn bạn có thể chọn như hình dưới đây:
+- Bước 6: Nếu như bạn sử dụng hệ điều hành Windows, thì xin chia buồn cùng bạn, bạn phải tốn thêm phí bản quyền, theo tôi nhớ không nhầm là vào khoảng 20 đô la / tháng. Vì thế, tôi khuyên bạn nên lựa chọn các hệ điều hành miễn phí như Linux, Ubuntu để sử dụng nhé !
+- Bước 7: Trong bài viết này, tôi sử dụng hệ điều hành Linux, nên khi đăng ký thành công xong, tôi sẽ nhận được kết quả như sau:
+
 
 
 -----
