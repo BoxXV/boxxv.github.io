@@ -35,6 +35,24 @@ Những dịch vụ Google Cloud cấp cao
 - Dịch vụ Google Big Query: đây là dịch vụ giúp xử lý và phân tích các tệp dữ liệu cực kỳ lớn. Nó hoạt động với chức năng truy vấn tương tự cơ sở dữ liệu SQL truyền thống. Những tệp dữ liệu mà nó xử lý có thể lên đến hàng trăm triệu terabyte.
 
 
+### VPS Google là gì?
+
+![VPS Google Cloud](https://boxxv.github.io/img/posts/vps-google-cloud.png "VPS Google Cloud")_VPS Google Cloud_
+
+VPS được viết tắt của cụm từ Virtual Private Server. Hiểu một cách đơn giản nhất, đây chính là máy chủ ảo, được tạo ra từ việc phân chia một máy chủ vật lý thành nhiều máy chủ khác nhau có tính năng và hoạt động giống như một máy chủ riêng biệt.
+
+Cách thức hoạt động của nó dựa trên việc chia sẻ tài nguyên từ máy chủ vật lý ban đầu. Mỗi VPS là một hệ thống riêng, có CPU xử lý riêng, có dung lượng RAM và ổ cứng lưu trữ tách biệt, người dùng có toàn quyền quản lý root và cập nhật, restart hệ thống bất cứ lúc nào họ muốn. Hiện nay, VPS google đang được các doanh nghiệp và cá nhân ưu tiên lựa chọn sử dụng bởi khả năng vượt trội kèm tính bảo mật, backup tuyệt vời của nó, có thể kể đến các loại hình kinh doanh như:
+
+- Sử dụng để làm máy chủ game (game server), tuy nhiên chỉ là những game có lượng truy cập vừa phải, không quá lớn
+- Lưu trữ website (tất cả các loại website dịch vụ như bán hàng, tin tức, diễn đàn, thương mại điện tử….)
+- Làm hệ thống email cho doanh nghiệp
+- Tạo các môi trường ảo để các lập trình, nghiên cứu, thí nghiệm, phân tích dữ liệu….
+- Chạy các chương trình quảng cáo, sự kiện, truyền thông trực tiếp…
+- Phát triển các loại platform, lưu trữ các dữ liệu như hình ảnh, tài liệu, video…
+
+
+
+
 -----
 [Google Cloud Là Gì? Những Dịch Vụ Mà Google Cloud Cung Cấp](https://blog.itnavi.com.vn/google-cloud-la-gi-nhung-dich-vu-ma-google-cloud-cung-cap/)  
 
