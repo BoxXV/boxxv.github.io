@@ -41,28 +41,30 @@ Những dịch vụ Google Cloud cấp cao
 Google liệt kê hơn [100 sản phẩm](https://cloud.google.com/products) dưới thương hiệu Google Cloud. Một số dịch vụ chính được liệt kê dưới đây.
 
 ### Tính toán
-    App Engine - Nền tảng là một Dịch vụ để triển khai Java, PHP, Node.js, Python, C #, . Các ứng dụng Net, Ruby và Go.
-    Compute Engine - Cơ sở hạ tầng như một Dịch vụ để chạy các máy ảo Microsoft Windows và Linux.
-    Kubernetes Engine - Container như một dịch vụ dựa trên Kubernetes.
-    Cloud Functions - Chức năng như một Dịch vụ để chạy mã theo sự kiện được viết bằng Node.js hoặc Python.
+{% highlight actionscript3 %}
+App Engine - Nền tảng là một Dịch vụ để triển khai Java, PHP, Node.js, Python, C #, . Các ứng dụng Net, Ruby và Go.
+Compute Engine - Cơ sở hạ tầng như một Dịch vụ để chạy các máy ảo Microsoft Windows và Linux.
+Kubernetes Engine - Container như một dịch vụ dựa trên Kubernetes.
+Cloud Functions - Chức năng như một Dịch vụ để chạy mã theo sự kiện được viết bằng Node.js hoặc Python.
+{% endhighlight %}
 
 ### Lưu trữ và cơ sở dữ liệu
-    Cloud Storage - Lưu trữ đối tượng với bộ nhớ đệm cạnh tích hợp để lưu trữ dữ liệu phi cấu trúc.
-    Cloud SQL - Cơ sở dữ liệu dưới dạng Dịch vụ dựa trên MySQL và PostgreSQL.
-    Cloud BigTable -   Quản lý dịch vụ cơ sở dữ liệu NoQuery.
-    Cloud Spanner - Dịch vụ cơ sở dữ liệu quan hệ có thể mở rộng theo chiều ngang, phù hợp mạnh mẽ.
-    Cloud Datastore - Cơ sở dữ liệu NoQuery cho các ứng dụng web và di động.
-    Persistent Disk -   Khối lưu trữ cho máy ảo Compute Engine.
-    Cloud MemoryStore - Lưu trữ dữ liệu trong bộ nhớ được quản lý dựa trên Redis.
+	Cloud Storage - Lưu trữ đối tượng với bộ nhớ đệm cạnh tích hợp để lưu trữ dữ liệu phi cấu trúc.
+	Cloud SQL - Cơ sở dữ liệu dưới dạng Dịch vụ dựa trên MySQL và PostgreSQL.
+	Cloud BigTable -   Quản lý dịch vụ cơ sở dữ liệu NoQuery.
+	Cloud Spanner - Dịch vụ cơ sở dữ liệu quan hệ có thể mở rộng theo chiều ngang, phù hợp mạnh mẽ.
+	Cloud Datastore - Cơ sở dữ liệu NoQuery cho các ứng dụng web và di động.
+	Persistent Disk -   Khối lưu trữ cho máy ảo Compute Engine.
+	Cloud MemoryStore - Lưu trữ dữ liệu trong bộ nhớ được quản lý dựa trên Redis.
 
 ### Mạng
-    VPC - Đám mây riêng ảo để quản lý mạng được xác định bằng phần mềm của tài nguyên đám mây.
-    Cloud Load Balancing - Dịch vụ được quản lý, được xác định bằng phần mềm để cân bằng tải lưu lượng.
-    Cloud Armor - Tường lửa ứng dụng web để bảo vệ khối lượng công việc khỏi các cuộc tấn công DDoS.
-    Cloud CDN - Mạng phân phối nội dung dựa trên các điểm hiện diện được phân phối toàn cầu của Google. Kể từ tháng 6 năm 2018, dịch vụ này đang trong giai đoạn Beta.
-    Cloud Interconnect - Dịch vụ kết nối trung tâm dữ liệu với Google Cloud Platform
-    Cloud DNS - Dịch vụ DNS được quản lý, có thẩm quyền chạy trên cùng cơ sở hạ tầng với Google.
-    Các tầng dịch vụ mạng - Tùy chọn để chọn lớp mạng Premium so với tiêu chuẩn cho mạng hiệu suất cao hơn.
+- [x] VPC - Đám mây riêng ảo để quản lý mạng được xác định bằng phần mềm của tài nguyên đám mây.
+- [x] Cloud Load Balancing - Dịch vụ được quản lý, được xác định bằng phần mềm để cân bằng tải lưu lượng.
+- [x] Cloud Armor - Tường lửa ứng dụng web để bảo vệ khối lượng công việc khỏi các cuộc tấn công DDoS.
+- [x] Cloud CDN - Mạng phân phối nội dung dựa trên các điểm hiện diện được phân phối toàn cầu của Google. Kể từ tháng 6 năm 2018, dịch vụ này đang trong giai đoạn Beta.
+- [x] Cloud Interconnect - Dịch vụ kết nối trung tâm dữ liệu với Google Cloud Platform
+- [x] Cloud DNS - Dịch vụ DNS được quản lý, có thẩm quyền chạy trên cùng cơ sở hạ tầng với Google.
+- [x] Các tầng dịch vụ mạng - Tùy chọn để chọn lớp mạng Premium so với tiêu chuẩn cho mạng hiệu suất cao hơn.
 
 ### Dữ liệu lớn
     BigQuery - Kho dữ liệu doanh nghiệp được quản lý, có thể mở rộng để phân tích.
