@@ -155,7 +155,7 @@ App Engine là một nền tảng không máy chủ, được quản lý hoàn t
 Bạn có thể chọn từ một số ngôn ngữ, thư viện và khuôn khổ phổ biến để phát triển ứng dụng của mình, sau đó để App Engine đảm nhận việc cấp phép máy chủ và mở rộng các phiên bản ứng dụng của bạn dựa trên nhu cầu.
 
 
-### App Engine Standard Environment
+### [App Engine Standard Environment](https://cloud.google.com/python/django/appengine)
 
 Môi trường tiêu chuẩn của App Engine dựa trên các phiên bản container  chạy trên cơ sở hạ tầng của Google. Các container  được định cấu hình sẵn với một trong một số thời gian chạy có sẵn.
 
@@ -163,8 +163,12 @@ Môi trường tiêu chuẩn của App Engine giúp dễ dàng xây dựng và t
 
 Các ứng dụng chạy trong môi trường sandbox an toàn, cho phép môi trường tiêu chuẩn của App Engine phân phối các yêu cầu trên nhiều máy chủ và mở rộng các máy chủ để đáp ứng nhu cầu lưu lượng. Ứng dụng của bạn chạy trong môi trường an toàn, đáng tin cậy của riêng nó, độc lập với phần cứng, hệ điều hành hoặc vị trí thực của máy chủ.
 
-### App Engine Flexible Environment
+### [App Engine Flexible Environment](https://cloud.google.com/python/django/flexible-environment)
 
+App Engine cho phép các nhà phát triển tập trung vào những gì họ làm tốt nhất: viết mã. Dựa trên Google Compute Engine, môi trường linh hoạt của App Engine tự động điều chỉnh ứng dụng của bạn lên và xuống đồng thời cân bằng tải. 
+
+
+### [Running Django on Cloud Run](https://cloud.google.com/python/django/run)
 
 
 
