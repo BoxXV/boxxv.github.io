@@ -14,6 +14,7 @@ tags:
 
 Google Cloud Platform (GCP) là nền tảng cung cấp hơn 100 dịch vụ công nghệ thông tin. Các doanh nghiệp và nhà phát triển có thể sử dụng nền tảng đám mây của Google để làm việc hiệu quả và linh hoạt hơn.
 
+![Dịch vụ đám mây](https://boxxv.github.io/img/posts/Cloud.png "Dịch vụ đám mây")_Dịch vụ đám mây_
 
 ## Google Cloud là gì?
 
