@@ -12,17 +12,16 @@ tags:
 - App Engine Flexible Environment
 ---
 
-Bài hướng dẫn này mình sử dụng microframework Flask làm web app. Những framework khác của Python như Django, Pyramid, Tornado ... có thể làm tương tự. Máy tính client để mình code chạy trên Ubuntu 16.04 cùng với Python 2.7.12.
+### Google Cloud là gì?
 
-### Chuẩn bị
+Google Cloud hay còn gọi là Google Cloud Platform (GCP) chính là một nền tảng của kỹ thuật điện toán đám mây cho phép các cá nhân, tổ chức, các doanh nghiệp, các cơ quan có thể xây dựng, phát triển, và hoạt động các ứng dụng của mình trên hệ thống phần mềm do google tạo ra. Các ứng dụng rất phổ biến hiện nay được mọi người sử dụng rất nhiều như: Trình duyệt Chrome, ứng dụng bản đồ Google Map, Google Apps, kênh Youtube…
 
+Google Cloud cung cấp tất cả các giải pháp quản lý cho doanh nghiệp, giúp doanh nghiệp có thể phát triển hệ thống công nghệ của mình một cách chính xác, hiện đại. Bên cạnh đó, GC còn giúp người dùng và doanh nghiệp giải quyết các vấn đề như: Developer (phát triển), Management (Quản lý), Computer Engine, Mobile, Storage, Big Data…
 
+Một điểm khác biệt nữa mà GC mang lại so với các dịch vụ đám mây khác đó chính là hệ thống DataCenter luôn ổn định và có độ bảo mật dữ liệu cực cao, giúp bảo vệ dữ liệu người dùng và khách hàng trước sự dòm ngó và xâm nhập trái phép của các hacker công nghệ.
 
 -----
-[Hướng dẫn tạo ứng dụng web Python đơn giản trên Google App Engine](https://viblo.asia/p/huong-dan-tao-ung-dung-web-python-don-gian-tren-google-app-engine-QpmleARnlrd)  
-[Deploying Envoy with a Python Flask web app and Google Kubernetes Engine](https://cloud.google.com/community/tutorials/envoy-flask-google-container-engine)  
-[Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
-
+[Google Cloud Là Gì? Những Dịch Vụ Mà Google Cloud Cung Cấp](https://blog.itnavi.com.vn/google-cloud-la-gi-nhung-dich-vu-ma-google-cloud-cung-cap/)  
 
 
 
