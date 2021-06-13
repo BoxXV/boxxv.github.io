@@ -163,12 +163,22 @@ Môi trường tiêu chuẩn của App Engine giúp dễ dàng xây dựng và t
 
 Các ứng dụng chạy trong môi trường sandbox an toàn, cho phép môi trường tiêu chuẩn của App Engine phân phối các yêu cầu trên nhiều máy chủ và mở rộng các máy chủ để đáp ứng nhu cầu lưu lượng. Ứng dụng của bạn chạy trong môi trường an toàn, đáng tin cậy của riêng nó, độc lập với phần cứng, hệ điều hành hoặc vị trí thực của máy chủ.
 
+
 ### [App Engine Flexible Environment](https://cloud.google.com/python/django/flexible-environment)
 
 App Engine cho phép các nhà phát triển tập trung vào những gì họ làm tốt nhất: viết mã. Dựa trên Google Compute Engine, môi trường linh hoạt của App Engine tự động điều chỉnh ứng dụng của bạn lên và xuống đồng thời cân bằng tải. 
 
 
 ### [Running Django on Cloud Run](https://cloud.google.com/python/django/run)
+
+Việc triển khai các ứng dụng trạng thái như Django liên quan đến việc tích hợp nhiều dịch vụ với nhau để tương tác với nhau để tạo thành một dự án gắn kết.
+
+Trang web Django được cung cấp từ Cloud Run, sử dụng nhiều dịch vụ hỗ trợ để lưu trữ các loại dữ liệu khác nhau (thông tin cơ sở dữ liệu quan hệ, nội dung phương tiện, bí mật cấu hình và hình ảnh vùng chứa). Các dịch vụ phụ trợ được Cloud Build cập nhật như một phần của nhiệm vụ xây dựng và di chuyển.
+
+
+### [Compute Engine](https://cloud.google.com/compute)
+
+Bảo mật và dịch vụ tính toán tùy biến cho phép bạn tạo và chạy máy ảo trên cơ sở hạ tầng của Google.
 
 
 
