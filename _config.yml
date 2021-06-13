@@ -26,8 +26,6 @@ plugins:
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    line_numbers: true
 highlighter: rouge
 safe: false # safe need to be off for local preview
 lsi: false
