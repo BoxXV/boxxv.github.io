@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Hướng dẫn tạo ứng dụng web Python Django trên Google App Engine
+title: Hướng dẫn tạo ứng dụng web Python Django trên Google Compute Engine
 subtitle: Deploying with a Python Django web app and Google
 image: "img/projects-bg.jpg"
 tags:
 - Django
 - Python
 - GAE
-- Google App Engine
+- Google Compute Engine
 ---
 
 ## Hosting platforms

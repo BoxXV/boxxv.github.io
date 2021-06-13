@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Hướng dẫn tạo ứng dụng web Python Flask trên Google App Engine 
+title: Hướng dẫn tạo ứng dụng web Python Flask trên Google App Engine
 subtitle: Deploying with a Python Flask web app and Google
 image: "img/projects-bg.jpg"
 tags:
 - Flask
 - Python
 - GAE
-- Google App Engine 
+- Google App Engine
 ---
 
 Bài hướng dẫn này mình sử dụng microframework Flask làm web app. Những framework khác của Python như Django, Pyramid, Tornado ... có thể làm tương tự. Máy tính client để mình code chạy trên Ubuntu 16.04 cùng với Python 2.7.12.
