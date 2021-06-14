@@ -70,6 +70,6 @@ Chi phí của sản phẩm Google Compute Engine phụ thuộc vào phân bổ 
 [Deploy Django on Google Compute Engine with Nginx, Gunicorn and Postgresql (Google Cloud SQL)](https://djangocircle.com/deploy-django-on-google-compute-engine-with-nginx-gunicorn-and-postgresql-google-cloud-sql/)  
 [Deploy Django to GCP Compute Engine](https://www.minimalistbeing.com/blog/django-deployment-gcp-compute-engine/)  
 [Get started with Bitnami Django on Google Cloud](https://cloud.google.com/community/tutorials/get-started-bitnami-django)  
-[Using SQLITE for local Django development for Google App Engine?](https://stackoverflow.com/questions/21302612/using-sqlite-for-local-django-development-for-google-app-engine)  
-[Deploy ứng dụng Rails với Google app engine-P2: Cài đặt SDK cho máy local](https://viblo.asia/p/deploy-ung-dung-rails-voi-google-app-engine-p2-cai-dat-sdk-cho-may-local-63vKjbGVK2R)  
+[Deploy Django to GCP Compute Engine](https://www.minimalistbeing.com/blog/django-deployment-gcp-compute-engine/)  
+[Deploy Django app with Python on Google Compute Engine](https://stackoverflow.com/questions/46783781/deploy-django-1-10-app-with-python-3-6-on-google-compute-engine)  
 
