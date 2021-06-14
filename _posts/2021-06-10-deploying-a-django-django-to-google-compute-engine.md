@@ -63,6 +63,18 @@ Chi phí của sản phẩm Google Compute Engine phụ thuộc vào phân bổ 
 
 ## [Transferring files to Linux VMs](https://cloud.google.com/compute/docs/instances/transfer-files)
 
+Transfer from `Linux` or `macOS` To `Linux VMs`
+- [Cloud Storage](https://cloud.google.com/compute/docs/instances/transfer-files#gcstransfer)
+- [gcloud command-line tool](https://cloud.google.com/compute/docs/instances/transfer-files#transfergcloud)
+- [SSH in the browser](https://cloud.google.com/compute/docs/instances/transfer-files#transferbrowser)
+- [SCP](https://cloud.google.com/compute/docs/instances/transfer-files#scp)
+
+Transfer from `Windows` To `Linux VMs`
+- [Cloud Storage](https://cloud.google.com/compute/docs/instances/transfer-files#gcstransfer)
+- [gcloud command-line tool](https://cloud.google.com/compute/docs/instances/transfer-files#transfergcloud)
+- [SSH in the browser](https://cloud.google.com/compute/docs/instances/transfer-files#transferbrowser)
+- [WinSCP](https://cloud.google.com/compute/docs/instances/transfer-files#winscp)
+
 
 
 
