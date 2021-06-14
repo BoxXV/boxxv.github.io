@@ -84,7 +84,7 @@ Công cụ dòng lệnh `gcloud` cung cấp tiện ích truyền tệp `SCP`, t�
 
 Nếu bạn không có quy tắc tường lửa cho phép kết nối SSH trên cổng `22`, hãy [tạo quy tắc tường lửa](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules).
 
-
+Bạn có thể cần cài đặt các công cụ `gcloud` và sử dụng nó để sao chép tập tin và thư mục để VM của bạn bằng cách sử dụng lệnh `scp`.
 
 -----
 [Deploy Django on Google Compute Engine with Nginx, Gunicorn and Postgresql (Google Cloud SQL)](https://djangocircle.com/deploy-django-on-google-compute-engine-with-nginx-gunicorn-and-postgresql-google-cloud-sql/)  
