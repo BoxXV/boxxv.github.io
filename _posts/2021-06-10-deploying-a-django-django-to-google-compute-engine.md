@@ -14,6 +14,8 @@ tags:
 
 Cơ sở hạ tầng như một Dịch vụ để chạy các máy ảo Microsoft Windows và Linux.
 
+Chi phí của sản phẩm Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nhớ và Hardisk của bạn. Sản phẩm của Google Compute Engine tính phí với chính sách "thanh toán khi bạn di chuyển". Nếu chúng ta tạo một máy với 1 CPU, Bộ nhớ 0,6 GB và ổ cứng SSD 10 GB trong 730 giờ một tháng, nó sẽ có giá 3,88 đô la (cho VM) và 1,7 đô la (10 GB SSD), tổng cộng là 5,58 đô la. Cấu hình này đủ để chạy ứng dụng trang web Django CMS. Điều này sẽ khiến tất cả các Cơ quan Tiếp thị Kỹ thuật số và Cơ quan Thiết kế Trang web nghĩ lại về chi phí máy chủ truyền thống và chất lượng máy chủ của họ.
+
 - `Predefined machine types`: Loại máy được xác định trước. Bắt đầu chạy nhanh chóng với các cấu hình được tạo sẵn và sẵn sàng sử dụng
 - `Custom machine types`: Loại máy tùy chỉnh. Tạo máy ảo với số lượng vCPU và bộ nhớ tối ưu, đồng thời cân bằng chi phí
 - `Preemptible machines`: Máy có quyền mua trước. Giảm chi phí bằng cách tăng tính tới 80% với trường hợp ngắn hạn giá cả phải chăng
