@@ -76,6 +76,14 @@ Transfer from `Windows` To `Linux VMs`
 - [WinSCP](https://cloud.google.com/compute/docs/instances/transfer-files#winscp)
 
 
+### Chuyển tệp bằng công cụ dòng lệnh `gcloud`
+Công cụ dòng lệnh `gcloud` cung cấp tiện ích truyền tệp `SCP`, tạo cặp khóa `SSH` cho bạn trong lần đầu tiên kết nối. Khóa riêng tư của bạn được lưu trữ trên thiết bị cục bộ của bạn và khóa công khai tương ứng của nó được sao chép vào siêu dữ liệu bản sao của dự án hoặc máy ảo.
+
+Để chuyển tệp bằng SCP, bạn phải có quy tắc tường lửa (firewall rule) trên mạng mà máy ảo của bạn sử dụng cho phép kết nối SSH trên cổng `22`. Bạn có thể xác minh rằng quy tắc tường lửa này tồn tại bằng cách tìm kiếm quy tắc tường lửa cho phép `tcp:22` kết nối trong Google Cloud Console.
+<a href="https://console.cloud.google.com/networking/firewalls" target="_blank">Go to Firewall rules</a>
+
+Nếu bạn không có quy tắc tường lửa cho phép kết nối SSH trên cổng `22`, hãy [tạo quy tắc tường lửa](https://cloud.google.com/vpc/docs/using-firewalls#creating_firewall_rules).
+
 
 
 -----
