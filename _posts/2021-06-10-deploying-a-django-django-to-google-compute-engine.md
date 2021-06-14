@@ -51,7 +51,17 @@ Chi phí của sản phẩm Google Compute Engine phụ thuộc vào phân bổ 
 [`Accelerator-optimized machines`](https://cloud.google.com/compute/docs/machine-types#accelerator-optimized_machine_type_family) dựa trên GPU NVIDIA Ampere A100 Tensor Core. Mỗi GPU A100 cung cấp hiệu suất tính toán gấp 20 lần so với GPU thế hệ trước. Các máy ảo này được thiết kế cho các khối lượng công việc đòi hỏi khắt khe nhất của bạn như máy học và máy tính hiệu suất cao.
 
 
-## Bắt đầu nhanh bằng Windows Server VM
+## Bắt đầu nhanh với Windows Server VM
+
+[https://cloud.google.com/compute/docs/quickstart-windows](https://cloud.google.com/compute/docs/quickstart-windows)
+
+
+## Bắt đầu nhanh với  Linux VM
+
+[https://cloud.google.com/compute/docs/quickstart-linux](https://cloud.google.com/compute/docs/quickstart-linux)
+
+
+## [Transferring files to Linux VMs](https://cloud.google.com/compute/docs/instances/transfer-files)
 
 
 
