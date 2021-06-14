@@ -94,6 +94,21 @@ Thay thế những điều sau:
 - `LOCAL_FILE_PATH`: đường dẫn đến tệp trên máy trạm của bạn
 - `VM_NAME`: tên máy ảo của bạn
 
+Bạn cũng có thể sao chép các tệp và thư mục từ máy ảo sang máy trạm cục bộ của mình. Ví dụ sau sao chép đệ quy một thư mục từ máy ảo của bạn (nguồn) sang máy trạm cục bộ của bạn (đích).
+
+```bat
+gcloud compute scp --recurse VM_NAME:REMOTE_DIR LOCAL_DIR
+```
+
+
+### Chuyển tệp bằng SCP trên máy trạm Linux và macOS
+
+Công cụ dòng lệnh `scp` hoạt động tương tự như lệnh `gcloud compute scp` nhưng yêu cầu bạn quản lý các khóa `SSH` của mình theo cách [thủ công](https://cloud.google.com/compute/docs/instances/adding-removing-ssh-keys).
+
+Công cụ `scp` sử dụng cùng một tệp chính mà bạn sử dụng để kết nối với các phiên bản của mình bằng SSH tiêu chuẩn.
+
+
+
 
 
 -----
