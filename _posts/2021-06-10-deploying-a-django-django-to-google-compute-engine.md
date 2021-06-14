@@ -86,6 +86,16 @@ Nếu bạn không có quy tắc tường lửa cho phép kết nối SSH trên 
 
 Bạn có thể cần cài đặt các công cụ `gcloud` và sử dụng nó để sao chép tập tin và thư mục để VM của bạn bằng cách sử dụng lệnh `scp`.
 
+Ví dụ sau đây sao chép một tệp từ máy trạm của bạn vào thư mục chính của máy ảo.
+```bat
+gcloud compute scp LOCAL_FILE_PATH VM_NAME:~
+```
+Thay thế những điều sau:
+- `LOCAL_FILE_PATH`: đường dẫn đến tệp trên máy trạm của bạn
+- `VM_NAME`: tên máy ảo của bạn
+
+
+
 -----
 [Deploy Django on Google Compute Engine with Nginx, Gunicorn and Postgresql (Google Cloud SQL)](https://djangocircle.com/deploy-django-on-google-compute-engine-with-nginx-gunicorn-and-postgresql-google-cloud-sql/)  
 [Deploy Django to GCP Compute Engine](https://www.minimalistbeing.com/blog/django-deployment-gcp-compute-engine/)  
