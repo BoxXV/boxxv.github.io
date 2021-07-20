@@ -14,13 +14,13 @@ tags:
 
 Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nhớ và Hardisk.
 
-1. Tạo Google Cloud `Project` từ [Google Cloud Console](https://console.cloud.google.com/cloud-resource-manager).
-2. Tạo tài khoản thanh toán và kích hoạt [thanh toán](https://console.cloud.google.com/billing) cho dự án.
-3. Tạo một phiên bản [Virtual Machine](https://console.cloud.google.com/compute/instances).
-4. Cấu hình máy có tối thiểu Ram 2 GB, 1 CPU và khu vực `asia-northeast1 (Tokyo)`.
+1) Tạo Google Cloud `Project` từ [Google Cloud Console](https://console.cloud.google.com/cloud-resource-manager).
+2) Tạo tài khoản thanh toán và kích hoạt [thanh toán](https://console.cloud.google.com/billing) cho dự án.
+3) Tạo một phiên bản [Virtual Machine](https://console.cloud.google.com/compute/instances).
+4) Cấu hình máy có tối thiểu Ram 2 GB, 1 CPU và khu vực `asia-northeast1 (Tokyo)`.
 ![copmute-engine-configuration-django](https://boxxv.github.io/img/gcp/vm-instances.png "copmute-engine-configuration-django")
 
-5. Cấu hình máy Hệ điều hành Ubuntu và kích thước Ổ cứng và thiết lập cho phép lưu lượng truy cập HTTP và HTTPS:
+5) Cấu hình máy Hệ điều hành Ubuntu và kích thước Ổ cứng và thiết lập cho phép lưu lượng truy cập HTTP và HTTPS:
 ![copmute-engine-configuration-django](https://boxxv.github.io/img/gcp/vm-instances-2.png "copmute-engine-configuration-django")
 
 ## II. Tạo phiên bản Google Cloud SQL.
@@ -28,10 +28,10 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 
 ## III. Kết nối với các phiên bản Linux VM
 
-6. Trong danh sách các virtual machine, Thực hiện đăng nhập ssh bằng cách nhấn vào nút `SSH` trong hàng của instance mà bạn muốn kết nối.
+6) Trong danh sách các virtual machine, Thực hiện đăng nhập ssh bằng cách nhấn vào nút `SSH` trong hàng của instance mà bạn muốn kết nối.
 ![establish-ssh-connection](https://boxxv.github.io/img/gcp/establish-ssh-connection-1.png "establish-ssh-connection")
 
-7. Sau khi kết nối được thiết lập, hãy nhấp vào biểu tượng bánh răng ở phía trên bên phải của SSH từ cửa sổ Trình duyệt và chọn `Upload file`. Ngoài ra, hãy chọn `Download file` để tải tệp xuống từ máy ảo.
+7) Sau khi kết nối được thiết lập, hãy nhấp vào biểu tượng bánh răng ở phía trên bên phải của SSH từ cửa sổ Trình duyệt và chọn `Upload file`. Ngoài ra, hãy chọn `Download file` để tải tệp xuống từ máy ảo.
 ![upload-file-ssh-browser](https://boxxv.github.io/img/gcp/upload-file-ssh-browser.png "upload-file-ssh-browser")
 
 ## IV. Cài đặt môi trường trên Linux VMs
@@ -39,15 +39,16 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 Chúng ta sẽ cài đặt và định cấu hình máy chủ ứng dụng `Gunicorn`. Điều này sẽ đóng vai trò như một giao diện (interface) cho ứng dụng của chúng ta, dịch các yêu cầu của khách hàng từ các cuộc gọi HTTP sang Python mà ứng dụng của chúng ta có thể xử lý. Sau đó, chúng ta sẽ thiết lập `Nginx` trước Gunicorn để tận dụng các cơ chế xử lý kết nối hiệu suất cao và các tính năng bảo mật dễ triển khai của nó.
 ![Request Flow](https://boxxv.github.io/img/gcp/1_rYdZRYct2FKHiGxlJIvORg.png "Request Flow")
 
- 8. Cập nhật `apt` package index
+8) Cập nhật `apt` package index
 {% highlight js %}
 > sudo apt update
 hoặc
 > sudo apt update && sudo apt upgrade
 {% endhighlight %}
 
- 9. Cài đặt `conda`
+9) Cài đặt `conda`
 Tải xuống và cài đặt thủ công Miniconda
+
 ```bat
 wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
 bash Miniconda3-latest-Linux-x86_64.sh
@@ -60,17 +61,19 @@ bash Miniconda3-py39_4.9.2-Linux-x86_64.sh
 [Linux installers](https://docs.conda.io/en/latest/miniconda.html#linux-installers)  
 [Installing on Linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 
-
-
+Note: đóng `SSH from the Browser` sau đó mở lại SSH Browser và kiểm tra xem Conda đã cài đặt thành công hay chưa:
+```bat
+conda list
+```
 
 
 ## Issues
-[Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)
-Các khác phục: Adding ram from 0.5 GB to 2GB RAM also solved my issue
+[Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)  
+Cách khác phục: Adding ram from 0.5 GB to 2GB RAM also solved my issue
 
-[ImportError: libGL.so.1: cannot open shared object file: No such file or directory](https://stackoverflow.com/a/67302144/15518966)
-[ImportError: libGL.so.1: cannot open shared object file: No such file or directory](https://github.com/conda-forge/pygridgen-feedstock/issues/10)
-Các khác phục: sudo apt install libgl1-mesa-glx
+[ImportError: libGL.so.1: cannot open shared object file: No such file or directory](https://stackoverflow.com/a/67302144/15518966)  
+[ImportError: libGL.so.1: cannot open shared object file: No such file or directory](https://github.com/conda-forge/pygridgen-feedstock/issues/10)  
+Cách khác phục: sudo apt install libgl1-mesa-glx
 
 
 
