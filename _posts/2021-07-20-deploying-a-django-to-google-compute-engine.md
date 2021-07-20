@@ -6,7 +6,7 @@ image: "img/projects-bg.jpg"
 tags:
 - Django
 - Python
-- GAE
+- GCE
 - Google Compute Engine
 ---
 
