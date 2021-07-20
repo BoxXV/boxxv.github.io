@@ -58,13 +58,34 @@ hoặc
 wget "https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh"
 bash Miniconda3-py39_4.9.2-Linux-x86_64.sh
 ```
+Tham khảo thêm tại:  
 [Linux installers](https://docs.conda.io/en/latest/miniconda.html#linux-installers)  
 [Installing on Linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 
 Note: đóng `SSH from the Browser` sau đó mở lại SSH Browser và kiểm tra xem Conda đã cài đặt thành công hay chưa:
 ```bat
 conda list
+
+hoặc
+conda --version
+python --version
+python -V
+python -m django --version
 ```
+
+10) Cài đặt các packages cần thiết
+{% highlight js %}
+conda install -c conda-forge django
+conda install -c conda-forge freecad
+conda install -c conda-forge pythonocc-core
+hoặc
+conda install -c conda-forge pythonocc-core=7.5.1
+conda install -c conda-forge pandas
+conda install -c conda-forge gunicorn
+
+conda install -c conda-forge matplotlib
+{% endhighlight %}
+
 
 
 ## Issues
