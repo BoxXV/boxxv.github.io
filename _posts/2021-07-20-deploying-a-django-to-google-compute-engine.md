@@ -23,6 +23,10 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 5. Cấu hình máy Hệ điều hành Ubuntu và kích thước Ổ cứng và thiết lập cho phép lưu lượng truy cập HTTP và HTTPS:
 ![copmute-engine-configuration-django](https://boxxv.github.io/img/gcp/vm-instances-2.png "copmute-engine-configuration-django")
 
+## Tạo phiên bản Google Cloud SQL.
+[https://console.cloud.google.com/sql/instances](https://console.cloud.google.com/sql/instances)
+
+
 
 ## Issues
 [Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)
