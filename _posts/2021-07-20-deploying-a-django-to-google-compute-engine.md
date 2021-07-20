@@ -70,7 +70,6 @@ hoặc
 conda --version
 python --version
 python -V
-python -m django --version
 ```
 
 10) Cài đặt các packages cần thiết
@@ -86,6 +85,15 @@ conda install -c conda-forge gunicorn
 conda install -c conda-forge matplotlib
 {% endhighlight %}
 
+kiểm tra xem các packages cài đặt thành công hay chưa:
+```bat
+conda list
+
+hoặc
+python -m django --version
+which python
+which freecad
+```
 
 
 ## Issues
