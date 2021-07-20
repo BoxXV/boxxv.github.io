@@ -17,8 +17,15 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 1. Tạo Google Cloud `Project` từ [Google Cloud Console](https://console.cloud.google.com/cloud-resource-manager).
 2. Tạo tài khoản thanh toán và kích hoạt [thanh toán](https://console.cloud.google.com/billing) cho dự án.
 3. Tạo một phiên bản [Virtual Machine](https://console.cloud.google.com/compute/instances).
-4. Cấu hình máy có tối thiểu Ram 2 GB và 1 CPU.
+4. Cấu hình máy có tối thiểu Ram 2 GB, 1 CPU và khu vực `asia-northeast1 (Tokyo)`.
 ![copmute-engine-configuration-django](https://boxxv.github.io/img/gcp/vm-instances.png "copmute-engine-configuration-django")
+
+5. Cấu hình máy Hệ điều hành Ubuntu và kích thước Ổ cứng và thiết lập cho phép lưu lượng truy cập HTTP và HTTPS:
+![copmute-engine-configuration-django](https://boxxv.github.io/img/gcp/vm-instances-2.png "copmute-engine-configuration-django")
+
+
+## Issues
+[Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)
 
 -----
 [Deploy Django on Google Compute Engine with Nginx, Gunicorn and Postgresql (Google Cloud SQL)](https://djangocircle.com/deploy-django-on-google-compute-engine-with-nginx-gunicorn-and-postgresql-google-cloud-sql/)  
