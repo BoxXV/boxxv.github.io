@@ -95,6 +95,22 @@ which python
 which freecad
 ```
 
+11) Cài đặt `nginx`
+```bat
+sudo apt install nginx curl
+```
+
+kiểm tra xem nginx cài đặt thành công hay chưa:
+```bat
+nginx -v
+nginx -V
+```
+
+12) Tạo thư mục cho ứng dụng
+```bat
+mkdir ~/mitsumori
+```
+
 
 ## Issues
 [Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)  
