@@ -10,7 +10,7 @@ tags:
 - Google Compute Engine
 ---
 
-## Tạo phiên bản Compute Engine Virtual Machine (VM instances)
+## I. Tạo phiên bản Compute Engine Virtual Machine (VM instances)
 
 Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nhớ và Hardisk.
 
@@ -23,10 +23,10 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 5. Cấu hình máy Hệ điều hành Ubuntu và kích thước Ổ cứng và thiết lập cho phép lưu lượng truy cập HTTP và HTTPS:
 ![copmute-engine-configuration-django](https://boxxv.github.io/img/gcp/vm-instances-2.png "copmute-engine-configuration-django")
 
-## Tạo phiên bản Google Cloud SQL.
+## II. Tạo phiên bản Google Cloud SQL.
 [https://console.cloud.google.com/sql/instances](https://console.cloud.google.com/sql/instances)
 
-## Cài đặt Nginx trên Google Compute Engine
+## III. Cài đặt Nginx trên Google Compute Engine
 
 6. Trong danh sách các virtual machine, Thực hiện đăng nhập ssh bằng cách nhấn vào nút `SSH` trong hàng của instance mà bạn muốn kết nối.
 ![establish-ssh-connection](https://boxxv.github.io/img/gcp/establish-ssh-connection-1.png "establish-ssh-connection")
