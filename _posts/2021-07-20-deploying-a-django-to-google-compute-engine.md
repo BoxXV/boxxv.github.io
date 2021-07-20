@@ -39,6 +39,14 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 Chúng ta sẽ cài đặt và định cấu hình máy chủ ứng dụng `Gunicorn`. Điều này sẽ đóng vai trò như một giao diện (interface) cho ứng dụng của chúng ta, dịch các yêu cầu của khách hàng từ các cuộc gọi HTTP sang Python mà ứng dụng của chúng ta có thể xử lý. Sau đó, chúng ta sẽ thiết lập `Nginx` trước Gunicorn để tận dụng các cơ chế xử lý kết nối hiệu suất cao và các tính năng bảo mật dễ triển khai của nó.
 ![Request Flow](https://boxxv.github.io/img/gcp/1_rYdZRYct2FKHiGxlJIvORg.png "Request Flow")
 
+8. Cập nhật `apt` package index
+{% highlight js %}
+> sudo apt update
+hoặc
+> sudo apt update && sudo apt upgrade
+{% endhighlight %}
+
+
 
 ## Issues
 [Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)
