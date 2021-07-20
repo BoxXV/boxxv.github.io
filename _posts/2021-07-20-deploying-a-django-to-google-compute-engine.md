@@ -47,6 +47,7 @@ hoặc
 {% endhighlight %}
 
 9. Cài đặt `conda`
+Tải xuống và cài đặt thủ công Miniconda
 ```bat
 wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
 bash Miniconda3-latest-Linux-x86_64.sh
@@ -56,7 +57,8 @@ hoặc
 wget "https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh"
 bash Miniconda3-py39_4.9.2-Linux-x86_64.sh
 ```
-[https://docs.conda.io/en/latest/miniconda.html#linux-installers](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
+[Linux installers](https://docs.conda.io/en/latest/miniconda.html#linux-installers)  
+[Installing on Linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 
 
 
