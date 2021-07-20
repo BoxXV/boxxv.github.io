@@ -46,10 +46,32 @@ hoặc
 > sudo apt update && sudo apt upgrade
 {% endhighlight %}
 
+9. Cài đặt `conda`
+```bat
+wget "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh"
+bash Miniconda3-latest-Linux-x86_64.sh
+
+hoặc
+
+wget "https://repo.anaconda.com/miniconda/Miniconda3-py39_4.9.2-Linux-x86_64.sh"
+bash Miniconda3-py39_4.9.2-Linux-x86_64.sh
+```
+[https://docs.conda.io/en/latest/miniconda.html#linux-installers](https://docs.conda.io/en/latest/miniconda.html#linux-installers)
+
+
+
 
 
 ## Issues
 [Collecting package metadata (repodata.json): / Killed](https://github.com/conda/conda/issues/9728)
+Các khác phục: Adding ram from 0.5 GB to 2GB RAM also solved my issue
+
+[ImportError: libGL.so.1: cannot open shared object file: No such file or directory](https://stackoverflow.com/a/67302144/15518966)
+[ImportError: libGL.so.1: cannot open shared object file: No such file or directory](https://github.com/conda-forge/pygridgen-feedstock/issues/10)
+Các khác phục: sudo apt install libgl1-mesa-glx
+
+
+
 
 -----
 [Deploy Django on Google Compute Engine with Nginx, Gunicorn and Postgresql (Google Cloud SQL)](https://djangocircle.com/deploy-django-on-google-compute-engine-with-nginx-gunicorn-and-postgresql-google-cloud-sql/)  
