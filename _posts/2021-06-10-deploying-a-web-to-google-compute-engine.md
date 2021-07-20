@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Triển khai ứng dụng web Python Django trên Google Compute Engine
-subtitle: Deploying with a Python Django web app and Google
+title: Triển khai ứng dụng Web Python trên Google Compute Engine
+subtitle: Deploying with a Python web app and Google Compute Engine
 image: "img/projects-bg.jpg"
 tags:
 - Django
