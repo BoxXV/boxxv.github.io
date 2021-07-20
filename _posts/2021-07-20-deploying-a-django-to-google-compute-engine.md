@@ -26,6 +26,10 @@ Chi phí của Google Compute Engine phụ thuộc vào phân bổ CPU, Bộ nh�
 ## Tạo phiên bản Google Cloud SQL.
 [https://console.cloud.google.com/sql/instances](https://console.cloud.google.com/sql/instances)
 
+## Cài đặt Nginx trên Google Compute Engine
+
+6. Thực hiện đăng nhập ssh bằng cách nhấn vào nút `SSH` như được hiển thị trong ảnh chụp màn hình bên dưới.
+
 
 
 ## Issues
