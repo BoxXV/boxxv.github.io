@@ -254,10 +254,67 @@ Output
 /run/gunicorn.sock: socket
 {% endhighlight %}
 
-Nếu lệnh trạng thái systemctl cho biết rằng đã xảy ra lỗi hoặc nếu bạn không tìm thấy tệp gunicorn.sock trong thư mục, thì đó là dấu hiệu cho thấy không thể tạo đúng ổ cắm Gunicorn.
+Nếu lệnh `systemctl status` cho biết rằng đã xảy ra lỗi hoặc nếu bạn không tìm thấy tệp `gunicorn.sock` trong thư mục, thì đó là dấu hiệu cho thấy không thể tạo đúng ổ cắm Gunicorn. Kiểm tra nhật ký của ổ cắm Gunicorn bằng cách nhập: 
+
+```bat
+sudo journalctl -u gunicorn.socket
+```
+Hãy xem lại tệp `/etc/systemd/system/gunicorn.socket` của bạn để khắc phục bất kỳ sự cố nào trước khi tiếp tục.
 
 
+## Kiểm tra kích hoạt Socket
 
+Hiện tại, nếu bạn chỉ khởi động đơn vị `gunicorn.socket`, thì `gunicorn.service` sẽ chưa hoạt động vì socket chưa nhận được bất kỳ kết nối nào.
+
+```bat
+sudo systemctl status gunicorn
+```
+
+{% highlight js %}
+Output
+● gunicorn.service - gunicorn daemon
+   Loaded: loaded (/etc/systemd/system/gunicorn.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+{% endhighlight %}
+
+
+__19)__ Kiểm tra cơ chế kích hoạt socket, chúng ta có thể gửi kết nối đến ổ cắm thông qua curl
+
+```bat
+curl --unix-socket /run/gunicorn.sock localhost
+```
+
+Bạn sẽ nhận được đầu ra HTML từ ứng dụng của mình trong thiết bị đầu cuối. Điều này cho thấy rằng Gunicorn đã được khởi động và có thể phục vụ ứng dụng Django của bạn.
+
+Bạn có thể xác minh rằng dịch vụ Gunicorn đang chạy bằng cách nhập:
+```bat
+sudo systemctl status gunicorn
+```
+
+{% highlight js %}
+Output
+
+● gunicorn.service - gunicorn daemon
+     Loaded: loaded (/etc/systemd/system/gunicorn.service; disabled; vendor preset: enabled)
+     Active: active (running) since Fri 2020-06-26 18:52:21 UTC; 2s ago
+TriggeredBy: ● gunicorn.socket
+   Main PID: 22914 (gunicorn)
+      Tasks: 4 (limit: 1137)
+     Memory: 89.1M
+     CGroup: /system.slice/gunicorn.service
+             ├─22914 /home/sammy/myprojectdir/myprojectenv/bin/python /home/sammy/myprojectdir/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunico>
+             ├─22927 /home/sammy/myprojectdir/myprojectenv/bin/python /home/sammy/myprojectdir/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunico>
+             ├─22928 /home/sammy/myprojectdir/myprojectenv/bin/python /home/sammy/myprojectdir/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunico>
+             └─22929 /home/sammy/myprojectdir/myprojectenv/bin/python /home/sammy/myprojectdir/myprojectenv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/run/gunico>
+
+Jun 26 18:52:21 django-tutorial systemd[1]: Started gunicorn daemon.
+Jun 26 18:52:21 django-tutorial gunicorn[22914]: [2020-06-26 18:52:21 +0000] [22914] [INFO] Starting gunicorn 20.0.4
+Jun 26 18:52:21 django-tutorial gunicorn[22914]: [2020-06-26 18:52:21 +0000] [22914] [INFO] Listening at: unix:/run/gunicorn.sock (22914)
+Jun 26 18:52:21 django-tutorial gunicorn[22914]: [2020-06-26 18:52:21 +0000] [22914] [INFO] Using worker: sync
+Jun 26 18:52:21 django-tutorial gunicorn[22927]: [2020-06-26 18:52:21 +0000] [22927] [INFO] Booting worker with pid: 22927
+Jun 26 18:52:21 django-tutorial gunicorn[22928]: [2020-06-26 18:52:21 +0000] [22928] [INFO] Booting worker with pid: 22928
+Jun 26 18:52:21 django-tutorial gunicorn[22929]: [2020-06-26 18:52:21 +0000] [22929] [INFO] Booting worker with pid: 22929
+{% endhighlight %}
 
 
 
