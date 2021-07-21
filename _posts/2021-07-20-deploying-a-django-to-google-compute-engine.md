@@ -130,6 +130,7 @@ Tại thư mục gốc của dự án có chứa manage.py và db.sqlite3
 - upload up.zip như ở bước số 7
 - up.zip sẽ nằm ở /home/{username}/up.zip
 - giải nén up.zip với lệnh
+
 ```bat
 # Cài đặt unzip
 sudo apt install unzip
@@ -139,6 +140,8 @@ unzip up.zip -d mitsumori
 # Giải nén với tùy chọn ghi đè tệp
 unzip -o up.zip -d mitsumori
 ```
+
+14) 
 
 
 ## Issues
