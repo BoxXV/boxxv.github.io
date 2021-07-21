@@ -223,7 +223,7 @@ Chúng tôi có thể xác nhận rằng thao tác đã thành công bằng các
 
 ## Kiểm tra tệp Gunicorn Socket
 
-Kiểm tra trạng thái của quá trình để tìm hiểu xem liệu quá trình có thể bắt đầu hay không:
+__17)__ Kiểm tra trạng thái của quá trình để tìm hiểu xem liệu quá trình có thể bắt đầu hay không
 ```bat
 sudo systemctl status gunicorn.socket
 ```
@@ -241,6 +241,22 @@ Output
      Memory: 0B
      CGroup: /system.slice/gunicorn.socket
 {% endhighlight %}
+
+
+__18)__ Kiểm tra sự tồn tại của tệp `gunicorn.sock` trong thư mục `/run`
+
+```bat
+file /run/gunicorn.sock
+```
+
+{% highlight js %}
+Output
+/run/gunicorn.sock: socket
+{% endhighlight %}
+
+Nếu lệnh trạng thái systemctl cho biết rằng đã xảy ra lỗi hoặc nếu bạn không tìm thấy tệp gunicorn.sock trong thư mục, thì đó là dấu hiệu cho thấy không thể tạo đúng ổ cắm Gunicorn.
+
+
 
 
 
