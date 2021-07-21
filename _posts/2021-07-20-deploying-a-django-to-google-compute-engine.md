@@ -212,6 +212,35 @@ Với điều đó, tệp dịch vụ systemd của chúng ta đã hoàn tất. 
 
 
 __16) Khởi động và kích hoạt ổ cắm Gunicorn__
+Thao tác này sẽ tạo tệp socket tại `/run/gunicorn.sock` ngay bây giờ và khi khởi động. Khi kết nối được thực hiện với socket đó, systemd sẽ tự động khởi động gunicorn.service để xử lý nó:
+
+```bat
+sudo systemctl start gunicorn.socket
+sudo systemctl enable gunicorn.socket
+```
+
+Chúng tôi có thể xác nhận rằng thao tác đã thành công bằng cách kiểm tra tệp socket.
+
+## Kiểm tra tệp Gunicorn Socket
+
+Kiểm tra trạng thái của quá trình để tìm hiểu xem liệu quá trình có thể bắt đầu hay không:
+```bat
+sudo systemctl status gunicorn.socket
+```
+
+Bạn sẽ nhận được một đầu ra như thế này: 
+
+{% highlight js %}
+Output
+● gunicorn.socket - gunicorn socket
+     Loaded: loaded (/etc/systemd/system/gunicorn.socket; enabled; vendor prese>
+     Active: active (listening) since Fri 2020-06-26 17:53:10 UTC; 14s ago
+   Triggers: ● gunicorn.service
+     Listen: /run/gunicorn.sock (Stream)
+      Tasks: 0 (limit: 1137)
+     Memory: 0B
+     CGroup: /system.slice/gunicorn.socket
+{% endhighlight %}
 
 
 
