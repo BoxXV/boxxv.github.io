@@ -141,7 +141,15 @@ unzip up.zip -d mitsumori
 unzip -o up.zip -d mitsumori
 ```
 
-14) 
+## Tạo systemd Socket và tệp Service cho Gunicorn
+Tiếp theo chúng ta sẽ triển khai cách khởi động và dừng máy chủ ứng dụng. Gunicorn socket sẽ được tạo khi khởi động và sẽ lắng nghe các kết nối. Khi kết nối xảy ra, systemd sẽ tự động bắt đầu quá trình Gunicorn để xử lý kết nối.
+
+14) Tạo và mở tệp socket systemd cho Gunicorn với các đặc quyền sudo
+```bat
+sudo nano /etc/systemd/system/gunicorn.socket
+```
+
+Bên trong, chúng tôi sẽ tạo phần [Đơn vị] để mô tả ổ cắm, phần [Ổ cắm] để xác định vị trí ổ cắm và phần [Cài đặt] để đảm bảo ổ cắm được tạo vào đúng thời điểm: 
 
 
 ## Issues
