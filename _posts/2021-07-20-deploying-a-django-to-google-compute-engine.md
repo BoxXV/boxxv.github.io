@@ -149,7 +149,18 @@ Tiếp theo chúng ta sẽ triển khai cách khởi động và dừng máy ch�
 sudo nano /etc/systemd/system/gunicorn.socket
 ```
 
-Bên trong, chúng tôi sẽ tạo phần [Đơn vị] để mô tả ổ cắm, phần [Ổ cắm] để xác định vị trí ổ cắm và phần [Cài đặt] để đảm bảo ổ cắm được tạo vào đúng thời điểm: 
+Bên trong, chúng tôi sẽ tạo phần `[Unit]` để mô tả socket, phần `[Socket]` để xác định vị trí socket và phần `[Install]` để đảm bảo socket được tạo vào đúng thời điểm:
+
+{% highlight js %}
+[Unit]
+Description=gunicorn socket
+
+[Socket]
+ListenStream=/run/gunicorn.sock
+
+[Install]
+WantedBy=sockets.target
+{% endhighlight %}
 
 
 ## Issues
