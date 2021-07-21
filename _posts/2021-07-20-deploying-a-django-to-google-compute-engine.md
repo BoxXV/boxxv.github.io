@@ -360,7 +360,36 @@ server {
 }
 {% endhighlight %}
 
+Khi triển khai thật, thay bằng tên trong dự án thực tế:
+- thay `{username}` => `tanvd`
+- thay `myprojectdir` => `mitsumori`
+- thay `server_domain_or_IP` => `123.45.6.78` hoặc `example.com`
 
+Lưu và đóng tệp khi bạn hoàn tất.
+
+
+__21)__ Kích hoạt tệp bằng cách liên kết tệp với thư mục hỗ trợ trang web
+
+```bat
+sudo ln -s /etc/nginx/sites-available/myproject /etc/nginx/sites-enabled
+
+hoặc
+sudo ln -s /etc/nginx/sites-available/mitsumori.conf /etc/nginx/sites-enabled/mitsumori.conf
+```
+
+
+__22)__ Kiểm tra cấu hình Nginx của bạn để tìm lỗi cú
+```bat
+sudo nginx -t
+```
+
+Nếu không có lỗi nào được báo cáo, hãy tiếp tục
+
+
+__23)__ Khởi động lại Nginx
+```bat
+sudo systemctl restart nginx
+```
 
 
 
