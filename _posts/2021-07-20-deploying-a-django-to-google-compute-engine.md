@@ -146,6 +146,8 @@ unzip -o up.zip -d mitsumori
 ## Tạo systemd Socket và tệp Service cho Gunicorn
 Tiếp theo chúng ta sẽ triển khai cách khởi động và dừng máy chủ ứng dụng. Gunicorn socket sẽ được tạo khi khởi động và sẽ lắng nghe các kết nối. Khi kết nối xảy ra, systemd sẽ tự động bắt đầu quá trình Gunicorn để xử lý kết nối.
 
+Tham khảo thêm tại: [creating-systemd-socket-and-service-files-for-gunicorn](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04#creating-systemd-socket-and-service-files-for-gunicorn)
+
 14) Tạo và mở tệp socket systemd cho Gunicorn với các đặc quyền sudo
 ```bat
 sudo nano /etc/systemd/system/gunicorn.socket
@@ -198,10 +200,16 @@ ExecStart=/home/{username}/miniconda3/bin/gunicorn \
           myproject.wsgi:application
 {% endhighlight %}
 
-Khi triển khai thật thay bằng tên trong dự án thực tế:
+Khi triển khai thật, thay bằng tên trong dự án thực tế:
 - thay `{username}` => `tanvd`
 - thay `myprojectdir` => `mitsumori`
 - thay `myproject.wsgi` => `estimate_info.wsgi`
+
+Với điều đó, tệp dịch vụ systemd của chúng ta đã hoàn tất. Lưu và đóng nó ngay bây giờ.
+
+
+16) Khởi động và kích hoạt ổ cắm Gunicorn
+
 
 
 
