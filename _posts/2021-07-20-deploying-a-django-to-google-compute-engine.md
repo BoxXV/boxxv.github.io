@@ -145,7 +145,7 @@ unzip up.zip -d mitsumori
 unzip -o up.zip -d mitsumori
 ```
 
-## Tạo systemd Socket và tệp Service cho Gunicorn
+## V. Tạo systemd Socket và tệp Service cho Gunicorn
 Tiếp theo chúng ta sẽ triển khai cách khởi động và dừng máy chủ ứng dụng. Gunicorn socket sẽ được tạo khi khởi động và sẽ lắng nghe các kết nối. Khi kết nối xảy ra, systemd sẽ tự động bắt đầu quá trình Gunicorn để xử lý kết nối.
 
 Tham khảo thêm tại: [creating-systemd-socket-and-service-files-for-gunicorn](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04#creating-systemd-socket-and-service-files-for-gunicorn)
@@ -221,7 +221,7 @@ sudo systemctl enable gunicorn.socket
 
 Chúng tôi có thể xác nhận rằng thao tác đã thành công bằng cách kiểm tra tệp socket.
 
-## Kiểm tra tệp Gunicorn Socket
+## VI. Kiểm tra tệp Gunicorn Socket
 
 __17)__ Kiểm tra trạng thái của quá trình để tìm hiểu xem liệu quá trình có thể bắt đầu hay không
 ```bat
@@ -262,7 +262,7 @@ sudo journalctl -u gunicorn.socket
 Hãy xem lại tệp `/etc/systemd/system/gunicorn.socket` của bạn để khắc phục bất kỳ sự cố nào trước khi tiếp tục.
 
 
-## Kiểm tra kích hoạt Socket
+## VII. Kiểm tra kích hoạt Socket
 
 Hiện tại, nếu bạn chỉ khởi động đơn vị `gunicorn.socket`, thì `gunicorn.service` sẽ chưa hoạt động vì socket chưa nhận được bất kỳ kết nối nào.
 
@@ -315,6 +315,52 @@ Jun 26 18:52:21 django-tutorial gunicorn[22927]: [2020-06-26 18:52:21 +0000] [22
 Jun 26 18:52:21 django-tutorial gunicorn[22928]: [2020-06-26 18:52:21 +0000] [22928] [INFO] Booting worker with pid: 22928
 Jun 26 18:52:21 django-tutorial gunicorn[22929]: [2020-06-26 18:52:21 +0000] [22929] [INFO] Booting worker with pid: 22929
 {% endhighlight %}
+
+Nếu đầu ra từ `curl` hoặc đầu ra của `systemctl status` cho biết rằng đã xảy ra sự cố, hãy kiểm tra nhật ký để biết thêm chi tiết:
+```bat
+sudo journalctl -u gunicorn
+```
+
+Kiểm tra tệp `/etc/systemd/system/gunicorn.service` của bạn xem có vấn đề gì không. Nếu bạn thực hiện thay đổi đối với tệp `/etc/systemd/system/gunicorn.service`, hãy tải lại daemon để đọc lại định nghĩa dịch vụ và khởi động lại quy trình Gunicorn bằng cách nhập: 
+
+```bat
+sudo systemctl daemon-reload
+sudo systemctl restart gunicorn
+```
+
+Đảm bảo bạn khắc phục sự cố ở trên trước khi tiếp tục.
+
+
+## VIII. Cấu hình Nginx thành Proxy Pass tới Gunicorn
+
+Bây giờ Gunicorn đã được thiết lập, chúng ta cần định cấu hình Nginx để chuyển lưu lượng truy cập vào quy trình.
+
+
+__20)__ Tạo và mở một block máy chủ mới trong thư mục có sẵn trên các trang web của Nginx
+
+```bat
+sudo nano /etc/nginx/sites-available/myproject
+hoặc
+sudo nano /etc/nginx/sites-available/mitsumori.conf
+```
+
+Bên trong, mở một block máy chủ mới. Chúng tôi sẽ bắt đầu bằng cách chỉ định rằng khối này sẽ lắng nghe trên cổng thông thường `80` và nó sẽ phản hồi với tên miền hoặc địa chỉ IP của máy chủ của chúng ta
+
+Tiếp theo, chúng tôi sẽ yêu cầu Nginx bỏ qua bất kỳ vấn đề nào với việc tìm biểu tượng yêu thích. Chúng tôi cũng sẽ cho nó biết nơi tìm các tài sản tĩnh mà chúng tôi đã thu thập trong thư mục `~/myprojectdir/` static của chúng tôi. Tất cả các tệp này đều có tiền tố URI tiêu chuẩn là `“/static”`, vì vậy chúng tôi có thể tạo khối vị trí để khớp với các yêu cầu đó: 
+
+{% highlight js %}
+server {
+    listen 80;
+    server_name {server_domain_or_IP};
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/{username}/myprojectdir;
+    }
+}
+{% endhighlight %}
+
+
 
 
 
