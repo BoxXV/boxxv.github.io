@@ -43,7 +43,7 @@ Chúng ta sẽ cài đặt và định cấu hình máy chủ ứng dụng `Guni
 ![Request Flow](https://boxxv.github.io/img/gcp/1_rYdZRYct2FKHiGxlJIvORg.png "Request Flow")
 
 
-8) Cập nhật `apt` package index
+__8) Cập nhật `apt` package index__
 {% highlight js %}
 > sudo apt update
 hoặc
@@ -51,7 +51,7 @@ hoặc
 {% endhighlight %}
 
 
-9) Cài đặt `conda`
+__9) Cài đặt `conda`__
 Tải xuống và cài đặt thủ công Miniconda
 
 ```bat
@@ -80,7 +80,7 @@ Tham khảo thêm tại:
 [Installing on Linux](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html)
 
 
-10) Cài đặt các packages cần thiết
+__10) Cài đặt các packages cần thiết__
 {% highlight js %}
 conda install -c conda-forge django
 conda install -c conda-forge freecad
@@ -108,7 +108,7 @@ sudo find / -iname FreeCAD.so
 ```
 
 
-11) Cài đặt `nginx`
+__11) Cài đặt `nginx`__
 ```bat
 sudo apt install nginx curl
 ```
@@ -119,14 +119,16 @@ nginx -v
 nginx -V
 ```
 
-12) Tạo thư mục cho ứng dụng web django
+
+__12) Tạo thư mục cho ứng dụng web django__
 ```bat
 mkdir ~/myprojectdir
 hoặc
 mkdir ~/mitsumori
 ```
 
-13) Upload code của dự án vào folder
+
+__13) Upload code của dự án vào folder__
 Tại thư mục gốc của dự án có chứa manage.py và db.sqlite3
 - nén code dự án, chẳng hạn với tên up.zip
 - upload up.zip như ở bước số 7
@@ -148,7 +150,8 @@ Tiếp theo chúng ta sẽ triển khai cách khởi động và dừng máy ch�
 
 Tham khảo thêm tại: [creating-systemd-socket-and-service-files-for-gunicorn](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu-20-04#creating-systemd-socket-and-service-files-for-gunicorn)
 
-14) Tạo và mở tệp socket systemd cho Gunicorn với các đặc quyền sudo
+
+__14) Tạo và mở tệp socket systemd cho Gunicorn với các đặc quyền sudo__
 ```bat
 sudo nano /etc/systemd/system/gunicorn.socket
 ```
@@ -169,7 +172,7 @@ WantedBy=sockets.target
 Lưu và đóng tệp khi bạn hoàn tất.
 
 
-15) Tạo tệp dịch vụ systemd cho Gunicorn
+__15) Tạo tệp dịch vụ systemd cho Gunicorn__
 
 Tên tệp dịch vụ phải khớp với tên tệp socket ngoại trừ phần mở rộng
 
@@ -208,7 +211,7 @@ Khi triển khai thật, thay bằng tên trong dự án thực tế:
 Với điều đó, tệp dịch vụ systemd của chúng ta đã hoàn tất. Lưu và đóng nó ngay bây giờ.
 
 
-**16) Khởi động và kích hoạt ổ cắm Gunicorn**
+__16) Khởi động và kích hoạt ổ cắm Gunicorn__
 
 
 
