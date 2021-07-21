@@ -208,7 +208,7 @@ Khi triển khai thật, thay bằng tên trong dự án thực tế:
 Với điều đó, tệp dịch vụ systemd của chúng ta đã hoàn tất. Lưu và đóng nó ngay bây giờ.
 
 
-16) Khởi động và kích hoạt ổ cắm Gunicorn
+**16) Khởi động và kích hoạt ổ cắm Gunicorn**
 
 
 
