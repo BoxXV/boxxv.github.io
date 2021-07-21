@@ -121,6 +121,8 @@ nginx -V
 
 12) Tạo thư mục cho ứng dụng web django
 ```bat
+mkdir ~/myprojectdir
+hoặc
 mkdir ~/mitsumori
 ```
 
@@ -161,6 +163,46 @@ ListenStream=/run/gunicorn.sock
 [Install]
 WantedBy=sockets.target
 {% endhighlight %}
+
+Lưu và đóng tệp khi bạn hoàn tất.
+
+
+15) Tạo tệp dịch vụ systemd cho Gunicorn
+
+Tên tệp dịch vụ phải khớp với tên tệp socket ngoại trừ phần mở rộng
+
+```bat
+sudo nano /etc/systemd/system/gunicorn.service
+```
+
+Bắt đầu với phần `[Unit]`, được sử dụng để chỉ định siêu dữ liệu và phần phụ thuộc. Chúng tôi sẽ đặt mô tả về dịch vụ của mình ở đây và yêu cầu hệ thống init chỉ bắt đầu việc này sau khi đã đạt được mục tiêu mạng. Vì dịch vụ của chúng tôi dựa vào socket từ tệp socket, chúng tôi cần bao gồm chỉ thị `Requires ` để chỉ ra mối quan hệ đó
+
+Tiếp theo, chúng tôi sẽ mở phần `[Service]`. Chúng tôi sẽ chỉ định người dùng và nhóm mà chúng tôi muốn xử lý để điều hành. Chúng tôi sẽ cấp cho tài khoản người dùng thông thường quyền sở hữu quy trình vì nó sở hữu tất cả các tệp có liên quan. Chúng tôi sẽ cấp quyền sở hữu nhóm cho nhóm `www-data` để Nginx có thể giao tiếp dễ dàng với Gunicorn.
+
+Sau đó, chúng tôi sẽ vạch ra thư mục làm việc và chỉ định lệnh sử dụng để bắt đầu dịch vụ. Trong trường hợp này, chúng tôi sẽ phải chỉ định đường dẫn đầy đủ đến tệp thi hành Gunicorn, tệp này được cài đặt trong môi trường ảo của chúng tôi. Chúng tôi sẽ liên kết quy trình với ổ cắm Unix mà chúng tôi đã tạo trong thư mục `/run` để quy trình có thể giao tiếp với Nginx. Chúng tôi ghi lại tất cả dữ liệu vào đầu ra tiêu chuẩn để quá trình `journald` có thể thu thập nhật ký Gunicorn. Chúng tôi cũng có thể chỉ định bất kỳ chỉnh sửa Gunicorn tùy chọn nào tại đây. Ví dụ: chúng tôi đã chỉ định 3 quy trình công nhân trong trường hợp này: 
+
+{% highlight js %}
+[Unit]
+Description=gunicorn daemon
+Requires=gunicorn.socket
+After=network.target
+
+[Service]
+User={username}
+Group=www-data
+WorkingDirectory=/home/{username}/myprojectdir
+ExecStart=/home/{username}/miniconda3/bin/gunicorn \
+          --access-logfile - \
+          --workers 3 \
+          --bind unix:/run/gunicorn.sock \
+          myproject.wsgi:application
+{% endhighlight %}
+
+Khi triển khai thật thay bằng tên trong dự án thực tế:
+- thay `{username}` => `tanvd`
+- thay `myprojectdir` => `mitsumori`
+- thay `myproject.wsgi` => `estimate_info.wsgi`
+
 
 
 ## Issues
