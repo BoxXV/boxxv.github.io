@@ -101,6 +101,10 @@ hoặc
 python -m django --version
 which python
 which freecad
+hoặc
+where python
+where freecad
+sudo find / -iname FreeCAD.so
 ```
 
 
@@ -115,9 +119,25 @@ nginx -v
 nginx -V
 ```
 
-12) Tạo thư mục cho ứng dụng
+12) Tạo thư mục cho ứng dụng web django
 ```bat
 mkdir ~/mitsumori
+```
+
+13) Upload code của dự án vào folder
+Tại thư mục gốc của dự án có chứa manage.py và db.sqlite3
+- nén code dự án, chẳng hạn với tên up.zip
+- upload up.zip như ở bước số 7
+- up.zip sẽ nằm ở /home/{username}/up.zip
+- giải nén up.zip với lệnh
+```bat
+# Cài đặt unzip
+sudo apt install unzip
+
+unzip up.zip -d mitsumori
+
+# Giải nén với tùy chọn ghi đè tệp
+unzip -o up.zip -d mitsumori
 ```
 
 
