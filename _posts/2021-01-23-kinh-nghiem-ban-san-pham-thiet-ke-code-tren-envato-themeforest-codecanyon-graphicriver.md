@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Kinh nghiệm bán sản phẩm thiết kế, code trên Envato (Themeforest, Codecanyon, Graphicriver,...)
-subtitle: Chứng khoán Việt Nam 101
+title: Kinh nghiệm bán sản phẩm thiết kế, code trên Envato
+subtitle: ThemeForest, CodeCanyon, GraphiCriver, AudioJungle, PhotoDune, 3DOcean...
 image: "img/projects-bg.jpg"
 tags:
 - Envato
