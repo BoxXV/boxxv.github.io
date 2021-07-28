@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kiếm tiền trên Envato, codecanyon như thế nào?
+title: Kiếm tiền trên Codecanyon như thế nào?
 image: "img/projects-bg.jpg"
 tags:
 - Envato
@@ -191,5 +191,6 @@ Nếu bạn cần tư vấn chi tiết hơn, vui lòng liên hệ với chúng t
 
 -----
 
-[Kinh nghiệm bán theme trên themeforest và envato](https://mona.media/kinh-nghiem-ban-theme-tren-themeforest-va-envato/)
+[Codecanyon là gì? Kiếm tiền trên Envato, codecanyon như thế nào?](https://wiki.tino.org/codecanyon-la-gi/)
+[Hướng dẫn kiếm tiền tại envato](https://hoc5.blogspot.com/2017/02/huong-dan-kiem-tien-tai-envato.html)
 
