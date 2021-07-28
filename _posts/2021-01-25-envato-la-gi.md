@@ -171,23 +171,90 @@ Không như các tác giả themes, ở danh muc plugins, hầu hết các nhà 
 
 Một số plugins nổi bật là:
 
+#### Bộ WooCommerce Extensions của dzehiro
+
+dzehiro đã bán được gần 10.000 sales trên CodeCanyon với các plugins (extensions) mở rộng tính năng của shop bán hàng WooCommerce. Trong đó có những cái tên Bestselling quen thuộc với người dùng WooCommerce chuyên nghiệp Product Filter for WooCommerce hay Improve Product Options for WooCommerce…
+
+Thật tuyệt khi dzehiro mang tất cả các plugins của mình từ CodeCanyon lên Envato Elments để chúng ta có thể dùng trên unlimited sites hoàn toàn hợp lệ.
+
+#### Bộ Plugins của looks_awesome
+
+3 cái tên thường xuyên nằm trong danh sách Bestseller mỗi tuần trên CodeCanyon là Flow-Flow, Supperfly và Ninja-Kick đều được đưa lên Envato Elements.
+
+#### Bộ Plugins của WebFactory
+
+WebFactory cung cấp 9 plugins khủng, nổi bật có OptIn Ninja (1170+ sales) và các extension của nó. Còn có 5sec Google Maps Pro (1050+ sales) và addons.
+
+#### Bộ Plugins của loopus
+
+Loopus là Power Elite Author với gần 15.000 sales, họ mang lên Envato Elements 6 plugins, trong đó nổi bật là WP Flat Visual Chat (1160+ sales) và WP Flat Tour Builder (700+ sales).
+
+#### Bộ Plugins của CurlyThemes
+
+CurlyThemes mang đến 2 plugins khá quen thuộc Simple Weather Plugins ( 1300+ sales) và Before & After Camparison WP.
+
+#### Bộ Plugins của Ad-Theme
+
+Ad-Theme cũng cung cấp tất cả các plugins họ có trên CodeCanyon như Fast Gallery & Fast Gallery for Visual Composer, AD Gallery, Visual Composer Mega Pack hay Parallax OnePage Builder for WP.
+
+#### WooCommerce Custom Fields & Dynamic Pricing & Discounts của RightPress
+
+RightPress (hơn 40.000 sales trên CodeCanyon) chỉ cung cấp cho Envato Elements 2 plugins nhưng đều là plugins đỉnh.
+
+WooCommerce Dynamic Pricing & Discount đã có hơn 13.000 sales dù giá lên tới $49 cho một single licenses. Một plugins không thể thiếu cho shop bán hàng chuyên nghiệp.
+
+Còn WooCommerce Custom Fields cũng đã có gần 3.000 sales.
+
+#### Bộ Plugins của PressApps
+
+Như giới thiệu ở phần Themes phía trên. PressApps đưa lên plugin Bestselling là Knowledge Base (3.200+ sales) và Custom Login & Access (1.700+ sales) cùng Modal Login Register Forgotten (1.500+ sales).
+
+#### Bộ Plugins của LCWeb
+
+LCWeb đã có hơn 35.000 sales, họ mang lên Envato Elements tất cả các plugins bán chạy nhất của mình gồm Media Grid (11.200+ sales) và PrivateContent (9.200+ sales) và Global Gallery (4.200+ sales)! Ngoài ra còn có các addons đắt giá của Private Content.
+
+Nếu bạn cần tạo Membership Websites thì bộ plugins của LCWeb là công cụ quá tuyệt vời!
+
+#### Bộ Plugins của e-plugins
+
+Nhà phát triển e-plugins cung cấp 3 plugins tốt nhất của họ là WP Memberhip (800+ sales), Directory Pro và Real Escate Pro.
+
+#### Image Map Pro của nickys
+
+Image Map Pro là plugins số 1 để tạo bản đồ hình ảnh và đồ họa tương tác. Với hơn 7000 sales trên CodeCanyon.
+
+#### Super Form & Addons của felling4design
+
+Super Form là Form Builder hỗ trợ kéo thả rất được ưa chuộng. Các addons phổ biến của nó cũng được đưa lên Envato Elements.
+
+#### Bộ Addons của NEX-Forms (Basix)
+
+Basix cung cấp 8 Addons tốt nhất của plugins nổi tiếng NEX-Forms (hơn 6.000 sales).
+
+#### Bộ Plugins của wpweb
+
+WPWeb có 3 plugins bán chạy nhất là WooCommerce PDF Voucher (2.600+ sales), WooCommerce Social Login (1.600+ sales) và Social Network Auto Poster (1.300+ sales).
+
+#### Pinterest Automatic Pin của ValvePress
+
+ValvePress là tác giả của các plugins khủng WP Automatic ( gần 10.000 sales) và WP Auto Spinner (4.300 + sales).
+
+Tuy nhiên, họ chỉ cung cấp 3 plugins, nổi bật nhất là Pinterest Automatic Pin với gần 4.000 sales trên CodeCanyon.
+
+#### Pro Event Calendar của DPereya
+
+Chẳng cần giới thiệu nhiều, Pro Event Calendar đã quá nổi tiếng (gần 6.000 sales). Ngoài ra DPereya còn cung cấp thêm 2 plugins chất lượng khác là WP Social Timeline và WP Article Social Share.
 
 
+### Plugins Envato Elements
 
-## Chứng thực bản quyền của Theme
+Envato năm 2019 đã ra mắt một plugin mới cực HOT – cùng tên với dịch vụ Envato Elements.
 
-Dù sản phẩm của bạn có chất lượng đến cỡ nào, ý tưởng độc đáo ra làm sao, nếu chúng không được đảm bảo và chứng thực cũng sẽ bị liệt vào nhóm các sản phẩm kém chất lượng trên ThemeForest.
+Hiện plugins này đã có gần 100.000 lượt tải và đánh giá 5 sao tuyệt đối.
 
-Hãy tạo một bộ chứng thực hoàn chỉnh và chèn chúng vào tập tin cài đặt của Theme. Khi ấy ThemeForest sẽ xem xét và “pass’ qua sản phẩm của bạn.
+- Với plugins cùng tên Envato Elements – bạn có thể import miễn phí hàng nghìn templates, modules của các Page Builder Elementor, Beaver Builder…
+- Đặc biệt, nếu có tài khoản Suscription Envato Elements, bạn có thể import trực tiếp kho ảnh hơn 500.000 stock photos chất lượng cao từ Envato Elements (nguồn từ GraphicRiver)!
 
-
-## Chuẩn bị tinh thần bị từ chối
-
-Vẫn có thể xảy ra một vài sự cố không mong muốn dẫn đến sản phẩm bị từ chối. Lập trình viên cần có sự chuẩn bị trước để có giải pháp ứng phó từ chối kịp thời. Sự từ chối của ThemeForest có hai trường hợp hoặc là gạt phăng bạn (tác giả) ra khỏi danh sách xuất bản và bắt buộc tác giả phải làm mới sản phẩm lại từ đầu hoặc nhẹ hơn, họ sẽ báo lỗi cụ thể để tác giả điều chỉnh thỏa đáng.
-
-Tuy nhiên, nếu bạn làm theo 8 bước mà tôi đã hướng dẫn và đảm bảo chất lượng sản phẩm của bạn là độc nhất, 80% sản phẩm sẽ được chấp nhận trên ThemeForest.
-
-Nếu bạn cần tư vấn chi tiết hơn, vui lòng liên hệ với chúng tôi, Mona Media – Công ty thiết kế website chuyên nghiệp rất vui được hỗ trợ bạn.
 
 -----
 
