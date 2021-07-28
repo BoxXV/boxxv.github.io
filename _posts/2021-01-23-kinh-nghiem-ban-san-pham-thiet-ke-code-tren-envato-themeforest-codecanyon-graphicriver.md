@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kinh nghiệm bán sản phẩm thiết kế, code trên Envato
-subtitle: ThemeForest, CodeCanyon, GraphiCriver, AudioJungle, PhotoDune, 3DOcean...
+subtitle: ThemeForest, CodeCanyon, GraphiCriver, AudioJungle, PhotoDune, 3DOcean, VideoHive, Elements
 image: "img/projects-bg.jpg"
 tags:
 - Envato
