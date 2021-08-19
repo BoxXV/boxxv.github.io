@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tạo một thư viện JavaScript hiện đại
-subtitle: Creating a modern JS library
+title: Tạo thư viện JavaScript hiện đại
+subtitle: Tạo gói npm sẵn sàng phân phối từ đầu
 tags:
 - Tips
 - Tricks
