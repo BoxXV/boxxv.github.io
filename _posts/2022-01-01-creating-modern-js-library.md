@@ -100,6 +100,45 @@ Nếu bạn không muốn điền phần còn lại của các trường ngay b�
 
 #### 3. Thêm mã vào dự án JavaScript của bạn và thiết lập API công khai
 
+Thông thường, bạn có một số mã mà bạn đã sao chép-dán giữa các dự án khác nhau và bạn đang chuyển nó sang mô-đun npm để sử dụng lại trong tương lai.
+
+Nếu đúng như vậy, bây giờ đã đến lúc thêm mã này vào dự án npm. Tiếp theo, bạn sẽ cần nghĩ về API mà bạn sẽ tiếp xúc với thế giới.
+
+Xác định `API` công khai của bạn với `module.exports`
+
+Cách mà bạn cho npm biết thư viện của bạn đang hiển thị những gì bằng cách sử dụng `module.exports`, một đối tượng phải có mặt trong điểm nhập của thư viện của bạn (thường là `index.js` ).
+
+Bạn có thể chỉ định bất cứ điều gì bạn muốn trong `module.exports`. Nó có thể là một số, một hàm, một lớp… Hãy tưởng tượng bạn đang xây dựng mô-đun từ _bugfender-coffee-machine_ mẫu trước đó . Khi người dùng nhập:
+
+{% highlight js %}
+const coffeMachine = require('bugfender-coffee-machine');
+{% endhighlight %}
+
+Sau đó, mã của bạn sẽ chuyển đến index.js và sẽ xác định giá trị của mô-đun. Ví dụ: nếu bên trong index.js của bạn, bạn đặt:
+
+{% highlight js %}
+module.exports = 42;
+{% endhighlight %}
+
+Khi đó _coffeMachine_ sẽ là một số có giá trị 42.
+
+Một cách tiếp cận thực tế hơn sẽ là đặt giá trị này thành một thể hiện của một lớp:
+
+{% highlight js %}
+// index.js
+module.exports = BugfenderCoffeeMachine; 
+
+// In your app
+const CoffeeMachine = require('bugfender-coffee-machine');
+const coffeeMachine = new CoffeeMachine();
+{% endhighlight %}
+
+
+
+
+
+
+
 
 -----
 Tham khảo:
