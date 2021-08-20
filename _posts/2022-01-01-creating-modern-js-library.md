@@ -60,12 +60,26 @@ Sau đó, vào lần tiếp theo bạn cần sử dụng các tính năng đó, 
 
 Khi bạn đã viết mô-đun nút của mình, một trong những cách dễ nhất và nhanh nhất để đưa chúng vào các dự án của bạn là sử dụng npm.
 
-Đó chính xác là những gì chúng tôi nghĩ khi giới thiệu trình ghi nhật ký từ xa [BugfenderJS](https://bugfender.com/platforms/javascript/) . SDK của chúng tôi có thể được đưa vào theo cách thủ công, nhưng hầu hết người dùng của chúng tôi chỉ cần cài đặt nó bằng npm:
+Đó chính xác là những gì chúng tôi nghĩ khi giới thiệu trình ghi nhật ký từ xa [BugfenderJS](https://bugfender.com/platforms/javascript/). SDK của chúng tôi có thể được đưa vào theo cách thủ công, nhưng hầu hết người dùng của chúng tôi chỉ cần cài đặt nó bằng npm:
 
 ```bat
 npm install @bugfender/sdk
 ```
 
+
+### Tạo gói npm của riêng bạn
+
+#### 1. Tạo một kho lưu trữ Git mới
+
+Nếu bạn đã tạo một số mã, bạn có thể bỏ qua phần này. Tuy nhiên, nếu bạn đang bắt đầu lại từ đầu, đã đến lúc phải thực hiện. Sau đó, bạn có thể truy cập GitHub và tạo một git repo mới.
+
+#### 2. Tạo tệp package của bạn
+
+Bây giờ, hãy mở terminal và điều hướng đến dự án của bạn
+
+```bat
+npm install @bugfender/sdk
+```
 
 
 
