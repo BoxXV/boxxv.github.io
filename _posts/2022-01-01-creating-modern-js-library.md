@@ -78,8 +78,21 @@ Nếu bạn đã tạo một số mã, bạn có thể bỏ qua phần này. Tuy
 Bây giờ, hãy mở terminal và điều hướng đến dự án của bạn
 
 ```bat
-npm install @bugfender/sdk
+cd folder/to/your project
 ```
+
+Và gõ
+
+```bat
+npm init
+```
+
+Công cụ này sẽ giúp bạn tạo mới `package.json` yêu cầu bạn cung cấp dữ liệu cơ bản cần thiết. Một số mẹo nhanh:
+
+- Package name: hãy nhớ sử dụng kebab-case vì đây là quy ước trong cộng đồng npm.
+- Version: bạn sẽ được khuyên nên bắt đầu dự án của mình trong phiên bản 1.0.0, tuy nhiên nếu bạn chỉ mới bắt đầu dự án của mình, bạn có thể nên bắt đầu với một cái gì đó giống như 0.0.1 và chuyển sang 1.0.0 khi mã đã được kiểm tra thêm. Ngoài ra, các nhà phát triển khác sử dụng thư viện của bạn sẽ đánh giá cao việc lập phiên bản của bạn phản ánh trạng thái mã của bạn.
+- Description: đi thẳng vào vấn đề và dễ hiểu.
+- Entry point: đây là tệp nhập cho thư viện của bạn. Đây là tệp mà các nhà phát triển khác sử dụng thư viện của bạn sẽ phải viết khi đưa nó vào cùng `reguire('your-package')`. Nếu bạn chỉ sử dụng một tệp, `index.js` là đủ. Tuy nhiên, nếu dự án của bạn sắp có nhiều tệp hơn, tốt hơn hết là bạn nên sử dụng `src/index.js`.
 
 
 
