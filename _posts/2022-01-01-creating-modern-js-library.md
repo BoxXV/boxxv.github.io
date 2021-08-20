@@ -39,10 +39,17 @@ Nếu ai đó muốn thêm thư viện của bạn vào dự án của họ, th�
 npm install <your-library-package-name>
 ```
 
+Thật kỳ diệu, tất cả các phụ thuộc của cây sẽ được tải xuống và cài đặt. Hệ thống này thật tuyệt vời vì trong thực tế, bạn không cần quan tâm đến các phụ thuộc.
 
+#### Có bất kỳ mặt trái nào của việc sử dụng trình quản lý gói không?
 
+Nguyên nhân chính là các nhà phát triển mất quyền kiểm soát mã nào họ đang đưa vào các dự án của họ. Mối quan tâm về bảo mật đã xuất hiện trong quá khứ và các hệ thống quan trọng đòi hỏi một cây phụ thuộc được kiểm soát chặt chẽ và nghiêm ngặt.
 
+Lấy ví dụ sau: một dự án mới được tạo trong React Native có hơn 1500 phụ thuộc. Không chắc có nhiều hơn một vài người biết tất cả. Nếu ai đó giới thiệu một số mã độc hại - hoặc chỉ là một lỗi - thì rất nhiều nhà phát triển có thể sẽ áp dụng mã này mà không hề hay biết.
 
+Đừng lo lắng. Đây là một điều rất hiếm khi xảy ra. Tuy nhiên [nó đã xảy ra](https://www.zdnet.com/article/microsoft-spots-malicious-npm-package-stealing-data-from-unix-systems/) một vài lần.
+
+Một ví dụ khác là [tranh chấp vào năm 2019 giữa một nhà phát triển mã nguồn mở và một công ty Mỹ](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/) đã gần như phá vỡ mạng internet của thế giới. Một câu chuyện ngắn, nhà phát triển quyết định xóa một thư viện khá tầm thường nhưng vẫn thường được sử dụng khỏi npm và đột nhiên cây phụ thuộc của hàng nghìn dự án trên khắp thế giới bị phá vỡ.
 
 
 
