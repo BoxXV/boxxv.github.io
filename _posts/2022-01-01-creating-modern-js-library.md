@@ -139,7 +139,7 @@ const coffeeMachine = new CoffeeMachine();
 coffeeMachine.prepareCoffee()
 {% endhighlight %}
 
-Thêm tệp README.md
+##### Thêm tệp README.md
 
 Bước đơn giản nhất và nhỏ nhất cũng là một trong những bước quan trọng nhất. Có một tệp `Readme` tốt đảm bảo rằng những người khác sẽ có thể hiểu được nội dung của thư viện của bạn - và cách sử dụng nó.
 
@@ -147,12 +147,93 @@ Bạn không cần phải quá sáng tạo về nó, chỉ cần sử dụng m�
 
 Người dùng thư viện npm của bạn sẽ đánh giá cao việc bạn đã tiết kiệm thời gian cho họ. Ngay cả một phiên bản trong tương lai của bạn cũng sẽ rất vui khi có tài liệu rõ ràng!
 
-Commit
+##### Commit
 
 Bây giờ thư viện của bạn đã sẵn sàng và bạn có thể tiếp tục với commit đầu tiên của mình.
 
 Tương tự như tệp Readme, đã có rất nhiều tài liệu về [cách viết các commit git có ý nghĩa](https://chris.beams.io/posts/git-commit/).
 
+
+#### 4. Xuất bản trên npm
+
+Đăng ký đến npm
+
+Nếu bạn chưa có tài khoản npm, đã đến lúc [đăng ký](https://www.npmjs.com/signup).
+
+npm là một công cụ dòng lệnh. Mở bảng điều khiển và viết:
+
+{% highlight js %}
+npm login # you will be prompted your mail and password
+{% endhighlight %}
+
+Bạn có thể kiểm tra xem bạn đã đăng nhập chính xác với
+
+{% highlight js %}
+npm whoami
+{% endhighlight %}
+
+Mẹo: trước khi xuất bản gói npm mới, hãy đảm bảo rằng bạn đã đăng nhập với người dùng thích hợp. Điều này đặc biệt quan trọng nếu bạn sử dụng cùng một máy cho công việc và các dự án phụ.
+
+##### Kiểm tra Framework của bạn
+
+Chúng tôi gần như đã sẵn sàng để xuất bản. Nhưng ngay trước khi thực hiện, chúng tôi có thể chạy thử nghiệm cục bộ nhanh.
+
+Đầu tiên, điều hướng đến đường dẫn tệp thư viện của bạn, cùng đường dẫn mà bạn đã đặt `package.json` và sử dụng lệnh `npm link`.
+
+{% highlight js %}
+cd ./route-to-your-library/
+npm link # This adds the project to your local npm registry
+{% endhighlight %}
+
+Bây giờ, hãy tạo một dự án JavaScript mới trong hệ thống của bạn và sử dụng lại `npm link`, nhưng chỉ định tên của gói - giống như tên mà bạn đã chỉ định trong bước `npm init`.
+
+{% highlight js %}
+cd ./route-to-a-new-javascript-project/
+npm link [name-of-the-package] # This installs the library in the project
+{% endhighlight %}
+
+Bạn có thể sử dụng quy trình này trong tương lai khi định cập nhật thư viện của mình để không cần xuất bản mỗi khi muốn thử nghiệm các thay đổi mới.
+
+##### Công bố
+
+Bây giờ bạn đã tạo thư viện và bạn đã thử nghiệm nó cục bộ, đã đến lúc chia sẻ nó với mọi người.
+
+{% highlight js %}
+cd ./route-to-your-library/
+npm publish
+{% endhighlight %}
+
+npm sẽ bắt đầu làm việc để xuất bản thư viện của bạn lên kho lưu trữ chính thức.
+
+Khi nó hoàn tất, thư viện sẽ có sẵn trong https://www.npmjs.com và mọi người dùng trên thế giới đều có thể cài đặt nó bằng cách sử dụng `npm install <package-name>`.
+
+
+#### 5. Cập nhật thư viện của bạn
+
+Chúng ta sẽ đến phần cuối của bài viết, nhưng nó mới chỉ là phần mở đầu của thư viện của bạn.
+
+Nếu bạn bắt đầu sử dụng nó và những người dùng khác chấp nhận nó, bạn cũng sẽ cần phải duy trì nó. Đôi khi, bạn sẽ phải giới thiệu các tính năng mới hoặc cập nhật mã không dùng nữa. Bất cứ khi nào bạn làm điều đó, hãy nhớ sử dụng [Phiên bản ngữ nghĩa](https://semver.org) (major.minor.patch).
+
+npm giúp giảm bớt quá trình duy trì mã của bạn bằng các công cụ lập phiên bản npm:
+
+{% highlight js %}
+npm version patch # From 0.0.1 to 0.0.2
+npm version minor # From 0.1.0 to 0.2.0
+npm version major # From 1.0.0 to 2.0.0
+{% endhighlight %}
+
+Hãy lưu ý rằng `npm version` cập nhật `package.json`, tạo commit và thêm TAG vào git.
+
+
+### Một điều cuối cùng
+
+Tại Bugfender, chúng tôi là nhà phát triển phần mềm và chúng tôi biết những hướng dẫn này có giá trị như thế nào. Nếu bạn thấy bài đăng này hữu ích, bạn có thể giúp chúng tôi đổi lại bằng cách chia sẻ nó với đồng nghiệp của bạn.
+
+Bugfender là trình ghi nhật ký bảng điều khiển từ xa được tạo cho các nhà phát triển, bởi các nhà phát triển. SDK Javascript mới giúp bạn tìm ra lỗi nhanh hơn và cung cấp hỗ trợ khách hàng tốt hơn cho khách hàng của bạn.
+
+Bạn có thể [đăng ký miễn phí](https://dashboard.bugfender.com/signup) trong vòng chưa đầy 20 giây và thêm SDK vào trang web của mình trong 10 giây nữa bằng cách sử dụng npm install @bugfender/sdk(không tệ trong nửa phút ;-).
+
+Chúng tôi xuất bản các hướng dẫn và các câu chuyện gỡ lỗi thường xuyên trên blog của chúng tôi. Đừng quên ghé thăm chúng tôi theo thời gian hoặc tốt hơn nữa là đăng ký nhận bản tin không spam hàng quý của chúng tôi để có được cái nhìn tổng quan về các bài viết mới.
 
 
 -----
