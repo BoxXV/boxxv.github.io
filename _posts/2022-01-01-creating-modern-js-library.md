@@ -231,7 +231,7 @@ Tại Bugfender, chúng tôi là nhà phát triển phần mềm và chúng tôi
 
 Bugfender là trình ghi nhật ký bảng điều khiển từ xa được tạo cho các nhà phát triển, bởi các nhà phát triển. SDK Javascript mới giúp bạn tìm ra lỗi nhanh hơn và cung cấp hỗ trợ khách hàng tốt hơn cho khách hàng của bạn.
 
-Bạn có thể [đăng ký miễn phí](https://dashboard.bugfender.com/signup) trong vòng chưa đầy 20 giây và thêm SDK vào trang web của mình trong 10 giây nữa bằng cách sử dụng npm install @bugfender/sdk(không tệ trong nửa phút ;-).
+Bạn có thể [đăng ký miễn phí](https://dashboard.bugfender.com/signup) trong vòng chưa đầy 20 giây và thêm SDK vào trang web của mình trong 10 giây nữa bằng cách sử dụng `npm install @bugfender/sdk` (không tệ trong nửa phút ;-).
 
 Chúng tôi xuất bản các hướng dẫn và các câu chuyện gỡ lỗi thường xuyên trên blog của chúng tôi. Đừng quên ghé thăm chúng tôi theo thời gian hoặc tốt hơn nữa là đăng ký nhận bản tin không spam hàng quý của chúng tôi để có được cái nhìn tổng quan về các bài viết mới.
 
