@@ -52,14 +52,19 @@ Lấy ví dụ sau: một dự án mới được tạo trong React Native có h
 Một ví dụ khác là [tranh chấp vào năm 2019 giữa một nhà phát triển mã nguồn mở và một công ty Mỹ](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/) đã gần như phá vỡ mạng internet của thế giới. Một câu chuyện ngắn, nhà phát triển quyết định xóa một thư viện khá tầm thường nhưng vẫn thường được sử dụng khỏi npm và đột nhiên cây phụ thuộc của hàng nghìn dự án trên khắp thế giới bị phá vỡ.
 
 
+### Tại sao bạn nên tạo thư viện gói npm của riêng mình?
 
+Cách nhanh nhất và an toàn nhất để viết mã là _không_ viết nó. Nếu bạn thường cần sao chép-dán một số tính năng giữa các dự án khác nhau, bạn có thể muốn tạo một thư viện JavaScript mới và viết các tính năng đó chỉ một lần.
 
+Sau đó, vào lần tiếp theo bạn cần sử dụng các tính năng đó, bạn không cần sao chép-dán hoặc viết lại chúng - bạn chỉ cần sử dụng lại thư viện của mình. Hơn nữa, nếu bạn tìm thấy một lỗi, bạn có thể giải quyết nó một lần và phân phối bản sửa lỗi cho các dự án còn lại của bạn.
 
+Khi bạn đã viết mô-đun nút của mình, một trong những cách dễ nhất và nhanh nhất để đưa chúng vào các dự án của bạn là sử dụng npm.
 
+Đó chính xác là những gì chúng tôi nghĩ khi giới thiệu trình ghi nhật ký từ xa [BugfenderJS](https://bugfender.com/platforms/javascript/) . SDK của chúng tôi có thể được đưa vào theo cách thủ công, nhưng hầu hết người dùng của chúng tôi chỉ cần cài đặt nó bằng npm:
 
-
-
-
+```bat
+npm install @bugfender/sdk
+```
 
 
 
