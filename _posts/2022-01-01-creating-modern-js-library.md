@@ -133,7 +133,13 @@ const CoffeeMachine = require('bugfender-coffee-machine');
 const coffeeMachine = new CoffeeMachine();
 {% endhighlight %}
 
+`coffeeMachine` hiện là một phiên bản của `BugfenderCoffeeMachine` và bây giờ bạn có thể làm:
 
+{% highlight js %}
+coffeeMachine.prepareCoffee()
+{% endhighlight %}
+
+Thêm tệp README.md
 
 
 
