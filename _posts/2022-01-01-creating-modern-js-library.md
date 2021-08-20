@@ -94,7 +94,11 @@ Công cụ này sẽ giúp bạn tạo mới `package.json` yêu cầu bạn cun
 - Description: đi thẳng vào vấn đề và dễ hiểu.
 - Entry point: đây là tệp nhập cho thư viện của bạn. Đây là tệp mà các nhà phát triển khác sử dụng thư viện của bạn sẽ phải viết khi đưa nó vào cùng `reguire('your-package')`. Nếu bạn chỉ sử dụng một tệp, `index.js` là đủ. Tuy nhiên, nếu dự án của bạn sắp có nhiều tệp hơn, tốt hơn hết là bạn nên sử dụng `src/index.js`.
 
+Nếu bạn không muốn điền phần còn lại của các trường ngay bây giờ, bạn có thể bỏ qua chúng và quay lại sau để thêm chúng vào tệp package.json .
 
+![npm](https://boxxv.github.io/img/posts/npm-package-creation-console-1.png "Node Package Manager")
+
+#### 3. Thêm mã vào dự án JavaScript của bạn và thiết lập API công khai
 
 
 -----
