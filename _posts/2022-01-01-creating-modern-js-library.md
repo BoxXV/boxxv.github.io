@@ -141,8 +141,17 @@ coffeeMachine.prepareCoffee()
 
 Thêm tệp README.md
 
+Bước đơn giản nhất và nhỏ nhất cũng là một trong những bước quan trọng nhất. Có một tệp `Readme` tốt đảm bảo rằng những người khác sẽ có thể hiểu được nội dung của thư viện của bạn - và cách sử dụng nó.
 
+Bạn không cần phải quá sáng tạo về nó, chỉ cần sử dụng một mẫu như [thế này](https://www.makeareadme.com) và cố gắng điền vào tất cả các trường một cách rõ ràng.
 
+Người dùng thư viện npm của bạn sẽ đánh giá cao việc bạn đã tiết kiệm thời gian cho họ. Ngay cả một phiên bản trong tương lai của bạn cũng sẽ rất vui khi có tài liệu rõ ràng!
+
+Commit
+
+Bây giờ thư viện của bạn đã sẵn sàng và bạn có thể tiếp tục với commit đầu tiên của mình.
+
+Tương tự như tệp Readme, đã có rất nhiều tài liệu về [cách viết các commit git có ý nghĩa](https://chris.beams.io/posts/git-commit/).
 
 
 
