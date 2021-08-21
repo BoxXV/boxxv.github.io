@@ -43,6 +43,27 @@ Vì lý do này, cách phổ biến nhất để tạo thư viện hiện nay l�
 Chúng tôi đã viết một hướng dẫn đầy đủ về [cách tạo và phân phối thư viện JavaScript trong gói npm](https://boxxv.github.io/2022/01/01/creating-modern-javascript-library/) , trong đó chúng tôi kết hợp quy trình làm việc chính thức với nhiều mẹo mà chúng tôi đã học được khi phát triển Bugfender JS.
 
 
+### Nếu tôi không muốn sử dụng npm thì sao?
+
+Nếu bạn muốn tạo thư viện của mình theo cách đơn giản nhất có thể, bạn có thể chỉ cần nhập mã của mình vào tệp JavaScript và đặt tệp này vào mọi dự án bạn muốn sử dụng.
+
+Tuy nhiên, điều này làm tăng thêm vấn đề về lập phiên bản. Khi bạn cập nhật thư viện của mình, chẳng hạn như để sửa lỗi, bạn sẽ cần cập nhật tệp theo cách thủ công trong mọi dự án. Sử dụng hằng số cục bộ hoặc thậm chí là chú thích để đặt số phiên bản có thể xác định phiên bản thư viện bạn đang sử dụng, vì vậy bạn có một cách nhanh chóng để xác định phiên bản nào đang sử dụng mỗi dự án.
+
+Sử dụng kho lưu trữ git trong `GitHub` để theo dõi các phiên bản phát hành khác nhau của mô-đun của bạn luôn là một ý tưởng hay.
+
+Nếu thư viện của bạn có phụ thuộc với các thư viện khác, hãy nhớ ghi lại rõ ràng thư viện nào khác và phiên bản nào của chúng, là cần thiết để sử dụng nó.
+
+Cũng cần lưu ý rằng mô-đun của bạn có thể cần được tải theo một thứ tự cụ thể.
+
+Ví dụ, khi tích hợp Bugfender JS theo cách thủ công trong một dự án, cần phải sử dụng từ khóa `defer`.
+
+
+
+
+
+
+
+
 -----
 Tham khảo:
 - [How to Create a JavaScript Library. 7 Tips to Create a Library That Every Developer Loves Using](https://bugfender.com/blog/how-to-create-a-javascript-library/)
