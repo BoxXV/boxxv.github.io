@@ -62,9 +62,16 @@ Ví dụ, khi tích hợp Bugfender JS theo cách thủ công trong một dự �
 
 ![npm](https://boxxv.github.io/img/posts/javascript-vs-typescript.png "Javascript vs Typescript")
 
+`TypeScript` ngày càng trở thành lựa chọn ưu tiên khi tạo một thư viện mới. Vì TypeScript là một tập hợp siêu JavaScript nên tất cả mã nguồn của Typecript đều tương thích trực tiếp với tất cả các dự án JavaScript. Tuy nhiên, bạn sẽ nhận được một số đặc quyền khi tạo thư viện Typecript.
+
+Ví dụ: trước khi xuất bản thư viện của bạn với Typescript, bạn sẽ cần phải biên dịch nó. Quá trình này xuất ra `types` thư viện của bạn. Có thể _types_ được hiểu là `header` các tệp và chúng rất hữu ích khi các nhà phát triển khác áp dụng mã của bạn. Một hàm Typecript _type_ rất dễ đọc và dễ hiểu vì nó được nêu rõ ràng những tham số nào sẽ nhận một hàm và những giá trị nào sẽ trả về.
 
 
+## Quản lý luồng bên trong thư viện Javascript
 
+Nói chung, các công cụ JavaScript là một luồng. Tuy nhiên, nếu thư viện của bạn cần thực hiện một số công việc chuyên sâu, bạn có thể đang chặn giao diện người dùng. Trong trường hợp này, Sử dụng Nhân viên web để chạy các tác vụ nền có thể là một lựa chọn tốt.
+
+Công nhân web đi kèm với một số ràng buộc. Ví dụ: hãy cẩn thận với thao tác DOM, vì không thể thao tác trực tiếp DOMhoặc truy cập một số API web. Nhưng chúng là một lựa chọn tuyệt vời cho các tác vụ mạng chuyên sâu liên quan đến ổ cắm hoặc lưu trữ dữ liệu.
 
 
 -----
