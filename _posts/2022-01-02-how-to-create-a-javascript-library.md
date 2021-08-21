@@ -82,9 +82,16 @@ Từ kinh nghiệm của chúng tôi với SDK di động của chúng tôi, ch�
 
 Trong nền tảng di động, chúng tôi tự hào nói rằng những tác vụ này được hoàn thành với tác động hiệu suất không thể phân biệt được. Đó là nhờ cấu trúc dữ liệu tốt (được đánh bóng trong vài năm) cùng với việc sử dụng tốt các luồng nền.
 
-Chúng tôi muốn Bugfender JS có khả năng duy trì hiệu suất tương đương trong nhiều trường hợp. Vì vậy, chúng tôi đang sử dụng Nhân viên web để thực hiện các tác vụ nặng như tạm thời lưu trữ nhật ký trong IndexedDB, cho đến khi chúng có thể được gửi đến máy chủ Bugfender.
+Chúng tôi muốn Bugfender JS có khả năng duy trì hiệu suất tương đương trong nhiều trường hợp. Vì vậy, chúng tôi đang sử dụng Web workers để thực hiện các tác vụ nặng như tạm thời lưu trữ nhật ký trong `IndexedDB`, cho đến khi chúng có thể được gửi đến máy chủ Bugfender.
 
 
+## Tính toán thứ tự mà thư viện của bạn sẽ được tải
+
+Khi thêm Bugfender SDK vào ứng dụng web của bạn theo cách thủ công, bạn cần sử dụng khóa `defer`.
+
+{% highlight html %}
+<script defer src="https://js.bugfender.com/bugfender.js"></script>
+{% endhighlight %}
 
 
 
