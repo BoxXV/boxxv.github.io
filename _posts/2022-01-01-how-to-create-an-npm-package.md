@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tạo thư viện JavaScript hiện đại
-subtitle: Tạo gói npm sẵn sàng phân phối từ đầu
+title: Tạo gói npm sẵn sàng phân phối từ đầu
+subtitle: Tạo thư viện JavaScript hiện đại
 tags:
 - Tips
 - Tricks
