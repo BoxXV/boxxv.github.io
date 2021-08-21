@@ -58,6 +58,9 @@ Cũng cần lưu ý rằng mô-đun của bạn có thể cần được tải t
 Ví dụ, khi tích hợp Bugfender JS theo cách thủ công trong một dự án, cần phải sử dụng từ khóa `defer`.
 
 
+## Tôi có nên sử dụng Javascript thuần túy hoặc Typescript khi tạo một thư viện mới không?
+
+![npm](https://boxxv.github.io/img/posts/javascript-vs-typescript.png "Javascript vs Typescript")
 
 
 
