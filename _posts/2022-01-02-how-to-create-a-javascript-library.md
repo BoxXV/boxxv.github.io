@@ -32,11 +32,15 @@ Cho dù bạn tạo thư viện của mình bằng cách sử dụng cấu trúc
 Thư viện JS có thể phức tạp như một đối tượng Singleton, với vòng đời riêng của nó và chạy các tác vụ của nó trong các luồng riêng biệt hoặc đơn giản như một tệp chứa một bộ công cụ tiện dụng.
 
 
+## Cấu trúc Javascript Ưu tiên cho Thư viện vào năm 2020 là gì?
 
+![npm](https://boxxv.github.io/img/posts/javascript-library.png "Node Package Manager")
 
+Trước đây, bạn sẽ tạo một tệp mới, dán mã của bạn và đặt tệp này vào mọi dự án yêu cầu. Một quy ước chung là nhóm mọi thư viện đã sử dụng thành một dự án trong thư mục _vendors_. Thực tế này đã bị phá hoại bởi thực tế là khó quản lý các phụ thuộc và lập phiên bản. Ngoài ra, khi một thư viện cần sử dụng một thư viện khác, không có cách nào rõ ràng để xác định mối quan hệ này. Nó thậm chí còn phổ biến để tìm các thư viện sẽ sao chép và dán một thư viện đầy đủ khác vào bên trong để tránh các vấn đề phụ thuộc (thật không may, sao chép nhiều mã và ẩn những phụ thuộc này khỏi các nhà phát triển khác).
 
+Vì lý do này, cách phổ biến nhất để tạo thư viện hiện nay là sử dụng `npm`. Các thư viện được tạo cho npm phải tuân theo một quy ước chính xác liên quan đến cấu trúc của chúng, vì vậy phải rõ ràng thư viện làm gì và những phụ thuộc nào khác được yêu cầu.
 
-
+Chúng tôi đã viết một hướng dẫn đầy đủ về [cách tạo và phân phối thư viện JavaScript trong gói npm](https://boxxv.github.io/2022/01/01/creating-modern-javascript-library/) , trong đó chúng tôi kết hợp quy trình làm việc chính thức với nhiều mẹo mà chúng tôi đã học được khi phát triển Bugfender JS.
 
 
 -----
