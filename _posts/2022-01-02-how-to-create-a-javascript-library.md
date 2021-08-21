@@ -69,9 +69,28 @@ Ví dụ: trước khi xuất bản thư viện của bạn với Typescript, b�
 
 ## Quản lý luồng bên trong thư viện Javascript
 
-Nói chung, các công cụ JavaScript là một luồng. Tuy nhiên, nếu thư viện của bạn cần thực hiện một số công việc chuyên sâu, bạn có thể đang chặn giao diện người dùng. Trong trường hợp này, Sử dụng Nhân viên web để chạy các tác vụ nền có thể là một lựa chọn tốt.
+Nói chung, các công cụ JavaScript là một luồng. Tuy nhiên, nếu thư viện của bạn cần thực hiện một số công việc chuyên sâu, bạn có thể đang chặn giao diện người dùng. Trong trường hợp này, Sử dụng [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) để chạy các tác vụ nền có thể là một lựa chọn tốt.
 
-Công nhân web đi kèm với một số ràng buộc. Ví dụ: hãy cẩn thận với thao tác DOM, vì không thể thao tác trực tiếp DOMhoặc truy cập một số API web. Nhưng chúng là một lựa chọn tuyệt vời cho các tác vụ mạng chuyên sâu liên quan đến ổ cắm hoặc lưu trữ dữ liệu.
+Web workers đi kèm với một số ràng buộc. Ví dụ: hãy cẩn thận với thao tác DOM, vì không thể thao tác trực tiếp _DOM_ hoặc truy cập một số API web. Nhưng chúng là một lựa chọn tuyệt vời cho các tác vụ mạng chuyên sâu liên quan đến sockets hoặc storage.
+
+
+#### Ví dụ về web workers trong Bugfender
+
+Từ kinh nghiệm của chúng tôi với SDK di động của chúng tôi, chúng tôi biết rằng một số người dùng sẽ đẩy SDK đến các giới hạn.
+
+Để cung cấp cho bạn ý tưởng về sự đa dạng tuyệt đối của các nhà phát triển sử dụng Bugfender, ở một điểm cuối của quy mô, chúng tôi yêu cầu các nhà phát triển trò chơi gửi nhật ký từ Unreal Engine, một môi trường mà việc giữ mức độ thấp là bắt buộc để giữ tốc độ khung hình cao nhất có thể, và ở đầu bên kia, có các nhà phát triển sử dụng Bugfender để gỡ lỗi trạng thái của các cảm biến thời gian thực, gửi hàng trăm bản ghi mỗi giây.
+
+Trong nền tảng di động, chúng tôi tự hào nói rằng những tác vụ này được hoàn thành với tác động hiệu suất không thể phân biệt được. Đó là nhờ cấu trúc dữ liệu tốt (được đánh bóng trong vài năm) cùng với việc sử dụng tốt các luồng nền.
+
+Chúng tôi muốn Bugfender JS có khả năng duy trì hiệu suất tương đương trong nhiều trường hợp. Vì vậy, chúng tôi đang sử dụng Nhân viên web để thực hiện các tác vụ nặng như tạm thời lưu trữ nhật ký trong IndexedDB, cho đến khi chúng có thể được gửi đến máy chủ Bugfender.
+
+
+
+
+
+
+
+
 
 
 -----
