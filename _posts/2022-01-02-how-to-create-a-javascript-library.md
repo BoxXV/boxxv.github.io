@@ -238,4 +238,4 @@ Chúng tôi xuất bản các hướng dẫn và các câu chuyện gỡ lỗi t
 
 -----
 Tham khảo:
-- [How to Create an npm Package Ready to Distribute From Scratch](https://bugfender.com/blog/how-to-create-an-npm-package/)
+- [How to Create a JavaScript Library. 7 Tips to Create a Library That Every Developer Loves Using](https://bugfender.com/blog/how-to-create-a-javascript-library/)

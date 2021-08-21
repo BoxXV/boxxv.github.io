@@ -9,11 +9,11 @@ tags:
 - library
 ---
 
-### Npm là gì và tại sao nó lại quan trọng?
+## Npm là gì và tại sao nó lại quan trọng?
 
 `Node Package Manager`, hoặc `npm` (thường được viết bằng chữ thường) là một trong những công cụ tạo và quản lý các thư viện được sử dụng phổ biến nhất trong các dự án JavaScript. Nó được xây dựng trên Node và rất mạnh mẽ nên hầu như tất cả mọi người đều đang sử dụng nó.
 
-#### Công cụ quản lý thư viện là gì?
+### Công cụ quản lý thư viện là gì?
 
 Hãy tưởng tượng rằng bạn bao gồm thư viện **A** để tùy chỉnh một trường văn bản. Thư viện đó sử dụng thư viện **B** để định dạng văn bản và thư viện **C** để hiển thị các bản dịch.
 
@@ -41,7 +41,7 @@ npm install <your-library-package-name>
 
 Thật kỳ diệu, tất cả các phụ thuộc của cây sẽ được tải xuống và cài đặt. Hệ thống này thật tuyệt vời vì trong thực tế, bạn không cần quan tâm đến các phụ thuộc.
 
-#### Có bất kỳ mặt trái nào của việc sử dụng trình quản lý gói không?
+### Có bất kỳ mặt trái nào của việc sử dụng trình quản lý gói không?
 
 Nguyên nhân chính là các nhà phát triển mất quyền kiểm soát mã nào họ đang đưa vào các dự án của họ. Mối quan tâm về bảo mật đã xuất hiện trong quá khứ và các hệ thống quan trọng đòi hỏi một cây phụ thuộc được kiểm soát chặt chẽ và nghiêm ngặt.
 
@@ -52,7 +52,7 @@ Lấy ví dụ sau: một dự án mới được tạo trong React Native có h
 Một ví dụ khác là [tranh chấp vào năm 2019 giữa một nhà phát triển mã nguồn mở và một công ty Mỹ](https://arstechnica.com/information-technology/2016/03/rage-quit-coder-unpublished-17-lines-of-javascript-and-broke-the-internet/) đã gần như phá vỡ mạng internet của thế giới. Một câu chuyện ngắn, nhà phát triển quyết định xóa một thư viện khá tầm thường nhưng vẫn thường được sử dụng khỏi npm và đột nhiên cây phụ thuộc của hàng nghìn dự án trên khắp thế giới bị phá vỡ.
 
 
-### Tại sao bạn nên tạo thư viện gói npm của riêng mình?
+## Tại sao bạn nên tạo thư viện gói npm của riêng mình?
 
 Cách nhanh nhất và an toàn nhất để viết mã là _không_ viết nó. Nếu bạn thường cần sao chép-dán một số tính năng giữa các dự án khác nhau, bạn có thể muốn tạo một thư viện JavaScript mới và viết các tính năng đó chỉ một lần.
 
@@ -67,13 +67,13 @@ npm install @bugfender/sdk
 ```
 
 
-### Tạo gói npm của riêng bạn
+## Tạo gói npm của riêng bạn
 
-#### 1. Tạo một kho lưu trữ Git mới
+### 1. Tạo một kho lưu trữ Git mới
 
 Nếu bạn đã tạo một số mã, bạn có thể bỏ qua phần này. Tuy nhiên, nếu bạn đang bắt đầu lại từ đầu, đã đến lúc phải thực hiện. Sau đó, bạn có thể truy cập GitHub và tạo một git repo mới.
 
-#### 2. Tạo tệp package của bạn
+### 2. Tạo tệp package của bạn
 
 Bây giờ, hãy mở terminal và điều hướng đến dự án của bạn
 
@@ -98,7 +98,7 @@ Nếu bạn không muốn điền phần còn lại của các trường ngay b�
 
 ![npm](https://boxxv.github.io/img/posts/npm-package-creation-console-1.png "Node Package Manager")
 
-#### 3. Thêm mã vào dự án JavaScript của bạn và thiết lập API công khai
+### 3. Thêm mã vào dự án JavaScript của bạn và thiết lập API công khai
 
 Thông thường, bạn có một số mã mà bạn đã sao chép-dán giữa các dự án khác nhau và bạn đang chuyển nó sang mô-đun npm để sử dụng lại trong tương lai.
 
@@ -139,7 +139,7 @@ const coffeeMachine = new CoffeeMachine();
 coffeeMachine.prepareCoffee()
 {% endhighlight %}
 
-##### Thêm tệp README.md
+#### Thêm tệp README.md
 
 Bước đơn giản nhất và nhỏ nhất cũng là một trong những bước quan trọng nhất. Có một tệp `Readme` tốt đảm bảo rằng những người khác sẽ có thể hiểu được nội dung của thư viện của bạn - và cách sử dụng nó.
 
@@ -147,14 +147,14 @@ Bạn không cần phải quá sáng tạo về nó, chỉ cần sử dụng m�
 
 Người dùng thư viện npm của bạn sẽ đánh giá cao việc bạn đã tiết kiệm thời gian cho họ. Ngay cả một phiên bản trong tương lai của bạn cũng sẽ rất vui khi có tài liệu rõ ràng!
 
-##### Commit
+#### Commit
 
 Bây giờ thư viện của bạn đã sẵn sàng và bạn có thể tiếp tục với commit đầu tiên của mình.
 
 Tương tự như tệp Readme, đã có rất nhiều tài liệu về [cách viết các commit git có ý nghĩa](https://chris.beams.io/posts/git-commit/).
 
 
-#### 4. Xuất bản trên npm
+### 4. Xuất bản trên npm
 
 Đăng ký đến npm
 
@@ -174,7 +174,7 @@ npm whoami
 
 Mẹo: trước khi xuất bản gói npm mới, hãy đảm bảo rằng bạn đã đăng nhập với người dùng thích hợp. Điều này đặc biệt quan trọng nếu bạn sử dụng cùng một máy cho công việc và các dự án phụ.
 
-##### Kiểm tra Framework của bạn
+#### Kiểm tra Framework của bạn
 
 Chúng tôi gần như đã sẵn sàng để xuất bản. Nhưng ngay trước khi thực hiện, chúng tôi có thể chạy thử nghiệm cục bộ nhanh.
 
@@ -194,7 +194,7 @@ npm link [name-of-the-package] # This installs the library in the project
 
 Bạn có thể sử dụng quy trình này trong tương lai khi định cập nhật thư viện của mình để không cần xuất bản mỗi khi muốn thử nghiệm các thay đổi mới.
 
-##### Công bố
+#### Công bố
 
 Bây giờ bạn đã tạo thư viện và bạn đã thử nghiệm nó cục bộ, đã đến lúc chia sẻ nó với mọi người.
 
@@ -208,7 +208,7 @@ npm sẽ bắt đầu làm việc để xuất bản thư viện của bạn lê
 Khi nó hoàn tất, thư viện sẽ có sẵn trong https://www.npmjs.com và mọi người dùng trên thế giới đều có thể cài đặt nó bằng cách sử dụng `npm install <package-name>`.
 
 
-#### 5. Cập nhật thư viện của bạn
+### 5. Cập nhật thư viện của bạn
 
 Chúng ta sẽ đến phần cuối của bài viết, nhưng nó mới chỉ là phần mở đầu của thư viện của bạn.
 
@@ -225,7 +225,7 @@ npm version major # From 1.0.0 to 2.0.0
 Hãy lưu ý rằng `npm version` cập nhật `package.json`, tạo commit và thêm TAG vào git.
 
 
-### Một điều cuối cùng
+## Một điều cuối cùng
 
 Tại Bugfender, chúng tôi là nhà phát triển phần mềm và chúng tôi biết những hướng dẫn này có giá trị như thế nào. Nếu bạn thấy bài đăng này hữu ích, bạn có thể giúp chúng tôi đổi lại bằng cách chia sẻ nó với đồng nghiệp của bạn.
 
