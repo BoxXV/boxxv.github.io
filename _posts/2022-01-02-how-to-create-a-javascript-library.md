@@ -93,9 +93,25 @@ Khi thêm Bugfender SDK vào ứng dụng web của bạn theo cách thủ công
 <script defer src="https://js.bugfender.com/bugfender.js"></script>
 {% endhighlight %}
 
+Đó là bởi vì thứ tự mà bạn tải các tập lệnh không được đảm bảo. Bạn nên tính đến điều này nếu bạn tự tạo một thư viện và bạn muốn truy cập nó từ một tập lệnh khác.
+
+Đây là một lý do khác để sử dụng npm. Nếu bạn làm điều đó, mọi thứ sẽ được tải trước trong một núi mã lớn, trong đó mọi thứ đều có thể truy cập được và bạn sẽ không cần phải lo lắng về điều đó nữa.
 
 
+## Các bước để xuất bản Thư viện Javascript của tôi là gì?
 
+Cho dù đây là một dự án cho chính bạn, một dự án mà bạn sẽ chia sẻ với nhóm công ty của mình hay một dự án mã nguồn mở, trước hết bạn cần ghi lại tài liệu mã của mình!
+
+Nếu bạn không thêm tài liệu tốt vào thư viện của mình, đừng khó chịu khi đồng đội của bạn bắt đầu gửi cho bạn tin nhắn riêng tư trong Slack hoặc email hỏi cách sử dụng nó.
+
+Thực ra, đó là trường hợp tốt nhất… thường thì họ sẽ bỏ qua thư viện của bạn!
+
+Hãy nhớ rằng, không ai muốn dành thời gian của họ để kỹ thuật đảo ngược mã của bạn. Sau khi thư viện của bạn được tài liệu đầy đủ, bạn có thể tải nó lên GitHub và chia sẻ nó (hoặc thậm chí tốt hơn, hãy làm theo hướng dẫn của chúng tôi và [xuất bản nó lên npm](https://bugfender.com/blog/how-to-create-an-npm-package/) ).
+
+
+## Where to Go From Here?
+
+Tại Bugfender, chúng tôi là những nhà phát triển và chúng tôi muốn chia sẻ những kiến ​​thức của mình với cộng đồng. Bạn có thể đăng ký nhận bản tin hàng quý không có spam của chúng tôi trong hộp bên dưới hoặc bạn có thể tiếp tục đọc một trong các bài đăng liên quan sau:
 
 
 
