@@ -22,7 +22,7 @@ Có ít nhất năm tùy chọn này để lập mô hình phân cấp:
 - [Class Table Inheritance](https://martinfowler.com/eaaCatalog/classTableInheritance.html): Kế thừa bảng lớp - một bảng cho Sản phẩm, lưu trữ các thuộc tính chung cho tất cả các loại sản phẩm. Sau đó, một bảng cho mỗi loại sản phẩm, lưu trữ các thuộc tính cụ thể cho loại sản phẩm đó. 
 - [Concrete Table Inheritance](https://martinfowler.com/eaaCatalog/concreteTableInheritance.html): Kế thừa Bảng Concrete - không có bảng cho các thuộc tính Sản phẩm chung. Thay vào đó, một bảng cho mỗi loại sản phẩm, lưu trữ cả thuộc tính sản phẩm chung và thuộc tính sản phẩm cụ thể. 
 - [Serialized LOB](https://martinfowler.com/eaaCatalog/serializedLOB.html): LOB tuần tự - Một bảng cho Sản phẩm, lưu trữ các thuộc tính chung cho tất cả các loại sản phẩm. Một cột bổ sung lưu trữ BLOB dữ liệu bán cấu trúc, ở định dạng XML, YAML, JSON hoặc một số định dạng khác. BLOB này cho phép bạn lưu trữ các thuộc tính cụ thể cho từng loại sản phẩm. Bạn có thể sử dụng các Mẫu thiết kế ưa thích để mô tả điều này, chẳng hạn như Mặt tiền và Vật lưu niệm. Nhưng bất kể bạn có một loạt các thuộc tính không thể dễ dàng truy vấn trong SQL; bạn phải tìm nạp toàn bộ đốm màu trở lại ứng dụng và sắp xếp nó ở đó. 
-- [Entity-Attribute-Value](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model): Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav])(https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
+- [Entity-Attribute-Value](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model): Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav](https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
 
 Về cơ bản, không có giải pháp nào trong số này dễ dàng hoặc hiệu quả trong cơ sở dữ liệu quan hệ. Toàn bộ ý tưởng về việc có "các thuộc tính biến đổi" về cơ bản là mâu thuẫn với lý thuyết quan hệ.
 
@@ -80,7 +80,7 @@ Các đối tượng không nhất thiết phải được duy trì dưới dạ
 
 ### Entity-Attribute-Value
 
-Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav])(https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
+Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav](https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
 
 
 -----
