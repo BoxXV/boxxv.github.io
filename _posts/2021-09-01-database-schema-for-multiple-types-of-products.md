@@ -29,7 +29,7 @@ Về cơ bản, không có giải pháp nào trong số này dễ dàng hoặc h
 Điều quan trọng là bạn phải chọn một trong những giải pháp dựa trên đó là giải pháp ít xấu nhất cho ứng dụng của bạn. Do đó, bạn cần biết mình sẽ truy vấn dữ liệu như thế nào trước khi chọn thiết kế cơ sở dữ liệu. Không có cách nào để chọn một giải pháp "tốt nhất" bởi vì bất kỳ giải pháp nào trong số các giải pháp đều có thể tốt nhất cho một ứng dụng nhất định. 
 
 
-### Single Table Inheritance
+## Single Table Inheritance
 
 > Biểu diễn một hệ thống phân cấp kế thừa của các lớp dưới dạng một bảng duy nhất có các cột cho tất cả các trường của các lớp khác nhau.
 
@@ -40,7 +40,7 @@ Cơ sở dữ liệu quan hệ không hỗ trợ kế thừa, vì vậy khi ánh
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 278
 
 
-### Class Table Inheritance
+## Class Table Inheritance
 
 > Đại diện cho một hệ thống phân cấp kế thừa của các lớp với một bảng cho mỗi lớp.
 
@@ -82,7 +82,7 @@ Bạn không phải chỉ chọn một mẫu ánh xạ kế thừa cho một h�
 Một số văn bản của IBM gọi mô hình này là Root-Leaf Mapping [Brown et al.].
 
 
-### Concrete Table Inheritance
+## Concrete Table Inheritance
 
 > Đại diện cho một hệ thống phân cấp kế thừa của các lớp với một bảng cho mỗi lớp cụ thể trong hệ thống phân cấp.
 
@@ -95,7 +95,7 @@ Tôi thú nhận là đã gặp một số khó khăn khi đặt tên cho mẫu 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 293
 
 
-### Serialized LOB
+## Serialized LOB
 
 > Lưu một biểu đồ của các đối tượng bằng cách tuần tự hóa chúng thành một đối tượng lớn duy nhất (LOB), nó lưu trữ trong một trường cơ sở dữ liệu. 
 
@@ -109,7 +109,7 @@ Các đối tượng không nhất thiết phải được duy trì dưới dạ
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang  272
 
-### Entity-Attribute-Value
+## Entity-Attribute-Value
 
 Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav](https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
 
