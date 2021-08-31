@@ -18,10 +18,11 @@ Mục tiêu của là tạo một hoặc nhiều bảng `sản phẩm` đáp ứ
 
 Có ít nhất năm tùy chọn này để lập mô hình phân cấp:
 
-- [Kế thừa một bảng](martinfowler.com/eaaCatalog/singleTableInheritance.html): một bảng cho tất cả các loại Sản phẩm, có đủ cột để lưu trữ tất cả các thuộc tính của tất cả các loại. Điều này có nghĩa là rất nhiều cột, hầu hết trong số đó là NULL trên bất kỳ hàng nhất định nào. 
-
-
-
+- [Single Table Inheritance](martinfowler.com/eaaCatalog/singleTableInheritance.html): Kế thừa một bảng - một bảng cho tất cả các loại Sản phẩm, có đủ cột để lưu trữ tất cả các thuộc tính của tất cả các loại. Điều này có nghĩa là rất nhiều cột, hầu hết trong số đó là NULL trên bất kỳ hàng nhất định nào. 
+- [Class Table Inheritance](https://martinfowler.com/eaaCatalog/classTableInheritance.html): Kế thừa bảng lớp - một bảng cho Sản phẩm, lưu trữ các thuộc tính chung cho tất cả các loại sản phẩm. Sau đó, một bảng cho mỗi loại sản phẩm, lưu trữ các thuộc tính cụ thể cho loại sản phẩm đó. 
+- [Concrete Table Inheritance](https://martinfowler.com/eaaCatalog/concreteTableInheritance.html): Kế thừa Bảng Concrete - không có bảng cho các thuộc tính Sản phẩm chung. Thay vào đó, một bảng cho mỗi loại sản phẩm, lưu trữ cả thuộc tính sản phẩm chung và thuộc tính sản phẩm cụ thể. 
+- [Serialized LOB](https://martinfowler.com/eaaCatalog/serializedLOB.html): LOB tuần tự - Một bảng cho Sản phẩm, lưu trữ các thuộc tính chung cho tất cả các loại sản phẩm. Một cột bổ sung lưu trữ BLOB dữ liệu bán cấu trúc, ở định dạng XML, YAML, JSON hoặc một số định dạng khác. BLOB này cho phép bạn lưu trữ các thuộc tính cụ thể cho từng loại sản phẩm. Bạn có thể sử dụng các Mẫu thiết kế ưa thích để mô tả điều này, chẳng hạn như Mặt tiền và Vật lưu niệm. Nhưng bất kể bạn có một loạt các thuộc tính không thể dễ dàng truy vấn trong SQL; bạn phải tìm nạp toàn bộ đốm màu trở lại ứng dụng và sắp xếp nó ở đó. 
+- [Entity-Attribute-Value](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model): Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là "Mô hình thuộc tính" được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ eav trên StackOverflow để biết một số cạm bẫy. 
 
 
 
