@@ -35,6 +35,9 @@ Biểu diễn một hệ thống phân cấp kế thừa của các lớp dướ
 
 ![Single Table Inheritance](https://boxxv.github.io/img/db/singleTableInheritance.png "Single Table Inheritance")
 
+Cơ sở dữ liệu quan hệ không hỗ trợ kế thừa, vì vậy khi ánh xạ từ các đối tượng đến cơ sở dữ liệu, chúng ta phải xem xét cách thể hiện các cấu trúc kế thừa tốt đẹp của chúng ta trong các bảng quan hệ. Khi ánh xạ tới cơ sở dữ liệu quan hệ, chúng tôi cố gắng giảm thiểu các phép nối có thể nhanh chóng gắn kết khi xử lý cấu trúc kế thừa trong nhiều bảng. Kế thừa bảng đơn ánh xạ tất cả các trường của tất cả các lớp của cấu trúc kế thừa thành một bảng duy nhất. 
+
+Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 278
 
 -----
 [Database Schema for Multiple Types of Products](https://www.codingblocks.net/programming/database-schema-for-multiple-types-of-products/)  
