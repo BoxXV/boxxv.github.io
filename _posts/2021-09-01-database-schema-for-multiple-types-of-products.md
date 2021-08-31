@@ -74,9 +74,6 @@ Class Table Inheritance, Single Table Inheritance và Concrete Table Inheritance
 
 Bạn không phải chỉ chọn một mẫu ánh xạ kế thừa cho một hệ thống phân cấp lớp. Bạn có thể sử dụng Class Table Inheritance cho các lớp ở trên cùng của hệ thống phân cấp và một loạt Concrete  Table  Inheritance cho những lớp thấp hơn.
 
-
-Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
-
 #### Further Reading
 
 Một số văn bản của IBM gọi mô hình này là Root-Leaf Mapping [Brown et al.].
@@ -99,6 +96,9 @@ class FootballerMapper...
 	protected new static String TABLENAME = "Footballers";
 {% endhighlight %}
 
+Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
+
+
 
 ## Concrete Table Inheritance
 
@@ -109,6 +109,12 @@ class FootballerMapper...
 Như bất kỳ người theo chủ nghĩa đối tượng nào sẽ nói với bạn, cơ sở dữ liệu quan hệ không hỗ trợ kế thừa - một thực tế làm phức tạp việc ánh xạ quan hệ đối tượng. Suy nghĩ về các bảng từ một quan điểm đối tượng, một lộ trình hợp lý là lấy từng đối tượng trong bộ nhớ và ánh xạ nó vào một hàng cơ sở dữ liệu duy nhất. Điều này ngụ ý Concrete Table Inher-itance, nơi có một bảng cho mỗi lớp cụ thể trong hệ thống phân cấp kế thừa.
 
 Tôi thú nhận là đã gặp một số khó khăn khi đặt tên cho mẫu này. Hầu hết mọi người nghĩ về nó như là định hướng lá vì bạn thường có một bảng cho mỗi lớp lá trong một hệ thống phân cấp. Theo logic đó, tôi có thể gọi đây là kế thừa bảng mẫu lá và thuật ngữ `"leaf"` thường được sử dụng cho mẫu này. Tuy nhiên, một cách nghiêm túc, một lớp cụ thể không phải là một chiếc lá cũng thường có một bảng, vì vậy tôi quyết định sử dụng thuật ngữ đúng hơn, nếu ít trực quan hơn.
+
+#### How It Works
+
+Concrete Table Inheritance sử dụng một bảng cơ sở dữ liệu cho mỗi lớp concrete trong hệ thống phân cấp. Mỗi bảng chứa các cột cho lớp cụ thể và tổ tiên của nó, vì vậy bất kỳ trường nào trong lớp cha đều được sao chép trên các bảng của lớp con. Như với một số lược đồ kế thừa này, hành vi cơ bản sử dụng Trình lập bản đồ kế thừa (302). 
+
+
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 293
 
