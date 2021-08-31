@@ -122,6 +122,26 @@ Bạn có thể giải quyết một số vấn đề này bằng cách không c
 
 Liên quan đến vấn đề này là các vấn đề với tính toàn vẹn tham chiếu trong cơ sở dữ liệu. Hãy xem xét một mô hình đối tượng như Hình 12.10. Để triển khai tính toàn vẹn của tham chiếu, bạn cần một bảng liên kết chứa các cột khóa ngoại cho chức năng từ thiện và cho trình phát. Vấn đề là không có bàn cho cầu thủ, vì vậy bạn không thể đặt cùng nhau một ràng buộc toàn vẹn tham chiếu cho trường khóa ngoại có cả cầu thủ bóng đá hoặc cầu thủ cricket. Lựa chọn của bạn là bỏ qua tính toàn vẹn của tham chiếu hoặc sử dụng nhiều bảng liên kết, một bảng cho mỗi bảng thực tế trong cơ sở dữ liệu. Trên hết, bạn gặp vấn đề nếu không thể đảm bảo tính duy nhất của khóa.
 
+Nếu bạn đang tìm kiếm người chơi bằng câu lệnh select, bạn cần phải xem tất cả các bảng để xem bảng nào chứa giá trị thích hợp. Điều này có nghĩa là sử dụng nhiều truy vấn hoặc sử dụng kết nối bên ngoài, cả hai đều không tốt cho hiệu suất. Bạn không bị ảnh hưởng về hiệu suất khi bạn biết lớp mình cần, nhưng bạn phải sử dụng lớp cụ thể để cải thiện hiệu suất.
+
+Mô hình này thường được gọi là dọc theo các đường kế thừa bảng leaf. Một số người thích một biến thể trong đó bạn có một bảng cho mỗi lớp leaf thay vì một bảng cho mỗi lớp cụ thể. Nếu bạn không có bất kỳ lớp cha cụ thể nào trong hệ thống phân cấp, điều này sẽ xảy ra tương tự. Ngay cả khi bạn có các lớp siêu cụ thể, sự khác biệt là khá nhỏ.
+
+#### When to Use It
+
+Khi tìm ra cách lập bản đồ kế thừa, Concrete Table Inheritance, Class Table Inheritance và Single Table Inheritance là những lựa chọn thay thế 
+
+Điểm mạnh của Kế thừa Bảng Concrete là:
+- Mỗi bảng là độc lập và không có trường không liên quan. Do đó, nó có ý nghĩa tốt khi được sử dụng bởi các ứng dụng khác không sử dụng các đối tượng. 
+- Không có liên kết nào để thực hiện khi đọc dữ liệu từ các trình vẽ bản đồ cụ thể. 
+- Mỗi bảng chỉ được truy cập khi lớp đó được truy cập, điều này có thể tản ra tải trọng truy cập.
+
+Điểm yếu của Kế thừa Bảng Concrete là:
+- Các khóa chính có thể khó xử lý.
+- Bạn không thể thực thi các mối quan hệ cơ sở dữ liệu đối với các lớp trừu tượng.
+- Nếu các trường trên các lớp domain được đẩy lên hoặc xuống hệ thống phân cấp, bạn phải thay đổi các định nghĩa bảng. Bạn không phải thực hiện nhiều thay đổi như với Kế thừa bảng Class, nhưng bạn không thể bỏ qua điều này khi có thể với Kế thừa bảng Single.
+- Nếu một trường lớp cha thay đổi, bạn cần thay đổi từng bảng có trường này vì các trường lớp cha được trùng lặp trên các bảng.
+- 
+
 
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 293
