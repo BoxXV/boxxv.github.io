@@ -29,6 +29,11 @@ Về cơ bản, không có giải pháp nào trong số này dễ dàng hoặc h
 Điều quan trọng là bạn phải chọn một trong những giải pháp dựa trên đó là giải pháp ít xấu nhất cho ứng dụng của bạn. Do đó, bạn cần biết mình sẽ truy vấn dữ liệu như thế nào trước khi chọn thiết kế cơ sở dữ liệu. Không có cách nào để chọn một giải pháp "tốt nhất" bởi vì bất kỳ giải pháp nào trong số các giải pháp đều có thể tốt nhất cho một ứng dụng nhất định. 
 
 
+### Single Table Inheritance
+
+Biểu diễn một hệ thống phân cấp kế thừa của các lớp dưới dạng một bảng duy nhất có các cột cho tất cả các trường của các lớp khác nhau. 
+
+![Single Table Inheritance](https://boxxv.github.io/img/db/singleTableInheritance.png "Single Table Inheritance")
 
 
 -----
