@@ -64,10 +64,22 @@ Class Table Inheritance, Single Table Inheritance và Concrete Table Inheritance
 
 Điểm mạnh của Class Table Inheritance là
 - Tất cả các cột đều có liên quan cho mọi hàng để các bảng dễ hiểu hơn và không lãng phí không gian.
-- 
-- 
+- Mối quan hệ giữa mô hình miền (domain model) và cơ sở dữ liệu rất đơn giản.
+
+Điểm yếu của Class Table Inheritance là
+- Bạn cần chạm vào nhiều bảng để tải một đối tượng, có nghĩa là một phép nối hoặc nhiều truy vấn và may (sewing) trong bộ nhớ.
+- Bất kỳ cấu trúc lại nào của các trường lên hoặc xuống hệ thống phân cấp đều gây ra các thay đổi cơ sở dữ liệu.
+- Các bảng supertype có thể trở thành một nút cổ chai vì chúng phải được truy cập thường xuyên.
+- Mức độ chuẩn hóa cao có thể gây khó hiểu cho các truy vấn đặc biệt.
+
+Bạn không phải chỉ chọn một mẫu ánh xạ kế thừa cho một hệ thống phân cấp lớp. Bạn có thể sử dụng Class Table Inheritance cho các lớp ở trên cùng của hệ thống phân cấp và một loạt Concrete  Table  Inheritance cho những lớp thấp hơn.
+
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
+
+#### Further Reading
+
+Một số văn bản của IBM gọi mô hình này là Root-Leaf Mapping [Brown et al.].
 
 
 ### Concrete Table Inheritance
