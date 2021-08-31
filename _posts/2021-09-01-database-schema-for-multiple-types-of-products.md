@@ -44,11 +44,24 @@ Cơ sở dữ liệu quan hệ không hỗ trợ kế thừa, vì vậy khi ánh
 
 > Đại diện cho một hệ thống phân cấp kế thừa của các lớp với một bảng cho mỗi lớp.
 
-![Class Table Inheritance](https://boxxv.github.io/img/db/classTableInheritance "Class Table Inheritance")
+![Class Table Inheritance](https://boxxv.github.io/img/db/classTableInheritance.png "Class Table Inheritance")
 
 Một khía cạnh rất dễ thấy của sự không khớp đối tượng-quan hệ là thực tế là cơ sở dữ liệu quan hệ không hỗ trợ kế thừa. Bạn muốn cấu trúc cơ sở dữ liệu ánh xạ rõ ràng đến các đối tượng và cho phép liên kết ở bất kỳ đâu trong cấu trúc kế thừa. Kế thừa bảng lớp hỗ trợ điều này bằng cách sử dụng một bảng cơ sở dữ liệu cho mỗi lớp trong cấu trúc kế thừa. 
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
+
+
+### Concrete Table Inheritance
+
+> Đại diện cho một hệ thống phân cấp kế thừa của các lớp với một bảng cho mỗi lớp cụ thể trong hệ thống phân cấp.
+
+![Concrete Table Inheritance](https://boxxv.github.io/img/db/concreteTableInheritance.png "Concrete Table Inheritance")
+
+Như bất kỳ người theo chủ nghĩa đối tượng nào sẽ nói với bạn, cơ sở dữ liệu quan hệ không hỗ trợ kế thừa - một thực tế làm phức tạp việc ánh xạ quan hệ đối tượng. Suy nghĩ về các bảng từ một quan điểm đối tượng, một lộ trình hợp lý là lấy từng đối tượng trong bộ nhớ và ánh xạ nó vào một hàng cơ sở dữ liệu duy nhất. Điều này ngụ ý Concrete Table Inher-itance, nơi có một bảng cho mỗi lớp cụ thể trong hệ thống phân cấp kế thừa.
+
+Tôi thú nhận là đã gặp một số khó khăn khi đặt tên cho mẫu này. Hầu hết mọi người nghĩ về nó như là định hướng lá vì bạn thường có một bảng cho mỗi lớp lá trong một hệ thống phân cấp. Theo logic đó, tôi có thể gọi đây là kế thừa bảng mẫu lá và thuật ngữ "lá" thường được sử dụng cho mẫu này. Tuy nhiên, một cách nghiêm túc, một lớp cụ thể không phải là một chiếc lá cũng thường có một bảng, vì vậy tôi quyết định sử dụng thuật ngữ đúng hơn, nếu ít trực quan hơn.
+
+Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 293
 
 
 
