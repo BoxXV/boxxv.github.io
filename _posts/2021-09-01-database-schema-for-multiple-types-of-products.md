@@ -64,6 +64,20 @@ Tôi thú nhận là đã gặp một số khó khăn khi đặt tên cho mẫu 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 293
 
 
+### Serialized LOB
+
+> Lưu một biểu đồ của các đối tượng bằng cách tuần tự hóa chúng thành một đối tượng lớn duy nhất (LOB), nó lưu trữ trong một trường cơ sở dữ liệu. 
+
+![Serialized LOB](https://boxxv.github.io/img/db/serializedLOB.png "Serialized LOB")
+
+Các mô hình đối tượng thường chứa các đồ thị phức tạp của các đối tượng nhỏ. Phần lớn thông tin trong các cấu trúc này không nằm trong các đối tượng mà nằm trong các liên kết giữa chúng. Cân nhắc lưu trữ hệ thống phân cấp tổ chức cho tất cả khách hàng của bạn. Một mô hình đối tượng hiển thị khá tự nhiên mô hình thành phần để đại diện cho phân cấp hữu quan và bạn có thể dễ dàng thêm các phương thức cho phép bạn lấy tổ tiên, anh chị em, con cháu và các mối quan hệ phổ biến khác.
+
+Không dễ dàng như vậy là đưa tất cả những điều này vào một lược đồ quan hệ. Lược đồ cơ bản rất đơn giản - một bảng tổ chức có khóa ngoại chính, tuy nhiên, việc thao tác với lược đồ của nó yêu cầu nhiều phép nối, điều này vừa chậm vừa khó.
+
+Các đối tượng không nhất thiết phải được duy trì dưới dạng các hàng bảng liên quan đến nhau. Một hình thức liên tục khác là tuần tự hóa, trong đó toàn bộ đồ thị của các đối tượng được viết ra dưới dạng một đối tượng lớn duy nhất (LOB) trong một bảng, LOB được tuần tự hóa này sau đó trở thành một dạng vật lưu niệm [Gang of Four].
+
+Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang  272
+
 
 
 -----
