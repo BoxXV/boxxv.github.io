@@ -140,8 +140,9 @@ Khi tìm ra cách lập bản đồ kế thừa, Concrete Table Inheritance, Cla
 - Bạn không thể thực thi các mối quan hệ cơ sở dữ liệu đối với các lớp trừu tượng.
 - Nếu các trường trên các lớp domain được đẩy lên hoặc xuống hệ thống phân cấp, bạn phải thay đổi các định nghĩa bảng. Bạn không phải thực hiện nhiều thay đổi như với Kế thừa bảng Class, nhưng bạn không thể bỏ qua điều này khi có thể với Kế thừa bảng Single.
 - Nếu một trường lớp cha thay đổi, bạn cần thay đổi từng bảng có trường này vì các trường lớp cha được trùng lặp trên các bảng.
-- 
+- Một phát hiện trên lớp cha buộc bạn phải kiểm tra tất cả các bảng, điều này dẫn đến nhiều quyền truy cập cơ sở dữ liệu (hoặc một phép nối kỳ lạ).
 
+Hãy nhớ rằng bộ ba mẫu kế thừa có thể cùng tồn tại trong một hệ thống phân cấp duy nhất. Vì vậy, bạn có thể sử dụng Kế thừa Bảng Concrete cho một hoặc hai lớp con và Kế thừa Bảng Single cho phần còn lại.
 
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 293
@@ -164,6 +165,8 @@ Các đối tượng không nhất thiết phải được duy trì dưới dạ
 ## Entity-Attribute-Value
 
 Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav](https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
+
+[https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 
 
 -----
