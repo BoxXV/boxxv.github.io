@@ -52,9 +52,11 @@ Một khía cạnh rất dễ thấy của sự không khớp đối tượng-qu
 
 Điều đơn giản về Kế thừa Bảng Lớp là nó có một bảng cho mỗi lớp trong mô hình miền. Các trường trong lớp miền ánh xạ trực tiếp đến các trường trong các bảng tương ứng. Như với các ánh xạ kế thừa khác, áp dụng phương pháp cơ bản của Trình lập bản đồ kế thừa (302).
 
-Một vấn đề là làm thế nào để liên kết các hàng tương ứng của các bảng cơ sở dữ liệu. Một giải pháp khả thi là sử dụng một giá trị khóa chính chung sao cho hàng khóa 101 trong bảng cầu thủ và hàng khóa 101 trong bảng cầu thủ tương ứng với cùng một đối tượng miền. Vì bảng siêu lớp có một hàng cho mỗi hàng trong các bảng khác, các khóa chính sẽ là duy nhất trên các bảng nếu bạn sử dụng lược đồ này. Một giải pháp thay thế là để mỗi bảng có các khóa chính của riêng nó và sử dụng các khóa ngoại vào bảng lớp cha để buộc các hàng lại với nhau. 
+Một vấn đề là làm thế nào để liên kết các hàng tương ứng của các bảng cơ sở dữ liệu. Một giải pháp khả thi là sử dụng một giá trị khóa chính chung sao cho hàng khóa 101 trong bảng cầu thủ và hàng khóa 101 trong bảng cầu thủ tương ứng với cùng một đối tượng miền. Vì bảng siêu lớp có một hàng cho mỗi hàng trong các bảng khác, các khóa chính sẽ là duy nhất trên các bảng nếu bạn sử dụng lược đồ này. Một giải pháp thay thế là để mỗi bảng có các khóa chính của riêng nó và sử dụng các khóa ngoại vào bảng lớp cha để buộc các hàng lại với nhau.
 
+Vấn đề triển khai lớn nhất với Kế thừa bảng lớp là làm thế nào để đưa dữ liệu trở lại từ nhiều bảng một cách hiệu quả. Rõ ràng, việc thực hiện lệnh gọi cho từng bảng là không tốt vì bạn có nhiều lệnh gọi đến cơ sở dữ liệu. Bạn có thể tránh điều này bằng cách nối các bảng thành phần khác nhau; tuy nhiên, các phép nối cho hơn ba hoặc bốn bảng có xu hướng chậm do cách cơ sở dữ liệu thực hiện tối ưu hóa của chúng. 
 
+Trên hết đây là vấn đề mà trong bất kỳ truy vấn nhất định nào, bạn thường không biết chính xác bảng nào để tham gia. Nếu bạn đang tìm kiếm một cầu thủ bóng đá, bạn nên sử dụng bảng cầu thủ bóng đá, nhưng nếu bạn đang tìm kiếm một nhóm cầu thủ, bạn sẽ sử dụng bảng nào? Để tham gia hiệu quả khi một số bảng không có dữ liệu, bạn sẽ cần thực hiện một phép nối bên ngoài, thao tác này không chuẩn và thường chậm. Thay vào đó là đọc bảng gốc trước và sau đó sử dụng mã để tìm ra bảng nào sẽ đọc tiếp theo, nhưng điều này liên quan đến nhiều truy vấn.
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
 
