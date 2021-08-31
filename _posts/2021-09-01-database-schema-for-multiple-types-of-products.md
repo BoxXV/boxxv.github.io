@@ -58,6 +58,15 @@ Vấn đề triển khai lớn nhất với Kế thừa bảng lớp là làm th
 
 Trên hết đây là vấn đề mà trong bất kỳ truy vấn nhất định nào, bạn thường không biết chính xác bảng nào để tham gia. Nếu bạn đang tìm kiếm một cầu thủ bóng đá, bạn nên sử dụng bảng cầu thủ bóng đá, nhưng nếu bạn đang tìm kiếm một nhóm cầu thủ, bạn sẽ sử dụng bảng nào? Để tham gia hiệu quả khi một số bảng không có dữ liệu, bạn sẽ cần thực hiện một phép nối bên ngoài, thao tác này không chuẩn và thường chậm. Thay vào đó là đọc bảng gốc trước và sau đó sử dụng mã để tìm ra bảng nào sẽ đọc tiếp theo, nhưng điều này liên quan đến nhiều truy vấn.
 
+#### When to Use It
+
+Class Table Inheritance, Single Table Inheritance và Concrete Table Inheritance là ba lựa chọn thay thế để xem xét cho ánh xạ kế thừa.
+
+Điểm mạnh của Class Table Inheritance là
+- Tất cả các cột đều có liên quan cho mọi hàng để các bảng dễ hiểu hơn và không lãng phí không gian.
+- 
+- 
+
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
 
 
