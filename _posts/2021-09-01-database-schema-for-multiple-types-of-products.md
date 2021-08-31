@@ -48,6 +48,14 @@ Cơ sở dữ liệu quan hệ không hỗ trợ kế thừa, vì vậy khi ánh
 
 Một khía cạnh rất dễ thấy của sự không khớp đối tượng-quan hệ là thực tế là cơ sở dữ liệu quan hệ không hỗ trợ kế thừa. Bạn muốn cấu trúc cơ sở dữ liệu ánh xạ rõ ràng đến các đối tượng và cho phép liên kết ở bất kỳ đâu trong cấu trúc kế thừa. Kế thừa bảng lớp hỗ trợ điều này bằng cách sử dụng một bảng cơ sở dữ liệu cho mỗi lớp trong cấu trúc kế thừa. 
 
+#### How It Works
+
+Điều đơn giản về Kế thừa Bảng Lớp là nó có một bảng cho mỗi lớp trong mô hình miền. Các trường trong lớp miền ánh xạ trực tiếp đến các trường trong các bảng tương ứng. Như với các ánh xạ kế thừa khác, áp dụng phương pháp cơ bản của Trình lập bản đồ kế thừa (302).
+
+Một vấn đề là làm thế nào để liên kết các hàng tương ứng của các bảng cơ sở dữ liệu. Một giải pháp khả thi là sử dụng một giá trị khóa chính chung sao cho hàng khóa 101 trong bảng cầu thủ và hàng khóa 101 trong bảng cầu thủ tương ứng với cùng một đối tượng miền. Vì bảng siêu lớp có một hàng cho mỗi hàng trong các bảng khác, các khóa chính sẽ là duy nhất trên các bảng nếu bạn sử dụng lược đồ này. Một giải pháp thay thế là để mỗi bảng có các khóa chính của riêng nó và sử dụng các khóa ngoại vào bảng lớp cha để buộc các hàng lại với nhau. 
+
+
+
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang 285
 
 
