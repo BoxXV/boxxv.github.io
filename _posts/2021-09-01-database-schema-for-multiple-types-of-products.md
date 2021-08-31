@@ -81,6 +81,24 @@ Bạn không phải chỉ chọn một mẫu ánh xạ kế thừa cho một h�
 
 Một số văn bản của IBM gọi mô hình này là Root-Leaf Mapping [Brown et al.].
 
+#### Example: Players and Their Kin (C#)
+
+Đây là cách triển khai cho bản phác thảo. Một lần nữa, tôi sẽ làm theo cách quen thuộc (nếu có lẽ hơi tẻ nhạt) của những người chơi và họ thích, bằng cách sử dụng Inheritance Mappers (302).
+
+Mỗi lớp cần xác định bảng chứa dữ liệu của nó và mã kiểu cho nó.
+
+{% highlight csharp %}
+class AbstractPlayerMapper...
+	abstract public String TypeCode {get;}
+	protected static String TABLENAME = "Players";
+
+class FootballerMapper...
+	public override String TypeCode {
+		get {return "F";}
+	}
+	protected new static String TABLENAME = "Footballers";
+{% endhighlight %}
+
 
 ## Concrete Table Inheritance
 
