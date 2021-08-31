@@ -112,7 +112,15 @@ Tôi thú nhận là đã gặp một số khó khăn khi đặt tên cho mẫu 
 
 #### How It Works
 
-Concrete Table Inheritance sử dụng một bảng cơ sở dữ liệu cho mỗi lớp concrete trong hệ thống phân cấp. Mỗi bảng chứa các cột cho lớp cụ thể và tổ tiên của nó, vì vậy bất kỳ trường nào trong lớp cha đều được sao chép trên các bảng của lớp con. Như với một số lược đồ kế thừa này, hành vi cơ bản sử dụng Trình lập bản đồ kế thừa (302). 
+Concrete Table Inheritance sử dụng một bảng cơ sở dữ liệu cho mỗi lớp concrete trong hệ thống phân cấp. Mỗi bảng chứa các cột cho lớp cụ thể và tổ tiên của nó, vì vậy bất kỳ trường nào trong lớp cha đều được sao chép trên các bảng của lớp con. Như với một số lược đồ kế thừa này, hành vi cơ bản sử dụng Trình lập bản đồ kế thừa (302).
+
+Bạn cần chú ý đến các keys có mô hình này. Thật tuyệt vời, điều quan trọng là đảm bảo rằng các khóa là duy nhất không chỉ cho một bảng mà cho tất cả các bảng từ một hệ thống phân cấp. Một ví dụ cổ điển về nơi bạn cần điều này là nếu bạn có một bộ sưu tập người chơi và bạn đang sử dụng Trường danh tính (Identity) với các keys toàn bảng (table-wide). Nếu các khóa có thể được sao chép giữa các bảng ánh xạ các lớp cụ thể, bạn sẽ nhận được nhiều hàng cho một giá trị khóa cụ thể. Do đó, bạn cần một hệ thống phân bổ khóa theo dõi việc sử dụng khóa trên các bảng; ngoài ra, bạn không thể dựa vào cơ chế duy nhất khóa chính của cơ sở dữ liệu.
+
+Bạn có thể giải quyết một số vấn đề này bằng cách không có các trường được nhập vào lớp cha, nhưng rõ ràng điều đó làm tổn hại đến mô hình đối tượng. Thay vào đó là có trình truy cập cho supertype trong giao diện nhưng sử dụng một số trường riêng cho từng loại cụ thể trong quá trình triển khai. Sau đó, giao diện kết hợp các giá trị từ các trường riêng tư. Nếu giao diện công khai là một giá trị duy nhất, nó sẽ chọn bất kỳ giá trị nào trong số các giá trị riêng tư không rỗng. Nếu giao diện công khai là một giá trị tập hợp, nó sẽ trả lời với sự kết hợp của các giá trị từ các trường triển khai.
+
+Đối với khóa ghép, bạn có thể sử dụng một đối tượng khóa đặc biệt làm trường ID của mình cho Trường danh tính. Khóa này sử dụng cả khóa chính của bảng và tên bảng để xác định tính duy nhất.
+
+Liên quan đến vấn đề này là các vấn đề với tính toàn vẹn tham chiếu trong cơ sở dữ liệu. Hãy xem xét một mô hình đối tượng như Hình 12.10. Để triển khai tính toàn vẹn của tham chiếu, bạn cần một bảng liên kết chứa các cột khóa ngoại cho chức năng từ thiện và cho trình phát. Vấn đề là không có bàn cho cầu thủ, vì vậy bạn không thể đặt cùng nhau một ràng buộc toàn vẹn tham chiếu cho trường khóa ngoại có cả cầu thủ bóng đá hoặc cầu thủ cricket. Lựa chọn của bạn là bỏ qua tính toàn vẹn của tham chiếu hoặc sử dụng nhiều bảng liên kết, một bảng cho mỗi bảng thực tế trong cơ sở dữ liệu. Trên hết, bạn gặp vấn đề nếu không thể đảm bảo tính duy nhất của khóa.
 
 
 
