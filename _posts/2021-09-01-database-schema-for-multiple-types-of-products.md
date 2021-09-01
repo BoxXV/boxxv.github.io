@@ -162,12 +162,18 @@ Các đối tượng không nhất thiết phải được duy trì dưới dạ
 
 Để có mô tả đầy đủ, hãy xem [Patterns of Enterprise Application Architecture](https://martinfowler.com/books/eaa.html) trang  272
 
+
 ## Entity-Attribute-Value
+
+EAV Pattern Là một kỹ thuật thiết kế CSDL để đáp ứng được việc xây dựng, phát triển và mở rộng sản phẩm khi hệ thống yêu cầu có sự tùy biến cao.
 
 Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav](https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
 
+![Entity-Attribute-Value Pattern](https://boxxv.github.io/img/db/eva.png "Entity-Attribute-Value Pattern")
+
 [https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 
+[Tìm hiểu về Entity-Attribute-Value Pattern (EAV) (Structural Pattern)](https://viblo.asia/p/tim-hieu-ve-entity-attribute-value-pattern-eav-structural-pattern-Eb85okV452G)
 
 -----
 [Database Schema for Multiple Types of Products](https://www.codingblocks.net/programming/database-schema-for-multiple-types-of-products/)  
