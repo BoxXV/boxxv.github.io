@@ -182,6 +182,7 @@ Mối quan hệ giữa các bảng:
 - **Entity - Attribute**: n-n (một sản phẩm có nhiều Attribute, một Attribute thuộc nhiều sản phẩm)
 
 Ví dụ về mối quan hệ giữa Entity-Attribute-Value:
+
 | value_id | entity_id | value | attribute_id |
 | -- | -- | -- | -- |
 | 1 | 1 | "S" | 1 |
