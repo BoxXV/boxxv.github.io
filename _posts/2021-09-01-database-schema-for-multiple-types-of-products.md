@@ -202,4 +202,6 @@ Ví dụ về mối quan hệ giữa Entity-Attribute-Value:
 -----
 [Database Schema for Multiple Types of Products](https://www.codingblocks.net/programming/database-schema-for-multiple-types-of-products/)  
 [How to design a product table for many kinds of product where each product has many parameters](https://stackoverflow.com/questions/695752/how-to-design-a-product-table-for-many-kinds-of-product-where-each-product-has-m)  
+[Mô hình cơ sở dữ liệu EAV giải quyết bài toán các thực thể có số lượng các thuộc tính thay đổi](https://viblo.asia/p/mo-hinh-co-so-du-lieu-eav-giai-quyet-bai-toan-cac-thuc-the-co-so-luong-cac-thuoc-tinh-thay-doi-naQZRyLPKvx)
+
 
