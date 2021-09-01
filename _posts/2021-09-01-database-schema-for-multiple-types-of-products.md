@@ -171,6 +171,28 @@ Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một b
 
 ![Entity-Attribute-Value Pattern](https://boxxv.github.io/img/db/eva.png "Entity-Attribute-Value Pattern")
 
+Các phần phần tham gia vào EAV:
+- **Entity (entities)**: Bảng chứa thông tin cơ bản của đối tượng
+- **Attribute (attributes)**: Bảng chứa các thuộc tính ta có thể thêm vào
+- **Value (attribute_values)**: Bảng chứa tổng hợp giá trị của cả Entity và Attribute với 2 khóa ngoại được tham chiếu đến
+
+Mối quan hệ giữa các bảng:
+- **Value - Attribute**: 1-n (một Attribute có nhiều Value)
+- **Value - Entity**: n-n (một Entity có nhiều Value, một Value thuộc nhiều Entity)
+- **Entity - Attribute**: n-n (một sản phẩm có nhiều Attribute, một Attribute thuộc nhiều sản phẩm)
+
+Ví dụ về mối quan hệ giữa Entity-Attribute-Value:
+| value_id | entity_id | value | attribute_id |
+| -- | -- | -- | -- |
+| 1 | 1 | "S" | 1 |
+| 2 | 1 | "Trắng" | 2 |
+| 3 | 1 | 30 | 3 |
+| 4 | 1 | 100 | 4 |
+| 5 | 2 | "S" | 1 |
+| 6 | 2 | "Đen" | 2 |
+| 7 | 2 | 20 | 3 |
+| 8 | 2 | 200 | 4 |
+
 [https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model](https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model)
 
 [Tìm hiểu về Entity-Attribute-Value Pattern (EAV) (Structural Pattern)](https://viblo.asia/p/tim-hieu-ve-entity-attribute-value-pattern-eav-structural-pattern-Eb85okV452G)
