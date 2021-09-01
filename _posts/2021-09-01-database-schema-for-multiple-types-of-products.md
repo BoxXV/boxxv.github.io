@@ -198,6 +198,7 @@ Ví dụ về mối quan hệ giữa Entity-Attribute-Value:
 
 [Tìm hiểu về Entity-Attribute-Value Pattern (EAV) (Structural Pattern)](https://viblo.asia/p/tim-hieu-ve-entity-attribute-value-pattern-eav-structural-pattern-Eb85okV452G)
 
+
 -----
 [Database Schema for Multiple Types of Products](https://www.codingblocks.net/programming/database-schema-for-multiple-types-of-products/)  
 [How to design a product table for many kinds of product where each product has many parameters](https://stackoverflow.com/questions/695752/how-to-design-a-product-table-for-many-kinds-of-product-where-each-product-has-m)  
