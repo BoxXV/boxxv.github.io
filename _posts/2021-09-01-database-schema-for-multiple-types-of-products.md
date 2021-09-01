@@ -169,7 +169,7 @@ EAV Pattern Là một kỹ thuật thiết kế CSDL để đáp ứng được 
 
 Thực thể-Thuộc tính-Giá trị, Một bảng cho Sản phẩm và một bảng xoay các thuộc tính thành hàng, thay vì cột. EAV không phải là một thiết kế hợp lệ đối với mô hình quan hệ, nhưng nhiều người vẫn sử dụng nó. Đây là “Mô hình thuộc tính” được đề cập bởi một câu trả lời khác. Xem các câu hỏi khác với thẻ [eav](https://stackoverflow.com/questions/tagged/entity-attribute-value?tab=Active) trên StackOverflow để biết một số cạm bẫy.
 
-![Entity-Attribute-Value Pattern](https://boxxv.github.io/img/db/eva.png "Entity-Attribute-Value Pattern")
+![Entity-Attribute-Value Pattern](https://boxxv.github.io/img/db/eav.png "Entity-Attribute-Value Pattern")
 
 Các phần phần tham gia vào EAV:
 - **Entity (entities)**: Bảng chứa thông tin cơ bản của đối tượng
