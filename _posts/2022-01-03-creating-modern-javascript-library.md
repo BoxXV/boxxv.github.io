@@ -1094,8 +1094,75 @@ Vì `catlang-encoder` hoạt động phổ biến, bất kể khuôn khổ, chú
 
 #### `optionalDependencies`
 
+Bất kỳ phụ thuộc nào bạn muốn có nhưng có thể làm mà không có. Về mặt hiệu quả, không có gì đảm bảo rằng những phần phụ thuộc này sẽ được cài đặt: chúng thường được cài đặt nếu gói tương thích với hệ điều hành và nếu người dùng đồng ý cài đặt phần phụ thuộc đó. Trường hợp sử dụng chính cho trường này ngăn không cho gói của bạn cài đặt khi một trong các phần phụ thuộc của bạn không tương thích với kiến ​​trúc bộ xử lý, hệ điều hành, v.v.
+
+Điều quan trọng cần lưu ý là **một phụ thuộc có thể được cài đặt cho các chức năng bổ sung là một phụ thuộc ngang hàng tùy chọn**. Nếu bạn có thể cải thiện hoặc thêm chức năng vào một phần mã của mình nếu một phần phụ thuộc được cài đặt, thì đó là phần phụ thuộc ngang hàng tùy chọn chứ không phải phần phụ thuộc tùy chọn vì bạn không muốn phần phụ thuộc được cài đặt theo mặc định.
+
+Ví dụ: phần mở rộng `@discordjs/opus` cho `discord.js` cho phép hỗ trợ một số tính năng gọi thoại nhất định trong Discord API. Vì nhiều người dùng Discord API sẽ không cần hỗ trợ bằng giọng nói nên việc sử dụng `@discordjs/opus` trong `optionalDependencies` sẽ cài đặt nó theo mặc định, làm tăng thêm khối lượng. Do đó, đó là một phụ thuộc ngang hàng tùy chọn, tức là `@discordjs/opus` nằm trong `peerDependencies` và nó được chỉ định là tùy chọn bằng cách sử dụng trường `peerDependenciesMeta`:
+
+{% highlight js %}
+{
+  "@discordjs/opus": {
+    "optional": true
+  }
+}
+{% endhighlight %}
+
+(Lưu ý thêm, `discord.js` thực tế không làm điều này nữa; họ đã loại bỏ hoàn toàn phần phụ thuộc khỏi `package.json` và chỉ yêu cầu người dùng trong README cài đặt các phần phụ thuộc tùy chọn nếu họ muốn.)
+
+Đối với `catlang-encoder`, chúng tôi có thể tùy chọn sử dụng gói `utf-8-validate` nguyên bản để xác minh rằng các đầu vào cho bộ mã hóa là hợp lệ, nhưng không cần thiết vì quá trình xác thực không cần thiết. Vì nói chung, hầu hết người dùng không cần nó, chúng tôi biến nó thành một phụ thuộc ngang hàng tùy chọn. (Hãy nhớ sử dụng trình so khớp phiên bản lỏng lẻo với các phụ thuộc ngang hàng! Chúng tôi sẽ sử dụng `*` để hỗ trợ bất kỳ phiên bản nào của `utf-8-validate`.)
+
+Mặt khác, chúng tôi muốn sử dụng `catlang-concat` bất cứ khi nào có thể để nối các bộ đệm Catlang hiệu quả hơn, nhưng chúng tôi vẫn có thể thực hiện nối bộ đệm bình thường mà không có nó, vì vậy chúng tôi chỉ định nó như một phụ thuộc tùy chọn để nói với người quản lý gói một cách hiệu quả: "Tôi thực sự muốn catlang-concat nếu bạn có thể cài đặt nó, nhưng nếu không, tôi sẽ vẫn hoạt động nếu không có nó."
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "bin": "lib/cli.js",
+  "contributors": [
+    "Cat 2"
+  ],
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "catlang-dictionary": "^1.2.3"
+  },
+  "peerDependencies": {
+    "utf-8-validate": "*"
+  },
+  "peerDependenciesMeta": {
+    "utf-8-validate": {
+      "optional": true
+    }
+  },
+  "optionalDependencies": {
+    "catlang-concat": "^4.5.6"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
 
 
+#### `devDependencies`
 
 
 
