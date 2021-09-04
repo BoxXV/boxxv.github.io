@@ -553,7 +553,7 @@ Nếu bạn đang viết thư viện của mình bằng Flow, bạn có thể s�
 
 Hãy xem qua các trường mà một `package.json` điển hình sẽ chứa. Chúng tôi sẽ tạo một gói mẫu để mã hóa lại dữ liệu hoặc chuỗi UTF-8 thành định dạng "Catlang" hư cấu.
 
-### `name` (required)
+#### `name` (required)
 
 Tên thư viện của bạn. Ngay cả khi bạn có kiểu ưa thích, quy ước là sử dụng tất cả các chữ cái thường và dấu gạch ngang để phân tách các từ.
 
@@ -583,7 +583,7 @@ Nếu những điều trên đã được thực hiện:
 }
 {% endhighlight %}
 
-### `version` (required)
+#### `version` (required)
 
 Phiên bản hiện tại của gói. Bạn sẽ thay đổi điều này mỗi khi bạn muốn xuất bản một phiên bản mới của gói của mình. Cố gắng làm theo cách lập phiên bản ngữ nghĩa (thêm chi tiết về điều này sau). Đề xuất của tôi như sau:
 
@@ -620,7 +620,7 @@ Hãy cập nhật `package.json` của chúng tôi:
 }
 {% endhighlight %}
 
-### `description` (strongly recommended)
+#### `description` (strongly recommended)
 
 Mô tả ngắn gọn về những gì gói của bạn làm. Ngay cả khi tên là tự giải thích, nó không có hại để lặp lại chính mình. Mô tả được sử dụng cho các kết quả tìm kiếm trong NPM, vì vậy hãy đảm bảo làm nổi bật các tính năng chính nhất của thư viện. 
 
@@ -633,7 +633,7 @@ Mô tả ngắn gọn về những gì gói của bạn làm. Ngay cả khi tên
 {% endhighlight %}
 
 
-### `author` (strongly recommended)
+#### `author` (strongly recommended)
 
 Tên (và tùy chọn email và trang web) của tác giả của gói. Tối ưu, bạn sẽ sử dụng tên đầy đủ của mình ở đây, nhưng nếu bạn không thoải mái khi làm như vậy, bí danh trực tuyến của bạn sẽ đủ dùng. Trường có thể có một trong hai định dạng: 
 
@@ -664,7 +664,7 @@ Email và trang web là tùy chọn, nhưng bạn phải thêm tên hoặc bí d
 }
 {% endhighlight %}
 
-### `license` (strongly recommended)
+#### `license` (strongly recommended)
 
 Giấy phép mà mã thư viện của bạn có thể được sử dụng. Chúng tôi sẽ đề cập đến việc cấp phép nhiều hơn trong một bài viết khác, nhưng hiện tại, ít nhất bạn nên biết cú pháp.
 
@@ -696,7 +696,7 @@ Nếu bạn không biết gì về cấp phép và chỉ muốn tự do phân ph
 {% endhighlight %}
 
 
-### `keywords` (khuyến khích)
+#### `keywords` (khuyến khích)
 
 Các từ khóa để liên kết với thư viện của bạn trong tìm kiếm NPM. Đây là một cách để đưa gói của bạn vào các tìm kiếm không bao gồm bất kỳ từ nào trong trường `name` hoặc `description`. Mục đích của trường `keywords` là ngăn chặn spam từ khóa trong mô tả hoặc tiêu đề, nhưng bạn vẫn không nên sử dụng các thuật ngữ không liên quan trong các từ khóa.
 
@@ -719,7 +719,7 @@ Thêm từ khóa vào `package.json`:
 {% endhighlight %}
 
 
-### `homepage` (khuyến khích)
+#### `homepage` (khuyến khích)
 
 Trang web cho dự án của bạn. Đây có thể là một trang tài liệu, trang ví dụ, v.v. Nếu bạn có một trang web bao gồm thông tin về thư viện của mình, thậm chí là một bài đăng trên blog, hãy sử dụng nó tại đây. Tránh sử dụng liên kết đến mã nguồn của bạn (tức là kho lưu trữ GitHub của bạn) trừ khi bạn hoàn toàn không có trang web nào khác để liên kết đến. 
 
@@ -741,7 +741,7 @@ Trang web cho dự án của bạn. Đây có thể là một trang tài liệu,
 {% endhighlight %}
 
 
-### `repository` (recommended)
+#### `repository` (khuyến khích)
 
 Thông tin về kho lưu trữ. Giả sử bạn đang lưu trữ mã nguồn của mình trên hệ thống kiểm soát phiên bản (nếu không, bạn chắc chắn nên làm như vậy), hãy sử dụng một đối tượng có `type` loại và `url`:
 
@@ -778,7 +778,7 @@ Nếu thư viện của bạn là một phần của monorepo, bạn có thể c
 }
 {% endhighlight %}
 
-### `bugs` (khuyến khích)
+#### `bugs` (khuyến khích)
 
 Nơi người dùng nên báo cáo các vấn đề với thư viện. GitHub có một trình theo dõi vấn đề được tích hợp sẵn, vì vậy, bạn sẽ thường sử dụng miền phụ `/issue` của kho lưu trữ GitHub của mình cho việc này. Bạn có thể chỉ định một chuỗi nếu bạn chỉ muốn URL này: 
 
@@ -823,7 +823,7 @@ Tuy nhiên, nếu bạn cũng muốn thêm một email mà người dùng có th
 }
 {% endhighlight %}
 
-### `engines` (tùy chọn)
+#### `engines` (tùy chọn)
 
 Môi trường mà thư viện của bạn sẽ hoạt động. Điều này chỉ áp dụng cho các thư viện hỗ trợ Node.js (ví dụ: thư viện CSS không nên sử dụng trường này). Nếu thư viện của bạn không sử dụng các tính năng hiện đại của JavaScript (chẳng hạn như trình vòng lặp không đồng bộ), bạn cũng không cần chỉ định trường này. Định dạng như sau:
 
@@ -866,7 +866,7 @@ Giả sử `catlang-encoder` cần hỗ trợ cho các tính năng của ES6 nh�
 }
 {% endhighlight %}
 
-### `contributors` (tùy chọn)
+#### `contributors` (tùy chọn)
 
 Những người không phải là tác giả đã đóng góp một cách quan trọng vào dự án. Định dạng là một mảng đối tượng hoặc chuỗi có cùng định dạng với trường `author`. Ví dụ: 
 
@@ -915,7 +915,7 @@ Nếu bạn chủ yếu làm việc trên dự án này một mình (có thể v
 {% endhighlight %}
 
 
-### `bin` (tùy chọn)
+#### `bin` (tùy chọn)
 
 Vị trí của tệp nhị phân của gói. Nếu bạn đang phát triển một công cụ CLI, hãy đặt công cụ này thành điểm đầu vào của cơ sở mã của bạn. Tệp bạn đặt sẽ được thực thi bất cứ khi nào ai đó chạy `npm run your-package` hoặc `yarn run your-package`. Tất nhiên, bạn không cần trường này nếu bạn không muốn cung cấp công cụ CLI với gói của mình.
 
@@ -970,7 +970,7 @@ Nếu chúng ta có tệp thực thi CLI để mã hóa Catlang nhanh chóng và
 {% endhighlight %}
 
 
-### ` private`
+#### `private`
 
 Ngăn không cho gói của bạn được xuất bản nếu được đặt thành `true`. Rõ ràng, bạn không nên có trường này trong `package.json` của mình nhưng một số `projects/templates` dành cho người mới bắt đầu bao gồm `"private": true` trong `package.json` để ngăn bạn vô tình xuất bản mã không phải là một gói. Bạn sẽ muốn xóa trường `private` nếu nó tồn tại; nếu không, NPM sẽ từ chối xuất bản gói của bạn.
 
@@ -981,7 +981,70 @@ Có một số trường hiếm hơn mà đôi khi bạn có thể cần, chẳn
 {% endhighlight %}
 
 
-### Dependencies và exports
+## Dependencies và exports
+
+Bạn có thể nhận thấy rằng `package.json` cho `catlang-encoder` của chúng tôi không có phụ thuộc và không có xuất. Chúng tôi sẽ tìm hiểu cách bạn nên xử lý xuất trong bài viết tiếp theo, vì đây là một chủ đề khá phức tạp, nhưng ngay bây giờ chúng ta sẽ thảo luận về các phụ thuộc trong `package.json`.
+
+Theo nguyên tắc chung, bạn nên cố gắng giảm thiểu số lượng phụ thuộc mà bạn sử dụng. Nếu một phần phụ thuộc có dưới 20 dòng mã nguồn, thì logic có lẽ đủ đơn giản để bạn có thể tự viết lại nó vì điều đó sẽ giúp bạn dễ dàng duy trì cơ sở mã của mình hơn.
+
+Nếu bạn thực sự cần các phụ thuộc, có bốn trường bạn có thể sử dụng để chỉ định chúng: `dependencies`, `peerDependencies`, `optionalDependencies`, và `devDependencies`.
+
+
+####  dependencies
+
+Ánh xạ tên gói tới các phiên bản được hỗ trợ cho các phụ thuộc thời gian chạy của thư viện của bạn. Nếu bạn sử dụng mã từ thư viện khác trong thời gian chạy (tức là khi ai đó sử dụng gói của bạn), hãy thêm thư viện đó vào trường này. Cú pháp như sau:
+
+{% highlight js %}
+{
+  "some-package": "^2.3.1",
+  "other-package": ">=7.0.0",
+  "last-package": ">=2 <3"
+}
+{% endhighlight %}
+
+Các khóa của đối tượng là tên của các phụ thuộc, trong khi các giá trị là các phiên bản để chấp nhận. Cú pháp để chỉ định phiên bản được gọi là lập phiên bản ngữ nghĩa hoặc "semver". Chi tiết đầy đủ được nêu chi tiết trên trang web lập phiên bản ngữ nghĩa, nhưng nhìn chung bạn chỉ cần biết hai điều:
+
+    Phiên bản thực tế của một gói luôn là ba số được phân tách bằng dấu chấm, như trong trường phiên bản của package.json
+    Sự phụ thuộc trong package.json có thể sử dụng số nhận dạng phiên bản, tham chiếu đến một hoặc nhiều phiên bản của gói
+
+Khi người dùng cài đặt gói của bạn, trình quản lý gói của họ sẽ thấy tất cả các phần phụ thuộc trong package.json và tải xuống các phần có liên quan
+Có nhiều loại số nhận dạng phiên bản, nhưng những loại phù hợp nhất là sau:
+
+    Số nhận dạng chính xác, chỉ là số phiên bản. Họ có thể loại trừ bản vá và các phiên bản nhỏ.
+        1.0.1 chỉ khớp với v1.0.1
+        1.0.0-rc.0 chỉ khớp với v1.0.0-rc.0 (đây là cách duy nhất để tải phiên bản phát hành trước của một gói)
+        0.10 khớp với bất kỳ phiên bản nào trong phạm vi v0.10 (ít nhất là v0.10.0, trước v0.11.0)
+        1 khớp với bất kỳ phiên bản nào trong phạm vi v1 (ít nhất là v1.0.0, trước v2.0.0)
+    Giá trị nhận dạng so sánh, khớp với các phiên bản trên hoặc dưới một phiên bản cụ thể
+        > 1.1.3 khớp với các phiên bản gần đây hơn v1.1.3 (v1.1.4, v2.0.4, v.v. tất cả đều hoạt động)
+        <= 2.8.7 khớp với các phiên bản cũ hơn hoặc bằng v2.8.7 (v2.8.7, v1.0.1, v0.0.1 đều hoạt động)
+    Đối sánh tất cả các số nhận dạng, sử dụng x hoặc * để đánh dấu một phần của chuỗi semver có thể là bất kỳ phiên bản nào
+        1.x khớp với bất kỳ phiên bản nào trong phạm vi v1 (giống như 1)
+        * phù hợp với tất cả các phiên bản của gói
+        2.3. * Khớp với bất kỳ phiên bản nào trong phạm vi v2.3 (như 2.3)
+        Cẩn thận: 2. *. 0 khớp với bất kỳ phiên bản nào trong phạm vi v2, không chỉ phiên bản vá 0
+    Số nhận dạng chữ số thứ hai, sử dụng dấu ngã để khớp với chữ số thứ hai của phiên bản với điều kiện là chữ số thứ ba lớn hơn hoặc bằng chữ số được chỉ định trong số nhận dạng
+        ~ 1.2.3 phù hợp với tất cả các phiên bản> = 1.2.3 và <1.3.0
+        ~ 0.4.0 phù hợp với tất cả các phiên bản> = 0.4.0 và <0.5.0
+    Trình so khớp phiên bản chính, sử dụng ^ để khớp với chữ số khác không đầu tiên
+        Về mặt kỹ thuật, chữ số đầu tiên, không hoặc khác, luôn là phiên bản chính. Tuy nhiên, khi chữ số đầu tiên là số 0, một sự thay đổi lớn đối với chữ số thứ hai là một thay đổi đáng kể và ^ ngăn thư viện của bạn vô tình chấp nhận thay đổi quan trọng, có thể phá vỡ đó.
+        Đây là trình kết hợp phổ biến nhất
+        ^ 3.2.1 khớp với bất kỳ phiên bản nào trong phạm vi v3
+        ^ 0.4.0 khớp với bất kỳ phiên bản nào trong phạm vi v0.4
+        ^ 0.0.5 chỉ khớp với v0.0.5
+
+Điều cuối cùng: bạn có thể kết hợp các số nhận dạng phiên bản bằng cách sử dụng dấu cách giữa hai trong số chúng. Mã định danh mới khớp nếu cả hai mã số phụ khớp nhau. Nói cách khác:
+
+    > = 1.5 <3 khớp với các phiên bản ít nhất là v1.5 nhưng thấp hơn v3 (tức là nhiều nhất là v2)
+    1.x <= 1.8 khớp với các phiên bản bắt đầu bằng v1 nhưng nhiều nhất là v1.8
+
+Nếu bạn không chắc rằng chuỗi semver của mình là chính xác, bạn luôn có thể thử công cụ này để kiểm tra xem nó có khớp với các phiên bản phụ thuộc của bạn theo cách bạn muốn hay không.
+
+Giả sử chúng ta cần từ điển catlang để cho chúng tôi biết những từ nào có bản dịch trực tiếp sang các glyph ngắn hơn trong Catlang và chúng tôi nhận thấy rằng phiên bản 1.2.3 hoạt động tốt. Giả sử rằng từ điển catlang tuân theo cách lập phiên bản ngữ nghĩa, bạn nên sử dụng ^ 1.2.3 làm mã định danh phiên bản.
+
+
+
+
 
 
 
