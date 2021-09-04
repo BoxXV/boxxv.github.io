@@ -255,7 +255,7 @@ Mẹo: Chúng tôi cũng có thể lưu trữ thư mục `dist` trên CDN, cho n
 
 ## Chúng ta nên xây dựng cái này như thế nào?
 
-Chúng ta nên có các tập lệnh khác nhau cho từng hệ thống đích trong package.json. Bạn có thể tìm thấy cấu hình cuộn lên trong repo GitHub.
+Chúng ta nên có các tập lệnh khác nhau cho từng hệ thống đích trong `package.json`. Bạn có thể tìm thấy [rollup config](https://github.com/kamleshchandnani/js-module-system/blob/master/rollup.config.js) trong repo GitHub.
 
 {% highlight js %}
 // package.json
@@ -270,12 +270,12 @@ Chúng ta nên có các tập lệnh khác nhau cho từng hệ thống đích t
 - License
 - README
 - Changelog
-- Metadata(main , module, bin) — package.json
-- Control through package.json files property
+- Metadata(`main` , `module`, `bin`) — package.json
+- Control through **package.json** `files` property
 
-Trong package.json, trường "tệp" là một mảng các mẫu tệp mô tả các mục nhập sẽ được đưa vào khi gói của bạn được cài đặt dưới dạng phụ thuộc. Nếu bạn đặt tên một thư mục trong mảng, thì nó cũng sẽ bao gồm các tệp bên trong thư mục đó.
+Trong `package.json`, trường `"tệp"` là một mảng các mẫu tệp mô tả các mục nhập sẽ được đưa vào khi gói của bạn được cài đặt dưới dạng phụ thuộc. Nếu bạn đặt tên một thư mục trong mảng, thì nó cũng sẽ bao gồm các tệp bên trong thư mục đó.
 
-Chúng tôi sẽ bao gồm các thư mục lib và dist trong trường "tệp" trong trường hợp của chúng tôi. 
+Chúng tôi sẽ bao gồm các thư mục `lib` và `dist` trong trường `"tệp"` trong trường hợp của chúng tôi.
 
 {% highlight js %}
 // package.json
@@ -285,7 +285,7 @@ Chúng tôi sẽ bao gồm các thư mục lib và dist trong trường "tệp" 
 {..."files": ["dist", "lib"]...}
 {% endhighlight %}
 
-Cuối cùng thì thư viện đã sẵn sàng để xuất bản. Chỉ cần gõ lệnh npm run build trong terminal và bạn có thể thấy kết quả sau. Xem kỹ các thư mục dist và lib. ?
+Cuối cùng thì thư viện đã sẵn sàng để xuất bản. Chỉ cần gõ lệnh `npm run build` trong terminal và bạn có thể thấy kết quả sau. Xem kỹ các thư mục `dist` và `lib`. ?
 
 ![npm](https://boxxv.github.io/img/posts/1 C0wMVo17NTVcTroA8dPe9g.png "Ready to publish ?")
 
@@ -296,11 +296,11 @@ Cuối cùng thì thư viện đã sẵn sàng để xuất bản. Chỉ cần g
 
 Chỉ cần đảm bảo rằng bạn quan tâm đến những điều sau:
 
-1. Làm cho nó Cây có thể Rung. ?
-2. Nhắm mục tiêu ít nhất là hệ thống mô-đun ES Harmony và CJS. ?
-3. Sử dụng Babel và Bundlers cho các thư viện. ?
-4. Sử dụng Bundlers cho các gói Core. ?
-5. Đặt trường mô-đun của package.json trỏ đến phiên bản ES của mô-đun của bạn (PS: Nó giúp rung cây). ?
+1. Làm cho nó **Tree Shakeable**. ?
+2. Nhắm mục tiêu ít nhất là hệ thống mô-đun **ES Harmony** và **CJS**. ?
+3. Sử dụng **Babel** và **Bundlers** cho các thư viện. ?
+4. Sử dụng **Bundlers** cho các gói Core. ?
+5. Đặt trường `module` của `package.json` trỏ đến phiên bản **ES** của mô-đun của bạn (PS: Nó giúp rung cây). ?
 6. Xuất bản các thư mục đã chuyển đổi cũng như các phiên bản đi kèm của mô-đun của bạn. ? 
 
 
