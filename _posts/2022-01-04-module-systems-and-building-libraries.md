@@ -159,15 +159,15 @@ Bây giờ chúng ta hãy xem xét từng công cụ sau:
 
 [Webpack](https://webpack.js.org) là một trình gói mô-đun tuyệt vời? được chấp nhận rộng rãi và chủ yếu được sử dụng để xây dựng các SPA. Nó cung cấp cho bạn tất cả các tính năng như tách mã ([code splitting](https://webpack.js.org/guides/code-splitting/)), [tải không đồng bộ](https://webpack.js.org/guides/code-splitting/#dynamic-imports) các gói, [tree shaking](https://webpack.js.org/guides/tree-shaking/), v.v. Nó sử dụng hệ thống mô-đun **CommonJS**.
 
-PS: Webpack-4.0.0 alpha đã ra mắt chưa ?. Hy vọng rằng với bản phát hành ổn định, nó sẽ trở thành gói phổ biến cho tất cả các loại hệ thống mô-đun.
+PS: [Webpack-4.0.0](https://github.com/webpack/webpack/issues/6064) alpha đã ra mắt chưa ?. Hy vọng rằng với bản phát hành ổn định, nó sẽ trở thành gói phổ biến cho tất cả các loại hệ thống mô-đun.
 
 ### RollupJS
 
-Rollup cũng là một gói mô-đun tương tự như Webpack. Tuy nhiên, ưu điểm chính của cuộn lên là nó tuân theo định dạng chuẩn hóa mới cho các mô-đun mã có trong bản sửa đổi ES6, vì vậy bạn có thể sử dụng nó để gói biến thể mô-đun ES của thư viện / gói của bạn. Nó không hỗ trợ tải các gói không đồng bộ.
+[Rollup](https://rollupjs.org) cũng là một gói mô-đun tương tự như Webpack. Tuy nhiên, ưu điểm chính của cuộn lên là nó tuân theo định dạng chuẩn hóa mới cho các mô-đun mã có trong bản sửa đổi `ES6`, vì vậy bạn có thể sử dụng nó để gói biến thể `mô-đun ES` của library/package của bạn. Nó không hỗ trợ tcác gói **ải không đồng bộ**.
 
 ### Babel
 
-Babel là một trình chuyển tiếp cho JavaScript được biết đến nhiều nhất với khả năng biến mã ES6 thành mã chạy trong trình duyệt của bạn (hoặc trên máy chủ của bạn) hiện nay. Hãy nhớ rằng nó chỉ chuyển vị và không gói mã của bạn.
+[Babel](https://babeljs.io) là một trình chuyển tiếp (transpiler) cho JavaScript được biết đến nhiều nhất với khả năng biến mã ES6 thành mã chạy trong trình duyệt của bạn (hoặc trên máy chủ của bạn) hiện nay. Hãy nhớ rằng nó chỉ chuyển vị và không gói mã của bạn.
 
 Lời khuyên của tôi: sử dụng Rollup cho thư viện và Webpack cho ứng dụng.
 
@@ -183,16 +183,16 @@ Sau khi xem xét kết quả xây dựng cho các thư viện / gói khác nhau,
 
 Như bạn có thể thấy trong hình ảnh trên, tôi đã chia các thư viện / gói này thành hai nhóm dựa trên đặc điểm của chúng:
 
-1. Thư viện giao diện người dùng (theo kiểu-thành phần, vật liệu-ui)
-2. Gói cốt lõi (phản ứng, phản ứng-dom)
+1. Thư viện giao diện người dùng UI (`styled-components`, `material-ui`)
+2. Core Packages (`react`, `react-dom`)
 
 Nếu bạn là một người quan sát tốt? bạn có thể đã tìm ra sự khác biệt giữa hai nhóm này.
 
-Thư viện giao diện người dùng có một thư mục dist có phiên bản được đóng gói và rút gọn cho các hệ thống mô-đun ES và UMD / CJS làm mục tiêu. Có một thư mục lib có phiên bản chuyển đổi của thư viện.
+**UI** Thư viện giao diện người dùng có một thư mục `dist` có phiên bản được đóng gói và rút gọn cho các hệ thống mô-đun `ES` và `UMD/CJS` làm mục tiêu. Có một thư mục `lib` có phiên bản chuyển đổi của thư viện.
 
-Các Gói Lõi chỉ có một thư mục có phiên bản được đóng gói và rút gọn cho hệ thống mô-đun CJS hoặc UMD làm mục tiêu.
+Các `Core Packages` chỉ có một thư mục có phiên bản được đóng gói và rút gọn cho hệ thống mô-đun `CJS` hoặc `UMD` làm mục tiêu.
 
-Nhưng tại sao lại có sự khác biệt trong kết quả xây dựng của thư viện UI và Gói lõi? ? 
+**Nhưng tại sao lại có sự khác biệt trong kết quả xây dựng của thư viện UI và Gói lõi?**
 
 
 ### UI Libraries
