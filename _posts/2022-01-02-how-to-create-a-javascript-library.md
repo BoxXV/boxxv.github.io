@@ -113,7 +113,9 @@ Hãy nhớ rằng, không ai muốn dành thời gian của họ để kỹ thu�
 
 Tại Bugfender, chúng tôi là những nhà phát triển và chúng tôi muốn chia sẻ những kiến ​​thức của mình với cộng đồng. Bạn có thể đăng ký nhận bản tin hàng quý không có spam của chúng tôi trong hộp bên dưới hoặc bạn có thể tiếp tục đọc một trong các bài đăng liên quan sau:
 
-
+- [How to Create an npm Package Ready to Distribute From Scratch](https://bugfender.com/blog/how-to-create-an-npm-package/)
+- [How to debug your web app using the Bugfender SDK for JavaScript](https://bugfender.com/blog/introducing-the-bugfender-web-sdk/)
+- [From a side project to a sustainable $20K MRR business](https://bugfender.com/blog/bugfender-growth-from-side-project-to-a-sustainable-20k-mrr-business/)
 
 
 -----
