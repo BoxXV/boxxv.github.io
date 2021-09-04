@@ -521,7 +521,33 @@ export default myPackage;
 
 Bây giờ bạn đã có một index.d.ts hoàn chỉnh, bạn có thể thực hiện một trong hai việc. Bạn có thể:
 - Thêm nó vào gói NPM của riêng bạn, như với phiên bản TypeScript
-- Thêm nó vào kho lưu trữ chắc chắn
+- Thêm nó vào kho lưu trữ [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped) để tự động nhận gói `@types/your-package-name`
+
+Tôi khuyên bạn nên thêm khai báo vào gói NPM vì điều đó làm giảm lượng thời gian và công sức cần thiết để cập nhật gói của bạn, cũng như mang lại cho bạn sự linh hoạt hơn liên quan đến các tính năng TypeScript mà bạn có thể sử dụng và loại bỏ nhu cầu thêm các bài kiểm tra.
+
+Tuy nhiên, nếu bạn có nhiều phụ thuộc có các kiểu bạn cần bao gồm (ví dụ: nếu bạn xuất một thành phần React, bạn phụ thuộc vào các kiểu gõ React), bạn cần thêm `@types/dependency-name` vào các `dependencies` của mình, không phải `devDependencies`, và điều đó bổ sung phình to cho người dùng cuối của bạn không sử dụng TypeScript. Trong những trường hợp đó, tốt hơn hết là bạn nên xuất bản lên DefiniedlyTyped.
+
+
+### What about Flow?
+
+Quá trình hỗ trợ người dùng Flow cực kỳ giống với quá trình của TypeScript. Thay vì thêm tệp định nghĩa vào `"types"` trong `package.json`, hãy tạo tệp `.js.flow` cùng với mọi tệp `.js` đang được xuất (ví dụ: nếu bạn xuất `lib/index.js`, hãy đảm bảo tạo `lib/index.js.flow` với các định nghĩa). Xem [tài liệu](https://flow.org/en/docs/libdefs/creation/) về cách tạo định nghĩa như vậy. Nếu bạn muốn tự mình hỗ trợ Flow, đừng xuất bản lên [flow-type](https://github.com/flow-typed/flow-typed); nó chủ yếu dành cho các thành viên cộng đồng tạo ra các loại của riêng họ cho các gói của bên thứ ba và xuất bản chúng ở đó.
+
+{% highlight js %}
+// @flow
+
+// If this is an ES Module:
+declare export function sayHello(to: string): void;
+
+// Alternatively, if this is CommonJS:
+declare module.exports: {
+  sayHello(to: string): void;
+}
+{% endhighlight %}
+
+
+
+
+
 
 
 
