@@ -1081,10 +1081,18 @@ Giả sử chúng ta cần `catlang-dictionary` để cho chúng tôi biết nh�
 
 #### `peerDependencies`
 
+Các phần phụ thuộc mà gói của bạn đã được cài đặt dưới dạng tiện ích bổ sung, tiện ích mở rộng hoặc tích hợp. Sự khác biệt giữa các `dependencies` và `peerDependencies` là `peerDependencies` không được cài đặt tự động và thường được sử dụng để biểu thị những gì mà thư viện của bạn tích hợp hoặc mở rộng.
+
+Thật khó để xác định chính xác khi nào bạn nên sử dụng phụ thuộc ngang hàng thay vì phụ thuộc, nhưng nếu người dùng cài đặt thư viện của bạn chỉ vì họ đang trực tiếp sử dụng một gói nhất định, hãy thêm gói đó vào `peerDependencies`.
+
+Ví dụ: một thư viện thành phần React sẽ có `"react"` trong `peerDependencies` và một plugin Babel sẽ có `"@babel/core"` trong `peerDependencies`. Mặt khác, một trình bao bọc JavaScript cho API REST có thể để lại tính năng tìm `node-fetch` trong các `dependencies` thay vì `peerDependencies`. `node-fetch` không được người dùng sử dụng trực tiếp và không phải là lý do gói được cài đặt; điều quan trọng là để các yêu cầu HTTP diễn ra suôn sẻ.
+
+Điều rất quan trọng là bạn phải **sử dụng số nhận dạng phiên bản lỏng lẻo cho các peer dependencies**. Ví dụ: nếu bạn sử dụng `~16.3` làm phiên bản React trong thư viện thành phần React của mình, khi người dùng của bạn cập nhật lên React v16.8, họ sẽ nhận được cảnh báo về các phiên bản không tương thích mặc dù thư viện của bạn có thể vẫn hoạt động trong v16.8. Tốt hơn hết bạn nên sử dụng `^16.3` hoặc nếu bạn nghĩ rằng phiên bản chính tiếp theo sẽ không phá vỡ gói của bạn, `>=16.3`.
+
+Vì `catlang-encoder` hoạt động phổ biến, bất kể khuôn khổ, chúng tôi không cần bất kỳ phụ thuộc ngang hàng nào và sẽ không cần sửa đổi `package.json` của chúng tôi.
 
 
-
-
+#### `optionalDependencies`
 
 
 
