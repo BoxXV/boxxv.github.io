@@ -306,9 +306,9 @@ Chỉ cần đảm bảo rằng bạn quan tâm đến những điều sau:
 
 ## Xu hướng trong tuần này?
 
-1. Webpack-V4 alpha được phát hành. ?
-2. ParcelJs: Gói ứng dụng web không cấu hình nhanh chóng. ?
-3. Turbo: Nhanh hơn gấp 5 lần so với Yarn & NPM và chạy nguyên bản trong trình duyệt?
+1. [Webpack-V4](https://github.com/webpack/webpack/issues/6064) alpha được phát hành. ?
+2. [ParcelJs](https://parceljs.org): Gói ứng dụng web không cấu hình nhanh chóng. ?
+3. [Turbo](https://medium.com/stackblitz-blog/introducing-turbo-5x-faster-than-yarn-npm-and-runs-natively-in-browser-cc2c39715403): Nhanh hơn gấp 5 lần so với Yarn & NPM và chạy nguyên bản trong trình duyệt?
 
 Cảm ơn Juho Vepsäläinen và Lakshya Ranganath vì những đánh giá và phản hồi của họ, Sean T. Larkin và Tobias Koppers đã chia sẻ những hiểu biết sâu sắc về webpack tại ReactiveConf, Addy Osmani vì đã chia sẻ hoạt động của các Hệ thống mô-đun JS khác nhau trong “Viết JavaScript mô-đun với AMD, CommonJS & ES Hòa hợp".
 
