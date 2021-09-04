@@ -544,7 +544,10 @@ declare module.exports: {
 }
 {% endhighlight %}
 
+Nếu bạn đang viết thư viện của mình bằng Flow, bạn có thể sử dụng [công cụ xây dựng](https://www.npmjs.com/package/flow-copy-source) để tự động hóa quy trình. Ngoài ra, sử dụng [flowgen](https://github.com/joarwilk/flowgen) để chỉ cần duy trì tệp định nghĩa TypeScript và tự động hóa quy trình hỗ trợ Flow. Trong mọi trường hợp, Flow là khá hiếm ngày nay; chỉ hỗ trợ TypeScript có lẽ sẽ không bao giờ là một vấn đề. 
 
+
+# package.json và dependencies
 
 
 
