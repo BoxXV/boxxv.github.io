@@ -303,8 +303,149 @@ Nếu bạn thực sự muốn thu nhỏ kích thước của mã gói của mì
 Dài quá; đừng đọc: Tự làm mọi thứ
 
 
+### That's it!
+
+Vào cuối ngày, thư viện hữu ích như thế nào phụ thuộc nhiều nhất vào mức độ khó khăn khi giải quyết vấn đề mà nó giải quyết. Không ai muốn viết một thuật toán SHA-256 từ đầu, vì vậy ngay cả những [thư viện mật mã không rõ ràng cũng rất phổ biến](https://www.npmjs.com/package/sha.js). Mặt khác, các thư viện thao tác DOM rất tốn kém, vì vậy ngay cả một số [khung giao diện người dùng tuyệt vời cũng nhận được rất ít lượt tải xuống](https://www.npmjs.com/package/solid-js). Tuy nhiên, mã tốt được đánh giá rất cao cho dù có bao nhiêu người đang sử dụng nó. Tôi hy vọng những lời khuyên này hữu ích. Cảm ơn vì đã đọc!
 
 
+# TypeScript và Flow
+
+Trước khi tìm hiểu những gì bạn cần để hỗ trợ TypeScript và Flow, chúng ta hãy nghĩ về lý do tại sao mọi người sử dụng chúng ngay từ đầu. Vấn đề chính là JavaScript là một ngôn ngữ được gõ động, yếu, nhưng nhiều lập trình viên muốn gõ tĩnh (và đôi khi là mạnh).
+
+Nhập động có nghĩa là không có kiểu nào tại thời điểm biên dịch. Điều này có nghĩa là bạn có thể vô tình thêm một hàm và một số, nhưng bạn sẽ không biết cho đến khi chạy. Rất ít ngôn ngữ được thông dịch và biên dịch JIT hỗ trợ nhập tĩnh. 
+
+{% highlight js %}
+// There is no way to declare a type for a and b, even
+// though a clearly needs to be a function
+const myFunction = (a, b) => {
+  return a(b);
+}
+
+// This function call does not throw a type error
+// until it is executed, but a statically typed
+// language would not compile.
+
+// Think of a compile-time type error like a syntax
+// error. Your code doesn't need to run for a type
+// error to occur in statically typed languages.
+const myResult = myFunction(
+  { you: 'should not' },
+ 'be able to do this'
+);
+{% endhighlight %}
+
+Ngược lại, một ngôn ngữ như C sẽ không bao giờ cho phép những thứ như thế này:
+
+{% highlight js %}
+#include <stdio.h>
+
+// This throws a compile time warning (or error,
+// depending on your configuration)
+const char* example() {
+  // Not a string literal, so the program does
+  // not compile and you cannot run it
+  return 20;
+}
+
+int main() {
+  printf("%s", example());
+  return 0;
+}
+{% endhighlight %}
+
+Đánh máy yếu có nghĩa là JavaScript sẽ không gặp crash/throw khi thực hiện một thao tác bất hợp pháp và thay vào đó sẽ cố gắng làm cho thao tác đó hoạt động. Loại hành vi này là nguồn gốc của [nhiều WTF](https://github.com/denysdovhan/wtfjs) của các nhà phát triển JS.
+
+{% highlight js %}
+// This is perfectly valid JavaScript
+const weirdAddition = [] + [];
+console.log(weirdAddition); // ""
+
+// That worked because the engine implicitly called
+// [].toString() when it saw the addition operator.
+
+// An empty array gives an empty string, hence the
+// result is "" + "" = "".
+{% endhighlight %}
+
+Hành vi này hoàn toàn trái ngược với Python: bất kỳ hoạt động không hợp lệ nào sẽ ngay lập tức gây ra ngoại lệ. Ngay cả khi thêm một chuỗi và một số cũng sẽ không thành công và yêu cầu bạn chuyển đổi số thành chuỗi trước.
+
+{% highlight js %}
+a = '9 + 10 = '
+b = 9 + 10
+
+# This fails: you must explicitly cast b to string
+print(a + b)
+
+# Only this works
+print(a + str(b))
+{% endhighlight %}
+
+Mặc dù hệ thống kiểu hầu như không tồn tại của JavaScript giúp các lập trình viên linh hoạt hơn, nhưng nó cũng là nguồn gốc của nhiều lỗi. Đang gõ động và gõ yếu, bạn sẽ không gặp lỗi nếu bạn mắc lỗi với các kiểu. Do đó, các lập trình viên muốn có một giải pháp để thêm các loại vào JavaScript.
+
+Nhập TypeScript: một phần mở rộng cho JavaScript bổ sung hỗ trợ cú pháp cho các kiểu đánh máy, trình biên dịch và hỗ trợ tự động hoàn thành đáng kinh ngạc mà trước đây chưa từng có trong JavaScript.
+
+{% highlight js %}
+// TypeScript accepts reasonable implicit conversions
+const myFunction = (x: number) => 'hello ' + x;
+
+// This will not compile, even with an explicit return type
+// Adding arrays is not a reasonable use of dynamic typing
+const myOtherFunction = (
+  x: string[],
+  y: string[]
+): string => x + y;
+
+// This will fail at compile time as well, since the first
+// parameter of myFunction must be a number
+myFunction('hello');
+{% endhighlight %}
+
+Tôi thực sự khuyên bạn nên sử dụng TypeScript trong thư viện của mình vì nó biên dịch sang bất kỳ phiên bản JavaScript nào, thậm chí sớm nhất là ES3. Bạn có thể hỗ trợ các môi trường JS cũ và hiện đại, hỗ trợ cả người dùng JavaScript và TypeScript, đồng thời ngăn chặn các lỗi trong mã của bạn bằng cách sử dụng TypeScript. Cho dù bạn quyết định sử dụng TS hay không, việc hỗ trợ người dùng TS có thể gây nhầm lẫn, vì vậy hãy đọc tiếp.
+
+
+### Hỗ trợ TypeScript từ một dự án TypeScript
+
+Nếu thư viện của bạn được viết bằng TypeScript, bạn có thể tự động tạo cả mã JavaScript (để hỗ trợ tất cả người dùng) và tệp khai báo TypeScript (thêm các loại TypeScript vào mã JavaScript). Bạn sẽ hầu như không bao giờ cần xuất các tệp TypeScript trong gói của mình, trừ khi tất cả người dùng của bạn sẽ sử dụng TypeScript (tức là cho một cái gì đó như [typegoose](https://github.com/typegoose/typegoose)).
+
+Điều chính bạn cần làm là bật [`declaration`](https://www.typescriptlang.org/tsconfig#declaration) tùy chọn biên dịch trong [tsconfig.json](https://www.typescriptlang.org/tsconfig#declaration).
+
+{% highlight js %}
+{
+  "compilerOptions": {
+    "outDir": "lib/",
+    // This is the relevant option
+    // The types you need will be exported to lib/
+    "declaration": true
+  }
+}
+{% endhighlight %}
+
+Nếu bạn không sử dụng trình biên dịch TypeScript để xây dựng mã của mình (bằng cách sử dụng tùy chọn `noEmit`), bạn cũng sẽ muốn sử dụng `emitDeclarationOnly`.
+
+{% highlight js %}
+{
+  "compilerOptions": {
+    "outDir": "lib/",
+    "declaration": true,
+    // Remove noEmit and replace it with this
+    "emitDeclarationOnly": true
+  }
+}
+{% endhighlight %}
+
+Sau đó, trong `package.json`, hãy sử dụng trường `"types"` để bao gồm các loại của bạn.
+
+{% highlight js %}
+{
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts"
+}
+{% endhighlight %}
+
+
+### Hỗ trợ TypeScript từ một dự án JavaScript
+
+Cũng giống như với một dự án TypeScript, bạn cần xuất cả tệp JavaScript và tệp khai báo TypeScript để làm cho mã của bạn có thể sử dụng được cho cả người dùng TypeScript và JavaScript.
 
 
 
