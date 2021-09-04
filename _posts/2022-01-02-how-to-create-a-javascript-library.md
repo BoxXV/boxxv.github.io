@@ -40,7 +40,7 @@ Trước đây, bạn sẽ tạo một tệp mới, dán mã của bạn và đ�
 
 Vì lý do này, cách phổ biến nhất để tạo thư viện hiện nay là sử dụng `npm`. Các thư viện được tạo cho npm phải tuân theo một quy ước chính xác liên quan đến cấu trúc của chúng, vì vậy phải rõ ràng thư viện làm gì và những phụ thuộc nào khác được yêu cầu.
 
-Chúng tôi đã viết một hướng dẫn đầy đủ về [cách tạo và phân phối thư viện JavaScript trong gói npm](https://boxxv.github.io/2022/01/01/creating-modern-javascript-library/) , trong đó chúng tôi kết hợp quy trình làm việc chính thức với nhiều mẹo mà chúng tôi đã học được khi phát triển Bugfender JS.
+Chúng tôi đã viết một hướng dẫn đầy đủ về [cách tạo và phân phối thư viện JavaScript trong gói npm](https://boxxv.github.io/2022/01/01/how-to-create-an-npm-package/) , trong đó chúng tôi kết hợp quy trình làm việc chính thức với nhiều mẹo mà chúng tôi đã học được khi phát triển Bugfender JS.
 
 
 ### Nếu tôi không muốn sử dụng npm thì sao?
