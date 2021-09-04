@@ -3,8 +3,8 @@ layout: post
 title: Tạo thư viện JavaScript hiện đại
 subtitle: Tạo gói npm sẵn sàng phân phối từ đầu
 tags:
-- Tips
-- Tricks
+- module
+- npm
 - JavaScript
 - library
 ---

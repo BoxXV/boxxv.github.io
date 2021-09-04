@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cách tạo Thư viện JavaScript
-subtitle: 7 mẹo để tạo một thư viện mà mọi nhà phát triển yêu thích sử dụng
+title: Hệ thống mô-đun JavaScript và xây dựng thư viện của riêng bạn
+subtitle: Learn the basics of the JavaScript module system and build your own library
 tags:
 - module
 - npm
