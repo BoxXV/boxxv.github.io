@@ -721,30 +721,107 @@ Thêm từ khóa vào `package.json`:
 
 ### `homepage` (khuyến khích)
 
-
+Trang web cho dự án của bạn. Đây có thể là một trang tài liệu, trang ví dụ, v.v. Nếu bạn có một trang web bao gồm thông tin về thư viện của mình, thậm chí là một bài đăng trên blog, hãy sử dụng nó tại đây. Tránh sử dụng liên kết đến mã nguồn của bạn (tức là kho lưu trữ GitHub của bạn) trừ khi bạn hoàn toàn không có trang web nào khác để liên kết đến. 
 
 {% highlight js %}
-
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "license": "MIT"
+}
 {% endhighlight %}
 
 
-### `description` (recommended)
+### `repository` (recommended)
 
-
-
-{% highlight js %}
-
-{% endhighlight %}
-
-
-### `description` (khuyến khích)
-
-
+Thông tin về kho lưu trữ. Giả sử bạn đang lưu trữ mã nguồn của mình trên hệ thống kiểm soát phiên bản (nếu không, bạn chắc chắn nên làm như vậy), hãy sử dụng một đối tượng có `type` loại và `url`:
 
 {% highlight js %}
-
+{
+  "type": "git",
+  "url": "https://domain.com/your-name/your-library.git"
+}
 {% endhighlight %}
 
+Có một số cách viết tắt, chẳng hạn như chỉ sử dụng URL và để NPM đoán loại kho lưu trữ là gì, nhưng tôi khuyên bạn không nên làm điều này vì mục đích rõ ràng.
+
+Nếu thư viện của bạn là một phần của monorepo, bạn có thể chỉ định trường con `directory` để biểu thị thư mục con chứa gói. Nếu bạn không sử dụng monorepo hoặc không biết monorepo là gì, đừng sử dụng `directory`.
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "author": "Cat <cat@gmail.com>",
+  "description": "Fast Unicode to Catlang converter",
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
+
+### `bugs` (khuyến khích)
+
+Nơi người dùng nên báo cáo các vấn đề với thư viện. GitHub có một trình theo dõi vấn đề được tích hợp sẵn, vì vậy, bạn sẽ thường sử dụng miền phụ `/issue` của kho lưu trữ GitHub của mình cho việc này. Bạn có thể chỉ định một chuỗi nếu bạn chỉ muốn URL này: 
+
+{% highlight js %}
+"https://github.com/your-name/your-library/issues"
+{% endhighlight %}
+
+Tuy nhiên, nếu bạn cũng muốn thêm một email mà người dùng có thể báo cáo lỗi, bạn có thể sử dụng biểu mẫu đối tượng: 
+
+{% highlight js %}
+{
+  "email": "youremail@yourdomain.com",
+  "url": "https://github.com/your-name/your-library/issues"
+}
+{% endhighlight %}
+
+`package.json` đã cập nhật:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
 
 ### `description` (khuyến khích)
 
