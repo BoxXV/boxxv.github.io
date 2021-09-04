@@ -1164,6 +1164,61 @@ Mặt khác, chúng tôi muốn sử dụng `catlang-concat` bất cứ khi nào
 
 #### `devDependencies`
 
+Danh sách các phụ thuộc không cần thiết trong thời gian chạy nhưng cần thiết để phát triển thư viện. Các gói này không bao giờ được cài đặt khi người dùng tải xuống gói của bạn; tuy nhiên, khi bạn chạy `npm`/`fiber`/`pnpm install`, các gói đó sẽ được thêm vào. Điều này thường được lấp đầy với các gói cần thiết để xây dựng mã nguồn thành mã thời gian chạy, nếu có là cần thiết. Ví dụ, bạn sẽ thường thấy [`babel`](https://babeljs.io) cho các dự án sử dụng JSX hoặc gói [typecript](https://www.npmjs.com/package/typescript) cho bất kỳ thư viện nào có mã nguồn trong TypeScript.
+
+Vì chúng tôi thích dừng lỗi loại trước thời gian chạy, chúng tôi có mã nguồn TypeScript. Chúng tôi sẽ cần thêm gói `typecript` vào `devDependencies` của mình để sử dụng trình biên dịch `tsc`, điều này cuối cùng sẽ cho phép chúng tôi cho phép cả người dùng TypeScript và JavaScript sử dụng bộ `catlang-encoder` của chúng tôi.
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "bin": "lib/cli.js",
+  "contributors": [
+    "Cat 2"
+  ],
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "catlang-dictionary": "^1.2.3"
+  },
+  "peerDependencies": {
+    "utf-8-validate": "*"
+  },
+  "peerDependenciesMeta": {
+    "utf-8-validate": {
+      "optional": true
+    }
+  },
+  "optionalDependencies": {
+    "catlang-concat": "^4.5.6"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
+
+Như vậy, chúng ta đã hoàn thành phần lớn các trường của `package.json`. Trong bài viết tiếp theo, chúng ta sẽ thảo luận về cách thêm các bản xuất thích hợp vào `package.json`, điều này rất quan trọng nếu bạn muốn phát triển một gói hỗ trợ người dùng cho dù họ đang sử dụng CDN, trình quản lý gói hay ứng dụng web không xây dựng với ESM.
 
 
 
