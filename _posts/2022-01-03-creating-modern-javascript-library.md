@@ -823,49 +823,167 @@ Tuy nhiên, nếu bạn cũng muốn thêm một email mà người dùng có th
 }
 {% endhighlight %}
 
-### `description` (khuyến khích)
+### `engines` (tùy chọn)
+
+Môi trường mà thư viện của bạn sẽ hoạt động. Điều này chỉ áp dụng cho các thư viện hỗ trợ Node.js (ví dụ: thư viện CSS không nên sử dụng trường này). Nếu thư viện của bạn không sử dụng các tính năng hiện đại của JavaScript (chẳng hạn như trình vòng lặp không đồng bộ), bạn cũng không cần chỉ định trường này. Định dạng như sau:
+
+{% highlight js %}
+{
+  "node": ">=0.10.3 <15"
+}
+{% endhighlight %}
+
+Hiện tại, `node` là chìa khóa duy nhất của trường `engines` mà bạn sẽ cần sử dụng.
+
+Giả sử `catlang-encoder` cần hỗ trợ cho các tính năng của ES6 như `Promise` + `async`/`await`, `for..of`, v.v. Vì `async`/`await` chỉ được thêm vào v7.6.0, chúng tôi sử dụng đó làm phiên bản tối thiểu.
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
+
+### `contributors` (tùy chọn)
+
+Những người không phải là tác giả đã đóng góp một cách quan trọng vào dự án. Định dạng là một mảng đối tượng hoặc chuỗi có cùng định dạng với trường `author`. Ví dụ: 
+
+{% highlight js %}
+[
+  "John Doe <me@johndoe.net> (johndoe.net)",
+  {
+    "name": "Place Holder",
+    "email": "placeholder@gmail.com"
+  }
+]
+{% endhighlight %}
+
+Nếu bạn chủ yếu làm việc trên dự án này một mình (có thể với một vài yêu cầu kéo ở đây và ở đó), bạn không cần chỉ định trường này. Tuy nhiên, nếu ai đó đã giúp bạn nhiều lần, bạn nên thêm họ vào.
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "contributors": [
+    "Cat 2"
+  ],
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
 
 
+### `bin` (tùy chọn)
+
+Vị trí của tệp nhị phân của gói. Nếu bạn đang phát triển một công cụ CLI, hãy đặt công cụ này thành điểm đầu vào của cơ sở mã của bạn. Tệp bạn đặt sẽ được thực thi bất cứ khi nào ai đó chạy `npm run your-package` hoặc `yarn run your-package`. Tất nhiên, bạn không cần trường này nếu bạn không muốn cung cấp công cụ CLI với gói của mình.
+
+Đối với một tệp thực thi duy nhất, trường có thể chỉ là một chuỗi: 
+
+{% highlight js %}
+"path/to/bin.js"
+{% endhighlight %}
+
+Nếu bạn có nhiều tệp thực thi, bạn có thể chỉ định một ánh xạ như vậy: 
+
+{% highlight js %}
+{
+  "command-1": "./bin1.js",
+  "command-2": "./bin2.js"
+}
+{% endhighlight %}
+
+Nếu chúng ta có tệp thực thi CLI để mã hóa Catlang nhanh chóng và bẩn thỉu từ dòng lệnh tại `lib/cli.js`:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "bin": "lib/cli.js",
+  "contributors": [
+    "Cat 2"
+  ],
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
+
+
+### ` private`
+
+Ngăn không cho gói của bạn được xuất bản nếu được đặt thành `true`. Rõ ràng, bạn không nên có trường này trong `package.json` của mình nhưng một số `projects/templates` dành cho người mới bắt đầu bao gồm `"private": true` trong `package.json` để ngăn bạn vô tình xuất bản mã không phải là một gói. Bạn sẽ muốn xóa trường `private` nếu nó tồn tại; nếu không, NPM sẽ từ chối xuất bản gói của bạn.
+
+Có một số trường hiếm hơn mà đôi khi bạn có thể cần, chẳng hạn như `os` và `man`, trong trường hợp đó, bạn nên xem [tài liệu gốc](https://docs.npmjs.com/cli/v7/configuring-npm/package-json) cho [package.json](https://docs.npmjs.com/cli/v7/configuring-npm/package-json). Ngoài ra, sau này chúng ta sẽ sử dụng trường `script` và nếu bạn chưa quen với nó, bạn nên đọc [phần này](https://docs.npmjs.com/cli/v7/using-npm/scripts).
 
 {% highlight js %}
 
 {% endhighlight %}
 
 
-### `description` (khuyến khích)
+### Dependencies và exports
 
 
-
-{% highlight js %}
-
-{% endhighlight %}
-
-
-### `description` (khuyến khích)
-
-
-
-{% highlight js %}
-
-{% endhighlight %}
-
-
-### `description` (khuyến khích)
-
-
-
-{% highlight js %}
-
-{% endhighlight %}
-
-
-### `description` (khuyến khích)
-
-
-
-{% highlight js %}
-
-{% endhighlight %}
 
 
 
