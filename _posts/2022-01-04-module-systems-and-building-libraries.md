@@ -157,7 +157,7 @@ Bây giờ chúng ta hãy xem xét từng công cụ sau:
 
 ### Webpack
 
-Webpack là một trình gói mô-đun tuyệt vời? được chấp nhận rộng rãi và chủ yếu được sử dụng để xây dựng các SPA. Nó cung cấp cho bạn tất cả các tính năng như tách mã, tải không đồng bộ các gói, rung cây, v.v. Nó sử dụng hệ thống mô-đun CommonJS.
+[Webpack](https://webpack.js.org) là một trình gói mô-đun tuyệt vời? được chấp nhận rộng rãi và chủ yếu được sử dụng để xây dựng các SPA. Nó cung cấp cho bạn tất cả các tính năng như tách mã ([code splitting](https://webpack.js.org/guides/code-splitting/)), [tải không đồng bộ](https://webpack.js.org/guides/code-splitting/#dynamic-imports) các gói, [tree shaking](https://webpack.js.org/guides/tree-shaking/), v.v. Nó sử dụng hệ thống mô-đun **CommonJS**.
 
 PS: Webpack-4.0.0 alpha đã ra mắt chưa ?. Hy vọng rằng với bản phát hành ổn định, nó sẽ trở thành gói phổ biến cho tất cả các loại hệ thống mô-đun.
 
