@@ -122,6 +122,8 @@ Nếu bạn cần nhiều hơn các công cụ xác nhận cơ bản đi kèm v�
 
 Ngoài việc kiểm tra mã của bạn, bạn nên viết thư viện của mình trong [TypeScript](https://www.typescriptlang.org). Lỗi loại là một trong những loại lỗi phổ biến nhất trong JavaScript, vì vậy việc sử dụng TypeScript hầu như luôn làm giảm thời gian phát triển và đôi khi có thể ngăn bạn xuất bản mã bị hỏng nếu bạn quên thêm một bài kiểm tra. Hơn nữa, trình biên dịch TypeScript tuyệt vời sẽ cho phép bạn tránh sử dụng một trình gói khi xuất bản gói của bạn (chúng ta sẽ đi sâu vào vấn đề này sau) và sẽ giúp hỗ trợ người dùng TypeScript và JavaScript đồng thời dễ dàng hơn nhiều. 
 
+Dài quá; đừng đọc: Tests and (optionally) TypeScript
+
 
 ### Viết code linh hoạt
 
@@ -163,8 +165,133 @@ const randArrayInRange = (len, a, b) => {
   }
   return arr;
 }
-
 {% endhighlight %}
+
+- Thêm nhận xét `Add TODO` bất cứ khi nào bạn nhận thấy điều gì đó có thể trở thành vấn đề trong tương lai. Làm như vậy sẽ giúp bạn tiết kiệm thời gian khi bạn quyết định thêm một tính năng mà ban đầu không thành công do các quyết định trước hoặc sơ suất.
+
+{% highlight js %}
+const numPostsOnPage = async page => {
+  // TODO: "page" may not be the name of the argument in the
+  // calling function - can be ambiguous
+  if (typeof page != 'number') {
+    throw new TypeError('page must be a number');
+  }
+  const resp = await fetch(`//example.com/page/${page}`);
+  const posts = await resp.json();
+  return posts.length;
+}
+
+const example = (x, y) => {
+  if (typeof x != 'number') {
+    throw new TypeError('x must be a number');
+  }
+  // TODO: This is an async function, so a type error for y
+  // will not throw but will reject the returned Promise,
+  // but a type error for x throws
+  return x * numPostsOnPage(y);
+}
+
+// Because of the TODOs, in the future, you'll easily
+// find why the type error for y isn't caught here
+try {
+  example(0, 'mistake');
+} catch(e) {
+  console.error(`Got error: ${e}`);
+}
+{% endhighlight %}
+
+- Sử dụng tài liệu cho mã mà bạn sẽ cân nhắc sửa đổi trong tương lai. Ngay cả khi mã chỉ được sử dụng trong nội bộ, điều này sẽ giúp sửa đổi dễ dàng hơn và sẽ giúp các cộng tác viên chẩn đoán lỗi dễ dàng hơn.
+
+{% highlight js %}
+// TODO: in the future, consider changing the following
+// recursive function to be more efficient by fetching
+// all users simultaneously with Promise.all()
+
+// gets the names of all users
+const getUserNames = async max => {
+  // Recursive base case - no user 0 exists
+  if (!max) return [];
+  const res = await fetch(`/users/${max}`);
+  // Data for user ID # max
+  const userData = await res.json();
+  // Prepend data for users with lower IDs
+  return (await getUserNames(max - 1)).concat(userData);
+}
+{% endhighlight %}
+
+Dài quá; đừng đọc: Giữ cho codebase của bạn có thể bảo trì được và mọi thứ sẽ vào đúng vị trí
+
+
+### Viết code có thể đọc được
+
+Mã có thể đọc được rất quan trọng đối với khả năng bảo trì và nhận được sự trợ giúp từ cộng đồng. Không ai muốn dành một giờ để nghiên cứu cơ sở mã của bạn chỉ để hiểu mỗi chức năng làm gì; viết mã dễ đọc là một khởi đầu tốt.
+
+Bước này cực kỳ đơn giản. Hai điều bạn cần làm là:
+- Sử dụng tài liệu nội tuyến đủ (nhưng không quá nhiều) cho các hàm, biến, v.v.
+- Ngoài ra, hãy sử dụng các tên biến / hàm tự lập tài liệu cho mã giao diện người dùng (tức là những gì được xuất). Một cách tối ưu, JSDoc sạch sẽ đi kèm với mỗi khai báo (sử dụng JSDoc/TSDoc sẽ rất hữu ích, như chúng ta sẽ thấy trong một bài viết trong tương lai).
+
+{% highlight js %}
+// The short names used here are OK because they are
+// documented and because the names make sense
+
+// zip compression worker
+// send string -> Uint8Array mapping
+// receive Uint8Array ZIP data
+const zwk = new Worker('./zip-worker.js');
+
+// read file to [filename, Uint8Array]
+const readFile = file => new Promise((resolve, reject) => {
+  // file reader: File to ArrayBuffer
+  const fr = new FileReader();
+  fr.onload = () => {
+    // fr.result is ArrayBuffer
+    resolve([file.name, new Uint8Array(fr.result)]);
+  }
+  fr.onerror = () => {
+    reject(fr.error);
+  }
+  fr.readAsArrayBuffer(file);
+});
+
+/**
+ * Zips the provided files
+ * @param files {File[]} The files to create a ZIP from
+ * @returns {Promise} A promise with a Blob of the ZIPped data
+ */
+export async function zipFiles(files) {
+  // file entries - Array of [filename, data]
+  const entries = await Promise.all(files.map(readFile));
+  // transferable list - neuters data passed in but reduces
+  // execution time
+  const tfl = fileEntries.map(([, dat]) => dat.buffer);
+  // filename -> data mapping
+  const fileData = fileEntries.reduce((obj, [fn, dat]) => {
+    obj[fn] = dat;
+    return obj;
+  }, {});
+
+  return new Promise((resolve, reject) => {
+    zwk.onmessage = ({ data }) => resolve(data);
+    zwk.onerror = ({ error }) => reject(error);
+    zwk.postMessage(fileData, tfl);
+  });
+}
+{% endhighlight %}
+
+Dài quá; đừng đọc: Make it self-documenting or document it yourself
+
+
+### Viết code nhanh
+
+
+
+
+
+
+
+
+
+
 
 
 -----
