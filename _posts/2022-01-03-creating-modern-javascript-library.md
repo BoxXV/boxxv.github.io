@@ -283,6 +283,16 @@ Dài quá; đừng đọc: Make it self-documenting or document it yourself
 
 ### Viết code nhanh
 
+Đây không phải là một bài báo về hiệu suất, vì vậy tôi sẽ không đi sâu quá nhiều ở đây.
+
+Đối với mã cấp thấp (tức là bất kỳ thứ gì liên quan đến xoắn bit, mã hóa nhị phân, v.v.), bạn sẽ muốn sử dụng trình biên dịch trong Node.js (trình chỉnh sửa mã của bạn [có thể có hỗ trợ](https://stackoverflow.com/a/61585758/10930232)) hoặc Chrome (xem [bài viết này](https://developer.chrome.com/docs/devtools/evaluate-performance/)). Hướng dẫn này về [hiệu suất trong động cơ V8](https://github.com/thlorenz/v8-perf) có thể hữu ích.
+
+Đối với các chương trình cấp cao hơn như thư viện và khung giao diện người dùng, việc tối ưu hóa vi mô là vô nghĩa. Tìm kiếm các vấn đề kiến trúc quy mô lớn với thiết kế của bạn (ví dụ: cần gọi `document.getElementById` nhiều lần mỗi giây do giới hạn trong DOM ảo của bạn). Trình biên dịch của Chrome cũng sẽ giúp xác định xem vấn đề có nằm ở JavaScript, kết xuất hay thứ gì khác của bạn hay không.
+
+Dài quá; đừng đọc: Nếu phần này quá dài, nó có thể không phù hợp với bạn.
+
+
+### Viết code nhỏ
 
 
 
