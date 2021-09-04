@@ -549,6 +549,80 @@ Nếu bạn đang viết thư viện của mình bằng Flow, bạn có thể s�
 
 # package.json và dependencies
 
+`Package.json` của bạn là một trong những tệp quan trọng nhất trong dự án của bạn. Nó xử lý các phụ thuộc, xuất, lập phiên bản, đặt tên, v.v. `package.json` bao gồm tất cả siêu dữ liệu mà người dùng cần để sử dụng thư viện của bạn một cách hiệu quả. Do đó, điều quan trọng là bạn phải tạo `package.json` đúng cách; nếu bạn không làm vậy, khoảng một nửa số báo cáo lỗi của bạn sẽ là các vấn đề liên quan đến nhập, phụ thuộc không khớp, v.v.
+
+Hãy xem qua các trường mà một `package.json` điển hình sẽ chứa. Chúng tôi sẽ tạo một gói mẫu để mã hóa lại dữ liệu hoặc chuỗi UTF-8 thành định dạng "Catlang" hư cấu.
+
+### `name` (required)
+
+Tên thư viện của bạn. Ngay cả khi bạn có kiểu ưa thích, quy ước là sử dụng tất cả các chữ cái thường và dấu gạch ngang để phân tách các từ.
+
+Nếu bạn đang tạo một nhánh của một gói hiện có, đừng thêm số vào cuối: mô tả những gì bạn đã thay đổi hoặc nếu điều đó quá khó, hãy diễn đạt cùng một ý tưởng bằng các từ khác nhau.
+
+Lựa chọn tên kém:
+
+{% highlight js %}
+{
+  "name": "EncodeInCatlang2",
+}
+{% endhighlight %}
+
+Lựa chọn tốt về tên:
+
+{% highlight js %}
+{
+  "name": "encode-in-catlang"
+}
+{% endhighlight %}
+
+Nếu những điều trên đã được thực hiện:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder"
+}
+{% endhighlight %}
+
+### `version` (required)
+
+Phiên bản hiện tại của gói. Bạn sẽ thay đổi điều này mỗi khi bạn muốn xuất bản một phiên bản mới của gói của mình. Cố gắng làm theo cách lập phiên bản ngữ nghĩa (thêm chi tiết về điều này sau). Đề xuất của tôi như sau:
+
+- Khi bạn lần đầu tiên tạo một gói, hãy sử dụng `0.0.1`.
+- Bất cứ khi nào bạn sửa một lỗi, bạn đều muốn có một bản sửa đổi "patch". Tăng chữ số cuối cùng.
+    + `1.0.1` → `1.0.2`
+    + `3,4,9` → `3,4,10`
+- Bất cứ khi nào bạn thêm một tính năng mới, không chấp nhận nữa (tức là không khuyến khích) một tính năng hiện có hoặc làm bất kỳ điều gì khác không phá vỡ mã mà trước đây đã hoạt động tốt, bạn muốn có một bản sửa đổi "minor". Tăng chữ số thứ hai đến chữ số cuối cùng và đặt chữ số cuối cùng thành 0.
+    + `1.0.1` → `1.1.0`
+    + `3.9.0` → `3.10.0`
+    + `0,3,5` → `0,3,6` *
+- Bất cứ khi nào bạn không chấp nhận (tức là xóa) một tính năng hiện có, thay đổi hành vi của một thứ gì đó hoặc làm bất cứ điều gì có thể phá vỡ mã hoạt động tốt trên phiên bản trước, bạn phải sử dụng bản sửa đổi "major". Tăng chữ số đầu tiên và đặt hai chữ số còn lại bằng 0.
+    + `1.1.3` → `2.0.0`
+    + `10.1.3` → `11.0.0`
+    + `0,3,5` → `0,4,0` *
+    + `0.0.3` → `0.0.4` *
+
+Lưu ý các ví dụ bằng dấu hoa thị. Đối với các phiên bản dưới `1.0.0`, không thể sửa đổi bản vá và hai loại còn lại chuyển xuống; tăng dần chữ số thứ hai đến chữ số cuối cùng là chữ số chính và chữ số cuối cùng là chữ số phụ. Đối với các phiên bản dưới `0.1.0`, điều này thậm chí còn nghiêm trọng hơn, vì mỗi phiên bản lỗi đều là một phiên bản chính mới.
+
+Đây là lý do tại sao cập nhật từ `0.0.X` lên `0.1.0` và từ `0.X.X` lên `1.0.0` là những gì tôi muốn gọi là các bản sửa đổi "trưởng thành"; chúng thay đổi hoàn toàn ý nghĩa của từng chữ số. Phương pháp hay, hãy cố gắng giảm số lượng phiên bản chính bạn tạo sau `1.0.0`, nhưng hãy sử dụng nhiều phiên bản nhỏ và bản vá tùy thích.
+
+Theo hướng dẫn ký hiệu, các phiên bản ngữ nghĩa thường được thêm tiền tố "v" bên ngoài `package.json`. Ví dụ: khi đề cập đến phiên bản `1.2.3` trong vấn đề GitHub, hãy nói "v1.2.3".
+
+Bạn cũng có thể muốn lưu ý rằng các phiên bản ứng viên alpha, beta và phát hành được hỗ trợ bằng cách lập phiên bản ngữ nghĩa. Ví dụ: `1.0.0-alpha.1`, `2.2.0-beta.4`, `0.3.0-rc.0`. Thông thường, phiên bản vá lỗi không được đặt cho các phiên bản phát hành trước này và chúng không được người quản lý gói tải xuống trừ khi người dùng yêu cầu phiên bản phát hành trước.
+
+Điều cuối cùng: NPM coi các gói dưới v1.0.0 là không ổn định và xếp hạng chúng thấp hơn trong tìm kiếm. Nếu bạn muốn tăng nhanh điểm số tìm kiếm, hãy làm cho thư viện của bạn ổn định!
+
+Hãy cập nhật `package.json` của chúng tôi:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1"
+}
+{% endhighlight %}
+
+### `description` (strongly recommended)
+
+
 
 
 
