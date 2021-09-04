@@ -990,7 +990,7 @@ Theo nguyên tắc chung, bạn nên cố gắng giảm thiểu số lượng ph
 Nếu bạn thực sự cần các phụ thuộc, có bốn trường bạn có thể sử dụng để chỉ định chúng: `dependencies`, `peerDependencies`, `optionalDependencies`, và `devDependencies`.
 
 
-####  dependencies
+#### `dependencies`
 
 Ánh xạ tên gói tới các phiên bản được hỗ trợ cho các phụ thuộc thời gian chạy của thư viện của bạn. Nếu bạn sử dụng mã từ thư viện khác trong thời gian chạy (tức là khi ai đó sử dụng gói của bạn), hãy thêm thư viện đó vào trường này. Cú pháp như sau:
 
@@ -1002,46 +1002,84 @@ Nếu bạn thực sự cần các phụ thuộc, có bốn trường bạn có 
 }
 {% endhighlight %}
 
-Các khóa của đối tượng là tên của các phụ thuộc, trong khi các giá trị là các phiên bản để chấp nhận. Cú pháp để chỉ định phiên bản được gọi là lập phiên bản ngữ nghĩa hoặc "semver". Chi tiết đầy đủ được nêu chi tiết trên trang web lập phiên bản ngữ nghĩa, nhưng nhìn chung bạn chỉ cần biết hai điều:
+Các khóa của đối tượng là tên của các phụ thuộc, trong khi các giá trị là các phiên bản để chấp nhận. Cú pháp để chỉ định phiên bản được gọi là lập phiên bản ngữ nghĩa hoặc "semver". Chi tiết đầy đủ được nêu chi tiết trên [trang web lập phiên bản semantic](https://semver.org), nhưng nhìn chung bạn chỉ cần biết hai điều:
 
-    Phiên bản thực tế của một gói luôn là ba số được phân tách bằng dấu chấm, như trong trường phiên bản của package.json
-    Sự phụ thuộc trong package.json có thể sử dụng số nhận dạng phiên bản, tham chiếu đến một hoặc nhiều phiên bản của gói
+- Phiên bản thực tế của một gói luôn là ba số được phân tách bằng dấu chấm, như trong trường `version` của `package.json`
+- Sự phụ thuộc trong `package.json` có thể sử dụng số nhận dạng phiên bản, tham chiếu đến một hoặc nhiều phiên bản của gói
 
-Khi người dùng cài đặt gói của bạn, trình quản lý gói của họ sẽ thấy tất cả các phần phụ thuộc trong package.json và tải xuống các phần có liên quan
+Khi người dùng cài đặt gói của bạn, trình quản lý gói của họ sẽ thấy tất cả các phần phụ thuộc trong `package.json` và tải xuống các phần có liên quan
 Có nhiều loại số nhận dạng phiên bản, nhưng những loại phù hợp nhất là sau:
 
-    Số nhận dạng chính xác, chỉ là số phiên bản. Họ có thể loại trừ bản vá và các phiên bản nhỏ.
-        1.0.1 chỉ khớp với v1.0.1
-        1.0.0-rc.0 chỉ khớp với v1.0.0-rc.0 (đây là cách duy nhất để tải phiên bản phát hành trước của một gói)
-        0.10 khớp với bất kỳ phiên bản nào trong phạm vi v0.10 (ít nhất là v0.10.0, trước v0.11.0)
-        1 khớp với bất kỳ phiên bản nào trong phạm vi v1 (ít nhất là v1.0.0, trước v2.0.0)
-    Giá trị nhận dạng so sánh, khớp với các phiên bản trên hoặc dưới một phiên bản cụ thể
-        > 1.1.3 khớp với các phiên bản gần đây hơn v1.1.3 (v1.1.4, v2.0.4, v.v. tất cả đều hoạt động)
-        <= 2.8.7 khớp với các phiên bản cũ hơn hoặc bằng v2.8.7 (v2.8.7, v1.0.1, v0.0.1 đều hoạt động)
-    Đối sánh tất cả các số nhận dạng, sử dụng x hoặc * để đánh dấu một phần của chuỗi semver có thể là bất kỳ phiên bản nào
-        1.x khớp với bất kỳ phiên bản nào trong phạm vi v1 (giống như 1)
-        * phù hợp với tất cả các phiên bản của gói
-        2.3. * Khớp với bất kỳ phiên bản nào trong phạm vi v2.3 (như 2.3)
-        Cẩn thận: 2. *. 0 khớp với bất kỳ phiên bản nào trong phạm vi v2, không chỉ phiên bản vá 0
-    Số nhận dạng chữ số thứ hai, sử dụng dấu ngã để khớp với chữ số thứ hai của phiên bản với điều kiện là chữ số thứ ba lớn hơn hoặc bằng chữ số được chỉ định trong số nhận dạng
-        ~ 1.2.3 phù hợp với tất cả các phiên bản> = 1.2.3 và <1.3.0
-        ~ 0.4.0 phù hợp với tất cả các phiên bản> = 0.4.0 và <0.5.0
-    Trình so khớp phiên bản chính, sử dụng ^ để khớp với chữ số khác không đầu tiên
-        Về mặt kỹ thuật, chữ số đầu tiên, không hoặc khác, luôn là phiên bản chính. Tuy nhiên, khi chữ số đầu tiên là số 0, một sự thay đổi lớn đối với chữ số thứ hai là một thay đổi đáng kể và ^ ngăn thư viện của bạn vô tình chấp nhận thay đổi quan trọng, có thể phá vỡ đó.
-        Đây là trình kết hợp phổ biến nhất
-        ^ 3.2.1 khớp với bất kỳ phiên bản nào trong phạm vi v3
-        ^ 0.4.0 khớp với bất kỳ phiên bản nào trong phạm vi v0.4
-        ^ 0.0.5 chỉ khớp với v0.0.5
+- Số nhận dạng chính xác, chỉ là số phiên bản. Họ có thể loại trừ bản vá và các phiên bản nhỏ.
+    + `1.0.1` chỉ khớp với v1.0.1
+    + `1.0.0-rc.0` chỉ khớp với v1.0.0-rc.0 (đây là cách duy nhất để tải phiên bản phát hành trước của một gói)
+    + `0.10` khớp với bất kỳ phiên bản nào trong phạm vi v0.10 (ít nhất là v0.10.0, trước v0.11.0)
+    + `1` khớp với bất kỳ phiên bản nào trong phạm vi v1 (ít nhất là v1.0.0, trước v2.0.0)
+- Giá trị nhận dạng so sánh, khớp với các phiên bản trên hoặc dưới một phiên bản cụ thể
+    + `>1.1.3` khớp với các phiên bản gần đây hơn v1.1.3 (v1.1.4, v2.0.4, v.v. tất cả đều hoạt động)
+    + `<=2.8.7` khớp với các phiên bản cũ hơn hoặc bằng v2.8.7 (v2.8.7, v1.0.1, v0.0.1 đều hoạt động)
+- Đối sánh tất cả các số nhận dạng, sử dụng `x` hoặc `*` để đánh dấu một phần của chuỗi semver có thể là bất kỳ phiên bản nào
+    + `1.x` khớp với bất kỳ phiên bản nào trong phạm vi v1 (giống như `1`)
+    + `*` phù hợp với tất cả các phiên bản của gói
+    + `2.3.*` Khớp với bất kỳ phiên bản nào trong phạm vi v2.3 (như `2.3`)
+    + **Cẩn thận: `2.*.0` khớp với bất kỳ phiên bản nào trong phạm vi v2, không chỉ phiên bản vá 0**
+- Số nhận dạng chữ số thứ hai, sử dụng dấu ngã để khớp với chữ số thứ hai của phiên bản với điều kiện là chữ số thứ ba lớn hơn hoặc bằng chữ số được chỉ định trong số nhận dạng
+    + `~1.2.3` phù hợp với tất cả các phiên bản `>=1.2.3` và `<1.3.0`
+    + `~0.4.0` phù hợp với tất cả các phiên bản `>=0.4.0` và `<0.5.0`
+- Trình so khớp phiên bản chính, sử dụng `^` để khớp với chữ số khác không đầu tiên
+    + Về mặt kỹ thuật, chữ số đầu tiên, không hoặc khác, luôn là phiên bản chính. Tuy nhiên, khi chữ số đầu tiên là số 0, một sự thay đổi lớn đối với chữ số thứ hai là một thay đổi đáng kể và `^` ngăn thư viện của bạn vô tình chấp nhận thay đổi quan trọng, có thể phá vỡ đó.
+    + **Đây là trình kết hợp phổ biến nhất**
+    + `^3.2.1` khớp với bất kỳ phiên bản nào trong phạm vi v3
+    + `^0.4.0` khớp với bất kỳ phiên bản nào trong phạm vi v0.4
+    + `^0.0.5` chỉ khớp với v0.0.5
 
 Điều cuối cùng: bạn có thể kết hợp các số nhận dạng phiên bản bằng cách sử dụng dấu cách giữa hai trong số chúng. Mã định danh mới khớp nếu cả hai mã số phụ khớp nhau. Nói cách khác:
 
-    > = 1.5 <3 khớp với các phiên bản ít nhất là v1.5 nhưng thấp hơn v3 (tức là nhiều nhất là v2)
-    1.x <= 1.8 khớp với các phiên bản bắt đầu bằng v1 nhưng nhiều nhất là v1.8
+- `>=1.5 <3` khớp với các phiên bản ít nhất là v1.5 nhưng thấp hơn v3 (tức là nhiều nhất là v2)
+- `1.x <= 1.8` khớp với các phiên bản bắt đầu bằng v1 nhưng nhiều nhất là v1.8
 
-Nếu bạn không chắc rằng chuỗi semver của mình là chính xác, bạn luôn có thể thử công cụ này để kiểm tra xem nó có khớp với các phiên bản phụ thuộc của bạn theo cách bạn muốn hay không.
+Nếu bạn không chắc rằng chuỗi semver của mình là chính xác, bạn luôn có thể thử [công cụ này](https://semver.npmjs.com) để kiểm tra xem nó có khớp với các phiên bản phụ thuộc của bạn theo cách bạn muốn hay không.
 
-Giả sử chúng ta cần từ điển catlang để cho chúng tôi biết những từ nào có bản dịch trực tiếp sang các glyph ngắn hơn trong Catlang và chúng tôi nhận thấy rằng phiên bản 1.2.3 hoạt động tốt. Giả sử rằng từ điển catlang tuân theo cách lập phiên bản ngữ nghĩa, bạn nên sử dụng ^ 1.2.3 làm mã định danh phiên bản.
+Giả sử chúng ta cần `catlang-dictionary` để cho chúng tôi biết những từ nào có bản dịch trực tiếp sang các glyph ngắn hơn trong Catlang và chúng tôi nhận thấy rằng phiên bản 1.2.3 hoạt động tốt. Giả sử rằng `catlang-dictionary` tuân theo cách lập phiên bản ngữ nghĩa, bạn nên sử dụng `^1.2.3` làm mã định danh phiên bản.
 
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "bin": "lib/cli.js",
+  "contributors": [
+    "Cat 2"
+  ],
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "homepage": "https://catlangencoder.js.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cat/catlang",
+    "directory": "js/packages/catlang-encoder"
+  },
+  "bugs": {
+    "email": "cat@gmail.com",
+    "url": "https://github.com/cat/catlang/issues"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "catlang-dictionary": "^1.2.3"
+  },
+  "license": "MIT"
+}
+{% endhighlight %}
+
+
+#### `peerDependencies`
 
 
 
