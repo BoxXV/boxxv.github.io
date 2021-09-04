@@ -118,6 +118,53 @@ test('works on basic input', () => {
 // npm run jest runs the tests
 {% endhighlight %}
 
+Nếu bạn cần nhiều hơn các công cụ xác nhận cơ bản đi kèm với trình chạy thử nghiệm của mình, bạn sẽ cần chọn tiện ích thử nghiệm nào để sử dụng dựa trên những gì thư viện của bạn thực hiện. Cá nhân tôi thích bộ [Testing Library](https://testing-library.com), ví dụ: [Thư viện React Testing](https://testing-library.com/docs/react-testing-library/intro/) cho các thư viện thành phần React.
+
+Ngoài việc kiểm tra mã của bạn, bạn nên viết thư viện của mình trong [TypeScript](https://www.typescriptlang.org). Lỗi loại là một trong những loại lỗi phổ biến nhất trong JavaScript, vì vậy việc sử dụng TypeScript hầu như luôn làm giảm thời gian phát triển và đôi khi có thể ngăn bạn xuất bản mã bị hỏng nếu bạn quên thêm một bài kiểm tra. Hơn nữa, trình biên dịch TypeScript tuyệt vời sẽ cho phép bạn tránh sử dụng một trình gói khi xuất bản gói của bạn (chúng ta sẽ đi sâu vào vấn đề này sau) và sẽ giúp hỗ trợ người dùng TypeScript và JavaScript đồng thời dễ dàng hơn nhiều. 
+
+
+### Viết code linh hoạt
+
+Người dùng tận hưởng trải nghiệm giàu tính năng. Một thư viện hoạt động rất tốt trong việc thực hiện một nhiệm vụ cụ thể có thể thu hút các tác giả thư viện khác, vì họ muốn giảm thiểu sự cồng kềnh của mã, nhưng viết mã hoạt động tốt cho các tác vụ mục đích chung sẽ mang lại nhiều phụ thuộc trực tiếp hơn.
+
+![Writing versatile code](https://boxxv.github.io/img/posts/bnlx6qr1buiv9rp0cqcd.gif "Writing versatile code")
+
+Không thực sự có thể đưa ra lời khuyên về những tính năng bạn nên thêm vào thư viện của mình vì tất cả phụ thuộc vào những gì bạn đang cố gắng đạt được. Tuy nhiên, tôi có thể đưa ra lời khuyên về cách viết mã theo cách cho phép dễ dàng mở rộng trong tương lai. Dưới đây là một vài gợi ý:
+
+- Tránh tạo các hàm sử dụng một lần, ngắn trừ khi bạn có kế hoạch sử dụng lại chúng trong tương lai gần. Việc chia nhỏ một chức năng có thể làm cho mã trông đẹp hơn, nhưng nó khiến việc duy trì và theo dõi các thay đổi đối với mã đó trở nên khó khăn hơn. Bạn có thể bỏ qua điều này nếu chức năng sử dụng một lần rất dài. 
+
+{% highlight js %}
+// Don't do this:
+const rand = (a, b) => {
+  // If you decide to change this in the future (e.g. adding
+  // a third argument for random number generation) you will
+  // need to modify two functions instead of one.
+  const randfloat = Math.random();
+  return a + Math.floor(randfloat * (b - a));
+}
+
+const randArrayInRange = (len, a, b) => {
+  const arr = new Array(len);
+  for (let i = 0; i < len; ++i) {
+    arr[i] = rand(a, b);
+  }
+  return arr;
+}
+
+// Use a single function, but make sure to add comments where
+// you would otherwise have called a helper function.
+const randArrayInRange = (len, a, b) => {
+  const arr = new Array(len);
+  for (let i = 0; i < len; ++i) {
+    // Generate random number at least 0, less than 1
+    const randfloat = Math.random();
+    // Move randfloat into [a, b) range
+    arr[i] = a + Math.floor(randfloat * (b - a));
+  }
+  return arr;
+}
+
+{% endhighlight %}
 
 
 -----
