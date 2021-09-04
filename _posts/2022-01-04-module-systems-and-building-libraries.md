@@ -115,8 +115,8 @@ Tôi đã xây dựng một thư viện giao diện người dùng nhỏ (bạn 
 
 ### 2. Publish all module variants
 
-- Chúng tôi nên xuất bản tất cả các biến thể mô-đun, như UMD và ES, bởi vì chúng tôi không bao giờ biết được phiên bản trình duyệt / webpack mà người tiêu dùng của chúng tôi có thể sử dụng thư viện / gói này trong.
-- Mặc dù tất cả các gói như Webpack và Rollup đều hiểu mô-đun ES, nhưng nếu người tiêu dùng của chúng tôi đang sử dụng Webpack 1.x, thì họ không thể hiểu mô-đun ES.
+- Chúng tôi nên xuất bản tất cả các biến thể mô-đun, như `UMD` và `ES`, bởi vì chúng tôi không bao giờ biết được phiên bản trình duyệt / webpack mà người tiêu dùng của chúng tôi có thể sử dụng thư viện / gói này trong.
+- Mặc dù tất cả các gói như [Webpack](https://webpack.js.org) và [Rollup](https://rollupjs.org) đều hiểu mô-đun ES, nhưng nếu người tiêu dùng của chúng tôi đang sử dụng `Webpack 1.x`, thì họ không thể hiểu mô-đun ES.
 
 {% highlight js %}
 // package.json
@@ -134,22 +134,22 @@ Tôi đã xây dựng một thư viện giao diện người dùng nhỏ (bạn 
 ...}
 {% endhighlight %}
 
-- Trường chính của tệp package.json thường được dùng để trỏ đến phiên bản UMD của thư viện / gói.
-- Bạn có thể tự hỏi - làm cách nào tôi có thể phát hành phiên bản ES của thư viện / gói của mình? ?
-- Trường mô-đun của package.json được sử dụng để trỏ đến phiên bản ES của thư viện / gói. Trước đây, nhiều trường đã được sử dụng như js: next và js: main, nhưng mô-đun hiện đã được tiêu chuẩn hóa và được các nhà cung cấp gói sử dụng để tra cứu phiên bản ES của thư viện / gói.
+- Trường `main` của tệp `package.json` thường được dùng để trỏ đến phiên bản `UMD` của library/package.
+- **Bạn có thể tự hỏi - làm cách nào tôi có thể phát hành phiên bản `ES` của library/package của mình?**
+- Trường `module` của `package.json` được sử dụng để trỏ đến phiên bản ES của library/package. Trước đây, nhiều trường đã được sử dụng như `js:next` và `js:main`, nhưng `module` hiện đã được tiêu chuẩn hóa và được các nhà cung cấp gói sử dụng để tra cứu phiên bản `ES` của library/package.
 
-> Less well-known fact: Webpack uses resolve.mainfields to determine which fields in package.json are checked.
+> **Sự thật ít được biết đến**: Webpack sử dụng [resolve.mainfields](https://webpack.js.org/configuration/resolve/#resolve-mainfields) để xác định trường nào trong `package.json` được kiểm tra.
 
-> Performance Tip: Always try to publish the ES version of your library/package as well, because all the modern browsers now support ES modules. So you can transpile less, and ultimately you’ll end up shipping less code to your users. This will boost your application’s performance.
+> **Mẹo về hiệu suất**: Luôn cố gắng xuất bản phiên bản `ES` của library/package của bạn, vì tất cả các trình duyệt hiện đại hiện hỗ trợ mô-đun `ES`. Vì vậy, bạn có thể truyền tải ít mã hơn và cuối cùng bạn sẽ vận chuyển ít mã hơn cho người dùng của mình. Điều này sẽ tăng hiệu suất ứng dụng của bạn.
 
-Vì vậy, bây giờ là gì tiếp theo? Vận chuyển hay bó lại? Chúng ta nên sử dụng những công cụ nào?
+**Vì vậy, bây giờ là gì tiếp theo? Vận chuyển hay bó lại? Chúng ta nên sử dụng những công cụ nào?**
 
 Ah, đây là phần khó nhất! Hãy đi sâu vào.?
 
 
 ## Webpack vs Rollup vs Babel?
 
-Đây là tất cả các công cụ chúng ta sử dụng trong cuộc sống hàng ngày để gửi các ứng dụng / thư viện / gói của chúng ta. Tôi không thể tưởng tượng sự phát triển web hiện đại mà không có chúng - #blessed. Vì vậy, chúng tôi không thể so sánh chúng, vì vậy đó sẽ là một câu hỏi sai để đặt ra! ❌
+Đây là tất cả các công cụ chúng ta sử dụng trong cuộc sống hàng ngày để gửi các ứng dụng / thư viện / gói của chúng ta. Tôi không thể tưởng tượng sự phát triển web hiện đại mà không có chúng - **#blessed**. Vì vậy, chúng tôi không thể so sánh chúng, vì vậy đó sẽ là một câu hỏi sai để đặt ra! ❌
 
 Mỗi công cụ có những lợi ích riêng và phục vụ các mục đích khác nhau dựa trên nhu cầu của bạn.
 
