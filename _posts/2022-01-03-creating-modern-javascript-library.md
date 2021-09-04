@@ -294,6 +294,13 @@ Dài quá; đừng đọc: Nếu phần này quá dài, nó có thể không ph�
 
 ### Viết code nhỏ
 
+Một lần nữa, bài viết này không có ý nghĩa về tối ưu hóa, vì vậy tôi sẽ không thảo luận nhiều ở đây, nhưng hãy cho tôi biết trong phần nhận xét nếu bạn muốn viết chi tiết hơn về cách loại bỏ mọi điểm giảm hiệu suất cuối cùng mã của bạn.
+
+Mã nhỏ có thể góp phần vào cả khả năng đọc và hiệu suất (tức là thời gian tải trong trình duyệt). Tuy nhiên, nếu bạn chỉ viết một thư viện cho Node.js, thì mã nhỏ hoàn toàn không phải là vấn đề đáng lo ngại trừ khi bạn có quá nhiều mã khiến cơ sở mã của bạn khó hiểu. Nói chung, mã nhỏ là khía cạnh ít quan trọng nhất của một thư viện tốt.
+
+Nếu bạn thực sự muốn thu nhỏ kích thước của mã gói của mình, cách tốt nhất là tránh sử dụng các phần tóm tắt được tạo sẵn cho những thứ bạn có thể triển khai theo cách thủ công. Ví dụ: nếu bạn cần lấy thời lượng của một bài hát trong tệp MP3 trong trình duyệt, không sử dụng [music-metadata](https://www.npmjs.com/package/music-metadata), hãy [tự làm điều đó](https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration). Mã bạn cần viết có thể khoảng vài trăm byte, vì vậy bạn sẽ tiết kiệm được [63 kB](https://bundlephobia.com/package/music-metadata-browser@2.2.6).
+
+Dài quá; đừng đọc: Tự làm mọi thứ
 
 
 
