@@ -110,8 +110,8 @@ Tôi đã xây dựng một thư viện giao diện người dùng nhỏ (bạn 
 
 ### 1. Tree Shaking?
 
-- Rung cây là một thuật ngữ thường được sử dụng trong ngữ cảnh của JavaScript để loại bỏ mã chết. Nó dựa trên cấu trúc tĩnh của cú pháp mô-đun ES2015, tức là nhập và xuất. Tên và khái niệm đã được phổ biến bởi bản tổng hợp gói mô-đun ES2015.
-- Webpack và Rollup đều hỗ trợ Tree Shaking, có nghĩa là chúng ta cần lưu ý một số điều để mã của chúng ta có thể shaking được.
+- **Tree shaking** là một thuật ngữ thường được sử dụng trong ngữ cảnh của JavaScript để loại bỏ dead-code. Nó dựa trên [cấu trúc tĩnh](https://exploringjs.com/es6/ch_modules.html#static-module-structure) của cú pháp mô-đun ES2015, tức là [`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import) và [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export). Tên và khái niệm đã được phổ biến bởi bản tổng hợp gói mô-đun ES2015 [rollup](https://github.com/rollup/rollup).
+- Webpack và Rollup đều hỗ trợ **Tree Shaking**, có nghĩa là chúng ta cần lưu ý một số điều để mã của chúng ta có thể shaking được.
 
 ### 2. Publish all module variants
 
