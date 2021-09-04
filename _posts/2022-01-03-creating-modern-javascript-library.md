@@ -622,7 +622,173 @@ Hãy cập nhật `package.json` của chúng tôi:
 
 ### `description` (strongly recommended)
 
+Mô tả ngắn gọn về những gì gói của bạn làm. Ngay cả khi tên là tự giải thích, nó không có hại để lặp lại chính mình. Mô tả được sử dụng cho các kết quả tìm kiếm trong NPM, vì vậy hãy đảm bảo làm nổi bật các tính năng chính nhất của thư viện. 
 
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter"
+}
+{% endhighlight %}
+
+
+### `author` (strongly recommended)
+
+Tên (và tùy chọn email và trang web) của tác giả của gói. Tối ưu, bạn sẽ sử dụng tên đầy đủ của mình ở đây, nhưng nếu bạn không thoải mái khi làm như vậy, bí danh trực tuyến của bạn sẽ đủ dùng. Trường có thể có một trong hai định dạng: 
+
+{% highlight js %}
+"Your Name <youremail@yourdomain.com> (https://yoursite.com)"
+{% endhighlight %}
+
+hoặc
+
+{% highlight js %}
+{
+  "name": "Your Name",
+  "email": "youremail@yourdomain.com",
+  "url": "https://yoursite.com"
+}
+{% endhighlight %}
+
+Email và trang web là tùy chọn, nhưng bạn phải thêm tên hoặc bí danh của mình.
+
+`package.json` mới:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>"
+}
+{% endhighlight %}
+
+### `license` (strongly recommended)
+
+Giấy phép mà mã thư viện của bạn có thể được sử dụng. Chúng tôi sẽ đề cập đến việc cấp phép nhiều hơn trong một bài viết khác, nhưng hiện tại, ít nhất bạn nên biết cú pháp.
+
+Nếu bạn đang sử dụng một giấy phép phổ biến (chẳng hạn như MIT, ICS, BSD, GPL, Apache, v.v.), bạn có thể sử dụng số nhận dạng của nó, bạn có thể tìm thấy trong [danh sách này](https://spdx.org/licenses/). Cố gắng chọn một giấy phép từ danh sách đó, nhưng nếu bạn không thể, hãy đề cập đến tệp chứa giấy phép của bạn để thay thế: 
+
+{% highlight js %}
+"SEE LICENSE IN LICENSE.md"
+{% endhighlight %}
+
+Nếu bạn muốn phân phối thư viện của mình theo nhiều giấy phép, bạn có thể sử dụng các biểu thức `OR` và `AND` với dấu ngoặc đơn. Nếu bạn muốn chỉ định một ngoại lệ trong một số giấy phép, hãy sử dụng từ khóa `WITH`.
+
+{% highlight js %}
+"(Apache-2.0 OR MIT)"
+"(GPL-3.0-only WITH Bison-exception-2.2)"
+{% endhighlight %}
+
+Nếu bạn không biết gì về cấp phép và chỉ muốn tự do phân phối mã của mình, "MIT" là một lựa chọn an toàn.
+
+`package.json` mới:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "license": "MIT"
+}
+{% endhighlight %}
+
+
+### `keywords` (khuyến khích)
+
+Các từ khóa để liên kết với thư viện của bạn trong tìm kiếm NPM. Đây là một cách để đưa gói của bạn vào các tìm kiếm không bao gồm bất kỳ từ nào trong trường `name` hoặc `description`. Mục đích của trường `keywords` là ngăn chặn spam từ khóa trong mô tả hoặc tiêu đề, nhưng bạn vẫn không nên sử dụng các thuật ngữ không liên quan trong các từ khóa.
+
+Thêm từ khóa vào `package.json`:
+
+{% highlight js %}
+{
+  "name": "catlang-encoder",
+  "version": "0.0.1",
+  "description": "Fast Unicode to Catlang converter",
+  "author": "Cat <cat@gmail.com>",
+  "keywords": [
+    "catlang",
+    "cat language",
+    "catlang converter",
+    "high performance"
+  ],
+  "license": "MIT"
+}
+{% endhighlight %}
+
+
+### `homepage` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (recommended)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
+
+
+### `description` (khuyến khích)
+
+
+
+{% highlight js %}
+
+{% endhighlight %}
 
 
 
