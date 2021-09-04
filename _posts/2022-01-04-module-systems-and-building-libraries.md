@@ -55,51 +55,51 @@ Tôi sẽ cố gắng giải quyết tất cả các câu hỏi trên ngay bây 
 
 ### 1. CommonJS
 
-- Được thực hiện bởi nút
-- Được sử dụng cho phía máy chủ khi bạn đã cài đặt các mô-đun
+- Được thực hiện bởi **node**
+- Được sử dụng cho **phía máy chủ** khi bạn đã cài đặt các mô-đun
 - Không tải mô-đun thời gian chạy / không đồng bộ
-- nhập qua "request"
-- xuất qua “module.exports”
+- nhập qua "**request**"
+- xuất qua “**module.exports**”
 - Khi nhập bạn nhận lại một đối tượng
-- Không có cây rung, vì khi nhập bạn nhận được một đối tượng
+- Không có **cây rung**, vì khi nhập bạn nhận được một đối tượng
 - Không có phân tích tĩnh, khi bạn lấy một đối tượng, vì vậy việc tra cứu thuộc tính đang ở thời gian chạy
-- Bạn luôn nhận được bản sao của một đối tượng, vì vậy không có thay đổi trực tiếp nào trong chính mô-đun
+- Bạn luôn nhận được bản sao của một đối tượng, vì vậy **không có thay đổi trực tiếp** nào trong chính mô-đun
 - Quản lý phụ thuộc theo chu kỳ kém
 - Cú pháp đơn giản
 
 ### 2. AMD: Async Module Definition
 
-- Được thực hiện bởi RequestJs
-- Được sử dụng cho phía máy khách (trình duyệt) khi bạn muốn tải động các mô-đun
+- Được thực hiện bởi **RequestJs**
+- Được sử dụng cho **phía máy khách (trình duyệt)** khi bạn muốn tải động các mô-đun
 - Nhập qua "yêu cầu"
 - Cú pháp phức tạp
 
 ### 3. UMD: Universal Module Definition
 
-- Sự kết hợp của CommonJs + AMD (nghĩa là Cú pháp của CommonJs + tải không đồng bộ của AMD)
-- Sử dụng được cho cả môi trường AMD / CommonJs
-- Về cơ bản, UMD tạo ra một cách để sử dụng một trong hai cách, đồng thời hỗ trợ định nghĩa biến toàn cục. Kết quả là, các mô-đun UMD có khả năng hoạt động trên cả máy khách và máy chủ.
+- Sự kết hợp của **CommonJs + AMD** (nghĩa là Cú pháp của CommonJs + tải không đồng bộ của AMD)
+- Sử dụng được cho cả môi trường **AMD/CommonJs**
+- Về cơ bản, UMD tạo ra một cách để sử dụng một trong hai cách, đồng thời hỗ trợ định nghĩa biến toàn cục. Kết quả là, các mô-đun UMD có khả năng hoạt động trên cả **máy khách và máy chủ**.
 
 ### 4. ECMAScript Harmony (ES6)
 
-- Được sử dụng cho cả phía máy chủ / máy khách
-- Thời gian chạy / tải tĩnh của các mô-đun được hỗ trợ
-- Khi bạn nhập, bạn nhận lại giá trị ràng buộc (giá trị thực tế)
-- Nhập thông qua "nhập khẩu" và xuất khẩu qua "xuất khẩu"
-- Phân tích tĩnh - Bạn có thể xác định nhập và xuất tại thời điểm biên dịch (tĩnh) - bạn chỉ phải xem mã nguồn, bạn không phải thực thi nó
-- Cây có thể rung chuyển, vì phân tích tĩnh được hỗ trợ bởi ES6
-- Luôn nhận được một giá trị thực tế để thay đổi trực tiếp trong chính mô-đun
+- Được sử dụng cho cả phía **máy chủ/máy khách**
+- **Thời gian chạy / tải tĩnh** của các mô-đun được hỗ trợ
+- Khi bạn **import**, bạn nhận lại **giá trị ràng buộc** (giá trị thực tế)
+- Nhập thông qua "import" và xuất khẩu qua "export"
+- **Phân tích tĩnh** - Bạn có thể xác định nhập và xuất tại thời điểm biên dịch (tĩnh) - bạn chỉ phải xem mã nguồn, bạn không phải thực thi nó
+- **Tree shakeable**, vì **phân tích tĩnh** được hỗ trợ bởi ES6
+- Luôn nhận được một **giá trị thực tế** để thay đổi trực tiếp trong chính mô-đun
 - Quản lý phụ thuộc theo chu kỳ tốt hơn CommonJS
 
 
 
 Vì vậy, bây giờ bạn đã biết tất cả về các loại hệ thống mô-đun JS khác nhau và chúng đã phát triển như thế nào.
 
-Mặc dù hệ thống mô-đun ES Harmony được hỗ trợ bởi tất cả các công cụ và trình duyệt hiện đại, chúng tôi không bao giờ biết khi xuất bản các thư viện người tiêu dùng của chúng tôi có thể sử dụng chúng như thế nào. Vì vậy chúng tôi phải luôn đảm bảo rằng các thư viện của chúng tôi hoạt động trong mọi môi trường.
+Mặc dù hệ thống mô-đun **ES Harmony** được hỗ trợ bởi tất cả các công cụ và trình duyệt hiện đại, chúng tôi không bao giờ biết khi xuất bản các thư viện người tiêu dùng của chúng tôi có thể sử dụng chúng như thế nào. Vì vậy chúng tôi phải luôn đảm bảo rằng các thư viện của chúng tôi hoạt động trong mọi môi trường.
 
 Hãy đi sâu hơn và thiết kế một thư viện mẫu để trả lời tất cả các câu hỏi liên quan đến việc xuất bản thư viện theo cách thích hợp.
 
-Tôi đã xây dựng một thư viện giao diện người dùng nhỏ (bạn có thể tìm thấy mã nguồn trên GitHub) và tôi sẽ chia sẻ tất cả kinh nghiệm và khám phá của mình để chuyển đổi, đóng gói và xuất bản nó.
+Tôi đã xây dựng một thư viện giao diện người dùng nhỏ (bạn có thể tìm thấy mã nguồn trên [GitHub](https://github.com/kamleshchandnani/js-module-system)) và tôi sẽ chia sẻ tất cả kinh nghiệm và khám phá của mình để chuyển đổi, đóng gói và xuất bản nó.
 
 ![npm](https://boxxv.github.io/img/posts/1 u1HxrxTNgFJmIVMd5I-ucw.png "Directory Structure")
 
