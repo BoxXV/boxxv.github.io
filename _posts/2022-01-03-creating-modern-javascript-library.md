@@ -447,6 +447,81 @@ Sau đó, trong `package.json`, hãy sử dụng trường `"types"` để bao g
 
 Cũng giống như với một dự án TypeScript, bạn cần xuất cả tệp JavaScript và tệp khai báo TypeScript để làm cho mã của bạn có thể sử dụng được cho cả người dùng TypeScript và JavaScript.
 
+Việc tạo và duy trì tệp khai báo bằng tay có thể khó khăn, vì vậy bạn sẽ muốn đảm bảo [đọc tài liệu](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html) trên tệp khai báo. Nếu bạn gặp khó khăn với cú pháp, hãy thử xem các cách đánh máy cho các gói phổ biến như [Express](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/express/index.d.ts).
+
+Trước tiên, bạn sẽ cần tìm hiểu xem các tệp bạn xuất từ gói của mình có sử dụng Mô-đun CommonJS hay ES hay không. CommonJS trông như thế này: 
+
+{% highlight js %}
+// module.exports or exports indicate CommonJS
+module.exports = {
+  a: 1,
+  b(c, op) {
+    if (op == 'sq') return c ** 2;
+    if (op == 'sqrt') return Math.sqrt(c);
+    throw new TypeError('invalid operation')
+  }
+}
+
+// For exporting one thing:
+module.exports = 'hello';
+{% endhighlight %}
+
+Ngược lại, các Mô-đun ES trông như thế này:
+
+{% highlight js %}
+// The export keyword indicates ESM
+export const a = 1;
+export function b(c, op) {
+  if (op == 'sq') return c ** 2;
+  if (op == 'sqrt') return Math.sqrt(c);
+  throw new TypeError('invalid operation')
+}
+
+// export default for one thing
+export default 'hello';
+{% endhighlight %}
+
+Nếu bạn xuất cả hai (chúng ta sẽ tìm hiểu cách thực hiện việc này trong một bài viết trong tương lai), hãy chỉ tạo tệp khai báo bằng ESM vì các khai báo CommonJS hầu như luôn có thể được trình biên dịch TypeScript suy ra từ phiên bản ESM.
+
+Nếu bạn đang sử dụng CommonJS, hãy sử dụng không gian tên để đóng gói gói của bạn. Tối ưu, bạn cũng sẽ xuất các kiểu và giao diện giúp việc sử dụng TypeScript thuận tiện hơn. 
+
+{% highlight js %}
+// index.d.ts
+
+// Everything in the namespace is exported
+
+// If you want to use a type within the declaration
+// file but not export it, declare it outside
+declare namespace MyPackage {
+  const a: number;
+  // This type prevents TypeScript users from
+  // using an invalid operation
+  type MyOp = 'sq' | 'sqrt';
+  function b(c: number, op: MyOp): number;
+}
+
+export = MyPackageName;
+
+// For a single export:
+declare const myPackage: string;
+export = myPackage;
+{% endhighlight %}
+
+Ngoài ra, nếu bạn đang sử dụng ESM, bạn không cần (và không nên sử dụng) một không gian tên; xuất như bạn làm trong JavaScript.
+
+{% highlight js %}
+export const a: number;
+export type MyOp = 'sq' | 'sqrt';
+export function b(c: number, op: MyOp): number;
+
+// For a single export:
+declare const myPackage: string;
+export default myPackage;
+{% endhighlight %}
+
+Bây giờ bạn đã có một index.d.ts hoàn chỉnh, bạn có thể thực hiện một trong hai việc. Bạn có thể:
+- Thêm nó vào gói NPM của riêng bạn, như với phiên bản TypeScript
+- Thêm nó vào kho lưu trữ chắc chắn
 
 
 
