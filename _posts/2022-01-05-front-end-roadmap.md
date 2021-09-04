@@ -43,6 +43,46 @@ Hãy biết rằng tôi đã đặt nhiều liên kết cho mỗi tài nguyên. 
 - `Read` [HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 
 
+### Style cho các trang của bạn bằng CSS
+
+Với sự trợ giúp của HTML, bạn tạo cấu trúc cho các trang của mình. CSS cho phép bạn tạo kiểu cho các trang của mình và làm cho chúng đẹp. Nếu bạn ví von cơ thể con người, khung xương sẽ là HTML, da sẽ là CSS và các cơ giúp chúng ta di chuyển sẽ là JavaScript - chúng ta sẽ tìm hiểu thêm về JavaScript trong các phần tiếp theo.
+
+- `Read` [W3Schools – CSS Tutorial](https://www.w3schools.com/css/)
+- `Watch` [CSS Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=yfoY53QXEnI)
+- `Watch` [Build An HTML5 Website With A Responsive Layout](https://www.youtube.com/watch?v=Wm6CUkswsNw)
+- `Watch` [Flexbox CSS In 20 Minutes](https://youtu.be/JJSoEo8JSnc?t=46)
+
+
+### Kiến thức cơ bản về JavaScript
+
+JavaScript cho phép bạn thêm tính tương tác vào các trang của mình. Các ví dụ phổ biến mà bạn có thể đã thấy trên các trang web là thanh trượt, tương tác nhấp chuột, cửa sổ bật lên, v.v. Trong phần này, bạn sẽ học những kiến thức cơ bản về JavaScript.
+
+- `Read` [W3Schools – JavaScript Tutorial](https://www.w3schools.com/js/)
+- `Watch` [JavaScript Crash Course for Beginners](https://youtu.be/hdI2bqOjy3c?t=2)
+- `Watch` [Build a Netflix Landing Page Clone with HTML, CSS & JS](https://youtu.be/P7t13SGytRk?t=22)
+
+
+### Hệ thống kiểm soát phiên bản và Git
+
+Hệ thống kiểm soát phiên bản cho phép bạn theo dõi các thay đổi đối với cơ sở mã / tệp của mình theo thời gian. Chúng cho phép bạn quay lại một số phiên bản trước của cơ sở mã mà không gặp bất kỳ sự cố nào. Ngoài ra, chúng giúp cộng tác với những người làm việc trên cùng một mã - nếu bạn đã từng cộng tác với những người khác trong một dự án, bạn có thể đã biết sự thất vọng khi sao chép và hợp nhất các thay đổi từ người khác vào cơ sở mã của mình; hệ thống kiểm soát phiên bản cho phép bạn thoát khỏi vấn đề này.
+
+Trong phần này, bạn sẽ tìm hiểu hệ thống kiểm soát phiên bản là gì và hiểu cách sử dụng Git, là VCS trên thực tế.
+
+- `Watch` [Version Control System Introduction](https://www.youtube.com/watch?v=zbKdDsNNOhg)
+- `Watch` [Git & GitHub Crash Course For Beginners](https://www.youtube.com/watch?v=SWYqp7iY_Tc)
+- `Watch` [Learn Git in 20 Minutes](https://youtu.be/Y9XZQO1n_7c?t=21)
+
+Bây giờ bạn đã biết git là gì, hãy tạo một tài khoản trên GitHub và đẩy mọi thứ bạn làm từ bây giờ lên GitHub để bạn có thể thực hành và nhận xét nó từ những người khác trong cộng đồng.
+
+
+### JavaScript hiện đại
+
+Trong phần này, bạn sẽ học cách sử dụng trình quản lý gói và bắt đầu với "JavaScript hiện đại".
+
+- `Read` [Modern JavaScript for Dinosaurs (Don't worry if you don't understand some parts of it)](https://medium.com/the-node-js-collection/modern-javascript-explained-for-dinosaurs-f695e9747b70)
+- `Watch` [What is NPM and how to use it](https://www.youtube.com/watch?v=8Rmj5UY5mJk)
+- `Watch` [NPM Crash Course](https://www.youtube.com/watch?v=jHDhaSSKmB0)
+
 
 
 -----
