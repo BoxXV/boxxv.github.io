@@ -21,7 +21,7 @@ import React from 'react';
 Mặc dù việc sử dụng các thư viện rất đơn giản, nhưng việc tạo và duy trì một thư viện có thể là một cơn ác mộng tuyệt đối. 
 
 
-## The problem
+### The problem
 
 Bạn cần hỗ trợ càng nhiều phiên bản của nhiều nền tảng khác nhau càng tốt để làm hài lòng người dùng của mình. Ngay cả khi bạn đang tạo một gói chỉ cho Node.js hoặc chỉ các trình duyệt, việc xuất hoạt động bình thường có thể rất khó khăn.
 
@@ -43,12 +43,12 @@ Bạn có thể muốn hỗ trợ người dùng TypeScript và Flow bằng các
 Có rất nhiều mối quan tâm khác. Làm thế nào để bạn viết tài liệu tốt? Làm cách nào để bạn sửa lỗi nhanh chóng và quản lý các vấn đề khi chúng bắt đầu chồng chất? Làm thế nào để bạn khuyến khích sự đóng góp của cộng đồng? Làm thế nào để bạn làm cho thư viện của bạn dễ hiểu cho người mới? 
 
 
-## Tại sao phải nghe những lời đề nghị của tôi?
+### Tại sao phải nghe những lời đề nghị của tôi?
 
 Nói ngắn gọn: Tôi đã làm việc trên [Parcel](https://github.com/parcel-bundler/parcel) trong vài tháng và do đó đã tìm hiểu rất sâu về các chi tiết nhỏ của việc làm cho một gói thân thiện với người dùng gói. Tôi cũng đã xuất bản và duy trì các gói thành công khác nhau, trong đó phổ biến nhất là [thư viện nén hiệu suất cao](https://github.com/101arrowz/fflate) đạt hơn 4 triệu lượt tải xuống trong 6 tháng và hiện đang phụ thuộc vào các dự án lớn như SheetJS và Three.js. Tôi đã giải quyết nhiều vấn đề mà các tác giả thư viện mới gặp phải nhiều lần, vì vậy tôi đã quen với các cách giải quyết.
 
 
-## Giải pháp
+### Giải pháp
 
 Loạt bài này sẽ mô tả những điều nên làm và không nên khi tạo một thư viện JavaScript mà người dùng của bạn sẽ thích sử dụng và bạn sẽ thích duy trì. Ngay cả khi bạn không có kế hoạch tạo thư viện sớm, những bài viết này sẽ giúp bạn tìm hiểu thêm về hệ sinh thái JavaScript và nhiều điều kỳ quặc của nó. Đừng lo lắng về việc làm theo bất kỳ thứ tự cụ thể nào; bạn sẽ không cần phải đọc bất kỳ mục nào trong loạt bài này để hiểu phần tiếp theo. Tôi hy vọng thông tin này sẽ giúp bạn thiết kế phần bổ sung tuyệt vời tiếp theo cho hệ sinh thái JS!
 
@@ -67,10 +67,56 @@ Theo thứ tự đó. Đối với thư viện, bạn có thể chọn chuyển 
 Xin hãy nhớ rằng, đây hoàn toàn là ý kiến của riêng tôi: vui lòng bỏ qua nó hoàn toàn. Mọi người nên có định nghĩa của riêng mình về "các phương pháp hay nhất".
 
 
-## Viết mã không có lỗi
+### Viết mã không có lỗi
 
 ![Writing bug-free code](https://boxxv.github.io/img/posts/new_bug.png "Writing bug-free code")
 
+Sẽ không ai học cách sử dụng một thư viện mới nếu nó có quá nhiều lỗi, cho dù các khía cạnh khác của nó có tốt đến đâu. Chính nỗi sợ hãi về các lỗi ẩn và các trường hợp chưa được kiểm tra giải thích tại sao các dự án mới hơn, bất kể tốt hơn các dự án tiền nhiệm của chúng bao nhiêu, thường ít phổ biến hơn các thư viện đã thành lập.
+
+Viết các bài kiểm tra là hoàn toàn cần thiết nếu bạn muốn giảm thiểu số lượng lỗi mà codebase của bạn mắc phải. Ngay cả những thử nghiệm thô sơ, dường như vô nghĩa cũng phục vụ hai mục đích: chúng ngăn bạn vô tình xuất bản một phiên bản bị hỏng và chúng mang lại cho người dùng cảm giác an toàn rằng ứng dụng của họ sẽ không bị hỏng khi họ cập nhật các phần phụ thuộc của mình. Bất cứ khi nào một lỗi mới được báo cáo hoặc tìm thấy, bạn sẽ muốn thêm một bài kiểm tra đã không thành công trước khi lỗi được vá để đảm bảo gói không thoái lui trong tương lai.
+
+Có rất nhiều thư viện mà bạn có thể sử dụng để kiểm tra mã của mình. Bạn sẽ cần một trình chạy thử nghiệm và thường là một tiện ích thử nghiệm. Đối với các dự án cấp thấp hoặc nhỏ, tôi khuyên bạn nên dùng [uvu](https://github.com/lukeed/uvu) như một trình chạy thử nghiệm và `uvu/assert` là một tiện ích thử nghiệm, cả hai đều hoạt động trong Node.js hoặc trình duyệt.
+
+{% highlight js %}
+// test/index.js
+import { test } from 'uvu';
+import * as assert from 'uvu/assert';
+
+// Import from the source file
+import { myFunction } from '../src/index.js';
+
+test('works on basic input', () => {
+  assert.equal(
+    myFunction({ a: 'b'}),
+    'expected output'
+  );
+  assert.is(Math.sqrt(144), 12);
+
+  // Throwing errors also works, so uvu works with
+  // most third-party assertion libraries
+  if (myFunction(123) != 456) {
+    throw new Error('failed on 123');
+  }
+});
+
+// Running node test/ runs these tests
+{% endhighlight %}
+
+Đối với các dự án lớn hơn, có lẽ bạn sẽ thích [Jest](https://jestjs.io) hơn, vì nó hỗ trợ các trường hợp sử dụng nâng cao hơn như [snapshots](https://jestjs.io/docs/snapshot-testing). Bạn không thể dễ dàng chạy thử nghiệm Jest trong trình duyệt, nhưng hầu hết các khung giao diện người dùng đều có tích hợp cho phép thử nghiệm Jest trong Node.js.
+
+{% highlight js %}
+// __tests__/index.js
+import { myFunction } from '../src/index.js';
+
+test('works on basic input', () => {
+  expect(myFunction({ a: 'b'}))
+    .toBe('expected output');
+
+  expect(myFunction(123)).toMatchSnapshot();
+});
+
+// npm run jest runs the tests
+{% endhighlight %}
 
 
 
