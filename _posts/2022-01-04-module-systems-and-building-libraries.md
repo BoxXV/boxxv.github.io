@@ -197,13 +197,13 @@ Các `Core Packages` chỉ có một thư mục có phiên bản được đóng
 
 ### UI Libraries
 
-Hãy tưởng tượng nếu chúng ta chỉ xuất bản phiên bản đi kèm của thư viện và lưu trữ nó trên CDN. Người tiêu dùng của chúng tôi sẽ sử dụng nó trực tiếp trong thẻ <script />. Bây giờ nếu người tiêu dùng của tôi chỉ muốn sử dụng thành phần <; Button />, họ phải tải toàn bộ thư viện. Ngoài ra, trong trình duyệt, không có gói nào xử lý việc rung cây và cuối cùng chúng tôi sẽ vận chuyển toàn bộ mã thư viện cho người tiêu dùng của chúng tôi. Chúng tôi không muốn điều này.
+Hãy tưởng tượng nếu chúng ta chỉ xuất bản phiên bản đi kèm của thư viện và lưu trữ nó trên CDN. Người tiêu dùng của chúng tôi sẽ sử dụng nó trực tiếp trong thẻ `<script />`. Bây giờ nếu người tiêu dùng của tôi chỉ muốn sử dụng thành phần `<Button />`, họ phải tải toàn bộ thư viện. Ngoài ra, trong trình duyệt, không có gói nào xử lý việc rung cây và cuối cùng chúng tôi sẽ vận chuyển toàn bộ mã thư viện cho người tiêu dùng của chúng tôi. Chúng tôi không muốn điều này.
 
 {% highlight js %}
 <script type="module">import {Button} from "https://unpkg.com/uilibrary/index.js";</script>
 {% endhighlight %}
 
-Bây giờ nếu chúng ta chỉ cần chuyển src thành lib và lưu trữ lib trên CDN, người tiêu dùng của chúng ta thực sự có thể nhận được bất cứ thứ gì họ muốn mà không cần bất kỳ chi phí nào. “Gửi ít hơn, tải nhanh hơn”. ✅
+Bây giờ nếu chúng ta chỉ cần chuyển `src` thành `lib` và lưu trữ `lib` trên CDN, người tiêu dùng của chúng ta thực sự có thể nhận được bất cứ thứ gì họ muốn mà không cần bất kỳ chi phí nào. “Gửi ít hơn, tải nhanh hơn”. ✅
 
 {% highlight js %}
 <script type="module">import {Button} from "https://unpkg.com/uilibrary/lib/button.js";</script>
@@ -211,24 +211,24 @@ Bây giờ nếu chúng ta chỉ cần chuyển src thành lib và lưu trữ li
 
 ### Core Packages
 
-Các gói cốt lõi không bao giờ được sử dụng thông qua thẻ <script />, vì chúng cần phải là một phần của ứng dụng chính. Vì vậy, chúng tôi có thể an toàn phát hành phiên bản đi kèm (UMD, ES) cho các loại gói này và để hệ thống xây dựng cho người tiêu dùng.
+Các gói cốt lõi không bao giờ được sử dụng thông qua thẻ `<script />`, vì chúng cần phải là một phần của ứng dụng chính. Vì vậy, chúng tôi có thể an toàn phát hành phiên bản đi kèm (UMD, ES) cho các loại gói này và để hệ thống xây dựng cho người tiêu dùng.
 
-Ví dụ: họ có thể sử dụng biến thể UMD nhưng không rung cây hoặc họ có thể sử dụng biến thể ES nếu trình kết hợp có khả năng xác định và nhận được lợi ích của việc rung cây.
-
-{% highlight js %}
-// CJS requireconst Button = require("uilibrary/button");
-{% endhighlight %}
-
+Ví dụ: họ có thể sử dụng biến thể `UMD` nhưng không rung cây hoặc họ có thể sử dụng biến thể `ES` nếu trình kết hợp có khả năng xác định và nhận được lợi ích của việc rung cây.
 
 {% highlight js %}
 // CJS requireconst Button = require("uilibrary/button");
 {% endhighlight %}
 
-Nhưng… còn câu hỏi của chúng ta: chúng ta nên chuyển (Babelify) nguồn hay gộp nó lại? ?
 
-Đối với Thư viện giao diện người dùng, chúng ta cần chuyển mã nguồn bằng Babel với hệ thống mô-đun es làm đích và đặt nó trong lib. Chúng tôi thậm chí có thể lưu trữ lib trên CDN.
+{% highlight js %}
+// CJS requireconst Button = require("uilibrary/button");
+{% endhighlight %}
 
-Chúng ta nên gói và rút gọn nguồn bằng cách sử dụng cuộn lên cho hệ thống mô-đun cjs / umd và hệ thống mô-đun es làm mục tiêu. Sửa đổi package.json để trỏ đến các hệ thống đích thích hợp.
+Nhưng… còn câu hỏi của chúng ta: chúng ta nên chuyển (`Babelify`) nguồn hay gộp nó lại?
+
+Đối với Thư viện giao diện người dùng, chúng ta cần chuyển mã nguồn bằng `Babel` với hệ thống mô-đun `es` làm đích và đặt nó trong `lib`. Chúng tôi thậm chí có thể lưu trữ `lib` trên CDN.
+
+Chúng ta nên gói và rút gọn nguồn bằng cách sử dụng `rollup` cho hệ thống mô-đun `cjs/umd` và hệ thống mô-đun `es` làm mục tiêu. Sửa đổi `package.json` để trỏ đến các hệ thống đích thích hợp.
 
 {% highlight js %}
 // package.json
@@ -246,11 +246,11 @@ Chúng ta nên gói và rút gọn nguồn bằng cách sử dụng cuộn lên 
 ...}
 {% endhighlight %}
 
-Đối với các gói cốt lõi, chúng tôi không cần phiên bản lib.
+Đối với các `core packages`, chúng tôi không cần phiên bản `lib`.
 
-Chúng ta chỉ cần gói và rút gọn nguồn bằng cách sử dụng cuộn lên cho hệ thống mô-đun cjs / umd và hệ thống mô-đun es làm mục tiêu. Sửa đổi package.json để trỏ đến các hệ thống đích thích hợp, giống như ở trên.
+Chúng ta chỉ cần gói và rút gọn nguồn bằng cách sử dụng `rollup` cho hệ thống mô-đun `cjs/umd` và hệ thống mô-đun `es` làm mục tiêu. Sửa đổi `package.json` để trỏ đến các hệ thống đích thích hợp, giống như ở trên.
 
-Mẹo: Chúng tôi cũng có thể lưu trữ thư mục dist trên CDN, cho những người tiêu dùng sẵn sàng tải xuống toàn bộ thư viện / gói thông qua thẻ <script />.
+Mẹo: Chúng tôi cũng có thể lưu trữ thư mục `dist` trên CDN, cho những người tiêu dùng sẵn sàng tải xuống toàn bộ thư viện / gói thông qua thẻ `<script />`.
 
 
 ## Chúng ta nên xây dựng cái này như thế nào?
