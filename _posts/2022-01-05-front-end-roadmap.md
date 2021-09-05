@@ -87,4 +87,5 @@ Trong phần này, bạn sẽ học cách sử dụng trình quản lý gói và
 
 -----
 Tham khảo:
-- [How to Create a JavaScript Library. 7 Tips to Create a Library That Every Developer Loves Using](https://bugfender.com/blog/how-to-create-a-javascript-library/)
+- [Roadmap to Frontend Developer in 2021](https://roadmap.sh/frontend)
+- [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
