@@ -58,7 +58,7 @@ Cách nhanh nhất và an toàn nhất để viết mã là _không_ viết nó.
 
 Sau đó, vào lần tiếp theo bạn cần sử dụng các tính năng đó, bạn không cần sao chép-dán hoặc viết lại chúng - bạn chỉ cần sử dụng lại thư viện của mình. Hơn nữa, nếu bạn tìm thấy một lỗi, bạn có thể giải quyết nó một lần và phân phối bản sửa lỗi cho các dự án còn lại của bạn.
 
-Khi bạn đã viết mô-đun nút của mình, một trong những cách dễ nhất và nhanh nhất để đưa chúng vào các dự án của bạn là sử dụng npm.
+Khi bạn đã viết mô-đun node của mình, một trong những cách dễ nhất và nhanh nhất để đưa chúng vào các dự án của bạn là sử dụng npm.
 
 Đó chính xác là những gì chúng tôi nghĩ khi giới thiệu trình ghi nhật ký từ xa [BugfenderJS](https://bugfender.com/platforms/javascript/). SDK của chúng tôi có thể được đưa vào theo cách thủ công, nhưng hầu hết người dùng của chúng tôi chỉ cần cài đặt nó bằng npm:
 
