@@ -15,9 +15,15 @@ Nếu bạn là nhà phát triển, gần như chắc chắn rằng bạn đã s
 
 Giống như hầu hết chúng ta, tôi biết cách cắm các thư viện vào chương trình của mình và sử dụng chúng, nhưng tôi thường thấy sợ mỗi khi xem qua mã nguồn thực của thư viện cụ thể đó. Sau đó, tôi bắt đầu học Vanilla JS và tất cả đều không còn đáng sợ nữa. Vanilla JS là mã JavaScript đơn giản mà bạn viết mà không cần sử dụng bất kỳ thư viện bên ngoài nào.
 
+Khi nói đến việc xây dựng một thư viện JavaScript mà bạn sẽ sử dụng để tạo một trang web, điều quan trọng là bạn phải học thao tác DOM bằng cách sử dụng Vanilla JS trước khi cố gắng thực sự xây dựng nó. Lý do quan trọng là bạn sẽ không có bất kỳ phụ thuộc nào và thư viện của bạn sẽ chỉ là một plug-n-play cho người dùng của bạn. Bạn có thể quen với thao tác DOM bằng jQuery nhưng điều đó sẽ tạo ra sự phụ thuộc vào jQuery và thư viện của bạn sẽ không hoạt động trên trang web không bao gồm tham chiếu đến thư viện jQuery.
 
+Nếu bạn đã quen với jQuery và muốn tìm hiểu thêm về thao tác DOM bằng Vanilla JS, bạn có thể đọc thêm về nó [tại đây](https://faisalrashid.tech/blogs/JavaScript-vs-jQuery).
 
+Với tất cả những gì đã nói, hãy đi sâu vào việc tạo Thư viện JavaScript từ đầu.
 
+Chúng tôi sẽ xây dựng Image Lightbox. Lightbox là một thư viện được sử dụng để xem hình ảnh trên trang web bằng cách lấp đầy trang bằng hình ảnh và giảm làm nổi nền. Đây là những gì chúng tôi sẽ xây dựng.
+
+![Image Lightbox](https://boxxv.github.io/img/posts/fs-ligthbox.gif "Image Lightbox")
 
 
 
@@ -26,3 +32,4 @@ Giống như hầu hết chúng ta, tôi biết cách cắm các thư viện và
 Tham khảo:
 - [How to build a JavaScript Library](https://faisalrashid.tech/blogs/How-to-build-a-JavaScript-Library)
 - [How to build a JavaScript Library](https://levelup.gitconnected.com/how-to-build-a-javascript-library-6b7161315f3d)
+- [39 of the best JavaScript libraries and frameworks to try in 2021](https://getflywheel.com/layout/best-javascript-libraries-frameworks-2020/)
