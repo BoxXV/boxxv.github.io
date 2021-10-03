@@ -203,6 +203,47 @@ this.hideLightbox = () => {
 };
 {% endhighlight %}
 
+`.next()` lấy hình ảnh tiếp theo từ mảng `imagesArray` và chuyển nó đến phương thức `.lightbox()` và tương tự cho phương thức `.prev()` `.hideLightbox()` xóa hình ảnh được hiển thị khỏi DOM.
+
+Chúng tôi còn hai thứ nữa - Hiển thị thông tin meta và các phím tắt liên kết.
+
+Chúng tôi sẽ viết hai phương thức cho điều này, `addKeyListists()` và `showCounter()` (lựa chọn tên kém, nên là `showMetaInformation`), Đây là cách triển khai. Nó khá đơn giản để hiểu một khi bạn trải qua nó.
+
+{% highlight js %}
+function showCounter() {
+	let imgIndex = getCurrentImageIndex();
+	let counter = document.createElement("span");
+	let counter_Html = `<br/>${imgIndex + 1} of ${_this.imagesArray.length}`;
+	if(_this.currentImage.alt){
+		counter_Html += ` - ${_this.currentImage.alt}`;
+	}
+	counter.innerHTML = counter_Html;
+	document.querySelector('.lightbox-image').appendChild(counter);
+}
+
+function addKeyListeners() {
+	document.removeEventListener('keydown', bindKeys);
+	document.addEventListener('keydown', bindKeys);
+}
+
+function bindKeys(e) {
+	// left arrow key
+	if (e.keyCode === 37 && _this.isLightbox) {
+		_this.prev();
+		return;
+	}
+	// right arrow key
+	else if (e.keyCode === 39 && _this.isLightbox) {
+		_this.next();
+		return;
+	}
+	// escape key
+	else if (e.keyCode === 27 && _this.isLightbox) {
+		_this.hideLightbox();
+		return;
+	}
+}
+{% endhighlight %}
 
 -----
 Tham khảo:
