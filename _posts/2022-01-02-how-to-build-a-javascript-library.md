@@ -53,6 +53,14 @@ function FsLightbox() {
 }
 {% endhighlight %}
 
+Điều này sẽ loại bỏ tất cả sự nhầm lẫn và cho phép chúng tôi sử dụng đối tượng context mà không có bất kỳ lo lắng nào.
+
+Không còn cách nào khác, hãy xem qua chiến lược mà chúng tôi sẽ sử dụng để làm cho lightbox hoạt động.
+- Người dùng sẽ chỉ định các hình ảnh sẽ sử dụng hộp đèn bằng cách thêm một lớp cụ thể vào các thẻ img đó . Vì vậy, mỗi khi DOM tải, chúng tôi sẽ có thể chụp những hình ảnh đó và lưu các tham chiếu của chúng trong một mảng.
+- Sau đó, chúng tôi sẽ thêm trình nghe nhấp chuột vào mỗi hình ảnh để đảm bảo rằng mỗi khi người dùng nhấp vào hình ảnh đó, hình ảnh đó sẽ được hiển thị trong hộp đèn. Chúng tôi sẽ tận dụng cả JavaScript cũng như CSS để đạt được điều này.
+- Chúng tôi cũng sẽ cần các điều khiển điều hướng cho Hình trước, Hình tiếp theo và một nút để Đóng hộp đèn. Chúng tôi sẽ kết nối các điều khiển này với trình nghe nhấp chuột tương ứng của chúng.
+- Chúng tôi cũng sẽ hiển thị một số thông tin meta như Bộ đếm hình ảnh và Chú thích (chúng tôi sẽ lấy thông tin này từ văn bản thay thế )
+
 
 
 -----
