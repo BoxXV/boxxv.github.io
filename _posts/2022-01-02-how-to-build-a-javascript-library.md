@@ -245,6 +245,22 @@ function bindKeys(e) {
 }
 {% endhighlight %}
 
+Đó là tất cả mã mà chúng ta sẽ viết trong phần thân hàm của chúng ta. Bây giờ chúng ta cần khởi tạo nó. Điều này sẽ được thực hiện bằng cách gọi phương thức `.render()` mà chúng tôi đã tạo. Hãy nhớ rằng, đó là phương thức chịu trách nhiệm thực sự khởi tạo mọi thứ. Chúng ta có thể làm điều này bên ngoài phần thân Hàm như sau:
+
+{% highlight js %}
+var fsLightbox = new FsLightbox;
+fsLightbox.render();
+{% endhighlight %}
+
+Bây giờ người dùng sẽ phải tham chiếu đến **.js** cũng như các tệp **.css** trong html của họ và chúng sẽ được thiết lập và chạy bằng cách sử dụng thư viện.
+
+Đó là về nó. Có một số hàm nhỏ hơn mà tôi không đề cập ở đây như `getCurrentImageIndex()`, .v.v. vì chúng không thực sự quan trọng để hiểu quy trình làm việc. Bạn vẫn có thể kiểm tra những điều đó trong [Github Repo](https://github.com/FaisalST32/fs-lightbox).
+
+Vì chúng tôi đã hoàn thành việc xây dựng thư viện của mình, chúng tôi cần hiểu cách xuất bản nó để những người dùng khác có thể sử dụng nó. Chúng tôi có nhiều lựa chọn cho điều đó. Chúng ta có thể sử dụng GitHub , npm , v.v. để lưu trữ thư viện của mình. Luôn nhớ bao gồm một tệp readme nhỏ ghi chi tiết cách sử dụng của thư viện. Bạn có thể tìm thấy ví dụ trong cùng Repo Github. Để biết thêm về việc xuất bản Thư viện, hãy theo dõi blog này. Tôi sẽ sớm viết một bài về nó.
+
+Dài quá; đừng đọc; Để tạo thư viện JavaScript, bạn cần lưu ý đóng gói mã để nó không can thiệp vào mã người dùng, làm cho nó đơn giản và dễ sử dụng và cố gắng đảm bảo rằng nó không có bất kỳ phụ thuộc nào. Bạn làm theo những điều này và bạn sẽ ổn thôi.
+
+
 -----
 Tham khảo:
 - [How to build a JavaScript Library](https://faisalrashid.tech/blogs/How-to-build-a-JavaScript-Library)
