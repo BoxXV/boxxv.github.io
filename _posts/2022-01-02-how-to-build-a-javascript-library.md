@@ -144,27 +144,30 @@ Vì vậy, chúng ta hãy bắt đầu nó sau đó. Hãy nhớ rằng, trước
 function prepareControls(imgElement) {
 	let controls = document.createElement('div');
 	controls.innerHTML += controlsHtml;
+
 	document.querySelector('body').appendChild(controls.querySelector('.lightbox-controls'));
+
 	let imgIndex = getCurrentImageIndex();
 	if (imgIndex > 0) {
 		document.querySelector(".lb-prev").addEventListener('click', () => {
 			_this.prev();
 		})
-	}
-	else {
+	} else {
 		document.querySelector(".lb-prev").classList.add(['lb-disabled'])
 	}
+
 	if (imgIndex < _this.imagesArray.length - 1)
 		 document.querySelector(".lb-next").addEventListener('click', () => {
 			_this.next();
 		})
-	}
-	else {
+	} else {
 		document.querySelector(".lb-next").classList.add(['lb-disabled'])
 	}
+
 	document.querySelector('.lb-close').addEventListener('click', () => {
 		_this.hideLightbox();
 	})
+
 	showCounter();
 }
 {% endhighlight %}
