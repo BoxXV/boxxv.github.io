@@ -91,8 +91,25 @@ this.render = () => {
 }
 {% endhighlight %}
 
+Như đã thấy, chúng tôi đang sử dụng một hàm `addKeyListaries()` ở đây. Phương pháp này được sử dụng để kết nối tất cả các thao tác bàn phím cho lightbox `Tiếp theo`, `Trước đó` và `Đóng`. Chúng tôi sẽ làm cho nó sau. Trình xử lý sự kiện mà chúng tôi đang thêm ở đây là `_this.lightbox()`. Phương thức này sẽ thực sự chịu trách nhiệm hiển thị hình ảnh trong hộp đèn. Đây là cách thực hiện.
 
-
+{% highlight js %}
+this.lightbox = _el => {
+	this.hideLightbox();
+	currentImage = _el;
+	isLightbox = true;
+	var overlay = document.createElement('div');
+	overlay.classList.add('lightbox-overlay');
+	var imageContainer = document.createElement('div');
+	imageContainer.classList.add('lightbox-image');
+	var image = document.createElement('img');
+	image.src = _el.src;
+	imageContainer.appendChild(image);
+	document.querySelector('body').appendChild(overlay);
+	document.querySelector('body').appendChild(imageContainer);
+	prepareControls(_el);
+}
+{% endhighlight %}
 
 
 
