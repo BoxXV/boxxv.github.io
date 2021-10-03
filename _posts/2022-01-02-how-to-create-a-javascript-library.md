@@ -121,3 +121,4 @@ Tại Bugfender, chúng tôi là những nhà phát triển và chúng tôi mu�
 -----
 Tham khảo:
 - [How to Create a JavaScript Library. 7 Tips to Create a Library That Every Developer Loves Using](https://bugfender.com/blog/how-to-create-a-javascript-library/)
+- [Build Your First JavaScript Library](https://code.tutsplus.com/tutorials/build-your-first-javascript-library--net-26796)
