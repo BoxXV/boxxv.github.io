@@ -21,11 +21,22 @@ Nếu bạn đã quen với jQuery và muốn tìm hiểu thêm về thao tác D
 
 Với tất cả những gì đã nói, hãy đi sâu vào việc tạo Thư viện JavaScript từ đầu.
 
-Chúng tôi sẽ xây dựng Image Lightbox. Lightbox là một thư viện được sử dụng để xem hình ảnh trên trang web bằng cách lấp đầy trang bằng hình ảnh và giảm làm nổi nền. Đây là những gì chúng tôi sẽ xây dựng.
+Chúng tôi sẽ xây dựng `Image Lightbox`. Lightbox là một thư viện được sử dụng để xem hình ảnh trên trang web bằng cách lấp đầy trang bằng hình ảnh và giảm làm nổi nền. Đây là những gì chúng tôi sẽ xây dựng.
 
 ![Image Lightbox](https://boxxv.github.io/img/posts/fs-ligthbox.gif "Image Lightbox")
 
+Nếu bạn muốn tiếp tục và xem mã, bạn có thể tìm thấy kho lưu trữ GitHub [tại đây](https://github.com/FaisalST32/fs-lightbox).
 
+Khi xây dựng Thư viện JavaScript, có một số điều bạn muốn lưu ý.
+
+Mã của bạn không được can thiệp vào mã hiện có do người dùng viết.
+Để làm điều này, chúng tôi sẽ đóng gói tất cả mã của chúng tôi trong một đối tượng Hàm duy nhất.
+
+{% highlight js %}
+function FsLightbox() {
+	// all the code goes here 
+}
+{% endhighlight %}
 
 
 -----
