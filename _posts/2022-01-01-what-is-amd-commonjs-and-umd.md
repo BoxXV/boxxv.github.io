@@ -105,6 +105,60 @@ module.exports = {
 {% endhighlight %}
 
 
+## UMD: Universal Module Definition
+Vì phong cách CommonJS và AMD đều phổ biến như nhau, nên có vẻ như vẫn chưa có sự đồng thuận. Điều này đã tạo ra sự thúc đẩy cho một mẫu "phổ quát" hỗ trợ cả hai kiểu, điều này đưa chúng ta đến không gì khác ngoài Định nghĩa Mô-đun Chung.
+
+Mô hình này được thừa nhận là xấu, nhưng cả AMD và CommonJS đều tương thích, cũng như hỗ trợ định nghĩa biến "toàn cầu" kiểu cũ:
+
+{% highlight js %}
+(function (root, factory) {
+	if (typeof define === "function" && define.amd) {
+		// AMD
+		define(["jquery"], factory);
+	} else if (typeof exports === "object") {
+		// Node, CommonJS-like
+		module.exports = factory(require("jquery"));
+	} else {
+		// Browser globals (root is window)
+		root.returnExports = factory(root.jQuery);
+	}
+})(this, function ($) {
+	// methods
+	function myFunc() {}
+
+	// exposed public method
+	return myFunc;
+});
+{% endhighlight %}
+
+Và giữ nguyên mẫu như các ví dụ trên, trường hợp phức tạp hơn với nhiều phụ thuộc và nhiều phương thức được tiếp xúc:
+
+{% highlight js %}
+(function (root, factory) {
+	if (typeof define === "function" && define.amd) {
+		// AMD
+		define(["jquery", "underscore"], factory);
+	} else if (typeof exports === "object") {
+		// Node, CommonJS-like
+		module.exports = factory(require("jquery"), require("underscore"));
+	} else {
+		// Browser globals (root is window)
+		root.returnExports = factory(root.jQuery, root._);
+	}
+})(this, function ($, _) {
+	// methods
+	function a() {}		// private because it's not returned (see below)
+	function b() {}		// public because it's returned
+	function c() {}		// public because it's returned
+
+	// exposed public methods
+	return {
+		b: b,
+		c: c,
+	};
+});
+{% endhighlight %}
+
 
 
 
