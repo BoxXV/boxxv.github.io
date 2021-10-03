@@ -172,7 +172,36 @@ function prepareControls(imgElement) {
 }
 {% endhighlight %}
 
+Như tôi đã nói, việc tạo điều khiển và kết nối chúng với trình nghe nhấp chuột là tất cả những gì đang được thực hiện ở đây. Các trình xử lý `this.next()` và `this.prev()` được triển khai như sau:
 
+{% highlight js %}
+this.next = () => {
+	let imgIndex = getCurrentImageIndex();
+	if (imgIndex === _this.imagesArray.length - 1)
+		return;
+	_this.lightbox(_this.imagesArray[getCurrentImageIndex() + 1]);
+}
+
+this.prev = () => {
+	let imgIndex = getCurrentImageIndex();
+	if (imgIndex === 0)
+		return;
+	_this.lightbox(_this.imagesArray[getCurrentImageIndex() - 1]);
+}
+
+this.hideLightbox = () => {
+	let overlay = document.querySelector('.lightbox-overlay');
+	let image = document.querySelector('.lightbox-image');
+	let controls = document.querySelector('.lightbox-controls');
+	if (overlay)
+		document.querySelector('body').removeChild(overlay);
+	if (image)
+		document.querySelector('body').removeChild(image);
+	if (controls)
+		document.querySelector('body').removeChild(controls);
+	this.isLightbox = false;
+};
+{% endhighlight %}
 
 
 -----
