@@ -132,13 +132,42 @@ Chúng tôi tạo lớp phủ div `overlay` bằng cách sử dụng phương th
 }
 {% endhighlight %}
 
+Sau khi tạo lớp phủ, chúng ta cần tạo vùng chứa cho hình ảnh thực tế. Biến `imageContainer` sẽ chứa như vậy. Biến sẽ là một tham chiếu đến một div mà chúng ta tạo và sau đó chúng ta sẽ tạo một hình ảnh phần tử `img` và nối nó vào cùng một div. Với tham số hàm `_el` được cung cấp, chúng ta sẽ có src của hình ảnh được nhấp và sẽ đặt phần tử `src` của hình ảnh thành cùng một giá trị. Sau đó, chúng tôi nối các phần tử, `overlay` và `imageContainer` mới được tạo này vào DOM. Đó là nó! Giờ đây, mỗi khi người dùng nhấp vào hình ảnh có thêm lớp `fs-lightbox`, nó sẽ kích hoạtphương thức `lightbox()` và hình ảnh sẽ được hiển thị trong hộp đèn.
 
+Đó là hầu hết những công việc khó khăn được thực hiện. Bây giờ đến việc đánh bóng. Đó chỉ là chúng tôi làm cho thư viện của chúng tôi thân thiện hơn với người dùng. Điều này rất quan trọng khi tạo một thư viện. Luôn suy nghĩ từ góc độ của người dùng. Nó càng thuận tiện cho người dùng, nó sẽ được nhận tốt hơn.
 
+Vì vậy, chúng ta hãy bắt đầu nó sau đó. Hãy nhớ rằng, trước đó trong bài đăng, tôi đã đề cập đến tất cả bốn phương pháp công khai sẽ có sẵn cho người dùng. Chúng tôi vừa thực hiện một trong bốn phương thức đó `render()`. Chúng ta cần triển khai phần còn lại `next()`, `prev()` và `hideLightbox()`.
 
+Điều này sẽ được thực hiện trong phương thức `readyControls()`. Bạn có thể thấy trong  phương thức `lightbox()` mà chúng tôi đang gọi phương thức này. Phương pháp này sẽ xử lý cả việc hiển thị Phần tử giao diện người dùng, tức là các nút cho các hành động trên cũng như gắn trình nghe nhấp chuột vào chúng. Đây là cách thực hiện.
 
-
-
-
+{% highlight js %}
+function prepareControls(imgElement) {
+	let controls = document.createElement('div');
+	controls.innerHTML += controlsHtml;
+	document.querySelector('body').appendChild(controls.querySelector('.lightbox-controls'));
+	let imgIndex = getCurrentImageIndex();
+	if (imgIndex > 0) {
+		document.querySelector(".lb-prev").addEventListener('click', () => {
+			_this.prev();
+		})
+	}
+	else {
+		document.querySelector(".lb-prev").classList.add(['lb-disabled'])
+	}
+	if (imgIndex < _this.imagesArray.length - 1)
+		 document.querySelector(".lb-next").addEventListener('click', () => {
+			_this.next();
+		})
+	}
+	else {
+		document.querySelector(".lb-next").classList.add(['lb-disabled'])
+	}
+	document.querySelector('.lb-close').addEventListener('click', () => {
+		_this.hideLightbox();
+	})
+	showCounter();
+}
+{% endhighlight %}
 
 
 
