@@ -71,6 +71,28 @@ let currentImage;        // Image being displayed currently in the lightbox
 let isLightbox = false;  // Boolean to tell you whether the image is being displayed in the lightbox or not
 {% endhighlight %}
 
+Sau đó, chúng tôi sẽ viết phương thức công khai đầu tiên của chúng tôi, `.render()`. Ở đây, chúng tôi sẽ khởi tạo các biến "toàn cục" và nhận tham chiếu của tất cả các hình ảnh được lưu trữ trong mảng. Phương thức này sẽ cần được chạy để thực sự khởi tạo lightbox của chúng ta. Đây là mã:
+
+{% highlight js %}
+this.render = () => {
+	imagesArray = [];
+	currentImage = null;
+	isLightbox = false;
+
+	document.querySelectorAll('img.fs-lightbox').forEach((img_el, index) => {
+		imagesArray.push(img_el);
+		img_el.setAttribute("data-lightbox-index", index);
+		img_el.addEventListener('click', () => {
+			_this.lightbox(img_el);
+		});
+	});
+
+	addKeyListeners();
+}
+{% endhighlight %}
+
+
+
 
 
 
