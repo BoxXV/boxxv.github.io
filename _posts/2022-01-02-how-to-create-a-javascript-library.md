@@ -2,6 +2,7 @@
 layout: post
 title: Cách tạo Thư viện JavaScript
 subtitle: 7 mẹo để tạo một thư viện mà mọi nhà phát triển yêu thích sử dụng
+image: "img/javascript-mastery.png"
 tags:
 - module
 - npm
