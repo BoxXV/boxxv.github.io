@@ -38,6 +38,22 @@ function FsLightbox() {
 }
 {% endhighlight %}
 
+Tất cả mã mà chúng tôi viết trong hướng dẫn này sẽ được viết trong phần thân hàm đó. Điều này sẽ xử lý việc đóng gói.
+
+Bây giờ chúng ta phải tạo một danh sách tất cả các phương thức mà người dùng sẽ được cấp quyền truy cập và điều đó sẽ hữu ích cho người dùng. Trong thư viện này, chúng tôi sẽ có bốn phương pháp như vậy
+
+`.render()`, `.next()`, `.prev()` và `.hideLightbox()`
+
+Do đó, đối tượng `FsLightbox` sẽ có bốn thành viên công khai này. Đối với các thành viên công khai, chúng tôi có nghĩa là tất cả các phương thức và thuộc tính được đặt trước từ khóa `this`.
+
+{% highlight js %}
+function FsLightbox() {
+	let _this = this;
+	// all the code goes here 
+}
+{% endhighlight %}
+
+
 
 -----
 Tham khảo:
