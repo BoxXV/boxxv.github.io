@@ -96,17 +96,22 @@ Như đã thấy, chúng tôi đang sử dụng một hàm `addKeyListaries()` �
 {% highlight js %}
 this.lightbox = _el => {
 	this.hideLightbox();
-	currentImage = _el;
-	isLightbox = true;
+	this.currentImage = _el;
+	this.isLightbox = true;
+
 	var overlay = document.createElement('div');
 	overlay.classList.add('lightbox-overlay');
 	var imageContainer = document.createElement('div');
 	imageContainer.classList.add('lightbox-image');
+
 	var image = document.createElement('img');
 	image.src = _el.src;
+
 	imageContainer.appendChild(image);
+
 	document.querySelector('body').appendChild(overlay);
 	document.querySelector('body').appendChild(imageContainer);
+
 	prepareControls(_el);
 }
 {% endhighlight %}
