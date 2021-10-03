@@ -116,6 +116,31 @@ this.lightbox = _el => {
 }
 {% endhighlight %}
 
+Như rõ ràng trong phương thức `render()`, phương thức này mong đợi phần tử image `_el` như một tham số phương thức. Đây sẽ là một tham chiếu đến phần tử `img` cần được hiển thị trong hộp đèn. Nếu chúng ta phân tích thêm phương pháp này, chúng ta thấy rằng đầu tiên chúng ta `hideLightbox()` nếu nó đã hiển thị một số hình ảnh khác. Sau đó, chúng tôi lưu tham chiếu của hình ảnh trong biến toàn cục `currentImage` của chúng tôi và cũng thay đổi biến `isLightbox` thành true. Sau đó, thao tác DOM thực sự bắt đầu.
+
+Chúng tôi tạo lớp phủ div `overlay` bằng cách sử dụng phương thức `createElement` và thêm lớp `lightbox-image` vào đó. Tệp CSS mà chúng tôi tạo sẽ chứa tất cả CSS cần thiết cho lớp phủ như vị trí và màu nền. Tôi sẽ không đi sâu vào mã đó vì đó không phải là điểm của bài đăng này. Điều đó đang được nói, đây là một đoạn trích chi tiết giống nhau:
+
+{% highlight css %}
+.lightbox-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 10000;
+}
+{% endhighlight %}
+
+
+
+
+
+
+
+
+
+
 
 
 -----
