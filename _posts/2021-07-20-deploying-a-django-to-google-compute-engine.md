@@ -416,3 +416,5 @@ Cách khác phục: sudo apt install libgl1-mesa-glx
 [Setting Up Django with MySQL, Nginx, and Gunicorn on Ubuntu 18.04](https://codeforcore.com/2020/2474/)  
 [Deploy Django to GCP Compute Engine](https://www.minimalistbeing.com/blog/django-deployment-gcp-compute-engine/)  
 [Get started with Bitnami Django on Google Cloud](https://cloud.google.com/community/tutorials/get-started-bitnami-django)  
+[https://www.x.org](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml)  
+[https://anaconda.org/conda-forge/pyvirtualdisplay](https://anaconda.org/conda-forge/pyvirtualdisplay)  
