@@ -90,6 +90,8 @@ conda install -c conda-forge pythonocc-core=7.5.1
 conda install -c conda-forge pandas
 conda install -c conda-forge gunicorn
 
+conda install -c conda-forge pyvirtualdisplay
+
 conda install -c conda-forge matplotlib
 {% endhighlight %}
 
