@@ -79,6 +79,68 @@ export {
 }
 {% endhighlight %}
 
+Các bạn lưu ý, khi ta viết library trong webpack, ta khai báo var này nọ nhưng nó sẽ ko như JS mà ta khai báo ở ngoài browser, internal hết. Vậy nên ta sẽ dùng index để tạo đầu ra cho library của bạn như sau:
+
+**src/index.js**
+{% highlight js %}
+import {DateLibrary} as './utility/DateLibrary'
+
+window.DateLibrary = DateLibrary;
+{% endhighlight %}
+
+Vậy là phần code ta đã chuẩn bị đầy đủ 😀
+
+Lưu ý nhỏ: với Webpack config của project template kia, nó chỉ có thể load được các file .js thôi nhé các bạn :D, để load được thêm css hay các file khác chắc các bạn cần tìm hiểu thêm về Webpack nữa, ở bài viết sau 😀
+
+
+### 3/ Sửa lại file package.json
+
+File này khá là quan trọng, nó chứa thông tin để npm truy xuất cũng như là các thông tin dependencies, library của bạn,…
+
+Mình sẽ đi từng các property nhé, lưu ý ta cần tuân thủ theo **JSON** file nếu ko sẽ bị lỗi đó.
+
+**`name`**
+Là tên của library của bạn, đại loại như “your-library”, “libraryABC”,… Lưu ý là ko có space (khoảng trắng) là được 😀
+
+Tên này sẽ là tên unique, các bạn cần tìm 1 tên đẹp cho tên library nhé 😀
+
+Khi publish lên, ta sẽ truy xuất vào dc url như sau: http://npmjs.com/package/library-cua-ban
+
+`**version**`
+Là version stable hiện tại dành cho library của bạn.
+
+`**description**`
+Mô tả về library này
+
+`**keywords**`
+Là một mảng keyword dành cho library của bạn (như cái tag) hỗ trợ các users có thể tìm ra dc library của bạn 😀
+
+`**author**`
+Là người phát triển ra library này, ta có thể nhập như sau:
+
+Mẫu bình thường, chỉ tên bạn: “Phat Tran”
+
+Mẫu có tên và email của bạn: “Phat Tran <phat@gmail.com>”
+
+Mẫu có tên, email và website của bạn: “Phat Tran <phat@gmail.com> (https://sethphat.com)”
+
+Nếu library của bạn có nhiều người phát triển, bạn có thể nhập một mảng người phát triển tùy ý 😀
+
+`**license**`
+Là loại license dành cho library của bạn, thường thì mình hay để MIT 😀
+
+`**private**`
+Để true nếu đây là một library private, false thì sẽ là public
+
+`**main**`
+Là đầu vào library của bạn dành cho các project Webpack khi các developers khác import vào project riêng của họ.
+
+Ta có thể trỏ vào 1 file bundle nhất định hoặc 1 thư mục,… Mà best practice thì ta nên trỏ vào 1 file nhất định 😀
+
+`**repository**`
+Property này sẽ chứa thông tin của repo của bạn, trong template project sẽ ko có property này, các bạn tự thêm vào nhé 😀
+
+Mẫu như sau:
 
 
 
