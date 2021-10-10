@@ -161,6 +161,35 @@ Và chúng ta cần cập nhật `package.json`. Phần quan trọng nhất ở 
 }
 {% endhighlight %}
 
+Ồ, hãy đảm bảo rằng thư mục `dist` được bao gồm trong bản phân phối cuối cùng, chỉ cần bỏ ghi chú dòng `dist` nếu bạn thấy.
+
+{% highlight js %}
+...
+# Nuxt.js build / generate output
+.nuxt
+# dist
+{% endhighlight %}
+
+
+### Thử nghiệm thư viện
+
+Hãy thực hiện một số thử nghiệm cục bộ nhanh theo cách thủ công để đảm bảo thư viện có thể hoạt động với Node.js và trình duyệt. 
+
+{% highlight js %}
+> npm run build:node1 + 2 = 3
+2 - 1 = 1
+
+> npm run build:browser
+{% endhighlight %}
+
+![Test the library](https://boxxv.github.io/img/posts/1 Bh62kEBEFrGAq3i0kKA51A.png "Test the library")
+
+
+
+
+
+
+
 
 
 
