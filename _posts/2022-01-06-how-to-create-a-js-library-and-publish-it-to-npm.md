@@ -106,16 +106,16 @@ Tên này sẽ là tên unique, các bạn cần tìm 1 tên đẹp cho tên lib
 
 Khi publish lên, ta sẽ truy xuất vào dc url như sau: http://npmjs.com/package/library-cua-ban
 
-`**version**`
+**`version`**
 Là version stable hiện tại dành cho library của bạn.
 
-`**description**`
+**`description`**
 Mô tả về library này
 
-`**keywords**`
+**`keywords`**
 Là một mảng keyword dành cho library của bạn (như cái tag) hỗ trợ các users có thể tìm ra dc library của bạn 😀
 
-`**author**`
+**`author`**
 Là người phát triển ra library này, ta có thể nhập như sau:
 
 Mẫu bình thường, chỉ tên bạn: “Phat Tran”
@@ -126,24 +126,45 @@ Mẫu có tên, email và website của bạn: “Phat Tran <phat@gmail.com> (ht
 
 Nếu library của bạn có nhiều người phát triển, bạn có thể nhập một mảng người phát triển tùy ý 😀
 
-`**license**`
+**`license`**
 Là loại license dành cho library của bạn, thường thì mình hay để MIT 😀
 
-`**private**`
+**`private`**
 Để true nếu đây là một library private, false thì sẽ là public
 
-`**main**`
+**`main`**
 Là đầu vào library của bạn dành cho các project Webpack khi các developers khác import vào project riêng của họ.
 
 Ta có thể trỏ vào 1 file bundle nhất định hoặc 1 thư mục,… Mà best practice thì ta nên trỏ vào 1 file nhất định 😀
 
-`**repository**`
+**`repository`**
 Property này sẽ chứa thông tin của repo của bạn, trong template project sẽ ko có property này, các bạn tự thêm vào nhé 😀
 
 Mẫu như sau:
+{% highlight js %}
+"repository": {
+        "type": "git",
+        "url": "git+https://github.com/sethsandaru/vue-form-builder.git"
+},
+{% endhighlight %}
+
+Đó là những property quan trọng ta cần fải sửa 😀 C.bị publish thôi nhé 😀
 
 
+## II/ Publish library lên NPM
 
+### 1/ Khái niệm versioning
+
+Trước khi publish lên, ta phải hiểu 1 chút về versioning bên NPM.
+
+Tại NPM, ta phải để version như sau: MAJOR.MINOR.PATCH (x.x.x – ex: 1.0.0)
+
+Ở version như vậy, ta sẽ hiểu ý nghĩa như sau:
+- MAJOR: là khi ta hoàn toàn nâng cấp version, có API changes, thay đổi nhiều ở version cũ.
+- MINOR: là khi ta update thêm features cho version hiện tại.
+- PATCH: là khi ta có một patch để update nhỏ (fix bug, sửa lỗi,…)
+
+Vậy nên ta cần phải follow theo version của NPM để quản lý version của library của chúng ta.
 
 -----
 Tham khảo:
