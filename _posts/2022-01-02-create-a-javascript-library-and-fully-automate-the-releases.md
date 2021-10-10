@@ -29,11 +29,22 @@ Truy cập [Github](https://github.com) và tạo một dự án mới có tên 
 
 ![repository](https://boxxv.github.io/img/posts/1*iWRF_3Dpj05_K4Pp-iDK8Q.png "repository")
 
+Sao chép kho lưu trữ mới được tạo và nhập vào thư mục: 
+
+{% highlight js %}
+git clone git@github.com:<GH_USERNAME>/calculator.git && cd calculator
+{% endhighlight %}
 
 
+### Khởi tạo gói NPM và cài đặt các phụ thuộc Node.js
 
+Chúng tôi sẽ sử dụng `Webpack` để đóng gói thư viện để phân phối và sử dụng `babel` để giúp xử lý cú pháp `ES6` để thư viện của chúng tôi hoạt động trên hầu hết các trình duyệt. 
 
+{% highlight js %}
+npm init -y
 
+npm i -D webpack webpack-cli babel-loader @babel/core @babel/preset-env
+{% endhighlight %}
 
 
 
