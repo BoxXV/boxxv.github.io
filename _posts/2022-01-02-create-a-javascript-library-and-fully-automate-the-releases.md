@@ -388,7 +388,8 @@ Mã nguồn: https://github.com/jeantimex/calculator
 Tham khảo:
 - [Create a JavaScript library and fully automate the releases in 2020](https://medium.com/@jeantimex/create-a-javascript-library-and-fully-automate-the-releases-ccce93153dbb)
 - [Creating a Component Library](https://blog.bitsrc.io/how-to-create-a-component-library-1af68b5d0776)
-- [How to Publish a JS and CSS Library to NPM Using Rollup](https://medium.com/geekculture/how-to-publish-a-js-and-css-library-to-npm-using-rollup-5406dbee51fa)
+- [**How to Publish a JS and CSS Library to NPM Using Rollup**](https://medium.com/geekculture/how-to-publish-a-js-and-css-library-to-npm-using-rollup-5406dbee51fa)
+- [Authoring a JavaScript library that works everywhere using Rollup](https://adostes.medium.com/authoring-a-javascript-library-that-works-everywhere-using-rollup-f1b4b527b2a9)
 - [TypeScript: create library for NodeJS and browser](https://medium.com/collaborne-engineering/typescript-create-library-for-nodejs-and-browser-fece291d517f)
 
 - [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
