@@ -403,6 +403,7 @@ Tham khảo:
 
 - [Creating a library of React components using Create React App](https://medium.com/hackernoon/creating-a-library-of-react-components-using-create-react-app-without-ejecting-d182df690c6b)
 - [How I set-up a React component library with Rollup](https://medium.com/grandata-engineering/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333)
+- [Creating a React library using Rollup & Gulp](https://giladlevari.medium.com/creating-a-react-library-using-rollup-gulp-d0463103fcf6)
 - [Create Your Own React Library in 2020: Step by Step](https://levelup.gitconnected.com/create-your-own-react-library-in-2020-step-by-step-7c39eb1b2d7b)
 - [Building a React Component Library — The Right Way](https://blog.bitsrc.io/building-a-react-component-library-d92a2da8eab9)
 - [Create a Modular React Component Library](https://blog.bitsrc.io/how-to-build-a-modular-react-ui-library-with-bit-and-bit-dev-7b7cf49b5146)
