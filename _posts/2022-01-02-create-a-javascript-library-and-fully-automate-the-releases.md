@@ -57,6 +57,21 @@ mkdir -p {src,dist,examples/browser,examples/node}
 touch src/index.js examples/browser/index.html examples/node/example.js
 {% endhighlight %}
 
+Bây giờ cấu trúc thư mục sẽ giống như sau:
+
+{% highlight js %}
+.
+├── dist
+├── examples
+│   ├── browser
+│   │   └── index.html
+│   └── node
+│       └── example.js
+└── src
+    └── index.js
+{% endhighlight %}
+
+
 
 
 
