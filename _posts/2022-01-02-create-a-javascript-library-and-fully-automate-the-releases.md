@@ -388,10 +388,11 @@ Mã nguồn: https://github.com/jeantimex/calculator
 Tham khảo:
 - [Create a JavaScript library and fully automate the releases in 2020](https://medium.com/@jeantimex/create-a-javascript-library-and-fully-automate-the-releases-ccce93153dbb)
 - [Creating a Component Library](https://blog.bitsrc.io/how-to-create-a-component-library-1af68b5d0776)
+- [How to Publish a JS and CSS Library to NPM Using Rollup](https://medium.com/geekculture/how-to-publish-a-js-and-css-library-to-npm-using-rollup-5406dbee51fa)
 - [TypeScript: create library for NodeJS and browser](https://medium.com/collaborne-engineering/typescript-create-library-for-nodejs-and-browser-fece291d517f)
 
 - [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
-- [How to create library for Angular(2+) and publish to npm from scratch](https://medium.com/hackernoon/how-to-create-library-in-angular-2-and-publish-to-npm-from-scratch-f2b1272d6266)
+- [**How to create library for Angular(2+) and publish to npm from scratch**](https://medium.com/hackernoon/how-to-create-library-in-angular-2-and-publish-to-npm-from-scratch-f2b1272d6266)
 - [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
 - [How to create a fully tree shakable icon library in Angular](https://medium.com/angular-in-depth/how-to-create-a-fully-tree-shakable-icon-library-in-angular-c5488cf9cd76)
 - [How to Create an Angular Library with NodeJS](https://levelup.gitconnected.com/multi-edit-table-export-as-an-angular-library-40b37e773fd3)
