@@ -246,6 +246,125 @@ var helloWithSpread = (function () {
 }());
 {% endhighlight %}
 
+nhìn thấy code sau khi bundle, mình nhận ra JavaScript như một vũ trụ bao la 😂
+
+Và kết quả trong console của trình duyệt:
+
+{% highlight js %}
+<script type="text/javascript">
+  console.log(helloWithSpread('12bit.vn'))
+</script>
+{% endhighlight %}
+
+![plugin-build-result](https://boxxv.github.io/img/posts/plugin-build-result.png "plugin-build-result")
+
+
+## 6. Viết thư viện
+
+Sau khi đã tìm hiểu khái quát về Rollup như command-line, file config, format, plugin. Chúng ta sẽ áp dụng Rollup để build một thư viện nhỏ có chức năng là đảo ngược text. Mình đặt tên thư viện là `reeverse` (thêm dư 1 chữ `e` để tránh bị trùng tên khi release package lên npm).
+
+Mặc dù chưa code gì hết, nhưng mình hình dung ra cách mà chúng ta sẽ sử dụng thư viện như sau:
+
+**`reeverse-test/index.js`**
+{% highlight js %}
+const reverse = require('reeverse')
+
+console.log(reverse('12bit.vn'))
+{% endhighlight %}
+
+{% highlight js %}
+$ node index.js
+nv.tib21
+{% endhighlight %}
+
+Ok! bắt đầu code.
+
+
+### Khởi tạo project
+
+Cấu trúc folder của chúng ta sẽ đơn giản như bên dưới:
+
+{% highlight js %}
+├── index.js
+├── package.json
+├── rollup.config.js
+{% endhighlight %}
+
+### Cài đặt package
+
+Các package mình sẽ cài đặt như sau:
+
+{% highlight js %}
+$ yarn add -D rollup rollup-plugin-babel rollup-plugin-terser @babel/core @babel/preset-env
+{% endhighlight %}
+
+Các bạn sẽ thấy có thêm một plugin là `rollup-plugin-terser` có tác dụng minify JS.
+
+### Cấu hình file config
+
+Tiếp theo, chúng ta khai báo nội dung cho `rollup.config.js`
+
+**`rollup.config.js`**
+{% highlight js %}
+import babel from 'rollup-plugin-babel';
+import { terser } from 'rollup-plugin-terser';
+
+export default {
+  input: 'index.js',
+  output: [
+    {
+      // Build cho trình duyệt.
+      name: 'reeverse',
+      file: 'dist/reeverse.min.js',
+      format: 'iife',
+    },
+    {
+      // Build cho môi trường sử dụng ES modules.
+      name: 'reeverse',
+      file: 'dist/reeverse.esm.js',
+      format: 'es',
+    },
+    {
+      // Build cho môi trường Node.js và trình duyệt.
+      name: 'reeverse',
+      file: 'dist/reeverse.umd.js',
+      format: 'umd',
+    },
+  ],
+  plugins: [
+    babel({
+      exclude: 'node_modules/**',
+    }),
+    terser()
+  ],
+};
+{% endhighlight %}
+
+Như bạn thấy trong file config, mình sẽ build thư viện này cho 3 môi trường. Ngoài ra mình sử dụng thêm `rollup-plugin-terser` để minify output.
+
+### Cấu hình package.json
+
+Ngoài những thuộc tính thông thường như version, description, …, chúng ta sẽ config một vài thuộc tính đặc biệt sau.
+
+Đầu tiên là script để bundle.
+
+{% highlight js %}
+"scripts": {
+  "build": "rm -rf dist && rollup --config"
+}
+{% endhighlight %}
+
+Tiếp theo là định nghĩa các môi trường ứng với file output.
+
+{% highlight js %}
+"main": "dist/reeverse.umd.js",
+"module": "dist/reeverse.esm.js",
+"unpkg": "dist/reeverse.min.js",
+{% endhighlight %}
+
+Để hiểu thêm về những thuộc tính trên, các bạn có thể đọc thêm ở bài viết [What's what? - Package.json cheatsheet!](https://areknawo.com/whats-what-package-json-cheatsheet/)
+
+
 
 
 
