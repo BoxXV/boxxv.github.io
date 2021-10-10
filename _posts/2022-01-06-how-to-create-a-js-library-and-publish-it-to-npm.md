@@ -40,6 +40,45 @@ Quá ngon phải ko nào 😀
 
 Với starter Webpack, ta có thể sử dụng template sau để viết library ra cho riêng mình
 
+### 1/ Tạo 1 project Webpack
+
+Chúng ta sẽ sử dụng template này để tạo ra project Webpack nhé: [https://github.com/sethsandaru/webpack-js-library-simple](https://github.com/sethsandaru/webpack-js-library-simple)
+
+Chạy lệnh sau để clone project về
+
+{% highlight js %}
+git clone https://github.com/lifenautjoe/webpack-starter-basic PROJECT-NAME
+
+cd PROJECT-NAME
+{% endhighlight %}
+
+Sau khi clone về xong, ta vào thư mục project Webpack của bạn, chạy tiếp lệnh:
+{% highlight js %}
+npm install
+{% endhighlight %}
+
+Đợi cho npm cài các dependencies cần thiết đi nhé, mất tầm 2~10p tùy theo mạng của các bạn 😀
+
+
+### 2/ Bắt đầu viết library
+
+Theo structure của project template, thì tất cả file js, code này nọ ta sẽ để trong thư mục `src` nhé. Và trong thư mục src đó, ta có thể
+
+Ví dụ, mình sẽ viết ra một library để lấy thời gian hiện tại và alert lên màn hình.
+
+**src/utility/DateLibrary.js**
+{% highlight js %}
+var DateLibrary = {};
+
+DateLibrary.showCurrentTime = function() {
+	alert(new Date());
+};
+
+export {
+	DateLibrary
+}
+{% endhighlight %}
+
 
 
 
