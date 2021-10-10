@@ -267,6 +267,12 @@ Nhận thấy rằng chúng tôi cũng có một `publishConfig` và đặt thu�
 
 Chúng tôi sẽ sử dụng [Travis CI](https://travis-ci.org) để giúp tự động hóa việc phát hành.
 
+### Cấu hình từ xa: thiết lập Travis
+
+Đầu tiên, kích hoạt kho lưu trữ, nhấp vào nút `Sync account` để Travis chọn kho lưu trữ mới tạo từ Github.
+
+![Remote configurations: set up Travis](https://boxxv.github.io/img/posts/1 scEyeW4Oe7DNhwLdSEKEGg.png "Remote configurations: set up Travis")
+
 
 
 
