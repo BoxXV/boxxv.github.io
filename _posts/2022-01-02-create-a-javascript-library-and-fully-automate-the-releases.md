@@ -19,6 +19,27 @@ Trong hướng dẫn này, tôi sẽ chia sẻ kinh nghiệm của mình trong v
 Được rồi, hãy bắt đầu!
 
 
+## Tạo một thư viện JavaScript
+
+Chúng tôi sẽ tạo ra một máy tính cầm tay siêu đơn giản :) 
+
+### Tạo một kho lưu trữ (repository) mới
+
+Truy cập [Github](https://github.com) và tạo một dự án mới có tên là `calculator`, khởi tạo kho lưu trữ bằng README, `.gitignore` và chọn giấy phép. 
+
+![repository](https://boxxv.github.io/img/posts/1*iWRF_3Dpj05_K4Pp-iDK8Q.png "repository")
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 -----
