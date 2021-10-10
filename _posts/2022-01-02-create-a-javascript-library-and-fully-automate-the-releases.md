@@ -388,3 +388,4 @@ Mã nguồn: https://github.com/jeantimex/calculator
 Tham khảo:
 - [Create a JavaScript library and fully automate the releases in 2020](https://medium.com/@jeantimex/create-a-javascript-library-and-fully-automate-the-releases-ccce93153dbb)
 - [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
+- [How to create library for Angular(2+) and publish to npm from scratch](https://medium.com/hackernoon/how-to-create-library-in-angular-2-and-publish-to-npm-from-scratch-f2b1272d6266)
