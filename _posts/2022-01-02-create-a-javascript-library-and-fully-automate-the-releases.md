@@ -400,6 +400,7 @@ Tham khảo:
 - [How to create a fully tree shakable icon library in Angular](https://medium.com/angular-in-depth/how-to-create-a-fully-tree-shakable-icon-library-in-angular-c5488cf9cd76)
 - [How to Create an Angular Library with NodeJS](https://levelup.gitconnected.com/multi-edit-table-export-as-an-angular-library-40b37e773fd3)
 - [Publish Angular Library created with Nx to NPM](https://medium.com/@alfredo.perez.q/publish-angular-library-created-with-nx-to-npm-3870f4d852ed)
+- [The Angular Library Series - Creating a Library with Angular CLI](https://medium.com/angular-in-depth/creating-a-library-in-angular-6-87799552e7e5)
 
 - [Creating a library of React components using Create React App](https://medium.com/hackernoon/creating-a-library-of-react-components-using-create-react-app-without-ejecting-d182df690c6b)
 - [How I set-up a React component library with Rollup](https://medium.com/grandata-engineering/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333)
