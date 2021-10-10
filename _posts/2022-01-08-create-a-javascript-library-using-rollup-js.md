@@ -449,6 +449,7 @@ Nếu bạn muốn `build app` hãy dùng `Webpack`, muốn `xây dựng thư vi
 
 -----
 Tham khảo:
+- [Viết thư viện cho JavaScript với Rollup](https://12bit.vn/articles/su-dung-rollup-de-tao-library-cho-javascript/)
 - [Bundling your own JS library with Rollup](https://cagline.medium.com/bundling-your-own-js-library-with-rollup-5db82e89ab9)
 - [How to Bundle JavaScript With Rollup — Step-by-Step Tutorial](https://www.learnwithjason.dev/blog/learn-rollup-js)
 - [Create a JavaScript library. Configure Dev Build using Rollup.js](https://dev.to/alexandrshy/create-a-javascript-library-configure-dev-build-using-rollup-js-3p6c)
