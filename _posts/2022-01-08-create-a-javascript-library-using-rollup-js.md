@@ -89,6 +89,43 @@ Và đương nhiên nếu bạn include `main.js` thì trình duyệt sẽ báo 
 
 ### Local
 
+Trong trường hợp bạn không muốn dùng command `rollup` global, thì có thể cài local và chỉ sử dụng được trong scope của project.
+
+{% highlight js %}
+$ npm install rollup --save-dev
+# hoặc dùng yarn
+$ yarn add rollup -D
+{% endhighlight %}
+
+Sau khi cài đặt thì bạn có thể sử dụng giống như global. Nhưng lúc này bạn phải khai báo Rollup trong npm scripts hoặc dùng lệnh [npx](https://12bit.vn/references/npx/) :
+
+{% highlight js %}
+$ npx rollup -h
+{% endhighlight %}
+
+
+## 3. Rollup format
+
+Rollup hỗ trợ chung ta bundle code lại với nhiều format như: `amd`, `cjs`, `esm`, `iife`, `umd`. Đây chính là sức mạnh để Rollup được dùng trong việc build library có thể chạy trên nhiều môi trường như Node.js, browser, ES.
+
+Như ví dụ trên, mình đã bundle code lại với format là [iife](https://12bit.vn/articles/tim-hieu-ve-immediately-invoked-function-expression-iife-trong-javascript/) để có thể chạy trên môi trường browser.
+
+Để bundle code với những format khác nhau, các bạn có thể dùng flag
+
+`--format [format]`
+
+{% highlight js %}
+# build library dùng trên browser.
+$ rollup --main --file bundle.js --format iife
+
+# build library dùng trong môi trường Node.js
+$ rollup --main --file bundle.js --format cjs
+{% endhighlight %}
+
+Để hiểu về các formats: amd, cjs, esm, iife, umd. Bạn có thể đọc bài viết [JAVASCRIPT: What the heck are CJS, AMD, UMD, and ESM?](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm) trên dev.to
+
+
+
 
 
 -----
