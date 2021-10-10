@@ -346,6 +346,20 @@ Sau khi hoàn thành, thư viện của chúng tôi sẽ được xuất bản l
 
 ![Release the library](https://boxxv.github.io/img/posts/1 LmiXX7K-gNYplOJxsTAW5g.png "Release the library")
 
+Và Github cho thấy bản phát hành mới sẽ ghi chú phát hành tốt.
+
+![Release the library](https://boxxv.github.io/img/posts/1 cH3YPR6P0L6G4laAmqqyAw.png "Release the library")
+
+Ngoài ra, một bảng thay đổi được tạo tự động!
+
+![Release the library](https://boxxv.github.io/img/posts/1 J9Jbz85mGwFU2QoccRI35Q.png "Release the library")
+
+🎉 Máy tính của chúng tôi đang hoạt động! Xin chúc mừng, bạn đã làm được!
+
+
+## 3. Xác minh thư viện
+
+
 
 
 
