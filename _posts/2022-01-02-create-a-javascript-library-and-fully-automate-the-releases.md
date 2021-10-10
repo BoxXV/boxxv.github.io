@@ -72,6 +72,49 @@ Bây giờ cấu trúc thư mục sẽ giống như sau:
 {% endhighlight %}
 
 
+### Triển khai thư viện
+Đã đến lúc triển khai thư viện!
+
+**src/index.js**
+{% highlight js %}
+module.exports = {
+  add: (num1, num2) => num1 + num2,
+  sub: (num1, num2) => num1 - num2,
+};
+{% endhighlight %}
+
+Như bạn có thể thấy, máy tính của chúng tôi rất đơn giản.
+
+**examples/node/example.js**
+{% highlight js %}
+const {add, sub} = require('./calculator.js');
+console.log('1 + 2 = ' + add(1, 2));
+console.log('2 - 1 = ' + sub(2, 1));
+{% endhighlight %}
+
+**examples/browser/index.html**
+{% highlight js %}
+<html>
+<head>
+  <title>Test Calculator</title>
+</head>
+<body>
+  <script src='./calculator.js'></script>
+  <script>
+    const {add, sub} = calculator;
+    console.log('1 + 2 = ' + add(1, 2));
+    console.log('2 - 1 = ' + sub(2, 1));
+  </script>
+</body>
+</html>
+{% endhighlight %}
+
+Hai tệp trên được sử dụng chủ yếu để thử nghiệm cục bộ.
+
+
+### Kết hợp (Bundle) thư viện
+
+
 
 
 
