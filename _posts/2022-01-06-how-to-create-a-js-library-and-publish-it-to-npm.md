@@ -29,6 +29,19 @@ Và mình đánh tới phần library Javascript chuyên cho web nhé, cụ th�
 Trước khi bắt đầu, nếu bạn nào chưa có NodeJS thì lên trang chủ tải về nhé, khi cài NodeJS nó sẽ cài luôn cả NPM, ta chỉ việc next, next,… thui 
 
 
+## I/ Chuẩn bị Library của bạn
+
+Vì sao ta nên sử dụng `Webpack` để build ra library?
+
+- Vì Webpack hỗ trợ ta package lại toàn bộ dependencies (js, css, img,…) và build ra 1 file bundle JS duy nhất và minified lại nó ở size nhỏ nhất. Và từ file bundle đó, ta có thể đem đi import vào html bình thường hoặc import vào trong project Webpack nào nữa tùy ý :D.
+- Không chỉ vậy, ta có thể dùng được syntax `ES6` và Webpack vẫn build ra được full JS `ES5` và có thể sử dụng ở mọi browser (trong đó có IE).
+
+Quá ngon phải ko nào 😀
+
+Với starter Webpack, ta có thể sử dụng template sau để viết library ra cho riêng mình
+
+
+
 
 
 -----
