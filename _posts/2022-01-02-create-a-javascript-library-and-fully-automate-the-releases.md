@@ -27,7 +27,7 @@ Chúng tôi sẽ tạo ra một máy tính cầm tay siêu đơn giản :)
 
 Truy cập [Github](https://github.com) và tạo một dự án mới có tên là `calculator`, khởi tạo kho lưu trữ bằng README, `.gitignore` và chọn giấy phép. 
 
-![repository](https://boxxv.github.io/img/posts/1*iWRF_3Dpj05_K4Pp-iDK8Q.png "repository")
+![repository](https://boxxv.github.io/img/posts/1 iWRF_3Dpj05_K4Pp-iDK8Q.png "repository")
 
 Sao chép kho lưu trữ mới được tạo và nhập vào thư mục: 
 
