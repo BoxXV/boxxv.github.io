@@ -47,7 +47,15 @@ npm i -D webpack webpack-cli babel-loader @babel/core @babel/preset-env
 {% endhighlight %}
 
 
+### Xếp lớp (Scaffold) thư viện
 
+Webpack có một hướng dẫn tuyệt vời về [cách tạo thư viện](https://webpack.js.org/guides/author-libraries/), hãy mượn cấu trúc thư mục của nó.
+
+{% highlight js %}
+mkdir -p {src,dist,examples/browser,examples/node}
+
+touch src/index.js examples/browser/index.html examples/node/example.js
+{% endhighlight %}
 
 
 
