@@ -114,6 +114,52 @@ Hai tệp trên được sử dụng chủ yếu để thử nghiệm cục bộ
 
 ### Kết hợp (Bundle) thư viện
 
+Chúng tôi cần cấu hình `Webpack` và `Babel` để làm cho chúng hoạt động cho chúng tôi.
+
+{% highlight js %}
+touch webpack.config.js .babelrc
+{% endhighlight %}
+
+**webpack.config.js**
+{% highlight js %}
+const path = require('path');module.exports = {
+  mode: 'production',
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    filename: 'calculator.js',
+    library: 'calculator',
+    libraryTarget: 'umd',
+    globalObject: 'this',
+  },
+  module: {
+    rules: [{
+      test: /\.js$/,
+      exclude: /(node_modules)/,
+      use: 'babel-loader',
+    }],
+  },
+};
+{% endhighlight %}
+
+**.babelrc**
+{% highlight js %}
+{
+  "presets": ["@babel/preset-env"]
+}
+{% endhighlight %}
+
+Và chúng ta cần cập nhật `package.json`. Phần quan trọng nhất ở đây là thay đổi thuộc tính `main` để nó trỏ tới `dist/calculator.js`.
+
+**package.json**
+{% highlight js %}
+"main": "dist/calculator.js",
+"scripts": {
+  "build:browser": "webpack && cp dist/calculator.js examples/browser",
+  "build:node": "webpack && cp dist/calculator.js examples/node/ && node examples/node/example.js",
+  "build": "webpack"
+}
+{% endhighlight %}
 
 
 
