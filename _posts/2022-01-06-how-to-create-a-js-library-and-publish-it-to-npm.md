@@ -230,6 +230,7 @@ Cám ơn các bạn đã theo dõi nhé!
 
 -----
 Tham khảo:
+- [Build Javascript library và publish lên NPM](https://sethphat.com/sp-713/build-javascript-library-va-publish-len-npm)
 - [What is AMD, CommonJS, and UMD?](https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
 - [Cách viết JavaScript hiện đại: Phần 2: CommonJS module](https://viblo.asia/p/cach-viet-javascript-hien-dai-phan-2-commonjs-module-5WQvzgeXRk3E)
 - [JavaScript modules](https://viblo.asia/p/javascript-modules-3P0lPEMn5ox)
