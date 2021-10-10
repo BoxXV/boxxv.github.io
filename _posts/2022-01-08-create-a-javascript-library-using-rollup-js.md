@@ -125,6 +125,36 @@ $ rollup --main --file bundle.js --format cjs
 Để hiểu về các formats: amd, cjs, esm, iife, umd. Bạn có thể đọc bài viết [JAVASCRIPT: What the heck are CJS, AMD, UMD, and ESM?](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm) trên dev.to
 
 
+## 4. Rollup plugin
+
+Việc một bundler hỗ trợ plugin đã điều rất cần thiết, vì một bundler không thể nào tích hợp tất cả mọi thứ dạng `built-in` được và cũng không phải ai cũng muốn dùng những tính năng giống nhau. Vì vậy việc dùng plugin sẽ rất linh hoạt và có khả năng mở rộng đối với những app / library phức tạp.
+
+Rollup hỗ trợ rất nhiều plugins ví dụ như transpile ES6/7 -> ES5, compile CSS preprocessor, minify JS,…
+
+Mình sẽ lấy một ví dụ sử dụng plugin [rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel) để chuyển đổi code JS dạng ES6 thành ES5.
+
+Chúng ta tiếp tục sử dụng ví dụ đầu tiên. Nhưng bây giờ trong file `main.js` sẽ được viết lại một chút, sử dụng spead syntax trong ES6 
+
+{% highlight js %}
+const helloWithSpread = name => `Hello ${[...name].join('-')}`
+
+export default helloWithSpread;
+{% endhighlight %}
+
+Nếu chưa dùng plugin để transpile ES6 -> ES5, thì file `bundle.js` sau khi build sẽ như sau:
+
+{% highlight js %}
+var helloWithSpread = (function () {
+	'use strict';
+
+	const helloWithSpread = name => `Hello ${[...name].join('-')}`;
+
+	return helloWithSpread;
+}());
+{% endhighlight %}
+
+
+
 
 
 
