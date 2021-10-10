@@ -184,9 +184,61 @@ Hãy thực hiện một số thử nghiệm cục bộ nhanh theo cách thủ c
 
 ![Test the library](https://boxxv.github.io/img/posts/1 Bh62kEBEFrGAq3i0kKA51A.png "Test the library")
 
+Xuất sắc! Chúng tôi vừa hoàn thành cột mốc đầu tiên của mình, đã đến lúc phát hành!
 
 
+## 2. Tự động hóa các bản phát hành
 
+Tôi đã từng sử dụng bản [release-it](https://github.com/release-it/release-it) để phát hành thư viện theo cách thủ công và tôi cần quyết định xem đó là bản vá, bản phát hành nhỏ hay chính.
+
+[semantic-release](https://github.com/semantic-release/semantic-release) sử dụng các thông điệp commit để quyết định kiểu phát hành miễn là các thông báo commit tuân theo kiểu [commit thông thường](https://www.conventionalcommits.org/en/v1.0.0/). Và phát hành ngữ nghĩa có một số plugin để tạo bảng thay đổi, xuất bản lên Github và NPM với ghi chú phát hành, vì vậy hãy sử dụng nó.
+
+
+### Cài đặt phần phụ thuộc Node.js
+
+{% highlight js %}
+> npm i -D husky @semantic-release/{changelog,git,github,npm,commit-analyzer,release-notes-generator} @commitlint/{cli,config-conventional}
+{% endhighlight %}
+
+Chúng tôi sử dụng `husky` để kết nối với các lệnh git, về cơ bản, chúng tôi cần đảm bảo rằng các thông báo cam kết tuân theo kiểu cam kết thông thường, bạn sẽ thấy nó được định cấu hình như thế nào sau này. 
+
+### Cấu hình cục bộ
+
+Có một số thứ chúng ta cần phải cấu hình.
+
+{% highlight js %}
+> touch commitlint.config.js .releaserc
+{% endhighlight %}
+
+**commitlint.config.js**
+{% highlight js %}
+module.exports = {
+  extends: [
+    '@commitlint/config-conventional'
+  ]
+};
+{% endhighlight %}
+
+Điều này được sử dụng để lint các thông điệp cam kết của chúng tôi.
+
+**.releaserc**
+{% highlight js %}
+{
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["@semantic-release/changelog", {
+      "changelogFile": "docs/CHANGELOG.md",
+    }],
+    "@semantic-release/npm",
+    ["@semantic-release/git", {
+      "assets": ["dist/**/*.{js,css}", "docs", "package.json"],
+      "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }],
+    "@semantic-release/github"
+  ]
+}
+{% endhighlight %}
 
 
 
