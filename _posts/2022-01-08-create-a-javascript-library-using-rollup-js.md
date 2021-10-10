@@ -401,6 +401,37 @@ Và sau khi build, chúng ta sẽ có 3 files mới ứng với 3 môi trường
 
 > Để đảm bảo package của chúng ta được cài đặt và sử dụng thành công, các bạn hãy tìm hiểu `npm pack` để xem cách test một package trước khi publish.
 
+Cách publish lên npm cũng đơn giản, bạn chỉ cần login vào npm, sau đó gõ lệnh `npm publish`. Tất cả quá trình được thực hiện thông qua command-line.
+
+{% highlight js %}
+$ npm login
+
+$ cd reeverse
+$ npm publish
+{% endhighlight %}
+
+Trong quá trình viết bài này và làm demo, mình cũng đã publish thư viện lên npm: [https://www.npmjs.com/package/reeverse](https://www.npmjs.com/package/reeverse)
+
+Vì đã công khai nên mọi người đều có thể sử dụng thư viện của chúng ta. Cùng xem qua hai ví dụ mình sử dụng `reeverse` trên CodePen và CodeSandbox.
+
+Môi trường browser:
+[https://codepen.io/tatthien/pen/pozwKPQ](https://codepen.io/tatthien/pen/pozwKPQ)
+
+Môi trường modular (Vue.js app):
+[https://codesandbox.io/s/12bitvn-demo-for-js-library-reeverse-7vvuo?from-embed](https://codesandbox.io/s/12bitvn-demo-for-js-library-reeverse-7vvuo?from-embed)
+
+
+## 8. Kết luận
+
+Bài viết khá dài, nhưng có vài điều các bạn cần nhớ:
+
+1. Dùng Rollup để bundle code ra sử dụng cho nhiều môi trường. Đây là thế mạnh của Rollup khi build library.
+2. Cấu hình Rollup qua file config.
+3. Sử dụng Rollup plugin.
+
+Rollup còn rất nhiều tính năng, mình chỉ đi qua một phần nhỏ. Các bạn hãy lên trang chủ của Rollup để tìm hiểu sâu hơn.
+
+Có người hỏi rằng khi nào thì dùng Webpack và khi nào dùng Rollup? Các nhân mình khá đồng ý với quote bên dưới như sau:
 
 
 
