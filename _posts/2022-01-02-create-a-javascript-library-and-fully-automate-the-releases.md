@@ -404,4 +404,6 @@ Tham khảo:
 - [Building a React Component Library — The Right Way](https://blog.bitsrc.io/building-a-react-component-library-d92a2da8eab9)
 - [Create a Modular React Component Library](https://blog.bitsrc.io/how-to-build-a-modular-react-ui-library-with-bit-and-bit-dev-7b7cf49b5146)
 - [Build a React Component Library](https://itnext.io/building-a-scalable-ui-component-library-4607de91955a)
+- [React: Load Global JavaScript Library with Webpack](https://yushulx.medium.com/react-load-global-javascript-library-with-webpack-fa3e1a33d8bc)
 
+- [Syncfusion JavaScript Library and the SharePoint Framework: A Powerful Combo](https://medium.com/syncfusion/syncfusion-javascript-library-and-the-sharepoint-framework-a-powerful-combo-39a56078539c)
