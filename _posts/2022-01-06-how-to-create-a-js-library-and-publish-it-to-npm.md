@@ -166,6 +166,68 @@ Tại NPM, ta phải để version như sau: MAJOR.MINOR.PATCH (x.x.x – ex: 1.
 
 Vậy nên ta cần phải follow theo version của NPM để quản lý version của library của chúng ta.
 
+
+### 2/ Đăng nhập vào npm
+
+Các bạn tạo account tại npmjs.com nhé, sau đó chạy lệnh này để login vào npm tại máy của bạn:
+
+{% highlight js %}
+npm adduser
+{% endhighlight %}
+
+Để check xem bạn đã đăng nhập hay chưa, dùng lệnh:
+
+{% highlight js %}
+npm whoami
+{% endhighlight %}
+
+
+### 3/ Tạo version cho library và publish lên NPM
+
+Vì ta mới đưa library lên lần đầu, vậy version của chúng ta sẽ là 1.0.0, vậy nên ta chạy lệnh sau để gán version
+
+{% highlight js %}
+npm version 1.0.0
+{% endhighlight %}
+
+Và chạy lệnh này luôn để publish lên NPM:
+
+{% highlight js %}
+npm publish
+{% endhighlight %}
+
+(Với Git) Bởi vì ta quản lý theo version, thì khi ta chạy lệnh version của npm, nó sẽ tự tạo ra 1 tag version dành cho chúng ta lun, chúng ta chỉ cần push tag lên thôi :D, chạy tiếp lệnh:
+
+{% highlight js %}
+git push --tags
+{% endhighlight %}
+
+Về phần tags này thì nó tương tự như Composer khi ta đưa package lên, same same vậy 😀
+
+Vậy là ta đã publish thành công library lên NPM, các bạn có thể vào link sau để vào library của bạn:
+
+https://www.npmjs.com/package/<package_name>
+
+
+### 4/ Update lại NPM khi có thay đổi sau này
+
+Cũng rất đơn giản thôi, sau khi đã sửa xong, push commit đã đời, bạn cũng chỉ chạy 2 lệnh tương tự:
+
+{% highlight js %}
+npm version 1.0.1
+npm publish
+{% endhighlight %}
+
+Vậy là NPM package của bạn đã được update 😀
+
+
+## III/ Kết luận về Build Javascript library và publish lên NPM
+
+Với các thủ thuật đơn giản này, bạn sẽ tạo ra được 1 library sử dụng webpack và package lại đưa lên npm để chia sẻ cũng như để quản lý, versioning package của bạn 😀
+
+Cám ơn các bạn đã theo dõi nhé!
+
+
 -----
 Tham khảo:
 - [What is AMD, CommonJS, and UMD?](https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
