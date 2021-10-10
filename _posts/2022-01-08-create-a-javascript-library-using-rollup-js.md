@@ -34,7 +34,7 @@ Bây giờ chúng ta sẽ bundle thử một ví dụ nhỏ sau để xem cách 
 
 ![simple-build](https://boxxv.github.io/img/posts/simple-build.png "simple-build")
 
-**main.js**
+**`main.js`**
 {% highlight js %}
 const hello = function(name) {
   return 'Hello ' + name
@@ -53,7 +53,7 @@ $ rollup main.js --file bundle.js --format iife --name hello
 
 Sau khi build, file `bundle.js` của chúng ta sẽ như sau:
 
-**bundle.js**
+**`bundle.js`**
 {% highlight js %}
 var hello = (function() {
   'use strict';
@@ -68,7 +68,7 @@ var hello = (function() {
 
 Mình sẽ include file `bundle.js` và gọi function `hello('12bit.vn')`
 
-**index.html**
+**`index.html`**
 {% highlight js %}
 ...
 <script src="./bundle.js"></script>
@@ -133,7 +133,7 @@ Rollup hỗ trợ rất nhiều plugins ví dụ như transpile ES6/7 -> ES5, co
 
 Mình sẽ lấy một ví dụ sử dụng plugin [rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel) để chuyển đổi code JS dạng ES6 thành ES5.
 
-Chúng ta tiếp tục sử dụng ví dụ đầu tiên. Nhưng bây giờ trong file `main.js` sẽ được viết lại một chút, sử dụng spead syntax trong ES6 
+Chúng ta tiếp tục sử dụng ví dụ đầu tiên. Nhưng bây giờ trong file `main.js` sẽ được viết lại một chút, sử dụng [spead syntax trong ES6](https://12bit.vn/articles/spread-operator-trong-es6/)
 
 {% highlight js %}
 const helloWithSpread = name => `Hello ${[...name].join('-')}`
@@ -153,7 +153,98 @@ var helloWithSpread = (function () {
 }());
 {% endhighlight %}
 
+Bạn thấy đó! code vẫn vậy, điều này sẽ khiến cho những trình duyệt không [hỗ trợ spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax#browser_compatibility) báo lỗi. Chúng ta sẽ sửa lại bằng cách cài thêm plugin babel.
 
+{% highlight js %}
+$ yarn add -D rollup-plugin-babel@latest @babel/core @babel/preset-env
+{% endhighlight %}
+
+Chúng ta cần phải cài thêm `@babel/core` và `@babel/preset-env` thì plugin mới hoạt động được.
+
+
+## 5. File config
+
+Khi đã dùng plugin, chúng ta cần phải khai báo plugin trong file config riêng cho Rollup (cũng giống như `webpack.config.js` vậy).
+
+Các bạn sẽ tạo một file tên là `rollup.config.js`, với nội dung như sau:
+
+**`rollup.config.js`**
+{% highlight js %}
+import babel from 'rollup-plugin-babel'
+
+export default {
+  input: 'main.js',
+  output: {
+    file: 'bundle.js',
+    name: 'helloWithSpread',
+    format: 'iife'
+  },
+  plugins: [
+    babel({
+      exclude: 'node_modules/**'
+    })
+  ]
+}
+{% endhighlight %}
+
+Đơn giản phải không nào! Tiếp theo các bạn khai báo script trong `package.json`
+
+{% highlight js %}
+...
+"scripts": {
+  "build": "rollup --config"
+},
+...
+{% endhighlight %}
+
+Rollup sẽ tự động detect file `rollup.config.js` trong root folder nếu bạn không truyền đường dẫn tới file config cho `--config`.
+
+Trường hợp bạn muốn dùng nhiều file config cho những ngữ cảnh khác nhau thì có thể khai báo như sau:
+
+{% highlight js %}
+...
+"scripts": {
+  "build:es": "rollup --config path/to/rollup.config.es.js",
+  "build:iife": "rollup --config path/to/rollup.config.iife.js",
+  "build:umd": "rollup --config path/to/rollup.config.umd.js"
+},
+...
+{% endhighlight %}
+
+Sau khi build với plugin babel. Chúng ta sẽ được file `bundle.js` như sau:
+
+{% highlight js %}
+var helloWithSpread = (function () {
+  'use strict';
+
+  function _toConsumableArray(arr) {
+    return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
+  }
+
+  function _arrayWithoutHoles(arr) {
+    if (Array.isArray(arr)) {
+      for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+
+      return arr2;
+    }
+  }
+
+  function _iterableToArray(iter) {
+    if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+  }
+
+  function _nonIterableSpread() {
+    throw new TypeError("Invalid attempt to spread non-iterable instance");
+  }
+
+  var helloWithSpread = function helloWithSpread(name) {
+    return "Hello ".concat(_toConsumableArray(name).join('-'));
+  };
+
+  return helloWithSpread;
+
+}());
+{% endhighlight %}
 
 
 
