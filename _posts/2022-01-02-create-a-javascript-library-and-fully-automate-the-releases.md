@@ -359,9 +359,30 @@ Ngoài ra, một bảng thay đổi được tạo tự động!
 
 ## 3. Xác minh thư viện
 
+Bây giờ, hãy xem liệu thư viện có thể hoạt động ở mọi nơi hay không.
 
+[Observable](https://observablehq.com/@observablehq/require) hoạt động với các thư viện AMD, vì vậy chúng tôi có thể yêu cầu máy tính của mình ở đó và xem nó có hoạt động không, vâng, nó hoạt động!
 
+![Verify the library](https://boxxv.github.io/img/posts/1 flVqsJnT5gQVwVdh_Qld2w.png "Verify the library")
 
+Tiếp theo, hãy kiểm tra và xem liệu thư viện của chúng tôi có hoạt động với `CommonJS` trên [repl](https://replit.com) hay không.
+
+![Verify the library](https://boxxv.github.io/img/posts/1 toPm-ICPYG_GKT2Ks_SM2w.png "Verify the library")
+
+Cuối cùng, thư viện của chúng tôi sẽ hoạt động tốt thông qua thẻ script.
+
+{% highlight js %}
+<script src="//unpkg.com/@jeantimex/calculator@1.0.0/dist/calculator.js"></script>
+<script>
+  const {add, sub} = calculator;
+  console.log('1 + 2 = ' + add(1, 2));
+  console.log('2 - 1 = ' + sub(2, 1));
+</script>
+{% endhighlight %}
+
+Vậy là xong, hy vọng bạn sẽ thích và thấy bài viết này hữu ích.
+
+Mã nguồn: https://github.com/jeantimex/calculator
 
 -----
 Tham khảo:
