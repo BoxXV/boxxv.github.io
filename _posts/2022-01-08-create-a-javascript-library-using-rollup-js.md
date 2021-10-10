@@ -431,9 +431,20 @@ Bài viết khá dài, nhưng có vài điều các bạn cần nhớ:
 
 Rollup còn rất nhiều tính năng, mình chỉ đi qua một phần nhỏ. Các bạn hãy lên trang chủ của Rollup để tìm hiểu sâu hơn.
 
-Có người hỏi rằng khi nào thì dùng Webpack và khi nào dùng Rollup? Các nhân mình khá đồng ý với quote bên dưới như sau:
+Có người hỏi rằng khi nào thì dùng Webpack và khi nào dùng [Rollup](https://rollupjs.org/)? Các nhân mình khá đồng ý với quote bên dưới như sau:
+
+> Use webpack for apps, and Rollup for libraries
+
+Nếu bạn muốn `build app` hãy dùng `Webpack`, muốn `xây dựng thư viện` dùng được ở nhiều môi trường hãy dùng `Rollup`.
 
 
+## 9. Tham khảo
+
+- [Awesome Rollup](https://github.com/rollup/awesome)
+- [What's what? - Package.json cheatsheet!](https://areknawo.com/whats-what-package-json-cheatsheet/)
+- [JAVASCRIPT: What the heck are CJS, AMD, UMD, and ESM?](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)
+- [Testing npm packages before publishing](https://dev.to/vcarl/testing-npm-packages-before-publishing-h7o)
+- [Webpack and Rollup: the same but different](https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c)
 
 
 -----
