@@ -390,6 +390,8 @@ Tham khảo:
 - [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
 - [How to create library for Angular(2+) and publish to npm from scratch](https://medium.com/hackernoon/how-to-create-library-in-angular-2-and-publish-to-npm-from-scratch-f2b1272d6266)
 - [How to create an icon library in Angular](https://medium.com/angular-in-depth/how-to-create-an-icon-library-in-angular-4f8863d95a)
+- [How to create a fully tree shakable icon library in Angular](https://medium.com/angular-in-depth/how-to-create-a-fully-tree-shakable-icon-library-in-angular-c5488cf9cd76)
 - [Creating a library of React components using Create React App](https://medium.com/hackernoon/creating-a-library-of-react-components-using-create-react-app-without-ejecting-d182df690c6b)
 - [How I set-up a React component library with Rollup](https://medium.com/grandata-engineering/how-i-set-up-a-react-component-library-with-rollup-be6ccb700333)
 - [Create Your Own React Library in 2020: Step by Step](https://levelup.gitconnected.com/create-your-own-react-library-in-2020-step-by-step-7c39eb1b2d7b)
+- [Building a React Component Library — The Right Way](https://blog.bitsrc.io/building-a-react-component-library-d92a2da8eab9)
