@@ -273,6 +273,60 @@ Chúng tôi sẽ sử dụng [Travis CI](https://travis-ci.org) để giúp tự
 
 ![Remote configurations: set up Travis](https://boxxv.github.io/img/posts/1 scEyeW4Oe7DNhwLdSEKEGg.png "Remote configurations: set up Travis")
 
+Nhấp vào nút “Cài đặt” bên cạnh nút kích hoạt màu xanh lá cây. Chúng ta sẽ tạo hai biến môi trường.
+
+Vì chúng tôi sẽ xuất bản thư viện lên NPM, chúng tôi cần tạo mã thông báo NPM để cấp quyền cho Travis.
+
+{% highlight js %}
+> npm login
+> npm profile enable-2fa auth-only
+> npm token create
+
+┌────────────────┬──────────────────────────────────────┐
+│ token          │ 01234567-8901-2345-6789-012345678901 │
+├────────────────┼──────────────────────────────────────┤
+│ cidr_whitelist │                                      │
+├────────────────┼──────────────────────────────────────┤
+│ readonly       │ false                                │
+├────────────────┼──────────────────────────────────────┤
+│ created        │ 2020-05-11T01:53:11.292Z             │
+└────────────────┴──────────────────────────────────────┘
+{% endhighlight %}
+
+Tiếp theo, chúng ta cũng cần cấp quyền cho Travis đọc và ghi (publish) lên Github. Xem thêm thông tin chi tiết [tại đây](https://docs.travis-ci.com/user/deployment/pages/#setting-the-github-token).
+
+Dưới đây là ảnh chụp màn hình về các quyền trên Github đối với mã thông báo:
+
+![Remote configurations: set up Travis](https://boxxv.github.io/img/posts/1 CBvU1scg2gLEg127YdT3Qw.png "Remote configurations: set up Travis")
+
+Sau khi chúng tôi có mã thông báo, hãy thêm chúng vào trang cài đặt của Travis.
+
+![Remote configurations: set up Travis](https://boxxv.github.io/img/posts/1 Cq2SaoxN-jjSwWwSXRp-EQ.png "Remote configurations: set up Travis")
+
+Bây giờ, hãy cấu hình Travis.
+
+{% highlight js %}
+> touch .travis.yml
+{% endhighlight %}
+
+**.travis.yml**
+{% highlight js %}
+language: node_jsnode_js:
+  - 12jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      script: skip
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - npx semantic-release
+{% endhighlight %}
+
+Về cơ bản, chúng tôi đang yêu cầu Travis chạy semantic-release :)
+
 
 
 
