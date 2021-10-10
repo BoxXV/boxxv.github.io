@@ -391,6 +391,8 @@ Tham khảo:
 - [**How to Publish a JS and CSS Library to NPM Using Rollup**](https://medium.com/geekculture/how-to-publish-a-js-and-css-library-to-npm-using-rollup-5406dbee51fa)
 - [Authoring a JavaScript library that works everywhere using Rollup](https://adostes.medium.com/authoring-a-javascript-library-that-works-everywhere-using-rollup-f1b4b527b2a9)
 - [TypeScript - create library for NodeJS and browser](https://medium.com/collaborne-engineering/typescript-create-library-for-nodejs-and-browser-fece291d517f)
+- [How to create a JavaScript library and publish it to npm](https://adrianmanduc.medium.com/how-to-create-a-js-library-and-publish-it-to-npm-6e6351971984)
+- [Build Javascript library và publish lên NPM](https://sethphat.com/sp-713/build-javascript-library-va-publish-len-npm)
 
 - [How to create, publish and use your own VueJS Component library on NPM using @vue/cli 3.0](https://medium.com/justfrontendthings/how-to-create-and-publish-your-own-vuejs-component-library-on-npm-using-vue-cli-28e60943eed3)
 - [**How to create library for Angular(2+) and publish to npm from scratch**](https://medium.com/hackernoon/how-to-create-library-in-angular-2-and-publish-to-npm-from-scratch-f2b1272d6266)
