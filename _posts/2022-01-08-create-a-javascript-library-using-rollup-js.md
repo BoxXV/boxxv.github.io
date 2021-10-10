@@ -364,6 +364,43 @@ Tiếp theo là định nghĩa các môi trường ứng với file output.
 
 Để hiểu thêm về những thuộc tính trên, các bạn có thể đọc thêm ở bài viết [What's what? - Package.json cheatsheet!](https://areknawo.com/whats-what-package-json-cheatsheet/)
 
+### Viết code
+
+Sau khi đã config xong, chúng ta sẽ viết code cho file `index.js`.
+
+**`index.js`**
+{% highlight js %}
+const reverse = input =>
+  input
+    .split('')
+    .reverse()
+    .join('');
+
+export default reverse;
+{% endhighlight %}
+
+Có lẽ mình không nên giải thích cách reverse text như thế nào 😁
+
+Tiếp theo, chúng ta sẽ bundle đoạn code trên.
+
+{% highlight js %}
+$ yarn build
+{% endhighlight %}
+
+Và sau khi build, chúng ta sẽ có 3 files mới ứng với 3 môi trường được tạo ra nằm trong folder `dist`.
+
+{% highlight js %}
+├── dist
+│   ├── reeverse.esm.js
+│   ├── reeverse.min.js
+│   └── reeverse.umd.js
+{% endhighlight %}
+
+
+## 7. Publish lên npm
+
+> Để đảm bảo package của chúng ta được cài đặt và sử dụng thành công, các bạn hãy tìm hiểu `npm pack` để xem cách test một package trước khi publish.
+
 
 
 
