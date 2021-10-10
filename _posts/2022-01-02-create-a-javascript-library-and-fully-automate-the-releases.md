@@ -240,7 +240,32 @@ module.exports = {
 }
 {% endhighlight %}
 
+Đây là cấu hình của semantic-release. Có một điều rất quan trọng cần biết rằng tất cả các plugin đều được thực thi theo thứ tự như đã định nghĩa!
 
+Cập nhật package.json, chúng tôi sẽ đặt tên cho gói của mình bằng cách làm theo [kiểu đặt tên gói có phạm vi của NPM](https://docs.npmjs.com/cli/v7/using-npm/scope). Đặt lại số phiên bản thành `0.0.0`, định cấu hình `husky`, thêm tập lệnh để thực hiện phát hành ngữ nghĩa sau này.
+
+Nhận thấy rằng chúng tôi cũng có một `publishConfig` và đặt thuộc tính `access` thành “public”, điều này được sử dụng vì chúng tôi sử dụng tên gói phạm vi.
+
+{% highlight js %}
+"name": "@jeantimex/calculator",
+"version": "0.0.0",
+"husky": {
+  "hooks": {
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  }
+},
+"publishConfig": {
+  "access": "public"
+},
+"scripts": {
+  ...
+  "semantic-release": "semantic-release"
+}
+{% endhighlight %}
+
+Được rồi, cấu hình cục bộ đã hoàn tất, hãy chuyển sang phần điều khiển từ xa.
+
+Chúng tôi sẽ sử dụng [Travis CI](https://travis-ci.org) để giúp tự động hóa việc phát hành.
 
 
 
