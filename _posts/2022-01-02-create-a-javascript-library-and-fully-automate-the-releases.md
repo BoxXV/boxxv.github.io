@@ -328,6 +328,24 @@ language: node_jsnode_js:
 Về cơ bản, chúng tôi đang yêu cầu Travis chạy semantic-release :)
 
 
+### Release the library
+
+Cuối cùng, đã đến lúc thúc đẩy bản phát hành!
+
+{% highlight js %}
+> git add .
+> git commit -m "feat: introduce calculator"
+> git push
+{% endhighlight %}
+
+Bạn sẽ thấy cách Travis xây dựng và triển khai thư viện.
+
+![Release the library](https://boxxv.github.io/img/posts/1 xbozJQklWEkmnWyed9Po4w.png "Release the library")
+
+Sau khi hoàn thành, thư viện của chúng tôi sẽ được xuất bản lên NPM.
+
+![Release the library](https://boxxv.github.io/img/posts/1 LmiXX7K-gNYplOJxsTAW5g.png "Release the library")
+
 
 
 
