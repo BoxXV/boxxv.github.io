@@ -143,6 +143,7 @@ Gulp và Grunt đòi hỏi bạn có thời gian học và thuần thục công 
 
 ![npm task runner](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-npm.jpg "npm task runner")
 
+[6 điều khiến Yam trở thành quản lý JavaScript pakager tốt nhất](https://code.tutsplus.com/tutorials/6-things-that-make-yarn-the-best-javascript-package-manager--cms-29465)
 
 # Tools: Testing
 
