@@ -160,11 +160,11 @@ Lợi điểm to lớn nhất của Jest so với những bộ kiểm thử khá
 
 Jest có một tính năng gọi là snapshot testing cho phép bạn chắc chắn rằng UI của ứng dụng không thay đổi theo cách không mong muốn. Nhà phát triển tại Facebook và những người đóng góp khác đã bỏ rất nhiều công sức vào dự án này, vì vậy sẽ không ngạc nhiên nếu Jet trở thành testing framework phổ biến nhất trong những năm tối đây.
 
-## Mocha
+## [Mocha](https://mochajs.org)
 
 Mocha là một testing JavaScript framework nổi bật với sự hỗ trợ của trình duyệt, hỗ trợ không đồng bộ gồm có promises, test coverage report (báo cáo kiểm tra), và một JavaScript API để vận hành các bài kiểm tra. Mocha thường dùng chung với một thư viện khác như Chai, should.js, expect.js hoặc một thu viện tốt hơn vì nó thiếu mất một thư viên của nó.
 
-Mocha test runner and testing framework
+![Mocha test runner and testing framework](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Mocha.jpg "Mocha test runner and testing framework")
 
 ## Jasmine
 
