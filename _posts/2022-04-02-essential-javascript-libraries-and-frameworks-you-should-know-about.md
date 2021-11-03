@@ -131,8 +131,57 @@ Gulp sử dụng pipeline để dẫn data từ một plugin sang một plugin k
 
 ![Gulp](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Gulp.jpg "Gulp")
 
+## Grunt
+
+Grunt là một task runner (trình chạy task) và một công cụ tự động của JavaScript. Grunt có một giao diện command-line cho phép bạn chạy các task tự chọn được định nghĩa trong một Gruntfile. Grunt có hàng ngàn plugins để chọn lựa, gồm có những task lập đi lập lại mà bạn sẽ gặp phải. Với Grunt, bạn có thể dùng tất cả task bằng một dòng lệnh, làm cuộc sống bạn dễ dàng hơn.
+
+Grunt the JavaScript task runner
+
+## npm
+
+Gulp và Grunt đòi hỏi bạn có thời gian học và thuần thục công cụ. Giới thiệu các phần phụ thuộc bổ sung vào dự án của bạn có thể tránh được bằng cách chọn lựa một thay thế đã được đóng gói với Node.js. Dù npm được biết đến nhiều hơn là một trình quản lý package, mã lệnh npm cũng có thể sử dụng để thực hiện các nhiệm vụ được đề cập trước đó.
+npm task runner
 
 
+# Tools: Testing
+
+Testing là quá trình đánh giá và thẩm định phần mềm liệu đã đáp ứng được các yêu cầu mong đợi về kỹ thuật và business. Phương pháp Test-Driven Development cũng hướng đến việc phát hiện lỗi và được xem như một phần không thể thiếu của công việc phát triển front-end hiện đại.
+
+## Jest
+
+Jest là một testing framework khá mới mẻ được xây dựng bởi Facebook và được cộng đồng React khá đón nhận. Có một quan niệm sai lầm phổ biến là Jest được thiết kế đặc thù để làm việc với React, tuy nhiên, theo tài liệu của Jest:
+
+    Dù Jest có thể xem là test runner đặc thù cho React, nhưng thực tế là một nền tảng testing phổ cập, với khả năng thích nghi cho bất kể thư viện hoặc framework JavaScript nào. Bạn có thể sử dụng Jest để test bất kỳ mã JavaScript nào.
+
+Lợi điểm to lớn nhất của Jest so với những bộ kiểm thử khác là không cần phải có cấu hình gì để bắt đầu viết các testing. Framework đã có phần thư viên dựng sẵn và hỗ trợ sử dụng của việc bắt chước các hàm.
+Delightful JavaScript testing using Jest
+
+Jest có một tính năng gọi là snapshot testing cho phép bạn chắc chắn rằng UI của ứng dụng không thay đổi theo cách không mong muốn. Nhà phát triển tại Facebook và những người đóng góp khác đã bỏ rất nhiều công sức vào dự án này, vì vậy sẽ không ngạc nhiên nếu Jet trở thành testing framework phổ biến nhất trong những năm tối đây.
+
+## Mocha
+
+Mocha là một testing JavaScript framework nổi bật với sự hỗ trợ của trình duyệt, hỗ trợ không đồng bộ gồm có promises, test coverage report (báo cáo kiểm tra), và một JavaScript API để vận hành các bài kiểm tra. Mocha thường dùng chung với một thư viện khác như Chai, should.js, expect.js hoặc một thu viện tốt hơn vì nó thiếu mất một thư viên của nó.
+
+Mocha test runner and testing framework
+
+## Jasmine
+
+Jasmine là một testing framework theo kiểu behavior-driven cho JavaScript. Jasmine định hướng tới là một trình duyệt, nền tảng và bộ kiểm tra không lệ thuộc vào framework. Jasmine có một thư viện riêng của nó gọi là matchers với cú pháp rõ ràng và dễ đọc. Jasmine không có một test runner (trình chạy test) dựng sẵn, và bạn có lẽ phải dùng một test runner thuần tuý như Karma.
+
+Jasmine test runner and testing framework
+
+
+# Tóm tắt
+
+JavaScript, ngôn ngữ của web, đã xuất hiện từ ngày khái niệm về nó xuất hiện kể từ 1995. Nó dĩ nhiên sẽ tồn tại như thế miễn là các trình duyệt không quyết định thay nó bằng một ngôn ngữ khác. Mặc dù có rất nhiều ngôn ngữ khác biên dịch thành JavaScript, không có ngôn ngữ scripting nào khác có thể thay được JavaScript trong tương lai gần. Tại sao? Vì JavaScript đã trở nên quá phổ biến để có thể bị thay thế.
+
+Ngôn ngữ này không chỉ dễ học, mà còn có rất nhiều framework và thư viện đủ để bạn bận rộn với nó. Nếu bạn đang tìm một số tài nguyên bổ sung để học hoặc sử dụng trong công việc, hãy xem qua những cái chúng tôi đã có sẵn trên Envato Market.
+
+Môi trường JavaScript đang phát triển, với minh chứng là xu hướng hiện tại trong sự phát triển của web. Những thư viện và framework cũ đã bị thay thế bởi những công nghệ mới hơn. jQuery, một trong những thư viện JavaScript từng được yêu mến nhất, đang đương đầu với sự thất thế về độ hấp dẫn, cách sử dụng và sự phổ biến. Các thư viện, framework và công cụ thế hệ mới đang tăng trưởng và có được sự đón nhận rộng rãi.
+
+Thích nghi dần với các xu hướng công nghệ mới cũng có lợi ích. Công việc code yêu cầu React có mức lương cao hơn trong ngành, với mức lương bình quân 105,000 đô Mỹ theo Stack Overflow (2016). Vậy bạn cần tiếp tục học và trải nghiệm những công cụ và framework mới nhất để chọn ra cái tốt nhất.
+
+Nếu bạn nghĩ tôi đã bỏ lỡ một framework JavaScript, thư viện hoặc công cụ nào đáng để đề cập, hãy cho tôi biết thông qua phần bình luận nhé. 
 
 
 -----
@@ -145,4 +194,5 @@ Tham khảo:
 - [Top 10 JavaScript Frameworks thông dụng năm 2020](https://itguru.vn/blog/top-10-javascript-framework-thong-dung/)
 - [Những thư viện và framework của JavaScript mà bạn không thể bỏ qua](https://topdev.vn/blog/thu-vien-va-framework-cua-javascript/)
 - [Những thư viện và framework của JavaScript mà bạn không thể bỏ qua](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
+- [Modules, cách tiệp cận tương lai cho thư viện JavaScript](https://code.tutsplus.com/articles/modules-a-future-approach-to-javascript-libraries--cms-21800)
 
