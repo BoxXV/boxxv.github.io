@@ -107,6 +107,31 @@ Ember.jsj là một framework front-end vân hành trên mô hình Model-View-Vi
 
 ![Ember](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Emberjs.jpg "Ember")
 
+Ember thông thường gồm có:
+
+- Ember CLI: cung cấp chọn lựa tạo khuôn mẫu cơ bản (scaffolding) và hỗ trợ hàng trăm add-ons.
+- Ember Data: một thư viện data vững chắc có thể được cấu hình để làm việc với bất kỳ server back-end nào.
+- Ember Inspector: Một extension (phần mở rộng) cho Chrome và Firefox.
+- Liquid Fire: Một add-on cho việc chuyển đổi và hoạt hình.
+
+
+# III. Các công cụ
+
+Một công cụ là một tập hợp các công việc thường dùng, giúp bạn trong quá trình phát triển. Không giống thư viện, công cụ thường xử lý một task ở mã lệnh phía client. Nó dùng mã code làm dữ liệu ban đầu, thực hiện task trên đó, và trả về kết quả. Các công cụ thường dùng có transpiler và công cụ build, asset minifiers, module bundler và công cụ scaffolding.
+
+# Tools: Trình chạy task có mục đích tổng thể
+
+Trình chạy task General-purpose là các công cụ được dùng để tự động các công vlệc cụ thể. Các trình chạy task general-purpose gồm có:
+
+## [Gulp](https://gulpjs.com)
+
+Gulp là một bộ công cụ JavaScript được dùng như là một trình chạy task, được dựng như là một hệ thống xây dựng trong phát triển web. Biên dịch, thu gọn code, tối ưu hình ảnh, unit testing linting là những task lập lại nên được tự động hoá. Gulp giúp quá trình viết task dễ dàng hơn, thậm chí cho những người ít kinh nghiệm với JavaScript.
+
+Gulp sử dụng pipeline để dẫn data từ một plugin sang một plugin khác, và kết quả sau cùng là xuất ra một thư mục đã được chỉ định trước. Gulp thực hiện công việc tốt hơn so với Grunt bởi vì nó không tạo ra file tạm thời để lưu trữ các kết quả, nó cho kết quả có ít lần gọi I/O hơn.
+
+![Gulp](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Gulp.jpg "Gulp")
+
+
 
 
 
