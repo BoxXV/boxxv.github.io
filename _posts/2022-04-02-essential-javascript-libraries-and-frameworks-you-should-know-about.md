@@ -137,11 +137,12 @@ Grunt là một task runner (trình chạy task) và một công cụ tự độ
 
 ![Grunt the JavaScript task runner](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Grunt.jpg "Grunt the JavaScript task runner")
 
-## npm
+## [npm](https://www.npmjs.com)
 
 Gulp và Grunt đòi hỏi bạn có thời gian học và thuần thục công cụ. Giới thiệu các phần phụ thuộc bổ sung vào dự án của bạn có thể tránh được bằng cách chọn lựa một thay thế đã được đóng gói với Node.js. Dù npm được biết đến nhiều hơn là một trình quản lý package, mã lệnh npm cũng có thể sử dụng để thực hiện các nhiệm vụ được đề cập trước đó.
 
-npm task runner
+![npm task runner](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-npm.jpg "npm task runner")
+
 
 # Tools: Testing
 
