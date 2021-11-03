@@ -148,14 +148,15 @@ Gulp và Grunt đòi hỏi bạn có thời gian học và thuần thục công 
 
 Testing là quá trình đánh giá và thẩm định phần mềm liệu đã đáp ứng được các yêu cầu mong đợi về kỹ thuật và business. Phương pháp Test-Driven Development cũng hướng đến việc phát hiện lỗi và được xem như một phần không thể thiếu của công việc phát triển front-end hiện đại.
 
-## Jest
+## [Jest](https://jestjs.io)
 
 Jest là một testing framework khá mới mẻ được xây dựng bởi Facebook và được cộng đồng React khá đón nhận. Có một quan niệm sai lầm phổ biến là Jest được thiết kế đặc thù để làm việc với React, tuy nhiên, theo tài liệu của Jest:
 
-    Dù Jest có thể xem là test runner đặc thù cho React, nhưng thực tế là một nền tảng testing phổ cập, với khả năng thích nghi cho bất kể thư viện hoặc framework JavaScript nào. Bạn có thể sử dụng Jest để test bất kỳ mã JavaScript nào.
+> Dù Jest có thể xem là test runner đặc thù cho React, nhưng thực tế là một nền tảng testing phổ cập, với khả năng thích nghi cho bất kể thư viện hoặc framework JavaScript nào. Bạn có thể sử dụng Jest để test bất kỳ mã JavaScript nào.
 
 Lợi điểm to lớn nhất của Jest so với những bộ kiểm thử khác là không cần phải có cấu hình gì để bắt đầu viết các testing. Framework đã có phần thư viên dựng sẵn và hỗ trợ sử dụng của việc bắt chước các hàm.
-Delightful JavaScript testing using Jest
+
+![Delightful JavaScript testing using Jest](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Jest.jpg "Delightful JavaScript testing using Jest")
 
 Jest có một tính năng gọi là snapshot testing cho phép bạn chắc chắn rằng UI của ứng dụng không thay đổi theo cách không mong muốn. Nhà phát triển tại Facebook và những người đóng góp khác đã bỏ rất nhiều công sức vào dự án này, vì vậy sẽ không ngạc nhiên nếu Jet trở thành testing framework phổ biến nhất trong những năm tối đây.
 
