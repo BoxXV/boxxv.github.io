@@ -63,6 +63,17 @@ jQuery là một thư viện làm cho JavaScript dễ tiếp cận hơn và thao
 Tuy nhiên, sự việc đã thay đổi, và môi trường JavaScript đã phát triển nhanh chóng. Vài điểm nổi bật của jQuery đã được tích hợp vào chuẩn ECMAScript mới đây. Hơn nữa, những framework và thư viện mới được dùng ngày nay có cách riêng để gắn kết DOM, và vì thế các kỹ thuật thao tác DOM truyền thống không còn được yêu cầu nữa. Đột phổ biến của jQuery đang giảm dần, nhưng tôi thấy nó sẽ không biến mất sớm đâu.
 
 
+## [D3.js](https://d3js.org) Data-Driven Documents
+
+D3 hoặc D3.js là một thư viện JavaScript mạnh mẽ để tạo ra những hình ảnh có tính tương tác sử dụng chuẩn mực web như SVG, HTML và CSS. Không giống với những thư viện hình ảnh trực quan khác, D3 cung cấp sự điểu khiển tốt hơn cho các kết quả hình ảnh được tạo ra.
+
+D3 hoạt động bằng cách gắn kết data với DOM và sau đó thực hiện công tác chuyển đổi cho phần document. Nó cũng sở hữu một hệ sinh thái, gồm có các plugin và thư viện để thêm các chức năng mở rộng. Thư viện này đã xuất từ năm 2011, và có cả tấn tài liệu và bài hướng dẫn có thể giúp bạn bắt đầu ngay.
+
+![D3](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-d3.jpg "D3")
+
+
+# II. Frameworks
+
 
 
 -----
