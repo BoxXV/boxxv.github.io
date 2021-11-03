@@ -42,6 +42,7 @@ Một thư viện là các code có thể sử dụng lại để thực hiện 
 
 Và bạn có thể gọi một hàm từ thư viện và đưa các tham số, và thư viện xử lý nó và trả về quyền điều khiển cho bạn. Tuy nhiên, nó không đặt để bất kỳ quy tắc nào giới hạn cách bạn sử dụng thư viện đó. Thư viện JavaScript phổ biến gồm có:
 
+
 ## [React](https://reactjs.org)
 
 React là một thư viện được xây dựng cho các nhà phát triển của Facebook và Instagram. React được bầu chọn là một công nghệ được yêu thích nhất của các nhà phát triển, dựa theo khảo sát của Stack Overflow 2017. React cũng có uy tín trở thành một dự án JavaScript phổ biến nhất dựa trên số sao đếm được từ GitHub.
@@ -49,6 +50,18 @@ React là một thư viện được xây dựng cho các nhà phát triển c�
 Vậy tại sao React được toàn thể chú ý như vậy? Với React, hoàn toàn có thể tạo ra một ứng dụng tương tác sử dụng phương pháp declarative, ở đó bạn có thể kiểm soát trạng thái của ứng dụng bằng cách nói "view nên trông giống như vậy nè" Nó sử dụng model component-based, các component là những thành phần UI được tái sử dụng và mỗi component có trạng thái riêng.
 
 ![React](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-React.jpg "React")
+
+React sử dụng Virtual DOM do đó bạn không cần phải quan tâm đến việc trực tiếp thao tác DOM. Tính năng đáng chú ý khác của React bao gồm các luồng dữ liệu một chiều (one-way data flow), tùy chọn cú pháp JSX và công cụ command-line cho việc tạo ra một dự án React mà không cần cấu hình ban đầu. 
+
+
+## [jQuery](https://jquery.com)
+
+jQuery là một thư viện làm cho JavaScript dễ tiếp cận hơn và thao tác với DOM trở nên dễ dàng hơn bao giờ. Quá trịnh học nhẹ nhàng và cú pháp dễ dàng của jQuery đã hình thành một thế hệ nhà phát triển client-side mới. Một vài năm trước đây, jQuery đã được xem là một giải pháp vững chãi để xây dựng các website mạnh mẽ, với hỗ trợ đa trình duyệt. Các tính năng cốt yếu của jQuery như xử lý DOM dựa trên CSS selectors, event handling và gọi AJAX đã thúc đẩy sự phổ biến của nó.
+
+![jQuery](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-jQuery.jpg "jQuery")
+
+Tuy nhiên, sự việc đã thay đổi, và môi trường JavaScript đã phát triển nhanh chóng. Vài điểm nổi bật của jQuery đã được tích hợp vào chuẩn ECMAScript mới đây. Hơn nữa, những framework và thư viện mới được dùng ngày nay có cách riêng để gắn kết DOM, và vì thế các kỹ thuật thao tác DOM truyền thống không còn được yêu cầu nữa. Đột phổ biến của jQuery đang giảm dần, nhưng tôi thấy nó sẽ không biến mất sớm đâu.
+
 
 
 
