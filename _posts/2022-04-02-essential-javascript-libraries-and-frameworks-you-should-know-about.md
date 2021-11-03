@@ -166,11 +166,11 @@ Mocha là một testing JavaScript framework nổi bật với sự hỗ trợ c
 
 ![Mocha test runner and testing framework](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Mocha.jpg "Mocha test runner and testing framework")
 
-## Jasmine
+## [Jasmine](https://jasmine.github.io)
 
 Jasmine là một testing framework theo kiểu behavior-driven cho JavaScript. Jasmine định hướng tới là một trình duyệt, nền tảng và bộ kiểm tra không lệ thuộc vào framework. Jasmine có một thư viện riêng của nó gọi là matchers với cú pháp rõ ràng và dễ đọc. Jasmine không có một test runner (trình chạy test) dựng sẵn, và bạn có lẽ phải dùng một test runner thuần tuý như Karma.
 
-Jasmine test runner and testing framework
+![Jasmine test runner and testing framework](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Jasmine.jpg "Jasmine test runner and testing framework")
 
 
 # Tóm tắt
