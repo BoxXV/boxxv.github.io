@@ -191,6 +191,7 @@ Tham khảo:
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
 - [The 40 Best JavaScript Libraries and Frameworks for 2021](https://kinsta.com/blog/javascript-libraries/)
+- [42 Thư Viện Và Framework Javascript Hay Dành Cho Front-end Developer](https://www.niemvuilaptrinh.com/article/20-thu-vien-javascript-danh-cho-front-end-developer)
 - [Essential JavaScript Libraries and Frameworks You Should Know About](https://www.4elements.com/nl/blog/read/essential_javascript_libraries_and_frameworks_you_should_know_about/)
 - [Top 5 JavaScript frameworks cho Lập trình Front-end 2020](https://nordiccoder.com/blog/javascript-frameworks/)
 - [Top 10 JavaScript Frameworks thông dụng năm 2020](https://itguru.vn/blog/top-10-javascript-framework-thong-dung/)
