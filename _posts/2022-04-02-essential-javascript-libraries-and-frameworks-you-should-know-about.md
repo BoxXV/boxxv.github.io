@@ -74,6 +74,30 @@ D3 hoạt động bằng cách gắn kết data với DOM và sau đó thực hi
 
 # II. Frameworks
 
+Một framework là một kiến trúc kiểm soát luồng đi của data trong ứng dụng của bạn. Framework hình thành cấu trúc cơ bản và cho bạn biết mọi thứ nên được tổ chức ra sao. Chức năng cơ bản để giúp ứng dụng lập tức vận hành cũng được cung cấp. Hơn thế nữa, bạn bị ràng buộc phải tuân theo các pattern và quy luật mà framwork thiết kế. Sự khác biệt giữa framework và thư viên là bạn gọi một thư viện thì framework sẽ gọi bạn.
+
+Một framework chứa đựng nhiều thư viện và có hình thái cấp độ cao hơn. Chức năng như event binding, gọi AJAX, template và data binding, và testing được xây dựng bên trọng framework.
+
+## [Angular](https://angular.io)
+
+AngularJS là một trong những công nghệ JavaScript phổ biến nhất trong giới phát triển Front-End. Nó được hậu thuẫn bởi Google và một cộng đồng gồm nhiều cá nhân và tổ chức khác. Mặc cho sự phổ biến, AngularJS cũng từng có những sai sót của nó. Nhóm Angular đã bỏ ra 2 năm làm ra một phiên bản mới, cuối cùng đã ra mắt và tháng 9 2016.
+
+![Angular](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Angular.jpg "Angular")
+
+Angular 2 xuất xưởng là một phiên bản viết lại từ đầu của AngularJS. Một vài tính năng của Angular 2 gồm có:
+
+- TypeScript thay cho JavaScript làm ngôn ngữ mặc định
+- kiến trúc component-based
+- cái thiện hiệu năng trên nền tảng web và mobile
+- chọn lựa tốt hơn cho tooling và scaffolding
+
+Tuy nhiên, nâng cấp từ Angular 1.x sang Angular 2.x khá là xa xỉ vì Angular 2 là một con thú hoàn toàn khác biệt. Đó là lý do cho việc tại sao Angular 2 chưa có tỉ lệ thực nghiệm cao như người tiền nhiệm của nó. Nhưng Angular và AngularJS vẫn tiếp tục là một công nghệ phổ dụng nhất dựa theo Stack Overflow 2017. Dự án Angular nhận được 28,000 sao trên GitHub.
+
+## [Vue.js](https://vuejs.org)
+
+
+
+
 
 
 -----
