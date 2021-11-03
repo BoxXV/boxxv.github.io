@@ -101,7 +101,11 @@ Vue.js là một framework JavaScript nhỏ gọn đã xuất hiện theo xu th�
 
 Framework này cung cấp trải nghiệm như React với những Virtual DOM của nó và các component có thể tái sử dụng giúp bạn tạo ra cả widgets và toàn bộ ứng dụng web. Hơn nữa, bạn cũng có thể dùng cú pháp JSX để viết phần chức năng render trực tiếp. Khi trang thái thay đổi, Vue,js sẽ một hệ thống phản ứng để xác định rằng điều gì đã thay đổi và render só lượng nhỏ nhất các component. Vue.js cũng hỗ trợ tích hợp những thư viện khác vào framework mà không cần tốn công sức nhiều.
 
+## [Ember.js](https://emberjs.com)
 
+Ember.jsj là một framework front-end vân hành trên mô hình Model-View-ViewModel - cấu trúc MVVM. Nó tuân theo nguyên tắc hơn là phương pháp cấu hình, nó lạ sự phở biến giữa những franework sever-si server side khác như Ruby on Rail hoặc Laravel. Ember.js tổng hợp với những câu thành ngữ và thực tiễn nhất vào trong framework vì thế bạn có thể khởi động một ứng dụng chẳng mất nhiều công sức. 
+
+![Ember](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Emberjs.jpg "Ember")
 
 
 
