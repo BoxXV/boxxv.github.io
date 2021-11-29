@@ -13,7 +13,7 @@ tags:
 ---
 
 ### Package Managers
-1. npm
+1. [npm](#npm)
 2. yarn
 
 ### Build Tools
@@ -26,6 +26,10 @@ tags:
 6. Rollup
 7. Parcel
 
+-----
+
+### Npm
+`Node Package Manager`, hoặc `npm` (thường được viết bằng chữ thường) là một trong những công cụ tạo và quản lý các thư viện được sử dụng phổ biến nhất trong các dự án JavaScript. Nó được xây dựng trên Node và rất mạnh mẽ nên hầu như tất cả mọi người đều đang sử dụng nó.
 
 
 
