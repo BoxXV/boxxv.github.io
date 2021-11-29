@@ -61,6 +61,7 @@ Công cụ này cho phép publish các package của bạn lên trang chủ `NPM
 -----
 Tham khảo:
 Npm
+- [https://viblo.asia/tags/npm](https://viblo.asia/tags/npm)
 - [Cách tạo một NPM package đơn giản](https://viblo.asia/p/cach-tao-mot-npm-package-don-gian-3P0lPy3o5ox)
 - [Tạo packages trong npm](https://viblo.asia/p/tao-packages-trong-npm-node-packages-manager-YWOZr6dNZQ0)
 - [Quản lý các gói phụ thuộc với NPM](https://viblo.asia/p/manage-packages-dependencies-with-npm-YWOZrDLR5Q0)
