@@ -14,7 +14,7 @@ tags:
 
 ### Package Managers
 1. [npm](#npm)
-2. yarn
+2. [yarn](#yarn)
 
 ### Build Tools
 #### Task Runners
@@ -39,11 +39,17 @@ Công cụ này cho phép publish các package của bạn lên trang chủ `NPM
 - Không hỗ trợ cài đặt offline
 
 
+### Yarn
+
+
+
 -----
 Tham khảo:
 Npm
+- [Cách tạo một NPM package đơn giản](https://viblo.asia/p/cach-tao-mot-npm-package-don-gian-3P0lPy3o5ox)
 - [Quản lý các gói phụ thuộc với NPM](https://viblo.asia/p/manage-packages-dependencies-with-npm-YWOZrDLR5Q0)
 - [Publish package đầu tiên lên NPM như thế nào](https://viblo.asia/p/publish-package-dau-tien-len-npm-nhu-the-nao-Do754b7VZM6)
+- [Tổng quan về NPM](https://viblo.asia/p/tong-quan-ve-npm-4P856dy3ZY3)
 - [Create and setup your Django project with webpack, npm and ReactJS (part1)](https://viblo.asia/p/create-and-setup-your-django-project-with-webpack-npm-and-reactjs-part1-aWj532jpl6m)
 - [Yarn có gì mới so với npm](https://viblo.asia/p/yarn-co-gi-moi-so-voi-npm-Do754WR4lM6)
 
