@@ -28,9 +28,9 @@ tags:
 
 -----
 
-# Package Managers
+## I. Package Managers
 
-### Npm
+#### Npm
 `Node Package Manager`, hoặc `npm` (thường được viết bằng chữ thường) là một trong những công cụ tạo và quản lý các thư viện được sử dụng phổ biến nhất trong các dự án JavaScript. Nó được xây dựng trên Node và rất mạnh mẽ nên hầu như tất cả mọi người đều đang sử dụng nó.
 
 Công cụ này cho phép publish các package của bạn lên trang chủ `NPM` và tìm kiếm, cài đặt các module, package do những người khác up lên.
@@ -41,20 +41,20 @@ Công cụ này cho phép publish các package của bạn lên trang chủ `NPM
 - Không hỗ trợ cài đặt offline
 
 
-### Yarn
+#### Yarn
 
-# Build Tools
-## Task Runners
-### npm scripts
+## II. Build Tools
+### A. Task Runners
+#### npm scripts
 
-### Gulp
+#### Gulp
 
-## Task Runners
-### Webpack
+### B. Task Runners
+#### Webpack
 
-### Rollup
+#### Rollup
 
-### Parcel
+#### Parcel
 
 
 
