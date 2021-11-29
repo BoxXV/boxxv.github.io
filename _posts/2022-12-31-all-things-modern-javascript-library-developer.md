@@ -51,6 +51,7 @@ Npm
 - [Quản lý các gói phụ thuộc với NPM](https://viblo.asia/p/manage-packages-dependencies-with-npm-YWOZrDLR5Q0)
 - [Build và Publish một NPM Typescript package](https://viblo.asia/p/build-va-publish-mot-npm-typescript-package-gDVK2nGnKLj)
 - [Publish package đầu tiên lên NPM như thế nào](https://viblo.asia/p/publish-package-dau-tien-len-npm-nhu-the-nao-Do754b7VZM6)
+- [The package.json guide](https://viblo.asia/p/the-packagejson-guide-bWrZn0zY5xw)
 - [Package-lock.json và những điều có thể bạn chưa biết](https://viblo.asia/p/package-lockjson-va-nhung-dieu-co-the-ban-chua-biet-RQqKL2WOl7z)
 - [Tổng quan về NPM](https://viblo.asia/p/tong-quan-ve-npm-4P856dy3ZY3)
 - [Mẹo và thủ thuật để làm việc với NPM](https://viblo.asia/p/meo-va-thu-thuat-de-lam-viec-voi-npm-djeZ1epYZWz)
