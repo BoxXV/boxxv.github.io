@@ -12,16 +12,16 @@ tags:
 - tutorial
 ---
 
-## Package Managers
+### Package Managers
 1. npm
 2. yarn
 
-## Build Tools
-### Task Runners
+### Build Tools
+#### Task Runners
 3. npm scripts
 4. Gulp
 
-### Module Bundlers
+#### Module Bundlers
 5. Webpack
 6. Rollup
 7. Parcel
