@@ -52,9 +52,18 @@ Yarn là một sản phẩm mã nguồn mở, được sự hợp tác của Exp
 
 `Yarn` được đưa ra để thay thế cho `npm` hoặc các công cụ quản lí các gói thư viện khác cũng tương tác với kho cung cấp các gói phần mềm do npm cung cấp. Nó có đầy đủ những tính năng của npm trong khi đó lại nhanh hơn, bảo mật hơn và đáng tin cậy. Vì vậy bạn hoàn toàn có thể yên tâm khi dùng Yarn thay thế cho npm, bower ...
 
+Đặc trưng
 - **Tốc độ**: YARN sẽ tạo cache cho tất cả các gói đã được tải về, và tải đồng thời nhiều gói cùng lúc nên tốc độ download rất nhanh.
 - **Tin cậy**: sử dụng tập tin lock (tương tự composer) với format chi tiết nhưng ngắn gọn, đảm bảo tính nhất quán khi cài đặt các gói giữa các hệ thống (ví dụ máy dev và máy chủ)
 - **Bảo mật**: sử dụng checksum để đảm bảo tính nguyên vẹn của code trước khi nó được thực thi.
+
+Tính năng
+- **Offline mode**: khi đã tải về, YARN sẽ cache lại và khi có thể cài đặt lại không cần internet.
+- **Deterministic**: các gói thư viện sẽ được cài đặt nhất quán cho dù thứ tự cài đặt khác nhau cho tất cả các máy
+- **Network Performance**: sử dụng hiệu quả hàng đợi các request và tránh waterfall các request để tối ưu tốc độ mạng.
+- **Multiple Registries**: cài đặt các gói từ các registries như Bower hay NPM đều đảm bảo workflow giống nhau.
+- **Network Resilience**: nếu một request bị fail thì nó không làm cho tiến trình bị dừng lại, khác với npm là nếu npm bị lỗi thì bị dừng lại., không những vậy mà còn có khả năng cố gắng thử lại.
+- **Flat Mode**: giải quyết việc không đồng nhất phiên bản của các gói thành 1 gói để tránh tạo trùng lặp
 
 Với nhiều cải tiến đáng kể của mình so với npm yarn rất đáng để thử và trải nghiệm với dự án của bạn. Bạn có thể tham khảo thêm các lệnh khi chuyển từ sử dụng npm sang yarn ở đây [migrating from npm](https://classic.yarnpkg.com/en/docs/migrating-from-npm)
 
