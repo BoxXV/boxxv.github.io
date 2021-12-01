@@ -100,7 +100,32 @@ Có khá nhiều thư viện từ nhỏ đến to ra đời cho việc này: Tin
 
 Nếu bạn nào có xài `SystemJs`, `Browserify` rồi thì thấy thật ra `Webpack` ra đời từ thừa hưởng những thành quả và kinh nghiệm từ những thư viện đó và phát triển lền một tầm mới tốt hơn cho công việc `quản lý module`.
 
+Webpack là một trong những câu chuyện thành công nhất của cộng đồng JavaScript với hàng triệu lượt tải mỗi tháng cung cấp cho hàng chục nghìn trang web và ứng dụng. Nó có một hệ sinh thái rộng lớn, hàng chục người đóng góp.
+
+Webpack được Tobias Koppers bắt đầu vào năm 2012 để giải quyết vấn đề khó khăn mà các công cụ hiện tại không giải quyết: xây dựng các ứng dụng phức tạp trên single page application (SPAs). Webpack được sinh ra và đã làm thay đổi nhiều thứ cũ bằng 2 thứ dưới đây:
+- Việc tách code làm cho bạn có thể chia nhỏ ứng dụng của mình thành các phần có thể quản lý được load theo yêu cầu, có nghĩa là end-user có trang web tương tác nhanh hơn nếu họ phải đợi tất cả ứng dụng được tải xuống. Bạn có thể làm điều này bằng tay, nhưng... chúc may mắn.
+- Các file tĩnh như hình ảnh và CSS có thể được import vào appication của bạn và được xem như một node được xem như một dependency. Webpack cũng có thể băm các tệp cho bạn.
+
 ### 6. `Rollup`
+`React` đã thay thế `Webpack` bằng `Rollup`, điều này sẽ khiến nhiều người hỏi 'tại sao chọn Rollup thay vì dùng webpack?' Để có thể so sánh, Không chỉ React sử dụng Rollup mà `Vue`, `Ember`, `Preact`, `D3`, `Three.js`, `Moment` và hàng chục thư viện nổi tiếng khác cũng sử dụng `Rollup`. Vì vậy những gì đang xảy ra? Tại sao chúng ta không thể dùng duy nhất 1 gói JavaScript module bundler cho tất cả???
+
+`Rollup` được tạo ra vì một lý do khác: làm phẳng các thư viện hiệu quả nhất, nó cho phép bạn code ứng dụng sử dụng các module `ES2015`, sau đó nó sẽ kết hợp tất cả các module thành một file nhằm giảm số lượng request http và cải thiện thời gian tải trang web. Mục đích của Rollup là trở nên nhanh và tạo các đoạn code rõ ràng và hiệu quả hơn bất kỳ công cụ đóng gói khác.
+
+Các module ES2015 cho phép một cách tiếp cận khác nhau mà Rollup sử dụng. Tất cả code của bạn được đặt trong cùng một vị trí và đánh giá trong một lần gọi, dẫn đến code gọn nhẹ, đơn giản.
+
+Tuy nhiên, có một sự khác biệt: tách code là một vấn đề phức tạp hơn, và tại thời điểm viết, Rollup chưa hỗ trợ việc tách code. Rollup không hỗ trợ việc thay thế nóng các module (Hot Module Replace). Và có thể là điểm trừ lớn nhất đối với những người đến Rollup: hầu hết các tệp CommonJS, một số đó không được biên dịch sang ES2015, trong khi webpack xử lý mọi thứ bạn muốn
+
+#### Vậy tôi nên sử dụng cái gì?
+
+Đến bây giờ, hy vọng rõ ràng là tại sao cả hai công cụ này lại tồn tại và hỗ trợ lẫn nhau - chúng phục vụ các mục đích khác nhau
+
+Sử dụng webpack cho ứng dụng và Rollup cho thư viện
+
+Đó không phải là một quy tắc cứng nhắc - nhiều trang web và ứng dụng được xây dựng bằng rollup, và cũng rất nhiều thư viện được xây dựng bằng webpack. Nhưng đó chỉ là một nguyên tắc nhỏ. Nếu bạn cần tách code, hoặc bạn có file web resource tĩnh, hoặc bạn đang xây dựng một ứng dụng có nhiều phụ thuộc vào CommonJS, Webpack là một lựa chọn tốt. Nếu mã nguồn của bạn là các module ES2015 và bạn đang làm một cái gì đó để được sử dụng bởi những người khác, bạn có thể muốn Rollup.
+
+Khi sử dụng Rollup, các modules được import vào sẽ được quyết định lúc biên dịch (trước khi thực thi) và bất kì exports nào không sử dụng sẽ được loại bỏ trước khi chương trình chạy. Vì vậy chúng ta sẽ tiết kiệm được dung lượng và giảm sự quá tải của code
+
+Một tính năng tuyệt vời khác là của Rollup là Tree-shaking, sẽ loại bỏ các export không sử dụng trong gói. Do đó, thay vì import nguyên module, Tree-shaking cho phép bạn import phần mà bạn cần sử dụng.
 
 ### 7. `Parcel`
 
@@ -151,6 +176,7 @@ Npm
 - [Webpack series - CSS Splitting - Tách css trong Webpack](https://viblo.asia/p/webpack-series-ep2-css-splitting-tach-css-trong-webpack-GrLZDVn25k0)
 - [Webpack series - code splitting - chia code trong webpack](https://viblo.asia/p/webpack-series-ep3-code-splitting-chia-code-trong-webpack-yMnKMyRzK7P)
 - [Tại sao tôi lại chuyển từ Webpack sang Brunch?](https://viblo.asia/p/tai-sao-toi-lai-chuyen-tu-webpack-sang-brunch-oOVlYykQl8W)
+- [Webpack và Rollup](https://viblo.asia/p/webpack-va-rollup-3P0lPvWoKox)
 
 -----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
