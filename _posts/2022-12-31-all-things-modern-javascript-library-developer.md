@@ -121,7 +121,10 @@ Tuy nhiên, có một sự khác biệt: tách code là một vấn đề phức
 
 Sử dụng webpack cho ứng dụng và Rollup cho thư viện
 
-Đó không phải là một quy tắc cứng nhắc - nhiều trang web và ứng dụng được xây dựng bằng rollup, và cũng rất nhiều thư viện được xây dựng bằng webpack. Nhưng đó chỉ là một nguyên tắc nhỏ. Nếu bạn cần tách code, hoặc bạn có file web resource tĩnh, hoặc bạn đang xây dựng một ứng dụng có nhiều phụ thuộc vào CommonJS, Webpack là một lựa chọn tốt. Nếu mã nguồn của bạn là các module ES2015 và bạn đang làm một cái gì đó để được sử dụng bởi những người khác, bạn có thể muốn Rollup.
+Đó không phải là một quy tắc cứng nhắc - nhiều trang web và ứng dụng được xây dựng bằng rollup, và cũng rất nhiều thư viện được xây dựng bằng webpack. Nhưng đó chỉ là một nguyên tắc nhỏ.
+
+=> Nếu bạn cần tách code, hoặc bạn có file web resource tĩnh, hoặc bạn đang xây dựng một ứng dụng có nhiều phụ thuộc vào CommonJS, Webpack là một lựa chọn tốt.  
+=> Nếu mã nguồn của bạn là các module ES2015 và bạn đang làm một cái gì đó để được sử dụng bởi những người khác, bạn có thể muốn Rollup.
 
 Khi sử dụng Rollup, các modules được import vào sẽ được quyết định lúc biên dịch (trước khi thực thi) và bất kì exports nào không sử dụng sẽ được loại bỏ trước khi chương trình chạy. Vì vậy chúng ta sẽ tiết kiệm được dung lượng và giảm sự quá tải của code
 
