@@ -79,6 +79,14 @@ Do YARN cũng sử dụng package.json nên nếu dự án đã có thì việc 
 ### 4. `Gulp`
 Gulp là một tool viết bằng Javascript, được sử dụng để tự động hoá các tác vụ giúp các bạn có thể tiết kiệm rất nhiều thời gian trong quá trình làm việc. Dù bạn có là một developer hay là một designer (người sẽ phải làm quen với HTML wireframes hiện tại hoặc sau này), tôi cũng khuyến khích hãy thử sử dụng Gulp.
 
+Nó thường được dùng để
+- Spinning up web server
+- Reload browser khi có file được save.
+- Sử dụng SASS hoặc LESS
+- Optimizing assets như CSS, JS, images
+
+Sử dụng thành thạo Gulp sẽ giúp ta thao tác rất nhanh trong việc development web.
+
 Sử dụng Gulp không khó, chính thế mà nhiều người thích sử dụng Gulp hơn Grunt vì syntax khá đơn giản.
 
 ## B. Task Runners
@@ -123,6 +131,7 @@ Npm
 
 -----
 [Sử dụng npm như một Build Tool](https://viblo.asia/p/su-dung-npm-nhu-mot-build-tool-jdWrvwq8Mw38)
+[https://viblo.asia/tags/gulp](https://viblo.asia/tags/gulp)
 [Mở đầu với Gulp](https://viblo.asia/p/mo-dau-voi-gulp-l5XRBVxmRqPe)
 [Gulp for beginner](https://viblo.asia/p/gulp-for-beginner-WAyK89knZxX)
 [So sánh Gulp và Grunt](https://viblo.asia/p/so-sanh-gulp-va-grunt-157G5oY5RAje)
