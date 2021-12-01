@@ -30,7 +30,7 @@ tags:
 
 # I. Package Managers
 
-### `npm`
+### 1. `npm`
 `Node Package Manager`, hoặc `npm` (thường được viết bằng chữ thường) là một trong những công cụ tạo và quản lý các thư viện được sử dụng phổ biến nhất trong các dự án JavaScript. Nó được xây dựng trên Node và rất mạnh mẽ nên hầu như tất cả mọi người đều đang sử dụng nó.
 
 Trong cộng đồng Javascript, các lập trình viên chia sẻ hàng trăm nghìn các thư viện với các đoạn code đã thực hiện sẵn một chức năng nào đó. Nó giúp cho các dự án mới tránh phải viết lại các thành phần cơ bản, các thư viện lập trình hay thậm chí cả các framework. Công cụ này cho phép publish các package của bạn lên trang chủ `NPM` và tìm kiếm, cài đặt các module, package do những người khác up lên.
@@ -44,7 +44,7 @@ Cộng đồng sử dụng npm rất lớn, hàng nghìn các thư viện đư�
 
 -----
 
-### `Yarn`
+### 2. `Yarn`
 
 Yarn là một sản phẩm mã nguồn mở, được sự hợp tác của Exponent, Google và Tilde. Với Yarn, các lập trình viên vẫn truy cập vào kho cung cấp các gói phần mềm do npm lưu trữ, tuy nhiên chúng ta có thể cài đặt các gói phần mềm này nhanh hơn và đảm bảo tính thống nhất các lập trình viên tham gia cài đúng phiên bản của các gói phần mềm được định nghĩa.
 
@@ -62,16 +62,16 @@ Với nhiều cải tiến đáng kể của mình so với npm yarn rất đán
 
 # II. Build Tools
 ## A. Task Runners
-### `npm scripts`
+### 3. `npm scripts`
 
-### `Gulp`
+### 4. `Gulp`
 
 ## B. Task Runners
-### `Webpack`
+### 5. `Webpack`
 
-### `Rollup`
+### 6. `Rollup`
 
-### `Parcel`
+### 7. `Parcel`
 
 
 
