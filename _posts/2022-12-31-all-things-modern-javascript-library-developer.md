@@ -83,8 +83,17 @@ Npm
 - [Create and setup your Django project with webpack, npm and ReactJS (part1)](https://viblo.asia/p/create-and-setup-your-django-project-with-webpack-npm-and-reactjs-part1-aWj532jpl6m)
 - [Sự khác nhau giữa npm và npx?](https://viblo.asia/p/su-khac-nhau-giua-npm-va-npx-bWrZnxM95xw)
 
+- [NPM, Yarn và Javascript](https://viblo.asia/p/npm-yarn-va-javascript-Eb85orNml2G)
+- [Cài đặt một số Package trước khi làm dự án Nodejs](https://viblo.asia/p/cai-dat-mot-so-package-truoc-khi-lam-du-an-nodejs-Qpmlejm75rd)
+- [Làm cách nào để sửa đổi thư viện trong node module](https://viblo.asia/p/lam-cach-nao-de-sua-doi-thu-vien-trong-node-module-eW65G6AalDO)
+
 - [Yarn có gì mới so với npm](https://viblo.asia/p/yarn-co-gi-moi-so-voi-npm-Do754WR4lM6)
-- [Yarn có gì mới so với npm](https://viblo.asia/p/yarn-co-gi-moi-so-voi-npm-Do754WR4lM6)
+- [Yarn - Một cải tiến đáng kể so với NPM](https://viblo.asia/p/yarn-mot-cai-tien-dang-ke-so-voi-npm-yMnKMqRQK7P)
+- [Hướng Dẫn Cài Đặt và Sử Dụng Yarn Package Manager](https://viblo.asia/p/huong-dan-cai-dat-va-su-dung-yarn-package-manager-4dbZNgoklYM)
+- [Sử dụng Yarn với Rails](https://viblo.asia/p/su-dung-yarn-voi-rails-gDVK2jaAKLj)
+- [Sử dụng Yarn trong dự án Laravel](https://viblo.asia/p/su-dung-yarn-trong-du-an-laravel-chuyen-training-php-tai-framgia-education-1Je5EjWAKnL)
+- [Ứng dụng Yarn workspaces tạo ra những dự án Monorepo](https://viblo.asia/p/ung-dung-yarn-workspaces-tao-ra-nhung-du-an-monorepo-QpmleyXolrd)
+- [Viết Javascript trong Rails 6 có gì khác? (với Webpacker, Yarn và Sprockets)](https://viblo.asia/p/viet-javascript-trong-rails-6-co-gi-khac-voi-webpacker-yarn-va-sprockets-924lJ4e0KPM)
 
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
