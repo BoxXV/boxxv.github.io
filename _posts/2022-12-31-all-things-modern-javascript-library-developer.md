@@ -138,17 +138,19 @@ Npm
 - [Viết Javascript trong Rails 6 có gì khác? (với Webpacker, Yarn và Sprockets)](https://viblo.asia/p/viet-javascript-trong-rails-6-co-gi-khac-voi-webpacker-yarn-va-sprockets-924lJ4e0KPM)
 
 -----
-[Sử dụng npm như một Build Tool](https://viblo.asia/p/su-dung-npm-nhu-mot-build-tool-jdWrvwq8Mw38)
-[https://viblo.asia/tags/gulp](https://viblo.asia/tags/gulp)
-[Mở đầu với Gulp](https://viblo.asia/p/mo-dau-voi-gulp-l5XRBVxmRqPe)
-[Gulp for beginner](https://viblo.asia/p/gulp-for-beginner-WAyK89knZxX)
-[Grunt - Javascript task runner](https://viblo.asia/p/grunt-javascript-task-runner-eJ1vOmqJMkby)
-[So sánh Gulp và Grunt](https://viblo.asia/p/so-sanh-gulp-va-grunt-157G5oY5RAje)
+- [Sử dụng npm như một Build Tool](https://viblo.asia/p/su-dung-npm-nhu-mot-build-tool-jdWrvwq8Mw38)
+- [https://viblo.asia/tags/gulp](https://viblo.asia/tags/gulp)
+- [Mở đầu với Gulp](https://viblo.asia/p/mo-dau-voi-gulp-l5XRBVxmRqPe)
+- [Gulp for beginner](https://viblo.asia/p/gulp-for-beginner-WAyK89knZxX)
+- [Grunt - Javascript task runner](https://viblo.asia/p/grunt-javascript-task-runner-eJ1vOmqJMkby)
+- [So sánh Gulp và Grunt](https://viblo.asia/p/so-sanh-gulp-va-grunt-157G5oY5RAje)
 
 -----
-[https://viblo.asia/tags/webpack](https://viblo.asia/tags/webpack)
-[Webpack series - giới thiệu từ cơ bản đến căng cơ](https://viblo.asia/p/webpack-series-gioi-thieu-tu-co-ban-den-cang-co-d-ep1-07LKXEgEZV4)
-[]()
+- [https://viblo.asia/tags/webpack](https://viblo.asia/tags/webpack)
+- [Webpack series - giới thiệu từ cơ bản đến căng cơ](https://viblo.asia/p/webpack-series-gioi-thieu-tu-co-ban-den-cang-co-d-ep1-07LKXEgEZV4)
+- [Webpack series - CSS Splitting - Tách css trong Webpack](https://viblo.asia/p/webpack-series-ep2-css-splitting-tach-css-trong-webpack-GrLZDVn25k0)
+- [Webpack series - code splitting - chia code trong webpack](https://viblo.asia/p/webpack-series-ep3-code-splitting-chia-code-trong-webpack-yMnKMyRzK7P)
+- [Tại sao tôi lại chuyển từ Webpack sang Brunch?](https://viblo.asia/p/tai-sao-toi-lai-chuyen-tu-webpack-sang-brunch-oOVlYykQl8W)
 
 -----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
