@@ -90,7 +90,15 @@ Sử dụng thành thạo Gulp sẽ giúp ta thao tác rất nhanh trong việc 
 Sử dụng Gulp không khó, chính thế mà nhiều người thích sử dụng Gulp hơn Grunt vì syntax khá đơn giản.
 
 ## B. Task Runners
+
 ### 5. `Webpack`
+Webpack hiện đang là `module loader` được sử dụng rộng rãi nhất hiện nay với cộng động support to lớn và những chức năng vô cùng mạnh mẽ.
+
+Một cách đơn giản là ngày xưa chúng ta thường add những thư viện (3th parties) như `jquery`, `moment`, `select2`, `dtpicker`, `sticky`,... vào thẻ `script` để khi web load lên xong thì những thư viện này sẽ được `execute` và xử lý. Nhưng không còn như những ngày xưa chỉ vài dòng jquery là đủ dùng, sau này do việc code dưới front-end càng ngày càng phìng to nên việc quản lý code = javascript càng ngày càng tõ rõ sự quan trọng nên từ đó khái niệm `Module loader` ra đời.
+
+Có khá nhiều thư viện từ nhỏ đến to ra đời cho việc này: Tiny Loaders (`curl`, `LABjs`, `almond`), `RequireJS`, `Browserify`, `SystemJs`, `Webpack` và gần đây đang nổi lên là `RollupJs`.
+
+Nếu bạn nào có xài `SystemJs`, `Browserify` rồi thì thấy thật ra `Webpack` ra đời từ thừa hưởng những thành quả và kinh nghiệm từ những thư viện đó và phát triển lền một tầm mới tốt hơn cho công việc `quản lý module`.
 
 ### 6. `Rollup`
 
@@ -134,7 +142,13 @@ Npm
 [https://viblo.asia/tags/gulp](https://viblo.asia/tags/gulp)
 [Mở đầu với Gulp](https://viblo.asia/p/mo-dau-voi-gulp-l5XRBVxmRqPe)
 [Gulp for beginner](https://viblo.asia/p/gulp-for-beginner-WAyK89knZxX)
+[Grunt - Javascript task runner](https://viblo.asia/p/grunt-javascript-task-runner-eJ1vOmqJMkby)
 [So sánh Gulp và Grunt](https://viblo.asia/p/so-sanh-gulp-va-grunt-157G5oY5RAje)
+
+-----
+[https://viblo.asia/tags/webpack](https://viblo.asia/tags/webpack)
+[Webpack series - giới thiệu từ cơ bản đến căng cơ](https://viblo.asia/p/webpack-series-gioi-thieu-tu-co-ban-den-cang-co-d-ep1-07LKXEgEZV4)
+[]()
 
 -----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
