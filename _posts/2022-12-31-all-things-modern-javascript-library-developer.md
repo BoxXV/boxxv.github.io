@@ -67,6 +67,9 @@ Tính năng
 
 Với nhiều cải tiến đáng kể của mình so với npm yarn rất đáng để thử và trải nghiệm với dự án của bạn. Bạn có thể tham khảo thêm các lệnh khi chuyển từ sử dụng npm sang yarn ở đây [migrating from npm](https://classic.yarnpkg.com/en/docs/migrating-from-npm)
 
+Do YARN cũng sử dụng package.json nên nếu dự án đã có thì việc sử dụng YARN cũng không khác mấy, chỉ cần bạn xóa tất cả các thư mục trong `node_modules`, sau đó dùng yarn để cài lại.
+
+
 -----
 
 # II. Build Tools
@@ -114,6 +117,12 @@ Npm
 - [Sử dụng Yarn trong dự án Laravel](https://viblo.asia/p/su-dung-yarn-trong-du-an-laravel-chuyen-training-php-tai-framgia-education-1Je5EjWAKnL)
 - [Ứng dụng Yarn workspaces tạo ra những dự án Monorepo](https://viblo.asia/p/ung-dung-yarn-workspaces-tao-ra-nhung-du-an-monorepo-QpmleyXolrd)
 - [Viết Javascript trong Rails 6 có gì khác? (với Webpacker, Yarn và Sprockets)](https://viblo.asia/p/viet-javascript-trong-rails-6-co-gi-khac-voi-webpacker-yarn-va-sprockets-924lJ4e0KPM)
+
+-----
+[Sử dụng npm như một Build Tool](https://viblo.asia/p/su-dung-npm-nhu-mot-build-tool-jdWrvwq8Mw38)
+[Mở đầu với Gulp](https://viblo.asia/p/mo-dau-voi-gulp-l5XRBVxmRqPe)
+[Gulp for beginner](https://viblo.asia/p/gulp-for-beginner-WAyK89knZxX)
+[So sánh Gulp và Grunt](https://viblo.asia/p/so-sanh-gulp-va-grunt-157G5oY5RAje)
 
 -----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
