@@ -28,9 +28,9 @@ tags:
 
 -----
 
-## I. Package Managers
+# I. Package Managers
 
-#### `npm`
+### `npm`
 `Node Package Manager`, hoặc `npm` (thường được viết bằng chữ thường) là một trong những công cụ tạo và quản lý các thư viện được sử dụng phổ biến nhất trong các dự án JavaScript. Nó được xây dựng trên Node và rất mạnh mẽ nên hầu như tất cả mọi người đều đang sử dụng nó.
 
 Công cụ này cho phép publish các package của bạn lên trang chủ `NPM` và tìm kiếm, cài đặt các module, package do những người khác up lên.
@@ -40,21 +40,30 @@ Công cụ này cho phép publish các package của bạn lên trang chủ `NPM
 - **Single registry**: Nếu như một package không có trong [NpmJS](https://www.npmjs.com), hãy quên nó đi.
 - Không hỗ trợ cài đặt offline
 
+-----
 
-#### `Yarn`
+### `Yarn`
 
-## II. Build Tools
-### A. Task Runners
-#### `npm scripts`
+Yarn là một sản phẩm mã nguồn mở, được sự hợp tác của Exponent, Google và Tilde. Với Yarn, các lập trình viên vẫn truy cập vào kho cung cấp các gói phần mềm do npm lưu trữ, tuy nhiên chúng ta có thể cài đặt các gói phần mềm này nhanh hơn và đảm bảo tính thống nhất các lập trình viên tham gia cài đúng phiên bản của các gói phần mềm được định nghĩa.
 
-#### `Gulp`
+`Yarn` được đưa ra để thay thế cho `npm` hoặc các công cụ quản lí các gói thư viện khác cũng tương tác với kho cung cấp các gói phần mềm do npm cung cấp. Nó có đầy đủ những tính năng của npm trong khi đó lại nhanh hơn, bảo mật hơn và đáng tin cậy. Vì vậy bạn hoàn toàn có thể yên tâm khi dùng Yarn thay thế cho npm, bower ...
 
-### B. Task Runners
-#### `Webpack`
+Với nhiều cải tiến đáng kể của mình so với npm yarn rất đáng để thử và trải nghiệm với dự án của bạn. Bạn có thể tham khảo thêm các lệnh khi chuyển từ sử dụng npm sang yarn ở đây [migrating from npm](https://classic.yarnpkg.com/en/docs/migrating-from-npm)
 
-#### `Rollup`
+-----
 
-#### `Parcel`
+# II. Build Tools
+## A. Task Runners
+### `npm scripts`
+
+### `Gulp`
+
+## B. Task Runners
+### `Webpack`
+
+### `Rollup`
+
+### `Parcel`
 
 
 
@@ -73,6 +82,8 @@ Npm
 - [Mẹo và thủ thuật để làm việc với NPM](https://viblo.asia/p/meo-va-thu-thuat-de-lam-viec-voi-npm-djeZ1epYZWz)
 - [Create and setup your Django project with webpack, npm and ReactJS (part1)](https://viblo.asia/p/create-and-setup-your-django-project-with-webpack-npm-and-reactjs-part1-aWj532jpl6m)
 - [Sự khác nhau giữa npm và npx?](https://viblo.asia/p/su-khac-nhau-giua-npm-va-npx-bWrZnxM95xw)
+
+- [Yarn có gì mới so với npm](https://viblo.asia/p/yarn-co-gi-moi-so-voi-npm-Do754WR4lM6)
 - [Yarn có gì mới so với npm](https://viblo.asia/p/yarn-co-gi-moi-so-voi-npm-Do754WR4lM6)
 
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
