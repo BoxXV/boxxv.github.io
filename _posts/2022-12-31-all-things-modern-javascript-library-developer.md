@@ -77,6 +77,9 @@ Do YARN cũng sử dụng package.json nên nếu dự án đã có thì việc 
 ### 3. `npm scripts`
 
 ### 4. `Gulp`
+Gulp là một tool viết bằng Javascript, được sử dụng để tự động hoá các tác vụ giúp các bạn có thể tiết kiệm rất nhiều thời gian trong quá trình làm việc. Dù bạn có là một developer hay là một designer (người sẽ phải làm quen với HTML wireframes hiện tại hoặc sau này), tôi cũng khuyến khích hãy thử sử dụng Gulp.
+
+Sử dụng Gulp không khó, chính thế mà nhiều người thích sử dụng Gulp hơn Grunt vì syntax khá đơn giản.
 
 ## B. Task Runners
 ### 5. `Webpack`
