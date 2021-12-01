@@ -33,7 +33,9 @@ tags:
 ### `npm`
 `Node Package Manager`, hoặc `npm` (thường được viết bằng chữ thường) là một trong những công cụ tạo và quản lý các thư viện được sử dụng phổ biến nhất trong các dự án JavaScript. Nó được xây dựng trên Node và rất mạnh mẽ nên hầu như tất cả mọi người đều đang sử dụng nó.
 
-Công cụ này cho phép publish các package của bạn lên trang chủ `NPM` và tìm kiếm, cài đặt các module, package do những người khác up lên.
+Trong cộng đồng Javascript, các lập trình viên chia sẻ hàng trăm nghìn các thư viện với các đoạn code đã thực hiện sẵn một chức năng nào đó. Nó giúp cho các dự án mới tránh phải viết lại các thành phần cơ bản, các thư viện lập trình hay thậm chí cả các framework. Công cụ này cho phép publish các package của bạn lên trang chủ `NPM` và tìm kiếm, cài đặt các module, package do những người khác up lên.
+
+Cộng đồng sử dụng npm rất lớn, hàng nghìn các thư viện được phát hành, hỗ trợ Javascript ES6, React, Express, Grunt, Duo…
 
 `npm` tốt, nhưng nó cũng có một vài thiếu sót của nó. Sau đây là một vài điều trong số đó:
 - **Queued install**: khi npm lấy các dependencies từ kho chứa của nó, nó sẽ cài đặt các dependencies từng cái một sau khi một cái khác được cài đặt xong, vì vậy sẽ mất rất nhiều thời gian.
@@ -46,7 +48,13 @@ Công cụ này cho phép publish các package của bạn lên trang chủ `NPM
 
 Yarn là một sản phẩm mã nguồn mở, được sự hợp tác của Exponent, Google và Tilde. Với Yarn, các lập trình viên vẫn truy cập vào kho cung cấp các gói phần mềm do npm lưu trữ, tuy nhiên chúng ta có thể cài đặt các gói phần mềm này nhanh hơn và đảm bảo tính thống nhất các lập trình viên tham gia cài đúng phiên bản của các gói phần mềm được định nghĩa.
 
+Đây là dự án bắt đầu được viết từ tháng 1/2016, sau quãng thời gian thử nghiệm và hoàn thiện đã được mở ra thành mã nguồn mở, và thật không có gì ngạc nhiên khi với những tính năng nổi trội vượt bậc đã có 10.000 stars chỉ trong 1 ngày tại Github. Chứng tỏ sự thành công và là tín hiệu thay thế rõ ràng NPM.
+
 `Yarn` được đưa ra để thay thế cho `npm` hoặc các công cụ quản lí các gói thư viện khác cũng tương tác với kho cung cấp các gói phần mềm do npm cung cấp. Nó có đầy đủ những tính năng của npm trong khi đó lại nhanh hơn, bảo mật hơn và đáng tin cậy. Vì vậy bạn hoàn toàn có thể yên tâm khi dùng Yarn thay thế cho npm, bower ...
+
+- **Tốc độ**: YARN sẽ tạo cache cho tất cả các gói đã được tải về, và tải đồng thời nhiều gói cùng lúc nên tốc độ download rất nhanh.
+- **Tin cậy**: sử dụng tập tin lock (tương tự composer) với format chi tiết nhưng ngắn gọn, đảm bảo tính nhất quán khi cài đặt các gói giữa các hệ thống (ví dụ máy dev và máy chủ)
+- **Bảo mật**: sử dụng checksum để đảm bảo tính nguyên vẹn của code trước khi nó được thực thi.
 
 Với nhiều cải tiến đáng kể của mình so với npm yarn rất đáng để thử và trải nghiệm với dự án của bạn. Bạn có thể tham khảo thêm các lệnh khi chuyển từ sử dụng npm sang yarn ở đây [migrating from npm](https://classic.yarnpkg.com/en/docs/migrating-from-npm)
 
