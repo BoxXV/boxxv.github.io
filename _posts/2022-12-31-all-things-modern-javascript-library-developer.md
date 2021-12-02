@@ -116,6 +116,12 @@ Nhiệm vụ chính của bundler là gom hết tất cả các loại script l�
 
 ![Nguồn: freecodecamp.org](https://boxxv.github.io/img/posts/module-bundler.png "Nguồn: freecodecamp.org")
 
+– tùy chọn xài javascript hoặc typescript
+– tùy chọn xài HTML hoặc React
+– tùy chọn xài CSS hoặc SASS
+
+Bao trọn gói các loại modules khác như là lodash, firebase, … 
+
 
 ### 5. `Webpack`
 Webpack hiện đang là `module loader` được sử dụng rộng rãi nhất hiện nay với cộng động support to lớn và những chức năng vô cùng mạnh mẽ.
@@ -157,6 +163,8 @@ Khi sử dụng Rollup, các modules được import vào sẽ được quyết 
 Một tính năng tuyệt vời khác là của Rollup là Tree-shaking, sẽ loại bỏ các export không sử dụng trong gói. Do đó, thay vì import nguyên module, Tree-shaking cho phép bạn import phần mà bạn cần sử dụng.
 
 ### 7. `Parcel`
+
+Parcel - một bundler nói "không" với config
 
 
 
@@ -210,6 +218,11 @@ Webpack
 - [Webpack series - code splitting - chia code trong webpack](https://viblo.asia/p/webpack-series-ep3-code-splitting-chia-code-trong-webpack-yMnKMyRzK7P)
 - [Tại sao tôi lại chuyển từ Webpack sang Brunch?](https://viblo.asia/p/tai-sao-toi-lai-chuyen-tu-webpack-sang-brunch-oOVlYykQl8W)
 - [Webpack và Rollup](https://viblo.asia/p/webpack-va-rollup-3P0lPvWoKox)
+
+-----
+Parcel  
+- [module bundler là gì? Parcel – một bundler nói “không” với config](https://viblo.asia/p/module-bundler-la-gi-parcel-mot-bundler-noi-khong-voi-config-gDVK2o9vZLj)
+
 
 -----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
