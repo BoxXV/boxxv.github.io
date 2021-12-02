@@ -89,7 +89,33 @@ Sử dụng thành thạo Gulp sẽ giúp ta thao tác rất nhanh trong việc 
 
 Sử dụng Gulp không khó, chính thế mà nhiều người thích sử dụng Gulp hơn Grunt vì syntax khá đơn giản.
 
-## B. Task Runners
+## B. Module Bundlers
+
+Ngày nay, chẳng ai build website với chỉ HTML, CSS, JS cả. Ít nhất ấy, thì cũng có một vài thứ khác bổ trợ như html-inspector, jQuery, React, Angular, .. và còn nhiều loại module javascript khác nữa.
+
+Còn chưa kể app script không chỉ một file là xong logic cho cả trang web được, dev cần tách ra nhiều files để dễ quản lý code hơn, như là theo từng phần của trang web chẳng hạn: script-header.js, script-footer.js, script-about-page.js, …
+
+Và thế là, <script> tags trong cái body hay header hay cả hai bắt đầu xếp hàng dài nối nhau như thế này:
+
+```html
+<body>
+    <script src="script-header.js"></script>
+    <script src="script-footer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</body>
+```
+
+Thêm nữa nếu mấy cái script ở trên mà phụ thuộc vào nhau, không được sắp đúng vị trí thì bạn sẽ gặp các lỗi dạng như “Uncaught ReferenceError: $ is not defined“
+
+Lỗi này xảy ra khi bạn viết code jquery trong file script-header.js mà load script jQuery ở sau file này. Thì lúc trình duyệt đọc đến file script-header.js nó sẽ báo lỗi là không tìm thấy jQuery.
+
+Để sửa lỗi này thì các mô-đun được sử dụng ở những loại mô-đun cần được sắp xếp đúng thứ tự. Và thử tưởng tượng nếu có nhiều script thì việc sắp xếp chúng theo đúng thứ tự cần ưu tiên script nào load trước, cái nào load sau là cả một vấn đề, chưa nói chuyện nhìn vào cũng hơi hoa mắt.
+
+Nhiệm vụ chính của bundler là gom hết tất cả các loại script lại cùng nhau theo thứ tự ưu tiên mà bạn đặt cho tụi nó và cho ra một file script duy nhất.
+
+![Nguồn: freecodecamp.org](https://boxxv.github.io/img/posts/module-bundler.png "Nguồn: freecodecamp.org")
+
 
 ### 5. `Webpack`
 Webpack hiện đang là `module loader` được sử dụng rộng rãi nhất hiện nay với cộng động support to lớn và những chức năng vô cùng mạnh mẽ.
@@ -136,6 +162,7 @@ Một tính năng tuyệt vời khác là của Rollup là Tree-shaking, sẽ lo
 
 -----
 Tham khảo:
+
 Npm  
 - [https://viblo.asia/tags/npm](https://viblo.asia/tags/npm)
 - [Cách tạo một NPM package đơn giản](https://viblo.asia/p/cach-tao-mot-npm-package-don-gian-3P0lPy3o5ox)
@@ -177,6 +204,7 @@ Yarn
 -----
 Webpack  
 - [https://viblo.asia/tags/webpack](https://viblo.asia/tags/webpack)
+- [Bạn biết gì về Webpack?](https://viblo.asia/p/ban-biet-gi-ve-webpack-WAyK81wWZxX)
 - [Webpack series - giới thiệu từ cơ bản đến căng cơ](https://viblo.asia/p/webpack-series-gioi-thieu-tu-co-ban-den-cang-co-d-ep1-07LKXEgEZV4)
 - [Webpack series - CSS Splitting - Tách css trong Webpack](https://viblo.asia/p/webpack-series-ep2-css-splitting-tach-css-trong-webpack-GrLZDVn25k0)
 - [Webpack series - code splitting - chia code trong webpack](https://viblo.asia/p/webpack-series-ep3-code-splitting-chia-code-trong-webpack-yMnKMyRzK7P)
