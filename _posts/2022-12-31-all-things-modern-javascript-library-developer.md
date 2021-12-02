@@ -13,18 +13,18 @@ tags:
 ---
 
 ### Package Managers
-1. [npm](#npm)
-2. [yarn](#yarn)
+1. [npm](#1-npm)
+2. [yarn](#2-yarn)
 
 ### Build Tools
 #### Task Runners
-3. [npm scripts](#npm-scripts)
-4. [Gulp](#gulp)
+3. [npm scripts](#3-npm-scripts)
+4. [Gulp](#4-gulp)
 
 #### Module Bundlers
-5. [Webpack](#webpack)
-6. [Rollup](#rollup)
-7. [Parcel](#parcel)
+5. [Webpack](#5-webpack)
+6. [Rollup](#6-rollup)
+7. [Parcel](#7-parcel)
 
 -----
 
