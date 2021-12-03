@@ -32,7 +32,7 @@ tags:
 - [Vue.js](#vuejs)
 - [Ember.js](#emberjs)
 
-### [Tools](#iii-các-công-cụ)
+### [III. Tools](#iii-các-công-cụ)
 #### [General-purpose](#tools-trình-chạy-task-có-mục-đích-tổng-thể)
 - [Gulp](#gulp)
 - [Grunt](#grunt)
@@ -43,6 +43,7 @@ tags:
 - [Mocha](#mocha)
 - [Jasmine](#jasmine)
 
+-----
 
 JavaScript đã tồn tại hơn 20 năm, và là một trong những ngôn ngữ không ngừng phát triển. Ngôn ngữ này gần đây trải qua giai đoạn tăng trưởng rất nhanh, điều này làm tôi tự hỏi: liệu các kỹ thuật JavaScript cho front-end nổi bật hiện nay sau vài năm nữa có còn được chú ý nữa không.
 
