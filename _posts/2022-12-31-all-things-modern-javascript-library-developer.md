@@ -21,11 +21,12 @@ tags:
 #### [Task Runners](#a-task-runners)
 - [npm scripts](#3-npm-scripts)
 - [Gulp](#4-gulp)
+- [Grunt](#5-grunt)
 
 #### [Module Bundlers](#b-module-bundlers)
-- [Webpack](#5-webpack)
-- [Rollup](#6-rollup)
-- [Parcel](#7-parcel)
+- [Webpack](#6-webpack)
+- [Rollup](#7-rollup)
+- [Parcel](#8-parcel)
 
 -----
 
@@ -78,7 +79,9 @@ Do YARN cũng sử dụng package.json nên nếu dự án đã có thì việc 
 ### 3. `npm scripts`
 
 ### 4. `Gulp`
-Gulp là một tool viết bằng Javascript, được sử dụng để tự động hoá các tác vụ giúp các bạn có thể tiết kiệm rất nhiều thời gian trong quá trình làm việc. Dù bạn có là một developer hay là một designer (người sẽ phải làm quen với HTML wireframes hiện tại hoặc sau này), tôi cũng khuyến khích hãy thử sử dụng Gulp.
+Gulp là một tool viết bằng Javascript, được sử dụng để tự động hoá các tác vụ giúp các bạn có thể tiết kiệm rất nhiều thời gian trong quá trình làm việc. Biên dịch, thu gọn code, tối ưu hình ảnh, unit testing linting là những task lập lại nên được tự động hoá.
+
+Gulp giúp quá trình viết task dễ dàng hơn, thậm chí cho những người ít kinh nghiệm với JavaScript. Dù bạn có là một developer hay là một designer (người sẽ phải làm quen với HTML wireframes hiện tại hoặc sau này), tôi cũng khuyến khích hãy thử sử dụng Gulp.
 
 Nó thường được dùng để
 - Spinning up web server
@@ -89,6 +92,10 @@ Nó thường được dùng để
 Sử dụng thành thạo Gulp sẽ giúp ta thao tác rất nhanh trong việc development web.
 
 Sử dụng Gulp không khó, chính thế mà nhiều người thích sử dụng Gulp hơn Grunt vì syntax khá đơn giản.
+
+### 5. `Grunt`
+
+Grunt là một task runner (trình chạy task) và một công cụ tự động của JavaScript. Grunt có một giao diện command-line cho phép bạn chạy các task tự chọn được định nghĩa trong một Gruntfile. Grunt có hàng ngàn plugins để chọn lựa, gồm có những task lập đi lập lại mà bạn sẽ gặp phải. Với Grunt, bạn có thể dùng tất cả task bằng một dòng lệnh, làm cuộc sống bạn dễ dàng hơn.
 
 ## B. Module Bundlers
 
@@ -124,7 +131,7 @@ Nhiệm vụ chính của bundler là gom hết tất cả các loại script l�
 Bao trọn gói các loại modules khác như là lodash, firebase, … 
 
 
-### 5. `Webpack`
+### 6. `Webpack`
 Webpack hiện đang là `module loader` được sử dụng rộng rãi nhất hiện nay với cộng động support to lớn và những chức năng vô cùng mạnh mẽ.
 
 Một cách đơn giản là ngày xưa chúng ta thường add những thư viện (3th parties) như `jquery`, `moment`, `select2`, `dtpicker`, `sticky`,... vào thẻ `script` để khi web load lên xong thì những thư viện này sẽ được `execute` và xử lý. Nhưng không còn như những ngày xưa chỉ vài dòng jquery là đủ dùng, sau này do việc code dưới front-end càng ngày càng phìng to nên việc quản lý code = javascript càng ngày càng tõ rõ sự quan trọng nên từ đó khái niệm `Module loader` ra đời.
@@ -139,7 +146,7 @@ Webpack được Tobias Koppers bắt đầu vào năm 2012 để giải quyết
 - Việc tách code làm cho bạn có thể chia nhỏ ứng dụng của mình thành các phần có thể quản lý được load theo yêu cầu, có nghĩa là end-user có trang web tương tác nhanh hơn nếu họ phải đợi tất cả ứng dụng được tải xuống. Bạn có thể làm điều này bằng tay, nhưng... chúc may mắn.
 - Các file tĩnh như hình ảnh và CSS có thể được import vào appication của bạn và được xem như một node được xem như một dependency. Webpack cũng có thể băm các tệp cho bạn.
 
-### 6. `Rollup`
+### 7. `Rollup`
 `React` đã thay thế `Webpack` bằng `Rollup`, điều này sẽ khiến nhiều người hỏi 'tại sao chọn Rollup thay vì dùng webpack?' Để có thể so sánh, Không chỉ React sử dụng Rollup mà `Vue`, `Ember`, `Preact`, `D3`, `Three.js`, `Moment` và hàng chục thư viện nổi tiếng khác cũng sử dụng `Rollup`. Vì vậy những gì đang xảy ra? Tại sao chúng ta không thể dùng duy nhất 1 gói JavaScript module bundler cho tất cả???
 
 `Rollup` được tạo ra vì một lý do khác: làm phẳng các thư viện hiệu quả nhất, nó cho phép bạn code ứng dụng sử dụng các module `ES2015`, sau đó nó sẽ kết hợp tất cả các module thành một file nhằm giảm số lượng request http và cải thiện thời gian tải trang web. Mục đích của Rollup là trở nên nhanh và tạo các đoạn code rõ ràng và hiệu quả hơn bất kỳ công cụ đóng gói khác.
@@ -163,7 +170,7 @@ Khi sử dụng Rollup, các modules được import vào sẽ được quyết 
 
 Một tính năng tuyệt vời khác là của Rollup là Tree-shaking, sẽ loại bỏ các export không sử dụng trong gói. Do đó, thay vì import nguyên module, Tree-shaking cho phép bạn import phần mà bạn cần sử dụng.
 
-### 7. `Parcel`
+### 8. `Parcel`
 
 Parcel - một bundler nói "không" với config
 
