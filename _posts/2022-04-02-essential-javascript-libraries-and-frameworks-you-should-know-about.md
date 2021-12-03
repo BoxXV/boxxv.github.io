@@ -20,6 +20,30 @@ tags:
 - Web Development
 ---
 
+# Tóm tắt
+
+### [I. Thư viện](#i-thư-viện)
+- [React](#react)
+- [jQuery](#jquery)
+- [D3.js](#d3js-data-driven-documents)
+
+### [II. Frameworks](#ii-frameworks)
+- [Angular](#angular)
+- [Vue.js](#vuejs)
+- [Ember.js](#emberjs)
+
+### [Tools](#iii-các-công-cụ)
+#### [General-purpose](#tools-trình-chạy-task-có-mục-đích-tổng-thể)
+- [Gulp](#gulp)
+- [Grunt](#grunt)
+- [npm](#npm)
+
+#### [Testing](#tools-testing)
+- [Jest](#jest)
+- [Mocha](#mocha)
+- [Jasmine](#jasmine)
+
+
 JavaScript đã tồn tại hơn 20 năm, và là một trong những ngôn ngữ không ngừng phát triển. Ngôn ngữ này gần đây trải qua giai đoạn tăng trưởng rất nhanh, điều này làm tôi tự hỏi: liệu các kỹ thuật JavaScript cho front-end nổi bật hiện nay sau vài năm nữa có còn được chú ý nữa không.
 
 Tuy nhiên, quan trong là luôn dẫn đầu cuộc chơi bằng cách sử dụng những công nghệ những công cụ và framework mới nhất cho việc phát triển tốt hơn. Bài viết này khám phá những thư viên, framework JavaScript khác nhau và các công cụ bạn nên cân nhắc học ngay bây giờ.
