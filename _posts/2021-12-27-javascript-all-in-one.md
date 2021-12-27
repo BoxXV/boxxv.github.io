@@ -31,22 +31,22 @@ Trong JavaScript, module pattern là cách để đóng gói code, nhằm giảm
 
 ```javascript
 var loginModule = (function() {
-- "use strict";
+    "use strict";
 
-- var module = {};
+    var module = {};
 
-- module.myConstant = 1984;
+    module.myConstant = 1984;
 
-- module.login = function(userNameValue, userPasswordValue) {
-- - privateLogin(userNameValue, userPasswordValue);
-- - console.log("login implementation omitted");
-- };
+    module.login = function(userNameValue, userPasswordValue) {
+        privateLogin(userNameValue, userPasswordValue);
+        console.log("login implementation omitted");
+    };
 
-- module.logout = function() {
-- - console.log("logout implementation omitted");
-- };
+    module.logout = function() {
+        console.log("logout implementation omitted");
+    };
 
-- return module;
+    return module;
 })();
 ```
 
@@ -60,13 +60,13 @@ AMD API có những hàm sau:
 
 ```javascript
 define(
-- module_id,
-- [dependencies],
-- function {}
+    module_id,
+    [dependencies],
+    function {}
 );
 
 require(["main"], function() {
-- console.log("module main is loaded");
+    console.log("module main is loaded");
 });
 ```
 
