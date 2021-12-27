@@ -30,6 +30,10 @@ Có một vài cách để đạt được mẫu module.
 
 ### 2. CommonJS và AMD
 
+### 3. UMD
+
+### 4. Native JS
+
 
 -----
 Tham khảo:
