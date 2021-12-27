@@ -31,24 +31,57 @@ Trong JavaScript, module pattern là cách để đóng gói code, nhằm giảm
 
 ```javascript
 var loginModule = (function() {
-    "use strict";
+- "use strict";
 
-    var module = {};
+- var module = {};
 
-    module.myConstant = 1984;
+- module.myConstant = 1984;
 
-    module.login = function(userNameValue, userPasswordValue) {
-        privateLogin(userNameValue, userPasswordValue);
-        console.log("login implementation omitted");
-    };
+- module.login = function(userNameValue, userPasswordValue) {
+- - privateLogin(userNameValue, userPasswordValue);
+- - console.log("login implementation omitted");
+- };
 
-    module.logout = function() {
-        console.log("logout implementation omitted");
-    };
+- module.logout = function() {
+- - console.log("logout implementation omitted");
+- };
 
-    return module;
+- return module;
 })();
 ```
+
+Module pattern hoạt động tốt với những ứng dụng nhỏ. Nó rất dễ dàng để cài đặt và không cần thư viện nào cả. Tuy nhiên, khi ứng dụng phức tạp hơn, cách làm này không còn phù hợp nữa.
+
+### 2. Asynchronous Module Definition (AMD)
+
+AMD API có những hàm sau:
+- `define` để định nghĩa module.
+- `require` để load module và các thành phần phụ thuộc.
+
+```javascript
+define(
+- module_id,
+- [dependencies],
+- function {}
+);
+
+require(["main"], function() {
+- console.log("module main is loaded");
+});
+```
+
+Ưu điểm:
+- API rất đơn giản, chi cần 2 hàm require và define.
+- Có rất nhiều cách để load khác nhau. Chúng ta sẽ xem xét một ví dụ ở phần sau.
+- AMD không khó để debug.
+- Khi module hóa ứng dụng, bạn dễ dàng tìm ra phần code nào bị lỗi.
+- Performance: các module được load khi cần, do đó ứng dụng khi khởi tạo rất nhẹ nhàng.
+
+Nhược điểm:
+- Danh sách thành phần phụ thuộc sẽ rất dài khi ứng dụng trở nên phức tạp.
+- Một lỗi bất cẩn của lập trình viên có thể khiến ứng dụng hoạt động sai. Ví dụ sau, việc danh sách các thành phần phụ thuộc và tham số hàm callback không khớp không phải lỗi cú pháp và nó sẽ khiến ứng dụng hoạt động theo cách mà không ai hiểu được.
+
+
 
 
 -----
