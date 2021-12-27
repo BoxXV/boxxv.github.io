@@ -29,6 +29,27 @@ Module pattern không yêu cầu bất cứ một công cụ hay thư viện nà
 
 Trong JavaScript, module pattern là cách để đóng gói code, nhằm giảm thiểu những xung đột có thể xảy ra khi định nghĩa tên hàm và biến. Nó đơn giản chỉ là code được đặt trong một hàm vô danh được thực thi ngay. Hàm này sẽ trả kết quả là một đối tượng và đối tượng này sẽ được sử dụng như một module. Mọi code JavaScript để tạo ra đối tượng đó hoàn toàn được đóng gói trong hàm vô danh. Hãy xem qua ví dụ sau, bạn sẽ thấy nó rất quen thuộc.
 
+```javascript
+var loginModule = (function() {
+    "use strict";
+
+    var module = {};
+
+    module.myConstant = 1984;
+
+    module.login = function(userNameValue, userPasswordValue) {
+        privateLogin(userNameValue, userPasswordValue);
+        console.log("login implementation omitted");
+    };
+
+    module.logout = function() {
+        console.log("logout implementation omitted");
+    };
+
+    return module;
+})();
+```
+
 
 -----
 Tham khảo:
