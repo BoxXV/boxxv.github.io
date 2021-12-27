@@ -145,6 +145,8 @@ Tham khảo:
 -----
 [CommonJS](https://viblo.asia/tags/commonjs)
 - [Tìm hiểu về module system, CommonJS và require](https://viblo.asia/p/tim-hieu-ve-module-system-commonjs-va-require-QpmleL3mZrd)
+- [Promises, Classes, ES6 Modules and CommonJS](https://viblo.asia/p/javascript-promises-classes-es6-modules-and-commonjs-07LKX48DKV4)
+- [Module Javascript phần 2: Đóng gói module](https://viblo.asia/p/module-javascript-phan-2-dong-goi-module-GrLZDVve5k0)
 
-
+Grunt, Flux, Parcel, RequireJS/AMD, Browserify
 
