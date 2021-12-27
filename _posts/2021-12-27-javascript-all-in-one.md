@@ -81,6 +81,11 @@ Nhược điểm:
 - Danh sách thành phần phụ thuộc sẽ rất dài khi ứng dụng trở nên phức tạp.
 - Một lỗi bất cẩn của lập trình viên có thể khiến ứng dụng hoạt động sai. Ví dụ sau, việc danh sách các thành phần phụ thuộc và tham số hàm callback không khớp không phải lỗi cú pháp và nó sẽ khiến ứng dụng hoạt động theo cách mà không ai hiểu được.
 
+### 3. [RequireJS](https://requirejs.org)
+
+RequireJS là một file JavaScript và một `module loader`. Nó được tối ưu hóa cho môi trường trình duyệt nhưng cũng có thể sử dụng trong các môi trường JavaScript khác, như Rhino hoặc Node. Sử dụng các module loader như RequireJS sẽ giúp tăng tốc độ và chất lượng code của bạn. 
+
+Tất nhiên, đây là một định nghĩa có hơi hướng quảng cáo. Chúng ta có thể hiểu đơn giản RequireJS là một thư viện cho phép chúng ta module hóa code JavaScript theo quy chuẩn của AMD.
 
 
 
