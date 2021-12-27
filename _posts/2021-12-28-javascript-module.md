@@ -28,6 +28,57 @@ Có một vài cách để đạt được mẫu module.
 - Object interface
 - Mẫu revealing module
 
+#### a. Closure vô danh
+```javascript
+(function () {
+  // We keep these variables private inside this closure scope
+
+  var myGrades = [93, 95, 88, 0, 55, 91];
+
+  var average = function() {
+    var total = myGrades.reduce(function(accumulator, item) {
+      return accumulator + item}, 0);
+
+      return 'Your average grade is ' + total / myGrades.length + '.';
+  }
+
+  var failing = function(){
+    var failingGrades = myGrades.filter(function(item) {
+      return item < 70;});
+
+    return 'You failed ' + failingGrades.length + ' times.';
+  }
+
+  console.log(failing());
+
+}());
+
+// ‘You failed 2 times.’
+```
+
+Với cấu trúc này, hàm vô danh của chúng ta có không gian tính toán của riêng nó hay "closure", và sau đó chúng ta thực thi nó ngay lập tức. Điều này giúp chúng ta giấu các biến khỏi không gian tên cha (toàn cục).
+
+Chú ý rằng cặp ngoặc bao quanh hàm vô danh là bắt buộc, vì các lệnh bắt đầu với từ khóa function luôn được coi là khai báo hàm (nhớ rằng, bạn không thể khai báo một hàm không có tên trong Javascript). Do vậy, cặp ngoặc bao quanh tạo ra một biểu thức hàm thay vào đó. Nếu bạn tò mò, bạn có thể đọc thêm [ở đây](https://stackoverflow.com/questions/1634268/explain-the-encapsulated-anonymous-function-syntax).
+
+#### b. Import toàn cục
+
+Một cách phổ biến khác được sử dụng bởi những thư viện như jQuery là import toàn cục. Cách này tương tự với closure vô danh như ta đã thấy, ngoại trừ việc chúng ta truyền biến toàn cục vào như một tham số:
+
+```javascript
+(function (globalVariable) {
+
+  // Keep this variables private inside this closure scope
+  var privateFunction = function() {
+    console.log('Shhhh, this is private!');
+  }
+
+  // Expose the below methods via the globalVariable interface while
+  // hiding the implementation of the method within the
+  // function() block
+
+}(globalVariable));
+```
+
 ### 2. CommonJS và AMD
 
 ### 3. UMD
