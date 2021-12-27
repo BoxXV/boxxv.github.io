@@ -87,6 +87,53 @@ RequireJS là một file JavaScript và một `module loader`. Nó được tố
 
 Tất nhiên, đây là một định nghĩa có hơi hướng quảng cáo. Chúng ta có thể hiểu đơn giản RequireJS là một thư viện cho phép chúng ta module hóa code JavaScript theo quy chuẩn của AMD.
 
+```no-highlight
+project-directory
+├── index.html
+└── assets
+    ├── images
+    ├── js
+    │   ├── lib
+    │   │   └── require.js
+    │   ├── mobile-menu.js
+    │   ├── scroll-top.js
+    │   └── main.js
+    └── css
+```
+
+```javascript
+<script src="assets/js/lib/require.js"
+          data-main="assets/js/main.js"></script>
+
+requirejs.config({
+    paths: {
+        'jquery': 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min',
+        'mobile-menu': './mobile-menu',
+        'scroll-top': './scroll-top'
+    }
+});
+
+// mobile-menu cần load cho tất cả các trang
+var mods = ['mobile-menu'];
+
+function getPageHeight() {
+    // hàm lấy độ cao thực của trang
+    var body = document.body;
+    var html = document.documentElement;
+
+    return Math.max(body.scrollHeight, body.offsetHeight,
+                    html.clientHeight, html.scrollHeight, html.offsetHeight);
+}
+
+if (getPageHeight() > window.innerHeight * 2) {
+    // chỉ load scroll-top cho trang có độ cao đủ lớn
+    mods.push('scroll-top');
+}
+
+requirejs(mods);
+```
+
+
 
 
 -----
