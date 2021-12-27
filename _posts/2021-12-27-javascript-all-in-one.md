@@ -133,6 +133,7 @@ if (getPageHeight() > window.innerHeight * 2) {
 requirejs(mods);
 ```
 
+### 4. CommonJS
 
 
 
@@ -141,7 +142,9 @@ Tham khảo:
 - [Sử dụng RequireJS và AMD để module hóa code JavaScript](https://viblo.asia/p/su-dung-requirejs-va-amd-de-module-hoa-code-javascript-znVGLY6jvZOe)
 - [Sử dụng RequireJS và AMD để module hóa code JavaScript](https://manhhomienbienthuy.github.io/2016/05/12/su-dung-amd-requirejs-de-module-hoa-javascript.html)
 
-
+-----
+[CommonJS](https://viblo.asia/tags/commonjs)
+- [Tìm hiểu về module system, CommonJS và require](https://viblo.asia/p/tim-hieu-ve-module-system-commonjs-va-require-QpmleL3mZrd)
 
 
 
