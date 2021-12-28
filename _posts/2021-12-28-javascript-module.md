@@ -219,9 +219,38 @@ Như bạn có thể đã nhận thấy, không một module nào phía trên l�
 
 ES6 cung cấp rất nhiều cách import và export module mà những người khác đã giải thích rất tốt - dưới đây là một số tài nguyên trong số đó:
     jsmodules.io
-    exploringjs.com
+    [exploringjs.com](https://exploringjs.com/es6/ch_modules.html)
 
+Điều tuyệt vời về module ES6 liên quan đến CommonJS và AMD là cách nó quản lý để đạt tới những thứ tốt nhất của cả 2: chặt chẽ và cú pháp biểu đạt và nạp bất đồng bộ, cộng thêm các lợi ích như hỗ trợ tốt hơn các các phụ thuộc lặp vòng.
 
+```javascript
+// lib/counter.js
+
+var counter = 1;
+
+function increment() {
+  counter++;
+}
+
+function decrement() {
+  counter--;
+}
+
+module.exports = {
+  counter: counter,
+  increment: increment,
+  decrement: decrement
+};
+```
+
+```javascript
+// src/main.js
+
+var counter = require(<../../lib/counter<);
+
+counter.increment();
+console.log(counter.counter); // 1
+```
 
 
 
