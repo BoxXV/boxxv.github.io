@@ -181,6 +181,38 @@ AMD không tương thích với io, filesystem và các tính năng hướng ser
 
 ### 3. UMD
 
+Với các dự án yêu cầu bạn hỗ trợ cả AMD và CommonJS, sẽ có một định dạng khác là: `Universal Module Definition` (UMD).
+
+Về cơ bản UMD tạo ra một cách sử dụng một trong hai cách trên, trong khi vẫn hỗ trợ định nghĩa biến toàn cục. Kết quả là module UMD có thể hoạt động trên cả client và server.
+
+```javascript
+(function (root, factory) {
+  if (typeof define === <function< && define.amd) {
+      // AMD
+    define([<myModule<, <myOtherModule<], factory);
+  } else if (typeof exports === <object<) {
+      // CommonJS
+    module.exports = factory(require(<myModule<), require(<myOtherModule<));
+  } else {
+    // Browser globals (Note: root is window)
+    root.returnExports = factory(root.myModule, root.myOtherModule);
+  }
+}(this, function (myModule, myOtherModule) {
+  // Methods
+  function notHelloOrGoodbye(){}; // A private method
+  function hello(){}; // A public method because it<s returned (see below)
+  function goodbye(){}; // A public method because it<s returned (see below)
+
+  // Exposed public methods
+  return {
+      hello: hello,
+      goodbye: goodbye
+  }
+}));
+```
+
+Để xem nhiều ví dụ hơn về định dạng UMD, hãy xem repo hướng dẫn này trên GitHub: [https://github.com/umdjs/umd](https://github.com/umdjs/umd).
+
 ### 4. Native JS
 
 
