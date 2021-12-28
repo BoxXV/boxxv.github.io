@@ -144,7 +144,7 @@ Có 2 lợi ích rõ ràng của phương pháp này so với mẫu module mà c
 - Tránh ô nhiễm không gian tên toàn cục.
 - Làm cho sự phụ thuộc trở nên rõ ràng.
 
-Một chú ý nữa là CommonJS hướng tới phía server và nạp các module một cách đồng bộ. Điều này ảnh hưởng vì nếu chúng ta có 3 module cần require, nó sẽ nạp từng cái một.
+Một chú ý nữa là CommonJS hướng tới `phía server` và nạp các module một cách đồng bộ. Điều này ảnh hưởng vì nếu chúng ta có 3 module cần require, nó sẽ nạp từng cái một.
 
 Nó hoạt động tốt trên server nhưng không may là nó khiến cho việc viết Javascript cho phía trình duyệt trở nên khó khăn hơn. Việc đọc module từ web mất rất nhiều thời gian hơn so với việc đọc từ đĩa. Chừng nào việc nạp các module còn chạy, trình duyệt sẽ bị ngưng chạy bất cứ thứ gì khác cho đến khi kết thúc nạp. Trình duyệt hoạt động như vậy vì luồng Javascript ngừng cho đến khi code đã nạp xong. (Tôi sẽ nói tới cách giải quyết vấn đề này ở phần 2 khi chúng ta thảo luận đến việc đóng gói module. Hiện tại, đó là tất cả những gì chúng ta cần biết).
 
@@ -157,6 +157,27 @@ define([<myModule<, <myOtherModule<], function(myModule, myOtherModule) {
   console.log(myModule.hello());
 });
 ```
+
+Thứ diễn ra ở đây là hàm define nhận tham số đầu tiên của nó là một mảng chứa các phụ thuộc của module hiện tại. Các phụ thuộc này được nạp ở background (theo cách non-blocking), và khi đã nạp xong hàm define sẽ gọi hàm callback được chỉ định.
+
+Kế tiếp, hàm callback nhận các tham số là các phụ thuộc đã được nạp - trong trường hợp của chúng ta là myModule và myOtherModule - và hàm này được phép sử dụng các phụ thuộc này. Cuối cùng, bản thân các phụ thuộc cũng phải được khai báo bằng cách dùng từ khóa define.
+
+```javascript
+define([], function() {
+
+  return {
+    hello: function() {
+      console.log(<hello<);
+    }
+  };
+});
+```
+
+Một lần nữa, không giống như CommonJS, AMD hướng tới phía `trình duyệt` và sử dụng bất đồng bộ để hoàn thành công việc. (Chú ý, có rất nhiều người tin rằng việc nạp các tệp theo từng phần khi bắt đầu chạy code là không tốt, chúng ta sẽ khám phá thêm khi đến phần xây dựng module).
+
+Bên cạnh tính bất đồng bộ, một lợi ích khác của AMD là module của bạn có thể là object, hàm, constructor, string, JSON và rất nhiều kiểu khác, trong khi CommonJS chỉ hỗ trợ object.
+
+AMD không tương thích với io, filesystem và các tính năng hướng server như CommonJS, và cú pháp hàm đóng gói có chút rườm ra so với một lệnh require đơn giản.
 
 ### 3. UMD
 
