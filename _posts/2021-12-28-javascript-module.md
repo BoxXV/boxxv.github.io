@@ -252,7 +252,28 @@ counter.increment();
 console.log(counter.counter); // 1
 ```
 
+Mặt khác, ES6 tạo ra một tham chiếu chỉ đọc hoạt động thực sự của module mà ta import:
+```javascript
+// lib/counter.js
+export let counter = 1;
 
+export function increment() {
+  counter++;
+}
+
+export function decrement() {
+  counter--;
+}
+```
+
+```javascript
+// src/main.js
+import * as counter from '../../counter';
+
+console.log(counter.counter); // 1
+counter.increment();
+console.log(counter.counter); // 2
+```
 
 -----
 Tham khảo:
