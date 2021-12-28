@@ -140,6 +140,16 @@ function myModule() {
 module.exports = myModule;
 ```
 
+Có 2 lợi ích rõ ràng của phương pháp này so với mẫu module mà chúng ta đã thảo luận ở trước:
+- Tránh ô nhiễm không gian tên toàn cục.
+- Làm cho sự phụ thuộc trở nên rõ ràng.
+
+Một chú ý nữa là CommonJS hướng tới phía server và nạp các module một cách đồng bộ. Điều này ảnh hưởng vì nếu chúng ta có 3 module cần require, nó sẽ nạp từng cái một.
+
+Nó hoạt động tốt trên server nhưng không may là nó khiến cho việc viết Javascript cho phía trình duyệt trở nên khó khăn hơn. Việc đọc module từ web mất rất nhiều thời gian hơn so với việc đọc từ đĩa. Chừng nào việc nạp các module còn chạy, trình duyệt sẽ bị ngưng chạy bất cứ thứ gì khác cho đến khi kết thúc nạp. Trình duyệt hoạt động như vậy vì luồng Javascript ngừng cho đến khi code đã nạp xong. (Tôi sẽ nói tới cách giải quyết vấn đề này ở phần 2 khi chúng ta thảo luận đến việc đóng gói module. Hiện tại, đó là tất cả những gì chúng ta cần biết).
+
+
+
 #### 2b. AMD
 
 ### 3. UMD
