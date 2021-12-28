@@ -23,10 +23,12 @@ tags:
 - [Gulp](#4-gulp)
 - [Grunt](#5-grunt)
 
-#### [Module Bundlers](#b-module-bundlers)
+#### [Module Bundlers](#b-module-bundlers) - Module Loaders
 - [Webpack](#6-webpack)
 - [Rollup](#7-rollup)
 - [Parcel](#8-parcel)
+- RequireJS, Browserify, SystemJs
+- Tiny Loaders: curl, LABjs, almond
 
 -----
 
