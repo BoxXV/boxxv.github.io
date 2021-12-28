@@ -18,7 +18,7 @@ Nếu bạn là người mới học Javascript, những từ như "`module bund
 
 Hệ thống module của Javascript có thể hơi đáng sợ, nhưng hiểu được nó là một điều quan trọng đối với lập trình viên web.
 
-### Tại sao lại sử dụng module?
+## A. Tại sao lại sử dụng module?
 - Dễ bảo trì: Một module được thiết kế tốt nhắm tới việc làm giảm sự phụ thuộc của các phần trong codebase càng nhiều càng tốt để nó có thể phát triển một cách độc lập.
 - Phân chia không gian tên: Chia sẻ các biến toàn cục giữa các đoạn code không liên quan là một việc rất tệ trong quá trình phát triển.
 - Tính tái sử dụng: Sẽ không dễ dàng hơn sao nếu có một module mà chúng ta có thể dùng đi dùng lại?
@@ -276,9 +276,22 @@ console.log(counter.counter); // 2
 ```
 
 
-### Đóng gói module
+## B. Đóng gói module
 
 Nếu bạn tuân theo các hệ thống module không tự nhiên mà trình duyệt không thể thông dịch như CommonJS hay AMD (hay thậm chí là dạng module tự nhiên ES6), bạn sẽ cần đến một công cụ chuyên dùng để chuyển đổi các module của mình thành những đoạn code đúng thứ tự và hoạt động được với trình duyệt. Đó là lúc mà `Browserify`, `RequireJS`, `Webpack` và các "chương trình đóng gói module" `module bundlers` hay "chương trình nạp module" `module loaders` được dùng đến.
+
+Ngoài việc đóng gói và/hoặc nạp các module của bạn, các chương trình đóng gói module còn cung cấp một đống các tính năng đi kèm như tự biên dịch ngược code khi bạn thay đổi hay sinh source map để debug.
+
+
+### Đóng gói CommonJS bằng Browserify
+
+CommonJS nạp các module một cách đồng bộ, điều này ổn ngoại trừ việc nó không tốt đối với trình duyệt. Tôi đã nói rằng có một cách giải quyết - đó là việc sử dụng một chương trình đóng gói tên là `Browserify`. Browserify là một công cụ biên dịch các module CommonJS cho trình duyệt.
+
+Browserify thực hiện việc này bằng cách phân tích AST với mỗi lời gọi require để đi qua toàn bộ đồ thị phụ thuộc trong dự án của bạn. Một khi nó tìm ra cấu trúc của các phụ thuộc, nó sẽ đóng gói chúng theo đúng thứ tự vào một file duy nhất. Đến lúc này, tất cả những việc bạn cần làm là thêm một thẻ <script> dành cho file "bundle.js" của bạn vào file html để đảm bảo rằng tất cả mã nguồn của bạn được tải trong một HTTP request.
+
+Sản phẩm cuối cùng: các file được đống gói đã được chuẩn bị và sẵn sàng cho các công cụ như Minify-JS để làm nhỏ code đã được đóng gói.
+
+### Đóng gói AMD
 
 
 
