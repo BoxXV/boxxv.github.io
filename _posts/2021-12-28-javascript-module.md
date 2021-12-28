@@ -246,7 +246,7 @@ module.exports = {
 ```javascript
 // src/main.js
 
-var counter = require(<../../lib/counter<);
+var counter = require('../../lib/counter');
 
 counter.increment();
 console.log(counter.counter); // 1
