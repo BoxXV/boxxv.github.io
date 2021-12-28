@@ -278,7 +278,7 @@ console.log(counter.counter); // 2
 
 ### Đóng gói module
 
-Nếu bạn tuân theo các hệ thống module không tự nhiên mà trình duyệt không thể thông dịch như CommonJS hay AMD (hay thậm chí là dạng module tự nhiên ES6), bạn sẽ cần đến một công cụ chuyên dùng để chuyển đổi các module của mình thành những đoạn code đúng thứ tự và hoạt động được với trình duyệt. Đó là lúc mà `Browserify`, `RequireJS`, `Webpack` và các "chương trình đóng gói module" hay "chương trình nạp module" được dùng đến.
+Nếu bạn tuân theo các hệ thống module không tự nhiên mà trình duyệt không thể thông dịch như CommonJS hay AMD (hay thậm chí là dạng module tự nhiên ES6), bạn sẽ cần đến một công cụ chuyên dùng để chuyển đổi các module của mình thành những đoạn code đúng thứ tự và hoạt động được với trình duyệt. Đó là lúc mà `Browserify`, `RequireJS`, `Webpack` và các "chương trình đóng gói module" `module bundlers` hay "chương trình nạp module" `module loaders` được dùng đến.
 
 
 
