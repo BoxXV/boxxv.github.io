@@ -215,6 +215,15 @@ Về cơ bản UMD tạo ra một cách sử dụng một trong hai cách trên,
 
 ### 4. Native JS
 
+Như bạn có thể đã nhận thấy, không một module nào phía trên là tự nhiên đối với Javascript. Chúng ta tạo ra các cách để giả lập một hệ thống module bằng cách sử dụng mẫu module, CommonJS hay AMD.
+
+ES6 cung cấp rất nhiều cách import và export module mà những người khác đã giải thích rất tốt - dưới đây là một số tài nguyên trong số đó:
+    jsmodules.io
+    exploringjs.com
+
+
+
+
 
 -----
 Tham khảo:
