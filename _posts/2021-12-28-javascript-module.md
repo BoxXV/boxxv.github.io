@@ -278,6 +278,8 @@ console.log(counter.counter); // 2
 
 ## B. Đóng gói module
 
+Để giải quyết vấn đề thời gian chờ tải trang, chúng ta đóng gói, hay "ghép" tất cả các file của mình thành một file lớn (hay một vài file nếu cần) để giảm số lượng request. Khi bạn nghe các lập trình viên nói về `"build step"` hay `"build process"`, thì đây là điều mà họ nói đến.
+
 Nếu bạn tuân theo các hệ thống module không tự nhiên mà trình duyệt không thể thông dịch như CommonJS hay AMD (hay thậm chí là dạng module tự nhiên ES6), bạn sẽ cần đến một công cụ chuyên dùng để chuyển đổi các module của mình thành những đoạn code đúng thứ tự và hoạt động được với trình duyệt. Đó là lúc mà `Browserify`, `RequireJS`, `Webpack` và các "chương trình đóng gói module" `module bundlers` hay "chương trình nạp module" `module loaders` được dùng đến.
 
 Ngoài việc đóng gói và/hoặc nạp các module của bạn, các chương trình đóng gói module còn cung cấp một đống các tính năng đi kèm như tự biên dịch ngược code khi bạn thay đổi hay sinh source map để debug.
@@ -315,7 +317,20 @@ Việc chia tách code chỉ là một trong rất nhiều tính năng hấp d�
     http://mattdesl.svbtle.com/browserify-vs-webpack
     http://blog.namangoel.com/browserify-vs-webpack-js-drama
 
+### Module ES6
 
+Sự khác biệt quan trọng nhất giữa các định dạng module JS hiện tại (CommonJS, AMD) và module ES6 là module ES6 được thiết kế với ý tưởng phân tích tĩnh. Nghĩa là khi bạn import các module, việc import được thực hiện lúc biên dịch - trước khi script bắt đầu chạy. Điều này cho phép chúng ta loại bỏ các phần export không được dùng bởi các module khác trước khi chúng ta chạy chương trình. Loại bỏ các phần export không cần thiết giúp giảm rất nhiều không gian cần để lưu trữ và giảm tải ở phía trình duyệt.
+
+Điều khiến module ES6 khác là sự khác biệt ở cách loại bỏ code dư thừa của nó, được gọi là "tree shaking". Tree shaking cơ bản là ngược lại của sự loại bỏ code dư thừa. Module ES6 chỉ include code mà phiên bản code đóng gói cần để chạy thay vì loại bỏ code mà phiên bản đóng gói không cần đến.
+
+### Build module ES6
+
+Module ES6 vẫn cần phải được xử lý thêm, do vẫn chưa có triển khai chính thức của cách nạp module ES6 trên trình duyệt
+
+Dưới đây là một số tùy chọn cho việc build/chuyển đổi module ES6 để có thể hoạt động trên trình duyệt, cách #1 là cách phổ biến nhất ở thời điểm hiện tại:
+
+1. Dùng một chương trình dịch (như Babel hay Traceur) để dịch code ES6 thành ES5 dưới định dạng CommonJS, AMD hay UMD. Sau đó đưa code được dịch vào một chương trình đóng gói như Browserify hay Webpack để tạo một hay nhiều file đóng gói.
+2. Dùng Rollup.js, thứ rất tương đồng với tùy chọn #1 ở trên ngoại trừ việc Rollup mang theo sức mạnh của module ES6 trong việc phân tích tĩnh code ES6 và các phụ thuộc trước khi đóng gói. Nó sử dụng "tree shaking" để include lượng code ít nhất vào code đóng gói. Tóm lại, lợi ích chính của Rollup.js so với Browserify hay Webpack khi bạn dùng module ES6 là tree shaking sẽ giúp code đóng gói của bạn nhỏ hơn. Cảnh báo rằng Rollup cung cấp một vài định dạng để đóng gói code, bao gồm ES6, CommonJS, AMD, UMD hay IIFE. Code đóng gói dưới dạng IIFE và UMD cso thể hoạt động trên trình duyệt, nhưng nếu bạn chọn đóng gói theo định dạng AMD, CommonJS hay ES6 thì bạn cần thêm một bước chuyển đổi code sang một định dạng mà trình duyệt có thể hiểu được (ví dụ như sử dụng Browserify, Webpack, RequireJS, v..v..).
 
 
 -----
