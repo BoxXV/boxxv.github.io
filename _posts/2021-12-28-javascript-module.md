@@ -18,6 +18,11 @@ Nếu bạn là người mới học Javascript, những từ như "`module bund
 
 Hệ thống module của Javascript có thể hơi đáng sợ, nhưng hiểu được nó là một điều quan trọng đối với lập trình viên web.
 
+### Tại sao lại sử dụng module?
+- Dễ bảo trì: Một module được thiết kế tốt nhắm tới việc làm giảm sự phụ thuộc của các phần trong codebase càng nhiều càng tốt để nó có thể phát triển một cách độc lập.
+- Phân chia không gian tên: Chia sẻ các biến toàn cục giữa các đoạn code không liên quan là một việc rất tệ trong quá trình phát triển.
+- Tính tái sử dụng: Sẽ không dễ dàng hơn sao nếu có một module mà chúng ta có thể dùng đi dùng lại?
+
 ### 1. Mẫu module - The Module pattern
 
 Mẫu module được sử dụng để bắt chước khái niệm class (do bản thân Javascript không hỗ trợ class) để chúng ta có thể lưu trữ cả các phương thức và biến public và private trong một đối tượng độc lập - tương tự cách class được sử dụng trong các ngôn ngữ lập trình khác như Java hay Python. Điều đó cho phép chúng ta tạo ra một API public cho các phương thức chúng ta muốn để lộ ra ngoài, trong khi vẫn đóng gói các biến và phương thức private trong một closure scope.
