@@ -293,6 +293,29 @@ Sản phẩm cuối cùng: các file được đống gói đã được chuẩn
 
 ### Đóng gói AMD
 
+Nếu bạn dùng AMD, bạn sẽ muốn sử dụng một chương trình nạp AMD như `RequireJS` hay `Curl`. Một chương trình nạp module (khác với một chương trình đóng gói) nạp các module mà chương trình của bạn cần để chạy một cách động.
+
+Nhắc lại rằng, một trong những điểm khác biệt chính của AMD so với CommonJS là nó nạp các module một cách bất đồng bộ. Trong trường hợp này, với AMD, bạn không thực sự cần bước đóng gói các module của mình thành một file do bạn nạp các module một cách bất đồng bộ - nghĩa là bạn dần dần tải các file cần thiết để chạy chương trình thay vì tải toàn bộ các file cùng một lúc khi người dùng lần đầu tiên ghé thăm trang của bạn.
+
+Tuy nhiên trên thực tế, chi phí của những request khối lượng lớn theo thời gian với mỗi hành động của người dùng không có nhiều ý nghĩa ở production. Hầu hết các lập trình viên web vẫn sử dụng công cụ để đóng gói và làm nhỏ các module AMD của họ để tối ưu hiệu năng với các công cụ như chương trình tối ưu hóa RequireJS, `r.js`.
+
+Tóm lại, sự khác biệt giữa AMD và CommonJS khi đóng gói là: trong quá trình phát triển, các ứng dụng AMD có thể tránh được build step. Khi bạn cho code chạy thật, các công cụ tối ưu hóa như r.js có thể xử lý việc đó.
+
+### Webpack
+
+Các chương trình đóng gói đã đi một chặng đường dài, còn Webpack thì chỉ là lính mới. Nó được thiết kế để không phân biệt hệ thống module mà bạn sử dụng, cho phép lập trình viên dùng CommonJS, AMD hay ES6 theo nhu cầu.
+
+Bạn có thể tự hỏi rằng tại sao chúng ta cần Webpack khi mà đã có các chương trình đóng gói như Browserify và RequireJS làm được việc và làm rất tốt. Chà, Webpack cung cấp một số tính năng hữu ích như "phân tách code" - một cách chia code của bạn thành nhiều "mảnh" được tải theo nhu cầu.
+
+Ví dụ, nếu bạn có một ứng dụng web với nhiều khối code chỉ cần ở những hoàn cảnh nhất định, việc đưa toàn bộ code vào một file được đóng gói lớn sẽ trở nên không hiệu quả. Trong trường hợp này, bạn có thể sử dụng tính năng phân tách code để trích xuất code thành nhiều mảnh đóng gói được tải khi cần, tránh rắc rối với việc tải một lượng lớn code trong khi hầu hết người dùng chỉ cần phần lõi của ứng dụng.
+
+Việc chia tách code chỉ là một trong rất nhiều tính năng hấp dẫn mà Webpack cung cấp, và trên mạng có rất nhiều quan điểm mạnh mẽ về việc đánh giá xem Webpack hay Browserify tốt hơn. Dưới đây chỉ là một ít trong số những thảo luận ở trình độ cao mà tôi thấy hữu ích khi xem xét vấn đề này:
+
+    https://gist.github.com/substack/68f8d502be42d5cd4942
+    http://mattdesl.svbtle.com/browserify-vs-webpack
+    http://blog.namangoel.com/browserify-vs-webpack-js-drama
+
+
 
 
 -----
