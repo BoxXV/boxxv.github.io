@@ -33,7 +33,7 @@ Có một vài cách để đạt được mẫu module.
 - Object interface
 - Mẫu revealing module
 
-#### a. Closure vô danh
+#### 1a. Closure vô danh
 ```javascript
 (function () {
   // We keep these variables private inside this closure scope
@@ -65,7 +65,7 @@ Với cấu trúc này, hàm vô danh của chúng ta có không gian tính toá
 
 Chú ý rằng cặp ngoặc bao quanh hàm vô danh là bắt buộc, vì các lệnh bắt đầu với từ khóa function luôn được coi là khai báo hàm (nhớ rằng, bạn không thể khai báo một hàm không có tên trong Javascript). Do vậy, cặp ngoặc bao quanh tạo ra một biểu thức hàm thay vào đó. Nếu bạn tò mò, bạn có thể đọc thêm [ở đây](https://stackoverflow.com/questions/1634268/explain-the-encapsulated-anonymous-function-syntax).
 
-#### b. Import toàn cục
+#### 1b. Import toàn cục
 
 Một cách phổ biến khác được sử dụng bởi những thư viện như jQuery là import toàn cục. Cách này tương tự với closure vô danh như ta đã thấy, ngoại trừ việc chúng ta truyền biến toàn cục vào như một tham số:
 
@@ -86,7 +86,7 @@ Một cách phổ biến khác được sử dụng bởi những thư viện nh
 
 Trong ví dụ này, globalVariable là biến toàn cục duy nhất. Lợi ích của phương pháp này so với closure vô danh là bạn khai báo một biến toàn cục trước, giúp mọi người dễ đọc code của bạn hơn.
 
-#### c. Object interface
+#### 1c. Object interface
 
 ```javascript
 var myGradesCalculate = (function () {
@@ -122,6 +122,25 @@ myGradesCalculate.average(); // 'Your average grade is 70.33333333333333.'
 
 
 ### 2. CommonJS và AMD
+
+#### 2a. CommonJS
+CommonJS là một nhóm tiên phong thiết kế và triển khai Javascript API để khai báo module.
+
+Một module CommonJS có bản chất là một nhóm code Javascript có thể tái sử dụng mà chỉ xuất ra các object riêng biệt, khiến chúng sẵn có để các module khác require. Nếu bạn đã lập trình Node.js, bạn sẽ rất quen với định dạng này.
+
+Với CommonJS, mỗi file Javascript chứa các module trong module context độc nhất của chúng (giống như gói chúng trong một closure). Trong scope này, chúng ta sử dụng đối tượng module.exports để lộ ra các module, và require để import chúng.
+
+```javascript
+function myModule() {
+  this.hello = function() {
+    return <hello!<;
+  }
+}
+
+module.exports = myModule;
+```
+
+#### 2b. AMD
 
 ### 3. UMD
 
