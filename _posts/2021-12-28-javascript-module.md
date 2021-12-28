@@ -333,6 +333,45 @@ Dưới đây là một số tùy chọn cho việc build/chuyển đổi module
 2. Dùng Rollup.js, thứ rất tương đồng với tùy chọn #1 ở trên ngoại trừ việc Rollup mang theo sức mạnh của module ES6 trong việc phân tích tĩnh code ES6 và các phụ thuộc trước khi đóng gói. Nó sử dụng "tree shaking" để include lượng code ít nhất vào code đóng gói. Tóm lại, lợi ích chính của Rollup.js so với Browserify hay Webpack khi bạn dùng module ES6 là tree shaking sẽ giúp code đóng gói của bạn nhỏ hơn. Cảnh báo rằng Rollup cung cấp một vài định dạng để đóng gói code, bao gồm ES6, CommonJS, AMD, UMD hay IIFE. Code đóng gói dưới dạng IIFE và UMD có thể hoạt động trên trình duyệt, nhưng nếu bạn chọn đóng gói theo định dạng AMD, CommonJS hay ES6 thì bạn cần thêm một bước chuyển đổi code sang một định dạng mà trình duyệt có thể hiểu được (ví dụ như sử dụng Browserify, Webpack, RequireJS, v..v..).
 
 
+Câu hỏi là, khi nào thì module ES6 sẽ chạy được trên trình duyệt mà không cần đến những công việc biên dịch ở trên?
+
+Câu trả lời, may mắn thay, là "sẽ sớm thôi."
+
+Ngoài ra, bạn cũng có thể định nghĩa các module bằng cách chỉ định "type=module" trực tiếp vào thẻ script, như sau:
+
+```javascript
+<script type="module">
+  // loads the <myModule< export from <mymodule.js<
+  import { hello } from <mymodule<;
+  new Hello(); // <Hello, I am a module!<
+</script>
+```
+
+Hơn nữa, nếu bạn muốn kiểm thử phương pháp này, hãy xem [System.js](https://github.com/systemjs/systemjs), thứ được xây dựng dựa trên [bản triển khai ES6 Module Loader](https://github.com/ModuleLoader/es-module-loader). SystemJS nạp động bất cứ định dạng module nào (module ES6, AMD, CommonJS và/hoặc script toàn cục) trên trình duyệt và Node. Nó theo dõi tất cả các module được nạp bằng một "module registry" để tránh nạp lại các module đã được nạp trước đó. Chưa kể đến việc nó còn tự động dịch module ES6 (nếu bạn thiết lập tùy chọn) và có thể nạp bất cứ kiểu module nào khác! Rất tuyệt.
+
+**Tại sao chúng ta vẫn cần các chương trình đóng gói cho dù chúng ta đã có module ES6 tự nhiên rồi?**
+
+**Liệu HTTP/2 có khiến cho các chương trình đóng gói module trở nên lạc hậu?**
+
+Với HTTP/1, chúng ta chỉ cho phép một request trên một kết nối TCP. Đó là lý do tại sao tải nhiều tài nguyên cần đến nhiều request. Với HTTP/2, mọi thứ sẽ thay đổi. HTTP/2 hoàn toàn đa công, nghĩa là nhiều request và response có thể xảy ra song song. Kết quả là chúng ta có thể phục vụ nhiều request đồng thời trong cùng một kết nối.
+
+Do chi phí của một request HTTP thấp hơn nhiều so với HTTP/1, việc tải một nhóm các module sẽ không gây nên vấn đề hiệu năng lớn về lâu dài. Một số tranh luận cho rằng điều này khiến cho việc đóng gói các module sẽ trở nên không cần thiết nữa. Điều đó chắc chắn là có thể xảy ra, nhưng sẽ tùy vào hoàn cảnh.
+
+Ví dụ đóng gói module sẽ cung cấp những lợi ích mà HTTP/2 không có, như loại bỏ những export không dùng đến để tiết kiệm không gian lưu trữ. Nếu bạn xây dựng một website mà hiệu năng là một vấn đề cần xem xét kỹ, đóng gói sẽ giúp bạn gia tăng lợi thế về lâu dài. Tuy nhiên, nếu hiệu năng không phải vấn đề nghiêm trọng, bạn có thể tiết kiệm thời gian bằng cách bỏ qua build step.
+
+Tóm lại, vẫn còn khá lâu mới có việc đa số các website truyền tải code thông qua HTTP/2. Tôi thiên về dự đoán rằng build process sẽ vẫn còn tồn tại ít nhất trong thời gian gần.
+
+Tái bút: có nhiều thứ khác biệt giữa HTTP/1 với HTTP/2 nữa, và nếu bạn tò mò, đây là một tài nguyên tuyệt vời để bạn tìm hiểu.
+
+**Liệu CommonJS, AMD và UMD có lạc hậu?**
+
+Việc phát triển web có thể được hưởng lợi lớn từ việc tuân theo một chuẩn import và export module Javascript chung đã được chuẩn hóa, không có các bước trung gian. Tuy nhiên sẽ mất bao lâu để ES6 trở thành chuẩn module?
+
+Rất có thể là, một thời gian khá lâu
+
+Hơn nữa, có nhiều người thích được lựa chọn, vì vậy một "phương pháp đúng đắn" này có thể không thể trở thành hiện thực.
+
+
 -----
 Tham khảo:
 - [JavaScript Modules: A Beginner’s Guide](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/)
