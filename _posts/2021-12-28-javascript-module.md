@@ -275,9 +275,17 @@ counter.increment();
 console.log(counter.counter); // 2
 ```
 
+
+### Đóng gói module
+
+Nếu bạn tuân theo các hệ thống module không tự nhiên mà trình duyệt không thể thông dịch như CommonJS hay AMD (hay thậm chí là dạng module tự nhiên ES6), bạn sẽ cần đến một công cụ chuyên dùng để chuyển đổi các module của mình thành những đoạn code đúng thứ tự và hoạt động được với trình duyệt. Đó là lúc mà `Browserify`, `RequireJS`, `Webpack` và các "chương trình đóng gói module" hay "chương trình nạp module" được dùng đến.
+
+
+
 -----
 Tham khảo:
 - [JavaScript Modules: A Beginner’s Guide](https://www.freecodecamp.org/news/javascript-modules-a-beginner-s-guide-783f7d7a5fcc/)
+- [JavaScript Modules Part 2: Module Bundling](https://www.freecodecamp.org/news/javascript-modules-part-2-module-bundling-5020383cf306/)
 - [JavaScript modules](https://viblo.asia/p/javascript-modules-3P0lPEMn5ox)
 - [JS Modules - Bao nhiêu kiểu khai báo, làm sao nhớ hết?](https://viblo.asia/p/js-modules-bao-nhieu-kieu-khai-bao-lam-sao-nho-het-gGJ59AY15X2)
 - [Sử dụng RequireJS và AMD để module hóa code JavaScript](https://viblo.asia/p/su-dung-requirejs-va-amd-de-module-hoa-code-javascript-znVGLY6jvZOe)
