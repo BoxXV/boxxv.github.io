@@ -14,6 +14,8 @@ tags:
 - module
 ---
 
+![Module Javascript](https://boxxv.github.io/img/posts/module-loading.png "Module Javascript")
+
 Nếu bạn là người mới học Javascript, những từ như "`module bundlers` với `module loaders`", "`Webpack` với `Browserify`" và "`AMD` với `CommonJS`" có thể nhanh chóng trở nên choáng ngợp.
 
 Hệ thống module của Javascript có thể hơi đáng sợ, nhưng hiểu được nó là một điều quan trọng đối với lập trình viên web.
