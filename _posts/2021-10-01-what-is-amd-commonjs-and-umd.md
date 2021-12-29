@@ -21,6 +21,7 @@ Trong những năm qua, có một hệ sinh thái ngày càng tăng đều đặ
 
 Để giải quyết những vấn đề này, `AMD` và `CommonJS` có thông số kỹ thuật mô-đun cạnh tranh đã xuất hiện tại hiện trường, cho phép các nhà phát triển viết mã của họ theo cách mô-đun hóa và hộp cát đã thỏa thuận, để không “gây ô nhiễm hệ sinh thái”.
 
+![The Evolution of JavaScript Module Patterns](https://boxxv.github.io/img/posts/ofzbu8co8mmkavurt2il.jpg "The Evolution of JavaScript Module Patterns")
 
 ## IIFE (Immediately-Invoked Function Expression)
 
