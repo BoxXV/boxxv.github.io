@@ -95,6 +95,9 @@ require(['module'], function( module ) {
 
 
 ## CommonJS
+
+Mẫu này phát triển từ mẫu AMD dựa trên trình duyệt để sử dụng trong Node.js ở phía máy chủ. Nó sử dụng `module.exports` để xác định các mô-đun và `require('...')` bao gồm chúng như một phần phụ thuộc.
+
 CommonJS là một phong cách bạn có thể quen thuộc nếu bạn viết bất cứ điều gì bằng Node (sử dụng một biến thể nhỏ). Nó cũng đang đạt được sức hút trên giao diện người dùng với Browserify.
 
 Sử dụng định dạng tương tự như trước đây, đây là foomô-đun của chúng tôi trông như thế nào trong CommonJS:
@@ -129,6 +132,13 @@ module.exports = {
 	b: b,
 	c: c,
 };
+{% endhighlight %}
+
+Sử dụng phụ thuộc
+
+{% highlight js %}
+const module = require('./module');
+module.log();
 {% endhighlight %}
 
 
