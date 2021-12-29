@@ -22,6 +22,26 @@ Trong những năm qua, có một hệ sinh thái ngày càng tăng đều đặ
 Để giải quyết những vấn đề này, `AMD` và `CommonJS` có thông số kỹ thuật mô-đun cạnh tranh đã xuất hiện tại hiện trường, cho phép các nhà phát triển viết mã của họ theo cách mô-đun hóa và hộp cát đã thỏa thuận, để không “gây ô nhiễm hệ sinh thái”.
 
 
+## IIFE (Immediately-Invoked Function Expression)
+
+Tất cả bắt đầu ở đây, đây là dạng mô-đun lâu đời nhất trong JavaScript.
+
+Biểu thức hàm được gọi ngay lập tức (IIFE) là một hàm ẩn danh được gọi khi nó được khai báo. Nó không thực sự là một mẫu mô-đun, nó là một mẫu bao bọc giúp đóng gói mã và giữ nó cách ly với các phần khác của ứng dụng.
+
+TẠO MODULE
+{% highlight js %}
+// Module
+(function(){
+    console.info( 'Hi my name is Kevin.' );
+})()
+{% endhighlight %}
+
+SỬ DỤNG PHỤ THUỘC
+Bao gồm “mô-đun” IIFE trong tài liệu HTML của bạn dưới dạng <script>. Đây là mẫu cũ hơn nhưng vẫn được sử dụng cho đến ngày nay.
+
+
+
+
 ## AMD
 
 `Asynchronous Module Definition` (AMD) Định nghĩa mô-đun không đồng bộ đã đạt được sức hút trên giao diện người dùng, với RequestJS là cách triển khai phổ biến nhất.
