@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AMD, CommonJS và UMD là gì? 
-subtitle: What is AMD, CommonJS, and UMD?
+subtitle: Sự phát triển của các mẫu mô-đun JavaScript
 image: "img/js.jpg"
 tags:
 - AMD
@@ -13,8 +13,7 @@ tags:
 - module
 ---
 
-> ⚠️ Cảnh báo: đây là bài viết cũ, có thể bao gồm thông tin đã lỗi thời. ⚠️
-
+![The Evolution of JavaScript Module Patterns](https://boxxv.github.io/img/posts/javascript-module-patterns.png "The Evolution of JavaScript Module Patterns")
 
 ## Giới thiệu
 
