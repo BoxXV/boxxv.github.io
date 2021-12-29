@@ -28,7 +28,7 @@ Tất cả bắt đầu ở đây, đây là dạng mô-đun lâu đời nhất 
 
 Biểu thức hàm được gọi ngay lập tức (IIFE) là một hàm ẩn danh được gọi khi nó được khai báo. Nó không thực sự là một mẫu mô-đun, nó là một mẫu bao bọc giúp đóng gói mã và giữ nó cách ly với các phần khác của ứng dụng.
 
-TẠO MODULE
+#### TẠO MODULE
 {% highlight js %}
 // Module
 (function(){
@@ -36,7 +36,7 @@ TẠO MODULE
 })()
 {% endhighlight %}
 
-SỬ DỤNG PHỤ THUỘC  
+#### SỬ DỤNG PHỤ THUỘC  
 Bao gồm “mô-đun” IIFE trong tài liệu HTML của bạn dưới dạng <script>. Đây là mẫu cũ hơn nhưng vẫn được sử dụng cho đến ngày nay.
 
 {% highlight html %}
@@ -86,7 +86,7 @@ Cũng lưu ý rằng chúng ta có thể ánh xạ các phụ thuộc vào bất
 
 Và lưu ý, quan trọng nhất, bạn không thể tham chiếu các biến `$` và `_` bên ngoài hàm, vì nó được đóng hộp cát từ mã khác. Đó là mục tiêu ở đây!
 
-Sử dụng phụ thuộc
+#### Sử dụng phụ thuộc
 {% highlight js %}
 require(['module'], function( module ) {
 	module.log();
@@ -134,7 +134,7 @@ module.exports = {
 };
 {% endhighlight %}
 
-Sử dụng phụ thuộc
+#### Sử dụng phụ thuộc
 
 {% highlight js %}
 const module = require('./module');
@@ -196,7 +196,44 @@ Và giữ nguyên mẫu như các ví dụ trên, trường hợp phức tạp h
 });
 {% endhighlight %}
 
+#### Sử dụng phụ thuộc  
+Có 3 cách để làm việc với mô-đun UMD:
 
+{% highlight js %}
+// AMD
+require(['module'], function( module ) {
+  module.log();
+});
+
+// CommonJS
+const module = require('./module');
+module.log();
+
+// Browser globals
+const module = window.module;
+module.log();
+{% endhighlight %}
+
+
+## SystemJS & ES6 module’s
+
+Giai đoạn tiếp theo trong quá trình phát triển và mẫu mô-đun trường hợp hiện đại nhất và tốt nhất để sử dụng ngày nay, tính đến năm 2020, được gọi là Hệ thống, System.registerhoặc đơn giản là mô-đun ES6. Điều này làm cho việc sử dụng cú pháp import ... from './module'. Nó được thiết kế để hỗ trợ cú pháp mô-đun ES6 trong môi trường JavaScript ES5. Cú pháp về cơ bản giống với cú pháp của mô-đun ES6, vì vậy tôi đã gộp các ví dụ này lại với nhau ở đây để đơn giản hóa. Mẫu này thường được sử dụng làm tiêu chuẩn vàng trong một ứng dụng được xây dựng bằng TypeScript.
+
+#### Tạo mô-đun
+{% highlight js %}
+// Module
+export default {
+	log: function() {
+		return console.log( 'Hi my name is Kevin.' );
+	}
+}
+{% endhighlight %}
+
+#### Sử dụng phụ thuộc
+{% highlight js %}
+import { log } from "./module";
+log();
+{% endhighlight %}
 
 
 -----
