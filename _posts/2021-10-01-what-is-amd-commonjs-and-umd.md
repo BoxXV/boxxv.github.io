@@ -36,7 +36,7 @@ TẠO MODULE
 })()
 {% endhighlight %}
 
-SỬ DỤNG PHỤ THUỘC
+SỬ DỤNG PHỤ THUỘC  
 Bao gồm “mô-đun” IIFE trong tài liệu HTML của bạn dưới dạng <script>. Đây là mẫu cũ hơn nhưng vẫn được sử dụng cho đến ngày nay.
 
 {% highlight html %}
@@ -85,6 +85,13 @@ Lưu ý rằng sự phụ thuộc vào thứ tự biến là quan trọng (ví d
 Cũng lưu ý rằng chúng ta có thể ánh xạ các phụ thuộc vào bất kỳ biến tùy ý nào mà chúng ta muốn ở đây. Nếu chúng tôi thay đổi $ thành $$ trong đoạn mã trên, tất cả các tham chiếu jQuery trong khối chức năng của chúng tôi sẽ $$ thay vì $.
 
 Và lưu ý, quan trọng nhất, bạn không thể tham chiếu các biến `$` và `_` bên ngoài hàm, vì nó được đóng hộp cát từ mã khác. Đó là mục tiêu ở đây!
+
+Sử dụng phụ thuộc
+{% highlight js %}
+require(['module'], function( module ) {
+	module.log();
+});
+{% endhighlight %}
 
 
 ## CommonJS
