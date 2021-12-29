@@ -39,8 +39,9 @@ TẠO MODULE
 SỬ DỤNG PHỤ THUỘC
 Bao gồm “mô-đun” IIFE trong tài liệu HTML của bạn dưới dạng <script>. Đây là mẫu cũ hơn nhưng vẫn được sử dụng cho đến ngày nay.
 
-
-
+{% highlight html %}
+<script src="module.js"></script>
+{% endhighlight %}
 
 ## AMD
 
@@ -185,6 +186,7 @@ Và giữ nguyên mẫu như các ví dụ trên, trường hợp phức tạp h
 Tham khảo:
 - [What is AMD, CommonJS, and UMD?](https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
 - [What are CJS, AMD, UMD, and ESM in Javascript?](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)
+- [The Evolution of JavaScript Module Patterns](https://www.kevinleary.net/javascript-module-patterns-evolution/)
 - [Cách viết JavaScript hiện đại: Phần 2: CommonJS module](https://viblo.asia/p/cach-viet-javascript-hien-dai-phan-2-commonjs-module-5WQvzgeXRk3E)
 - [JavaScript modules](https://viblo.asia/p/javascript-modules-3P0lPEMn5ox)
 - [Sử dụng RequireJS và AMD để module hóa code JavaScript](https://viblo.asia/p/su-dung-requirejs-va-amd-de-module-hoa-code-javascript-znVGLY6jvZOe)
