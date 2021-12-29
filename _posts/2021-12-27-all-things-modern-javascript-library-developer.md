@@ -12,6 +12,8 @@ tags:
 - tutorial
 ---
 
+![Module Javascript](https://boxxv.github.io/img/posts/module-loading.png "Module Javascript")
+
 ### [Package Managers](#i-package-managers)
 - [npm](#1-npm)
 - [yarn](#2-yarn)
