@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AMD, CommonJS và UMD là gì? 
+title: IIFEs, AMD, CommonJS và UMD là gì? 
 subtitle: Sự phát triển của các mẫu mô-đun JavaScript
 image: "img/js.jpg"
 tags:
