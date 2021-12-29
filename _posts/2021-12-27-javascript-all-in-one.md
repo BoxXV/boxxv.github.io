@@ -14,6 +14,8 @@ tags:
 - module
 ---
 
+![Module Javascript](https://boxxv.github.io/img/posts/module-loading.png "Module Javascript")
+
 ### A. Module hóa JavaScript
 
 Mặc dù JavaScript không hỗ trợ các module, nhưng cộng đồng các developer đã cố gắng tìm ra cách để làm việc này. Sau một thời gian phát triển, thì hiện nay có một số phương thức module hóa như sau:
