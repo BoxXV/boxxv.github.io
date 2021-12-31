@@ -382,7 +382,7 @@ Cuối cùng, thư viện của chúng tôi sẽ hoạt động tốt thông qua
 
 Vậy là xong, hy vọng bạn sẽ thích và thấy bài viết này hữu ích.
 
-Mã nguồn: https://github.com/jeantimex/calculator
+Mã nguồn: [https://github.com/jeantimex/calculator](https://github.com/jeantimex/calculator)
 
 -----
 Tham khảo:
