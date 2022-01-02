@@ -244,6 +244,9 @@ const module = window.module;
 module.log();
 {% endhighlight %}
 
+- Hoạt động ở front và  back end (do đó có tên _universal_).
+- Không giống như CJS hoặc AMD, UMD giống như một mẫu để cấu hình một số hệ thống mô-đun. Kiểm tra ở [đây](https://github.com/umdjs/umd/) để biết thêm các mẫu.
+- UMD thường được sử dụng như một mô-đun dự phòng khi sử dụng trình gói như Rollup / Webpack
 
 ## SystemJS & ES6 module’s
 
