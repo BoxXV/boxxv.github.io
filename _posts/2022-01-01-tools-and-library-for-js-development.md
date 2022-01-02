@@ -45,8 +45,8 @@ Theo thời gian, tôi đã nhận thấy ba vấn đề cốt lõi với nhữn
 - Gỡ lỗi khó chịu
 - Tài liệu rời rạc
 
-Gulp có ~ 2.100 plugin.
-Grunt có ~ 5.400.
+Gulp có ~ 2.100 plugin.  
+Grunt có ~ 5.400.  
 npm cung cấp hơn 227.000 gói, tăng với tốc độ hơn 400 hàng ngày.
 
 
