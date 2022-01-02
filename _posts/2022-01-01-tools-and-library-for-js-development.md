@@ -13,6 +13,7 @@ Khi chúng tôi bắt đầu phát triển, chúng tôi có rất nhiều câu h
 
 Hãy nói về các phương pháp hay nhất và thiết lập để thiết lập phát triển nhanh cho các nhà phát triển.
 
+
 ### JavaScript Editor
 
 ![JavaScript Editor](https://boxxv.github.io/img/posts/large.jpg "JavaScript IDE")
@@ -25,6 +26,7 @@ Biên tập viên JavaScript: Tìm kiếm gì. Hỗ trợ ES2015 + mạnh mẽ
 - Báo cáo hàng nhập chưa sử dụng
 - Tự động tái cấu trúc / Tự động nhất quán thông qua Editorconfig Framework thông minh Tích hợp trong thiết bị đầu cuối
 
+
 ### Package Managers
 
 ![Package Managers](https://boxxv.github.io/img/posts/npmvsyarn.png "Package Managers")
@@ -33,13 +35,27 @@ Yarn, tuyên bố rằng npm tốt nhất tại Quản lý phụ thuộc. Yarn c
 
 Theo thông báo của Facebook, nhu cầu ngay lập tức đối với Yarn là sự phụ thuộc của npm vào việc có kết nối internet đang hoạt động, điều này đã phá vỡ Tích hợp liên tục trên môi trường Sandbox ngoại tuyến của họ, tức là cài đặt npm không hoạt động nếu Môi trường của bạn ngoại tuyến.
 
+
 ### Tự động hóa Workflow & tasks
 
 ![Automation of Workflow & tasks](https://boxxv.github.io/img/posts/1 3cPPzqyp-g_JeMsFJQS8dA.png "Automation of Workflow & tasks")
 
+Theo thời gian, tôi đã nhận thấy ba vấn đề cốt lõi với những người chạy nhiệm vụ như Gulp và Grunt:
+- Sự phụ thuộc vào tác giả plugin
+- Gỡ lỗi khó chịu
+- Tài liệu rời rạc
 
+Gulp có ~ 2.100 plugin.
+Grunt có ~ 5.400.
+npm cung cấp hơn 227.000 gói, tăng với tốc độ hơn 400 hàng ngày.
+
+
+### Transpilers
 
 -----
 Tham khảo:
 - [Tools and Library required for Fullstack](https://tkssharma.com/tools-and-library-for-js-development/)
 - [Choosing the Best JavaScript Editor From 7 Options](https://www.testim.io/blog/best-javascript-editor-6-options/)
+- [Best JavaScript IDE & Source Code Editors to Use](https://hackr.io/blog/best-javascript-ide-source-code-editors)
+- [Why I Left Gulp and Grunt for npm Scripts](https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/)
+
