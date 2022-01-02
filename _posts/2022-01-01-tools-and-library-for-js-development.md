@@ -52,6 +52,19 @@ npm cung cấp hơn 227.000 gói, tăng với tốc độ hơn 400 hàng ngày.
 
 ### Transpilers
 
+![Transpilers](https://boxxv.github.io/img/posts/1 oxn0OoAavba8pyykZTbYCg.png "Transpilers")
+
+Transpilers , hoặc trình biên dịch từ source-to-source, là công cụ đọc mã nguồn được viết bằng một ngôn ngữ lập trình và tạo ra mã tương đương bằng một ngôn ngữ khác. Các ngôn ngữ bạn viết chuyển tiếp sang JavaScript thường được gọi là ngôn ngữ compile-to-JS và được cho là nhắm mục tiêu JavaScript.
+
+`Babel` có khả năng sắp xếp các đầu ra dài dòng ở dạng con người có thể đọc được, do đó, việc gỡ lỗi mã của bạn trở nên dễ dàng hơn. Công cụ này cũng có rất nhiều plugin có sẵn cho nó. Một số plugin quan trọng mà bạn có thể thấy mình đang sử dụng là: ES2015, ES2016, ES2017 và React. Babel cũng có một bộ plugin được gọi là “mới nhất” được cập nhật thường xuyên với tất cả các công cụ có thể có mà một người có thể cần để cập nhật những cải tiến mới nhất trong JS.
+
+Tự động hoàn thành nâng cao `TypeScript`, Khả năng đọc nâng cao, Tái cấu trúc an toàn hơn Các tính năng không chuẩn khác Babel Viết JS chuẩn hóa Đòn bẩy Hệ sinh thái JS đầy đủ Sử dụng các tính năng thử nghiệm trước đó Không có định dạng loại, chú thích cần nhập ES6 là Kiểm tra có thể phân tích tĩnh, Lint, Babel, Great libs, IDE = an toàn
+
+
+### Bundler
+
+
+
 -----
 Tham khảo:
 - [Tools and Library required for Fullstack](https://tkssharma.com/tools-and-library-for-js-development/)
