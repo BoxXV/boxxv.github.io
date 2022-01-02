@@ -52,6 +52,8 @@ Mọi người trong chúng ta đều đã có những câu hỏi như thế nà
 
 Tôi sẽ cố gắng giải quyết tất cả các câu hỏi trên ngay bây giờ.
 
+![Module Javascript](https://boxxv.github.io/img/posts/module-loading.png "Module Javascript")
+
 ## Các loại hệ thống mô-đun JS khác nhau?
 
 ### 1. CommonJS
