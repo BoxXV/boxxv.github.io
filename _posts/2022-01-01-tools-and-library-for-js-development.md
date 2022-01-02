@@ -14,7 +14,7 @@ Khi chúng tôi bắt đầu phát triển, chúng tôi có rất nhiều câu h
 Hãy nói về các phương pháp hay nhất và thiết lập để thiết lập phát triển nhanh cho các nhà phát triển.
 
 
-### JavaScript Editor
+## JavaScript Editor
 
 ![JavaScript Editor](https://boxxv.github.io/img/posts/large.jpg "JavaScript IDE")
 
@@ -27,7 +27,7 @@ Biên tập viên JavaScript: Tìm kiếm gì. Hỗ trợ ES2015 + mạnh mẽ
 - Tự động tái cấu trúc / Tự động nhất quán thông qua Editorconfig Framework thông minh Tích hợp trong thiết bị đầu cuối
 
 
-### Package Managers
+## Package Managers
 
 ![Package Managers](https://boxxv.github.io/img/posts/npmvsyarn.png "Package Managers")
 
@@ -36,7 +36,7 @@ Yarn, tuyên bố rằng npm tốt nhất tại Quản lý phụ thuộc. Yarn c
 Theo thông báo của Facebook, nhu cầu ngay lập tức đối với Yarn là sự phụ thuộc của npm vào việc có kết nối internet đang hoạt động, điều này đã phá vỡ Tích hợp liên tục trên môi trường Sandbox ngoại tuyến của họ, tức là cài đặt npm không hoạt động nếu Môi trường của bạn ngoại tuyến.
 
 
-### Tự động hóa Workflow & tasks
+## Tự động hóa Workflow & tasks
 
 ![Automation of Workflow & tasks](https://boxxv.github.io/img/posts/1 3cPPzqyp-g_JeMsFJQS8dA.png "Automation of Workflow & tasks")
 
@@ -50,7 +50,7 @@ Grunt có ~ 5.400.
 npm cung cấp hơn 227.000 gói, tăng với tốc độ hơn 400 hàng ngày.
 
 
-### Transpilers
+## Transpilers
 
 ![Transpilers](https://boxxv.github.io/img/posts/1 oxn0OoAavba8pyykZTbYCg.png "Transpilers")
 
@@ -61,7 +61,7 @@ Transpilers , hoặc trình biên dịch từ source-to-source, là công cụ �
 Tự động hoàn thành nâng cao `TypeScript`, Khả năng đọc nâng cao, Tái cấu trúc an toàn hơn Các tính năng không chuẩn khác Babel Viết JS chuẩn hóa Đòn bẩy Hệ sinh thái JS đầy đủ Sử dụng các tính năng thử nghiệm trước đó Không có định dạng loại, chú thích cần nhập ES6 là Kiểm tra có thể phân tích tĩnh, Lint, Babel, Great libs, IDE = an toàn
 
 
-### Bundler
+## Bundler
 
 ![Bundler](https://boxxv.github.io/img/posts/1 GMJ6QEWQWSaaIgS528GT9A.png "Bundler")
 
@@ -78,6 +78,9 @@ Một số định dạng được điều chỉnh rộng rãi và nổi tiếng
 
 ![Module loaders](https://boxxv.github.io/img/posts/1 pub7A-2Q39L7A04JAiQjlQ.png "Module loaders")
 
+Một vài ví dụ về các bộ tải mô-đun phổ biến là:
+- `RequestJS`: bộ tải cho các mô-đun ở định dạng `AMD`
+- `SystemJS`: trình tải cho các mô-đun ở định dạng `AMD`, `CommonJS`, `UMD` hoặc `System.register`
 
 
 -----
