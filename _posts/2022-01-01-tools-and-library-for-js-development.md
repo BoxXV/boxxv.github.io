@@ -81,6 +81,16 @@ Một số định dạng được điều chỉnh rộng rãi và nổi tiếng
 Một vài ví dụ về các bộ tải mô-đun phổ biến là:
 - `RequestJS`: bộ tải cho các mô-đun ở định dạng `AMD`
 - `SystemJS`: trình tải cho các mô-đun ở định dạng `AMD`, `CommonJS`, `UMD` hoặc `System.register`
+- Webpack
+- Browserify
+- Rollup
+- JSPM
+
+### Eslint & Prettier
+
+Bạn có thể cài đặt các tiện ích mở rộng trong IDE hoặc trình soạn thảo mã yêu thích của mình để đánh dấu lỗi eslint và tự động định dạng mã cho phù hợp với các quy tắc bạn đặt.
+- [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 
 -----
@@ -89,4 +99,4 @@ Tham khảo:
 - [Choosing the Best JavaScript Editor From 7 Options](https://www.testim.io/blog/best-javascript-editor-6-options/)
 - [Best JavaScript IDE & Source Code Editors to Use](https://hackr.io/blog/best-javascript-ide-source-code-editors)
 - [Why I Left Gulp and Grunt for npm Scripts](https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/)
-
+- [List of languages that compile to JS](https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js)
