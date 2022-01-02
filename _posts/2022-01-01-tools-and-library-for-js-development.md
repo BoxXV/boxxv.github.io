@@ -24,6 +24,8 @@ Biên tập viên JavaScript: Tìm kiếm gì. Hỗ trợ ES2015 + mạnh mẽ
 
 ### Package Managers
 
+![Package Managers](https://boxxv.github.io/img/posts/npmvsyarn.png "Package Managers")
+
 Yarn, tuyên bố rằng npm tốt nhất tại Quản lý phụ thuộc. Yarn cực kỳ đơn giản để cài đặt và sử dụng. Nó cài đặt hơn npm và thay thế npm trong thiết bị đầu cuối của bạn. Bạn có thể cài đặt nó bằng Bash hoặc npm hoặc bất kỳ phương pháp nào khác được liệt kê ở [đây](https://classic.yarnpkg.com/en/docs/install#windows-stable).
 
 Theo thông báo của Facebook, nhu cầu ngay lập tức đối với Yarn là sự phụ thuộc của npm vào việc có kết nối internet đang hoạt động, điều này đã phá vỡ Tích hợp liên tục trên môi trường Sandbox ngoại tuyến của họ, tức là cài đặt npm không hoạt động nếu Môi trường của bạn ngoại tuyến.
