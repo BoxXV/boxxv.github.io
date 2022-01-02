@@ -274,6 +274,13 @@ log();
 - Có thể [Tree-shakeable](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/), do cấu trúc mô-đun tĩnh của ES6
 - ESM cho phép các nhà cung cấp dịch vụ gói như Rollup [loại bỏ mã không cần thiết](https://dev.to/bennypowers/you-should-be-using-esm-kn3), cho phép các trang web gửi ít mã hơn để tải nhanh hơn.
 
+## Bản tóm tắt
+- `ESM` là định dạng mô-đun tốt nhất nhờ vào cú pháp đơn giản, tính chất không đồng bộ và khả năng chuyển động của cây.
+- `UMD` hoạt động ở mọi nơi và thường được sử dụng như một dự phòng trong trường hợp ESM không hoạt động
+- `CJS` là đồng bộ và tốt cho back end.
+- `AMD` không đồng bộ và tốt cho giao diện người dùng.
+
+
 -----
 Tham khảo:
 - [What is AMD, CommonJS, and UMD?](https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
