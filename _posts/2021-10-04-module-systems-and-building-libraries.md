@@ -74,7 +74,7 @@ Tôi sẽ cố gắng giải quyết tất cả các câu hỏi trên ngay bây 
 
 - Được thực hiện bởi **RequestJs**
 - Được sử dụng cho **phía máy khách (trình duyệt)** khi bạn muốn tải động các mô-đun
-- Nhập qua "yêu cầu"
+- Nhập qua "**require**"
 - Cú pháp phức tạp
 
 ### 3. UMD: Universal Module Definition
@@ -320,4 +320,5 @@ P.S. Nếu bạn thích điều này, hãy chắc chắn giới thiệu (bằng 
 
 -----
 Tham khảo:
+- [Learn the basics of the JavaScript module system and build your own library](https://www.freecodecamp.org/news/anatomy-of-js-module-systems-and-building-libraries-fadcd8dbd0e/)
 - [How to Create a JavaScript Library. 7 Tips to Create a Library That Every Developer Loves Using](https://bugfender.com/blog/how-to-create-a-javascript-library/)
