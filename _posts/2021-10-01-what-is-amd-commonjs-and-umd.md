@@ -125,7 +125,7 @@ Sử dụng định dạng tương tự như trước đây, đây là foomô-đ
 {% highlight js %}
 // filename: foo.js
 
-// dependencies
+// dependencies - importing
 var $ = require("jquery");
 
 // methods
@@ -153,6 +153,12 @@ module.exports = {
 	c: c,
 };
 {% endhighlight %}
+
+- Một số bạn có thể nhận ra ngay cú pháp CJS từ node. Đó là bởi vì node sử dụng [định dạng mô-đun CJS](https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/).
+- CJS imports đồng bộ mô-đun.
+- Bạn có thể import từ thư viện `node_modules` hoặc dir địa phương. Hoặc bởi `const myLocalModule = require('./some/local/file.js')` hoặc `var React = require('react');` đều hoạt động.
+- Khi CJS import, nó sẽ cung cấp cho bạn một bản sao của đối tượng được import.
+- CJS sẽ không hoạt động trong trình duyệt. Nó sẽ phải được chuyển đổi và đóng gói.
 
 #### Sử dụng phụ thuộc
 
