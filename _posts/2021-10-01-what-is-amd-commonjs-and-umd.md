@@ -112,6 +112,10 @@ require(['module'], function( module ) {
 });
 {% endhighlight %}
 
+- AMD imports các mô-đun không đồng bộ (do đó có tên).
+- AMD được tạo ra cho front end  (khi nó được đề xuất) (trong khi CJS là back end).
+- Cú pháp của AMD kém trực quan hơn CJS. Tôi nghĩ về AMD như người anh em đối lập hoàn toàn với CJS.
+
 
 ## CommonJS
 CJS là viết tắt của CommonJS
@@ -154,18 +158,18 @@ module.exports = {
 };
 {% endhighlight %}
 
-- Một số bạn có thể nhận ra ngay cú pháp CJS từ node. Đó là bởi vì node sử dụng [định dạng mô-đun CJS](https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/).
-- CJS imports đồng bộ mô-đun.
-- Bạn có thể import từ thư viện `node_modules` hoặc dir địa phương. Hoặc bởi `const myLocalModule = require('./some/local/file.js')` hoặc `var React = require('react');` đều hoạt động.
-- Khi CJS import, nó sẽ cung cấp cho bạn một bản sao của đối tượng được import.
-- CJS sẽ không hoạt động trong trình duyệt. Nó sẽ phải được chuyển đổi và đóng gói.
-
 #### Sử dụng phụ thuộc
 
 {% highlight js %}
 const module = require('./module');
 module.log();
 {% endhighlight %}
+
+- Một số bạn có thể nhận ra ngay cú pháp CJS từ node. Đó là bởi vì node sử dụng [định dạng mô-đun CJS](https://blog.risingstack.com/node-js-at-scale-module-system-commonjs-require/).
+- CJS imports đồng bộ mô-đun.
+- Bạn có thể import từ thư viện `node_modules` hoặc dir địa phương. Hoặc bởi `const myLocalModule = require('./some/local/file.js')` hoặc `var React = require('react');` đều hoạt động.
+- Khi CJS import, nó sẽ cung cấp cho bạn một bản sao của đối tượng được import.
+- CJS sẽ không hoạt động trong trình duyệt. Nó sẽ phải được chuyển đổi và đóng gói.
 
 
 ## UMD: Universal Module Definition
