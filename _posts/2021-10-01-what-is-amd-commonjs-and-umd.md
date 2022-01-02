@@ -269,6 +269,11 @@ log();
 {% endhighlight %}
 
 
+- Hoạt động trên nhiều [trình duyệt hiện đại](https://jakearchibald.com/2017/es-modules-in-browsers/)
+- Nó có tính năng tốt nhất của cả hai thế giới: cú pháp đơn giản giống CJS và không đồng bộ của AMD
+- Có thể [Tree-shakeable](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking/), do cấu trúc mô-đun tĩnh của ES6
+- ESM cho phép các nhà cung cấp dịch vụ gói như Rollup [loại bỏ mã không cần thiết](https://dev.to/bennypowers/you-should-be-using-esm-kn3), cho phép các trang web gửi ít mã hơn để tải nhanh hơn.
+
 -----
 Tham khảo:
 - [What is AMD, CommonJS, and UMD?](https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
