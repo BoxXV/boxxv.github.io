@@ -4,9 +4,12 @@ title: IIFEs, AMD, CommonJS và UMD là gì?
 subtitle: Sự phát triển của các mẫu mô-đun JavaScript
 image: "img/js.jpg"
 tags:
+- IIFE
 - AMD
+- CJS
 - CommonJS
 - UMD
+- ESM
 - npm
 - JavaScript
 - library
@@ -16,6 +19,10 @@ tags:
 ![The Evolution of JavaScript Module Patterns](https://boxxv.github.io/img/posts/javascript-module-patterns.png "The Evolution of JavaScript Module Patterns")
 
 ## Giới thiệu
+
+Ban đầu, Javascript không có cách nào để nhập / xuất mô-đun. Đây là một vấn đề. Hãy tưởng tượng việc viết ứng dụng của bạn chỉ trong một tệp - điều đó sẽ thật là ác mộng!
+
+Sau đó, những người thông minh hơn tôi rất nhiều đã cố gắng thêm mô-đun vào Javascript. Một số trong số đó là IIFE, CJS, AMD, UMD và ESM . Bạn có thể đã nghe một số trong số chúng (có những phương pháp khác, nhưng đây là những người chơi lớn).
 
 Trong những năm qua, có một hệ sinh thái ngày càng tăng đều đặn của các thành phần JavaScript để bạn lựa chọn. Số lượng sự lựa chọn tuyệt đối là tuyệt vời, nhưng điều này cũng gây khó khăn khi các thành phần được trộn và kết hợp với nhau. Và không mất quá nhiều thời gian để các nhà phát triển chớm nở phát hiện ra rằng không phải tất cả các thành phần đều được xây dựng để chơi tốt với nhau.
 
@@ -107,6 +114,7 @@ require(['module'], function( module ) {
 
 
 ## CommonJS
+CJS là viết tắt của CommonJS
 
 Mẫu này phát triển từ mẫu AMD dựa trên trình duyệt để sử dụng trong Node.js ở phía máy chủ. Nó sử dụng `module.exports` để xác định các mô-đun và `require('...')` bao gồm chúng như một phần phụ thuộc.
 
