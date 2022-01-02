@@ -65,6 +65,19 @@ Tự động hoàn thành nâng cao `TypeScript`, Khả năng đọc nâng cao, 
 
 ![Bundler](https://boxxv.github.io/img/posts/1 GMJ6QEWQWSaaIgS528GT9A.png "Bundler")
 
+#### Module patterns
+Một số định dạng được điều chỉnh rộng rãi và nổi tiếng là:
+- Biểu thức hàm được gọi ngay lập tức (IIFE)
+- Định nghĩa mô-đun không đồng bộ (AMD)
+- CommonJS
+- Định nghĩa mô-đun chung (UMD)
+- System.register
+- Định dạng mô-đun ES6
+
+#### Module loaders
+
+![Module loaders](https://boxxv.github.io/img/posts/1 pub7A-2Q39L7A04JAiQjlQ.png "Module loaders")
+
 
 
 -----
