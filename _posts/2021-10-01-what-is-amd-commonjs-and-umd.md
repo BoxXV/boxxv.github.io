@@ -23,6 +23,17 @@ Trong những năm qua, có một hệ sinh thái ngày càng tăng đều đặ
 
 ![The Evolution of JavaScript Module Patterns](https://boxxv.github.io/img/posts/ofzbu8co8mmkavurt2il.jpg "The Evolution of JavaScript Module Patterns")
 
+{% highlight js %}
+// CommonJS
+const myPackage = require('my-package');
+
+// UMD
+document.write('<script src="//unpkg.com/my-package"></script>');
+
+// ES Modules
+import myPackage from 'my-package';
+{% endhighlight %}
+
 ## IIFE (Immediately-Invoked Function Expression)
 
 Tất cả bắt đầu ở đây, đây là dạng mô-đun lâu đời nhất trong JavaScript.
