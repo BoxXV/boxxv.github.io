@@ -14,6 +14,9 @@ Khi chúng tôi bắt đầu phát triển, chúng tôi có rất nhiều câu h
 Hãy nói về các phương pháp hay nhất và thiết lập để thiết lập phát triển nhanh cho các nhà phát triển.
 
 ### JavaScript Editor
+
+![JavaScript Editor](https://boxxv.github.io/img/posts/large.jpg "JavaScript IDE")
+
 Atom, Visual Studio Code, Eclipse, Sublime Text, Brackets, NetBeans, Vim, Webstorm .v.v.
 
 Biên tập viên JavaScript: Tìm kiếm gì. Hỗ trợ ES2015 + mạnh mẽ
