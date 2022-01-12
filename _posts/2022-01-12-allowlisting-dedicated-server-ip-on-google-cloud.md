@@ -20,7 +20,6 @@ Bài viết này mô tả quy trình bạn sẽ cần làm theo để cho phép 
 ![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/01 Dedicated server IP on Google.png "Dedicated server IP on Google")
 
 `3.` Chọn `Create Firewall Rule` và điền vào các thông tin sau:
-![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/02 Dedicated server IP on Google.png "Dedicated server IP on Google")
 
 **Name**: Chọn một tên mà bạn lựa chọn
 **Description**: Để cho các quản trị viên khác biết quy tắc này dùng để làm gì (tùy chọn)
@@ -28,6 +27,8 @@ Bài viết này mô tả quy trình bạn sẽ cần làm theo để cho phép 
 **Network**: Chọn mạng có chứa các tài nguyên mà bạn muốn cho phép danh sách
 **Priority**: Sự ưu tiên thì để giá trị mặc định
 
+![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/02 Dedicated server IP on Google.png "Dedicated server IP on Google")
+![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/03 Dedicated server IP on Google.png "Dedicated server IP on Google")
 
 
 
