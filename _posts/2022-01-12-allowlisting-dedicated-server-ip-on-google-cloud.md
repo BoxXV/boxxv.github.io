@@ -25,13 +25,13 @@ Bài viết này mô tả quy trình bạn sẽ cần làm theo để cho phép 
 **Description**: Để cho các quản trị viên khác biết quy tắc này dùng để làm gì (tùy chọn)  
 **Logs**: Bạn có thể chọn ghi lưu lượng truy cập liên quan đến quy tắc (điều này có thể dẫn đến chi phí bổ sung từ phía Google)  
 **Network**: Chọn mạng có chứa các tài nguyên mà bạn muốn cho phép danh sách  
-**Priority**: Sự ưu tiên thì để giá trị mặc định
-**Direction of traffic**: `Ingress`
-**Action on match**: `Allow`
-**Targets**: Tùy thuộc vào nhu cầu của bạn, chọn toàn bộ mạng ( Tất cả các phiên bản trong mạng ) hoặc chọn tài nguyên được gắn nhãn bằng một thẻ nhất định ( Thẻ mục tiêu được chỉ định )
-**Source filter**: Dải IP
-**Source IP ranges**: Dán địa chỉ IP của cổng riêng của bạn
-**Second source filter**: Bộ lọc nguồn thứ hai chọn `None`
+**Priority**: Sự ưu tiên thì để giá trị mặc định  
+**Direction of traffic**: `Ingress`  
+**Action on match**: `Allow`  
+**Targets**: Tùy thuộc vào nhu cầu của bạn, chọn toàn bộ mạng ( Tất cả các phiên bản trong mạng ) hoặc chọn tài nguyên được gắn nhãn bằng một thẻ nhất định ( Thẻ mục tiêu được chỉ định )  
+**Source filter**: Dải IP  
+**Source IP ranges**: Dán địa chỉ IP của cổng riêng của bạn  
+**Second source filter**: Bộ lọc nguồn thứ hai chọn `None`  
 **Protocols and ports**: `Allow all`
 
 ![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/02 Dedicated server IP on Google.png "Dedicated server IP on Google")
