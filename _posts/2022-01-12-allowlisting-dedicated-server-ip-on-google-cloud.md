@@ -26,11 +26,11 @@ Bài viết này mô tả quy trình bạn sẽ cần làm theo để cho phép 
 **Logs**: Bạn có thể chọn ghi lưu lượng truy cập liên quan đến quy tắc (điều này có thể dẫn đến chi phí bổ sung từ phía Google)  
 **Network**: Chọn mạng có chứa các tài nguyên mà bạn muốn cho phép danh sách  
 **Priority**: Sự ưu tiên thì để giá trị mặc định  
-**Direction of traffic**: `Ingress`  
+**Direction of traffic**: `Ingress` (chọn đi vào hoặc đi ra)  
 **Action on match**: `Allow`  
 **Targets**: Tùy thuộc vào nhu cầu của bạn, chọn toàn bộ mạng ( Tất cả các phiên bản trong mạng ) hoặc chọn tài nguyên được gắn nhãn bằng một thẻ nhất định ( Thẻ mục tiêu được chỉ định )  
-**Source filter**: Dải IP  
-**Source IP ranges**: Dán địa chỉ IP của cổng riêng của bạn  
+**Source filter**: Dải IP - Đặt bộ lọc để áp dụng quy tắc của bạn cho các nguồn lưu lượng truy cập cụ thể  
+**Source IP ranges**: Dán địa chỉ IP của cổng riêng của bạn và thêm `/32`. Lưu lượng truy cập chỉ được phép từ các nguồn trong các dải địa chỉ IP này. Sử dụng ký hiệu CIDR khi nhập phạm vi.  
 **Second source filter**: Bộ lọc nguồn thứ hai chọn `None`  
 **Protocols and ports**: `Allow all`
 
