@@ -22,6 +22,13 @@ Bài viết này mô tả quy trình bạn sẽ cần làm theo để cho phép 
 `3.` Chọn `Create Firewall Rule` và điền vào các thông tin sau:
 ![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/02 Dedicated server IP on Google.png "Dedicated server IP on Google")
 
+**Name**: Chọn một tên mà bạn lựa chọn
+**Description**: Để cho các quản trị viên khác biết quy tắc này dùng để làm gì (tùy chọn)
+**Logs**: Bạn có thể chọn ghi lưu lượng truy cập liên quan đến quy tắc (điều này có thể dẫn đến chi phí bổ sung từ phía Google)
+**Network**: Chọn mạng có chứa các tài nguyên mà bạn muốn cho phép danh sách
+**Priority**: Sự ưu tiên thì để giá trị mặc định
+
+
 
 
 
