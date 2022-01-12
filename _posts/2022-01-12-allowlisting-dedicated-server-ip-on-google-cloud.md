@@ -46,3 +46,4 @@ Và đó là tất cả! Bây giờ, bạn đã tạo thành công danh sách ch
 -----
 Tham khảo:
 - [Allowlisting dedicated server IP on Google Cloud](https://help.nordlayer.com/hc/en-us/articles/360019722838-Allowlisting-dedicated-server-IP-on-Google-Cloud)
+- [Using firewall rules](https://cloud.google.com/vpc/docs/using-firewalls)
