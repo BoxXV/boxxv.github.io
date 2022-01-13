@@ -181,75 +181,34 @@ class CarSerializer(serializers.ModelSerializer):
 
 ## View
 ```python
-from django.http import JsonResponse
-from django.shortcuts import get_object_or_404
-
-from rest_framework import status
-from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework import viewsets
 
 from car.models import Car
 from car.serializers import CarSerializer
 
-class ListCreateCarView(ListCreateAPIView):
-    model = Car
+class CarViewSet(viewsets.ModelViewSet):
+    queryset = Car.objects.all().order_by('name')
     serializer_class = CarSerializer
-
-    def get_queryset(self):
-        return Car.objects.all()
-
-    def create(self, request, *args, **kwargs):
-        serializer = CarSerializer(data=request.data)
-
-        if serializer.is_valid():
-            serializer.save()
-
-            return JsonResponse({
-                'message': 'Create a new Car successful!'
-            }, status=status.HTTP_201_CREATED)
-
-        return JsonResponse({
-            'message': 'Create a new Car unsuccessful!'
-        }, status=status.HTTP_400_BAD_REQUEST)
-
-class UpdateDeleteCarView(RetrieveUpdateDestroyAPIView):
-    model = Car
-    serializer_class = CarSerializer
-
-    def put(self, request, *args, **kwargs):
-        car = get_object_or_404(Car, id=kwargs.get('pk'))
-        serializer = CarSerializer(post, data=request.data)
-
-        if serializer.is_valid():
-            serializer.save()
-
-            return JsonResponse({
-                'message': 'Update Car successful!'
-            }, status=status.HTTP_200_OK)
-
-        return JsonResponse({
-            'message': 'Update Car unsuccessful!'
-        }, status=status.HTTP_400_BAD_REQUEST)
-
-    def delete(self, request, *args, **kwargs):
-        car = get_object_or_404(Car, id=kwargs.get('pk'))
-        car.delete()
-
-        return JsonResponse({
-            'message': 'Delete Car successful!'
-        }, status=status.HTTP_200_OK)
 ```
 
 ## Url
 ```python
-from django.urls import path
-
+from django.urls import include, path
+from rest_framework import routers
 from . import views
 
+router = routers.DefaultRouter()
+router.register(r'cars', views.CarViewSet)
+
 urlpatterns = [
-    path('cars', views.ListCreateCarView.as_view()),
-    path('cars/<int:pk>', views.UpdateDeleteCarView.as_view()),
+    path('cars', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
 ```
+
+Lưu ý rằng chúng tôi đã thêm một thứ gọi là bộ định tuyến `routers` mà chúng tôi đã nhập từ `rest_framework`.
+
+Bộ định tuyến REST Framework sẽ đảm bảo động các yêu cầu của chúng tôi kết thúc tại đúng tài nguyên. Nếu chúng tôi thêm hoặc xóa các mục khỏi cơ sở dữ liệu, các URL sẽ cập nhật để phù hợp. Tuyệt vời phải không?
 
 ## Setting
 ```python
@@ -272,10 +231,11 @@ Và cuối cùng thì chúng ta cùng hưởng thành quả nào:
 ```bat
 python manage.py runserver
 ```
-Khi làm việc với API thì mình thường dùng Postman để kiểm tra những API đó
+Khi làm việc với API thì mình thường dùng [Postman](https://www.postman.com) để kiểm tra những API đó
 
 Đây là mã nguồn, vì vậy bạn có thể kiểm tra công việc của mình:
 [https://github.com/bennett39/drf_tutorial](https://github.com/bennett39/drf_tutorial)
+
 
 ### Lời kết
 Trên đây là toàn bộ quá trình khi mình bắt đầu tìm hiểu và tiếp cận Django Rest.
