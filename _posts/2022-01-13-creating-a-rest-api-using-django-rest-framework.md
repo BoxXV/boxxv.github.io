@@ -241,7 +241,7 @@ Chúng ta có thể NHẬN một phiên bản mô hình duy nhất bằng cách 
 
 Các bộ khung nhìn Django REST Framework sẽ giải quyết vấn đề này cho chúng ta.
 
-Nếu bạn truy cập 127.0.0.1:8000/heroes/<id>/ trong đó <id> là ID của một trong các mô hình Car của bạn, bạn sẽ chỉ có thể nhìn thấy Car đó.
+Nếu bạn truy cập `127.0.0.1:8000/cars/<id>/` trong đó `<id>` là ID của một trong các mô hình Car của bạn, bạn sẽ chỉ có thể nhìn thấy Car đó.
 
 Ví dụ: [http://127.0.0.1:8000/cars/1/](http://127.0.0.1:8000/cars/1/)
 
@@ -257,7 +257,13 @@ Khi làm việc với API thì mình thường dùng [Postman](https://www.postm
 ### Lời kết
 Trên đây là toàn bộ quá trình khi mình bắt đầu tìm hiểu và tiếp cận Django Rest.
 
-Và lời cuối chúc các bạn thành công trong con đường học tập và tìm hiểu về Django nói chung và Django Rest Framework nói riêng.
+Tôi hy vọng bạn thích hướng dẫn nhanh này. Tất nhiên, các API có thể phức tạp hơn nhiều với nhiều mô hình giao nhau và các điểm cuối có các truy vấn phức tạp hơn.
+
+Điều đó nói rằng, bạn đang trên con đường của mình với bài đăng này. REST Framework xử lý độ phức tạp khá tốt. Nếu bạn gặp khó khăn, có một cộng đồng tuyệt vời sẵn sàng giúp bạn tìm ra giải pháp.
+
+Chúc bạn vui khi xây dựng một số API mới!
+
+Chúc các bạn thành công trong con đường học tập và tìm hiểu về Django nói chung và Django Rest Framework nói riêng.
 
 
 -----
