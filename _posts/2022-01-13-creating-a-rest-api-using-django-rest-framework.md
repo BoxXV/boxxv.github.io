@@ -63,15 +63,15 @@ Là một nhà phát triển, điều này giúp bạn không phải lo lắng v
 
 Sau đó, Django REST Framework hoạt động tốt với Django ORM đã thực hiện tất cả các công việc nặng nhọc của việc truy vấn cơ sở dữ liệu. Chỉ cần một vài dòng mã sử dụng Django REST Framework và bạn có thể tuần tự hóa các mô hình cơ sở dữ liệu của mình sang các định dạng REST-ful.
 
-## Danh sách việc cần làm để tạo REST API trong Django
+# Danh sách việc cần làm để tạo REST API trong Django
 
 - Cài đặt Django
-- Tạo một mô hình trong cơ sở dữ liệu mà Django ORM sẽ quản lý
+- Tạo một Model trong cơ sở dữ liệu mà Django ORM sẽ quản lý
 - Thiết lập Khung Django REST
 - Tuần tự hóa mô hình từ bước 2
 - Tạo các điểm cuối URI để xem dữ liệu được tuần tự hóa
 
-# Cài đặt Django
+## Cài đặt Django
 
 ```bat
 pip install django
@@ -79,6 +79,9 @@ pip install djangorestframework
 
 django-admin startproject src
 django-admin startapp car
+
+python manage.py migrate
+python manage.py runserver
 ```
 
 Và chúng ta nhận được cấu trúc thư mục của project như sau:
@@ -98,7 +101,7 @@ Và chúng ta nhận được cấu trúc thư mục của project như sau:
     |-- settings.py
     |-- urls.py
     |-- wsgi.py
--- manage.py
+|-- manage.py
 
 .
 +-- car
@@ -134,6 +137,25 @@ Và chúng ta nhận được cấu trúc thư mục của project như sau:
 │   ├── urls.py
 │   └── wsgi.py
 └── manage.py
+```
+
+Và khi cài đặt xong xuôi, các bạn truy cập vào [http://127.0.0.1:8000](http://127.0.0.1:8000) và  [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin)
+
+
+## Tạo một Model trong cơ sở dữ liệu mà Django ORM sẽ quản lý
+
+Đầu tiên, tạo một Model để lưu trữ các dữ liệu về Cars sẽ được trả về trong response. Mở file car/models.py và nhập đoạn code sau:
+```python
+from django.db import models
+
+# Create your models here.
+class Car(models.Model):
+    name = models.CharField(max_length=50)
+    color = models.CharField(max_length=20)
+    brand = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.name
 ```
 
 
