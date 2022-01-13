@@ -274,6 +274,8 @@ python manage.py runserver
 ```
 Khi làm việc với API thì mình thường dùng Postman để kiểm tra những API đó
 
+Đây là mã nguồn, vì vậy bạn có thể kiểm tra công việc của mình:
+[https://github.com/bennett39/drf_tutorial](https://github.com/bennett39/drf_tutorial)
 
 ### Lời kết
 Trên đây là toàn bộ quá trình khi mình bắt đầu tìm hiểu và tiếp cận Django Rest.
