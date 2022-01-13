@@ -49,9 +49,22 @@ Những phương thức hay hoạt động này thường được gọi là `CR
 }
 ```
 
-# Diango Rest Framework
+# Tại sao nên sử dụng Django REST Framework?
 
 ![Django REST Framework](https://boxxv.github.io/img/posts/1_lAMsvtB6afHwTQYCNM1xvw.png "Django REST Framework")
+
+Lý do lớn nhất để sử dụng Django REST Framework là vì nó giúp tuần tự hóa quá dễ dàng!
+
+Trong Django, bạn xác định các mô hình cho cơ sở dữ liệu của mình bằng Python. Mặc dù bạn có thể viết SQL thô, nhưng đối với hầu hết các phần, Django ORM xử lý tất cả các truy vấn và di chuyển cơ sở dữ liệu.
+
+Hãy coi Django ORM giống như một thủ thư, lấy thông tin cần thiết cho bạn, vì vậy bạn không cần phải tự mình đi lấy.
+
+Là một nhà phát triển, điều này giúp bạn không phải lo lắng về logic kinh doanh của ứng dụng của mình và quên đi các chi tiết triển khai cấp thấp. Django ORM xử lý tất cả những điều đó cho bạn.
+
+Sau đó, Django REST Framework hoạt động tốt với Django ORM đã thực hiện tất cả các công việc nặng nhọc của việc truy vấn cơ sở dữ liệu. Chỉ cần một vài dòng mã sử dụng Django REST Framework và bạn có thể tuần tự hóa các mô hình cơ sở dữ liệu của mình sang các định dạng REST-ful.
+
+
+
 
 
 
