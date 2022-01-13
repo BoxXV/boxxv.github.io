@@ -10,11 +10,13 @@ tags:
 - API
 ---
 
-## Lời mở đầu
+### Giới thiệu chung
 
 Việc xây dựng một API REST trong Django quá dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước để thiết lập và chạy API đầu tiên của bạn.
 
 ![RESTful API](https://boxxv.github.io/img/posts/restful-api.jpg "RESTful API")
+
+## RESTful API là gì?
 
 RESTful API là một tiêu chuẩn dùng trong việc thiết kế API cho các ứng dụng web (thiết kế Web services) để tiện cho việc quản lý các resource. Nó chú trọng vào tài nguyên hệ thống (tệp văn bản, ảnh, âm thanh, video, hoặc dữ liệu động…), bao gồm các trạng thái tài nguyên được định dạng và được truyền tải qua HTTP.
 
@@ -26,6 +28,30 @@ RESTful API là một tiêu chuẩn dùng trong việc thiết kế API cho các
 
 Chức năng quan trọng nhất của REST là quy định cách sử dụng các HTTP method (như `GET`, `POST`, `PUT`, `DELETE`…) và cách định dạng các URL cho ứng dụng web để quản các resource. RESTful không quy định logic code ứng dụng và không giới hạn bởi ngôn ngữ lập trình ứng dụng, bất kỳ ngôn ngữ hoặc framework nào cũng có thể sử dụng để thiết kế một RESTful API.
 
+REST hoạt động chủ yếu dựa vào giao thức HTTP. Các hoạt động cơ bản nêu trên sẽ sử dụng những phương thức HTTP riêng.
+
+- GET (`SELECT`): Trả về một Resource hoặc một danh sách Resource.
+- POST (`CREATE`): Tạo mới một Resource.
+- PUT (`UPDATE`): Cập nhật thông tin cho Resource.
+- DELETE (`DELETE`): Xoá một Resource.
+Những phương thức hay hoạt động này thường được gọi là `CRUD` tương ứng với Create, Read, Update, Delete – Tạo, Đọc, Sửa, Xóa.
+
+## Authentication và dữ liệu trả về
+
+`RESTful API` không sử dụng `session` và `cookie`, nó sử dụng một `access_token` với mỗi request. Dữ liệu trả về thường có cấu trúc như sau:
+
+```json
+{
+    "data" : {
+        "id": "1",
+        "name": "TopDev"
+    }
+}
+```
+
+# Diango Rest Framework
+
+![Django REST Framework](https://boxxv.github.io/img/posts/1_lAMsvtB6afHwTQYCNM1xvw.png "Django REST Framework")
 
 
 
@@ -37,3 +63,4 @@ Chức năng quan trọng nhất của REST là quy định cách sử dụng c�
 Tham khảo:
 - [Build a REST API in 30 minutes with Django REST Framework](https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c)
 - [Xây dựng API với Django Rest Framework](https://viblo.asia/p/xay-dung-api-voi-django-rest-framework-Do754PXJ5M6)
+- [RESTful API là gì? Cách thiết kế RESTful API](https://topdev.vn/blog/restful-api-la-gi/)
