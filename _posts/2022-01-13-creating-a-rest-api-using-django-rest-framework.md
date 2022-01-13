@@ -83,6 +83,64 @@ django-admin startapp car
 
 Và chúng ta nhận được cấu trúc thư mục của project như sau:
 ```
+|__app
+    |__tests
+        |-- __init__.py
+        |-- test_forms.py   
+        |-- test_models.py   
+        |-- test_views.py   
+
+.
+|__car
+    |-- __init__.py
+    |-- apps.py
+    |-- admin.py
+    |-- views.py
+    |-- models.py
+    |-- tests.py
+    |__migrations
+        |-- __init__.py
+|__src
+    |-- __init__.py
+    |-- settings.py
+    |-- urls.py
+    |-- wsgi.py
+-- manage.py
+
+.
++-- car
+|   +-- __init__.py
+|   +-- apps.py
+|   +-- admin.py
+|   +-- views.py
+|   +-- models.py
+|   +-- tests.py
+|   +-- migrations
+|   |   +-- __init__.py
++-- src
+    +-- __init__
+    +-- settings.py
+    +-- urls.py
+    +-- wsgi.py
++-- manage.py
+
+.
+├── car
+│   ├── __init__.py
+│   ├── apps.py
+│   ├── admin.py
+│   ├── views.py
+│   ├── urls.py
+│   ├── models.py
+│   ├── tests.py
+│   └── migrations
+│       └── __init__.py
+├── src
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+└── manage.py
 ```
 
 
