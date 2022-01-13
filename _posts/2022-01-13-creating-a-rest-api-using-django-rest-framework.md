@@ -261,9 +261,24 @@ INSTALLED_APPS = [
 ]
 ```
 
+Sau khi đã tạo ra được một ứng dụng hoàn chỉnh, việc của chúng ta là tạo migration
+```bat
+python manage.py makemigrations
+python manage.py migrate
+```
+
+## Test API
+Và cuối cùng thì chúng ta cùng hưởng thành quả nào:
+```bat
+python manage.py runserver
+```
+Khi làm việc với API thì mình thường dùng Postman để kiểm tra những API đó
 
 
+### Lời kết
+Trên đây là toàn bộ quá trình khi mình bắt đầu tìm hiểu và tiếp cận Django Rest.
 
+Và lời cuối chúc các bạn thành công trong con đường học tập và tìm hiểu về Django nói chung và Django Rest Framework nói riêng.
 
 
 -----
