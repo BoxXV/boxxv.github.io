@@ -10,7 +10,7 @@ tags:
 - API
 ---
 
-### Giới thiệu chung
+# Giới thiệu chung
 
 Việc xây dựng một API REST trong Django quá dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn các bước để thiết lập và chạy API đầu tiên của bạn.
 
@@ -49,7 +49,7 @@ Những phương thức hay hoạt động này thường được gọi là `CR
 }
 ```
 
-# Tại sao nên sử dụng Django REST Framework?
+## Tại sao nên sử dụng Django REST Framework?
 
 ![Django REST Framework](https://boxxv.github.io/img/posts/1_lAMsvtB6afHwTQYCNM1xvw.png "Django REST Framework")
 
@@ -62,6 +62,14 @@ Hãy coi Django ORM giống như một thủ thư, lấy thông tin cần thiế
 Là một nhà phát triển, điều này giúp bạn không phải lo lắng về logic kinh doanh của ứng dụng của mình và quên đi các chi tiết triển khai cấp thấp. Django ORM xử lý tất cả những điều đó cho bạn.
 
 Sau đó, Django REST Framework hoạt động tốt với Django ORM đã thực hiện tất cả các công việc nặng nhọc của việc truy vấn cơ sở dữ liệu. Chỉ cần một vài dòng mã sử dụng Django REST Framework và bạn có thể tuần tự hóa các mô hình cơ sở dữ liệu của mình sang các định dạng REST-ful.
+
+## Bài toán
+Mình sẽ viết những API phục vụ cho phép thực hiện Create, Read, Update và Delete `cars`.
+
+`Car` bao gồm những field sau:
+- Name
+- Color
+- Brand
 
 # Danh sách việc cần làm để tạo REST API trong Django
 
@@ -144,7 +152,7 @@ Và khi cài đặt xong xuôi, các bạn truy cập vào [http://127.0.0.1:800
 
 ## Tạo một Model trong cơ sở dữ liệu mà Django ORM sẽ quản lý
 
-Đầu tiên, tạo một Model để lưu trữ các dữ liệu về Cars sẽ được trả về trong response. Mở file car/models.py và nhập đoạn code sau:
+Đầu tiên, tạo một Model để lưu trữ các dữ liệu về Cars sẽ được trả về trong response. Mở file `car/models.py` và nhập đoạn code sau:
 ```python
 from django.db import models
 
