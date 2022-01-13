@@ -63,8 +63,27 @@ Là một nhà phát triển, điều này giúp bạn không phải lo lắng v
 
 Sau đó, Django REST Framework hoạt động tốt với Django ORM đã thực hiện tất cả các công việc nặng nhọc của việc truy vấn cơ sở dữ liệu. Chỉ cần một vài dòng mã sử dụng Django REST Framework và bạn có thể tuần tự hóa các mô hình cơ sở dữ liệu của mình sang các định dạng REST-ful.
 
+## Danh sách việc cần làm để tạo REST API trong Django
 
+- Cài đặt Django
+- Tạo một mô hình trong cơ sở dữ liệu mà Django ORM sẽ quản lý
+- Thiết lập Khung Django REST
+- Tuần tự hóa mô hình từ bước 2
+- Tạo các điểm cuối URI để xem dữ liệu được tuần tự hóa
 
+# Cài đặt Django
+
+```bat
+pip install django
+pip install djangorestframework
+
+django-admin startproject src
+django-admin startapp car
+```
+
+Và chúng ta nhận được cấu trúc thư mục của project như sau:
+```
+```
 
 
 
