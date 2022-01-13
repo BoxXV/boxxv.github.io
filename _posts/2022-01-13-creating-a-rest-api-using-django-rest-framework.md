@@ -231,6 +231,23 @@ Và cuối cùng thì chúng ta cùng hưởng thành quả nào:
 ```bat
 python manage.py runserver
 ```
+
+Bây giờ vào [http://127.0.0.1:8000/cars](http://127.0.0.1:8000/cars)
+
+Nếu chúng ta nhấp vào liên kết (Siêu liên kết là thiết kế REST-ful tốt, btw), chúng ta sẽ thấy kết quả API của tất cả cars
+
+### GET một Car cụ thể
+Chúng ta có thể NHẬN một phiên bản mô hình duy nhất bằng cách sử dụng ID của nó.
+
+Các bộ khung nhìn Django REST Framework sẽ giải quyết vấn đề này cho chúng ta.
+
+Nếu bạn truy cập 127.0.0.1:8000/heroes/<id>/ trong đó <id> là ID của một trong các mô hình Car của bạn, bạn sẽ chỉ có thể nhìn thấy Car đó.
+
+Ví dụ: [http://127.0.0.1:8000/cars/1/](http://127.0.0.1:8000/cars/1/)
+
+
+
+
 Khi làm việc với API thì mình thường dùng [Postman](https://www.postman.com) để kiểm tra những API đó
 
 Đây là mã nguồn, vì vậy bạn có thể kiểm tra công việc của mình:
