@@ -205,6 +205,7 @@ WorkingDirectory=/home/{username}/myprojectdir
 ExecStart=/home/{username}/miniconda3/bin/gunicorn \
           --access-logfile - \
           --workers 3 \
+          --timeout 3600 \
           --bind unix:/run/gunicorn.sock \
           myproject.wsgi:application
 {% endhighlight %}
@@ -289,6 +290,11 @@ __19)__ Kiểm tra cơ chế kích hoạt socket, chúng ta có thể gửi kế
 ```bat
 curl --unix-socket /run/gunicorn.sock localhost
 ```
+
+{% highlight js %}
+Output
+curl: (56) Recv failure: Connection reset by peer
+{% endhighlight %}
 
 Bạn sẽ nhận được đầu ra HTML từ ứng dụng của mình trong thiết bị đầu cuối. Điều này cho thấy rằng Gunicorn đã được khởi động và có thể phục vụ ứng dụng Django của bạn.
 
