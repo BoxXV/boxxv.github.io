@@ -130,7 +130,7 @@ __12) Tạo thư mục cho ứng dụng web django__
 ```bat
 mkdir ~/myprojectdir
 hoặc
-mkdir ~/mitsumori
+mkdir ~/config
 ```
 
 
