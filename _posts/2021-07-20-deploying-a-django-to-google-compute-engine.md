@@ -87,10 +87,14 @@ conda install -c conda-forge freecad
 conda install -c conda-forge pythonocc-core
 hoặc
 conda install -c conda-forge pythonocc-core=7.5.1
+conda install -c conda-forge djangorestframework
 conda install -c conda-forge pandas
 conda install -c conda-forge gunicorn
 
 conda install -c conda-forge pyvirtualdisplay
+
+pip install django-allauth
+pip install django-background-tasks
 
 conda install -c conda-forge matplotlib
 {% endhighlight %}
