@@ -274,9 +274,4 @@ Tạo và bán NFT trên OpenSea có vẻ như là một nhiệm vụ khó khăn
 
 -----
 Tham khảo:
-- [Build a REST API in 30 minutes with Django REST Framework](https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c)
-- [How to Develop APIs with Django REST Framework](https://djangostars.com/blog/rest-apis-django-development/)
-- [Creating a REST API using Django Rest Framework](https://www.ginkgobioworks.com/2021/02/04/creating-a-rest-api-using-django-rest-framework/)
-- [Xây dựng API với Django Rest Framework](https://viblo.asia/p/xay-dung-api-voi-django-rest-framework-Do754PXJ5M6)
-- [Django Rest Framework Tutorial - Todo API](https://learndjango.com/tutorials/django-rest-framework-tutorial-todo-api)
-- [RESTful API là gì? Cách thiết kế RESTful API](https://topdev.vn/blog/restful-api-la-gi/)
+- [Cách bán NFT trên OpenSea](https://saohaivuong.com/26843/cach-ban-nft-tren-opensea)
