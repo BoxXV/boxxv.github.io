@@ -7,6 +7,7 @@ tags:
 - NFT
 - OpenSea
 - sell
+- how to
 ---
 
 OpenSea không chỉ là thị trường NFT lớn nhất hiện tại mà còn là thị trường dễ tiếp cận nhất. Đó là một trong những lý do khiến nó có tổng khối lượng giao dịch là 13,25 tỷ đô la, nhiều hơn bất kỳ thị trường nào khác.
