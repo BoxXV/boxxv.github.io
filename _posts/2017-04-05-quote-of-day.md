@@ -5,6 +5,11 @@ subtitle: ... or not to be?
 tags: [books, shakespeare, test]
 ---
 
+"Những mầm mống khổ đau trong bạn có thể thật mạnh mẽ, nhưng đừng đợi cho đến khi mọi khổ đau đi hết rồi mới cho phép mình được hạnh phúc."
+
+<em>\- Thích Nhất Hạnh-</em>
+
+
 >Một ngày mà không học được cái gì thì đừng đi ngủ.
 
 <em>\- TS Lê Thẩm Dương \-</em>
