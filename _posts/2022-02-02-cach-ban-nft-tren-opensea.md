@@ -276,3 +276,7 @@ Tạo và bán NFT trên OpenSea có vẻ như là một nhiệm vụ khó khăn
 -----
 Tham khảo:
 - [Cách bán NFT trên OpenSea](https://saohaivuong.com/26843/cach-ban-nft-tren-opensea)
+- [Ví tiền điện tử tốt nhất năm 2021: MetaMask và Trust Wallet](https://www.coincl.com/2021/11/vi-tien-dien-tu-tot-nhat-nam-2021.html)
+- [TOP 15 ví Ethereum tốt nhất 2021](https://vn.beincrypto.com/learn/top-15-vi-ethereum-tot-nhat/)
+- [Metamask là gì? Có an toàn không? Cách tạo ví Metamask](https://wiki.tino.org/metamask-la-gi/)
+- [Ví MetaMask – Lựa chọn tuyệt vời để bảo vệ tiền điện tử 2022](https://bepos.io/blog/vi-metamask/)
