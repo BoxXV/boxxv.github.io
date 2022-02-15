@@ -33,7 +33,7 @@ Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background c�
 
 #### Trên Windows
 
-Download and install Erlang
+Download and install Erlang  
 [https://erlang.org/download/otp_versions_tree.html](https://erlang.org/download/otp_versions_tree.html)
 
 Download and install RabbitMQ  
