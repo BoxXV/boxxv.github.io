@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sử dụng Django kết hợp cùng Celery
+title: Sử dụng Django kết hợp cùng Celery, Docker, PostgreSQL, Redis
 subtitle: Distributed Task Queue
 
 tags:
@@ -8,8 +8,9 @@ tags:
 - Queue
 - background jobs
 - asynchronous task
+- Docker
+- PostgreSQL
 - Redis
-- RabbitMQ
 ---
 
 `Celery` là một `asynchronous job queue` cực mạnh. Nó là sự thay thế rất tốt cho contab của Linux. Django là top framework tốt nhất của Python.
