@@ -179,9 +179,138 @@ services:
 
 ## Code
 
+Chỉnh sửa file setting.py
+```python
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'django_celery_results',
+    'tutorial',
+]
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'db',
+        'PORT': 5432,
+    }
+}
+
+CELERY_BROKER_URL = os.environ.get("CELERY_BROKER", "redis://redis:6379/0")
+CELERY_RESULT_BACKEND = 'django-db'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+```
+
+#### Celery
+Chỉnh sửa file init trong thư mục app
+```python
+#app/__init__.py
+from __future__ import absolute_import, unicode_literals
+
+# This will make sure the app is always imported when
+# Django starts so that shared_task will use this app.
+from .celery import app as celery_app
+
+__all__ = ['celery_app']
+```
+
+chỉnh sửa file `celery.py`
+```python
+from __future__ import absolute_import, unicode_literals
+
+import os
+from celery import Celery
+from celery.schedules import crontab
+
+# set the default Django settings module for the 'celery' program.
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')
+
+app = Celery('app')
+
+# Using a string here means the worker doesn't have to serialize
+# the configuration object to child processes.
+# - namespace='CELERY' means all celery-related configuration keys
+#   should have a `CELERY_` prefix.
+app.config_from_object('django.conf:settings', namespace='CELERY')
+
+# Load task modules from all registered Django app configs.
+app.autodiscover_tasks()
+
+@app.task(bind=True)
+def debug_task(self):
+    print('Request: {0!r}'.format(self.request))
+```
+
+#### Tasks
+Tạo và chỉnh sửa file task trong thư mục tutorial
+```python
+from __future__ import absolute_import, unicode_literals
+
+from celery import shared_task
+
+@shared_task(name="add")
+def add(a,b):
+    return a+b
+```
+
+#### Tutorial
+
+Chỉnh sửa file `urls.py` trong app
+```python
+from django.contrib import admin
+from django.urls import path,include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include("tutorial.urls")),
+]
+```
+
+Tạo và thêm file `urls.py` trong tutorial
+```python
+from django.urls import path,include
+from . import views
+
+app_name = 'tutorial'
+
+urlpatterns = [
+    path('',  views.total, name="total"),
+]
+```
+
+Chỉnh sửa file `views.py` trong tutorial
+```python
+from django.http.response import HttpResponse
+from django.shortcuts import render
+from .tasks import *
+
+def total(request):
+    res = add.delay(4,5)
+    return HttpResponse(res)
+```
+
+Trình duyệt sẽ hiển thị UUID của task
+
+Kết quả được hiển thị ở celery trong docker.
 
 
-Thanks for reading!
+#### Build
+
+```bat
+docker-compose build
+docker-compose up
+```
+
+Bài viết đến đây là kết thúc. Chúc các bạn thành công
 
 
 -----
