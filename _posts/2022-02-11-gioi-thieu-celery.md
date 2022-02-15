@@ -67,7 +67,7 @@ Có thể cài đặt Celery dễ dàng qua `pip` hoặc `easy_install`:
 $ pip install celery
 ```
 
-hoặc `conda`:
+hoặc [`conda`](https://anaconda.org):
 ```bat
 $ conda install -c conda-forge celery
 $ conda install -c conda-forge rabbitmq-server
