@@ -46,6 +46,139 @@ Cơ chế của Celery
 
 ## Cài đặt
 
+Django, Package
+```bat
+pip install django
+django-admin startproject app
+django-admin startapp tutorial
+```
+
+Tạo file
+```bat
+app
+├─ tutorial
+│  ├─ __init__
+│  ├─ admin.py
+│  ├─ apps.py
+│  ├─ models.py
+│  ├─ tasks.py
+│  ├─ tests.py
+│  ├─ urls.py
+│  └─ views.py 
+├─ app
+│  ├─ __init__
+│  ├─ asgi.py
+│  ├─ celery.py
+│  ├─ setting.py
+│  ├─ urls.py
+│  └─ wsgi.py 
+├─ static
+├─ templates
+├─ docker-compose.yml
+├─ Dockerfile
+├─ manage.py
+└─ requirements.txt
+```
+
+Tạo 1 file requirements.txt trong app
+```bat
+Django==3.2.6
+psycopg2==2.9.1
+psycopg2-binary==2.9.1
+celery==5.1.2
+django-celery-results==2.2.0
+redis==3.5.3
+```
+
+Và gõ lệnh sau
+```bat
+pip install -r requirements.txt
+```
+
+Chỉnh sửa Dockerfile
+```bat
+FROM python:3
+
+ENV PYTHONUNBUFFERED=1
+
+WORKDIR /code
+COPY requirements.txt /code/
+
+RUN apt-get update \
+    && apt-get -y install libpq-dev gcc
+RUN pip install -r requirements.txt
+COPY . /code/
+
+EXPOSE 8000
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+```
+
+Chỉnh sửa `docker-compose.yml`. Chúng ta sử dụng thêm Redis làm người môi giới(broker message)
+```bat
+version: "3.9"
+
+services:
+  db:
+    image: postgres
+    container_name: postgres
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 2s
+      timeout: 3s
+      retries: 10
+
+  celery:
+    build: .
+    container_name: celery
+    command: celery -A app worker -l info
+    volumes:
+      - .:/code
+    depends_on:
+      - web
+      - redis
+      - db
+
+  web:
+    build: .
+    container_name: web
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    environment: 
+      - DEBUG=1
+      - DJANGO_ALLOWED_HOST=localhost 127.0.0.1
+      - CELERY_BROKER=redis://redis:6379/0
+      - CELERY_BACKEND=redis://redis:6379/0
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy  
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    restart: on-failure
+```
+
+## Code
+
 
 
 Thanks for reading!
