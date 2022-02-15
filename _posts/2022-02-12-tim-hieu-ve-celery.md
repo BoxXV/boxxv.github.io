@@ -159,6 +159,7 @@ Tham khảo:
 - [Learn Django Celery](https://www.youtube.com/playlist?list=PLOLrQ9Pn6caz-6WpcBYxV84g9gwptoN20)
 - [the guide of Celery Redis Django](https://www.codingforentrepreneurs.com/blog/celery-redis-django/)
 - [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
+- [Cấu hình Supervisor để chạy Laravel Queue trên linux](https://viblo.asia/p/cau-hinh-supervisor-de-chay-laravel-queue-tren-linux-RQqKLoGN57z)
 
 - [https://github.com/ebysofyan/django-celery-progress-sample](https://github.com/ebysofyan/django-celery-progress-sample)
 - [https://github.com/jessamynsmith/django-celery-example](https://github.com/jessamynsmith/django-celery-example)
