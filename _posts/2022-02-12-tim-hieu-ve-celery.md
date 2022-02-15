@@ -47,6 +47,31 @@ Cơ chế của Celery
 - Một hệ thống sử dụng celery có thể có nhiều workers và brokers, nhờ vậy việc scale theo chiều ngang sẽ rất dễ dàng.
 
 
+## Các module chính của Celery
+
+### Application
+Một instance được khởi tạo từ thư viện Celery được gọi là application
+Nhiều Celery application có thể cùng tồn tại trong một process
+
+Khởi tạo một celery application:
+```python
+from celery import Celery
+
+app = Celery()
+```
+
+Khi gửi một message tới queue, message đó sẽ chỉ chứa tên của task cần thực thi.
+
+Các celery worker sẽ map giữa tên của task với hàm thực thi task đó, việc mapping như vậy được gọi là task registry
+```python
+@app.task
+def add(x, y):
+	return x + y
+```
+
+### Tasks
+
+
 
 
 -----
