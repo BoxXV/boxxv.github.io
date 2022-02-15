@@ -31,6 +31,16 @@ $ docker run -d -p 5672:5672 rabbitmq
 
 Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background cùng một message: `Starting rabbitmq-server: SUCCESS`
 
+#### Trên Windows
+
+Download and install Erlang
+[https://erlang.org/download/otp_versions_tree.html](https://erlang.org/download/otp_versions_tree.html)
+
+Download and install RabbitMQ
+[https://www.rabbitmq.com/install-windows.html](https://www.rabbitmq.com/install-windows.html)  
+[https://github.com/rabbitmq/rabbitmq-server/releases](https://github.com/rabbitmq/rabbitmq-server/releases)  
+[https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.9.13/rabbitmq-server-3.9.13.exe](https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.9.13/rabbitmq-server-3.9.13.exe)
+
 
 ### Redis
 Điểm trừ của Redis so với RabbitMQ là có thể mất data nếu bị dừng đột ngột do lỗi nào đó hoặc mất điện.
