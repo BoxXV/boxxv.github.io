@@ -10,24 +10,27 @@ tags:
 - asynchronous task
 ---
 
-Celery là một open source asynchronous task queue or job queue. Nó dễ sử dụng, bạn không cần phải nắm quá rõ để sử dụng được nó. Celery được thiết kế có khả năng mở rộng, tích hợp với nhiều ngôn ngữ và có riêng phần quản lý
-
+Celery là một open source asynchronous task queue or job queue. Nó dễ sử dụng, bạn không cần phải nắm quá rõ để sử dụng được nó. Celery được thiết kế dựa trên các phương pháp hay nhất để sản phẩm của bạn có thể mở rộng quy mô và tích hợp với các ngôn ngữ khác, đồng thời nó đi kèm với các công cụ và hỗ trợ bạn cần để vận hành một hệ thống như vậy trong quá trình sản xuất.
 
 ## 1. Chọn Message Broker
 
 Message broker là nền tảng trung gian giúp giao tiếp giữa 2 ứng dụng. Với Celery, bạn có nhiều lựa chọn:
 
 ### RabbitMQ
-Tính năng hoàn chỉnh, ổn định, bền bỉ và dễ dàng cài đặt là nhưng điều kiện để lựa chọn RabbitMQ. Để cài đặt RabbitMQ chạy lệnh sau:
+Tính năng hoàn chỉnh, ổn định, bền bỉ và dễ dàng cài đặt là nhưng điều kiện để lựa chọn RabbitMQ.
 
+Nếu bạn đang sử dụng Ubuntu hoặc Debian, hãy cài đặt RabbitMQ bằng cách thực hiện lệnh này:
 ```bat
 $ sudo apt-get install rabbitmq-server
 ```
 
-Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background cùng một message:
+Hoặc, nếu bạn muốn chạy nó trên Docker, hãy thực hiện điều này:
 ```bat
-Starting rabbitmq-server: SUCCESS
+$ docker run -d -p 5672:5672 rabbitmq
 ```
+
+Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background cùng một message: `Starting rabbitmq-server: SUCCESS`
+
 
 ### Redis
 Điểm trừ của Redis so với RabbitMQ là có thể mất data nếu bị dừng đột ngột do lỗi nào đó hoặc mất điện.
@@ -39,14 +42,24 @@ $ cd redis-stable
 $ make
 ```
 
+Nếu bạn muốn chạy nó trên Docker, hãy thực hiện điều này:
+```bat
+$ docker run -d -p 6379:6379 redis
+```
+
+
 ### Other brokers
 Cũng có thể chọn những dịch vụ Message broker khác từ [Amason SQS](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/sqs.html). Đây là [danh sách các broker](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/index.html) được hỗ trợ trong Celery
 
 
 ## 2. Cài đặt
-Có thể cài đặt Celery dễ dàng qua `pip` hoặc `easy_install`:
+Có thể cài đặt Celery dễ dàng qua `pip` hoặc `easy_install` hoặc `conda`:
 ```bat
 $ pip install celery
+```
+
+```bat
+$ conda install -c conda-forge celery
 ```
 
 ## 3. Application
