@@ -39,7 +39,6 @@ Download and install Erlang
 Download and install RabbitMQ  
 [https://www.rabbitmq.com/install-windows.html](https://www.rabbitmq.com/install-windows.html)  
 [https://github.com/rabbitmq/rabbitmq-server/releases](https://github.com/rabbitmq/rabbitmq-server/releases)  
-[https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.9.13/rabbitmq-server-3.9.13.exe](https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.9.13/rabbitmq-server-3.9.13.exe)
 
 
 ### Redis
