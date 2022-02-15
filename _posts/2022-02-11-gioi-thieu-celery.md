@@ -60,6 +60,7 @@ $ pip install celery
 
 ```bat
 $ conda install -c conda-forge celery
+$ conda install -c conda-forge rabbitmq-server
 ```
 
 ## 3. Application
