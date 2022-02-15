@@ -130,9 +130,57 @@ def dump_context(self, x, y):
 def upload_files(self, filenames):
 		for i, file in enumerate(filenames):
 			if not self.request.called_directly:
-					self.update_state(state='PROGRESS',
-						meta={'current': i, 'total': len(filenames)})
+					self.update_state(state='PROGRESS', meta={'current': i, 'total': len(filenames)})
 ```
+
+#### Gọi task
+- Celery cung cấp các API để gọi task sau khi đã định nghĩa chúng ở trên.
+- 3 method chính:
+	+ `apply_async`: gửi task message.
+	+ `delay`: gửi task message
+	+ `calling`: task message sẽ không được gửi đi tới worker mà task sẽ được thực thi luôn bởi process hiện tại.
+- Có một task như sau:
+```python
+@app.task
+def add(x, y):
+	return x + y
+```
+- Để gọi task này chúng ta sẽ thử dùng 2 method là apply_async và delay
+	+ Với delay chúng ta sẽ viết như sau:
+```python
+# task.delay(arg1, arg2, kwarg1='x', kwarg2='y')
+add.delay(10, 5)
+add.delay(a=10, b=5)
+```
+	+ Dùng `apply_async` thì phải viết phức tạp hơn một chút
+```python
+# task.apply_async(args=[arg1, arg2], kwargs={'kwarg1': 'x', 'kwarg2': 'y'})
+add.apply_async(queue='low_priority', args=(10, 5))
+add.apply_async(queue='high_priority', kwargs={'a': 10, 'b': 5})
+```
+- Về bản chất `delay` và `apply_async` là như nhau nhưng `delay` đã có sẵn các thiết lập mặc định và chúng ta chỉ có thể truyền vào những tham số bắt buộc đã định nghĩa trong function của task, còn với `apply_async` chúng ta có thể truyền thêm các tham số khác như queue chúng ta muốn gửi message vào,.... Best practice là nên sử dụng `apply_async` để tiện việc config chạy task tùy theo nhu cầu sử dụng.
+- Celery hỗ trợ việc gọi task theo dạng chaining, kết quả của task này có thể được truyền vào task tiếp theo
+```python
+add.apply_async((2, 2), link=add.s(16)) # 20
+```
+	+ Nhờ vào cơ chế này chúng ta có thể thiết kế callback cho task như sau
+```python
+@app.task
+def error_handler(uuid):
+		result = AsyncResult(uuid)
+		exc = result.get(propagate=False)
+		print('Task {0} raised exception: {1!r}\n{2!r}'.format(uuid, exc, result.traceback))
+```
+
+```python
+add.apply_async((2, 2), link_error=error_handler.s())
+```
+
+
+
+
+
+
 
 -----
 Tham khảo:
