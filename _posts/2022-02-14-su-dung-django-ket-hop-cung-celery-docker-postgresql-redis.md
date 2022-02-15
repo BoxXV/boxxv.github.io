@@ -35,12 +35,12 @@ Chức năng
 Cơ chế của Celery
 - Celery hoạt động dựa trên khái niệm task queue. Đây là cơ chế queue dùng để điều phối các job/work giữa các máy khác nhau. Các worker sẽ nhận task, chạy task và trả về kết quả.
 - Input của queue:
-- Task
+	+ Task
 - Các process trên từng worker sẽ theo dõi queue để thực thi các task mới được đẩy vào queue
 - Celery thường dùng một message broker để điều phối task giữa các clients và worker. Để tạo một task mới client sẽ thêm một message vào queue, broker sau đó sẽ chuyển message này tới worker. Celery hỗ trợ 3 loại broker:
-- RabbitMQ
-- Redis
-- SQS
+	+ RabbitMQ
+	+ Redis
+	+ SQS
 - Một hệ thống sử dụng celery có thể có nhiều workers và brokers, nhờ vậy việc scale theo chiều ngang sẽ rất dễ dàng.
 
 

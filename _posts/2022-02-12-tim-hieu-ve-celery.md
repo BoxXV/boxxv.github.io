@@ -17,6 +17,36 @@ Sau khi được gợi ý về việc chuyển sang dùng hàng đợi thay vì 
 Kiến trúc sau khi chuyển sang sử dụng queue trong hệ thống của mình sẽ như sau. Một bài viết khá chi tiết về một dạng thiết kế queue là message queue mọi người có thể đọc thêm ở [toidicodedao](https://toidicodedao.com/2019/10/08/message-queue-la-gi-ung-dung-microservice/)
 
 
+## Về Celery
+- Là một hệ thống quản lý hàng đợi xử lý task thời gian thực. Trong hệ thống Celery chúng ta sẽ sử dụng khái niệm task giống như job ở một số framework khác như Sidekiq.
+- Input của celery cần kết nối với một loại message broker còn output có thể kết nối tới một hệ thống backend để lưu trữ kết quả
+
+Các bài toán nên sử dụng Celery
+- Chạy background jobs
+- Chạy các job lập lịch
+- Tính toán phân tán
+- Xử lý song song
+
+Các chức năng chính Celery cung cấp
+- Monitor: giám sát các job/task được đưa vào queue
+- Scheduling: chạy các task lập lịch (giống cronjob)
+- Workflows: tạo một luồng xử lý task
+- Time & Rate Limits: kiểm soát số lượng task được thực thi trong một khoảng thời gian, thời gian một task được chạy,...
+- Resource Leak Protection: kiểm soát tài nguyên trong quá trình xử lý task
+- User Component: cho phép người dùng tự customize các worker.
+
+Cơ chế của Celery
+- Celery hoạt động dựa trên khái niệm task queue. Đây là cơ chế queue dùng để điều phối các job/work giữa các máy khác nhau. Các worker sẽ nhận task, chạy task và trả về kết quả.
+- Input của queue:
+	+ Task
+- Các process trên từng worker sẽ theo dõi queue để thực thi các task mới được đẩy vào queue
+- Celery thường dùng một message broker để điều phối task giữa các clients và worker. Để tạo một task mới client sẽ thêm một message vào queue, broker sau đó sẽ chuyển message này tới worker. Celery hỗ trợ 3 loại broker:
+	+ RabbitMQ
+	+ Redis
+	+ SQS
+- Một hệ thống sử dụng celery có thể có nhiều workers và brokers, nhờ vậy việc scale theo chiều ngang sẽ rất dễ dàng.
+
+
 
 
 -----
