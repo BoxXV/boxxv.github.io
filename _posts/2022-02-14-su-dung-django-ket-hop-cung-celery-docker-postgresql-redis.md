@@ -298,10 +298,12 @@ def total(request):
     return HttpResponse(res)
 ```
 
-Trình duyệt sẽ hiển thị UUID của task
+Trình duyệt sẽ hiển thị UUID của task: `fbb66917-1c3a-47de-a1d4-36f6024a15cd`
 
 Kết quả được hiển thị ở celery trong docker.
-
+```bat
+[2021-08-17 11:08:45,721: INFO/ForkPoolWorker-14] Task add[fbb66917-1c3a-47de-a1d4-36f6024a15cd] succeeded in 0.0360996999979512s: 9
+```
 
 #### Build
 
