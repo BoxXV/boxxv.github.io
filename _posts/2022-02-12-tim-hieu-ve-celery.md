@@ -156,6 +156,7 @@ Tham khảo:
 - [Giới thiệu Celery](https://viblo.asia/p/gioi-thieu-celery-maGK7mvBlj2)
 - [First Steps with Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
 - [First steps with Django](http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html)
+- [Learn Django Celery - Installing RabbitMQ on Windows and Test](https://youtu.be/8lnybIaDz2M)
 - [https://github.com/ebysofyan/django-celery-progress-sample](https://github.com/ebysofyan/django-celery-progress-sample)
 - [https://github.com/jessamynsmith/django-celery-example](https://github.com/jessamynsmith/django-celery-example)
 - [https://github.com/engineervix/django-celery-sample](https://github.com/engineervix/django-celery-sample)
