@@ -62,11 +62,12 @@ Cũng có thể chọn những dịch vụ Message broker khác từ [Amason SQS
 
 
 ## 2. Cài đặt
-Có thể cài đặt Celery dễ dàng qua `pip` hoặc `easy_install` hoặc `conda`:
+Có thể cài đặt Celery dễ dàng qua `pip` hoặc `easy_install`:
 ```bat
 $ pip install celery
 ```
 
+hoặc `conda`:
 ```bat
 $ conda install -c conda-forge celery
 $ conda install -c conda-forge rabbitmq-server
