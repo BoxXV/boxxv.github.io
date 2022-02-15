@@ -219,14 +219,15 @@ app = Celery('tasks', backend='redis://localhost', broker='redis://localhost:637
 ## Cấu hình Celery
 
 - Cấu hình mặc định cơ bản của celery:
+
 ```python
-// Broker settings.
+## Broker settings.
 broker_url = 'redis://localhost:6379/0'
 
-// List of modules to import when the Celery worker starts.
+## List of modules to import when the Celery worker starts.
 imports = ('myapp.tasks',)
 
-// Using the database to store task state and results.
+## Using the database to store task state and results.
 result_backend = 'db+sqlite:///results.db'
 
 task_annotations = {'tasks.add': {'rate_limit': '10/s'}}
