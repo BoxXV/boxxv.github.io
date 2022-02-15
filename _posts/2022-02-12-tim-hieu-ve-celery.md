@@ -176,10 +176,112 @@ def error_handler(uuid):
 add.apply_async((2, 2), link_error=error_handler.s())
 ```
 
+## Sử dụng Celery
+### Cài đặt
+
+```bat
+pip install -U Celery
+```
+
+### Sử dụng
+- Lựa chọn loại message broker phù hợp với dự án. Như đã nói ở trên Celery hỗ trợ 3 loại message broker là RabbitMQ, Redis, SQS. Mình sẽ đi sâu vào phân tích từng loại message broker trong phần sau về Celery.
+- Tạo một celery worker với task `add`
+```python
+from celery Import Celery
+app = Celery('name of module', broker='url_of_broker')
+
+@app.task
+def add(x, y):
+	return x + y
+```
+- Chạy worker
+```bat
+$ celery -A tasks worker --loglevel=info
+```
+- Gọi task
+```bat
+>>> from tasks import add
+>>> add.delay(4, 4)
+```
 
 
+## Lưu kết quả
+- Celery có thể lưu lại trạng thái của tasks nếu chúng ta cần theo dõi tasks sau này. Với các hệ thống thực hiện task theo phương thức state machine thì việc hệ thống cần nắm được luồng trạng thái của task là vô cùng quan trọng.
+- Các hệ thống celery dùng để lưu trạng thái task:
+	+ SQLAlchemy
+	+ Memcached
+	+ Redis
+- Để sử dụng cơ chế lưu kết quả trong Celery chúng ta khai báo celery worker có tham số backend. Ở đây mình sử dụng redis cho cả việc lưu kết quả task lẫn làm message broker
+```python
+app = Celery('tasks', backend='redis://localhost', broker='redis://localhost:6379/0')
+```
 
+## Cấu hình Celery
 
+- Cấu hình mặc định cơ bản của celery:
+```python
+## Broker settings.
+broker_url = 'redis://localhost:6379/0'
+
+# List of modules to import when the Celery worker starts.
+imports = ('myapp.tasks',)
+
+## Using the database to store task state and results.
+result_backend = 'db+sqlite:///results.db'
+
+task_annotations = {'tasks.add': {'rate_limit': '10/s'}}
+```
+
+- Best practice: tạo một file config riêng cho celery `celeryconfig.py`
+```python
+broker_url = 'redis://localhost:6379/0://'
+result_backend = 'rpc://'
+
+task_serializer = 'json'
+result_serializer = 'json'
+accept_content = ['json']
+timezone = 'Europe/Oslo'
+enable_utc = True
+task_routes = {
+		'tasks.add': 'low-priority',
+} # routing một task tới queue mong muốn
+```
+
+- Ngoài cách tạo file config trên ra chúng ta cũng có thể config trực tiếp bằng application của Celery `app.conf`
+```python
+app.conf.update(enable_utc=True, timezone='Europe/London',)
+```
+
+## Tổng kết
+- Celery không cần phải config nhiều mà chỉ cần import từ module sử dụng trực tiếp như sau
+```python
+from celery Import Celery
+app = Celery('name of module', broker='url_of_broker')
+```
+- Worker và client của Celery có thể tự retry
+- Một process của Celery có thể xử lý hàng triệu task trong một phút với độ trễ chỉ vài miligiây
+- Celery hỗ trợ:
+	+ Message brokers:
+		+ RabbitMQ
+		+ Redis
+		+ SQS
+	+ Xử lý concurrency
+		+ multiprocessing
+		+ multithread
+		+ single thread
+		+ eventlet, gevent
+	+ Lưu trữ kết quả trên các hệ thống:
+		+ Amqp
+		+ Redis
+		+ Memcached
+		+ SQLAlchemy
+		+ Amazon S3
+		+ File system
+	+ Serialization
+		+ json
+		+ yaml
+
+Ở phần sau bài viết mình sẽ đi sâu hơn về worker trong Celery và hai loại message broker mà Celery hỗ trợ: SQS - Redis, đồng thời dựng một ứng dụng cơ bản sử dụng hệ thống này.
 
 
 -----
