@@ -218,7 +218,7 @@ app = Celery('tasks', backend='redis://localhost', broker='redis://localhost:637
 
 ## Cấu hình Celery
 
-- Cấu hình mặc định cơ bản của celery:
+- Cấu hình mặc định cơ bản của celery:  
 
 ```python
 ## Broker settings.
@@ -233,7 +233,7 @@ result_backend = 'db+sqlite:///results.db'
 task_annotations = {'tasks.add': {'rate_limit': '10/s'}}
 ```
 
-- Best practice: tạo một file config riêng cho celery `celeryconfig.py`
+- Best practice: tạo một file config riêng cho celery `celeryconfig.py`  
 ```python
 broker_url = 'redis://localhost:6379/0://'
 result_backend = 'rpc://'
