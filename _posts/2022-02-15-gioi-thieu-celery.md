@@ -17,7 +17,7 @@ Celery là một open source asynchronous task queue or job queue. Nó dễ sử
 
 Message broker là nền tảng trung gian giúp giao tiếp giữa 2 ứng dụng. Với Celery, bạn có nhiều lựa chọn:
 
-#### RabbitMQ
+### RabbitMQ
 Tính năng hoàn chỉnh, ổn định, bền bỉ và dễ dàng cài đặt là nhưng điều kiện để lựa chọn RabbitMQ. Để cài đặt RabbitMQ chạy lệnh sau:
 
 ```bat
@@ -29,7 +29,7 @@ Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background c�
 Starting rabbitmq-server: SUCCESS
 ```
 
-#### Redis
+### Redis
 Điểm trừ của Redis so với RabbitMQ là có thể mất data nếu bị dừng đột ngột do lỗi nào đó hoặc mất điện.
 
 ```bat
@@ -39,7 +39,7 @@ $ cd redis-stable
 $ make
 ```
 
-#### Other brokers
+### Other brokers
 Cũng có thể chọn những dịch vụ Message broker khác từ [Amason SQS](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/sqs.html). Đây là [danh sách các broker](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/index.html) được hỗ trợ trong Celery
 
 
@@ -136,4 +136,5 @@ Mình vừa giới thiệu cho các bạn về `Celery`, cách cài đặt và d
 -----
 Tham khảo:
 - [Giới thiệu Celery](https://viblo.asia/p/gioi-thieu-celery-maGK7mvBlj2)
-- [http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+- [First Steps with Celery](http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html)
+- [First steps with Django](http://docs.celeryproject.org/en/latest/django/first-steps-with-django.html)
