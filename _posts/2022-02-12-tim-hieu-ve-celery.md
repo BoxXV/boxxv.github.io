@@ -234,6 +234,7 @@ task_annotations = {'tasks.add': {'rate_limit': '10/s'}}
 ```
 
 - Best practice: tạo một file config riêng cho celery `celeryconfig.py`  
+
 ```python
 broker_url = 'redis://localhost:6379/0://'
 result_backend = 'rpc://'
