@@ -70,9 +70,69 @@ def add(x, y):
 ```
 
 ### Tasks
+- Task trong Celery có hai nhiệm vụ chính:
+	+ định nghĩa những gì sẽ xảy ra sau khi một task được gọi (gửi đi message)
+	+ định nghĩa những gì sẽ xảy ra khi một worker nhận được message đó
+- Mỗi task có một tên riêng không trùng lặp, tên này sẽ được refer trong message để worker có thể tìm được đúng hàm để thực thi. Nếu không định nghĩa tên cho task thì task đó sẽ được tự đặt tên dựa vào module mà task được định nghĩa và tên function của task.
+- Các message của task sẽ không bị xóa khỏi queue chừng nào message đó chưa được một worker xử lý. Một worker có thể xử lý nhiều message, nếu worker bị crash mà chưa xử lý hết các message đó thì chúng vẫn có thể được gửi lại tới một worker khác
+- Các function của task nên ở trạng thái idempotent: function không gây ra ảnh hưởng gì kể cả khi có bị gọi nhiều lần với cùng một tham số => một task đã thực thi sẽ đảm bảo không bị chạy lại lần nữa.
 
+#### Tạo task
 
+Để tạo task chúng ta dùng decorator `@task`
+```python
+from models import User
+@app.task(name='create_new_user')
+def create_user(username, password):
+	User.objects.create(username=username, password=password)
+```
 
+Để task có thể retry chúng ta có thể bound task vào chính instance của nó
+```python
+@task(bind=True)
+def add(self, x, y):
+	logger.info(self.request.id)
+```
+
+Task cũng có thể kế thừa
+```python
+import celery
+
+class MyTask(celery.Task):
+
+	def on_failure(self, exc, task_id, args, kwargs, einfo):
+		print('{0!r} failed: {1!r}'.format(task_id, exc))
+
+@task(base=MyTask)
+def add(x, y):
+		raise KeyError()
+```
+
+Để biết thêm thông tin và trạng thái của task chúng ta có thể sử dụng `Task.request`
+```python
+@app.task(bind=True)
+def dump_context(self, x, y):
+		print('Executing task id {0.id}, args: {0.args!r} kwargs: {0.kwargs!r}'.format(
+				self.request))
+```
+
+- Celery quản lý trạng thái của tasks và có thể lưu chúng trong các hệ thống gọi là result backend. Vòng đời mặc định của task trong Celery gồm:
+	+ PENDING: task đợi được thực thi.
+	+ STARTED: task đã khởi chạy
+	+ SUCCESS: task đã chạy thành công
+	+ FAILURE: task gặp lỗi sau khi khởi chạy
+	+ RETRY: task đang được chạy lại
+	+ REVOKED: task được thu hồi lại
+	+ Ngoài các trạng thái mặc định trên chúng ta có thể tự định nghĩa thêm trạng thái và cập nhật trạng thái cho task bằng method update_state
+
+```python
+@app.task(bind=True)
+def upload_files(self, filenames):
+		for i, file in enumerate(filenames):
+			if not self.request.called_directly:
+					self.update_state(state='PROGRESS',
+						meta={'current': i, 'total': len(filenames)})
+```
 
 -----
 Tham khảo:
