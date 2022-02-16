@@ -32,7 +32,7 @@ $ docker run -d -p 5672:5672 rabbitmq
 Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background cùng một message: `Starting rabbitmq-server: SUCCESS`
 
 #### Trên Windows
-Đừng lo lắng nếu bạn không chạy Ubuntu hoặc Debian, bạn có thể truy cập trang web này để tìm hướng dẫn cài đặt đơn giản tương tự cho các nền tảng khác, bao gồm Microsoft Windows:
+Đừng lo lắng nếu bạn không chạy Ubuntu hoặc Debian, bạn có thể truy cập trang web này để tìm hướng dẫn cài đặt đơn giản tương tự cho các nền tảng khác, bao gồm Microsoft Windows:  
 [https://www.rabbitmq.com/install-windows.html](https://www.rabbitmq.com/install-windows.html)  
 
 Download and install Erlang  
