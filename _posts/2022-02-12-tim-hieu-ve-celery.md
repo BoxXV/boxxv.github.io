@@ -171,7 +171,6 @@ def error_handler(uuid):
 		exc = result.get(propagate=False)
 		print('Task {0} raised exception: {1!r}\n{2!r}'.format(uuid, exc, result.traceback))
 ```
-
 ```python
 add.apply_async((2, 2), link_error=error_handler.s())
 ```
