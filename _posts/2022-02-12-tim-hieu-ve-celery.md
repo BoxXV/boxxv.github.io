@@ -250,6 +250,11 @@ task_routes = {
 } # routing một task tới queue mong muốn
 ```
 
+- Bạn có thể yêu cầu Celery instance của mình sử dụng mô-đun cấu hình bằng cách gọi phương thức `app.config_from_object()`. Mô-đun này thường được gọi là “celeryconfig”, nhưng bạn có thể sử dụng bất kỳ tên mô-đun nào. `celeryconfig.py` phải có sẵn để tải từ thư mục hiện tại hoặc trên đường dẫn Python  
+```python
+app.config_from_object('celeryconfig')
+```
+
 - Ngoài cách tạo file config trên ra chúng ta cũng có thể config trực tiếp bằng application của Celery `app.conf`
 ```python
 app.conf.update(enable_utc=True, timezone='Europe/London',)
