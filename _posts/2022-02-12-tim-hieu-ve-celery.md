@@ -16,6 +16,8 @@ Sau khi được gợi ý về việc chuyển sang dùng hàng đợi thay vì 
 
 Kiến trúc sau khi chuyển sang sử dụng queue trong hệ thống của mình sẽ như sau. Một bài viết khá chi tiết về một dạng thiết kế queue là message queue mọi người có thể đọc thêm ở [toidicodedao](https://toidicodedao.com/2019/10/08/message-queue-la-gi-ung-dung-microservice/)
 
+![Async task architecture](https://boxxv.github.io/img/posts/Django-Celery Architecture.png "Async task architecture")
+
 
 ## Về Celery
 - Là một hệ thống quản lý hàng đợi xử lý task thời gian thực. Trong hệ thống Celery chúng ta sẽ sử dụng khái niệm task giống như job ở một số framework khác như Sidekiq.
