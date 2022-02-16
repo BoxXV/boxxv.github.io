@@ -191,7 +191,7 @@ app = Celery('name of module', broker='url_of_broker')
 
 @app.task
 def add(x, y):
-	return x + y
+    return x + y
 ```
 - Chạy worker:  
 ```bat
