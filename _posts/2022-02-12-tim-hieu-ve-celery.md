@@ -255,6 +255,11 @@ task_routes = {
 app.config_from_object('celeryconfig')
 ```
 
+- Để xác minh rằng tệp cấu hình của bạn hoạt động bình thường và không có bất kỳ lỗi cú pháp nào, bạn có thể thử nhập tệp đó:  
+```bat
+$ python -m celeryconfig
+```
+
 - Ngoài cách tạo file config trên ra chúng ta cũng có thể config trực tiếp bằng application của Celery `app.conf`
 ```python
 app.conf.update(enable_utc=True, timezone='Europe/London',)
