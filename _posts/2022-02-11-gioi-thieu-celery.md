@@ -12,6 +12,8 @@ tags:
 
 Celery là một open source asynchronous task queue or job queue. Nó dễ sử dụng, bạn không cần phải nắm quá rõ để sử dụng được nó. Celery được thiết kế dựa trên các phương pháp hay nhất để sản phẩm của bạn có thể mở rộng quy mô và tích hợp với các ngôn ngữ khác, đồng thời nó đi kèm với các công cụ và hỗ trợ bạn cần để vận hành một hệ thống như vậy trong quá trình sản xuất.
 
+![Async task architecture](https://boxxv.github.io/img/posts/1_8728xEI7y5oSQ7YwC6USug.png "Async task architecture")
+
 ## 1. Chọn Message Broker
 
 Message broker là nền tảng trung gian giúp giao tiếp giữa 2 ứng dụng. Với Celery, bạn có nhiều lựa chọn:
