@@ -21,13 +21,13 @@ Kiến trúc sau khi chuyển sang sử dụng queue trong hệ thống của m�
 - Là một hệ thống quản lý hàng đợi xử lý task thời gian thực. Trong hệ thống Celery chúng ta sẽ sử dụng khái niệm task giống như job ở một số framework khác như Sidekiq.
 - Input của celery cần kết nối với một loại message broker còn output có thể kết nối tới một hệ thống backend để lưu trữ kết quả
 
-Các bài toán nên sử dụng Celery
+#### Các bài toán nên sử dụng Celery
 - Chạy background jobs
 - Chạy các job lập lịch
 - Tính toán phân tán
 - Xử lý song song
 
-Các chức năng chính Celery cung cấp
+#### Các chức năng chính Celery cung cấp
 - Monitor: giám sát các job/task được đưa vào queue
 - Scheduling: chạy các task lập lịch (giống cronjob)
 - Workflows: tạo một luồng xử lý task
@@ -35,7 +35,7 @@ Các chức năng chính Celery cung cấp
 - Resource Leak Protection: kiểm soát tài nguyên trong quá trình xử lý task
 - User Component: cho phép người dùng tự customize các worker.
 
-Cơ chế của Celery
+#### Cơ chế của Celery
 - Celery hoạt động dựa trên khái niệm task queue. Đây là cơ chế queue dùng để điều phối các job/work giữa các máy khác nhau. Các worker sẽ nhận task, chạy task và trả về kết quả.
 - Input của queue:
 	+ Task
