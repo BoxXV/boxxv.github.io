@@ -185,6 +185,7 @@ pip install -U Celery
 ### Sử dụng
 - Lựa chọn loại message broker phù hợp với dự án. Như đã nói ở trên Celery hỗ trợ 3 loại message broker là RabbitMQ, Redis, SQS. Mình sẽ đi sâu vào phân tích từng loại message broker trong phần sau về Celery.
 - Tạo một celery worker với task `add`:  
+
 ```python
 from celery Import Celery
 app = Celery('name of module', broker='url_of_broker')
