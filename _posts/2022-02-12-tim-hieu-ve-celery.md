@@ -193,6 +193,7 @@ app = Celery('name of module', broker='url_of_broker')
 def add(x, y):
     return x + y
 ```
+
 - Chạy worker:  
 ```bat
 $ celery -A tasks worker --loglevel=info
