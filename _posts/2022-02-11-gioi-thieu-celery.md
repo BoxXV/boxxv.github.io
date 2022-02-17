@@ -231,9 +231,11 @@ Hãy xem qua tất cả những gì mã này làm:
 - `self.retry()` sẽ thử lại tác vụ. Kwarg `countdown` xác định chúng ta nên đợi bao nhiêu giây trước khi thử lại. Lưu ý rằng chúng tôi xác định nó là một giá trị hàm mũ sẽ tăng lên sau mỗi lần thử lại.
 
 
+## 8. Logging
+Updating: coming soon
 
 
-## 8. Kết luận
+## 9. Kết luận
 Mình vừa giới thiệu cho các bạn về `Celery`, cách cài đặt và demo đơn giản. Hẹn gặp lại các bạn ở những phần nâng cao của Celery.
 
 
