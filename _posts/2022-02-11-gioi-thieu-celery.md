@@ -163,6 +163,34 @@ Nhìn chung, có hai điều có thể xảy ra khi bạn gửi một nhiệm v�
 - Sự cố kết nối với Broker và Message Queue.
 - Các trường hợp ngoại lệ Exceptions xảy ra đối với worker.
 
+May mắn thay, Celery cung cấp cho chúng tôi các công cụ và tùy chọn cần thiết để chúng tôi kiểm soát những gì sẽ xảy ra trong những tình huống này để chúng tôi có thể đảm bảo rằng worker của chúng tôi cố gắng thử lại và thực hiện lại các tác vụ.
+
+#### Retry Connection to Broker with Celery
+
+Vấn đề đầu tiên chúng tôi gặp phải là vấn đề kết nối với broker. Điều này có nghĩa là client thậm chí không thể tự gửi tin nhắn, điều này rõ ràng là một vấn đề quan trọng vì điều đó có thể có nghĩa là tin nhắn đã biến mất.
+
+Điều này không giống như các loại sự cố khác mà sự cố xảy ra sau khi tin nhắn được gửi đi. Trong những trường hợp đó, thông báo ít nhất đã được lưu trữ trong hàng đợi và có thể đợi ở đó cho đến khi các vấn đề về nhân viên của chúng tôi được giải quyết.
+
+Điều này được giải quyết bằng cách kích hoạt `retry=True` trên message và cũng chỉ định chính sách thử lại để xác định cách thực hiện thử lại.
+
+Lưu ý rằng điều này có thể được áp dụng cả trên `task.apply_async()` và dưới `celery.send_task()`, vì vậy nó có thể được thực hiện cả trên các lệnh gọi đến các tác vụ cục bộ mà còn cho các tác vụ từ xa được lưu trữ trong các cơ sở mã khác.
+
+Dưới đây là ví dụ về cách chúng tôi có thể bật thử lại và đặt chính sách thử lại:
+
+```python
+from tasks.celery import app
+
+app.send_task(
+    "foo.task",
+    retry=True,
+    retry_policy=dict(
+        max_retries=3,
+        interval_start=3,
+        interval_step=1,
+        interval_max=6
+    )
+)
+```
 
 
 
