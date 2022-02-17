@@ -14,11 +14,11 @@ Celery là một open source asynchronous task queue or job queue. Nó dễ sử
 
 ![Async task architecture](https://boxxv.github.io/img/posts/1_8728xEI7y5oSQ7YwC6USug.png "Async task architecture")
 
-## 1. Chọn Message Broker
+# 1. Chọn Message Broker
 
 Message broker là nền tảng trung gian giúp giao tiếp giữa 2 ứng dụng. Với Celery, bạn có nhiều lựa chọn:
 
-### RabbitMQ
+## RabbitMQ
 Tính năng hoàn chỉnh, ổn định, bền bỉ và dễ dàng cài đặt là nhưng điều kiện để lựa chọn RabbitMQ.
 
 Nếu bạn đang sử dụng Ubuntu hoặc Debian, hãy cài đặt RabbitMQ bằng cách thực hiện lệnh này:
@@ -33,7 +33,7 @@ $ docker run -d -p 5672:5672 rabbitmq
 
 Sau khi cài đặt xong thì RabbitMQ sẽ chạy ở chế độ background cùng một message: `Starting rabbitmq-server: SUCCESS`
 
-#### Trên Windows
+### Trên Windows
 Đừng lo lắng nếu bạn không chạy Ubuntu hoặc Debian, bạn có thể truy cập trang web này để tìm hướng dẫn cài đặt đơn giản tương tự cho các nền tảng khác, bao gồm Microsoft Windows:  
 [https://www.rabbitmq.com/install-windows.html](https://www.rabbitmq.com/install-windows.html)  
 
@@ -44,7 +44,7 @@ Download and install RabbitMQ
 [https://github.com/rabbitmq/rabbitmq-server/releases](https://github.com/rabbitmq/rabbitmq-server/releases)  
 
 
-### Redis
+## Redis
 Điểm trừ của Redis so với RabbitMQ là có thể mất data nếu bị dừng đột ngột do lỗi nào đó hoặc mất điện.
 
 ```bat
@@ -60,11 +60,11 @@ $ docker run -d -p 6379:6379 redis
 ```
 
 
-### Other brokers
+## Other brokers
 Cũng có thể chọn những dịch vụ Message broker khác từ [Amason SQS](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/sqs.html). Đây là [danh sách các broker](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/index.html) được hỗ trợ trong Celery
 
 
-## 2. Cài đặt
+# 2. Cài đặt
 Có thể cài đặt Celery dễ dàng qua `pip` hoặc `easy_install`:
 ```bat
 $ pip install celery
@@ -76,7 +76,7 @@ $ conda install -c conda-forge celery
 $ conda install -c conda-forge rabbitmq-server
 ```
 
-## 3. Application
+# 3. Application
 Tạo một file `tasks.py` trong thư mục dự án:
 
 ```python
@@ -96,7 +96,7 @@ _Giải thích_: Đối số đầu tiên của *Celery* là tên của module. 
 Sau đó, defined một task có tên `add` nhận 2 tham số đầu vào và trả về tổng giá trị của chúng
 
 
-## 4. Chạy Celery worker server
+# 4. Chạy Celery worker server
 Chạy câu lệnh sau:
 
 ```bat
@@ -120,7 +120,7 @@ $ supervisorctl start/restart/stop celery
 $ supervisorctl tail [-f] celery [stderr]
 ```
 
-## 5. Call task
+# 5. Call task
 
 Để call một task, bạn có thể sử dụng method `delay()`
 ```bat
@@ -131,7 +131,7 @@ $ supervisorctl tail [-f] celery [stderr]
 Sau khi gọi method trên, task vụ được đưa vào thực hiện và bạn có thể confirm tại màn hình console log lúc chạy `Celery` server. Khi gọi hàm trên thì bạn sẽ được trả về một `AsyncResult`. Bạn có thể sử dụng `AsyncResult` để kiểm tra trạng thái của task mình vừa add vào, đợi task hoàn thành hoặc nhận giá trị trả về của task(có thể nhận được ngoại lệ và traceback)
 
 
-## 6. Lưu giữ Result
+# 6. Lưu giữ Result
 
 Mặc định, Celery sẽ không trả về `AsyncResult` nếu không được cấu hình. Để nhận được kết quả khi chạy task bạn cần khai báo như sau:
 ```python
@@ -156,7 +156,7 @@ Nếu muốn handle ngoại lệ, bạn có thể dùng
 Thông tin có nhiều hơn tại [celery.result](https://docs.celeryproject.org/en/latest/reference/celery.result.html#module-celery.result)
 
 
-## 7. Retrying
+# 7. Retrying
 Tính ổn định của các tác vụ nền không đồng bộ là rất quan trọng đối với thiết kế hệ thống của bạn. Khi bạn di chuyển công việc xử lý từ ứng dụng chính và thay vào đó sử dụng một thứ gì đó như Celery, để thực hiện công việc ở chế độ nền, điều quan trọng là bạn có thể cảm thấy tự tin rằng những tác vụ đó được thực thi chính xác mà không cần phải trông nom nó và chờ đợi kết quả.
 
 Nhìn chung, có hai điều có thể xảy ra khi bạn gửi một nhiệm vụ cho Celery worker để xử lý nó trong nền:
@@ -165,7 +165,7 @@ Nhìn chung, có hai điều có thể xảy ra khi bạn gửi một nhiệm v�
 
 May mắn thay, Celery cung cấp cho chúng tôi các công cụ và tùy chọn cần thiết để chúng tôi kiểm soát những gì sẽ xảy ra trong những tình huống này để chúng tôi có thể đảm bảo rằng worker của chúng tôi cố gắng thử lại và thực hiện lại các tác vụ.
 
-### Retry Connection to Broker with Celery
+## Retry Connection to Broker with Celery
 
 Vấn đề đầu tiên chúng tôi gặp phải là vấn đề kết nối với broker. Điều này có nghĩa là client thậm chí không thể tự gửi tin nhắn, điều này rõ ràng là một vấn đề quan trọng vì điều đó có thể có nghĩa là tin nhắn đã biến mất.
 
@@ -199,7 +199,7 @@ Lưu ý rằng kiểu thử lại này chỉ xảy ra khi không gửi được 
 Nếu bạn muốn bật các chính sách thử lại trên globally trong ứng dụng của mình, bạn cũng có thể đặt nó trong [cài đặt Celery](https://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-task_publish_retry) của mình .
 
 
-### Retry Failed Tasks in Celery
+## Retry Failed Tasks in Celery
 
 Loại vấn đề tiếp theo mà chúng tôi có thể gặp phải mà chúng tôi cũng muốn tận dụng các lần thử lại là khi các tác vụ không thành công. Lưu ý rằng kịch bản này hoàn toàn khác so với kịch bản đầu tiên. Trong trường hợp đầu tiên, chúng tôi _không gửi được tin nhắn_ . Trong trường hợp này, chúng tôi _không thực hiện thành công tác vụ_.
 
@@ -208,7 +208,7 @@ Lý do tại sao một nhiệm vụ có thể không thành công thường là 
 Không giống như tình huống đầu tiên chúng tôi yêu cầu client thử gửi lại tác vụ, lần này chúng tôi muốn thêm mã vào chính tác vụ, có nghĩa là, worker sẽ thử lại để thực thi tác vụ, chứ không phải khách hàng thử lại gửi lại nhiệm vụ. Lưu ý sự khác biệt đáng kể này.
 
 
-#### Solution 1: Sử dụng Try/Except Block
+### Solution 1: Sử dụng Try/Except Block
 
 Chúng ta có thể sử dụng khối `Try/Except` trừ để bắt ngoại lệ và retry:
 
@@ -235,7 +235,7 @@ Hãy xem qua tất cả những gì mã này làm:
 - Bất cứ khi nào chúng tôi bắt gặp một ngoại lệ mà chúng tôi không tăng lại và im lặng, chúng tôi muốn đảm bảo rằng chúng tôi ghi lại lỗi bằng cách sử dụng phương pháp `logger.exception()` sẽ bao gồm toàn bộ theo dõi.
 - `self.retry()` sẽ thử lại tác vụ. Kwarg `countdown` xác định chúng ta nên đợi bao nhiêu giây trước khi thử lại. Lưu ý rằng chúng tôi xác định nó là một giá trị hàm mũ sẽ tăng lên sau mỗi lần thử lại.
 
-#### Solution 2: Task Retry Decorator
+### Solution 2: Task Retry Decorator
 
 Celery 4.0 đã thêm hỗ trợ tích hợp để thử lại, vì vậy bạn có thể để bubble ngoại lệ lên và chỉ định trong Decorator cách xử lý nó:
 
@@ -252,7 +252,7 @@ def task_process_notification(self):
 - `autoretry_for` lấy một list/tuple ngoại lệ mà bạn muốn thử lại.
 - `retry_kwargs` có một từ điển các [tùy chọn](https://docs.celeryproject.org/en/latest/userguide/tasks.html#list-of-options) bổ sung để chỉ định cách các truy vấn tự động được thực hiện. Trong ví dụ trên, tác vụ sẽ thử lại sau 5 giây trễ (qua `countdown`) và nó cho phép tối đa 7 lần thử lại (qua `max_retries`). Celery sẽ ngừng thử lại sau 7 lần thử không thành công và đưa ra một ngoại lệ.
 
-##### Backoff theo cấp số nhân
+#### Backoff theo cấp số nhân
 Nếu nhiệm vụ Celery của bạn cần gửi yêu cầu đến dịch vụ của bên thứ ba, bạn nên sử dụng [Backoff theo cấp số nhân](https://en.wikipedia.org/wiki/Exponential_backoff) để tránh áp đảo dịch vụ.
 
 ```python
@@ -275,7 +275,7 @@ Trong ví dụ này, lần thử lại đầu tiên sẽ chạy sau 1 giây, l�
 
 Bạn cũng có thể đặt `retry_backoff` thành một số để sử dụng làm hệ số trễ
 
-##### Ngẫu nhiên
+#### Ngẫu nhiên
 Khi bạn xây dựng chiến lược thử lại tùy chỉnh cho tác vụ Celery của mình (cần gửi yêu cầu đến một dịch vụ khác), bạn nên thêm một số ngẫu nhiên vào tính toán độ trễ để ngăn tất cả các tác vụ được thực hiện đồng thời dẫn đến một [thundering herd](https://en.wikipedia.org/wiki/Thundering_herd_problem).
 
 Celery cũng được bạn đề cập ở đây với `retry_jitter`:
@@ -294,11 +294,11 @@ Tùy chọn này được đặt thành `True` mặc định, giúp ngăn chặn
 
 
 
-## 8. Logging
+# 8. Logging
 Updating: coming soon
 
 
-## 9. Kết luận
+# 9. Kết luận
 Mình vừa giới thiệu cho các bạn về `Celery`, cách cài đặt và demo đơn giản. Hẹn gặp lại các bạn ở những phần nâng cao của Celery.
 
 
