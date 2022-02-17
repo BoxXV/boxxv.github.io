@@ -249,6 +249,21 @@ def task_process_notification(self):
     requests.post('https://httpbin.org/delay/5')
 ```
 
+- `autoretry_for` lấy một list/tuple ngoại lệ mà bạn muốn thử lại.
+- `retry_kwargs` có một từ điển các [tùy chọn](https://docs.celeryproject.org/en/latest/userguide/tasks.html#list-of-options) bổ sung để chỉ định cách các truy vấn tự động được thực hiện. Trong ví dụ trên, tác vụ sẽ thử lại sau 5 giây trễ (qua `countdown`) và nó cho phép tối đa 7 lần thử lại (qua `max_retries`). Celery sẽ ngừng thử lại sau 7 lần thử không thành công và đưa ra một ngoại lệ.
+
+##### Backoff theo cấp số nhân
+Nếu nhiệm vụ Celery của bạn cần gửi yêu cầu đến dịch vụ của bên thứ ba, bạn nên sử dụng [Backoff theo cấp số nhân](https://en.wikipedia.org/wiki/Exponential_backoff) để tránh áp đảo dịch vụ.
+
+```python
+@shared_task(bind=True, autoretry_for=(Exception,), retry_backoff=True, retry_kwargs={'max_retries': 5})
+def task_process_notification(self):
+    if not random.choice([0, 1]):
+        # mimic random error
+        raise Exception()
+
+    requests.post('https://httpbin.org/delay/5')
+```
 
 
 
