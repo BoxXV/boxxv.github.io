@@ -201,6 +201,28 @@ Nếu bạn muốn bật các chính sách thử lại trên globally trong ứn
 
 ### Retry Failed Tasks in Celery
 
+Loại vấn đề tiếp theo mà chúng tôi có thể gặp phải mà chúng tôi cũng muốn tận dụng các lần thử lại là khi các tác vụ không thành công. Lưu ý rằng kịch bản này hoàn toàn khác so với kịch bản đầu tiên. Trong trường hợp đầu tiên, chúng tôi _không gửi được tin nhắn_ . Trong trường hợp này, chúng tôi _không thực hiện thành công tác vụ_.
+
+Lý do tại sao một nhiệm vụ có thể không thành công thường là do một sự cố đã xảy ra trên worker và một Ngoại lệ Exception được đưa ra. Có lẽ có lỗi trong mã, một số service đã hết thời gian chờ hoặc nhu cầu quá cao.
+
+Không giống như tình huống đầu tiên chúng tôi yêu cầu client thử gửi lại tác vụ, lần này chúng tôi muốn thêm mã vào chính tác vụ, có nghĩa là, worker sẽ thử lại để thực thi tác vụ, chứ không phải khách hàng thử lại gửi lại nhiệm vụ. Lưu ý sự khác biệt đáng kể này.
+
+Dưới đây là một ví dụ về cách chúng tôi có thể thử lại một tác vụ khi một Ngoại lệ được nâng lên:
+
+```python
+import logging
+from tasks.celery import app
+
+logger = logging.getLogger(__name__)
+
+@app.task(name="foo.task", bind=True, max_retries=3)
+def foo_task(self):
+    try:
+        execute_something()
+    except Exception as ex:
+        logger.exception(ex)
+        self.retry(countdown=3**self.request.retries)
+```
 
 
 
