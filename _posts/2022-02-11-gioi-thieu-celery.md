@@ -265,6 +265,16 @@ def task_process_notification(self):
     requests.post('https://httpbin.org/delay/5')
 ```
 
+Trong ví dụ này, lần thử lại đầu tiên sẽ chạy sau 1 giây, lần sau sau 2 giây, lần thứ ba sau 4 giây, lần thứ tư sau 8 giây, v.v.:
+
+```bat
+[02:09:59,014: INFO/ForkPoolWorker-8] Task polls.tasks.task_process_notification[fbe041b6-e6c1-453d-9cc9-cb99236df6ff] retry: Retry in 1s: Exception()
+[02:10:00,210: INFO/ForkPoolWorker-2] Task polls.tasks.task_process_notification[fbe041b6-e6c1-453d-9cc9-cb99236df6ff] retry: Retry in 2s: Exception()
+[02:10:02,291: INFO/ForkPoolWorker-4] Task polls.tasks.task_process_notification[fbe041b6-e6c1-453d-9cc9-cb99236df6ff] retry: Retry in 4s: Exception()
+```
+
+Bạn cũng có thể đặt `retry_backoff` thành một số để sử dụng làm hệ số trễ
+
 
 
 ## 8. Logging
