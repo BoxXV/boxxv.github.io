@@ -165,7 +165,7 @@ Nhìn chung, có hai điều có thể xảy ra khi bạn gửi một nhiệm v�
 
 May mắn thay, Celery cung cấp cho chúng tôi các công cụ và tùy chọn cần thiết để chúng tôi kiểm soát những gì sẽ xảy ra trong những tình huống này để chúng tôi có thể đảm bảo rằng worker của chúng tôi cố gắng thử lại và thực hiện lại các tác vụ.
 
-#### Retry Connection to Broker with Celery
+### Retry Connection to Broker with Celery
 
 Vấn đề đầu tiên chúng tôi gặp phải là vấn đề kết nối với broker. Điều này có nghĩa là client thậm chí không thể tự gửi tin nhắn, điều này rõ ràng là một vấn đề quan trọng vì điều đó có thể có nghĩa là tin nhắn đã biến mất.
 
@@ -192,6 +192,16 @@ app.send_task(
 )
 ```
 
+Điều này có nghĩa là nếu kết nối không thành công và chúng tôi không thể gửi tin nhắn đến message queue, chúng tôi sẽ cố gắng thử lại 3 lần. Lần thử lại đầu tiên sẽ diễn ra sau `interval_start` giây, nghĩa là 3 giây. Sau đó, mỗi lỗi bổ sung sẽ đợi thêm `interval_step` 1 giây cho đến khi nó cố gắng gửi lại tin nhắn.
+
+Lưu ý rằng kiểu thử lại này chỉ xảy ra khi không gửi được tin nhắn, không xảy ra khi bản thân tác vụ không thành công và kết thúc bằng một trạng thái `FAILURE`.
+
+Nếu bạn muốn bật các chính sách thử lại trên globally trong ứng dụng của mình, bạn cũng có thể đặt nó trong [cài đặt Celery](https://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-task_publish_retry) của mình .
+
+
+### Retry Failed Tasks in Celery
+
+
 
 
 ## 8. Kết luận
@@ -207,6 +217,7 @@ Tham khảo:
 - [the guide of Celery Redis Django](https://www.codingforentrepreneurs.com/blog/celery-redis-django/)
 - [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 - [Cấu hình Supervisor để chạy Laravel Queue trên linux](https://viblo.asia/p/cau-hinh-supervisor-de-chay-laravel-queue-tren-linux-RQqKLoGN57z)
+- [How to Automatically Retry Failed Tasks with Celery](https://coderbook.com/@marcus/how-to-automatically-retry-failed-tasks-with-celery/)
 
 - [https://github.com/ebysofyan/django-celery-progress-sample](https://github.com/ebysofyan/django-celery-progress-sample)
 - [https://github.com/jessamynsmith/django-celery-example](https://github.com/jessamynsmith/django-celery-example)
