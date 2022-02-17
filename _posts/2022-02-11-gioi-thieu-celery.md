@@ -275,6 +275,23 @@ Trong ví dụ này, lần thử lại đầu tiên sẽ chạy sau 1 giây, l�
 
 Bạn cũng có thể đặt `retry_backoff` thành một số để sử dụng làm hệ số trễ
 
+##### Ngẫu nhiên
+Khi bạn xây dựng chiến lược thử lại tùy chỉnh cho tác vụ Celery của mình (cần gửi yêu cầu đến một dịch vụ khác), bạn nên thêm một số ngẫu nhiên vào tính toán độ trễ để ngăn tất cả các tác vụ được thực hiện đồng thời dẫn đến một [thundering herd](https://en.wikipedia.org/wiki/Thundering_herd_problem).
+
+Celery cũng được bạn đề cập ở đây với `retry_jitter`:
+
+```python
+@shared_task(bind=True, autoretry_for=(Exception,), retry_backoff=5, retry_jitter=True, retry_kwargs={'max_retries': 5})
+def task_process_notification(self):
+    if not random.choice([0, 1]):
+        # mimic random error
+        raise Exception()
+
+    requests.post('https://httpbin.org/delay/5')
+```
+
+Tùy chọn này được đặt thành `True` mặc định, giúp ngăn chặn sự cố đàn sấm sét khi bạn sử dụng cài sẵn của Celery `retry_backoff`.
+
 
 
 ## 8. Logging
