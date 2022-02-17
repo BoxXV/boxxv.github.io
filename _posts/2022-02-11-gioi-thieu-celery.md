@@ -224,6 +224,13 @@ def foo_task(self):
         self.retry(countdown=3**self.request.retries)
 ```
 
+Hãy xem qua tất cả những gì mã này làm:
+- `bind=True` cung cấp cho chúng tôi quyền truy cập vào `self` keyword argument.
+- `max_retries` xác định thời gian tối đa mà tác vụ này có thể được thực thi lại bằng phương thức `self.retry()`.
+- Bất cứ khi nào chúng tôi bắt gặp một ngoại lệ mà chúng tôi không tăng lại và im lặng, chúng tôi muốn đảm bảo rằng chúng tôi ghi lại lỗi bằng cách sử dụng phương pháp `logger.exception()` sẽ bao gồm toàn bộ theo dõi.
+- `self.retry()` sẽ thử lại tác vụ. Kwarg `countdown` xác định chúng ta nên đợi bao nhiêu giây trước khi thử lại. Lưu ý rằng chúng tôi xác định nó là một giá trị hàm mũ sẽ tăng lên sau mỗi lần thử lại.
+
+
 
 
 ## 8. Kết luận
