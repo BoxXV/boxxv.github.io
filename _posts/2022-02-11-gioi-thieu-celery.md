@@ -165,7 +165,7 @@ Nhìn chung, có hai điều có thể xảy ra khi bạn gửi một nhiệm v�
 
 May mắn thay, Celery cung cấp cho chúng tôi các công cụ và tùy chọn cần thiết để chúng tôi kiểm soát những gì sẽ xảy ra trong những tình huống này để chúng tôi có thể đảm bảo rằng worker của chúng tôi cố gắng thử lại và thực hiện lại các tác vụ.
 
-## Retry Connection to Broker with Celery
+## 7.1 Retry Connection to Broker with Celery
 
 Vấn đề đầu tiên chúng tôi gặp phải là vấn đề kết nối với broker. Điều này có nghĩa là client thậm chí không thể tự gửi tin nhắn, điều này rõ ràng là một vấn đề quan trọng vì điều đó có thể có nghĩa là tin nhắn đã biến mất.
 
@@ -199,7 +199,7 @@ Lưu ý rằng kiểu thử lại này chỉ xảy ra khi không gửi được 
 Nếu bạn muốn bật các chính sách thử lại trên globally trong ứng dụng của mình, bạn cũng có thể đặt nó trong [cài đặt Celery](https://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-task_publish_retry) của mình .
 
 
-## Retry Failed Tasks in Celery
+## 7.2 Retry Failed Tasks in Celery
 
 Loại vấn đề tiếp theo mà chúng tôi có thể gặp phải mà chúng tôi cũng muốn tận dụng các lần thử lại là khi các tác vụ không thành công. Lưu ý rằng kịch bản này hoàn toàn khác so với kịch bản đầu tiên. Trong trường hợp đầu tiên, chúng tôi _không gửi được tin nhắn_ . Trong trường hợp này, chúng tôi _không thực hiện thành công tác vụ_.
 
@@ -208,7 +208,7 @@ Lý do tại sao một nhiệm vụ có thể không thành công thường là 
 Không giống như tình huống đầu tiên chúng tôi yêu cầu client thử gửi lại tác vụ, lần này chúng tôi muốn thêm mã vào chính tác vụ, có nghĩa là, worker sẽ thử lại để thực thi tác vụ, chứ không phải khách hàng thử lại gửi lại nhiệm vụ. Lưu ý sự khác biệt đáng kể này.
 
 
-### Solution 1: Sử dụng Try/Except Block
+### 7.2.1 - Solution 1: Sử dụng Try/Except Block
 
 Chúng ta có thể sử dụng khối `Try/Except` trừ để bắt ngoại lệ và retry:
 
@@ -235,7 +235,7 @@ Hãy xem qua tất cả những gì mã này làm:
 - Bất cứ khi nào chúng tôi bắt gặp một ngoại lệ mà chúng tôi không tăng lại và im lặng, chúng tôi muốn đảm bảo rằng chúng tôi ghi lại lỗi bằng cách sử dụng phương pháp `logger.exception()` sẽ bao gồm toàn bộ theo dõi.
 - `self.retry()` sẽ thử lại tác vụ. Kwarg `countdown` xác định chúng ta nên đợi bao nhiêu giây trước khi thử lại. Lưu ý rằng chúng tôi xác định nó là một giá trị hàm mũ sẽ tăng lên sau mỗi lần thử lại.
 
-### Solution 2: Task Retry Decorator
+### 7.2.2 - Solution 2: Task Retry Decorator
 
 Celery 4.0 đã thêm hỗ trợ tích hợp để thử lại, vì vậy bạn có thể để bubble ngoại lệ lên và chỉ định trong Decorator cách xử lý nó:
 
