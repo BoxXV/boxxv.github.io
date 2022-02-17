@@ -207,6 +207,11 @@ Lý do tại sao một nhiệm vụ có thể không thành công thường là 
 
 Không giống như tình huống đầu tiên chúng tôi yêu cầu client thử gửi lại tác vụ, lần này chúng tôi muốn thêm mã vào chính tác vụ, có nghĩa là, worker sẽ thử lại để thực thi tác vụ, chứ không phải khách hàng thử lại gửi lại nhiệm vụ. Lưu ý sự khác biệt đáng kể này.
 
+
+#### Solution 1: Sử dụng Try/Except Block
+
+Chúng ta có thể sử dụng khối `Try/Except` trừ để bắt ngoại lệ và retry:
+
 Dưới đây là một ví dụ về cách chúng tôi có thể thử lại một tác vụ khi một Ngoại lệ được nâng lên:
 
 ```python
@@ -225,10 +230,26 @@ def foo_task(self):
 ```
 
 Hãy xem qua tất cả những gì mã này làm:
-- `bind=True` cung cấp cho chúng tôi quyền truy cập vào `self` keyword argument.
+- `bind=True` đây là một tác vụ bị ràng buộc, cung cấp cho chúng tôi quyền truy cập vào `self` keyword argument.
 - `max_retries` xác định thời gian tối đa mà tác vụ này có thể được thực thi lại bằng phương thức `self.retry()`.
 - Bất cứ khi nào chúng tôi bắt gặp một ngoại lệ mà chúng tôi không tăng lại và im lặng, chúng tôi muốn đảm bảo rằng chúng tôi ghi lại lỗi bằng cách sử dụng phương pháp `logger.exception()` sẽ bao gồm toàn bộ theo dõi.
 - `self.retry()` sẽ thử lại tác vụ. Kwarg `countdown` xác định chúng ta nên đợi bao nhiêu giây trước khi thử lại. Lưu ý rằng chúng tôi xác định nó là một giá trị hàm mũ sẽ tăng lên sau mỗi lần thử lại.
+
+#### Solution 2: Task Retry Decorator
+
+Celery 4.0 đã thêm hỗ trợ tích hợp để thử lại, vì vậy bạn có thể để bubble ngoại lệ lên và chỉ định trong Decorator cách xử lý nó:
+
+```python
+@shared_task(bind=True, autoretry_for=(Exception,), retry_kwargs={'max_retries': 7, 'countdown': 5})
+def task_process_notification(self):
+    if not random.choice([0, 1]):
+        # mimic random error
+        raise Exception()
+
+    requests.post('https://httpbin.org/delay/5')
+```
+
+
 
 
 ## 8. Logging
