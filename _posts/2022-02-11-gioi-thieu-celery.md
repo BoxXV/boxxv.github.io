@@ -156,7 +156,17 @@ Nếu muốn handle ngoại lệ, bạn có thể dùng
 Thông tin có nhiều hơn tại [celery.result](https://docs.celeryproject.org/en/latest/reference/celery.result.html#module-celery.result)
 
 
-## 7. Kết luận
+## 7. Retrying
+Tính ổn định của các tác vụ nền không đồng bộ là rất quan trọng đối với thiết kế hệ thống của bạn. Khi bạn di chuyển công việc xử lý từ ứng dụng chính và thay vào đó sử dụng một thứ gì đó như Celery, để thực hiện công việc ở chế độ nền, điều quan trọng là bạn có thể cảm thấy tự tin rằng những tác vụ đó được thực thi chính xác mà không cần phải trông nom nó và chờ đợi kết quả.
+
+Nhìn chung, có hai điều có thể xảy ra khi bạn gửi một nhiệm vụ cho Celery worker để xử lý nó trong nền:
+- Sự cố kết nối với Broker và Message Queue.
+- Các trường hợp ngoại lệ Exceptions xảy ra đối với worker.
+
+
+
+
+## 8. Kết luận
 Mình vừa giới thiệu cho các bạn về `Celery`, cách cài đặt và demo đơn giản. Hẹn gặp lại các bạn ở những phần nâng cao của Celery.
 
 
