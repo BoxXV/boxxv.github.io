@@ -292,6 +292,21 @@ def task_process_notification(self):
 
 Tùy chọn này được đặt thành `True` mặc định, giúp ngăn chặn sự cố đàn sấm sét khi bạn sử dụng cài sẵn của Celery `retry_backoff`.
 
+#### Task Base Class
+Nếu bạn thấy mình đang viết các đối số thử lại giống nhau trong trình trang trí tác vụ Celery của mình, bạn có thể (kể từ [Celery 4.4](https://docs.celeryproject.org/en/v4.4.4/whatsnew-4.4.html#task-class-definitions-can-now-have-retry-attributes) ) xác định các đối số thử lại trong một lớp cơ sở, sau đó bạn có thể sử dụng làm lớp cơ sở trong các tác vụ Celery của mình:
+
+```python
+class BaseTaskWithRetry(celery.Task):
+    autoretry_for = (Exception, KeyError)
+    retry_kwargs = {'max_retries': 5}
+    retry_backoff = True
+
+@shared_task(bind=True, base=BaseTaskWithRetry)
+def task_process_notification(self):
+    raise Exception()
+```
+
+Một lần nữa, mã nguồn của bài viết này có thể được tìm thấy trên [GitHub](https://github.com/testdrivenio/django-celery-project).
 
 
 # 8. Logging
