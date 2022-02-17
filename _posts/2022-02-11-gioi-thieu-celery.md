@@ -327,7 +327,8 @@ Tham khảo:
 - [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
 - [Cấu hình Supervisor để chạy Laravel Queue trên linux](https://viblo.asia/p/cau-hinh-supervisor-de-chay-laravel-queue-tren-linux-RQqKLoGN57z)
 - [How to Automatically Retry Failed Tasks with Celery](https://coderbook.com/@marcus/how-to-automatically-retry-failed-tasks-with-celery/)
-
+- [Automatically Retrying Failed Celery Tasks](https://testdriven.io/blog/retrying-failed-celery-tasks/)
+-----
 - [https://github.com/ebysofyan/django-celery-progress-sample](https://github.com/ebysofyan/django-celery-progress-sample)
 - [https://github.com/jessamynsmith/django-celery-example](https://github.com/jessamynsmith/django-celery-example)
 - [https://github.com/engineervix/django-celery-sample](https://github.com/engineervix/django-celery-sample)
