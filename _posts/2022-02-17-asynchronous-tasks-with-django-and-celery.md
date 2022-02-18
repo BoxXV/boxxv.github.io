@@ -163,6 +163,72 @@ Một lần nữa, hãy kill the process khi hoàn tất.
 
 ## Celery Tasks
 
+Celery sử dụng các [tác vụ](https://docs.celeryproject.org/en/latest/userguide/tasks.html), có thể được coi là các hàm Python thông thường được gọi với Celery.
+
+Ví dụ: hãy biến chức năng cơ bản này thành một tác vụ Celery:
+
+```python
+def add(x, y):
+    return x + y
+```
+
+Đầu tiên, hãy thêm một decorator:
+
+```python
+from celery.decorators import task
+
+@task(name="sum_two_numbers")
+def add(x, y):
+    return x + y
+```
+
+Sau đó, bạn có thể chạy tác vụ này không đồng bộ với Celery như sau:
+
+```bat
+add.delay(7, 8)
+```
+
+Đơn giản, phải không?
+
+Vì vậy, những loại tác vụ này hoàn toàn phù hợp khi bạn muốn tải một trang web mà không bắt người dùng phải đợi một số quá trình nền hoàn thành.
+
+Hãy xem một ví dụ…
+
+-----
+
+Quay trở lại Dự án Django, lấy [phiên bản v3](https://github.com/realpython/Picha/releases/tag/v3), bao gồm một ứng dụng chấp nhận phản hồi từ người dùng, được gọi là `feedback`:
+
+```bat
+├── feedback
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── emails.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── manage.py
+├── picha
+│   ├── __init__.py
+│   ├── celery.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── requirements.txt
+└── templates
+    ├── base.html
+    └── feedback
+        ├── contact.html
+        └── email
+            ├── feedback_email_body.txt
+            └── feedback_email_subject.txt
+```
+
+Cài đặt các yêu cầu mới, kích hoạt ứng dụng và điều hướng đến (http://localhost:8000/feedback/)[http://localhost:8000/feedback/]. Bạn nên thấy:
+
+![Async task architecture](https://boxxv.github.io/img/posts/feedback-app.webp "Async task architecture")
+
+
 
 
 
