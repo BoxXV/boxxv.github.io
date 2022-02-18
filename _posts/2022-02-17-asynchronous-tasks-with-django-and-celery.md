@@ -396,6 +396,76 @@ Vậy là xong, bạn đã thiết lập và chạy dự án Picha!
 Điều này tốt để thử nghiệm trong khi phát triển Dự án Django của bạn tại locally, nhưng không hoạt động tốt khi bạn cần triển khai sang sản phẩm thực tế - có lẽ như trên [DigitalOcean](https://www.digitalocean.com/). Vì vậy, bạn nên chạy Celery worker và lập lịch trong nền dưới dạng `daemon` với [`Supervisor`](http://supervisord.org/).
 
 
+## 6. Running Remotely
+
+Cài đặt rất đơn giản. Lấy [phiên bản v5](https://github.com/realpython/Picha/releases/tag/v5) từ repo (nếu bạn chưa có). Sau đó, SSH vào máy chủ từ xa của bạn và chạy:
+
+```bat
+$ sudo apt-get install supervisor
+```
+
+Sau đó, chúng tôi cần thông báo cho Supervisor về Celery workers của chúng tôi bằng cách thêm tệp cấu hình vào thư mục `/etc/supervisor/conf.d/` trên máy chủ từ xa. Trong trường hợp của chúng tôi, chúng tôi cần hai tệp cấu hình như vậy - một cho `Celery worker` và một cho `Celery Scheduler`.
+
+Tại local, hãy tạo một thư mục có tên là `“supervisor”` trong thư mục gốc của dự án. Sau đó, thêm các tệp sau…
+
+*Celery Worker: _picha_celery.conf_*
+
+```bat
+; ==================================
+;  celery worker supervisor example
+; ==================================
+
+; the name of your supervisord program
+[program:pichacelery]
+
+; Set full path to celery program if using virtualenv
+command=/home/mosh/.virtualenvs/picha/bin/celery worker -A picha --loglevel=INFO
+
+; The directory to your Django project
+directory=/home/mosh/sites/picha
+
+; If supervisord is run as the root user, switch users to this UNIX user account
+; before doing any processing.
+user=mosh
+
+; Supervisor will start as many instances of this program as named by numprocs
+numprocs=1
+
+; Put process stdout output in this file
+stdout_logfile=/var/log/celery/picha_worker.log
+
+; Put process stderr output in this file
+stderr_logfile=/var/log/celery/picha_worker.log
+
+; If true, this program will start automatically when supervisord is started
+autostart=true
+
+; May be one of false, unexpected, or true. If false, the process will never
+; be autorestarted. If unexpected, the process will be restart when the program
+; exits with an exit code that is not one of the exit codes associated with this
+; process’ configuration (see exitcodes). If true, the process will be
+; unconditionally restarted when it exits, without regard to its exit code.
+autorestart=true
+
+; The total number of seconds which the program needs to stay running after
+; a startup to consider the start successful.
+startsecs=10
+
+; Need to wait for currently executing tasks to finish at shutdown.
+; Increase this if you have very long running tasks.
+stopwaitsecs = 600
+
+; When resorting to send SIGKILL to the program to terminate it
+; send SIGKILL to its whole process group instead,
+; taking care of its children as well.
+killasgroup=true
+
+; if your broker is supervised, set its priority higher
+; so it starts first
+priority=998
+```
+
+
 
 
 -----
