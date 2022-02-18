@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Giới thiệu Celery
-subtitle: Distributed Task Queue
+subtitle: Giới thiệu Celery 5 mới nhất 2022
 
 tags:
 - Celery
