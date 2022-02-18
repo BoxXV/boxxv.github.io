@@ -69,10 +69,43 @@ def debug_task(self):
     print('Request: {0!r}'.format(self.request))
 ```
 
+Hãy ghi chú các nhận xét trong mã.
 
+### Bước 2: Import ứng dụng Celery mới của bạn
 
+Để đảm bảo rằng ứng dụng Celery được tải khi Django khởi động, hãy thêm mã sau vào tệp `__init__.py` nằm bên cạnh tệp `settings.py` của bạn:
 
+```python
+from __future__ import absolute_import
 
+# This will make sure the app is always imported when
+# Django starts so that shared_task will use this app.
+from .celery import app as celery_app
+```
+
+Sau khi thực hiện điều đó, [bố cục dự án](https://realpython.com/python-application-layouts/) của bạn bây giờ sẽ giống như sau:
+
+```bat
+helloworld/
+│
+├── .gitignore
+├── helloworld.py
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── setup.py
+└── tests.py
+```
+
+### Bước 3: Cài đặt Redis với tư cách là Celery “Broker”
+
+Celery sử dụng "[brokers](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/index.html)" để chuyển các thông điệp giữa Dự án Django và các [workers](https://docs.celeryproject.org/en/latest/userguide/workers.html) Celery . Trong hướng dẫn này, chúng tôi sẽ sử dụng `Redis` làm message broker.
+
+Đầu tiên, cài đặt [Redis](https://redis.io) từ trang tải xuống chính thức hoặc qua brew (`brew install redis`), sau đó chuyển sang terminal của bạn, trong cửa sổ đầu cuối mới, kích hoạt máy chủ:
+
+```bat
+$ redis-server
+```
 
 
 
