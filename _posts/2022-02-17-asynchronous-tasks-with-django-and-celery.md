@@ -513,6 +513,44 @@ startsecs=10
 priority=999
 ```
 
+> Đảm bảo cập nhật đường dẫn trong các tệp này để khớp với hệ thống tệp của máy chủ từ xa.
+
+Về cơ bản, các tệp cấu hình supervisor này cho supervisor biết cách chạy và quản lý các 'chương trình' của chúng ta (như chúng được gọi bởi supervisor).
+
+Trong các ví dụ trên, chúng tôi đã tạo hai chương trình giám sát có tên là `“pichacelery”` và `“pichacelerybeat”`.
+
+Bây giờ chỉ cần sao chép các tệp này vào máy chủ từ xa trong thư mục `“/etc/supervisor/conf.d/”`.
+
+Chúng tôi cũng cần tạo các tệp nhật ký được đề cập trong các tập lệnh trên trên máy chủ từ xa:
+
+```bat
+$ touch /var/log/celery/picha_worker.log
+$ touch /var/log/celery/picha_beat.log
+```
+
+Cuối cùng, chạy các lệnh sau để làm cho Supervisor biết về các chương trình - ví dụ: `pichacelery` và `pichacelerybeat`:
+
+```bat
+$ sudo supervisorctl reread
+$ sudo supervisorctl update
+```
+
+Chạy các lệnh sau để dừng, bắt đầu và / hoặc kiểm tra trạng thái của pichacelerychương trình:
+
+```bat
+$ sudo supervisorctl stop pichacelery
+$ sudo supervisorctl start pichacelery
+$ sudo supervisorctl status pichacelery
+```
+
+Bạn có thể đọc thêm về Người giám sát từ [tài liệu chính thức](http://supervisord.org/).
+
+
+## Lời khuyên cuối cùng
+
+- 1. Không chuyển các đối tượng mô hình Django cho các tác vụ Celery. Để tránh trường hợp đối tượng mô hình đã thay đổi trước khi nó được chuyển cho một tác vụ Celery, hãy chuyển khóa chính của đối tượng cho Celery. Tất nhiên, sau đó bạn sẽ phải sử dụng khóa chính để lấy đối tượng từ cơ sở dữ liệu trước khi làm việc với nó.
+- 2. Bộ lập lịch Celery mặc định tạo một số tệp để lưu trữ cục bộ lịch biểu của nó. Các tệp này sẽ là “celerybeat-calendar.db” và “celerybeat.pid”. Nếu bạn đang sử dụng hệ thống kiểm soát phiên bản như Git (bạn nên làm như vậy!), Bạn nên bỏ qua các tệp này và không thêm chúng vào kho lưu trữ của bạn vì chúng dành cho các quy trình đang chạy cục bộ.
+
 
 
 
