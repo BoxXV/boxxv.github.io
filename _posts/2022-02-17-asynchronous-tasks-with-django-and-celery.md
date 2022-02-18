@@ -551,8 +551,15 @@ Bạn có thể đọc thêm về Người giám sát từ [tài liệu chính t
 - 1. Không chuyển các đối tượng mô hình Django cho các tác vụ Celery. Để tránh trường hợp đối tượng mô hình đã thay đổi trước khi nó được chuyển cho một tác vụ Celery, hãy chuyển khóa chính của đối tượng cho Celery. Tất nhiên, sau đó bạn sẽ phải sử dụng khóa chính để lấy đối tượng từ cơ sở dữ liệu trước khi làm việc với nó.
 - 2. Bộ lập lịch Celery mặc định tạo một số tệp để lưu trữ cục bộ lịch biểu của nó. Các tệp này sẽ là “celerybeat-calendar.db” và “celerybeat.pid”. Nếu bạn đang sử dụng hệ thống kiểm soát phiên bản như Git (bạn nên làm như vậy!), Bạn nên bỏ qua các tệp này và không thêm chúng vào kho lưu trữ của bạn vì chúng dành cho các quy trình đang chạy cục bộ.
 
+Đó là phần giới thiệu cơ bản để tích hợp Cần tây vào Dự án Django.
+
+### Bước tiếp theo
+- 1. Đi sâu vào [Hướng dẫn sử dụng Celery](http://celery.readthedocs.org/en/latest/userguide/) chính thức để tìm hiểu thêm.
+- 2. Tạo [Fabfile](https://www.fabfile.org) để thiết lập Supervisor và các tệp cấu hình. Đảm bảo thêm các lệnh vào `reread` và `update` Người giám sát.
+- 3. Chuyển Dự án khỏi [repo](https://github.com/realpython/Picha) và mở Yêu cầu kéo để thêm nhiệm vụ Cần tây mới.
 
 
+Chúc bạn viết mã vui vẻ!
 
 -----
 Tham khảo:
