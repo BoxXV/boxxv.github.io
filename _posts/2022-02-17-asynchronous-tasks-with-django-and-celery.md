@@ -296,6 +296,49 @@ def some_task():
     # do something
 ```
 
+Hãy xem ví dụ mạnh mẽ hơn bằng cách thêm chức năng này vào Dự án Django…
+
+-----
+
+Quay lại Dự án Django, lấy [phiên bản v4](https://github.com/realpython/Picha/releases/tag/v4), bao gồm một ứng dụng mới khác, được gọi là `photos`, sử dụng [API Flickr](https://www.flickr.com/services/api/) để tải ảnh mới hiển thị trên trang web:
+
+```bat
+├── feedback
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── emails.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tasks.py
+│   ├── tests.py
+│   └── views.py
+├── manage.py
+├── photos
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── models.py
+│   ├── settings.py
+│   ├── tests.py
+│   ├── utils.py
+│   └── views.py
+├── picha
+│   ├── __init__.py
+│   ├── celery.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── requirements.txt
+└── templates
+    ├── base.html
+    ├── feedback
+    │   ├── contact.html
+    │   └── email
+    │       ├── feedback_email_body.txt
+    │       └── feedback_email_subject.txt
+    └── photos
+        └── photo_list.html
+```
+
 
 
 
