@@ -14,7 +14,7 @@ tags:
 - Supervisor
 ---
 
-## Giới thiệu
+## 0. Giới thiệu
 Khi tôi mới làm quen với Django, một trong những điều khó chịu nhất mà tôi trải qua là phải chạy một chút mã định kỳ. Tôi đã viết một hàm hay thực hiện một hành động cần chạy hàng ngày lúc 12 giờ sáng. Dễ dàng, phải không? Sai. Điều này hóa ra là một vấn đề lớn đối với tôi vì vào thời điểm đó tôi đã quen với việc lưu trữ web "Cpanel-type", nơi có một GUI tiện dụng tốt đẹp để thiết lập cron job cho mục đích này.
 
 Sau nhiều nghiên cứu, tôi đã tìm ra một giải pháp hay — Celery, một hàng đợi công việc không đồng bộ mạnh mẽ được sử dụng để chạy các tác vụ trong nền. Nhưng điều này dẫn đến các vấn đề khác, vì tôi không thể tìm thấy một bộ hướng dẫn dễ dàng để tích hợp Celery vào Dự án Django.
@@ -22,7 +22,7 @@ Sau nhiều nghiên cứu, tôi đã tìm ra một giải pháp hay — Celery, 
 Tất nhiên, cuối cùng tôi đã cố gắng tìm ra nó — đó là nội dung mà bài viết này sẽ đề cập: *Cách tích hợp Celery vào Dự án Django và tạo Nhiệm vụ định kỳ*.
 
 
-## What is Celery?
+## 1. What is Celery?
 
 “Celery là một hàng đợi nhiệm vụ/hàng đợi công việc không đồng bộ dựa trên việc truyền thông điệp phân tán. Nó tập trung vào hoạt động thời gian thực, nhưng cũng hỗ trợ lập lịch trình.” Đối với bài đăng này, chúng tôi sẽ tập trung vào tính năng lập lịch để chạy một công việc/nhiệm vụ theo định kỳ.
 
@@ -31,7 +31,7 @@ Tại sao điều này lại hữu ích?
 - Bạn không bao giờ muốn người dùng cuối phải đợi các trang tải hoặc các hành động hoàn thành một cách không cần thiết. Nếu quy trình dài là một phần của quy trình làm việc của ứng dụng, bạn có thể sử dụng Celery để thực thi quy trình đó trong nền, khi các tài nguyên trở nên sẵn có, để ứng dụng của bạn có thể tiếp tục phản hồi các yêu cầu của khách hàng. Điều này giữ cho nhiệm vụ nằm ngoài ngữ cảnh của ứng dụng.
 
 
-## Setup
+## 2. Setup
 
 Trước khi tìm hiểu về Celery, hãy lấy dự án khởi đầu từ [repo Github](https://github.com/realpython/Picha/releases/tag/v1). Đảm bảo kích hoạt `virtualenv`, cài đặt các yêu cầu và [chạy quá trình migrations](https://realpython.com/django-migrations-a-primer/). Sau đó khởi động máy chủ và điều hướng đến [http://localhost:8000/](http://localhost:8000/) trong trình duyệt của bạn. Bạn sẽ thấy dòng chữ quen thuộc “Congratulations on your first Django-powered page”. Khi hoàn tất, kill the server.
 
@@ -161,7 +161,7 @@ Bùm!
 Một lần nữa, hãy kill the process khi hoàn tất.
 
 
-## Celery Tasks
+## 3. Celery Tasks
 
 Celery sử dụng các [tác vụ](https://docs.celeryproject.org/en/latest/userguide/tasks.html), có thể được coi là các hàm Python thông thường được gọi với Celery.
 
@@ -278,7 +278,7 @@ Về bản chất, `send_feedback_email_task.delay(email, message)` chức năng
 > *LƯU Ý*: `success_url` trong `views.py` được đặt để chuyển hướng người dùng đến `/`, chưa tồn tại. Chúng tôi sẽ thiết lập điểm cuối này trong phần tiếp theo.
 
 
-### Nhiệm vụ định kỳ
+## 4. Nhiệm vụ định kỳ
 
 Thông thường, bạn sẽ cần phải lên lịch một tác vụ để chạy vào một thời điểm cụ thể thường xuyên - ví dụ, một trình duyệt [web scraper](https://realpython.com/python-web-scraping-practical-introduction/) có thể cần chạy hàng ngày. Những nhiệm vụ như vậy, được gọi là [nhiệm vụ định kỳ](https://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html), rất dễ thiết lập với Celery.
 
@@ -371,6 +371,19 @@ def task_save_latest_flickr_image():
     logger.info("Saved image from Flickr")
 ```
 
+Ở đây, chúng tôi chạy hàm `save_latest_flickr_image()` mười lăm phút một lần bằng cách gói lệnh gọi hàm trong `task`. decorator `@periodic_task` sẽ tóm tắt mã để chạy tác vụ Celery, để lại tệp `task.py` sạch sẽ và dễ đọc!
+
+
+## 5. Running Locally
+
+Sẵn sàng để chạy điều này?
+
+Với Ứng dụng Django và Redis của bạn đang chạy, hãy mở terminal windows/tabs. mới. Trong mỗi cửa sổ mới, điều hướng đến thư mục dự án của bạn, kích hoạt `virtualenv` của bạn, sau đó chạy các lệnh sau (một lệnh trong mỗi cửa sổ):
+
+```bat
+$ celery -A picha worker -l info
+$ celery -A picha beat -l info
+```
 
 
 
