@@ -309,11 +309,35 @@ def task_process_notification(self):
 Một lần nữa, mã nguồn của bài viết này có thể được tìm thấy trên [GitHub](https://github.com/testdrivenio/django-celery-project).
 
 
-# 8. Logging
+# 8. Synchronously
+Chỉ cần đặt cài đặt [`CELERY_ALWAYS_EAGER`](https://docs.celeryproject.org/en/stable/userguide/configuration.html?highlight=CELERY_ALWAYS_EAGER#std-setting-task_always_eager) thành `true`, điều này sẽ buộc Celery không xếp các tác vụ và chạy chúng đồng bộ trong quy trình hiện tại.
+
+Nếu bạn muốn có thể thực hiện theo từng tác vụ cụ thể, bạn có thể chạy chúng với `apply()` hoặc `run()` như bạn đã đề cập, thay vì chạy chúng với `apply_async()` hoặc `delay()`.
+
+```python
+CELERY_ALWAYS_EAGER = True
+
+# Hai điều sau sẽ làm và hoạt động giống nhau, xử lý đồng bộ (Synchronously)
+my_task.run() 
+my_task.delay()
+```
+
+Nhưng:
+
+```python
+CELERY_ALWAYS_EAGER = False
+
+# Hai cái này sẽ không còn giống nhau nữa.
+my_task.run()		# Chạy đồng bộ (Synchronously)
+my_task.delay()		# Được chuyển vào hàng đợi và chạy Không đồng bộ, trong một quá trình khác (Asynchronously)
+```
+
+
+# 9. Logging
 Updating: coming soon
 
 
-# 9. Kết luận
+# 10. Kết luận
 Mình vừa giới thiệu cho các bạn về `Celery`, cách cài đặt và demo đơn giản. Hẹn gặp lại các bạn ở những phần nâng cao của Celery.
 
 
