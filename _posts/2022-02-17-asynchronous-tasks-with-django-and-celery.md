@@ -127,6 +127,41 @@ CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = 'Africa/Nairobi'
 ```
 
+Bạn cũng cần thêm Redis làm phụ thuộc trong Dự án Django:
+
+```bat
+$ pip install redis==2.10.3
+$ pip freeze > requirements.txt
+```
+
+Đó là nó! Bây giờ bạn có thể sử dụng Celery với Django. Để biết thêm thông tin về cách thiết lập Celery với Django, vui lòng xem [tài liệu chính thức](https://docs.celeryproject.org/en/latest/django/first-steps-with-django.html#using-celery-with-django) về Celery.
+
+Trước khi tiếp tục, hãy chạy một vài kiểm tra sự tỉnh táo để đảm bảo tất cả đều tốt…
+
+Kiểm tra xem Celery worker đã sẵn sàng nhận nhiệm vụ chưa:
+
+```bat
+$ celery -A picha worker -l info
+...
+[2015-07-07 14:07:07,398: INFO/MainProcess] Connected to redis://localhost:6379//
+[2015-07-07 14:07:07,410: INFO/MainProcess] mingle: searching for neighbors
+[2015-07-07 14:07:08,419: INFO/MainProcess] mingle: all alone
+```
+
+Kill the process bằng CTRL-C. Bây giờ, hãy kiểm tra xem bộ lập lịch tác vụ Celery đã sẵn sàng hoạt động chưa:
+
+```bat
+$ celery -A picha beat -l info
+...
+[2015-07-07 14:08:23,054: INFO/MainProcess] beat: Starting...
+```
+
+Bùm!
+
+Một lần nữa, hãy kill the process khi hoàn tất.
+
+
+## Celery Tasks
 
 
 
