@@ -33,7 +33,7 @@ Tại sao điều này lại hữu ích?
 
 ## Setup
 
-Trước khi tìm hiểu về Celery, hãy lấy dự án khởi đầu từ [repo Github](https://github.com/realpython/Picha/releases/tag/v1). Đảm bảo kích hoạt `virtualenv`, cài đặt các yêu cầu và [chạy quá trình di chuyển](https://realpython.com/django-migrations-a-primer/). Sau đó khởi động máy chủ và điều hướng đến [http://localhost:8000/](http://localhost:8000/) trong trình duyệt của bạn. Bạn sẽ thấy dòng chữ quen thuộc “Congratulations on your first Django-powered page”. Khi hoàn tất, kill the server.
+Trước khi tìm hiểu về Celery, hãy lấy dự án khởi đầu từ [repo Github](https://github.com/realpython/Picha/releases/tag/v1). Đảm bảo kích hoạt `virtualenv`, cài đặt các yêu cầu và [chạy quá trình migrations](https://realpython.com/django-migrations-a-primer/). Sau đó khởi động máy chủ và điều hướng đến [http://localhost:8000/](http://localhost:8000/) trong trình duyệt của bạn. Bạn sẽ thấy dòng chữ quen thuộc “Congratulations on your first Django-powered page”. Khi hoàn tất, kill the server.
 
 Tiếp theo, hãy cài đặt Celery bằng cách sử dụng pip:
 
@@ -338,6 +338,39 @@ Quay lại Dự án Django, lấy [phiên bản v4](https://github.com/realpytho
     └── photos
         └── photo_list.html
 ```
+
+Cài đặt các yêu cầu mới, chạy quá trình migrations và sau đó khởi động máy chủ để đảm bảo tất cả đều ổn. Hãy thử kiểm tra lại biểu mẫu `feedback`. Lần này nó sẽ chuyển hướng tốt.
+
+Cái gì tiếp theo?
+
+Chà, vì chúng tôi cần gọi API Flickr định kỳ để thêm nhiều ảnh hơn vào trang web của mình, chúng tôi có thể thêm tác vụ Celery.
+
+### Add the Task
+
+Thêm một `task.py` vào ứng dụng `photos`:
+
+```python
+from celery.task.schedules import crontab
+from celery.decorators import periodic_task
+from celery.utils.log import get_task_logger
+
+from photos.utils import save_latest_flickr_image
+
+logger = get_task_logger(__name__)
+
+@periodic_task(
+    run_every=(crontab(minute='*/15')),
+    name="task_save_latest_flickr_image",
+    ignore_result=True
+)
+def task_save_latest_flickr_image():
+    """
+    Saves latest image from Flickr
+    """
+    save_latest_flickr_image()
+    logger.info("Saved image from Flickr")
+```
+
 
 
 
