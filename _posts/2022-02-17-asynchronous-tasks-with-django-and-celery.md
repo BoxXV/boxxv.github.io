@@ -19,7 +19,7 @@ Khi tôi mới làm quen với Django, một trong những điều khó chịu n
 
 Sau nhiều nghiên cứu, tôi đã tìm ra một giải pháp hay — Celery, một hàng đợi công việc không đồng bộ mạnh mẽ được sử dụng để chạy các tác vụ trong nền. Nhưng điều này dẫn đến các vấn đề khác, vì tôi không thể tìm thấy một bộ hướng dẫn dễ dàng để tích hợp Celery vào Dự án Django.
 
-Tất nhiên, cuối cùng tôi đã cố gắng tìm ra nó — đó là nội dung mà bài viết này sẽ đề cập: `Cách tích hợp Celery vào Dự án Django và tạo Nhiệm vụ định kỳ`.
+Tất nhiên, cuối cùng tôi đã cố gắng tìm ra nó — đó là nội dung mà bài viết này sẽ đề cập: *Cách tích hợp Celery vào Dự án Django và tạo Nhiệm vụ định kỳ*.
 
 
 ## What is Celery?
@@ -105,6 +105,26 @@ Celery sử dụng "[brokers](https://docs.celeryproject.org/en/latest/getting-s
 
 ```bat
 $ redis-server
+```
+
+Bạn có thể kiểm tra xem Redis có hoạt động bình thường không bằng cách nhập mã này vào terminal của bạn:
+
+```bat
+$ redis-cli ping
+```
+
+Redis nên trả lời bằng PONG - try it!
+
+Sau khi Redis hoạt động, hãy thêm mã sau vào tệp settings.py của bạn:
+
+```python
+# CELERY STUFF
+BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Africa/Nairobi'
 ```
 
 
