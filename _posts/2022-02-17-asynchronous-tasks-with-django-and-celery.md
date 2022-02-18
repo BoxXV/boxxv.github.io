@@ -31,6 +31,49 @@ Tại sao điều này lại hữu ích?
 - Bạn không bao giờ muốn người dùng cuối phải đợi các trang tải hoặc các hành động hoàn thành một cách không cần thiết. Nếu quy trình dài là một phần của quy trình làm việc của ứng dụng, bạn có thể sử dụng Celery để thực thi quy trình đó trong nền, khi các tài nguyên trở nên sẵn có, để ứng dụng của bạn có thể tiếp tục phản hồi các yêu cầu của khách hàng. Điều này giữ cho nhiệm vụ nằm ngoài ngữ cảnh của ứng dụng.
 
 
+## Setup
+
+Trước khi tìm hiểu về Celery, hãy lấy dự án khởi đầu từ [repo Github](https://github.com/realpython/Picha/releases/tag/v1). Đảm bảo kích hoạt `virtualenv`, cài đặt các yêu cầu và [chạy quá trình di chuyển](https://realpython.com/django-migrations-a-primer/). Sau đó khởi động máy chủ và điều hướng đến [http://localhost:8000/](http://localhost:8000/) trong trình duyệt của bạn. Bạn sẽ thấy dòng chữ quen thuộc “Congratulations on your first Django-powered page”. Khi hoàn tất, kill the server.
+
+Tiếp theo, hãy cài đặt Celery bằng cách sử dụng pip:
+
+```bat
+$ pip install celery==3.1.18
+$ pip freeze > requirements.txt
+```
+
+Giờ đây, chúng ta có thể tích hợp Celery vào Dự án Django của mình chỉ trong ba bước đơn giản.
+
+### Bước 1: Thêm celery.py
+
+Bên trong thư mục “picha”, tạo một tệp mới có tên `celery.py`:
+
+```python
+from __future__ import absolute_import
+import os
+from celery import Celery
+from django.conf import settings
+
+# set the default Django settings module for the 'celery' program.
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'picha.settings')
+app = Celery('picha')
+
+# Using a string here means the worker will not have to
+# pickle the object when using Windows.
+app.config_from_object('django.conf:settings')
+app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
+
+
+@app.task(bind=True)
+def debug_task(self):
+    print('Request: {0!r}'.format(self.request))
+```
+
+
+
+
+
+
 
 
 
