@@ -252,6 +252,50 @@ def send_feedback_email_task(email, message):
     return send_feedback_email(email, message)
 ```
 
+Sau đó, cập nhật các `form.py` như sau:
+
+```python
+from django import forms
+from feedback.tasks import send_feedback_email_task
+
+class FeedbackForm(forms.Form):
+    email = forms.EmailField(label="Email Address")
+    message = forms.CharField(
+        label="Message", widget=forms.Textarea(attrs={'rows': 5}))
+    honeypot = forms.CharField(widget=forms.HiddenInput(), required=False)
+
+    def send_email(self):
+        # try to trick spammers by checking whether the honeypot field is
+        # filled in; not super complicated/effective but it works
+        if self.cleaned_data['honeypot']:
+            return False
+        send_feedback_email_task.delay(
+            self.cleaned_data['email'], self.cleaned_data['message'])
+```
+
+Về bản chất, `send_feedback_email_task.delay(email, message)` chức năng xử lý và gửi email phản hồi trong nền khi người dùng tiếp tục sử dụng trang web.
+
+> *LƯU Ý*: `success_url` trong `views.py` được đặt để chuyển hướng người dùng đến `/`, chưa tồn tại. Chúng tôi sẽ thiết lập điểm cuối này trong phần tiếp theo.
+
+
+### Nhiệm vụ định kỳ
+
+Thông thường, bạn sẽ cần phải lên lịch một tác vụ để chạy vào một thời điểm cụ thể thường xuyên - ví dụ, một trình duyệt [web scraper](https://realpython.com/python-web-scraping-practical-introduction/) có thể cần chạy hàng ngày. Những nhiệm vụ như vậy, được gọi là [nhiệm vụ định kỳ](https://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html), rất dễ thiết lập với Celery.
+
+Celery sử dụng “celery beat” để lên lịch các công việc định kỳ. Celery beat chạy các nhiệm vụ trong khoảng thời gian đều đặn, sau đó được thực hiện bởi các Celery workers.
+
+Ví dụ: tác vụ sau được lên lịch chạy mười lăm phút một lần:
+
+```python
+from celery.task.schedules import crontab
+from celery.decorators import periodic_task
+
+
+@periodic_task(run_every=(crontab(minute='*/15')), name="some_task", ignore_result=True)
+def some_task():
+    # do something
+```
+
 
 
 
