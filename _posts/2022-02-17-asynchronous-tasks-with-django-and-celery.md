@@ -408,7 +408,7 @@ Sau đó, chúng tôi cần thông báo cho Supervisor về Celery workers của
 
 Tại local, hãy tạo một thư mục có tên là `“supervisor”` trong thư mục gốc của dự án. Sau đó, thêm các tệp sau…
 
-*Celery Worker: _picha_celery.conf_*
+**Celery Worker: <em>picha_celery.conf</em>**
 
 ```bat
 ; ==================================
@@ -465,7 +465,7 @@ killasgroup=true
 priority=998
 ```
 
-*Celery Scheduler: _picha_celerybeat.conf_*
+**Celery Scheduler: <em>picha_celerybeat.conf</em>**
 
 ```bat
 ; ================================
