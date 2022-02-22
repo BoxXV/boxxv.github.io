@@ -113,6 +113,10 @@ sudo nano /var/lib/pgsql/13/data/pg_hba.conf
 Và thêm vào dòng sau:
 ```txt
 host    all             all              0.0.0.0/0                       md5
+
+hoặc
+
+host all all 192.168.56.1/24 md5
 ```
 
 
