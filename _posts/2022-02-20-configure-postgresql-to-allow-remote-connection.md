@@ -45,6 +45,29 @@ Như vậy là bạn đã kết nối vào PostgreSQL. Tuy nhiên, chỉ có đ�
 
 Bằng chứng là bạn sử dụng một công cụ để quản lý PostgreSQL như [DBeaver](https://dbeaver.io) để kết nối vào bằng laptop của các bạn thì vẫn không được.
 
+Giờ chúng ta sẽ cần làm theo các bước sau để có thể kết nối được:
+
+## 1. Cấu hình file `postgresql.conf`
+
+Đây là file chứa các tham số cấu hình của PostgreSQL, để tìm được đường dẫn đến file này, các bạn có thể kết nối vào PostgreSQL trên localhost và gõ lệnh `show config_file;`
+
+```bat
+postgres=# show config_file;
+```
+
+```bat
+              config_file               
+----------------------------------------
+ /var/lib/pgsql/13/data/postgresql.conf
+(1 row)
+```
+
+Chúng ta sẽ tìm thấy đường dẫn đến file `postgresql.conf`. Mở file đó ra bằng câu lệnh:
+
+```bat
+vi /var/lib/pgsql/13/data/postgresql.conf
+```
+
 
 
 
@@ -61,3 +84,4 @@ Tham khảo:
 - [Khởi động PostgreSQL server](https://dangxuanduy.com/database/khoi-dong-postgresql-server/)
 - [Kết nối vào server Linux bằng ssh tool](https://dangxuanduy.com/lap-trinh/bash-shell/ket-noi-vao-server-linux-bang-ssh-tool/)
 - [Review công cụ quản trị PostgreSQL – DBeaver](https://dangxuanduy.com/database/review-cong-cu-quan-tri-postgresql-dbeaver/)
+- [Kho tài liệu kiến thức Database](https://www.facebook.com/groups/khotailieukienthucdatabase)
