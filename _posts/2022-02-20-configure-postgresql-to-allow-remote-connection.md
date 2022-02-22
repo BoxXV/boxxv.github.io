@@ -25,6 +25,25 @@ Bài viết này sẽ hướng dẫn bạn cấu hình để có thể kết n�
 
 Đầu tiên, bạn cần kết nối đến máy chủ cài đặt PostgreSQL bằng 1 công cụ `ssh` nào đó. Tôi thường dùng **mRemoteNG** hoặc **XShell**
 
+Bạn chuyển sang user posgres bằng lệnh
+
+```bat
+su - postgres
+```
+
+Sau đó kết nối vào PostgreSQL trên localhost bằng lệnh
+
+```bat
+psql
+psql (13.2)
+Type "help" for help.
+
+postgres=#
+```
+
+Như vậy là bạn đã kết nối vào PostgreSQL. Tuy nhiên, chỉ có đứng trên localhost bạn mới thực hiện được thôi, còn từ bên ngoài mạng vẫn chưa kết nối được.
+
+Bằng chứng là bạn sử dụng một công cụ để quản lý PostgreSQL như [DBeaver](https://dbeaver.io) để kết nối vào bằng laptop của các bạn thì vẫn không được.
 
 
 
@@ -41,3 +60,4 @@ Tham khảo:
 - [Cấu hình để kết nối với PostgreSQL từ bên ngoài](https://dangxuanduy.com/database/cau-hinh-de-ket-noi-voi-postgresql-tu-ben-ngoai/)
 - [Khởi động PostgreSQL server](https://dangxuanduy.com/database/khoi-dong-postgresql-server/)
 - [Kết nối vào server Linux bằng ssh tool](https://dangxuanduy.com/lap-trinh/bash-shell/ket-noi-vao-server-linux-bang-ssh-tool/)
+- [Review công cụ quản trị PostgreSQL – DBeaver](https://dangxuanduy.com/database/review-cong-cu-quan-tri-postgresql-dbeaver/)
