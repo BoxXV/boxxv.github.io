@@ -59,6 +59,7 @@ postgres=# show config_file;
               config_file               
 ----------------------------------------
  /var/lib/pgsql/13/data/postgresql.conf
+ /etc/postgresql/14/main/postgresql.conf
 (1 row)
 ```
 
@@ -66,10 +67,11 @@ Chúng ta sẽ tìm thấy đường dẫn đến file `postgresql.conf`. Mở f
 
 ```bat
 vi /var/lib/pgsql/13/data/postgresql.conf
+vi /etc/postgresql/14/main/postgresql.conf
 
 hoặc
 
-sudo nano /var/lib/pgsql/13/data/postgresql.conf
+sudo nano /etc/postgresql/14/main/postgresql.conf
 ```
 
 Và tìm đến dòng:
@@ -97,6 +99,7 @@ postgres=# show hba_file;
               hba_file              
 ------------------------------------
  /var/lib/pgsql/13/data/pg_hba.conf
+ /etc/postgresql/14/main/pg_hba.conf
 (1 row)
 ```
 
@@ -107,7 +110,7 @@ vi /var/lib/pgsql/13/data/pg_hba.conf
 
 hoặc
 
-sudo nano /var/lib/pgsql/13/data/pg_hba.conf
+sudo nano /etc/postgresql/14/main/pg_hba.conf
 ```
 
 Và thêm vào dòng sau:
