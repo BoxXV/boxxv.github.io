@@ -66,7 +66,23 @@ Chúng ta sẽ tìm thấy đường dẫn đến file `postgresql.conf`. Mở f
 
 ```bat
 vi /var/lib/pgsql/13/data/postgresql.conf
+
+hoặc
+
+sudo nano /var/lib/pgsql/13/data/postgresql.conf
 ```
+
+Và tìm đến dòng:
+```txt
+listen_addresses = 'localhost'
+```
+và sửa lại thành
+```txt
+listen_addresses = '*'
+```
+
+
+
 
 
 
