@@ -81,23 +81,59 @@ và sửa lại thành
 listen_addresses = '*'
 ```
 
+Tiếp theo chúng ta sẽ cấu hinh file `pg_hba.conf`
+
+## 2. Cấu hình file `pg_hba.conf`
+
+Đây là file cho phép chúng ta định ra các luật cho phép user, ip được kết nối vào database cụ thể nào. Chúng ta sẽ cấu hình để mọi IP có thể truy cập được vào tất cả database nếu có username và password.
+
+Để tìm được đường dẫn của file `pg_hba.conf`, chúng ta kết nối vào PostgreSQL và chạy lệnh
+
+```bat
+postgres=# show hba_file;
+```
+
+```bat
+              hba_file              
+------------------------------------
+ /var/lib/pgsql/13/data/pg_hba.conf
+(1 row)
+```
+
+Chúng ta lại mở file pg_hba.conf bằng trình soạn thảo vi
+
+```bat
+vi /var/lib/pgsql/13/data/pg_hba.conf
+
+hoặc
+
+sudo nano /var/lib/pgsql/13/data/pg_hba.conf
+```
+
+Và thêm vào dòng sau:
+```txt
+host    all             all              0.0.0.0/0                       md5
+```
 
 
+## 3. Khởi động lại PostgreSQL
+
+Bây giờ bạn cần restart lại PostgreSQL để các thay đổi có hiệu lực
+
+```bat
+systemctl stop postgresql-13
+systemctl start postgresql-13
+```
 
 
-
-
-
-
-
-
-Chúc bạn viết mã vui vẻ!
+Như vậy là xong rồi đó. Chúc các bạn thành công.
 
 -----
 Tham khảo:
 - [Configure PostgreSQL to allow remote connection](https://www.bigbinary.com/blog/configure-postgresql-to-allow-remote-connection)
 - [Cấu hình để kết nối với PostgreSQL từ bên ngoài](https://dangxuanduy.com/database/cau-hinh-de-ket-noi-voi-postgresql-tu-ben-ngoai/)
 - [Khởi động PostgreSQL server](https://dangxuanduy.com/database/khoi-dong-postgresql-server/)
+- [Cấu hình kết nối trong PostgreSQL với pg_hba.conf](https://dangxuanduy.com/database/cau-hinh-chinh-sach-ket-noi-trong-postgresql-voi-pg-hba_conf/)
 - [Kết nối vào server Linux bằng ssh tool](https://dangxuanduy.com/lap-trinh/bash-shell/ket-noi-vao-server-linux-bang-ssh-tool/)
 - [Review công cụ quản trị PostgreSQL – DBeaver](https://dangxuanduy.com/database/review-cong-cu-quan-tri-postgresql-dbeaver/)
 - [Kho tài liệu kiến thức Database](https://www.facebook.com/groups/khotailieukienthucdatabase)
