@@ -116,6 +116,7 @@ sudo nano /etc/postgresql/14/main/pg_hba.conf
 Và thêm vào dòng sau:
 ```txt
 host    all             all              0.0.0.0/0                       md5
+host    all             all              0.0.0.0/0                       md5
 
 hoặc
 
@@ -128,8 +129,8 @@ host all all 192.168.56.1/24 md5
 Bây giờ bạn cần restart lại PostgreSQL để các thay đổi có hiệu lực
 
 ```bat
-systemctl stop postgresql-13
-systemctl start postgresql-13
+systemctl stop postgresql-14
+systemctl start postgresql-14
 ```
 
 
