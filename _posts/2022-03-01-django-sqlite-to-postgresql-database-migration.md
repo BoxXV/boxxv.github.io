@@ -22,6 +22,44 @@ Các bước là:
 
 ## 1. Sao lưu toàn bộ dữ liệu SQLite.
 
+Trước tiên, bạn cần sao lưu toàn bộ DB bằng lệnh dưới đây
+
+```bat
+python manage.py dumpdata > whole.json
+```
+
+Trong lệnh này, một số người dùng thường thích sử dụng khóa ngoại tự nhiên và khóa chính nhưng tôi sẽ không đề xuất sử dụng lệnh dưới đây cho đến khi bạn gặp lỗi khi khôi phục dữ liệu (loaddata) vào Postgres
+
+```bat
+python manage.py dumpdata — natural-foreign — natural-primary > whole.json
+```
+
+Lệnh này sẽ tạo ra `whole.json` trong thư mục gốc của các dự án của bạn, điều này có nghĩa là bạn đã tạo dữ liệu kết xuất từ SQLite ở định dạng cố định JSON.
+
+
+## 2. Tạo PostgresDB với người dùng và mật khẩu.
+
+Trong bước này, bạn cần cài đặt Postgres trong hệ điều hành của bạn như Ubuntu hoặc mac (google), sau khi cài đặt xong, đăng nhập vào Postgres
+
+```bat
+sudo su — postgrespsql
+
+psql
+```
+
+Sử dụng lệnh dưới đây để tạo người dùng có mật khẩu và DB và cấp quyền trên DB từ người dùng
+
+```bat
+create user hero;
+create database my_db;
+alter role hero with password ‘my_db@123’;
+grant all privileges on database my_db to hero;
+alter database my_db owner to hero;
+```
+
+
+## 3. Thay đổi settings.py
+
 
 
 Như vậy là xong rồi đó. Chúc các bạn thành công.
