@@ -134,6 +134,7 @@ Trong bài viết này, mình đã hướng dẫn cách chuyển SQLite sang Pos
 
 -----
 Tham khảo:
+- [Django SQLite to PostgreSQL database migration](https://medium.com/djangotube/django-sqlite-to-postgresql-database-migration-e3c1f76711e1)
 - [Configure PostgreSQL to allow remote connection](https://www.bigbinary.com/blog/configure-postgresql-to-allow-remote-connection)
 - [Cấu hình để kết nối với PostgreSQL từ bên ngoài](https://dangxuanduy.com/database/cau-hinh-de-ket-noi-voi-postgresql-tu-ben-ngoai/)
 - [Khởi động PostgreSQL server](https://dangxuanduy.com/database/khoi-dong-postgresql-server/)
