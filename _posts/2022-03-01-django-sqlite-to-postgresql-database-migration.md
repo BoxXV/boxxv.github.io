@@ -60,6 +60,39 @@ alter database my_db owner to hero;
 
 ## 3. Thay đổi settings.py
 
+```bat
+# install this package 
+pip install psycopg2
+```
+
+`settings.py`
+
+```python
+DATABASES = {
+	‘default’: {
+		‘ENGINE’: ‘django.db.backends.postgresql_psycopg2’,
+		‘NAME’: ‘my_db’,
+		‘USER’ : ‘hero’,
+		‘PASSWORD’ : ‘my_db@123’,
+		‘HOST’ : ‘localhost’,
+		‘PORT’ : ‘5432’,
+	}
+}
+```
+
+Xóa tất cả các tệp migrations vì chúng tôi không cần tất cả các migrations cũ, thay vào đó, chúng tôi sẽ tạo một tệp migrations cho mỗi ứng dụng. sử dụng lệnh dưới đây để xóa tất cả các tệp di chuyển.
+
+```bat
+find . -path “*/migrations/*.py” -not -name “__init__.py” -delete
+
+find . -path “*/migrations/*.pyc” -delete
+```
+
+```bat
+python manage.py makemigrations
+python manage.py migrate
+```
+
 
 
 Như vậy là xong rồi đó. Chúc các bạn thành công.
