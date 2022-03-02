@@ -31,7 +31,7 @@ python manage.py dumpdata > whole.json
 Trong lệnh này, một số người dùng thường thích sử dụng khóa ngoại tự nhiên và khóa chính nhưng tôi sẽ không đề xuất sử dụng lệnh dưới đây cho đến khi bạn gặp lỗi khi khôi phục dữ liệu (loaddata) vào Postgres
 
 ```bat
-python manage.py dumpdata — natural-foreign — natural-primary > whole.json
+python manage.py dumpdata --natural-foreign --natural-primary > whole.json
 ```
 
 Lệnh này sẽ tạo ra `whole.json` trong thư mục gốc của các dự án của bạn, điều này có nghĩa là bạn đã tạo dữ liệu kết xuất từ SQLite ở định dạng cố định JSON.
