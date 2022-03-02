@@ -32,6 +32,8 @@ Trong lệnh này, một số người dùng thường thích sử dụng khóa 
 
 ```bat
 python manage.py dumpdata --natural-foreign --natural-primary > whole.json
+
+python manage.py dumpdata --natural-foreign --indent 2 -e contenttypes -e auth.permission --output dumps.json
 ```
 
 Lệnh này sẽ tạo ra `whole.json` trong thư mục gốc của các dự án của bạn, điều này có nghĩa là bạn đã tạo dữ liệu kết xuất từ SQLite ở định dạng cố định JSON.
