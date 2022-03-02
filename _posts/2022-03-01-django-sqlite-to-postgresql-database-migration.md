@@ -124,13 +124,12 @@ Lời khuyên của tôi là chỉ sử dụng SQLite để phát triển và th
 
 Và nếu bạn đang sử dụng nhóm và quyền thì hãy lấy dữ liệu kết xuất mà không loại trừ các loại nội dung và quyền, nếu không bạn sẽ gặp lỗi khi tải dữ liệu vì các nhóm phụ thuộc vào quyền.
 
-Và đôi khi bạn cần thay đổi charfield của mô hình thành kích thước max_length vì dữ liệu kết xuất tạo ra một số khoảng trống trong giá trị charfield, vì vậy trong khi nhập dữ liệu tải, bạn sẽ gặp lỗi như “trong mô hình, trường thay đổi độ dài 50 vượt quá 50”.
+Và đôi khi bạn cần thay đổi charfield của mô hình thành kích thước max_length vì dữ liệu kết xuất tạo ra một số khoảng trống trong giá trị charfield, vì vậy trong khi nhập dữ liệu tải, bạn sẽ gặp lỗi như “in the model, field varying length 50 exceeds 50”.
 
 
 ## Kết luận
 
-Trong bài viết này, mình đã hướng dẫn cách chuyển SQLite sang Postgres bằng phương pháp fixture, mình biết bạn sẽ gặp lỗi vui lòng cho mình biết ở phần bình luận bên dưới, mình sẽ cố gắng khắc phục. 
-
+Trong bài viết này, mình đã hướng dẫn cách chuyển SQLite sang Postgres bằng phương pháp fixture, mình biết bạn sẽ gặp lỗi vui lòng cho mình biết ở phần bình luận bên dưới, mình sẽ cố gắng khắc phục.
 
 
 -----
