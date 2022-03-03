@@ -159,7 +159,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 <AsyncResult: 55ad96a9-f7ea-44f4-9a47-e15b90d6d8a2>
 ```
 
-Chúng ta có thể thấy rằng chúng ta đã gọi hàm bằng cách sử dụng `.delay()` và sau đó truyền đối số tên. Phương thức này thực sự là một lối tắt đối số dấu sao cho một phương thức khác được gọi là `apply_async()`. Sau đó, chúng tôi thấy rằng chúng tôi nhận lại `<AsyncResult`, đó là nhiệm vụ đã được chuyển cho broker và sau đó sẽ được cần tây tiêu thụ và hoàn thành trong nền.
+Chúng ta có thể thấy rằng chúng ta đã gọi hàm bằng cách sử dụng `.delay()` và sau đó truyền đối số tên. Phương thức này thực sự là một lối tắt đối số dấu sao cho một phương thức khác được gọi là `apply_async()`. Sau đó, chúng tôi thấy rằng chúng tôi nhận lại `<AsyncResult`, đó là nhiệm vụ đã được chuyển cho broker và sau đó sẽ được Celery tiêu thụ và hoàn thành trong nền.
 
 Nếu bạn nhìn vào worker của mình bây giờ, bạn sẽ thấy trong logs rằng worker đó đã nhận một nhiệm vụ và sau đó 5 giây sẽ cho bạn biết rằng nhiệm vụ đã hoàn thành thành công.
 
@@ -173,8 +173,22 @@ Nếu chúng tôi không có phần phụ trợ được định cấu hình t�
 
 ![worker](https://boxxv.github.io/img/posts/1 k5dDVOMdAa0N6xW1xCcqPQ.png "worker")
 
+Như bạn có thể thấy trên hình trên, tất cả các tác vụ được lưu trữ trong Redis.
 
+### Kết thúc
 
+Trong bài viết này, chúng tôi đã thiết lập một ứng dụng python với Celery, RabbitMQ và Redis từ đầu. Mục đích của bài viết là để cho bạn thấy hàng đợi tác vụ là gì, chúng ta có thể hưởng lợi gì từ nó và cách triển khai.
+Các ví dụ về nhiệm vụ chỉ để trình diễn, nhưng bạn có thể sử dụng cấu hình tương tự như tôi đã làm trong phần này, thêm các tác vụ trong mô-đun tác vụ và cấu hình trong celery_app.py. Xem tài liệu tại đây
+
+Tôi thực sự khuyến khích bạn sử dụng Celery trong ứng dụng của mình vì nó khá hữu ích khi bạn có những việc cần nhiều thời gian hơn, bạn cần lên lịch công việc, v.v.
+
+Bạn có thể tìm thấy mã nguồn đầy đủ của bài viết trên kho lưu trữ GitHub, với hướng dẫn.
+
+[https://github.com/vjanz/python-asynchronous-tasks](https://github.com/vjanz/python-asynchronous-tasks)
+
+Nếu bạn thấy hữu ích, xin đừng quên vỗ tay và chia sẻ trong mạng xã hội của bạn hoặc với bạn bè của bạn.
+
+Nếu bạn có bất kỳ câu hỏi nào, vui lòng liên hệ với tôi.
 
 
 -----
