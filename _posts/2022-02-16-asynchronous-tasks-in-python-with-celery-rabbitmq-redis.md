@@ -24,6 +24,15 @@ Vì vậy, về cơ bản nó cung cấp cho bạn khả năng thực thi các t
 ![Async task architecture](https://boxxv.github.io/img/posts/Django_Celery_Redis.jpg "Async task architecture")
 
 
+## Các trường hợp sử dụng của hàng đợi công việc
+
+Ví dụ cơ bản và dễ hiểu nhất sẽ là gửi email sau khi người dùng đã đăng ký. Trong trường hợp này, bạn không biết sẽ mất bao nhiêu thời gian để gửi email cho người dùng, nó có thể là 1 ms nhưng cũng có thể nhiều hơn, hoặc đôi khi thậm chí không gửi được, bởi vì, trong những trường hợp này, bạn không chịu trách nhiệm hoặc nói đơn giản là bạn không biết nhiệm vụ sẽ được thực hiện thành công, bởi vì chính một nhà cung cấp khác sẽ làm điều đó cho bạn.
+
+Vì vậy, bây giờ bạn đã có một ý tưởng đơn giản về cách bạn có thể hưởng lợi từ các hàng đợi nhiệm vụ, việc xác định các nhiệm vụ như vậy cũng đơn giản như kiểm tra xem chúng có thuộc một trong các loại sau:
+
+- **Nhiệm vụ của bên thứ ba**: Ứng dụng web phải phục vụ người dùng một cách nhanh chóng mà không cần đợi các hành động khác hoàn thành trong khi tải trang, ví dụ: gửi email hoặc thông báo hoặc tuyên truyền các bản cập nhật cho các công cụ nội bộ (chẳng hạn như thu thập dữ liệu để kiểm tra A/B hoặc ghi nhật ký hệ thống ).
+- **Các công việc kéo dài**: Các công việc tốn kém tài nguyên, trong đó người dùng cần đợi trong khi tính toán kết quả của họ, ví dụ: thực thi quy trình công việc phức tạp (quy trình công việc DAG), tạo đồ thị, các tác vụ tương tự Map-Reduce và phân phát nội dung đa phương tiện (video, âm thanh).
+- **Nhiệm vụ định kỳ**: Công việc mà bạn sẽ lên lịch để chạy vào một thời điểm cụ thể hoặc sau một khoảng thời gian, ví dụ: tạo báo cáo hàng tháng hoặc trình duyệt web chạy hai lần một ngày.
 
 
 -----
