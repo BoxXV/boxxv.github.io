@@ -224,7 +224,7 @@ Quay trở lại Dự án Django, lấy [phiên bản v3](https://github.com/rea
             └── feedback_email_subject.txt
 ```
 
-Cài đặt các yêu cầu mới, kích hoạt ứng dụng và điều hướng đến (http://localhost:8000/feedback/)[http://localhost:8000/feedback/]. Bạn nên thấy:
+Cài đặt các yêu cầu mới, kích hoạt ứng dụng và điều hướng đến [http://localhost:8000/feedback/](http://localhost:8000/feedback/). Bạn nên thấy:
 
 ![Async task architecture](https://boxxv.github.io/img/posts/feedback-app.webp "Async task architecture")
 
