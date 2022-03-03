@@ -56,6 +56,48 @@ Khi các tác vụ được gửi đến nhà môi giới và sau đó được 
 Để thiết lập các dịch vụ này, chúng tôi sẽ sử dụng docker vì nó rất dễ thiết lập, đó là môi trường riêng biệt và bạn có thể dễ dàng tạo lại môi trường giống như vậy khi bạn có cấu hình (Dockerfile hoặc docker-compos).
 
 
+### Thiết lập dự án
+
+Hãy bắt đầu một dự án python mới từ đầu. Trước tiên, hãy tạo một thư mục mới, tạo tất cả các tệp cần thiết cho dự án, sau đó khởi tạo môi trường ảo.
+
+```bat
+$ touch docker-compose.yml requirements.txt
+$ touch tasks.py
+
+# create & activate the virtualenv
+
+$ python -m venv env
+$ source env/bin/activate
+```
+
+Bây giờ, hãy cài đặt các yêu cầu của dự án từ tệp tests.txt. Đối với dự án này, chúng tôi chỉ cần Celery và Redis.
+
+```bat
+pip install celery==5.0.5 redis
+```
+
+Bây giờ đã đến lúc định cấu hình trình soạn thảo để chạy RabbitMQ và Redis. Trong **docker-compos.yaml**, hãy dán cấu hình YAML sau đây.
+
+```yaml
+version: "3"
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    ports:
+      - "5672:5672"
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+```
+
+Ở đây, chúng tôi chỉ cần khởi động hai dịch vụ, bằng cách xác định khóa hình ảnh để trỏ đến hình ảnh trong [dockerhub](https://hub.docker.com), ánh xạ các cổng `<host: docker>` và thêm các biến môi trường. Để xem những loại biến môi trường nào bạn có thể sử dụng với hình ảnh của mình, bạn chỉ cần truy cập hình ảnh tương ứng trong dockerhub và xem tài liệu. Ví dụ, bạn có thể kiểm tra cách sử dụng hình ảnh RabbitMQ [tại đây](https://hub.docker.com/_/rabbitmq)
+
+
 
 
 -----
