@@ -35,6 +35,29 @@ Vì vậy, bây giờ bạn đã có một ý tưởng đơn giản về cách b
 - **Nhiệm vụ định kỳ**: Công việc mà bạn sẽ lên lịch để chạy vào một thời điểm cụ thể hoặc sau một khoảng thời gian, ví dụ: tạo báo cáo hàng tháng hoặc trình duyệt web chạy hai lần một ngày.
 
 
+## Thiết lập các phụ thuộc cho Celery
+
+Celery yêu cầu vận chuyển thông điệp để gửi và nhận tin nhắn. Một số ứng cử viên mà bạn có thể sử dụng làm nhà môi giới tin nhắn là:
+- [RabbitMQ](https://www.rabbitmq.com)
+- [Redis](https://redis.io)
+- [Amazon SQS](https://aws.amazon.com/sqs)
+
+Đối với hướng dẫn này, chúng tôi sẽ sử dụng `RabbitMQ`, bạn có thể sử dụng bất kỳ nhà môi giới tin nhắn nào khác mà bạn muốn (ví dụ: Redis).
+
+Chúng ta cũng nên đề cập đến những gì chúng ta sẽ sử dụng `Redis` bây giờ vì đối với trình vận chuyển tin nhắn mà chúng ta đang sử dụng RabbitMQ.
+Khi các tác vụ được gửi đến nhà môi giới và sau đó được thực thi bởi celery worker, chúng tôi muốn lưu trạng thái và cũng để xem các tác vụ nào đã được thực thi trước đó. Để làm được điều đó, bạn sẽ cần một số loại lưu trữ dữ liệu và đối với loại này, chúng tôi sẽ sử dụng Redis.
+
+Đối với các cửa hàng kết quả, chúng tôi cũng có nhiều ứng cử viên:
+- AMQP, Redis
+- Memcached,
+- SQLAlchemy, Django ORM
+- Apache Cassandra, Elasticsearch, Riak, v.v.
+
+Để thiết lập các dịch vụ này, chúng tôi sẽ sử dụng docker vì nó rất dễ thiết lập, đó là môi trường riêng biệt và bạn có thể dễ dàng tạo lại môi trường giống như vậy khi bạn có cấu hình (Dockerfile hoặc docker-compos).
+
+
+
+
 -----
 Tham khảo:
 - [Asynchronous tasks in Python with Celery + RabbitMQ + Redis](https://levelup.gitconnected.com/asynchronous-tasks-in-python-with-celery-rabbitmq-redis-480f6e506d76)
