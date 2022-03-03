@@ -97,6 +97,75 @@ services:
 
 Ở đây, chúng tôi chỉ cần khởi động hai dịch vụ, bằng cách xác định khóa hình ảnh để trỏ đến hình ảnh trong [dockerhub](https://hub.docker.com), ánh xạ các cổng `<host: docker>` và thêm các biến môi trường. Để xem những loại biến môi trường nào bạn có thể sử dụng với hình ảnh của mình, bạn chỉ cần truy cập hình ảnh tương ứng trong dockerhub và xem tài liệu. Ví dụ, bạn có thể kiểm tra cách sử dụng hình ảnh RabbitMQ [tại đây](https://hub.docker.com/_/rabbitmq)
 
+Bây giờ, hãy khởi chạy ứng dụng Celery để sử dụng RabbitMQ làm công cụ vận chuyển tin nhắn và Redis làm kho lưu trữ kết quả.
+Trong `task.py`, hãy tiếp tục và dán đoạn mã sau:
+
+```python
+from celery import Celery
+from time import sleep
+
+broker_url = "amqp://localhost"
+redis_url = "redis://localhost"
+app = Celery('tasks', broker=broker_url, backend=redis_url)
+
+
+@app.task
+def say_hello(name: str):
+    sleep(5) 
+    return f"Hello {name}"
+```
+
+Tôi đã cố gắng giữ mã ở mức tối thiểu nhất có thể, vì vậy bạn có thể hiểu mục đích của hướng dẫn này.
+Như bạn có thể thấy, chúng tôi đã xác định URL cho RabbitMQ và Redis, sau đó chúng tôi chỉ cần khởi chạy ứng dụng Celery bằng các cấu hình đó. Các tác vụ tham số đầu tiên là tên của mô-đun hiện tại.
+
+Sau đó, chúng tôi đã trang trí hàm `say_hello` bằng `@app.task` cho biết rằng hàm được đánh dấu là một nhiệm vụ và sau đó có thể được gọi bằng cách sử dụng `.delay()` mà chúng ta sẽ thấy trong một chút.
+
+> Thông thường, chúng tôi sẽ có một mô-đun `celery_app.py` để chỉ khởi tạo phiên bản ứng dụng celery và sau đó là một module `tasks.py` riêng trong đó chúng tôi sẽ xác định các tác vụ mà chúng tôi muốn chạy bởi celery.
+
+
+### Xây dựng và chạy các dịch vụ với docker
+
+Bây giờ chúng ta chỉ cần chạy các dịch vụ (RabbitMQ và Redis) với docker. Để chạy các hình ảnh bên trong một vùng chứa, chúng ta chỉ cần chạy:
+
+```bat
+$ docker-compose up -d
+```
+
+Quá trình này sẽ mất một khoảng thời gian nếu bạn không tải cục bộ những hình ảnh này. Sau đó, để xác minh rằng các vùng chứa đang hoạt động, chúng tôi viết:
+
+```bat
+$ docker ps
+```
+
+Và bạn sẽ thấy hai dịch vụ đang chạy và thông tin bổ sung cho mỗi dịch vụ, nếu không kiểm tra nhật ký để tìm bất kỳ lỗi nào có thể xảy ra.
+Bây giờ chúng ta hãy bắt đầu công nhân celery, sau đó chúng ta hãy thử chạy một số tác vụ với `python interactive shell`.
+
+```bat
+# Starting the Celery worker
+
+$ celery -A tasks worker -l info --pool=solo
+```
+
+Thao tác này sẽ chạy celery worker và nếu bạn thấy logs, nó sẽ cho biết rằng nó đã kết nối thành công với broker.
+
+Bây giờ chúng ta hãy chạy một nhiệm vụ.
+
+```bat
+# Running celery tasks$ python
+---------------------------------
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from tasks import say_hello
+>>> say_hello.delay("Valon")
+<AsyncResult: 55ad96a9-f7ea-44f4-9a47-e15b90d6d8a2>
+```
+
+Chúng ta có thể thấy rằng chúng ta đã gọi hàm bằng cách sử dụng `.delay()` và sau đó truyền đối số tên. Phương thức này thực sự là một lối tắt đối số dấu sao cho một phương thức khác được gọi là `apply_async()`. Sau đó, chúng tôi thấy rằng chúng tôi nhận lại `<AsyncResult`, đó là nhiệm vụ đã được chuyển cho broker và sau đó sẽ được cần tây tiêu thụ và hoàn thành trong nền.
+
+Nếu bạn nhìn vào worker của mình bây giờ, bạn sẽ thấy trong logs rằng worker đó đã nhận một nhiệm vụ và sau đó 5 giây sẽ cho bạn biết rằng nhiệm vụ đã hoàn thành thành công.
+
+![worker](https://boxxv.github.io/img/posts/1 DoPjdWMffrdv5rvmWUcT9g.png "worker")
+
+
 
 
 
