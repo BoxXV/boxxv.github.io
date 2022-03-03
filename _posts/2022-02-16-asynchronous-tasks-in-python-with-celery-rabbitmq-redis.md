@@ -165,6 +165,14 @@ Nếu bạn nhìn vào worker của mình bây giờ, bạn sẽ thấy trong lo
 
 ![worker](https://boxxv.github.io/img/posts/1 DoPjdWMffrdv5rvmWUcT9g.png "worker")
 
+Bây giờ chúng ta hãy chạy cùng một nhiệm vụ nhưng hãy đưa kho kết quả vào trò chơi ngay bây giờ. Trong python shell, hãy lưu trữ kết quả trong một biến, sau đó cho phép các thuộc tính của nó.
+
+![worker](https://boxxv.github.io/img/posts/1 uDjJvpd0DSv6JLnLQZGSrA.png "worker")
+
+Nếu chúng tôi không có phần phụ trợ được định cấu hình tại celery (Redis), chúng tôi không thể truy cập các thuộc tính hoặc chức năng này, bởi vì theo mặc định, nó sẽ không lưu trữ bất kỳ trạng thái nào, nhưng vì chúng tôi có nó, chúng tôi có thể xem và lấy các phần thông tin về nhiệm vụ của chúng tôi. Nếu bạn muốn tìm hiểu sâu hơn, bạn có thể truy cập cơ sở dữ liệu Redis của mình bằng một công cụ như table plus hoặc bạn có thể đặt `Flower` để giám sát Redis và RabbitMQ.
+
+![worker](https://boxxv.github.io/img/posts/1 k5dDVOMdAa0N6xW1xCcqPQ.png "worker")
+
 
 
 
