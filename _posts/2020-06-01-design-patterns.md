@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Tổng hợp về Design Pattern
-subtitle: Nhập môn Design Pattern
+subtitle: Nhập môn Design Patterns
 tags:
 - Csharp
-- Design Pattern
+- Design Patterns
 - Creational
 - Structural
 - Behavioral
