@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tổng quan về Design Pattern
-subtitle: Nhập môn Design Patterns
+subtitle: 33 Dạng Thức Triển Khai Design Patterns trong OOP
 tags:
 - Design Pattern
 - Creational
@@ -46,6 +46,19 @@ Nguyên gốc theo cuốn Design Patterns - Elements of Reusable Object-Oriented
 Nhân tiện dịch tới đây thì mình mới nhớ ra một vấn đề quan trọng, đó là các ví dụ triển khai được sử dụng trong các bài viết tiếp theo sẽ là triển khai trên Java. Lý do mà Tutorialspoint họ chọn Java để làm Tút có lẽ cũng dễ hiểu bởi vì sự phổ biến của ngôn ngữ này và quan trọng hơn cả đó là cú pháp rườm rà, cứng nhắc, khó có thể có sự nhầm lẫn gì giữa người viết và người đọc code.
 
 Vì vậy nên nếu như bạn chưa từng nói chuyện với máy tính bằng Java bao giờ thì rất có thể bạn sẽ cần một khóa cơ bản cấp tốc trước khi đọc bài viết tiếp theo đấy nhé. 
+
+
+## Factory Pattern
+
+Factory là một trong những dạng thức triển khai được sử dụng nhiều nhất và được xếp vào nhóm các dạng thức Khởi Tạo.
+
+Trong phép triển khai Factory, chúng ta tạo ra các `object` mà không để mở logic khởi tạo cho phía client (đoạn code gửi yêu cầu và sử dụng `object` được khởi tạo). Thêm vào đó, việc tham chiếu tới object được khởi tạo sẽ được thực hiện thông qua một `interface` (giao diện) chung thay vì sử dụng `class` cụ thể.
+
+#### Áp dụng triển khai
+
+- Chúng ta sẽ tạo ra 01 interface chung có tên là Shape cho các class mô tả hình 2D (hình tròn, tam giác, hình vuông) và các class cụ thể triển khai interface này.
+- Ở bước tiếp theo, 01 class có tên là Factory sẽ được định nghĩa.
+- Cuối cùng là main của chương trình sẽ sử dụng Factory để yêu cầu khởi tạo 1 Shape (hình 2D). main sẽ truyền vào thông tin về kiểu Shape muốn khởi tạo (circle / triangle / square - hình tròn / tam giác / hình vuông).
 
 
 
