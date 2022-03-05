@@ -11,7 +11,7 @@ tags:
 
 Design Patterns là các dạng thức triển khai code được các lập trình viên OOP giàu kinh nghiệm đúc kết, giúp nhanh chóng xử lý nhiều vấn đề phổ biến mà chúng ta thường gặp trong quá trình viết code. Các giải pháp này được ghi nhận qua thời gian dài và được chiêm nghiệm bởi rất nhiều nhà phát triển phần mềm.
 
-![Design Patterns](https://boxxv.github.io/img/posts/Design-Patterns-Certification-Training-Online.webp "Design Patterns")
+![Design Patterns](https://boxxv.github.io/img/patterns/Design-Patterns-Certification-Training-Online.webp "Design Patterns")
 
 ## Giới thiệu Bộ Tứ GoF (Gang of Four)
 
@@ -56,9 +56,19 @@ Trong phép triển khai Factory, chúng ta tạo ra các `object` mà không đ
 
 #### Áp dụng triển khai
 
-- Chúng ta sẽ tạo ra 01 interface chung có tên là Shape cho các class mô tả hình 2D (hình tròn, tam giác, hình vuông) và các class cụ thể triển khai interface này.
-- Ở bước tiếp theo, 01 class có tên là Factory sẽ được định nghĩa.
-- Cuối cùng là main của chương trình sẽ sử dụng Factory để yêu cầu khởi tạo 1 Shape (hình 2D). main sẽ truyền vào thông tin về kiểu Shape muốn khởi tạo (circle / triangle / square - hình tròn / tam giác / hình vuông).
+![Design Patterns](https://boxxv.github.io/img/patterns/48e2578f-6105-4bf6-8aca-166f3263f169.png "Design Patterns")
+
+- Chúng ta sẽ tạo ra `01 interface` chung có tên là `Shape` cho các `class` mô tả hình 2D (hình tròn, tam giác, hình vuông) và các `class` cụ thể triển khai `interface` này.
+- Ở bước tiếp theo, `01 class` có tên là `Factory` sẽ được định nghĩa.
+- Cuối cùng là `main` của chương trình sẽ sử dụng `Factory` để yêu cầu khởi tạo `1 Shape` (hình 2D). `main` sẽ truyền vào thông tin về kiểu `Shape` muốn khởi tạo (`circle` / `triangle` / `square` - hình tròn / tam giác / hình vuông).
+
+Về mặt quản lý code, chúng ta sẽ có `01 package` được đặt tên là `shapefactory`.
+`Package` này sẽ chứa:
+- `01 class Factory` mở `public`
+- `01 interface Shape` mở `public`
+- `03 class` triển khai `Shape` để `default`
+
+Điều này có nghĩa là code client ở phía bên ngoài `package` sẽ hoàn toàn không biết tới `03 class` triển khai `Shape` mà chỉ có thể gọi `Factory` để khởi tạo các `Shape` và tham chiếu tới các `object` được tạo ra thông qua `interface`.
 
 
 
