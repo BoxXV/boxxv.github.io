@@ -87,12 +87,10 @@ public interface Shape {
 Tạo các `class` cụ thể triển khai `interface` với `access modifier` đặt `default`, không mở `public`.
 
 `shapefactory/Circle.java`
-
 ```java
 package shapefactory;
 
-class Circle
-implements Shape {
+class Circle implements Shape {
    @Override
    public void draw() {
       System.out.println("Một hình tròn.");
@@ -101,12 +99,10 @@ implements Shape {
 ```
 
 `shapefactory/Triangle.java`
-
 ```java
 package shapefactory;
 
-class Triangle
-implements Shape {
+class Triangle implements Shape {
    @Override
    public void draw() {
       System.out.println("Một hình tam giác.");
@@ -118,8 +114,7 @@ implements Shape {
 ```java
 package shapefactory;
 
-class Square
-implements Shape {
+class Square implements Shape {
    @Override
    public void draw() {
       System.out.println("Một hình vuông.");
@@ -128,11 +123,58 @@ implements Shape {
 ```
 
 #### Bước 3
+Tạo `01 class Factory` để sản xuất các `object` thực thể với thông tin được cung cấp từ code client.
+
+`shapefactory/Factory.java`
+```java
+package shapefactory;
+
+public class Factory {
+   public Shape createShape(String type) {
+      if (type == null)                        return null;
+      if (type.equalsIgnoreCase("circle"))     return new Circle();
+      if (type.equalsIgnoreCase("triangle"))   return new Triangle();
+      if (type.equalsIgnoreCase("square"))     return new Square();
+      else                                     return null;
+   }
+}
+```
 
 #### Bước 4
+Sử dụng `Factory` trong code client ở `main` để yêu cầu khởi tạo các `object` bằng cách truyền vào thông tin về loại hình của `Shape`.
+
+`PatternDemo.java`
+```java
+import shapefactory.Factory;
+import shapefactory.Shape;
+
+public class FactoryPatternDemo {
+   public static void main(String[] args) {
+      Factory shapeFactory = new Factory();
+
+      // Yêu cầu khởi tạo một `object` hình tròn và gọi `draw()` để vẽ
+      Shape circle = shapeFactory.createShape("circle");
+      circle.draw();
+
+      // Yêu cầu khởi tạo một `object` hình tam giác và gọi `draw()` để vẽ
+      Shape triangle = shapeFactory.createShape("triangle");
+      triangle.draw();
+
+      // Yêu cầu khởi tạo một `object` hình vuông và gọi `draw()` để vẽ
+      Shape square = shapeFactory.createShape("square");
+      square.draw();
+   }
+}
+```
 
 #### Bước 5
+Kiểm chứng lại kết quả được in ra ở console.
 
+``` bat
+Một hình tròn.
+Một hình tam giác.
+Một hình vuông.
+```
 
 -----
 Tham khảo:
