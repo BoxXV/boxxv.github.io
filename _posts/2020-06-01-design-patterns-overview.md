@@ -70,10 +70,74 @@ Về mặt quản lý code, chúng ta sẽ có `01 package` được đặt tên
 
 Điều này có nghĩa là code client ở phía bên ngoài `package` sẽ hoàn toàn không biết tới `03 class` triển khai `Shape` mà chỉ có thể gọi `Factory` để khởi tạo các `Shape` và tham chiếu tới các `object` được tạo ra thông qua `interface`.
 
+#### Bước 1
+Tạo `01 interface` có tên là `Shape` mở `public`.
+
+`shapefactory/Shape.java`
+
+```java
+package shapefactory;
+
+public interface Shape {
+   void draw();
+}
+```
+
+#### Bước 2
+Tạo các `class` cụ thể triển khai `interface` với `access modifier` đặt `default`, không mở `public`.
+
+`shapefactory/Circle.java`
+
+```java
+package shapefactory;
+
+class Circle
+implements Shape {
+   @Override
+   public void draw() {
+      System.out.println("Một hình tròn.");
+   }
+}
+```
+
+`shapefactory/Triangle.java`
+
+```java
+package shapefactory;
+
+class Triangle
+implements Shape {
+   @Override
+   public void draw() {
+      System.out.println("Một hình tam giác.");
+   }
+}
+```
+
+`shapefactory/Square.java`
+```java
+package shapefactory;
+
+class Square
+implements Shape {
+   @Override
+   public void draw() {
+      System.out.println("Một hình vuông.");
+   }
+}
+```
+
+#### Bước 3
+
+#### Bước 4
+
+#### Bước 5
 
 
 -----
 Tham khảo:
+- [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
+- [Hướng Dẫn Cơ Bản Design Patterns - 33 Dạng Thức Triển Khai Trong OOP](https://viblo.asia/p/design-patterns-gioi-thieu-tong-quan-YWOZrAWrKQ0)
 - [Giới thiệu Design Patterns](https://gpcoder.com/4164-gioi-thieu-design-patterns/)
 - [Nhập môn Design Pattern (Phong cách kiếm hiệp)](https://toidicodedao.com/2016/03/01/nhap-mon-design-pattern-phong-cach-kiem-hiep/)
 - [https://tuanitpro.com/design-pattern-la-gi/](https://tuanitpro.com/design-pattern-la-gi/)
