@@ -4,143 +4,99 @@ title: Docker cơ bản
 subtitle: Docker và những điều cần biết
 
 tags:
-- Django
-- SQLite
-- PostgreSQL
-- migration
-- database
+- Docker
 ---
 
-Xin chào tất cả, trong bài viết này, tôi sẽ hướng dẫn các bạn cách di chuyển dữ liệu từ SQLite sang Postgres.
-
-Các bước là:
-1. Sao lưu toàn bộ dữ liệu kết xuất dữ liệu SQLite trong DB
-2. Tạo Postgres DB với người dùng và mật khẩu
-3. Thay đổi settings.py
-4. Nhập cố định bằng cách sử dụng dữ liệu tải
+![Docker](https://boxxv.github.io/img/posts/0_CP98BIIBgMG2K3u5.png "Docker")
 
 
-## 1. Sao lưu toàn bộ dữ liệu SQLite.
+### 1. Docker là gì?
 
-Trước tiên, bạn cần sao lưu toàn bộ DB bằng lệnh dưới đây
+Docker là một nền tảng để cung cấp cách để building, deploying và running ứng dụng dễ dàng hơn bằng cách sử dụng các containers (trên nền tảng ảo hóa) để đóng gói ứng dụng.
 
+
+### 2. Các thành phần chính của Docker
+
+**Docker images**: nó là cấu trúc chính của Docker Container. Nó bao gồm tất cả những thứ cần thiết để dự án của bạn có thể chạy được như một hệ điều hành hay các dependencies. Các Image được chia sẻ công khai ở Docker Hub để tất cả mọi người có thể cùng nhau sử dụng và phát triển.
+
+**Docker container**: là đơn vị phần mềm cung cấp cơ chế đóng gói ứng dụng, mã nguồn, thiết lập, thư viện... vào một đối tượng duy nhất. Nó là một môi trường hoàn hảo cung cấp mọi thứ để chương trình có thể hoạt động được, không chịu sự tác động từ môi trường của hệ thống cũng như không làm ảnh hưởng ngược lại về phía hệ thống chứa nó.
+
+**Dockerfile**: Là một file dạng text không có phần đuôi mở rộng, chứa các đặc tả về môi trường thực thi phần mềm, cấu trúc cho Docker image. Docker image có thể được tạo ra tự động bằng cách đọc các chỉ dẫn trong Dockerfile. Từ những câu lệnh đó, Docker sẽ build ra Docker image
+
+**Dockerhub**: là dịch vụ cloud lưu trữ các image của các cá nhân hoặc công ty. Nó cho phép người dùng sử dụng và phát triển
+
+
+### 3. Lợi ích của Docker
+
+Trước đây, việc setup và deploy application lên một hoặc nhiều server rất vất vả từ việc phải cài đặt các công cụ, môi trường cần cho application đến việc chạy được ứng dụng chưa kể việc không đồng nhất giữa các môi trường trên nhiều server khác nhau.
+
+Docker cho phép các developers tạo các môi trường độc lập và tách biệt để khởi chạy và phát triển ứng dụng và môi trường này được gọi là container. Khi cần deploy lên bất kỳ server nào chỉ cần run container của Docker thì application của bạn sẽ được khởi chạy ngay lập tức.
+
+
+### 4. Cách tạo Docker Image từ Dockerfile
+
+Một số câu lệnh trong Dockerfile
+
+`FROM <base_image>:<phiên_bản>`: đây là câu lệnh bắt buộc phải có trong bất kỳ Dockerfile nào. Nó dùng để khai báo base Image mà chúng ta sẽ build mới Image của chúng ta.
+
+`MAINTAINER <tên_tác_giả>`: câu lệnh này dùng để khai báo trên tác giả tạo ra Image, chúng ta có thể khai báo nó hoặc không.
+
+`RUN <câu_lệnh>`: chúng ta sử dụng lệnh này để chạy một command cho việc cài đặt các công cụ cần thiết cho Image của chúng ta.
+
+`CMD <câu_lệnh>`: trong một Dockerfile thì chúng ta chỉ có duy nhất một câu lệnh CMD, câu lệnh này dùng để xác định quyền thực thi của các câu lệnh khi chúng ta tạo mới Image.
+
+`ENTRYPOINT <câu_lệnh>`: định nghĩa những command mặc định, cái mà sẽ được chạy khi container running.
+
+Để tạo ra một image từ Dockerfile, chúng ta tạo một thư mục rỗng. Tạo một file tên Dockerfile nội dung như sau:
+
+Build image từ Dockerfile đã tạo :
+
+Với Dockerfile đã tạo ở trên, chúng ta có thể tiến hành build một image. Các bạn trỏ đường dẫn đến thư mục lưu Dockerfile và gõ lệnh:
 ```bat
-python manage.py dumpdata > whole.json
+docker build -t ubuntu:v1 -f Dockerfile .
 ```
 
-Trong lệnh này, một số người dùng thường thích sử dụng khóa ngoại tự nhiên và khóa chính nhưng tôi sẽ không đề xuất sử dụng lệnh dưới đây cho đến khi bạn gặp lỗi khi khôi phục dữ liệu (loaddata) vào Postgres
-
+Sau khi build thành công, thực hiện run image bằng lệnh:
 ```bat
-python manage.py dumpdata --natural-foreign --natural-primary > whole.json
-
-python manage.py dumpdata --natural-foreign --indent 2 -e contenttypes -e auth.permission --output dumps.json
+docker run --name ubuntu-v1 93b103068d3f
 ```
 
-Lệnh này sẽ tạo ra `whole.json` trong thư mục gốc của các dự án của bạn, điều này có nghĩa là bạn đã tạo dữ liệu kết xuất từ SQLite ở định dạng cố định JSON.
 
+### 5. Cách tạo Docker Image trên Docker Hub
 
-## 2. Tạo PostgresDB với người dùng và mật khẩu.
+1. Tạo tài khoản và đăng nhập vào trang hub.docker.com
 
-Trong bước này, bạn cần cài đặt Postgres trong hệ điều hành của bạn như Ubuntu hoặc mac (google), sau khi cài đặt xong, đăng nhập vào Postgres
+2. Tìm và click Create Repository
 
+3. Điền các thông tin cần thiết và chọn public
+
+4. Đăng nhập Docker Hub bằng command line:
 ```bat
-sudo su — postgrespsql
-
-psql
+docker login --username=<your_docker_hub_username>
 ```
 
-Sử dụng lệnh dưới đây để tạo người dùng có mật khẩu và DB và cấp quyền trên DB từ người dùng
-
+5. Kiểm tra ID của image cần sử dụng:
 ```bat
-create user hero;
-create database my_db;
-alter role hero with password ‘my_db@123’;
-grant all privileges on database my_db to hero;
-alter database my_db owner to hero;
+docker images
 ```
 
-
-## 3. Thay đổi settings.py
-
+Nếu image chưa được gắn tag thì hãy gắn tag cho nó bằng câu lệnh:
 ```bat
-# install this package 
-pip install psycopg2
+docker tag <image_id> <your_hub_username>/<your_repository>:<tag>
 ```
 
-`settings.py`
-
-```python
-DATABASES = {
-	‘default’: {
-		‘ENGINE’: ‘django.db.backends.postgresql_psycopg2’,
-		‘NAME’: ‘my_db’,
-		‘USER’ : ‘hero’,
-		‘PASSWORD’ : ‘my_db@123’,
-		‘HOST’ : ‘localhost’,
-		‘PORT’ : ‘5432’,
-	}
-}
-```
-
-Xóa tất cả các tệp migrations vì chúng tôi không cần tất cả các migrations cũ, thay vào đó, chúng tôi sẽ tạo một tệp migrations cho mỗi ứng dụng. sử dụng lệnh dưới đây để xóa tất cả các tệp di chuyển.
-
+6. Để đưa Image lên Docker Hub bạn cần sử dụng câu lệnh:
 ```bat
-find . -path “*/migrations/*.py” -not -name “__init__.py” -delete
-
-find . -path “*/migrations/*.pyc” -delete
+docker push <your_hub_username>/<your_repository>:tag_name
 ```
 
-```bat
-python manage.py makemigrations
-python manage.py migrate
-```
 
-Bây giờ xóa các `content types` (bước bắt buộc) nếu không bạn sẽ gặp hàng tỷ lỗi
+### Tổng kết
 
-```bat
-python manage.py shell
-
-from django.contrib.contenttypes.models import ContentType
-
-ContentType.objects.all().delete()
-```
-
-Điều này có nghĩa là Postgres DB trống được tạo khi thực hiện di chuyển xong. Tiếp theo, chúng ta cần tải vào db Postgres từ fixtures.
-
-
-## 4. import fixture using loaddata.
-
-Một bước chính là vô hiệu hóa tất cả các signals trong các dự án, nếu không bạn sẽ nhận được một đối tượng hoặc ràng buộc duy nhất đã được tạo.
-
-Sử dụng lệnh dưới đây để tải dữ liệu vào DB từ các thiết bị cố định
-
-```bat
-python manage.py loaddata fixture/whole.json
-```
-
-đó là nó, bạn đã di chuyển thành công dữ liệu từ SQLite sang Postgres bằng cách sử dụng fixtures
-
------
-
-Lời khuyên của tôi là chỉ sử dụng SQLite để phát triển và thực hiện việc di chuyển dữ liệu ở trên trong giai đoạn đầu của dự án vì phương pháp cố định này yêu cầu RAM máy tính lớn để tải dữ liệu, nếu SQLite của bạn hơn 100MB thì nó sẽ không hoạt động.
-
-Và nếu bạn đang sử dụng nhóm và quyền thì hãy lấy dữ liệu kết xuất mà không loại trừ các loại nội dung và quyền, nếu không bạn sẽ gặp lỗi khi tải dữ liệu vì các nhóm phụ thuộc vào quyền.
-
-Và đôi khi bạn cần thay đổi charfield của mô hình thành kích thước max_length vì dữ liệu kết xuất tạo ra một số khoảng trống trong giá trị charfield, vì vậy trong khi nhập dữ liệu tải, bạn sẽ gặp lỗi như “in the model, field varying length 50 exceeds 50”.
-
-
-## Kết luận
-
-Trong bài viết này, mình đã hướng dẫn cách chuyển SQLite sang Postgres bằng phương pháp fixture, mình biết bạn sẽ gặp lỗi vui lòng cho mình biết ở phần bình luận bên dưới, mình sẽ cố gắng khắc phục.
+Trong bài viết này mình đã giới thiệu cơ bản về docker cùng một số khái niệm quan trọng như Dockerfile, Docker Images, Docker Container... Mình rất mong nhận được sự góp ý từ mọi người.
 
 
 -----
 Tham khảo:
-- [Django SQLite to PostgreSQL database migration](https://medium.com/djangotube/django-sqlite-to-postgresql-database-migration-e3c1f76711e1)
-- [Configure PostgreSQL to allow remote connection](https://www.bigbinary.com/blog/configure-postgresql-to-allow-remote-connection)
-- [Cấu hình để kết nối với PostgreSQL từ bên ngoài](https://dangxuanduy.com/database/cau-hinh-de-ket-noi-voi-postgresql-tu-ben-ngoai/)
-- [Khởi động PostgreSQL server](https://dangxuanduy.com/database/khoi-dong-postgresql-server/)
-- [Cấu hình kết nối trong PostgreSQL với pg_hba.conf](https://dangxuanduy.com/database/cau-hinh-chinh-sach-ket-noi-trong-postgresql-voi-pg-hba_conf/)
-- [Kết nối vào server Linux bằng ssh tool](https://dangxuanduy.com/lap-trinh/bash-shell/ket-noi-vao-server-linux-bang-ssh-tool/)
-- [Review công cụ quản trị PostgreSQL – DBeaver](https://dangxuanduy.com/database/review-cong-cu-quan-tri-postgresql-dbeaver/)
-- [Kho tài liệu kiến thức Database](https://www.facebook.com/groups/khotailieukienthucdatabase)
+- [Docker cơ bản](https://viblo.asia/p/docker-co-ban-6J3Zgavq5mB)
+- [Giới thiệu Docker](https://labs.flinters.vn/devops/gioi-thieu-docker/)
