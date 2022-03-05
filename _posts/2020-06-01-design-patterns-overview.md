@@ -1537,6 +1537,123 @@ SINGLE or FEMALE
 [ Name: Laura, Gender: Female, Status: Married ]
 ```
 
+
+## Composite Pattern
+
+Composite được hiểu nôm na là tổng hợp. Composite được sử dụng khi chúng ta muốn làm việc với một nhóm các `object` như một `object` đơn duy nhất. Composite được xếp vào nhóm các pattern Kiến Trúc.
+
+Composite tạo ra một `class` có chứa nhóm các `object` của chính `class` đó và đồng thời cung cấp các phương thức để làm việc với nhóm các `object` này.
+
+#### Áp dụng triển khai
+
+![Design Patterns](https://boxxv.github.io/img/patterns/40b1d862-e26d-4c87-8cb0-64d337f1b3f2.png "Design Patterns")
+
+- Chúng ta có một phần mềm mô tả kiến trúc nhân sự của một cửa hàng.
+- `01 class Employee` được tạo ra để mô tả thực thể nhân viên.
+- Mỗi `object Employee` cũng có thể chứa danh sách các nhân viên cấp thấp hơn.
+- Code `main` trong `PatternDemo` sẽ sử dụng `class Employee` để tạo một kiến trúc nhân sự và in ra danh sách tất cả các nhân viên.
+
+
+#### Bước 1
+
+Tạo `class Employee`.
+
+`compositepattern/Employee.java`
+```java
+package compositepattern;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee {
+   private String name;
+   private String role;
+   private int salary;
+   private List<Employee> subordinateList;
+
+   public Employee(
+      String name,
+      String role,
+      int salary
+   ) {
+      this.name = name;
+      this.salary = salary;
+      this.role = role;
+      this.subordinateList = new ArrayList<Employee>();
+   }
+
+   public void addSub(Employee emp) {
+      subordinateList.add(emp);
+   }
+
+   public void removeSub(Employee emp) {
+      subordinateList.remove(emp);
+   }
+
+   public List<Employee> getSubList() {
+      return subordinateList;
+   }
+
+   public String toString() {
+      return "Employee: [ Name: " + name + ", Role: " + role + ", Salary : " + salary+" ]";
+   }
+}
+```
+
+#### Bước 2
+
+Sử dụng `class Employee` để tạo và in danh sách nhân viên.
+
+`PatternDemo.java`
+```java
+import compositepattern.Employee;
+
+public class PatternDemo {
+   public static void main(String[] args) {
+      Employee CEO = new Employee("John","CEO", 30000);
+
+      Employee headSales = new Employee("Robert","Head Sales", 20000);
+      CEO.addSub(headSales);
+
+      Employee headMarketing = new Employee("Micheal","Head Marketing", 20000);
+      CEO.addSub(headMarketing);
+
+      Employee sale1 = new Employee("Richard","Sales", 10000);
+      headSales.addSub(sale1);
+      Employee sale2 = new Employee("Rob","Sales", 10000);
+      headSales.addSub(sale2);
+
+      Employee clerk1 = new Employee("Laura","Marketing", 10000);
+      headMarketing.addSub(clerk1);
+      Employee clerk2 = new Employee("Ryan","Marketing", 10000);
+      headMarketing.addSub(clerk2);
+
+      // in danh sách tất cả các nhân viên
+      System.out.println(CEO);
+      for (Employee headEmployee : CEO.getSubList()) {
+         System.out.println(headEmployee);
+         for (Employee employee : headEmployee.getSubList()) {
+            System.out.println(employee);
+         }
+      }
+   }
+}
+```
+
+#### Bước 3
+
+Kiểm chứng lại kết quả được in ra ở `console`.
+
+```java
+Employee: [ Name: John, Role: CEO, Salary : 30000 ]
+Employee: [ Name: Robert, Role: Head Sales, Salary : 20000 ]
+Employee: [ Name: Richard, Role: Sales, Salary : 10000 ]
+Employee: [ Name: Rob, Role: Sales, Salary : 10000 ]
+Employee: [ Name: Micheal, Role: Head Marketing, Salary : 20000 ]
+Employee: [ Name: Laura, Role: Marketing, Salary : 10000 ]
+Employee: [ Name: Ryan, Role: Marketing, Salary : 10000 ]
+```
+
 -----
 Tham khảo:
 - [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
