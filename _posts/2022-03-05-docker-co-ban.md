@@ -79,12 +79,10 @@ docker login --username=<your_docker_hub_username>
 ```bat
 docker images
 ```
-
 Nếu image chưa được gắn tag thì hãy gắn tag cho nó bằng câu lệnh:
 ```bat
 docker tag <image_id> <your_hub_username>/<your_repository>:<tag>
 ```
-
 6. Để đưa Image lên Docker Hub bạn cần sử dụng câu lệnh:
 ```bat
 docker push <your_hub_username>/<your_repository>:tag_name
