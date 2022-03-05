@@ -1660,6 +1660,7 @@ Tham khảo:
 - [Hướng Dẫn Cơ Bản Design Patterns - 33 Dạng Thức Triển Khai Trong OOP](https://viblo.asia/p/design-patterns-gioi-thieu-tong-quan-YWOZrAWrKQ0)
 - [Giới thiệu Design Patterns](https://gpcoder.com/4164-gioi-thieu-design-patterns/)
 - [Nhập môn Design Pattern (Phong cách kiếm hiệp)](https://toidicodedao.com/2016/03/01/nhap-mon-design-pattern-phong-cach-kiem-hiep/)
+- [Tổng quan về Design Pattern](https://www.swiftyvn.com/2018/09/tong-quan-ve-design-pattern/#ph%C3%A2n-lo%E1%BA%A1i-design-pattern)
 - [https://tuanitpro.com/design-pattern-la-gi/](https://tuanitpro.com/design-pattern-la-gi/)
 - [https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html](https://blog.duyet.net/2015/02/oop-design-patterns-la-gi.html)
 - [https://refactoring.guru/design-patterns/catalog](https://refactoring.guru/design-patterns/catalog)
