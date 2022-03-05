@@ -413,6 +413,38 @@ public class Thing {
 }
 ```
 
+#### Bước 2
+
+Truy xuất tới `object` duy nhất và hiển thị tin nhắn.
+
+`PatternDemo.java`
+```java
+import singleton.Thing;
+
+public class PatternDemo {
+   public static void main(String[] args) {
+      // Lỗi biên dịch vì phương thức khởi tạo không khả dụng
+      // Thing only = new Thing();
+
+      // Truy xuất object đơn nguyên duy nhất
+      Thing only = Thing.getInstance();
+
+      // Hiển thị tin nhắn
+      only.showMessage();
+   }
+}
+```
+
+#### Bước 3
+
+Kiểm chứng lại kết quả được in ra ở `console`.
+
+```bat
+Tin nhắn từ `object` duy nhất của `Thing`!
+```
+
+
+
 
 -----
 Tham khảo:
