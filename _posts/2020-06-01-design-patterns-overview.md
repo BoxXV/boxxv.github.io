@@ -1108,6 +1108,174 @@ Kiểm chứng lại kết quả in ra ở `console`.
 Đang phát tệp Vlc. Tên tệp: far far away.vlc
 Kiểu tệp không hợp lệ. Định dạng `avi` không được hỗ trợ.
 ```
+
+
+## Bridge Pattern
+
+Bridge được sử dụng khi chúng ta cần tách một `abstract` khỏi `class` thực thể và khiến cho cả 2 đều trở nên linh động. Bridge được xếp vào nhóm các pattern Kiến Trúc.
+
+Bridge sử dụng một giao diện đóng vai trò như một cầu nối giúp cho các chức năng của `class` thực thể trở nên độc lập và tách riêng khỏi các `class` tạo giao diện. Lúc này, cả 2 loại `class` đều có thể được chỉnh sửa linh động mà không ảnh hưởng lẫn nhau.
+
+#### Áp dụng triển khai
+
+![Design Patterns](https://boxxv.github.io/img/patterns/956bbd62-e48a-4931-bc82-1308f18ef853.webp "Design Patterns")
+
+Ở đây chúng ta có một phần mềm vẽ các hình phẳng 2D có màu sắc khác nhau. Thông thường để đơn giản thì chúng ta chỉ cần có `01 class base` là `Circle` và tạo ra các `object` hình tròn có thuộc tính màu sắc khác nhau để vẽ. Lúc này, giao diện được sử dụng để vẽ là phương thức `draw()` của class `Circle`.
+
+Tuy nhiên lúc này vấn đề nảy sinh là nếu như chúng ta muốn thay đổi cách hoạt động của `draw()`, thì việc chỉnh sửa sẽ phải thực hiện trực tiếp trên `class Circle`. Hoặc ví dụ như chúng ta có ý định chỉnh sửa `class Circle` thì cũng phải coi chừng cái thuộc tính màu sắc kẻo ảnh hưởng đến `draw()`.
+
+Để tách rời giao diện `draw()` và `Circle`, một `bridge` được tạo ra bởi `interface Drawing`. Các `class` triển khai `DrawingRed` và `DrawingGreen` sẽ được `Circle` ủy thác hoàn toàn tác vụ `draw()` chi tiết. Như vậy, giờ đây chúng ta có thể yên tâm thực hiện những điều chỉnh cần thiết trên `Circle` mà không gây ảnh hưởng đến giao diện `draw()` đang hoạt động và ngược lại.
+
+#### Bước 1
+
+Sử dụng `MediaPlayer` để phát các định dạng tệp khác nhau.
+
+`PatternDemo.java`
+```java
+
+```
+
+#### Bước 1
+
+Sử dụng `MediaPlayer` để phát các định dạng tệp khác nhau.
+
+`PatternDemo.java`
+```java
+
+```
+
+#### Bước 1
+
+Tạo `interface bridge`.
+
+`bridgepattern/drawingapi/Drawing.java`
+```java
+package bridgepattern.drawingapi;
+
+public interface Drawing {
+   public void draw(int x, int y, int radius);
+}
+```
+
+#### Bước 2
+
+Tạo các `class` triển khai `Drawing`.
+
+`bridgepattern/drawingapi/DrawingGreen.java`
+```java
+package bridgepattern.drawingapi;
+
+public class DrawingGreen implements Drawing {
+   @Override
+   public void draw (int radius, int x, int y) {
+      System.out.println("=== Đang vẽ hình tròn..");
+      System.out.println("Màu sắc: Xanh lá");
+      System.out.println("Tọa độ tâm: (" + x + ", " + y + ")");
+      System.out.println("Bán kính: " + radius);
+   }
+}
+```
+
+`bridgepattern/drawingapi/DrawingRed.java`
+```java
+package bridgepattern.drawingapi;
+
+public class DrawingRed implements Drawing {
+   @Override
+   public void draw(int x, int y, int radius) {
+      System.out.println("=== Đang vẽ hình tròn..");
+      System.out.println("Màu sắc: Đỏ");
+      System.out.println("Tọa độ tâm: (" + x + ", " + y + ")");
+      System.out.println("Bán kính: " + radius);
+   }
+}
+```
+
+#### Bước 3
+
+Tạo `abstract Shape` sử dụng giao diện `Drawing`.
+
+`bridgepattern/Shape.java`
+```java
+package bridgepattern;
+
+import bridgepattern.drawingapi.Drawing;
+
+abstract public class Shape {
+   protected Drawing drawingAPI;
+
+   protected Shape(Drawing api) {
+      drawingAPI = api;
+   }
+
+   public abstract void draw();
+}
+```
+
+#### Bước 4
+
+Tạo `class Circle` mở rộng `Shape`.
+
+`bridgepattern/Circle.java`
+```java
+package bridgepattern;
+
+import bridgepattern.drawingapi.Drawing;
+
+public class Circle extends Shape {
+   private int x, y, radius;
+
+   public Circle(int x, int y, int radius, Drawing api) {
+      super(api);
+      this.x = x;
+      this.y = y;
+      this.radius = radius;
+   }
+
+   @Override
+   public void draw() {
+      drawingAPI.draw(x, y, radius);
+   }
+}
+```
+
+#### Bước 5
+
+Sử dụng `Shape` và các `class Drawing` để vẽ các hình tròn với màu sắc khác nhau.
+
+`PatternDemo.java`
+```java
+import bridgepattern.Circle;
+import bridgepattern.drawingapi.DrawingGreen;
+import bridgepattern.drawingapi.DrawingRed;
+import bridgepattern.Shape;
+
+public class PatternDemo {
+   public static void main(String[] args) {
+      Shape circleRed = new Circle(100, 100, 10, new DrawingRed());
+      circleRed.draw();
+
+      Shape circleGreen = new Circle(100, 100, 10, new DrawingGreen());
+      circleGreen.draw();
+   }
+}
+```
+
+#### Bước 6
+
+Kiểm chứng lại kết quả in ra ở `console`.
+
+```java
+=== Đang vẽ hình tròn..
+Màu sắc: Đỏ
+Tọa độ tâm: (100, 100)
+Bán kính: 10
+=== Đang vẽ hình tròn..
+Màu sắc: Xanh lá
+Tọa độ tâm: (100, 10)
+Bán kính: 100
+```
+
 -----
 Tham khảo:
 - [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
