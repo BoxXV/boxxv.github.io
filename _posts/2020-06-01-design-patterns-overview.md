@@ -43,6 +43,15 @@ Nguyên gốc theo cuốn Design Patterns - Elements of Reusable Object-Oriented
 - Các Patterns J2EE
     + Các Patterns này đặc biệt quan tâm tới tầng biểu thị và được đặt nhận diện bởi Sun Java Center.
 
+- [Factory Pattern](#factory-pattern)
+- [Abstract Factory](#abstract-factory)
+- [Singleton Pattern](#singleton-pattern)
+- [Builder Pattern](#builder-pattern)
+- [Prototype Pattern](#prototype-pattern)
+- [Adapter Pattern](#adapter-pattern)
+- [Bridge Pattern](#bridge-pattern)
+- [Bridge Pattern](#bridge-pattern)
+
 Nhân tiện dịch tới đây thì mình mới nhớ ra một vấn đề quan trọng, đó là các ví dụ triển khai được sử dụng trong các bài viết tiếp theo sẽ là triển khai trên Java. Lý do mà Tutorialspoint họ chọn Java để làm Tút có lẽ cũng dễ hiểu bởi vì sự phổ biến của ngôn ngữ này và quan trọng hơn cả đó là cú pháp rườm rà, cứng nhắc, khó có thể có sự nhầm lẫn gì giữa người viết và người đọc code.
 
 Vì vậy nên nếu như bạn chưa từng nói chuyện với máy tính bằng Java bao giờ thì rất có thể bạn sẽ cần một khóa cơ bản cấp tốc trước khi đọc bài viết tiếp theo đấy nhé. 
