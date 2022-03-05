@@ -729,40 +729,214 @@ Total cost: 85.5
 ```
 
 
-## S
+## Prototype Pattern
 
-Singleton là một trong số những dạng thức triển khai đơn giản nhất của OOP và được xếp vào nhóm các dạng thức Khởi Tạo. Singleton giúp chúng ta đảm bảo chỉ có `01 object` đơn duy nhất của `01 class` đặc định được tạo ra trong suốt thời gian phần mềm hoạt động. `Class` này có cung cấp một phương thức để truy xuất `object` đơn nguyên này và không cho phép khởi tạo `object` mới tương tự ở bất kỳ nơi nào khác.
+Prototype Pattern thường được sử dụng để nhân bản một `object` với lưu ý về mặt hiệu năng xử lý. Protype Pattern được xếp vào nhóm các pattern Khởi Tạo.
+
+Prototype Pattern sử dụng một giao diện kiểu mẫu để tạo ra một bản sao `clone` của một `object`. Pattern này được sử dụng khi mà việc khởi tạo một `object` trực tiếp gặp nhiều khó khăn và tiêu tốn tài nguyên về thời gian.
+
+Ví dụ, một `object` được tạo ra sau một lần mở kết nối tới CSDL có thể được cho là đắt đỏ. Chúng ta có thể ghi đệm lại `object` này vào một `cache`, và lần tới khi yêu cầu được gửi đến, chúng ta có thể tạo ra một bản sao `clone` và trả về, đồng thời cập nhật CSDL, thay vì truy xuất lại thông tin từ CSDL và khởi tạo lại `object` từ đầu.
 
 #### Áp dụng triển khai
 
-![Design Patterns](https://boxxv.github.io/img/patterns/734fb702-73c2-414a-a883-5cc2ce329fda.png "Design Patterns")
+![Design Patterns](https://boxxv.github.io/img/patterns/4f821d66-f712-4e6b-925a-d520427c2ebf.png "Design Patterns")
 
-- Chúng ta sẽ tạo ra `01 class` có tên là `Thing`. Bên trong `class` này sẽ có hàm khởi tạo được khóa `private` và một thuộc tính `static` để lưu tham chiếu của `object` duy nhất được tạo ra.
-- `Thing` có cung cấp một phương thức `static` để chia sẻ tham chiếu tới `object` duy nhất cho phần code client sử dụng.
-- Cuối cùng là `main` ở `PatternDemo` sẽ sử dụng `Thing` để hỏi truy xuất tới `object` duy nhất và hiển thị tin nhắn của `object` đó.
+- Chúng ta sẽ tạo `01 abstract class Shape`.
+- Và các `class` mô tả thực thể mở rộng `Shape`.
+- Ở bước tiếp theo, `01 class Cache` ghi đệm các `object` đã được tạo ra sẽ được định nghĩa.
+- Cuối cùng là code `main` ở `PatternDemo` sẽ sử dụng `Cache` để yêu cầu lấy các `object Shape`.
 
-#### Bước 
+Về mặt quản lý code, chúng ta sẽ có `01 package` tên là `shapeprototype`. Code sử dụng ở phía client sẽ chỉ có thể tham chiếu tới `Cache` và `Shape` được mở `public`. Các thành phần còn lại của `shapeprototype` đều được đặt `access modifier` là `default`.
 
-Tạo `01 class singleton` có tên là `Thing`.
+#### Bước 1
 
-`singleton/Thing.java`
+Tạo `01 abstract class Shape` triển khai `interface Cloneable`.
+
+`shapeprototype/Shape.java`
 ```java
+package shapeprototype;
 
+public abstract class Shape
+implements Cloneable {
+   private String id;
+   protected String type;
+
+   public abstract void draw();
+
+   public String getType() {
+      return type;
+   }
+
+   public void setId(String id) {
+      this.id = id;
+   }
+
+   public String getId() {
+      return id;
+   }
+
+   @Override
+   public Object clone() {
+      Object clone = null;
+
+      try {
+         clone = super.clone();
+      }
+      catch (CloneNotSupportedException e) {
+         e.printStackTrace();
+      }
+
+      return clone;
+   }
+}
+```
+
+#### Bước 2
+
+Tạo các `class` mô tả thực thể mở rộng `Shape`.
+
+`shapeprototype/Circle.java`
+```java
+package shapeprototype;
+
+class Circle extends Shape {
+   public Circle() {
+      type = "circle";
+   }
+
+   @Override
+   public void draw() {
+      System.out.println("Một hình tròn.");
+   }
+}
+```
+
+`shapeprototype/Triangle.java`
+```java
+package shapeprototype;
+
+class Triangle extends Shape {
+   public Triangle() {
+      type = "triangle";
+   }
+
+   @Override
+   public void draw() {
+      System.out.println("Một hình tam giác.");
+   }
+}
+```
+
+`shapeprototype/Square.java`
+```java
+package shapeprototype;
+
+class Square
+extends Shape {
+   public Square() {
+      type = "square";
+   }
+
+   @Override
+   public void draw() {
+      System.out.println("Một hình vuông.");
+   }
+}
+```
+
+#### Bước 3
+
+Tạo `01 class Cache` để truy vấn các `object Shape` từ CSDL và ghi đệm vào một.
+
+`shapeprototype/Cache.java`
+```java
+package shapeprototype;
+
+import java.util.Hashtable;
+
+public class Cache {
+   private static Hashtable<String, Shape> cachedShapes = new Hashtable<String, Shape>();
+
+   public static Shape getShape(String id) {
+      return (Shape) cachedShapes.get(id).clone();
+   }
+
+   public static void load() {
+      Circle circle = new Circle();
+      circle.setId("1");
+      cachedShapes.put(circle.getId(), circle);
+
+      Triangle triangle = new Triangle();
+      triangle.setId("2");
+      cachedShapes.put(triangle.getId(), triangle);
+
+      Square square = new Square();
+      square.setId("3");
+      cachedShapes.put(square.getId(), square);
+   }
+}
+```
+
+#### Bước 4
+
+Tại `PatternDemo`, sử dụng `Cache` để tạo ra các bản sao của các `object Shape` được ghi đệm trước đó trong `Hashtable`.
+
+`PatternDemo.java`
+```java
+import shapeprototype.Cache;
+import shapeprototype.Shape;
+
+public class PatternDemo {
+   public static void main(String[] args) {
+      Cache.load();
+
+      Shape clonedCircle = (Shape) Cache.getShape("1");
+      System.out.println("=== Cloned " + clonedCircle.getType());
+      clonedCircle.draw();
+
+      Shape clonedTriangle = (Shape) Cache.getShape("2");
+      System.out.println("=== Cloned " + clonedTriangle.getType());
+      clonedTriangle.draw();
+
+      Shape clonedSquare = (Shape) Cache.getShape("3");
+      System.out.println("=== Cloned " + clonedSquare.getType());
+      clonedSquare.draw();
+   }
+}
+```
+
+#### Bước 5
+
+Kiểm chứng lại thông tin được in ra ở `console`.
+
+```bat
+=== Cloned circle
+Một hình tròn.
+=== Cloned triangle
+Một hình tam giác.
+=== Cloned square
+Một hình vuông.
 ```
 
 
+## Adapter Pattern
 
-## S
+Adapter Pattern hoạt động như một cầu nối giữa 2 giao diện không tương thích. Adapter Pattern được xếp vào nhóm các pattern Kiến Trúc.
 
-Singleton là một trong số những dạng thức triển khai đơn giản nhất của OOP và được xếp vào nhóm các dạng thức Khởi Tạo. Singleton giúp chúng ta đảm bảo chỉ có `01 object` đơn duy nhất của `01 class` đặc định được tạo ra trong suốt thời gian phần mềm hoạt động. `Class` này có cung cấp một phương thức để truy xuất `object` đơn nguyên này và không cho phép khởi tạo `object` mới tương tự ở bất kỳ nơi nào khác.
+Adapter Pattern sử dụng `01 class` đơn để đảm nhiệm việc kết nối các giao diện độc lập hoặc không tương thích.
 
 #### Áp dụng triển khai
 
-![Design Patterns](https://boxxv.github.io/img/patterns/734fb702-73c2-414a-a883-5cc2ce329fda.png "Design Patterns")
+![Design Patterns](https://boxxv.github.io/img/patterns/75591960-59be-404b-a24b-5c92aa4ef0c8.png "Design Patterns")
 
-- Chúng ta sẽ tạo ra `01 class` có tên là `Thing`. Bên trong `class` này sẽ có hàm khởi tạo được khóa `private` và một thuộc tính `static` để lưu tham chiếu của `object` duy nhất được tạo ra.
-- `Thing` có cung cấp một phương thức `static` để chia sẻ tham chiếu tới `object` duy nhất cho phần code client sử dụng.
-- Cuối cùng là `main` ở `PatternDemo` sẽ sử dụng `Thing` để hỏi truy xuất tới `object` duy nhất và hiển thị tin nhắn của `object` đó.
+- Chúng ta có 01 interface MediaPlaying và 01 class mô tả thực thể MediaPlayer triển khai giao diện đó. Mặc định thì MediaPlayer có thể phát các tệp định dạng Mp3.
+- Ngoài ra chúng ta còn có 01 interface AdvancedPlaying và các class triển khai giao diện bổ sung này. Các class này có thể phát các tệp Vlc hoặc Mp4.
+- Bây giờ thì chúng ta muốn MediaPlayer có thể phát được các tệp định dạng khác nữa ngoài Mp3 mặc định.
+- Để làm được điều này, chúng ta cần tạo 01 class MediaAdapter triển khai interface MediaPlaying và sử dụng các object AdvancedPlaying để phát tệp được yêu cầu.
+- MediaPlayer sẽ sử dụng MediaApdater bằng cách truyền vào đó định dạng media muốn phát mà không cần biết tới các class thực thụ được sử dụng để phát tệp.
+- Cuối cùng là PatternDemo với code main sẽ sử dụng MediaPlayer để phát các định dạng media khác nhau.
+
+Về mặt quản lý code, chúng ta có 01 package adapterpattern. Code client trong main sẽ chỉ tham chiếu duy nhất tới MediaPlayer và trỏ interface MediaPlaying. Do đó chúng ta sẽ chỉ có duy nhất class MediaPlayer và interface MediaPlaying để mở public. Tất cả các thành phần còn lại của package đều sẽ được đặt access modifier là default.
 
 #### Bước 
 
