@@ -7,6 +7,18 @@ tags:
 - Creational
 - Structural
 - Behavioral
+- Factory Pattern
+- Abstract Factory
+- Singleton Pattern
+- Builder Pattern
+- Prototype Pattern
+- Adapter Pattern
+- Bridge Pattern
+- Filter Pattern
+- Composite Pattern
+- Decorator Pattern
+- Facade Pattern
+- Flyweight Pattern
 ---
 
 Design Patterns là các dạng thức triển khai code được các lập trình viên OOP giàu kinh nghiệm đúc kết, giúp nhanh chóng xử lý nhiều vấn đề phổ biến mà chúng ta thường gặp trong quá trình viết code. Các giải pháp này được ghi nhận qua thời gian dài và được chiêm nghiệm bởi rất nhiều nhà phát triển phần mềm.
