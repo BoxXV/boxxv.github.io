@@ -52,6 +52,7 @@ Nguyên gốc theo cuốn Design Patterns - Elements of Reusable Object-Oriented
 - [Bridge Pattern](#bridge-pattern)
 - [Filter Pattern](#filter-pattern)
 - [Composite Pattern](#composite-pattern)
+- [Decorator Pattern](#decorator-pattern)
 
 Nhân tiện dịch tới đây thì mình mới nhớ ra một vấn đề quan trọng, đó là các ví dụ triển khai được sử dụng trong các bài viết tiếp theo sẽ là triển khai trên Java. Lý do mà Tutorialspoint họ chọn Java để làm Tút có lẽ cũng dễ hiểu bởi vì sự phổ biến của ngôn ngữ này và quan trọng hơn cả đó là cú pháp rườm rà, cứng nhắc, khó có thể có sự nhầm lẫn gì giữa người viết và người đọc code.
 
@@ -1652,6 +1653,156 @@ Employee: [ Name: Rob, Role: Sales, Salary : 10000 ]
 Employee: [ Name: Micheal, Role: Head Marketing, Salary : 20000 ]
 Employee: [ Name: Laura, Role: Marketing, Salary : 10000 ]
 Employee: [ Name: Ryan, Role: Marketing, Salary : 10000 ]
+```
+
+
+## Decorator Pattern
+
+Decorator cho phép chúng ta bổ sung thêm chức năng mới vào một `object` đã tồn tại trước đó mà không cần thực hiện chỉnh sửa can thiệp vào kiến trúc của `object` đó. Decorator được xếp vào nhóm các pattern Kiến Trúc.
+
+Decorator tạo ra một `class` vỏ bọc bao quanh `class` nguyên bản và cung cấp thêm các chức năng mở rộng, đồng thời duy trì tính đặc trưng chặt chẽ của các phương thức đã có.
+
+#### Áp dụng triển khai
+
+![Design Patterns](https://boxxv.github.io/img/patterns/d29528d2-cde7-4fc7-ae72-2199250ca3a5.png "Design Patterns")
+
+Ở đây chúng ta có một phần mềm vẽ các hình phẳng 2D với các `class` cơ bản là `Circle` và `Square` để vẽ các hình tròn và hình vuông. Bây giờ nhu cầu phát sinh là chúng ta muốn vẽ thêm đường viền cho các hình này, nhưng lại không muốn chỉnh sửa 2 `class` ban đầu.
+
+Do đó chúng ta sẽ tạo ra một `abstract Decorator` bao quanh các `object` hình học nguyên bản. Sau đó `class Bordered` sẽ triển khai `Decorator` và thêm vào khả năng vẽ đường viền.
+
+Cuối cùng là code `main` trong `PatternDemo` sẽ sử dụng các `object Decorator` để vẽ hình.
+
+
+#### Bước 1
+
+Tạo `abstract Shape`.
+
+`decoratorpatter/Shape.java`
+```java
+package decoratorpattern;
+
+public abstract class Shape {
+   public abstract void draw();
+}
+```
+
+
+#### Bước 2
+
+Tạo 2 `class` hình học nguyên bản `Circle` và `Square`.
+
+`decoratorpatter/Circle.java`
+```java
+package decoratorpattern;
+
+public class Circle extends Shape {
+   @Override
+   public void draw() {
+      System.out.println("Shape: Circle");
+   }
+}
+```
+
+`decoratorpatter/Square.java`
+```java
+package decoratorpattern;
+
+public class Square extends Shape {
+   @Override
+   public void draw() {
+      System.out.println("Shape: Square");
+   }
+}
+```
+
+#### Bước 3
+
+Tạo `abstract Decorator`.
+
+`decoratorpatter/Decorator.java`
+```java
+package decoratorpattern;
+
+public abstract class Decorator extends Shape {
+   protected Shape origin;
+
+   public Decorator(Shape origin) {
+      this.origin = origin;
+   }
+
+   @Override
+   public void draw() {
+      origin.draw();
+   }
+}
+```
+
+#### Bước 4
+
+Tạo `class Bordered` mở rộng `Decorator`.
+
+`decoratorpatter/Bordered.java`
+```java
+package decoratorpattern;
+
+public class Bordered extends Decorator {
+   public Bordered(Shape origin) {
+      super(origin);
+   }
+
+   @Override
+   public void draw() {
+      origin.draw();
+      setBorder();
+   }
+
+   private void setBorder() {
+      System.out.println("Bordered color: Red");
+   }
+}
+```
+
+#### Bước 5
+
+Sử dụng các `object Decorator` để vẽ hình.
+
+`PatternDemo.java`
+```java
+import decoratorpattern.Circle;
+import decoratorpattern.Shape;
+import decoratorpattern.Bordered;
+import decoratorpattern.Square;
+
+public class PatternDemo {
+   public static void main(String[] args) {
+      Shape circle = new Circle();
+      System.out.println("=== Circle with normal border");
+      circle.draw();
+
+      Shape borderedCircle = new Bordered(new Circle());
+      System.out.println("=== Circle with red border");
+      borderedCircle.draw();
+
+      Shape borderedSquare = new Bordered(new Square());
+      System.out.println("=== Square with red border");
+      borderedSquare.draw();
+   }
+}
+```
+
+#### Bước 6
+
+Kiểm chứng lại kết quả được in ra ở `console`.
+
+```java
+=== Circle with normal border
+Shape: Circle
+=== Circle with red border
+Shape: Circle
+Bordered color: Red
+=== Square with red border
+Shape: Square
+Bordered color: Red
 ```
 
 -----
