@@ -66,7 +66,7 @@ Nguyên gốc theo cuốn Design Patterns - Elements of Reusable Object-Oriented
 - [Composite Pattern](#composite-pattern)
 - [Decorator Pattern](#decorator-pattern)
 - [Facade Pattern](#facade-pattern)
-- [Flyweight Pattern](#flyweight -pattern)
+- [Flyweight Pattern](#flyweight-pattern)
 
 Nhân tiện dịch tới đây thì mình mới nhớ ra một vấn đề quan trọng, đó là các ví dụ triển khai được sử dụng trong các bài viết tiếp theo sẽ là triển khai trên Java. Lý do mà Tutorialspoint họ chọn Java để làm Tút có lẽ cũng dễ hiểu bởi vì sự phổ biến của ngôn ngữ này và quan trọng hơn cả đó là cú pháp rườm rà, cứng nhắc, khó có thể có sự nhầm lẫn gì giữa người viết và người đọc code.
 
