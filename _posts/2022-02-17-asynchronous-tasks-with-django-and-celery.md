@@ -21,6 +21,8 @@ Sau nhiều nghiên cứu, tôi đã tìm ra một giải pháp hay — Celery, 
 
 Tất nhiên, cuối cùng tôi đã cố gắng tìm ra nó — đó là nội dung mà bài viết này sẽ đề cập: *Cách tích hợp Celery vào Dự án Django và tạo Nhiệm vụ định kỳ*.
 
+![Async task architecture](https://boxxv.github.io/img/posts/b2y6ygxu5tpveo-d-3e0xe0vki4.png "Async task architecture")
+
 
 ## 1. What is Celery?
 
