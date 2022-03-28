@@ -566,6 +566,7 @@ Chúc bạn viết mã vui vẻ!
 -----
 Tham khảo:
 - [Asynchronous Tasks With Django and Celery](https://realpython.com/asynchronous-tasks-with-django-and-celery/)
+- [Asynchronous Jobs in Django with Celery](https://prog.world/asynchronous-jobs-in-django-with-celery/)
 - [Configure Celery + Supervisor With Django](https://gist.github.com/mau21mau/9371a95b7c14ddf7000c1827b7693801)
 - [How to Use Celery and Django to Handle Periodic Tasks](https://nickmccullum.com/celery-django-periodic-tasks/)
 - [Sử dụng Celery kết hợp Docker, PostgreSQL, Redis trong Django](https://viblo.asia/p/su-dung-celery-ket-hop-docker-postgresql-redis-trong-django-bWrZnz99Zxw)
