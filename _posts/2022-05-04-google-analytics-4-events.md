@@ -20,6 +20,33 @@ Nhiều tùy chọn hơn và tính linh hoạt cao hơn cũng có nghĩa là cá
 
 ### 1. Trước Google Analytics 4
 
+Trước Google Analytics 4, các sự kiện được thiết kế để theo dõi các hành động trong các trang của trang web (hoặc trong ứng dụng của bạn). Ví dụ: nếu bạn muốn theo dõi số lần mọi người tải xuống tệp từ trang web của mình, bạn sẽ triển khai theo dõi sự kiện và sử dụng báo cáo sự kiện để xem số lượt tải xuống.
+
+Hai vấn đề chính với phiên bản trước của theo dõi sự kiện là các giới hạn về lượng thông tin bạn có thể thu thập và các ràng buộc xung quanh việc báo cáo.
+
+Khi bạn triển khai theo dõi sự kiện với phiên bản trước của Google Analytics, bạn có thể đặt tên cho danh mục sự kiện, đặt tên cho hành động, bao gồm nhãn tùy chọn (để nắm bắt thông tin bổ sung) và chỉ định một giá trị tùy chọn (như giá trị đô la).
+
+Dưới đây là ví dụ về sự kiện `Universal Analytics` để theo dõi video:
+
+- **Event category:** Video
+- **Event action:** Play
+- **Event label:** https://www.youtube.com/watch?v=4nXYvFXzxV4
+- **Event value:** 0
+
+Nếu bạn muốn nắm bắt thông tin bổ sung, bạn sẽ cần phải thay thế một trong các giá trị hiện có hoặc chèn thêm thông tin vào. Ví dụ: nếu bạn muốn sử dụng theo dõi sự kiện để báo cáo các lần nhấp vào các biểu ngữ quảng cáo khác nhau, bạn có thể xác định danh mục sự kiện là "khuyến mãi", sau đó là hành động sự kiện là "nhấp chuột" và nhãn sự kiện là "đặc biệt mùa hè", như chúng ta có thể thấy ở đây:
+
+- **Event category:** Promotion
+- **Event action:** Click
+- **Event label:** Summer Specials
+- **Event value:**
+
+Nhưng nếu bạn có hai biểu ngữ cho chương trình khuyến mãi thì sao?
+
+Sau đó, bạn sẽ cần quyết định xem bạn sẽ đổi tên thông số sự kiện nào. Ví dụ: bạn có thể có một nhãn sự kiện cho "summer specials top" và một nhãn sự kiện khác cho "summer specials sidebar". Điều này không sao cả, nhưng nó không linh hoạt, đặc biệt là khi nói đến báo cáo. Nếu bạn muốn báo cáo về hiệu suất của chương trình khuyến mại, bạn cần phải bao gồm cả hai nhãn. Nếu không, bạn sẽ bị thiếu dữ liệu.
+
+Sau khi bạn triển khai theo dõi sự kiện trên trang web của mình, tất cả các sự kiện sẽ được đưa vào báo cáo sự kiện.
+
+![Google Analytics 4](https://boxxv.github.io/img/posts/google-analytics-4-events.png "Google Analytics 4")
 
 
 
