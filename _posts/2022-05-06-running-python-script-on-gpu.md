@@ -162,3 +162,4 @@ Tham khảo:
 - [Executing a Python Script on GPU Using CUDA and Numba in Windows 10](https://medium.com/geekculture/executing-a-python-script-on-gpu-using-cuda-and-numba-in-windows-10-1a1b10c29c9)
 - [How to run python on GPU with CuPy?](https://stackoverflow.com/questions/60027446/how-to-run-python-on-gpu-with-cupy)
 - [GPU-Accelerated Computing with Python](https://developer.nvidia.com/how-to-cuda-python)
+- [Python, Performance, and GPUs](https://towardsdatascience.com/python-performance-and-gpus-1be860ffd58d)
