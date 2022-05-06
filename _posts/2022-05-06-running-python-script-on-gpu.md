@@ -26,8 +26,23 @@ Chạy tập lệnh python trên GPU có thể được chứng minh là tương
 
 ![GPU](https://boxxv.github.io/img/posts/0_rPr6XW638a1Ztd6N.png "GPU")
 
+Ở đây trong hình này, bạn có thể thấy rằng ở tính toán ban đầu, GPU tiêu tốn nhiều thời gian tính toán hơn CPU. Điều này là do lời giải thích được đưa ra ở trên.
+
+VÌ VẬY, ĐỪNG SỬ DỤNG GPU CHO CÁC DỮ LIỆU NHỎ!
+
 
 ### Bắt đầu
+
+Trong bài viết này, chúng ta hãy xem cách sử dụng GPU để thực thi một tập lệnh Python. Chúng tôi sẽ sử dụng Compute Unified Device Architecture (CUDA) cho mục đích này.
+
+CUDA là một nền tảng tính toán song song và mô hình lập trình được phát triển bởi NVIDIA để tính toán chung cho các đơn vị xử lý đồ họa (GPU).
+
+Nhưng tại sao CUDA?
+
+CUDA tập hợp một số thứ:
+1. Phần cứng song song khổng lồ được xây dựng để vận hành mã chung (không đồ họa), với các trình điều khiển thích hợp để làm như vậy.
+2. Ngôn ngữ lập trình dựa trên C để lập trình phần cứng nói trên và một hợp ngữ mà các ngôn ngữ lập trình khác có thể sử dụng làm mục tiêu.
+3. Một bộ công cụ phát triển ứng dụng bao gồm các thư viện, các công cụ gỡ lỗi, biên dịch và biên dịch khác nhau và các ràng buộc cho phép các ngôn ngữ lập trình phía CPU gọi mã phía GPU.
 
 Hiện tại, chỉ GPU NVIDIA được hỗ trợ và những thứ được liệt kê trên [trang này](https://developer.nvidia.com/cuda-gpus). Nếu card đồ họa của bạn có nhân CUDA, thì bạn có thể tiến hành thêm việc thiết lập mọi thứ.
 
