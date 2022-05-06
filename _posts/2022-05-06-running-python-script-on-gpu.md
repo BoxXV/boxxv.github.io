@@ -75,14 +75,35 @@ Khi bạn cài đặt đúng cách và nếu bạn đã định cấu hình PATH
 ![GPU](https://boxxv.github.io/img/posts/0_t0jTtPnAoWZ_W0iM.png "GPU")
 
 
-Trước tiên, hãy đảm bảo rằng trình điều khiển Nvidia đã được cập nhật và bạn có thể cài đặt cudatoolkit một cách rõ ràng [từ đây](https://developer.nvidia.com/cuda-downloads). sau đó cài đặt [Anaconda](https://www.anaconda.com/products/distribution) thêm anaconda vào môi trường trong khi cài đặt.
+Ngoài ra, bạn phải cài đặt Numba.
+
+![Numba](https://boxxv.github.io/img/posts/0_3PUwcZM65hLFY-YZ.png "Numba")
+
+Numba là một trình biên dịch tối ưu hóa Python mã nguồn mở, có nhận biết NumPy được tài trợ bởi Anaconda, Inc. Nó sử dụng dự án trình biên dịch LLVM để tạo mã máy từ cú pháp Python. Bạn có thể cài đặt Numba bằng cách sử dụng lệnh này trong CMD.
+
+```bat
+pip install numba
+```
+
+Bạn cũng có thể sử dụng môi trường Conda để cài đặt cả Bộ công cụ Numba và CUDA.
+
+Trước tiên, hãy đảm bảo rằng trình điều khiển Nvidia đã được cập nhật và bạn có thể cài đặt cudatoolkit một cách rõ ràng [từ đây](https://developer.nvidia.com/cuda-downloads). Sau đó cài đặt [Anaconda](https://www.anaconda.com/products/distribution) thêm anaconda vào môi trường trong khi cài đặt.  
 Sau khi hoàn thành tất cả các cài đặt, hãy chạy các lệnh sau trong command prompt.
 
 ```bat
 conda install numba & conda install cudatoolkit
 ```
 
+Bạn có thể kiểm tra phiên bản Numba bằng cách sử dụng các lệnh sau trong lời nhắc Python.
+```bat
+>>> import numba
+>>> numba.__version__
+```
+
+![Numba](https://boxxv.github.io/img/posts/0_HEGMsUlzBCp51XsN.png "Numba")
+
 LƯU Ý: Nếu Anaconda không được thêm vào môi trường, hãy điều hướng đến cài đặt anaconda và định vị thư mục Scripts và mở dấu nhắc lệnh ở đó.
+
 
 ### CODE
 
