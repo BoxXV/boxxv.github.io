@@ -48,6 +48,16 @@ Hiện tại, chỉ GPU NVIDIA được hỗ trợ và những thứ được li
 
 ### Cài đặt
 
+Bạn có CUDA không? Bạn có GPU có đủ khả năng cung cấp CUDA không?
+
+Kiểm tra nó trong CMD của bạn bằng cách thực hiện điều này.
+```bat
+nvidia-smi
+```
+
+![GPU](https://boxxv.github.io/img/posts/0_Xywbyr_Gn-4pIzoM.png "GPU")
+
+
 Trước tiên, hãy đảm bảo rằng trình điều khiển Nvidia đã được cập nhật và bạn có thể cài đặt cudatoolkit một cách rõ ràng [từ đây](https://developer.nvidia.com/cuda-downloads). sau đó cài đặt [Anaconda](https://www.anaconda.com/products/distribution) thêm anaconda vào môi trường trong khi cài đặt.
 Sau khi hoàn thành tất cả các cài đặt, hãy chạy các lệnh sau trong command prompt.
 
