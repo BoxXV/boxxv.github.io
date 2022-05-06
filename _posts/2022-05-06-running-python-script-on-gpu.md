@@ -14,7 +14,18 @@ tags:
 
 GPU có nhiều lõi hơn CPU và do đó khi nói đến tính toán song song dữ liệu, GPU hoạt động tốt hơn đặc biệt so với CPU mặc dù GPU có tốc độ xung nhịp thấp hơn và nó thiếu một số tính năng quản lý lõi so với CPU.
 
-Do đó, chạy tập lệnh python trên GPU có thể được chứng minh là tương đối nhanh hơn so với CPU, tuy nhiên, cần lưu ý rằng để xử lý tập dữ liệu với GPU, dữ liệu trước tiên sẽ được chuyển vào bộ nhớ của GPU, điều này có thể cần thêm thời gian vì vậy nếu dữ liệu đặt nhỏ thì CPU có thể hoạt động tốt hơn GPU.
+What is clock speed?
+
+Tốc độ của clock là tốc độ mà bộ xử lý có thể hoàn thành chu kỳ xử lý. Nó thường được đo bằng megahertz hoặc gigahertz. Một megahertz tương đương với một triệu chu kỳ mỗi giây, trong khi một gigahertz tương đương với một tỷ chu kỳ mỗi giây.
+
+Chạy tập lệnh python trên GPU có thể xác minh là tương đối nhanh hơn CPU.
+Nhưng nó sẽ luôn nhanh hơn CPU?
+Câu trả lời là không!
+
+Chạy tập lệnh python trên GPU có thể được chứng minh là tương đối nhanh hơn so với CPU. Tuy nhiên, cần lưu ý rằng để xử lý tập dữ liệu với GPU, dữ liệu trước tiên sẽ được chuyển vào bộ nhớ của GPU, điều này có thể cần thêm thời gian vì vậy nếu dữ liệu đặt nhỏ thì CPU có thể hoạt động tốt hơn GPU.
+
+![GPU](https://boxxv.github.io/img/posts/0_rPr6XW638a1Ztd6N.png "GPU")
+
 
 ### Bắt đầu
 
