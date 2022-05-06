@@ -57,6 +57,23 @@ nvidia-smi
 
 ![GPU](https://boxxv.github.io/img/posts/0_Xywbyr_Gn-4pIzoM.png "GPU")
 
+Chà, bạn có một GPU hỗ trợ CUDA. Tiếp theo là gì? Kiểm tra phiên bản CUDA của bạn trong CMD của bạn bằng cách thực hiện điều này.
+
+```bat
+nvcc --version
+```
+
+Nếu bạn nhận được một cái gì đó như:
+```bat
+'nvcc' is not recognized as an internal or external command, operable program or batch file.
+```
+
+Thì bạn phải cài đặt Bộ công cụ CUDA. Bạn có thể tải Bộ công cụ CUDA mới nhất [tại đây](https://developer.nvidia.com/cuda-toolkit-32-downloads).
+
+Khi bạn cài đặt đúng cách và nếu bạn đã định cấu hình PATH chính xác, khi bạn thực hiện cùng một lệnh, bạn sẽ nhận được kết quả như thế này.
+
+![GPU](https://boxxv.github.io/img/posts/0_t0jTtPnAoWZ_W0iM.png "GPU")
+
 
 Trước tiên, hãy đảm bảo rằng trình điều khiển Nvidia đã được cập nhật và bạn có thể cài đặt cudatoolkit một cách rõ ràng [từ đây](https://developer.nvidia.com/cuda-downloads). sau đó cài đặt [Anaconda](https://www.anaconda.com/products/distribution) thêm anaconda vào môi trường trong khi cài đặt.
 Sau khi hoàn thành tất cả các cài đặt, hãy chạy các lệnh sau trong command prompt.
