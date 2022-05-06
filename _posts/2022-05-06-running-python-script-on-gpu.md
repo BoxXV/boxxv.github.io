@@ -33,7 +33,43 @@ LƯU Ý: Nếu Anaconda không được thêm vào môi trường, hãy điều 
 
 ### CODE
 
+Chúng tôi sẽ sử dụng `numba.jit` decorator  cho chức năng chúng tôi muốn tính toán qua GPU. Decorator có một số tham số nhưng chúng tôi sẽ chỉ làm việc với tham số đích. Target yêu cầu `jit` biên dịch mã cho nguồn nào (“CPU” hoặc “Cuda”). “Cuda” tương ứng với GPU. Tuy nhiên, nếu CPU được chuyển làm đối số thì jit sẽ cố gắng tối ưu hóa mã chạy nhanh hơn trên CPU và cải thiện tốc độ.
 
+```python
+from numba import jit, cuda
+import numpy as np
+# to measure exec time
+from timeit import default_timer as timer  
+ 
+# normal function to run on cpu
+def func(a):                               
+    for i in range(10000000):
+        a[i]+= 1     
+ 
+# function optimized to run on gpu
+@jit(target ="cuda")                        
+def func2(a):
+    for i in range(10000000):
+        a[i]+= 1
+if __name__=="__main__":
+    n = 10000000                           
+    a = np.ones(n, dtype = np.float64)
+    b = np.ones(n, dtype = np.float32)
+     
+    start = timer()
+    func(a)
+    print("without GPU:", timer()-start)   
+     
+    start = timer()
+    func2(a)
+    print("with GPU:", timer()-start)
+```
+
+Output: dựa trên CPU = i3 6006u, GPU = 920M.
+```bat
+without GPU: 8.985259440999926
+with GPU: 1.4247172560001218
+```
 
 
 
