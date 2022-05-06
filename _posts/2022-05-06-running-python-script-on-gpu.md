@@ -147,9 +147,13 @@ with GPU: 1.4247172560001218
 
 Tuy nhiên, phải lưu ý rằng mảng được sao chép đầu tiên từ ram sang GPU để xử lý và nếu hàm trả về bất kỳ thứ gì thì các giá trị trả về sẽ được sao chép từ GPU sang CPU trở lại. Do đó đối với các tập dữ liệu nhỏ, tốc độ của CPU tương đối nhanh hơn nhưng tốc độ có thể được cải thiện hơn nữa ngay cả đối với các tập dữ liệu nhỏ bằng cách chuyển mục tiêu là “CPU”. Cần đặc biệt chú ý khi hàm được viết dưới jit cố gắng gọi bất kỳ hàm nào khác thì hàm đó cũng phải được tối ưu hóa bằng jit nếu không hàm đó có thể tạo ra các mã chậm hơn.
 
+Bạn có thể kiểm tra tab Hiệu suất tại Trình quản lý tác vụ trong khi thực thi mã mà GPU sẽ có đỉnh đột ngột từ 0 và sẽ quay trở lại 0, điều này cho thấy rằng GPU đã hoạt động.
 
+Bạn có thể thử nhiều tập lệnh dựa trên GPU trong Windows 10 bằng cách tham [khảo tài liệu của Numba](https://numba.readthedocs.io/en/stable/cuda/index.html).
 
+Chào mừng đến với thế giới máy tính song song.
 
+Hy vọng bài viết có thể giúp ích. Chia sẻ suy nghĩ của bạn.
 
 
 -----
