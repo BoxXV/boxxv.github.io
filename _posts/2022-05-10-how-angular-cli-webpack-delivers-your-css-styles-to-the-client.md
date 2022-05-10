@@ -25,6 +25,34 @@ src
 └─ ...
 ```
 
+Điều khiến chúng tôi quan tâm ở đây là tệp `styles.css` được cho là được sử dụng để khai báo các kiểu toàn cục. Bạn có thể viết trực tiếp các kiểu trong tệp này hoặc nhập bằng cách [imports CSS cụ thể](https://developer.mozilla.org/en-US/docs/Web/CSS/@import). Nếu bạn đặt những thứ sau vào `index.html`:
+
+```html
+<body>
+    <header>
+        <span>I am header span</span>
+    </header>
+    <span>I am regular span outside of header</span>
+</body>
+```
+
+Và thêm các kiểu sau vào `styles.css`
+```css
+@import "header.css";
+
+span {
+    color: green;
+}
+```
+
+và tới `header.css`:
+```css
+header span {
+    color: blue;
+}
+```
+
+
 
 
 
