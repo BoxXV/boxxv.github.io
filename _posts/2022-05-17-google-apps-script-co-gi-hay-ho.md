@@ -53,7 +53,6 @@ Với Google Apps Script bạn sẽ code mà chẳng cần phải cài cắm gì
 1. Truy cập vào [script.google.com](https://script.google.com/home) để mở trình soạn thảo code (trước đó bạn cần đăng nhập 1 tải khoản gmail)
 2. Chọn New script và bắt đầu viết code
 3. Copy đoạn code sau vào editor
-
 ```javascript
 /**
  * Creates a Google Doc and sends an email to the current user with a link to the doc.
@@ -81,13 +80,66 @@ function createAndSendDocument() {
   GmailApp.sendEmail(email, subject, body);
 }
 ```
+4. Lưu lại và chọn hàm `createAndSendDocument` để chạy thử.
+
+Kết quả của việc chạy script trên là Google Apps Script sẽ tạo ra 1 file docs với title là `Hello, world!`, nội dung là `This document was created by Google Apps Script.` và gửi về địa chỉ email của bạn.
+
+![Google Apps Script](https://boxxv.github.io/img/posts/c22729cc-57d1-42ee-af13-abeadffc61cc.webp "Google Apps Script")
+
+Như vậy đọc qua đoạn code trên thì ta có thể hiểu được cơ bản cách hoạt động của Google Apps Script. Nhìn code được viết dựa trên Javascript nên rất dễ đọc và dễ hiểu. Ở trên ta thấy có một số Class được cung cấp sẵn như DocumentApp: class để thao tác với Google Document, Session: Dùng để thao tác với các thông tin session đang truy cập, GmailApp: dùng để thao tác với Gmail mà ở trên chính là hành động gửi mail. Xong bài Hello World cơ bản nhất ta sẽ tiếp tục tiến đến bài nâng cao như đầu bài (gogo)
 
 
+### Demo với Google Drive
 
+Nhắc lại bài toán ở đầu bài thì cơ duyên bắt đầu từ việc Framgia chuyển sang dùng Gsuite và tài liệu các dự án được shared với tài khoản gmail cá nhân của mỗi thành viên giờ đây cần được chuyển sang với email gsuite tương ứng của họ và xóa email cũ đi trong list shared. Mình sẽ mô tả lại các bước code script này step by step nhé.
 
+Đầu tiên ta hãy làm 1 cái giao diện người dùng cơ bản để dễ thao tác và sử dụng sau này. Google Apps Script hỗ trợ bạn tạo giao diện từ html, để làm được phần này bạn cần đọc tài liệu về nó ở đây [https://developers.google.com/apps-script/guides/html/](https://developers.google.com/apps-script/guides/html/). Với ứng dụng của mình mình đã sử dụng css AdminLTE quen thuộc để làm 1 cái form cho nó đẹp. Giao diện mình đã tạo như sau:
 
+![Google Apps Script](https://boxxv.github.io/img/posts/b0ade875-39c8-4819-829d-352c0a723b20.webp "Google Apps Script")
 
+Từ giao diện ta có: mình chia ra 3 chức năng riêng biệt dành cho tool này
 
+1. Là tự động chuyển đổi quyền share file từ email cũ sang email gsuite mới
+2. Thêm mới danh sách email vào list share
+3. Gỡ bỏ email cũ đã share từ trước đó
+
+Dưới đây là cấu trúc thư mục code và flow cơ bản để hiển thị view:
+
+![Google Apps Script](https://boxxv.github.io/img/posts/c60b569d-deb8-42c7-852d-8893cd8f77cd.webp "Google Apps Script")
+
+Cấu trúc thư mục gồm 1 file code.gs chứa mã xử lý chính của ứng dụng (ta có thể coi là xử lý phía server) và các File html chứa view, css và script ở phía client. Để hiện thị được từ file html lúc thực thi ứng dụng dưới dạng web ta cần viết hàm là doGet trong đó định sẵn việc sẽ render ra file Index.html:
+
+```javascript
+function doGet(request) {
+  var html = HtmlService.createTemplateFromFile('Index')
+  html.yourEmail = Session.getActiveUser().getEmail();
+  
+  return html.evaluate().setTitle('Tool change User\'s email shared with Google drive account');
+}
+```
+
+Nói về phần code ở tab 2 dễ hơn trước nhé: ta cần bắt sự kiện khi click vào submit ở form html thì sẽ gom toàn bộ các thông tin và gửi lên server chính là file code.gs xử lý. Ở client muốn gọi 1 hàm trên server thì ta dùng câu lệnh `google.script.run.withSuccessHandler(updateLog).withFailureHandler(onFailure).executeAddEmails(emails, folderId);` trong đó `executeAddEmails` là tên hàm mà bạn viết code xử lý trong file code.gs. Phần liên lạc giữa client và server bạn có thể tham khảo ở đây [https://developers.google.com/apps-script/guides/html/communication](https://developers.google.com/apps-script/guides/html/communication) Và việc còn lại là xử lý các thông tin gửi lên từ client: nó sẽ có dạng 1 email + quyền (edit hoặc view) => ta cần quét trong thư mục đc chỉ định và thêm email với quyền tương ứng vào mục share. Trong đó thư mục được chỉ định đc lấy từ link mà ta cần xử lý paste vào ô text `Please enter folder url to scan` (xem lại hình giao diện ở trên). Phần xử lý đó như sau:
+
+```javascript
+// in code.gs
+function executeAddEmails(emails, folderId) {
+  var folder = DriveApp.getFolderById(folderId);
+  for (var i = 0; i < emails.length; i++) {
+    if (emails[i].permission == DriveApp.Permission.EDIT) {
+      folder.addEditor(emails[i].email); 
+    } else if (emails[i].permission == DriveApp.Permission.VIEW) {
+      folder.addViewer(emails[i].email); 
+    }
+    Logger.log('Added: ' + emails[i].email + ' - ' + emails[i].permission);
+  }
+  
+  return Logger.getLog();
+}
+```
+
+Nhìn khá đơn giản phải không nào. Chạy thử nhé: Đầu tiên mình vào Google Drive tạo 1 thư mục là `QuanVH Test Script` và không share gì cả.
+
+![Google Apps Script](https://boxxv.github.io/img/posts/042643c0-9435-4758-a970-c05a94a4f3ca.webp "Google Apps Script")
 
 
 
