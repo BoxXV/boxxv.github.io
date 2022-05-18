@@ -141,6 +141,29 @@ Nhìn khá đơn giản phải không nào. Chạy thử nhé: Đầu tiên mìn
 
 ![Google Apps Script](https://boxxv.github.io/img/posts/042643c0-9435-4758-a970-c05a94a4f3ca.webp "Google Apps Script")
 
+Tiếp theo mở ứng dụng ra nhập link folder trên vào và nhập thử 2 email để test trong đó 1 email có quyền edit và 1 email có quyền view.
+
+![Google Apps Script](https://boxxv.github.io/img/posts/d718ab7e-63fd-4bfd-b09e-83a4d2997651.webp "Google Apps Script")
+
+
+Click execute và chờ đợi thành quả. Sau mấy giây chạy xong ta có logs như sau:
+
+![Google Apps Script](https://boxxv.github.io/img/posts/69f6b377-c920-4737-86ad-8b63af6f3975.webp "Google Apps Script")
+
+Như vậy là đã thêm thành công quyền share cho 2 mail trên rồi, giờ thử mở Google drive kiểm tra thành quả nhé:
+
+![Google Apps Script](https://boxxv.github.io/img/posts/1f7bfb82-b52e-472e-b2c4-dacfbaccb912.webp "Google Apps Script")
+
+Wow, có vẻ mọi thứ ngon lành và kết quả đúng như ta mong đợi 😄
+
+
+### Tổng kết
+
+Còn 2 phần code về tự động đổi email và gỡ bỏ email đã share mình để lại cho các bạn tự khám phá nhé. Code mình để quyền view mọi người có thể vào đây để xem: https://script.google.com/d/1WvMPdGLa9ZMetKxRd6C4Tl5r4z-FvlyFvLzwLpL3ZJxoN4yzq1OhPIyp/edit?usp=sharing
+
+Còn bạn nào muốn dùng thử luôn thì có thể truy cập vào web app mình đã publish: https://script.google.com/macros/s/AKfycbx1LUkXwjHeb1jvfM91AdQWZ8_mAQ9bfxptgZCUQb0n9iuxElQ/exec. (Lúc chạy có thể hiển thị ứng dụng này chưa xác minh là bởi vì mình chỉ viết cái này để dùng cá nhân chứ chưa submit cho Google xác minh và bạn hãy yên tâm sử dụng vì mình chỉ code đúng với chức năng của nó thôi chứ không làm gì GDrive của bạn đâu =))) )
+
+Ngoài ra Google Apps Script còn đầy thứ hay ho khác trong mỗi dịch vụ mà nó có thể thao tác. Nó tùy thuộc vào bài toán của chính bạn. Trong phạm vi bài viết này mình chỉ đề cập và ứng dụng nó với GDrive để giúp các bạn hiểu cách hoạt động và bước đầu làm quen với nó.
 
 
 -----
