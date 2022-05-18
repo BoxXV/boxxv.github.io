@@ -43,8 +43,44 @@ Hiện tại Google Apps Scripts có thể lập trình để thao tác với h�
 - Slides (Trình chiếu)
 - SpreadSheet (Bảng tính).
 
+Và ở mục demo mình sẽ viết code để thao tác với Google Drive như bài toán đặt ra ở đầu bài. Tuy nhiên trước hết ta hãy tìm các sử dụng nó với bài HelloWorld quen thuộc trong mọi ngôn ngữ lập trình đã nhé. (go)
 
 
+### Hello World với Google Apps Script
+
+Với Google Apps Script bạn sẽ code mà chẳng cần phải cài cắm gì cả, chỉ cần 1 máy tính có kết nối mạng và 1 tài khoản gmail là có thể bắt đầu được rồi.
+
+1. Truy cập vào [script.google.com](https://script.google.com/home) để mở trình soạn thảo code (trước đó bạn cần đăng nhập 1 tải khoản gmail)
+2. Chọn New script và bắt đầu viết code
+3. Copy đoạn code sau vào editor
+
+```javascript
+/**
+ * Creates a Google Doc and sends an email to the current user with a link to the doc.
+ */
+function createAndSendDocument() {
+  // Create a new Google Doc named 'Hello, world!'
+  var doc = DocumentApp.create('Hello, world!');
+
+  // Access the body of the document, then add a paragraph.
+  doc.getBody().appendParagraph('This document was created by Google Apps Script.');
+
+  // Get the URL of the document.
+  var url = doc.getUrl();
+
+  // Get the email address of the active user - that's you.
+  var email = Session.getActiveUser().getEmail();
+
+  // Get the name of the document to use as an email subject line.
+  var subject = doc.getName();
+
+  // Append a new string to the "url" variable to use as an email body.
+  var body = 'Link to your doc: ' + url;
+
+  // Send yourself an email with a link to the document.
+  GmailApp.sendEmail(email, subject, body);
+}
+```
 
 
 
