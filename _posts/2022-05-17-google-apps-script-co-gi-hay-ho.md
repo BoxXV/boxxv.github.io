@@ -81,6 +81,7 @@ function createAndSendDocument() {
   GmailApp.sendEmail(email, subject, body);
 }
 ```
+
 4. Lưu lại và chọn hàm `createAndSendDocument` để chạy thử.
 
 Kết quả của việc chạy script trên là Google Apps Script sẽ tạo ra 1 file docs với title là `Hello, world!`, nội dung là `This document was created by Google Apps Script.` và gửi về địa chỉ email của bạn.
