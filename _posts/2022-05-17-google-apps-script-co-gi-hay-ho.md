@@ -53,6 +53,7 @@ Với Google Apps Script bạn sẽ code mà chẳng cần phải cài cắm gì
 1. Truy cập vào [script.google.com](https://script.google.com/home) để mở trình soạn thảo code (trước đó bạn cần đăng nhập 1 tải khoản gmail)
 2. Chọn New script và bắt đầu viết code
 3. Copy đoạn code sau vào editor
+
 ```javascript
 /**
  * Creates a Google Doc and sends an email to the current user with a link to the doc.
