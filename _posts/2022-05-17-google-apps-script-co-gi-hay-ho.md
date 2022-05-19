@@ -50,9 +50,9 @@ Và ở mục demo mình sẽ viết code để thao tác với Google Drive nh�
 
 Với Google Apps Script bạn sẽ code mà chẳng cần phải cài cắm gì cả, chỉ cần 1 máy tính có kết nối mạng và 1 tài khoản gmail là có thể bắt đầu được rồi.
 
-1. Truy cập vào [script.google.com](https://script.google.com/home) để mở trình soạn thảo code (trước đó bạn cần đăng nhập 1 tải khoản gmail)
-2. Chọn New script và bắt đầu viết code
-3. Copy đoạn code sau vào editor
+1) Truy cập vào [script.google.com](https://script.google.com/home) để mở trình soạn thảo code (trước đó bạn cần đăng nhập 1 tải khoản gmail)
+2) Chọn New script và bắt đầu viết code
+3) Copy đoạn code sau vào editor
 
 ```javascript
 /**
@@ -82,7 +82,7 @@ function createAndSendDocument() {
 }
 ```
 
-4. Lưu lại và chọn hàm `createAndSendDocument` để chạy thử.
+4) Lưu lại và chọn hàm `createAndSendDocument` để chạy thử.
 
 Kết quả của việc chạy script trên là Google Apps Script sẽ tạo ra 1 file docs với title là `Hello, world!`, nội dung là `This document was created by Google Apps Script.` và gửi về địa chỉ email của bạn.
 
