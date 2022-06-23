@@ -56,7 +56,7 @@ Bạn sẽ thấy bản trình bày sau khi chạy ứng dụng:
 
 ![angular](https://boxxv.github.io/img/posts/image-42.png "webpack")
 
-Điều này được mong đợi nhưng câu hỏi thực sự là`Angular-CLI` thực hiện nó như thế nào? Trên thực tế, các styles được đóng gói và giao cho client bằng webpack. Angular-CLI sử dụng webpack và chỉ cấu hình nó.
+Điều này được mong đợi nhưng câu hỏi thực sự là `Angular-CLI` thực hiện nó như thế nào? Trên thực tế, các styles được đóng gói và giao cho client bằng webpack. Angular-CLI sử dụng webpack và chỉ cấu hình nó.
 
 Trong bài viết này, tôi sẽ trình bày từng bước cách thực hiện bằng cách sử dụng webpack. Thông tin được trình bày ở đây sẽ hữu ích cho bất kỳ ai sử dụng webpack, không chỉ Angular-CLI.
 
