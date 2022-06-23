@@ -225,6 +225,7 @@ Yarn
 Webpack  
 - [https://viblo.asia/tags/webpack](https://viblo.asia/tags/webpack)
 - [Bạn biết gì về Webpack?](https://viblo.asia/p/ban-biet-gi-ve-webpack-WAyK81wWZxX)
+- [Tìm hiểu về webpack](https://viblo.asia/p/tim-hieu-ve-webpack-1Je5EPrGlnL)
 - [Webpack series - giới thiệu từ cơ bản đến căng cơ](https://viblo.asia/p/webpack-series-gioi-thieu-tu-co-ban-den-cang-co-d-ep1-07LKXEgEZV4)
 - [Webpack series - CSS Splitting - Tách css trong Webpack](https://viblo.asia/p/webpack-series-ep2-css-splitting-tach-css-trong-webpack-GrLZDVn25k0)
 - [Webpack series - code splitting - chia code trong webpack](https://viblo.asia/p/webpack-series-ep3-code-splitting-chia-code-trong-webpack-yMnKMyRzK7P)
