@@ -224,7 +224,10 @@ Yarn
 -----
 Webpack  
 - [https://viblo.asia/tags/webpack](https://viblo.asia/tags/webpack)
+- [Webpack dành cho người mới bắt đầu](https://viblo.asia/p/webpack-danh-cho-nguoi-moi-bat-dau-bJzKmo4Ol9N)
+- [Mình đã refactor file js 2500 lines code như thế nào?](https://viblo.asia/p/minh-da-refactor-file-js-2500-lines-code-nhu-the-nao-1VgZvMymKAw)
 - [Bạn biết gì về Webpack?](https://viblo.asia/p/ban-biet-gi-ve-webpack-WAyK81wWZxX)
+- [Webpack cơ bản. Hướng dẫn build project front-end (React, Redux, Sass) sử dụng Webpack.](https://viblo.asia/p/webpack-co-ban-huong-dan-build-project-front-end-react-redux-sass-su-dung-webpack-m68Z07YAKkG)
 - [Tìm hiểu về webpack](https://viblo.asia/p/tim-hieu-ve-webpack-1Je5EPrGlnL)
 - [Webpack series - giới thiệu từ cơ bản đến căng cơ](https://viblo.asia/p/webpack-series-gioi-thieu-tu-co-ban-den-cang-co-d-ep1-07LKXEgEZV4)
 - [Webpack series - CSS Splitting - Tách css trong Webpack](https://viblo.asia/p/webpack-series-ep2-css-splitting-tach-css-trong-webpack-GrLZDVn25k0)
