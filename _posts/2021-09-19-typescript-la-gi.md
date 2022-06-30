@@ -26,6 +26,7 @@ tags:
 [Tại sao TypeScript là lựa chọn tốt nhất để viết Frontend?](https://itnavi.com.vn/blog/tai-sao-typescript-la-lua-chon-tot-nhat-de-viet-frontend)  
 [TypeScript - P1: Vì sao TypeScript được yêu thích đến vậy?](https://viblo.asia/p/typescript-p1-vi-sao-typescript-duoc-yeu-thich-den-vay-1Je5E79LZnL)  
 [Một ít về type script](https://viblo.asia/p/mot-it-ve-type-script-3Q75w6n3lWb)  
+[TypeScript luồng gió mới cho ngôn ngữ Client](https://viblo.asia/p/typescript-luong-gio-moi-cho-ngon-ngu-client-l5XRBVz4RqPe)  
 
 [Cài đặt TypeScript](https://viblo.asia/p/cai-dat-typescript-QpmleRMM5rd)  
 [Hiển thị “Hello, World!” trong TypeScript](https://viblo.asia/p/hien-thi-hello-world-trong-typescript-Eb85oAz8Z2G)  
