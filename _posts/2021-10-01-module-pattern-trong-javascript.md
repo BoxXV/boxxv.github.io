@@ -24,6 +24,9 @@ tags:
 - Tính đóng gói dữ liệu (Encapsulation).
 
 
+https://viblo.asia/p/closures-iifes-module-pattern-trong-javascript-4P856jYG5Y3
+
+
 ## Ví dụ về Module Pattern
 
 ### IIFE (Immediately Invoked Function Expression)
