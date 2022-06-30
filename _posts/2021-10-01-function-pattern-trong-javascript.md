@@ -180,6 +180,8 @@ Tham khảo:
 - [Đừng học về function javascript cho đến khi bạn được được 8 cách viết này](https://viblo.asia/p/dung-hoc-ve-function-javascript-cho-den-khi-ban-duoc-duoc-8-cach-viet-nay-Do754DN35M6)
 - [What is AMD, CommonJS, and UMD?](https://www.davidbcalhoun.com/2014/what-is-amd-commonjs-and-umd/)
 - [What are CJS, AMD, UMD, and ESM in Javascript?](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)
+- [Effective JavaScript - Chapter 1 - Accustoming Yourself to JavaScript](https://viblo.asia/p/effective-javascript-chapter-1-accustoming-yourself-to-javascript-part-i-ByEZkLx4lQ0)
+
 - [The Evolution of JavaScript Module Patterns](https://www.kevinleary.net/javascript-module-patterns-evolution/)
 - [Closures, IIFEs, module pattern trong Javascript](https://viblo.asia/p/closures-iifes-module-pattern-trong-javascript-4P856jYG5Y3)
 - [ES6 - Từ cơ bản tới nâng cao (Phần 3)](https://viblo.asia/p/es6-tu-co-ban-toi-nang-cao-phan-3-6J3ZgxELlmB)
