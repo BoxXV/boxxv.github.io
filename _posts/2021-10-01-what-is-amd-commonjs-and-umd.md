@@ -1,6 +1,6 @@
 ---
 layout: post
-title: IIFEs, AMD, CommonJS và UMD là gì? 
+title: IIFEs, AMD, CommonJS và UMD là gì?
 subtitle: Sự phát triển của các mẫu mô-đun JavaScript
 image: "img/js.jpg"
 tags:
@@ -287,6 +287,7 @@ Tham khảo:
 - [What are CJS, AMD, UMD, and ESM in Javascript?](https://dev.to/iggredible/what-the-heck-are-cjs-amd-umd-and-esm-ikm)
 - [The Evolution of JavaScript Module Patterns](https://www.kevinleary.net/javascript-module-patterns-evolution/)
 - [Closures, IIFEs, module pattern trong Javascript](https://viblo.asia/p/closures-iifes-module-pattern-trong-javascript-4P856jYG5Y3)
+- [Module Pattern trong Javascript](https://viblo.asia/p/module-pattern-trong-javascript-Qpmle1wolrd)
 - [ES6 - Từ cơ bản tới nâng cao (Phần 3)](https://viblo.asia/p/es6-tu-co-ban-toi-nang-cao-phan-3-6J3ZgxELlmB)
 - [Cách mà Google & Amazon quét sạch hàng ngàn JS developers xấu số chỉ bởi 1 câu interview đơn giản!](https://viblo.asia/p/cach-ma-google-amazon-quet-sach-hang-ngan-js-developers-xau-so-chi-boi-1-cau-interview-don-gian-1VgZveBRKAw)
 - [Cách viết JavaScript hiện đại: Phần 2: CommonJS module](https://viblo.asia/p/cach-viet-javascript-hien-dai-phan-2-commonjs-module-5WQvzgeXRk3E)
