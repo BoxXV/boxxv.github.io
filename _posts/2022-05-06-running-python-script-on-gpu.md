@@ -145,7 +145,7 @@ without GPU: 8.985259440999926
 with GPU: 1.4247172560001218
 ```
 
-##### Error when using numba and jit to run python with my gpu
+#### Error when using numba and jit to run python with my gpu
 ```python
 from numba import cuda
 import code
@@ -159,6 +159,23 @@ def func2(a):
 ```
 
 [https://stackoverflow.com/questions/67155846/error-when-using-numba-and-jit-to-run-python-with-my-gpu](https://stackoverflow.com/questions/67155846/error-when-using-numba-and-jit-to-run-python-with-my-gpu)
+
+#### Automatic parallelization with `@jit`
+
+```python
+from numba import njit, prange
+
+@njit(parallel=True)
+def prange_test(A):
+    s = 0
+    # Without "parallel=True" in the jit-decorator
+    # the prange statement is equivalent to range
+    for i in prange(A.shape[0]):
+        s += A[i]
+    return s
+```
+
+[https://numba.pydata.org/numba-doc/dev/user/parallel.html](https://numba.pydata.org/numba-doc/dev/user/parallel.html)
 
 
 Tuy nhiên, phải lưu ý rằng mảng được sao chép đầu tiên từ ram sang GPU để xử lý và nếu hàm trả về bất kỳ thứ gì thì các giá trị trả về sẽ được sao chép từ GPU sang CPU trở lại. Do đó đối với các tập dữ liệu nhỏ, tốc độ của CPU tương đối nhanh hơn nhưng tốc độ có thể được cải thiện hơn nữa ngay cả đối với các tập dữ liệu nhỏ bằng cách chuyển mục tiêu là “CPU”. Cần đặc biệt chú ý khi hàm được viết dưới jit cố gắng gọi bất kỳ hàm nào khác thì hàm đó cũng phải được tối ưu hóa bằng jit nếu không hàm đó có thể tạo ra các mã chậm hơn.
