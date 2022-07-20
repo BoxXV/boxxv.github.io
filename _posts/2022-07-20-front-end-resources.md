@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tài nguyên hữu ích cho Front-End developer
-subtitle: __[__Draft Updating__]__ Front-End Resources
+subtitle: <pre>[Draft Updating] Front-End Resources</pre>
 
 tags:
 - Front-End
