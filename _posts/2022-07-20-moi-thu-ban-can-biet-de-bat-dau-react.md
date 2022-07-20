@@ -16,6 +16,8 @@ tags:
 Tham khảo:
 - [Tất cả mọi thứ bạn cần biết để bắt đầu học React](https://viblo.asia/p/tat-ca-moi-thu-ban-can-biet-de-bat-dau-hoc-react-Qbq5QAPR5D8)
 - [Everything you need to know to get started in React](https://www.freecodecamp.org/news/everything-you-need-to-know-to-get-started-in-react-11311ae997cb)
+- [80 Videos học ReactJS 2022](https://www.youtube.com/playlist?list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q)
+- [Tìm hiểu về ReactJs](https://viblo.asia/p/tim-hieu-ve-reactjs-ogBG2lo5RxnL)
 - [Tìm hiểu về ReactJs](https://viblo.asia/p/tim-hieu-ve-reactjs-ogBG2lo5RxnL)
 - [ReactJS cho người mới bắt đầu](https://viblo.asia/p/reactjs-cho-nguoi-moi-bat-dau-LzD5dP9e5jY)
 - [Bắt đầu với ReactJs (Phần 1)](https://viblo.asia/p/bat-dau-voi-reactjs-phan-1-3P0lPOE8Zox)
@@ -66,4 +68,33 @@ Redux
 - [Tìm hiểu về Redux saga](https://viblo.asia/p/tim-hieu-ve-redux-saga-bWrZnODmlxw)
 - [Tìm hiểu redux-toolkit phần 1](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-1-YWOZrN3vZQ0)
 - [Tìm hiểu redux-toolkit phần 2](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-2-QpmlejPD5rd)
-- []()
+
+
+- [The React Cheatsheet for 2020 (Phần 1)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-1-WAyK8PY6KxX)
+- [The React Cheatsheet for 2020 (Phần 2)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-2-4P856oBAKY3)
+- [The React Cheatsheet for 2020 (Phần cuối)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-cuoi-oOVlYMxBl8W)
+- [Các cách truyền data giữa các components trong ReactJS](https://viblo.asia/p/cac-cach-truyen-data-giua-cac-components-trong-reactjs-924lJjV0lPM)
+- [Server-side Rendering trong React](https://viblo.asia/p/server-side-rendering-trong-react-yMnKMYozK7P)
+
+
+- [15 thư viện UI Components tốt nhất cho ReactJS](https://viblo.asia/p/15-thu-vien-ui-components-tot-nhat-cho-reactjs-maGK7pDMZj2)
+- [15 câu hỏi phỏng vấn React phổ biến](https://viblo.asia/p/15-cau-hoi-phong-van-react-pho-bien-V3m5W0PwKO7)
+- [7 lần code React của bạn bốc mùi ???](https://viblo.asia/p/7-lan-code-react-cua-ban-boc-mui-bWrZnm2QKxw)
+- [3 lời khuyên nhỏ giúp tăng preformance trong ReactJS](https://viblo.asia/p/3-loi-khuyen-nho-giup-tang-preformance-trong-reactjs-V3m5WxY8KO7)
+- [Sự khác nhau giữa Props và State trong ReactJS](https://viblo.asia/p/su-khac-nhau-giua-props-va-state-trong-reactjs-OeVKBvrJKkW)
+- [Lí do để sử dụng Typescript với React](https://viblo.asia/p/li-do-de-su-dung-typescript-voi-react-aWj53bVbl6m)
+- [Nhúng TypeScript vào ReactJS](https://viblo.asia/p/sai-gon-thi-dau-long-nhung-nhung-typescript-vao-reactjs-thi-chua-chac-4dbZNGgQlYM)
+- [Life cycle của Component trong Reactjs](https://viblo.asia/p/co-ban-life-cycle-cua-component-trong-reactjs-QpmleM39lrd)
+- [Routing trong reactjs](https://viblo.asia/p/phan-1routing-trong-reactjs-1VgZvQjmKAw)
+- [JSX mang gì về cho React?](https://viblo.asia/p/chu-den-mang-tien-ve-cho-me-con-jsx-mang-gi-ve-cho-react-924lJBQalPM)
+- [Fullstack React với Blitzjs](https://viblo.asia/p/fullstack-react-voi-blitzjs-p1-gioi-thieu-V3m5WWo75O7)
+- [Spring Kết Hợp React](https://viblo.asia/p/spring-ket-hop-react-V3m5WbvQlO7)
+- [Tại sao bạn nên chọn VueJS hơn là ReactJS dành cho các dự án startup](https://viblo.asia/p/tai-sao-ban-nen-chon-vuejs-hon-la-reactjs-danh-cho-cac-du-an-startup-63vKj6xbK2R)
+- ["Một chút" về kiến trúc mới của React Native](https://viblo.asia/p/mot-chut-ve-kien-truc-moi-cua-react-native-Az45bRXO5xY)
+
+Debug trong ứng dụng ReactJS
+- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related)
+- [Sử dụng React Developer Tools để debug React Component](https://viblo.asia/p/su-dung-react-developer-tools-de-debug-react-component-V3m5WLQWKO7)
+- [Giới thiệu về Debug trong ứng dụng ReactJS](https://medium.com/velacorpblog/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-debug-trong-%E1%BB%A9ng-d%E1%BB%A5ng-reactjs-6c353ce1ce96)
+- [Hướng dẫn Debug ứng dụng ReactJS ngay trong VS Code](https://vntalking.com/debug-react-trong-vscode.html)
+- [ReactJS: Cách gỡ lỗi (debug) các component bằng React Developer Tools](https://v1study.com/reactjs-how-to-cach-go-loi-debug-cac-component-bang-react-developer-tools.html)
