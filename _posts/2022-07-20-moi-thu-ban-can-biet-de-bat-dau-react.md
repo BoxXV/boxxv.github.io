@@ -62,4 +62,13 @@ HỌC REACTJS THÔNG QUA VÍ DỤ
 - [https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-9-modal-image-maGK7OBAKj2](https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-9-modal-image-maGK7OBAKj2)
 - [https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-10-light-box-bJzKmxJ659N](https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-10-light-box-bJzKmxJ659N)
 - [https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-11-tab-gallery-L4x5xMGbKBM](https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-11-tab-gallery-L4x5xMGbKBM)
+
+Redux
+- [Tìm hiểu về Redux trong ReactJS](https://viblo.asia/p/tim-hieu-ve-redux-trong-reactjs-GrLZDe7Olk0)
+- [Tìm hiểu Redux qua ví dụ thực tế](https://viblo.asia/p/tim-hieu-redux-qua-vi-du-thuc-te-gAm5yaNO5db)
+- [Từng bước để xây dựng một ứng dụng React Redux](https://viblo.asia/p/tung-buoc-de-xay-dung-mot-ung-dung-react-redux-gGJ59jgPKX2)
+- [Tản mạn về Redux và React Hooks](https://viblo.asia/p/tan-man-ve-redux-va-react-hooks-Az45br9o5xY)
+- [Tìm hiểu về Redux saga](https://viblo.asia/p/tim-hieu-ve-redux-saga-bWrZnODmlxw)
+- [Tìm hiểu redux-toolkit phần 1](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-1-YWOZrN3vZQ0)
+- [Tìm hiểu redux-toolkit phần 2](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-2-QpmlejPD5rd)
 - []()
