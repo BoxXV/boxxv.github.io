@@ -71,8 +71,8 @@ Tham khảo:
 - [Tìm hiểu react - part 2](https://viblo.asia/p/tim-hieu-react-part-2-Qbq5QqJm5D8)
 - [Những khái niệm cơ bản trong ReactJS cho người mới bắt đầu](https://viblo.asia/p/nhung-khai-niem-co-ban-trong-reactjs-cho-nguoi-moi-bat-dau-WAyK8pDpKxX)
 - [Những khái niệm cơ bản trong ReactJS cho người mới bắt đầu (Phần 2)](https://viblo.asia/p/nhung-khai-niem-co-ban-trong-reactjs-cho-nguoi-moi-bat-dau-phan-2-eW65GP9aKDO)
+- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - [Tìm hiểu ReactJS từ con số 0](https://viblo.asia/p/tim-hieu-reactjs-tu-con-so-0-63vKjvn6K2R)
-
 - [Học ReactJs từ số 0 - P1](https://viblo.asia/p/hoc-reactjs-tu-so-0-p1-jvElaPaoZkw)
 - [Học ReactJs từ số 0 - P2 - Getting Started With Introducing JSX](https://viblo.asia/p/hoc-reactjs-tu-so-0-p2-getting-started-with-introducing-jsx-E375zWJ1KGW)
 - [Học ReactJs từ số 0 - P3 - Rendering Elements](https://viblo.asia/p/hoc-reactjs-tu-so-0-p3-rendering-elements-1Je5Ee7A5nL)
