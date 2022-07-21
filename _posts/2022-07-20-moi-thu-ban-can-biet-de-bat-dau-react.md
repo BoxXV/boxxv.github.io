@@ -11,7 +11,39 @@ tags:
 
 ![React](https://boxxv.github.io/img/posts/react.png "React")
 
-### 
+React là thư viện Front End phổ biến nhất hiện nay. Nhưng bắt đầu học React có thể đôi lúc gặp khó khăn. Gồm những Component, states, props and functional programming. Bài viết này cố gắng giải quyết vấn đề này, bằng cách chỉ ra cho bạn cách bắt đầu tốt và dễ dàng trong React. Vì vậy, không lãng phí thêm thời gian nữa, hãy tới luôn nào.
+
+### Môi Trường
+
+Chúng ta sẽ sử dụng một tệp HTML đơn giản trong bài viết này. Chỉ cần include các thẻ scritpt sau trong phần head file HTML của bạn.
+
+```html
+<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+```
+
+### Components
+
+Components là thịt và khoai tây của một ứng dụng React.
+Chúng là các khối mã độc lập và có thể tái sử dụng để xây dựng ứng dụng React.
+Hãy xem xét component đầu tiên của chúng ta có.
+
+```javascript
+class App extends React.Component{
+	render(){
+		return <h3>Hello React World.</h3>
+	}
+}
+ReactDOM.render(            
+	<App />,
+	document.getElementById('root')
+);
+```
+
+Component của chúng ta là một lớp ES6 được extent từ class Component của React. Nó có một phương thức duy nhất hiện được gọi là `render()`, trả về một phần tử h3 trả về văn bản ‘Hello React World’. Trình duyệt sẽ chỉ hiển thị các phần tử được trả về bởi phương thức `render()`.
+
+
 
 
 -----
