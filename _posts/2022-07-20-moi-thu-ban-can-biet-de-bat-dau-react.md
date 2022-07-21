@@ -46,7 +46,39 @@ Component của chúng ta là một lớp ES6 được extent từ class Compone
 
 ### JavaScript Syntax Extension (JSX)
 
+Phần tử h3 mà chúng ta đã khai báo trong component App không phải là HTML, đó là JavaScript Syntax Extension (JSX). JSX là một phần mở rộng cú pháp trong JavaScript. Nó cho phép chúng ta viết HTML như JavaScript Objects (JSX) trong JavaScript.
 
+```javascript
+class App extends React.Component{
+	render(){
+		const element = <h3>Hello React World</h3>;
+		return <div>{element}</div>;
+	}
+}
+```
+
+JSX cho chúng ta sức mạnh của JavaScript khi viết HTML. Các dấu ngoặc nhọn {} trong ví dụ trên cho trình biên dịch React biết rằng phần tử là một biến JavaScript.
+
+### Props
+
+Props là các thuộc tính được truyền bởi thành phần cha cho các thành phần con.
+
+Đó là một mô hình chung trong React để trừu tượng hóa logic UI phổ biến trong các components con. Trong những trường hợp đó, nó là dùng chung cho component cha để truyền một số dữ liệu như các thuộc tính trong các component con.
+
+```javascript
+class App extends React.Component {
+	render() {
+		return <Greet greeting="Hello" />;  
+	}
+}
+class Greet extends React.Component{
+	render(){
+		return <h3>{this.props.greeting} World</h3>;
+	}
+}
+```
+
+Trong ví dụ trên, chúng ta đã thông qua "Hello" gọi đến component `Greet` và sử dụng nó trong component App của chúng tôi. Chúng ta có thể truy cập tất cả các `props` từ đối tượng `this.props` của class chúng ta. Trong trường hợp này, chúng ta đang truy cập `greeting` như `this.props.greeting`.
 
 
 
