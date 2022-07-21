@@ -44,6 +44,12 @@ ReactDOM.render(
 Component của chúng ta là một lớp ES6 được extent từ class Component của React. Nó có một phương thức duy nhất hiện được gọi là `render()`, trả về một phần tử h3 trả về văn bản ‘Hello React World’. Trình duyệt sẽ chỉ hiển thị các phần tử được trả về bởi phương thức `render()`.
 
 
+### JavaScript Syntax Extension (JSX)
+
+
+
+
+
 
 
 -----
