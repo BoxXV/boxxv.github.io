@@ -80,8 +80,60 @@ class Greet extends React.Component{
 
 Trong ví dụ trên, chúng ta đã thông qua "Hello" gọi đến component `Greet` và sử dụng nó trong component App của chúng tôi. Chúng ta có thể truy cập tất cả các `props` từ đối tượng `this.props` của class chúng ta. Trong trường hợp này, chúng ta đang truy cập `greeting` như `this.props.greeting`.
 
+Khá nhiều cấu trúc dữ liệu mặc định trong JavaScript: string literals, numbers, array, objects, and even functions.
 
+### State
 
+State, giống như props, cũng giữ dữ liệu, nhưng một số loại dữ liệu khác nhau.
+
+Props giữ dữ liệu được gửi bởi component cha. State nắm giữ dữ liệu private, dynamic của component. State giữ dữ liệu thay đổi giữa nhiều render của component.
+
+Props được chuyển đến component (như tham số chức năng), trong khi state được quản lý trong component (như các biến được khai báo bên trong một hàm)
+
+```javascript
+class App extends React.Component {
+	constructor(){
+		super();
+		this.state = {name :"Abdul Moiz"};
+	}
+	changeName(){
+		this.setState({name : "John Doe"});
+	}
+
+	render(){
+		return (
+			<div>
+				<h3>Hello {this.state.name}</h3>
+				<button type='button' onClick=this.changeName.bind(this)}>
+					Change
+				</button>
+			</div>
+		);
+	}
+}
+```
+
+Chúng ta phải khởi tạo `state` trong một constructor và sau đó chúng ta có thể sử dụng nó trong phương thức render. Giống như props, chúng ta đang truy cập `state` với đối tượng `‘this.state’` này. Và trên sự kiện nhấp chuột của thay đổi button, chúng ta đang thay đổi giá trị của tên trong state thành 'John Doe'.
+
+Chúng ta đang sử dụng phương thức `setState()` để thay đổi state của chúng ta. setState () có sẵn theo mặc định trong React Component và là cách duy nhất để thay đổi state.
+
+### Event Handlers
+
+Event handlers trong React không khác với các trình xử lý sự kiện trong DOM. Nhưng họ có một số khác biệt nhỏ nhưng lại quan trọng.
+
+Trong DOM, event handlers là lowercase, nhưng trong React, trình xử lý sự kiện là camelCase. Thứ hai, trong DOM, các trình xử lý sự kiện có giá trị như một chuỗi, nhưng trong React, các trình xử lý sự kiện lấy tham chiếu hàm làm giá trị.
+
+Sau đây là ví dụ về cách chúng ta sẽ xử lý sự kiện trong DOM:
+```javascript
+<button type="submit" onclick="doSomething()"></button>
+```
+
+Và đây là cách nó được thực hiện trong React:
+```javascript
+<button type="submit" onClick=doSomething></button>
+```
+
+Nếu bạn nhận thấy, trong DOM, chúng tôi đang xử lý sự kiện nhấp chuột bằng cách sử dụng thuộc tính DOM onclick (lowercase). Trong React, chúng ta đang sử dụng trình xử lý sự kiện onClick (camelCase) từ React. Ngoài ra, chúng ta đang chuyển một giá trị chuỗi doSomething () trong DOM. Nhưng trong React, chúng ta chuyển tham chiếu của hàm doSomething làm giá trị.
 
 
 -----
