@@ -136,6 +136,51 @@ Và đây là cách nó được thực hiện trong React:
 Nếu bạn nhận thấy, trong DOM, chúng tôi đang xử lý sự kiện nhấp chuột bằng cách sử dụng thuộc tính DOM onclick (lowercase). Trong React, chúng ta đang sử dụng trình xử lý sự kiện onClick (camelCase) từ React. Ngoài ra, chúng ta đang chuyển một giá trị chuỗi doSomething () trong DOM. Nhưng trong React, chúng ta chuyển tham chiếu của hàm doSomething làm giá trị.
 
 
+### Life Cycle Methods (Life Cycle Hooks)
+
+React cho chúng ta một số phương pháp đặc biệt gọi là Life Cycle Hooks. Những Life Cycle Hooks này chạy vào những thời điểm cụ thể trong life cycle của một component. May mắn thay, chúng ta có thể đặt chức năng riêng của chúng ta vào những Life Cycle Hookss, bằng cách ghi đè chúng trong thành phần của chúng ta. Hãy xem xét một số Life Cycle Hooks thường được sử dụng.
+
+##### componentDidMount()
+Mounting là thời điểm thành phần được hiển thị lần đầu tiên trong trình duyệt. componentDidMount () chạy sau khi component được mounted. Đó là một không gian tốt để lấy bất kỳ dữ liệu hoặc bắt đầu bất cứ điều gì.
+
+##### componentDidUpdate()
+
+Như tên gọi của nó, componentDidUpdate () chạy sau khi component được cập nhật. Đây là nơi xử lý các thay đổi dữ liệu. Có thể bạn muốn xử lý một số yêu cầu mạng hoặc thực hiện các phép tính dựa trên dữ liệu đã thay đổi. componentDidUpdate () là nơi để làm tất cả điều đó.
+
+Hãy xem điều đó trong thực tế:
+
+```javascript
+class App extends React.Component {
+	constructor(){
+		super(); 
+		this.state = {
+			person : {name : "" , city : ""}
+		};
+	}
+	componentDidMount(){
+		//make any ajax request
+	 this.setState({
+			person : {name : "Abdul Moiz",city : "Karachi"}
+		});
+	}
+	componentDidUpdate(){
+		//because I could'nt come up with a simpler example of //componentDidUpdate
+		console.log('component has been updated',this.state);
+	}
+	render(){
+		return (
+			<div>
+				<p>Name : {this.state.person.name}</p>
+				<p>City : {this.state.person.city}</p>
+			</div>
+		);
+	}
+}
+```
+
+Trạng thái ban đầu của chúng ta có hai thuộc tính, name và city, và cả hai đều có một chuỗi rỗng làm giá trị. Trong componentDidMount(), chúng ta đặt state và đổi name thành 'Abdul Moiz' và city thành 'Karachi'. Bởi vì chúng ta đã thay đổi state, component được cập nhật như là kết quả của việc thực thi componentDidUpdate().
+
+
 -----
 Tham khảo:
 - [Tất cả mọi thứ bạn cần biết để bắt đầu học React](https://viblo.asia/p/tat-ca-moi-thu-ban-can-biet-de-bat-dau-hoc-react-Qbq5QAPR5D8)
