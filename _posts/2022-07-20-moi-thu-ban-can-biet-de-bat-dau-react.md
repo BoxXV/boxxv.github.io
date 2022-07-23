@@ -106,6 +106,24 @@ Khi cần comment, chúng ta cần đặt nó trong dấu ngoặc nhọn {}.
 {/*Multi line comment...*/}
 ```
 
+#### Quy ước đặt tên
+
+Thẻ HTML luôn sử dụng tên thẻ thường, trong khi các thành phần React bắt đầu bằng chữ hoa.
+
+Lưu ý - Bạn nên sử dụng **className** và **htmlFor** làm tên thuộc tính XML thay vì `class` và `for`.
+
+Vì JSX là JavaScript, nên các mã định danh như class và for không được khuyến khích là các tên thuộc tính XML. Thay vào đó, các thành phần React DOM mong đợi các tên thuộc tính DOM như className và htmlFor tương ứng.
+
+```javascript
+<div className="container">
+	<h1 style = { myStyle }>Header</h1>
+	<h2>Content</h2>
+	<p data-myattribute = "somevalue">This is the content!!!</p>
+	<label htmlFor="ex">Name: </label>
+	<input type="text" id="ex" placeholder="Something" />
+</div>
+```
+
 ## Props
 
 Props là một attribute của Component. Là các thuộc tính được truyền bởi thành phần cha cho các thành phần con.
