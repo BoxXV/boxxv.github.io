@@ -212,21 +212,20 @@ Chạy sau khi component được mounted, hàm này chỉ thực hiện 1 lần
 
 Hàm này được gọi để thông báo component đã tồn tại trên DOM. Tức là hàm render đã chạy, từ đó các thao tác trên DOM sẽ có thể thực hiện bình thường đối với component này.
 
-#### componentDidUpdate()
+#### shouldComponentUpdate(nextProps, nextState)
+Hàm này thực hiện khi state và props thay đổi. Hàm này sẽ trả về kết quả true/false. Bạn sẽ cần sử dụng đến hàm này để xử lý xem có cần update component không
 
-Như tên gọi của nó, componentDidUpdate () chạy sau khi component được cập nhật. Đây là nơi xử lý các thay đổi dữ liệu. Có thể bạn muốn xử lý một số yêu cầu mạng hoặc thực hiện các phép tính dựa trên dữ liệu đã thay đổi. componentDidUpdate () là nơi để làm tất cả điều đó.
+#### componentWillUpdate(nextProps, nextState)
+Hàm này thực hiện dựa vào kết quả của hàm trên (shouldComponentUpdate). Nếu hàm trên trả về false, thì React sẽ không gọi hàm này.
+
+#### componentDidUpdate(prevProps, prevState) {
+Như tên gọi của nó, componentDidUpdate () chạy sau khi component được cập nhật, được render lại. Đây là nơi xử lý các thay đổi dữ liệu. Có thể bạn muốn xử lý một số yêu cầu mạng hoặc thực hiện các phép tính dựa trên dữ liệu đã thay đổi. componentDidUpdate () là nơi để làm tất cả điều đó.
 
 #### componentWillReceiveProps(nextProps)
 Hàm này thực hiện liên tục mỗi khi props thay đổi
 Có thể sử dụng với mục đích:
 - (1) Sử dụng để thay đổi trạng thái (state) của component phụ thuộc props.
 - (2) Sử dụng các kết quả, khởi tạo biến có tính chất async (bất đồng bộ).
-
-#### shouldComponentUpdate(nextProps, nextState)
-Hàm này thực hiện khi state và props thay đổi. Hàm này sẽ trả về kết quả true/false. Bạn sẽ cần sử dụng đến hàm này để xử lý xem có cần update component không
-
-#### 
-
 
 #### componentWillUnmount()
 Khi component sẽ unmount, hàm này thực hiện một lần duy nhất. Hàm này hữu dụng khi bạn cần xoá các timer hoặc EventListener không còn sử dụng.
