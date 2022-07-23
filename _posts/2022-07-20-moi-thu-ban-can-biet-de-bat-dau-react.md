@@ -68,6 +68,43 @@ Sau đây là một số ưu điểm mà đi kèm với nó:
 - **An toàn** và hầu hết các lỗi có thể bị bắt trong quá trình biên dịch.
 - Giúp bạn viết mẫu **dễ dàng hơn** và **nhanh hơn**, nếu bạn quen thuộc với HTML.
 
+Mặc dù nó tương tự như HTML, nhưng có một vài điều chúng ta cần lưu ý khi làm việc với JSX.
+
+#### Phần tử lồng nhau:
+Nếu bạn muốn trả về nhiều phần tử hơn, chúng ta cần bọc nó với một phần tử, phần tử gì cũng được miễn sao nó bao bọc những thẻ còn lại, mình thường sử dụng thẻ `<div>`.
+
+#### Thuộc tính
+Nếu muốn sử dụng các thuộc tính tùy chỉnh của riêng các bạn ngoài các thuộc tính và thuộc tính HTML thông thường. Ví dụ ta muốn thêm thuộc tính tùy chỉnh, chúng ta cần sử dụng tiền tố data-. Ví dụ: data-myattribute.
+
+#### Biểu thức Javascript
+Các biểu thức JavaScript có thể được sử dụng bên trong JSX. Chúng ta chỉ cần bọc nó với dấu ngoặc nhọn {}. Ví dụ sau sẽ hiển thị số 2: <h1>{ 1+1 }</h1>
+
+#### Style
+Style trong JSX sử dụng inline. Khi chúng ta muốn thiết lập style, chúng ta cần sử dụng cú pháp camelCase. React cũng sẽ tự động thêm px sau giá trị số trên các phần tử cụ thể. Ví dụ sau đây cho thấy cách thêm style inline vào phần tử h1.
+
+```javascript
+render() {
+	var myStyle = {
+		fontSize: 100,
+		color: '#FF0000'
+	}
+	return (
+		<div>
+			<h1 style = { myStyle }>Header</h1>
+			<h2>Content</h2>
+			<p data-myattribute = "somevalue">This is the content!!!</p>
+		</div>
+	);
+}
+```
+
+#### Comment
+Khi cần comment, chúng ta cần đặt nó trong dấu ngoặc nhọn {}.
+
+```javascript
+{//End of the line Comment...}
+{/*Multi line comment...*/}
+```
 
 ## Props
 
