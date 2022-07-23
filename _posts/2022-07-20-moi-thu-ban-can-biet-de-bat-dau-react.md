@@ -114,6 +114,24 @@ React.render(<Image name="good Image" height={100} alt={"fdf"} />,document.body)
 
 Nhìn vào `propTypes` thì ta sẽ thấy các giá trị được validate như là name phải là require, width với height là number ...
 
+#### Giá trị Prop mặc định
+
+React cung cấp cho bạn cách define default valuse cho props rất rõ ràng
+
+```javascript
+getDefaultProps() {
+	return {
+		name: "Test"
+	};
+},
+```
+
+#### setProps và replaceProps
+
+- `setProps`: sẽ thay đổi (merge) properties của Component và trigger một `re-render`. Ngoài ra, chúng ta cũng có thể đưa vào một callback function mà sẽ được thực thi một khi setProps được hoàn thành.
+
+- `replaceProps`: delete các props tồn tại trước đó và thay bởi properties mới.
+
 
 ## State
 
