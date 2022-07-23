@@ -232,6 +232,29 @@ Khi component sẽ unmount, hàm này thực hiện một lần duy nhất. Hàm
 
 ![React](https://boxxv.github.io/img/posts/16317e21-fb30-4dd1-880e-18fbefa69e27.webp "React")
 
+### Khởi tạo Component
+1. Khởi tạo Class (đã thừa kế từ class Component của React)
+2. Khởi tạo giá trị mặc định cho Props (`defaultProps`)
+3. Khởi tạo giá trị mặc định cho State (trong hàm `constuctor`)
+4. Gọi hàm `componentWillMount()`
+5. Gọi hàm `render()`
+6. Gọi hàm `componentDidMount()`
+
+### Khi State thay đổi
+1. Cập nhật giá trị cho `state`
+2. Gọi hàm `shouldComponentUpdate()`
+3. Gọi hàm `componentWillUpdate()` – với điều kiện hàm `shouldComponentUpdate()` trả về true
+4. Gọi hàm `render()`
+5. Gọi hàm `componentDidUpdate()`
+
+### Khi Props thay đổi
+1. Cập nhật giá trị cho `props`
+2. Gọi hàm `componentWillReceiveProps()`
+3. Gọi hàm `shouldComponentUpdate()`
+4. Gọi hàm `componentWillUpdate()` – với điều kiện hàm `shouldComponentUpdate()` trả về true
+4. Gọi hàm `render()`
+5. Gọi hàm `componentDidUpdate()`
+
 
 Hãy xem điều đó trong thực tế:
 
