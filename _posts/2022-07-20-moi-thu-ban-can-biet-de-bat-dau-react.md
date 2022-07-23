@@ -65,7 +65,7 @@ JSX cho chúng ta sức mạnh của JavaScript khi viết HTML. Các dấu ngo�
 
 ## Props
 
-Props là các thuộc tính được truyền bởi thành phần cha cho các thành phần con.
+Props là một attribute của Component. Là các thuộc tính được truyền bởi thành phần cha cho các thành phần con.
 
 Đó là một mô hình chung trong React để trừu tượng hóa logic UI phổ biến trong các components con. Trong những trường hợp đó, nó là dùng chung cho component cha để truyền một số dữ liệu như các thuộc tính trong các component con.
 
@@ -135,11 +135,22 @@ getDefaultProps() {
 
 ## State
 
-State, giống như props, cũng giữ dữ liệu, nhưng một số loại dữ liệu khác nhau.
-
-Props giữ dữ liệu được gửi bởi component cha. State nắm giữ dữ liệu private, dynamic của component. State giữ dữ liệu thay đổi giữa nhiều render của component.
+State của một class React cho phép chúng ta theo dõi được nhưng sự thay đổi bên trong view. State nắm giữ dữ liệu private, dynamic của component. State giữ dữ liệu thay đổi giữa nhiều render của component.
 
 Props được chuyển đến component (như tham số chức năng), trong khi state được quản lý trong component (như các biến được khai báo bên trong một hàm)
+
+#### Sự giống và khác nhau props, state
+- props và state đều là plain JS objects
+- props và state đều trigger render update khi thay đổi
+
+| Thuộc tính | Props | State |
+| -- | -- | -- |
+| Có thể nhận giá trị ban đầu từ Component cha không? | Có | Có |
+| Có thể được thay đổi bởi Component cha? | Có | Không |
+| Có thể đặt giá trị mặc định (default) bên trong Component không? | Có  | Có |
+| Có thể thay đổi bên trong Component? | Không | Có |
+| Có thể đặt giá trị ban đầu (initial) cho các Component con không? | Có | Có |
+| Có thể thay đổi trong các Component con không? | Có | Không |
 
 ```javascript
 class App extends React.Component {
