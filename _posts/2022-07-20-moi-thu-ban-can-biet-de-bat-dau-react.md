@@ -183,6 +183,9 @@ Trạng thái ban đầu của chúng ta có hai thuộc tính, name và city, v
 
 -----
 Tham khảo:
+- [React homepage](https://reactjs.org)
+- [React roadmap](https://roadmap.sh/react)
+
 - [Tất cả mọi thứ bạn cần biết để bắt đầu học React](https://viblo.asia/p/tat-ca-moi-thu-ban-can-biet-de-bat-dau-hoc-react-Qbq5QAPR5D8)
 - [Everything you need to know to get started in React](https://www.freecodecamp.org/news/everything-you-need-to-know-to-get-started-in-react-11311ae997cb)
 - [80 Videos học ReactJS 2022](https://www.youtube.com/playlist?list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q)
