@@ -17,7 +17,7 @@ Ví dụ, nếu chúng ta đang xem một danh sách có 20 products được hi
 
 Nhưng bắt đầu học React có thể đôi lúc gặp khó khăn. Gồm những Component, states, props and functional programming. Bài viết này cố gắng giải quyết vấn đề này, bằng cách chỉ ra cho bạn cách bắt đầu tốt và dễ dàng trong React. Vì vậy, không lãng phí thêm thời gian nữa, hãy tới luôn nào.
 
-### Môi Trường
+## Môi Trường
 
 Chúng ta sẽ sử dụng một tệp HTML đơn giản trong bài viết này. Chỉ cần include các thẻ scritpt sau trong phần head file HTML của bạn.
 
@@ -27,7 +27,7 @@ Chúng ta sẽ sử dụng một tệp HTML đơn giản trong bài viết này.
 <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
 ```
 
-### Components
+## Components
 
 Components là thịt và khoai tây của một ứng dụng React.
 Chúng là các khối mã độc lập và có thể tái sử dụng để xây dựng ứng dụng React.
@@ -48,7 +48,7 @@ ReactDOM.render(
 Component của chúng ta là một lớp ES6 được extent từ class Component của React. Nó có một phương thức duy nhất hiện được gọi là `render()`, trả về một phần tử h3 trả về văn bản ‘Hello React World’. Trình duyệt sẽ chỉ hiển thị các phần tử được trả về bởi phương thức `render()`.
 
 
-### JavaScript Syntax Extension (JSX)
+## JavaScript Syntax Extension (JSX)
 
 Phần tử h3 mà chúng ta đã khai báo trong component App không phải là HTML, đó là JavaScript Syntax Extension (JSX). JSX là một phần mở rộng cú pháp trong JavaScript. Nó cho phép chúng ta viết HTML như JavaScript Objects (JSX) trong JavaScript.
 
@@ -63,7 +63,7 @@ class App extends React.Component{
 
 JSX cho chúng ta sức mạnh của JavaScript khi viết HTML. Các dấu ngoặc nhọn {} trong ví dụ trên cho trình biên dịch React biết rằng phần tử là một biến JavaScript.
 
-### Props
+## Props
 
 Props là các thuộc tính được truyền bởi thành phần cha cho các thành phần con.
 
@@ -86,7 +86,36 @@ Trong ví dụ trên, chúng ta đã thông qua "Hello" gọi đến component `
 
 Khá nhiều cấu trúc dữ liệu mặc định trong JavaScript: string literals, numbers, array, objects, and even functions.
 
-### State
+
+#### PropTypes
+
+Khi bạn muốn validate props, hãy sử dụng PropTypes để làm việc đó.
+
+```javascript
+var Image = React.createClass({
+      propTypes: {
+        name:   React.PropTypes.string.isRequired,
+        width:  React.PropTypes.number.isRequired,
+        height: React.PropTypes.number.isRequired,
+        alt:    React.PropTypes.string
+      },
+      render() {
+        var src = 'http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg';
+        return (
+          <div>
+          <img src={src} width={this.props.width} height={this.props.height} alt={this.props.alt} />
+          <span>{this.props.name}</span>
+          </div>
+        );
+      }
+    });
+React.render(<Image name="good Image" height={100} alt={"fdf"} />,document.body);
+```
+
+Nhìn vào `propTypes` thì ta sẽ thấy các giá trị được validate như là name phải là require, width với height là number ...
+
+
+## State
 
 State, giống như props, cũng giữ dữ liệu, nhưng một số loại dữ liệu khác nhau.
 
@@ -121,7 +150,7 @@ Chúng ta phải khởi tạo `state` trong một constructor và sau đó chún
 
 Chúng ta đang sử dụng phương thức `setState()` để thay đổi state của chúng ta. setState () có sẵn theo mặc định trong React Component và là cách duy nhất để thay đổi state.
 
-### Event Handlers
+## Event Handlers
 
 Event handlers trong React không khác với các trình xử lý sự kiện trong DOM. Nhưng họ có một số khác biệt nhỏ nhưng lại quan trọng.
 
@@ -140,14 +169,14 @@ Và đây là cách nó được thực hiện trong React:
 Nếu bạn nhận thấy, trong DOM, chúng tôi đang xử lý sự kiện nhấp chuột bằng cách sử dụng thuộc tính DOM onclick (lowercase). Trong React, chúng ta đang sử dụng trình xử lý sự kiện onClick (camelCase) từ React. Ngoài ra, chúng ta đang chuyển một giá trị chuỗi doSomething () trong DOM. Nhưng trong React, chúng ta chuyển tham chiếu của hàm doSomething làm giá trị.
 
 
-### Life Cycle Methods (Life Cycle Hooks)
+## Life Cycle Methods (Life Cycle Hooks)
 
 React cho chúng ta một số phương pháp đặc biệt gọi là Life Cycle Hooks. Những Life Cycle Hooks này chạy vào những thời điểm cụ thể trong life cycle của một component. May mắn thay, chúng ta có thể đặt chức năng riêng của chúng ta vào những Life Cycle Hookss, bằng cách ghi đè chúng trong thành phần của chúng ta. Hãy xem xét một số Life Cycle Hooks thường được sử dụng.
 
-##### componentDidMount()
+#### componentDidMount()
 Mounting là thời điểm thành phần được hiển thị lần đầu tiên trong trình duyệt. componentDidMount () chạy sau khi component được mounted. Đó là một không gian tốt để lấy bất kỳ dữ liệu hoặc bắt đầu bất cứ điều gì.
 
-##### componentDidUpdate()
+#### componentDidUpdate()
 
 Như tên gọi của nó, componentDidUpdate () chạy sau khi component được cập nhật. Đây là nơi xử lý các thay đổi dữ liệu. Có thể bạn muốn xử lý một số yêu cầu mạng hoặc thực hiện các phép tính dựa trên dữ liệu đã thay đổi. componentDidUpdate () là nơi để làm tất cả điều đó.
 
