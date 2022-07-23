@@ -11,7 +11,11 @@ tags:
 
 ![React](https://boxxv.github.io/img/posts/react.png "React")
 
-React là thư viện Front End phổ biến nhất hiện nay. Nhưng bắt đầu học React có thể đôi lúc gặp khó khăn. Gồm những Component, states, props and functional programming. Bài viết này cố gắng giải quyết vấn đề này, bằng cách chỉ ra cho bạn cách bắt đầu tốt và dễ dàng trong React. Vì vậy, không lãng phí thêm thời gian nữa, hãy tới luôn nào.
+React là thư viện Front End phổ biến nhất hiện nay. React JS là một framework hiển thị view chú ý đến hiệu năng (performance-minded) được tạo ra bởi Facebook. Rất nhiều đối thủ nặng ký về framework MVVM (Model-View-ViewModel) mất một thời gian lớn để hiển thị những lượng data lớn, như trong trường hợp những danh sách (list) và tương tự. Nhưng React đó không còn là vấn đề, vì nó chỉ hiển thị những gì thay đổi.
+
+Ví dụ, nếu chúng ta đang xem một danh sách có 20 products được hiển thị bởi React, và chúng ta thay đổi product thứ 2, thì chỉ product đó được hiển thị lại, và 19 products còn lại vẫn giữ nguyên (không cần hiển thị lại). React cũng dùng cái gọi là “DOM ảo” (“virtual DOM”) để tăng hiệu năng bằng cách xuất ra một hiển thị ảo, sau đó kiểm tra sự khác biệt giữa hiển thị ảo và những gì có trên DOM và tạo một bản vá (a patch).
+
+Nhưng bắt đầu học React có thể đôi lúc gặp khó khăn. Gồm những Component, states, props and functional programming. Bài viết này cố gắng giải quyết vấn đề này, bằng cách chỉ ra cho bạn cách bắt đầu tốt và dễ dàng trong React. Vì vậy, không lãng phí thêm thời gian nữa, hãy tới luôn nào.
 
 ### Môi Trường
 
@@ -267,6 +271,9 @@ Redux
 - [3 lời khuyên nhỏ giúp tăng preformance trong ReactJS](https://viblo.asia/p/3-loi-khuyen-nho-giup-tang-preformance-trong-reactjs-V3m5WxY8KO7)
 - [Tìm hiểu Props và State trong React](https://viblo.asia/p/tim-hieu-props-va-state-trong-react-GrLZD8RBZk0)
 - [Sự khác nhau giữa Props và State trong ReactJS](https://viblo.asia/p/su-khac-nhau-giua-props-va-state-trong-reactjs-OeVKBvrJKkW)
+- [Nested attributes with Reactjs](https://viblo.asia/p/nested-attributes-with-reactjs-924lJM4NZPM)
+- [ReactJS Components: Type, Nesting, and Lifecycle](https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-components)
+- [Nesting Components](https://riptutorial.com/reactjs/example/3846/nesting-components)
 - [Immutability và Immutable.js trong ReactJs](https://viblo.asia/p/immutability-va-immutablejs-trong-reactjs-m68Z0OrdKkG)
 - [So sánh Server Side Rendering và Client Side Rendering trong React](https://viblo.asia/p/so-sanh-server-side-rendering-va-client-side-rendering-trong-react-V3m5WBrylO7)
 - [Một số feature ES6 thường dùng với Reactjs](https://viblo.asia/p/mot-so-feature-es6-thuong-dung-voi-reactjs-E375zb7R5GW)
