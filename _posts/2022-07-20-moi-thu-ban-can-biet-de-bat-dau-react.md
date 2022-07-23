@@ -63,6 +63,12 @@ class App extends React.Component{
 
 JSX cho chúng ta sức mạnh của JavaScript khi viết HTML. Các dấu ngoặc nhọn {} trong ví dụ trên cho trình biên dịch React biết rằng phần tử là một biến JavaScript.
 
+Sau đây là một số ưu điểm mà đi kèm với nó:
+- **Nhanh hơn** vì nó thực hiện tối ưu hóa trong khi biên dịch mã thành JavaScript.
+- **An toàn** và hầu hết các lỗi có thể bị bắt trong quá trình biên dịch.
+- Giúp bạn viết mẫu **dễ dàng hơn** và **nhanh hơn**, nếu bạn quen thuộc với HTML.
+
+
 ## Props
 
 Props là một attribute của Component. Là các thuộc tính được truyền bởi thành phần cha cho các thành phần con.
@@ -404,7 +410,8 @@ Redux
 - ["Một chút" về kiến trúc mới của React Native](https://viblo.asia/p/mot-chut-ve-kien-truc-moi-cua-react-native-Az45bRXO5xY)
 
 Debug trong ứng dụng ReactJS
-- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related)
+- [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [Sử dụng React Developer Tools để debug React Component](https://viblo.asia/p/su-dung-react-developer-tools-de-debug-react-component-V3m5WLQWKO7)
 - [Giới thiệu về Debug trong ứng dụng ReactJS](https://medium.com/velacorpblog/gi%E1%BB%9Bi-thi%E1%BB%87u-v%E1%BB%81-debug-trong-%E1%BB%A9ng-d%E1%BB%A5ng-reactjs-6c353ce1ce96)
 - [Hướng dẫn Debug ứng dụng ReactJS ngay trong VS Code](https://vntalking.com/debug-react-trong-vscode.html)
