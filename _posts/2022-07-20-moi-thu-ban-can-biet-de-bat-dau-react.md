@@ -361,6 +361,7 @@ Tham khảo:
 - [80 Videos học ReactJS 2022](https://www.youtube.com/playlist?list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q)
 - [Tìm hiểu về ReactJs](https://viblo.asia/p/tim-hieu-ve-reactjs-ogBG2lo5RxnL)
 - [ReactJS cho người mới bắt đầu](https://viblo.asia/p/reactjs-cho-nguoi-moi-bat-dau-LzD5dP9e5jY)
+- [Thiết lập môi trường ReactJS](https://viblo.asia/p/thiet-lap-moi-truong-reactjs-E375z0R1ZGW)
 - [Một số thứ cần biết trước khi tìm hiểu về ReactJS ( Phần 1 )](https://viblo.asia/p/mot-so-thu-can-biet-truoc-khi-tim-hieu-ve-reactjs-phan-1-YWOZrg0YlQ0)
 - [Một số thứ cần biết trước khi tìm hiểu về ReactJS ( Phần 2 )](https://viblo.asia/p/mot-so-thu-can-biet-truoc-khi-tim-hieu-ve-reactjs-phan-2-GrLZDXXwZk0)
 - [Bắt đầu với ReactJs (Phần 1)](https://viblo.asia/p/bat-dau-voi-reactjs-phan-1-3P0lPOE8Zox)
