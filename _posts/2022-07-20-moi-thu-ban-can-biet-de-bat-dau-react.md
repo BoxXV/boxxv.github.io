@@ -147,9 +147,9 @@ Props được chuyển đến component (như tham số chức năng), trong kh
 | -- | -- | -- |
 | Có thể nhận giá trị ban đầu từ Component cha không? | Có | Có |
 | Có thể được thay đổi bởi Component cha? | Có | Không |
-| Có thể đặt giá trị mặc định (default) bên trong Component không? | Có  | Có |
+| Có thể đặt giá trị default bên trong Component không? | Có  | Có |
 | Có thể thay đổi bên trong Component? | Không | Có |
-| Có thể đặt giá trị ban đầu (initial) cho các Component con không? | Có | Có |
+| Có thể đặt giá trị initial cho các Component con không? | Có | Có |
 | Có thể thay đổi trong các Component con không? | Có | Không |
 
 ```javascript
@@ -202,12 +202,37 @@ Nếu bạn nhận thấy, trong DOM, chúng tôi đang xử lý sự kiện nh�
 
 React cho chúng ta một số phương pháp đặc biệt gọi là Life Cycle Hooks. Những Life Cycle Hooks này chạy vào những thời điểm cụ thể trong life cycle của một component. May mắn thay, chúng ta có thể đặt chức năng riêng của chúng ta vào những Life Cycle Hookss, bằng cách ghi đè chúng trong thành phần của chúng ta. Hãy xem xét một số Life Cycle Hooks thường được sử dụng.
 
+Mounting là thời điểm thành phần được hiển thị lần đầu tiên trong trình duyệt.
+
+#### componentWillMount()
+Thực hiện một số tác vụ, khi component sẽ được mount. hàm này chỉ thực hiện 1 lần duy nhất
+
 #### componentDidMount()
-Mounting là thời điểm thành phần được hiển thị lần đầu tiên trong trình duyệt. componentDidMount () chạy sau khi component được mounted. Đó là một không gian tốt để lấy bất kỳ dữ liệu hoặc bắt đầu bất cứ điều gì.
+Chạy sau khi component được mounted, hàm này chỉ thực hiện 1 lần duy nhất. Đó là một không gian tốt để lấy bất kỳ dữ liệu hoặc bắt đầu bất cứ điều gì. 
+
+Hàm này được gọi để thông báo component đã tồn tại trên DOM. Tức là hàm render đã chạy, từ đó các thao tác trên DOM sẽ có thể thực hiện bình thường đối với component này.
 
 #### componentDidUpdate()
 
 Như tên gọi của nó, componentDidUpdate () chạy sau khi component được cập nhật. Đây là nơi xử lý các thay đổi dữ liệu. Có thể bạn muốn xử lý một số yêu cầu mạng hoặc thực hiện các phép tính dựa trên dữ liệu đã thay đổi. componentDidUpdate () là nơi để làm tất cả điều đó.
+
+#### componentWillReceiveProps(nextProps)
+Hàm này thực hiện liên tục mỗi khi props thay đổi
+Có thể sử dụng với mục đích:
+- (1) Sử dụng để thay đổi trạng thái (state) của component phụ thuộc props.
+- (2) Sử dụng các kết quả, khởi tạo biến có tính chất async (bất đồng bộ).
+
+#### shouldComponentUpdate(nextProps, nextState)
+Hàm này thực hiện khi state và props thay đổi. Hàm này sẽ trả về kết quả true/false. Bạn sẽ cần sử dụng đến hàm này để xử lý xem có cần update component không
+
+#### 
+
+
+#### componentWillUnmount()
+Khi component sẽ unmount, hàm này thực hiện một lần duy nhất. Hàm này hữu dụng khi bạn cần xoá các timer hoặc EventListener không còn sử dụng.
+
+![React](https://boxxv.github.io/img/posts/16317e21-fb30-4dd1-880e-18fbefa69e27.webp "React")
+
 
 Hãy xem điều đó trong thực tế:
 
