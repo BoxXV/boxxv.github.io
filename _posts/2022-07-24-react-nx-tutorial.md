@@ -13,9 +13,9 @@ tags:
 
 Microservices hiện nay được đề cập tới trong thế giới phần mềm, công nghệ được kỳ vọng cao và đánh giá như một xu hướng cho tương lai (Open API, service provider, …). Một số ý kiến cho rằng, microservices không có gì mới lạ, chẳng qua nó là SOA (kiến trúc hướng dịch vụ) được đánh bóng, đổi tên mà thôi. Mặc dù việc triển khai microservices dưới dạng multi-repo mang lại nhiều lợi ích tuy nhiên theo một số ý kiển, cách triển khai mã nguồn này có thể gây khó khăn trong một số trường hợp và thay vì triển khai cấu trúc mã nguồn dưới dạng chia thành nhiều repo riêng biệt, họ chọn cách tổ chức chỉ trong một repository duy nhất hay còn gọi là monorepo. Bài viết này sẽ nói về hai cách triển khai mã nguồn này cũng như so sánh các đặc điểm của chúng và cuối cùng là giới thiệu về Nx - một công cụ phát triển được giới thiệu rằng có thể dễ dàng mở rộng thường được sử dụng Monorepos.
 
-## Multiple repositories và Mono repositories
+# Multiple repositories và Mono repositories
 
-![React](https://boxxv.github.io/img/posts/6ed2d04e-dde1-485a-a10c-7dc6d9a887a8.webp "React")
+![Monorepos](https://boxxv.github.io/img/posts/6ed2d04e-dde1-485a-a10c-7dc6d9a887a8.webp "Monorepos")
 
 Không phải mỗi ứng dụng nào cũng được phát triển dưới dạng microservices. Tuy nhiên, dù có phải tái cấu trúc mã nguồn từ một khối nguyên khối hay không, chúng ta đều sẽ phải lựa chọn cách thức lưu trữ và quản lý mã nguồn theo kiểu multiple repositories (multirepo) hay mono repositories (monorepo). Sơ lược của hai kiểu cách thức lưu trữ và quản lý này như sau:
 - Monorepo là kiểu cấu trúc project trong đó tất cả module (hoặc project con) đều nằm trong cùng 1 git repository.
@@ -38,6 +38,25 @@ Trong vài năm qua, Babel, Angular, React, Jest và nhiều dự án mã nguồ
 Lưu ý rằng việc triển khai dưới dạng mono-repo không hề đồng nhất với kiến trúc nguyên khối (monolith)
 
 Nói tóm lại thì monorepos không chỉ duy trì được hầu hết các ưu điểm khi triển khai dưới dạng microservices mà còn đơn giản hóa việc chia sẻ mã và tái cấu trúc dự án chéo, chúng giảm đáng kể chi phí tạo libs, microservices và microfrontends. Vì vậy, việc áp dụng monorepo thường cho phép triển khai linh hoạt hơn.
+
+# Công cụ Nx
+
+### Giới thiệu chung
+
+Nx là một bộ công cụ dùng để tạo các monorepos. Theo như đội ngũ phát triển giới thiệu, Nx được học phát triển dựa trên những kinh nghiệm của họ trong quá trình làm việc ở các tập đoàn lớn như Google, Facebook và Microsoft. Bởi vậy họ kì vọng rằng Nx sẽ alf công cụ đắc lực hỗ trợ các lập trình viên tạo cũng như phát triển các hệ thống một cách dễ dàng với vô vàn các công nghệ frontend cũng như backend đang có hiện nay.
+
+Do đặc thù phát triển cho ngôn ngữ Javascript nên hiện nay Nx đang hỗ trợ Angular, React và Node.js. Tuy nhiên có thể trong tương lai không xa Nx có thể hỗ trợ các framework khác như Vue hoặc Svelte, ...
+
+### Sử dụng
+
+Nx sử dụng khái niệm `workspace` để chỉ một ứng dụng toàn thể được triển khai monorepos. Bởi vậy khi bắt đầu sử dụng chúng ta tạo một workspace mới bằng `npx` như sau:
+```bat
+npx create-nx-workspace
+```
+
+Ngoài việc sử dụng npx chúng ta có thể dùng `npm init` bằng `npm init nx-workspace` hoặc `yarn create` với `yarn create nx-workspace`. Ngay sau khi chạy lệnh trên, Nx sẽ hỏi chúng ta một số thứ chẳng hạn như muốn tạo workspace theo mẫu sẵn có nào hay không, ... như sau:
+
+![workspace](https://boxxv.github.io/img/posts/b08a0b55-015a-496f-8cd0-39ca3bcf9b25.png "workspace")
 
 
 
