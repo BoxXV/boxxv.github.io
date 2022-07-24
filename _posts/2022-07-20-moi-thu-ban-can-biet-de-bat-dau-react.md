@@ -351,11 +351,18 @@ class App extends React.Component {
 Trạng thái ban đầu của chúng ta có hai thuộc tính, name và city, và cả hai đều có một chuỗi rỗng làm giá trị. Trong componentDidMount(), chúng ta đặt state và đổi name thành 'Abdul Moiz' và city thành 'Karachi'. Bởi vì chúng ta đã thay đổi state, component được cập nhật như là kết quả của việc thực thi componentDidUpdate().
 
 
+## Redux
+
+Là một thư viện javascript giúp tạo ra một lớp quản lý trạng thái (state) của ứng dụng. Được dựa trên nền tảng tư tưởng của kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với Reactjs,.
+
+![Redux](https://boxxv.github.io/img/posts/redux-basic-concepts-and-data-flow-0-1635261038.gif "Redux")
+
+
 -----
 Tham khảo:
 - [React homepage](https://reactjs.org)
 - [React roadmap](https://roadmap.sh/react)
-
+- [Redux homepage](https://redux.js.org/)
 - [Tất cả mọi thứ bạn cần biết để bắt đầu học React](https://viblo.asia/p/tat-ca-moi-thu-ban-can-biet-de-bat-dau-hoc-react-Qbq5QAPR5D8)
 - [Everything you need to know to get started in React](https://www.freecodecamp.org/news/everything-you-need-to-know-to-get-started-in-react-11311ae997cb)
 - [80 Videos học ReactJS 2022](https://www.youtube.com/playlist?list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q)
