@@ -353,10 +353,69 @@ Trạng thái ban đầu của chúng ta có hai thuộc tính, name và city, v
 
 ## Redux
 
-Là một thư viện javascript giúp tạo ra một lớp quản lý trạng thái (state) của ứng dụng. Được dựa trên nền tảng tư tưởng của kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với Reactjs,.
+Là một thư viện javascript giúp tạo ra một lớp quản lý trạng thái (state) của ứng dụng. Được dựa trên nền tảng tư tưởng của kiến trúc Flux do Facebook giới thiệu, do vậy Redux thường là bộ đôi kết hợp hoàn hảo với Reactjs.
 
 ![Redux](https://boxxv.github.io/img/posts/redux-basic-concepts-and-data-flow-0-1635261038.gif "Redux")
 
+Nguồn dữ liệu tin cậy duy nhất: State của toàn bộ ứng được chứa trong một object tree nằm trong Store duy nhất Trạng thái chỉ được phép đọc: Cách duy nhất để thay đổi State của ứng dụng là phát một Action (là 1 object mô tả những gì xảy ra) Thay đổi chỉ bằng hàm thuần túy: Để chỉ ra cách mà State được biến đổi bởi Action chúng ta dùng các pure function gọi là Reducer
+
+Về cơ bản Redux có 4 thành phần như sau:
+
+#### 1. Action
+Trong Redux, cách duy nhất để thay đổi nội dung state là phải submit lên 1 cái mẫu tin. mà theo lí thuyết Redux là action. Đó là một đối tượng mô tả những gì đã diễn ra, và bạn send nó tới store bằng cách store.dispatch()
+
+```javascript
+function addTodo(text) {
+	return {
+		type: ADD_TODO,
+		text
+	}
+}
+```
+
+#### 2. Reducer
+Reducer là những pure function, tức là nó sẽ không thay đổi giá trị của những tham số truyền vào. Ngoài ra, nó sẽ trả về 1 đối tượng khác không có những tham chiếu gì đến tham số truyền vào. Là nơi xác định State thay đổi như thế nào.
+
+```javascript
+function todoApp(state = initialState, action) {
+  switch (action.type) {
+    case ADD_TODO:
+      return Object.assign({}, state, {
+        todos: [
+          ...state.todos,
+          {
+            text: action.text,
+            completed: false
+          }
+        ]
+      })
+    default:
+      return state
+  }
+}
+```
+
+#### 3. Store
+Trong Redux, trạng thái của toàn bộ ứng dụng được lưu trữ bằng một cây đôi tượng thể hiện trạng thái hiện hành của dữ liệu trong ứng dụng và cây này được lưu trong 1 store.
+
+Điều này giúp cho ta có thể phát triển những ứng dụng lớn vì trạng thái dữ liệu có thể đồng bộ từ tầng server đến tầng client mà không phải tốn nhiều công sức. Là nơi quản lý State, cho phép truy cập State qua getState(), update State qua dispatch(action), đăng kí listener qua subscribe(listener).
+
+
+```javascript
+import { createStore } from 'redux'
+import todoApp from './reducers'
+
+let store = createStore(todoApp)
+```
+
+#### 4. View
+Hiển thị dữ liệu được cung cấp bởi Store
+
+![Redux](https://boxxv.github.io/img/posts/Redux Flow.jpg "Redux")
+
+```javascript
+
+```
 
 -----
 Tham khảo:
