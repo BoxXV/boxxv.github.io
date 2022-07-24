@@ -485,6 +485,7 @@ Redux
 - [Quản lý state trong React bằng Mobx - Part 1](https://viblo.asia/p/quan-ly-state-trong-react-bang-mobx-part-1-OeVKB9aM5kW)
 - [Quản lý state trong React bằng Mobx - Part 2](https://viblo.asia/p/mobx-quan-ly-state-trong-react-part-2-07LKXkE25V4)
 - [Giới thiệu về MobX và React trong mười phút](https://viblo.asia/p/gioi-thieu-ve-mobx-va-react-trong-muoi-phut-bJzKmyrEK9N)
+- [Sử dụng Reselect với React, Redux](https://viblo.asia/p/su-dung-reselect-voi-react-redux-QpmleBED5rd)
 
 
 - [The React Cheatsheet for 2020 (Phần 1)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-1-WAyK8PY6KxX)
