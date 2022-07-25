@@ -472,6 +472,7 @@ Tham khảo:
 
 Redux
 - [Tìm hiểu về Redux trong ReactJS](https://viblo.asia/p/tim-hieu-ve-redux-trong-reactjs-GrLZDe7Olk0)
+- [Một số cách cập nhật state trong Redux!](https://viblo.asia/p/mot-so-cach-cap-nhat-state-trong-redux-07LKXJq2lV4)
 - [Tìm hiểu Redux qua ví dụ thực tế](https://viblo.asia/p/tim-hieu-redux-qua-vi-du-thuc-te-gAm5yaNO5db)
 - [Từng bước để xây dựng một ứng dụng React Redux](https://viblo.asia/p/tung-buoc-de-xay-dung-mot-ung-dung-react-redux-gGJ59jgPKX2)
 - [Làm sao để áp dụng typescript vào dự án React Redux](https://viblo.asia/p/lam-sao-de-ap-dung-typescript-vao-du-an-react-redux-924lJpxXKPM)
