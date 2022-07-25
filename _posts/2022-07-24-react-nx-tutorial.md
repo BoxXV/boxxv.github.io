@@ -58,6 +58,16 @@ Ngoài việc sử dụng npx chúng ta có thể dùng `npm init` bằng `npm i
 
 ![workspace](https://boxxv.github.io/img/posts/b08a0b55-015a-496f-8cd0-39ca3bcf9b25.png "workspace")
 
+##### Cài đặt Nx CLI với dòng lệnh sau:
+```bat
+npm install -g nx
+```
+
+##### Chạy ứng dụng ở local
+```bat
+npx nx serve <application-name>
+```
+
 
 
 
