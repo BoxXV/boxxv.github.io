@@ -63,13 +63,40 @@ Ngoài việc sử dụng npx chúng ta có thể dùng `npm init` bằng `npm i
 npm install -g nx
 ```
 
+##### Xem Nx có hỗ trợ sẵn các framework
+```bat
+npx nx list
+```
+
 ##### Chạy ứng dụng ở local
 ```bat
 npx nx serve <application-name>
 ```
 
+## Build the app
+```bat
+npx nx build <application-name>
+```
 
+## Run a linter for the application
+```bat
+npx nx lint <application-name>
+```
 
+## Run unit tests for the application
+```bat
+npx nx test <application-name>
+```
+
+## Run e2e tests for the application
+```bat
+npx nx e2e <application-name>-e2e
+```
+
+##### Thể hiện một cách trực quan quan hệ giữa các module
+```bat
+npx nx dep-graph
+```
 
 -----
 Tham khảo:
