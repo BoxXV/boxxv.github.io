@@ -56,6 +56,13 @@ npx create-nx-workspace
 
 Ngoài việc sử dụng npx chúng ta có thể dùng `npm init` bằng `npm init nx-workspace` hoặc `yarn create` với `yarn create nx-workspace`. Ngay sau khi chạy lệnh trên, Nx sẽ hỏi chúng ta một số thứ chẳng hạn như muốn tạo workspace theo mẫu sẵn có nào hay không, ... như sau:
 
+```bat
+Workspace name (e.g., org name)     demo
+What to create in the new workspace react
+Application name                    demo
+Default stylesheet format           CSS
+```
+
 ![workspace](https://boxxv.github.io/img/posts/b08a0b55-015a-496f-8cd0-39ca3bcf9b25.png "workspace")
 
 ##### Cài đặt Nx CLI với dòng lệnh sau:
@@ -73,22 +80,22 @@ npx nx list
 npx nx serve <application-name>
 ```
 
-## Build the app
+##### Build the app
 ```bat
 npx nx build <application-name>
 ```
 
-## Run a linter for the application
+##### Run a linter for the application
 ```bat
 npx nx lint <application-name>
 ```
 
-## Run unit tests for the application
+##### Run unit tests for the application
 ```bat
 npx nx test <application-name>
 ```
 
-## Run e2e tests for the application
+##### Run e2e tests for the application
 ```bat
 npx nx e2e <application-name>-e2e
 ```
