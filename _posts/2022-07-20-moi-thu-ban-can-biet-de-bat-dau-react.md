@@ -413,9 +413,62 @@ Hiển thị dữ liệu được cung cấp bởi Store
 
 ![Redux](https://boxxv.github.io/img/posts/Redux Flow.jpg "Redux")
 
-```javascript
 
+### Middleware library
+
+Trên thực tế thì việc thao tác với các state ở redux store có nhiều vấn đề khác, ví dụ mình muốn gọi api, hoặc sử dụng các hàm setTimeout để thao tác các state thì sao, tất cả những việc đó được gọi chung là side effects, vậy làm thế nào để mình handle được những side effect đó. Thì lúc này middleware library sẽ giúp xử lý những vấn đề này. Các bạn có thể hiều đơn gian middleware library là thành phần đứng giữa các action và reducer. Khi một action được dispatch vào reducer, thì nó sẽ kiểm tra xem action đó có thực thiện bất đồng bộ hay không, nếu có nó sẽ chờ cho action bất đồng bộ thực hiện xong rồi mới đưa action vào trong reducer. 
+
+Một số library middleware thường sử dụng:
+- Redux-thunk
+- Redux-saga
+- Redux-promise
+
+### Redux-thunk
+Ở trong phạm vi của bài viết này mình sẽ chỉ nói về redux thunk và redux saga. Redux thunk: Chắc các bạn cũng biết là action thường trả về dạng object, người ta hay gọi là plain Javascript object. Trong trường hợp mình muốn gọi một api để trả về một list trending thì action của mình không thể trả về một plain Javascript object thông thường được, mà mình sẽ phải trả về một function, action như vậy được gọi là async action. Đây là code cho ví dụ của mình:
+
+```javascript
+export const fetchTrendingRequest = () => {
+  return (dispatch) => {
+    callAPI().then(({data})=>{
+      dispatch(fetchTrending(data.data));
+    })
+  }
+}
+
+export const fetchTrending = (trendings) => {
+  return {
+    type: Types.FETCH_TRENDING,
+    trendings
+  }
+}
 ```
+
+Các bạn hãy quan sát action đầu tiên của mình, ở đây mình trả về một function và function này sẽ tiến hành call api để lấy về listTrending, lúc này redux thunk nó sẽ cho phép chương trình dừng lại cho đến khi api gọi xong và trả về kết quả. Tiếp đến mình gọi đến một action bên dưới truyền data vừa mới get được vào và lúc này redux thunk nó sẽ kiểm tra action này không thực hiện async nên nó sẽ đưa đến cho reducer để xử lý. Đây cũng là một quy trình cơ bản mà redux thunk thực hiện. Khá là đơn giản, còn về làm thế nào để set up redux thunk thì các bạn có thể xem ở đây: https://github.com/reduxjs/redux-thunk
+
+### Redux saga
+
+Về mặt cơ chế hoạt động thì nó cũng tương tự như thunk, dùng để handle các side effect. Redux saga cung cấp các hàm helper effect, các hàm này sẽ trả về một effect object chứa đựng thông tin đặc biệt chỉ dẫn middeware của Redux có thể thực hiện tiếp các hành động khác. Các hàm helper effect sẽ được thực thi trong các generator function. Generator function là một tính năng mới trong ES6, nó cũng là một function. Tuy nhiên điểm đặc biệt của function này là có thể tạm dừng để thực thi một việc khác, hoặc có thể gọi đến một Generator function khác. Chi tiết về Generator function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*
+
+Một số helper của generator function được redux saga sử dụng:
+- `takeEvery()` : thực thi và trả lại kết quả của mọi actions được gọi.
+- `takeLastest()` : có nghĩa là nếu chúng ta thực hiện một loạt các actions, nó sẽ chỉ thực thi và trả lại kết quả của của actions cuối cùng.
+- `take()` : tạm dừng cho đến khi nhận được action
+- `put()` : dispatch một action.
+- `call()`: gọi function. Nếu nó return về một promise, tạm dừng saga cho đến khi promise được giải quyết.
+- `race()` : chạy nhiều effect đồng thời, sau đó hủy tất cả nếu một trong số đó kết thúc
+
+Đối với redux thunk nó có những ưu nhược điểm như sau:
+
+| So sánh | Redux Thunk | Rudux-saga |
+| -- | -- | -- |
+| Ưu điểm | Đơn giản, mạnh mẽ, dễ sử dụng , dễ tiếp cận đối với các bạn là mới học React | Đối với những dự án phức tạp sử dụng redux-saga code sẽ clean và dễ test hơn so với redux-thunk, giải quyết được những vấn đề về chains of promises |
+| Nhược điểm | Chỉ phù hợp với các dự án nhỏ, xử lý logic đơn giản. Còn đối với những dự án phức tạp sử dụng redux-thunk sẽ phải tốn nhiều dòng code và gây khó khăn cho việc test các action | Phức tạp, tốn thời gian cho member mới vào team, nặng về xử lý logic, không dành cho những ứng dụng đơn giản |
+
+Trên đây là mình đã chia sẻ về redux-thunk và resux-saga. Đây là 2 middleware library được dùng nhiều trong Reactjs, việc lựa chọn redux-thunk hay redux-saga còn tùy thuộc vào project.
+
+Tài liệu tham khảo
+https://medium.com/@shoshanarosenfield/redux-thunk-vs-redux-saga-93fe82878b2d
+
 
 -----
 Tham khảo:
