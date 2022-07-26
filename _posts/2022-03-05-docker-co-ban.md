@@ -197,12 +197,7 @@ docker build -t docker101tutorial .
  => [app-base 1/5] FROM docker.io/library/node:12-alpine@sha256:d4b15b3d48f42059a15bd659be60afe21762aae9d6cbea6f124440895c27db68                                                                                                                32.8s 
  => => resolve docker.io/library/node:12-alpine@sha256:d4b15b3d48f42059a15bd659be60afe21762aae9d6cbea6f124440895c27db68                                                                                                                          0.6s 
  => => sha256:d4b15b3d48f42059a15bd659be60afe21762aae9d6cbea6f124440895c27db68 1.43kB / 1.43kB                                                                                                                                                   0.0s 
- => => sha256:4517380049fc3c9aacceae7764fcf3500354b0ac8a47e4afb35b5bbeb75b9498 1.16kB / 1.16kB                                                                                                                                                   0.0s 
- => => sha256:bb6d28039b8cec9aa8d9032f9aa640a792a60c2cb1644691627bf046aab27c8b 6.58kB / 6.58kB                                                                                                                                                   0.0s 
  => => sha256:df9b9388f04ad6279a7410b85cedfdcb2208c0a003da7ab5613af71079148139 2.81MB / 2.81MB                                                                                                                                                   2.9s 
- => => sha256:3bf6d738020517f4622814e8c21db4b4aaa78ae7cab4e4f872c11696886c6285 24.91MB / 24.91MB                                                                                                                                                15.9s 
- => => sha256:7939e601ee5e4737cf7fdb6d1dfe31ca4c2697109290462f694710761450aef0 2.36MB / 2.36MB                                                                                                                                                   5.2s 
- => => extracting sha256:df9b9388f04ad6279a7410b85cedfdcb2208c0a003da7ab5613af71079148139                                                                                                                                                        0.2s 
  => => sha256:31f0fb9de071269230cb0f786012ae4e81d26e489b1fe922e57b5201e6bc9ab0 451B / 451B                                                                                                                                                       4.4s 
  => => extracting sha256:3bf6d738020517f4622814e8c21db4b4aaa78ae7cab4e4f872c11696886c6285                                                                                                                                                        1.2s 
  => => extracting sha256:7939e601ee5e4737cf7fdb6d1dfe31ca4c2697109290462f694710761450aef0                                                                                                                                                        0.1s 
@@ -212,28 +207,18 @@ docker build -t docker101tutorial .
  => [stage-6 1/3] FROM docker.io/library/nginx:alpine@sha256:87fb6f4040ffd52dd616f360b8520ed4482930ea75417182ad3f76c4aaadf24f                                                                                                                   27.5s 
  => => resolve docker.io/library/nginx:alpine@sha256:87fb6f4040ffd52dd616f360b8520ed4482930ea75417182ad3f76c4aaadf24f                                                                                                                            1.2s 
  => => sha256:87fb6f4040ffd52dd616f360b8520ed4482930ea75417182ad3f76c4aaadf24f 1.65kB / 1.65kB                                                                                                                                                   0.0s 
- => => sha256:96a447b9474aff02d4e3b642f5fdb10ff7ff25d409e8132e536c71f494f59617 1.57kB / 1.57kB                                                                                                                                                   0.0s 
- => => sha256:e46bcc69753105cfd75905056666b92cee0d3e96ebf134b19f1b38de53cda93e 8.89kB / 8.89kB                                                                                                                                                   0.0s 
  => => sha256:323a7915bc0486f17181676df748e5c3571103eb8ac38137aa60ea87e9d70b19 7.39MB / 7.39MB                                                                                                                                                  10.1s 
  => => sha256:b5b558620e4027e2a918abda48eb0d3ecae77b6ced0f5244a55d78a02bcea87b 602B / 602B                                                                                                                                                       6.9s 
- => => sha256:b37be0d2bf3c46c2d42cf536fcf0eb53cc8a5b7f8f0ee74abaf3e57610ae3f97 893B / 893B                                                                                                                                                       7.9s 
- => => sha256:ba036c7f95ecc063c84fbe789765b97feefdbc331a31abf90153da5e16fe7264 664B / 664B                                                                                                                                                       9.1s 
  => => sha256:a46fd6a16a7c6563c064f8ad9197db0bcf1191095cc3af29e75fb5e9b007f168 1.39kB / 1.39kB                                                                                                                                                  10.2s 
  => => extracting sha256:323a7915bc0486f17181676df748e5c3571103eb8ac38137aa60ea87e9d70b19                                                                                                                                                        0.3s 
  => => extracting sha256:b5b558620e4027e2a918abda48eb0d3ecae77b6ced0f5244a55d78a02bcea87b                                                                                                                                                        0.0s 
- => => extracting sha256:b37be0d2bf3c46c2d42cf536fcf0eb53cc8a5b7f8f0ee74abaf3e57610ae3f97                                                                                                                                                        0.0s 
  => => extracting sha256:ba036c7f95ecc063c84fbe789765b97feefdbc331a31abf90153da5e16fe7264                                                                                                                                                        0.0s 
  => => extracting sha256:a46fd6a16a7c6563c064f8ad9197db0bcf1191095cc3af29e75fb5e9b007f168                                                                                                                                                        0.0s 
  => [base 1/4] FROM docker.io/library/python:alpine@sha256:ba6cfcca463537621aac63ffda4f93cd73e1f3dea59a83287603fbebd02444e4                                                                                                                     37.0s 
  => => resolve docker.io/library/python:alpine@sha256:ba6cfcca463537621aac63ffda4f93cd73e1f3dea59a83287603fbebd02444e4                                                                                                                           1.2s 
  => => sha256:ba6cfcca463537621aac63ffda4f93cd73e1f3dea59a83287603fbebd02444e4 1.65kB / 1.65kB                                                                                                                                                   0.0s 
- => => sha256:fc633a94d6239c161ead1fd3a192b5853e5807da6239f1ac9cf20c31391af3ab 1.37kB / 1.37kB                                                                                                                                                   0.0s 
  => => sha256:eb1dfcc4f9e9884135653d74000b3a174fd77cc76a557601e9b763a064ba67ef 7.04kB / 7.04kB                                                                                                                                                   0.0s 
- => => sha256:cc8c14b1a767335de44f2bc926cb52487979a0fe602ac5429643dbb238f297fb 666.77kB / 666.77kB                                                                                                                                              11.7s 
  => => sha256:bd99fa58365b603cbeb71c93c19182410b640606f36158c10d7ee09d63c1a4f6 12.18MB / 12.18MB                                                                                                                                                19.3s 
- => => extracting sha256:cc8c14b1a767335de44f2bc926cb52487979a0fe602ac5429643dbb238f297fb                                                                                                                                                        0.2s 
- => => sha256:777a82aef5431a7852c25deef1cc9e479a3be2c2a9f49e41306b9da78184f1ef 231B / 231B                                                                                                                                                      13.0s 
- => => sha256:1ef14832cf3c6d891726d458ea44fb7be8662b778048035236efe234a7c2699f 2.87MB / 2.87MB                                                                                                                                                  20.2s 
  => => extracting sha256:bd99fa58365b603cbeb71c93c19182410b640606f36158c10d7ee09d63c1a4f6                                                                                                                                                        0.4s 
  => => extracting sha256:777a82aef5431a7852c25deef1cc9e479a3be2c2a9f49e41306b9da78184f1ef                                                                                                                                                        0.0s 
  => => extracting sha256:1ef14832cf3c6d891726d458ea44fb7be8662b778048035236efe234a7c2699f                                                                                                                                                        0.2s 
@@ -258,6 +243,10 @@ docker build -t docker101tutorial .
  => => naming to docker.io/library/docker101tutorial                                                                                                                                                                                             0.1s
 
 Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+```
+
+```bat
+docker run -d -p 80:80 --name docker-tutorial docker101tutorial
 ```
 
 
