@@ -7,8 +7,7 @@ tags:
 - Docker
 ---
 
-
-
+![Docker](https://boxxv.github.io/img/posts/docker.jpg "Docker")
 
 ## Docker là gì?
 
@@ -22,13 +21,27 @@ Trước đây, việc setup và deploy application lên một hoặc nhiều se
 
 Docker cho phép các developers tạo các môi trường độc lập và tách biệt để khởi chạy và phát triển ứng dụng và môi trường này được gọi là container. Khi cần deploy lên bất kỳ server nào chỉ cần run container của Docker thì application của bạn sẽ được khởi chạy ngay lập tức.
 
-#### 6 lợi ích khi sử dụng Docker:
+### Lợi ích khi sử dụng Docker:
 1. Docker cho các bạn 1 môi trường mục tiêu cụ thể, ví dụ các bạn cần môi trường Ubuntu, có PHP 7.2 có NodeJS 8.0, có mysql 5.2. Docker sẽ giúp bạn có được điều đó.
 2. Môi trường trong Docker độc lập so với môi trường gốc: Docker sẽ tạo ra cho các bạn môi trường "ảo" trong đó các bạn có thể chạy project của mình, bất kể hệ điều hành gốc của các bạn có là gì. Do đó, kể cả bạn ở Win hay Mac thì vẫn có thể chạy project dưới môi trường Ubuntu hay bất cứ môi trường nào (mà hiện tại Docker support) bạn cần.
 3. Một môi trường Docker sau khi được định nghĩa nó sẽ là "bất biến". Bạn có thể setup ở bất kì đâu bất kì máy nào với môi trường giống hệt bạn đã định nghĩa.
-4. Mỗi một project sẽ có một file cấu hình cụ thể, 10 năm sau bạn đọc lại project thì vẫn biết để chạy được project đó thì cần những gì và cần làm gì. Bạn chỉ cần đưa file cấu hình cho người khác là họ sẽ tự biết phải làm gì để chạy 😉
+4. Mỗi một project sẽ có một file cấu hình cụ thể, 10 năm sau bạn đọc lại project thì vẫn biết để chạy được project đó thì cần những gì và cần làm gì. Bạn chỉ cần đưa file cấu hình cho người khác là họ sẽ tự biết phải làm gì để chạy
 5. Vì mỗi project chúng ta có thể setup ở một môi trường riêng, nên các project sẽ không bị xung đột, chia sẻ tài nguyên lằng nhằng (nếu như ta không muốn). Từ đó giảm thiểu tối đa sự phụ thuộc lẫn nhau, cài đặt, thêm bớt sửa xóa các thư viện, cấu hình cũng sẽ không bị ảnh hưởng tới các project khác.
 6.Docker có thể giúp tự động Heal (tự hồi phục, khởi động lại) nếu trong trường hợp có lỗi.
+
+### Lý do sử dụng Docker:
+1. Với sự hỗ trợ của docker, việc coding, testing, deploying trở nên đơn giản hơn.
+2. Khả năng di động (portable): môi trường develop được dựng lên bằng docker có thể chuyển từ người này sang người khác mà không làm thay đổi cấu hình ở trong. Trong kỹ thuật, được gọi là provisioning.
+3. Application-centric: docker được dùng trên nhiều môi trường, đặc biệt tương thích trên môi trường develop, hướng đến việc coding thuận tiện nhất.
+4. Versioning: docker được tích hợp VCS-git, để tracking các dòng lệnh thiết lập, hay đánh dấu version.
+5. Component re-use: nghĩa là docker có khả năng sử dụng lại resource trước đó, bằng cách đánh dấu những resources giống nhau bằng một mã ID. Các môi trường được dựng lên sau đó sẽ kiểm tra các mã ID trước đó, nếu trùng docker sẽ sử dụng lại.
+6. Sharing: với Docker Hub (public registry), các developer có thể tìm và sử dụng các môi trường được dựng sẵn.
+
+### OS nào có thể dùng Docker:
+1. Linux: Ubuntu 12.04+, Fedora 19/20+, RHEL 6.5+, CentOS 6+, Gentoo, ArchLinux, openSUSE 12.3+, CRUX 3.0+
+2. Cloud: Amazon EC2m Google Compute Engine, Microsoft Azure,…
+3. Max OS X
+4. Windows: Windows 7+
 
 
 ## Các thành phần chính của Docker
@@ -145,4 +158,9 @@ Tham khảo:
 - [Docker cơ bản](https://viblo.asia/p/docker-co-ban-6J3Zgavq5mB)
 - [Giới thiệu Docker](https://labs.flinters.vn/devops/gioi-thieu-docker/)
 - [Giới thiệu và cài đặt WSL trên Windows](https://viblo.asia/p/gioi-thieu-va-cai-dat-wsl-tren-windows-1VgZvP025Aw)
+- [Docker – Hãy hiểu theo cách của bạn](https://viblo.asia/p/docker-hay-hieu-theo-cach-cua-ban-Az45bnk65xY)
+- [Docker là gì? Kiến thức cơ bản về Docker](https://trungtq.com/2020/11/17/docker-la-gi-kien-thuc-co-ban-ve-docker/)
+- [Docker – Những lý do bạn nên sử dụng Docker cho triển khai ứng dụng của bạn](https://viblo.asia/p/docker-nhung-ly-do-ban-nen-su-dung-docker-cho-trien-khai-ung-dung-cua-ban-gDVK2OJXZLj)
+- [Docker là gì? Tại sao lập trình viên nên biết cách sử dụng docker?](http://tutorials.aiclub.cs.uit.edu.vn/index.php/2020/05/30/docker-co-ban-bai-1-docker-la-gi-tai-sao-lai-su-dung-docker/)
 - [Docker: Deploy Nginx, Let's Encrypt web service có SSL đơn giản nhất](https://200lab.io/blog/docker-nginx-lets-encrypt-web-service-ssl/)
+- [Dockerize ứng dụng VueJS, ReactJS](https://viblo.asia/p/dockerize-ung-dung-vuejs-reactjs-ORNZqxwNK0n)
