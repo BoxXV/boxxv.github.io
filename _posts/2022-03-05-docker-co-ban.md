@@ -178,4 +178,8 @@ Tham khảo:
 - [Docker là gì? Tại sao lập trình viên nên biết cách sử dụng docker?](http://tutorials.aiclub.cs.uit.edu.vn/index.php/2020/05/30/docker-co-ban-bai-1-docker-la-gi-tai-sao-lai-su-dung-docker/)
 - [Lí do tôi yêu Docker](https://viblo.asia/p/li-do-toi-yeu-docker-ORNZqxRMK0n)
 - [Docker: Deploy Nginx, Let's Encrypt web service có SSL đơn giản nhất](https://200lab.io/blog/docker-nginx-lets-encrypt-web-service-ssl/)
+- [Dockerize ứng dụng NodeJS](https://viblo.asia/p/dockerize-ung-dung-nodejs-RnB5pxEG5PG)
 - [Dockerize ứng dụng VueJS, ReactJS](https://viblo.asia/p/dockerize-ung-dung-vuejs-reactjs-ORNZqxwNK0n)
+- [Run a React app in a docker](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App.php)
+- [Run a React app in a docker II](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App-2-SnapShot.php)
+- [Use Docker with a React Single-page App in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/containers/container-tools-react?view=vs-2022)
