@@ -194,6 +194,8 @@ Tham khảo:
 - [Run a React app in a docker II](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App-2-SnapShot.php)
 - [Use Docker with a React Single-page App in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/containers/container-tools-react?view=vs-2022)
 - [Utilizing the power of Docker while building MERN Apps using mern-docker](https://dev.to/sujaykundu777/utilizing-the-power-of-docker-while-building-mern-apps-using-mern-docker-4olb)
+- [VIDEO - Docker Compose in 6 minutes! Mongo, Express, React, Node (MERN) Application Tutorial](https://youtu.be/0B2raYYH2fE)
+- [VIDEO - Full MERN Website React Nodejs w/ GraphQL Tailwind and Docker From Zero To Deployment + GIVEAWAY](https://youtu.be/4ELH8CT4J0A)
 
 - [mern-docker](https://github.com/sujaykundu777/mern-docker)
 - [mern-docker-starter](https://github.com/joshdcuneo/mern-docker-starter)
