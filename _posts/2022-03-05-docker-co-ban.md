@@ -54,7 +54,7 @@ Tất cả những điều trên Docker sẽ giúp các bạn giải quyết m�
 4. Windows: Windows 7+
 
 
-## Các thành phần chính của Docker
+## Các thành phần chính, khái niệm của Docker
 
 ![Docker](https://boxxv.github.io/img/posts/0_CP98BIIBgMG2K3u5.png "Docker")
 
@@ -65,6 +65,10 @@ Tất cả những điều trên Docker sẽ giúp các bạn giải quyết m�
 **Dockerfile**: Là một file dạng text không có phần đuôi mở rộng, chứa các đặc tả về môi trường thực thi phần mềm, cấu trúc cho Docker image. Docker image có thể được tạo ra tự động bằng cách đọc các chỉ dẫn trong Dockerfile. Từ những câu lệnh đó, Docker sẽ build ra Docker image
 
 **Dockerhub**: là dịch vụ cloud lưu trữ các image của các cá nhân hoặc công ty. Nó cho phép người dùng sử dụng và phát triển
+
+**Port**: Vì môi trường trong Docker độc lập hoàn toàn so với môi trường gốc. Nên để có thể sử dụng được ứng dụng chạy trong Docker thì ta cần mở port từ Docker để bên ngoài có thể gọi vào được.
+
+**Volume**: Vì môi trường Docker độc lập nên hệ thống file của ứng dụng chạy trong Docker cũng độc lập, mà thực tế thì hầu như ta luôn cần lưu lại file: lưu trữ DB, lưu trữ log, ảnh,... Do đó để môi trường gốc truy cập được vào file system của ứng dụng chạy trong Docker thì ta cần tới Volume
 
 
 ## Cài đặt
