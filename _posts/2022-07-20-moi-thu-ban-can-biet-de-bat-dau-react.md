@@ -359,7 +359,7 @@ Là một thư viện javascript giúp tạo ra một lớp quản lý trạng t
 
 Nguồn dữ liệu tin cậy duy nhất: State của toàn bộ ứng được chứa trong một object tree nằm trong Store duy nhất Trạng thái chỉ được phép đọc: Cách duy nhất để thay đổi State của ứng dụng là phát một Action (là 1 object mô tả những gì xảy ra) Thay đổi chỉ bằng hàm thuần túy: Để chỉ ra cách mà State được biến đổi bởi Action chúng ta dùng các pure function gọi là Reducer
 
-Về cơ bản Redux có 4 thành phần như sau:
+Về cơ bản Redux có các thành phần như sau:
 
 #### 1. Action
 Trong Redux, cách duy nhất để thay đổi nội dung state là phải submit lên 1 cái mẫu tin. mà theo lí thuyết Redux là action. Đó là một đối tượng mô tả những gì đã diễn ra, và bạn send nó tới store bằng cách store.dispatch()
@@ -412,6 +412,12 @@ let store = createStore(todoApp)
 Hiển thị dữ liệu được cung cấp bởi Store
 
 ![Redux](https://boxxv.github.io/img/posts/Redux Flow.jpg "Redux")
+
+#### Middleware
+Về cơ bản nó nhận các action đầu vào rồi và trả ra cũng là các action trước khi dispatch đến reducer để xử lý
+
+#### Redux-sagas
+Cho phép bạn thực hiện các request API và các tác vụ bất đồng bộ nhờ vào function generator
 
 
 ### Middleware library
@@ -468,6 +474,29 @@ Trên đây là mình đã chia sẻ về redux-thunk và resux-saga. Đây là 
 
 Tài liệu tham khảo
 https://medium.com/@shoshanarosenfield/redux-thunk-vs-redux-saga-93fe82878b2d
+
+
+## Hook
+Chúng ta có 10 hooks được xây dựng trong phiên bản React từ 16.8 trở đi. Chúng cho phép sử dụng state và những tính năng khác của React mà không cần phải dùng tới class.
+
+React Hooks cho phép chúng ta có thể sử dụng state và life cycle bên trong một functional components. Hooks đem lại một vài lợi ích khi làm việc như :
+- Cải thiện hiệu suất làm việc bằng cách có thể tái sử dụng code.
+- Các thành phần được trình bày khoa học hơn.
+- Sử dụng một cách linh hoạt trong component tree.
+
+#### useState()
+Việc sử dụng useState() cho phép chúng ta có thể làm việc với state bên trong functional component mà không cần chuyển nó về class component. Ở ví dụ bên trên mình cũng đã sử dụng useState() để cập nhật state. Chúng ta có thể sử dụng nó bằng cú pháp:
+
+```javascript
+const [state, setState] = useState(initialStateValue);
+```
+
+#### useEffect()
+
+#### useContext()
+
+#### useState()
+
 
 
 -----
@@ -532,7 +561,6 @@ Redux
 - [Từng bước để xây dựng một ứng dụng React Redux](https://viblo.asia/p/tung-buoc-de-xay-dung-mot-ung-dung-react-redux-gGJ59jgPKX2)
 - [Làm sao để áp dụng typescript vào dự án React Redux](https://viblo.asia/p/lam-sao-de-ap-dung-typescript-vao-du-an-react-redux-924lJpxXKPM)
 - [Thiết lập ứng dụng React - TypeScript từ A-Z](https://viblo.asia/p/thiet-lap-ung-dung-react-typescript-tu-a-z-4dbZN1NkKYM)
-- [Tản mạn về Redux và React Hooks](https://viblo.asia/p/tan-man-ve-redux-va-react-hooks-Az45br9o5xY)
 - [Tìm hiểu về Redux saga](https://viblo.asia/p/tim-hieu-ve-redux-saga-bWrZnODmlxw)
 - [Tìm hiểu redux-toolkit phần 1](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-1-YWOZrN3vZQ0)
 - [Tìm hiểu redux-toolkit phần 2](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-2-QpmlejPD5rd)
@@ -542,6 +570,14 @@ Redux
 - [Quản lý state trong React bằng Mobx - Part 2](https://viblo.asia/p/mobx-quan-ly-state-trong-react-part-2-07LKXkE25V4)
 - [Giới thiệu về MobX và React trong mười phút](https://viblo.asia/p/gioi-thieu-ve-mobx-va-react-trong-muoi-phut-bJzKmyrEK9N)
 - [Sử dụng Reselect với React, Redux](https://viblo.asia/p/su-dung-reselect-voi-react-redux-QpmleBED5rd)
+
+Hooks
+- [Giới thiệu về Hook](https://vi.reactjs.org/docs/hooks-intro.html)
+- [Giới thiệu React Hooks](https://viblo.asia/p/gioi-thieu-react-hooks-924lJRQWlPM)
+- [Tản mạn về Redux và React Hooks](https://viblo.asia/p/tan-man-ve-redux-va-react-hooks-Az45br9o5xY)
+- [Đôi chút về useState trong React Hooks](https://viblo.asia/p/doi-chut-ve-usestate-trong-react-hooks-07LKXpVeKV4)
+- [Custom Hook là gì ?](https://viblo.asia/p/custom-hook-la-gi-gAm5yDo8ldb)
+- [Cảm nhận về React Hooks](https://viblo.asia/p/cam-nhan-ve-react-hooks-OeVKBnPMKkW)
 
 
 - [The React Cheatsheet for 2020 (Phần 1)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-1-WAyK8PY6KxX)
