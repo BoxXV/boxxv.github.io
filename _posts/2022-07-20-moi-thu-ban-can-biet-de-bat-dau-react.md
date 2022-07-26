@@ -484,19 +484,37 @@ React Hooks cho phép chúng ta có thể sử dụng state và life cycle bên 
 - Các thành phần được trình bày khoa học hơn.
 - Sử dụng một cách linh hoạt trong component tree.
 
-#### useState()
+### useState()
 Việc sử dụng useState() cho phép chúng ta có thể làm việc với state bên trong functional component mà không cần chuyển nó về class component. Ở ví dụ bên trên mình cũng đã sử dụng useState() để cập nhật state. Chúng ta có thể sử dụng nó bằng cú pháp:
 
 ```javascript
 const [state, setState] = useState(initialStateValue);
 ```
 
-#### useEffect()
+Đây làm một hooks được sử dụng hầu như trong tất cả các funcitonal component.
 
-#### useContext()
+### useEffect()
+useEffect() là function nắm bắt tất cả các sự thay đổi của code. Trong một function component, việc sử dụng life cycle không React hỗ trợ, bởi vậy rất khó để debug, cũng như nắm bắt được quá trình khởi chạy của component.
 
-#### useState()
+useEffect() sinh ra để làm điều này, nó được khởi chạy khi giá trị của một biến nào đó thay đổi, hay component đã được render ra,...useEffect() có thể thay thế hòan toàn các life cycle trong class component. Chúng ta có thể sử dụng nó bằng cú pháp :
 
+```javascript
+useEffect(effectFunction, arrayDependencies);
+```
+
+### useContext()
+useContext() cho phép nhận về giá trị của context mỗi khi nó thay đổi. Cú pháp cơ bản như sau:
+
+```javascript
+
+```
+
+### useReducer()
+Hook useReducer được sử dụng để xử lý các state phức tạp và việc chia sẻ state giữa các component. Ở đây chúng ta có cú pháp.
+
+```javascript
+const [state, dispatch] = useReducer(reducer, initialArg, init);
+```
 
 
 -----
@@ -576,6 +594,7 @@ Hooks
 - [Giới thiệu React Hooks](https://viblo.asia/p/gioi-thieu-react-hooks-924lJRQWlPM)
 - [Tản mạn về Redux và React Hooks](https://viblo.asia/p/tan-man-ve-redux-va-react-hooks-Az45br9o5xY)
 - [Đôi chút về useState trong React Hooks](https://viblo.asia/p/doi-chut-ve-usestate-trong-react-hooks-07LKXpVeKV4)
+- [Đôi chút về useEffect trong React Hook](https://viblo.asia/p/doi-chut-hieu-ve-useeffect-trong-reactjs-hook-RQqKLkA057z)
 - [Custom Hook là gì ?](https://viblo.asia/p/custom-hook-la-gi-gAm5yDo8ldb)
 - [Cảm nhận về React Hooks](https://viblo.asia/p/cam-nhan-ve-react-hooks-OeVKBnPMKkW)
 
