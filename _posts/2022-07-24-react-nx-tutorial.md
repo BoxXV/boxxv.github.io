@@ -111,6 +111,39 @@ npx nx e2e <application-name>-e2e
 npx nx dep-graph
 ```
 
+
+# Building Docker images
+
+Khi tạo Docker images cho các ứng dụng Node, chúng ta cần đảm bảo rằng có sẵn `package.json`. Chúng tôi cần package.json để cài đặt các phụ thuộc ứng dụng trong image.
+
+`Nx` có các cơ chế để tự động tạo một package.json dựa trên các phụ thuộc mà ứng dụng đang sử dụng. Để kích hoạt điều này, chúng ta cần sửa đổi tệp `workspace.json` và kích hoạt tạo `package.json`.
+
+Thêm thuộc tính `generatePackageJson` vào từng app targets xây dựng:
+
+```json
+@@ -15,7 +15,8 @@
+             "outputPath": "dist/apps/api",
+             "main": "apps/api/src/main.ts",
+             "tsConfig": "apps/api/tsconfig.app.json",
+-            "assets": ["apps/api/src/assets"]
++            "assets": ["apps/api/src/assets"],
++            "generatePackageJson": true
+           },
+           "configurations": {
+             "production": {
+@@ -67,7 +68,8 @@
+             "outputPath": "dist/apps/html",
+             "main": "apps/html/src/main.ts",
+             "tsConfig": "apps/html/tsconfig.app.json",
+-            "assets": ["apps/html/src/assets"]
++            "assets": ["apps/html/src/assets"],
++            "generatePackageJson": true
+           },
+           "configurations": {
+             "production": {
+```
+
+
 -----
 Tham khảo:
 - [Monorepos là gì và tạo nhanh một Monorepos bằng Nx](https://viblo.asia/p/monorepos-la-gi-va-tao-nhanh-mot-monorepos-bang-nx-RnB5pWwblPG)
