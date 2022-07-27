@@ -281,6 +281,7 @@ Tham khảo:
 - [Từ phát triển tới triển khai](https://viblo.asia/s/tu-phat-trien-toi-trien-khai-dbZN7QzylYM)
 - [Từ phát triển tới triển khai phần 1: Backend, NodeJS, API](https://viblo.asia/p/tu-phat-trien-toi-trien-khai-phan-1-backend-nodejs-api-djeZ1ReJlWz)
 - [Từ phát triển tới triển khai phần 2: Frontend, VueJS, SPA - SSR](https://viblo.asia/p/tu-phat-trien-toi-trien-khai-phan-2-frontend-vuejs-spa-ssr-ByEZkN8AKQ0)
+- [Docker image in production - câu chuyện 1GB hay 100MB](https://viblo.asia/p/docker-image-in-production-cau-chuyen-1gb-hay-100mb-LzD5dXyE5jY)
 
 - [Run a React app in a docker](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App.php)
 - [Run a React app in a docker II](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App-2-SnapShot.php)
