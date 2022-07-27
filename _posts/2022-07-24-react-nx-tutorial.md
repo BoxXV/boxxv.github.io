@@ -233,6 +233,63 @@ Hãy sửa đổi tệp `workspace.json` và thêm một target mới: deploy.
            "outputs": ["{options.outputPath}"],
 ```
 
+Bây giờ nếu chúng ta muốn luôn xây dựng hình ảnh mới, chúng ta có thể chạy `nx deploy api` hoặc `nx deploy html` và Nx sẽ chạy lệnh build sau đó gọi docker để xây dựng image.
+
+
+## Composing
+Có một số việc nữa chúng ta cần làm để đảm bảo rằng các ứng dụng của chúng ta sẵn sàng chạy trong một vùng chứa với nhau.
+
+Tạo tệp `docker-compost.yml` trong thư mục gốc của không gian làm việc với những điều sau:
+
+```bat
+version: '3.8'
+services:
+  html:
+    image: html
+    environment:
+      - apiPath=http://api:3333
+    ports:
+      - '8080:3334'
+  api:
+    image: api
+    ports:
+      - '8081:3333'
+```
+
+Trong trường hợp Docker Compose, các images có thể giao tiếp với nhau bằng tên của chúng trong các dịch vụ. Vì vậy, để ứng dụng `html` giao tiếp với `api`, chúng ta phải đảm bảo rằng URL được thiết lập chính xác. Gọi `localhost:3333` từ vùng chứa `html` sẽ không hoạt động.
+
+Vì vậy, chúng tôi đã bao gồm khóa môi trường với một biến `apiPath` sẽ ánh xạ tới địa chỉ của `api` container.
+
+Bây giờ chúng ta cần sửa đổi ứng dụng `html` để biết về biến môi trường mới này.
+
+Chỉnh sửa tệp `apps/html/src/app/app.controller.ts` như sau:
+
+```javascript
+export class AppController {
+   async getData() {
+     try {
+-      const response = await axios.get<Todo[]>('http://localhost:3333');
++      const response = await axios.get<Todo[]>(
++        process.env.apiPath || 'http://localhost:3333'
++      );
+       return response.data;
+     } catch (e) {
+       console.error(e);
+```
+
+Vì chúng tôi đã sửa đổi ứng dụng `html`, hãy xây dựng lại mọi thứ cho ứng dụng đó với `html` triển khai `nx`.
+
+Chúng tôi cũng có thể chạy `nx affected --target=deploy` và sử dụng thuật toán bị ảnh hưởng của Nx để chỉ tự động tạo các dự án đã được thay đổi
+
+Khi mọi thứ được xây dựng và triển khai, hãy chạy lệnh sau:
+
+```bat
+docker-compose up
+```
+
+Khi mọi thứ đã hoàn tất thiết lập, hãy mở `localhost:8080` trong trình duyệt của bạn. Bây giờ bạn sẽ thấy ứng dụng html đang chạy với các công cụ của chúng tôi! 🎉
+
+
 
 -----
 Tham khảo:
