@@ -292,6 +292,7 @@ Tham khảo:
 - [Dev hiện đại phần 1: Setup môi trường dev với docker](https://viblo.asia/p/dev-hien-dai-phan-1-setup-moi-truong-dev-voi-docker-djeZ1RpQlWz)
 - [Dev hiện đại phần 2: Chạy ứng dụng trên... localhost](https://viblo.asia/p/dev-hien-dai-phan-2-chay-ung-dung-tren-localhost-OeVKBDJ0lkW)
 - [Từ phát triển tới triển khai](https://viblo.asia/s/tu-phat-trien-toi-trien-khai-dbZN7QzylYM)
+- [https://github.com/minhpq331/docker-node-api](https://github.com/minhpq331/docker-node-api)
 - [Từ phát triển tới triển khai phần 1: Backend, NodeJS, API](https://kipalog.com/posts/Tu-phat-trien-toi-trien-khai-phan-1--Backend--NodeJS--API)
 - [Từ phát triển tới triển khai phần 1: Backend, NodeJS, API](https://viblo.asia/p/tu-phat-trien-toi-trien-khai-phan-1-backend-nodejs-api-djeZ1ReJlWz)
 - [Từ phát triển tới triển khai phần 2: Frontend, VueJS, SPA - SSR](https://viblo.asia/p/tu-phat-trien-toi-trien-khai-phan-2-frontend-vuejs-spa-ssr-ByEZkN8AKQ0)
