@@ -58,11 +58,11 @@ Tất cả những điều trên Docker sẽ giúp các bạn giải quyết m�
 
 ![Docker](https://boxxv.github.io/img/posts/0_CP98BIIBgMG2K3u5.png "Docker")
 
+**Dockerfile**: Là một file dạng text không có phần đuôi mở rộng, chứa các đặc tả về môi trường thực thi phần mềm, cấu trúc cho Docker image. Docker image có thể được tạo ra tự động bằng cách đọc các chỉ dẫn trong Dockerfile. Từ những câu lệnh đó, Docker sẽ build ra Docker image
+
 **Docker images**: nó là cấu trúc chính của Docker Container. Nó bao gồm tất cả những thứ cần thiết để dự án của bạn có thể chạy được như một hệ điều hành hay các dependencies. Các Image được chia sẻ công khai ở Docker Hub để tất cả mọi người có thể cùng nhau sử dụng và phát triển.
 
 **Docker container**: là đơn vị phần mềm cung cấp cơ chế đóng gói ứng dụng, mã nguồn, thiết lập, thư viện... vào một đối tượng duy nhất. Nó là một môi trường hoàn hảo cung cấp mọi thứ để chương trình có thể hoạt động được, không chịu sự tác động từ môi trường của hệ thống cũng như không làm ảnh hưởng ngược lại về phía hệ thống chứa nó.
-
-**Dockerfile**: Là một file dạng text không có phần đuôi mở rộng, chứa các đặc tả về môi trường thực thi phần mềm, cấu trúc cho Docker image. Docker image có thể được tạo ra tự động bằng cách đọc các chỉ dẫn trong Dockerfile. Từ những câu lệnh đó, Docker sẽ build ra Docker image
 
 **Dockerhub**: là dịch vụ cloud lưu trữ các image của các cá nhân hoặc công ty. Nó cho phép người dùng sử dụng và phát triển
 
