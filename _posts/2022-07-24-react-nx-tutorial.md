@@ -85,6 +85,12 @@ npx nx serve <application-name>
 npx nx build <application-name>
 ```
 
+##### Running multiple applications
+```bat
+npx nx run-many --target=serve --projects=<application-name>,<application-name> --parallel
+npx nx run-many --target=serve --projects=api,html --parallel
+```
+
 ##### Run a linter for the application
 ```bat
 npx nx lint <application-name>
