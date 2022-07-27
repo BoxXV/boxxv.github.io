@@ -114,6 +114,8 @@ npx nx dep-graph
 
 # Building Docker images
 
+[https://blog.nrwl.io/nx-and-node-microservices-b6df3cd1bad6](https://blog.nrwl.io/nx-and-node-microservices-b6df3cd1bad6)
+
 Khi tạo Docker images cho các ứng dụng Node, chúng ta cần đảm bảo rằng có sẵn `package.json`. Chúng tôi cần package.json để cài đặt các phụ thuộc ứng dụng trong image.
 
 `Nx` có các cơ chế để tự động tạo một package.json dựa trên các phụ thuộc mà ứng dụng đang sử dụng. Để kích hoạt điều này, chúng ta cần sửa đổi tệp `workspace.json` và kích hoạt tạo `package.json`.
@@ -141,6 +143,94 @@ Thêm thuộc tính `generatePackageJson` vào từng app targets xây dựng:
            },
            "configurations": {
              "production": {
+```
+
+Bây giờ chúng ta có thể chạy lệnh sau để xây dựng các ứng dụng:
+```bat
+nx run-many --target=build --projects=api,html --parallel
+```
+
+Bây giờ chúng ta sẽ có một vài thư mục trong thư mục `dist/`. Chúng tôi cũng có thể xem các tệp package.json đã tạo.
+
+Nếu chúng ta so sánh hai tệp package.json, chúng ta có thể thấy rằng dự án `html` chứa nhiều phụ thuộc hơn. Điều này là do chúng tôi đang sử dụng chúng một cách rõ ràng trong ứng dụng `html`.
+
+Tiếp theo, chúng ta sẽ tạo một vài `Dockerfiles`.
+
+Tạo phần sau trong đường dẫn `apps/api/Dockerfile`:
+```bat
+FROM node:lts-alpine
+WORKDIR /app
+COPY ./dist/apps/api .
+ENV PORT=3333
+EXPOSE ${PORT}
+RUN npm install --production
+# dependencies that nestjs needs
+RUN npm install reflect-metadata tslib rxjs @nestjs/platform-express
+CMD node ./main.js
+```
+
+Và một trong các `apps/html/Dockerfile`:
+```bat
+FROM node:lts-alpine
+WORKDIR /app
+COPY ./dist/apps/html .
+ENV PORT=3334
+EXPOSE ${PORT}
+RUN npm install --production
+RUN npm install reflect-metadata tslib rxjs hbs
+CMD node ./main.js
+```
+
+Có một lệnh `RUN npm install` bổ sung trong mỗi tệp Docker. Đây là những phần phụ thuộc mà NestJs cần nhưng không được sử dụng rõ ràng trong các ứng dụng của chúng tôi.
+
+Chúng tôi có thể xác nhận rằng docker images xây dựng bằng cách chạy các lệnh sau trong thư mục gốc của không gian làm việc workspace:
+
+```bat
+docker build -f ./apps/api/Dockerfile . -t api
+docker build -f ./apps/html/Dockerfile . -t html
+```
+
+## Deploy command
+
+Việc phải nhớ tất cả các lệnh này có thể gây nhầm lẫn. Rất may, Nx có một cơ chế khác, nơi chúng ta có thể kết hợp nhiều lệnh với nhau. Điều này được cung cấp bởi `@nrwl/workspace:run-command` executor.
+
+Hãy sửa đổi tệp `workspace.json` và thêm một target mới: deploy.
+
+```json
+@@ -8,6 +8,15 @@
+       "prefix": "api",
+       "schematics": {},
+       "targets": {
++        "deploy": {
++          "builder": "@nrwl/workspace:run-commands",
++          "options": {
++            "commands": [
++              "nx build api",
++              "docker build -f ./apps/api/Dockerfile . -t api"
++            ]
++            "parallel": false
++          }
++        },
+         "build": {
+           "builder": "@nrwl/node:build",
+           "outputs": ["{options.outputPath}"],
+@@ -61,6 +70,15 @@
+       "prefix": "html",
+       "schematics": {},
+       "targets": {
++        "deploy": {
++          "builder": "@nrwl/workspace:run-commands",
++          "options": {
++            "commands": [
++              "nx build html",
++              "docker build -f ./apps/html/Dockerfile . -t html"
++            ],
++            "parallel": false
++          }
++        },
+         "build": {
+           "builder": "@nrwl/node:build",
+           "outputs": ["{options.outputPath}"],
 ```
 
 
