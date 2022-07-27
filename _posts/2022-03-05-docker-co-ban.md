@@ -303,6 +303,7 @@ Tham khảo:
 - [Run a React app in a docker](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App.php)
 - [Run a React app in a docker II](https://www.bogotobogo.com/DevOps/Docker/Docker-React-App-2-SnapShot.php)
 - [Use Docker with a React Single-page App in Visual Studio](https://docs.microsoft.com/en-us/visualstudio/containers/container-tools-react?view=vs-2022)
+- [Utilize Docker with this MERN Stack Tutorial Solution](https://adamtheautomator.com/mern-stack-tutorial/)
 - [Utilizing the power of Docker while building MERN Apps using mern-docker](https://dev.to/sujaykundu777/utilizing-the-power-of-docker-while-building-mern-apps-using-mern-docker-4olb)
 - [Migrating Full-Stack Apps from Poly-Repo to Mono-Repo](https://dev.to/martzcodes/migrating-full-stack-apps-from-poly-repo-to-mono-repo-17go)
 - [How to use Docker in your Node and React Applications](https://dev.to/andrewbaisden/how-to-use-docker-in-your-node-and-react-applications-597e)
