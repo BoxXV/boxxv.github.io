@@ -271,6 +271,7 @@ Tham khảo:
 - [Docker – Những lý do bạn nên sử dụng Docker cho triển khai ứng dụng của bạn](https://viblo.asia/p/docker-nhung-ly-do-ban-nen-su-dung-docker-cho-trien-khai-ung-dung-cua-ban-gDVK2OJXZLj)
 - [Docker là gì? Tại sao lập trình viên nên biết cách sử dụng docker?](http://tutorials.aiclub.cs.uit.edu.vn/index.php/2020/05/30/docker-co-ban-bai-1-docker-la-gi-tai-sao-lai-su-dung-docker/)
 - [Lí do tôi yêu Docker](https://viblo.asia/p/li-do-toi-yeu-docker-ORNZqxRMK0n)
+- [Làm thế nào để dockerize ứng dụng của bạn](https://viblo.asia/p/lam-the-nao-de-dockerize-ung-dung-cua-ban-maGK7pBLZj2)
 - [Dockerizing a Node.js web app](https://viblo.asia/p/dockerizing-a-nodejs-web-app-ByEZky0W5Q0)
 - [Dockerize ứng dụng NodeJS](https://viblo.asia/p/dockerize-ung-dung-nodejs-RnB5pxEG5PG)
 - [Dockerize ứng dụng VueJS, ReactJS](https://viblo.asia/p/dockerize-ung-dung-vuejs-reactjs-ORNZqxwNK0n)
