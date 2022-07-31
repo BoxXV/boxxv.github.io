@@ -291,6 +291,7 @@ Tham khảo:
 - [GitLab CI/CD](https://viblo.asia/tags/gitlab-cicd)
 - [Gitlab CI](https://viblo.asia/tags/gitlab-ci)
 - [CI/CD](https://viblo.asia/tags/cicd)
+- [How To Install Docker on Ubuntu](https://viblo.asia/p/how-to-install-docker-on-ubuntu-4P856p33ZY3)
 - [Automation Test với Docker và Gitlab CI](https://viblo.asia/p/automation-test-voi-docker-va-gitlab-ci-yMnKMv2DZ7P)
 - [Tối ưu Docker image](https://viblo.asia/p/toi-uu-docker-image-Eb85o9D4Z2G)
 - [Tăng tốc độ build và tối giản Docker image](https://viblo.asia/p/tang-toc-do-build-va-toi-gian-docker-image-Eb85oODB52G)
