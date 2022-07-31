@@ -270,6 +270,7 @@ Tham khảo:
 - [Docker là gì? Kiến thức cơ bản về Docker](https://trungtq.com/2020/11/17/docker-la-gi-kien-thuc-co-ban-ve-docker/)
 - [Docker – Những lý do bạn nên sử dụng Docker cho triển khai ứng dụng của bạn](https://viblo.asia/p/docker-nhung-ly-do-ban-nen-su-dung-docker-cho-trien-khai-ung-dung-cua-ban-gDVK2OJXZLj)
 - [Docker là gì? Tại sao lập trình viên nên biết cách sử dụng docker?](http://tutorials.aiclub.cs.uit.edu.vn/index.php/2020/05/30/docker-co-ban-bai-1-docker-la-gi-tai-sao-lai-su-dung-docker/)
+- [[Series] Học Docker, CICD từ cơ bản đến áp dụng vào thực tế](https://viblo.asia/s/series-hoc-docker-cicd-tu-co-ban-den-ap-dung-vao-thuc-te-jeZ103QgKWz)
 - [Lí do tôi yêu Docker](https://viblo.asia/p/li-do-toi-yeu-docker-ORNZqxRMK0n)
 - [Làm thế nào để dockerize ứng dụng của bạn](https://viblo.asia/p/lam-the-nao-de-dockerize-ung-dung-cua-ban-maGK7pBLZj2)
 - [Dockerizing a Node.js web app](https://viblo.asia/p/dockerizing-a-nodejs-web-app-ByEZky0W5Q0)
