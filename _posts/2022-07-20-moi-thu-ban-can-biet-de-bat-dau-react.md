@@ -579,6 +579,11 @@ Redux
 - [Từng bước để xây dựng một ứng dụng React Redux](https://viblo.asia/p/tung-buoc-de-xay-dung-mot-ung-dung-react-redux-gGJ59jgPKX2)
 - [Làm sao để áp dụng typescript vào dự án React Redux](https://viblo.asia/p/lam-sao-de-ap-dung-typescript-vao-du-an-react-redux-924lJpxXKPM)
 - [Thiết lập ứng dụng React - TypeScript từ A-Z](https://viblo.asia/p/thiet-lap-ung-dung-react-typescript-tu-a-z-4dbZN1NkKYM)
+- [Redux cho người mới bắt đầu - Part 1 Introduction](https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-1-introduction-ZjleaBBZkqJ)
+- [Redux cho người mới bắt đầu - Part 2 First Project](https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-2-first-project-aRBvXWQZkWE)
+- [Redux cho người mới bắt đầu - Part 3 Middleware](https://viblo.asia/p/redux-cho-nguoi-moi-bat-dau-part-3-middleware-3Q75wDXMKWb)
+- [[Redux] Middleware Redux-saga](https://viblo.asia/p/redux-middleware-redux-saga-gGJ59X7jlX2)
+- [Ứng dụng Redux của bạn mở rộng như thế nào ?](https://viblo.asia/p/ung-dung-redux-cua-ban-mo-rong-nhu-the-nao-924lJMQXZPM)
 - [Tìm hiểu về Redux saga](https://viblo.asia/p/tim-hieu-ve-redux-saga-bWrZnODmlxw)
 - [Tìm hiểu redux-toolkit phần 1](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-1-YWOZrN3vZQ0)
 - [Tìm hiểu redux-toolkit phần 2](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-2-QpmlejPD5rd)
@@ -597,7 +602,7 @@ Hooks
 - [Đôi chút về useEffect trong React Hook](https://viblo.asia/p/doi-chut-hieu-ve-useeffect-trong-reactjs-hook-RQqKLkA057z)
 - [Custom Hook là gì ?](https://viblo.asia/p/custom-hook-la-gi-gAm5yDo8ldb)
 - [Cảm nhận về React Hooks](https://viblo.asia/p/cam-nhan-ve-react-hooks-OeVKBnPMKkW)
-
+- [React - Introducing Hooks](https://viblo.asia/p/react-introducing-hooks-QpmleERNlrd)
 
 - [The React Cheatsheet for 2020 (Phần 1)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-1-WAyK8PY6KxX)
 - [The React Cheatsheet for 2020 (Phần 2)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-2-4P856oBAKY3)
