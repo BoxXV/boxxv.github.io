@@ -587,6 +587,7 @@ Redux
 - [Tìm hiểu về Redux saga](https://viblo.asia/p/tim-hieu-ve-redux-saga-bWrZnODmlxw)
 - [Tìm hiểu redux-toolkit phần 1](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-1-YWOZrN3vZQ0)
 - [Tìm hiểu redux-toolkit phần 2](https://viblo.asia/p/tim-hieu-redux-toolkit-phan-2-QpmlejPD5rd)
+- [Redux toolkit - Refactor lại redux structure](https://viblo.asia/p/redux-toolkit-refactor-lai-redux-structure-RQqKL0pmK7z)
 - [Reflux vs. Redux](https://viblo.asia/p/reflux-vs-redux-7prv31XOMKod)
 - [React bỏ Redux](https://viblo.asia/p/messi-con-roi-barca-thi-code-react-ma-bo-redux-co-gi-dau-ma-bat-ngo-1VgZvrW7ZAw)
 - [Quản lý state trong React bằng Mobx - Part 1](https://viblo.asia/p/quan-ly-state-trong-react-bang-mobx-part-1-OeVKB9aM5kW)
