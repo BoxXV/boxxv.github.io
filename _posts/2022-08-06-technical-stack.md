@@ -16,7 +16,7 @@ Lang thang trên mạng, ta thường nghe nhắc đến những một số thu�
 
 Đã có bao giờ bạn thắc mắc về ý nghĩa của những thuật ngữ này chưa? Hãy cùng tìm hiểu qua bài viết này nhé!
 
-### Stack là gì, tại sao nó ra đời?
+## Stack là gì, tại sao nó ra đời?
 
 Để làm ra một ứng dụng hoàn chỉnh, chỉ viết code không thôi là không đủ. Khi cần lưu trữ thông tin, ta phải đưa chúng vào cơ sở dữ liệu. Sau khi đã hoàn thành phần code, ta phải tìm cách deploy nó, tức là đưa code lên một chỗ nào đó để chạy code.
 
@@ -25,7 +25,31 @@ Một chương trình hoàn thiện không chỉ có code, mà còn phải có n
 Technical Stack, còn gọi là solution stack, là một tập hợp những phần mềm/công nghệ phối hợp chung với nhau, tạo thành một nền tảng để ứng dụng có thể hoạt động được.
 
 
+### Cấu tạo của Stack ra sao?
+
+Một stack thường được cấu tạo bởi các thành phần:
+- Hệ điều hành
+- Web Server
+- Database Server
+- Back-end Programming Language
+
+Giả sử với LAMP Stack, các thành phần này sẽ lần lượt là:
+- Linux
+- Apache
+- MySQL hoặc  MariaDB
+- PHP hoặc Python
+
+Mỗi thành phần trong stack đảm nhận một nhiệm vụ riêng biệt.
+
+
+
 -----
 Tham khảo:
 - [Technical Stack là cái khỉ gì?](https://toidicodedao.com/2017/05/23/giai-thich-technical-stack-la-gi/)
-- []()
+- [Mỗi người nên có một "Tech Stack" cho riêng mình](https://www.goccuachung.com/moi-nguoi-nen-co-mot-tech-stack-cho-rieng-minh/)
+- [Technical Stack](https://hoangtung.blog/2019/06/20/technical-stack/)
+- [Technical Stack Là Gì? Định Nghĩa Và Giải Thích Ý Nghĩa Của Từ Stack](https://ingoa.info/tech-stack-la-gi-1640010386/)
+- [Tech Stack là gì? 13 Cách Chọn Công Nghệ Phù Hợp Cho Doanh Nghiệp Của Bạn – tech stack là gì](https://phptravels.vn/tech-stack-la-gi-13-cach-chon-cong-nghe-phu-hop-cho-doanh-nghiep-cua-ban-tech-stack-la-gi/)
+- [Biztalk Server là gì ? Ưu và nhược điểm của Biztalk Server ?](https://viblo.asia/p/biztalk-server-la-gi-uu-va-nhuoc-diem-cua-biztalk-server-GrLZDkDOKk0)
+- [Top Web Development Stacks In 2022: Front-end, Back-end & Database](https://www.angularminds.com/blog/article/top-web-development-stack-for-developers.html)
+- [What is a Tech Stack](https://www.apxor.com/blog/what-is-a-tech-stack)
