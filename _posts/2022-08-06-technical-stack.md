@@ -41,6 +41,44 @@ Giả sử với LAMP Stack, các thành phần này sẽ lần lượt là:
 
 Mỗi thành phần trong stack đảm nhận một nhiệm vụ riêng biệt.
 
+Giả sử với LAMP stack, máy chủ sẽ chạy hệ điều hành Linux, cài server Apache Tomcat. Khi có request từ người dùng, server sẽ gọi code PHP, code này đọc dữ liệu từ cơ sở dữ liệu MySQL, render ra HTML về phía người dùng.
+
+Thông thường, với các host trên mạng (somee, hawkhost, digital ocean) họ cung cấp sẵn toàn bộ stack (os, web server và database), các bạn chỉ việc up code lên và chạy thôi.
+
+Nếu muốn tìm hiểu cách stack hoạt động, các bạn hãy thử kiếm một con VPS chạy Linux, sau đó tự cài đặt các phần mềm cần thiết. Thú vị lắm đấy ;).
+
+
+### Lựa chọn software stack theo tiêu chí nào?
+
+Thông thường, người ta lựa chọn stack dựa vào khả năng, trình độ của nhân viên. Ví dụ  cácnhân viên đã quen code PHP thì cứ LAMP Stack mà táng, nhân viên khoái hàng Microsoft thì dùng Stack của Microsoft thôi.
+
+Ngoài ra, người ta còn lựa chọn Stack dựa theo tốc độ phát triển ứng dụng hay tốc độ xử lý. Thuở mới start-up, Twitter chọn stack dựa trên Ruby on Rails để phát triểu ứng dụng nhanh chóng. Sau đó, họ chuyển qua Stack dùng Java/Scala để tăng khả năng chịu tải của hệ thống ([Nguồn](https://www.theregister.co.uk/2012/11/08/twitter_epic_traffic_saved_by_java/)).
+
+Lựa chọn technical stack là một điều quan trọng bậc nhất khi bắt đầu xây dựng sản phẩm. Nó xác định kiến trúc hệ thống, chi phí vận hành cũng như tốc độ và khả năng mở rộng của ứng dụng.
+
+Do vậy, chúng ta sẽ cùng tìm hiểu về một số stack thông dụng, cùng với những ưu nhược điểm của chúng ở phần dưới nhé!
+
+-----
+
+Sau đây là một số stack thông dụng
+
+## LAMP Stack
+
+
+## WISA Stack
+
+
+## MEAN Stack
+
+
+## MERN Stack
+
+
+## MEVN Stack
+
+
+
+
 
 
 -----
