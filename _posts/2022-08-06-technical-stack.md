@@ -64,22 +64,48 @@ Sau đây là một số stack thông dụng
 
 ## LAMP Stack
 
+Đây là stack thông dụng nhất, được hầu hết các website sử dụng. Stack này bao gồm: Linux, Apache, MySQL và PHP/Python/Perl. Những CMS phổ biến như Joomla, WordPress đều dựa trên nền stack này cả.
+
+Điểm “hay ho” của Stack này là những thành phần của nó đều Open Source, không cần phải bỏ đồng nào ra mua, chi phí bản quyền bằng 0. Cộng đồng người sử dụng rất nhiều nên bạn rất dễ dàng tìm hướng dẫn khi gặp vấn đề.
+
+Các máy chủ cài đặt Linux giá cả cũng rất hạt dẻ. Do đó, nếu code trên LAMP Stack, các bạn có thể dễ dàng tìm host free cho ứng dụng của mình.
+
+Stack này còn có một số dị bản như: MAMP (Trên MAC), WAMP( Trên Win), XAMPP (Trên mọi hệ điều hành).
+
 
 ## WISA Stack
+
+Stack này bao gồm: Window, IIS, SQL Server, ASP.NET. Có thể thấy, toàn bộ stack sử dụng hàng của Microsoft.
+
+Stack này được nhiều công ty, tổ chức sử dụng. Thông thường những ứng dụng được code trên nền tảng ASP.NET sẽ lựa chọn stack này.
+
+Ưu điểm của stack này là tốc độ phát triển ứng dụng và khả năng bảo trì: C# là một ngôn ngữ khá mạnh mẽ, ASP.NET làm việc rất tốt với SQL Server, có nhiều tool hỗ trợ tận răng cho người dùng.
+
+Tuy vậy, sử dụng hàng của Microsoft thì chi phí bản quyền (mua Visual Studio để code, bản quyền Window, SQL Server) khá cao, do đó các công ty nhỏ thường không sử dụng.
+
+Gần đầy, C# đã trở thành ngôn ngữ Open Source. Cách đây không lâu .NET Core ra đời, SQL Server cũng đã có mặt trên Linux. Biết đâu không lâu sau chúng ta sẽ có một stack miễn phí chạy trên Linux với công nghệ của Microsoft thì sao ;).
 
 
 ## MEAN Stack
 
+Một stack cũng khá nổi trong vài năm trở lại đây là MEAN stack. Nó bao gồm: MongoDB, Express, AngularJS, NodeJS.
+
+Thật ra stack này không hoàn toàn đúng chuẩn stack vì nó không bao gồm hệ điều hành. NodeJS dùng để viết code server-side, có thể hoạt động như web server luôn (Trong thực tế người ta thường dùng thêm nginx làm proxy server).
+
+Cũng như LAMP Stack, toàn bộ các thành phần của MEAN Stack đều là hàng Open Source. Điểm “hay ho” của stack này là toàn bộ các thành phần của nó đều sử dụng ngôn ngữ JavaScript.
+
+Điều này đồng nghĩa với việc bạn có thể xây dựng toàn bộ một hệ thống chỉ bằng một ngôn ngữ duy nhất, chạy ở cả front-end và back-end, tiết kiệm thời gian và chi phí.
 
 ## MERN Stack
+
 
 
 ## MEVN Stack
 
 
+## Tổng kết
 
-
-
+Mỗi developer sẽ có một technical stack ưa thích. Các bạn cùng chia sẻ về technical stack mà mình hay dùng trong phần comment nha. Nếu có thắc mắc gì, đừng ngại ngùng đặt câu hỏi nhé!
 
 -----
 Tham khảo:
