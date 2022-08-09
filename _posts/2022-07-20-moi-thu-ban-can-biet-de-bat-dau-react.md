@@ -596,6 +596,7 @@ Redux
 - [Quản lý state trong React bằng Mobx - Part 2](https://viblo.asia/p/mobx-quan-ly-state-trong-react-part-2-07LKXkE25V4)
 - [Giới thiệu về MobX và React trong mười phút](https://viblo.asia/p/gioi-thieu-ve-mobx-va-react-trong-muoi-phut-bJzKmyrEK9N)
 - [Sử dụng Reselect với React, Redux](https://viblo.asia/p/su-dung-reselect-voi-react-redux-QpmleBED5rd)
+- [Using Redux Toolkit’s `createAsyncThunk`](https://blog.logrocket.com/using-redux-toolkits-createasyncthunk/)
 
 Hooks
 - [Giới thiệu về Hook](https://vi.reactjs.org/docs/hooks-intro.html)
