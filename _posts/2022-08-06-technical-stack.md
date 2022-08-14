@@ -64,6 +64,8 @@ Sau đây là một số stack thông dụng
 
 ## LAMP Stack
 
+![LAMP Stack](https://boxxv.github.io/img/2022/lamp.jpg "LAMP Stack")
+
 Đây là stack thông dụng nhất, được hầu hết các website sử dụng. Stack này bao gồm: Linux, Apache, MySQL và PHP/Python/Perl. Những CMS phổ biến như Joomla, WordPress đều dựa trên nền stack này cả.
 
 Điểm “hay ho” của Stack này là những thành phần của nó đều Open Source, không cần phải bỏ đồng nào ra mua, chi phí bản quyền bằng 0. Cộng đồng người sử dụng rất nhiều nên bạn rất dễ dàng tìm hướng dẫn khi gặp vấn đề.
@@ -74,6 +76,8 @@ Stack này còn có một số dị bản như: MAMP (Trên MAC), WAMP( Trên Wi
 
 
 ## WISA Stack
+
+![WISA Stack](https://boxxv.github.io/img/2022/LAMP-Stack-vs.-WISA-Stack.jpg "WISA Stack")
 
 Stack này bao gồm: Window, IIS, SQL Server, ASP.NET. Có thể thấy, toàn bộ stack sử dụng hàng của Microsoft.
 
