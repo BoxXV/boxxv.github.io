@@ -121,3 +121,4 @@ Tham khảo:
 - [Biztalk Server là gì ? Ưu và nhược điểm của Biztalk Server ?](https://viblo.asia/p/biztalk-server-la-gi-uu-va-nhuoc-diem-cua-biztalk-server-GrLZDkDOKk0)
 - [Top Web Development Stacks In 2022: Front-end, Back-end & Database](https://www.angularminds.com/blog/article/top-web-development-stack-for-developers.html)
 - [What is a Tech Stack](https://www.apxor.com/blog/what-is-a-tech-stack)
+- [MEAN Stack](https://onexlab-io.medium.com/mean-stack-bd3f479f426)
