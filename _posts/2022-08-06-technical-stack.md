@@ -104,6 +104,7 @@ Cũng như LAMP Stack, toàn bộ các thành phần của MEAN Stack đều là
 
 ## MERN Stack
 
+![MERN Stack](https://boxxv.github.io/img/2022/VS--1-.jpg "MERN Stack")
 
 
 ## MEVN Stack
@@ -124,3 +125,5 @@ Tham khảo:
 - [Top Web Development Stacks In 2022: Front-end, Back-end & Database](https://www.angularminds.com/blog/article/top-web-development-stack-for-developers.html)
 - [What is a Tech Stack](https://www.apxor.com/blog/what-is-a-tech-stack)
 - [MEAN Stack](https://onexlab-io.medium.com/mean-stack-bd3f479f426)
+- [Angular & NodeJS - The MEAN Stack Guide [2022 Edition]](https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/)
+- [MEAN Stack E-Commerce App: Angular 14, NX, PrimeNg [2022]](https://www.udemy.com/course/mean-stack-ecommerce-app-angular-nx-primeng/)
