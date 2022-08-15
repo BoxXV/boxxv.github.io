@@ -92,6 +92,8 @@ Gần đầy, C# đã trở thành ngôn ngữ Open Source. Cách đây không l
 
 ## MEAN Stack
 
+![MEAN Stack](https://boxxv.github.io/img/2022/1_ocOSqSFc_j0rhAaBl-g_0g.png "MEAN Stack")
+
 Một stack cũng khá nổi trong vài năm trở lại đây là MEAN stack. Nó bao gồm: MongoDB, Express, AngularJS, NodeJS.
 
 Thật ra stack này không hoàn toàn đúng chuẩn stack vì nó không bao gồm hệ điều hành. NodeJS dùng để viết code server-side, có thể hoạt động như web server luôn (Trong thực tế người ta thường dùng thêm nginx làm proxy server).
