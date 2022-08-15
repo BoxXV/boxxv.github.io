@@ -106,6 +106,22 @@ Cũng như LAMP Stack, toàn bộ các thành phần của MEAN Stack đều là
 
 ![MERN Stack](https://boxxv.github.io/img/2022/VS--1-.jpg "MERN Stack")
 
+MERN là một thuật ngữ rút gọn của MongoDB, Express, React và Node. Stack MERN là một stack Javascript được thiết kế để giúp phát triển ứng dụng web toàn ngăn xếp dễ dàng hơn và nhanh hơn.
+
+Tất cả bốn công nghệ này cung cấp một khuôn khổ hoàn chỉnh cho các nhà phát triển để tạo ra bất kỳ ứng dụng web nào. MERN đang tuân theo kiến ​​trúc 3 tầng truyền thống, bao gồm tầng hiển thị front-end (React.js), tầng ứng dụng (Express.js và Node.js) và tầng cơ sở dữ liệu (MongoDB)
+
+MongoDB có thể cung cấp khả năng mở rộng cao hơn, Express.js để nâng cao tốc độ, JavaScript là ngôn ngữ cơ bản để phát triển từ đầu đến cuối; MERN là một trong những bộ phát triển full-stack tốt nhất sau MEAN.
+
+React.js rất tuyệt khi nói đến tính trừu tượng của lớp giao diện người dùng. Nó có các công cụ tốt nhất để phát triển mã nhanh hơn. Mặc dù React chỉ là một thư viện, nhưng nó cho phép bạn tự do xây dựng ứng dụng và tổ chức mã theo cách bạn muốn, với các công cụ cần thiết. Do đó, nó tốt hơn Angular.js về hiệu suất và kết xuất giao diện người dùng.
+
+MERN và MEAN tương tự như MongoDB, Express và Node, và điểm khác biệt duy nhất là front end framework, React.js trong MERN và Angular.js trong MEAN.
+
+React là một thư viện có thể giúp bạn tạo giao diện người dùng động một cách dễ dàng. Như đã đề cập trước đó, Nó là một thư viện các công cụ và chức năng có thể giúp thiết kế, phát triển và hiển thị các thành phần giao diện người dùng. React là cách tốt nhất để kiểm soát trạng thái của các sự kiện khi có một lượng lớn dữ liệu động cần được cập nhật. Bởi vì React chỉ là một thư viện, nhà phát triển có trách nhiệm duy trì mã và ứng dụng và thường vẫn chưa được tổ chức thay vì cơ sở mã có hệ thống của Angular.js.
+
+Angular.js là một khung công tác MVC, có một khung hệ thống và kiến ​​trúc cụ thể. Nó giúp làm cho mã và ứng dụng được tổ chức tốt, do đó, dễ bảo trì. Tuy nhiên, angle.js tuân theo mô hình liên kết dữ liệu hai chiều nên khó xử lý, thay đổi các sự kiện đối với một khối lượng lớn dữ liệu.
+
+Cả MERN & MEAN đều là những nền tảng vững chắc để phát triển ứng dụng web, Nhưng nó phụ thuộc vào sở thích của nhà phát triển và tính chất công việc. Tuy nhiên, MERN được ưa thích hơn bởi các dịch vụ phát triển của Magento ngày nay.
+
 
 ## MEVN Stack
 
@@ -129,3 +145,7 @@ Tham khảo:
 - [MEAN Stack](https://onexlab-io.medium.com/mean-stack-bd3f479f426)
 - [Angular & NodeJS - The MEAN Stack Guide [2022 Edition]](https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/)
 - [MEAN Stack E-Commerce App: Angular 14, NX, PrimeNg [2022]](https://www.udemy.com/course/mean-stack-ecommerce-app-angular-nx-primeng/)
+- [Giới thiệu MERN Stack](https://viblo.asia/p/gioi-thieu-mern-stack-bWrZnv4vZxw)
+- [MERN STACK LÀ GÌ? CÙNG TÌM HIỂU KHÁI NIỆM MERN STACK](https://t3h.com.vn/tin-tuc/mern-stack-la-gi)
+- [Khóa học MERN Stack 2021 - React, Redux, Node, Mongo - Dự án thực tế](https://www.codientu.online/2022/02/khoa-hoc-mern-stack-2021-react-redux-node-mongo-du-an-thuc-te.html)
+- []()
