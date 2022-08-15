@@ -109,6 +109,8 @@ Cũng như LAMP Stack, toàn bộ các thành phần của MEAN Stack đều là
 
 ## MEVN Stack
 
+![MEVN Stack](https://boxxv.github.io/img/2022/pp,840x830-pad,1000x1000,f8f8f8.u7.jpg "MEVN Stack")
+
 
 ## Tổng kết
 
