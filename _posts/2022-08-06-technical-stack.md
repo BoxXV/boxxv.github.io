@@ -127,10 +127,20 @@ Cả MERN & MEAN đều là những nền tảng vững chắc để phát tri�
 
 ![MEVN Stack](https://boxxv.github.io/img/2022/pp,840x830-pad,1000x1000,f8f8f8.u7.jpg "MEVN Stack")
 
+MEVN là viết tắt của MongoDB, Express.js, VueJS, Node.js. 
+
+MEVN Stack là stack phần mềm JavaScript mã nguồn mở đã nổi lên như một cách mới và đang phát triển để xây dựng các ứng dụng web động và mạnh mẽ. Các thành phần phần mềm của nó có thể được sử dụng để thiết kế phát triển giao diện người dùng và phụ trợ một cách hiệu quả và cải thiện chức năng của trang web hoặc ứng dụng của bạn.
+
+- **MongoDB**: Cơ sở dữ liệu không SQL hướng tài liệu, được sử dụng để lưu trữ dữ liệu ứng dụng.
+- **ExpressJS**: Một khuôn khổ xếp lớp trên NodeJS, được sử dụng để xây dựng phần phụ trợ của một trang web bằng cách sử dụng các chức năng và cấu trúc NodeJS. Vì NodeJS chủ yếu được phát triển để chạy JavaScript trên máy thay vì tạo trang web, ExpressJS được tạo ra cho mục đích sau này.
+- **Vue JS**: VueJS được gọi là khuôn khổ phía máy khách và đặc biệt được sử dụng trong phát triển web front-end. Nó có liên kết dữ liệu hai chiều cho phép phát triển giao diện người dùng liền mạch cùng với khả năng MVC và các ứng dụng phía máy chủ tương tác.
+- **NodeJS**: Môi trường thời gian chạy JavaScript. Nó được sử dụng để chạy JavaScript trên máy chứ không phải trong trình duyệt.
+
 
 ## Tổng kết
 
 Mỗi developer sẽ có một technical stack ưa thích. Các bạn cùng chia sẻ về technical stack mà mình hay dùng trong phần comment nha. Nếu có thắc mắc gì, đừng ngại ngùng đặt câu hỏi nhé!
+
 
 -----
 Tham khảo:
@@ -142,10 +152,29 @@ Tham khảo:
 - [Biztalk Server là gì ? Ưu và nhược điểm của Biztalk Server ?](https://viblo.asia/p/biztalk-server-la-gi-uu-va-nhuoc-diem-cua-biztalk-server-GrLZDkDOKk0)
 - [Top Web Development Stacks In 2022: Front-end, Back-end & Database](https://www.angularminds.com/blog/article/top-web-development-stack-for-developers.html)
 - [What is a Tech Stack](https://www.apxor.com/blog/what-is-a-tech-stack)
+
+-----
+MEAN Stack
 - [MEAN Stack](https://onexlab-io.medium.com/mean-stack-bd3f479f426)
 - [Angular & NodeJS - The MEAN Stack Guide [2022 Edition]](https://www.udemy.com/course/angular-2-and-nodejs-the-practical-guide/)
 - [MEAN Stack E-Commerce App: Angular 14, NX, PrimeNg [2022]](https://www.udemy.com/course/mean-stack-ecommerce-app-angular-nx-primeng/)
+
+-----
+MERN Stack
 - [Giới thiệu MERN Stack](https://viblo.asia/p/gioi-thieu-mern-stack-bWrZnv4vZxw)
 - [MERN STACK LÀ GÌ? CÙNG TÌM HIỂU KHÁI NIỆM MERN STACK](https://t3h.com.vn/tin-tuc/mern-stack-la-gi)
 - [Khóa học MERN Stack 2021 - React, Redux, Node, Mongo - Dự án thực tế](https://www.codientu.online/2022/02/khoa-hoc-mern-stack-2021-react-redux-node-mongo-du-an-thuc-te.html)
-- []()
+- [Xây dựng và deploy ứng dụng MERN APP - Học Full Stack (React+Redux, NodeJS , Express, MongoDB)](https://youtu.be/khcjRUZCufs)
+- [Hướng dẫn Full Stack MERN (MongoDB, Express, React, Node)](https://youtu.be/rgFd17fyM4A)
+- [KHOÁ HỌC LẬP TRÌNH MERN STACK 100% DỰ ÁN THỰC TẾ & CHẤT LƯỢNG](https://trungquandev.com/khoa-hoc-lap-trinh-mern-stack-100-du-an-thuc-te-chat-luong/)
+- [KHOÁ HỌC LẬP TRÌNH MERN STACK 100% DỰ ÁN THỰC TẾ & CHẤT LƯỢNG](https://www.youtube.com/playlist?list=PLP6tw4Zpj-RKdGMqhYpfdl94cd4fu-RFg)
+- [Deploy ứng dụng MERN stack của bạn 1 cách miễn phí 100% (MERN + HNMA)](https://viblo.asia/p/deploy-ung-dung-mern-stack-cua-ban-1-cach-mien-phi-100-mern-hnma-bJzKmAQ6K9N)
+- [Xây dựng stack M.E.R.N với app NodeJS – phần 1](https://hocweb.vn/xay-dung-mo-hinh-mern-voi-app-nodejs-phan-1/)
+- [Hướng dẫn Deploy website NodeJS lên VPS](https://hocweb.vn/huong-dan-deploy-website-nodejs-len-vps/)
+- [How to Use MERN Stack: A Complete Guide](https://www.mongodb.com/languages/mern-stack-tutorial)
+- [#21. M.E.R.N STACK | Displaying Alert Messages | & Logout | Authentication](https://youtu.be/-Vin4eRTc0A)
+
+-----
+MEVN Stack
+- [Xây dựng full stack web apps với MEVN Stack [Phần 1/2]](https://viblo.asia/p/xay-dung-full-stack-web-apps-voi-mevn-stack-phan-12-djeZ1xd8KWz)
+- [Xây dựng full stack web apps với MEVN Stack [Phần 2/2]](https://viblo.asia/p/xay-dung-full-stack-web-apps-voi-mevn-stack-phan-22-Eb85oBqml2G)
