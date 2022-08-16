@@ -5,9 +5,12 @@ subtitle: Cách Chọn Công Nghệ Phù Hợp Cho Doanh Nghiệp Của Bạn
 
 tags:
 - Technical Stack
+- Web Stack
 - MERN
 - MEAN
 - MEVN
+- WISA
+- LAMP
 ---
 
 ![Technical Stack](https://boxxv.github.io/img/2022/d4e7f08b71cf52785843342351f223f1.png "Technical Stack")
@@ -152,6 +155,7 @@ Tham khảo:
 - [Biztalk Server là gì ? Ưu và nhược điểm của Biztalk Server ?](https://viblo.asia/p/biztalk-server-la-gi-uu-va-nhuoc-diem-cua-biztalk-server-GrLZDkDOKk0)
 - [Top Web Development Stacks In 2022: Front-end, Back-end & Database](https://www.angularminds.com/blog/article/top-web-development-stack-for-developers.html)
 - [What is a Tech Stack](https://www.apxor.com/blog/what-is-a-tech-stack)
+- [A Comprehensive Guide to Modern Web Development Stacks](https://enkonix.com/blog/web-development-stacks/)
 
 -----
 MEAN Stack
