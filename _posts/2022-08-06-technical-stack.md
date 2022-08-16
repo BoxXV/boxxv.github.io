@@ -172,7 +172,7 @@ MERN Stack
 - [Xây dựng stack M.E.R.N với app NodeJS – phần 1](https://hocweb.vn/xay-dung-mo-hinh-mern-voi-app-nodejs-phan-1/)
 - [Hướng dẫn Deploy website NodeJS lên VPS](https://hocweb.vn/huong-dan-deploy-website-nodejs-len-vps/)
 - [How to Use MERN Stack: A Complete Guide](https://www.mongodb.com/languages/mern-stack-tutorial)
-- [#21. M.E.R.N STACK | Displaying Alert Messages | & Logout | Authentication](https://youtu.be/-Vin4eRTc0A)
+- [#21. M.E.R.N STACK, Displaying Alert Messages & Logout, Authentication](https://youtu.be/-Vin4eRTc0A)
 
 -----
 MEVN Stack
