@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Angular vs React vs Vue: Nên chọn Framework nào
+title: Angular vs React vs Vue! Nên chọn Framework nào?
 subtitle: Vue, Angular, React!!! Bạn chọn gì?
 
 tags:
