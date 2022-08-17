@@ -155,6 +155,16 @@ Tiếp theo hãy cùng đi đến những điểm hay và không hay giữa các
 - React thì dùng JSX, một cú pháp để viết cả HTML và javascript. Nó khá phức tạp vì thể mà nó như một rào cản những người mới bước chân vào React.
 - React cung cấp cho chúng ta chỉ là phần lõi thôi. Vì thế để mà ứng dụng của chúng ta có thể phục vụ được những tính tăng thì cần phải có những cơ cố tool để thực hiện đúng cách và phải tương thích với những tool khác dùng trong phát triển web.
 
+## Jobs
+
+17/08/2022
+- [React are 3,667 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336)
+- [Vue.js  are 126  jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794477273088)
+- [Angular are 951 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628012691468)
+- [Angular JS are 768 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712877088768)
+- [Angular 2 are 33 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712818368512)
+- [Angular 6 are 75 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876959218548736)
+
 
 ## Tổng kết
 
