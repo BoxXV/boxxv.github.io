@@ -572,7 +572,7 @@ Tham khảo:
 - [Học reactjs thông qua ví dụ phần 9](https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-9-modal-image-maGK7OBAKj2)
 - [Học reactjs thông qua ví dụ phần 10](https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-10-light-box-bJzKmxJ659N)
 - [Học reactjs thông qua ví dụ phần 11](https://viblo.asia/p/hoc-reactjs-thong-qua-vi-du-phan-11-tab-gallery-L4x5xMGbKBM)
-
+-----
 Redux
 - [Tìm hiểu về Redux trong ReactJS](https://viblo.asia/p/tim-hieu-ve-redux-trong-reactjs-GrLZDe7Olk0)
 - [React js: Phân biệt Redux-thunk và Redux saga](https://viblo.asia/p/react-js-phan-biet-redux-thunk-va-redux-saga-eW65Gb1jlDO)
@@ -598,7 +598,7 @@ Redux
 - [Giới thiệu về MobX và React trong mười phút](https://viblo.asia/p/gioi-thieu-ve-mobx-va-react-trong-muoi-phut-bJzKmyrEK9N)
 - [Sử dụng Reselect với React, Redux](https://viblo.asia/p/su-dung-reselect-voi-react-redux-QpmleBED5rd)
 - [Using Redux Toolkit’s `createAsyncThunk`](https://blog.logrocket.com/using-redux-toolkits-createasyncthunk/)
-
+-----
 Hooks
 - [Giới thiệu về Hook](https://vi.reactjs.org/docs/hooks-intro.html)
 - [Giới thiệu React Hooks](https://viblo.asia/p/gioi-thieu-react-hooks-924lJRQWlPM)
@@ -619,7 +619,7 @@ Hooks
 - [Các cách truyền data giữa các components trong ReactJS](https://viblo.asia/p/cac-cach-truyen-data-giua-cac-components-trong-reactjs-924lJjV0lPM)
 - [Server-side Rendering trong React](https://viblo.asia/p/server-side-rendering-trong-react-yMnKMYozK7P)
 
-
+-----
 - [React.js - Những Câu Hỏi Phỏng Vấn Thường Gặp - Phần 1](https://viblo.asia/p/reactjs-nhung-cau-hoi-phong-van-thuong-gap-phan-1-Ljy5VDkbZra)
 - [React.js - Những Câu Hỏi Phỏng Vấn Thường Gặp - Phần 2](https://viblo.asia/p/reactjs-nhung-cau-hoi-phong-van-thuong-gap-phan-2-bWrZno8plxw)
 - [React.js - Những Câu Hỏi Phỏng Vấn Thường Gặp - Phần 3](https://viblo.asia/p/reactjs-nhung-cau-hoi-phong-van-thuong-gap-phan-3-924lJBV8lPM)
@@ -657,7 +657,11 @@ Hooks
 - [Tổng quan và so sánh ReactJS với VueJS](https://viblo.asia/p/tong-quan-va-so-sanh-reactjs-voi-vuejs-LzD5deXEKjY)
 - [Tại sao bạn nên chọn VueJS hơn là ReactJS dành cho các dự án startup](https://viblo.asia/p/tai-sao-ban-nen-chon-vuejs-hon-la-reactjs-danh-cho-cac-du-an-startup-63vKj6xbK2R)
 - ["Một chút" về kiến trúc mới của React Native](https://viblo.asia/p/mot-chut-ve-kien-truc-moi-cua-react-native-Az45bRXO5xY)
+-----
+Tips & Tricks
+- [`'overflow-wrap'` in React.js](https://stackoverflow.com/questions/62723863/css-overflow-wrap-does-not-work-in-react-js)
 
+-----
 Debug trong ứng dụng ReactJS
 - [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
