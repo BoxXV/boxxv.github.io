@@ -614,7 +614,11 @@ Hooks
 - [Làm thế nào để Build React Forms đơn giản với react-hook-form?](https://viblo.asia/p/lam-the-nao-de-build-react-forms-don-gian-voi-react-hook-form-Az45bLywZxY)
 - [Tự build một thư viện validate form bất đồng bộ chỉ ~100 dòng code với React Hooks](https://viblo.asia/p/tu-build-mot-thu-vien-validate-form-bat-dong-bo-chi-100-dong-code-voi-react-hooks-gDVK2RDXKLj)
 - [React Hook Form](https://react-hook-form.com)
+- [`Series:` React up and running](https://viblo.asia/s/react-up-and-running-68Z00JJjZkG)
+- [Quản lý form trong React với Formik và Yup (P1)](https://viblo.asia/p/quan-ly-form-trong-react-voi-formik-va-yup-p1-RQqKLvw4l7z)
+- [Quản lý form trong React với Formik và Yup (P2)](https://viblo.asia/p/quan-ly-form-trong-react-voi-formik-va-yup-p2-m68Z002QZkG)
 
+-----
 - [The React Cheatsheet for 2020 (Phần 1)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-1-WAyK8PY6KxX)
 - [The React Cheatsheet for 2020 (Phần 2)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-2-4P856oBAKY3)
 - [The React Cheatsheet for 2020 (Phần cuối)](https://viblo.asia/p/the-react-cheatsheet-for-2020-phan-cuoi-oOVlYMxBl8W)
