@@ -159,13 +159,13 @@ Tiếp theo hãy cùng đi đến những điểm hay và không hay giữa các
 ## Jobs
 
 17/08/2022
-- [React are 3,667 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336)
-- [Vue.js  are 126  jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794477273088)
-- [Angular are 951 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628012691468)
-- [Angular JS are 768 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712877088768)
-- [Angular 2 are 33 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712818368512)
-- [Angular 6 are 75 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876959218548736)
-- [Flutter are  1,036 jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773)
+- [`React` are `3,667` jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336)
+- [`Vue.js` are `862`  jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794477273088)
+- [`Angular` are `951` jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628012691468)
+- [`Angular JS` are `769` jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712877088768)
+- [`Angular 2` are `33` jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712818368512)
+- [`Angular 6` are `75` jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876959218548736)
+- [`Flutter` are  `1,036` jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773)
 
 
 ## Tổng kết
