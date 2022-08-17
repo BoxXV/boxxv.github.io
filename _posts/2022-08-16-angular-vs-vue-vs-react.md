@@ -59,7 +59,7 @@ Phiên bản đầu tiên của nó là Angular 1 còn được gọi là Angula
 
 Trong một thời gian dài thì Angular và React được biết là 2 framework đối thủ truyền kiếp của nhau trong công cuộc giành vị trí framework javascript phổ biến nhất.
 
-Theo hotframeworks thì AngularJS là framework phổ biến đứng thứ 2 và Angular là thứ 3.
+Theo [hotframeworks](https://hotframeworks.com/) thì AngularJS là framework phổ biến đứng thứ 2 và Angular là thứ 3.
 
 Theo Stack Overflow thì Angular đứng thứ 3 trong các framework muốn được sử dụng nhất. Và đứng thứ 4 về độ phủ sóng theo JetBrains.
 
@@ -79,7 +79,7 @@ export class AppComponent {}
 
 React là một thư viện mạnh mẽ được phát hành và bảo trì bởi Facebook cho phép developer tạo giao diện người dùng.
 
-React hiện tại đang giữ ngôi vương của rất nhiều khảo sát cũng như báo cáo.
+`React hiện tại đang giữ ngôi vương` của rất nhiều khảo sát cũng như báo cáo.
 
 Theo JetBrains React đứng vị trí đầu tiên trong các framework được sử dụng rộng rãi nhất.
 
