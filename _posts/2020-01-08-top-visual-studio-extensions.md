@@ -19,6 +19,71 @@ Việc cài đặt các extension hay cho Visual Studio Code sẽ giúp bổ sun
 - Giúp kiểm soát code đẹp hơn, dễ nhìn, thu hút với gam màu sắc, bố cục được phân biệt rõ ràng.
 Không để bạn phải đợi lâu nữa, dưới đây sẽ tổng hợp các extension hay cho Visual Studio Code được sử dụng phổ biến nhất hiện nay. Mời bạn cùng tham khảo nhé.
 
+
+### Top các extension hay cho Visual Studio
+
+
+1. **Auto Close Tag** được xây dựng để giúp bạn tự động đóng thẻ khi bạn mở thẻ. Ví dụ như là khi bạn gõ <html> thì nó sẽ tự động thêm </html>. Ngoài ra nó cũng hỗ trợ cho nhiều ngôn ngữ khác như là XML, PHP, Vue, JavaScript, TypeScript, JSX, TSX... nó cũng có một số thiết lập giúp bạn dễ dàng tinh chỉnh như là đặt danh sách thẻ không tự động đóng, sử dụng phím tắt để thêm thẻ đóng thủ công...
+
+2. **Auto Rename Tag** giúp tự động đổi tên cả cặp thẻ trong HTML, XML. Ví dụ khi bạn thay đổi tên thẻ mở thì thẻ đóng tương ứng cũng sẽ được tự động thay đổi theo. Bạn có thể xem ví dụ chi tiết trong phần Usages nhé.
+
+3. **Beautify** là một tiện ích giúp bạn có thể định dạng lại cách hiển thị code một cách đẹp mắt hơn. Nó hỗ trợ cho các ngôn ngữ phổ biến hiện nay như là Javascript, JSON, CSS, Sass và HTML.
+
+4. **Better Comments** hiển thị comment theo từng loại riêng biệt giúp dễ dàng phân loại và hình dung hơn ví dụ như là các thông báo quan trọng cần làm nổi bật, các cảnh báo, những việc phải làm... Ngoài ra bạn cũng có thể tùy chỉnh để phù hợp với mục đích và sở thích của mình như thiết lập các cú pháp comment, chỉnh sửa màu sắc màu nền cho comment.
+
+5. **Bracket Pair Colorizer** là tiện ích mở rộng giúp làm nổi bật những dấu ngoặc tương ứng trong đoạn mã với nhau bằng cách sử dụng màu sắc. Nó giúp bạn có thể dễ dàng phát hiện những dấu ngoặc còn thiếu hay có cái nhìn trực quan khi có quá nhiều ngoặc lồng vào nhau trong đoạn code.
+
+6. **Browser Preview** hiển thị trình duyệt ngay trên Visual Studio Code giúp bạn có thể xem kết quả cũng như debug cho chương trình một cách dễ dàng hơn.
+
+7. **Code Time** giúp bạn có thể tính toán thời gian mình làm việc trên visual studio code. Ngoài ra nó cũng tổng hợp thời gian bạn dành cho mỗi dự án, mức độ làm việc với code thông qua biểu đồ của các ngày trong tuần, hiển thị giá trị thời gian trung bình bạn làm việc trong một tháng...
+
+8. **Code Spell Checker** giúp bạn kiểm tra lỗi chính tả của đoạn mã trong chương trình. Tuy nhiên nó chỉ hỗ trợ các ngôn ngữ như tiếng Anh, Thụy Điển, Pháp, Đức... và chưa có tiếng Việt Nam nha.
+
+9. **CSS Peek** tiện ích mở rộng giúp tìm các id hoặc class của các thẻ HTML trong những file CSS mà chứa những class hay thuộc tính đó. Ngoài ra nó cũng cho phép bạn đi đến các file CSS đó ngay lập tức.
+
+10. **Color Highlight** là một tiện ích giúp bạn hiển thị màu cho các đối tượng được tìm thấy trong trang. Ví dụ nhiều mã màu mà VS Code không hiển thị được thì tiện ích này là một lựa chọn tuyệt vời cho bạn.
+
+11. **Debugger for Chrome** giúp bạn có thể debug lỗi mã chương trình ngay trong VS Code mà không cần mở Google Chrome để sử dụng developer tool. Nó có nhiều tính năng hữu ích như là thiết lập breakpoints, hiển thị console...
+
+12. **ES7 React/Redux/GraphQL/React-Native snippets** là tiện ích mở rộng cung cấp các snippet cho React, Redux và Graphql trong JS/TS với cú pháp ES7. Bạn có thể tham khảo bảng cú pháp trong trang chính của nó nhé!
+
+13. **ESLint** là một công cụ phân tích đoạn mã trong chương trình để đưa ra các lỗi cũng như những đoạn mã cần phải cải thiện. Ngoài ra nó cũng cung cấp cho bạn những giải pháp để tối ưu hay sửa lỗi một cách nhanh hơn. Bạn cũng có thể tùy chỉnh trình phân tích cú pháp của ESLint để phù hợp với mục đích hay dự án của mình.
+
+14. **EditorConfig** là một tiện ích mở rộng giúp duy trì sự thống nhất style code cho nhiều lập trình viên khi làm cùng một dự án. Và mỗi lập trình viên có thể làm việc trên nhiều trình soạn thảo mã khác nhau như VSCode, Atom, Notepad++... thì nó đều hỗ trợ các plugin trên mọi nền tảng giúp lập trình viên có thể đọc và chỉnh sửa style code một cách dễ dàng.
+
+15. **GitLens — Git supercharged** là tiện ích cung cấp nhiều tính năng hữu ích giúp bạn làm việc với Git một cách tốt hơn như là hiển thị chú thích cho từng dòng code về lập trình viên commit, hiển thị thông tin chi tiết các lần sửa đổi đoạn mã trong File...
+
+16. **Import Cost** giúp bạn có thể kiểm tra kích thước của các file import một cách dễ dàng thông qua thông tin được hiển thị trực tiếp bên đoạn mã khi ta thực hiện import.
+
+17. **JavaScript (ES6) code snippets** giúp bạn có thể gọi cấu trúc của một hàm hay thuộc tính... một cách nhanh chóng thông qua những cú pháp được cung cấp sẵn. Ví dụ khi bạn gõ là clg thì nó sẽ tự động biên dịch thành console.log(object). Cái này bạn có thể tham khảo thêm bảng chú thích trong trang cài đặt của nó nhé. Ngoài ra nó cũng hỗ trợ nhiều ngôn ngữ trong file extension như là TypeScript, JavaScript React, TypeScript React, Html và Vue.
+
+18. **Live Server** giúp khởi chạy local server một cách nhanh chóng với tính năng tự động tải lại trực tiếp cho các trang web tĩnh và động. Ví dụ khi bạn thay đổi một thông tin trên trang HTML thì nó sẽ tự động cập nhật mà không cần chúng ta phải nhấn reload trên trình duyệt. Nó cũng có nhiều lựa chọn cho việc thiết lập sử dụng như là tùy chỉnh số port, thiết lập trình duyệt mặc định, hỗ trợ SVG, https, proxy...
+
+19. **Live Share** giúp những lập trình viên trong team có thể chia sẻ đoạn mã trong chương trình theo thời gian thực để dễ dàng trong việc chỉnh sửa cũng như debug cho chương trình như là chia sẻ debugging sessions, terminal instances, localhost web apps, voice calls...
+
+20. **Material Icon Theme** là một tiện ích thiết lập icon Material Design cho Visual Studio Code.
+
+21. **Path Intellisense** là tiện ích mở rộng giúp bạn tự động thực hiện tên cho file (autocompletes filenames) thông qua cách gợi ý các đường dẫn mỗi khi bạn gõ đường dẫn đến nơi lưu trữ file.
+
+22. **Prettier - Code formatter** giúp bạn định dạng lại code một cách tự động và tạo ra một phong cách code chung cho team lập trình thông qua quy tắc riêng được quy định bởi extension. Nó cũng hỗ trợ cho đa dạng loại ngôn ngữ như là JavaScript, TypeScript, Flow, JSX, JSON, HTML, Vue, Angular...
+
+23. **Project Manager** tiện ích mở rộng giúp bạn dễ dàng chuyển đổi giữa các dự án trong VS Code. Nó cung cấp một menu phụ giúp bạn có thể lưu trữ các dự cần làm việc và chuyển đổi qua lại một cách nhanh chóng.
+
+24. **Polacode** là tiện ích giúp bạn chụp hình đoạn code của mình và lưu lại ngay trên máy tính một cách dễ dàng. Ngoài ra bạn cũng có thể chọn những bộ theme được thiết kế sẵn giúp đoạn mã được nổi bật và đẹp hơn trong quá trình chụp.
+
+25. **Quokka** giúp bạn có thể test từng đoạn code nhỏ Javascript, TypeScript và hiển thị trực tiếp trên VS Code mà không cần sử dụng console.log() để hiển thị trong trình duyệt.
+
+26. **REST Client** cho phép bạn gửi các yêu cầu HTTP và có thể xem kết quả trực tiếp trên Visual Studio Code.
+
+27. **Settings Sync** giúp bạn có thể lưu lại các thiết lập cho Visual Studio Code trên máy tính của mình lên trên Github và sử dụng cho các máy khác một cách dễ dàng ví dụ như là các thông tin về extension, hay các cài đặt mà mình đã thiết lập... Lúc này bạn dễ dàng thiết lập cho nhiều máy khác nhau mà không cần phải nhớ lại các extension, các thiết lập mà mình đã cài đặt cho VS Code.
+
+28. **TODO Highlight** giúp bạn làm nổi bật các comment quan trọng trong code để những người lập trình sau hay chính bản thân chúng ta có thể nắm được những điều cần lưu ý hay những việc cần phải làm trước khi sử dụng và lập trình code. Ngoài ra nó còn có một số theme được thiết kế đẹp mắt, hỗ trợ trên nhiều ngôn ngữ như javascript, html, css, php...
+
+29. **Vetur** là tiện ích mở rộng cung cấp các công cụ hữu ích cho VueJS như là debug, kiểm tra lỗi, Syntax-highlighting, snippet...
+
+30. **vscode-icons** là tiện ích chúng ta có thể thiết lập nhiều icon đẹp mắt cho Visual Studio Code.
+
+
 ### Top các extension hay cho Visual Studio Code hay nhất
 - `CSS Peek`: Nhiều lập trình viên đánh giá [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) là một trong các extension hay cho Visual Studio Code. CSS Peek giúp mọi người di chuyển nhanh chóng đến nơi định nghĩa các class và id của css. Bạn chỉ cần nhấp chuột phải vào một selector và chọn “Go to Definition”. Peek sẽ nhanh chóng chuyển bạn đến đúng file, vị trí mà class và id đó được định nghĩa. Plugin này khiến việc tìm kiếm class và id để nhanh chóng thực hiện chỉnh sửa những đoạn code. Ngoài ra, nó cũng nhảy ngay lập tức đến phần khai báo được nhắc đến trong file css/scss/less. Từ đó, rút ngắn thời gian hoàn thiện công việc đến mức tối đa.
 - `Open-In-Browser`: Thực chất, VSCode không cung cấp những phương pháp để mở file trực tiếp bằng browser. Plugin [Open-In-Browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser) cung cấp thêm cho người dùng tùy chọn “Open With Default Browser”. Với nó, người dùng có thể mở được nhiều loại tài liệu như TXT, PDF, XML và các loại hình ảnh định dạng khác nhau.
@@ -53,7 +118,7 @@ Không để bạn phải đợi lâu nữa, dưới đây sẽ tổng hợp cá
 -----
 ### Reference
 - [Top 10 các extension hay cho Visual Studio Code](https://vietnix.vn/cac-extension-hay-cho-visual-studio-code/)
-- [30 Visual Studio Extension Tốt Nhất Cho Phát Triển Web(2022)](https://www.niemvuilaptrinh.com/article/30-Visual-Studio-Code-Extension-Tot-Nhat-Cho-Phat-Trien-Web2020)
+- [30 Visual Studio Extension Tốt Nhất Cho Phát Triển Web (2022)](https://www.niemvuilaptrinh.com/article/30-Visual-Studio-Code-Extension-Tot-Nhat-Cho-Phat-Trien-Web2020)
 - [Tổng hợp các Visual Studio Code Extensions hữu ích](https://www.dotnetcoban.com/2020/05/best-visual-studio-code-extensions.html)
 - [Top 10 Extensions Vscode Tốt Nhất (2019)](https://viblo.asia/p/top-10-extensions-vscode-tot-nhat-2019-YWOZrBwNZQ0)
 - [8 extensions Visual Studio Code hữu ích cho Front-end](https://viblo.asia/p/8-extensions-visual-studio-code-huu-ich-cho-front-end-jvElaXXdZkw)
