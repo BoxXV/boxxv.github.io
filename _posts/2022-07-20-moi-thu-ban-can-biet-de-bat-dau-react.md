@@ -667,6 +667,8 @@ Hooks
 -----
 Tips & Tricks
 - [`'overflow-wrap'` in React.js](https://stackoverflow.com/questions/62723863/css-overflow-wrap-does-not-work-in-react-js)
+- [Validate if a start date is after an end date with Yup](https://stackoverflow.com/a/60277510)
+- [Validate two input dates and max/min ranges](https://github.com/jquense/yup/issues/287#issuecomment-501481042)
 
 -----
 Debug trong ứng dụng ReactJS
