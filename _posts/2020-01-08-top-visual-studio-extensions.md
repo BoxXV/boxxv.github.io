@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Top Visual Studio Extensions for Developers
+subtitle: Những công cụ tôi ước giá như mình biết sớm hơn
 image: "img/projects-bg.jpg"
 ---
+
+![VSCde](https://boxxv.github.io/img/posts/best-visual-studio-code-extensions.png "VSCde")
+
+`Visual Studio Code` còn được gọi là VSCde là một text editor cross-flatform mã nguồn mở được phát triển bởi Microsoft, sử dụng để xây dựng các website, ứng dụng hoàn toàn miễn phí. Nó được các lập trình viên sử dụng nhờ hiệu suất cao và có nhiều tính năng phong phú. Lý do Visual Studio Code trở nên phổ biển chính do hiệu suất lập trình ổn định và kho ứng dụng phong phú được cập nhật liên tục. Trong bài viết này sẽ giới thiệu top các `Extension` hay cho Visual Studio Code để bạn có thể sử dụng thật tốt trong khi làm việc với VSCode. Cùng tìm hiểu với chúng tôi và bạn sẽ có được những plugin tốt nhất để sử dụng mà không mất công tìm kiếm, dùng thử.
 
 
 ### Vscode extionsion khi lập trình nodejs
@@ -27,6 +32,7 @@ image: "img/projects-bg.jpg"
 ### Reference
 - [Top 10 các extension hay cho Visual Studio Code](https://vietnix.vn/cac-extension-hay-cho-visual-studio-code/)
 - [30 Visual Studio Extension Tốt Nhất Cho Phát Triển Web(2022)](https://www.niemvuilaptrinh.com/article/30-Visual-Studio-Code-Extension-Tot-Nhat-Cho-Phat-Trien-Web2020)
+- [Tổng hợp các Visual Studio Code Extensions hữu ích](https://www.dotnetcoban.com/2020/05/best-visual-studio-code-extensions.html)
 - [Top 10 Extensions Vscode Tốt Nhất (2019)](https://viblo.asia/p/top-10-extensions-vscode-tot-nhat-2019-YWOZrBwNZQ0)
 - [8 extensions Visual Studio Code hữu ích cho Front-end](https://viblo.asia/p/8-extensions-visual-studio-code-huu-ich-cho-front-end-jvElaXXdZkw)
 - []()
