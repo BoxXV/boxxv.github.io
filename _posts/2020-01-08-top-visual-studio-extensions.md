@@ -5,9 +5,19 @@ subtitle: Những công cụ tôi ước giá như mình biết sớm hơn
 image: "img/projects-bg.jpg"
 ---
 
-![VSCde](https://boxxv.github.io/img/posts/best-visual-studio-code-extensions.png "VSCde")
+![VSCde](https://boxxv.github.io/img/2022/best-visual-studio-code-extensions.png "VSCde")
 
 `Visual Studio Code` còn được gọi là VSCde là một text editor cross-flatform mã nguồn mở được phát triển bởi Microsoft, sử dụng để xây dựng các website, ứng dụng hoàn toàn miễn phí. Nó được các lập trình viên sử dụng nhờ hiệu suất cao và có nhiều tính năng phong phú. Lý do Visual Studio Code trở nên phổ biển chính do hiệu suất lập trình ổn định và kho ứng dụng phong phú được cập nhật liên tục. Trong bài viết này sẽ giới thiệu top các `Extension` hay cho Visual Studio Code để bạn có thể sử dụng thật tốt trong khi làm việc với VSCode. Cùng tìm hiểu với chúng tôi và bạn sẽ có được những plugin tốt nhất để sử dụng mà không mất công tìm kiếm, dùng thử.
+
+
+### Vì sao cần cài đặt Extension cho Visual Studio Code?
+Việc cài đặt các extension hay cho Visual Studio Code sẽ giúp bổ sung tính năng cho nó, phục vụ cho mục đích học tập, công việc của mình. Bao gồm:
+- Hỗ trợ quản lý những công việc yêu cầu những kiến thức chuyên môn như: quản lý Database, gỡ lỗi cho các phần mềm, ứng dụng.
+- Cập nhật thêm một ngôn ngữ lập trình mới, sở hữu nhiều tính năng vượt trội.
+- Giúp người dùng tạo ra các thông tin ảo dùng để thử nghiệm.
+- Bổ sung thêm các tính năng tốt hỗ trợ phát triển các Framework/CMS.
+- Giúp kiểm soát code đẹp hơn, dễ nhìn, thu hút với gam màu sắc, bố cục được phân biệt rõ ràng.
+Không để bạn phải đợi lâu nữa, dưới đây sẽ tổng hợp các extension hay cho Visual Studio Code được sử dụng phổ biến nhất hiện nay. Mời bạn cùng tham khảo nhé.
 
 
 ### Vscode extionsion khi lập trình nodejs
