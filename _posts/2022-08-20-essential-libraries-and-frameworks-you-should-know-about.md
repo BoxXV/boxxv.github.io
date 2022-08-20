@@ -25,10 +25,16 @@ tags:
 # Tóm tắt
 
 ### [I. Frameworks](#ii-frameworks)
-- [Laravel](#Laravel)
-- [CakePHP](#CakePHP)
-- [Django](#Django)
-- [Ruby on Rails](#RubyonRails)
+**Framework Back end**
+- [Laravel](#laravel)
+- [CakePHP](#cakephp)
+- [Django](#django)
+- [Ruby on Rails](#rubyonrails)
+- [Flask](#flask)
+- [Phoenix](#phoenix)
+- [Express](#express)
+- [Spring Boot](#springboot)
+**Framework Front end**
 - [Angular](#angular)
 - [Vue.js](#vuejs)
 - [Ember.js](#emberjs)
@@ -110,6 +116,52 @@ Tính năng chính của Ruby on Rails:
 - Dự án dễ phát triển và quản lý
 
 
+## [Flask](https://flask.palletsprojects.com)
+
+Flask là một Framework khác dựa trên `Python`. Tuy nhiên, không giống như Django, Flask nhẹ và phù hợp hơn cho việc phát triển các **dự án nhỏ hơn**. Flask cung cấp hỗ trợ cho những thứ như tạo Jinja2 templating, secure cookie, unit testing và RESTful requets dispatching.
+
+Tính năng chính của Flask:
+- Linh động
+- Nhỏ nhẹ, phù hợp với dự án nhỏ
+- Tài liệu tốt
+- Khả năng xây dựng nguyên mẫu nhanh chóng
+
+
+## [Phoenix](https://www.phoenixframework.org)
+
+Phoenix là một Framework Back end hoạt động với Máy ảo Erlang và được viết bằng `Elixir`. Thực tế, Elixir là một ngôn ngữ lập trình hàm, nó có thể không phổ biến như các ngôn ngữ hướng đối tượng khác tuy nhiên nó được thiết kế để xây dựng các ứng dụng có thể mở rộng và có thể bảo trì. Phoenix sử dụng kết hợp các công nghệ đã được thử và đúng với các ý tưởng mới về lập trình chức năng.
+
+Tính năng chính của Phoenix:
+- Rất nhanh
+- Chịu lỗi
+- Tùy chọn cơ sở dữ liệu
+- Cũng được thiết kế tốt
+- Tài liệu tuyệt vời và cộng đồng mạnh
+
+
+## [Express](https://expressjs.com)
+
+Express là một framework nhanh, tối giản cho `Node.js`. Nó cung cấp một layer mỏng của các tính năng ứng dụng web cơ bản, mà không làm mờ đi các tính năng của Node.js. Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ giúp của các phương thức HTTP khác nhau và các phần mềm trung gian có sẵn. Nhiều fullstack framework và các máy chủ phổ biến sử dụng Express như Feathers, KeystoneJS, MEAN, Sails, v.v. Một vài ví dụ về các trang web lớn sử dụng Express bao gồm: Uber, Accdvisor, IBM.
+
+Tính năng chính của Express:
+- API định tuyến tốt
+- Tối giản
+- Thiết lập rất dễ dàng và nó đơn giản để học
+- Số lượng lớn các plugin có sẵn để sử dụng
+
+
+## [Spring Boot](https://spring.io/projects/spring-boot)
+
+Spring Boot là một web framework dựa trên `Java`. Nó được tạo ra bởi Spring với mục đích dễ sử dụng và cung cấp một ứng dụng dựa trên Spring ở cấp độ sản xuất mà bạn có thể cần chạy. Có thể nói, Spring boot là bản rút gọn của Spring. Vì thế, bạn cũng
+
+Tính năng chính của Spring Boot:
+- Tạo các ứng dụng Spring độc lập
+- Khả năng mở rộng cao
+- Tài liệu tuyệt vời
+- Được xây dựng cho các ứng dụng quy mô lớn sử dụng cách tiếp cận đám mây
+- Hệ sinh thái mở rộng
+
+
 ## [Angular](https://angular.io)
 
 AngularJS là một trong những công nghệ JavaScript phổ biến nhất trong giới phát triển Front-End. Nó được hậu thuẫn bởi Google và một cộng đồng gồm nhiều cá nhân và tổ chức khác. Mặc cho sự phổ biến, AngularJS cũng từng có những sai sót của nó. Nhóm Angular đã bỏ ra 2 năm làm ra một phiên bản mới, cuối cùng đã ra mắt và tháng 9 2016.
@@ -125,6 +177,7 @@ Angular 2 xuất xưởng là một phiên bản viết lại từ đầu của 
 
 Tuy nhiên, nâng cấp từ Angular 1.x sang Angular 2.x khá là xa xỉ vì Angular 2 là một con thú hoàn toàn khác biệt. Đó là lý do cho việc tại sao Angular 2 chưa có tỉ lệ thực nghiệm cao như người tiền nhiệm của nó. Nhưng Angular và AngularJS vẫn tiếp tục là một công nghệ phổ dụng nhất dựa theo Stack Overflow 2017. Dự án Angular nhận được 28,000 sao trên GitHub.
 
+
 ## [Vue.js](https://vuejs.org)
 
 Vue.js là một framework JavaScript nhỏ gọn đã xuất hiện theo xu thế năm nay. Nó là một framework JavaScript phổ biến trên GitHub tính theo lượng sao trên GitHub. Vue tuyên bố là một framework không quá cứng nhắc và do đó giúp nhà phát triển dễ dàng nắm bắt. Các mẫu cú pháp HTML của Vue gắn kết phần DOM đã render với giá trị của dữ liệu.
@@ -132,6 +185,7 @@ Vue.js là một framework JavaScript nhỏ gọn đã xuất hiện theo xu th�
 ![Vue](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Vuejs.jpg "Vue")
 
 Framework này cung cấp trải nghiệm như React với những Virtual DOM của nó và các component có thể tái sử dụng giúp bạn tạo ra cả widgets và toàn bộ ứng dụng web. Hơn nữa, bạn cũng có thể dùng cú pháp JSX để viết phần chức năng render trực tiếp. Khi trang thái thay đổi, Vue,js sẽ một hệ thống phản ứng để xác định rằng điều gì đã thay đổi và render só lượng nhỏ nhất các component. Vue.js cũng hỗ trợ tích hợp những thư viện khác vào framework mà không cần tốn công sức nhiều.
+
 
 ## [Ember.js](https://emberjs.com)
 
