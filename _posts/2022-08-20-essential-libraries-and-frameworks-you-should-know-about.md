@@ -30,11 +30,11 @@ tags:
 - #1. [Laravel](#laravel)
 - #2. [CakePHP](#cakephp)
 - #3. [Django](#django)
-- #4. [Ruby on Rails](#rubyonrails)
+- #4. [Ruby on Rails](#ruby-on-rails)
 - #5. [Flask](#flask)
 - #6. [Phoenix](#phoenix)
 - #7. [Express](#express)
-- #8. [Spring Boot](#springboot)
+- #8. [Spring Boot](#spring-boot)
 
 **Framework Front end**
 - [Vue.js](#vuejs)
@@ -47,18 +47,6 @@ tags:
 - [jQuery](#jquery)
 - [Backbone.js](#backbonejs)
 - [D3.js](#d3js-data-driven-documents)
-
-
-### [III. Tools](#iii-các-công-cụ)
-#### [General-purpose](#tools-trình-chạy-task-có-mục-đích-tổng-thể)
-- [Gulp](#gulp)
-- [Grunt](#grunt)
-- [npm](#npm)
-
-#### [Testing](#tools-testing)
-- [Jest](#jest)
-- [Mocha](#mocha)
-- [Jasmine](#jasmine)
 
 -----
 
