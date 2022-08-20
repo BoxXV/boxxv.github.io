@@ -25,23 +25,27 @@ tags:
 # Tóm tắt
 
 ### [I. Frameworks](#ii-frameworks)
+
 **Framework Back end**
-- [Laravel](#laravel)
-- [CakePHP](#cakephp)
-- [Django](#django)
-- [Ruby on Rails](#rubyonrails)
-- [Flask](#flask)
-- [Phoenix](#phoenix)
-- [Express](#express)
-- [Spring Boot](#springboot)
+- #1. [Laravel](#laravel)
+- #2. [CakePHP](#cakephp)
+- #3. [Django](#django)
+- #4. [Ruby on Rails](#rubyonrails)
+- #5. [Flask](#flask)
+- #6. [Phoenix](#phoenix)
+- #7. [Express](#express)
+- #8. [Spring Boot](#springboot)
+
 **Framework Front end**
-- [Angular](#angular)
 - [Vue.js](#vuejs)
+- [Angular](#angular)
 - [Ember.js](#emberjs)
+
 
 ### [II. Thư viện](#i-thư-viện)
 - [React](#react)
 - [jQuery](#jquery)
+- [Backbone.js](#backbonejs)
 - [D3.js](#d3js-data-driven-documents)
 
 
@@ -162,6 +166,17 @@ Tính năng chính của Spring Boot:
 - Hệ sinh thái mở rộng
 
 
+## Framework Front end
+
+## [Vue.js](https://vuejs.org)
+
+Vue.js là một framework JavaScript nhỏ gọn đã xuất hiện theo xu thế năm nay. Nó là một framework JavaScript phổ biến trên GitHub tính theo lượng sao trên GitHub. Vue tuyên bố là một framework không quá cứng nhắc và do đó giúp nhà phát triển dễ dàng nắm bắt. Các mẫu cú pháp HTML của Vue gắn kết phần DOM đã render với giá trị của dữ liệu.
+
+![Vue](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Vuejs.jpg "Vue")
+
+Framework này cung cấp trải nghiệm như React với những Virtual DOM của nó và các component có thể tái sử dụng giúp bạn tạo ra cả widgets và toàn bộ ứng dụng web. Hơn nữa, bạn cũng có thể dùng cú pháp JSX để viết phần chức năng render trực tiếp. Khi trang thái thay đổi, Vue,js sẽ một hệ thống phản ứng để xác định rằng điều gì đã thay đổi và render só lượng nhỏ nhất các component. Vue.js cũng hỗ trợ tích hợp những thư viện khác vào framework mà không cần tốn công sức nhiều.
+
+
 ## [Angular](https://angular.io)
 
 AngularJS là một trong những công nghệ JavaScript phổ biến nhất trong giới phát triển Front-End. Nó được hậu thuẫn bởi Google và một cộng đồng gồm nhiều cá nhân và tổ chức khác. Mặc cho sự phổ biến, AngularJS cũng từng có những sai sót của nó. Nhóm Angular đã bỏ ra 2 năm làm ra một phiên bản mới, cuối cùng đã ra mắt và tháng 9 2016.
@@ -176,15 +191,6 @@ Angular 2 xuất xưởng là một phiên bản viết lại từ đầu của 
 - chọn lựa tốt hơn cho tooling và scaffolding
 
 Tuy nhiên, nâng cấp từ Angular 1.x sang Angular 2.x khá là xa xỉ vì Angular 2 là một con thú hoàn toàn khác biệt. Đó là lý do cho việc tại sao Angular 2 chưa có tỉ lệ thực nghiệm cao như người tiền nhiệm của nó. Nhưng Angular và AngularJS vẫn tiếp tục là một công nghệ phổ dụng nhất dựa theo Stack Overflow 2017. Dự án Angular nhận được 28,000 sao trên GitHub.
-
-
-## [Vue.js](https://vuejs.org)
-
-Vue.js là một framework JavaScript nhỏ gọn đã xuất hiện theo xu thế năm nay. Nó là một framework JavaScript phổ biến trên GitHub tính theo lượng sao trên GitHub. Vue tuyên bố là một framework không quá cứng nhắc và do đó giúp nhà phát triển dễ dàng nắm bắt. Các mẫu cú pháp HTML của Vue gắn kết phần DOM đã render với giá trị của dữ liệu.
-
-![Vue](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Vuejs.jpg "Vue")
-
-Framework này cung cấp trải nghiệm như React với những Virtual DOM của nó và các component có thể tái sử dụng giúp bạn tạo ra cả widgets và toàn bộ ứng dụng web. Hơn nữa, bạn cũng có thể dùng cú pháp JSX để viết phần chức năng render trực tiếp. Khi trang thái thay đổi, Vue,js sẽ một hệ thống phản ứng để xác định rằng điều gì đã thay đổi và render só lượng nhỏ nhất các component. Vue.js cũng hỗ trợ tích hợp những thư viện khác vào framework mà không cần tốn công sức nhiều.
 
 
 ## [Ember.js](https://emberjs.com)
@@ -228,6 +234,18 @@ jQuery là một thư viện làm cho JavaScript dễ tiếp cận hơn và thao
 Tuy nhiên, sự việc đã thay đổi, và môi trường JavaScript đã phát triển nhanh chóng. Vài điểm nổi bật của jQuery đã được tích hợp vào chuẩn ECMAScript mới đây. Hơn nữa, những framework và thư viện mới được dùng ngày nay có cách riêng để gắn kết DOM, và vì thế các kỹ thuật thao tác DOM truyền thống không còn được yêu cầu nữa. Đột phổ biến của jQuery đang giảm dần, nhưng tôi thấy nó sẽ không biến mất sớm đâu.
 
 
+## [Backbone.js](https://backbonejs.org)
+
+Backbone là thư viện `JavaScript` rất nhỏ nhưng có tổ chức và hiệu quả cao. Jeremy Ashkenas đã tạo ra thư viện này và xuất bản vào năm 2010. Backbone không cung cấp liên kết dữ liệu và tổ chức nó theo nguyên tắc MVC. Vì đây là một thư viện, việc học khá đơn giản, đặc biệt là với các tài liệu phong phú mà nó có. Mặc dù không quá phổ biến, Backbone có thể tạo ra điều phi thường cho các ứng dụng web nhỏ và đơn giản. Các công ty sử dụng Backbone là LinkedIn Mobile, Pandora, AudioVroom.
+
+
+Đặc trưng của Backbon.js:
+- Thân thiện với người mới học
+- Lựa chọn tốt cho một ứng dụng nhỏ
+- Tổ chức tốt
+- Clean
+
+
 ## [D3.js](https://d3js.org) Data-Driven Documents
 
 D3 hoặc D3.js là một thư viện JavaScript mạnh mẽ để tạo ra những hình ảnh có tính tương tác sử dụng chuẩn mực web như SVG, HTML và CSS. Không giống với những thư viện hình ảnh trực quan khác, D3 cung cấp sự điểu khiển tốt hơn cho các kết quả hình ảnh được tạo ra.
@@ -237,79 +255,25 @@ D3 hoạt động bằng cách gắn kết data với DOM và sau đó thực hi
 ![D3](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-d3.jpg "D3")
 
 
+## Cần xem xét những gì khi lựa chọn một Framework?
+
+Có một vài điểm quan trong bạn cần phải xem xét trước khi chọn một Framework để học tập và làm việc:
+- **Đường cong học tập**: Mỗi framework có sự khác biệt về các quy ước đặt tên, cấu trúc thư mục, v.v ... Nếu bạn không bao giờ sử dụng một framework trước đây thì bạn sẽ có nhiều trở ngại khi bắt đầu tự học sử dụng chúng. Và nếu như bạn đã quen thuộc với một ngôn ngữ lập trình cụ thể, có thể bạn sẽ muốn sử dụng framework tốt nhất của ngôn ngữ đó để tiết kiệm thời gian học.
+- **Tài liệu học tập và cộng đồng**: Nếu bạn không có kinh nghiệm với một framework nào trước đây, bạn nên chọn một framework có tài liệu học tập tốt và cộng đồng mạnh.  Lý do là, nếu trong quá trình học bạn gặp khó khăn, bạn có thể tìm kiếm tài liệu phù hợp hoặc nhờ cộng đồng giúp đỡ nhanh hơn.
+- **Các thư viện**: Một số framework rất linh hoạt trong việc lựa chọn thư viện đi kèm. Điều này sẽ cho phép bạn triển khai hoặc định cấu hình thư viện để thực hiện một số tác vụ nhất định có thể gây tốn thời gian hoặc không thể thực hiện bằng chính framework đó.
+- **Tính bảo mật**: Bảo mật là chủ đề rất rộng và tùy thuộc vào ứng dụng mà bạn xây dựng, bạn có thể yêu cầu một số tính năng bảo mật nhất định mà một số framework hoạt động tốt hơn các ứng dụng khác. Nó cũng rất quan trọng khi lựa chọn học framework. Bởi nếu ứng dụng của bạn đi vào thực tế và phát triển, sẽ có nhiều kẻ không thiện nhòm ngó.
+- **Khả năng mở rộng**: Nếu bạn đang xây dựng một ứng dụng và mong muốn nó phát triển lớn, bạn sẽ muốn đảm bảo rằng framework bạn chọn sẽ có thể mở rộng quy mô. Khả năng lưu trữ của nó sẽ đóng một vai trò lớn trong việc này và sẽ xác định mức độ dễ dàng để mở rộng ứng dụng.
 
 
+##  Bạn chọn web framework nào cho mình?
 
-# III. Các công cụ
+Có rất nhiều web framework để có thể học và sử dụng, và mỗi framework cũng có ưu nhược điểm riêng.
 
-Một công cụ là một tập hợp các công việc thường dùng, giúp bạn trong quá trình phát triển. Không giống thư viện, công cụ thường xử lý một task ở mã lệnh phía client. Nó dùng mã code làm dữ liệu ban đầu, thực hiện task trên đó, và trả về kết quả. Các công cụ thường dùng có transpiler và công cụ build, asset minifiers, module bundler và công cụ scaffolding.
+Để xác định xem Web framework nào tốt nhất thì khá là chủ quan vì nó phụ thuộc vào những điều bạn đang mong muốn, đường cong học tập phù hợp, v.v.
 
-# Tools: Trình chạy task có mục đích tổng thể
+Bạn có thể sử dụng danh sách các web framework đã được chọn lọc này để tham khảo, đối chiếu với những mong muốn của mình, đối chiếu với từng ngôn ngữ để đưa ra lựa chọn phù hợp nhất.
 
-Trình chạy task General-purpose là các công cụ được dùng để tự động các công vlệc cụ thể. Các trình chạy task general-purpose gồm có:
-
-## [Gulp](https://gulpjs.com)
-
-Gulp là một bộ công cụ JavaScript được dùng như là một trình chạy task, được dựng như là một hệ thống xây dựng trong phát triển web. Biên dịch, thu gọn code, tối ưu hình ảnh, unit testing linting là những task lập lại nên được tự động hoá. Gulp giúp quá trình viết task dễ dàng hơn, thậm chí cho những người ít kinh nghiệm với JavaScript.
-
-Gulp sử dụng pipeline để dẫn data từ một plugin sang một plugin khác, và kết quả sau cùng là xuất ra một thư mục đã được chỉ định trước. Gulp thực hiện công việc tốt hơn so với Grunt bởi vì nó không tạo ra file tạm thời để lưu trữ các kết quả, nó cho kết quả có ít lần gọi I/O hơn.
-
-![Gulp](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Gulp.jpg "Gulp")
-
-## [Grunt](https://gruntjs.com)
-
-Grunt là một task runner (trình chạy task) và một công cụ tự động của JavaScript. Grunt có một giao diện command-line cho phép bạn chạy các task tự chọn được định nghĩa trong một Gruntfile. Grunt có hàng ngàn plugins để chọn lựa, gồm có những task lập đi lập lại mà bạn sẽ gặp phải. Với Grunt, bạn có thể dùng tất cả task bằng một dòng lệnh, làm cuộc sống bạn dễ dàng hơn.
-
-![Grunt the JavaScript task runner](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Grunt.jpg "Grunt the JavaScript task runner")
-
-## [npm](https://www.npmjs.com)
-
-Gulp và Grunt đòi hỏi bạn có thời gian học và thuần thục công cụ. Giới thiệu các phần phụ thuộc bổ sung vào dự án của bạn có thể tránh được bằng cách chọn lựa một thay thế đã được đóng gói với Node.js. Dù npm được biết đến nhiều hơn là một trình quản lý package, mã lệnh npm cũng có thể sử dụng để thực hiện các nhiệm vụ được đề cập trước đó.
-
-![npm task runner](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-npm.jpg "npm task runner")
-
-[6 điều khiến Yam trở thành quản lý JavaScript pakager tốt nhất](https://code.tutsplus.com/tutorials/6-things-that-make-yarn-the-best-javascript-package-manager--cms-29465)
-
-# Tools: Testing
-
-Testing là quá trình đánh giá và thẩm định phần mềm liệu đã đáp ứng được các yêu cầu mong đợi về kỹ thuật và business. Phương pháp Test-Driven Development cũng hướng đến việc phát hiện lỗi và được xem như một phần không thể thiếu của công việc phát triển front-end hiện đại.
-
-## [Jest](https://jestjs.io)
-
-Jest là một testing framework khá mới mẻ được xây dựng bởi Facebook và được cộng đồng React khá đón nhận. Có một quan niệm sai lầm phổ biến là Jest được thiết kế đặc thù để làm việc với React, tuy nhiên, theo tài liệu của Jest:
-
-> Dù Jest có thể xem là test runner đặc thù cho React, nhưng thực tế là một nền tảng testing phổ cập, với khả năng thích nghi cho bất kể thư viện hoặc framework JavaScript nào. Bạn có thể sử dụng Jest để test bất kỳ mã JavaScript nào.
-
-Lợi điểm to lớn nhất của Jest so với những bộ kiểm thử khác là không cần phải có cấu hình gì để bắt đầu viết các testing. Framework đã có phần thư viên dựng sẵn và hỗ trợ sử dụng của việc bắt chước các hàm.
-
-![Delightful JavaScript testing using Jest](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Jest.jpg "Delightful JavaScript testing using Jest")
-
-Jest có một tính năng gọi là snapshot testing cho phép bạn chắc chắn rằng UI của ứng dụng không thay đổi theo cách không mong muốn. Nhà phát triển tại Facebook và những người đóng góp khác đã bỏ rất nhiều công sức vào dự án này, vì vậy sẽ không ngạc nhiên nếu Jet trở thành testing framework phổ biến nhất trong những năm tối đây.
-
-## [Mocha](https://mochajs.org)
-
-Mocha là một testing JavaScript framework nổi bật với sự hỗ trợ của trình duyệt, hỗ trợ không đồng bộ gồm có promises, test coverage report (báo cáo kiểm tra), và một JavaScript API để vận hành các bài kiểm tra. Mocha thường dùng chung với một thư viện khác như Chai, should.js, expect.js hoặc một thu viện tốt hơn vì nó thiếu mất một thư viên của nó.
-
-![Mocha test runner and testing framework](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Mocha.jpg "Mocha test runner and testing framework")
-
-## [Jasmine](https://jasmine.github.io)
-
-Jasmine là một testing framework theo kiểu behavior-driven cho JavaScript. Jasmine định hướng tới là một trình duyệt, nền tảng và bộ kiểm tra không lệ thuộc vào framework. Jasmine có một thư viện riêng của nó gọi là matchers với cú pháp rõ ràng và dễ đọc. Jasmine không có một test runner (trình chạy test) dựng sẵn, và bạn có lẽ phải dùng một test runner thuần tuý như Karma.
-
-![Jasmine test runner and testing framework](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Jasmine.jpg "Jasmine test runner and testing framework")
-
-
-# Tóm tắt
-
-JavaScript, ngôn ngữ của web, đã xuất hiện từ ngày khái niệm về nó xuất hiện kể từ 1995. Nó dĩ nhiên sẽ tồn tại như thế miễn là các trình duyệt không quyết định thay nó bằng một ngôn ngữ khác. Mặc dù có rất nhiều ngôn ngữ khác biên dịch thành JavaScript, không có ngôn ngữ scripting nào khác có thể thay được JavaScript trong tương lai gần. Tại sao? Vì JavaScript đã trở nên quá phổ biến để có thể bị thay thế.
-
-Ngôn ngữ này không chỉ dễ học, mà còn có rất nhiều framework và thư viện đủ để bạn bận rộn với nó. Nếu bạn đang tìm một số tài nguyên bổ sung để học hoặc sử dụng trong công việc, hãy xem qua những cái chúng tôi đã có sẵn trên Envato Market.
-
-Môi trường JavaScript đang phát triển, với minh chứng là xu hướng hiện tại trong sự phát triển của web. Những thư viện và framework cũ đã bị thay thế bởi những công nghệ mới hơn. jQuery, một trong những thư viện JavaScript từng được yêu mến nhất, đang đương đầu với sự thất thế về độ hấp dẫn, cách sử dụng và sự phổ biến. Các thư viện, framework và công cụ thế hệ mới đang tăng trưởng và có được sự đón nhận rộng rãi.
-
-Thích nghi dần với các xu hướng công nghệ mới cũng có lợi ích. Công việc code yêu cầu React có mức lương cao hơn trong ngành, với mức lương bình quân 105,000 đô Mỹ theo Stack Overflow (2016). Vậy bạn cần tiếp tục học và trải nghiệm những công cụ và framework mới nhất để chọn ra cái tốt nhất.
-
-Nếu bạn nghĩ tôi đã bỏ lỡ một framework JavaScript, thư viện hoặc công cụ nào đáng để đề cập, hãy cho tôi biết thông qua phần bình luận nhé. 
+Quan trọng là lựa chọn của bạn! Còn các **Web Framework tốt** đã có sẵn!
 
 
 -----
