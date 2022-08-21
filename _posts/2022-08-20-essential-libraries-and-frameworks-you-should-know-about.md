@@ -35,6 +35,8 @@ tags:
 - #6. [Phoenix](#phoenix)
 - #7. [Express](#express)
 - #8. [Spring Boot](#spring-boot)
+- #9. [.NET Framework](#.net-framework)
+- #10. [CodeIgniter](#codeigniter)
 
 **Framework Front end**
 - [Vue.js](#vuejs)
@@ -160,6 +162,8 @@ Tính năng chính của Express:
 
 ## [Spring Boot](https://spring.io/projects/spring-boot)
 
+![Spring](https://boxxv.github.io/img/2022/spring-boot.png "Spring")
+
 Spring Boot là một web framework dựa trên `Java`. Nó được tạo ra bởi Spring với mục đích dễ sử dụng và cung cấp một ứng dụng dựa trên Spring ở cấp độ sản xuất mà bạn có thể cần chạy. Có thể nói, Spring boot là bản rút gọn của Spring. Vì thế, bạn cũng
 
 Tính năng chính của Spring Boot:
@@ -168,6 +172,22 @@ Tính năng chính của Spring Boot:
 - Tài liệu tuyệt vời
 - Được xây dựng cho các ứng dụng quy mô lớn sử dụng cách tiếp cận đám mây
 - Hệ sinh thái mở rộng
+
+## [.NET Framework](https://dotnet.microsoft.com)
+
+![.NET](https://boxxv.github.io/img/2022/microsoft-net-framework.jpg ".NET")
+
+.NET Framework là một nền tảng lập trình đồng thời cũng là một nền tảng môi trường để thực thi ứng dụng. .NET Framework được phát triển bởi công ty Microsoft và dùng chủ yếu trên hệ điều hành Windows. Framework .NET cung cấp nhiều thư viện lập trình lớn giúp việc xây dựng chương trình phần mềm dễ dàng hơn. Nó có thể hỗ trợ lập trình viên lập trình giao diện, truy cập/kết nối với các cơ sở dữ liệu, tạo ứng dụng web, cung cấp các thuật toán, cấu trúc giữ liệu,…
+
+.Net Framework đưa ra nhiều thành phần được thiết kế sẵn, giúp việc viết ứng dụng trở nên đơn giản và nhanh chóng hơn. Lập trình viên chỉ cần học cách sử dụng Framework và gắn kết các thành phần lại với nhau tùy theo ý muốn.
+
+
+## [CodeIgniter](https://codeigniter.com)
+
+![CodeIgniter](https://boxxv.github.io/img/2022/codeigniter.svg "CodeIgniter")
+
+Đây là một Framework ứng dụng web mã nguồn mở có ngôn ngữ lập trình `PHP`. CodeIgniter được xây dựng bởi Rick Ellis với phiên bản đầu tiên phát hành ngày 28/02/2006. Hiện nay, Framework này đang được phát triển bởi ExpressionEngine Development Team thuộc EllisLab Inc. Mô hình mà CodeIgniter sử dụng là mô hình MVC.
+
 
 
 ## Framework Front end
@@ -280,8 +300,9 @@ Các đặc trưng của jQuery:
 
 ## [Backbone.js](https://backbonejs.org)
 
-Backbone là thư viện `JavaScript` rất nhỏ nhưng có tổ chức và hiệu quả cao. Jeremy Ashkenas đã tạo ra thư viện này và xuất bản vào năm 2010. Backbone không cung cấp liên kết dữ liệu và tổ chức nó theo nguyên tắc MVC. Vì đây là một thư viện, việc học khá đơn giản, đặc biệt là với các tài liệu phong phú mà nó có. Mặc dù không quá phổ biến, Backbone có thể tạo ra điều phi thường cho các ứng dụng web nhỏ và đơn giản. Các công ty sử dụng Backbone là LinkedIn Mobile, Pandora, AudioVroom.
+![Backbone](https://backbonejs.org/docs/images/backbone.png "Backbone")
 
+Backbone là thư viện `JavaScript` rất nhỏ nhưng có tổ chức và hiệu quả cao. Jeremy Ashkenas đã tạo ra thư viện này và xuất bản vào năm 2010. Backbone không cung cấp liên kết dữ liệu và tổ chức nó theo nguyên tắc MVC. Vì đây là một thư viện, việc học khá đơn giản, đặc biệt là với các tài liệu phong phú mà nó có. Mặc dù không quá phổ biến, Backbone có thể tạo ra điều phi thường cho các ứng dụng web nhỏ và đơn giản. Các công ty sử dụng Backbone là LinkedIn Mobile, Pandora, AudioVroom.
 
 Đặc trưng của Backbon.js:
 - Thân thiện với người mới học
