@@ -145,6 +145,8 @@ Tính năng chính của Phoenix:
 
 ## [Express](https://expressjs.com)
 
+![Express](https://boxxv.github.io/img/2022/Expressjs.png "Express")
+
 Express là một framework nhanh, tối giản cho `Node.js`. Nó cung cấp một layer mỏng của các tính năng ứng dụng web cơ bản, mà không làm mờ đi các tính năng của Node.js. Hơn nữa, nó dễ dàng xây dựng một API mạnh mẽ với sự trợ giúp của các phương thức HTTP khác nhau và các phần mềm trung gian có sẵn. Nhiều fullstack framework và các máy chủ phổ biến sử dụng Express như Feathers, KeystoneJS, MEAN, Sails, v.v. Một vài ví dụ về các trang web lớn sử dụng Express bao gồm: Uber, Accdvisor, IBM.
 
 Tính năng chính của Express:
@@ -289,3 +291,4 @@ Tham khảo:
 - [Những thư viện và framework của JavaScript mà bạn không thể bỏ qua](https://topdev.vn/blog/thu-vien-va-framework-cua-javascript/)
 - [Những thư viện và framework của JavaScript mà bạn không thể bỏ qua](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
 - [Modules, cách tiệp cận tương lai cho thư viện JavaScript](https://code.tutsplus.com/articles/modules-a-future-approach-to-javascript-libraries--cms-21800)
+- [Sự khác biệt giữa Express.js và Node.js](https://funix.edu.vn/hoi-dap-cntt/su-khac-biet-giua-expressjs-va-nodejs/)
