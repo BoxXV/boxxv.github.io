@@ -249,6 +249,16 @@ Vậy tại sao React được toàn thể chú ý như vậy? Với React, hoà
 
 React sử dụng Virtual DOM do đó bạn không cần phải quan tâm đến việc trực tiếp thao tác DOM. Tính năng đáng chú ý khác của React bao gồm các luồng dữ liệu một chiều (one-way data flow), tùy chọn cú pháp JSX và công cụ command-line cho việc tạo ra một dự án React mà không cần cấu hình ban đầu. 
 
+Đặc điểm chính của React là một DOM ảo, nhưng cần phải đề cập rằng đó là liên kết dữ liệu 1 chiều. Nhờ đặc tính DOM ảo, React có được hiệu suất vượt trội. Nếu nói về độ khó, React là một trong những thứ dễ học, dễ hơn nhiều so với Angular. Ngoài việc sử dụng tiêu chuẩn của ứng dụng single page với thư viện thích hợp, ví dụ như Universal, nó cũng có thể tạo một ứng dụng multil-page. React là sự lựa chọn của Netflix, New York Times, Yahoo! Mail, Trình duyệt Vivaldi, Dropbox, PayPal, Pinterest, Timber, Uber và nhiều ứng dụng khác.
+
+Tính năng chính của React:
+- Duy trì bởi Facebook
+- Cộng đồng không ngừng phát triển
+- DOM ảo
+- Hiệu suất cao
+- Thích hợp cho các ứng dụng có lưu lượng truy cập cao
+- Thường được cập nhật
+
 
 ## [jQuery](https://jquery.com)
 
@@ -257,6 +267,15 @@ jQuery là một thư viện làm cho JavaScript dễ tiếp cận hơn và thao
 ![jQuery](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-jQuery.jpg "jQuery")
 
 Tuy nhiên, sự việc đã thay đổi, và môi trường JavaScript đã phát triển nhanh chóng. Vài điểm nổi bật của jQuery đã được tích hợp vào chuẩn ECMAScript mới đây. Hơn nữa, những framework và thư viện mới được dùng ngày nay có cách riêng để gắn kết DOM, và vì thế các kỹ thuật thao tác DOM truyền thống không còn được yêu cầu nữa. Đột phổ biến của jQuery đang giảm dần, nhưng tôi thấy nó sẽ không biến mất sớm đâu.
+
+Điều làm cho jQuery trở nên đặc biệt, so sánh với các khung và thư viện khác, là thư viện này tương thích với tất cả các trình duyệt. Một số công ty sử dụng jQuery là Twitter, Microsoft, Uber, Kickstarter, Pandora, SurveyMonkey.
+
+Các đặc trưng của jQuery:
+- Người mới bắt đầu thân thiện
+- Tương thích với tất cả các trình duyệt
+- Dễ sử dụng
+- Rất nhiều plugin
+- Cộng đồng lớn
 
 
 ## [Backbone.js](https://backbonejs.org)
