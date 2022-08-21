@@ -1,12 +1,26 @@
 ---
 layout: post
 title: Tài nguyên hữu ích cho Front-End developer
-subtitle: <pre>[Draft Updating] Front-End Resources</pre>
+subtitle: <pre>[Updating] Front-End Resources</pre>
 
 tags:
 - Front-End
 ---
 
+
+
+## Top 10 CSS Frameworks phổ biến
+
+- #1. [Bootstrap](https://getbootstrap.com "Framework tiên phong với thiết kế RWD"): Framework tiên phong với thiết kế RWD
+- #2. [Foundation](https://get.foundation "Front-end Framework với các tính năng chuyên nghiệp") Front-end Framework với các tính năng chuyên nghiệp
+- #3. [MUI](https://www.muicss.com "Framework CSS với thiết kế giao diện phẳng"): Framework CSS với thiết kế giao diện phẳng
+- #4. [Semantic UI](https://semantic-ui.com "CSS Framework thân thiện với người dùng"): CSS Framework thân thiện với người dùng
+- #5. [Bulma](https://bulma.io "Framework CSS với cơ chế Module"): Framework CSS với cơ chế Module
+- #6. [Mustard UI](https://mustard-ui.com "Framework CSS mã nguồn mở"): Framework CSS mã nguồn mở
+- #7. [UIKit](https://getuikit.com "Front-end Framework cho các thiết kế UI"): Front-end Framework cho các thiết kế UI
+- #8. [Materialize CSS](https://materializecss.com "CSS Framework với Material Design"): CSS Framework với Material Design
+- #9. [Spectre](https://picturepan2.github.io/spectre/ "Framework CSS với các xu hướng hiện đại"): Framework CSS với các xu hướng hiện đại
+- #10. [Tailwind CSS](https://tailwindcss.com "CSS Framework giúp xây dựng Website nhanh nhất"): CSS Framework giúp xây dựng Website nhanh nhất
 
 
 ## 15 thư viện UI Components tốt nhất cho ReactJS
@@ -86,10 +100,11 @@ Gestalt (Github) là tập hợp các components được xây dựng theo chu�
 Được phát triển bởi Microsoft, Fabric (Github) là thư viện front-end chính thức tương thích hoàn hảo với các ứng dụng của Office và Office 365, được viết bằng Typescript. Với hơn 2.5K stars đáng để trả tiền (quick-start).
 
 
-### 15. [Evergreen](https://evergreen.segment.com/ "https://evergreen.segment.com/")
+### 15. [Evergreen](https://evergreen.segment.com "https://evergreen.segment.com")
 
 Evergreen là design system của Segment.io.
 
+Trên đây là tập hợp những thư viện UI components dành riêng cho React mà Ehkoo biết. Bạn cũng có thể truy cập trang [Adele](https://adele.uxpin.com) để xem tổng hợp các hệ thống thiết kế khác.
 
 -----
 
@@ -107,9 +122,15 @@ Tham khảo:
 -----
 - [Các nguồn tài nguyên hữu ích cho 1 front-end developer](https://fullstack.edu.vn/blog/cac-nguon-tai-nguyen-huu-ich-cho-1-front-end-developer.html)
 - [Tổng hợp công cụ hữu ích cho Frontend dev và Designer](https://viblo.asia/p/tong-hop-cong-cu-huu-ich-cho-frontend-dev-va-designer-vyDZOP4xlwj)
-- [1 số UI component và layout hữu ích với Frontend ](https://viblo.asia/p/1-so-ui-component-va-layout-huu-ich-voi-frontend-RQqKLqwmZ7z)
+- [1 số UI component và layout hữu ích với Frontend](https://viblo.asia/p/1-so-ui-component-va-layout-huu-ich-voi-frontend-RQqKLqwmZ7z)
+- [23 Best React UI Component Frameworks](https://viblo.asia/p/23-best-react-ui-component-frameworks-bWrZn10wKxw)
+- [23 Best React UI Component Libraries And Frameworks](https://hackernoon.com/23-best-react-ui-component-libraries-and-frameworks-250a81b2ac42)
+- [23 React Component Libraries that are Worth Trying](https://technostacks.com/blog/react-component-libraries/)
+- [15 Best React UI Component Frameworks In 2022](https://www.sencha.com/blog/15-best-react-ui-component-frameworks-in-2022/)
 - [15 thư viện UI Components tốt nhất cho ReactJS](https://viblo.asia/p/15-thu-vien-ui-components-tot-nhat-cho-reactjs-maGK7pDMZj2)
+- [10+ thư viện UI components cho React](https://ehkoo.com/bai-viet/10-thu-vien-ui-components-cho-react)
 - [13 thư viện component đáng chú ý cho Vue UI](https://viblo.asia/p/13-thu-vien-component-dang-chu-y-cho-vue-ui-Eb85oyvkZ2G)
+- [Top 10 `CSS Frameworks` tốt nhất cho Front-end 2019](https://freelancervietnam.vn/top-10-css-frameworks-tot-nhat-cho-front-end-2019/)
 - [Một số tool hữu ích dành cho web developer có thể bạn chưa biết (Phần 1)](https://viblo.asia/p/mot-so-tool-huu-ich-danh-cho-web-developer-co-the-ban-chua-biet-phan-1-1VgZvon9lAw)
 - [Một số tool hữu ích dành cho web developer có thể bạn đã biết (Phần 2)](https://viblo.asia/p/mot-so-tool-huu-ich-danh-cho-web-developer-co-the-ban-da-biet-phan-2-Az45bQjwlxY)
 
