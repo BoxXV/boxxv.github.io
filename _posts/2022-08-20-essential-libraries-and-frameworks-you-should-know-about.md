@@ -279,6 +279,19 @@ Một số tính năng:
 - Tự động tách mã, định tuyến dựa trên hệ thống tệp và tải lại hot code. Các trang được render chỉ với các thư viện và JavaScript mà chúng cần. Thay vì tạo một tệp JavaScript duy nhất chứa tất cả mã ứng dụng, ứng dụng được chia tự động bởi Next.js trong một số tài nguyên khác nhau.
 
 
+## [Aurelia](https://aurelia.io)
+
+![Aurelia](https://boxxv.github.io/img/2022/Aurelia-web-Framework.jpg "Aurelia")
+
+Aurelia là JS framework cho front-end. Nó được coi là một trong những framework sạch nhất mọi thời đại với các tiêu chuẩn web lý tưởng. Aurelia tự coi mình là một framework thế hệ mới với khả năng tạo ra các trang web mạnh mẽ và hoàn hảo.
+
+Một số tính năng của Aurelia:
+- Aurelia cho phép liên kết phản ứng mạnh mẽ với bất kỳ đối tượng nào. Bằng cách sử dụng các kỹ thuật thích ứng, Aurelia chọn cách hiệu quả nhất để quan sát từng thuộc tính trong mô hình của bạn và tự động đồng bộ hóa giao diện người dùng và trạng thái của bạn với hiệu suất tốt nhất.
+- Aurelia là một open-source framework. Tức là các lập trình viên khi sử dụng sẽ nhận được nhiều sự hỗ trợ từ Cộng đồng Aurelia.
+- Framework này có khả năng mở rộng cao. Bạn có thể dễ dàng thêm hoặc rút bất kỳ công cụ khác (JQuery, React) với framework này.
+- Là một framework hoàn toàn độc lập và có nhiều công cụ tích hợp hữu ích.
+
+
 # II. Thư viện
 
 ![Web Library](https://boxxv.github.io/img/2022/Grafika-31.01.22-1024x384.png "Web Library")
