@@ -44,10 +44,13 @@ tags:
 - #2. [React](#react)
 - #3. [Angular](#angular)
 - #4. [Ember.js](#emberjs)
-- #5. [Next.Js](#nextjs)
+- #5. [Next.js](#nextjs)
 - #6. [Aurelia](#aurelia)
-- #7. [Riot.Js](#riotjs)
-- #8. [WebRx](#webrx)
+- #7. [Riot.js](#riotjs)
+- [Meteor](https://www.meteor.com) Meteor là một nền tảng được xây dựng trên môi trường Node.js, cho phép tạo ra các ứng dụng web theo thời gian thực. Meteor đảm bảo việc đồng bộ thông tin giữa cơ sở dữ liệu của ứng dụng và giao diện người dùng. Chính vì được xây dựng trên nền Node.js nên Meteor sử dụng JavaScript trên cả máy khách và máy chủ.
+- [Mithril]https://mithril.js.org) Mithril là một client-framework theo mô hình MVC, dùng để tổ chức code một cách dễ dàng, sáng sủa để đọc hiểu, cũng là dễ bảo trì hơn sau này.
+- [Polymer]https://polymer-library.polymer-project.org/) Polymer JS là một thư viện Javascript mã nguồn mở còn khá mới mẻ, được tạo bởi ông lớn Google, ra đời lần đầu tiên vào 27-05-2015. Polymer JS cho phép tái sử dụng các phần tử HTML để xây dựng, cung cấp các trình ứng dụng tương thích chéo trình duyệt cùng với các web components như menu, toolbar, map,…
+- [<del>WebRx</del>](#webrx)
 
 
 ### [II. Thư viện](#i-thư-viện)
@@ -290,6 +293,23 @@ Một số tính năng của Aurelia:
 - Aurelia là một open-source framework. Tức là các lập trình viên khi sử dụng sẽ nhận được nhiều sự hỗ trợ từ Cộng đồng Aurelia.
 - Framework này có khả năng mở rộng cao. Bạn có thể dễ dàng thêm hoặc rút bất kỳ công cụ khác (JQuery, React) với framework này.
 - Là một framework hoàn toàn độc lập và có nhiều công cụ tích hợp hữu ích.
+
+
+## [Riot.Js](https://riot.js.org)
+
+![Riot](https://riot.js.org/img/logo/riot-logo.svg "Riot")
+
+Riot.Js tập trung vào việc cung cấp cho người dùng kiến trúc đơn giản và hiệu quả nhất.
+
+Một số tính năng:
+- Riot.Js cho phép người dùng áp dụng các thẻ HTML tùy chỉnh trên tất cả các trang và ứng dụng web. Bạn cũng có thể sử dụng lại các thẻ đó.
+- Framework này tương tự như polymer và Reac.js. Tuy nhiên, so với hai framework kia, Riot.Js có tổ chức và nhỏ gọn hơn.
+- Framekwork này tập trung cao độ vào các chức năng vi mô cho phép bạn làm việc cá nhân với các ứng dụng khác nhau cùng một lúc.
+
+
+## [WebRx](https://riot.js.org)
+
+![WebRx](https://riot.js.org/img/logo/riot-logo.svg "WebRx")
 
 
 # II. Thư viện
