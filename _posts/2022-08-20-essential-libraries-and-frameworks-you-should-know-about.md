@@ -49,16 +49,39 @@ tags:
 - #7. [Riot.js](#riotjs)
 - [Meteor](https://www.meteor.com) Meteor là một nền tảng được xây dựng trên môi trường Node.js, cho phép tạo ra các ứng dụng web theo thời gian thực. Meteor đảm bảo việc đồng bộ thông tin giữa cơ sở dữ liệu của ứng dụng và giao diện người dùng. Chính vì được xây dựng trên nền Node.js nên Meteor sử dụng JavaScript trên cả máy khách và máy chủ.
 - [Mithril]https://mithril.js.org) Mithril là một client-framework theo mô hình MVC, dùng để tổ chức code một cách dễ dàng, sáng sủa để đọc hiểu, cũng là dễ bảo trì hơn sau này.
-- [Polymer]https://polymer-library.polymer-project.org/) Polymer JS là một thư viện Javascript mã nguồn mở còn khá mới mẻ, được tạo bởi ông lớn Google, ra đời lần đầu tiên vào 27-05-2015. Polymer JS cho phép tái sử dụng các phần tử HTML để xây dựng, cung cấp các trình ứng dụng tương thích chéo trình duyệt cùng với các web components như menu, toolbar, map,…
 - [<del>WebRx</del>](#webrx)
 
 
 ### [II. Thư viện](#i-thư-viện)
-- [React](#react)
-- [Redux ](#redux)
-- [jQuery](#jquery)
-- [Backbone.js](#backbonejs)
-- [D3.js](#d3js-data-driven-documents)
+- #1. [jQuery](#jquery)
+- #2. [React](#react)
+- #3. [Redux ](#redux)
+- #4. [Backbone.js](#backbonejs)
+- #5. [D3.js](#d3js-data-driven-documents)
+- #6. [Underscore.js](https://underscorejs.org)
+- #7. [Lodash](https://lodash.com)
+- #8. [Algolia Places](https://www.algolia.com/ref/places/)
+- #9. [Anime.js](https://animejs.com)
+- #10. [Animate On Scroll (AOS)](https://michalsnik.github.io/aos/)
+- #11. [Bideo.js](https://rishabhp.github.io/bideo.js)
+- #12. [Chart.js](https://www.chartjs.org)
+- #13. [Cleave.js](https://nosir.github.io/cleave.js)
+- #14. [Choreographer.js](https://christinecha.github.io/choreographer-js/)
+- #15. [Glimmer](https://glimmerjs.com)
+- #16. [Granim.js](https://sarcadass.github.io/granim.js/)
+- #17. [fullPage.js](https://github.com/alvarotrigo/fullPage.js/)
+- #18. [Leaflet](https://leafletjs.com)
+- #19. [Multiple.js](https://multiple.js.org)
+- #20. [Moment.js](https://momentjs.com)
+- #21. [Masonry](https://masonry.desandro.com/)
+- #22. [Omniscient](http://omniscientjs.github.io)
+- #23. [Parsley](http://parsleyjs.org)
+- #24. [Popper.js](https://popper.js.org)
+- #25. [Three.js](https://threejs.org)
+- #26. [Screenfull.js](https://github.com/sindresorhus/screenfull)
+- #27. [Polymer](https://polymer-library.polymer-project.org/)
+- #28. [Voca](https://vocajs.com/)
+
 
 -----
 
@@ -413,7 +436,7 @@ Tham khảo:
 - [Top 10 Frameworks for Web Application Development](https://www.decipherzone.com/blog-detail/top-web-frameworks)
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
-- [The 40 Best JavaScript Libraries and Frameworks for 2021](https://kinsta.com/blog/javascript-libraries/)
+- [The 40 Best JavaScript Libraries and Frameworks for 2022](https://kinsta.com/blog/javascript-libraries)
 - [42 Thư Viện Và Framework Javascript Hay Dành Cho Front-end Developer](https://www.niemvuilaptrinh.com/article/20-thu-vien-javascript-danh-cho-front-end-developer)
 - [Essential JavaScript Libraries and Frameworks You Should Know About](https://www.4elements.com/nl/blog/read/essential_javascript_libraries_and_frameworks_you_should_know_about/)
 - [Top 5 JavaScript frameworks cho Lập trình Front-end 2020](https://nordiccoder.com/blog/javascript-frameworks/)
