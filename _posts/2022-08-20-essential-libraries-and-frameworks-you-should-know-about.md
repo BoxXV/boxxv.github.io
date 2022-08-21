@@ -57,6 +57,8 @@ Trong bài viết này, chúng ta sẽ xem xét kỹ hơn về cả các web fra
 
 # I. Frameworks
 
+![Web Frameworks](https://boxxv.github.io/img/2022/architecture-framework-libraries.png "Web Frameworks")
+
 Một framework là một kiến trúc kiểm soát luồng đi của data trong ứng dụng của bạn. Framework hình thành cấu trúc cơ bản và cho bạn biết mọi thứ nên được tổ chức ra sao. Chức năng cơ bản để giúp ứng dụng lập tức vận hành cũng được cung cấp. Hơn thế nữa, bạn bị ràng buộc phải tuân theo các pattern và quy luật mà framwork thiết kế.
 
 Sự khác biệt giữa framework và thư viên là bạn gọi một thư viện thì framework sẽ gọi bạn. Một framework chứa đựng nhiều thư viện và có hình thái cấp độ cao hơn. Chức năng như event binding, gọi AJAX, template và data binding, và testing được xây dựng bên trọng framework.
@@ -172,16 +174,26 @@ Tính năng chính của Spring Boot:
 
 ## [Vue.js](https://vuejs.org)
 
-Vue.js là một framework JavaScript nhỏ gọn đã xuất hiện theo xu thế năm nay. Nó là một framework JavaScript phổ biến trên GitHub tính theo lượng sao trên GitHub. Vue tuyên bố là một framework không quá cứng nhắc và do đó giúp nhà phát triển dễ dàng nắm bắt. Các mẫu cú pháp HTML của Vue gắn kết phần DOM đã render với giá trị của dữ liệu.
+Vue.js là một framework `JavaScript` nhỏ gọn đã xuất hiện theo xu thế năm nay. Nó là một framework JavaScript phổ biến trên GitHub tính theo lượng sao trên GitHub. Vue tuyên bố là một framework không quá cứng nhắc và do đó giúp nhà phát triển dễ dàng nắm bắt. Các mẫu cú pháp HTML của Vue gắn kết phần DOM đã render với giá trị của dữ liệu.
 
 ![Vue](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Vuejs.jpg "Vue")
 
 Framework này cung cấp trải nghiệm như React với những Virtual DOM của nó và các component có thể tái sử dụng giúp bạn tạo ra cả widgets và toàn bộ ứng dụng web. Hơn nữa, bạn cũng có thể dùng cú pháp JSX để viết phần chức năng render trực tiếp. Khi trang thái thay đổi, Vue,js sẽ một hệ thống phản ứng để xác định rằng điều gì đã thay đổi và render só lượng nhỏ nhất các component. Vue.js cũng hỗ trợ tích hợp những thư viện khác vào framework mà không cần tốn công sức nhiều.
 
+Vue không có sự hỗ trợ của các công ty lớn, ban đầu, nó được phát triển bởi Evan You, người đã tham gia phát triển AngularJS. Vue ra mắt lần đầu tiên vào năm 2014. Vue là một visual DOM dựa trên các component, chính vì thế, nó rất nhanh. Một điểm quan trọng khác là nó có kích thước nhỏ hơn đáng kể so với React và Angular. Ngoài ra, framework này cũng là ràng buộc 2 chiều. Điều làm cho Vue trở nên độc đáo đó là: Nó là một trong những Framework JavaScript ĐƠN GIẢN NHẤT. Người sáng tạo ra nó đã nỗ lực làm cho nó đơn giản nhất có thể, nó cố gắng thay đổi khái niệm phức tạp mà AngularJS có. Vue rất thân thiện cho người mới bắt đầu học với tài liệu chi tiết và một cộng đồng đang phát triển nhanh chóng. Framework này có mục đích rộng, từ ứng dụng web đến thiết bị di động và PWA. Nó tương tự như React, nó phù hợp với các loại dự án khác nhau, từ các ứng dụng trang đơn giản đến các ứng dụng phức tạp và năng động hơn. Ngoại trừ hiệu năng cao và đơn giản, Vue có sự hỗ trợ của nhiều component làm tăng thêm giá trị của nó. Vue.js được sử dụng trong số các ứng dụng khác trong các ứng dụng như Xiaomi, Alibaba, Gitlab, Laracasts, Reuters, 9gag
+
+Đặc trưng của Vue.js:
+- Thân thiện với người mới học
+- Phổ biến và cộng đồng đang phát triển nhanh
+- Cú pháp đơn giản
+- Uyển chuyển
+- Hỗ trợ TypeScript
+- Hiệu suất cao
+
 
 ## [Angular](https://angular.io)
 
-AngularJS là một trong những công nghệ JavaScript phổ biến nhất trong giới phát triển Front-End. Nó được hậu thuẫn bởi Google và một cộng đồng gồm nhiều cá nhân và tổ chức khác. Mặc cho sự phổ biến, AngularJS cũng từng có những sai sót của nó. Nhóm Angular đã bỏ ra 2 năm làm ra một phiên bản mới, cuối cùng đã ra mắt và tháng 9 2016.
+AngularJS là một trong những công nghệ `JavaScript` phổ biến nhất trong giới phát triển Front-End. Nó được hậu thuẫn bởi Google và một cộng đồng gồm nhiều cá nhân và tổ chức khác. Mặc cho sự phổ biến, AngularJS cũng từng có những sai sót của nó. Nhóm Angular đã bỏ ra 2 năm làm ra một phiên bản mới, cuối cùng đã ra mắt và tháng 9 2016.
 
 ![Angular](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Angular.jpg "Angular")
 
@@ -193,6 +205,15 @@ Angular 2 xuất xưởng là một phiên bản viết lại từ đầu của 
 - chọn lựa tốt hơn cho tooling và scaffolding
 
 Tuy nhiên, nâng cấp từ Angular 1.x sang Angular 2.x khá là xa xỉ vì Angular 2 là một con thú hoàn toàn khác biệt. Đó là lý do cho việc tại sao Angular 2 chưa có tỉ lệ thực nghiệm cao như người tiền nhiệm của nó. Nhưng Angular và AngularJS vẫn tiếp tục là một công nghệ phổ dụng nhất dựa theo Stack Overflow 2017. Dự án Angular nhận được 28,000 sao trên GitHub.
+
+Học Angular rất khó mặc dù tài liệu và cộng đồng rất nhiều. Các tài liệu thậm chí còn khó hiểu hơn, đặc biệt là cho người mới bắt đầu. Ngoài Google, Angular còn sử dụng Microsoft Office Home, Forbes, Blender Video, Xbox, Santander Bank và BMW.
+
+Đặc trưng của Angular:
+- Cộng đồng mạnh mẽ,
+- Ràng buộc dữ liệu 2 chiều,
+- Ứng dụng trang đơn giản,
+- Shadow DOM
+- TypeScript
 
 
 ## [Ember.js](https://emberjs.com)
@@ -210,6 +231,8 @@ Ember thông thường gồm có:
 
 
 # II. Thư viện
+
+![Web Library](https://boxxv.github.io/img/2022/Grafika-31.01.22-1024x384.png "Web Library")
 
 Một thư viện là các code có thể sử dụng lại để thực hiện những chắc năng cụ thể. Nó là một tập hợp những hàm, đối tượng, và class bạn có thể dùng trong ứng dụng của bạn. Một thư viện tách ra những layer khác nhau vì thế bạn không phải quan tâm đến các chi tiết khi triển khai.
 
