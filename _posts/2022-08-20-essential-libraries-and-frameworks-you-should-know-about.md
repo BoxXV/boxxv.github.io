@@ -66,6 +66,8 @@ Sự khác biệt giữa framework và thư viên là bạn gọi một thư vi�
 
 ## [Laravel](https://laravel.com)
 
+![Laravel](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg "Laravel")
+
 Laravel là một Framework back end dựa trên `PHP`, nó có cú pháp đẹp, khả năng phục vụ các team lớn với nhiều chức năng và công cụ hiện đại. Laravel tuân theo mô hình kiến ​​trúc MVC và được xây dựng để tạo điều kiện phát triển dự án sâu, rộng. Laravel cũng cung cấp hệ thống di chuyển cơ sở dữ liệu của riêng mình và có một hệ sinh thái mạnh mẽ.
 
 Tính năng chính của Laravel:
@@ -76,6 +78,8 @@ Tính năng chính của Laravel:
 
 
 ## [CakePHP](https://cakephp.org)
+
+![CakePHP](https://cakephp.org/img/trademarks/logo-2.jpg "CakePHP")
 
 CakePHP là một trong những Framework `PHP` đầu tiên được phát hành trước năm 2005. Kể từ đó, CakePHP đã đi được một chặng đường dài và hiện tại được coi như một Web Framework hiện đại cho phép phát triển nhanh chóng. CakePHP sử dụng qui ước MVC conventions và có khả năng mở rộng cao khiến nó trở thành lựa chọn rất tốt để xây dựng từ website nhỏ cho đến lớn.
 
@@ -88,6 +92,8 @@ Tính năng chính của CakePHP:
 
 ## [Django](https://www.djangoproject.com)
 
+![Django](https://boxxv.github.io/img/2022/django.png "Django")
+
 Django là một Framework `Python` cấp cao được xây dựng với ý tưởng kèm theo các "batteries included". Có nghĩa là hầu hết mọi thứ mà một lập trình viên muốn có đều có sẵn mặc định. Do đó, bạn ít phải cài các plugin của bên thứ ba và yên tâm khi mọi thứ trong Django hoạt động nhịp nhàng cùng nhau. Một vài ví dụ về các trang web lớn được xây dựng trên Django bao gồm: Disqus, Mozilla, National Geographic, Pinterest.
 
 Tính năng chính của Django:
@@ -98,6 +104,8 @@ Tính năng chính của Django:
 
 
 ## [Ruby on Rails](https://rubyonrails.org)
+
+![Ruby on Rails](https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png "Ruby on Rails")
 
 Ruby on Rails là một Web Framework phía máy chủ được viết bằng ngôn ngữ lập trình `Ruby`. Nó cung cấp một thiết kế và triết lý tương tự như Django, tuy nhiên, nó có thiết lập quen thuộc hơn nhiều cho các lập trình viên Ruby. Ruby khuyến khích sử dụng các mẫu thiết kế (design pattern) như MVC (MVC là gì?) và DRY (Đừng lặp lại chính mình). Một vài ví dụ về các trang web lớn được xây dựng trên Ruby on Rails bao gồm: Shopify, SoundCloud, Basecamp, GitHub.
 
