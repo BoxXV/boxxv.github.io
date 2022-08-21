@@ -118,6 +118,8 @@ Tính năng chính của Ruby on Rails:
 
 ## [Flask](https://flask.palletsprojects.com)
 
+![Flask](https://flask.palletsprojects.com/en/2.2.x/_images/flask-logo.png "Flask")
+
 Flask là một Framework khác dựa trên `Python`. Tuy nhiên, không giống như Django, Flask nhẹ và phù hợp hơn cho việc phát triển các **dự án nhỏ hơn**. Flask cung cấp hỗ trợ cho những thứ như tạo Jinja2 templating, secure cookie, unit testing và RESTful requets dispatching.
 
 Tính năng chính của Flask:
@@ -128,6 +130,8 @@ Tính năng chính của Flask:
 
 
 ## [Phoenix](https://www.phoenixframework.org)
+
+![Phoenix](https://boxxv.github.io/img/2022/1WvDl2WlPs7cR8TTBvrjpyw.png "Phoenix")
 
 Phoenix là một Framework Back end hoạt động với Máy ảo Erlang và được viết bằng `Elixir`. Thực tế, Elixir là một ngôn ngữ lập trình hàm, nó có thể không phổ biến như các ngôn ngữ hướng đối tượng khác tuy nhiên nó được thiết kế để xây dựng các ứng dụng có thể mở rộng và có thể bảo trì. Phoenix sử dụng kết hợp các công nghệ đã được thử và đúng với các ý tưởng mới về lập trình chức năng.
 
