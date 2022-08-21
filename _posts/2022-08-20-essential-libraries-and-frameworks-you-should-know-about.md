@@ -47,8 +47,12 @@ tags:
 - #5. [Next.js](#nextjs)
 - #6. [Aurelia](#aurelia)
 - #7. [Riot.js](#riotjs)
-- [Meteor](https://www.meteor.com) Meteor là một nền tảng được xây dựng trên môi trường Node.js, cho phép tạo ra các ứng dụng web theo thời gian thực. Meteor đảm bảo việc đồng bộ thông tin giữa cơ sở dữ liệu của ứng dụng và giao diện người dùng. Chính vì được xây dựng trên nền Node.js nên Meteor sử dụng JavaScript trên cả máy khách và máy chủ.
-- [Mithril](https://mithril.js.org) Mithril là một client-framework theo mô hình MVC, dùng để tổ chức code một cách dễ dàng, sáng sủa để đọc hiểu, cũng là dễ bảo trì hơn sau này.
+- #8. [Mocha](https://mochajs.org)
+- #9. [Ionic](https://ionicframework.com)
+- #10. [Webix](https://webix.com)
+- #11. [Gatsby](https://www.gatsbyjs.com)
+- #12. [Meteor](https://www.meteor.com) Meteor là một nền tảng được xây dựng trên môi trường Node.js, cho phép tạo ra các ứng dụng web theo thời gian thực. Meteor đảm bảo việc đồng bộ thông tin giữa cơ sở dữ liệu của ứng dụng và giao diện người dùng. Chính vì được xây dựng trên nền Node.js nên Meteor sử dụng JavaScript trên cả máy khách và máy chủ.
+- #13.[Mithril](https://mithril.js.org) Mithril là một client-framework theo mô hình MVC, dùng để tổ chức code một cách dễ dàng, sáng sủa để đọc hiểu, cũng là dễ bảo trì hơn sau này.
 - [<del>WebRx</del>](#webrx)
 
 
@@ -82,6 +86,13 @@ tags:
 - #27. [Polymer](https://polymer-library.polymer-project.org/)
 - #28. [Voca](https://vocajs.com/)
 
+### III. Tools
+- [Slick](http://kenwheeler.github.io/slick/)
+- [Babel](https://babeljs.io)
+- [iziModal](https://izimodal.marcelodolza.com)
+- [ESLint](https://eslint.org)
+- [Shave](https://dollarshaveclub.github.io/shave/)
+- [Webpack](https://webpack.js.org)
 
 -----
 
