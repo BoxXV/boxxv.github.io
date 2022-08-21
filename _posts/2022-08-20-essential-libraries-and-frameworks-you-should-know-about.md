@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thư Viện Và Framework Javascript quan trọng bạn cần biết 2022
+title: Thư Viện Và Framework quan trọng bạn cần biết 2022
 subtitle: The Best Libraries and Frameworks for 2022
 
 tags:
@@ -40,13 +40,19 @@ tags:
 - #11. [Symfony](#symfony)
 
 **Framework Front end**
-- [Vue.js](#vuejs)
-- [Angular](#angular)
-- [Ember.js](#emberjs)
+- #1. [Vue.js](#vuejs)
+- #2. [React](#react)
+- #3. [Angular](#angular)
+- #4. [Ember.js](#emberjs)
+- #5. [Next.Js](#nextjs)
+- #6. [Aurelia](#aurelia)
+- #7. [Riot.Js](#riotjs)
+- #8. [WebRx](#webrx)
 
 
 ### [II. Thư viện](#i-thư-viện)
 - [React](#react)
+- [Redux ](#redux)
 - [jQuery](#jquery)
 - [Backbone.js](#backbonejs)
 - [D3.js](#d3js-data-driven-documents)
@@ -261,6 +267,18 @@ Ember thông thường gồm có:
 - Liquid Fire: Một add-on cho việc chuyển đổi và hoạt hình.
 
 
+## [Next.Js](https://nextjs.org)
+
+![Next.Js](https://boxxv.github.io/img/2022/nextjs.svg "Next.Js")
+
+Next.Js được xây dựng chủ yếu để phát triển các ứng dụng web có khả năng tùy biến cao. Nó được quảng cáo là một chuỗi công cụ lệnh đơn và không cấu hình cho các ứng dụng React.
+
+Một số tính năng:
+- Next.Js cho phép bạn phát triển các ứng dụng với JavaScript và React.Js. Xây dựng ứng dụng với Next.Js cực kỳ dễ dàng và đơn giản.
+- Tối ưu hóa cho việc xây dựng các dự án với kích thước nhỏ, biên dịch dev nhanh hơn và hàng tá cải tiến khác.
+- Tự động tách mã, định tuyến dựa trên hệ thống tệp và tải lại hot code. Các trang được render chỉ với các thư viện và JavaScript mà chúng cần. Thay vì tạo một tệp JavaScript duy nhất chứa tất cả mã ứng dụng, ứng dụng được chia tự động bởi Next.js trong một số tài nguyên khác nhau.
+
+
 # II. Thư viện
 
 ![Web Library](https://boxxv.github.io/img/2022/Grafika-31.01.22-1024x384.png "Web Library")
@@ -271,6 +289,8 @@ Và bạn có thể gọi một hàm từ thư viện và đưa các tham số, 
 
 
 ## [React](https://reactjs.org)
+
+React không phải là một framework, đó là thư viện, nhưng nhiều lập trình viên thường xem xét nó như một framework.
 
 React là một thư viện được xây dựng cho các nhà phát triển của Facebook và Instagram. React được bầu chọn là một công nghệ được yêu thích nhất của các nhà phát triển, dựa theo khảo sát của Stack Overflow 2017. React cũng có uy tín trở thành một dự án JavaScript phổ biến nhất dựa trên số sao đếm được từ GitHub.
 
@@ -356,6 +376,8 @@ Quan trọng là lựa chọn của bạn! Còn các **Web Framework tốt** đ�
 Tham khảo:
 - [Các Web Framework tốt nhất 2022](https://niithanoi.edu.vn/web-framework-tot-nhat.html)
 - [Top 7 frameworks thiết kế web mới được ưa chuộng năm 2022](https://blog.webico.vn/top-7-frameworks-thiet-ke-web-moi-duoc-ua-chuong-nam/)
+- [Framework Web Development hot nhất](https://hri.com.vn/framework-web-development-hot-nhat/)
+- [Top 10 Frameworks for Web Application Development](https://www.decipherzone.com/blog-detail/top-web-frameworks)
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
 - [The 40 Best JavaScript Libraries and Frameworks for 2021](https://kinsta.com/blog/javascript-libraries/)
