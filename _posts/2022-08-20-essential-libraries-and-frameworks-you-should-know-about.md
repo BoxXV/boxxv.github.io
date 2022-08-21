@@ -35,8 +35,9 @@ tags:
 - #6. [Phoenix](#phoenix)
 - #7. [Express](#express)
 - #8. [Spring Boot](#spring-boot)
-- #9. [.NET Framework](#.net-framework)
+- #9. [.NET Framework](#net-framework)
 - #10. [CodeIgniter](#codeigniter)
+- #11. [Symfony](#symfony)
 
 **Framework Front end**
 - [Vue.js](#vuejs)
@@ -188,6 +189,16 @@ Tính năng chính của Spring Boot:
 
 Đây là một Framework ứng dụng web mã nguồn mở có ngôn ngữ lập trình `PHP`. CodeIgniter được xây dựng bởi Rick Ellis với phiên bản đầu tiên phát hành ngày 28/02/2006. Hiện nay, Framework này đang được phát triển bởi ExpressionEngine Development Team thuộc EllisLab Inc. Mô hình mà CodeIgniter sử dụng là mô hình MVC.
 
+
+## [Symfony](https://symfony.com)
+
+![Symfony](https://symfony.com/images/logos/header-logo.svg "Symfony")
+
+Symfony là framework được viết bằng ngôn ngữ `PHP` khá phù hợp với các dự án, công trình quy mô lớn, hoặc nói cách khác là các dự án cấp doanh nghiệp phức tạp.
+
+Phiên bản Symphony 3.1 hiện tại hỗ trợ các lập trình viên phát triển một trang web có thể mở rộng linh hoạt với các yêu cầu kinh doanh đa dạng.
+
+Symfony cũng có thể làm việc với  các nền tảng nguồn mở khác như Drupal, Piwik và PHPBB.
 
 
 ## Framework Front end
@@ -344,6 +355,7 @@ Quan trọng là lựa chọn của bạn! Còn các **Web Framework tốt** đ�
 -----
 Tham khảo:
 - [Các Web Framework tốt nhất 2022](https://niithanoi.edu.vn/web-framework-tot-nhat.html)
+- [Top 7 frameworks thiết kế web mới được ưa chuộng năm 2022](https://blog.webico.vn/top-7-frameworks-thiet-ke-web-moi-duoc-ua-chuong-nam/)
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
 - [The 40 Best JavaScript Libraries and Frameworks for 2021](https://kinsta.com/blog/javascript-libraries/)
