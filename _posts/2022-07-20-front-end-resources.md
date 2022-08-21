@@ -170,6 +170,7 @@ Tham khảo:
 - [10+ thư viện UI components cho React](https://ehkoo.com/bai-viet/10-thu-vien-ui-components-cho-react)
 - [13 thư viện component đáng chú ý cho Vue UI](https://viblo.asia/p/13-thu-vien-component-dang-chu-y-cho-vue-ui-Eb85oyvkZ2G)
 - [Top 10 `CSS Frameworks` tốt nhất cho Front-end 2019](https://freelancervietnam.vn/top-10-css-frameworks-tot-nhat-cho-front-end-2019/)
+- [Top 05 CSS Frameworks tốt nhất cho lập trình Front-end 2021](https://t3h.com.vn/tin-tuc/css-frameworks)
 - [Một số tool hữu ích dành cho web developer có thể bạn chưa biết (Phần 1)](https://viblo.asia/p/mot-so-tool-huu-ich-danh-cho-web-developer-co-the-ban-chua-biet-phan-1-1VgZvon9lAw)
 - [Một số tool hữu ích dành cho web developer có thể bạn đã biết (Phần 2)](https://viblo.asia/p/mot-so-tool-huu-ich-danh-cho-web-developer-co-the-ban-da-biet-phan-2-Az45bQjwlxY)
 
@@ -180,7 +181,10 @@ Tham khảo:
 - [https://viblo.asia/u/cuonghv](https://viblo.asia/u/cuonghv)
 - [[Frontend] Tìm hiểu 2 thư viện vẽ Chart mới nổi lên gần đây](https://viblo.asia/p/frontend-tim-hieu-2-thu-vien-ve-chart-moi-noi-len-gan-day-gGJ59AB15X2)
 - [Phát triển UI cho dự án Frontend với Storybook](https://viblo.asia/p/phat-trien-ui-cho-du-an-frontend-voi-storybook-eW65GEWLZDO)
+- [Giới thiệu Framework TailwindCSS](https://viblo.asia/p/gioi-thieu-framework-tailwindcss-Eb85oxy4K2G)
 - [Cài đặt taillwind css cho dự án React](https://viblo.asia/p/cai-dat-taillwind-css-cho-du-an-react-V3m5WdEyKO7)
+- [How to Setup Tailwind CSS Framework with React](https://viblo.asia/p/how-to-setup-tailwind-css-framework-with-react-yMnKMvYzZ7P)
+- [Tích hợp Tailwind CSS vào dự án Laravel](https://viblo.asia/p/tich-hop-tailwind-css-vao-du-an-laravel-maGK7GoMKj2)
 
 -----
 - [Những nguyên tắc cơ bản nên áp dụng khi làm Responsive cho Website](https://viblo.asia/p/nhung-nguyen-tac-co-ban-nen-ap-dung-khi-lam-responsive-cho-website-07LKX282lV4)
