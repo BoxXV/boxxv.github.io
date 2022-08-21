@@ -9,11 +9,11 @@ tags:
 
 ### Front-End Developer Handbook
 
-https://webitcloud.net/ioEduc/drive/Book/front-end-handbook-2017.pdf
+[https://webitcloud.net/ioEduc/drive/Book/front-end-handbook-2017.pdf](https://webitcloud.net/ioEduc/drive/Book/front-end-handbook-2017.pdf)
 
-https://adas.az/uploads/catalog/Files/0776-front-end-developer-handbook-2018.pdf
+[https://adas.az/uploads/catalog/Files/0776-front-end-developer-handbook-2018.pdf](https://adas.az/uploads/catalog/Files/0776-front-end-developer-handbook-2018.pdf)
 
-https://frontendmasters.com/guides/front-end-handbook/2019/
+[https://frontendmasters.com/guides/front-end-handbook/2019/](https://frontendmasters.com/guides/front-end-handbook/2019/)
 
 
 ## 15 thư viện UI Components tốt nhất cho ReactJS
