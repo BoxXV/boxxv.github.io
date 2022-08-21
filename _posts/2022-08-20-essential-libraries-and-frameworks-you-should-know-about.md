@@ -447,6 +447,7 @@ Tham khảo:
 - [Top 10 Frameworks for Web Application Development](https://www.decipherzone.com/blog-detail/top-web-frameworks)
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
+- [26 Best Backend and Frontend Web Development Frameworks for 2022](https://www.globalmediainsight.com/blog/web-development-frameworks/)
 - [The 40 Best JavaScript Libraries and Frameworks for 2022](https://kinsta.com/blog/javascript-libraries)
 - [42 Thư Viện Và Framework Javascript Hay Dành Cho Front-end Developer](https://www.niemvuilaptrinh.com/article/20-thu-vien-javascript-danh-cho-front-end-developer)
 - [Essential JavaScript Libraries and Frameworks You Should Know About](https://www.4elements.com/nl/blog/read/essential_javascript_libraries_and_frameworks_you_should_know_about/)

@@ -11,16 +11,55 @@ tags:
 
 ## Top 10 CSS Frameworks phổ biến
 
-- #1. [Bootstrap](https://getbootstrap.com "Framework tiên phong với thiết kế RWD"): Framework tiên phong với thiết kế RWD
-- #2. [Foundation](https://get.foundation "Front-end Framework với các tính năng chuyên nghiệp") Front-end Framework với các tính năng chuyên nghiệp
-- #3. [MUI](https://www.muicss.com "Framework CSS với thiết kế giao diện phẳng"): Framework CSS với thiết kế giao diện phẳng
-- #4. [Semantic UI](https://semantic-ui.com "CSS Framework thân thiện với người dùng"): CSS Framework thân thiện với người dùng
-- #5. [Bulma](https://bulma.io "Framework CSS với cơ chế Module"): Framework CSS với cơ chế Module
-- #6. [Mustard UI](https://mustard-ui.com "Framework CSS mã nguồn mở"): Framework CSS mã nguồn mở
-- #7. [UIKit](https://getuikit.com "Front-end Framework cho các thiết kế UI"): Front-end Framework cho các thiết kế UI
-- #8. [Materialize CSS](https://materializecss.com "CSS Framework với Material Design"): CSS Framework với Material Design
-- #9. [Spectre](https://picturepan2.github.io/spectre/ "Framework CSS với các xu hướng hiện đại"): Framework CSS với các xu hướng hiện đại
-- #10. [Tailwind CSS](https://tailwindcss.com "CSS Framework giúp xây dựng Website nhanh nhất"): CSS Framework giúp xây dựng Website nhanh nhất
+- #1. [`Bootstrap`](https://getbootstrap.com "Framework tiên phong với thiết kế RWD"): Framework tiên phong với thiết kế RWD
+- #2. [`Foundation`](https://get.foundation "Front-end Framework với các tính năng chuyên nghiệp") Front-end Framework với các tính năng chuyên nghiệp
+- #3. [`MUI`](https://www.muicss.com "Framework CSS với thiết kế giao diện phẳng"): Framework CSS với thiết kế giao diện phẳng
+- #4. [`Semantic UI`](https://semantic-ui.com "CSS Framework thân thiện với người dùng"): CSS Framework thân thiện với người dùng
+- #5. [`Bulma`](https://bulma.io "Framework CSS với cơ chế Module"): Framework CSS với cơ chế Module
+- #6. [`Mustard UI`](https://mustard-ui.com "Framework CSS mã nguồn mở"): Framework CSS mã nguồn mở
+- #7. [`UIKit`](https://getuikit.com "Front-end Framework cho các thiết kế UI"): Front-end Framework cho các thiết kế UI
+- #8. [`Materialize CSS`](https://materializecss.com "CSS Framework với Material Design"): CSS Framework với Material Design
+- #9. [`Spectre`](https://picturepan2.github.io/spectre/ "Framework CSS với các xu hướng hiện đại"): Framework CSS với các xu hướng hiện đại
+- #10. [`Tailwind CSS`](https://tailwindcss.com "CSS Framework giúp xây dựng Website nhanh nhất"): CSS Framework giúp xây dựng Website nhanh nhất
+
+
+### Màu sắc thường hay được sử dụng
+
+- [Tailwind Colors](https://tailwindcss.com/docs/customizing-colors)
+- [Coolors Contrast Checker](https://coolors.co/contrast-checker)
+- [Flat UI Colors](https://flatuicolors.com)
+- [Colorhunt Palettes](https://www.colorhunt.co)
+
+
+### Font chữ thường hay được sử dụng:
+
+- [Google Font](https://fonts.google.com)
+- [Fontsquirrel](https://www.fontsquirrel.com)
+- [Myfont](https://www.myfonts.com)
+
+
+### Kho ảnh trực tuyến thường hay được sử dụng
+
+- [Unsplash](https://unsplash.com)
+- [Pexels](https://www.pexels.com)
+- [unDraw](https://undraw.co/)
+- [Pixaby](https://pixabay.com)
+
+
+### Icon thường hay được sử dụng:
+
+- [Font Awesome](https://fontawesome.com)
+- [Ionicons](https://ionic.io/ionicons)
+- [Icons8](https://icons8.com)
+- [Hero Icons](https://heroicons.com)
+
+### Mẫu design đẹp thường hay được sử dụng:
+
+- [Dribbble](https://dribbble.com)
+- [Land Book](https://land-book.com)
+- [One Page Love](https://onepagelove.com/inspiration)
+- [Screelane](https://screenlane.com)
+
 
 
 ## 15 thư viện UI Components tốt nhất cho ReactJS
