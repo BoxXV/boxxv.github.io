@@ -41,7 +41,7 @@ Không để bạn phải đợi lâu nữa, dưới đây sẽ tổng hợp cá
 
 9. **CSS Peek** tiện ích mở rộng giúp tìm các id hoặc class của các thẻ HTML trong những file CSS mà chứa những class hay thuộc tính đó. Ngoài ra nó cũng cho phép bạn đi đến các file CSS đó ngay lập tức.
 
-10. **Color Highlight** là một tiện ích giúp bạn hiển thị màu cho các đối tượng được tìm thấy trong trang. Ví dụ nhiều mã màu mà VS Code không hiển thị được thì tiện ích này là một lựa chọn tuyệt vời cho bạn.
+10. [**Color Highlight**](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) là một tiện ích giúp bạn hiển thị màu cho các đối tượng được tìm thấy trong trang. Ví dụ nhiều mã màu mà VS Code không hiển thị được thì tiện ích này là một lựa chọn tuyệt vời cho bạn.
 
 11. **Debugger for Chrome** giúp bạn có thể debug lỗi mã chương trình ngay trong VS Code mà không cần mở Google Chrome để sử dụng developer tool. Nó có nhiều tính năng hữu ích như là thiết lập breakpoints, hiển thị console...
 
