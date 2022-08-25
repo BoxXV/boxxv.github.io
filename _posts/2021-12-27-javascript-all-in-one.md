@@ -145,7 +145,9 @@ Tham khảo:
 - [JS Modules - Bao nhiêu kiểu khai báo, làm sao nhớ hết?](https://viblo.asia/p/js-modules-bao-nhieu-kieu-khai-bao-lam-sao-nho-het-gGJ59AY15X2)
 - [Sử dụng RequireJS và AMD để module hóa code JavaScript](https://viblo.asia/p/su-dung-requirejs-va-amd-de-module-hoa-code-javascript-znVGLY6jvZOe)
 - [Sử dụng RequireJS và AMD để module hóa code JavaScript](https://manhhomienbienthuy.github.io/2016/05/12/su-dung-amd-requirejs-de-module-hoa-javascript.html)
-
+- [Tụi webpack, babel, … bla bla, tụi nó làm gì ở đây?](https://viblo.asia/p/tui-webpack-babel-bla-bla-tui-no-lam-gi-o-day-jvElakmAKkw)
+- [Mối liên hệ giữa Javascript và ECMAScript](https://viblo.asia/p/moi-lien-he-giua-javascript-va-ecmascript-oOVlYBwV58W)
+- [Babel - Dùng thì sao mà không dùng thì sao?](https://viblo.asia/p/babel-dung-thi-sao-ma-khong-dung-thi-sao-Do754p1W5M6)
 -----
 [CommonJS](https://viblo.asia/tags/commonjs)
 - [Tìm hiểu về module system, CommonJS và require](https://viblo.asia/p/tim-hieu-ve-module-system-commonjs-va-require-QpmleL3mZrd)

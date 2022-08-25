@@ -122,7 +122,7 @@ Không để bạn phải đợi lâu nữa, dưới đây sẽ tổng hợp cá
 - [Tổng hợp các Visual Studio Code Extensions hữu ích](https://www.dotnetcoban.com/2020/05/best-visual-studio-code-extensions.html)
 - [Top 10 Extensions Vscode Tốt Nhất (2019)](https://viblo.asia/p/top-10-extensions-vscode-tot-nhat-2019-YWOZrBwNZQ0)
 - [8 extensions Visual Studio Code hữu ích cho Front-end](https://viblo.asia/p/8-extensions-visual-studio-code-huu-ich-cho-front-end-jvElaXXdZkw)
-- []()
+- [Các cấu hình cần thiết cho một dự án React Native](https://viblo.asia/p/cac-cau-hinh-can-thiet-cho-mot-du-an-react-native-vyDZOAkQ5wj)
 - [https://viblo.asia/tags/vscode](https://viblo.asia/tags/vscode)
 - [Vscode extionsion khi lập trình nodejs](https://forum.dev1.vn/threads/vscode-extionsion-khi-l%E1%BA%ADp-tr%C3%ACnh-nodejs.18/)
 - [Top 10 Visual Studio extensions](https://www.partech.nl/nl/publicaties/2020/05/top-10-visual-studio-extensions)
