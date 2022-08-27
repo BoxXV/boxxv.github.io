@@ -76,6 +76,8 @@ Như tên gọi, Material-UI (Github) là tập hợp các components của Reac
 
 ### 2. [React-Bootstrap & reactstrap](https://react-bootstrap.github.io "https://react-bootstrap.github.io")
 
+![Bootstrap](https://boxxv.github.io/img/2022/sb-admin-2.png "Bootstrap")
+
 Bootstrap có lẽ không còn quá xa lạ với lập trình viên front-end nữa. React-Bootstrap (Github) là tập hợp các component của Bootstrap được xây dựng riêng cho React. Đây là thư viện đơn giản cho React bootstrap 4. Với hơn 4k stars và gần 100 người đóng góp. Nó là lựa chọn phổ biến rộng rãi cho fan của bootstrap.
 
 
