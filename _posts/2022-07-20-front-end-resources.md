@@ -127,6 +127,8 @@ Ant (Github) là tập hợp các components của React được xây dựng th
 
 ### 9. [Atlaskit](https://atlaskit.atlassian.com/packages "https://atlaskit.atlassian.com/packages")
 
+![Atlaskit](https://boxxv.github.io/img/2022/atlaskit-atlassian-ui-kit-components.png.webp "Atlaskit")
+
 Được thiết kế và phát triển bởi Atlassian, công ty đằng sau JIRA, BitBucket…, Atlaskit (Bitbucket) cung cấp hơn 60 components gần như đáp ứng mọi nhu cầu khi xây dựng ứng dụng React. Mỗi component được đặt trong một package riêng, giúp bạn có thể chọn cài đặt những components cần thiết mà không làm nặng ứng dụng.
 
 
