@@ -26,34 +26,39 @@ tags:
 ## Top thư viện UI Components tốt nhất cho React 2022
 
 - #1. [`Material-UI`](#1-material-ui "Best for general purpose"): best for general purpose
-- #2. [`React Bootstrap`](#2-react-bootstrap--reactstrap "The most popular front-end framework")
-- #3. [`React Toolbox`](#3-react-toolbox "Bootstrap your application with beautiful Material Design Components")
-- #4. [`React + Foundation`](#4-react--foundation "Foundation as React components")
-- [React Desktop](http://reactdesktop.js.org)
-- [`Chakra UI`](https://chakra-ui.com) Create accessible React apps with speed
-- [`Blueprint`](https://github.com/palantir/blueprint) best for data-dense desktop applications
-- [`VisX`](https://github.com/airbnb/visx) low-level visualization components
-- [`Headless UI`](https://headlessui.com)
-- [`Retool`](https://retool.com/component-library)
-- [`Rebass`](https://rebassjs.org) lightweight
-- [`Mantine`](https://mantine.dev)
-- [`Next UI`](https://nextui.org) beta
-- [`ThemeUI`](https://theme-ui.com)
-- [`Prime React`](https://www.primefaces.org/primereact)
-- [`Onsen`](https://onsen.io/react/)
-- [`Elemental`](http://elemental-ui.com)
-- [`Belle`](http://nikgraf.github.io/belle/)
+- #2. [`Ant Design`](#8-ant-design-of-react "Best for enterprise applications"): best for enterprise applications
+- #3. [`React Bootstrap`](#2-react-bootstrap--reactstrap "The most popular front-end framework")
+- #4. [`React Router`](https://reactrouter.com)
 - #5. [`Semantic UI`](#5-semantic-ui-react "The official Semantic-UI-React integration")
-- #6. [`Element`](#6-element-react "A UI Toolkit for React.js Websites and Apps")
-- #7. [`Grommet`](#7-grommet "Streamline the way you develop apps")
-- #8. [`Ant Design`](#8-ant-design-of-react "Best for enterprise applications"): best for enterprise applications
-- #9. [`Atlaskit`](#9-atlaskit "Built according to the Atlassian Design System")
-- #10. [`Pluralsight Design System`](#10-design-system "The cohesive design language, shared vocabulary, and building block components to accelerate the building of Pluralsight products")
-- #11. [`Carbon`](#11-carbon-components-react "Carbon is IBM’s open source design system for products and digital experiences")
-- #12. [`Ring UI`](#12-ring-ui "JetBrains Web UI components")
-- #13. [`Gestalt`](#13-gestalt "Gestalt is Pinterest’s design system")
-- #14. [`Fluent UI`](#14-fabric---fluent-ui "A collection of UX frameworks for creating beautiful, cross-platform apps that share code, design, and interaction behavior")
-- #15. [`Evergreen`](#15-evergreen "Segment’s design system")
+- #6. [`Blueprint`](https://github.com/palantir/blueprint) best for data-dense desktop applications
+- #7. [`React Motion`](https://github.com/chenglou/react-motion)
+- #8. [`Fluent UI`](#14-fabric---fluent-ui "A collection of UX frameworks for creating beautiful, cross-platform apps that share code, design, and interaction behavior")
+- #9. [`React Suite`](https://rsuitejs.com)
+- #10. [`Grommet`](#7-grommet "Streamline the way you develop apps")
+- #11. [`Shards React`](https://designrevision.com/downloads/shards-react/)
+- #12. [`Chakra UI`](https://chakra-ui.com) Create accessible React apps with speed
+- #13. [`Onsen`](https://onsen.io/react/)
+- #14. [`Evergreen`](#15-evergreen "Segment’s design system")
+- #15. [`Prime React`](https://www.primefaces.org/primereact)
+- #16. [`ThemeUI`](https://theme-ui.com)
+- #17. [`VisX`](https://github.com/airbnb/visx) low-level visualization components
+- #18. [`Headless UI`](https://headlessui.com)
+- #19. [`Rebass`](https://rebassjs.org) lightweight
+- #20. [`Mantine`](https://mantine.dev)
+- #21. [`Next UI`](https://nextui.org) beta
+- #. [`React Toolbox`](#3-react-toolbox "Bootstrap your application with beautiful Material Design Components")
+- #. [`React + Foundation`](#4-react--foundation "Foundation as React components")
+- #. [`React Desktop`](http://reactdesktop.js.org)
+- #. [`Retool`](https://retool.com/component-library)
+- #. [`Elemental`](http://elemental-ui.com)
+- #. [`Belle`](http://nikgraf.github.io/belle/)
+- #. [`Element`](#6-element-react "A UI Toolkit for React.js Websites and Apps")
+- #. [`Atlaskit`](#9-atlaskit "Built according to the Atlassian Design System")
+- #. [`Pluralsight Design System`](#10-design-system "The cohesive design language, shared vocabulary, and building block components to accelerate the building of Pluralsight products")
+- #. [`Carbon`](#11-carbon-components-react "Carbon is IBM’s open source design system for products and digital experiences")
+- #. [`Ring UI`](#12-ring-ui "JetBrains Web UI components")
+- #. [`Gestalt`](#13-gestalt "Gestalt is Pinterest’s design system")
+
 
 
 ### Màu sắc thường hay được sử dụng
@@ -193,7 +198,7 @@ Ring UI là UI framework được xây dựng bởi JetBrains, công ty đằng 
 Gestalt là tập hợp các components được xây dựng theo chuẩn thiết kế của Pinterest. Thư viện này là bộ thiết kế tỉ mỉ của React UI xây dựng theo các blocks để đồng bộ hóa và nâng cao kết nối giữa các team của Pinterest.
 
 
-### 14. [Fabric -> Fluent UI](https://developer.microsoft.com/en-us/fluentui/ "https://developer.microsoft.com/en-us/fabric-js")
+### 14. [Fabric -> Fluent UI](https://react.fluentui.dev/ "https://developer.microsoft.com/en-us/fluentui/")
 
 ![Fluent](https://boxxv.github.io/img/2022/78841610-bc38aa00-79f5-11ea-8fa0-ca3e8bde8dcb.png "Fluent")
 
