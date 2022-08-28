@@ -120,6 +120,8 @@ Grommet (Github) là thư viện components cho React, sử dụng nền tảng 
 
 ### 8. [Ant Design of React](https://ant.design/docs/react/introduce "https://ant.design/docs/react/introduce")
 
+![Ant Design](https://boxxv.github.io/img/2022/44953195-581e3d80-aec4-11e8-8dcb-54b9db38ec11.png "Ant Design")
+
 Ant (Github) là tập hợp các components của React được xây dựng theo chuẩn thiết kế của Ant UED Team. Tương tự như chuẩn Material Design, Ant cung cấp hầu hết các component thông dụng trong ứng dụng web hiện đại, như Layout, Button, Icon, DatePicket, v.v…Bên cạnh đó Ant cũng có những component riêng thú vị, như LocaleProvider cho phép bạn thay đổi ngôn ngữ trên toàn ứng dụng.
 
 
