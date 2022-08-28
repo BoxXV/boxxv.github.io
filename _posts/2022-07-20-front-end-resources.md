@@ -97,7 +97,9 @@ So với Material-UI, React Toolbox không thua kém về số lượng componen
 Trong phát triển thực tế là dự án kết thúc tốt đẹp các phần của Foundation như các thành phần React, và tự hào về sự đơn giản và mức độ phù hợp cao.
 
 
-### 5. [Semantic UI React](https://react.semantic-ui.com/introduction "https://react.semantic-ui.com/introduction")
+### 5. [Semantic UI React](https://react.semantic-ui.com "https://react.semantic-ui.com")
+
+![Semantic](https://boxxv.github.io/img/2022/68747470733a2f2f692e696d6775722e636f6d2f7254584f39364b2e706e67.png "Semantic")
 
 Semantic UI React là một tích hợp chính thức React cho Sematic UI. Với 6.5K stars được sử dụng bởi Netflix, Amazon và nhiều tổ chức lớn khác.
 
