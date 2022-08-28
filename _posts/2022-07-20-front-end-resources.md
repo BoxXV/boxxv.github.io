@@ -25,7 +25,21 @@ tags:
 
 ## Top thư viện UI Components tốt nhất cho React
 
-- #1. [`Material-UI`](#1-material-ui "best for general purpose"): best for general purpose
+- #1. [`Material-UI`](#1-material-ui "Best for general purpose"): best for general purpose
+- #2. [`React Bootstrap`](#2-react-bootstrap--reactstrap "The most popular front-end framework")
+- #3. [`React Toolbox`](#3-react-toolbox "Bootstrap your application with beautiful Material Design Components")
+- #4. [`React + Foundation`](#4-react--foundation "Foundation as React components")
+- #5. [`Semantic UI`](#5-semantic-ui-react "The official Semantic-UI-React integration")
+- #6. [`Element`](#6-element-react "A UI Toolkit for React.js Websites and Apps")
+- #7. [`Grommet`](#7-grommet "Streamline the way you develop apps")
+- #8. [`Ant Design`](#8-ant-design-of-react "Best for enterprise applications"): best for enterprise applications
+- #9. [`Atlaskit`](#9-atlaskit "Built according to the Atlassian Design System")
+- #10. [`Pluralsight Design System`](#10-design-system "The cohesive design language, shared vocabulary, and building block components to accelerate the building of Pluralsight products")
+- #11. [`Carbon`](#11-carbon-components-react "Carbon is IBM’s open source design system for products and digital experiences")
+- #12. [`Ring UI`](#12-ring-ui "JetBrains Web UI components")
+- #13. [`Gestalt`](#13-gestalt "Gestalt is Pinterest’s design system")
+- #14. [`Fluent UI`](#14-fabric---fluent-ui "A collection of UX frameworks for creating beautiful, cross-platform apps that share code, design, and interaction behavior")
+- #15. [`Evergreen`](#15-evergreen "Segment’s design system")
 
 
 ### Màu sắc thường hay được sử dụng
@@ -137,7 +151,7 @@ Ant là tập hợp các components của React được xây dựng theo chuẩ
 Được thiết kế và phát triển bởi Atlassian, công ty đằng sau JIRA, BitBucket…, Atlaskit (Bitbucket) cung cấp hơn 60 components gần như đáp ứng mọi nhu cầu khi xây dựng ứng dụng React. Mỗi component được đặt trong một package riêng, giúp bạn có thể chọn cài đặt những components cần thiết mà không làm nặng ứng dụng.
 
 
-### 10. [Design System](https://design-system.pluralsight.com "https://design-system.pluralsight.com")
+### 10. [Pluralsight Design System](https://design-system.pluralsight.com "https://design-system.pluralsight.com")
 
 ![Design System](https://boxxv.github.io/img/2022/q1jgd.png "Design System")
 
