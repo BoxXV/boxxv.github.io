@@ -29,6 +29,7 @@ tags:
 - #2. [`React Bootstrap`](#2-react-bootstrap--reactstrap "The most popular front-end framework")
 - #3. [`React Toolbox`](#3-react-toolbox "Bootstrap your application with beautiful Material Design Components")
 - #4. [`React + Foundation`](#4-react--foundation "Foundation as React components")
+- [React Desktop](http://reactdesktop.js.org)
 - [`Chakra UI`](https://chakra-ui.com) Create accessible React apps with speed
 - [`Blueprint`](https://github.com/palantir/blueprint) best for data-dense desktop applications
 - [`VisX`](https://github.com/airbnb/visx) low-level visualization components
@@ -38,7 +39,10 @@ tags:
 - [`Mantine`](https://mantine.dev)
 - [`Next UI`](https://nextui.org) beta
 - [`ThemeUI`](https://theme-ui.com)
-- [`PrimeReact`](https://www.primefaces.org/primereact)
+- [`Prime React`](https://www.primefaces.org/primereact)
+- [`Onsen`](https://onsen.io/react/)
+- [`Elemental`](http://elemental-ui.com)
+- [`Belle`](http://nikgraf.github.io/belle/)
 - #5. [`Semantic UI`](#5-semantic-ui-react "The official Semantic-UI-React integration")
 - #6. [`Element`](#6-element-react "A UI Toolkit for React.js Websites and Apps")
 - #7. [`Grommet`](#7-grommet "Streamline the way you develop apps")
@@ -103,7 +107,7 @@ React căn bản là một thư viện giúp xây dựng giao diện người d�
 Như tên gọi, Material-UI là tập hợp các components của React được thiết kế theo chuẩn Material Design của Google. Với hơn 25+ components được xây dựng sẵn, cùng với khả năng tùy biến cao, cho phép thay đổi giữa hai theme Sáng/ Tối, Material-UI hứa hẹn đáp ứng cho tất cả dự án từ nhỏ đến lớn. Hơn 34k stars được “đánh dấu” trên Github đã cho thấy mức độ phổ biến của thư viện này. Material-UI sử dụng JSS để quản lý CSS.
 
 
-### 2. [React-Bootstrap & reactstrap](https://react-bootstrap.github.io "https://react-bootstrap.github.io")
+### 2. [React-Bootstrap](https://react-bootstrap.github.io "https://react-bootstrap.github.io") & [reactstrap](https://reactstrap.github.io)
 
 ![Bootstrap](https://boxxv.github.io/img/2022/sb-admin-2.png "Bootstrap")
 
