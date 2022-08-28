@@ -23,12 +23,22 @@ tags:
 - #10. [`Tailwind CSS`](https://tailwindcss.com "CSS Framework giúp xây dựng Website nhanh nhất"): CSS Framework giúp xây dựng Website nhanh nhất
 
 
-## Top thư viện UI Components tốt nhất cho React
+## Top thư viện UI Components tốt nhất cho React 2022
 
 - #1. [`Material-UI`](#1-material-ui "Best for general purpose"): best for general purpose
 - #2. [`React Bootstrap`](#2-react-bootstrap--reactstrap "The most popular front-end framework")
 - #3. [`React Toolbox`](#3-react-toolbox "Bootstrap your application with beautiful Material Design Components")
 - #4. [`React + Foundation`](#4-react--foundation "Foundation as React components")
+- [`Chakra UI`](https://chakra-ui.com) Create accessible React apps with speed
+- [`Blueprint`](https://github.com/palantir/blueprint) best for data-dense desktop applications
+- [`VisX`](https://github.com/airbnb/visx) low-level visualization components
+- [`Headless UI`](https://headlessui.com)
+- [`Retool`](https://retool.com/component-library)
+- [`Rebass`](https://rebassjs.org) lightweight
+- [`Mantine`](https://mantine.dev)
+- [`Next UI`](https://nextui.org) beta
+- [`ThemeUI`](https://theme-ui.com)
+- [`PrimeReact`](https://www.primefaces.org/primereact)
 - #5. [`Semantic UI`](#5-semantic-ui-react "The official Semantic-UI-React integration")
 - #6. [`Element`](#6-element-react "A UI Toolkit for React.js Websites and Apps")
 - #7. [`Grommet`](#7-grommet "Streamline the way you develop apps")
