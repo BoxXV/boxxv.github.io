@@ -162,11 +162,14 @@ Gestalt là tập hợp các components được xây dựng theo chuẩn thiế
 
 ### 14. [Fabric -> Fluent UI](https://developer.microsoft.com/en-us/fluentui/ "https://developer.microsoft.com/en-us/fabric-js")
 
-Được phát triển bởi Microsoft, Fabric là thư viện front-end chính thức tương thích hoàn hảo với các ứng dụng của Office và Office 365, được viết bằng Typescript. Với hơn 2.5K stars đáng để trả tiền (quick-start). 2022 Fluent UI
-
 ![Fluent](https://boxxv.github.io/img/2022/78841610-bc38aa00-79f5-11ea-8fa0-ca3e8bde8dcb.png "Fluent")
 
+Được phát triển bởi Microsoft, Fabric là thư viện front-end chính thức tương thích hoàn hảo với các ứng dụng của Office và Office 365, được viết bằng Typescript. Với hơn 2.5K stars đáng để trả tiền (quick-start). 2022 Fluent UI
+
+
 ### 15. [Evergreen](https://evergreen.segment.com "https://evergreen.segment.com")
+
+![Evergreen](https://boxxv.github.io/img/2022/segment-evergreen.png "Evergreen")
 
 Evergreen là design system của Segment.io.
 
@@ -224,6 +227,7 @@ Tham khảo:
 - [Tại sao Frontend Develop cần đa dạng hoá thiết kế?](https://viblo.asia/p/tai-sao-frontend-develop-can-da-dang-hoa-thiet-ke-djeZ1PgRKWz)
 - [Design System là gì? Tại sao cần có Design System?](http://hocdohoa.edu.vn/design-system-la-gi-tai-sao-can-co-design-system/)
 - [#UI Components made with react.js](https://madewithreactjs.com/ui-components)
+- [Best React component libraries (2022 edition)](https://retool.com/blog/react-component-libraries/)
 
 -----
 - [Front-End Resources](https://dev.to/aycanogut/front-end-resources-1jk2)
