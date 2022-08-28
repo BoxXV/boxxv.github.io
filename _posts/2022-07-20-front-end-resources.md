@@ -83,12 +83,16 @@ Bootstrap có lẽ không còn quá xa lạ với lập trình viên front-end n
 
 ### 3. [React Toolbox](http://react-toolbox.io "http://react-toolbox.io")
 
+![Toolbox](https://boxxv.github.io/img/2022/react-toolbox-d190be3eb893885e3c0af0f359838e67-a86e4.png "Toolbox")
+
 Cũng dựa vào chuẩn Material Design của Google, nhưng React Toolbox (Github) lại sử dụng CSS Modules, Webpack và ES6 để xây dựng các components. Điều này giúp cho React Toolbox có thể kết hợp dễ dàng trong các dự án sử dụng Webpack, tận dụng được lợi thế của công cụ này, chẳng hạn như tính năng “rung cây” tree-shaking.
 
 So với Material-UI, React Toolbox không thua kém về số lượng components. Hiện dự án này đã có hơn 7.7k star trên Github.
 
 
 ### 4. [React + Foundation](https://github.com/digiaonline/react-foundation "https://digia.online/react-foundation-docs")
+
+![Foundation](https://boxxv.github.io/img/2022/dashboard-kit.jpg "Foundation")
 
 Trong phát triển thực tế là dự án kết thúc tốt đẹp các phần của Foundation như các thành phần React, và tự hào về sự đơn giản và mức độ phù hợp cao.
 
@@ -177,6 +181,7 @@ Tham khảo:
 - [Top 05 CSS Frameworks tốt nhất cho lập trình Front-end 2021](https://t3h.com.vn/tin-tuc/css-frameworks)
 - [Một số tool hữu ích dành cho web developer có thể bạn chưa biết (Phần 1)](https://viblo.asia/p/mot-so-tool-huu-ich-danh-cho-web-developer-co-the-ban-chua-biet-phan-1-1VgZvon9lAw)
 - [Một số tool hữu ích dành cho web developer có thể bạn đã biết (Phần 2)](https://viblo.asia/p/mot-so-tool-huu-ich-danh-cho-web-developer-co-the-ban-da-biet-phan-2-Az45bQjwlxY)
+- [5 React Component Toolkits](https://www.javascriptstuff.com/react-component-toolkits/)
 
 -----
 - [Frontend - Developer đã hô biến animation trong mắt người dùng như thế nào?](https://viblo.asia/p/frontend-developer-da-ho-bien-animation-trong-mat-nguoi-dung-nhu-the-nao-E375zQ8blGW)
