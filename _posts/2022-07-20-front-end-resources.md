@@ -259,6 +259,8 @@ Tham khảo:
 - [Những giao diện người dùng tuyệt vời! - Phần 2](https://viblo.asia/p/nhung-giao-dien-nguoi-dung-tuyet-voi-phan-2-aWj53LrwK6m)
 - [Tại sao Frontend Develop cần đa dạng hoá thiết kế?](https://viblo.asia/p/tai-sao-frontend-develop-can-da-dang-hoa-thiet-ke-djeZ1PgRKWz)
 - [Design System là gì? Tại sao cần có Design System?](http://hocdohoa.edu.vn/design-system-la-gi-tai-sao-can-co-design-system/)
+- [10 Best Design Systems in 2022](https://webpixels.io/blog/10-best-design-systems-in-2020)
+- [10 most popular design systems to learn from in 2022 for UX Designers](https://uxplanet.org/10-most-popular-design-systems-to-learn-from-in-2022-for-ux-designers-18a24843a860)
 - [#UI Components made with react.js](https://madewithreactjs.com/ui-components)
 - [Best React component libraries (2022 edition)](https://retool.com/blog/react-component-libraries/)
 
