@@ -134,17 +134,23 @@ Ant (Github) là tập hợp các components của React được xây dựng th
 
 ### 10. [Design System](https://design-system.pluralsight.com "https://design-system.pluralsight.com")
 
+![Design System](https://boxxv.github.io/img/2022/q1jgd.png "Design System")
+
 Design System (Github) được thiết kế và sử dụng cho các sản phẩm của công ty Pluralsight. So với các UI framework khác thì số lượng component của Design System không nhiều lắm, nhưng được thiết kế rất tinh tế và chuyên nghiệp, có thể đáp ứng hầu hết yêu cầu của các dự án.
 
 
-### 11. [Carbon Components React](https://codesandbox.io/s/x2mjypo6pp "https://codesandbox.io/s/x2mjypo6pp")
+### 11. [Carbon Components React](https://carbondesignsystem.com "https://github.com/carbon-design-system/carbon")
+
+![Carbon](https://user-images.githubusercontent.com/3901764/57545698-ce5f2380-7320-11e9-8682-903df232d7b0.png "Carbon")
 
 Carbon Component Reacts là tập hợp các components được phát triển theo hệ thống thiết kế Carbon của IBM.
 
 
 ### 12. [Ring UI](https://jetbrains.github.io/ring-ui/master/index.html "https://jetbrains.github.io/ring-ui/master/index.html")
 
-Ring UI (GithubGithub) là UI framework được xây dựng bởi JetBrains, công ty đằng sau các editor đình đám như IntelliJ IDEA, WebStorm, hay PhpStorm. Ring UI tập hợp gần 50 components thông dụng trong các ứng dụng web.
+![Ring](https://boxxv.github.io/img/2022/ring-ui.jpg "Ring")
+
+Ring UI là UI framework được xây dựng bởi JetBrains, công ty đằng sau các editor đình đám như IntelliJ IDEA, WebStorm, hay PhpStorm. Ring UI tập hợp gần 50 components thông dụng trong các ứng dụng web.
 
 
 ### 13. [Gestalt](https://gestalt.netlify.app/home "https://gestalt.netlify.app/home")
@@ -183,6 +189,7 @@ Tham khảo:
 - [23 Best React UI Component Frameworks](https://viblo.asia/p/23-best-react-ui-component-frameworks-bWrZn10wKxw)
 - [23 Best React UI Component Libraries And Frameworks](https://hackernoon.com/23-best-react-ui-component-libraries-and-frameworks-250a81b2ac42)
 - [23 React Component Libraries that are Worth Trying](https://technostacks.com/blog/react-component-libraries/)
+- [15+ Free Design Systems For Web 2022](https://ui-lib.com/blog/free-design-systems-for-web/)
 - [15 Best React UI Component Frameworks In 2022](https://www.sencha.com/blog/15-best-react-ui-component-frameworks-in-2022/)
 - [15 thư viện UI Components tốt nhất cho ReactJS](https://viblo.asia/p/15-thu-vien-ui-components-tot-nhat-cho-reactjs-maGK7pDMZj2)
 - [10+ thư viện UI components cho React](https://ehkoo.com/bai-viet/10-thu-vien-ui-components-cho-react)
@@ -212,6 +219,7 @@ Tham khảo:
 - [Những giao diện người dùng tuyệt vời! - Phần 1](https://viblo.asia/p/nhung-giao-dien-nguoi-dung-tuyet-voi-phan-1-ORNZqxXMK0n)
 - [Những giao diện người dùng tuyệt vời! - Phần 2](https://viblo.asia/p/nhung-giao-dien-nguoi-dung-tuyet-voi-phan-2-aWj53LrwK6m)
 - [Tại sao Frontend Develop cần đa dạng hoá thiết kế?](https://viblo.asia/p/tai-sao-frontend-develop-can-da-dang-hoa-thiet-ke-djeZ1PgRKWz)
+- [Design System là gì? Tại sao cần có Design System?](http://hocdohoa.edu.vn/design-system-la-gi-tai-sao-can-co-design-system/)
 
 -----
 - [Front-End Resources](https://dev.to/aycanogut/front-end-resources-1jk2)
