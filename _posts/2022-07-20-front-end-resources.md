@@ -23,6 +23,20 @@ tags:
 - #10. [`Tailwind CSS`](https://tailwindcss.com "CSS Framework giúp xây dựng Website nhanh nhất"): CSS Framework giúp xây dựng Website nhanh nhất
 
 
+## Top 10 Design Systems
+
+- #1. [`Material Design`](https://material.io)
+- #2. [`Fluent Design System`](https://www.microsoft.com/design/fluent/)
+- #3. [`Atlassian`](https://www.atlassian.com)
+- #4. [`Polaris`](https://polaris.shopify.com)
+- #5. [`Human Interface Guidelines`](https://developer.apple.com/design/human-interface-guidelines/)
+- #6. [`Carbon Design System`](https://www.carbondesignsystem.com)
+- #7. [`Mailchimp`](https://ux.mailchimp.com)
+- #8. [`Audi`](https://www.audi.com/ci/en/guides/user-interface/introduction.html)
+- #9. [`Airbnb Design System`](https://airbnb.design)
+- #10. [`Lightning Design System`](https://www.lightningdesignsystem.com)
+
+
 ## Top thư viện UI Components tốt nhất cho React 2022
 
 - #1. [`Material-UI`](#1-material-ui "Best for general purpose"): best for general purpose
