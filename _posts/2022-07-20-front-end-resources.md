@@ -71,21 +71,21 @@ React căn bản là một thư viện giúp xây dựng giao diện người d�
 
 ![MUI](https://boxxv.github.io/img/2022/mui.jpeg "MUI")
 
-Như tên gọi, Material-UI (Github) là tập hợp các components của React được thiết kế theo chuẩn Material Design của Google. Với hơn 25+ components được xây dựng sẵn, cùng với khả năng tùy biến cao, cho phép thay đổi giữa hai theme Sáng/ Tối, Material-UI hứa hẹn đáp ứng cho tất cả dự án từ nhỏ đến lớn. Hơn 34k stars được “đánh dấu” trên Github đã cho thấy mức độ phổ biến của thư viện này. Material-UI sử dụng JSS để quản lý CSS.
+Như tên gọi, Material-UI là tập hợp các components của React được thiết kế theo chuẩn Material Design của Google. Với hơn 25+ components được xây dựng sẵn, cùng với khả năng tùy biến cao, cho phép thay đổi giữa hai theme Sáng/ Tối, Material-UI hứa hẹn đáp ứng cho tất cả dự án từ nhỏ đến lớn. Hơn 34k stars được “đánh dấu” trên Github đã cho thấy mức độ phổ biến của thư viện này. Material-UI sử dụng JSS để quản lý CSS.
 
 
 ### 2. [React-Bootstrap & reactstrap](https://react-bootstrap.github.io "https://react-bootstrap.github.io")
 
 ![Bootstrap](https://boxxv.github.io/img/2022/sb-admin-2.png "Bootstrap")
 
-Bootstrap có lẽ không còn quá xa lạ với lập trình viên front-end nữa. React-Bootstrap (Github) là tập hợp các component của Bootstrap được xây dựng riêng cho React. Đây là thư viện đơn giản cho React bootstrap 4. Với hơn 4k stars và gần 100 người đóng góp. Nó là lựa chọn phổ biến rộng rãi cho fan của bootstrap.
+Bootstrap có lẽ không còn quá xa lạ với lập trình viên front-end nữa. React-Bootstrap là tập hợp các component của Bootstrap được xây dựng riêng cho React. Đây là thư viện đơn giản cho React bootstrap 4. Với hơn 4k stars và gần 100 người đóng góp. Nó là lựa chọn phổ biến rộng rãi cho fan của bootstrap.
 
 
 ### 3. [React Toolbox](http://react-toolbox.io "http://react-toolbox.io")
 
 ![Toolbox](https://boxxv.github.io/img/2022/react-toolbox-d190be3eb893885e3c0af0f359838e67-a86e4.png "Toolbox")
 
-Cũng dựa vào chuẩn Material Design của Google, nhưng React Toolbox (Github) lại sử dụng CSS Modules, Webpack và ES6 để xây dựng các components. Điều này giúp cho React Toolbox có thể kết hợp dễ dàng trong các dự án sử dụng Webpack, tận dụng được lợi thế của công cụ này, chẳng hạn như tính năng “rung cây” tree-shaking.
+Cũng dựa vào chuẩn Material Design của Google, nhưng React Toolbox lại sử dụng CSS Modules, Webpack và ES6 để xây dựng các components. Điều này giúp cho React Toolbox có thể kết hợp dễ dàng trong các dự án sử dụng Webpack, tận dụng được lợi thế của công cụ này, chẳng hạn như tính năng “rung cây” tree-shaking.
 
 So với Material-UI, React Toolbox không thua kém về số lượng components. Hiện dự án này đã có hơn 7.7k star trên Github.
 
@@ -115,14 +115,14 @@ Element-React là phiên bản các components dành cho React, được xây d�
 
 ![Grommet](https://boxxv.github.io/img/2022/grommet-design-kit.png "Grommet")
 
-Grommet (Github) là thư viện components cho React, sử dụng nền tảng Inuit để quản lý CSS. Grommet ban đầu được xây dựng bởi 4 nhân viên của hãng Hewlett Packard, nhờ vào đó các kinh nghiệm UX khi phát triển ứng dụng doanh nghiệp được sử dụng triệt để ở đây. React UI component đẹp, tập trung chủ yếu vào trải nghiệm cần thiết. Với hơn 3k stars, những thành phần thiết kế cực kỳ đơn giản nhưng design đẹp.
+Grommet là thư viện components cho React, sử dụng nền tảng Inuit để quản lý CSS. Grommet ban đầu được xây dựng bởi 4 nhân viên của hãng Hewlett Packard, nhờ vào đó các kinh nghiệm UX khi phát triển ứng dụng doanh nghiệp được sử dụng triệt để ở đây. React UI component đẹp, tập trung chủ yếu vào trải nghiệm cần thiết. Với hơn 3k stars, những thành phần thiết kế cực kỳ đơn giản nhưng design đẹp.
 
 
 ### 8. [Ant Design of React](https://ant.design/docs/react/introduce "https://ant.design/docs/react/introduce")
 
 ![Ant Design](https://boxxv.github.io/img/2022/44953195-581e3d80-aec4-11e8-8dcb-54b9db38ec11.png "Ant Design")
 
-Ant (Github) là tập hợp các components của React được xây dựng theo chuẩn thiết kế của Ant UED Team. Tương tự như chuẩn Material Design, Ant cung cấp hầu hết các component thông dụng trong ứng dụng web hiện đại, như Layout, Button, Icon, DatePicket, v.v…Bên cạnh đó Ant cũng có những component riêng thú vị, như LocaleProvider cho phép bạn thay đổi ngôn ngữ trên toàn ứng dụng.
+Ant là tập hợp các components của React được xây dựng theo chuẩn thiết kế của Ant UED Team. Tương tự như chuẩn Material Design, Ant cung cấp hầu hết các component thông dụng trong ứng dụng web hiện đại, như Layout, Button, Icon, DatePicket, v.v…Bên cạnh đó Ant cũng có những component riêng thú vị, như LocaleProvider cho phép bạn thay đổi ngôn ngữ trên toàn ứng dụng.
 
 
 ### 9. [Atlaskit](https://atlaskit.atlassian.com/packages "https://atlaskit.atlassian.com/packages")
@@ -136,12 +136,12 @@ Ant (Github) là tập hợp các components của React được xây dựng th
 
 ![Design System](https://boxxv.github.io/img/2022/q1jgd.png "Design System")
 
-Design System (Github) được thiết kế và sử dụng cho các sản phẩm của công ty Pluralsight. So với các UI framework khác thì số lượng component của Design System không nhiều lắm, nhưng được thiết kế rất tinh tế và chuyên nghiệp, có thể đáp ứng hầu hết yêu cầu của các dự án.
+Design System được thiết kế và sử dụng cho các sản phẩm của công ty Pluralsight. So với các UI framework khác thì số lượng component của Design System không nhiều lắm, nhưng được thiết kế rất tinh tế và chuyên nghiệp, có thể đáp ứng hầu hết yêu cầu của các dự án.
 
 
 ### 11. [Carbon Components React](https://carbondesignsystem.com "https://github.com/carbon-design-system/carbon")
 
-![Carbon](https://user-images.githubusercontent.com/3901764/57545698-ce5f2380-7320-11e9-8682-903df232d7b0.png "Carbon")
+![Carbon](https://boxxv.github.io/img/2022/carbon.jpg "Carbon")
 
 Carbon Component Reacts là tập hợp các components được phát triển theo hệ thống thiết kế Carbon của IBM.
 
@@ -155,13 +155,16 @@ Ring UI là UI framework được xây dựng bởi JetBrains, công ty đằng 
 
 ### 13. [Gestalt](https://gestalt.netlify.app/home "https://gestalt.netlify.app/home")
 
-Gestalt (Github) là tập hợp các components được xây dựng theo chuẩn thiết kế của Pinterest. Thư viện này là bộ thiết kế tỉ mỉ của React UI xây dựng theo các blocks để đồng bộ hóa và nâng cao kết nối giữa các team của Pinterest.
+![Gestalt](https://boxxv.github.io/img/2022/1bb09c1d2196588143ff79afa1e342e2.png "Gestalt")
+
+Gestalt là tập hợp các components được xây dựng theo chuẩn thiết kế của Pinterest. Thư viện này là bộ thiết kế tỉ mỉ của React UI xây dựng theo các blocks để đồng bộ hóa và nâng cao kết nối giữa các team của Pinterest.
 
 
-### 14. [Fabric](https://developer.microsoft.com/en-us/fabric-js "https://developer.microsoft.com/en-us/fabric-js")
+### 14. [Fabric -> Fluent UI](https://developer.microsoft.com/en-us/fluentui/ "https://developer.microsoft.com/en-us/fabric-js")
 
-Được phát triển bởi Microsoft, Fabric (Github) là thư viện front-end chính thức tương thích hoàn hảo với các ứng dụng của Office và Office 365, được viết bằng Typescript. Với hơn 2.5K stars đáng để trả tiền (quick-start).
+Được phát triển bởi Microsoft, Fabric là thư viện front-end chính thức tương thích hoàn hảo với các ứng dụng của Office và Office 365, được viết bằng Typescript. Với hơn 2.5K stars đáng để trả tiền (quick-start). 2022 Fluent UI
 
+![Fluent](https://boxxv.github.io/img/2022/78841610-bc38aa00-79f5-11ea-8fa0-ca3e8bde8dcb.png "Fluent")
 
 ### 15. [Evergreen](https://evergreen.segment.com "https://evergreen.segment.com")
 
@@ -220,6 +223,7 @@ Tham khảo:
 - [Những giao diện người dùng tuyệt vời! - Phần 2](https://viblo.asia/p/nhung-giao-dien-nguoi-dung-tuyet-voi-phan-2-aWj53LrwK6m)
 - [Tại sao Frontend Develop cần đa dạng hoá thiết kế?](https://viblo.asia/p/tai-sao-frontend-develop-can-da-dang-hoa-thiet-ke-djeZ1PgRKWz)
 - [Design System là gì? Tại sao cần có Design System?](http://hocdohoa.edu.vn/design-system-la-gi-tai-sao-can-co-design-system/)
+- [#UI Components made with react.js](https://madewithreactjs.com/ui-components)
 
 -----
 - [Front-End Resources](https://dev.to/aycanogut/front-end-resources-1jk2)
