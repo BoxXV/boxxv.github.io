@@ -106,10 +106,14 @@ Semantic UI React là một tích hợp chính thức React cho Sematic UI. Vớ
 
 ### 6. [Element-React](http://elemental-ui.com "http://elemental-ui.com")
 
+![Element](https://boxxv.github.io/img/2022/FireShot-Capture-147-指南-Element-element.eleme_.io_.png "Element")
+
 Element-React là phiên bản các components dành cho React, được xây dựng theo chuẩn của Element UI. Số lượng components của Element rất đầy đủ và phong phú. Là một bộ công cụ UI cho web và ứng dụng sử dụng React.js với 4k stars và hiện tại được phát triển bởi tác giả của Keystone.js tại Thinkmill
 
 
 ### 7. [Grommet](http://grommet.io "http://grommet.io")
+
+![Grommet](https://boxxv.github.io/img/2022/grommet-design-kit.png "Grommet")
 
 Grommet (Github) là thư viện components cho React, sử dụng nền tảng Inuit để quản lý CSS. Grommet ban đầu được xây dựng bởi 4 nhân viên của hãng Hewlett Packard, nhờ vào đó các kinh nghiệm UX khi phát triển ứng dụng doanh nghiệp được sử dụng triệt để ở đây. React UI component đẹp, tập trung chủ yếu vào trải nghiệm cần thiết. Với hơn 3k stars, những thành phần thiết kế cực kỳ đơn giản nhưng design đẹp.
 
