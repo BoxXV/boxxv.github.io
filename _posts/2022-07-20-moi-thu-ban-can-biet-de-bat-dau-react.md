@@ -619,6 +619,7 @@ Hooks
 - [Tự build một thư viện validate form bất đồng bộ chỉ ~100 dòng code với React Hooks](https://viblo.asia/p/tu-build-mot-thu-vien-validate-form-bat-dong-bo-chi-100-dong-code-voi-react-hooks-gDVK2RDXKLj)
 - [React Hook Form](https://react-hook-form.com)
 - [`Series:` React up and running](https://viblo.asia/s/react-up-and-running-68Z00JJjZkG)
+- [Validation với Yup trong React](https://viblo.asia/p/validation-voi-yup-trong-react-XL6lAVbJ5ek)
 - [Quản lý form trong React với Formik và Yup (P1)](https://viblo.asia/p/quan-ly-form-trong-react-voi-formik-va-yup-p1-RQqKLvw4l7z)
 - [Quản lý form trong React với Formik và Yup (P2)](https://viblo.asia/p/quan-ly-form-trong-react-voi-formik-va-yup-p2-m68Z002QZkG)
 
