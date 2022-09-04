@@ -446,7 +446,7 @@ Tham khảo:
 - [Framework Web Development hot nhất](https://hri.com.vn/framework-web-development-hot-nhat/)
 - [Top 10 Frameworks for Web Application Development](https://www.decipherzone.com/blog-detail/top-web-frameworks)
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
-- [Web framework là gì? Top 5 Web Framework tốt nhất【Java/Ruby/PHP/JS/CSS】](https://viblo.asia/p/web-framework-la-gi-top-5-web-framework-tot-nhatjavarubyphpjscss-Qbq5Qg0GZD8)
+- [Top 5 Web Framework tốt nhất【Java/Ruby/PHP/JS/CSS】](https://viblo.asia/p/web-framework-la-gi-top-5-web-framework-tot-nhatjavarubyphpjscss-Qbq5Qg0GZD8)
 - [10 Frameworks tốt nhất hiện nay cho PHP](https://topdev.vn/blog/10-frameworks-tot-nhat-hien-nay-cho-php/)
 - [PHP Framework là gì? 10 PHP Framework cực “chất” cho Developer](https://itviec.com/blog/framework-php/)
 - [10 Java Framework cho Java Developer chất](https://itviec.com/blog/java-framework/)
