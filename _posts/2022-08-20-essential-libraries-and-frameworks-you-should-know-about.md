@@ -453,10 +453,10 @@ Tham khảo:
 - [PHP là gì? 11 Sách lập trình PHP hay nhất mọi cấp độ](https://itviec.com/blog/11-sach-hoc-lap-trinh-php/)
 - [Top 4 PHP Framework tốt nhất hiện nay](https://funix.edu.vn/chia-se-kien-thuc/top-4-php-framework-tot-nhat/)
 - [Top Framework PHP lập trình viên nên dùng](https://t3h.com.vn/tin-tuc/framework-php)
-- [[Codeigniter Framework] Phần 1: Mô hình MVC trong Codeigniter PHP](https://viblo.asia/p/codeigniter-framework-phan-1-mo-hinh-mvc-trong-codeigniter-php-MJykjQjqePB
-- [[Codeigniter Framework] Phần 2: Library trong Codeigniter PHP (Library Database và Library Form Validation)](https://viblo.asia/p/codeigniter-framework-phan-2-library-trong-codeigniter-php-library-database-va-library-form-validation-DXOkRjOWkdZ)
-- [[Codeigniter Framework] Phần 3: Upload image trong Codeigniter](https://viblo.asia/p/codeigniter-framework-phan-3-upload-image-trong-codeigniter-DbmvmLWxkAg)
-- [[Codeigniter Framework] Phần 4: Shopping cart trong Codeigniter](https://viblo.asia/p/codeigniter-framework-phan-4-shopping-cart-trong-codeigniter-ZjlvaloRkqJ)
+- [Codeigniter Phần 1: Mô hình MVC trong Codeigniter PHP](https://viblo.asia/p/codeigniter-framework-phan-1-mo-hinh-mvc-trong-codeigniter-php-MJykjQjqePB
+- [Codeigniter Phần 2: Library trong Codeigniter PHP](Library Database và Library Form Validation)](https://viblo.asia/p/codeigniter-framework-phan-2-library-trong-codeigniter-php-library-database-va-library-form-validation-DXOkRjOWkdZ)
+- [Codeigniter Phần 3: Upload image trong Codeigniter](https://viblo.asia/p/codeigniter-framework-phan-3-upload-image-trong-codeigniter-DbmvmLWxkAg)
+- [Codeigniter Phần 4: Shopping cart trong Codeigniter](https://viblo.asia/p/codeigniter-framework-phan-4-shopping-cart-trong-codeigniter-ZjlvaloRkqJ)
 - [Tích hợp và sử dụng CodeIgniter Customs](https://viblo.asia/p/tich-hop-va-su-dung-codeigniter-customs-m68Z0NG95kG)
 - [Tích hợp Smarty 2 với Codeigniter 2](https://viblo.asia/p/tich-hop-smarty-2-voi-codeigniter-2-bWrZnaJbKxw)
 - [Tạo middleware cho CodeIgniter](https://viblo.asia/p/tao-middleware-cho-codeigniter-bJzKmj7PZ9N)
