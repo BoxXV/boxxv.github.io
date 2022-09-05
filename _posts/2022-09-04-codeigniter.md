@@ -14,9 +14,30 @@ tags:
 Codeigniter là một trong những nền tảng dùng trong thiết kế web động bằng mã nguồn mở. Web Framework này được viết bằng ngôn ngữ lập trình PHP theo mô hình MVC và cho ra mắt phiên bản đầu tiên vào năm 2006 với một loạt thư viện viết sẵn bằng ngôn ngữ PHP.
 
 
-### Ưu và nhược điểm của Codeigniter
+### Ưu điểm của Codeigniter
 
 ![Codeigniter](https://boxxv.github.io/img/2022/Banner-1-New.jpg "Codeigniter")
+
+- Thư viện Codeigniter Framework sở hữu rất nhiều đoạn code phục vụ hầu như toàn bộ tác vụ thường gặp trong quá trình thiết kế website.
+- Codeigniter có dung lượng khá nhỏ, điều này giúp người dùng tiết kiệm lượng lớn không gian lưu trữ và đồng thời tăng tốc cho web.
+- Khi tải framework này về, bạn sẽ có được cả thông tin về giới thiệu và hướng dẫn sử dụng đầy đủ. 
+- Framework CodeIgniter 3 dùng ngôn ngữ PHP 5.3.7, đồng thời, nó còn tương thích với gần như mọi hosting và hỗ trợ cho nhiều kiểu database, bao gồm MySQL.
+- Codeigniter thiết kế dựa theo mô hình MVC nên có khả năng hiển thị giao diện thành nhiều phần riêng biệt, giúp việc xử lý, thiết kế và bảo trì trở nên đơn giản hơn.
+- Phần lớn cấu hình của CodeIgniter đều được thực hiện theo các quy ước chi tiết, tỉ mỉ. Bên cạnh đó, nó còn sở hữu một vài tùy chọn cấu hình có sẵn qua những lệnh trong “config”.
+- CodeIgniter có tốc độ cực kỳ nhanh chóng, có khả năng phục vụ hàng triệu lượt traffic/ngày. 
+- Codeigniter Framework là nền tảng mã nguồn mở miễn phí, được cấp phép Apache/BSD, mang lại không gian thay đổi, phát triển, phân phối mã nguồn cực lớn cho các lập trình viên.
+- Giúp website đạt chuẩn MVC và vận hành mạnh mẽ, ưu việt. 
+- CodeIgniter có cấu trúc cực kỳ thân thiện với mọi công cụ tìm kiếm. Điều này đồng nghĩa với việc thứ hạng website của bạn có thể tăng vù vù mà không cần đến sự hỗ trợ từ các công cụ khác. 
+- Bảo mật tốt: Codeigniter với cơ chế kiểm tra các dữ liệu vô cùng chặt chẽ mang đến khả năng ngăn ngừa sự cố XSS và SQL Injection, từ đó giảm tối đa các nguy cơ xâm nhập từ tin tặc.
+
+### Nhược điểm của Codeigniter
+
+- **Chưa hỗ trợ ORM**: ORM (Object-Relational Mapping) là một trong những kỹ thuật lập trình tiên tiến được ưa chuộng hiện nay. Nó giúp ánh xạ các bảng trong database thành những đối tượng tương ứng trong lúc lập trình, điều này giúp thao tác CRUD trở nên ngắn gọn, dễ dàng hơn.
+- **Không hỗ trợ AJAX**: Trong thiết kế website 2.0, Asynchronous Javascrip and XML là yếu tố không thể thiếu. Tuy vậy, Codeigniter hiện chưa hỗ trợ ứng dụng này. Lập trình viên khi có nhu cầu cần dùng đến những thư viện ngoài (Mootools, Script.aculo.us, Prototype, JQuery,...)
+- **Chưa hỗ trợ một vài module thông dụng**: Codeigniter hiện chưa hỗ trợ cho các module thông dụng như User Authorization, RSS Parser, trình xử lý PDF… đây là điểm yếu kém so với các framework khác cùng tính năng.
+- **Chưa hỗ trợ EDP**: Codeigniter chưa hỗ trợ cho nguyên lý lập trình Event Driver Programming. Tuy nhiên, nhược điểm này chưa được quan tâm nhiều bởi khá ít framework hỗ trợ cho nó. 
+
+
 
 
 
