@@ -460,6 +460,8 @@ Tham khảo:
 - [Tích hợp và sử dụng CodeIgniter Customs](https://viblo.asia/p/tich-hop-va-su-dung-codeigniter-customs-m68Z0NG95kG)
 - [Tích hợp Smarty 2 với Codeigniter 2](https://viblo.asia/p/tich-hop-smarty-2-voi-codeigniter-2-bWrZnaJbKxw)
 - [Tạo middleware cho CodeIgniter](https://viblo.asia/p/tao-middleware-cho-codeigniter-bJzKmj7PZ9N)
+- [Simple CRUD with CodeIgniter and Vue.JS with Source Code](https://www.sourcecodester.com/php/12342/simple-crud-codeigniter-and-vuejs.html)
+- [Create Drag and Droppable Cards in Laravel using Vue Js](https://shareurcodes.com/blog/create drag and droppable cards in laravel using vue js)
 - [Những thư viện và framework JavaScript quan trọng bạn cần biết](https://code.tutsplus.com/vi/articles/essential-javascript-libraries-and-frameworks-you-should-know-about--cms-29540)
 - [26 Best Backend and Frontend Web Development Frameworks for 2022](https://www.globalmediainsight.com/blog/web-development-frameworks/)
 - [The 40 Best JavaScript Libraries and Frameworks for 2022](https://kinsta.com/blog/javascript-libraries)
