@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tìm hiểu về Codeigniter Framework
-subtitle: CodeIgniter Tutorial: The Complete Guide
+subtitle: CodeIgniter Tutorial The Complete Guide
 tags:
 - Codeigniter
 - PHP
