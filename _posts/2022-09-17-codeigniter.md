@@ -68,6 +68,8 @@ Tham khảo:
 - [WebSockets for PHP](http://socketo.me)
 - [WebSocket with PHP](https://dev.to/robertobutti/websocket-with-php-4k2c)
 - [Real time chat in PHP +Redis +Pub/Sub +WebSockets (+NodeJS)](https://stackoverflow.com/questions/42666799/real-time-chat-in-php-redis-pub-sub-websockets-nodejs)
+- [codeigniter-websocket](https://github.com/takielias/codeigniter-websocket)
+- [codeigniter4-websocket](https://github.com/takielias/codeigniter4-websocket)
 
 -----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
