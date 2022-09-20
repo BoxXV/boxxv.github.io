@@ -63,6 +63,13 @@ Tham khảo:
 - [Giới thiệu về FuelPHP - 1 framework rất được ưa thích của Nhật Bản](https://viblo.asia/p/gioi-thieu-ve-fuelphp-1-framework-rat-duoc-ua-thich-cua-nhat-ban-1VgZvXY75Aw)
 
 -----
+- [Chat chit và bức tranh về realtime communication](https://viblo.asia/p/chat-chit-va-buc-tranh-ve-realtime-communication-maGK7vRA5j2)
+- [Xây dựng một chương trình mini-chat bằng nodejs](https://viblo.asia/p/xay-dung-mot-chuong-trinh-mini-chat-bang-nodejs-6BAMYVl9Gnjz)
+- [WebSockets for PHP](http://socketo.me)
+- [WebSocket with PHP](https://dev.to/robertobutti/websocket-with-php-4k2c)
+- [Real time chat in PHP +Redis +Pub/Sub +WebSockets (+NodeJS)](https://stackoverflow.com/questions/42666799/real-time-chat-in-php-redis-pub-sub-websockets-nodejs)
+
+-----
 - [Roadmap to becoming a web developer in 2021](https://github.com/kamranahmedse/developer-roadmap)
 - [Top 5 Web Framework tốt nhất【Java/Ruby/PHP/JS/CSS】](https://viblo.asia/p/web-framework-la-gi-top-5-web-framework-tot-nhatjavarubyphpjscss-Qbq5Qg0GZD8)
 - [10 Frameworks tốt nhất hiện nay cho PHP](https://topdev.vn/blog/10-frameworks-tot-nhat-hien-nay-cho-php/)
