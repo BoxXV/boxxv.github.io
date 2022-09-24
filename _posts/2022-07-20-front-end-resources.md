@@ -103,6 +103,7 @@ tags:
 - [Font Awesome](https://fontawesome.com)
 - [Ionicons](https://ionic.io/ionicons)
 - [Icons8](https://icons8.com)
+- [IcoFont](https://icofont.com)
 - [Hero Icons](https://heroicons.com)
 
 ### Mẫu design đẹp thường hay được sử dụng:
