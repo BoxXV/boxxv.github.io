@@ -10,7 +10,25 @@ tags:
 - Multiple Types
 ---
 
+![TypeScript](https://boxxv.github.io/img/posts/typescript-la-gi-uu-va-nhuoc-diem-cua-typescript-4.png "TypeScript")
+
+Hôm nay chúng ta sẽ cùng nhau phân tích cặn kẽ điểm mạnh và điểm yếu của typescript để có thể quyết định xem nên sử dụng nó như thế nào cho hiệu quả nhé!
+
+
+# Định nghĩa Typescript là gì?
+
 ![TypeScript](https://boxxv.github.io/img/posts/TypeScript-JavaScriptPlusTypes.webp "TypeScript")
+
+Là một ngôn ngữ được Microsoft tặng free cho chúng ta, nền tảng của TypeScript ít nhiều cũng có sự liên quan đến JavaScript vì nó là một ngôn ngữ mã nguồn mở của JavaScript. Vai trò của TypeScript là dùng để thiết kế và xây dựng các dự án ứng dụng quy mô lớn mang tính chất phức tạp.
+
+Khác với sự đơn giản của JavaScript, du TypeScript cũng đồng thời kế thừa nhiều định nghĩa, khái niệm của đa dạng các ngôn ngữ C#, Java,… nhưng TypeScript lại có yêu cầu cao về trật tự rõ ràng.
+
+TypeScript được xem là một phiên bản nâng cao hơn của JavaScript vì nó được thiết kế thêm nhiều chức năng tiện lợi hơn, cải tiến hơn từ những điểm yếu của JavaScript như các lớp hướng đối tượng và Static Structural typing, bên cạnh đó TypeScript còn có thể hoạt động rộng rãi cho các ứng dụng của ngôn ngữ Angular2 và Nodejs.
+
+
+# Hiển thị “Hello, World!” trong TypeScript
+
+
 
 
 

@@ -156,6 +156,7 @@ Tham khảo:
 - [Top Web Development Stacks In 2022: Front-end, Back-end & Database](https://www.angularminds.com/blog/article/top-web-development-stack-for-developers.html)
 - [What is a Tech Stack](https://www.apxor.com/blog/what-is-a-tech-stack)
 - [A Comprehensive Guide to Modern Web Development Stacks](https://enkonix.com/blog/web-development-stacks/)
+- [7 khung JavaScript hàng đầu để tăng tốc phát triển phần mềm của bạn](https://viblo.asia/p/top-7-javascript-frameworks-to-accelerate-your-software-development-eW65GgJj5DO)
 
 -----
 MEAN Stack
