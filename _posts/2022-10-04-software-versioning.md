@@ -156,3 +156,4 @@ Tham khảo:
 - [Software versioning](https://en.wikipedia.org/wiki/Software_versioning)
 - [Software Versioning And Release Numbers](https://www.zapbuild.com/bitsntricks/software-versioning-and-release-numbers/)
 - [How to Create Version Numbers that are Actually Semantic](https://blog.inedo.com/blog/release-numbering-scheme)
+- [Introduction to Semantic Versioning](https://www.geeksforgeeks.org/introduction-semantic-versioning/)
