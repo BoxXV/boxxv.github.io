@@ -65,31 +65,35 @@ hoặc
 
 Ý nghĩa các số major, minor, build, revision như sau
 
-major: Chuỗi phiên bản chính. Đánh số khi có những thay đổi không tương thích với phiên bản cũ
-minor: Chuỗi phiên bản phụ. Đánh số khi thêm tính năng mới nhưng vẫn đảm bảo tương thích với các phiên bản cũ.
-build: Chuỗi phiên bản build. Đánh dấu các lần fix bugs, 2 chữ số.
-revision: Lần sửa đổi. đánh dấu số lần sửa đổi của mã nguồn của phiên bản build.
-Chỉ số major sẽ tăng mỗi khi:  Có sự thay đổi lớn trong “nhân hệ thống” mà theo đó hệ thống mới có thể khác 1 phần hay hoàn toàn hệ thống cũ.
+- **major**: Chuỗi phiên bản chính. Đánh số khi có những thay đổi không tương thích với phiên bản cũ
+- **minor**: Chuỗi phiên bản phụ. Đánh số khi thêm tính năng mới nhưng vẫn đảm bảo tương thích với các phiên bản cũ.
+- **build**: Chuỗi phiên bản build. Đánh dấu các lần fix bugs, 2 chữ số.
+- **revision**: Lần sửa đổi. đánh dấu số lần sửa đổi của mã nguồn của phiên bản build.
+Chỉ số `major` sẽ tăng mỗi khi:  Có sự **thay đổi lớn trong “nhân hệ thống”** mà theo đó hệ thống mới có thể khác 1 phần hay hoàn toàn hệ thống cũ.
 
-Chỉ số minor sẽ tăng mỗi khi: Có sự thay đổi phần “core” của hệ thống mà không làm mất đi hoàn toàn tính tương thích trong cùng phiên bản chính.
+Chỉ số `minor` sẽ tăng mỗi khi: Có sự thay đổi phần “core” của hệ thống mà **không làm mất đi hoàn toàn tính tương thích** trong cùng phiên bản chính.
 
-Còn chỉ số build sẽ tăng mỗi khi: Có đóng gói gửi đi ra ngoài đội code (đội phát triển) nhằm các mục đích phát hành hay thử nghiệm…
+Còn chỉ số `build` sẽ tăng mỗi khi: Có đóng gói gửi đi ra ngoài đội code (đội phát triển) nhằm các mục đích phát hành hay thử nghiệm…
 
-Chỉ số revision có thể được sử dụng mỗi khi: Cần thay thế code phát hành trước đó mà chưa cần thiết phải thay tên phiên bản. Chỉ số này là lần sửa đổi (revisions) của mã nguồn, nó đánh dấu số lần sửa đổi của mã nguồn và được thường được hệ thống kiểm quản lý mã nguồn của hãng kiểm soát:
+Chỉ số `revision` có thể được sử dụng mỗi khi: Cần thay thế code phát hành trước đó mà chưa cần thiết phải thay tên phiên bản. Chỉ số này là lần sửa đổi (revisions) của mã nguồn, nó đánh dấu số lần sửa đổi của mã nguồn và được thường được hệ thống kiểm quản lý mã nguồn của hãng kiểm soát:
 
-Quy tắc quan trọng đối với phương pháp đánh số phiên bản bằng cách này như sau:
-Khi phát hành một phiên bản mới các chỉ số major, minor, build phải được tăng ổn định và có thứ tự. Ví dụ 1.9.0 → 1.10.0 → 1.10.1
-Mỗi khi phiên bản mới đã được phát hành, tất cả nội dung (bao gồm mã nguồn, API) của phiên bản đó phải giữ nguyên không được thay đổi. Bất kỳ thay đổi phát sinh nào đều phải được công bố như phát hành một phiên bản mới.
-Các phiên bản phát triển ban đầu thường được đánh số major = 0 (dạng 0.y.z). Bạn có thể thực hiện bất kỳ thay đổi nào trong các phiên bản ở giai đoạn này.
-Chỉ số build tăng nếu phiên bản này chỉ sửa các lỗi phát sinh, và đảm bảo tương thích với các bản cũ trước đó.
-Chỉ số phiên bản phụ minor tăng nếu phiên bản này:
-Tương thích ngược với các bản cũ có cùng phiên bản chính
-Cung cấp thêm mới hoặc loại bỏ ít nhất 1 chức năng của phần mềm
+#### Quy tắc quan trọng đối với phương pháp đánh số phiên bản bằng cách này như sau:
+1. Khi phát hành một phiên bản mới các chỉ số `major`, `minor`, `build` phải được tăng ổn định và có thứ tự. Ví dụ 1.9.0 → 1.10.0 → 1.10.1
+2. Mỗi khi phiên bản mới đã được phát hành, tất cả nội dung (bao gồm mã nguồn, API) của phiên bản đó phải giữ nguyên không được thay đổi. Bất kỳ thay đổi phát sinh nào đều phải được công bố như phát hành một phiên bản mới.
+3. Các phiên bản phát triển ban đầu thường được đánh số major = 0 (dạng 0.y.z). Bạn có thể thực hiện bất kỳ thay đổi nào trong các phiên bản ở giai đoạn này.
+4. Chỉ số `build` tăng nếu phiên bản này chỉ sửa các lỗi phát sinh, và đảm bảo tương thích với các bản cũ trước đó.
+5. Chỉ số phiên bản phụ `minor` tăng nếu phiên bản này:
+- Tương thích ngược với các bản cũ có cùng phiên bản chính
+- Cung cấp thêm mới hoặc loại bỏ ít nhất 1 chức năng của phần mềm
+
 Thông thường người ta thường tăng chỉ số minor nếu:
+- Thêm mới một chức năng quan trọng
+- Có sự cải thiện trong mã nguồn (giúp chương trình xử lý tốt hơn, nhanh hơn…). Sau khi tăng chỉ số phiên bản phụ minor thì số hiệu phiên bản vá build thường được thiết lập về 0
 
-Thêm mới một chức năng quan trọng
-Có sự cải thiện trong mã nguồn (giúp chương trình xử lý tốt hơn, nhanh hơn…). Sau khi tăng chỉ số phiên bản phụ minor thì số hiệu phiên bản vá build thường được thiết lập về 0
-Stage-based identifers
+
+### Stage-based identifers
+
+![Software Versioning](https://boxxv.github.io/img/2022/image-33.png "Software Versioning")
 
 Tên gọi cho các phiên bản phần mềm khi phát hành gồm : Closebeta, Openbeta, ReleaseCandidate, Official version. Ý nghĩa của từng phiên bản như sau:
 
