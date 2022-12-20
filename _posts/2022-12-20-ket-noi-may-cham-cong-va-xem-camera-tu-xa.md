@@ -118,8 +118,28 @@ DrayTek đã đưa ra giải pháp để khắc phục vấn đề này bằng c
 - Phải trang bị đồng bộ thiết bị VPN DrayTek hoặc Atrie
 - Chất lượng hình ảnh khi xem trực tuyến phụ thuộc vào tốc độ 3G và chất lượng internet tại trung tâm
 - Chi phí 3G hàng tháng còn cao (Khoảng 200.000/tháng)
-- Người quản trị (triển khai) hệ thống nên có kiến thức cơ bản về mạng và tốt nhất là đến văn phòng Công ty An Phát để được hướng dẫn chi tiết miễn phí trước khi bắt đầu triển khai thực tế
+- Người quản trị (triển khai) hệ thống nên có kiến thức cơ bản về mạng
 
+### Hướng dẫn cấu hình:
+
+**Bước 1**: Tạo kết nối VPN lan to lan giữa site trung tâm và site 3G
+- Bạn có thể tham khảo các Hướng dẫn VPN LAN-to-LAN giữa Site Trung tâm và Site 3G (V2960/V3900  vs V2912)
+
+**Bước 2**: Thực hiện mở port xem Máy Chấm Công / Camera qua đường hầm VPN từ Site Trung tâm về IP Máy Chấm Công / Camera tại Site 3G
+
+- Trên Vigor2960/3900: Vào **Nat** >>> **Port Redirection**
+- Tạo **Profile Nat**
+	+ Profile: Đặt tên cho profile Nat
+	+ Chọn **Enable**
+	+ Port Redirection Mode: Chọn **One to one**
+	+ Protocol: Chọn **TCP/UDP**
+	+ Private IP: Điền địa chỉ IP của Máy Chấm Công / Camera bên Site 3G
+	+ Private Port: Điền port để xem Máy Chấm Công / Camera
+	+ Public port: Điền port để xem Máy Chấm Công / Camera
+	+ Nếu Máy Chấm Công / Camera cần nhiều port để xem, bạn có thể add thêm bằng cách Click nút Add ở More port và add thêm port
+	+ Nhấn **Apply**
+
+Sau khi thực hiện xong hai bước trên bạn có thể sử dụng điện thoại hoặc laptop truy cập Máy Chấm Công / Camera ở bất kì nơi đâu có internet bằng IP wan của Site Trung tâm và port Máy Chấm Công / Camera vừa mở
 
 -----
 Tham khảo:
