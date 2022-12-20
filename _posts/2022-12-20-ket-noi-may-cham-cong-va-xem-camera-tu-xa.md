@@ -20,7 +20,13 @@ Hiện nay nhu cầu lấy dữ liệu chấm công từ xa qua mạng internet 
 
 Yêu cầu giải pháp chỉ cần 1 IP tĩnh hoặc 1 tên miền tại văn phòng trung tâm nơi nhận dữ liệu chấm công.
 
-` Ưu điểm`: không mở port máy chấm công vân tay chúng có sử máy chấm công vân tay kết 3g, 4g, wifi  miễn sao có internet. Quản lý chấm công nhân viên trực tuyến theo thời gian thực dữ liệu tự động tải về server. Quản lý nhân viên mọi nơi mọi lúc bằng thiết bị di động như điện thoại hoặc máy tính bảng. Tại các chi nhánh nơi lắp máy chấm công vân tay không cần cài phần mềm chấm công. Thông báo trình máy chấm công có đang kết nối máy tính hay không. Chỉ cần 1 tên miền hoặc 1 IP tĩnh dùng được cho tất cả các máy chấm công.
+`Ưu điểm`:
+- Không mở port máy chấm công vân tay chúng có sử máy chấm công vân tay kết 3g, 4g, wifi  miễn sao có internet.
+- Quản lý chấm công nhân viên trực tuyến theo thời gian thực dữ liệu tự động tải về server.
+- Quản lý nhân viên mọi nơi mọi lúc bằng thiết bị di động như điện thoại hoặc máy tính bảng.
+- Tại các chi nhánh nơi lắp máy chấm công vân tay không cần cài phần mềm chấm công.
+- Thông báo trình máy chấm công có đang kết nối máy tính hay không.
+- Chỉ cần 1 tên miền hoặc 1 IP tĩnh dùng được cho tất cả các máy chấm công.
 
 `Nhược điểm`: chỉ áp dụng cho những dòng máy chấm công có chức năng cloud server.
 
@@ -44,22 +50,27 @@ Máy chấm công hỗ trợ truy xuất dữ liệu online từ xa (cloud serve
 
 ### 2. Mở port modem ADSL tại chi nhánh lấp máy chấm công
 
-` Ưu điểm`: dùng được cho tất cả các loại máy chấm công.
+`Ưu điểm`: dùng được cho tất cả các loại máy chấm công.
 
 `Nhược điểm`:
 - Vị trí lắp máy chấm công phải có đường truyền internet ADSL
 - Phải sử dụng rất nhiều tên miền hoặc IP tĩnh, mỗi máy chấm công là 1 tên miền hoặc 1 ip tĩnh tốn chi phí cao khó bảo trì
+- Bảo mật kém, Việc mở port 4370 trên modem để lấy dữ liệu từ xa được ví như chúng ta đưa chìa khóa cho trộm vào nhà.
+
+Để khắc phục các lỗ hổng này, các tổ chức nên quy hoạch
+1. Không cho phép các kết nối Internet Incoming và Outgoing cho thiết bị này với port 4370 được open trên Modem.
+2. Sử dụng giải pháp cloud mà AZZA cung cấp, khách hàng không phải mở bất kỳ port nào trên modem hoặc thay đổi cấu hình bảo mật mạng vẫn có thể lấy dữ liệu từ xa thông qua phương thức get/post đã được mã hóa.
 
 
 ### 3. Dùng phần mềm chấm công Ronald Jack Server cài ở máy chủ
 
-` Ưu điểm`: dùng được cho tất cả các loại máy chấm công.
+`Ưu điểm`: dùng được cho tất cả các loại máy chấm công.
 
 `Nhược điểm`: phải cài phần mềm chấm công lên máy tính tại các chi nhánh nơi lắp đặt máy chấm công vân tay, nhân viên ở tại chi nhánh tự thực hiện tải dữ liệu chấm công về văn phòng trung tâm. Không quản lý nhân viên trực tiếp, bảo mật kém,…
 
 ### 4. Lấy dữ liệu chấm công qua USB.
 
-` Ưu điểm`: dùng được cho tất cả các loại máy chấm công.
+`Ưu điểm`: dùng được cho tất cả các loại máy chấm công.
 `Nhược điểm`: thao tác thủ công, bảo mật kém, không quản lý chấm công nhân viên trực tiếp.
 
 
@@ -69,3 +80,5 @@ Máy chấm công hỗ trợ truy xuất dữ liệu online từ xa (cloud serve
 Tham khảo:
 
 - [Giải pháp kết nối máy chấm công và xem camera từ xa qua mạng Internet 3G](https://dienmayvanphong.com/giai-phap-ket-noi-may-cham-cong-va-xem-camera-tu-xa-qua-mang-internet-3g/)
+- [Hướng dẫn cách lấy dữ liệu máy chấm công từ xa](https://tft.vn/du-lieu-may-cham-cong-tu-xa)
+- [Rủi ro từ lỗ hổng máy chấm công khi lấy dữ liệu từ xa qua public IP wan và NAT Port](https://azza.vn/rui-ro-tu-lo-hong-may-cham-cong-khi-lay-du-lieu-tu-xa-qua-public-ip-wan-va-nat-port/)
