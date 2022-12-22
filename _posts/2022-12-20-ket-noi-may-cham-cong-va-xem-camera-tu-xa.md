@@ -141,6 +141,47 @@ DrayTek đã đưa ra giải pháp để khắc phục vấn đề này bằng c
 
 Sau khi thực hiện xong hai bước trên bạn có thể sử dụng điện thoại hoặc laptop truy cập Máy Chấm Công / Camera ở bất kì nơi đâu có internet bằng IP wan của Site Trung tâm và port Máy Chấm Công / Camera vừa mở
 
+
+## III. Giải pháp chấm công đa điểm qua mạng internet
+
+
+## IV. Thư viện và SDK dành cho nhà phát triển phần mềm
+
+### 1. Development Kit for TFT Series
+
+Standalone SDK: [drive.google.com](https://drive.google.com/file/d/1Y_Jh2zsAtv4U0U7wWdmzakCooBHe8Eb_/view)
+
+Tài liệu hướng dẫn sử dụng: [Download](https://drive.google.com/file/d/1aLYQ1cY1fRpDu7Ko9gdHdhDZQfUmjKiu/view)
+
+Thư viện: [Zkemkeeper.dll](https://github.com/Simulakra/Finger-VX10.0-Reader/blob/master/TheSDK/zkemkeeper.dll)
+
+### 2. ZKTeco TA Push SDK
+
+> Đây là bộ công cụ tích hợp hoàn hảo cho nhà phát triển giải pháp chấm công
+
+Giao thức Push (Đẩy) là một giao thức dữ liệu được định nghĩa dựa trên gao thức truyền tải siêu văn bản - Hyper Text Transmission Protocol  (HTTP). Được thiết lập trên cơ sở kết nối TCP / IP, giao Push được áp dụng cho việc trao đổi dữ liệu giữa máy chủ và thiết bị chấm công hoặc kiểm soát ra vào của hãng ZKTeco và xác định các định dạng truyền dữ liệu (bao gồm thông tin người dùng, mẫu nhận dạng sinh học và dữ liệu chấm công kiểm soát ra vào)  và định dạng lệnh cho thiết bị điều khiển. Hiện tại, ZKTeco hỗ trợ máy chủ chẳng hạn như WDMS, ZKECO, ZKNET và ZKBioSecurity3.0, cũng như các máy chủ của bên thứ ba chẳng hạn như ESSL.
+
+**Tính năng chính giao thức Push:**
+- Tự động đẩy dữ liệu mới
+- Tự động hồi phục kết nối khi hệ thống phục hồi
+- Tất cả các thao tác về dữ liệu người dùng như  thêm / sửa / xóa / upload / đồng bộ và copy dữ liệu... hoàn toàn được thực hiện từ server
+- Với TA Push SDK bạn sẽ làm chủ hoàn toàn thiết bị và điều khiển theo ý tưởng giải pháp mong muốn.
+- Các lệnh điều khiển TA  Push SDK hỗ trợ: Initializing Information Exchange ; Uploading Update Information ; Uploading Data ; Downloading Command ; Command Reply ; Remote Attendance
+
+![Chấm công đa điểm](https://boxxv.github.io/img/timekeeper/2307_tapushsdkcazkteco.jpg "Chấm công đa điểm")
+
+Giới thiệu giao thức HTTP:
+
+Vì giao thức Push là một giao thức dữ liệu được xác định dựa trên giao thức HTTP.  HTTP là một giao thức yêu cầu / phản hồi. Định dạng của một yêu cầu do khách hàng gửi đến máy chủ là một phương thức yêu cầu, một URI và một số phiên bản giao thức, sau đó là một MIME giống như thông báo có chứa các sửa đổi, thông tin khách hàng và một nội dung thông báo có thể có. Các định dạng của phản hồi do máy chủ gửi đến máy khách là dòng trạng thái theo sau là MIME như thông báo chứa thông tin máy chủ, thông tin meta thực thể và có thể có 2 nội dung thực thể-body. Dòng trạng thái chứa số phiên bản giao thức của thông báo và mã thành công hoặc mã lỗi. Sau đây là một ví dụ
+
+Giao tiếp HTTP thường xảy ra dưới kết nối TCP / IP. Cổng mặc định là TCP 80, nhưng các cổng khác cũng có thể được sử dụng. Tuy nhiên, giao thức HTTP cũng có thể được thực hiện thông qua các giao thức khác.  HTTP chỉ chỉ hướng tới những truyền tải đáng tin cậy (Lưu ý: HTTP thường được thiết lập trên giao thức lớp truyền tải), do đó, bất kỳ giao thức nào cung cấp bảo đảm như vậy có thể được sử dụng 
+
+![Chấm công đa điểm](https://boxxv.github.io/img/timekeeper/2307_HTTPProtocolTAPushSDK "Chấm công đa điểm")
+
+Quý vị xem thêm giới thiệu tính năng API kết nối điều khiển thiết bị do Smartid phát triển dựa trên TA Push SDK tại link sau đây: Link; Link. Đối với API của Smartid sẽ miễn phí cho các đối tác là khách hàng mua sản phẩm.
+
+Quý vị quan tâm tới chi tiết tới tài liệu TA Push SDK, vui lòng liên hệ trực tiếp. 
+
 -----
 Tham khảo:
 
@@ -148,3 +189,4 @@ Tham khảo:
 - [Hướng dẫn cách lấy dữ liệu máy chấm công từ xa](https://tft.vn/du-lieu-may-cham-cong-tu-xa)
 - [Rủi ro từ lỗ hổng máy chấm công khi lấy dữ liệu từ xa qua public IP wan và NAT Port](https://azza.vn/rui-ro-tu-lo-hong-may-cham-cong-khi-lay-du-lieu-tu-xa-qua-public-ip-wan-va-nat-port/)
 - [Giải pháp kết nối máy chấm công và xem camera từ xa qua mạng Internet 3G](https://dienmayvanphong.com/giai-phap-ket-noi-may-cham-cong-va-xem-camera-tu-xa-qua-mang-internet-3g/)
+- [ZKTeco TA Push SDK bộ công cụ tích hợp hoàn hảo cho nhà phát triển giải pháp chấm công](https://smartid.com.vn/zkteco-ta-push-sdk-bo-cong-cu-tich-hop-hoan-hao-cho-nha-phat-trien-giai-phap-cham-cong.html)
