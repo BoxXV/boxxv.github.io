@@ -176,7 +176,7 @@ Vì giao thức Push là một giao thức dữ liệu được xác định d�
 
 Giao tiếp HTTP thường xảy ra dưới kết nối TCP / IP. Cổng mặc định là TCP 80, nhưng các cổng khác cũng có thể được sử dụng. Tuy nhiên, giao thức HTTP cũng có thể được thực hiện thông qua các giao thức khác.  HTTP chỉ chỉ hướng tới những truyền tải đáng tin cậy (Lưu ý: HTTP thường được thiết lập trên giao thức lớp truyền tải), do đó, bất kỳ giao thức nào cung cấp bảo đảm như vậy có thể được sử dụng 
 
-![Chấm công đa điểm](https://boxxv.github.io/img/timekeeper/2307_HTTPProtocolTAPushSDK "Chấm công đa điểm")
+![Chấm công đa điểm](https://boxxv.github.io/img/timekeeper/2307_HTTPProtocolTAPushSDK.jpg "Chấm công đa điểm")
 
 Quý vị xem thêm giới thiệu tính năng API kết nối điều khiển thiết bị do Smartid phát triển dựa trên TA Push SDK tại link sau đây: Link; Link. Đối với API của Smartid sẽ miễn phí cho các đối tác là khách hàng mua sản phẩm.
 
