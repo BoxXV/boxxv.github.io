@@ -438,7 +438,12 @@ Như vậy, sử dụng Gulp sẽ rất tiện lợi, tăng hiệu suất và gi
 Tham khảo:
 
 - [Building với Gulp](https://viblo.asia/p/building-voi-gulp-n157G5KBRAje)
+- [Tìm hiểu về Gulp.js](https://viblo.asia/p/tim-hieu-ve-gulpjs-naQZRw2jlvx)
 - [Tìm hiểu và sử dụng Gulp JS](https://viblo.asia/p/tim-hieu-va-su-dung-gulp-js-aWj53OVo56m)
+- [Mở đầu với Gulp](https://viblo.asia/p/mo-dau-voi-gulp-l5XRBVxmRqPe)
+- [Gulp for beginner](https://viblo.asia/p/gulp-for-beginner-WAyK89knZxX)
+- [So sánh Gulp và Grunt](https://viblo.asia/p/so-sanh-gulp-va-grunt-157G5oY5RAje)
+- [Làm sao để gulp (đặc biệt là gulp watch) không crash khi gặp lỗi](https://viblo.asia/p/lam-sao-de-gulp-dac-biet-la-gulp-watch-khong-crash-khi-gap-loi-WEMkBYOLeQK)
 - [https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md)
 - [Sử dụng Gulp để viết Sass hiệu quả](https://kipalog.com/posts/Su-dung-Gulp-de-viet-Sass-hieu-qua)
 - [How To Build And Develop Websites With Gulp](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
