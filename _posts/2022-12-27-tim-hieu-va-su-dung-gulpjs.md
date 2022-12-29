@@ -43,79 +43,7 @@ Gulp sử dụng pipeline để dẫn data từ một plugin sang một plugin k
 
 Bản thân Gulp thì không thực hiện gì nhiều, nhưng với một lượng lớn pulgin có sẵn mà bạn có thể dễ dàng tìm kiếm trên các trang pulgin hoặc tìm với từ khóa `gulpplugin` ngay trên NPM. Ví dụ, các plugins để chạy `JSHint`, biên dịch CoffeeScript, chạy Mocha Tests hay thậm chí cập nhật số phiên bản của bạn.
 
-## 2. Các thành phần chính của Gulp
-
-Để chạy được gulp cần một file gulpfile.js trong đó có chứa các thành phần chính là: `gulp.task`, `gulp.src`, `gulp.dest`, `gulp.watch`
-
-### 2.1. gulp.task
-
-Gulp.task đơn giản là các task mà các bạn muốn thực thi, nó có ý nghĩa như 1 function vậy.
-
-```js
-gulp.task('task_one', function(){
-    // nhiệm vụ
-})
-```
-
-Bạn cũng có thể bỏ qua task bất kì nếu bạn chỉ muốn chạy một vài các task cần thiết:
-
-```js
-gulp.task ('build', ['array', 'of', 'task', 'names']);
-```
-
-**Lưu ý:**
-1. Các task sẽ chạy song song (tất cả cùng một lúc) chứ không phải các task sẽ chạy theo thứ tự nhé.
-2. Mặc định khi chạy lệnh gulp trong command line không kèm theo tham số nào, gulp sẽ tự động chạy task mặc định là default. Khi muốn chạy một task cụ thể nào đó, bạn chỉ cần dùng lệnh:
-
-```js
-gulp task_name
-```
-
-### 2.2. gulp.src
-
-Trong gulp.task bạn sẽ cần trỏ src file mà bạn muốn minify chẳng hạn, gulp.src sẽ giúp bạn làm việc đó, tức là file bạn cần đọc hay nói cách khác khi bạn muốn làm gì thì cần biết đường dẫn tới folder hay file.
-
-```js
-gulp.task('task_one', function(){
-    gulp.src('['./css/*.css']) //lấy tất cả các file có đuôi .css trong folder css
-    // or
-    gulp.src('./js/*.js') //lấy tất cả các file có đuôi .js trong folder js
-    // or
-    gulp.src('['!./css/*.css']) //không lấy folder css cùng các file bên trong
-})
-```
-
-### 2.3. gulp.dest
-
-Tương tự gulp.src bạn cũng cần chỉ ra đường dẫn đích mà bạn muốn gulp trả về file sau khi đã thực hiện gulp.task.
-
-```js
-gulp.task('task_one', function() {
-  gulp.src('./js/*.js')
-    .pipe(gulp.dest('dist/js'));
-
-  gulp.src('./css/*.css')
-    .pipe(gulp.dest('dist/css'));
-});
-```
-
-### 2.4. gulp.watch
-
-gulp.watch sẽ tự động lắng nghe file nếu có sự thay đổi thì bạn không phải chạy lại gulp nhiều lần. Tính năng này hay được sử dụng để live browser hoặc tự động minify các file css, js,...
-
-```js
-gulp.task('watch_name', function(){
-    gulp.watch('/css/*.css',  ['task_css'])
-    gulp.watch('/js/*.js',  ['task_js'])
-})
-gulp.watch('js/**/*.js', function(event) {
-  console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-});
-```
-
-Vậy là đủ đề hiểu cơ bản về cơ chế hoạt động của Gulp rồi. Tiếp đến mình sẽ hướng dẫn các bạn cách dùng nhé.
-
-## 3. Cách cài đặt
+## 2. Cách cài đặt
 
 Việc cài đặt Gulp tương đối dễ dàng. Nếu bạn chưa cài Node.js, bạn cần cài Node.js theo hướng dẫn có trên trang chủ của [NodeJs](https://nodejs.org/en/).
 
@@ -147,6 +75,82 @@ Sau khi cài đặt xong bạn có thể kiểm tra phiên bản gulp của bạ
 ```bat
 gulp --version
 ```
+
+Cửa sổ dòng lệnh sẽ hiển thị thông tin về phiên bản hiện tại của Gulp cho bạn.
+
+
+## 3. Các thành phần chính của Gulp
+
+Để chạy được gulp cần một file gulpfile.js trong đó có chứa các thành phần chính là: `gulp.task`, `gulp.src`, `gulp.dest`, `gulp.watch`
+
+### 3.1. gulp.task
+
+Gulp.task đơn giản là các task mà các bạn muốn thực thi, nó có ý nghĩa như 1 function vậy.
+
+```js
+gulp.task('task_one', function(){
+    // nhiệm vụ
+})
+```
+
+Bạn cũng có thể bỏ qua task bất kì nếu bạn chỉ muốn chạy một vài các task cần thiết:
+
+```js
+gulp.task ('build', ['array', 'of', 'task', 'names']);
+```
+
+**Lưu ý:**
+1. Các task sẽ chạy song song (tất cả cùng một lúc) chứ không phải các task sẽ chạy theo thứ tự nhé.
+2. Mặc định khi chạy lệnh gulp trong command line không kèm theo tham số nào, gulp sẽ tự động chạy task mặc định là default. Khi muốn chạy một task cụ thể nào đó, bạn chỉ cần dùng lệnh:
+
+```js
+gulp task_name
+```
+
+### 3.2. gulp.src
+
+Trong gulp.task bạn sẽ cần trỏ src file mà bạn muốn minify chẳng hạn, gulp.src sẽ giúp bạn làm việc đó, tức là file bạn cần đọc hay nói cách khác khi bạn muốn làm gì thì cần biết đường dẫn tới folder hay file.
+
+```js
+gulp.task('task_one', function(){
+    gulp.src('['./css/*.css']) //lấy tất cả các file có đuôi .css trong folder css
+    // or
+    gulp.src('./js/*.js') //lấy tất cả các file có đuôi .js trong folder js
+    // or
+    gulp.src('['!./css/*.css']) //không lấy folder css cùng các file bên trong
+})
+```
+
+### 3.3. gulp.dest
+
+Tương tự gulp.src bạn cũng cần chỉ ra đường dẫn đích mà bạn muốn gulp trả về file sau khi đã thực hiện gulp.task.
+
+```js
+gulp.task('task_one', function() {
+  gulp.src('./js/*.js')
+    .pipe(gulp.dest('dist/js'));
+
+  gulp.src('./css/*.css')
+    .pipe(gulp.dest('dist/css'));
+});
+```
+
+### 3.4. gulp.watch
+
+gulp.watch sẽ tự động lắng nghe file nếu có sự thay đổi thì bạn không phải chạy lại gulp nhiều lần. Tính năng này hay được sử dụng để live browser hoặc tự động minify các file css, js,...
+
+```js
+gulp.task('watch_name', function(){
+    gulp.watch('/css/*.css',  ['task_css'])
+    gulp.watch('/js/*.js',  ['task_js'])
+})
+gulp.watch('js/**/*.js', function(event) {
+  console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+});
+```
+
+Vậy là đủ đề hiểu cơ bản về cơ chế hoạt động của Gulp rồi. Tiếp đến mình sẽ hướng dẫn các bạn cách dùng nhé.
+
 
 ## 4. Sử dụng Gulp
 
