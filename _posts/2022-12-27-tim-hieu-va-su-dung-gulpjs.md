@@ -154,28 +154,40 @@ Vậy là đủ đề hiểu cơ bản về cơ chế hoạt động của Gulp 
 
 ## 4. Sử dụng Gulp
 
-Hãy tạo một Gulp task là một file Javascript thu nhỏ. Tạo một file với tên là `gulpfile.js`. Chúng ta sẽ định nghĩa các task của Gulp ở đây, và chúng sẽ được chạy bởi gulp command. Đặt đoạn code dưới đây vào trong file `gulpfile.js`:
+Việc sử dụng Gulp khá đơn giản, để bắt đầu ta tạo một file với tên là `gulpfile.js` lưu trong thư mục gốc của dự án. Chúng ta sẽ định nghĩa các task của Gulp ở đây, và chúng sẽ được chạy bởi gulp command. Đặt đoạn code dưới đây vào trong file `gulpfile.js`:
 
 ```js
-var gulp = require('gulp'),
-  uglify = require('gulp-uglify');
+var gulp = require('gulp');
 
-gulp.task('minify', function () {
-    gulp.src('js/app.js')
-       .pipe(uglify())
-       .pipe(gulp.dest('build'))
+gulp.task('default', function(){
+   // Default task code
 });
 ```
 
-Để cài đặt trên pulgins ví dụ `gulp-uglify` chúng ta chỉ cần chạy lệnh `npm install --save-dev gulp-uglify` NPM sẽ tự động cài đặt và chúng ta chỉ cần sử dụng plugin đó với một định nghĩa như một object bằng cú pháp:
+Để chạy file gulpfile.js chúng ta dùng lệnh:
+```bat
+gulp
+```
 
+Mặc định khi chạy gulp command không có tham số, Gulp sẽ ngầm thực thi task default, nếu muốn chạy với một task nào đó, chúng ta dùng cú pháp:
+```bat
+gulp {task_name}
+```
+
+Như ví dụ bên trên bạn có thể thấy, để định nghĩa một task ta có thể sử dụng `gulp.task()`
+
+Yêu cầu viết task minify với mục đích minify các file Javascript. Chúng ta cần cài đặt gulp-uglify plugin:
+```bat
+npm install --save-dev gulp-uglify
+```
+
+NPM sẽ tự động cài đặt và chúng ta chỉ cần sử dụng plugin đó với một định nghĩa như một object bằng cú pháp:
 ```js
 var gulp = require('gulp'),
   uglify = require('gulp-uglify');
 ```
 
 Chúng ta sẽ định nghĩa một task có tên là minify, khi chạy sẽ gọi đến function ở argument thứ hai:
-
 ```js
 gulp.task('minify', function () {
 
@@ -189,6 +201,25 @@ gulp.src('js/app.js')
    .pipe(uglify())
    .pipe(gulp.dest('build'))
 ```
+
+Cập nhật file gulpfile.js:
+```js
+var gulp = require('gulp'),
+  uglify = require('gulp-uglify');
+
+gulp.task('minify', function () {
+    gulp.src('js/*.js')
+       .pipe(uglify())
+       .pipe(gulp.dest('build'))
+});
+```
+
+Sau đó chúng ta dùng lệnh:
+```bat
+gulp minify
+```
+
+Và kiểm tra trong thư mục build, các file javascript đã được minify. Rất đơn giản phải không các bạn?
 
 Trừ phi bạn đã quen với streams, nếu không đoạn code trên không có ý nghĩa nhiều với bạn. Sau đây tôi sẽ giải thích về streams trong Gulp.
 
