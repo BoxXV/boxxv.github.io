@@ -11,13 +11,33 @@ tags:
 
 ![Gulp](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Gulp.jpg "Gulp")
 
-Tối ưu hóa tài sản trang web và thử nghiệm thiết kế trên nhiều trình duyệt khác nhau chắc chắn không phải là một phần thú vị nhất của quá trình thiết kế. Công việc trên gồm các nhiệm vụ lặp đi lặp lại, rất nhàm chán và thiếu tính hiệu quả. May mắn thay, ta có thể dùng các công cụ để giải quyết công việc mang tính lặp đi lặp lại này nhằm tăng hiệu suất công việc. Gulp là một công cụ như thế.
+Tối ưu hóa tài sản trang web và thử nghiệm thiết kế trên nhiều trình duyệt khác nhau chắc chắn không phải là một phần thú vị nhất của quá trình thiết kế. Công việc trên gồm các nhiệm vụ lặp đi lặp lại, rất nhàm chán và thiếu tính hiệu quả. May mắn thay, ta có thể dùng các công cụ để giải quyết công việc mang tính lặp đi lặp lại này nhằm tăng hiệu suất công việc. Gulp là một công cụ như thế. Nó thường được sử dụng để làm các tác vụ front end như:
+- Tạo ra một web server
+- Reload trình duyệt một cách tự động bất cứ khi nào một file được lưu
+- Sử dụng các preprocessor giống như Sass hoặc LESS
+- Tối ưu hóa các tài nguyên như CSS, JavaScript và hình ảnh
 
 ## 1. Gulp là gì?
 
 > `Gulp` là một build system, có nghĩa là bạn có thể sử dụng nó để tự động hóa các công việc thông thường trong quá trình phát triển Website. Nó được xây dựng trên nền Node.js, và cả Gulp source hay Gulp files nơi bạn định nghĩa các task được viết bằng Javascript (hoặc CoffeeScript). Nếu bạn là một front-end developer thì Gulp gần như trở thành một build system hoàn hảo. Bạn có thể viết các tasks cho việc phân tích cú pháp và tự động biên dịch khi các tập tin được chỉ định có sự thay đổi.
 
 `Gulp` là một bộ công cụ JavaScript được dùng như là một trình chạy task, được dựng như là một hệ thống xây dựng trong phát triển web. Biên dịch, thu gọn code, minify CSS, tự động compile lại file (js, css) khi có thay đổi, compile SASS/LESS, tối ưu hình ảnh, unit testing linting là những task lập lại nên được tự động hoá. Gulp giúp quá trình viết task dễ dàng hơn, thậm chí cho những người ít kinh nghiệm với JavaScript.
+
+Gulp sử dụng nguyên tắc `convention over configuration` hay `code over configuration` trong quá trình setup dự án. Với nguyên tắc này thì những vấn đề cụ thể trong lập trình như tổ chức cấu trúc thư mục như thế nào, đặt các tập tin css hay javascript ở đâu... được chuẩn hoá trước khi bất cứ một tập tin, thư mục nào được tạo ra hay đoạn code nào được viết ra. Điều này giúp giảm số lượng các quyết định mà lập trình viên phải đưa ra và giúp cho việc maintain dự án trở nên dễ dàng. Dưới đây là một ví dụ về cách tổ chức một thư mục dự án đặc trưng để có thể sử dụng Gulp.js một cách dễ dàng:
+
+```no-highlight
+|- app/
+    |- css/
+    |- fonts/
+    |- images/ 
+    |- index.html
+    |- js/ 
+    |- scss/
+|- dist/
+|- gulpfile.js
+|- node_modules/
+|- package.json
+```
 
 Gulp sử dụng pipeline để dẫn data từ một plugin sang một plugin khác, và kết quả sau cùng là xuất ra một thư mục đã được chỉ định trước. `Gulp` thực hiện công việc tốt hơn so với `Grunt` bởi vì nó không tạo ra file tạm thời để lưu trữ các kết quả, nó cho kết quả có ít lần gọi I/O hơn.
 
@@ -97,15 +117,21 @@ Vậy là đủ đề hiểu cơ bản về cơ chế hoạt động của Gulp 
 
 ## 3. Cách cài đặt
 
-Để chạy được gulp thì mình cần chạy trên nên NodeJS Install NodeJS
+Việc cài đặt Gulp tương đối dễ dàng. Nếu bạn chưa cài Node.js, bạn cần cài Node.js theo hướng dẫn có trên trang chủ của [NodeJs](https://nodejs.org/en/).
 
 Sau khi đã cài đặt Node, bạn có thể cài đặt Gulp bằng cách sử dụng lệnh sau:
 
 ```bat
 npm install -g gulp
 hoặc
-npm install --global gulp
+sudo npm install --global gulp
 ```
+
+Chú ý:
+- chỉ những người sử dụng Mac mới cần sử dụng từ khóa `sudo`
+- **npm install** là lệnh sử dụng Node Package Manager (npm) để cài đặt Gulp trên máy tính của bạn.
+- Ở trên chúng ta sử dụng option -g (viết tắt của globally) để thực hiện việc cài đặt toàn cục Gulp trên máy tính.
+
 Tiếp tục di chuyển vào project và install gulp bằng lệnh:
 
 ```bat
@@ -117,7 +143,7 @@ npm install --save-dev gulp
 - `--save-dev` sẽ thêm gulp như một dev dependency trong package.json.
 - Bước cài đặt global chỉ cần làm 1 lần duy nhất trên 1 máy tính. Còn bước cài đặt trong thư mục dự án thì bắt buộc cài khi tạo một dự án mới.
 
-Xác minh phiên bản gulp của bạn
+Sau khi cài đặt xong bạn có thể kiểm tra phiên bản gulp của bạn bằng việc chạy câu lệnh:
 ```bat
 gulp --version
 ```
