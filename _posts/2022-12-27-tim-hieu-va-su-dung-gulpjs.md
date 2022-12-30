@@ -77,7 +77,11 @@ gulp --version
 ```
 
 Cửa sổ dòng lệnh sẽ hiển thị thông tin về phiên bản hiện tại của Gulp cho bạn.
-
+```bat
+C:\xampp\htdocs\gulpjs>gulp --version
+CLI version: 2.3.0
+Local version: 4.0.2
+```
 
 ## 3. Các thành phần chính của Gulp
 
