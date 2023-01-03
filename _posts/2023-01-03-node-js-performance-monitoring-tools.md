@@ -70,7 +70,38 @@ Giờ đây, bạn sẽ có một tuyến máy chủ mới `/appmetrics-dash` n�
 
 Công cụ giám sát Node.js này không chỉ hiển thị số liệu. Nó cho phép bạn tạo Báo cáo Node và Ảnh chụp nhanh Heap trực tiếp từ bảng điều khiển giám sát. Ngoài ra, bạn có quyền truy cập vào Flame Graphs. Khá tuyệt cho một công cụ mã nguồn mở.
 
-### 2. Express Status Monitor
+### 2. [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor)
+
+![Express Status Monitor](https://camo.githubusercontent.com/aed7a6d40880b02a4a0a09587e69f0e85df78a4127b87b7a6bcbcb80b1efd46a/687474703a2f2f692e696d6775722e636f6d2f4148697a4557712e676966 "Express Status Monitor")
+
+[Express.js](https://expressjs.com) là framework thực tế được các nhà phát triển Node.js lựa chọn. [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor) là một mô-đun tự lưu trữ cực kỳ đơn giản, bạn thêm vào máy chủ Express của mình. Nó hiển thị tuyến `/status` báo cáo số liệu máy chủ thời gian thực với sự trợ giúp của [Socket.io](https://socket.io) và [Chart.js](https://www.chartjs.org).
+
+Cài đặt công cụ từ npm đơn giản như thế này.
+
+```bat
+npm install express-status-monitor
+```
+
+Sau khi bạn đã cài đặt mô-đun, bạn cần thêm nó trước bất kỳ `middleware` hoặc `router` nào khác.
+
+```js
+app.use(require('express-status-monitor')())
+```
+
+Khi bạn chạy máy chủ của mình, hãy chuyển đến tuyến `/status` để theo dõi các chỉ số Node.js của bạn.
+
+### 3. [Prometheus](https://prometheus.io/)
+
+### 4. Monitoring Node.js with Prometheus and Docker
+
+### 5. Clinic.js
+
+### 6. PM2
+
+### 7. Others
+- [Atatus](https://www.atatus.com/for/nodejs)
+- [Sematext](https://sematext.com/apm/)
+- [Retrace](https://stackify.com/retrace-apm-nodejs/)
 
 
 ## Tổng kết
