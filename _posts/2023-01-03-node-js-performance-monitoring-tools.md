@@ -179,16 +179,48 @@ Sử dụng phương pháp tương tự này, bạn có thể chạy Bubbleprof 
 ![Clinic.js Flame](https://boxxv.github.io/img/2023/Selection_456-1.png.webp "Clinic.js Flame")
 
 
-### 5. PM2
+### 5. [PM2](https://www.npmjs.com/package/pm2)
+
+Việc chạy các ứng dụng Node.js trong production trở nên dễ dàng hơn rất nhiều với `PM2`. Đó là trình quản lý quy trình dễ dàng cho phép bạn chạy các ứng dụng ở chế độ cụm. Hoặc, bằng tiếng Anh, nó sẽ tạo ra một quy trình cho mọi lõi CPU mà máy chủ của bạn có.
+
+Bắt đầu bằng cách cài đặt [PM2](https://github.com/Unitech/pm2).
+
+```bat
+npm install pm2 -g
+```
+
+Sau khi nó được cài đặt, bạn sinh ra trình nền PM2 bằng cách chạy lệnh này trong terminal của mình, nếu tệp nguồn chính của bạn là app.js.
+
+```bat
+pm2 start app.js -i 0
+```
+
+Cờ -i 0 là viết tắt của các trường hợp. Điều này sẽ chạy ứng dụng Node.js của bạn ở chế độ cụm, trong đó 0 là viết tắt của một số lõi CPU. Bạn có thể đặt bất kỳ con số nào bạn muốn theo cách thủ công, nhưng để PM2 đếm số lõi và sinh ra số lượng công nhân đó sẽ dễ dàng hơn nhiều.
+
+Giám sát Node.js với PM2 thật dễ dàng.
+
+```bat
+pm2 monit
+```
+
+Lệnh này sẽ mở một bảng điều khiển trong thiết bị đầu cuối. Tại đây, bạn có thể theo dõi nhật ký, quy trình, độ trễ vòng lặp, bộ nhớ xử lý và CPU của Node.js.
+
+![PM2](https://boxxv.github.io/img/2023/Selection_458-1.png.webp "PM2")
+
 
 ### 6. Others
 - [Atatus](https://www.atatus.com/for/nodejs)
-- [Sematext](https://sematext.com/apm/)
+- [Sematext](https://sematext.com/apm/) [Sematext open source](https://github.com/sematext)
 - [Retrace](https://stackify.com/retrace-apm-nodejs/)
 
 
 ## Tổng kết
 
+Số liệu hiệu suất rất quan trọng để giữ cho người dùng của bạn hài lòng. Trong bài viết này, tôi đã chỉ cho bạn cách thêm giám sát vào ứng dụng Node.js của bạn bằng 5 công cụ mã nguồn mở khác nhau. Tìm hiểu cách chọn công cụ phù hợp cho chiến lược giám sát hiệu quả từ hướng dẫn của chúng tôi về cảnh báo và giám sát.
+
+Nếu bạn muốn xem mã mẫu, [đây là một repo](https://github.com/adnanrahic/nodejs-monitoring-sematext/tree/develop) với tất cả các mẫu. Bạn cũng có thể sao chép repo và chọn bất kỳ công cụ nào ngay lập tức.
+
+Hy vọng các bạn thích bài viết này nhiều như tôi thích viết nó. Nếu bạn thích nó, hãy nhấn nút chia sẻ nhỏ đó để nhiều người sẽ thấy hướng dẫn này. Cho đến lần sau, hãy tò mò và vui vẻ.
 
 
 -----
