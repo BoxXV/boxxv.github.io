@@ -112,6 +112,13 @@ Khi bạn chạy máy chủ của mình, hãy chuyển đến tuyến `/status` 
 
 Trừ khi bạn đang sống dưới một tảng đá, bạn hẳn đã nghe nói về [Prometheus](https://github.com/prometheus). Đây là công cụ giám sát nguồn mở nổi tiếng và đáng chú ý nhất mà bạn có thể sử dụng ngày nay. Prometheus là nguồn mở 100% và hướng đến cộng đồng. Tất cả các thành phần đều có sẵn theo Giấy phép Apache 2 trên GitHub. Nó cũng là một dự án thành viên tốt nghiệp của Cloud Native Computing Foundation, bên cạnh các dự án như Kubernetes và Fluentd.
 
+Các tính năng của Prometheus:
+- Hình dung tuyệt vời
+- Nhiều tích hợp
+- Cảnh báo chính xác
+- Nhiều thư viện khách hàng
+- Lưu trữ hiệu quả
+
 Để bắt đầu theo dõi Node.js bằng Prometheus, bạn cần [tải xuống bản phát hành mới nhất](https://prometheus.io/download/) và cài đặt nó.
 
 ```bat
@@ -254,6 +261,8 @@ Lệnh này sẽ mở một bảng điều khiển trong thiết bị đầu cu�
 
 
 ## Tổng kết
+
+Giám sát thường bị bỏ qua, mặc dù tầm quan trọng của nó trong việc đảm bảo tính khả dụng của ứng dụng. Các công cụ đánh giá mã, theo dõi hiệu suất và cung cấp thông tin chi tiết về các lỗi chắc chắn sẽ được sử dụng đáng kể, đặc biệt khi chi phí phát triển là một vấn đề cần cân nhắc chính. Họ hỗ trợ bạn đáp ứng SLA bằng cách đưa ra giải pháp nhanh hơn cho khách hàng, giúp bạn tiết kiệm thời gian và công sức.
 
 Số liệu hiệu suất rất quan trọng để giữ cho người dùng của bạn hài lòng. Trong bài viết này, tôi đã chỉ cho bạn cách thêm giám sát vào ứng dụng Node.js của bạn bằng 5 công cụ mã nguồn mở khác nhau. Tìm hiểu cách chọn công cụ phù hợp cho chiến lược giám sát hiệu quả từ hướng dẫn của chúng tôi về cảnh báo và giám sát.
 
