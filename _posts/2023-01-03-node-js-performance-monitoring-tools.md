@@ -42,7 +42,17 @@ Trong bài viết này, tôi sẽ giải thích cách thêm giám sát vào ứn
 
 ![Appmetrics](https://raw.githubusercontent.com/RuntimeTools/appmetrics-dash/HEAD/public/appmetrics.gif "Appmetrics")
 
-[Node Application Metrics Dashboard](https://github.com/RuntimeTools/appmetrics-dash) hiển thị số liệu hiệu suất của ứng dụng Node.js đang chạy của bạn. Đó là một mô-đun đơn giản mà bạn cài đặt và yêu cầu ở đầu tệp nguồn Node.js chính của mình. Bạn cài đặt mô-đun từ npm bằng cách chạy lệnh sau trong terminal của mình.
+[Node Application Metrics Dashboard](https://github.com/RuntimeTools/appmetrics-dash) hiển thị số liệu hiệu suất của ứng dụng Node.js đang chạy của bạn. Đó là một mô-đun đơn giản mà bạn cài đặt và yêu cầu ở đầu tệp nguồn Node.js chính của mình.
+
+IBM đã phát triển và duy trì App Metrics, một sáng kiến mã nguồn mở. Mục tiêu chính của nó là cung cấp một khuôn khổ cho các số liệu ứng dụng nổi bật có thể được áp dụng cho nhiều công việc khác nhau. Tốc độ mạng, giao dịch dữ liệu, hiệu suất truy vấn cơ sở dữ liệu, cấu hình CPU và mức sử dụng bộ nhớ cũng như thu gom rác là một số nhiệm vụ này.
+
+Các tính năng của Số liệu ứng dụng:
+- AppMetrics-dash plugin để giám sát ứng dụng
+- Một công cụ mã nguồn mở và miễn phí
+- Giao dịch dữ liệu
+- Tốc độ mạng
+
+Bạn cài đặt mô-đun từ npm bằng cách chạy lệnh sau trong terminal của mình.
 
 ```bat
 npm install appmetrics-dash
@@ -75,6 +85,12 @@ Công cụ giám sát Node.js này không chỉ hiển thị số liệu. Nó ch
 ![Express Status Monitor](https://camo.githubusercontent.com/aed7a6d40880b02a4a0a09587e69f0e85df78a4127b87b7a6bcbcb80b1efd46a/687474703a2f2f692e696d6775722e636f6d2f4148697a4557712e676966 "Express Status Monitor")
 
 [Express.js](https://expressjs.com) là framework thực tế được các nhà phát triển Node.js lựa chọn. [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor) là một mô-đun tự lưu trữ cực kỳ đơn giản, bạn thêm vào máy chủ Express của mình. Nó hiển thị tuyến `/status` báo cáo số liệu máy chủ thời gian thực với sự trợ giúp của [Socket.io](https://socket.io) và [Chart.js](https://www.chartjs.org).
+
+Các tính năng của Express Status Monitor:
+- Theo dõi thời gian phản hồi
+- Tần suất yêu cầu
+- Sử dụng bộ nhớ & CPU
+- Trạng thái mã
 
 Cài đặt công cụ từ npm đơn giản như thế này.
 
@@ -183,6 +199,15 @@ Sử dụng phương pháp tương tự này, bạn có thể chạy Bubbleprof 
 
 Việc chạy các ứng dụng Node.js trong production trở nên dễ dàng hơn rất nhiều với `PM2`. Đó là trình quản lý quy trình dễ dàng cho phép bạn chạy các ứng dụng ở chế độ cụm. Hoặc, bằng tiếng Anh, nó sẽ tạo ra một quy trình cho mọi lõi CPU mà máy chủ của bạn có.
 
+PM2 là trình quản lý quy trình daemon cho phép các nhà phát triển Node.js quản lý và duy trì các ứng dụng của họ khi họ trực tuyến. Để bắt đầu với dịch vụ này, trước tiên các nhà phát triển phải cài đặt NPM, việc này có thể được thực hiện bằng lệnh npm –version.
+
+Tích hợp giao diện web để theo dõi tình trạng ứng dụng là một trong những tính năng tốt nhất của PM2. Quản lý nhật ký ứng dụng và lỗi, tải lại nóng, truyền phát nhật ký và tự động phân cụm là một số tính năng khác. Quan trọng nhất, nó hỗ trợ quản lý nhiều ứng dụng Node.js.
+
+Các tính năng của PM2:
+- Quản lý nhật ký
+- Tự động phân cụm cho các ứng dụng Node.js
+- Tích hợp vùng chứa
+
 Bắt đầu bằng cách cài đặt [PM2](https://github.com/Unitech/pm2).
 
 ```bat
@@ -209,9 +234,23 @@ Lệnh này sẽ mở một bảng điều khiển trong thiết bị đầu cu�
 
 
 ### 6. Others
-- [Atatus](https://www.atatus.com/for/nodejs)
-- [Sematext](https://sematext.com/apm/) [Sematext open source](https://github.com/sematext)
-- [Retrace](https://stackify.com/retrace-apm-nodejs/)
+[Atatus](https://www.atatus.com/for/nodejs) $0.07 /Host/Hour/Month - 14-day free trial
+- Chẩn đoán transaction  đầy đủ
+- Phân tích hiệu suất
+- Phân tích nguyên nhân gốc rễ
+- Giám sát máy chủ
+- Theo dõi các giao dịch cá nhân
+
+[Sematext](https://sematext.com/apm/) [Sematext open source](https://github.com/sematext)
+- Bảo mật ứng dụng
+- Giám sát băng thông
+- Lập kế hoạch năng lực
+- Theo dõi tuân thủ
+
+[Retrace](https://stackify.com/retrace-apm-nodejs/)
+- Tích hợp lỗi và nhật ký
+- Triển khai và xác nhận triển khai
+- Thông tin chuyên sâu lấy nhà phát triển làm trung tâm để nhanh chóng sửa lỗi
 
 
 ## Tổng kết
