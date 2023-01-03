@@ -90,15 +90,48 @@ app.use(require('express-status-monitor')())
 
 Khi bạn chạy máy chủ của mình, hãy chuyển đến tuyến `/status` để theo dõi các chỉ số Node.js của bạn.
 
-### 3. [Prometheus](https://prometheus.io/)
+### 3. [Prometheus](https://prometheus.io)
 
-### 4. Monitoring Node.js with Prometheus and Docker
+![Prometheus](https://boxxv.github.io/img/2023/nodejs-grafana.webp--1000-562--and-1-more-page---Personal---Microsoft--Edge-02_06_2021-11_29_53.png "Prometheus")
 
-### 5. Clinic.js
+Trừ khi bạn đang sống dưới một tảng đá, bạn hẳn đã nghe nói về [Prometheus](https://github.com/prometheus). Đây là công cụ giám sát nguồn mở nổi tiếng và đáng chú ý nhất mà bạn có thể sử dụng ngày nay. Prometheus là nguồn mở 100% và hướng đến cộng đồng. Tất cả các thành phần đều có sẵn theo Giấy phép Apache 2 trên GitHub. Nó cũng là một dự án thành viên tốt nghiệp của Cloud Native Computing Foundation, bên cạnh các dự án như Kubernetes và Fluentd.
 
-### 6. PM2
+Để bắt đầu theo dõi Node.js bằng Prometheus, bạn cần [tải xuống bản phát hành mới nhất](https://prometheus.io/download/) và cài đặt nó.
 
-### 7. Others
+```bat
+tar xvfz prometheus-*.tar.gz
+cd prometheus-*
+```
+
+Sau đó, bạn khởi động nó bằng cách chạy tệp thực thi nhưng trước khi chạy lệnh này, bạn cần tạo một tệp prometheus.yml. Đó là một tệp cấu hình để thu thập số liệu từ các mục tiêu được giám sát bằng cách cạo các điểm cuối HTTP của số liệu trên các mục tiêu này.
+
+```text
+# prometheus.yml
+scrape_configs:
+    - job_name: 'prometheus'
+      scrape_interval: 1s
+      static_configs:
+            - targets: ['127.0.0.1:3000']
+              labels:
+                service: 'test-prom'
+                group: 'production'
+```
+
+Bây giờ bạn có thể chạy Prometheus.
+
+```bat
+$ ./prometheus --config.file=prometheus.yml
+```
+
+Tuy nhiên, tôi khá lười biếng và tôi rất thích Docker. Vì vậy, cách tôi làm là chạy hình ảnh Prometheus Docker chính thức và tránh mọi rắc rối khi tải xuống.
+
+#### [Monitoring Node.js with Prometheus and Docker](https://sematext.com/blog/nodejs-open-source-monitoring-tools/#4-monitoring-node-js-with-prometheus-and-docker)
+
+### 4. Clinic.js
+
+### 5. PM2
+
+### 6. Others
 - [Atatus](https://www.atatus.com/for/nodejs)
 - [Sematext](https://sematext.com/apm/)
 - [Retrace](https://stackify.com/retrace-apm-nodejs/)
