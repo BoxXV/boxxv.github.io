@@ -28,6 +28,50 @@ Node.js nổi tiếng với hiệu suất cực nhanh. Tuy nhiên, như với b�
 
 ![Monitoring](https://boxxv.github.io/img/2023/nodejs-monitoring-cover-5.png "Monitoring")
 
+Tính năng quan trọng nhất mà ứng dụng Node.js của bạn có thể có là gì? Bạn có nghĩ rằng là tìm kiếm toàn văn (full-text search) hoặc có thể sử dụng sockets cho các cuộc trò chuyện thời gian thực? Với tôi, tính năng hấp dẫn nhất, tuyệt vời nhất và hấp dẫn nhất mà bạn có thể thêm vào ứng dụng Node.js là Hiệu suất cao không có thời gian chết. Các ứng dụng hiệu suất cần phải làm tốt ba điều.
+- Đảm bảo thời gian chết tối thiểu
+- Có mức sử dụng tài nguyên có thể dự đoán được
+- Quy mô hiệu quả dựa trên tải
+
+Trong Phần 1, [Các chỉ số chính cần theo dõi của Node.js](https://sematext.com/blog/top-nodejs-metrics-to-watch/), chúng ta đã nói về các chỉ số chính của Node.js mà bạn nên theo dõi để hiểu được tình trạng của ứng dụng và máy chủ của mình. Tôi cũng đã giải thích các thực tiễn không tốt trong Node.js mà bạn nên tránh, chẳng hạn như `blocking the thread` và tạo `memory leaks`, ngoài ra còn có một số thủ thuật nhỏ mà bạn có thể sử dụng để tăng hiệu suất của ứng dụng, chẳng hạn như sử dụng mô-đun cụm để tạo quy trình worker và rẽ nhánh các tiến trình chạy dài để chạy tách biệt với luồng chính.
+
+Trong bài viết này, tôi sẽ giải thích cách thêm giám sát vào ứng dụng Node.js của bạn bằng các công cụ mã nguồn mở khác nhau. Chúng có thể không có các tính năng toàn diện như tích hợp giám sát Sematext Node.js hoặc Datadog, nhưng hãy nhớ rằng chúng là các sản phẩm nguồn mở và có thể hoạt động tốt.
+
+
+### 1. [Appmetrics](https://www.npmjs.com/package/appmetrics-dash)
+
+![Appmetrics](https://raw.githubusercontent.com/RuntimeTools/appmetrics-dash/HEAD/public/appmetrics.gif "Appmetrics")
+
+[Node Application Metrics Dashboard](https://github.com/RuntimeTools/appmetrics-dash) hiển thị số liệu hiệu suất của ứng dụng Node.js đang chạy của bạn. Đó là một mô-đun đơn giản mà bạn cài đặt và yêu cầu ở đầu tệp nguồn Node.js chính của mình. Bạn cài đặt mô-đun từ npm bằng cách chạy lệnh sau trong terminal của mình.
+
+```bat
+npm install appmetrics-dash
+```
+
+Appmetrics cung cấp bảng điều khiển giám sát dựa trên web rất dễ sử dụng. Mọi thứ bạn cần làm để có được bảng điều khiển cho tất cả các máy chủ HTTP do ứng dụng của bạn tạo là thêm đoạn mã này vào tệp app.js của bạn hoặc bất kỳ thứ gì bạn gọi là tệp nguồn chính của mình.
+
+```js
+// Before all other 'require' statements
+require('appmetrics-dash').attach()
+```
+
+Giờ đây, bạn sẽ có một tuyến máy chủ mới `/appmetrics-dash` nơi bạn có thể xem rất nhiều chỉ số hữu ích.
+- CPU Profiling
+- HTTP Incoming Requests
+- HTTP Throughput
+- Average Response Times (top 5)
+- CPU
+- Memory
+- Heap
+- Event Loop Times
+- Environment
+- Other Requests
+- HTTP Outbound Requests
+
+Công cụ giám sát Node.js này không chỉ hiển thị số liệu. Nó cho phép bạn tạo Báo cáo Node và Ảnh chụp nhanh Heap trực tiếp từ bảng điều khiển giám sát. Ngoài ra, bạn có quyền truy cập vào Flame Graphs. Khá tuyệt cho một công cụ mã nguồn mở.
+
+### 2. Express Status Monitor
+
 
 ## Tổng kết
 
