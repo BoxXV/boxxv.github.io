@@ -127,7 +127,57 @@ Tuy nhiên, tôi khá lười biếng và tôi rất thích Docker. Vì vậy, c
 
 #### [Monitoring Node.js with Prometheus and Docker](https://sematext.com/blog/nodejs-open-source-monitoring-tools/#4-monitoring-node-js-with-prometheus-and-docker)
 
-### 4. Clinic.js
+### 4. [Clinic.js](https://clinicjs.org)
+
+[Clinic.js](https://github.com/clinicjs) bao gồm ba công cụ giúp chẩn đoán và xác định các vấn đề về hiệu suất trong các ứng dụng Node.js. Nó rất dễ sử dụng. Tất cả những gì bạn cần làm là cài đặt mô-đun từ npm và chạy nó. Thao tác này sẽ tạo các báo cáo giúp bạn khắc phục sự cố dễ dàng hơn nhiều.
+
+Để cài đặt Clinic.js, hãy chạy lệnh này trong terminal của bạn.
+
+```bat
+npm install clinic
+```
+
+Khi bạn đã cài đặt xong, tất cả sẽ tùy thuộc vào việc chọn loại báo cáo sẽ tạo. Bạn có thể chọn giữa ba.
+
+**Doctor**
+- Thu thập số liệu bằng cách tiêm đầu dò
+- Đánh giá sức khỏe và kinh nghiệm
+- Tạo đề xuất
+
+**Bubbleprof**
+– một cách tiếp cận mới, hoàn toàn độc đáo để lược tả mã Node.js của bạn
+- Thu thập số liệu bằng cách sử dụng async_hooks
+- Theo dõi độ trễ giữa các hoạt động
+- Tạo biểu đồ bong bóng
+
+**Flame**
+– phát hiện ra các nút cổ chai `bottlenecks` và đường dẫn nóng trong mã của bạn bằng biểu đồ ngọn lửa
+- Thu thập số liệu bằng cách lấy mẫu CPU
+- Theo dõi tần suất top-of-stack
+- Tạo biểu đồ ngọn lửa
+
+Hãy bắt đầu bằng cách chạy Doctor và tải thử nghiệm ứng dụng Node.js.
+
+```bat
+clinic doctor -- node app.js
+```
+
+Trong khi nó đang chạy, hãy chạy thử tải với công cụ bạn muốn.
+
+```bat
+loadtest -n 1000 -c 100 http://localhost:3000/api
+```
+
+Sau khi chạy xong, hãy dừng máy chủ và Clinic.js Doctor sẽ mở một báo cáo mà bạn có thể kiểm tra.
+
+![Clinic.js Doctor](https://boxxv.github.io/img/2023/screencapture-file-home-raha-code-sandbox-node-nodejs-monitoring-clinic-2961-clinic-doctor-html-2019-04-29-13_59_42-1.png.webp "Clinic.js Doctor")
+
+Sử dụng phương pháp tương tự này, bạn có thể chạy Bubbleprof hoặc Flame và nhận đồ thị cho các công cụ tương ứng.
+
+![Clinic.js Bubbleprof](https://boxxv.github.io/img/2023/screencapture-file-home-raha-code-sandbox-node-nodejs-monitoring-clinic-3954-clinic-bubbleprof-html-2019-04-29-14_04_33-1.png.webp "Clinic.js Bubbleprof")
+
+![Clinic.js Flame](https://boxxv.github.io/img/2023/Selection_456-1.png.webp "Clinic.js Flame")
+
 
 ### 5. PM2
 
