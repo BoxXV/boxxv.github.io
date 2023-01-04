@@ -144,7 +144,15 @@ Bây giờ bạn có thể chạy Prometheus.
 
 ```bat
 $ ./prometheus --config.file=prometheus.yml
+
+hoặc
+
+prometheus.exe --config.file prometheus.yml --web.listen-address ":9090" --storage.tsdb.path "data"
 ```
+
+Truy cập giao diện web “Prometheus” với URL sau và nó chạy trên cổng `9090`.
+
+[http://localhost:9090](http://localhost:9090)
 
 Tuy nhiên, tôi khá lười biếng và tôi rất thích Docker. Vì vậy, cách tôi làm là chạy hình ảnh Prometheus Docker chính thức và tránh mọi rắc rối khi tải xuống.
 
@@ -157,7 +165,8 @@ Tuy nhiên, tôi khá lười biếng và tôi rất thích Docker. Vì vậy, c
 Để cài đặt Clinic.js, hãy chạy lệnh này trong terminal của bạn.
 
 ```bat
-npm install clinic
+npm install -g clinic
+npm install -g autocannon
 ```
 
 Khi bạn đã cài đặt xong, tất cả sẽ tùy thuộc vào việc chọn loại báo cáo sẽ tạo. Bạn có thể chọn giữa ba.
@@ -183,6 +192,9 @@ Hãy bắt đầu bằng cách chạy Doctor và tải thử nghiệm ứng dụ
 
 ```bat
 clinic doctor -- node app.js
+clinic doctor --autocannon [ / ] -- node app.js
+clinic bubbleprof --autocannon [ / ] -- node app.js
+clinic flame --autocannon [ / ] -- node app.js
 ```
 
 Trong khi nó đang chạy, hãy chạy thử tải với công cụ bạn muốn.
@@ -282,3 +294,4 @@ Tham khảo:
 - []()
 - [NodeJS có thực sự nhanh như bạn nghĩ? 🤔](https://viblo.asia/p/nodejs-co-thuc-su-nhanh-nhu-ban-nghi-m68Z0Pe9ZkG)
 - [Find bottlenecks in Node.js apps with Clinic Flame](https://dev.to/mpangrazzi/find-bottlenecks-in-nodejs-apps-with-clinic-flame-3i0h)
+- [Prometheus installation on Windows](http://www.liferaysavvy.com/2021/07/prometheus-installation-on-windows.html)
