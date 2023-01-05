@@ -614,6 +614,7 @@ Hooks
 - [React: useMemo là gì ? khi nào nên sử dụng?](https://viblo.asia/p/react-usememo-la-gi-khi-nao-nen-su-dung-1VgZvDm95Aw)
 - [Tìm hiểu về useMomo và cách sử dụng hợp lý?](https://codestus.com/posts/tim-hieu-ve-usemomo-va-cach-su-dung-hop-ly)
 - [Custom Hook là gì?](https://viblo.asia/p/custom-hook-la-gi-gAm5yDo8ldb)
+- [React Hooks Course - All React Hooks Explained](https://youtu.be/LlvBzyy-558)
 - [React - Introducing Hooks](https://viblo.asia/p/react-introducing-hooks-QpmleERNlrd)
 - [Cảm nhận về React Hooks](https://viblo.asia/p/cam-nhan-ve-react-hooks-OeVKBnPMKkW)
 - [[React JS] Xử lý form đơn giản hơn với React-hook-form](https://viblo.asia/p/react-js-xu-ly-form-don-gian-hon-voi-react-hook-form-yMnKMRXNZ7P)
