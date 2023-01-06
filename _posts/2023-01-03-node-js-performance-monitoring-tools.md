@@ -42,16 +42,27 @@ Trong bài viết này, tôi sẽ giải thích cách thêm giám sát vào ứn
 
 ### 1. [PM2](https://www.npmjs.com/package/pm2)
 
-Việc chạy các ứng dụng Node.js trong production trở nên dễ dàng hơn rất nhiều với `PM2`. Đó là trình quản lý quy trình dễ dàng cho phép bạn chạy các ứng dụng ở chế độ cụm. Hoặc, bằng tiếng Anh, nó sẽ tạo ra một quy trình cho mọi lõi CPU mà máy chủ của bạn có.
+[PM2](https://pm2.keymetrics.io) là một công cụ quản lý tiến trình (Process Manager) free open source, hiện đại, hiệu quả, cross-platform và quan trọng là nó free cho ứng dụng sử dụng Node.js với tích hợp bộ cân bằng tải (load balencer). PM2 hoàn hảo cho bạn trong hầu hết trường hợp chạy ứng dụng NodeJS trên môi trường production.
 
-PM2 là trình quản lý quy trình daemon cho phép các nhà phát triển Node.js quản lý và duy trì các ứng dụng của họ khi họ trực tuyến. Để bắt đầu với dịch vụ này, trước tiên các nhà phát triển phải cài đặt NPM, việc này có thể được thực hiện bằng lệnh npm –version.
+PM2 đã hoạt động ổn định trên Linux, MacOS cũng như Windows. Nó hỗ trợ giám sát ứng dụng, quản lý, tracking hiệu quả các service/process, chạy các ứng dụng ở chế độ cluster (bạn có thể biết được PM2 ngốn hết bao nhiêu RAM, CPU cho mỗi cluster), start/stop ứng dụng Node.js rất dễ dàng, nhanh chóng. Nó giúp cho ứng dụng của bạn luôn ở trạng thái "sống" (alive forever). Nếu thứ mà server ứng dụng NodeJS của bạn đang cần là zero downtime thì PM2 chính là sự lựa chọn đúng đắn dành cho bạn vì PM2 có tính năng auto reload/restart với zero downtime.
+
+PM2 được viết bằng NodeJS và Shell. Chúng ta có thể sử dụng PM2 thông qua giao diện command line hoặc cũng có thể sử dụng bằng giao diện web trên Key Metrics. Với giao diện trực quan như vậy thì việc quản lý của bạn sẽ trở nên dễ dàng hơn, hay bạn cũng có thể reload/restart mà không cần phải connect SSH tới server rồi dùng command line nữa.
 
 Tích hợp giao diện web để theo dõi tình trạng ứng dụng là một trong những tính năng tốt nhất của PM2. Quản lý nhật ký ứng dụng và lỗi, tải lại nóng, truyền phát nhật ký và tự động phân cụm là một số tính năng khác. Quan trọng nhất, nó hỗ trợ quản lý nhiều ứng dụng Node.js.
 
 Các tính năng của PM2:
-- Quản lý nhật ký
+- Giám sát ứng dụng
+- Quản lý các process, logs của ứng dụng
+- Tự động restart/reload app
 - Tự động phân cụm cho các ứng dụng Node.js
-- Tích hợp vùng chứa
+- Khai báo cấu hình qua JSON file
+- Tích hợp với Docker
+- Cluster mode
+- Chạy các kịch bản lệnh (Startup Scripts) cho hệ thống
+- Cho phép tích hợp các module cho hệ thống
+- Theo dõi việc sử dụng tài nguyên của ứng dụng (Keymetric Monitering)
+- Điều khiển, giám sát các tiến trình trong một ứng dụng nodejs trực tiếp bằng code thông qua PM2 API
+.v.v.
 
 Bắt đầu bằng cách cài đặt [PM2](https://github.com/Unitech/pm2).
 
@@ -67,6 +78,11 @@ pm2 start app.js -i 0
 
 Cờ -i 0 là viết tắt của các trường hợp. Điều này sẽ chạy ứng dụng Node.js của bạn ở chế độ cụm, trong đó 0 là viết tắt của một số lõi CPU. Bạn có thể đặt bất kỳ con số nào bạn muốn theo cách thủ công, nhưng để PM2 đếm số lõi và sinh ra số lượng công nhân đó sẽ dễ dàng hơn nhiều.
 
+Câu lệnh giúp ứng dụng của bạn tự động reload khi code của bạn có thay đổi:
+```bat
+pm2 start app.js --watch
+```
+
 Giám sát Node.js với PM2 thật dễ dàng.
 
 ```bat
@@ -76,6 +92,155 @@ pm2 monit
 Lệnh này sẽ mở một bảng điều khiển trong thiết bị đầu cuối. Tại đây, bạn có thể theo dõi nhật ký, quy trình, độ trễ vòng lặp, bộ nhớ xử lý và CPU của Node.js.
 
 ![PM2](https://boxxv.github.io/img/2023/Selection_458-1.png.webp "PM2")
+
+
+Ngoài ra còn rất nhiều option khác để bạn dễ dàng tuỳ chỉnh việc quản lý ứng dụng như:
+
+```bat
+# Đặt tên cho ứng dụng
+--name <app_name>
+
+# Theo dõi và khởi động lại ứng dụng khi có file thay đổi
+--watch
+
+# Đặt ngưỡng bộ nhớ để tải lại ứng dụng
+--max-memory-restart <200MB>
+
+# Chỉ định file log cụ thể
+--log <log_path>
+
+# Độ trễ giữa các lần tự động khởi động lại
+--restart-delay <delay in ms>
+
+# Không tự động khởi động lại ứng dụng
+--no-autorestart
+
+# Chỉ định cron để bắt buộc khởi động lại
+--cron <cron_pattern>
+
+# Đính kèm vào log của ứng dụng
+--no-daemon
+```
+
+#### Quản lý processes
+
+Bạn có thể dùng các command sau đây để quản lý ứng dụng:
+
+```bat
+# Restart ứng dụng
+$ pm2 restart app_name
+
+# Reload ứng dụng
+$ pm2 reload app_name
+
+# Stop ứng dụng – nhưng vẫn giữ ứng dụng đó ở trong list process
+$ pm2 stop app_name
+
+# Stop ứng dụng, đồng thời xoá ứng dụng ra khỏi list process
+$ pm2 delete app_name
+
+# Liệt kê trạng thái của tất cả các ứng dụng được quản lý bởi PM2
+$ pm2 [list|ls|status]
+
+# Hiện thị log với realtime
+$ pm2 logs // Mặc định PM2 sẽ lưu logs tại ./pm2/logs
+```
+
+#### Web based dashboard
+
+Bằng cách truy cập vào https://app.pm2.io/ và setup theo hướng dẫn hoặc chạy lệnh sau từ ứng dụng của bạn:
+
+![PM2](https://boxxv.github.io/img/2023/a0c99367-c307-4b89-abab-f3384089dd1d.webp "PM2")
+
+Chúng ta sẽ có một giao diện Monitering trực quan như trên. Với giao diện web, gói miễn phí mặc định cho ta biết đầy đủ các thông tin monitoring cơ bản, còn rất nhiều thông tin chi tiết và phong phú hơn với gói PM2 Plus và PM2 Enterprise nếu có điều kiện thì bạn có thể trải nghiệm =))
+
+
+#### Deployment
+
+PM2 hỗ trợ chúng ta một file ecosystem.config.js để quan lý nhiều ứng dụng. file này chứa các thông tin như name, environments, scripts file, logs, node instances,... Để tạo file, dùng lệnh sau:
+
+```bat
+pm2 ecosystem
+```
+
+Sau khi chạy lệnh, PM2 sẽ tạo cho chúng ta file `ecosystem.config.js`:
+
+```text
+module.exports = {
+apps : [{
+    name: 'app', // application name 
+    script: 'app.js', // script path to pm2 start
+
+    // Options reference: https://pm2.io/doc/en/runtime/reference/ecosystem-file/
+    args: 'one two', // string containing all arguments passed via CLI to script
+    instances: 1, // number process of application
+    autorestart: true, //auto restart if app crashes
+    watch: false,
+    max_memory_restart: '1G', // restart if it exceeds the amount of memory specified
+    env: {
+      NODE_ENV: 'development'
+    },
+    env_production: {
+      NODE_ENV: 'production'
+    }
+  }, {
+     name: 'worker',
+     script: 'worker.js'
+  }],
+   
+  // Deployment Configuration
+  deploy : {
+    production : {
+       "user" : "ubuntu",
+       "host" : ["192.168.0.13", "192.168.0.14", "192.168.0.15"],
+       "ref"  : "origin/master",
+       "repo" : "git@github.com:Username/repository.git",
+       "path" : "/var/www/my-repository",
+      "post-deploy" : 'npm install && pm2 reload ecosystem.config.js --env production'
+    }
+  }
+};
+```
+
+Ở file trên, các bạn có thể thấy là chúng ta sẽ config deploy cho môi trường production, tương tự bạn cũng có thể config thêm môi trường staging hoặc khác. Mình có thêm một số attributes như `args`, `instances`, `autorestart`, `watch`, `max_memory_restart`,... Các bạn có thể tham khảo thêm các attributes khác [tại đây](https://pm2.keymetrics.io/docs/usage/application-declaration/#attributes-available).
+
+Thay vì chạy `pm2 start app.js` như trước, giờ bạn sẽ chạy ứng dụng bằng command sau:
+
+```bat
+pm2 start ecosystem.config.js
+```
+
+Để deploy application thì tiên bạn cần chạy command:
+
+```bat
+$ pm2 deploy production setup // run remote setup commands
+
+// or staging
+$ pm2 deploy staging setup
+```
+
+Ở lần đầu thì nó sẽ pull source code của bạn về và setup. Ở các lần deploy tiếp theo, bạn chỉ cần chạy command:
+
+```bat
+$ pm2 deploy production update // update deploy to the latest release
+
+// or
+$ pm2 deploy staging update
+```
+
+Tham khảo thêm về PM2 Deployment [tại đây](https://pm2.keymetrics.io/docs/usage/deployment/).
+
+#### Cluster Mode
+
+Đối với các ứng dụng Node.js, PM2 bao gồm một bộ cân bằng tải tự động (automatic load balancer) sẽ chia sẻ tất cả các kết nối HTTP[s]/Websocket/TCP/UDP giữa mỗi processes được tạo ra. Cluster mode cho phép Node.js application sử dụng tất cả các CPUs của server. Điều này làm tăng đáng kể hiệu năng và độ tin cậy của các ứng dụng, tùy thuộc vào số lượng CPU có sẵn của server.
+
+Để khởi động ứng dụng Cluster Mode thì bạn chỉ cần thêm options `-i` như sau:
+
+```bat
+pm2 start index.js -i max
+```
+
+Trong đó `max` có nghĩa là PM2 sẽ tự động phát hiện số lượng CPU có sẵn và chạy càng nhiều process càng tốt.
 
 
 ### 2. [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor)
@@ -295,7 +460,12 @@ Tham khảo:
 - [Node.js Performance Testing and Tuning](https://stackify.com/node-js-performance-tuning/)
 - [Testing Performance of NodeJs App? Try These 3 Proven Tools](https://www.systango.com/blog/nodejs-performance-testing-and-tuning)
 - [10+ Best MongoDB Monitoring Tools and Services 2022 Comparison]](https://sematext.com/blog/mongodb-monitoring-tools/)
+
 - [NodeJS có thực sự nhanh như bạn nghĩ? 🤔](https://viblo.asia/p/nodejs-co-thuc-su-nhanh-nhu-ban-nghi-m68Z0Pe9ZkG)
+- [Tổng quan về PM2 – Trình quản lý các ứng dụng NodeJS](https://viblo.asia/p/tong-quan-ve-pm2-trinh-quan-ly-cac-ung-dung-nodejs-djeZ1EYYZWz)
+- [Tổng quan về PM2](https://viblo.asia/p/tong-quan-ve-pm2-3P0lPkkmZox)
+- [Sử dụng PM2 API để quản lý các tiến trình NodeJs](https://viblo.asia/p/su-dung-pm2-api-de-quan-ly-cac-tien-trinh-nodejs-bWrZnLMp5xw)
+- [Auto deploy Node.js app lên server qua SSH với GitLab CI/CD và PM2](https://viblo.asia/p/auto-deploy-nodejs-app-len-server-qua-ssh-voi-gitlab-cicd-va-pm2-1Je5Ed44lnL)
 - [Tạo Logger trong ứng dụng NodeJs với thư viện winston](https://viblo.asia/p/tao-logger-trong-ung-dung-nodejs-voi-thu-vien-winston-djeZ1G885Wz)
 - [Find bottlenecks in Node.js apps with Clinic Flame](https://dev.to/mpangrazzi/find-bottlenecks-in-nodejs-apps-with-clinic-flame-3i0h)
 - [Prometheus installation on Windows](http://www.liferaysavvy.com/2021/07/prometheus-installation-on-windows.html)
