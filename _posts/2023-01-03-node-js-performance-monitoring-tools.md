@@ -23,6 +23,8 @@ Node.js nổi tiếng với hiệu suất cực nhanh. Tuy nhiên, như với b�
 
 ![Performance](https://boxxv.github.io/img/2023/Improving-Node-.Js-Performance-768x351.png "Performance")
 
+> Updating...
+
 
 ## II. Công cụ giám sát Node.js
 
@@ -38,47 +40,43 @@ Trong Phần 1, [Các chỉ số chính cần theo dõi của Node.js](https://s
 Trong bài viết này, tôi sẽ giải thích cách thêm giám sát vào ứng dụng Node.js của bạn bằng các công cụ mã nguồn mở khác nhau. Chúng có thể không có các tính năng toàn diện như tích hợp giám sát Sematext Node.js hoặc Datadog, nhưng hãy nhớ rằng chúng là các sản phẩm nguồn mở và có thể hoạt động tốt.
 
 
-### 1. [Appmetrics](https://www.npmjs.com/package/appmetrics-dash)
+### 1. [PM2](https://www.npmjs.com/package/pm2)
 
-![Appmetrics](https://raw.githubusercontent.com/RuntimeTools/appmetrics-dash/HEAD/public/appmetrics.gif "Appmetrics")
+Việc chạy các ứng dụng Node.js trong production trở nên dễ dàng hơn rất nhiều với `PM2`. Đó là trình quản lý quy trình dễ dàng cho phép bạn chạy các ứng dụng ở chế độ cụm. Hoặc, bằng tiếng Anh, nó sẽ tạo ra một quy trình cho mọi lõi CPU mà máy chủ của bạn có.
 
-[Node Application Metrics Dashboard](https://github.com/RuntimeTools/appmetrics-dash) hiển thị số liệu hiệu suất của ứng dụng Node.js đang chạy của bạn. Đó là một mô-đun đơn giản mà bạn cài đặt và yêu cầu ở đầu tệp nguồn Node.js chính của mình.
+PM2 là trình quản lý quy trình daemon cho phép các nhà phát triển Node.js quản lý và duy trì các ứng dụng của họ khi họ trực tuyến. Để bắt đầu với dịch vụ này, trước tiên các nhà phát triển phải cài đặt NPM, việc này có thể được thực hiện bằng lệnh npm –version.
 
-IBM đã phát triển và duy trì App Metrics, một sáng kiến mã nguồn mở. Mục tiêu chính của nó là cung cấp một khuôn khổ cho các số liệu ứng dụng nổi bật có thể được áp dụng cho nhiều công việc khác nhau. Tốc độ mạng, giao dịch dữ liệu, hiệu suất truy vấn cơ sở dữ liệu, cấu hình CPU và mức sử dụng bộ nhớ cũng như thu gom rác là một số nhiệm vụ này.
+Tích hợp giao diện web để theo dõi tình trạng ứng dụng là một trong những tính năng tốt nhất của PM2. Quản lý nhật ký ứng dụng và lỗi, tải lại nóng, truyền phát nhật ký và tự động phân cụm là một số tính năng khác. Quan trọng nhất, nó hỗ trợ quản lý nhiều ứng dụng Node.js.
 
-Các tính năng của Số liệu ứng dụng:
-- AppMetrics-dash plugin để giám sát ứng dụng
-- Một công cụ mã nguồn mở và miễn phí
-- Giao dịch dữ liệu
-- Tốc độ mạng
+Các tính năng của PM2:
+- Quản lý nhật ký
+- Tự động phân cụm cho các ứng dụng Node.js
+- Tích hợp vùng chứa
 
-Bạn cài đặt mô-đun từ npm bằng cách chạy lệnh sau trong terminal của mình.
+Bắt đầu bằng cách cài đặt [PM2](https://github.com/Unitech/pm2).
 
 ```bat
-npm install appmetrics-dash
+npm install pm2 -g
 ```
 
-Appmetrics cung cấp bảng điều khiển giám sát dựa trên web rất dễ sử dụng. Mọi thứ bạn cần làm để có được bảng điều khiển cho tất cả các máy chủ HTTP do ứng dụng của bạn tạo là thêm đoạn mã này vào tệp app.js của bạn hoặc bất kỳ thứ gì bạn gọi là tệp nguồn chính của mình.
+Sau khi nó được cài đặt, bạn sinh ra trình nền PM2 bằng cách chạy lệnh này trong terminal của mình, nếu tệp nguồn chính của bạn là app.js.
 
-```js
-// Before all other 'require' statements
-require('appmetrics-dash').attach()
+```bat
+pm2 start app.js -i 0
 ```
 
-Giờ đây, bạn sẽ có một tuyến máy chủ mới `/appmetrics-dash` nơi bạn có thể xem rất nhiều chỉ số hữu ích.
-- CPU Profiling
-- HTTP Incoming Requests
-- HTTP Throughput
-- Average Response Times (top 5)
-- CPU
-- Memory
-- Heap
-- Event Loop Times
-- Environment
-- Other Requests
-- HTTP Outbound Requests
+Cờ -i 0 là viết tắt của các trường hợp. Điều này sẽ chạy ứng dụng Node.js của bạn ở chế độ cụm, trong đó 0 là viết tắt của một số lõi CPU. Bạn có thể đặt bất kỳ con số nào bạn muốn theo cách thủ công, nhưng để PM2 đếm số lõi và sinh ra số lượng công nhân đó sẽ dễ dàng hơn nhiều.
 
-Công cụ giám sát Node.js này không chỉ hiển thị số liệu. Nó cho phép bạn tạo Báo cáo Node và Ảnh chụp nhanh Heap trực tiếp từ bảng điều khiển giám sát. Ngoài ra, bạn có quyền truy cập vào Flame Graphs. Khá tuyệt cho một công cụ mã nguồn mở.
+Giám sát Node.js với PM2 thật dễ dàng.
+
+```bat
+pm2 monit
+```
+
+Lệnh này sẽ mở một bảng điều khiển trong thiết bị đầu cuối. Tại đây, bạn có thể theo dõi nhật ký, quy trình, độ trễ vòng lặp, bộ nhớ xử lý và CPU của Node.js.
+
+![PM2](https://boxxv.github.io/img/2023/Selection_458-1.png.webp "PM2")
+
 
 ### 2. [Express Status Monitor](https://github.com/RafalWilinski/express-status-monitor)
 
@@ -214,42 +212,47 @@ Sử dụng phương pháp tương tự này, bạn có thể chạy Bubbleprof 
 ![Clinic.js Flame](https://boxxv.github.io/img/2023/Selection_456-1.png.webp "Clinic.js Flame")
 
 
-### 5. [PM2](https://www.npmjs.com/package/pm2)
+### 5. [Appmetrics](https://www.npmjs.com/package/appmetrics-dash)
 
-Việc chạy các ứng dụng Node.js trong production trở nên dễ dàng hơn rất nhiều với `PM2`. Đó là trình quản lý quy trình dễ dàng cho phép bạn chạy các ứng dụng ở chế độ cụm. Hoặc, bằng tiếng Anh, nó sẽ tạo ra một quy trình cho mọi lõi CPU mà máy chủ của bạn có.
+![Appmetrics](https://raw.githubusercontent.com/RuntimeTools/appmetrics-dash/HEAD/public/appmetrics.gif "Appmetrics")
 
-PM2 là trình quản lý quy trình daemon cho phép các nhà phát triển Node.js quản lý và duy trì các ứng dụng của họ khi họ trực tuyến. Để bắt đầu với dịch vụ này, trước tiên các nhà phát triển phải cài đặt NPM, việc này có thể được thực hiện bằng lệnh npm –version.
+[Node Application Metrics Dashboard](https://github.com/RuntimeTools/appmetrics-dash) hiển thị số liệu hiệu suất của ứng dụng Node.js đang chạy của bạn. Đó là một mô-đun đơn giản mà bạn cài đặt và yêu cầu ở đầu tệp nguồn Node.js chính của mình.
 
-Tích hợp giao diện web để theo dõi tình trạng ứng dụng là một trong những tính năng tốt nhất của PM2. Quản lý nhật ký ứng dụng và lỗi, tải lại nóng, truyền phát nhật ký và tự động phân cụm là một số tính năng khác. Quan trọng nhất, nó hỗ trợ quản lý nhiều ứng dụng Node.js.
+IBM đã phát triển và duy trì App Metrics, một sáng kiến mã nguồn mở. Mục tiêu chính của nó là cung cấp một khuôn khổ cho các số liệu ứng dụng nổi bật có thể được áp dụng cho nhiều công việc khác nhau. Tốc độ mạng, giao dịch dữ liệu, hiệu suất truy vấn cơ sở dữ liệu, cấu hình CPU và mức sử dụng bộ nhớ cũng như thu gom rác là một số nhiệm vụ này.
 
-Các tính năng của PM2:
-- Quản lý nhật ký
-- Tự động phân cụm cho các ứng dụng Node.js
-- Tích hợp vùng chứa
+Các tính năng của Số liệu ứng dụng:
+- AppMetrics-dash plugin để giám sát ứng dụng
+- Một công cụ mã nguồn mở và miễn phí
+- Giao dịch dữ liệu
+- Tốc độ mạng
 
-Bắt đầu bằng cách cài đặt [PM2](https://github.com/Unitech/pm2).
-
-```bat
-npm install pm2 -g
-```
-
-Sau khi nó được cài đặt, bạn sinh ra trình nền PM2 bằng cách chạy lệnh này trong terminal của mình, nếu tệp nguồn chính của bạn là app.js.
+Bạn cài đặt mô-đun từ npm bằng cách chạy lệnh sau trong terminal của mình.
 
 ```bat
-pm2 start app.js -i 0
+npm install appmetrics-dash
 ```
 
-Cờ -i 0 là viết tắt của các trường hợp. Điều này sẽ chạy ứng dụng Node.js của bạn ở chế độ cụm, trong đó 0 là viết tắt của một số lõi CPU. Bạn có thể đặt bất kỳ con số nào bạn muốn theo cách thủ công, nhưng để PM2 đếm số lõi và sinh ra số lượng công nhân đó sẽ dễ dàng hơn nhiều.
+Appmetrics cung cấp bảng điều khiển giám sát dựa trên web rất dễ sử dụng. Mọi thứ bạn cần làm để có được bảng điều khiển cho tất cả các máy chủ HTTP do ứng dụng của bạn tạo là thêm đoạn mã này vào tệp app.js của bạn hoặc bất kỳ thứ gì bạn gọi là tệp nguồn chính của mình.
 
-Giám sát Node.js với PM2 thật dễ dàng.
-
-```bat
-pm2 monit
+```js
+// Before all other 'require' statements
+require('appmetrics-dash').attach()
 ```
 
-Lệnh này sẽ mở một bảng điều khiển trong thiết bị đầu cuối. Tại đây, bạn có thể theo dõi nhật ký, quy trình, độ trễ vòng lặp, bộ nhớ xử lý và CPU của Node.js.
+Giờ đây, bạn sẽ có một tuyến máy chủ mới `/appmetrics-dash` nơi bạn có thể xem rất nhiều chỉ số hữu ích.
+- CPU Profiling
+- HTTP Incoming Requests
+- HTTP Throughput
+- Average Response Times (top 5)
+- CPU
+- Memory
+- Heap
+- Event Loop Times
+- Environment
+- Other Requests
+- HTTP Outbound Requests
 
-![PM2](https://boxxv.github.io/img/2023/Selection_458-1.png.webp "PM2")
+Công cụ giám sát Node.js này không chỉ hiển thị số liệu. Nó cho phép bạn tạo Báo cáo Node và Ảnh chụp nhanh Heap trực tiếp từ bảng điều khiển giám sát. Ngoài ra, bạn có quyền truy cập vào Flame Graphs. Khá tuyệt cho một công cụ mã nguồn mở.
 
 
 ### 6. Others
