@@ -98,10 +98,11 @@ Tham khảo:
 
 - [Giải pháp kết nối máy chấm công và xem camera từ xa qua mạng Internet 3G](https://dienmayvanphong.com/giai-phap-ket-noi-may-cham-cong-va-xem-camera-tu-xa-qua-mang-internet-3g/)
 - [Kết nối camera IP từ xa về đầu ghi qua internet](https://youtu.be/gmePuIZLsbg)
+- [Cách add camera từ đầu ghi xa về đầu ghi khác tại văn phòng](https://youtu.be/s4AQoucr6_A)
+- [Hướng Dẫn Cách Cài Đặt & Sử Dụng Tên Miền DSSDDNS Trên Camera IP & Đầu Ghi Dahua DSS](https://youtu.be/IamBvvciajc)
 - [Camera an ninh có đang hack lại chính bạn?](https://viblo.asia/p/camera-an-ninh-co-dang-hack-lai-chinh-ban-YWOZrA7YKQ0)
 - [Rủi ro từ lỗ hổng máy chấm công khi lấy dữ liệu từ xa qua public IP wan và NAT Port](https://azza.vn/rui-ro-tu-lo-hong-may-cham-cong-khi-lay-du-lieu-tu-xa-qua-public-ip-wan-va-nat-port/)
 - [Việt Nam chịu tấn công mạng qua IoT nhiều thứ hai thế giới](https://viblo.asia/p/viet-nam-chiu-tan-cong-mang-qua-iot-nhieu-thu-hai-the-gioi-3P0lPO84Zox)
 - [Shodan - Công cụ tìm kiếm cho kiểm thử bảo mật](https://viblo.asia/p/shodan-cong-cu-tim-kiem-cho-kiem-thu-bao-mat-924lJJD0lPM)
 - [8 lỗi thường mắc phải khi mở port camera](https://youtu.be/fzhEj4IVjxY)
-- []()
 - [ZKTeco TA Push SDK bộ công cụ tích hợp hoàn hảo cho nhà phát triển giải pháp chấm công](https://smartid.com.vn/zkteco-ta-push-sdk-bo-cong-cu-tich-hop-hoan-hao-cho-nha-phat-trien-giai-phap-cham-cong.html)
