@@ -180,7 +180,7 @@ Giao tiếp HTTP thường xảy ra dưới kết nối TCP / IP. Cổng mặc �
 
 Quý vị xem thêm giới thiệu tính năng API kết nối điều khiển thiết bị do Smartid phát triển dựa trên TA Push SDK tại link sau đây: Link; Link. Đối với API của Smartid sẽ miễn phí cho các đối tác là khách hàng mua sản phẩm.
 
-Quý vị quan tâm tới chi tiết tới tài liệu TA Push SDK, vui lòng liên hệ trực tiếp. 
+Quý vị quan tâm tới chi tiết tới tài liệu TA Push SDK, vui lòng liên hệ trực tiếp.
 
 -----
 Tham khảo:
@@ -188,6 +188,5 @@ Tham khảo:
 - [Giải pháp kết nối máy chấm công và xem camera từ xa qua mạng Internet 3G](https://dienmayvanphong.com/giai-phap-ket-noi-may-cham-cong-va-xem-camera-tu-xa-qua-mang-internet-3g/)
 - [Hướng dẫn cách lấy dữ liệu máy chấm công từ xa](https://tft.vn/du-lieu-may-cham-cong-tu-xa)
 - [Rủi ro từ lỗ hổng máy chấm công khi lấy dữ liệu từ xa qua public IP wan và NAT Port](https://azza.vn/rui-ro-tu-lo-hong-may-cham-cong-khi-lay-du-lieu-tu-xa-qua-public-ip-wan-va-nat-port/)
-- [Giải pháp kết nối máy chấm công và xem camera từ xa qua mạng Internet 3G](https://dienmayvanphong.com/giai-phap-ket-noi-may-cham-cong-va-xem-camera-tu-xa-qua-mang-internet-3g/)
 - [Giải pháp chấm công đa điểm cho chuỗi cửa hàng, chuỗi siêu thị](https://www.maychamcongvantay.net.vn/2017/10/giai-phap-cham-cong-iem-cho-chuoi-cua.html)
 - [ZKTeco TA Push SDK bộ công cụ tích hợp hoàn hảo cho nhà phát triển giải pháp chấm công](https://smartid.com.vn/zkteco-ta-push-sdk-bo-cong-cu-tich-hop-hoan-hao-cho-nha-phat-trien-giai-phap-cham-cong.html)
