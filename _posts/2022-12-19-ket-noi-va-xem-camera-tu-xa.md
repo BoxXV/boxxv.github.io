@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kết nối máy chấm công và xem camera từ xa
+title: Kết nối và xem camera từ xa
 subtitle: Giải pháp chấm công đa điểm qua mạng internet
 image: "img/projects-bg.jpg"
 tags:
