@@ -67,6 +67,9 @@ Bạn truy cập trang [canyouseeme.org](https://canyouseeme.org) hoặc [https:
 
 Nếu website báo open tức là port đã được mở thành công, nếu là Closed tức là mở port thất bại, bạn phải làm lại cho đúng nhé.
 
+![NAT port](https://boxxv.github.io/img/timekeeper/check-port-da-open-chua.jpg "NAT port")
+
+
 Đã thao tác đúng cách nhưng port vẫn chưa mở?
 
 Bạn đã thao tác đúng hướng dẫn NAT port nhưng port vẫn chưa được mở, bởi vì:
@@ -75,6 +78,20 @@ Bạn đã thao tác đúng hướng dẫn NAT port nhưng port vẫn chưa đư
 - Thông thường thì nhà mạng họ mở sẵn tất cả các port, nên bạn chỉ cần mở port modem tại nhà là xong.
 
 Điều cần làm bây giờ là: bạn hãy gọi điện thoại lên tổng đài hỗ trợ của Viettel 18008119 và yêu cầu họ mở port giúp mình nhé.
+
+
+**Bước 4: Sử Dụng Tên Miền Động DDNS**
+
+Trong Mục `Application` => `DDNS` => Nhập thông Tin => `Submit`
+
+- Service Type : Chọn nhà cung cấp dịch vụ của bạn
+- Server : Tự động nhận khi chọn Service Type (Đây là địa chỉ máy chủ phân giải tên miền)
+- User : Tài khoản chứa tên miền
+- Password : Mật khẩu của tài khoản trên
+- Host name : Tên miền bạn đang sử dụng
+
+![NAT port](https://boxxv.github.io/img/timekeeper/8a.jpg "NAT port")
+
 
 -----
 Tham khảo:
