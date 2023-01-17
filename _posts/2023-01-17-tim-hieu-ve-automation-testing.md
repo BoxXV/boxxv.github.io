@@ -69,6 +69,10 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 - Visual Studio CodedUI Testing
 - TestComplete (SmartBear)
 - SOAPUI - Web Services Testing (SmartBear)
+- Appium
+- Cucumber
+- Silk Test
+- Rspec
 
 
 ## Automation Testing Frameworks
@@ -100,8 +104,33 @@ Tham khảo:
 - [Automation Test là gì? Khi nào nên sử dụng Automation Test?](https://itviec.com/blog/automation-test/)
 - [7 bước để trở thành một Automation Testing Engineer](https://viblo.asia/p/7-buoc-de-tro-thanh-mot-automation-testing-engineer-4P856XBGZY3)
 - [Automation Test là gì? Khi nào nên sử dụng Automation Test?](https://itviec.com/blog/automation-test/)
+- [Tìm hiểu về test plan](https://viblo.asia/p/tim-hieu-ve-test-plan-naQZReO0Kvx)
+- [Test Strategy](https://viblo.asia/p/test-strategy-YWOZreRNKQ0)
+- [Kỹ thuật kiểm thử - Kiểm thử hộp đen(Black box testing)](https://viblo.asia/p/ky-thuat-kiem-thu-kiem-thu-hop-denblack-box-testing1-V3m5WQEwZO7)
+- [QA Engineer là gì? QC Engineer là gì?](https://isocert.org.vn/qa-engineer-la-gi-qc-engineer-la-gi-tim-hieu-ve-qa-engineer-va-qc-engineer)
+- [Tất tần tật về QA - All about QA job Description, Roles, Duties and Career path.](https://viblo.asia/p/tat-tan-tat-ve-qa-all-about-qa-job-description-roles-duties-and-career-path-Az45byvqlxY)
+- [How to Write Test Cases ( Hướng dẫn cách viết Testcases)](https://viblo.asia/p/how-to-write-test-cases-huong-dan-cach-viet-testcases-eW65GRY9lDO)
+- [Làm thế nào để viết testcase cho người mới bắt đầu - Khái niệm và các loại test case](https://viblo.asia/p/lam-the-nao-de-viet-testcase-cho-nguoi-moi-bat-dau-khai-niem-va-cac-loai-test-case-V3m5Wj6WlO7)
+- [Cách viết test case cho phần mềm](https://viblo.asia/p/cach-viet-test-case-cho-phan-mem-LzD5dx1w5jY)
+- [Cách viết test case cho phần mềm - Viết Test Case từ User Story & Acceptance Criteria](https://viblo.asia/p/cach-viet-test-case-cho-phan-mem-viet-test-case-tu-user-story-acceptance-criteria-yMnKMMeNK7P)
+- [Làm thế nào để quản lý test case tốt](https://viblo.asia/p/lam-the-nao-de-quan-ly-test-case-tot-gDVK23z0ZLj)
+- [Mẫu Test Case tốt nhất kèm ví dụ](https://viblo.asia/p/mau-test-case-tot-nhat-kem-vi-du-bWrZnvnwZxw)
+- [Software Testing Metric - Chìa khoá để giải quyết mọi bài toán của Test Leaders](https://viblo.asia/p/software-testing-metric-chia-khoa-de-giai-quyet-moi-bai-toan-cua-test-leaders-naQZRREQZvx)
+- [Test API sử dụng Pytest (Phần 1: Kiến thức cơ bản)](https://viblo.asia/p/test-api-su-dung-pytest-phan-1-kien-thuc-co-ban-GrLZDr435k0)
+- [Test API sử dụng Pytest (Phần 2: Testcase Template và Dynamic Testing Function)](https://viblo.asia/p/test-api-su-dung-pytest-phan-2-testcase-template-va-dynamic-testing-function-1VgZvAvMKAw)
+- [Sự khác nhau giữa Sanity Testing và Smoke Testing](https://viblo.asia/p/su-khac-nhau-giua-sanity-testing-va-smoke-testing-4dbZNJRLZYM)
+- [Góc nhìn của một Tester về các dự án Agile](https://viblo.asia/p/goc-nhin-cua-mot-tester-ve-cac-du-an-agile-bWrZn4zO5xw)
+- [Agile & Scrum](https://viblo.asia/p/agile-scrum-3Q75w8PQKWb)
+- [Một "chớt" tâm sự của một Tester quèn gửi tới Dev team, PM, DM, PO,...](https://viblo.asia/p/mot-chot-tam-su-cua-mot-tester-quen-gui-toi-dev-team-pm-dm-po-ORNZqnXrl0n)
+- [https://viblo.asia/tags/testcase](https://viblo.asia/tags/testcase)
+- [https://viblo.asia/u/oanhnguyen2403](https://viblo.asia/u/oanhnguyen2403)
+- [https://viblo.asia/u/ngocyanl2k1](https://viblo.asia/u/ngocyanl2k1)
+- [https://viblo.asia/u/thaoltp](https://viblo.asia/u/thaoltp)
 - [NHỮNG CÂU HỎI PHỎNG VẤN QC // MANUAL TESTER // FRESHER](https://viblo.asia/p/nhung-cau-hoi-phong-van-qc-manual-tester-fresher-ddtcmt-n1j4l3vlVwl)
+- [Bộ câu hỏi phỏng vấn tuyển dụng Tester](https://viblo.asia/p/bo-cau-hoi-phong-van-tuyen-dung-tester-vyDZOkEkZwj)
 - [Top 10 Benefits of Automated Testing](https://testinium.com/blog/top-10-benefits-of-automated-testing-2/)
 - [Test automation 101](https://bootcamp.uxdesign.cc/test-automation-264d219ac83)
 - [What Is Full Stack QA or Tester? 4 Steps Guide For Beginners](https://www.opencodez.com/software-testing/become-full-stack-qa-engineer.htm)
 - [ROADMAP TO QA AUTOMATION ENGINEER](https://synapse-qa.com/2020/11/15/roadmap-to-qa-automation-engineer/)
+- [https://toolsqa.com/](https://toolsqa.com/)
+- [QA Engineer](https://roadmap.sh/qa/)
