@@ -47,6 +47,8 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ### Những kỹ năng nào là cần thiết dành cho một Automation Tester?
 
+![Automation Testing](https://boxxv.github.io/img/2023/624462bdfaecc44bc3dd0c9d_testing-diagram.png "Automation Testing")
+
 1. Types testing: `Unit test`, `Intergration test`, `System test`, `Sanity test`, `Regression test`.... là gì?
 2. Testing Techniques: Phân tích giá trị biên/Phân vùng tương đương/Biểu đồ kết quả/Đoán lỗi/... là gì?
 3. Hiểu nguyên lý nhận dạng test objects. Nếu làm Web Automation Test cần nắm rõ HTML và XPath. Bạn có thể học hai mảng này ở W3School.
@@ -77,10 +79,19 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ## Automation Testing Frameworks
 
+- [QA Wolf](https://www.qawolf.com) - Cloud-based platform for zero-effort automated QA
+- [Cypress](https://www.cypress.io) - Tool kiểm thử giao diện cho web, được viết bằng `javascript` và rất dễ sử dụng
+- [Webdriver.io](https://webdriver.io) - Test framework for `node.js`
+- [Jasmine](https://jasmine.github.io) - 1 trong 3 thư viện hỗ trợ `unit test` mạnh nhất cho `javascript`
+- [Nightwatch](https://nightwatchjs.org) - open-source automated testing framework được cung cấp bởi Node.js và cung cấp các giải pháp E2E (từ đầu đến cuối) hoàn chỉnh để thử nghiệm tự động hóa với Selenium Javascript dành cho ứng dụng web, ứng dụng trình duyệt và trang web.
+- [Robot Framework](https://robotframework.org) - giải pháp cho người mới trong lĩnh vực kiểm thử tự động
+- [Selenium](https://www.selenium.dev) - open-source automation testing framework hỗ trợ nhiều loại ngôn ngữ lập trình như: Java, C #, Python, ...
+- [Jest](https://jestjs.io) - JavaScript Testing Framework tập trung vào sự đơn giản
+- [Puppeteer](https://developer.chrome.com/docs/puppeteer/) - 
+- [Playwright](https://playwright.dev) - end-to-end testing cho các ứng dụng web hiện đại.
 
 
-
-## Tổng kết
+## Cơ hội nghề nghiệp
 
 Cách mạng công nghiệp lần thứ tư đánh dấu kỷ nguyên vạn vật kết nối Internet. Nó xảy ra dựa trên sự hội tụ của nhiều công nghệ trong đó có công nghệ cốt lõi có công nghệ thông tin với sự phát triển không ngừng của công nghệ Internet từ thời kỳ kết nối nội dung như email đến mạng xã hội, Internet vạn vật, Internet kết nối thiết bị máy móc kết nối quá trình vận hành của các nhà máy. Ngoài công nghệ cốt lõi còn có sự hội tụ của công nghệ in 3D, công nghệ vật liệu tiên tiến, công nghệ lưu trữ…
 
@@ -104,6 +115,39 @@ Tham khảo:
 - [Automation Test là gì? Khi nào nên sử dụng Automation Test?](https://itviec.com/blog/automation-test/)
 - [7 bước để trở thành một Automation Testing Engineer](https://viblo.asia/p/7-buoc-de-tro-thanh-mot-automation-testing-engineer-4P856XBGZY3)
 - [Automation Test là gì? Khi nào nên sử dụng Automation Test?](https://itviec.com/blog/automation-test/)
+- [Giới thiệu về WebDriverIO](https://viblo.asia/p/gioi-thieu-ve-webdriverio-gGJ59GN9ZX2)
+- [VIẾT UNIT TEST CHO JAVASCRIPT VỚI JASMINE](https://toidicodedao.com/2015/04/02/viet-unit-test-cho-javascript-voi-jasmine/)
+- [VIẾT UNIT TEST CHO JAVASCRIPT VỚI JASMINE – PHẦN 2](https://toidicodedao.com/2015/04/07/viet-unit-test-cho-javascript-voi-jasmine-phan-2/)
+- [Angular Unit Testing](https://viblo.asia/p/angular-unit-testing-l5XRBV1kRqPe)
+- [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 1: Unit Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-1-unit-test-ByEZk96E5Q0)
+- [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 2: Integration Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-2-integration-test-bWrZn1ObKxw)
+- [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 3: End-to-End Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-3-end-to-end-test-aWj53kD156m)
+- [Kiểm thử tự động cùng Robot Framework dành cho tester](https://viblo.asia/p/kiem-thu-tu-dong-cung-robot-framework-danh-cho-tester-aRBvXndbeWE)
+- [Robot framework dành cho tester (Phần I)](https://viblo.asia/p/robot-framework-danh-cho-tester-phan-i-DzVkpopJenW)
+- [Robot framework dành cho tester (Phần II)](https://viblo.asia/p/robot-framework-danh-cho-tester-phan-ii-xQMGJLPLkam)
+- [Robot framework dành cho tester (Phần III)](https://viblo.asia/p/robot-framework-danh-cho-tester-phan-iii-EoDkQOPnGbV)
+- [Robot framework dành cho tester (Phần IV)](https://viblo.asia/p/robot-framework-danh-cho-tester-phan-iv-mDYKDPZlKpx)
+- [Phần 1: Tổng quan về Robot Framework, cài đặt Robot Framework](https://viblo.asia/p/phan-1-tong-quan-ve-robot-framework-cai-dat-robot-framework-63vKjAkV52R)
+- [Phần 2: Robot Framework (Giới thiệu qua về các cấu trúc viết kịch bản cách khai báo biến trong robot framework)](https://viblo.asia/p/phan-2-robot-framework-gioi-thieu-qua-ve-cac-cau-truc-viet-kich-ban-cach-khai-bao-bien-trong-robot-framework-QpmleRx75rd)
+- [Phần 3. Các kiến thức cơ bản trong robot framework như vòng lặp for, dictionary ...](https://viblo.asia/p/phan-3-cac-kien-thuc-co-ban-trong-robot-framework-nhu-vong-lap-for-dictionary-LzD5dRxwZjY)
+- [Phần 4: Thư viện của Robot Framework, Builth](https://viblo.asia/p/phan-4-thu-vien-cua-robot-framework-builth-Eb85oAxjZ2G)
+- [Phần 5: Robot Framework : Collections keyword làm việc với List](https://viblo.asia/p/phan-5-robot-framework-collections-keyword-lam-viec-voi-list-RnB5pAx6KPG)
+- [Phần 6: Robot Framework ( Dictionary , Thư viện DateTime )](https://viblo.asia/p/phan-6-robot-framework-dictionary-thu-vien-datetime-4P856rNL5Y3)
+- [Phần 7: Robot Framework - Cách tạo test case auto làm việc với API với phương thức GET](https://viblo.asia/p/phan-7-robot-framework-cach-tao-test-case-auto-lam-viec-voi-api-voi-phuong-thuc-get-3P0lP8nglox)
+- [Phần 8: Robot Framework - Cách tạo test case auto làm việc với API (phương thức POST)](https://viblo.asia/p/phan-8-robot-framework-cach-tao-test-case-auto-lam-viec-voi-api-phuong-thuc-post-Az45bRzL5xY)
+- [Robot Framework Làm việc với Database](https://viblo.asia/p/robot-framework-lam-viec-voi-database-aWj53m3bZ6m)
+- [Tổng quan về Selenium và vai trò của các thành phần](https://tech.cybozu.vn/tong-quan-ve-selenium-va-vai-tro-cua-cac-thanh-phan-74a12/)
+- []()
+- [Những lý do các QA xuất phát từ developer frontend như ReactJs hay VueJs nên sử dụng công cụ kiểm thử cypress cho website thay vì selenium.](https://viblo.asia/p/nhung-ly-do-cac-qa-xuat-phat-tu-developer-frontend-nhu-reactjs-hay-vuejs-nen-su-dung-cong-cu-kiem-thu-cypress-cho-website-thay-vi-selenium-RnB5pyawKPG)
+- [https://viblo.asia/tags/cypress](https://viblo.asia/tags/cypress)
+- [https://viblo.asia/tags/jasmine](https://viblo.asia/tags/jasmine)
+- [https://viblo.asia/tags/robot-framework](https://viblo.asia/tags/robot-framework)
+- [https://viblo.asia/tags/selenium](https://viblo.asia/tags/selenium)
+- [https://viblo.asia/tags/selenium-ide](https://viblo.asia/tags/selenium-ide)
+- [https://viblo.asia/tags/selenium-webdriver](https://viblo.asia/tags/selenium-webdriver)
+
+-----
+
 - [Tìm hiểu về test plan](https://viblo.asia/p/tim-hieu-ve-test-plan-naQZReO0Kvx)
 - [Test Strategy](https://viblo.asia/p/test-strategy-YWOZreRNKQ0)
 - [Kỹ thuật kiểm thử - Kiểm thử hộp đen(Black box testing)](https://viblo.asia/p/ky-thuat-kiem-thu-kiem-thu-hop-denblack-box-testing1-V3m5WQEwZO7)
@@ -123,7 +167,9 @@ Tham khảo:
 - [Agile & Scrum](https://viblo.asia/p/agile-scrum-3Q75w8PQKWb)
 - [Một "chớt" tâm sự của một Tester quèn gửi tới Dev team, PM, DM, PO,...](https://viblo.asia/p/mot-chot-tam-su-cua-mot-tester-quen-gui-toi-dev-team-pm-dm-po-ORNZqnXrl0n)
 - [https://viblo.asia/tags/testcase](https://viblo.asia/tags/testcase)
+- [https://viblo.asia/tags/cypress](https://viblo.asia/tags/cypress)
 - [https://viblo.asia/u/oanhnguyen2403](https://viblo.asia/u/oanhnguyen2403)
+- [https://viblo.asia/u/tran.thi.tra.giang](https://viblo.asia/u/tran.thi.tra.giang)
 - [https://viblo.asia/u/ngocyanl2k1](https://viblo.asia/u/ngocyanl2k1)
 - [https://viblo.asia/u/thaoltp](https://viblo.asia/u/thaoltp)
 - [NHỮNG CÂU HỎI PHỎNG VẤN QC // MANUAL TESTER // FRESHER](https://viblo.asia/p/nhung-cau-hoi-phong-van-qc-manual-tester-fresher-ddtcmt-n1j4l3vlVwl)
