@@ -64,6 +64,8 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ## Automation Testing Tool
 
+![Automation Testing](https://boxxv.github.io/img/2023/board.png "Automation Testing")
+
 - Quick Test Profressional - (HP)
 - Selenium
 - Test Architect - (LogiGear)
