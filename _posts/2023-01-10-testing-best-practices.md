@@ -21,21 +21,51 @@ Vai trò của một tester bắt đầu từ rất sớm. Và ngay từ khi kh�
 
 ![Testing](https://boxxv.github.io/img/test/types-of-software-testing.png "Testing")
 
-### Các cách tiếp cận Kiểm thử phần mềm:
+### Các Phương pháp/Cách tiếp cận Kiểm thử phần mềm:
 
 1. `Kiểm thử hộp trắng`
 2. `Kiểm tra hộp đen`
 3. `Kiểm tra hộp xám`
 
-Kiểm thử hộp đen được phân thành hai loại:
-- `Functional Testing` -  Kiểm thử chức năng
-- `Non Functional Testing` - Kiểm thử phi chức năng
+![Testing](https://boxxv.github.io/img/test/blackbox-whitebox-test.jpg "Testing")
 
-#### Functional Testing
+### Các Level/Cấp độ kiểm thử phần mềm:
+1. `Unit Testing` (Kiểm tra đơn vị)
+2. `Integration Testing` (Thử nghiệm hội nhập)
+3. `System Testing` (Thử nghiệm hệ thống)
+4. `Acceptance Testing` (Kiểm tra chấp nhận)
+
+### Các mô hình quy trình kiểm thử phần mềm:
+1. Traditional Waterfall Development Model (Thác nước truyền thống)
+2. Agile Development Model
+3. V Model
+4. Spiral Model (Mô hình xoắn ốc)
+
+![Testing](https://boxxv.github.io/img/test/software-testing-process-models-1.svg "Testing")
+
+
+#### Functional Testing - Kiểm thử phi chức năng
 Tập trung vào việc xác minh hệ thống hoạt động theo đúng các yêu cầu nghiệp vụ.
 
+![Testing](https://boxxv.github.io/img/test/functional-testing-intro4.png "Testing")
 
-#### Non Functional Testing
+Các loại kiểm thử chức năng:
+- `Unit Testing` (Kiểm thử đơn vị)
+- `Sanity Testing`
+- `Smoke Testing`
+- `System Testing` (Kiểm thử hệ thống)
+- `Acceptance Testing` (Kiểm thử chấp nhận)
+- Installation Testing (Kiểm thử cài đặt)
+- Interface Testing (Kiểm thử giao diện)
+- Integration Testing (Kiểm thử tích hợp)
+- Regression Testing (Kiểm thử hồi quy)
+- Usability Testing (Kiểm tra khả năng sử dụng)
+- .v.v.
+
+>> [8 Functional Testing Types Explained With Examples](https://www.simform.com/blog/functional-testing-types/)
+
+
+#### Non Functional Testing -  Kiểm thử chức năng
 Tập trung vào việc xác minh hệ thống hoạt động theo đúng, mức độ sẵn sàng theo các tham số phi chức năng như:
 1. `Security` (Bảo mật): Tham số xác định cách hệ thống được bảo vệ an toàn trước các cuộc tấn công có chủ ý và đột ngột từ các nguồn bên trong và bên ngoài.
 2. `Reliability` (Độ tin cậy): Mức độ mà bất kỳ hệ thống phần mềm nào liên tục thực hiện các chức năng được chỉ định mà không gặp sự cố.
