@@ -99,9 +99,23 @@ Các loại kiểm thử phi chức năng
 - [Katalon(https://katalon.com)
 - [Cucumber](https://cucumber.io)
 - HPE Unified Functional Testing
+- Worksoft
+- IBM Rational Functional Tester
+- Teleric Test Studio
+- Soap UI
+- TestComplete
 
-# II. Luồng quy trình kiểm thử phần mềm
 
+# Các thành phẩm kiểm thử phần mềm
+- Test Strategy
+- Test Plan and Estimation
+- Test Scenario
+- Test Cases
+- Test Data
+- Requirement Traceability Matrix
+- Test Summary Report
+- Test Closure Report
+- Incident Report
 
 
 -----
