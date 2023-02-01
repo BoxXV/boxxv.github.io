@@ -9,7 +9,7 @@ tags:
 - PerformanceTest
 ---
 
-![Automation Testing](https://boxxv.github.io/img/2023/1-2.png "Automation Testing")
+![Automation Testing](https://boxxv.github.io/img/test/1-2.png "Automation Testing")
 
 Làm thế nào để trở thành một Automation Testing Engineer? Như mọi người đều biết răng, kiểm thử tự động đang dần trở thành một xu hướng HOT để các bạn tìm hiểu, cũng như thị trường việc làm của công việc này ngày càng tăng. Vậy thì các bạn cần tìm hiểu những kiến thức gì, và cần có những kỹ năng gì để bước vào lĩnh vực này.
 
@@ -21,7 +21,7 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ### Ưu điểm của Automation Test
 
-![Automation Testing](https://boxxv.github.io/img/2023/MVP.png "Automation Testing")
+![Automation Testing](https://boxxv.github.io/img/test/MVP.png "Automation Testing")
 
 1. Độ tin cậy cao: Test chạy chính xác theo quy trình đã định sẵn. vì vậy tránh được nhiều lỗi do con người tạo ra, ví dụ như nhập sai dữ liệu.
 2. Khả năng lặp: Mình có thể test cách phần mềm xử lý (tính năng/hiệu năng) khi gặp tình huống chạy lặp đi lặp lại nhiều lần (cùng lúc) trên cùng script test. Đây còn gọi là performance/load testing.
@@ -47,7 +47,7 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ### Những kỹ năng nào là cần thiết dành cho một Automation Tester?
 
-![Automation Testing](https://boxxv.github.io/img/2023/624462bdfaecc44bc3dd0c9d_testing-diagram.png "Automation Testing")
+![Automation Testing](https://boxxv.github.io/img/test/624462bdfaecc44bc3dd0c9d_testing-diagram.png "Automation Testing")
 
 1. Types testing: `Unit test`, `Intergration test`, `System test`, `Sanity test`, `Regression test`.... là gì?
 2. Testing Techniques: Phân tích giá trị biên/Phân vùng tương đương/Biểu đồ kết quả/Đoán lỗi/... là gì?
@@ -64,7 +64,7 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ## Automation Testing Tool
 
-![Automation Testing](https://boxxv.github.io/img/2023/board.png "Automation Testing")
+![Automation Testing](https://boxxv.github.io/img/test/board.png "Automation Testing")
 
 - Quick Test Profressional - (HP)
 - Selenium
@@ -169,69 +169,6 @@ Tham khảo:
 - [https://viblo.asia/tags/selenium](https://viblo.asia/tags/selenium)
 - [https://viblo.asia/tags/selenium-ide](https://viblo.asia/tags/selenium-ide)
 - [https://viblo.asia/tags/selenium-webdriver](https://viblo.asia/tags/selenium-webdriver)
-
------
-![Testing](https://boxxv.github.io/img/2023/w1.png "Testing")
-
-- [Unit Test - Kiểm thử đơn vị](https://viblo.asia/p/unit-test-la-gi-maGK7m3Llj2)
-- [Integration testing - Kiểm thử tích hợp](https://viblo.asia/p/kiem-thu-tich-hop-integration-testing-Qpmle71DKrd)
-- [System Testing - Kiểm thử hệ thống](https://viblo.asia/p/system-testing-kiem-thu-he-thong-aWj53pOPK6m)
-- [System Testing - Kiểm thử hệ thống](https://viblo.asia/p/system-testing-kiem-thu-he-thong-GrLZDywBlk0)
-- [Acceptance Testing - Kiểm thử chấp nhận](https://anhtester.com/blog/acceptance-testing-kiem-thu-chap-nhan-b298.html)
-- [Acceptance Test là gì, được thực hiện như thế nào?](https://itnavi.com.vn/blog/acceptance-test-la-gi)
-- [Acceptance Testing là gì? Phân loại Acceptance Testing](https://vn.got-it.ai/blog/acceptance-testing-la-gi-phan-loai-acceptance-testing)
-- [Test level](https://viblo.asia/p/test-level-istqb-foudation-gAm5ybGDKdb)
-- [Tìm hiểu về các loại Test Level](https://viblo.asia/p/tim-hieu-ve-cac-loai-test-level-DXOkRZXakdZ)
-- [Tìm hiểu về các loại test type (phần 1)](https://viblo.asia/p/tim-hieu-ve-cac-loai-test-type-phan-1-eXoKWkowKLO)
-- [System testing và End-to-End testing](https://viblo.asia/p/system-testing-va-end-to-end-testing-gDVK28A2lLj)
-- [Sự khác nhau giữa System Testing Và End-To-End Testing](https://viblo.asia/p/su-khac-nhau-giua-system-testing-va-end-to-end-testing-YWOZrdQY5Q0)
-- [Sự khác nhau giữa Functional Testing và Non-Functional Testing](https://viblo.asia/p/su-khac-nhau-giua-functional-testing-va-non-functional-testing-XL6lAv4D5ek)
-- [Tìm hiểu về IOT testing](https://viblo.asia/p/tim-hieu-ve-iot-testing-gDVK29Bw5Lj)
-- [What is IoT Testing? Types & Tools](https://www.guru99.com/iot-testing-challenges-tools.html)
-- [https://viblo.asia/tags/test-level](https://viblo.asia/tags/test-level)
-- [https://viblo.asia/tags/unit-test](https://viblo.asia/tags/unit-test)
-- [https://viblo.asia/tags/integration-test](https://viblo.asia/tags/integration-test)
-- [https://viblo.asia/tags/system-test](https://viblo.asia/tags/system-test)
-- [https://viblo.asia/tags/functional-testing](https://viblo.asia/tags/functional-testing)
-- [https://viblo.asia/tags/non-functional-testing](https://viblo.asia/tags/non-functional-testing)
-- [https://viblo.asia/tags/testcase](https://viblo.asia/tags/testcase)
-
------
-- [Tìm hiểu về test plan](https://viblo.asia/p/tim-hieu-ve-test-plan-naQZReO0Kvx)
-- [Test Strategy](https://viblo.asia/p/test-strategy-YWOZreRNKQ0)
-- [Kỹ thuật kiểm thử - Kiểm thử hộp đen(Black box testing)](https://viblo.asia/p/ky-thuat-kiem-thu-kiem-thu-hop-denblack-box-testing1-V3m5WQEwZO7)
-- [QA Engineer là gì? QC Engineer là gì?](https://isocert.org.vn/qa-engineer-la-gi-qc-engineer-la-gi-tim-hieu-ve-qa-engineer-va-qc-engineer)
-- [Tất tần tật về QA - All about QA job Description, Roles, Duties and Career path.](https://viblo.asia/p/tat-tan-tat-ve-qa-all-about-qa-job-description-roles-duties-and-career-path-Az45byvqlxY)
-- [How to Write Test Cases ( Hướng dẫn cách viết Testcases)](https://viblo.asia/p/how-to-write-test-cases-huong-dan-cach-viet-testcases-eW65GRY9lDO)
-- [Làm thế nào để viết testcase cho người mới bắt đầu - Khái niệm và các loại test case](https://viblo.asia/p/lam-the-nao-de-viet-testcase-cho-nguoi-moi-bat-dau-khai-niem-va-cac-loai-test-case-V3m5Wj6WlO7)
-- [Cách viết test case cho phần mềm](https://viblo.asia/p/cach-viet-test-case-cho-phan-mem-LzD5dx1w5jY)
-- [Cách viết test case cho phần mềm - Viết Test Case từ User Story & Acceptance Criteria](https://viblo.asia/p/cach-viet-test-case-cho-phan-mem-viet-test-case-tu-user-story-acceptance-criteria-yMnKMMeNK7P)
-- [Làm thế nào để quản lý test case tốt](https://viblo.asia/p/lam-the-nao-de-quan-ly-test-case-tot-gDVK23z0ZLj)
-- [Mẫu Test Case tốt nhất kèm ví dụ](https://viblo.asia/p/mau-test-case-tot-nhat-kem-vi-du-bWrZnvnwZxw)
-- [Kiểm thử độ bền là gì?](https://viblo.asia/p/kiem-thu-do-ben-la-gi-ORNZqbMMl0n)
-- [Software Testing Metric - Chìa khoá để giải quyết mọi bài toán của Test Leaders](https://viblo.asia/p/software-testing-metric-chia-khoa-de-giai-quyet-moi-bai-toan-cua-test-leaders-naQZRREQZvx)
-- [Test API sử dụng Pytest (Phần 1: Kiến thức cơ bản)](https://viblo.asia/p/test-api-su-dung-pytest-phan-1-kien-thuc-co-ban-GrLZDr435k0)
-- [Test API sử dụng Pytest (Phần 2: Testcase Template và Dynamic Testing Function)](https://viblo.asia/p/test-api-su-dung-pytest-phan-2-testcase-template-va-dynamic-testing-function-1VgZvAvMKAw)
-- [Sự khác nhau giữa Sanity Testing và Smoke Testing](https://viblo.asia/p/su-khac-nhau-giua-sanity-testing-va-smoke-testing-4dbZNJRLZYM)
-- [Agile Testing là gì?](https://viblo.asia/p/agile-testing-la-gi-YWOZragEKQ0)
-- [Góc nhìn của một Tester về các dự án Agile](https://viblo.asia/p/goc-nhin-cua-mot-tester-ve-cac-du-an-agile-bWrZn4zO5xw)
-- [Agile & Scrum](https://viblo.asia/p/agile-scrum-3Q75w8PQKWb)
-- [https://viblo.asia/tags/cypress](https://viblo.asia/tags/cypress)
-- [https://viblo.asia/u/oanhnguyen2403](https://viblo.asia/u/oanhnguyen2403)
-- [https://viblo.asia/u/nguyen.hong.minh](https://viblo.asia/u/nguyen.hong.minh)
-- [https://viblo.asia/u/tran.thi.tra.giang](https://viblo.asia/u/tran.thi.tra.giang)
-- [https://viblo.asia/u/ngocyanl2k1](https://viblo.asia/u/ngocyanl2k1)
-- [https://viblo.asia/u/thaoltp](https://viblo.asia/u/thaoltp)
-
------
-- [7 nguyên tắc quan trọng trong kiểm thử phần mềm](https://viblo.asia/p/7-nguyen-tac-quan-trong-trong-kiem-thu-phan-mem-Qbq5QrPEKD8)
-- [10 điều bạn nên làm nếu muốn trở thành một tester giỏi](https://viblo.asia/p/10-dieu-ban-nen-lam-neu-muon-tro-thanh-mot-tester-gioi-xQMkJRpLkam)
-- [Một "chớt" tâm sự của một Tester quèn gửi tới Dev team, PM, DM, PO,...](https://viblo.asia/p/mot-chot-tam-su-cua-mot-tester-quen-gui-toi-dev-team-pm-dm-po-ORNZqnXrl0n)
-- [NHỮNG CÂU HỎI PHỎNG VẤN QC // MANUAL TESTER // FRESHER](https://viblo.asia/p/nhung-cau-hoi-phong-van-qc-manual-tester-fresher-ddtcmt-n1j4l3vlVwl)
-- [Bộ câu hỏi phỏng vấn tuyển dụng Tester](https://viblo.asia/p/bo-cau-hoi-phong-van-tuyen-dung-tester-vyDZOkEkZwj)
-- [Top 10 Benefits of Automated Testing](https://testinium.com/blog/top-10-benefits-of-automated-testing-2/)
-- [Test automation 101](https://bootcamp.uxdesign.cc/test-automation-264d219ac83)
-- [What Is Full Stack QA or Tester? 4 Steps Guide For Beginners](https://www.opencodez.com/software-testing/become-full-stack-qa-engineer.htm)
 - [ROADMAP TO QA AUTOMATION ENGINEER](https://synapse-qa.com/2020/11/15/roadmap-to-qa-automation-engineer/)
 - [https://toolsqa.com/](https://toolsqa.com/)
 - [Roadmap QA Engineer](https://roadmap.sh/qa/)
