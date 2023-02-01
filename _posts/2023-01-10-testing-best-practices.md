@@ -11,31 +11,13 @@ tags:
 - TDD
 ---
 
-![Testing](https://boxxv.github.io/img/test/w1.png "Testing")
-
 Công việc của một Tester phần mềm không phải là một công việc dễ dàng. Nó chứa đầy những thách thức, cũng nhiều đòi hỏi không kém. Tester có nghĩa vụ phải cảnh giác và nhiệt tình trong từng giai đoạn của vòng đời ứng dụng.
 
 Vai trò của một tester bắt đầu từ rất sớm. Và ngay từ khi khái niệm hóa dự án, tester đã tham gia vào các cuộc thảo luận với product owner, người quản lý dự án và các bên liên quan (stakeholders) khác nhau.
 
-## I. Các khái niệm cơn bản
+# I. Các khái niệm cơn bản
 
-![Testing](https://boxxv.github.io/img/test/types-of-software-testing.png "Testing")
-
-### Các Phương pháp/Cách tiếp cận Kiểm thử phần mềm:
-
-1. `Kiểm thử hộp trắng`
-2. `Kiểm tra hộp đen`
-3. `Kiểm tra hộp xám`
-
-![Testing](https://boxxv.github.io/img/test/blackbox-whitebox-test.jpg "Testing")
-
-### Các Level/Cấp độ kiểm thử phần mềm:
-1. `Unit Testing` (Kiểm tra đơn vị)
-2. `Integration Testing` (Thử nghiệm hội nhập)
-3. `System Testing` (Thử nghiệm hệ thống)
-4. `Acceptance Testing` (Kiểm tra chấp nhận)
-
-### Các mô hình quy trình kiểm thử phần mềm:
+## Các mô hình quy trình kiểm thử phần mềm:
 1. Traditional Waterfall Development Model (Thác nước truyền thống)
 2. Agile Development Model
 3. V Model
@@ -43,8 +25,24 @@ Vai trò của một tester bắt đầu từ rất sớm. Và ngay từ khi kh�
 
 ![Testing](https://boxxv.github.io/img/test/software-testing-process-models-1.svg "Testing")
 
+## Các Phương pháp/Cách tiếp cận Kiểm thử phần mềm:
 
-#### Functional Testing - Kiểm thử phi chức năng
+![Testing](https://boxxv.github.io/img/test/types-of-software-testing.png "Testing")
+
+1. `Kiểm thử hộp trắng`
+2. `Kiểm tra hộp đen`
+3. `Kiểm tra hộp xám`
+
+![Testing](https://boxxv.github.io/img/test/blackbox-whitebox-test.jpg "Testing")
+
+## Các Level/Cấp độ kiểm thử phần mềm:
+1. `Unit Testing` (Kiểm tra đơn vị)
+2. `Integration Testing` (Thử nghiệm hội nhập)
+3. `System Testing` (Thử nghiệm hệ thống)
+4. `Acceptance Testing` (Kiểm tra chấp nhận)
+
+
+### Functional Testing - Kiểm thử phi chức năng
 Tập trung vào việc xác minh hệ thống hoạt động theo đúng các yêu cầu nghiệp vụ.
 
 ![Testing](https://boxxv.github.io/img/test/functional-testing-intro4.png "Testing")
@@ -60,12 +58,13 @@ Các loại kiểm thử chức năng:
 - Integration Testing (Kiểm thử tích hợp)
 - Regression Testing (Kiểm thử hồi quy)
 - Usability Testing (Kiểm tra khả năng sử dụng)
+- Localization Testing
 - .v.v.
 
->> [8 Functional Testing Types Explained With Examples](https://www.simform.com/blog/functional-testing-types/)
+> [8 Functional Testing Types Explained With Examples](https://www.simform.com/blog/functional-testing-types/)
 
 
-#### Non Functional Testing -  Kiểm thử chức năng
+### Non Functional Testing -  Kiểm thử chức năng
 Tập trung vào việc xác minh hệ thống hoạt động theo đúng, mức độ sẵn sàng theo các tham số phi chức năng như:
 1. `Security` (Bảo mật): Tham số xác định cách hệ thống được bảo vệ an toàn trước các cuộc tấn công có chủ ý và đột ngột từ các nguồn bên trong và bên ngoài.
 2. `Reliability` (Độ tin cậy): Mức độ mà bất kỳ hệ thống phần mềm nào liên tục thực hiện các chức năng được chỉ định mà không gặp sự cố.
@@ -79,7 +78,7 @@ Tập trung vào việc xác minh hệ thống hoạt động theo đúng, mức
 10. `Portability` (Tính di động): Tính linh hoạt của phần mềm để chuyển từ môi trường phần cứng hoặc phần mềm hiện tại của nó.
 11. `Reusability` (Tái sử dụng): Nó đề cập đến một phần của hệ thống phần mềm có thể được chuyển đổi để sử dụng trong một ứng dụng khác.
 
-##### Các loại kiểm thử phi chức năng
+Các loại kiểm thử phi chức năng
 - Performance Testing (Kiểm thử hiệu năng)
 - Load Testing (Kiểm thử tải)
 - Failover Testing (Kiểm thử chuyển đổi dự phòng)
@@ -94,15 +93,14 @@ Tập trung vào việc xác minh hệ thống hoạt động theo đúng, mức
 - Compliance Testing (Kiểm thử tuân thủ)
 - Portability Testing (Kiểm thử tính di động)
 
-Các cấp độ của Kiểm thử phần mềm:
-- 
-- 
-- 
-- 
+## Các công cụ kiểm thử phần mềm
+- [Selenium](https://www.selenium.dev)
+- [Appium](https://appium.io)
+- [Katalon(https://katalon.com)
+- [Cucumber](https://cucumber.io)
+- HPE Unified Functional Testing
 
-![Testing](https://boxxv.github.io/img/test/blackbox-whitebox-test.jpg "Testing")
-
-## II. Luồng quy trình kiểm thử phần mềm
+# II. Luồng quy trình kiểm thử phần mềm
 
 
 
@@ -110,6 +108,7 @@ Các cấp độ của Kiểm thử phần mềm:
 Tham khảo:
 
 - [A COMPLETE GUIDE ON SOFTWARE TESTING](https://www.leewayhertz.com/software-testing-process/)
+- [Types of Software Testing](https://www.javatpoint.com/types-of-software-testing)
 - [The Evolution of the Testing Pyramid](https://www.james-willett.com/the-evolution-of-the-testing-pyramid/)
 - [Test Pyramid In Practice](https://www.pgs-soft.com/blog/test-pyramid-in-practice/)
 - [Restructuring Frontend Testing Pyramid: alternative to Unit/Integration/E2E approach](https://dev.to/hiroyone/frontend-testing-no-more-unitintegratione2e-categorizations-and-priorities-5358)
@@ -189,12 +188,18 @@ Tham khảo:
 - [Mẫu Test Case tốt nhất kèm ví dụ](https://viblo.asia/p/mau-test-case-tot-nhat-kem-vi-du-bWrZnvnwZxw)
 - [Kiểm thử độ bền là gì?](https://viblo.asia/p/kiem-thu-do-ben-la-gi-ORNZqbMMl0n)
 - [Software Testing Metric - Chìa khoá để giải quyết mọi bài toán của Test Leaders](https://viblo.asia/p/software-testing-metric-chia-khoa-de-giai-quyet-moi-bai-toan-cua-test-leaders-naQZRREQZvx)
+- [Cucumber (P1) - Giới thiệu tổng quan](https://viblo.asia/p/cucumber-p1-gioi-thieu-tong-quan-YWOZrD8v5Q0)
+- [Cucumber (P2) - Tạo project bằng Eclipse và quản lý thư viện với Maven](https://viblo.asia/p/cucumber-p2-tao-project-bang-eclipse-va-quan-ly-thu-vien-voi-maven-Ljy5VdOGZra)
+- [Cucumber (P3) - Parameters và Scenario Outline](https://viblo.asia/p/cucumber-p3-parameters-va-scenario-outline-ByEZk7bEZQ0)
+- [Cucumber (P4) - Cucumber Options & Report](https://viblo.asia/p/cucumber-p4-cucumber-options-report-LzD5dNOEZjY)
 - [Test API sử dụng Pytest (Phần 1: Kiến thức cơ bản)](https://viblo.asia/p/test-api-su-dung-pytest-phan-1-kien-thuc-co-ban-GrLZDr435k0)
 - [Test API sử dụng Pytest (Phần 2: Testcase Template và Dynamic Testing Function)](https://viblo.asia/p/test-api-su-dung-pytest-phan-2-testcase-template-va-dynamic-testing-function-1VgZvAvMKAw)
 - [Sự khác nhau giữa Sanity Testing và Smoke Testing](https://viblo.asia/p/su-khac-nhau-giua-sanity-testing-va-smoke-testing-4dbZNJRLZYM)
 - [Agile Testing là gì?](https://viblo.asia/p/agile-testing-la-gi-YWOZragEKQ0)
 - [Góc nhìn của một Tester về các dự án Agile](https://viblo.asia/p/goc-nhin-cua-mot-tester-ve-cac-du-an-agile-bWrZn4zO5xw)
 - [Agile & Scrum](https://viblo.asia/p/agile-scrum-3Q75w8PQKWb)
+- [V model trong kiểm thử phần mềm là gì? Tìm hiểu với ví dụ SDLC& STLC.](https://viblo.asia/p/v-model-trong-kiem-thu-phan-mem-la-gi-tim-hieu-voi-vi-du-sdlc-stlc-Qbq5QMEL5D8)
+- [Vòng đời kiểm thử trong một vài mô hình phát triển phần mềm phổ biến hiện nay](https://viblo.asia/p/vong-doi-kiem-thu-trong-mot-vai-mo-hinh-phat-trien-phan-mem-pho-bien-hien-nay-WAyK8R6klxX)
 - [https://viblo.asia/tags/cypress](https://viblo.asia/tags/cypress)
 - [https://viblo.asia/u/oanhnguyen2403](https://viblo.asia/u/oanhnguyen2403)
 - [https://viblo.asia/u/nguyen.hong.minh](https://viblo.asia/u/nguyen.hong.minh)
