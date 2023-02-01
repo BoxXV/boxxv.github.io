@@ -96,7 +96,7 @@ Các loại kiểm thử phi chức năng
 ## Các công cụ kiểm thử phần mềm
 - [Selenium](https://www.selenium.dev)
 - [Appium](https://appium.io)
-- [Katalon(https://katalon.com)
+- [Katalon](https://katalon.com)
 - [Cucumber](https://cucumber.io)
 - HPE Unified Functional Testing
 - Worksoft
