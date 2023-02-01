@@ -5,9 +5,9 @@ subtitle: Kiến thức cần biết để kỹ sư kiểm thử phần mềm
 image: "img/tdd.png"
 tags:
 - Testing
+- QA
 - Automation
 - Best Practices
-- TDD
 - TDD
 ---
 
@@ -15,17 +15,71 @@ tags:
 
 Công việc của một Tester phần mềm không phải là một công việc dễ dàng. Nó chứa đầy những thách thức, cũng nhiều đòi hỏi không kém. Tester có nghĩa vụ phải cảnh giác và nhiệt tình trong từng giai đoạn của vòng đời ứng dụng.
 
-Mặc dù có những thách thức, có một vài cơ hội lớn cũng như tìm hiểu và khám phá các khía cạnh khác nhau của phương pháp testing, quy trình và tất nhiên là phần mềm một cách chi tiết.
-
 Vai trò của một tester bắt đầu từ rất sớm. Và ngay từ khi khái niệm hóa dự án, tester đã tham gia vào các cuộc thảo luận với product owner, người quản lý dự án và các bên liên quan (stakeholders) khác nhau.
 
-## I. Luồng quy trình kiểm thử phần mềm
+## I. Các khái niệm cơn bản
+
+![Testing](https://boxxv.github.io/img/test/types-of-software-testing.png "Testing")
+
+### Các cách tiếp cận Kiểm thử phần mềm:
+
+1. `Kiểm thử hộp trắng`
+2. `Kiểm tra hộp đen`
+3. `Kiểm tra hộp xám`
+
+Kiểm thử hộp đen được phân thành hai loại:
+- `Functional Testing` -  Kiểm thử chức năng
+- `Non Functional Testing` - Kiểm thử phi chức năng
+
+#### Functional Testing
+Tập trung vào việc xác minh hệ thống hoạt động theo đúng các yêu cầu nghiệp vụ.
+
+
+#### Non Functional Testing
+Tập trung vào việc xác minh hệ thống hoạt động theo đúng, mức độ sẵn sàng theo các tham số phi chức năng như:
+1. `Security` (Bảo mật): Tham số xác định cách hệ thống được bảo vệ an toàn trước các cuộc tấn công có chủ ý và đột ngột từ các nguồn bên trong và bên ngoài.
+2. `Reliability` (Độ tin cậy): Mức độ mà bất kỳ hệ thống phần mềm nào liên tục thực hiện các chức năng được chỉ định mà không gặp sự cố.
+3. `Survivability` (Khả năng sống sót): Tham số kiểm tra rằng hệ thống phần mềm tiếp tục hoạt động và tự phục hồi trong trường hợp lỗi hệ thống.
+4. `Availability` (Tính sẵn có): Tham số xác định mức độ mà người dùng có thể phụ thuộc vào hệ thống trong quá trình hoạt động.
+5. `Usability` (Khả năng sử dụng): Người dùng có thể dễ dàng học hỏi, vận hành, chuẩn bị đầu vào và đầu ra thông qua tương tác với một hệ thống.
+6. `Scalability` (Khả năng mở rộng): Thuật ngữ này đề cập đến mức độ mà bất kỳ ứng dụng phần mềm nào cũng có thể mở rộng khả năng xử lý của nó để đáp ứng nhu cầu gia tăng.
+7. `Interoperability` (Khả năng tương tác): Tham số phi chức năng này kiểm tra giao diện hệ thống phần mềm với các hệ thống phần mềm khác.
+8. `Efficiency` (Tính hiệu quả): Mức độ mà bất kỳ hệ thống phần mềm nào cũng có thể xử lý dung lượng, số lượng và thời gian đáp ứng.
+9. `Flexibility` (Tính linh hoạt): Thuật ngữ này đề cập đến sự dễ dàng mà ứng dụng có thể hoạt động trong các cấu hình phần cứng và phần mềm khác nhau. Giống như RAM tối thiểu, yêu cầu CPU.
+10. `Portability` (Tính di động): Tính linh hoạt của phần mềm để chuyển từ môi trường phần cứng hoặc phần mềm hiện tại của nó.
+11. `Reusability` (Tái sử dụng): Nó đề cập đến một phần của hệ thống phần mềm có thể được chuyển đổi để sử dụng trong một ứng dụng khác.
+
+##### Các loại kiểm thử phi chức năng
+- Performance Testing (Kiểm thử hiệu năng)
+- Load Testing (Kiểm thử tải)
+- Failover Testing (Kiểm thử chuyển đổi dự phòng)
+- Compatibility Testing (Kiểm thử tương thích)
+- Usability Testing (Kiểm thử khả năng sử dụng)
+- Stress Testing (Kiểm thử về áp lực)
+- Maintainability Testing (Kiểm thử bảo trì)
+- Scalability Testing (Kiểm thử khả năng mở rộng)
+- Volume Testing (Kiểm thử khối lượng)
+- Security Testing (Kiểm thử bảo mật)
+- Disaster Recovery Testing (Kiểm thử khắc phục thảm họa)
+- Compliance Testing (Kiểm thử tuân thủ)
+- Portability Testing (Kiểm thử tính di động)
+
+Các cấp độ của Kiểm thử phần mềm:
+- 
+- 
+- 
+- 
+
+![Testing](https://boxxv.github.io/img/test/blackbox-whitebox-test.jpg "Testing")
+
+## II. Luồng quy trình kiểm thử phần mềm
 
 
 
 -----
 Tham khảo:
 
+- [A COMPLETE GUIDE ON SOFTWARE TESTING](https://www.leewayhertz.com/software-testing-process/)
 - [The Evolution of the Testing Pyramid](https://www.james-willett.com/the-evolution-of-the-testing-pyramid/)
 - [Test Pyramid In Practice](https://www.pgs-soft.com/blog/test-pyramid-in-practice/)
 - [Restructuring Frontend Testing Pyramid: alternative to Unit/Integration/E2E approach](https://dev.to/hiroyone/frontend-testing-no-more-unitintegratione2e-categorizations-and-priorities-5358)
@@ -42,6 +96,23 @@ Tham khảo:
 - [Acceptance test with gauge and spring boot](https://mesutyakut.medium.com/acceptance-test-with-gauge-and-spring-boot-f675655d8e)
 
 -----
+- [Phương pháp kiểm thử phần mềm - Nguyên lý kiểm thử phần mềm](https://viblo.asia/p/phuong-phap-kiem-thu-phan-mem-nguyen-ly-kiem-thu-phan-mem-OeVKB3kJZkW)
+- [CÁC PHƯƠNG PHÁP KIỂM THỬ.](https://viblo.asia/p/cac-phuong-phap-kiem-thu-1Je5EjV0KnL)
+- [Kiểm thử hộp trắng](https://viblo.asia/p/kiem-thu-hop-trang-PaLGDBNMklX)
+- [Kiểm Thử Hộp Trắng](https://viblo.asia/p/kiem-thu-hop-trang-jvElaLGAZkw)
+- [Kỹ thuật kiểm thử hộp trắng - White-box testing](https://viblo.asia/p/ky-thuat-kiem-thu-hop-trang-white-box-testing-maGK7MpOlj2)
+- [Tìm hiểu về kiểm thử hộp trắng(Phần 1)](https://viblo.asia/p/tim-hieu-ve-kiem-thu-hop-trangphan-1-924lJpm0KPM)
+- [Tìm hiểu về kiểm thử hộp trắng (phần 2)](https://viblo.asia/p/tim-hieu-ve-kiem-thu-hop-trang-phan-2-E375z83RZGW)
+- [Kiểm thử chuyển đổi cơ sở dữ liệu: Hộp Đen hay Hộp Trắng?](https://viblo.asia/p/kiem-thu-chuyen-doi-co-so-du-lieu-hop-den-hay-hop-trang-NPVMax9wRQOk)
+- [KIỂM THỬ HỘP ĐEN](https://viblo.asia/p/kiem-thu-hop-den-4P856x31ZY3)
+- [Kiểm Thử Hộp Đen - Black box Testing](https://viblo.asia/p/kiem-thu-hop-den-black-box-testing-Do754NYBZM6)
+- [Kỹ thuật kiểm thử hộp đen (Black-Box Testing)](https://viblo.asia/p/ky-thuat-kiem-thu-hop-denblack-box-testing-ByEZk0qElQ0)
+- [Kỹ thuật kiểm thử hộp đen - Black box Testing](https://viblo.asia/p/ky-thuat-kiem-thu-hop-den-black-box-testing-WrJvYADwvVO)
+- [Các kỹ thuật kiểm thử hộp đen (Phần 1)](https://viblo.asia/p/cac-ky-thuat-kiem-thu-hop-den-phan-1-MdZGAjVbeox)
+- [Các kỹ thuật kiểm thử hộp đen (Phần 2)](https://viblo.asia/p/cac-ky-thuat-kiem-thu-hop-den-phan-2-rQOvPNyYeYj)
+- [Kiểm thử hộp xám là gì?](https://viblo.asia/p/kiem-thu-hop-xam-la-gi-E375zgp1KGW)
+
+-----
 - [Unit Test - Kiểm thử đơn vị](https://viblo.asia/p/unit-test-la-gi-maGK7m3Llj2)
 - [Integration testing - Kiểm thử tích hợp](https://viblo.asia/p/kiem-thu-tich-hop-integration-testing-Qpmle71DKrd)
 - [System Testing - Kiểm thử hệ thống](https://viblo.asia/p/system-testing-kiem-thu-he-thong-aWj53pOPK6m)
@@ -54,9 +125,16 @@ Tham khảo:
 - [Tìm hiểu về các loại test type (phần 1)](https://viblo.asia/p/tim-hieu-ve-cac-loai-test-type-phan-1-eXoKWkowKLO)
 - [System testing và End-to-End testing](https://viblo.asia/p/system-testing-va-end-to-end-testing-gDVK28A2lLj)
 - [Sự khác nhau giữa System Testing Và End-To-End Testing](https://viblo.asia/p/su-khac-nhau-giua-system-testing-va-end-to-end-testing-YWOZrdQY5Q0)
+- [Kiểm thử phi chức năng là gì?](https://viblo.asia/p/kiem-thu-phi-chuc-nang-la-gi-924lJxvbKPM)
+- [Tìm hiểu về kiểm thử chức năng (Functionality Testing)](https://viblo.asia/p/tim-hieu-ve-kiem-thu-chuc-nang-functionality-testing-bJzKmLVB59N)
+- [Tìm hiểu về kiểm thử chức năng (Functional Testing) trong kiểm thử phần mềm](https://viblo.asia/p/tim-hieu-ve-kiem-thu-chuc-nang-functional-testing-trong-kiem-thu-phan-mem-yMnKM9kmK7P)
+- [Kiểm thử phi chức năng](https://viblo.asia/p/kiem-thu-phi-chuc-nang-924lJpX6KPM)
+- [Giới thiệu về kiểm thử phi chức năng](https://viblo.asia/p/gioi-thieu-ve-kiem-thu-phi-chuc-nang-Qbq5Q39JZD8)
+- [Non-functional Testing là gì?](https://viblo.asia/p/non-functional-testing-la-gi-GrLZDvwE5k0)
 - [Sự khác nhau giữa Functional Testing và Non-Functional Testing](https://viblo.asia/p/su-khac-nhau-giua-functional-testing-va-non-functional-testing-XL6lAv4D5ek)
 - [Tìm hiểu về IOT testing](https://viblo.asia/p/tim-hieu-ve-iot-testing-gDVK29Bw5Lj)
 - [What is IoT Testing? Types & Tools](https://www.guru99.com/iot-testing-challenges-tools.html)
+- [Nên kiểm thử tự động hay kiểm thử thủ công](https://viblo.asia/p/nen-kiem-thu-tu-dong-hay-kiem-thu-thu-cong-LzD5dD1d5jY)
 - [https://viblo.asia/tags/test-level](https://viblo.asia/tags/test-level)
 - [https://viblo.asia/tags/unit-test](https://viblo.asia/tags/unit-test)
 - [https://viblo.asia/tags/integration-test](https://viblo.asia/tags/integration-test)
@@ -76,6 +154,8 @@ Tham khảo:
 - [Cách viết test case cho phần mềm](https://viblo.asia/p/cach-viet-test-case-cho-phan-mem-LzD5dx1w5jY)
 - [Cách viết test case cho phần mềm - Viết Test Case từ User Story & Acceptance Criteria](https://viblo.asia/p/cach-viet-test-case-cho-phan-mem-viet-test-case-tu-user-story-acceptance-criteria-yMnKMMeNK7P)
 - [Làm thế nào để quản lý test case tốt](https://viblo.asia/p/lam-the-nao-de-quan-ly-test-case-tot-gDVK23z0ZLj)
+- [Hướng dẫn xây dựng Testcase Chức năng](https://viblo.asia/p/huong-dan-xay-dung-testcase-chuc-nang-Qbq5Qq1G5D8)
+- [Tìm hiểu về Kiểm thử chức năng đăng xuất - Logout Functionality](https://viblo.asia/p/tim-hieu-ve-kiem-thu-chuc-nang-dang-xuat-logout-functionality-gAm5yV1DKdb)
 - [Mẫu Test Case tốt nhất kèm ví dụ](https://viblo.asia/p/mau-test-case-tot-nhat-kem-vi-du-bWrZnvnwZxw)
 - [Kiểm thử độ bền là gì?](https://viblo.asia/p/kiem-thu-do-ben-la-gi-ORNZqbMMl0n)
 - [Software Testing Metric - Chìa khoá để giải quyết mọi bài toán của Test Leaders](https://viblo.asia/p/software-testing-metric-chia-khoa-de-giai-quyet-moi-bai-toan-cua-test-leaders-naQZRREQZvx)
