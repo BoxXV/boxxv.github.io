@@ -106,8 +106,11 @@ Các loại kiểm thử phi chức năng
 - TestComplete
 
 
-# Các thành phẩm kiểm thử phần mềm
-- Test Strategy
+## Các thành phẩm kiểm thử phần mềm
+
+![Software Testing Life Cycle (STLC) - Phases of Software Testing](https://boxxv.github.io/img/test/ppp10.png "Software Testing Life Cycle (STLC) - Phases of Software Testing")
+
+- Test Strategy (Chiến lược test)
 - Test Plan and Estimation
 - Test Scenario
 - Test Cases
@@ -117,12 +120,14 @@ Các loại kiểm thử phi chức năng
 - Test Closure Report
 - Incident Report
 
+![Software Testing Life Cycle (STLC)](https://boxxv.github.io/img/test/STLC.png "Software Testing Life Cycle (STLC)")
 
 -----
 Tham khảo:
 
 - [A COMPLETE GUIDE ON SOFTWARE TESTING](https://www.leewayhertz.com/software-testing-process/)
 - [Types of Software Testing](https://www.javatpoint.com/types-of-software-testing)
+- [A Quick Guide to the Software Testing Life Cycle (STLC)](https://jelvix.com/blog/software-testing-life-cycle)
 - [The Evolution of the Testing Pyramid](https://www.james-willett.com/the-evolution-of-the-testing-pyramid/)
 - [Test Pyramid In Practice](https://www.pgs-soft.com/blog/test-pyramid-in-practice/)
 - [Restructuring Frontend Testing Pyramid: alternative to Unit/Integration/E2E approach](https://dev.to/hiroyone/frontend-testing-no-more-unitintegratione2e-categorizations-and-priorities-5358)
