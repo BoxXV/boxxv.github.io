@@ -10,7 +10,7 @@ tags:
 - TDD
 ---
 
-![Automation Testing](https://boxxv.github.io/img/2023/1-2.png "Automation Testing")
+![Automation Testing](https://boxxv.github.io/img/test/1-2.png "Automation Testing")
 
 Làm thế nào để trở thành một Automation Testing Engineer? Như mọi người đều biết răng, kiểm thử tự động đang dần trở thành một xu hướng HOT để các bạn tìm hiểu, cũng như thị trường việc làm của công việc này ngày càng tăng. Vậy thì các bạn cần tìm hiểu những kiến thức gì, và cần có những kỹ năng gì để bước vào lĩnh vực này.
 

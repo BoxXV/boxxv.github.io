@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Tìm hiểu về Automation Testing
+title: Tìm hiểu về Kiểm Thử Tự Động
 subtitle: 7 bước để trở thành một Automation Testing Engineer
-image: "img/projects-bg.jpg"
+image: "img/tdd.png"
 tags:
 - Automation
 - Testing
@@ -13,7 +13,7 @@ tags:
 
 Làm thế nào để trở thành một Automation Testing Engineer? Như mọi người đều biết răng, kiểm thử tự động đang dần trở thành một xu hướng HOT để các bạn tìm hiểu, cũng như thị trường việc làm của công việc này ngày càng tăng. Vậy thì các bạn cần tìm hiểu những kiến thức gì, và cần có những kỹ năng gì để bước vào lĩnh vực này.
 
-## I. Automation Test là gì? Khi nào nên sử dụng Automation Test?
+## Automation Test là gì? Khi nào nên sử dụng Automation Test?
 
 Khi khái niệm Automation Test (kiểm tra tự động) ra đời, Tester chỉ cần viết một đoạn code hoặc sử dụng một số công cụ như Selenium, Test Complete, Jmetter… để chạy tự động tất cả các bước bao gồm nhập thông tin, click, kiểm tra kết quả, so sánh kết quả thực tế với kết quả giả định.
 
@@ -93,6 +93,15 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 - [Playwright](https://playwright.dev) - end-to-end testing cho các ứng dụng web hiện đại.
 
 
+## Unit Testing Frameworks
+
+- [`JUnit`](https://junit.org) & [`TestNG`](https://testng.org) cho **Java**
+- [`MSTest`](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [`NUnit`](https://nunit.org) & [`xUnit`](https://xunit.net) cho C#
+- [`Unittest`](https://docs.python.org/3/library/unittest.html) & [`pytest`](https://pytest.org) cho **Python**
+- [`Mocha`](https://mochajs.org) , [`Jasmine`](https://jasmine.github.io) hoặc [`Chai`](https://www.chaijs.com) cho **JavaScripts**
+
+
+
 ## Cơ hội nghề nghiệp
 
 Cách mạng công nghiệp lần thứ tư đánh dấu kỷ nguyên vạn vật kết nối Internet. Nó xảy ra dựa trên sự hội tụ của nhiều công nghệ trong đó có công nghệ cốt lõi có công nghệ thông tin với sự phát triển không ngừng của công nghệ Internet từ thời kỳ kết nối nội dung như email đến mạng xã hội, Internet vạn vật, Internet kết nối thiết bị máy móc kết nối quá trình vận hành của các nhà máy. Ngoài công nghệ cốt lõi còn có sự hội tụ của công nghệ in 3D, công nghệ vật liệu tiên tiến, công nghệ lưu trữ…
@@ -142,6 +151,7 @@ Tham khảo:
 - [Giới thiệu về WebDriverIO](https://viblo.asia/p/gioi-thieu-ve-webdriverio-gGJ59GN9ZX2)
 - [VIẾT UNIT TEST CHO JAVASCRIPT VỚI JASMINE](https://toidicodedao.com/2015/04/02/viet-unit-test-cho-javascript-voi-jasmine/)
 - [VIẾT UNIT TEST CHO JAVASCRIPT VỚI JASMINE – PHẦN 2](https://toidicodedao.com/2015/04/07/viet-unit-test-cho-javascript-voi-jasmine-phan-2/)
+- [Sử dụng Jasmine và Karma với AngularJS](https://viblo.asia/p/su-dung-jasmine-va-karma-voi-angularjs-73KbvZzzvmWB)
 - [Angular Unit Testing](https://viblo.asia/p/angular-unit-testing-l5XRBV1kRqPe)
 - [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 1: Unit Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-1-unit-test-ByEZk96E5Q0)
 - [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 2: Integration Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-2-integration-test-bWrZn1ObKxw)
