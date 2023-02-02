@@ -111,6 +111,10 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ![Test-driven Development](https://boxxv.github.io/img/test/5y1ipmh3te6h6pqvwcop.png "TDD")
 
+> [Công cụ và Thư viện cần thiết cho Fullstack](https://boxxv.github.io/2022/01/01/tools-and-library-for-js-development/)
+> [Top Visual Studio Extensions for Developers](https://boxxv.github.io/2020/01/08/top-visual-studio-extensions/)
+> [Thư Viện Và Framework quan trọng bạn cần biết 2022](https://boxxv.github.io/2022/08/20/essential-libraries-and-frameworks-you-should-know-about/)
+
 
 ## Cơ hội nghề nghiệp
 
