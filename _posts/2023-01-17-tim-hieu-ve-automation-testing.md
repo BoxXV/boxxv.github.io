@@ -98,7 +98,8 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 - [`JUnit`](https://junit.org) & [`TestNG`](https://testng.org) cho **Java**
 - [`MSTest`](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [`NUnit`](https://nunit.org) & [`xUnit`](https://xunit.net) cho C#
 - [`Unittest`](https://docs.python.org/3/library/unittest.html) & [`pytest`](https://pytest.org) cho **Python**
-- [`Mocha`](https://mochajs.org) , [`Jasmine`](https://jasmine.github.io) hoặc [`Chai`](https://www.chaijs.com) cho **JavaScripts**
+- [`Mocha`](https://mochajs.org), [`Jasmine`](https://jasmine.github.io) hoặc [`Chai`](https://www.chaijs.com) cho **JavaScripts**
+- [`Jest`](https://github.com/facebook/jest), [`Mocha`](https://github.com/mochajs/mocha), [`Chai`](https://github.com/chaijs/chai), [`Karma`](https://github.com/karma-runner/karma), [`Jasmine`](https://github.com/jasmine/jasmine), [`Enzyme`](https://github.com/enzymejs/enzyme), [`React-testing-library`](https://github.com/testing-library/react-testing-library), [`React test utils and test renderer`](https://reactjs.org/docs/test-utils.html), [`Cypress IO`](https://github.com/cypress-io/cypress), [`Pupeeter`](https://github.com/puppeteer/puppeteer), [`Bit`](https://bit.dev) cho **React**
 
 
 ## Test-driven Development (TDD) Tool
