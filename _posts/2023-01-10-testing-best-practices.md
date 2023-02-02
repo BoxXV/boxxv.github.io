@@ -183,6 +183,7 @@ Tham khảo:
 - [Tìm hiểu về IOT testing](https://viblo.asia/p/tim-hieu-ve-iot-testing-gDVK29Bw5Lj)
 - [What is IoT Testing? Types & Tools](https://www.guru99.com/iot-testing-challenges-tools.html)
 - [Nên kiểm thử tự động hay kiểm thử thủ công](https://viblo.asia/p/nen-kiem-thu-tu-dong-hay-kiem-thu-thu-cong-LzD5dD1d5jY)
+- [Chiến lược kiểm thử Round Earth](https://viblo.asia/p/chien-luoc-kiem-thu-round-earth-maGK7kxLKj2)
 - [https://viblo.asia/tags/test-level](https://viblo.asia/tags/test-level)
 - [https://viblo.asia/tags/unit-test](https://viblo.asia/tags/unit-test)
 - [https://viblo.asia/tags/integration-test](https://viblo.asia/tags/integration-test)

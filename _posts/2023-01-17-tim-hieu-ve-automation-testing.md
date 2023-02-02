@@ -146,6 +146,7 @@ Tham khảo:
 - [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 1: Unit Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-1-unit-test-ByEZk96E5Q0)
 - [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 2: Integration Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-2-integration-test-bWrZn1ObKxw)
 - [Tự động test (Automation Testing) cho trang web ASP.NET Core 2.0 (Phần 3: End-to-End Test)](https://viblo.asia/p/tu-dong-test-automation-testing-cho-trang-web-aspnet-core-20-phan-3-end-to-end-test-aWj53kD156m)
+- [Automated testing for Terraform](https://viblo.asia/p/automated-testing-for-terraform-Ljy5V7O9Kra)
 - [Kiểm thử tự động cùng Robot Framework dành cho tester](https://viblo.asia/p/kiem-thu-tu-dong-cung-robot-framework-danh-cho-tester-aRBvXndbeWE)
 - [Robot framework dành cho tester (Phần I)](https://viblo.asia/p/robot-framework-danh-cho-tester-phan-i-DzVkpopJenW)
 - [Robot framework dành cho tester (Phần II)](https://viblo.asia/p/robot-framework-danh-cho-tester-phan-ii-xQMGJLPLkam)
