@@ -97,6 +97,8 @@ Sử dụng thành thạo Gulp sẽ giúp ta thao tác rất nhanh trong việc 
 
 Sử dụng Gulp không khó, chính thế mà nhiều người thích sử dụng Gulp hơn Grunt vì syntax khá đơn giản.
 
+> [Tìm hiểu và sử dụng Gulp JS](https://boxxv.github.io/2022/12/27/tim-hieu-va-su-dung-gulpjs/)
+
 ### 5. `Grunt`
 
 Grunt là một task runner (trình chạy task) và một công cụ tự động của JavaScript. Grunt có một giao diện command-line cho phép bạn chạy các task tự chọn được định nghĩa trong một Gruntfile. Grunt có hàng ngàn plugins để chọn lựa, gồm có những task lập đi lập lại mà bạn sẽ gặp phải. Với Grunt, bạn có thể dùng tất cả task bằng một dòng lệnh, làm cuộc sống bạn dễ dàng hơn.

@@ -156,6 +156,9 @@ Gulp sử dụng pipeline để dẫn data từ một plugin sang một plugin k
 
 ![Gulp](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Gulp.jpg "Gulp")
 
+> [Tìm hiểu và sử dụng Gulp JS](https://boxxv.github.io/2022/12/27/tim-hieu-va-su-dung-gulpjs/)
+
+
 ## [Grunt](https://gruntjs.com)
 
 Grunt là một task runner (trình chạy task) và một công cụ tự động của JavaScript. Grunt có một giao diện command-line cho phép bạn chạy các task tự chọn được định nghĩa trong một Gruntfile. Grunt có hàng ngàn plugins để chọn lựa, gồm có những task lập đi lập lại mà bạn sẽ gặp phải. Với Grunt, bạn có thể dùng tất cả task bằng một dòng lệnh, làm cuộc sống bạn dễ dàng hơn.
