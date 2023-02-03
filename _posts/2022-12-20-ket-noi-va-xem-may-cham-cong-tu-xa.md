@@ -16,6 +16,9 @@ Hiện nay nhu cầu lấy dữ liệu chấm công từ xa qua mạng internet 
 
 ## I. Tổng quan
 
+![Chấm công đa điểm](https://boxxv.github.io/img/timekeeper/may-cham-cong ronald-jack-da-diem.jpg "Chấm công đa điểm")
+
+
 ### 1. Lấy dữ liệu chấm công online server
 
 Đối với cách lấy dữ liệu chấm công online server là giải pháp chấm công tiên tiến nhất hiện nay tiết kiệm chi phí và đem lại khá nhiều hiệu quả cho doanh nghiệp muốn quản lý dữ liệu tập trung về văn phòng trung tâm.
