@@ -18,6 +18,12 @@ Hiện nay nhu cầu lấy dữ liệu chấm công từ xa qua mạng internet 
 
 ![Chấm công đa điểm](https://boxxv.github.io/img/timekeeper/may-cham-cong ronald-jack-da-diem.jpg "Chấm công đa điểm")
 
+1. Push Data
+2. Port Forwarding
+3. Port Forwarding with Local Server
+4. VPN with ADSL
+5. VPN with Leased line
+6. VPN with FIREWALL
 
 ### 1. Lấy dữ liệu chấm công online server
 
