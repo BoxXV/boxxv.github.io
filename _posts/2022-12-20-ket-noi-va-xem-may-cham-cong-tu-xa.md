@@ -199,3 +199,4 @@ Tham khảo:
 - [Rủi ro từ lỗ hổng máy chấm công khi lấy dữ liệu từ xa qua public IP wan và NAT Port](https://azza.vn/rui-ro-tu-lo-hong-may-cham-cong-khi-lay-du-lieu-tu-xa-qua-public-ip-wan-va-nat-port/)
 - [Giải pháp chấm công đa điểm cho chuỗi cửa hàng, chuỗi siêu thị](https://www.maychamcongvantay.net.vn/2017/10/giai-phap-cham-cong-iem-cho-chuoi-cua.html)
 - [ZKTeco TA Push SDK bộ công cụ tích hợp hoàn hảo cho nhà phát triển giải pháp chấm công](https://smartid.com.vn/zkteco-ta-push-sdk-bo-cong-cu-tich-hop-hoan-hao-cho-nha-phat-trien-giai-phap-cham-cong.html)
+- [The 6 Best Free Dynamic DNS Providers](https://www.makeuseof.com/tag/5-best-dynamic-dns-providers-can-lookup-free-today/)

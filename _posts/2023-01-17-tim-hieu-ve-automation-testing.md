@@ -104,9 +104,9 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 
 ## Test-driven Development (TDD) Tool
 
-- [`Jest`](https://jestjs.io) cho unit tests
-- [`ESLint`](https://eslint.org) cho linting
-- [`Prettier`](https://prettier.io) cho formatting
+- [`Jest`](https://jestjs.io) cho **unit tests**
+- [`ESLint`](https://eslint.org) cho **linting**
+- [`Prettier`](https://prettier.io) cho **formatting**
 - `Husky` và [`lint-staged`](https://www.npmjs.com/package/lint-staged?activeTab=dependencies) để pre-commit Git hooks
 
 ![Test-driven Development](https://boxxv.github.io/img/test/5y1ipmh3te6h6pqvwcop.png "TDD")
