@@ -21,6 +21,26 @@ Gần đây, mô hình phát triển TDD (Test Driven Development) đang trở n
 
 ![Unit Testing](https://boxxv.github.io/img/test/01_24.06.jpg "Unit Testing")
 
+### Tại sao bắt đầu viết unit test lại khó đến vậy?
+
+Cách đây khoảng 6 năm, tôi muốn viết unit test để tự động hóa việc kiểm thử ứng dụng mà tôi đang tham gia xây dựng. Đó là những gì một nhà phát triển giỏi làm và tôi mong muốn trở thành một nhà phát triển giỏi.
+
+Nhưng bằng cách nào?
+
+Ứng dụng mà tôi tham gia xây dựng không có bất kỳ bài kiểm tra unit test nào để tự động hóa việc kiểm thử. Chúng tôi phải kiểm tra các chức năng hoàn toàn bằng cơm, đây là một công việc lặp đi lặp lại rất nhàm chán và bỏ sót nhiều bug (QC rất thích điều này, còn tôi thì không).
+
+Tôi muốn thay đổi điều này và đã tìm thấy giải pháp là sử dụng unit test sau khi lang thang trên Google. Tôi đã thử làm theo ví dụ trong các hướng dẫn này và các ví dụ này chạy ngon lành. Tôi nghĩ rằng mình đã tìm thấy kim chỉ nam và suýt nữa đã làm như Acsimet đã từng làm cách đây hơn 2000 năm.
+
+Tuy nhiên khi tôi muốn viết unit test cho dự án thực tế của tôi thì không áp dụng được. Các ví dụ mà tôi làm theo thường rất đơn giản, chẳng hạn như một chương trình cho phép cộng, trừ, nhân, chia hai số nguyên.
+
+Trong khi ứng dụng mà tôi muốn viết unit test khá phức tạp: có giao diện Frontend và Backend, có các API xử lý business ở đằng sau và hầu hết thực hiện các thao tác CRUD (Create, Read, Update, Delete) với cơ sở dữ liệu.
+
+Vấn đề ở đây là tôi cần viết unit test cho cái gì? Vì ứng dụng có rất nhiều thành phần khác nhau, từ UI đến API, business logic tới repository, database, ...
+
+Một vấn đề khác là mọi người luôn nói, "các bài kiểm tra unit test là quan trọng. Bạn phải làm chúng!" và sau đó không bao giờ nói cho tôi biết _làm thế nào_  để viết chúng và làm thế nào để viết chúng thật tốt.
+
+Loạt bài này trình bày một số thứ tôi đã học được và sử dụng trong công việc của tôi. Tôi đã học được rất nhiều về kiểm thử và đặc biệt là kiểm thử đơn vị tự động, và tôi hy vọng rằng một số điều tôi học được sẽ hữu ích cho độc giả của tôi.
+
 > [Bảng Cheat-Sheet tham khảo cho Unit Test dễ dàng hơn](https://viblo.asia/p/bang-cheat-sheet-tham-khao-cho-unit-test-de-dang-hon-aWj53vR8l6m)
 
 ### Unit Test trong C# với MSTest
