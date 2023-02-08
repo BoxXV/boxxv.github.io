@@ -14,12 +14,12 @@ tags:
 
 Gần đây, mô hình phát triển TDD (Test Driven Development) đang trở nên hot, được áp dụng nhiều. Mô hình này dựa trên khái niệm: Với mỗi chức năng, ta viết Unit Test trước, sau đó viết hàm hiện thực chức năng để unit test pass. Một số công ty ở Việt Nam cũng đang áp dụng mô hình này, trong khi phỏng vấn xin việc cũng có.
 
-![Unit Testing](https://boxxv.github.io/img/test/sketch.png "Unit Testing")
+
 
 
 ## I. Unit testing C#
 
-![Unit Testing](https://boxxv.github.io/img/test/01_24.06.jpg "Unit Testing")
+![Unit Testing](https://boxxv.github.io/img/test/sketch.png "Unit Testing")
 
 ### Tại sao bắt đầu viết unit test lại khó đến vậy?
 
@@ -71,6 +71,8 @@ Có rất nhiều thư viện cho unit test có sẵn trong thế giới .NET nh
 
 Đây là những thứ phổ biến nhất và chúng hoạt động theo những cách tương tự nhau. Tuy nhiên, theo ý kiến ​​của tôi xUnit mang lại sự dễ sử dụng và khả năng tái sử dụng tốt nhất.
 
+![Unit Testing](https://boxxv.github.io/img/test/01_24.06.jpg "Unit Testing")
+
 > [Bảng Cheat-Sheet tham khảo cho Unit Test dễ dàng hơn](https://viblo.asia/p/bang-cheat-sheet-tham-khao-cho-unit-test-de-dang-hon-aWj53vR8l6m)
 
 ### Unit Test trong C# với MSTest
@@ -100,6 +102,45 @@ public class TestCases
     }
 }
 ```
+
+Tại thời điểm này, bài kiểm tra trên chính xác là không có gì. Để điền vào những gì bài kiểm tra nên làm, chúng ta có thể làm theo phương pháp "Arrange, Act, Assert."
+
+> LƯU Ý: Bạn có thể thiết lập xUnit để chạy các bài kiểm tra với đầu vào và đầu ra bằng thuộc tính`Theory]`, hãy xem bài viết ["Sử dụng xUnit để kiểm tra mã C# của bạn"](https://comdy.vn/unit-test/su-dung-xunit-de-kiem-tra-ma-c-sharp-cua-ban/#tao-theory-trong-xunit-7) để biết một ví dụ tuyệt vời. Chúng ta sẽ tìm hiểu kỹ hơn về vấn đề này trong phần sau của loạt bài này.
+
+**Arrange, Act, Assert (AAA)**
+Cụm từ "Arrange, Act, Assert" hay AAA là một cách hay để ghi nhớ cấu trúc của một bài kiểm tra unit test.
+- `Arrange`:  có nghĩa là để thiết lập môi trường thử nghiệm cần thiết và các phụ thuộc. Điều này có thể có nghĩa là tạo một tập hợp dữ liệu thử nghiệm tốt đã biết hoặc tạo mock của một phần phụ thuộc mà chúng ta không muốn kiểm tra. Tóm lại, "Arrange" có nghĩa là "tạo ra những gì bài kiểm tra cần để chạy."
+- `Act`:  có nghĩa là thực thi mã cần được kiểm tra, đã được thiết lập trong bước Arrange.
+- `Assert`:  có nghĩa là kiểm tra kết quả và đầu ra và xác nhận rằng chúng là những gì chúng ta mong đợi.
+
+Ví dụ dưới đây là một bài kiểm tra unit test có sử dụng mock:
+
+```cs
+[Fact]
+public void PlayerService_GetAllPlayers_InvalidLeague()
+{
+    //Arrange
+    var mockLeagueRepo = new MockLeagueRepository().MockIsValid(false);
+
+    var playerService = new PlayerService(new MockPlayerRepository().Object,
+        new MockTeamRepository().Object,
+        mockLeagueRepo.Object);
+
+    //Act
+    var allPlayers = playerService.GetForLeague(1);
+
+    //Assert
+    Assert.Empty(allPlayers);
+    mockLeagueRepo.VerifyIsValid(Times.Once());
+}
+```
+
+Đừng lo lắng về đoạn mã này; bây giờ, tất cả những gì bạn cần nhớ là mô hình "Arrange, Act, Assert". Chúng ta sẽ xem xét chính xác đoạn mã này làm gì trong phần tiếp theo của loạt bài này.
+
+Ở phần tiếp theo, chúng tôi sẽ trình bày cách sử dụng "mock" cho phép chúng ta dễ dàng tạo và thiết lập các lớp giả lập để thử nghiệm (cũng như tìm hiểu chính xác "mock" là gì).
+
+> [Sử dụng Moq để viết unit test trong ASP.NET Core](https://comdy.vn/unit-test/su-dung-moq-de-viet-unit-test-trong-asp-net-core/)
+
 
 ![Unit Testing](https://boxxv.github.io/img/test/unit-testing-framework-17-2048.webp "Unit Testing")
 
