@@ -14,17 +14,25 @@ tags:
 
 Gần đây, mô hình phát triển TDD (Test Driven Development) đang trở nên hot, được áp dụng nhiều. Mô hình này dựa trên khái niệm: Với mỗi chức năng, ta viết Unit Test trước, sau đó viết hàm hiện thực chức năng để unit test pass. Một số công ty ở Việt Nam cũng đang áp dụng mô hình này, trong khi phỏng vấn xin việc cũng có.
 
+![Unit Testing](https://boxxv.github.io/img/test/sketch.png "Unit Testing")
+
 
 ## I. Unit testing C#
 
-![Unit Testing](https://boxxv.github.io/img/test/sketch.png "Unit Testing")
+![Unit Testing](https://boxxv.github.io/img/test/01_24.06.jpg "Unit Testing")
+
+> [Bảng Cheat-Sheet tham khảo cho Unit Test dễ dàng hơn](https://viblo.asia/p/bang-cheat-sheet-tham-khao-cho-unit-test-de-dang-hon-aWj53vR8l6m)
+
+### Unit Test trong C# với MSTest
 
 
 ### Unit Test trong C# với NUnit
 
 Trước đây, để viết Unit Test trong C#, ta thường phải tạo một project test riêng, sử dụng thư viện MSTest của Microsoft. MSTest hỗ trợ khá nhiều chức năng: Test dữ liệu từ database, đo performance hệ thống, xuất dữ liệu report. Tuy nhiên, do MSTest đi kèm với Visual Studio, không thể chạy riêng rẽ, lại khá nặng nề, do đó NUnit được nhiều người ưa thích hơn. NUnit có 1 bộ runner riêng, có thể chạy UnitTest độc lập không cần VisualStudio, ngoài ra nó cũng hỗ trợ một số tính năng mà MSTest không có (parameter test, Assert Throw).
 
+### Unit Test trong C# với [xUnit](xunit.net)
 
+![Unit Testing](https://boxxv.github.io/img/test/unit-testing-framework-17-2048.webp "Unit Testing")
 
 
 -----
@@ -47,6 +55,22 @@ Tham khảo:
 - [Acceptance test with gauge and spring boot](https://mesutyakut.medium.com/acceptance-test-with-gauge-and-spring-boot-f675655d8e)
 - [Unit Testing Tutorial – What is, Types & Test Example](https://www.guru99.com/unit-testing-guide.html)
 - [[TUTORIAL] VIẾT UNIT TEST TRONG C# VỚI NUNIT](https://toidicodedao.com/2015/08/25/tutorial-viet-unit-test-trong-c-voi-nunit/)
+- [How To Create Selenium Test using NUnit Framework](https://learn-automation.com/selenium-test-using-nunit-framework/)
 - [Tìm hiểu về IOT testing](https://viblo.asia/p/tim-hieu-ve-iot-testing-gDVK29Bw5Lj)
 - [Tạo và chạy unit test trong Visual studio](https://viblo.asia/p/tao-va-chay-unit-test-trong-visual-studio-wpVYRPNzG4ng)
 - [Cách viết Unit Test trong C#](http://duyanhpham.com/phan-1-cach-viet-unit-test-trong-c-sharp/)
+- [Unit Testing ứng dụng C# dùng .NET Core và Visual Studio Code](https://techmaster.vn/posts/34532/unit-testing-csharp-net-core-visual-studio-code)
+- [5 cách để mock DateTime.Now cho Unit Test trong C#](https://viblo.asia/p/5-cach-de-mock-datetimenow-cho-unit-test-trong-c-vyDZOnV7Kwj)
+- [Most Complete MSTest Unit Testing Framework Cheat Sheet](https://www.automatetheplanet.com/mstest-cheat-sheet/)
+- [Unit testing framework](https://www.slideshare.net/igorvavrish/unit-testing-framework)
+- [ASP.NET MVC Tip #20 – Sử dụng Unit Test Data Access](https://viblo.asia/p/aspnet-mvc-tip-20-su-dung-unit-test-data-access-OeVKBxOdlkW)
+- [Cache trang web ASP.NET](https://viblo.asia/p/cache-trang-web-aspnet-7prv3Pb9RKod)
+- [Làm quen với Unit Testing, các tool và framework phụ trợ](https://viblo.asia/p/lam-quen-voi-unit-testing-cac-tool-va-framework-phu-tro-Zzb7vD1kRjKd)
+- [ASP.NET MVC Tip #2 - Tạo custom Action Result trả về Microsoft Excel Documents](https://viblo.asia/p/aspnet-mvc-tip-2-tao-custom-action-result-tra-ve-microsoft-excel-documents-ORNZq31L50n)
+- [ASP.NET MVC Tip #3 – Provide Explicit View Names khi Unit Testing](https://viblo.asia/p/aspnet-mvc-tip-3-provide-explicit-view-names-khi-unit-testing-m68Z0mWQlkG)
+- [ASP.NET MVC Tip #13 – Unit Test Custom Routes](https://viblo.asia/p/aspnet-mvc-tip-13-unit-test-custom-routes-vyDZOzvdKwj)
+- [ASP.NET MVC Tip #20 – Sử dụng Unit Test Data Access](https://viblo.asia/p/aspnet-mvc-tip-20-su-dung-unit-test-data-access-OeVKBxOdlkW)
+- [ASP.NET MVC Tip #25 – Unit Test Views không cần Web Server (p1)](https://viblo.asia/p/aspnet-mvc-tip-25-unit-test-views-khong-can-web-server-p1-4P8563RGKY3)
+- [ASP.NET MVC Tip #25 – Unit Test Views không cần Web Server (p2)](https://viblo.asia/p/aspnet-mvc-tip-25-unit-test-views-khong-can-web-server-p2-WAyK8Q6WZxX)
+- [ASP.NET MVC Tip #28 – Test Nếu Caching được kích hoạt](https://viblo.asia/p/aspnet-mvc-tip-28-test-neu-caching-duoc-kich-hoat-gDVK2GnjZLj)
+- [ASP.NET MVC Tip #33 – Unit Test LINQ to SQL (p1)](https://viblo.asia/p/aspnet-mvc-tip-33-unit-test-linq-to-sql-p1-LzD5dMzYKjY)
