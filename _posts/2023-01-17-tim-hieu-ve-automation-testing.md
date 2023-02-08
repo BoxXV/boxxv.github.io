@@ -194,6 +194,16 @@ Tham khảo:
 - [https://viblo.asia/tags/selenium](https://viblo.asia/tags/selenium)
 - [https://viblo.asia/tags/selenium-ide](https://viblo.asia/tags/selenium-ide)
 - [https://viblo.asia/tags/selenium-webdriver](https://viblo.asia/tags/selenium-webdriver)
+
+-----
+- [Giáo trình kiểm thử phần mềm](https://www.academia.edu/11433339/GI%C3%81O_TR%C3%8CNH_KI%E1%BB%82M_TH%E1%BB%AC_PH%E1%BA%A6N_M%E1%BB%80M)
+- [KIỂM THỬ VÀ BẢO ĐẢM CHẤT LƯỢNG PHẦN MỀM](http://dulieu.tailieuhoctap.vn/books/cong-nghe-thong-tin/kiem-thu-phan-mem/file_goc_774714.pdf)
+- [NGHIÊN CỨU VÀ ỨNG DỤNG GIẢI PHÁP KIỂM THỬ TỰ ĐỘNG PHẦN MỀM](https://repository.vnu.edu.vn/handle/VNU_123/10900)
+- [Nghiên cứu và đề xuất các phương pháp kiểm thử giao diện phần mềm](https://repository.vnu.edu.vn/handle/VNU_123/6534)
+- [Kiểm tra độ phủ trong kiểm thử đơn vị](https://repository.vnu.edu.vn/handle/VNU_123/7623)
+- [Nhập môn Công nghệ Phần mềm - Đảm bảo chất lượng phần mềm](https://users.soict.hust.edu.vn/trungtt/uploads/slides/CNPM09%20-%20Dam%20bao%20chat%20luong%20PM.pdf)
+
+-----
 - [ROADMAP TO QA AUTOMATION ENGINEER](https://synapse-qa.com/2020/11/15/roadmap-to-qa-automation-engineer/)
 - [https://toolsqa.com/](https://toolsqa.com/)
 - [Roadmap QA Engineer](https://roadmap.sh/qa/)

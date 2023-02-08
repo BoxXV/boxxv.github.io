@@ -187,15 +187,16 @@ Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các k�
 85.	Nghiên cứu tốt nghiệp 3
 86.	Đồ án tốt nghiệp
 
-[https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view](https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view)
 
-https://drive.google.com/drive/u/0/folders/1uFHx5hG6Y0008BRw4lkfjM3phAbPlixV
-
-https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-chuan
-
-https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-quoc-te
-
-https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-elitech
+-----
+- [https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view](https://drive.google.com/file/d/17bXpR8E8sp-DflWF5ABtZZM-Q2MCJS3G/view)
+- [https://drive.google.com/drive/u/0/folders/1uFHx5hG6Y0008BRw4lkfjM3phAbPlixV](https://drive.google.com/drive/u/0/folders/1uFHx5hG6Y0008BRw4lkfjM3phAbPlixV)
+- [https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-chuan](https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-chuan)
+- [https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-quoc-te](https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-quoc-te)
+- [https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-elitech](https://ts.hust.edu.vn/training-cate/nganh-dao-tao-dai-hoc?childCat=chuong-trinh-dao-tao-elitech)
+- [Trí tuệ nhân tạo - Artificial Intelligence](https://users.soict.hust.edu.vn/huonglt/AI/index.htm)
+- [Nhập môn Công nghệ Thông tin và Truyền thông](https://users.soict.hust.edu.vn/huonglt/IT/lecture%20notes.htm)
+- [Xử lý ngôn ngữ tự nhiên - Natural Language Processing](https://users.soict.hust.edu.vn/huonglt/UNLP/index.htm)
 
 
 
