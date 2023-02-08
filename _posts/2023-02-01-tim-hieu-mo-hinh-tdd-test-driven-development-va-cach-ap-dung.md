@@ -68,6 +68,9 @@ Nói một cách đơn giản và dễ hiểu nhất thì nên viết unit test 
 Tôi rất vui vì bạn đã hỏi điều đó. Chính xác thì chúng ta phải viết unit test như thế nào?
 
 Có rất nhiều thư viện cho unit test có sẵn trong thế giới .NET như [MSTest](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [NUnit](https://nunit.org), [XUnit](https://xunit.net) và các thư viện khác.
+- `msTest` -mature, slow. Là khung kiểm thử của Microsoft cho tất cả các ngôn ngữ .NET. Nó có thể mở rộng và hoạt động với cả .NET CLI và Visual Studio.
+- `NUnit`: mature, feature packed, fast. Là một khuôn khổ kiểm tra đơn vị cho tất cả các ngôn ngữ .NET. Ban đầu được chuyển từ JUnit, bản phát hành sản xuất hiện tại đã được viết lại với nhiều tính năng mới và hỗ trợ cho một loạt các nền tảng .NET. NUnit cũng là một dự án của .NET Foundation.
+- `xUnit.net`: new, fast. Là một công cụ kiểm thử đơn vị miễn phí, mã nguồn mở, tập trung vào cộng đồng cho .NET. Được viết bởi nhà phát triển ban đầu NUnit v2, xUnit.net là công nghệ mới nhất để kiểm tra đơn vị các ứng dụng .NET. xUnit.net hoạt động với ReSharper, CodeRush, TestDriven.NET và Xamarin. Đây là một dự án thuộc .NET Foundation và hoạt động theo quy tắc ứng xử của .NET Foundation.
 
 Đây là những thứ phổ biến nhất và chúng hoạt động theo những cách tương tự nhau. Tuy nhiên, theo ý kiến ​​của tôi xUnit mang lại sự dễ sử dụng và khả năng tái sử dụng tốt nhất.
 
@@ -140,6 +143,7 @@ public void PlayerService_GetAllPlayers_InvalidLeague()
 Ở phần tiếp theo, chúng tôi sẽ trình bày cách sử dụng "mock" cho phép chúng ta dễ dàng tạo và thiết lập các lớp giả lập để thử nghiệm (cũng như tìm hiểu chính xác "mock" là gì).
 
 > [Sử dụng Moq để viết unit test trong ASP.NET Core](https://comdy.vn/unit-test/su-dung-moq-de-viet-unit-test-trong-asp-net-core/)
+> [TDD VỚI XUNIT TRÊN DỰ ÁN .NET](https://sinhnx.dev/lap-trinh/tdd-xunit-dotnet)
 
 
 ![Unit Testing](https://boxxv.github.io/img/test/unit-testing-framework-17-2048.webp "Unit Testing")
@@ -158,16 +162,20 @@ Tham khảo:
 - [Total Test Best Practices](https://devops.api.bmc.com/guidelines/ttt/ttt_best_practices.html)
 - [Test Automation Pyramid: 2021 Version](https://medium.com/software-qe/test-automation-pyramid-2021-version-c299cb224c80)
 - [Test Approach](https://www.you-getapptester.com/home/features-benefits/test-approach/)
+- [Unit Testing Tutorial – What is, Types & Test Example](https://www.guru99.com/unit-testing-guide.html)
 
 -----
 - [Tổng quan về unit test với ASP.NET Core, xUnit và Moq](https://comdy.vn/unit-test/tong-quan-ve-unit-test-voi-asp-net-core-xunit-va-moq/)
-- [Unit Testing Tutorial – What is, Types & Test Example](https://www.guru99.com/unit-testing-guide.html)
+- [Viết unit test sử dụng xUnit](https://www.dotnetcoban.com/2019/07/unit-test-in-csharp-using-xunit.html)
+- [Unit Test with .Net 6 with xUnit and MOQ](https://dev.to/moe23/learn-unit-test-with-net-6-with-xunit-and-moq-k9i)
+- [Unit Testing ứng dụng C# dùng .NET Core và Visual Studio Code](https://techmaster.vn/posts/34532/unit-testing-csharp-net-core-visual-studio-code)
+- [Viết unit test sử dụng xUnit](https://www.dotnetcoban.com/2019/07/unit-test-in-csharp-using-xunit.html)
 - [[TUTORIAL] VIẾT UNIT TEST TRONG C# VỚI NUNIT](https://toidicodedao.com/2015/08/25/tutorial-viet-unit-test-trong-c-voi-nunit/)
+- [Nhập môn Unit Testing trong .NET](https://ngocminhtran.com/2019/09/06/nhap-mon-unit-testing-trong-net/)
 - [How To Create Selenium Test using NUnit Framework](https://learn-automation.com/selenium-test-using-nunit-framework/)
 - [Tìm hiểu về IOT testing](https://viblo.asia/p/tim-hieu-ve-iot-testing-gDVK29Bw5Lj)
 - [Tạo và chạy unit test trong Visual studio](https://viblo.asia/p/tao-va-chay-unit-test-trong-visual-studio-wpVYRPNzG4ng)
 - [Cách viết Unit Test trong C#](http://duyanhpham.com/phan-1-cach-viet-unit-test-trong-c-sharp/)
-- [Unit Testing ứng dụng C# dùng .NET Core và Visual Studio Code](https://techmaster.vn/posts/34532/unit-testing-csharp-net-core-visual-studio-code)
 - [5 cách để mock DateTime.Now cho Unit Test trong C#](https://viblo.asia/p/5-cach-de-mock-datetimenow-cho-unit-test-trong-c-vyDZOnV7Kwj)
 - [Most Complete MSTest Unit Testing Framework Cheat Sheet](https://www.automatetheplanet.com/mstest-cheat-sheet/)
 - [Unit testing framework](https://www.slideshare.net/igorvavrish/unit-testing-framework)
@@ -182,6 +190,10 @@ Tham khảo:
 - [ASP.NET MVC Tip #25 – Unit Test Views không cần Web Server (p2)](https://viblo.asia/p/aspnet-mvc-tip-25-unit-test-views-khong-can-web-server-p2-WAyK8Q6WZxX)
 - [ASP.NET MVC Tip #28 – Test Nếu Caching được kích hoạt](https://viblo.asia/p/aspnet-mvc-tip-28-test-neu-caching-duoc-kich-hoat-gDVK2GnjZLj)
 - [ASP.NET MVC Tip #33 – Unit Test LINQ to SQL (p1)](https://viblo.asia/p/aspnet-mvc-tip-33-unit-test-linq-to-sql-p1-LzD5dMzYKjY)
+- [Điều khiển thời gian trong unit test C#](https://duongnt.com/time-dependent-unit-testing-vie/)
+- [Cách viết các loại Unit Tests trong ASP.NET Core Web API có ví dụ](https://minhphien.com/cach-viet-cac-loai-unit-tests-trong-asp-net-core-web-api-co-vi-du/)
+- [Unit Testing Web API dùng .NET Core](https://vtitech.vn/unit-testing-web-api-dung-net-core/)
+- [How to unit test private methods in .NET Core applications (C#)](https://www.tannv.dev/2020/10/how-to-unit-test-private-methods-in-net-core-c-csharp.html)
 
 -----
 - [Testing Strategies For Microservices](https://semaphoreci.com/blog/test-microservices)
@@ -189,3 +201,4 @@ Tham khảo:
 - [Microservices Testing Strategies, Types & Tools: A Complete Guide](https://www.simform.com/blog/microservice-testing-strategies/)
 - [Testing a Spring Boot Microservices: Tools and Techniques](https://medium.com/kth-distributed-systems/testing-microservices-in-spring-boot-applications-tools-and-techniques-b9c27d865f88)
 - [Acceptance test with gauge and spring boot](https://mesutyakut.medium.com/acceptance-test-with-gauge-and-spring-boot-f675655d8e)
+- [Tìm hiểu mô hình IoC](https://dotnetguru.org/tim-hieu-mo-hinh-ioc/)
