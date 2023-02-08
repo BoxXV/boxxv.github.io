@@ -82,6 +82,9 @@ Có rất nhiều thư viện cho unit test có sẵn trong thế giới .NET nh
 
 ![Unit Testing](https://boxxv.github.io/img/test/test-project.webp "Unit Testing")
 
+![Unit Testing](https://boxxv.github.io/img/test/test-explorer-toolbar-diagram-17-0.png "Unit Testing")
+
+> [Walkthrough: Create and run unit tests for managed code](https://msdn.microsoft.com/en-us/library/ms182532.aspx)  
 > [Phần 1: Cách viết Unit Test trong C#](http://duyanhpham.com/phan-1-cach-viet-unit-test-trong-c-sharp/)  
 > [Phần 2: Sử dụng Unit Test để cải thiện code](http://duyanhpham.com/phan-2-su-dung-unit-test-de-cai-thien-code/)
 
