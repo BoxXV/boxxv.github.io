@@ -197,6 +197,7 @@ Chương trình kỹ sư CNTT Việt Nhật hướng đến đào tạo các k�
 - [Trí tuệ nhân tạo - Artificial Intelligence](https://users.soict.hust.edu.vn/huonglt/AI/index.htm)
 - [Nhập môn Công nghệ Thông tin và Truyền thông](https://users.soict.hust.edu.vn/huonglt/IT/lecture%20notes.htm)
 - [Xử lý ngôn ngữ tự nhiên - Natural Language Processing](https://users.soict.hust.edu.vn/huonglt/UNLP/index.htm)
+- [Công nghệ phần mềm (Software Engineering) - HỌC VIỆN NÔNG NGHIỆP VIỆT NAM](https://dse.vnua.edu.vn/cnpm/pth03111/PTH03111_CongNghePhanMem.pdf)
 
 
 

@@ -68,7 +68,7 @@ Nói một cách đơn giản và dễ hiểu nhất thì nên viết unit test 
 Tôi rất vui vì bạn đã hỏi điều đó. Chính xác thì chúng ta phải viết unit test như thế nào?
 
 Có rất nhiều thư viện cho unit test có sẵn trong thế giới .NET như [MSTest](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [NUnit](https://nunit.org), [XUnit](https://xunit.net) và các thư viện khác.
-- `msTest` -mature, slow. Là khung kiểm thử của Microsoft cho tất cả các ngôn ngữ .NET. Nó có thể mở rộng và hoạt động với cả .NET CLI và Visual Studio.
+- `msTest`: mature, slow. Là khung kiểm thử của Microsoft cho tất cả các ngôn ngữ .NET. Nó có thể mở rộng và hoạt động với cả .NET CLI và Visual Studio.
 - `NUnit`: mature, feature packed, fast. Là một khuôn khổ kiểm tra đơn vị cho tất cả các ngôn ngữ .NET. Ban đầu được chuyển từ JUnit, bản phát hành sản xuất hiện tại đã được viết lại với nhiều tính năng mới và hỗ trợ cho một loạt các nền tảng .NET. NUnit cũng là một dự án của .NET Foundation.
 - `xUnit.net`: new, fast. Là một công cụ kiểm thử đơn vị miễn phí, mã nguồn mở, tập trung vào cộng đồng cho .NET. Được viết bởi nhà phát triển ban đầu NUnit v2, xUnit.net là công nghệ mới nhất để kiểm tra đơn vị các ứng dụng .NET. xUnit.net hoạt động với ReSharper, CodeRush, TestDriven.NET và Xamarin. Đây là một dự án thuộc .NET Foundation và hoạt động theo quy tắc ứng xử của .NET Foundation.
 
@@ -79,6 +79,11 @@ Có rất nhiều thư viện cho unit test có sẵn trong thế giới .NET nh
 > [Bảng Cheat-Sheet tham khảo cho Unit Test dễ dàng hơn](https://viblo.asia/p/bang-cheat-sheet-tham-khao-cho-unit-test-de-dang-hon-aWj53vR8l6m)
 
 ### Unit Test trong C# với MSTest
+
+![Unit Testing](https://boxxv.github.io/img/test/test-project.webp "Unit Testing")
+
+> [Phần 1: Cách viết Unit Test trong C#](http://duyanhpham.com/phan-1-cach-viet-unit-test-trong-c-sharp/)
+> [Phần 2: Sử dụng Unit Test để cải thiện code](http://duyanhpham.com/phan-2-su-dung-unit-test-de-cai-thien-code/)
 
 
 ### Unit Test trong C# với NUnit
@@ -175,7 +180,6 @@ Tham khảo:
 - [How To Create Selenium Test using NUnit Framework](https://learn-automation.com/selenium-test-using-nunit-framework/)
 - [Tìm hiểu về IOT testing](https://viblo.asia/p/tim-hieu-ve-iot-testing-gDVK29Bw5Lj)
 - [Tạo và chạy unit test trong Visual studio](https://viblo.asia/p/tao-va-chay-unit-test-trong-visual-studio-wpVYRPNzG4ng)
-- [Cách viết Unit Test trong C#](http://duyanhpham.com/phan-1-cach-viet-unit-test-trong-c-sharp/)
 - [5 cách để mock DateTime.Now cho Unit Test trong C#](https://viblo.asia/p/5-cach-de-mock-datetimenow-cho-unit-test-trong-c-vyDZOnV7Kwj)
 - [Most Complete MSTest Unit Testing Framework Cheat Sheet](https://www.automatetheplanet.com/mstest-cheat-sheet/)
 - [Unit testing framework](https://www.slideshare.net/igorvavrish/unit-testing-framework)
