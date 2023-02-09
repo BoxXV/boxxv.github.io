@@ -206,6 +206,11 @@ Tham khảo:
 - [How to unit test private methods in .NET Core applications (C#)](https://www.tannv.dev/2020/10/how-to-unit-test-private-methods-in-net-core-c-csharp.html)
 
 -----
+- [QUAN ĐIỂM TEST ĐỐI VỚI CHỨC NĂNG IMPORT/UPLOAD CSV](https://co-well.vn/nhat-ky-cong-nghe/quan-diem-test-doi-voi-chuc-nang-import-upload-csv-p1/)
+- [UNIT TESTING TUTORIAL: VIẾT MỘT KIỂM THỬ CÓ ÍCH VÀ @dataprovider](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-viet-mot-kiem-thu-co-ich-va-dataprovider/)
+- [UNIT TESTING TUTORIAL: PRIVATE/PROTECTED METHODS, COVERAGE REPORTS VÀ C.R.A.P](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-private-protected-methods-coverage-reports-va-crap/)
+
+-----
 - [Testing Strategies For Microservices](https://semaphoreci.com/blog/test-microservices)
 - [The 5 Main Strategies for Testing a Microservices App](https://www.teaminternational.com/5-main-strategies-testing-microservices-app/)
 - [Microservices Testing Strategies, Types & Tools: A Complete Guide](https://www.simform.com/blog/microservice-testing-strategies/)

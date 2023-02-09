@@ -96,8 +96,10 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 ## Unit Testing Frameworks
 
 - [`JUnit`](https://junit.org) & [`TestNG`](https://testng.org) cho **Java**
-- [`MSTest`](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [`NUnit`](https://nunit.org) & [`xUnit`](https://xunit.net) cho C#
+- [`MSTest`](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [`NUnit`](https://nunit.org) & [`xUnit`](https://xunit.net) cho **C#**
 - [`Unittest`](https://docs.python.org/3/library/unittest.html) & [`pytest`](https://pytest.org) cho **Python**
+- [`PHPUnit`](https://phpunit.de) & [`Codeception`](https://codeception.com), Storyplayer, SeleniumHQ, Behat, Atoum, SimpleTest
+, PhpSpec, Peridot, Kahlan cho **PHP**
 - [`Mocha`](https://mochajs.org), [`Jasmine`](https://jasmine.github.io) hoặc [`Chai`](https://www.chaijs.com) cho **JavaScripts**
 - [`Jest`](https://github.com/facebook/jest), [`Mocha`](https://github.com/mochajs/mocha), [`Chai`](https://github.com/chaijs/chai), [`Karma`](https://github.com/karma-runner/karma), [`Jasmine`](https://github.com/jasmine/jasmine), [`Enzyme`](https://github.com/enzymejs/enzyme), [`React-testing-library`](https://github.com/testing-library/react-testing-library), [`React test utils and test renderer`](https://reactjs.org/docs/test-utils.html), [`Cypress IO`](https://github.com/cypress-io/cypress), [`Pupeeter`](https://github.com/puppeteer/puppeteer), [`Bit`](https://bit.dev) cho **React**
 
@@ -115,6 +117,15 @@ Nhiều loại test có thể làm auto, ví dụ như functional testing, perfo
 > [Top Visual Studio Extensions for Developers](https://boxxv.github.io/2020/01/08/top-visual-studio-extensions/)  
 > [Thư Viện Và Framework quan trọng bạn cần biết 2022](https://boxxv.github.io/2022/08/20/essential-libraries-and-frameworks-you-should-know-about/)  
 
+## Code Quality Tool
+- Complexity: [Code Climate](https://codeclimate.com)
+- Hotspot and Churn: [Code Scence](https://codescene.io)
+- Code Coverage: dotCover, Resharper, NDepend
+- Duplication: CPD – Copy Paste Detector
+- Dependency Security: Snyk
+- Coding Style: SonarQube
+
+> [Danh sách Code Quality Tool](https://minhphien.com/update-2021-danh-sach-code-quality-tool/#Coding_Style)
 
 ## Cơ hội nghề nghiệp
 
