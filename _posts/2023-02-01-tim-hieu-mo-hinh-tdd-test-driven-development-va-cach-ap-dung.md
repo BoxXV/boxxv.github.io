@@ -204,11 +204,16 @@ Tham khảo:
 - [Cách viết các loại Unit Tests trong ASP.NET Core Web API có ví dụ](https://minhphien.com/cach-viet-cac-loai-unit-tests-trong-asp-net-core-web-api-co-vi-du/)
 - [Unit Testing Web API dùng .NET Core](https://vtitech.vn/unit-testing-web-api-dung-net-core/)
 - [How to unit test private methods in .NET Core applications (C#)](https://www.tannv.dev/2020/10/how-to-unit-test-private-methods-in-net-core-c-csharp.html)
+- [Professional Test Driven Development with C#: Developing Real World Applications with TDD](https://www.amazon.com/Professional-Test-Driven-Development-Applications-ebook/dp/B004X75OGG/)
+- [C# and .NET Core Test-Driven Development: Dive into TDD to create flexible, maintainable, and production-ready .NET Core applications](https://www.amazon.com/NET-Core-Test-Driven-Development-production-ready-ebook/dp/B0772S8R7Q/)
+- [C# and .NET Core Test-Driven Development: Dive into TDD to create flexible, maintainable, and production-ready .NET Core applications](https://github.com/PacktPublishing/CSharp-and-.NET-Core-Test-Driven-Development)
+- [Practical Test-Driven Development using C# 7: Unleash the power of TDD by implementing real world examples under .NET environment and JavaScript](https://www.amazon.com/Practical-Test-Driven-Development-using-implementing-ebook/dp/B078K959HT/)
 
 -----
 - [QUAN ĐIỂM TEST ĐỐI VỚI CHỨC NĂNG IMPORT/UPLOAD CSV](https://co-well.vn/nhat-ky-cong-nghe/quan-diem-test-doi-voi-chuc-nang-import-upload-csv-p1/)
 - [UNIT TESTING TUTORIAL: VIẾT MỘT KIỂM THỬ CÓ ÍCH VÀ @dataprovider](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-viet-mot-kiem-thu-co-ich-va-dataprovider/)
 - [UNIT TESTING TUTORIAL: PRIVATE/PROTECTED METHODS, COVERAGE REPORTS VÀ C.R.A.P](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-private-protected-methods-coverage-reports-va-crap/)
+- [Đọc file csv bằng JUnit5](https://giangtester.com/doc-file-csv-bang-junit5/)
 
 -----
 - [Testing Strategies For Microservices](https://semaphoreci.com/blog/test-microservices)
