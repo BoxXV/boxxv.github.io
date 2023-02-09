@@ -15,9 +15,7 @@ tags:
 Gần đây, mô hình phát triển TDD (Test Driven Development) đang trở nên hot, được áp dụng nhiều. Mô hình này dựa trên khái niệm: Với mỗi chức năng, ta viết Unit Test trước, sau đó viết hàm hiện thực chức năng để unit test pass. Một số công ty ở Việt Nam cũng đang áp dụng mô hình này, trong khi phỏng vấn xin việc cũng có.
 
 
-
-
-## I. Unit testing C#
+## I. Unit testing
 
 ![Unit Testing](https://boxxv.github.io/img/test/sketch.png "Unit Testing")
 
@@ -63,7 +61,10 @@ Nói một cách đơn giản và dễ hiểu nhất thì nên viết unit test 
 - Các lớp tầng business logic.
 - Các lớp controller của Web UI và Web API.
 
-**Làm thế nào để chúng tôi viết unit test?**
+
+## II. Unit testing C#
+
+**Làm thế nào để chúng tôi viết unit test trong C#?**
 
 Tôi rất vui vì bạn đã hỏi điều đó. Chính xác thì chúng ta phải viết unit test như thế nào?
 
@@ -158,6 +159,70 @@ public void PlayerService_GetAllPlayers_InvalidLeague()
 
 
 ![Unit Testing](https://boxxv.github.io/img/test/unit-testing-framework-17-2048.webp "Unit Testing")
+
+
+## III. Mô hình TDD (Test - Driven Development)
+
+Phát triển hướng kiểm thử TDD (Test-Driven Development) là một phương pháp tiếp cận cải tiến để phát triển phần mềm trong đó kết hợp phương pháp Phát triển kiểm thử trước (Test First Development) và phương pháp Điều chỉnh lại mã nguồn (Refactoring).
+
+Mục tiêu quan trọng nhất của TDD là hãy nghĩ về thiết kế của bạn trước khi viết mã nguồn cho chức năng. Một quan điểm khác lại cho rằng TDD là một kỹ thuật lập trình. Nhưng nhìn chung, mục tiêu của TDD là viết mã nguồn sáng sủa, rõ ràng và có thể chạy được.
+
+### 1.TDD là gì?
+TDD (Test Driven Development) là một phương thức làm việc, hay một quy trình viết mã hiện đại. Lập trình viên sẽ thực hiện thông qua các bước nhỏ (BabyStep) và tiến độ được đảm bảo liên tục bằng cách viết và chạy các bài test tự động (automated tests). Quá trình lập trình trong TDD cực kỳ chú trọng vào các bước liên tục sau:
+
+1. Viết 1 test cho hàm mới. Đảm bảo rằng test sẽ fail.
+2. Chuyển qua viết code sơ khai nhất cho hàm đó để test có thể pass.
+3. Tối ưu hóa đoạn code của hàm vừa viết sao cho đảm bảo test vẫn pass và tối ưu nhất cho việc lập trình kế tiếp
+4. Lặp lại cho các hàm khác từ bước 1
+
+Thực tế, nên sử dụng UnitTestFramework cho TDD (như JUnit trong Java), chúng ta có thể có được môi trường hiệu quả vì các test được thông báo rõ rang thông qua màu sắc:
+- Đỏ: test fail, chuyển sang viết function cho test pass
+- Xanh lá: viết một test mới hoặc tối ưu code đã viết trong màu đỏ.
+
+### 2. 3 điều luật khi áp dụng TDD
+1. Không cho phép viết bất kỳ một mã chương trình nào cho tới khi nó làm một test bị fail trở nên pass.
+2. Không cho phép viết nhiều hơn một unit test mà nếu chỉ cần 1 unit test cung đã đủ để fail. Hãy chuyển sang viết code function để pass test đó trước.
+3. Không cho phép viết nhiều hơn 1 mã chương trình mà nó đã đủ làm một test bị fail chuyển sang pass.
+
+### 3. Mô hình chu trình TDD
+
+
+### 4. Các cấp độ TDD
+1. Mức chấp nhận (Acceptance TDD (ATDD)): với ATDD thì bạn viết một test chấp nhận đơn (single acceptance test) hoặc một đặc tả hành vi (behavioral specification) tùy theo cách gọi của bạn; mà test đó chỉ cần đủ cho các mã chường trình sản phẩm thực hiện (pass or fail) được test đó. Acceptance TDD còn được gọi là Behavior Driven Development (BDD).
+2. Mức lập trình (Developer TDD): với mức này bạn cần viết một test lập trình đơn (single developer test) đôi khi được gọi là unit test mà test đó chỉ cần đủ cho các mã chường trình sản phẩm thực hiện (pass or fail) được test đó. Developer TDD thông thường được gọi là TDD.
+
+### 5. Các lỗi thường gặp khi áp dụng TDD
+- Không quan tâm đến các test bị fail
+- Quên đi thao tác tối ưu sau khi viết code cho test pass
+- Thực hiện tối ưu code trong lúc viết code cho test pass => không nên như vậy
+- Đặt tên các test khó hiểu và tối nghĩa
+- Không bắt đầu từ các test đơn giản nhất và không theo các baby step.
+- Chỉ chạy mỗi test đang bị fail hiện tại
+- Viết một test với kịch bản quá phức tạp
+
+### 6. Các ví dụ tham khảo về TDD
+
+- Ngắn:
+  * Chapter 6 – Agile principles, patterns, and practices in C# – by Martin C. Robert, Martin Micah. Khá thú vị. Xem online tại đây.
+  * Phần 3, 4, 5 của Craftsman.
+- Trung bình:
+  * Part I – Test-Driven Development by example – Kent Beck.
+  * Part III – Test-Driven Development: A practical guide – David Astels.
+  * Phần 6, 7, 8, 9, 10 của Craftsman.
+- Dài:
+  * Part II – Test-Driven Development in Microsoft .NET – James W. Newkirk, Alexei A. Vorontsov.
+  * Part III – Growing object-oriented software, guided by test – Steve Freeman, Nat Pryce.
+
+### 7. Các công cụ hỗ trợ
+Các công cụ phục vụ cho TDD, thường là các nền tảng cho kiểm thử mã nguồn mức đơn vị (unit test): 
+
+- [`JUnit`](https://junit.org) & [`TestNG`](https://testng.org) cho **Java**
+- [`MSTest`](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest), [`NUnit`](https://nunit.org) & [`xUnit`](https://xunit.net) cho **C#**
+- [`Unittest`](https://docs.python.org/3/library/unittest.html) & [`pytest`](https://pytest.org) cho **Python**
+- [`PHPUnit`](https://phpunit.de) & [`Codeception`](https://codeception.com), Storyplayer, SeleniumHQ, Behat, Atoum, SimpleTest
+, PhpSpec, Peridot, Kahlan cho **PHP**
+- [`Mocha`](https://mochajs.org), [`Jasmine`](https://jasmine.github.io) hoặc [`Chai`](https://www.chaijs.com) cho **JavaScripts**
+- [`Jest`](https://github.com/facebook/jest), [`Mocha`](https://github.com/mochajs/mocha), [`Chai`](https://github.com/chaijs/chai), [`Karma`](https://github.com/karma-runner/karma), [`Jasmine`](https://github.com/jasmine/jasmine), [`Enzyme`](https://github.com/enzymejs/enzyme), [`React-testing-library`](https://github.com/testing-library/react-testing-library), [`React test utils and test renderer`](https://reactjs.org/docs/test-utils.html), [`Cypress IO`](https://github.com/cypress-io/cypress), [`Pupeeter`](https://github.com/puppeteer/puppeteer), [`Bit`](https://bit.dev) cho **React**
 
 
 -----
