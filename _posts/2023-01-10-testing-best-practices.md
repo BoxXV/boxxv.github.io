@@ -268,6 +268,9 @@ Tham khảo:
 - [[TEST AUTOMATION] HƯỚNG DẪN CƠ BẢN SELENIUM TRONG PYTHON](https://co-well.vn/nhat-ky-cong-nghe/test-automation-huong-dan-co-ban-selenium-trong-python/)
 - [UNIT TESTING TUTORIAL: LÀM QUEN VỚI PHPUNIT](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-lam-quen-voi-phpunit/)
 - [CÁC CHỨNG CHỈ MỘT TESTER NÊN CÓ](https://co-well.vn/nhat-ky-cong-nghe/cac-chung-chi-mot-tester-nen-co-de-thang-tien-su-nghiep/)
-- [ROADMAP TO QA AUTOMATION ENGINEER](https://synapse-qa.com/2020/11/15/roadmap-to-qa-automation-engineer/)
+
+-----
 - [https://toolsqa.com/](https://toolsqa.com/)
+- [Các công cụ kiểm tra phần mềm giá rẻ và miễn phí](https://viblo.asia/p/cac-cong-cu-kiem-tra-phan-mem-gia-re-va-mien-phi-4P856oLaKY3)
+- [ROADMAP TO QA AUTOMATION ENGINEER](https://synapse-qa.com/2020/11/15/roadmap-to-qa-automation-engineer/)
 - [Roadmap QA Engineer](https://roadmap.sh/qa/)
