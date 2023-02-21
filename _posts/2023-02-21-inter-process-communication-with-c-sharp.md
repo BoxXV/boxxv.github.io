@@ -118,7 +118,7 @@ Vì vậy, lần triển khai đầu tiên sử dụng WCF và ràng buộc `Net
 - Không cần mở TCP sockets
 - Được tối ưu hóa cho cùng một máy (thực tế, việc triển khai WCF chỉ hoạt động theo cách này, mặc dù giao thức [named pipes protocol](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) có thể được sử dụng trên các máy).
 
-{% highlight js %}
+{% highlight cs %}
 public class WcfClient : ClientBase<IIpcClient>, IIpcClient
 {
     public WcfClient() : base(new NetNamedPipeBinding(), new EndpointAddress(string.Format("net.pipe://localhost/{0}", typeof(IIpcClient).Name)))
@@ -134,7 +134,7 @@ public class WcfClient : ClientBase<IIpcClient>, IIpcClient
 
 Bởi vì phương thức **Gửi** trong hợp đồng của tôi được trang trí decorated  bằng [OperationContractAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.servicemodel.operationcontractattribute) với thuộc tính [IsOneWay](https://learn.microsoft.com/en-us/dotnet/api/system.servicemodel.operationcontractattribute.isoneway) được đặt, nên tin nhắn được gửi mà không cần đợi tin nhắn phản hồi, làm cho nó nhanh hơn một chút.
 
-{% highlight %}
+{% highlight cpp %}
 public sealed class WcfServer : IIpcServer
 {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
@@ -248,6 +248,14 @@ API Service là một bản hợp đồng giữa service và client. Bất kể 
 Một dịch vụ sử dụng API luôn luôn phải thay đổi để phù hợp với yêu cầu. Điều đó là khá dễ dàng nếu như bạn viết nó trong mô hình Nguyên Khối. Nhưng trong mô hình Microservice thì điều đó quả là khó khăn, ngay cả khi tất cả các API đó cùng nằm trong một ứng dụng. Và tất nhiên bạn cũng không thể bắt client thay đổi theo từng bước phát triển API này được =)) nghe vô lý :v Và cũng có thể bạn sẽ phải làm cách nào đó cho cả API cũ và API mới đều hoạt động được =))
 
 
+## Tổng kết:
+
+![.NET Framework](https://boxxv.github.io/img/2023/Dot-Net.png ".NET Framework component stack")
+- 
+- Named/Anonymous Pipes: Yêu cầu/phản hồi trực tiếp. Hoạt động, nhưng nó hơi rắc rối khi xử lý nhiều máy khách giao tiếp với một máy chủ.
+- WCF: Yêu cầu/Phản hồi trực tiếp. Đẹp và dễ thực hiện, ngoại trừ người dùng cần lo lắng về việc định cấu hình một cổng hợp lệ để hệ thống chạy trên đó.
+- Pipes quá tệ, level quá thấp, SignalR quá tệ, level quá cao.
+- gRPC là câu trả lời hiện đại. WCF cách đây 10 năm, COM cách đây 15-20 năm.
 
 
 -----
