@@ -112,13 +112,15 @@ Như bạn có thể thấy, đây là những giao tiếp rất đơn giản, c
 
 ### WCF
 
+![WCF Architecture](https://boxxv.github.io/img/2023/wcf-architecture.gif "Kiến trúc WCF")
+
 Vì vậy, lần triển khai đầu tiên sử dụng WCF và ràng buộc `NetNamedPipeBinding` (vận chuyển). Những lý do tôi chọn ràng buộc binding  này là:
 - Nó là nhị phân
 - Nó nhanh
 - Không cần mở TCP sockets
 - Được tối ưu hóa cho cùng một máy (thực tế, việc triển khai WCF chỉ hoạt động theo cách này, mặc dù giao thức [named pipes protocol](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) có thể được sử dụng trên các máy).
 
-{% highlight cs %}
+{% highlight js %}
 public class WcfClient : ClientBase<IIpcClient>, IIpcClient
 {
     public WcfClient() : base(new NetNamedPipeBinding(), new EndpointAddress(string.Format("net.pipe://localhost/{0}", typeof(IIpcClient).Name)))
@@ -200,7 +202,23 @@ Windows không hỗ trợ họ ổ cắm AF_UNIX, chỉ hỗ trợ TCP/IP, vì v
 
 
 ### .NET Remoting
+
+![.NET Remoting](https://boxxv.github.io/img/2023/remoting.png "Remoting")
+
 Ngày xưa, .NET Remoting là phản hồi của .NET đối với Java RMI và về cơ bản là một triển khai tham chiếu từ xa, tương tự như CORBA. Với Remote, người ta có thể gọi các phương thức trên một đối tượng nằm trong một máy khác. .NET Remoting từ lâu đã bị thay thế bởi WCF, nhưng nó vẫn là một giải pháp thay thế khả thi, đặc biệt vì WCF không cho phép tham chiếu từ xa.
+
+Remoting là về các đối tượng phân tán, trong khi WCF là về các dịch vụ. Remoting có khả năng chuyển các phiên bản đối tượng giữa client và server, WCF thì không. Sự khác biệt này cơ bản hơn nhiều so với các vấn đề kỹ thuật như công nghệ nào hiệu quả hơn, chết nhiều hơn hay liệu nó có thể kết nối .NET với Java hay không, nhưng tôi chỉ mới nhận ra điều đó gần đây, khi tôi đang tranh luận về việc sử dụng công nghệ nào để giao tiếp giữa hai ứng dụng .NET cụ thể mà chúng tôi có.
+
+WCF vs Remoting
+WCF và .NET Remote thực sự có thể so sánh được về hiệu năng. Sự khác biệt rất nhỏ (đo độ trễ của máy khách) nên việc cái nào nhanh hơn một chút không quan trọng. WCF mặc dù có thông lượng máy chủ tốt hơn nhiều so với .NET Remoting. Nếu tôi bắt đầu dự án hoàn toàn mới, tôi sẽ chọn WCF. Dù sao thì WCF còn làm được nhiều điều hơn là Remoting và đối với tất cả những tính năng đó, tôi yêu thích nó.
+
+Nếu đó là trên một máy duy nhất, Named Pipes mang lại cho bạn hiệu suất tốt hơn và có thể được triển khai với cơ sở hạ tầng từ xa cũng như WCF. Hoặc bạn chỉ có thể sử dụng trực tiếp System.IO.Pipes.
+
+Nếu ý bạn là giao tiếp giữa các quá trình, thì tôi đã sử dụng .NET Remoting cho đến nay mà không gặp bất kỳ sự cố nào. Nếu hai quá trình trên cùng một máy, giao tiếp khá nhanh.
+
+Các đường ống được đặt tên chắc chắn hiệu quả hơn, nhưng chúng yêu cầu thiết kế ít nhất một giao thức ứng dụng cơ bản, điều này có thể không khả thi. Remoting cho phép bạn gọi các phương thức từ xa một cách dễ dàng.
+
+.NET Remoting dành riêng cho một **công nghệ cũ** được giữ lại để tương thích ngược với các ứng dụng hiện có và **không được khuyến nghị cho sự phát triển mới**. Các ứng dụng phân tán bây giờ sẽ được phát triển bằng cách sử dụng Windows Communication Foundation (WCF).
 
 
 ### Message Queues
@@ -208,6 +226,7 @@ Ngày xưa, .NET Remoting là phản hồi của .NET đối với Java RMI và 
 Windows đã bao gồm việc triển khai hàng đợi tin nhắn trong một thời gian dài, điều mà các nhà phát triển thường bỏ quên. Nếu bạn chưa cài đặt nó – bạn có thể kiểm tra xem dịch vụ Message Queuing có tồn tại hay không – bạn có thể cài đặt nó thông qua **Programs and Features – Turn Windows features on and off** trên **Control Panel**.
 
 ![WCF Services](https://boxxv.github.io/img/2023/HTTP_activation.png "WCF Services")
+
 
 ### Named Pipes
 
@@ -240,6 +259,7 @@ COM có khái niệm về một nhà máy lớp, được sử dụng để xây
 
 WM_COPYDATA có thể không nói nhiều với các nhà phát triển .NET, nhưng đối với các nhà phát triển Win32 C/C++ kiểu cũ thì chắc chắn là có! Về cơ bản, đó là cách mà người ta có thể gửi dữ liệu tùy ý, bao gồm cả dữ liệu có cấu trúc, giữa các quy trình (thực ra, nói đúng ra là cửa sổ). Một người sẽ gửi một thông báo WM_COPYDATA tới một tay cầm cửa sổ, đang chạy trên bất kỳ quy trình nào và Windows sẽ đảm nhận việc sắp xếp lại dữ liệu để nó có sẵn bên ngoài không gian địa chỉ của quy trình gửi. Thậm chí có thể gửi nó tới tất cả các quy trình, sử dụng HWND_BROADCAST , nhưng điều đó có lẽ sẽ không khôn ngoan, bởi vì các ứng dụng khác nhau có thể có cách hiểu khác nhau về nó. Ngoài ra, nó cần được chuyển bằng SendMessage , PostMessage sẽ không hoạt động.
 
+> [Inter-Process Communication with C#](https://www.codeproject.com/Articles/19570/Inter-Process-Communication-with-C)
 
 ## API Service
 
@@ -251,7 +271,7 @@ Một dịch vụ sử dụng API luôn luôn phải thay đổi để phù hợ
 ## Tổng kết:
 
 ![.NET Framework](https://boxxv.github.io/img/2023/Dot-Net.png ".NET Framework component stack")
-- 
+
 - Named/Anonymous Pipes: Yêu cầu/phản hồi trực tiếp. Hoạt động, nhưng nó hơi rắc rối khi xử lý nhiều máy khách giao tiếp với một máy chủ.
 - WCF: Yêu cầu/Phản hồi trực tiếp. Đẹp và dễ thực hiện, ngoại trừ người dùng cần lo lắng về việc định cấu hình một cổng hợp lệ để hệ thống chạy trên đó.
 - Pipes quá tệ, level quá thấp, SignalR quá tệ, level quá cao.
@@ -264,4 +284,6 @@ Tham khảo:
 - [Sự giao tiếp trong mô hình Microservice](https://viblo.asia/p/su-giao-tiep-trong-mo-hinh-microservice-bJzKmxqX59N)
 - [Xây dựng Microservice bằng API Gateway](https://viblo.asia/p/xay-dung-microservice-bang-api-gateway-3P0lPnv4Kox)
 - [Local Machine Interprocess Communication with .NET](https://weblogs.asp.net/ricardoperes/local-machine-interprocess-communication-with-net)
+- [Best choice for .NET inter-process communication](https://stackoverflow.com/q/84855/20202692)
+- [WCF vs .NET Remoting](https://ikriv.com/blog/?p=2551)
 - []()
