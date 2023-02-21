@@ -50,6 +50,48 @@ Sau đây là một ví dụ về sự kết hợp các cách tương tác của
 Tiếp theo sau khi quan tâm đến kiểu tương tác thì chúng ta cần quan tâm đến API, nó như tiếng nói dùng để giao tiếp giữa các khối dịch vụ vậy.
 
 
+## IPC with C#
+
+Đôi khi, cần có nhiều quy trình (processes) chạy trên cùng một máy để nói chuyện với nhau. Ví dụ, đây là cách để họ có thể đồng bộ hóa hoặc chia sẻ một số loại dữ liệu. Điều này thường được gọi là InterProcess Communication hoặc IPC.
+
+Trong bài đăng này, tôi sẽ đề cập đến một số cách mà mã .NET có thể giao tiếp với mã .NET khác trên cùng một máy. Các kỹ thuật tôi sẽ nói về là:
+
+- [`WCF`](https://learn.microsoft.com/en-us/dotnet/framework/wcf/)
+- [`Sockets`](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes)
+- [`.NET Remoting`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/72x4h507(v=vs.100))
+- [`Message Queues`](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/legacy/ms711472(v=vs.85))
+- [`Named Pipes`](https://learn.microsoft.com/en-us/dotnet/standard/io/pipe-operations)
+- [`Memory-mapped files`](https://learn.microsoft.com/en-us/dotnet/standard/io/memory-mapped-files)
+- [`Event Tracing for Windows`](https://learn.microsoft.com/en-us/windows/win32/etw/event-tracing-portal)
+- `Files`
+- `COM Interop`
+- [`WM_COPYDATA`](https://learn.microsoft.com/en-us/windows/win32/dataxchg/wm-copydata) Win32 message
+
+Bạn có thể nhận thấy rằng tôi sẽ chỉ nói về nội dung gốc của Windows/.NET, không có thư viện hoặc dịch vụ bổ sung nào. Tất nhiên, hãy nhớ rằng mã tôi sắp trình bày chỉ là bằng chứng về khái niệm, nếu nó được sử dụng trong các ứng dụng thực tế, nó sẽ cần một số cải tiến.
+
+Đây là một bài viết dài, hãy cẩn thận!
+
+** Contracts **
+
+Vì vậy, chúng ta sẽ có một giao diện mô tả phía máy khách ( IIpcClient ) và một giao diện khác mô tả phía máy chủ ( IIpcServer ). Định nghĩa của họ là:
+
+```cs
+Console.WriteLine("Fenced code blocks ftw!");
+```
+
+<pre><code class='language-cs'>
+Console.WriteLine("Fenced code blocks ftw!");
+</code></pre>
+
+
+### WCF
+
+
+
+### Sockets
+
+
+
 ## API Service
 
 API Service là một bản hợp đồng giữa service và client. Bất kể là kiểu tương tác nào đi chăng nữa, thì việc xác định rõ IDL (Interface Definition Language) hay ngôn ngữ định nghĩa giao diên cũng là quan trọng nhất. Chỉ khi bạn định nghĩa được nó thì bạn mới có thể khai thác được dịch vụ của mình. Nó giúp tăng khẳ năng đáp ứng nhu cầu của client
