@@ -103,66 +103,93 @@ public sealed class DataReceivedEventArgs : EventArgs
 }
 ```
 
-<pre>
-<code class='language-cs'>
-[ServiceContract]
-public interface IIpcClient
-{
-    [OperationContract(IsOneWay = true)]
-    void Send(string data);
-}
+Như bạn có thể thấy, đây là những giao tiếp rất đơn giản, chỉ một chiều từ máy khách đến máy chủ. Trong trường hợp bạn đang thắc mắc, các thuộc tính [ ServiceContract ] và [ OperationContract ] thực sự chỉ hữu ích cho việc triển khai WCF, nhưng tôi để chúng ở đây vì chúng thực sự sẽ không gây hại gì. Thêm về điều này trong một phút.
 
-public interface IIpcServer : IDisposable
-{
-    void Start();
-    void Stop();
- 
-    event EventHandler<DataReceivedEventArgs> Received;
-}
+**IIpcClient** chỉ cho phép gửi tin nhắn văn bản.
 
-[Serializable]
-public sealed class DataReceivedEventArgs : EventArgs
-{
-    public DataReceivedEventArgs(string data)
-    {
-        this.Data = data;
-    }
-
-    public string Data { get; private set; }
-}
-</code>
-</pre>
-
-<code class='language-cs'>
-[ServiceContract]
-public interface IIpcClient
-{
-    [OperationContract(IsOneWay = true)]
-    void Send(string data);
-}
-
-public interface IIpcServer : IDisposable
-{
-    void Start();
-    void Stop();
- 
-    event EventHandler<DataReceivedEventArgs> Received;
-}
-
-[Serializable]
-public sealed class DataReceivedEventArgs : EventArgs
-{
-    public DataReceivedEventArgs(string data)
-    {
-        this.Data = data;
-    }
-
-    public string Data { get; private set; }
-}
-</code>
+**IIpcServer** phức tạp hơn một chút, vì người ta có thể khởi động và dừng máy chủ, cũng như nhận các sự kiện từ nó. Nó triển khai IDisposable vì một số triển khai có thể cần giải phóng các tài nguyên không được quản lý.
 
 
 ### WCF
+
+Vì vậy, lần triển khai đầu tiên sử dụng WCF và ràng buộc `NetNamedPipeBinding` (vận chuyển). Những lý do tôi chọn ràng buộc binding  này là:
+- Nó là nhị phân
+- Nó nhanh
+- Không cần mở TCP sockets
+- Được tối ưu hóa cho cùng một máy (thực tế, việc triển khai WCF chỉ hoạt động theo cách này, mặc dù giao thức [named pipes protocol](https://learn.microsoft.com/en-us/windows/win32/ipc/named-pipes) có thể được sử dụng trên các máy).
+
+{% highlight js %}
+public class WcfClient : ClientBase<IIpcClient>, IIpcClient
+{
+    public WcfClient() : base(new NetNamedPipeBinding(), new EndpointAddress(string.Format("net.pipe://localhost/{0}", typeof(IIpcClient).Name)))
+    {
+    }
+ 
+    public void Send(string data)
+    {
+        this.Channel.Send(data);
+    }
+}
+{% endhighlight %}
+
+Bởi vì phương thức **Gửi** trong hợp đồng của tôi được trang trí decorated  bằng OperationContractAttribute với thuộc tính IsOneWay được đặt, nên tin nhắn được gửi mà không cần đợi tin nhắn phản hồi, làm cho nó nhanh hơn một chút.
+
+{% highlight %}
+public sealed class WcfServer : IIpcServer
+{
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
+    private class _Server : IIpcClient
+    {
+        private readonly WcfServer server;
+ 
+        public _Server(WcfServer server)
+        {
+            this.server = server;
+        }
+ 
+        public void Send(string data)
+        {
+            this.server.OnReceived(new DataReceivedEventArgs(data));
+        }
+    }
+ 
+    private readonly ServiceHost host;
+ 
+    private void OnReceived(DataReceivedEventArgs e)
+    {
+        var handler = this.Received;
+ 
+        if (handler != null)
+        {
+            handler(this, e);
+        }
+    }
+ 
+    public WcfServer()
+    {
+        this.host = new ServiceHost(new _Server(this), new Uri(string.Format("net.pipe://localhost/{0}", typeof(IIpcClient).Name)));
+    }
+ 
+    public event EventHandler<DataReceivedEventArgs> Received;
+ 
+    public void Start()
+    {
+        this.host.Open();
+    }
+ 
+    public void Stop()
+    {
+        this.host.Close();
+    }
+ 
+    void IDisposable.Dispose()
+    {
+        this.Stop();
+ 
+        (this.host as IDisposable).Dispose();
+    }
+}
+{% endhighlight %}
 
 
 
