@@ -71,7 +71,7 @@ Bạn có thể nhận thấy rằng tôi sẽ chỉ nói về nội dung gốc 
 
 Đây là một bài viết dài, hãy cẩn thận!
 
-** Contracts **
+**Contracts**
 
 Vì vậy, chúng ta sẽ có một giao diện mô tả phía máy khách ( IIpcClient ) và một giao diện khác mô tả phía máy chủ ( IIpcServer ). Định nghĩa của họ là:
 
@@ -132,7 +132,7 @@ public class WcfClient : ClientBase<IIpcClient>, IIpcClient
 }
 {% endhighlight %}
 
-Bởi vì phương thức **Gửi** trong hợp đồng của tôi được trang trí decorated  bằng OperationContractAttribute với thuộc tính IsOneWay được đặt, nên tin nhắn được gửi mà không cần đợi tin nhắn phản hồi, làm cho nó nhanh hơn một chút.
+Bởi vì phương thức **Gửi** trong hợp đồng của tôi được trang trí decorated  bằng [OperationContractAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.servicemodel.operationcontractattribute) với thuộc tính [IsOneWay](https://learn.microsoft.com/en-us/dotnet/api/system.servicemodel.operationcontractattribute.isoneway) được đặt, nên tin nhắn được gửi mà không cần đợi tin nhắn phản hồi, làm cho nó nhanh hơn một chút.
 
 {% highlight %}
 public sealed class WcfServer : IIpcServer
@@ -191,10 +191,54 @@ public sealed class WcfServer : IIpcServer
 }
 {% endhighlight %}
 
+Một lần nữa, không có gì đặc biệt, chỉ đáng chú ý rằng, để đơn giản, tôi chỉ cho phép một phiên bản duy nhất của máy chủ ( InstanceContextMode.Single ).
 
 
 ### Sockets
 
+Windows không hỗ trợ họ ổ cắm AF_UNIX, chỉ hỗ trợ TCP/IP, vì vậy, để minh họa giao tiếp mạng IP, tôi có thể chọn [TCP](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes) hoặc [UDP](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes) , nhưng tôi đã chọn UDP vì hiệu suất tốt hơn và vì tính đơn giản tương đối mà ví dụ này yêu cầu.
+
+
+### .NET Remoting
+Ngày xưa, .NET Remoting là phản hồi của .NET đối với Java RMI và về cơ bản là một triển khai tham chiếu từ xa, tương tự như CORBA. Với Remote, người ta có thể gọi các phương thức trên một đối tượng nằm trong một máy khác. .NET Remoting từ lâu đã bị thay thế bởi WCF, nhưng nó vẫn là một giải pháp thay thế khả thi, đặc biệt vì WCF không cho phép tham chiếu từ xa.
+
+
+### Message Queues
+
+Windows đã bao gồm việc triển khai hàng đợi tin nhắn trong một thời gian dài, điều mà các nhà phát triển thường bỏ quên. Nếu bạn chưa cài đặt nó – bạn có thể kiểm tra xem dịch vụ Message Queuing có tồn tại hay không – bạn có thể cài đặt nó thông qua **Programs and Features – Turn Windows features on and off** trên **Control Panel**.
+
+![WCF Services](https://boxxv.github.io/img/2023/HTTP_activation.png "WCF Services")
+
+### Named Pipes
+
+Các Named Pipes trong Windows là một phương tiện gửi dữ liệu song công giữa các máy chủ Windows. Chúng tôi đã sử dụng nó trong triển khai WCF, được hiển thị trước đó, nhưng .NET có hỗ trợ tích hợp sẵn riêng cho giao tiếp Named Pipes.
+
+
+### Memory-Mapped Files
+
+Memory-mapped files trong Windows cho phép chúng tôi ánh xạ một “cửa sổ” của một tệp lớn trên hệ thống tệp hoặc để tạo một vùng bộ nhớ được đặt tên có thể được chia sẻ giữa các quy trình. Trong mẫu này, tôi sẽ tạo một khu vực được chia sẻ một cách nhanh chóng và sử dụng AutoResetEvents có tên để kiểm soát quyền truy cập vào khu vực đó.
+
+
+### Event Tracing for Windows
+
+Việc triển khai ETW yêu cầu bạn sử dụng .NET 4.6 hoặc bạn cài đặt Thư viện nguồn sự kiện của Microsoft từ NuGet. Điều này là do sự khác biệt về API trong EventSource và các lớp liên quan. Tất nhiên, ETW hữu ích hơn nhiều so với việc chỉ gửi tin nhắn văn bản giữa các điểm cuối, nhưng, này, nó cũng có thể làm điều đó, vì vậy đây là cách.
+
+
+### Files
+
+Tôi đã do dự trước khi đưa vào cái này, nhưng dù sao thì nó cũng đến đây. Về cơ bản, các lớp máy chủ và máy khách sẽ cố gắng giành được khóa độc quyền trên một tệp. Máy chủ sẽ kiểm tra trước nếu tệp không trống, nếu không, nó sẽ chỉ lặp lại. Thật không may, không có cách nào dễ dàng để xem liệu một tệp có bị khóa hay không, đây là một vấn đề phổ biến.
+
+
+### COM Interop
+
+COM đã được giới thiệu trong Windows từ nhiều thập kỷ trước và phần lớn phụ thuộc vào nó. Nó cũng là cơ sở cho tự động hóa và những thứ thú vị khác. Nó là một tiêu chuẩn cho khả năng tương tác dựa trên các định nghĩa giao diện không phụ thuộc vào ngôn ngữ. Việc triển khai COM có thể được viết bằng một số ngôn ngữ, từ Visual Basic đến C và C++, và tất nhiên là cả C# và .NET.
+
+COM có khái niệm về một nhà máy lớp, được sử dụng để xây dựng các triển khai giao diện COM thực tế. Chúng ta có thể sử dụng cách triển khai của riêng mình để luôn trả về cùng một phiên bản – một singleton. Đối với ví dụ này, lần khởi tạo đầu tiên của thành phần COM sẽ tạo một phiên bản trong bộ nhớ và những phiên bản tiếp theo sẽ luôn truy cập vào phiên bản đó. Các cuộc gọi đến các phương thức của nó sẽ được tuần tự hóa và dữ liệu được truyền liền mạch giữa các quy trình. Bây giờ, COM Interop là một chủ đề phức tạp và tôi sẽ chỉ khám phá bề nổi của nó. Cái này cần nhiều công việc hơn những cái trước.
+
+
+### WM_COPYDATA
+
+WM_COPYDATA có thể không nói nhiều với các nhà phát triển .NET, nhưng đối với các nhà phát triển Win32 C/C++ kiểu cũ thì chắc chắn là có! Về cơ bản, đó là cách mà người ta có thể gửi dữ liệu tùy ý, bao gồm cả dữ liệu có cấu trúc, giữa các quy trình (thực ra, nói đúng ra là cửa sổ). Một người sẽ gửi một thông báo WM_COPYDATA tới một tay cầm cửa sổ, đang chạy trên bất kỳ quy trình nào và Windows sẽ đảm nhận việc sắp xếp lại dữ liệu để nó có sẵn bên ngoài không gian địa chỉ của quy trình gửi. Thậm chí có thể gửi nó tới tất cả các quy trình, sử dụng HWND_BROADCAST , nhưng điều đó có lẽ sẽ không khôn ngoan, bởi vì các ứng dụng khác nhau có thể có cách hiểu khác nhau về nó. Ngoài ra, nó cần được chuyển bằng SendMessage , PostMessage sẽ không hoạt động.
 
 
 ## API Service
@@ -211,4 +255,5 @@ Tham khảo:
 
 - [Sự giao tiếp trong mô hình Microservice](https://viblo.asia/p/su-giao-tiep-trong-mo-hinh-microservice-bJzKmxqX59N)
 - [Xây dựng Microservice bằng API Gateway](https://viblo.asia/p/xay-dung-microservice-bang-api-gateway-3P0lPnv4Kox)
+- [Local Machine Interprocess Communication with .NET](https://weblogs.asp.net/ricardoperes/local-machine-interprocess-communication-with-net)
 - []()
