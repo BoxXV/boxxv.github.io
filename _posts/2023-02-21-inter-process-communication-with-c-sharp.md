@@ -76,12 +76,90 @@ Bạn có thể nhận thấy rằng tôi sẽ chỉ nói về nội dung gốc 
 Vì vậy, chúng ta sẽ có một giao diện mô tả phía máy khách ( IIpcClient ) và một giao diện khác mô tả phía máy chủ ( IIpcServer ). Định nghĩa của họ là:
 
 ```cs
-Console.WriteLine("Fenced code blocks ftw!");
+[ServiceContract]
+public interface IIpcClient
+{
+    [OperationContract(IsOneWay = true)]
+    void Send(string data);
+}
+
+public interface IIpcServer : IDisposable
+{
+    void Start();
+    void Stop();
+ 
+    event EventHandler<DataReceivedEventArgs> Received;
+}
+
+[Serializable]
+public sealed class DataReceivedEventArgs : EventArgs
+{
+    public DataReceivedEventArgs(string data)
+    {
+        this.Data = data;
+    }
+
+    public string Data { get; private set; }
+}
 ```
 
-<pre><code class='language-cs'>
-Console.WriteLine("Fenced code blocks ftw!");
-</code></pre>
+<pre>
+<code class='language-cs'>
+[ServiceContract]
+public interface IIpcClient
+{
+    [OperationContract(IsOneWay = true)]
+    void Send(string data);
+}
+
+public interface IIpcServer : IDisposable
+{
+    void Start();
+    void Stop();
+ 
+    event EventHandler<DataReceivedEventArgs> Received;
+}
+
+[Serializable]
+public sealed class DataReceivedEventArgs : EventArgs
+{
+    public DataReceivedEventArgs(string data)
+    {
+        this.Data = data;
+    }
+
+    public string Data { get; private set; }
+}
+</code>
+</pre>
+
+<code class='language-cs'>
+[ServiceContract]
+public interface IIpcClient
+{
+    [OperationContract(IsOneWay = true)]
+    void Send(string data);
+}
+
+public interface IIpcServer : IDisposable
+{
+    void Start();
+    void Stop();
+ 
+    event EventHandler<DataReceivedEventArgs> Received;
+}
+
+[Serializable]
+public sealed class DataReceivedEventArgs : EventArgs
+{
+    public DataReceivedEventArgs(string data)
+    {
+        this.Data = data;
+    }
+
+    public string Data { get; private set; }
+}
+</code>
 
 
 ### WCF
