@@ -75,7 +75,7 @@ Bạn có thể nhận thấy rằng tôi sẽ chỉ nói về nội dung gốc 
 
 Vì vậy, chúng ta sẽ có một giao diện mô tả phía máy khách ( IIpcClient ) và một giao diện khác mô tả phía máy chủ ( IIpcServer ). Định nghĩa của họ là:
 
-```cs
+{% highlight js %}
 [ServiceContract]
 public interface IIpcClient
 {
@@ -101,7 +101,7 @@ public sealed class DataReceivedEventArgs : EventArgs
 
     public string Data { get; private set; }
 }
-```
+{% endhighlight %}
 
 Như bạn có thể thấy, đây là những giao tiếp rất đơn giản, chỉ một chiều từ máy khách đến máy chủ. Trong trường hợp bạn đang thắc mắc, các thuộc tính [ ServiceContract ] và [ OperationContract ] thực sự chỉ hữu ích cho việc triển khai WCF, nhưng tôi để chúng ở đây vì chúng thực sự sẽ không gây hại gì. Thêm về điều này trong một phút.
 
@@ -136,7 +136,7 @@ public class WcfClient : ClientBase<IIpcClient>, IIpcClient
 
 Bởi vì phương thức **Gửi** trong hợp đồng của tôi được trang trí decorated  bằng [OperationContractAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.servicemodel.operationcontractattribute) với thuộc tính [IsOneWay](https://learn.microsoft.com/en-us/dotnet/api/system.servicemodel.operationcontractattribute.isoneway) được đặt, nên tin nhắn được gửi mà không cần đợi tin nhắn phản hồi, làm cho nó nhanh hơn một chút.
 
-{% highlight cpp %}
+{% highlight js %}
 public sealed class WcfServer : IIpcServer
 {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
@@ -231,6 +231,11 @@ Windows đã bao gồm việc triển khai hàng đợi tin nhắn trong một t
 ### Named Pipes
 
 Các Named Pipes trong Windows là một phương tiện gửi dữ liệu song công giữa các máy chủ Windows. Chúng tôi đã sử dụng nó trong triển khai WCF, được hiển thị trước đó, nhưng .NET có hỗ trợ tích hợp sẵn riêng cho giao tiếp Named Pipes.
+- Cho phép các quy trình chạy trên các máy tính khác nhau giao tiếp với nhau qua mạng
+- Cho phép các quy trình giao tiếp với nhau ngay cả khi chúng không có quyền truy cập vào bộ nhớ hoặc tệp của nhau
+- Cho phép nhiều tiến trình đọc và ghi đồng thời vào cùng một pipe
+
+Trong C#, các đường dẫn có tên có thể được tạo và sử dụng thông qua không gian tên System.IO.Pipes. Để tạo một đường dẫn có tên, bạn có thể sử dụng lớp `NamedPipeServerStream` hoặc `NamedPipeClientStream`, tùy thuộc vào việc bạn muốn tạo một đường dẫn máy chủ hay máy khách.
 
 
 ### Memory-Mapped Files
@@ -288,4 +293,8 @@ Tham khảo:
 - [Best choice for .NET inter-process communication](https://stackoverflow.com/q/84855/20202692)
 - [WCF vs .NET Remoting](https://ikriv.com/blog/?p=2551)
 - [SIGNALR VS GRPC ON ASP.NET CORE – WHICH ONE TO CHOOSE](https://scientificprogrammer.net/2022/07/25/signalr-vs-grpc-on-asp-net-core-which-one-to-choose/)
+- [Inter-Process Communication](https://www.c-sharpcorner.com/article/inter-process-communication/)
+- [Building Microservices: Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
+- [WCF vs. Signaling and Shared Memory](https://www.techmikael.com/2010/02/blazing-fast-ipc-in-net-4-wcf-vs.html)
+- [Named Pipes in .NET 6 with Tray Icon and Service](https://erikengberg.com/named-pipes-in-net-6-with-tray-icon-and-service/)
 - []()
