@@ -114,6 +114,15 @@ Như bạn có thể thấy, đây là những giao tiếp rất đơn giản, c
 
 ![WCF Architecture](https://boxxv.github.io/img/2023/wcf-architecture.gif "Kiến trúc WCF")
 
+WCF là công nghệ nền tảng nhằm thống nhất nhiều mô hình lập trình giao tiếp được hỗ trợ trong .NET 2.0 thành một mô hình duy nhất. Vào tháng 11 năm 2005, .NET 2.0 được Microsoft phát hành trong đó có cung cấp các hàm API riêng biệt cho các liên lạc dựa trên SOAP để tối đa hoá sự làm việc giữa các nền tảng sử dụng Web Services, đồng thời.
+
+NET 2.0 còn cung cấp các API để tối ưu việc liên lạc dựa trên mã nhị phân giữa các ứng dụng chạy trên hệ thống Windows gọi là .NET Remoting, các API cho các giao dịch phân tán, và API cho liên lạc dị bộ. WCF thống nhất các API này thành một mô hình duy nhất nhằm đáp ứng mô hình lập trình hướng dịch vụ.
+
+Ba thành phần chính của một WCF service là:
+- Service class: định nghĩa các contact (sẽ trình bày ở bên dưới).
+- Hosting environment: WCF service có thể được host lên nhiều “môi trường” khác nhau, bao gồm IIS, Windows service, Self-hosting.
+- End point: Các “cổng” kết nối giữa client và service.
+
 Vì vậy, lần triển khai đầu tiên sử dụng WCF và ràng buộc `NetNamedPipeBinding` (vận chuyển). Những lý do tôi chọn ràng buộc binding  này là:
 - Nó là nhị phân
 - Nó nhanh
