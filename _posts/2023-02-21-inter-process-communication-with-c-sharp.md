@@ -9,7 +9,7 @@ tags:
 - C#
 ---
 
-![IPC](https://boxxv.github.io/img/2023/Interprocess.png "IPC")
+![IPC](https://boxxv.github.io/img/2023/whats-new-in-aspne.png "IPC")
 
 Để có thể hiểu sau hơn chút về sự giao tiếp này, hãy cùng lật lại về mô hình chúng ta thường làm - mô hình Nguyên Khối (Monolithic Architecture). Chúng ta đều biết, trong mô hình Nguyên Khối, các thành phần đều được liên kết đến nhau thông qua các lời gọi hàm hay các phương thức tùy ngôn ngữ. Điều này làm nó ít hay nhiều phụ thuộc vào ngôn ngữ hoặc chí ít là sẽ phụ thuộc lẫn nhau.
 
@@ -277,6 +277,7 @@ Một dịch vụ sử dụng API luôn luôn phải thay đổi để phù hợ
 - Pipes quá tệ, level quá thấp, SignalR quá tệ, level quá cao.
 - gRPC là câu trả lời hiện đại. WCF cách đây 10 năm, COM cách đây 15-20 năm.
 
+Cả SignalR và gRPC đều là những cơ chế giao tiếp tuyệt vời mà mọi nhà phát triển phần mềm Microsoft-stack nên tìm hiểu. Và không phải là tốt hơn so với khác. Chỉ có những tình huống cụ thể có lợi cho việc sử dụng một tình huống cụ thể. Nếu bạn cần xây dựng thứ gì đó mà máy chủ thường xuyên giao tiếp với máy khách, thì SignalR sẽ tốt hơn. Mặt khác, nếu bạn đang xây dựng một ứng dụng phân tán lớn với nhiều bộ phận chuyển động, gRPC sẽ là một cơ chế tốt hơn để các bộ phận đó giao tiếp với nhau.
 
 -----
 Tham khảo:
@@ -286,4 +287,5 @@ Tham khảo:
 - [Local Machine Interprocess Communication with .NET](https://weblogs.asp.net/ricardoperes/local-machine-interprocess-communication-with-net)
 - [Best choice for .NET inter-process communication](https://stackoverflow.com/q/84855/20202692)
 - [WCF vs .NET Remoting](https://ikriv.com/blog/?p=2551)
+- [SIGNALR VS GRPC ON ASP.NET CORE – WHICH ONE TO CHOOSE](https://scientificprogrammer.net/2022/07/25/signalr-vs-grpc-on-asp-net-core-which-one-to-choose/)
 - []()
