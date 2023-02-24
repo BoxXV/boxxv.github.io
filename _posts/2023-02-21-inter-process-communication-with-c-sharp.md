@@ -306,4 +306,7 @@ Tham khảo:
 - [Building Microservices: Inter-Process Communication in a Microservices Architecture](https://www.nginx.com/blog/building-microservices-inter-process-communication/)
 - [WCF vs. Signaling and Shared Memory](https://www.techmikael.com/2010/02/blazing-fast-ipc-in-net-4-wcf-vs.html)
 - [Named Pipes in .NET 6 with Tray Icon and Service](https://erikengberg.com/named-pipes-in-net-6-with-tray-icon-and-service/)
+- [Tutorial: Create a .NET class library using Visual Studio](https://learn.microsoft.com/en-us/dotnet/core/tutorials/library-with-visual-studio)
+- [C# WPF Vector Graphics Tutorial](https://msadowski.github.io/WPF-vector-graphics-tutorial/)
+- [https://github.com/topics/wpf](https://github.com/topics/wpf)
 - []()
