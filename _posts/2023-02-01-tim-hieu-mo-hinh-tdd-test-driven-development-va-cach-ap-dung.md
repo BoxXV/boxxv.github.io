@@ -279,8 +279,11 @@ Tham khảo:
 - [UNIT TESTING TUTORIAL: VIẾT MỘT KIỂM THỬ CÓ ÍCH VÀ @dataprovider](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-viet-mot-kiem-thu-co-ich-va-dataprovider/)
 - [UNIT TESTING TUTORIAL: PRIVATE/PROTECTED METHODS, COVERAGE REPORTS VÀ C.R.A.P](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-private-protected-methods-coverage-reports-va-crap/)
 - [Đọc file csv bằng JUnit5](https://giangtester.com/doc-file-csv-bang-junit5/)
+- [Test Automation IDE - JetBrains Aqua](https://anhtester.com/blog/test-automation-ide-jetbrains-aqua-b496.html)
 
 -----
+- [Telegram Automation Testing](https://t.me/+kSUGJ3pVvxkyZWU1)
+- [Telegram Manual Testing](https://t.me/+8eChRz7OVqliZWRl)
 - [Testing Strategies For Microservices](https://semaphoreci.com/blog/test-microservices)
 - [The 5 Main Strategies for Testing a Microservices App](https://www.teaminternational.com/5-main-strategies-testing-microservices-app/)
 - [Microservices Testing Strategies, Types & Tools: A Complete Guide](https://www.simform.com/blog/microservice-testing-strategies/)

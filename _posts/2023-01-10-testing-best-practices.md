@@ -166,6 +166,7 @@ Tham khảo:
 - [System Testing - Kiểm thử hệ thống](https://viblo.asia/p/system-testing-kiem-thu-he-thong-aWj53pOPK6m)
 - [System Testing - Kiểm thử hệ thống](https://viblo.asia/p/system-testing-kiem-thu-he-thong-GrLZDywBlk0)
 - [Acceptance Testing - Kiểm thử chấp nhận](https://anhtester.com/blog/acceptance-testing-kiem-thu-chap-nhan-b298.html)
+- [Test Automation IDE - JetBrains Aqua](https://anhtester.com/blog/test-automation-ide-jetbrains-aqua-b496.html)
 - [Acceptance Test là gì, được thực hiện như thế nào?](https://itnavi.com.vn/blog/acceptance-test-la-gi)
 - [Acceptance Testing là gì? Phân loại Acceptance Testing](https://vn.got-it.ai/blog/acceptance-testing-la-gi-phan-loai-acceptance-testing)
 - [Test level](https://viblo.asia/p/test-level-istqb-foudation-gAm5ybGDKdb)
@@ -270,7 +271,9 @@ Tham khảo:
 - [CÁC CHỨNG CHỈ MỘT TESTER NÊN CÓ](https://co-well.vn/nhat-ky-cong-nghe/cac-chung-chi-mot-tester-nen-co-de-thang-tien-su-nghiep/)
 
 -----
-- [https://toolsqa.com/](https://toolsqa.com/)
+- [Telegram Automation Testing](https://t.me/+kSUGJ3pVvxkyZWU1)
+- [Telegram Manual Testing](https://t.me/+8eChRz7OVqliZWRl)
+- [https://toolsqa.com/](https://toolsqa.com)
 - [Các công cụ kiểm tra phần mềm giá rẻ và miễn phí](https://viblo.asia/p/cac-cong-cu-kiem-tra-phan-mem-gia-re-va-mien-phi-4P856oLaKY3)
 - [ROADMAP TO QA AUTOMATION ENGINEER](https://synapse-qa.com/2020/11/15/roadmap-to-qa-automation-engineer/)
 - [Roadmap QA Engineer](https://roadmap.sh/qa/)
