@@ -321,13 +321,9 @@ b) Bù trừ trọng lượng của đối tượng bằng tương tác với m�
 ### Nhận xét
 
 1. Nếu hiểu theo nghiã đen, nguyên tắc phản trọng lượng là cụ thể hoá 5. nguyên tắc kết hợp: kết hợp đối tượng cho trước với đối tượng khác hoặc với môi trường bên ngoài, có lực nâng, để bù trừ với cái "có hại" là trọng lượng của đối tượng cho trước.
-
 2. Về mặt ngôn từ phát biểu, nguyên tắc phản trọng lượng đặc thù riêng cho kỹ thuật. Tuy nhiên ta có thể nắm được tinh thần thủ thuật này bằng cách khái quát hoá như sau: đối tượng cho trước có nhược điểm, cần kết hợp đối tượng cho trước với đối tượng khác, có ưu điểm, mà ưu điểm đó có thể bù trừ cho nhược điểm. ( ý tưởng này có gợi ý cho bạn về cách dùng người không?)
-
 3. Thủ thuật này đòi hỏi sự mềm dẻo trong cách tiếp cận giải quyết vấn đề: nếu khắc phục trực tiếp nhược điểm là điều khó làm thì nên nghĩ cách bù trừ nó bằng sự kết hợp với ưu điểm nào đó.
-
 4. "Bù trừ" một cách tiết kiệm nhất, trước hết, cần nghĩ đến việc khai thác các nguồn dự trữ có sẵn trong hệ thống, đặc biệt những nguồn dự trữ tời cho không mất tiền, có sẵn trong tự nhiên.
-
 5. Nhiều khi, sự bù trừ lại cho những tính chất, khả năng mới. Cần chú ý tận dụng chúng.
 
 ### Ví dụ
@@ -340,7 +336,7 @@ b) Bù trừ trọng lượng của đối tượng bằng tương tác với m�
 6. Mỏ neo giữ tàu khỏi trôi.
 7. Búp bê "lật đật" không bao giờ đổ
 8. Tàu thủy có cánh dưới nước - hạn chế chòng chành.
-9 - Vì ít người thích xem quảng cáo, nên người ta chiếu xen quảng cáo vào giữa các chương trình yêu thích khác.
+9. Vì ít người thích xem quảng cáo, nên người ta chiếu xen quảng cáo vào giữa các chương trình yêu thích khác.
 10. Hàng hoá bao bì hình thức đẹp....bù trừ cho chất lượng hàng không cao.
 11. Ca sĩ nhảy múa vũ đạo đẹp, âm thanh ánh sáng sôi động......bù trừ cho cho việc hát dở.
 12. Người thua kém...dùng quần áo, trang sức đắt tiền bên ngoài....để tạo sự kính trọng nơi nguời khác.
@@ -733,11 +729,8 @@ c. Sử dụng khoảng thời gian giữa các xung để thực hiện tác đ
 ### Nhận xét
 
 1. Từ "tác động" cần hiểu rộng, không nhất thiết phải là lực mà có thể là bất kỳ ảnh hưởng nào.
-
 2. Trong hiện thực khách quan có hai mặt đối lập: "liên tục" và "rời rạc" (ngắt quãng). Từ "xung" ở đây có thể hiểu là "rời rạc", "ngắt quãng".
-
 3. Việc chuyển sang "chế độ xung" đem lại những tính chất mới mà "chế độ liên tục" không có, ví dụ, tạo sự thống nhất giữa có tác động và không có tác động, tăng tính tương hợp của hệ thống, tiết kiệm năng lượng, tăng độ tin cậy, tăng sự đa dạng.....
-
 4. Nguyên tắc tác động theo chu kỳ còn có ý nghiã đối với con người chứ không chỉ riêng đối với máy móc. Ví dụ, các kết quả nghiên cứu cho thấy, ánh sáng nhấp nháy, âm thanh thay đổi ngắt quãng gây sự chú ý tốt hơn là chiếu sáng liên tục hoặc âm thanh đều đều. Có một ngành gọi là "tâm lý học kỹ thuật" chuyên nghiên cứu những qui luật khách quan của các quá trình tương tác thông tin giữa người và kỹ thuật để thiết kế, chế tạo và vận hành các hệ thống " người- máy móc". Điều này làm tăng tính tương hợp giữa người và máy móc khi làm việc với nhau tạo ra kết quả tốt nhất, con người thấy thoải mái, dễ chịu, đỡ mệt mỏi.
 
 ### Các ví dụ
@@ -1051,9 +1044,7 @@ d) Sử dụng các trường kết hợp với các hạt sắt từ.
 ### Nhận xét
 
 1. Nguyên tắc này phản ánh khuynh hướng phát triển: những gì trước đây và bây giờ còn là "cơ học" sẽ chuyển thành "không cơ học" (dùng điện, từ, điện từ, ánh sáng...), và những trường mới sẽ mang tính chất "phẩm chất cục bộ". Điều này sẽ làm tăng tính điều khiển và tăng tính hiệu quả của đối tượng vì có thể sử dụng những hiệu ứng ở mức vi mô.
-
 2. Do vậy, có thể dùng "thay thế sơ đồ cơ học" để đặt bài toán, dự báo về sự phát triển của đối tượng cho trước.
-
 3. Thủ thuật đòi hỏi người giải phải chú ý để có được những kiến thức cần thiết về các khoa học tương ứng và sử dụng các hiệu ứng thích hợp trong các bài toán của mình. Ở đây cần đặc biệt tận dụng những ưu điểm, những mặt mạnh mà sơ đồ cơ học không có được.
 
 ### Các thí dụ
@@ -1401,9 +1392,7 @@ d) Thay ôxy giàu ôzôn (hoặc ôxy bị ion hoá) bằng chính ôzôn.
 ### Nhận xét
 
 1. Ôxy rất cần cho sự cháy, nổ, thực hiện các phản ứng cần thiết, cho sự sống, thường được dùng để 1. Làm các quá trình xảy ra nhanh hơn, 2. tạo các lớp ôxít bảo vệ, 3. Cải tạo môi trường bị ô nhiễm, 4. chống các vi trùng kị khí. Hàng năm, riêng các nước phát triển sử dụng tới hơn 50 tỷ mét khối ôxy, gần một nửa là dùng trong luyện kim.
-
 2. Ôxy có trong không khí, trong nước. Do vậy, thủ thuật này cũng mang tính nhắc nhở sử dụng những nguồn dự trữ có sẵn trong môi trường.
-
 3. Chú ý sự tăng "nhịp độ" trong việc sử dụng ôxy: không khí - không khí giàu ôxy - ôxy bị ion hoá- ôzôn. Tinh thần của nhịp độ này, trong nhiều trường hợp, cũng cần áp dụng cho các loại tác động khác. Ở đây có sự chú ý tăng về chất chứ không phải tăng về lượng.
 
 ### Thí dụ:
@@ -1468,8 +1457,7 @@ Vật liệu hợp thành (composite), là loại vật liệu gồm nhiều th�
 ### Nhận xét:
 
 1. Hướng nghiên cứu, chế tạo các loại vật liệu mới, có những tính chất độc đáo, thoả mãn các nhu cầu phát triển luôn mang tính thời sự. Các vật liệu hợp thành, do tạo được tính hệ thống, càng ngày càng được sử dụng rộng rãi trong kỹ thuật và đời sống.
-2. Tinh thần chung của nguyên tắc này là chú ý đến tính hệ thống (tính chất không thể qui về thành tính chất của từng thành phần riêng rẽ) và tính mới.
-Một mặt khai thác những nguồn dự trữ có sẵn, bằng cách thay đổi sắp xếp, tổ chức nhằm đạt được những tính chất mới, mặt khác, luôn chú ý đến sự đổi mới vì "những gì đang hoạt động có nghiã là lạc hậu", ở đây có sự chi phối của qui luật "phủ định của phủ định".
+2. Tinh thần chung của nguyên tắc này là chú ý đến tính hệ thống (tính chất không thể qui về thành tính chất của từng thành phần riêng rẽ) và tính mới. Một mặt khai thác những nguồn dự trữ có sẵn, bằng cách thay đổi sắp xếp, tổ chức nhằm đạt được những tính chất mới, mặt khác, luôn chú ý đến sự đổi mới vì "những gì đang hoạt động có nghiã là lạc hậu", ở đây có sự chi phối của qui luật "phủ định của phủ định".
 3. Thủ thuật này hay dùng với 1.nguyên tắc phân nhỏ, 3. nguyên tắc phẩm chất cục bộ, 5. nguyên tắc kết hợp, 6.nguyên tắc vạn năng, 10.nguyên tắc thực hiện sơ bộ, 25 nguyên tắc tự phục vụ, 27.nguyên tắc "rẻ" thay cho "đắt", 31. sử dụng vật liệu nhiểu lỗ....
 
 ### Các thí dụ:
