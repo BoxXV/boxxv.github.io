@@ -11,6 +11,8 @@ tags:
 
 Trước khi chúng ta bàn sâu về các khái niệm, các lý thuyết mang tính học thuật, tôi chọn cách tiếp cận KỸ NĂNG SÁNG TẠO qua khoảng 40 CÁC THỦ THUẬT(NGUYÊN TẮC) SÁNG TẠO CƠ BẢN do giáo sư Alshuller - người Nga, kỹ sư, nhà sáng chế, nhà văn viết truyện khoa học viễn tưởng.....
 
+![sáng tạo](https://boxxv.github.io/img/2023/b9c84-xtriz-inventive-principles-1-1.jpg.pagespeed.ic_.o-zzoeykmd.jpg "sáng tạo")
+
 Mỗi thủ thuật sẽ trình bày theo các mục sau:
 
 **### Nội dung**: văn bản phát biểu thủ thuật  
@@ -18,6 +20,8 @@ Mỗi thủ thuật sẽ trình bày theo các mục sau:
 **Nhận xét**: trong mục này trình bày những nhận xét về thủ thuật, một số khả năng khái quát, tương tự hoá nhằm giúp người đọc mở rộng cách hiều và nắm được tinh thần của thủ thuật.  
 **Các ví dụ**: minh hoạ ### Nội dung phát biểu các thủ thuật lấy từ các lĩnh vực khác nhau, nhưng không quá sâu về chuyên môn.  
 **Chuyện vui**: minh hoạ thủ thuật, giúp bạn nhớ và liên tưởng tốt đến thủ thuật và làm cho topic thư giãn hơn.
+
+![sáng tạo](https://boxxv.github.io/img/2023/5327e-40_principles_of_triz_method_225dpi.jpg "sáng tạo")
 
 Người ta đã tìm được 40 thủ thuật dùng cho tư duy sáng tạo kỹ thuật.
 
@@ -62,8 +66,6 @@ Người ta đã tìm được 40 thủ thuật dùng cho tư duy sáng tạo k�
 38. Sử dụng chất oxy hóa mạnh
 39. Thay đổi độ trơ
 40. Sử dụng vật liệu hợp thành composit
-
-![sáng tạo](https://boxxv.github.io/img/2023/15348_p21744.jpg "sáng tạo")
 
 # 1. NGUYÊN TẮC PHÂN NHỎ
 
@@ -1501,6 +1503,7 @@ Anh chàng kia lại hỏi:
 - Là gì vậy?
 - Quyết định sai.
 
+![sáng tạo](https://boxxv.github.io/img/2023/15348_p21744.jpg "sáng tạo")
 -----
 Tham khảo:
 - [40 NGUYÊN TẮC SÁNG TẠO CƠ BẢN](https://nhansublog.blogspot.com/2014/03/40-nguyen-tac-sang-tao-co-ban.html)
