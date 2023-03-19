@@ -15,7 +15,7 @@ Trước khi chúng ta bàn sâu về các khái niệm, các lý thuyết mang 
 
 Mỗi thủ thuật sẽ trình bày theo các mục sau:
 
-**### Nội dung**: văn bản phát biểu thủ thuật  
+**Nội dung**: văn bản phát biểu thủ thuật  
 **Giải thích**: đối với các thủ thuật, cần làm rõ các khái niệm trong đó.  
 **Nhận xét**: trong mục này trình bày những nhận xét về thủ thuật, một số khả năng khái quát, tương tự hoá nhằm giúp người đọc mở rộng cách hiều và nắm được tinh thần của thủ thuật.  
 **Các ví dụ**: minh hoạ ### Nội dung phát biểu các thủ thuật lấy từ các lĩnh vực khác nhau, nhưng không quá sâu về chuyên môn.  
