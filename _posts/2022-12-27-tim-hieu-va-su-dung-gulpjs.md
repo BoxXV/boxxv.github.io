@@ -512,5 +512,6 @@ Tham khảo:
 - [https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/API.md)
 - [Sử dụng Gulp để viết Sass hiệu quả](https://kipalog.com/posts/Su-dung-Gulp-de-viet-Sass-hieu-qua)
 - [Gulp minify](https://zetcode.com/gulp/minify/)
+- [HTML includes with Gulp.js](https://dev.to/caiojhonny/html-includes-with-gulp-js-2def)
 - [How To Build And Develop Websites With Gulp](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
 - [Gulp: A Web Developer's Secret Weapon for Maximizing Site Speed](https://www.toptal.com/javascript/optimize-js-and-css-with-gulp)
