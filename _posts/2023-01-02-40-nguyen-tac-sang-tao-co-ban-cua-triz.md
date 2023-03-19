@@ -1507,6 +1507,9 @@ Anh chàng kia lại hỏi:
 -----
 Tham khảo:
 - [40 NGUYÊN TẮC SÁNG TẠO CƠ BẢN](https://nhansublog.blogspot.com/2014/03/40-nguyen-tac-sang-tao-co-ban.html)
+- [40 nguyên tăc sáng tạo cơ bản](https://phandinhdieu2897.wordpress.com/2019/04/11/40-nguyen-tac-sang-tao-co-ban/)
 - [40 Nguyên tắc sáng tạo cơ bản của Triz](https://www.hocviendaotao.com/2016/07/40-nguyen-tac-sang-tao-co-ban-cua-triz.html)
 - [40 Thủ Thuật Sáng Tạo – Giải Mã Bí Quyết Sáng Tạo](https://xemsachhay.com/40-thu-thuat-sang-tao-giai-ma-bi-quyet-sang-tao/)
-- []()
+- [40 NGUYÊN TẮC SÁNG TẠO CƠ BẢN - TRIZ.pdf](https://www.academia.edu/38363078/40_NGUY%C3%8AN_T%E1%BA%AEC_S%C3%81NG_T%E1%BA%A0O_C%C6%A0_B%E1%BA%A2N_TRIZ_pdf)
+- [Giải Quyết Vấn Đề Và Ra Quyết Định 4 - Các Thủ Thuật (Nguyên Tắc) Sáng Tạo Cơ Bản - Phần 1](http://minhkhai.vn/store2/index.aspx?q=view&isbn=1109050050962)
+- [Giải Quyết Vấn Đề Và Ra Quyết Định 5 - Các Thủ Thuật (Nguyên Tắc) Sáng Tạo Cơ Bản - Phần 2](http://www.minhkhai.com.vn/store2/index.aspx?q=view&isbn=1109050050979)
