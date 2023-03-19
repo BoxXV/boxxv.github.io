@@ -75,30 +75,30 @@ Người ta đã tìm được 40 thủ thuật dùng cho tư duy sáng tạo k�
 
 ### Nhận xét:
 
-1- Từ "đối tượng" trong 40 nguyên tắc, cần hiểu theo nghiã rộng. Đó có thể bất kỳ cái gì có khả năng phân nhỏ được, không nhất thiết phải là đối tượng kỹ thuật. Tương tự như vậy đối với các thủ thuật khác có từ" đối tượng".
+1. Từ "đối tượng" trong 40 nguyên tắc, cần hiểu theo nghiã rộng. Đó có thể bất kỳ cái gì có khả năng phân nhỏ được, không nhất thiết phải là đối tượng kỹ thuật. Tương tự như vậy đối với các thủ thuật khác có từ" đối tượng".
 
-2- Thủ thuật này thường dùng trong những trường hợp khó làm "trọn gói", "nguyên khối", "một lần". Nói cách khác, phân nhỏ ra cho vừa sức, cho dễ thực hiện, cho phù hợp với những phương tiện hiện có....
+2. Thủ thuật này thường dùng trong những trường hợp khó làm "trọn gói", "nguyên khối", "một lần". Nói cách khác, phân nhỏ ra cho vừa sức, cho dễ thực hiện, cho phù hợp với những phương tiện hiện có....
 
-3- Phân nhỏ đặc biệt hay dùng trong những trường hợp cần có bề mặt tiếp xúc lớn như trong các phản ứng hoá học, tạo sự cháy nổ, trao đổi nhiệt, trao đổi nhiệt
+3. Phân nhỏ đặc biệt hay dùng trong những trường hợp cần có bề mặt tiếp xúc lớn như trong các phản ứng hoá học, tạo sự cháy nổ, trao đổi nhiệt, trao đổi nhiệt
 
-4- Tháo lắp làm cho đối tượng trở nên nhỏ gọn, thuận tiện cho việc chuyên chở, xếp đặt và khả năng thay thế từng bộ phận đối tượng, kể cả việc mở rộng chức năng của từng bộ phận đó.
+4. Tháo lắp làm cho đối tượng trở nên nhỏ gọn, thuận tiện cho việc chuyên chở, xếp đặt và khả năng thay thế từng bộ phận đối tượng, kể cả việc mở rộng chức năng của từng bộ phận đó.
 
-5- Cần tưởng tượng: nhờ phân nhỏ mà đối tượng, ban đầu ở thể rắn, chuyển dần sang dẻo, lỏng khí, plasma....., nói chung, có thể phân nhỏ đến vi mô.
+5. Cần tưởng tượng: nhờ phân nhỏ mà đối tượng, ban đầu ở thể rắn, chuyển dần sang dẻo, lỏng khí, plasma....., nói chung, có thể phân nhỏ đến vi mô.
 
-6- Sự thay đổi về lượng dẫn đến sự thay đổi về chất, cho nên, phân nhỏ có thể làm đối tu7ọng có thêm những tính chất mới, thậm trí, ngược với tính chất đã có.
+6. Sự thay đổi về lượng dẫn đến sự thay đổi về chất, cho nên, phân nhỏ có thể làm đối tu7ọng có thêm những tính chất mới, thậm trí, ngược với tính chất đã có.
 
-7- Nguyên tắc phân nhỏ hay dùng với các nguyên tắc 2. Tách khỏi, 3. Phẩm chất cục bộ, 5. Kết hợp, 6. Vạn năng, 15 Linh động...
+7. Nguyên tắc phân nhỏ hay dùng với các nguyên tắc 2. Tách khỏi, 3. Phẩm chất cục bộ, 5. Kết hợp, 6. Vạn năng, 15 Linh động...
 
 ### Các thí dụ:
 
-1- Dây kim loại 1 sợi to, cứng, khó cuộn tròn... nếu phân nhỏ thành dây kim loại nhiều sợi thì khắc phục được nhược điểm của dây một sợi to cứng.
-2- Thước mét phân nhỏ thành thước gập, phân nhỏ nữa thành thước dây mềm, gọn.
-3- Báo khổ rộng in thành những cột nhỏ cho dễ đọc.
-4- Ngũ cốc nghiền thành bột, từ đó làm bún, miến, mì, bánh các loại...
-5- Xe chở vật siêu trường siêu trọng, thay vì làm bánh xe ô tô cho thật lớn, người ta làm xe có rất nhiều dãy bánh kích thước bình thường.
-6- Bảng quảng cáo ngoài trời một mặt được chia nhỏ theo chiều dọc (như rèm cửa văn phòng) để quảng cáo được nhiều thông tin hơn.
-7- Tàu thuỷ lớn chia hầm tàu thành các ngăn độc lập, nếu lỡ bị thủng thì dễ cô lập ngăn bị thủng, không làm chìm tàu.
-.................................................. ...
+1. Dây kim loại 1 sợi to, cứng, khó cuộn tròn... nếu phân nhỏ thành dây kim loại nhiều sợi thì khắc phục được nhược điểm của dây một sợi to cứng.
+2. Thước mét phân nhỏ thành thước gập, phân nhỏ nữa thành thước dây mềm, gọn.
+3. Báo khổ rộng in thành những cột nhỏ cho dễ đọc.
+4. Ngũ cốc nghiền thành bột, từ đó làm bún, miến, mì, bánh các loại...
+5. Xe chở vật siêu trường siêu trọng, thay vì làm bánh xe ô tô cho thật lớn, người ta làm xe có rất nhiều dãy bánh kích thước bình thường.
+6. Bảng quảng cáo ngoài trời một mặt được chia nhỏ theo chiều dọc (như rèm cửa văn phòng) để quảng cáo được nhiều thông tin hơn.
+7. Tàu thuỷ lớn chia hầm tàu thành các ngăn độc lập, nếu lỡ bị thủng thì dễ cô lập ngăn bị thủng, không làm chìm tàu.
+.....................................................
 
 ### Minh họa vui:
 
@@ -112,15 +112,15 @@ Hướng dẫn viên du lịch: “Ồ tất nhiên rồi. Tôi đã từng vác
 
 ### Nhận xét:
 
-1 - Đối tượng, thông thường, có nhiều thành phần (tính chất, khía cạnh, chức năng…), trong khi đó, người ta chỉ thực sự cần 1 trong những số đó. Vậy không nên dùng cả đối tượng vì sẽ tốn thêm chi phí hoặc vận chuyển không thuận tiện. Phải nghĩ cách tách cái cần thiết ra để sử dụng riêng.
+1. Đối tượng, thông thường, có nhiều thành phần (tính chất, khía cạnh, chức năng…), trong khi đó, người ta chỉ thực sự cần 1 trong những số đó. Vậy không nên dùng cả đối tượng vì sẽ tốn thêm chi phí hoặc vận chuyển không thuận tiện. Phải nghĩ cách tách cái cần thiết ra để sử dụng riêng.
 
 Tương tự như vậy đối với phần gây phiền phức, để khắc phục nhược điểm có trong đối tượng.
 
-2 - Do tách khỏi đối tượng mà phần tách ra (hoặc phần giữ lại) có thêm những tính chất, những khả năng mới (nhiều khi, ngược với cái cũ). Do đó, cần tận dụng chúng. Những tính chất, những khả năng mới có thể là gọn hơn, linh động hơn, dễ thay thế, tăng tính điều khiển…
+2. Do tách khỏi đối tượng mà phần tách ra (hoặc phần giữ lại) có thêm những tính chất, những khả năng mới (nhiều khi, ngược với cái cũ). Do đó, cần tận dụng chúng. Những tính chất, những khả năng mới có thể là gọn hơn, linh động hơn, dễ thay thế, tăng tính điều khiển…
 
-3 - Khi nói "tách khỏi" mới chỉ ra định hướng suy nghĩ, định hướng việc làm. Để trả lời câu hỏi "Làm thế nào để tách khỏi?" cần tham khảo cách làm ở những lĩnh vực chuyên về công việc đó như luyện kim, lọc, trích ly, chọn giống, giải phẫu, tuyển lựa…
+3. Khi nói "tách khỏi" mới chỉ ra định hướng suy nghĩ, định hướng việc làm. Để trả lời câu hỏi "Làm thế nào để tách khỏi?" cần tham khảo cách làm ở những lĩnh vực chuyên về công việc đó như luyện kim, lọc, trích ly, chọn giống, giải phẫu, tuyển lựa…
 
-4 - Nguyên tắc tách khỏi hay dùng với các nguyên tắc: 1. Phân nhỏ, 3. Phẩm chất cục bộ, 5. Kết hợp, 6. Vạn năng, 15. Linh động…
+4. Nguyên tắc tách khỏi hay dùng với các nguyên tắc: 1. Phân nhỏ, 3. Phẩm chất cục bộ, 5. Kết hợp, 6. Vạn năng, 15. Linh động…
 
 ### Các thí dụ:
 
@@ -136,9 +136,9 @@ Tương tự như vậy đối với phần gây phiền phức, để khắc ph
 
 6. Số lượng các bài báo khoa học, kỹ thuật ngày càng nhiều, nhằm giúp đỡ các nhà chuyên môn theo dõi và quyết định các bài báo cần thiết để đọc. Người ta đưa ra các loại tạp chí, tóm tắt ### Nội dung chính các bài báo.
 
-7. Các loại kìm khác nhau ở phần gọng kìm và đây mới là phần chức năng chính của kìm. Trên cơ sở tách gọng ra khỏi tay cầm, người ta chế tạo ra loại kìm, chỉ trong 2 - 3 phút thay gọng là có được chiếc kìm loại khác. Trước kia, chỉ cần phần làm việc của gọng kìm bị mòn quá độ hoặc hư, người ta phải bỏ nguyên cả cái kìm. Kìm loại mới bền hơn mà giá thành không cao, vì việc tách khỏi mở ra khả năng làm gọng và tay cầm từ các loại thép khác nhau: gọng làm bằng thép tốt, chất lượng cao, còn tay cầm - gang chứa cacbon, rẻ tiền.
+7. Các loại kìm khác nhau ở phần gọng kìm và đây mới là phần chức năng chính của kìm. Trên cơ sở tách gọng ra khỏi tay cầm, người ta chế tạo ra loại kìm, chỉ trong 2. 3 phút thay gọng là có được chiếc kìm loại khác. Trước kia, chỉ cần phần làm việc của gọng kìm bị mòn quá độ hoặc hư, người ta phải bỏ nguyên cả cái kìm. Kìm loại mới bền hơn mà giá thành không cao, vì việc tách khỏi mở ra khả năng làm gọng và tay cầm từ các loại thép khác nhau: gọng làm bằng thép tốt, chất lượng cao, còn tay cầm - gang chứa cacbon, rẻ tiền.
 
-8. Viện sỹ quá cố P.L. Kapitsa, người được giải Nobel về vật lý, lúc còn sống rất thích ý tưởng truyền năng lượng đi xa bằng dòng bức xạ điện từ tần số cao. Ngày nay, ý tưởng đó đã có khả năng biến thành hiện thực. Hãng "Lockheed Georgia" đang thực hiện đề án do NASA đặt hàng, nhằm chế tạo loại máy bay không người lái, được tiếp năng lượng bằng ăngten đặt trên mặt đất. Theo tính toán, máy bay như vậy có thể ở trên không liên tục 2 - 3 tháng do được "nuôi" bằng chùm tia cao tần 2MHz phát từ ăngten magnetron. Tần số nói trên được chọn, đủ để không làm ion hóa không khí và đủ lớn để dòng năng lượng khong bị phân tán, do vậy, tiết kiệm được năng lượng truyền. Ăngten thu, đặt dưới cánh máy bay, biến sóng điện từ thành dòng điện một chiều, công suất khoảng 30KW. Động cơ 25 - 40 mã lực làm quay cánh quạt và cung cấp điện cho các máy móc thí nghiệm trên máy bay. Máy bay không người lái loại này sẽ sử dụng để theo dõi liên tục thành phần hóa học của khí quyển, đặc biệt là nồng độ CO2. Máy bay thực hiện các vòng bay hình số 8 xung quanh ăngten ở độ cao 20km, cho phép không chỉ theo dõi thành phần khí quyển mà còn chụp những bức ảnh có độ phân giải cao hơn nhiều về tình hình nông nghiệp và giao thông vận tải.
+8. Viện sỹ quá cố P.L. Kapitsa, người được giải Nobel về vật lý, lúc còn sống rất thích ý tưởng truyền năng lượng đi xa bằng dòng bức xạ điện từ tần số cao. Ngày nay, ý tưởng đó đã có khả năng biến thành hiện thực. Hãng "Lockheed Georgia" đang thực hiện đề án do NASA đặt hàng, nhằm chế tạo loại máy bay không người lái, được tiếp năng lượng bằng ăngten đặt trên mặt đất. Theo tính toán, máy bay như vậy có thể ở trên không liên tục 2. 3 tháng do được "nuôi" bằng chùm tia cao tần 2MHz phát từ ăngten magnetron. Tần số nói trên được chọn, đủ để không làm ion hóa không khí và đủ lớn để dòng năng lượng khong bị phân tán, do vậy, tiết kiệm được năng lượng truyền. Ăngten thu, đặt dưới cánh máy bay, biến sóng điện từ thành dòng điện một chiều, công suất khoảng 30KW. Động cơ 25 - 40 mã lực làm quay cánh quạt và cung cấp điện cho các máy móc thí nghiệm trên máy bay. Máy bay không người lái loại này sẽ sử dụng để theo dõi liên tục thành phần hóa học của khí quyển, đặc biệt là nồng độ CO2. Máy bay thực hiện các vòng bay hình số 8 xung quanh ăngten ở độ cao 20km, cho phép không chỉ theo dõi thành phần khí quyển mà còn chụp những bức ảnh có độ phân giải cao hơn nhiều về tình hình nông nghiệp và giao thông vận tải.
 
 9. Loại sơn do các nhà hóa học từ công ty Nhật Bản "Chugoku Marine Paints" chế tạo, biến công việc sơn trong nước trở nên dễ dàng như trong không khí. Sơn loại mới gồm hai thành phần, khi sử dụng trộn lẫn lại với nhau. Thành phần thứ nhất là một loại men màu trên cơ sở nhựa epoxy, thành phần thứ hai là chất làm dẻo, phản ứng độc đáo khi gặp nước. Hỗn hợp được đưa đến các chi tiết cần sơn, các phân tử của chất dẻo đẩy các phân tử nước ra khỏi bề mặt chi tiết và chiếm chỗ của chúng: từng phân tử nước dần dần bị đẩy khỏi lớp sơn cho đến hết. Sơn dính tốt với nhiều loại vật liệu, không làm đầu độc và ô nhiễm nước. Thời gian khô hoàn toàn từ 4 đến 8 tiếng, tùy theo nhiệt độ.
 
@@ -157,41 +157,41 @@ c) Mỗi phần của đối tượng phải ở trong những điều kiện th
 
 ### Nhận xét:
 
-1- Các đối tượng đầu tiên thường có tính đồng nhất cao về vật liệu, cấu hình, chức năng, thời gian, không gian… đối với các phần trong đối tượng. Khuynh hướng phát triển tiếp theo là : các phần có các phẩm chất, chức năng… riêng của mình nhằm phục vụ tốt nhất chức năng chính hoặc mở rộng chức năng chính đó.
+1. Các đối tượng đầu tiên thường có tính đồng nhất cao về vật liệu, cấu hình, chức năng, thời gian, không gian… đối với các phần trong đối tượng. Khuynh hướng phát triển tiếp theo là : các phần có các phẩm chất, chức năng… riêng của mình nhằm phục vụ tốt nhất chức năng chính hoặc mở rộng chức năng chính đó.
 
-2- Các đối tượng đồng nhất đầu tiên còn phát triển theo khuynh hướng chuyên dụng hóa, đa dạng hóa so với nhau, để phù hợp nhất với môi trường, điều kiện làm việc, sự thuận tiện đối với người sử dụng, thị hiếu của người tiêu dùng cụ thể…
+2. Các đối tượng đồng nhất đầu tiên còn phát triển theo khuynh hướng chuyên dụng hóa, đa dạng hóa so với nhau, để phù hợp nhất với môi trường, điều kiện làm việc, sự thuận tiện đối với người sử dụng, thị hiếu của người tiêu dùng cụ thể…
 
-3- Với thời gian, môi trường, tác động bên ngòai cũng bị biến đổi theo khuynh hướng thích hợp với những điều kiện, hoàn cảnh cụ thể của đối tượng và của con người sử dụng đối tượng đó. Xuất hiện các loại vi môi trường, vi khí hậu, vi tác động…
+3. Với thời gian, môi trường, tác động bên ngòai cũng bị biến đổi theo khuynh hướng thích hợp với những điều kiện, hoàn cảnh cụ thể của đối tượng và của con người sử dụng đối tượng đó. Xuất hiện các loại vi môi trường, vi khí hậu, vi tác động…
 
-4- Nói chung, nguyên tắc phẩm chất cục bộ phản ánh khuynh hướng phát triển: từ đơn giản sang phức tạp, từ đơn điệu sang đa dạng.
+4. Nói chung, nguyên tắc phẩm chất cục bộ phản ánh khuynh hướng phát triển: từ đơn giản sang phức tạp, từ đơn điệu sang đa dạng.
 
-5- Tinh thần “phẩm chất cục bộ” có ý nghĩa lớn đối với việc nhận thức và xử lý thông tin: không phải tin tức nào cũng có giá trị như tin tức nào. Không thể có một cách tiếp cận, dùng chung cho mọi loại đối tượng – “chân lý là cụ thể”.
+5. Tinh thần “phẩm chất cục bộ” có ý nghĩa lớn đối với việc nhận thức và xử lý thông tin: không phải tin tức nào cũng có giá trị như tin tức nào. Không thể có một cách tiếp cận, dùng chung cho mọi loại đối tượng – “chân lý là cụ thể”.
 
 ### Các thí dụ:
 
-1- Các tờ lịch dùng để chỉ ngày, thứ trong tuần, nhưng các ngày không giống nhau: có ngày làm việc, chủ nhật và ngày lễ nghỉ. Để phân biệt điều ấy , các ngày nghỉ được in mực đỏ.
+1. Các tờ lịch dùng để chỉ ngày, thứ trong tuần, nhưng các ngày không giống nhau: có ngày làm việc, chủ nhật và ngày lễ nghỉ. Để phân biệt điều ấy , các ngày nghỉ được in mực đỏ.
 
-2- 37oC là thân nhiệt của người khỏe mạnh. Thân nhiệt thấp hoặc cao hơn nhiệt độ này là “có vấn đề”. Để nhần mạnh điều này, trên các cặp nhiệt độ, 37oC được ghi bằng màu đỏ.
+2. 37oC là thân nhiệt của người khỏe mạnh. Thân nhiệt thấp hoặc cao hơn nhiệt độ này là “có vấn đề”. Để nhần mạnh điều này, trên các cặp nhiệt độ, 37oC được ghi bằng màu đỏ.
 
-3- Để bảo vệ sách tốt, bìa thường được làm dày hơn nhiều so với trang sách. Cẩn thận hơn nữa, bề mặt của bìa còn được phủ một lớp nhựa trong suốt để bảo vệ.
+3. Để bảo vệ sách tốt, bìa thường được làm dày hơn nhiều so với trang sách. Cẩn thận hơn nữa, bề mặt của bìa còn được phủ một lớp nhựa trong suốt để bảo vệ.
 
-4- Quần áo mặc thường rách trước tại những chỗ như đầu gối, khuỷu tay, vai, nách, các đường chỉ may. Do vậy, đặc biệt với quần áo bảo hộ lao động những chỗ nói trên thường được làm dày hơn và may thành gân ở những chỗ ghép các mảnh vải.
+4. Quần áo mặc thường rách trước tại những chỗ như đầu gối, khuỷu tay, vai, nách, các đường chỉ may. Do vậy, đặc biệt với quần áo bảo hộ lao động những chỗ nói trên thường được làm dày hơn và may thành gân ở những chỗ ghép các mảnh vải.
 
-5- Mái nhà thường lợp bằng tôn tráng kẽm nhưng tại những chỗ cần lấy ánh sáng, người ta dùng tôn nhựa trong suốt.
+5. Mái nhà thường lợp bằng tôn tráng kẽm nhưng tại những chỗ cần lấy ánh sáng, người ta dùng tôn nhựa trong suốt.
 
-6- Các đồ vật đa dạng hóa như bút có nhiều loại bút, bàn có nhiều loại bàn, xe có nhiều loại xe…
+6. Các đồ vật đa dạng hóa như bút có nhiều loại bút, bàn có nhiều loại bàn, xe có nhiều loại xe…
 
-7- Cách sắp xếp các phím chữ cái trên bàn máy chữ đã quá quen thuộc với mọi người. Điều này dễ hiểu vì nó có tuổi thọ một trăm năm. Trong khi đó các nhà tạo mẫu, xuất phát từ các qui luật tổ chức lao động văn phòng và các thành tựu hiện đại của kỹ thuật, từ lâu đã đề nghị cách sắp xếp khác, thuận lợi cho tay trái và tay phải hơn. Điều này có thể tăng tốc độ đánh máy chữ lên ba lần. Tuy vậy, chưa thấy nhà sản xuất nào vội vã áp dụng cả. Có lẽ, nhà máy “Optikoelektron” ở Bungari là nhà máy sớm nhất châu Âu sản xuất loại máy chữ này.
+7. Cách sắp xếp các phím chữ cái trên bàn máy chữ đã quá quen thuộc với mọi người. Điều này dễ hiểu vì nó có tuổi thọ một trăm năm. Trong khi đó các nhà tạo mẫu, xuất phát từ các qui luật tổ chức lao động văn phòng và các thành tựu hiện đại của kỹ thuật, từ lâu đã đề nghị cách sắp xếp khác, thuận lợi cho tay trái và tay phải hơn. Điều này có thể tăng tốc độ đánh máy chữ lên ba lần. Tuy vậy, chưa thấy nhà sản xuất nào vội vã áp dụng cả. Có lẽ, nhà máy “Optikoelektron” ở Bungari là nhà máy sớm nhất châu Âu sản xuất loại máy chữ này.
 
-8- Tại các nhà máy thuộc tổ công nghiệp “Erikson” (Thụy Điển), người ta thực hiện cuộc thử nghiệm liên quan đến việc tổ chức lại cách chiếu sáng. Kết quả, độ chiếu sáng chung giảm đi hai lần nhưng độ chiếu sáng tại nơi làm việc lại tăng lên đáng kể, tiết kiệm được 55% năng lượng điện và năng suất đứng máy của công nhân tăng thêm 20%. Các chuyên gia giải thích kết quả đạt được bằng các nguyên nhân tâm lý: tăng độ tiện nghi đối với người làm việc.
+8. Tại các nhà máy thuộc tổ công nghiệp “Erikson” (Thụy Điển), người ta thực hiện cuộc thử nghiệm liên quan đến việc tổ chức lại cách chiếu sáng. Kết quả, độ chiếu sáng chung giảm đi hai lần nhưng độ chiếu sáng tại nơi làm việc lại tăng lên đáng kể, tiết kiệm được 55% năng lượng điện và năng suất đứng máy của công nhân tăng thêm 20%. Các chuyên gia giải thích kết quả đạt được bằng các nguyên nhân tâm lý: tăng độ tiện nghi đối với người làm việc.
 
-9- Trong suốt một thời gian dài, người sử dụng Si siêu sách làm pin mặt trời là chủ yếu. Sau đó các nhà bác học quyết định thaynó bằng hợp chất bán dẫn GaAs, là loại vật liệu có hiệu suất cao hơn. Sự thay thế này chứng tỏ quá vội vã. Các kỹ sư Mỹ và Pháp đưa ra loại pin mặt trời tổ hợp hai loại trên. Trong đó Si hấp thụ một phần phổ năng lượng mặt trời, GaAs thì hấp thu phần khác. Hiệu suất của loại pin mới này đạt tới 27%. Hiệu suất còn tăng lên hơn nữa, nếu sử dụng thêm các chất bán dẫn Ge và AlAs.
+9. Trong suốt một thời gian dài, người sử dụng Si siêu sách làm pin mặt trời là chủ yếu. Sau đó các nhà bác học quyết định thaynó bằng hợp chất bán dẫn GaAs, là loại vật liệu có hiệu suất cao hơn. Sự thay thế này chứng tỏ quá vội vã. Các kỹ sư Mỹ và Pháp đưa ra loại pin mặt trời tổ hợp hai loại trên. Trong đó Si hấp thụ một phần phổ năng lượng mặt trời, GaAs thì hấp thu phần khác. Hiệu suất của loại pin mới này đạt tới 27%. Hiệu suất còn tăng lên hơn nữa, nếu sử dụng thêm các chất bán dẫn Ge và AlAs.
 
-10- Một số công ty tư bản, tuy làm được những sáng chế quan trọng nhưng không đăng kí nhận patent. Họ cho rằng giữ bí mật công nghệ để độc quyền có lợi hơn. Ví dụ, công ty “Portland-Cement” (Đan Mạch) đưa ra bán loại bánh răng cưa kích thước lớn, hầu như làm toàn bằng bê tông: chỉ lớp trên cùng của bánh răng là kim loại. Bánh răng bê tông nhẹ, có tuổi thọ cao hơn bánh răng kim loại, chịu ăn mòn tốt hơn.
+10. Một số công ty tư bản, tuy làm được những sáng chế quan trọng nhưng không đăng kí nhận patent. Họ cho rằng giữ bí mật công nghệ để độc quyền có lợi hơn. Ví dụ, công ty “Portland-Cement” (Đan Mạch) đưa ra bán loại bánh răng cưa kích thước lớn, hầu như làm toàn bằng bê tông: chỉ lớp trên cùng của bánh răng là kim loại. Bánh răng bê tông nhẹ, có tuổi thọ cao hơn bánh răng kim loại, chịu ăn mòn tốt hơn.
 
-11- Trước đây có đến 30% các vụ tai nạn trại các cảng của Phần Lan là do các bao tải polyetilen: mưa, tuyết, sương sớm làm các bao tải trở nên trơn trượt và cả núi các bao đựng cá đông lạnh, ximăng, phân bón, các hạt nhựa polimer…đổ ập xuống. Công ty “Vyyk an Heglund” nghiên cứu và sản xuất loại bao tải polyetilen có bề mặt nhám với hệ số ma sát rất lớn.
+11. Trước đây có đến 30% các vụ tai nạn trại các cảng của Phần Lan là do các bao tải polyetilen: mưa, tuyết, sương sớm làm các bao tải trở nên trơn trượt và cả núi các bao đựng cá đông lạnh, ximăng, phân bón, các hạt nhựa polimer…đổ ập xuống. Công ty “Vyyk an Heglund” nghiên cứu và sản xuất loại bao tải polyetilen có bề mặt nhám với hệ số ma sát rất lớn.
 
-12- Xoong, nồi chế tạo tại Thụy Điển, được các nhà chuyên gia cho rằng có thể dùng bền 100 năm. Trong khoảng thời gian này, chúng không bị cháy, rỉ sét hay nứt rạn. Bí quyết là ở chỗ xoong, nồi có ba lớp kim loại, sản xuất theo cách ép đồng, dẫn nhiệt tốt. Lớp giữa dày nhất, làm bằng nhôm, có tách dụng phân phối nhiệt đều. Lớp tiếp xúc với thức ăn làm bằng thép không rỉ, dễ cọ rửa và hợp vệ sinh.
+12. Xoong, nồi chế tạo tại Thụy Điển, được các nhà chuyên gia cho rằng có thể dùng bền 100 năm. Trong khoảng thời gian này, chúng không bị cháy, rỉ sét hay nứt rạn. Bí quyết là ở chỗ xoong, nồi có ba lớp kim loại, sản xuất theo cách ép đồng, dẫn nhiệt tốt. Lớp giữa dày nhất, làm bằng nhôm, có tách dụng phân phối nhiệt đều. Lớp tiếp xúc với thức ăn làm bằng thép không rỉ, dễ cọ rửa và hợp vệ sinh.
 
 ### Truyện vui:
 
@@ -261,11 +261,11 @@ b) Kết hợp về mặt thời gian các hoạt động đồng nhất hoặc 
 
 Nhận xét
 
-1- "Kế cận", không nên chỉ hiểu gần nhau về mặt vị trí hay chức năng, mà nên hiểu là có quan hệ với nhau, bổ xung cho nhau....do vậy, có thể có những kết hợp các đối tượng " ngược nhau" (ví dụ bút chì kết hợp với tẩy) .
-2- "Kết hợp" cần hiểu theo nghiã rộng, không đơn thuần cộng thêm (kiểu số học) hay gắn thêm (kiểu cơ học), mà còn được hiểu chuyển giao, đưa vào những ý tưởng, tính chất, chức năng....từ những lĩnh vực hoặc những đối tượng khác.
-3- Đối tượng mới, tạo nên do sự kết hợp, ,thường có những tính chất, khả năng mà từng đối tượng riêng rẽ trước đây chưa có. điều này có nguyên nhân sâu xa là lượng đổi thì chất đổi và do tạo được sự thống nhất mới của các mặt đối lập.
-4-Trong thực tế, các hiện tượng, quá trình, sự việc....thường hay đan xen nhau nên khả năng kết hợp luôn luôn có. do vậy, cần chú ý khai thác nguồn dự trữ này.
-5- Nguyên tắc kết hợp thường hay sử dụng với 1. Nguyên tắc phân nhỏ, 3. Nguyên tắc phẩm chất cục bộ...
+1. "Kế cận", không nên chỉ hiểu gần nhau về mặt vị trí hay chức năng, mà nên hiểu là có quan hệ với nhau, bổ xung cho nhau....do vậy, có thể có những kết hợp các đối tượng " ngược nhau" (ví dụ bút chì kết hợp với tẩy) .
+2. "Kết hợp" cần hiểu theo nghiã rộng, không đơn thuần cộng thêm (kiểu số học) hay gắn thêm (kiểu cơ học), mà còn được hiểu chuyển giao, đưa vào những ý tưởng, tính chất, chức năng....từ những lĩnh vực hoặc những đối tượng khác.
+3. Đối tượng mới, tạo nên do sự kết hợp, ,thường có những tính chất, khả năng mà từng đối tượng riêng rẽ trước đây chưa có. điều này có nguyên nhân sâu xa là lượng đổi thì chất đổi và do tạo được sự thống nhất mới của các mặt đối lập.
+4. Trong thực tế, các hiện tượng, quá trình, sự việc....thường hay đan xen nhau nên khả năng kết hợp luôn luôn có. do vậy, cần chú ý khai thác nguồn dự trữ này.
+5. Nguyên tắc kết hợp thường hay sử dụng với 1. Nguyên tắc phân nhỏ, 3. Nguyên tắc phẩm chất cục bộ...
 Điều này phản ánh một khuynh hướng phát triển biện chứng: sự liên kết, hợp tác hoá thường đi kèm với sự phân công lao động và chuyên môn hoá.
 
 Ví dụ:
@@ -343,23 +343,23 @@ b) Một đối tượng chuyển động xuyên suốt bên trong đối tượ
 
 Nhận xét
 
-1- "Chứa trong" cần hiểu theo nghiã rộng, không chỉ đơn thuần theo nghiã không gian. Ví dụ, khái niệm này nằm trong khái niệm khác, lý thuyết này nằm trong lý thuyết khác, chung hơn...
+1. "Chứa trong" cần hiểu theo nghiã rộng, không chỉ đơn thuần theo nghiã không gian. Ví dụ, khái niệm này nằm trong khái niệm khác, lý thuyết này nằm trong lý thuyết khác, chung hơn...
 
-2- Nguyên tắc "chứa trong" là trường hợp riêng, cụ thể hoá 3. nguyên tắc phẩm chất cục bộ. Điều này thể hiện ở chỗ, nếu trước kia không phân biệt "trong" và "ngoài" thì nay "trong" và "ngoài" có các phẩm chất, chức năng riêng.
+2. Nguyên tắc "chứa trong" là trường hợp riêng, cụ thể hoá 3. nguyên tắc phẩm chất cục bộ. Điều này thể hiện ở chỗ, nếu trước kia không phân biệt "trong" và "ngoài" thì nay "trong" và "ngoài" có các phẩm chất, chức năng riêng.
 ....Tương tự như vậy, giữa "bề mặt" và "thể tích".
 
-3- "Chứa trong" chỉ ra hướng tận dụng những nguồn dự trữ có sẵn trong đối tượng, cụ thể là phần thể tích bên trong đối tượng. Nếu để ý quan sát ta sẽ thấy rất nhiều đối tượng vẫn còn chưa được khia thác "tiềm năng" này.
+3. "Chứa trong" chỉ ra hướng tận dụng những nguồn dự trữ có sẵn trong đối tượng, cụ thể là phần thể tích bên trong đối tượng. Nếu để ý quan sát ta sẽ thấy rất nhiều đối tượng vẫn còn chưa được khia thác "tiềm năng" này.
 
-4- "Chứa trong" làm cho đối tượng có thêm những tính chất mới mà trước đây chưa có như : gọn hơn, tăng độ an toàn, bền vững, tiết kiệm năng lượng, linh động hơn.....
+4. "Chứa trong" làm cho đối tượng có thêm những tính chất mới mà trước đây chưa có như : gọn hơn, tăng độ an toàn, bền vững, tiết kiệm năng lượng, linh động hơn.....
 
-5- Nguyên tắc "chứa trong" hay dùng với các nguyên tắc 1. nguyên tắc phân nhỏ, 2. nguyên tắc "tách khỏi", 5. nguyên tắc kết hợp, 6. Nguyên tắc vạn năng, 12. nguyân tắc đẳng thế, 20.nguyên tắc liên tục tác động có ích....
+5. Nguyên tắc "chứa trong" hay dùng với các nguyên tắc 1. nguyên tắc phân nhỏ, 2. nguyên tắc "tách khỏi", 5. nguyên tắc kết hợp, 6. Nguyên tắc vạn năng, 12. nguyân tắc đẳng thế, 20.nguyên tắc liên tục tác động có ích....
 
 ### Các thí dụ:
 
-1- Loại ăngten dùng cho máy thu thanh, thu hình, khi cần có thể kéo dài hoặc thu ngắn lại nhờ những ống kim loại đặt bên trong nhau.
+1. Loại ăngten dùng cho máy thu thanh, thu hình, khi cần có thể kéo dài hoặc thu ngắn lại nhờ những ống kim loại đặt bên trong nhau.
 2-Loại tay cầm dùng cho tuốc-nơ-vít, khoan tay...bên trong rỗng, có nắp vặn, đóng vai trò cái hộp đựng đầu tuốc-nơ-vít, mũi khoan.
-3- Tủ đặt trong tường nhà.
-4- Loại cửa đóng , mở chạy từ trong tường ra.
+3. Tủ đặt trong tường nhà.
+4. Loại cửa đóng , mở chạy từ trong tường ra.
 5-Vận chuyển vật liệu trong các đường ống
 ................
 
@@ -380,30 +380,30 @@ b) Bù trừ trọng lượng của đối tượng bằng tương tác với m�
 
 Nhận xét
 
-1- Nếu hiểu theo nghiã đen, nguyên tắc phản trọng lượng là cụ thể hoá 5. nguyên tắc kết hợp: kết hợp đối tượng cho trước với đối tượng khác hoặc với môi trường bên ngoài, có lực nâng, để bù trừ với cái "có hại" là trọng lượng của đối tượng cho trước.
+1. Nếu hiểu theo nghiã đen, nguyên tắc phản trọng lượng là cụ thể hoá 5. nguyên tắc kết hợp: kết hợp đối tượng cho trước với đối tượng khác hoặc với môi trường bên ngoài, có lực nâng, để bù trừ với cái "có hại" là trọng lượng của đối tượng cho trước.
 
-2- Về mặt ngôn từ phát biểu, nguyên tắc phản trọng lượng đặc thù riêng cho kỹ thuật. Tuy nhiên ta có thể nắm được tinh thần thủ thuật này bằng cách khái quát hoá như sau: đối tượng cho trước có nhược điểm, cần kết hợp đối tượng cho trước với đối tượng khác, có ưu điểm, mà ưu điểm đó có thể bù trừ cho nhược điểm. ( ý tưởng này có gợi ý cho bạn về cách dùng người không?)
+2. Về mặt ngôn từ phát biểu, nguyên tắc phản trọng lượng đặc thù riêng cho kỹ thuật. Tuy nhiên ta có thể nắm được tinh thần thủ thuật này bằng cách khái quát hoá như sau: đối tượng cho trước có nhược điểm, cần kết hợp đối tượng cho trước với đối tượng khác, có ưu điểm, mà ưu điểm đó có thể bù trừ cho nhược điểm. ( ý tưởng này có gợi ý cho bạn về cách dùng người không?)
 
-3- Thủ thuật này đòi hỏi sự mềm dẻo trong cách tiếp cận giải quyết vấn đề: nếu khắc phục trực tiếp nhược điểm là điều khó làm thì nên nghĩ cách bù trừ nó bằng sự kết hợp với ưu điểm nào đó.
+3. Thủ thuật này đòi hỏi sự mềm dẻo trong cách tiếp cận giải quyết vấn đề: nếu khắc phục trực tiếp nhược điểm là điều khó làm thì nên nghĩ cách bù trừ nó bằng sự kết hợp với ưu điểm nào đó.
 
-4- "Bù trừ" một cách tiết kiệm nhất, trước hết, cần nghĩ đến việc khai thác các nguồn dự trữ có sẵn trong hệ thống, đặc biệt những nguồn dự trữ tời cho không mất tiền, có sẵn trong tự nhiên.
+4. "Bù trừ" một cách tiết kiệm nhất, trước hết, cần nghĩ đến việc khai thác các nguồn dự trữ có sẵn trong hệ thống, đặc biệt những nguồn dự trữ tời cho không mất tiền, có sẵn trong tự nhiên.
 
-5- Nhiều khi, sự bù trừ lại cho những tính chất, khả năng mới. Cần chú ý tận dụng chúng.
+5. Nhiều khi, sự bù trừ lại cho những tính chất, khả năng mới. Cần chú ý tận dụng chúng.
 
 Ví dụ
 
-1- Các loại phao, cầu phao.
-2- Đối trọng trong các barie, cần cầu, gầu múc nước giếng, thang máy, đồng hồ đo điện......
-3- Cánh máy bay có hình dạng thích hợp (hình khí động học ) để tạo lực nâng khi chuyển động.
-4- Lướt ván
-5- Nhảy dù, hãm máy bay bằng dù.
-6- Mỏ neo giữ tàu khỏi trôi.
-7- Búp bê "lật đật" không bao giờ đổ
-8- Tàu thủy có cánh dưới nước - hạn chế chòng chành.
+1. Các loại phao, cầu phao.
+2. Đối trọng trong các barie, cần cầu, gầu múc nước giếng, thang máy, đồng hồ đo điện......
+3. Cánh máy bay có hình dạng thích hợp (hình khí động học ) để tạo lực nâng khi chuyển động.
+4. Lướt ván
+5. Nhảy dù, hãm máy bay bằng dù.
+6. Mỏ neo giữ tàu khỏi trôi.
+7. Búp bê "lật đật" không bao giờ đổ
+8. Tàu thủy có cánh dưới nước - hạn chế chòng chành.
 9 - Vì ít người thích xem quảng cáo, nên người ta chiếu xen quảng cáo vào giữa các chương trình yêu thích khác.
-10- Hàng hoá bao bì hình thức đẹp....bù trừ cho chất lượng hàng không cao.
-11- Ca sĩ nhảy múa vũ đạo đẹp, âm thanh ánh sáng sôi động......bù trừ cho cho việc hát dở.
-12- Người thua kém...dùng quần áo, trang sức đắt tiền bên ngoài....để tạo sự kính trọng nơi nguời khác.
+10. Hàng hoá bao bì hình thức đẹp....bù trừ cho chất lượng hàng không cao.
+11. Ca sĩ nhảy múa vũ đạo đẹp, âm thanh ánh sáng sôi động......bù trừ cho cho việc hát dở.
+12. Người thua kém...dùng quần áo, trang sức đắt tiền bên ngoài....để tạo sự kính trọng nơi nguời khác.
 ............
 
 Chuyện vui
@@ -428,29 +428,29 @@ Gây ứng suất trước với đối tượng để chống lại ứng suấ
 
 Nhận xét
 
-1- Từ "ứng suất" cần phải hiểu theo nghiã rộng, không chỉ đơn thuần là sự nén, sự kéo căng cơ học....mà là bất ký loại ảnh hưởng, tác động nào.
-2- Thông thường, sau tác động sẽ có phản tác động. Cần chú ý làm sao cho phản tác động mang lại ích lợi nhất.
-3- Tinh thần chung của nguyên tắc này là muốn gặt thì phải gieo trồng, chăm bón, đầu tư từ trước đó.
-4- Nguyên tắc gây ứng suất sơ bộ cùng với 10. Nguyên tắc thực hiện sơ bộ, 11. Nguyên tắc dự phòng, phản ánh sự thống nhất giữa quá khứ, hiện tại và tương lai.
-5- Ba nguyên tắc nói trên đòi hỏi phải có sự nhìn trước, dự báo, tưởng tượng, nghĩ trước, chuẩn bị giải pháp trước.
-6- Chúng giúp khắc phục thói quen xấu " nước đến chân mới nhảy".
-7- Chúng đòi hỏi xem xét khả năng tận dụng các nguồn dự trữ về thời gian, do đó, sẽ tiết kiệm được thời gian trên thực tế.
-8- Việc sử dụng ba nguyên tắc nói trên có thể làm đối tượng có những tính chất mới mà trước đây đối tượng chưa có và tạo sự thống nhất mới của các mặt đối lập.
+1. Từ "ứng suất" cần phải hiểu theo nghiã rộng, không chỉ đơn thuần là sự nén, sự kéo căng cơ học....mà là bất ký loại ảnh hưởng, tác động nào.
+2. Thông thường, sau tác động sẽ có phản tác động. Cần chú ý làm sao cho phản tác động mang lại ích lợi nhất.
+3. Tinh thần chung của nguyên tắc này là muốn gặt thì phải gieo trồng, chăm bón, đầu tư từ trước đó.
+4. Nguyên tắc gây ứng suất sơ bộ cùng với 10. Nguyên tắc thực hiện sơ bộ, 11. Nguyên tắc dự phòng, phản ánh sự thống nhất giữa quá khứ, hiện tại và tương lai.
+5. Ba nguyên tắc nói trên đòi hỏi phải có sự nhìn trước, dự báo, tưởng tượng, nghĩ trước, chuẩn bị giải pháp trước.
+6. Chúng giúp khắc phục thói quen xấu " nước đến chân mới nhảy".
+7. Chúng đòi hỏi xem xét khả năng tận dụng các nguồn dự trữ về thời gian, do đó, sẽ tiết kiệm được thời gian trên thực tế.
+8. Việc sử dụng ba nguyên tắc nói trên có thể làm đối tượng có những tính chất mới mà trước đây đối tượng chưa có và tạo sự thống nhất mới của các mặt đối lập.
 
 Ví dụ:
 
-1- Dán ép.
-2- Đúc áp lực, đúc ly tâm.
-3- Loại đồ chơi phải lên dây cót trước.
-4- Súng phải lên quy-lát trước khi bắn. Nói chung, các loại lò xo cần phải nén hoặc kéo căng trước để khi làm việc dùng ứng suất ngược lại.
+1. Dán ép.
+2. Đúc áp lực, đúc ly tâm.
+3. Loại đồ chơi phải lên dây cót trước.
+4. Súng phải lên quy-lát trước khi bắn. Nói chung, các loại lò xo cần phải nén hoặc kéo căng trước để khi làm việc dùng ứng suất ngược lại.
 5-Các xoong, nồi, sau một thời gian nấu ăn, đáy bị võng xuống dưới. để tránh tình trạng này, người ta sản xuất chúng có đáy hơi lồi lên trên để sau này, đáy võng xuống dưới và trở nên phẳng là vừa.
-6- Bơm trước nước lên các bể chứa, đặt trên tầng thượng, để dùng nước chảy xuống.
-7- Muốn dùng ắc-quy phải nạp điện trước.
-8- Trước khi phẫu thuật phải gây tê, gây mê nạn nhân, gây tê cục bộ.....
-9- Để bắt và chuyên chở thú dữ, người ta gây mê chúng hay cho chúng uống thuốc ngủ.
-10- Học và đào tạo trước khi làm việc.
-11- Để uốn các ống kim loại cho đẹp, đều......mà không làm móp, nứt, gãy. Người ta nung nóng chỗ cần uốn đến nhiệt độ thích hợp trước khi thực hiện uốn.
-12- Khí, gas được nén trong các bình chứa và mở ra dùng dần nhờ áp suất cao trong bình.
+6. Bơm trước nước lên các bể chứa, đặt trên tầng thượng, để dùng nước chảy xuống.
+7. Muốn dùng ắc-quy phải nạp điện trước.
+8. Trước khi phẫu thuật phải gây tê, gây mê nạn nhân, gây tê cục bộ.....
+9. Để bắt và chuyên chở thú dữ, người ta gây mê chúng hay cho chúng uống thuốc ngủ.
+10. Học và đào tạo trước khi làm việc.
+11. Để uốn các ống kim loại cho đẹp, đều......mà không làm móp, nứt, gãy. Người ta nung nóng chỗ cần uốn đến nhiệt độ thích hợp trước khi thực hiện uốn.
+12. Khí, gas được nén trong các bình chứa và mở ra dùng dần nhờ áp suất cao trong bình.
 
 Chuyện vui
 
@@ -468,24 +468,24 @@ b) Cần sắp xếp đối tượng trước, sao cho chúng có thể hoạt �
 
 Nhận xét
 
-1- Từ "thay đổi" cần phải hiểu theo nghiã rộng
-2- Có những việc, dù thế nào, cũng cần phải thực hiện. Thủ thuật này đòi hỏi phải tính đến khả năng thực hiện trước đi một phần hoặc toàn bộ và sẽ được lợi hơn nhiều so với thực hiện ở thì hiện tại (hiểu theo nghiã tương đối).
-3- Tinh thần chung của thủ thuật này là trước khi làm bất cứ việc gì, cần có sự chuẩn bị trước đó một cách toàn diện, chu đáo và thực hiện trước những gì có thể thực hiện được - "chuẩn bị trước là một nửa của thành công"
+1. Từ "thay đổi" cần phải hiểu theo nghiã rộng
+2. Có những việc, dù thế nào, cũng cần phải thực hiện. Thủ thuật này đòi hỏi phải tính đến khả năng thực hiện trước đi một phần hoặc toàn bộ và sẽ được lợi hơn nhiều so với thực hiện ở thì hiện tại (hiểu theo nghiã tương đối).
+3. Tinh thần chung của thủ thuật này là trước khi làm bất cứ việc gì, cần có sự chuẩn bị trước đó một cách toàn diện, chu đáo và thực hiện trước những gì có thể thực hiện được - "chuẩn bị trước là một nửa của thành công"
 
 Xem thêm phần nhận xét của 9. Nguyên tắc gây ứng suất sơ bộ.
 
 ### Các thí dụ:
 
-1- Các loại giấy tờ in sẵn trước những phần chung cho tất cả mọi người để tiết kiệm thời gian, chỉ cần điền vào chỗ trống. Đặc biệt trong các giấy thăm dò ý kiến, các câu trả lời cũng được in sẵn, người được hỏi ý kiến chỉ việc đánh dấu là xong.
+1. Các loại giấy tờ in sẵn trước những phần chung cho tất cả mọi người để tiết kiệm thời gian, chỉ cần điền vào chỗ trống. Đặc biệt trong các giấy thăm dò ý kiến, các câu trả lời cũng được in sẵn, người được hỏi ý kiến chỉ việc đánh dấu là xong.
 2-Tem, nhãn bôi keo trước, khi dùng chỉ việc dán.
-3- Tem, biên lai đã tạo lỗ trước, ki cần xé ra dễ dàng, nhanh chóng.
-4- Loại bao bì (bao thuốc lá chẳng hạn) được dán sẵn băng dây bóng, giúp bóc ra nhanh chóng
-5- Trong các hộp sữa bột có để thìa múc bột, đồng thời làm chức năng định mức.
-6- Cưa đặt cùng với các ống tiêm trong hộp. Cao hơn nữa, người ta đã tạo vết cưa trước trên ống tiêm, khi cần chỉ việc bẻ ống.
+3. Tem, biên lai đã tạo lỗ trước, ki cần xé ra dễ dàng, nhanh chóng.
+4. Loại bao bì (bao thuốc lá chẳng hạn) được dán sẵn băng dây bóng, giúp bóc ra nhanh chóng
+5. Trong các hộp sữa bột có để thìa múc bột, đồng thời làm chức năng định mức.
+6. Cưa đặt cùng với các ống tiêm trong hộp. Cao hơn nữa, người ta đã tạo vết cưa trước trên ống tiêm, khi cần chỉ việc bẻ ống.
 7-Thực phẩm làm sẵn, mua về là có thể nấu ngay được.
 8-Chuẩn bị, sắp đặt các dụng cụ cần thiết trước cuộc giải phẩu.
-9- Các chi tiết, kết cấu được chế tạo trước để làm nhà tiền chế, lắp ghép. Bê tông đúc sẵn.
-10- Hầm Thủ Thiêm vượt sông Sài Gòn được làm trước trên cạn gồm bốn đốt hầm, sau đó dìm xuống nước, ghép nối thành đường hầm.
+9. Các chi tiết, kết cấu được chế tạo trước để làm nhà tiền chế, lắp ghép. Bê tông đúc sẵn.
+10. Hầm Thủ Thiêm vượt sông Sài Gòn được làm trước trên cạn gồm bốn đốt hầm, sau đó dìm xuống nước, ghép nối thành đường hầm.
 
 Chuyện vui
 
@@ -503,26 +503,26 @@ Bù đắp độ tin cậy không lớn của đối tượng bằng cách chu�
 
 Nhận xét
 
-1- Ít có công việc nào, có thể thực hiện với độ tin cậy tuyệt đối. Đấy chưa kể, điều kiện, môi trường, hoàn cảnh với thời gian cũng thay đổi. Do vậy cần tiên liệu trước những mạo hiểm, rủi ro, tai nạn, ốm đau, bệnh tật, thiên tai có thể xảy ra mà có những biện pháp dự phòng từ trước.
-2- Ngoài ra , cần chú ý đến các hậu quả xấu có thể có do kết quả công việc mang lại: mọi cái đều có phạm vi áp dụng của nó, nếu đi ra ngoài phạm vi áp dụng này, lợi có thể biến thành hại; trong cái lợi có thể có cái hại; có thể lợi về mặt này nhưng hại về mặt khác.
-3-Có thể nói, chi phí cho dự phòng là chi phí thêm, không mong muốn. Khuynh hướng phát triển là tăng độ tin cậy của đối tượng, công việc. Để làm điều đó cần sử dụng các vật liệu mới, các hiệu ứng mới, cách tổ chức mới.....
-4-Tinh thần chung của nguyên tắc này là cảnh giác và chuẩn bị biện pháp đối phó từ trước.
+1. Ít có công việc nào, có thể thực hiện với độ tin cậy tuyệt đối. Đấy chưa kể, điều kiện, môi trường, hoàn cảnh với thời gian cũng thay đổi. Do vậy cần tiên liệu trước những mạo hiểm, rủi ro, tai nạn, ốm đau, bệnh tật, thiên tai có thể xảy ra mà có những biện pháp dự phòng từ trước.
+2. Ngoài ra , cần chú ý đến các hậu quả xấu có thể có do kết quả công việc mang lại: mọi cái đều có phạm vi áp dụng của nó, nếu đi ra ngoài phạm vi áp dụng này, lợi có thể biến thành hại; trong cái lợi có thể có cái hại; có thể lợi về mặt này nhưng hại về mặt khác.
+3. Có thể nói, chi phí cho dự phòng là chi phí thêm, không mong muốn. Khuynh hướng phát triển là tăng độ tin cậy của đối tượng, công việc. Để làm điều đó cần sử dụng các vật liệu mới, các hiệu ứng mới, cách tổ chức mới.....
+4. Tinh thần chung của nguyên tắc này là cảnh giác và chuẩn bị biện pháp đối phó từ trước.
 
 Xem thêm phần NHẬN XÉT của thủ thuật 9. nguyên tắc gây ứng suất sơ bộ.
 
 Ví dụ :
 
 1-Các phương tiện báo cháy, phòng cháy, chữa cháy.
-2- Các phao, xuồng cấp cứu trên các tàu thủy.
-3- Phi công mang dù.
-4- các loại cầu chì, van chốt an toàn.
+2. Các phao, xuồng cấp cứu trên các tàu thủy.
+3. Phi công mang dù.
+4. các loại cầu chì, van chốt an toàn.
 5-Các loại chuông đèn báo sự nguy hiểm.
-6- Các loại kính khi bị vỡ thành những mảnh tròn thay vì những mảnh sắt nhọn
-7- Các loại quỹ lương thực, hàng hoá, tiền...dự phòng
-8- Các biện pháp phòng tránh bệnh (chủng ngừa, rửa tay, khám định kỳ......).
-9- các biện pháp phòng tội phạm
-10- Các đường hầm có đường cứu nạn hai bên phòng bị nước tràn vào hay cháy nổ...thì có nơi ẩn nấp.
-11- Các cơ chế, kịch bản...ứng phó với thiên tai, khủng bố, bạo động...của chính phủ.
+6. Các loại kính khi bị vỡ thành những mảnh tròn thay vì những mảnh sắt nhọn
+7. Các loại quỹ lương thực, hàng hoá, tiền...dự phòng
+8. Các biện pháp phòng tránh bệnh (chủng ngừa, rửa tay, khám định kỳ......).
+9. các biện pháp phòng tội phạm
+10. Các đường hầm có đường cứu nạn hai bên phòng bị nước tràn vào hay cháy nổ...thì có nơi ẩn nấp.
+11. Các cơ chế, kịch bản...ứng phó với thiên tai, khủng bố, bạo động...của chính phủ.
 
 Chuyện vui:
 
@@ -548,9 +548,9 @@ Quỹ tích của những điểm có cùng một thế năng, gọi là mặt �
 
 2-Tinh thần chung của nguyên tắc này là phải đạt được kết quả cần thiết với năng lượng, chi phí ít nhất. Góp phần bảo vệ môi trường và sử dụng tài nguyên năng lượng hiệu quả.
 
-3-Tuy thế giới xung quanh cực kỳ đa dạng nhưng giữa chúng có những cái chung, những cái ít bị thay đổi theo thời gian. Về mặt nhận thức, cần chú ý đặc biệt đến những cái đó, ví dụ, các định luật bảo toàn.
+3. Tuy thế giới xung quanh cực kỳ đa dạng nhưng giữa chúng có những cái chung, những cái ít bị thay đổi theo thời gian. Về mặt nhận thức, cần chú ý đặc biệt đến những cái đó, ví dụ, các định luật bảo toàn.
 
-4-Về cách nhìn, cách tiếp cận, đánh giá, xây dựng các cấu trúc, cần xuất phát từ những quy luật có phạm vi áp dụng lớn: dĩ bất biến ứng vạn biến.
+4. Về cách nhìn, cách tiếp cận, đánh giá, xây dựng các cấu trúc, cần xuất phát từ những quy luật có phạm vi áp dụng lớn: dĩ bất biến ứng vạn biến.
 
 ### Các thí dụ:
 
@@ -581,20 +581,20 @@ Một thời gian sau, cũng chính người đó gặp lại Einstein ở NewYo
 
 # 13. Nguyên tắc đảo ngược
 
-a/ ### Nội dung:
+### Nội dung:
 
 - Thay vì hành động như yêu cầu bài toán, hãy hành động ngược lại (ví dụ: không làm nóng mà làm lạnh đối tượng).
 - Làm phần chuyển động của đối tượng (hay môi trường bên ngoài) thành đứng yên và ngược lại, phần đứng yên thành chuyển động.
 - Lật ngược đối tượng
 
-b/ ### Nhận xét:
+### Nhận xét:
 
 - Hiện thực khách quan gồm các mặt đối lập. Trong một số hoàn cảnh nhất định, xét theo mối quan hệ đối với mình, con người chỉ sử dụng một mặt đối lập vì nó đem lại ích lợi, lâu dần, hình thành tính ì tâm lý, không cho phép người ta thấy và sử dụng mặt đối lập kia cũng có ích lợi của nó.
 - Việc xem xét khả năng lật ngược vấn đề, trên thực tế, là xem xét “nửa kia” của hiện thực khách quan nhằm mục đích tăng tính bao quát, toàn diện, đầy đủ và khắc phục tính ỳ tâm lý.
 - Về mặt suy nghĩ, khi giải bài toán cho trước (bài toán thuận) người giải nên xem xét thêm khả năng giải bài toán ngược và khả năng đem lại lợi tích của lời giải bài toán ngược trong những điều kiện, hoàn cảnh cụ thể nào, để tận dung nó.
 - Làm ngược lại có thể cho đối tượng có thêm những chức năng, tính chất, khả năng mới.
 
-c/ ### Các thí dụ:
+### Các thí dụ:
 
 - Chữa cơm sống bằng cách lật ngược nồi trên bếp lửa hoặc gắp than đổ để trên nắp vung nồi.
 - Loại băng chuyền chạy về một phía, người trên đó chạy về phía ngược lại dùng để tập chạy trong nhà.
@@ -603,7 +603,7 @@ c/ ### Các thí dụ:
 - Trong việc đun nấu, thông thường người ta cung cấp nhiệt từ bên ngoài vào, nhưng như ấm đun nước người ta cung cấp nhiệt từ trong ra thông qua các sục, may so, ruột gà, que đun nước,….
 - Nhà sáng chế N.P.Koval (Nga) xây dựng cột đèn chiếu sáng có độ cao 70m với giàn đèn công suất 200KW. Đèn có thể chiếu sáng diện tích 70 héc ta, thích hợp với công viên, trang trại, bến cảng, sân bay,…. Để bảo trì, sửa chữa, thay bóng đèn thuận lợi, thay vì người thợ phải trèo lên tận giàn đèn, ông làm hệ thống dây cáp cho phép hạ nguyên cả giá đỡ giàn đèn xuống mặt đất. Điều này còn mang lại lợi ích: bảo vệ được đèn và cột đèn khi có gió lớn.
 
-d/ Chuyện vui:
+### Chuyện vui:
 
 Chú bè nghèo gõ cửa nhà của một bà quý tộc:
 - Bà có thể cho cháu chút gì được không ạ
@@ -623,12 +623,12 @@ c) Chuyển sang chuyển động quay, sử dụng lực ly tâm.
 
 ### Nhận xét:
 
-1- Việc tạo chuyển động quay trong kỹ thuật không khó, nên các công cụ làm việc muốn cơ khí hoá được tốt, cần chuyển về dạng tròn, trụ, cầu.
-2- Một đối tượng dạng tròn, cầu có những ưu điểm như: bậc đối xứng cao, đồng đều, ít bị va quệt, bề mặt tiếp xúc với môi trường là ít nhất, tác động bên ngoài là ít nhất nên có tính bền vững, an toàn cao, độ linh động lớn...
-3- Hình tròn, cầu chứa trong nó tính thống nhất của hai mặt đối lập: hữu hạn và vô hạn.
-4-"Cầu (tròn) hoá" cần hiểu theo nghiã rộng, ví dụ thẳng và vòng (theo nghiã bóng), hở và khép kín (theo nghiã bóng)....
-5- Nguyên tắc cầu (tròn) hoá còn nói lên sự đa dạng: đường thẳng chỉ có một nhưng đường cong thì có vô số. Do vậy. cách tiếp cận không nên quá cứng nhắc (người ta thường nói: nguyên tắc quá hỏng việc).
-6- Trong kỹ thuật có khuynh hướng tạo những công nghệ khép kín, không thải chất độc hại ra môi trường. Trong kinh doanh có dịch vụ khép kín: Nhà hàng+ Khách sạn+Vui chơi giải trí+siêu thị + rạp chiếu phim+ nhà sách, trong nông nghiệp mô hình VAC (vườn ao chuồng) cũng là khép kín.......
+1. Việc tạo chuyển động quay trong kỹ thuật không khó, nên các công cụ làm việc muốn cơ khí hoá được tốt, cần chuyển về dạng tròn, trụ, cầu.
+2. Một đối tượng dạng tròn, cầu có những ưu điểm như: bậc đối xứng cao, đồng đều, ít bị va quệt, bề mặt tiếp xúc với môi trường là ít nhất, tác động bên ngoài là ít nhất nên có tính bền vững, an toàn cao, độ linh động lớn...
+3. Hình tròn, cầu chứa trong nó tính thống nhất của hai mặt đối lập: hữu hạn và vô hạn.
+4. "Cầu (tròn) hoá" cần hiểu theo nghiã rộng, ví dụ thẳng và vòng (theo nghiã bóng), hở và khép kín (theo nghiã bóng)....
+5. Nguyên tắc cầu (tròn) hoá còn nói lên sự đa dạng: đường thẳng chỉ có một nhưng đường cong thì có vô số. Do vậy. cách tiếp cận không nên quá cứng nhắc (người ta thường nói: nguyên tắc quá hỏng việc).
+6. Trong kỹ thuật có khuynh hướng tạo những công nghệ khép kín, không thải chất độc hại ra môi trường. Trong kinh doanh có dịch vụ khép kín: Nhà hàng+ Khách sạn+Vui chơi giải trí+siêu thị + rạp chiếu phim+ nhà sách, trong nông nghiệp mô hình VAC (vườn ao chuồng) cũng là khép kín.......
 
 ### Các thí dụ:
 
@@ -660,17 +660,17 @@ b) Phân chia đối tượng thành từng phần, có khả năng dịch chuy�
 
 Nhận xét
 
-1- Thông thường, công việc là quá trình, xảy ra trong khoảng thời gian nhất định. gồm các giai đoạn với những tình huống khác nhau. Nguyên tắc linh động đòi hỏi phải có cái nhìn bao quát cả quá trình để làm đối tượng hoạt động tối ưu trong từng giai đoạn. Muốn thế đối tượng không thể ở dạng cố định, cứng nhắc mà phải trở nên điều khiển được. Xét về mặt cấu trúc, các mối liên kết trong đối tượng phải "mềm dẻo", "có nhiều trạng thái", để từng phần đối tượng có khả năng "dịch chuyển" (hiểu theo nghiã rộng) đối với nhau.
+1. Thông thường, công việc là quá trình, xảy ra trong khoảng thời gian nhất định. gồm các giai đoạn với những tình huống khác nhau. Nguyên tắc linh động đòi hỏi phải có cái nhìn bao quát cả quá trình để làm đối tượng hoạt động tối ưu trong từng giai đoạn. Muốn thế đối tượng không thể ở dạng cố định, cứng nhắc mà phải trở nên điều khiển được. Xét về mặt cấu trúc, các mối liên kết trong đối tượng phải "mềm dẻo", "có nhiều trạng thái", để từng phần đối tượng có khả năng "dịch chuyển" (hiểu theo nghiã rộng) đối với nhau.
 
-2- Cần phải hiểu từ "tối ưu" trong hai mối quan hệ: 1) đối với chính đối tượng, công việc mà đối tượng thực hiện và 2) đối với người sử dụng và môi trường bên ngoài (bảo đảm sức khỏe, không gây ô nhiễm).
+2. Cần phải hiểu từ "tối ưu" trong hai mối quan hệ: 1) đối với chính đối tượng, công việc mà đối tượng thực hiện và 2) đối với người sử dụng và môi trường bên ngoài (bảo đảm sức khỏe, không gây ô nhiễm).
 
-3- Tinh thần chung của "nguyên tắc linh động" là, đối tượng phải có những đa dạng phù hợp với sự thay đổi đa dạng của bên ngoài để đem lại hiệu quả cao nhất.
+3. Tinh thần chung của "nguyên tắc linh động" là, đối tượng phải có những đa dạng phù hợp với sự thay đổi đa dạng của bên ngoài để đem lại hiệu quả cao nhất.
 
-4- Nguyên tắc linh động tạo sự thống nhất giữa "tĩnh" và "động", "cố định" và "thay đổi"......
+4. Nguyên tắc linh động tạo sự thống nhất giữa "tĩnh" và "động", "cố định" và "thay đổi"......
 
-5- Nguyên tắc linh động phản ánh khuynh hướng phát triển cho nên nó có tính định hướng cao, dùng rất có ích trong trường hợp đặt bài toán, phê bình cái đã có và dự báo.
+5. Nguyên tắc linh động phản ánh khuynh hướng phát triển cho nên nó có tính định hướng cao, dùng rất có ích trong trường hợp đặt bài toán, phê bình cái đã có và dự báo.
 
-6- Về mặt tư duy sáng tạo, cần khắc phục tính ì tâm lý, sao cho các ý nghĩ, sách tiếp cận trở nên linh động, tránh giáo điều cứng nhắc.
+6. Về mặt tư duy sáng tạo, cần khắc phục tính ì tâm lý, sao cho các ý nghĩ, sách tiếp cận trở nên linh động, tránh giáo điều cứng nhắc.
 
 Ví dụ:
 
@@ -697,23 +697,23 @@ Nếu như khó nhận được 100% hiệu quả cần thiết, nên nhận ít
 
 Nhận xét
 
-1- Từ "một chút" ở đây phải hiểu linh động, không nhất định là "quá nhỏ", "không đáng kể", miễn sao bài toán trở nên dễ giải hơn.
-2- Sự tiến hoá, phát triển nói chung, kể cả quá trình nhận thức thường đi từ đơn giản đến phức tạp, từ dễ đến khó, từ chưa hoàn thiện đến hoàn thiện. Tinh thần chung của nguyên tắc này là không nên quá cầu toàn, chờ đợi các điều kiện lý tưởng.
-3- Về cách tiếp cận, nếu việc giải chính bài toán là khó thì 1) Giảm bớt đòi hỏi để bài toán dễ giải hơn, mặc dù kết quả không thật hoàn toàn như ý muốn, hoặc phải tốn thêm chi phí trong khả năng chấp nhận được; 2) Giải bài toán dễ hơn (có thể đưa bài toán về trường hợp đặc biệt) để qua đó tìm được những gợi ý có giá trị, giúp giải chính bài toán cho trước.
-4- Khuynh hướng phát triển tiếp theo, khi điều kiện, hoàn cảnh, kiến thức cho phép, cần tiến tới đạt 100% hiệu quả cần thiết mà không phải tốn thêm chi phí.
-5- Khi tiếp thu kiến thức, tìm và xử lý thông tin, không nên chỉ dừng lại với cái cho trước mà cần xem xét các trường hợp riêng, đặc biệt hoặc mở rộng, khái quát hoá, đưa về trường hợp chung....
-6- Giải "thiếu", giải "thừa" trong nhiều trường hợp làm đối tượng có thêm những tính chất mới, trước đây chưa có.
-7- Nguyên tắc này hay thực hiện với 10. Nguyên tắc thực hiện sơ bộ.
+1. Từ "một chút" ở đây phải hiểu linh động, không nhất định là "quá nhỏ", "không đáng kể", miễn sao bài toán trở nên dễ giải hơn.
+2. Sự tiến hoá, phát triển nói chung, kể cả quá trình nhận thức thường đi từ đơn giản đến phức tạp, từ dễ đến khó, từ chưa hoàn thiện đến hoàn thiện. Tinh thần chung của nguyên tắc này là không nên quá cầu toàn, chờ đợi các điều kiện lý tưởng.
+3. Về cách tiếp cận, nếu việc giải chính bài toán là khó thì 1) Giảm bớt đòi hỏi để bài toán dễ giải hơn, mặc dù kết quả không thật hoàn toàn như ý muốn, hoặc phải tốn thêm chi phí trong khả năng chấp nhận được; 2) Giải bài toán dễ hơn (có thể đưa bài toán về trường hợp đặc biệt) để qua đó tìm được những gợi ý có giá trị, giúp giải chính bài toán cho trước.
+4. Khuynh hướng phát triển tiếp theo, khi điều kiện, hoàn cảnh, kiến thức cho phép, cần tiến tới đạt 100% hiệu quả cần thiết mà không phải tốn thêm chi phí.
+5. Khi tiếp thu kiến thức, tìm và xử lý thông tin, không nên chỉ dừng lại với cái cho trước mà cần xem xét các trường hợp riêng, đặc biệt hoặc mở rộng, khái quát hoá, đưa về trường hợp chung....
+6. Giải "thiếu", giải "thừa" trong nhiều trường hợp làm đối tượng có thêm những tính chất mới, trước đây chưa có.
+7. Nguyên tắc này hay thực hiện với 10. Nguyên tắc thực hiện sơ bộ.
 
 Các ví dụ
 
-1- Thắt lưng, dây đồng hồ đục thừa nhiều lỗ để những người sử dụng khác nhau đều dùng được.
-2- Người ta làm sẵn các phôi chìa khoá rồi tùy chià khoá của khách yêu cầu mà giũa cho đúng răng. Điều này cho phép tiết kiệm thời gian và nhà sản xuất có thể làm hàng loạt, kinh tế hơn.
-3- Các tròng kính đeo mắt cũng được làm sẵn, sau đó theo yêu cầu của khách, của gọng kính mà cắt lại cho phù hợp và lắp vào.
-4- Để trám vết nứt bê tông, tường....trong xây dựng nhà cửa, ngưòi ta phải đục thêm vào phần nứt để xi măng trét có độ bám tốt.
-5- Để có được trái cây lớn, người ta phải tiả cành, bỏ bớt quả non.
-6- Để có hoa to đẹp, người ta cũng tiả bỏ bớt nụ phiá dưới.
-7- Các mạch điện tử làm dưới dạng các thẻ, các bo mạch con, bloc, modun. Nếu dù chỉ một phần trong mạch bị hư, người ta tháo cả modun thay thế, tiết kiện thời gian.
+1. Thắt lưng, dây đồng hồ đục thừa nhiều lỗ để những người sử dụng khác nhau đều dùng được.
+2. Người ta làm sẵn các phôi chìa khoá rồi tùy chià khoá của khách yêu cầu mà giũa cho đúng răng. Điều này cho phép tiết kiệm thời gian và nhà sản xuất có thể làm hàng loạt, kinh tế hơn.
+3. Các tròng kính đeo mắt cũng được làm sẵn, sau đó theo yêu cầu của khách, của gọng kính mà cắt lại cho phù hợp và lắp vào.
+4. Để trám vết nứt bê tông, tường....trong xây dựng nhà cửa, ngưòi ta phải đục thêm vào phần nứt để xi măng trét có độ bám tốt.
+5. Để có được trái cây lớn, người ta phải tiả cành, bỏ bớt quả non.
+6. Để có hoa to đẹp, người ta cũng tiả bỏ bớt nụ phiá dưới.
+7. Các mạch điện tử làm dưới dạng các thẻ, các bo mạch con, bloc, modun. Nếu dù chỉ một phần trong mạch bị hư, người ta tháo cả modun thay thế, tiết kiện thời gian.
 
 Chuyện vui
 
@@ -735,21 +735,21 @@ e) Sử dụng các luồng ánh sáng tới diện tích bên cạnh hoặc t�
 
 Nhận xét
 
-1- Từ "chiều" cần hiểu theo nghiã rộng, không chỉ là chiều không gian.
-2- "Chuyển chiều" phản ánh khuynh hướng phát triển, thấy rõ nhất trong các lĩnh vực xây dựng, giao thông vận tải, không gian toán học, vật lý tinh thể, cầu trúc các hợp chất, hoá học.....
-3- Nguyên tắc này nhắc nhở người giải, xem xét, và tận dụng những nguồn dự trữ về "chiều", có trong đối tượng và môi trường.
-4- Cần rèn luyện cách nhìn đối tượng từ những góc độ, những "chiều" khác nhau để thấy hết các khiá cạnh, các mặt, các tính chất....
-5- Khắc phục tính ì tâm lý trong việc sử dụng "chiều" nào đó quen thuộc.
-6- Việc "chuyển chiều" làm cho đối tượng, trong nhiều trường hợp, có thêm những khả năng, tính chất mới mà trước đây đối tượng chưa có.
+1. Từ "chiều" cần hiểu theo nghiã rộng, không chỉ là chiều không gian.
+2. "Chuyển chiều" phản ánh khuynh hướng phát triển, thấy rõ nhất trong các lĩnh vực xây dựng, giao thông vận tải, không gian toán học, vật lý tinh thể, cầu trúc các hợp chất, hoá học.....
+3. Nguyên tắc này nhắc nhở người giải, xem xét, và tận dụng những nguồn dự trữ về "chiều", có trong đối tượng và môi trường.
+4. Cần rèn luyện cách nhìn đối tượng từ những góc độ, những "chiều" khác nhau để thấy hết các khiá cạnh, các mặt, các tính chất....
+5. Khắc phục tính ì tâm lý trong việc sử dụng "chiều" nào đó quen thuộc.
+6. Việc "chuyển chiều" làm cho đối tượng, trong nhiều trường hợp, có thêm những khả năng, tính chất mới mà trước đây đối tượng chưa có.
 
 Các ví dụ
 
-1- Chià khoá có răng ở hai cạnh nên lúc cho chià vào ổ không mất thời gian để lựa chiều.
+1. Chià khoá có răng ở hai cạnh nên lúc cho chià vào ổ không mất thời gian để lựa chiều.
 2-Các loại quần áo mặc được cả hai mặt.
-3-Nhà ở nhiều tầng, xe buýt hai tầng, máy bay hai tầng.
-4- Các đường giao thông nhiều tầng trên mặt đất và dưới mặt đất.
-5- Các công trình dưới biển, dưới đáy sông, trong lòng đất.
-6- Loại tranh, tùy theo góc nhìn, thấy những hình khác nhau. Ti vi chiếu hai hình ảnh khác nhau tùy theo góc nhìn.
+3. Nhà ở nhiều tầng, xe buýt hai tầng, máy bay hai tầng.
+4. Các đường giao thông nhiều tầng trên mặt đất và dưới mặt đất.
+5. Các công trình dưới biển, dưới đáy sông, trong lòng đất.
+6. Loại tranh, tùy theo góc nhìn, thấy những hình khác nhau. Ti vi chiếu hai hình ảnh khác nhau tùy theo góc nhìn.
 
 Chuyện vui
 
@@ -777,15 +777,15 @@ Bộ rung áp điện là bộ dao động dựa trên hiệu ứng áp điện 
 
 Nhận xét
 
-1- Thủ thuật này liên quan trực tiếp đến việc sử dụng kiến thức. Dao động cơ học, sóng âm là những hiện tượng rất phổ biến trong tự nhiên. Để sử dụng tốt các hiện tượng, hiệu ứng này, cần có sự hiểu biết về chúng một cách khoa học.
-2- Việc học các kiến thức cần chú ý đào sâu khả năng ứng dụng của các kiến thức đó, cụ thể, khả năng giải quyết mâu thuẫn của các kiến thức đó. Ví dụ, dao động kiểu con lắc hay nguồn phát sóng âm cho ta sự thống nhất giữa xa và gần...
-3- Thủ thuật nhắc chú ý đến "những trường hợp đặc biệt" như cộng hưởng, siêu âm, hiệu ứng áp điện...
+1. Thủ thuật này liên quan trực tiếp đến việc sử dụng kiến thức. Dao động cơ học, sóng âm là những hiện tượng rất phổ biến trong tự nhiên. Để sử dụng tốt các hiện tượng, hiệu ứng này, cần có sự hiểu biết về chúng một cách khoa học.
+2. Việc học các kiến thức cần chú ý đào sâu khả năng ứng dụng của các kiến thức đó, cụ thể, khả năng giải quyết mâu thuẫn của các kiến thức đó. Ví dụ, dao động kiểu con lắc hay nguồn phát sóng âm cho ta sự thống nhất giữa xa và gần...
+3. Thủ thuật nhắc chú ý đến "những trường hợp đặc biệt" như cộng hưởng, siêu âm, hiệu ứng áp điện...
 
 Các ví dụ
 
-1- Quả chuông, ghế xích đu, võng, cầu bập bênh...... cho trẻ em chơi.
-2- Trong kỹ thuật dùng nhiều bộ rung tạo các dao động cơ học.
-3- Các loại đồ dùng massage trong gia đình như gối massage, ghế massage, giường massage......
+1. Quả chuông, ghế xích đu, võng, cầu bập bênh...... cho trẻ em chơi.
+2. Trong kỹ thuật dùng nhiều bộ rung tạo các dao động cơ học.
+3. Các loại đồ dùng massage trong gia đình như gối massage, ghế massage, giường massage......
 
 (Trong các thủ thuật nêu ra, đều có những ví dụ chuyên sâu trong khoa học kỹ thuật được ứng dụng. Tuy nhiên đây là topic được viết cho mọi đối tượng, nên tôi lược bỏ các ví dụ đó. Cái chính tôi muốn nêu lên các ý tưởng sáng tạo, để các cháu học sinh có thể hiểu và có thể tìm hiểu sâu hơn sau này)
 
@@ -807,20 +807,20 @@ c. Sử dụng khoảng thời gian giữa các xung để thực hiện tác đ
 
 Nhận xét
 
-1- Từ "tác động" cần hiểu rộng, không nhất thiết phải là lực mà có thể là bất kỳ ảnh hưởng nào.
+1. Từ "tác động" cần hiểu rộng, không nhất thiết phải là lực mà có thể là bất kỳ ảnh hưởng nào.
 
-2- Trong hiện thực khách quan có hai mặt đối lập: "liên tục" và "rời rạc" (ngắt quãng). Từ "xung" ở đây có thể hiểu là "rời rạc", "ngắt quãng".
+2. Trong hiện thực khách quan có hai mặt đối lập: "liên tục" và "rời rạc" (ngắt quãng). Từ "xung" ở đây có thể hiểu là "rời rạc", "ngắt quãng".
 
-3- Việc chuyển sang "chế độ xung" đem lại những tính chất mới mà "chế độ liên tục" không có, ví dụ, tạo sự thống nhất giữa có tác động và không có tác động, tăng tính tương hợp của hệ thống, tiết kiệm năng lượng, tăng độ tin cậy, tăng sự đa dạng.....
+3. Việc chuyển sang "chế độ xung" đem lại những tính chất mới mà "chế độ liên tục" không có, ví dụ, tạo sự thống nhất giữa có tác động và không có tác động, tăng tính tương hợp của hệ thống, tiết kiệm năng lượng, tăng độ tin cậy, tăng sự đa dạng.....
 
-4-Nguyên tắc tác động theo chu kỳ còn có ý nghiã đối với con người chứ không chỉ riêng đối với máy móc. Ví dụ, các kết quả nghiên cứu cho thấy, ánh sáng nhấp nháy, âm thanh thay đổi ngắt quãng gây sự chú ý tốt hơn là chiếu sáng liên tục hoặc âm thanh đều đều. Có một ngành gọi là "tâm lý học kỹ thuật" chuyên nghiên cứu những qui luật khách quan của các quá trình tương tác thông tin giữa người và kỹ thuật để thiết kế, chế tạo và vận hành các hệ thống " người- máy móc". Điều này làm tăng tính tương hợp giữa người và máy móc khi làm việc với nhau tạo ra kết quả tốt nhất, con người thấy thoải mái, dễ chịu, đỡ mệt mỏi.
+4. Nguyên tắc tác động theo chu kỳ còn có ý nghiã đối với con người chứ không chỉ riêng đối với máy móc. Ví dụ, các kết quả nghiên cứu cho thấy, ánh sáng nhấp nháy, âm thanh thay đổi ngắt quãng gây sự chú ý tốt hơn là chiếu sáng liên tục hoặc âm thanh đều đều. Có một ngành gọi là "tâm lý học kỹ thuật" chuyên nghiên cứu những qui luật khách quan của các quá trình tương tác thông tin giữa người và kỹ thuật để thiết kế, chế tạo và vận hành các hệ thống " người- máy móc". Điều này làm tăng tính tương hợp giữa người và máy móc khi làm việc với nhau tạo ra kết quả tốt nhất, con người thấy thoải mái, dễ chịu, đỡ mệt mỏi.
 
 Các ví dụ
 
-1- Các loại đèn chớp nháy dùng cho quảng cáo, khiêu vũ, tín hiệu báo động, giao thông......
-2- Các loại âm thanh báo hiệu như còi xe cấp cứu, cứu hoả, báo hiệu xe lùi, báo đổ chuông, máy bận của điện thoại.......
-3- Trong điện tử có bộ môn: kỹ thuật xung.
-4- Các công việc, yêu cầu có tính định kỳ như quảng cáo, lên lịch thực hiện định kỳ, ôn tập định kỳ trong học tập, giữ mối liên lạc với mọi người bằng email, điện thoại.....theo định kỳ.
+1. Các loại đèn chớp nháy dùng cho quảng cáo, khiêu vũ, tín hiệu báo động, giao thông......
+2. Các loại âm thanh báo hiệu như còi xe cấp cứu, cứu hoả, báo hiệu xe lùi, báo đổ chuông, máy bận của điện thoại.......
+3. Trong điện tử có bộ môn: kỹ thuật xung.
+4. Các công việc, yêu cầu có tính định kỳ như quảng cáo, lên lịch thực hiện định kỳ, ôn tập định kỳ trong học tập, giữ mối liên lạc với mọi người bằng email, điện thoại.....theo định kỳ.
 
 ### Minh họa vui:
 
@@ -838,19 +838,19 @@ c) Chuyển chuyển động tịnh tiến qua lại thành chuyển động qua
 
 Nhận xét
 
-1- Máy móc sinh ra để làm việc và đem lại lợi ích, vậy phải cải tiến sao cho đến từng bộ phận của máy phải luôn luôn làm việc để đem lại lợi ích và lợi ích ngày càng tăng cao. Điều này thể hiện ở chổ tăng năng suất, hiệu quả, tiết kiệm, thời gian, tăng tính tương hợp, độ bền , tuổi thọ....
-2- Nguyên tắc này phản ánh khuynh hướng phát triển, do vậy rất có tác dụng trong việc đánh giá, phê bình những giải pháp đã có, đặt và lực chọn những bài toán, dự báo về sự phát triển.
-3- Nguyên tắc liên tục tác động có ích - mang tính định hướng cao nên cần, nên cần biến nó thành cách nhìn, cách nghĩ, cách tiếp cận vấn đề mang tính thường trực và khỏi phát.
-4- Nguyên tắc này hay dùng với các thủ thuật khác như 1- nguyên tắc phân nhỏ, 2- nguyên tắc tách khỏi, 3-nguyên tắc phẩm chất cục bộ, 5- nguyên tắc kết hợp, 6- nguyên tắc vạn năng, 15- nguyên tắc linh động, 25-nguyên tắc tự phục vụ...
-5- Nguyên tắc liên tục tác động có ích còn thích hợp với chính người giải: cần làm sao để luôn luôn sống có ích, tránh "nhàn cư vi bất thiện, chú ý làm tăng mức độ có ích.
+1. Máy móc sinh ra để làm việc và đem lại lợi ích, vậy phải cải tiến sao cho đến từng bộ phận của máy phải luôn luôn làm việc để đem lại lợi ích và lợi ích ngày càng tăng cao. Điều này thể hiện ở chổ tăng năng suất, hiệu quả, tiết kiệm, thời gian, tăng tính tương hợp, độ bền , tuổi thọ....
+2. Nguyên tắc này phản ánh khuynh hướng phát triển, do vậy rất có tác dụng trong việc đánh giá, phê bình những giải pháp đã có, đặt và lực chọn những bài toán, dự báo về sự phát triển.
+3. Nguyên tắc liên tục tác động có ích - mang tính định hướng cao nên cần, nên cần biến nó thành cách nhìn, cách nghĩ, cách tiếp cận vấn đề mang tính thường trực và khỏi phát.
+4. Nguyên tắc này hay dùng với các thủ thuật khác như 1. nguyên tắc phân nhỏ, 2. nguyên tắc tách khỏi, 3. nguyên tắc phẩm chất cục bộ, 5. nguyên tắc kết hợp, 6. nguyên tắc vạn năng, 15. nguyên tắc linh động, 25-nguyên tắc tự phục vụ...
+5. Nguyên tắc liên tục tác động có ích còn thích hợp với chính người giải: cần làm sao để luôn luôn sống có ích, tránh "nhàn cư vi bất thiện, chú ý làm tăng mức độ có ích.
 
 Các ví dụ
 
-1- Ô tô vận tải, chuyến đi, chuyến về phải chở hàng, tránh chạy không.
+1. Ô tô vận tải, chuyến đi, chuyến về phải chở hàng, tránh chạy không.
 2-Ắc-quy phát điện lúc xe, tàu không hoạt động để thắp sáng hay dùng khởi động xe và tích điện bù lại khi động cơ làm việc.
-3-Tàu đánh cá kết hợp với chế biến, đóng hộp trên đường về.
-4-Tàu chở dầu kết hợp lọc dầu trên đường vận chuyển.
-5- Tiền phải luôn luôn xoay vòng sinh lợi.
+3. Tàu đánh cá kết hợp với chế biến, đóng hộp trên đường về.
+4. Tàu chở dầu kết hợp lọc dầu trên đường vận chuyển.
+5. Tiền phải luôn luôn xoay vòng sinh lợi.
 6-Các đồ dùng vật dụng chuyển từ sử dụng một lần sang sử dụng nhiều lần.
 ............
 
@@ -869,31 +869,31 @@ b. Vượt nhanh để có được hiệu ứng cần thiết.
 
 Nhận xét
 
-1- Nếu tác động là nguy hiểm, có hại thì có thể làm nó không còn có hại nữa bằng cách giảm thời gian tác động đến tối thiểu, nói cách khác, phải vượt thật nhanh để có độ an toàn cao.
+1. Nếu tác động là nguy hiểm, có hại thì có thể làm nó không còn có hại nữa bằng cách giảm thời gian tác động đến tối thiểu, nói cách khác, phải vượt thật nhanh để có độ an toàn cao.
 
-2- Trong nhiều trường hợp, đối tượng phải làm việc với những quá trình xảy ra nhanh. Để có sự phù hợp, để có được những kết quả cần thiết, bản thân đối tượng phải chuyển sang trạng thái "vượt nhanh".
+2. Trong nhiều trường hợp, đối tượng phải làm việc với những quá trình xảy ra nhanh. Để có sự phù hợp, để có được những kết quả cần thiết, bản thân đối tượng phải chuyển sang trạng thái "vượt nhanh".
 
-3- Tinh thần chung của nguyên tắc này là cần xem xét, chú ý đến khả năng làm tăng năng suất công việc.
+3. Tinh thần chung của nguyên tắc này là cần xem xét, chú ý đến khả năng làm tăng năng suất công việc.
 
-4- "Vượt nhanh" có thể đem lại những tính chất mới, hiệu ứng mới cho đối tượng, ví dụ, việc hạ nhiệt độ thật nhanh được áp dụng cho các quá trình tôi luyện hay để chế tạo các chất vô định hình.....
+4. "Vượt nhanh" có thể đem lại những tính chất mới, hiệu ứng mới cho đối tượng, ví dụ, việc hạ nhiệt độ thật nhanh được áp dụng cho các quá trình tôi luyện hay để chế tạo các chất vô định hình.....
 
-5- Nguyên tắc "vượt nhanh" tạo ra sự thống nhất giữa "có tác động" và "không có tác động"....
+5. Nguyên tắc "vượt nhanh" tạo ra sự thống nhất giữa "có tác động" và "không có tác động"....
 
-6- Nguyên tắc "vượt nhanh" thường hay dùng với các thủ thuật như 19. nguyên tắc tác động theo chu kỳ, 28- Thay thế sơ đồ cơ học, 34- Nguyên tắc phân hủy hoặc tái sinh các phần, 36- Sử dụng chuyển pha.....
+6. Nguyên tắc "vượt nhanh" thường hay dùng với các thủ thuật như 19. nguyên tắc tác động theo chu kỳ, 28. Thay thế sơ đồ cơ học, 34. Nguyên tắc phân hủy hoặc tái sinh các phần, 36. Sử dụng chuyển pha.....
 
 Các ví dụ
 
-1- Để tránh đau đớn cho bệnh nhân, những thao tác như tiêm chủng, nhổ răng, nắn khớp xương...thường làm rất nhanh.
+1. Để tránh đau đớn cho bệnh nhân, những thao tác như tiêm chủng, nhổ răng, nắn khớp xương...thường làm rất nhanh.
 
-2- Máy khoan răng có tần số vòng quay lớn.
+2. Máy khoan răng có tần số vòng quay lớn.
 
-3- Do yêu cầu công việc, người ta chế tạo các loại sơn, keo dán, xi măng .....mau khô.
+3. Do yêu cầu công việc, người ta chế tạo các loại sơn, keo dán, xi măng .....mau khô.
 
-4- Ghế ngồi phi công bật ra khỏi buồng lái rất nhanh khi máy bay bị sự cố làm rơi, nổ.
+4. Ghế ngồi phi công bật ra khỏi buồng lái rất nhanh khi máy bay bị sự cố làm rơi, nổ.
 
-5- Vượt nhanh là nguyên tắc hoạt động của các loại bẫy.
+5. Vượt nhanh là nguyên tắc hoạt động của các loại bẫy.
 
-6- Có những nghề nghiệp phải làm thật nhanh như cứu hoả, cấp cứu, ảo thuật......
+6. Có những nghề nghiệp phải làm thật nhanh như cứu hoả, cấp cứu, ảo thuật......
 ................
 
 Chuyện vui
@@ -913,27 +913,27 @@ c) Tăng cường tác nhân có hại đến mức nó không còn có hại n�
 
 Nhận xét
 
-1- "Lợi" và "hại" chỉ mang tính chủ quan và tương đối. Trên thực tế, đây chỉ là hai mặt đối lập của hiện thực khách quan, vấn đề là làm sao trong cái hại tìm ra được cái lợi phục vụ con người và hài hoá với tự nhiên.
+1. "Lợi" và "hại" chỉ mang tính chủ quan và tương đối. Trên thực tế, đây chỉ là hai mặt đối lập của hiện thực khách quan, vấn đề là làm sao trong cái hại tìm ra được cái lợi phục vụ con người và hài hoá với tự nhiên.
 
-2- Thủ thuật này có chỉ ra một loạt cách làm thế nào biết hại thành lợi. Từ "tăng cường" cần hiểu theo nghiã "thay đổi" cái có hại để biến thành lợi, chứ không đơn thuần là tăng mức độ có hại.
+2. Thủ thuật này có chỉ ra một loạt cách làm thế nào biết hại thành lợi. Từ "tăng cường" cần hiểu theo nghiã "thay đổi" cái có hại để biến thành lợi, chứ không đơn thuần là tăng mức độ có hại.
 
-3- Tinh thần chung của nguyên tắc này là lạc quan khi gặp những cái có hại. Thay vì chán nản, bực bội hãy đặt các câu hỏi đại loại như hại đối với cái gì? trong thời gian bao lâu, khi nào? ở đâu? Trong những điều kiện nào thì hại biến thành lợi? Tạo ra các điều kiện đó như thế nào?......Người ta thường nói rằng: "Không có hoàn cảnh nào là không có lối thoát, chỉ có con người không tìm ra lối thoát." Hay chủ tịch tập đoàn HuynDai của Hàn Quốc nói: "Không có thất bại, tất cả là thử thách". Mỗi khi khó khăn ập đến, ông luôn xem đó là cơ hội thử thách để vượt qua, chứ không là trở ngại buộc ông phải dừng lại.
+3. Tinh thần chung của nguyên tắc này là lạc quan khi gặp những cái có hại. Thay vì chán nản, bực bội hãy đặt các câu hỏi đại loại như hại đối với cái gì? trong thời gian bao lâu, khi nào? ở đâu? Trong những điều kiện nào thì hại biến thành lợi? Tạo ra các điều kiện đó như thế nào?......Người ta thường nói rằng: "Không có hoàn cảnh nào là không có lối thoát, chỉ có con người không tìm ra lối thoát." Hay chủ tịch tập đoàn HuynDai của Hàn Quốc nói: "Không có thất bại, tất cả là thử thách". Mỗi khi khó khăn ập đến, ông luôn xem đó là cơ hội thử thách để vượt qua, chứ không là trở ngại buộc ông phải dừng lại.
 
-4- Thủ thuật này hay dùng với các thủ thuật khác như: 2. nguyên tắc "tách khỏi", 5. nguyênt ắc kết hợp, 13- nguyên tắc đảo ngược......
+4. Thủ thuật này hay dùng với các thủ thuật khác như: 2. nguyên tắc "tách khỏi", 5. nguyênt ắc kết hợp, 13. nguyên tắc đảo ngược......
 
 Các thí dụ
 
-1- Người ta biến sức tàn phá của lũ lụt thành điện năng bằng cách xây dựng các hồ chứa nước và nhà máy thuỷ điện.
+1. Người ta biến sức tàn phá của lũ lụt thành điện năng bằng cách xây dựng các hồ chứa nước và nhà máy thuỷ điện.
 
-2- Nhiều loại thuốc độc với những liều lượng thích hợp lại có tác dụng điều trị bệnh tốt như thuốc phiện, nọc rắn, nọc ong.....
+2. Nhiều loại thuốc độc với những liều lượng thích hợp lại có tác dụng điều trị bệnh tốt như thuốc phiện, nọc rắn, nọc ong.....
 
-3- Dùng con đĩa để hút máu độc.
+3. Dùng con đĩa để hút máu độc.
 
-4- Tiêm vi trùng yếu (vacxin) vào cơ thể để tạo miễn dịch.
+4. Tiêm vi trùng yếu (vacxin) vào cơ thể để tạo miễn dịch.
 
-5- Ói mửa là có hại nhưng với những người quá say hay bị ngộ độc thức ăn thì lại có lợi.
+5. Ói mửa là có hại nhưng với những người quá say hay bị ngộ độc thức ăn thì lại có lợi.
 
-6- bài thơ
+6. bài thơ
 
 Lỗ mũi mười tám gánh lông
 Chồng yêu chồng bảo râu rồng trời cho
@@ -966,24 +966,24 @@ Thông thường, mỗi đối tượng (hệ thống) thực hiện một công
 
 Nhận xét
 
-1- Quan hệ phản hồi là khái niệm rất cơ bản của điều khiển học, có phạm vi ứng dụng rất rộng. Có thể nói, ở đâu cần có sự điều khiển (quản lý, ra quyết định), ở đó cần chú ý tạo lập quan hệ phản hồi và hoàn thiện nó.
+1. Quan hệ phản hồi là khái niệm rất cơ bản của điều khiển học, có phạm vi ứng dụng rất rộng. Có thể nói, ở đâu cần có sự điều khiển (quản lý, ra quyết định), ở đó cần chú ý tạo lập quan hệ phản hồi và hoàn thiện nó.
 
-2- Khi thành lập quan hệ phản hồi cần chú ý tận dụng những nguồn dự trữ có sẵn trong hệ để đưa ra cấu trúc tối ưu.
+2. Khi thành lập quan hệ phản hồi cần chú ý tận dụng những nguồn dự trữ có sẵn trong hệ để đưa ra cấu trúc tối ưu.
 
-3- Nguyên tắc này phản ánh khuynh hướng phát triển: làm tăng tính điều khiển đối tượng, tự động hoá cho nên rất có ích cho việc suy nghĩ định hướng hay lựa chọn bài toán, cách tiếp cận, dự báo.
+3. Nguyên tắc này phản ánh khuynh hướng phát triển: làm tăng tính điều khiển đối tượng, tự động hoá cho nên rất có ích cho việc suy nghĩ định hướng hay lựa chọn bài toán, cách tiếp cận, dự báo.
 
-4- Nguyên tắc này còn có tác dụng với chính người giải: thường xuyên rút kinh nghiệm dựa trên những tác động ngược lại, tự điều chỉnh để ngày càng tiến bộ, tránh mắc lại những sai lầm của chính mình và của người khác.
+4. Nguyên tắc này còn có tác dụng với chính người giải: thường xuyên rút kinh nghiệm dựa trên những tác động ngược lại, tự điều chỉnh để ngày càng tiến bộ, tránh mắc lại những sai lầm của chính mình và của người khác.
 
 Các ví dụ
 
-1- Phao xăng trong cacburatơ (bộ chế hoà khí) có tác dụng giữ xăng ở một mức nhất định.
-2- Các loại rờle đóng ngắt tự động cho máy làm việc hay ngừng; tùy theo nhiệt độ, cường độ dòng điện, mực nước, áp suất, độ ẩm.....
-3-Kính đeo mắt thay đổi độ trong suốt tùy theo cường độ ánh nắng mặt trời.
-4-Tên lửa tự tìm mục tiêu.
+1. Phao xăng trong cacburatơ (bộ chế hoà khí) có tác dụng giữ xăng ở một mức nhất định.
+2. Các loại rờle đóng ngắt tự động cho máy làm việc hay ngừng; tùy theo nhiệt độ, cường độ dòng điện, mực nước, áp suất, độ ẩm.....
+3. Kính đeo mắt thay đổi độ trong suốt tùy theo cường độ ánh nắng mặt trời.
+4. Tên lửa tự tìm mục tiêu.
 5-Các cuộc thăm dò ý kiến, điều tra xã hội học, trưng cầu dân ý nhằm xây dựng chính sách , quyết định của nhà nước.
-6- Mối quan hệ cung-cầu trong kinh tế.
-7- Động vật máu nóng, cơ thể có cơ chế tự động điều chỉnh để duy trì thân nhiệt ở một nhiệt độ nhất định.
-8- Xe máy tay ga tự động điều chỉnh cấp số truyền động theo tải và tốc độ.
+6. Mối quan hệ cung-cầu trong kinh tế.
+7. Động vật máu nóng, cơ thể có cơ chế tự động điều chỉnh để duy trì thân nhiệt ở một nhiệt độ nhất định.
+8. Xe máy tay ga tự động điều chỉnh cấp số truyền động theo tải và tốc độ.
 ..............
 
 Chuyện vui
@@ -1002,30 +1002,30 @@ Sử dụng đối tượng trung gian, chuyển tiếp.
 
 Nhận xét
 
-1- Mới thoạt nhìn ta thấy không thuận lắm, vì trung gian, chuyển tiếp thường gây phiền phức, tốn thêm chi phí.... (20. Nguyên tắc liên tục tác động có ích- khuyên chúng ta cần khắc phục vận hành không tải, trung gian). Ở đây cần hiểu là do tính lịch sử - cụ thể của các kiến thức, giải pháp đã biết, không cho phép người ta giải quyết vấn đề một cách trực tiếp. Vậy không nên cầu toàn, chờ đợi, mà nên giải quyết thông qua các đối tượng trung gian, chuyển tiếp. Tuy nhiên, khi điều kiện cho phép thì trung gian loại này nên bỏ.
+1. Mới thoạt nhìn ta thấy không thuận lắm, vì trung gian, chuyển tiếp thường gây phiền phức, tốn thêm chi phí.... (20. Nguyên tắc liên tục tác động có ích- khuyên chúng ta cần khắc phục vận hành không tải, trung gian). Ở đây cần hiểu là do tính lịch sử - cụ thể của các kiến thức, giải pháp đã biết, không cho phép người ta giải quyết vấn đề một cách trực tiếp. Vậy không nên cầu toàn, chờ đợi, mà nên giải quyết thông qua các đối tượng trung gian, chuyển tiếp. Tuy nhiên, khi điều kiện cho phép thì trung gian loại này nên bỏ.
 
 (Tự nhiên liên tưởng nếu hai người nào đó giận nhau thì người thứ ba làm trung gian lắng nghe, hoà giải sẽ rất có ích nhỉ.)
 
-2- Mặt khác, có những trường hợp, "trung gian" là sự đòi hỏi khách quan, thiếu nó hoạt động của hệ thống sẽ kém hiệu quả. Điều này liên quan đến quá trình phân công, chuyên môn hoá, ghép nối, sự cần thiết qui về một mối.... Ví dụ, tiền là hàng hoá trung gian, ta thử tưởng tượng không có tiền thì sự lưu thông trong kinh tế sẽ ra sao.
+2. Mặt khác, có những trường hợp, "trung gian" là sự đòi hỏi khách quan, thiếu nó hoạt động của hệ thống sẽ kém hiệu quả. Điều này liên quan đến quá trình phân công, chuyên môn hoá, ghép nối, sự cần thiết qui về một mối.... Ví dụ, tiền là hàng hoá trung gian, ta thử tưởng tượng không có tiền thì sự lưu thông trong kinh tế sẽ ra sao.
 
 (Liên tưởng đến hệ thống phân phối bán lẻ cần các nhà bán buôn trung gian.)
 
-3- Nhờ trung gian mà người ta có thể tạo nên sự thống nhất các mặt đối lập, loại trừ nhau nhưng lại mang lợi ích cho con người, nếu xét riêng rẽ từng mặt đối lập.
+3. Nhờ trung gian mà người ta có thể tạo nên sự thống nhất các mặt đối lập, loại trừ nhau nhưng lại mang lợi ích cho con người, nếu xét riêng rẽ từng mặt đối lập.
 
-4- Trong khi sử dụng, tìm kiếm "trung gian", đặc biệt cần chú ý các nguồn dự trữ có sẵn trong hệ, đặc biệt là những nguồn trời cho không mất tiền.
+4. Trong khi sử dụng, tìm kiếm "trung gian", đặc biệt cần chú ý các nguồn dự trữ có sẵn trong hệ, đặc biệt là những nguồn trời cho không mất tiền.
 
-5- "Trung gian" khách quan có thể cho thêm những tính chất, hiệu ứng mới, có những trường hợp, là dấu hiệu đánh giá mức phát triển. Ví dụ, các nước công nghiệp đều có hệ thống dịch vụ phát triển.
+5. "Trung gian" khách quan có thể cho thêm những tính chất, hiệu ứng mới, có những trường hợp, là dấu hiệu đánh giá mức phát triển. Ví dụ, các nước công nghiệp đều có hệ thống dịch vụ phát triển.
 
 ### Các thí dụ:
 
-1- Ổ cắm điện chuyển đổi từ dẹt sang tròn và ngược lại.....
-2- Các loại biến thế điện.
-3-Các chất xúc tác hoá học.
-4-Các dịch vụ trong xã hội mang tính trung gian.
-5- Trong tính toán toán học, có khi cần dùng số phức, hệ số nhị phân.....
-6- Tìm diệt những con vật trung gian truyền bệnh như chuột, muỗi.....
-7- Khi trình bày một vấn đề chuyên môn phức tạp, dùng những kiến thức hàng ngày gần gũi để minh hoạ......
-8- Trong xác định giấy tờ giả, giám định chữ ký rất khó, người ta sẽ giám định thông qua chữ viết dưới chữ ký.
+1. Ổ cắm điện chuyển đổi từ dẹt sang tròn và ngược lại.....
+2. Các loại biến thế điện.
+3. Các chất xúc tác hoá học.
+4. Các dịch vụ trong xã hội mang tính trung gian.
+5. Trong tính toán toán học, có khi cần dùng số phức, hệ số nhị phân.....
+6. Tìm diệt những con vật trung gian truyền bệnh như chuột, muỗi.....
+7. Khi trình bày một vấn đề chuyên môn phức tạp, dùng những kiến thức hàng ngày gần gũi để minh hoạ......
+8. Trong xác định giấy tờ giả, giám định chữ ký rất khó, người ta sẽ giám định thông qua chữ viết dưới chữ ký.
 ..........
 
 Chuyện vui
@@ -1048,23 +1048,23 @@ b) Sử dụng phế liệu, chát thải, năng lượng dư.
 
 Nhận xét
 
-1- Để đối tượng, ngoài việc thực hiện chức năng chính, còn thực hiện thêm những chức năng phụ trợ, cần chú ý sử dụng các nguồn dự trữ có sẵn trong hệ, đặc biệt, những nguồn dự trữ trời cho không mất tiền như lực trọng trường, nhiệt độ môi trường , độ ẩm, không khí....
-2- Do sự ô nhiễm môi trường, sự cạn kiệt dần các nguồn cung cấp tự nhiên, vấn đề sử dụng phế liệu, chất thải năng lượng dư ngày càng được chú ý giải quyết và đây cũng là một loại nguồn dự trữ cần khai thác. Về mặt lý tưởng, cần có một chu trình sản xuất khép kín.
-3- Nguyên tắc này hay được dùng với các nguyên tắc 2-nguyên tắc tách khỏi, 6- nguyên tắc vạn năng, 23- nguyên tắc quan hệ phản hồi...
-4- Nguyên tắc tự phục vụ phản ánh khuynh hướng phát triển: đối tượng dần tiến đến tự động thực hiện công việc hoàn toàn, nói cách khác, vai trò tham gia của con người sẽ dần tiến tới không. Cao hơn nữa, khi các đối tượng nhân tạo được thay thế bằng các quá trình có sẵn trong tự nhiên thì "tự phục vụ" sẽ đạt được mức lý tưởng.
-5- "Tự phục vụ" có nguyên nhân sâu xa là: các mâu thuẫn bên trong quyết định sự phát triển và sự vận động là tự thân vận động.
-6- Tinh thần của nguyên tắc này đặc biệt có ý nghiã đối với việc giáo dục, đào tạo. Phải làm sao để có được những con người biết tự học, tự rèn luyện, tự giác hành động theo những qui luật phát triển của hiện thực khác quan....
+1. Để đối tượng, ngoài việc thực hiện chức năng chính, còn thực hiện thêm những chức năng phụ trợ, cần chú ý sử dụng các nguồn dự trữ có sẵn trong hệ, đặc biệt, những nguồn dự trữ trời cho không mất tiền như lực trọng trường, nhiệt độ môi trường , độ ẩm, không khí....
+2. Do sự ô nhiễm môi trường, sự cạn kiệt dần các nguồn cung cấp tự nhiên, vấn đề sử dụng phế liệu, chất thải năng lượng dư ngày càng được chú ý giải quyết và đây cũng là một loại nguồn dự trữ cần khai thác. Về mặt lý tưởng, cần có một chu trình sản xuất khép kín.
+3. Nguyên tắc này hay được dùng với các nguyên tắc 2-nguyên tắc tách khỏi, 6. nguyên tắc vạn năng, 23. nguyên tắc quan hệ phản hồi...
+4. Nguyên tắc tự phục vụ phản ánh khuynh hướng phát triển: đối tượng dần tiến đến tự động thực hiện công việc hoàn toàn, nói cách khác, vai trò tham gia của con người sẽ dần tiến tới không. Cao hơn nữa, khi các đối tượng nhân tạo được thay thế bằng các quá trình có sẵn trong tự nhiên thì "tự phục vụ" sẽ đạt được mức lý tưởng.
+5. "Tự phục vụ" có nguyên nhân sâu xa là: các mâu thuẫn bên trong quyết định sự phát triển và sự vận động là tự thân vận động.
+6. Tinh thần của nguyên tắc này đặc biệt có ý nghiã đối với việc giáo dục, đào tạo. Phải làm sao để có được những con người biết tự học, tự rèn luyện, tự giác hành động theo những qui luật phát triển của hiện thực khác quan....
 
 ### Các thí dụ:
 
-1- Khi nhấc máy điện thoại bàn, lò xo bên trong máy đẩy lên nối công tắc, người gọi điện thoại có thể sử dụng được ngay. Ngược lại khi gác máy, lò xo bị nén xuống - ngắt mạch.
-2- Các ống hứng gió đặt trên mái nhà có phần giống như đuôi cá, giúp quay được ống khi gió đổi hướng, để làm sao ống luôn ở chế độ tối ưu.
-3- Loại vòi tưới rau hoặc tưới hoa, vừa phun nước vừa tự quay vòng tròn nên diện tích được tưới rất rộng và không cần có người.
-4- Autostop các loại. ví dụ, khi hết băng cassette, máy ghi âm tự động tắt.
-5- Sử dụng phân, rác làm khí đốt.
-6- Mô hình VAC (Vườn-Ao-Chuồng).
-7- Các cửa hàng tự giác, các nhà ăn tự phục vụ.
-8- Hệ thống bơm cấp nước và ngắt tự động.
+1. Khi nhấc máy điện thoại bàn, lò xo bên trong máy đẩy lên nối công tắc, người gọi điện thoại có thể sử dụng được ngay. Ngược lại khi gác máy, lò xo bị nén xuống - ngắt mạch.
+2. Các ống hứng gió đặt trên mái nhà có phần giống như đuôi cá, giúp quay được ống khi gió đổi hướng, để làm sao ống luôn ở chế độ tối ưu.
+3. Loại vòi tưới rau hoặc tưới hoa, vừa phun nước vừa tự quay vòng tròn nên diện tích được tưới rất rộng và không cần có người.
+4. Autostop các loại. ví dụ, khi hết băng cassette, máy ghi âm tự động tắt.
+5. Sử dụng phân, rác làm khí đốt.
+6. Mô hình VAC (Vườn-Ao-Chuồng).
+7. Các cửa hàng tự giác, các nhà ăn tự phục vụ.
+8. Hệ thống bơm cấp nước và ngắt tự động.
 
 Chuyện vui
 
@@ -1082,22 +1082,22 @@ c) Nếu không thể sử dụng bản sao quang học ở vùng biểu kiến 
 
 Nhận xét
 
-1- Từ "sao chép" cần hiểu theo nghiã rộng: phản ánh những cái chính của đối tượng, cần thiết cho việc giải bài toán, nếu như làm trực tiếp với đối tượng gặp khó khăn. Việc phản ánh đối tượng theo từng mặt, khiá cạnh, phương diện...rất có ích lợi trong việc đi tìm những cái tương tựgiữa những đối tượng khác nhau, thậm trí rất xa nhau. Mặt khác, đối tượng phản ánh chính là mô hình của đối tượng cho trước thường dễ "giải", dễ nghiên cứu hơn. Mô hình hoá là cách tiếp cận hiệu quả khi giải các bài toán khó.
+1. Từ "sao chép" cần hiểu theo nghiã rộng: phản ánh những cái chính của đối tượng, cần thiết cho việc giải bài toán, nếu như làm trực tiếp với đối tượng gặp khó khăn. Việc phản ánh đối tượng theo từng mặt, khiá cạnh, phương diện...rất có ích lợi trong việc đi tìm những cái tương tựgiữa những đối tượng khác nhau, thậm trí rất xa nhau. Mặt khác, đối tượng phản ánh chính là mô hình của đối tượng cho trước thường dễ "giải", dễ nghiên cứu hơn. Mô hình hoá là cách tiếp cận hiệu quả khi giải các bài toán khó.
 
-2- Đối tượng nhận được do sao chép, nhiều khi, có được thêm những tính chất mới mà trước đây đối tượng cũ không có như gọn, nhẹ, dễ bảo quản, lưu trữ....
+2. Đối tượng nhận được do sao chép, nhiều khi, có được thêm những tính chất mới mà trước đây đối tượng cũ không có như gọn, nhẹ, dễ bảo quản, lưu trữ....
 
-3- Nguyên tắc sao chép hay dùng với các thủ thuật 2-nguyên tắc tách khỏi, 17- nguyên tắc chuyển sang chiều khác, 24 nguyên tắc sử dụng trung gian, 27- nguyên tắc 'rẻ" thay cho "đắt", 28-nguyên tắc thay thế sơ đồ cơ học, 32-nguyên tắc thay đổi màu sắc......
+3. Nguyên tắc sao chép hay dùng với các thủ thuật 2-nguyên tắc tách khỏi, 17. nguyên tắc chuyển sang chiều khác, 24 nguyên tắc sử dụng trung gian, 27. nguyên tắc 'rẻ" thay cho "đắt", 28-nguyên tắc thay thế sơ đồ cơ học, 32-nguyên tắc thay đổi màu sắc......
 
-4- Nếu thường xuyên sử dụng bản sao, mô hình của đối tượng cần chú ý đề phòng tính ì tâm lý: coi mô hình chính là đối tượng thật, có trên thực tế, do vậy, có thể đi đến những kết luận chủ quan, duy ý chí.
+4. Nếu thường xuyên sử dụng bản sao, mô hình của đối tượng cần chú ý đề phòng tính ì tâm lý: coi mô hình chính là đối tượng thật, có trên thực tế, do vậy, có thể đi đến những kết luận chủ quan, duy ý chí.
 
 ### Các thí dụ:
 
-1- Các loại bản đồ, sơ đồ, hình vẽ, ảnh chụp, đồ thị....
-2- Các phép tương tự hoá.
-3- Các cách mô hình hoá.
-4- Sự bắt chước.
-5- Đóng kịch, đóng phim.
-6- Các cuộc điều tra xã hội học.
+1. Các loại bản đồ, sơ đồ, hình vẽ, ảnh chụp, đồ thị....
+2. Các phép tương tự hoá.
+3. Các cách mô hình hoá.
+4. Sự bắt chước.
+5. Đóng kịch, đóng phim.
+6. Các cuộc điều tra xã hội học.
 ................
 
 Chuyện vui về “Vua hề Sáclô”
@@ -1116,25 +1116,25 @@ Thay thế đối tượng đắt tiền bằng bộ các đối tượng rẻ c
 
 Nhận xét
 
-1- Có nhiều nguyên nhân dẫn đến việc cần tìm đối tượng rẻ tiền thay cho đối tượng đắt tiền, ví dụ như: dùng một lần để khỏi mất thời gian bảo trì sửa chữa. Đáp ứng được yêu cầu đông đảo của người tiêu dùng (vừa túi tiền). Các nguyên vật liệu lấy từ tự nhiên ngày càng khan hiếm, khó tái tạo, vậy cần đưa ra những cái nhân tạo, gần tương đương, tránh tàn phá môi trường....
+1. Có nhiều nguyên nhân dẫn đến việc cần tìm đối tượng rẻ tiền thay cho đối tượng đắt tiền, ví dụ như: dùng một lần để khỏi mất thời gian bảo trì sửa chữa. Đáp ứng được yêu cầu đông đảo của người tiêu dùng (vừa túi tiền). Các nguyên vật liệu lấy từ tự nhiên ngày càng khan hiếm, khó tái tạo, vậy cần đưa ra những cái nhân tạo, gần tương đương, tránh tàn phá môi trường....
 
-2- "Rẻ" thay cho "đắt" có thêm được những tính chất mới như có thể sản xuất nhanh, nhiều, thay đổi mẫu mã, kiểu dáng nhanh chóng, bảo đảm các điều kiện vệ sinh, tránh lây lan bệnh tật (vì chỉ dùng một lần)....
+2. "Rẻ" thay cho "đắt" có thêm được những tính chất mới như có thể sản xuất nhanh, nhiều, thay đổi mẫu mã, kiểu dáng nhanh chóng, bảo đảm các điều kiện vệ sinh, tránh lây lan bệnh tật (vì chỉ dùng một lần)....
 
-3- Về cách tiếp cận giải quyết vấn đề, nguyên tắc này đòi hỏi người giải không cứng nhắc, cầu toàn, chờ đợi điều kiện lý tưởng khi phải giải các bài toán khó.
+3. Về cách tiếp cận giải quyết vấn đề, nguyên tắc này đòi hỏi người giải không cứng nhắc, cầu toàn, chờ đợi điều kiện lý tưởng khi phải giải các bài toán khó.
 
-4- Cần chú ý tới khả năng nâng chất lượng kèm theo hạ giá thành của đối tượng. Để làm được việc này cần khai thác các nguồn dự trữ có sẵn, đặc biệt những nguồn dự trữ trời cho không mất tiền.
+4. Cần chú ý tới khả năng nâng chất lượng kèm theo hạ giá thành của đối tượng. Để làm được việc này cần khai thác các nguồn dự trữ có sẵn, đặc biệt những nguồn dự trữ trời cho không mất tiền.
 
 Các ví dụ
 
-1- Khăn lau tay, lau mặt dùng một lần rồi bỏ.
-2- Ly chén diã...bằng giấy hoặc nhựa rẻ tiền, dùng một lần, đảm bảo vệ sinh, dùng tại những nơi không có điều kiện rửa hoặc cần phải tiết kiệm thời gian.
-3- Ống và kim tiêm bằng nhựa dùng một lần rồi bỏ, bảo đảm không lây truyền bệnh, như viêm gan B, HIV.....
-4- Các loại vật liệu, sản phẩm giả như giả da, giả đồi mồi, răng giả, hoa giả.....
-5- Khuynh hướng dùng nhựa thay cho kim loại.
-6- Tàu, thuyền vỏ xi măng, lưới thép, composite.....
-7- Đùng cừ tràm thay cho đóng cọc bằng bê tông cốt thép.
-8- Các cảnh giả, hiệu ứng hình ảnh dùng trong đóng phim, kịch.....
-9- Các thí nghiệm dùng súc vật thay người.
+1. Khăn lau tay, lau mặt dùng một lần rồi bỏ.
+2. Ly chén diã...bằng giấy hoặc nhựa rẻ tiền, dùng một lần, đảm bảo vệ sinh, dùng tại những nơi không có điều kiện rửa hoặc cần phải tiết kiệm thời gian.
+3. Ống và kim tiêm bằng nhựa dùng một lần rồi bỏ, bảo đảm không lây truyền bệnh, như viêm gan B, HIV.....
+4. Các loại vật liệu, sản phẩm giả như giả da, giả đồi mồi, răng giả, hoa giả.....
+5. Khuynh hướng dùng nhựa thay cho kim loại.
+6. Tàu, thuyền vỏ xi măng, lưới thép, composite.....
+7. Đùng cừ tràm thay cho đóng cọc bằng bê tông cốt thép.
+8. Các cảnh giả, hiệu ứng hình ảnh dùng trong đóng phim, kịch.....
+9. Các thí nghiệm dùng súc vật thay người.
 .............
 
 Chuyện vui
@@ -1154,23 +1154,23 @@ d) Sử dụng các trường kết hợp với các hạt sắt từ.
 
 Nhận xét
 
-1- Nguyên tắc này phản ánh khuynh hướng phát triển: những gì trước đây và bây giờ còn là "cơ học" sẽ chuyển thành "không cơ học" (dùng điện, từ, điện từ, ánh sáng...), và những trường mới sẽ mang tính chất "phẩm chất cục bộ". Điều này sẽ làm tăng tính điều khiển và tăng tính hiệu quả của đối tượng vì có thể sử dụng những hiệu ứng ở mức vi mô.
+1. Nguyên tắc này phản ánh khuynh hướng phát triển: những gì trước đây và bây giờ còn là "cơ học" sẽ chuyển thành "không cơ học" (dùng điện, từ, điện từ, ánh sáng...), và những trường mới sẽ mang tính chất "phẩm chất cục bộ". Điều này sẽ làm tăng tính điều khiển và tăng tính hiệu quả của đối tượng vì có thể sử dụng những hiệu ứng ở mức vi mô.
 
-2- Do vậy, có thể dùng "thay thế sơ đồ cơ học" để đặt bài toán, dự báo về sự phát triển của đối tượng cho trước.
+2. Do vậy, có thể dùng "thay thế sơ đồ cơ học" để đặt bài toán, dự báo về sự phát triển của đối tượng cho trước.
 
-3- Thủ thuật đòi hỏi người giải phải chú ý để có được những kiến thức cần thiết về các khoa học tương ứng và sử dụng các hiệu ứng thích hợp trong các bài toán của mình. Ở đây cần đặc biệt tận dụng những ưu điểm, những mặt mạnh mà sơ đồ cơ học không có được.
+3. Thủ thuật đòi hỏi người giải phải chú ý để có được những kiến thức cần thiết về các khoa học tương ứng và sử dụng các hiệu ứng thích hợp trong các bài toán của mình. Ở đây cần đặc biệt tận dụng những ưu điểm, những mặt mạnh mà sơ đồ cơ học không có được.
 
 Các thí dụ
 
-1- Cần cẩu dùng móc và cần cẩu dùng nam châm điện.
+1. Cần cẩu dùng móc và cần cẩu dùng nam châm điện.
 2-Bộ đề khởi động xe gắn máy hay ô tô bằng điện thay cho đạp chân hay quay maniven (có lẽ là quay tay?!)
-3-Đồng hồ lên giây cót cơ học chuyển sang đồng hồ điện tử.
-4- Bàn tính, máy tính quay tay cơ học chuyển sang máy tính điện, điện tử, quang-điện tử.
-5- Cắt gọt kim loại bằng dao, cưa cơ học chuyển sang sử dụng tia lazer, plasma.
+3. Đồng hồ lên giây cót cơ học chuyển sang đồng hồ điện tử.
+4. Bàn tính, máy tính quay tay cơ học chuyển sang máy tính điện, điện tử, quang-điện tử.
+5. Cắt gọt kim loại bằng dao, cưa cơ học chuyển sang sử dụng tia lazer, plasma.
 6-Điều trị bằng các loại tia thay cho dao mổ.
 7-Xe chạy bằng bánh xe, bánh xích chuyển sang chạy trên đệm từ.
-8- Ghi, đọc, lưu trữ dữ liệu bằng băng từ, lazer....
-9- Nút bấm điện thoại di động dùng phím được thay bằng cảm ứng - chạm tay lên màn hình.
+8. Ghi, đọc, lưu trữ dữ liệu bằng băng từ, lazer....
+9. Nút bấm điện thoại di động dùng phím được thay bằng cảm ứng - chạm tay lên màn hình.
 ..........
 
 Chuyện vui
@@ -1191,31 +1191,31 @@ Thay cho các phần của đối tượng ở thể rắn, sử dụng các ch�
 
 ### Nhận xét
 
-1- Xét về một khiá cạnh nào đấy, các kết cấu khí và lỏng có những ưu điểm hơn chất rắn như linh động, dễ điều khiển, môi trường xung quanh luôn có nhiều không khí và nước, dễ khai thác.....
+1. Xét về một khiá cạnh nào đấy, các kết cấu khí và lỏng có những ưu điểm hơn chất rắn như linh động, dễ điều khiển, môi trường xung quanh luôn có nhiều không khí và nước, dễ khai thác.....
 
-2- Thủ thuật này đòi hỏi người giải phải có những kiến thức cần thiết về các chất khí và lỏng, vận dụng các hiệu ứng cần thiết, liên quan đến các chất khí và lỏng trong các bài toán của mình.
+2. Thủ thuật này đòi hỏi người giải phải có những kiến thức cần thiết về các chất khí và lỏng, vận dụng các hiệu ứng cần thiết, liên quan đến các chất khí và lỏng trong các bài toán của mình.
 
-3- Ở mức độ nào đó, thủ thuật này cũng phản ánh khuynh hướng phát triển: các kết cấu rắn bị thay thế bởi các kết cấu khí và lỏng. Do vậy trong khi giải các bài toán cần chú ý đến khả năng có thể thay thế và khắc phục tính ì tâm lý: quen coi các đối tượng kỹ thuật làm từ vật liệu rắn.
+3. Ở mức độ nào đó, thủ thuật này cũng phản ánh khuynh hướng phát triển: các kết cấu rắn bị thay thế bởi các kết cấu khí và lỏng. Do vậy trong khi giải các bài toán cần chú ý đến khả năng có thể thay thế và khắc phục tính ì tâm lý: quen coi các đối tượng kỹ thuật làm từ vật liệu rắn.
 
-4- Tinh thần chung của nguyên tắc này là thay thế cái cứng nhắc, gò bó, nặng nề bằng cái nhẹ, mềm dẻo, linh động.
+4. Tinh thần chung của nguyên tắc này là thay thế cái cứng nhắc, gò bó, nặng nề bằng cái nhẹ, mềm dẻo, linh động.
 
-5- Sử dụng được các kết cấu khí và lỏng, trên thực tế là khai thác những nguồn dự trữ có sẵn trong hệ và môi trường vì xung quanh chúng ta đâu cũng có nhiều khí và chất lỏng, ít ra, cũng dưới dạng không khí và nước các loại.
+5. Sử dụng được các kết cấu khí và lỏng, trên thực tế là khai thác những nguồn dự trữ có sẵn trong hệ và môi trường vì xung quanh chúng ta đâu cũng có nhiều khí và chất lỏng, ít ra, cũng dưới dạng không khí và nước các loại.
 
-6- "Sử dụng các kết cấu khí và lỏng" hay được dùng với 7-nguyên tắc "chứa trong", 8- nguyên tắc phản trọng lượng, 9- nguyên tắc gây ứng suất sơ bộ, 11-nguyên tắc dự phòng, 15-nguyên tắc linh động, 21- nguyên tắc vượt nhanh, 25 -nguyên tắc tự phục vụ, 30- sử dụng vỏ dẻo và màng mỏng, 32- Nguyên tắc thay đổi màu sắc...
+6. "Sử dụng các kết cấu khí và lỏng" hay được dùng với 7-nguyên tắc "chứa trong", 8. nguyên tắc phản trọng lượng, 9. nguyên tắc gây ứng suất sơ bộ, 11-nguyên tắc dự phòng, 15-nguyên tắc linh động, 21. nguyên tắc vượt nhanh, 25 -nguyên tắc tự phục vụ, 30- sử dụng vỏ dẻo và màng mỏng, 32. Nguyên tắc thay đổi màu sắc...
 
 ### Các thí dụ
 
-1- Dây cung, dây nỏ chuyển sang sử dụng bơm nén, súng hơi.
+1. Dây cung, dây nỏ chuyển sang sử dụng bơm nén, súng hơi.
 
-2- Các con thú đồ chơi, thay vì nhồi bông, rơm....người ta làm loại thú đồ chơi chỉ cần thổi lên.
+2. Các con thú đồ chơi, thay vì nhồi bông, rơm....người ta làm loại thú đồ chơi chỉ cần thổi lên.
 
-3- Các loại ghế hơi, giường hơi, nệm hơi.....
+3. Các loại ghế hơi, giường hơi, nệm hơi.....
 
-4- Bánh xe dạng rắn chuyển sang dạng hơi, phao gỗ chuyển sang phao khí.
+4. Bánh xe dạng rắn chuyển sang dạng hơi, phao gỗ chuyển sang phao khí.
 
-5- Các hệ thống đóng mở dùng khí nén nói chung hay các loại thiết bị dùng khí nén trong kỹ thuật.
+5. Các hệ thống đóng mở dùng khí nén nói chung hay các loại thiết bị dùng khí nén trong kỹ thuật.
 
-6- Tàu, xe chạy trên đệm không khí.
+6. Tàu, xe chạy trên đệm không khí.
 
 ### Chuyện vui
 
@@ -1233,23 +1233,23 @@ b) Cách ly đối tượng với môi trường bên ngoài bằng các vỏ d�
 
 ### Nhận xét
 
-1- Thủ thuật này liên quan đến bề mặt, lớp ngăn cách đối tượng, tại đó có những yêu cầu mà kết cấu khối không đáp ứng được hoặc đáp ứng nhưng với mức độ hiệu quả không lớn. Vỏ dẻo và màng mỏng có nhiều ưu điểm như nhẹ, linh động, chiếm ít không gian, có chức năng bảo vệ tốt, cho phép đối tượng có những bề mặt đa dạng về trang trí, mỹ thuật, tiết kiệm nguyên vật liệu....
+1. Thủ thuật này liên quan đến bề mặt, lớp ngăn cách đối tượng, tại đó có những yêu cầu mà kết cấu khối không đáp ứng được hoặc đáp ứng nhưng với mức độ hiệu quả không lớn. Vỏ dẻo và màng mỏng có nhiều ưu điểm như nhẹ, linh động, chiếm ít không gian, có chức năng bảo vệ tốt, cho phép đối tượng có những bề mặt đa dạng về trang trí, mỹ thuật, tiết kiệm nguyên vật liệu....
 
-2- Màng mỏng không đơn thuần là chuyển từ mô hình ba chiều thành hai chiều, cần chú ý "lượng đổi, chất đổi": xuất hiện những hiệu ứng mới, đặc thù riêng cho màng mỏng (đặc biệt ở mức vi mô)
+2. Màng mỏng không đơn thuần là chuyển từ mô hình ba chiều thành hai chiều, cần chú ý "lượng đổi, chất đổi": xuất hiện những hiệu ứng mới, đặc thù riêng cho màng mỏng (đặc biệt ở mức vi mô)
 
-3- "sử dụng vỏ dẻo và màng mỏng" hay dùng với các thủ thuật như 2-nguyên tắc tách khỏi, 3- nguyên tắc phẩm chất cục bộ, 11- nguyên tắc dự phòng, 27- nguyên tắc rẻ thay cho đắt, 29 -sử dụng kết cầu khí và lỏng, 31 -sử dụng các vật liệu nhiều lỗ, 32- Nguyên tắc thay đổi màu sắc...
+3. "sử dụng vỏ dẻo và màng mỏng" hay dùng với các thủ thuật như 2-nguyên tắc tách khỏi, 3. nguyên tắc phẩm chất cục bộ, 11. nguyên tắc dự phòng, 27. nguyên tắc rẻ thay cho đắt, 29 -sử dụng kết cầu khí và lỏng, 31 -sử dụng các vật liệu nhiều lỗ, 32. Nguyên tắc thay đổi màu sắc...
 
-4- Vật liệu hay dùng để chế tạo vỏ dẻo và màng mỏng thường là nhựa, cao su nhưng thật ra màng mỏng có thể được chế tạo từ bất kỳ vật liệu nào, nếu có sự cần thiết.
+4. Vật liệu hay dùng để chế tạo vỏ dẻo và màng mỏng thường là nhựa, cao su nhưng thật ra màng mỏng có thể được chế tạo từ bất kỳ vật liệu nào, nếu có sự cần thiết.
 
 ### Các ví dụ
 
-1- Các loại bao bì, túi nylong, áo đi mưa, khăn trải bàn nilong......
-2- Bià sách, lịch treo tường có phủ lớp nhựa mỏng bảo vệ tăng độ bền, ép plastic......
-3- Ống nhựa dẻo các loại.
-4- Lớp nhôm, bạc...... phủ làm gương.
-5- Điện tử học hiện đại với các mạch tổ hợp, trên thực tế là điện tử học màng mỏng.
-6- Các đồ dùng gia đình bằng nhựa.
-7- Các chất hoá học phun tạo màng...trong nông nghiệp, công nghiệp......
+1. Các loại bao bì, túi nylong, áo đi mưa, khăn trải bàn nilong......
+2. Bià sách, lịch treo tường có phủ lớp nhựa mỏng bảo vệ tăng độ bền, ép plastic......
+3. Ống nhựa dẻo các loại.
+4. Lớp nhôm, bạc...... phủ làm gương.
+5. Điện tử học hiện đại với các mạch tổ hợp, trên thực tế là điện tử học màng mỏng.
+6. Các đồ dùng gia đình bằng nhựa.
+7. Các chất hoá học phun tạo màng...trong nông nghiệp, công nghiệp......
 
 ### Chuyện vui
 
@@ -1268,26 +1268,26 @@ b) Nếu đối tượng đã có nhiều lỗ, sơ bộ tẩm nó bằng chất
 
 Nhận xét
 
-1- Vật liệu nhiều lỗ có nhiều ưu điểm như nhẹ, cách nhiệt, cách âm tốt, tiết kiệm nguyên vật liệu, có thể dùng làm những thiết bị lọc, có tổng diện tích nhỏ nhưng tổng diện tích các lỗ rất lớn.....
+1. Vật liệu nhiều lỗ có nhiều ưu điểm như nhẹ, cách nhiệt, cách âm tốt, tiết kiệm nguyên vật liệu, có thể dùng làm những thiết bị lọc, có tổng diện tích nhỏ nhưng tổng diện tích các lỗ rất lớn.....
 
-2- "Nhiều lỗ" cần hiểu theo nghiã rộng như chất rắn, dẻo, lỏng có nhiều khoảng trống nhỏ bên trong; thể tích, vỏ dẻo, màng mỏng...có nhiều lỗ.
+2. "Nhiều lỗ" cần hiểu theo nghiã rộng như chất rắn, dẻo, lỏng có nhiều khoảng trống nhỏ bên trong; thể tích, vỏ dẻo, màng mỏng...có nhiều lỗ.
 
-3- Nếu kích thước các lỗ đủ bé, cần chú ý đến những hiệu ứng mới có thể này sinh, thậm trí những hiệu ứng chỉ có ở mức vi mô
+3. Nếu kích thước các lỗ đủ bé, cần chú ý đến những hiệu ứng mới có thể này sinh, thậm trí những hiệu ứng chỉ có ở mức vi mô
 
-4- Các lỗ trống thường chứa không khí nên thủ thuật này nhắc sử dụng nguồn dự trữ dễ kiếm từ môi trường xung quanh.
+4. Các lỗ trống thường chứa không khí nên thủ thuật này nhắc sử dụng nguồn dự trữ dễ kiếm từ môi trường xung quanh.
 
-5- Việc tẩm các lỗ bằng những chất khác nhau có thể cho sự thống nhất mới giữa các mặt đối lập, rất cần thiết để giải quyết các mâu thuẫn, có trong bài toán cần giải.
+5. Việc tẩm các lỗ bằng những chất khác nhau có thể cho sự thống nhất mới giữa các mặt đối lập, rất cần thiết để giải quyết các mâu thuẫn, có trong bài toán cần giải.
 
-6- Thủ thuật này hay dùng với các thủ thuật 2 nguyên tắc tách khỏi, 3 nguyên tắc phẩm chất cục bộ, 5 nguyên tắc kết hợp, 7 nguyên tắc chứa trong, 30 sử dụng vỏ dẻo và màng mỏng, 34 nguyên tắc phân hủy hoặc tái sinh các phần....
+6. Thủ thuật này hay dùng với các thủ thuật 2 nguyên tắc tách khỏi, 3 nguyên tắc phẩm chất cục bộ, 5 nguyên tắc kết hợp, 7 nguyên tắc chứa trong, 30 sử dụng vỏ dẻo và màng mỏng, 34 nguyên tắc phân hủy hoặc tái sinh các phần....
 
 Các thí dụ
 
-1- Các loại bao bì, phương tiện đóng gói làm từ vật liệu xốp.
-2- Các tấm mút, đệm mút.....
-3- Các vách ngăn dùng cách âm, cách nhiệt.
-4- Bút dạ
-5- Dây cáp điện thoại có vỏ bọc xốp, tạo lớp không khí cách điện lý tưởng
-6- Tấm lót sàn nhà tắm nhiều lỗ vừa tạo ma sát tránh trơn trượt nhưng dễ thoát nước.
+1. Các loại bao bì, phương tiện đóng gói làm từ vật liệu xốp.
+2. Các tấm mút, đệm mút.....
+3. Các vách ngăn dùng cách âm, cách nhiệt.
+4. Bút dạ
+5. Dây cáp điện thoại có vỏ bọc xốp, tạo lớp không khí cách điện lý tưởng
+6. Tấm lót sàn nhà tắm nhiều lỗ vừa tạo ma sát tránh trơn trượt nhưng dễ thoát nước.
 ................
 
 Chuyện vui
@@ -1312,24 +1312,24 @@ e) Sử dụng các hình vẽ, ký hiệu thích hợp.
 
 ### Nhận xét
 
-1- Từ "trong suốt" cần được hiểu theo nghiã rộng, không chỉ riêng cho vùng biểu kiến.
-2- Trong năm giác quan của con người, thị giác phát triển và đóng vai trò quan trọng nhất: hơn 90% thông tin nhận được từ thế giớ bên ngoài và qua con đường thị giác. Nguyên tắc này, xét về mặt quan hệ với con người, liên quan đến bộ môn :"Tâm lý học kỹ thuật" (Xem phần nhận xét của thủ thuật 19. nguyên tắc tác động theo chu kỳ).
-3- Màu sắc có nhiều, do đó cần tránh thói quen chỉ sử dụng một loại màu nào đó. Cần qui ước mỗi loại màu tương ứng với cái gì, trên cơ sở đó dễ bao quát, xử lý thông tin nhanh.
-4- Các hình vẽ, ký hiệu thích hợp rất có tác dụng, giúp cho suy nghĩ thoáng, thấy được các mối liên hệ giữa các bộ phận. Nếu có thể, nên vẽ sơ đồ khối, chúng giúp không chỉ thấy cây mà còn thấy rừng.
-5- Nguyên tắc này còn liên quan đến những kiến thức về các hiện tượng phát quang, gây ra bởi các cách kích thích khác nhau. Cho nên cần chú ý đến những hiệu ứng thuộc loại này.
+1. Từ "trong suốt" cần được hiểu theo nghiã rộng, không chỉ riêng cho vùng biểu kiến.
+2. Trong năm giác quan của con người, thị giác phát triển và đóng vai trò quan trọng nhất: hơn 90% thông tin nhận được từ thế giớ bên ngoài và qua con đường thị giác. Nguyên tắc này, xét về mặt quan hệ với con người, liên quan đến bộ môn :"Tâm lý học kỹ thuật" (Xem phần nhận xét của thủ thuật 19. nguyên tắc tác động theo chu kỳ).
+3. Màu sắc có nhiều, do đó cần tránh thói quen chỉ sử dụng một loại màu nào đó. Cần qui ước mỗi loại màu tương ứng với cái gì, trên cơ sở đó dễ bao quát, xử lý thông tin nhanh.
+4. Các hình vẽ, ký hiệu thích hợp rất có tác dụng, giúp cho suy nghĩ thoáng, thấy được các mối liên hệ giữa các bộ phận. Nếu có thể, nên vẽ sơ đồ khối, chúng giúp không chỉ thấy cây mà còn thấy rừng.
+5. Nguyên tắc này còn liên quan đến những kiến thức về các hiện tượng phát quang, gây ra bởi các cách kích thích khác nhau. Cho nên cần chú ý đến những hiệu ứng thuộc loại này.
 6-Nguyên tắc thay đổi màu sắc hay sử dụng với các thủ thuật như 2.nguyên tắc tách khỏi, 3.nguyên tắc phẩm chất cục bộ, 10.nguyên tắc thực hiện sơ bộ, 26 nguyên tắc sao chép (copy)....
 
 ### Các ví dụ
 
-1- Băng keo trong suốt, dán trang sách bị rách mà vẫn đọc được.
-2- Các vật chứa trong suốt có thể nhìn thấy chất đựng bên trong.
-3- Các phòng làm việc có các bức tường trong suốt tiện lợi cho việc quan sát, bảo đảm tính công khai.
-4- Các chai lọ thuỷ tinh có những màu sắc khác nhau, thích hợp cho việc phân loại, bảo quản những chất đựng bên trong.
-5- Các màu sắc ký hiệu qui ước trong giao thông như đèn đỏ thì dừng, đèn xanh thì đi...hình đầu lâu xương chéo- coi chừng nguy hiểm.
-6- Trong các nhà máy lớn, những người làm công việc khác nhau mặc những bộ quần áo, màu sắc, kiểu dáng, phù hiệu khác nhau, để dễ theo dõi, kiểm tra chức năng, công việc.
-7- Bảng hiệu dùng sơn phát quang dễ nhìn trong bóng tối.
-8- Sử dụng các loại giấy với màu sắc khác nhau để qui ước tính chất công việc và để dễ kiểm tra, kiểm soát.
-9- Sử dụng màu sắc cho việc phân loại nhận diện.....
+1. Băng keo trong suốt, dán trang sách bị rách mà vẫn đọc được.
+2. Các vật chứa trong suốt có thể nhìn thấy chất đựng bên trong.
+3. Các phòng làm việc có các bức tường trong suốt tiện lợi cho việc quan sát, bảo đảm tính công khai.
+4. Các chai lọ thuỷ tinh có những màu sắc khác nhau, thích hợp cho việc phân loại, bảo quản những chất đựng bên trong.
+5. Các màu sắc ký hiệu qui ước trong giao thông như đèn đỏ thì dừng, đèn xanh thì đi...hình đầu lâu xương chéo- coi chừng nguy hiểm.
+6. Trong các nhà máy lớn, những người làm công việc khác nhau mặc những bộ quần áo, màu sắc, kiểu dáng, phù hiệu khác nhau, để dễ theo dõi, kiểm tra chức năng, công việc.
+7. Bảng hiệu dùng sơn phát quang dễ nhìn trong bóng tối.
+8. Sử dụng các loại giấy với màu sắc khác nhau để qui ước tính chất công việc và để dễ kiểm tra, kiểm soát.
+9. Sử dụng màu sắc cho việc phân loại nhận diện.....
 
 ### Chuyện vui
 
@@ -1351,19 +1351,19 @@ Những đối tượng, tương tác với đối tượng cho trước, phải
 
 Nhận xét
 
-1- Từ "đồng nhất" cần hiểu theo nghiã rộng, không đơn thuần đồng nhất về mặt vật liệu, như nghiã đen của thủ thuật. Tinh thần cùa thủ thuật này có thể hiểu là, phải làm sao bảo đảm và tăng tính tương hợp giữa những đối tượng, tương tác với đối tượng cho trước. Sự tương hợp này thể hiện ở nhiều mặt, không riêng gì về vật liệu.
-2- Tinh thần "tương hợp" có tính định hướng rất cao trong việc đánh giá, đặt bài toán và dự báo các bước phát triển tiếp theo của đối tượng, nhất là khi đối tượng chuyển lên phát triển ở mức hệ trên.
-3- Sự tương hợp, trên thực tế, là sự thống nhất mới của các mặt đối lập, cho phép đối tượng hoạt động một cách có hiệu quả hơn trước.
-4- Để tạo sự tương hợp, trước hết cần chú ý khai thác những nguồn dự trữ có sẵn trong đối tượng, đặc biệt những nguồn dự trữ trời cho không mất tiền.
+1. Từ "đồng nhất" cần hiểu theo nghiã rộng, không đơn thuần đồng nhất về mặt vật liệu, như nghiã đen của thủ thuật. Tinh thần cùa thủ thuật này có thể hiểu là, phải làm sao bảo đảm và tăng tính tương hợp giữa những đối tượng, tương tác với đối tượng cho trước. Sự tương hợp này thể hiện ở nhiều mặt, không riêng gì về vật liệu.
+2. Tinh thần "tương hợp" có tính định hướng rất cao trong việc đánh giá, đặt bài toán và dự báo các bước phát triển tiếp theo của đối tượng, nhất là khi đối tượng chuyển lên phát triển ở mức hệ trên.
+3. Sự tương hợp, trên thực tế, là sự thống nhất mới của các mặt đối lập, cho phép đối tượng hoạt động một cách có hiệu quả hơn trước.
+4. Để tạo sự tương hợp, trước hết cần chú ý khai thác những nguồn dự trữ có sẵn trong đối tượng, đặc biệt những nguồn dự trữ trời cho không mất tiền.
 
 ### Các thí dụ:
 
-1- Các loại keo làm từ cao su để dán cao su, tương tự như vậy, nhựa để hàn nhựa.....
-2- Phải chọn cùng nhóm máu mới truyền được.
-3- Các loại xe cần có thời gian chạy rôđa để các chi tiết mòn đều, khớp với nhau.
-4-Các loài vật sống trong môi trường có màu sắc như thế nào thì thường có màu lông, da như thế.
-5- Khi thay dây xích, người ta thay luôn bánh xích để bảo đảm sự tương hợp.
-6- Khi tìm hiểu, lấy lòng đối tượng nào, phải đồng nhất hoàn cảnh, suy nghĩ với đối tượng đó. "Đi với bụt mặc áo cà-sa, đi với ma mặc áo giấy."
+1. Các loại keo làm từ cao su để dán cao su, tương tự như vậy, nhựa để hàn nhựa.....
+2. Phải chọn cùng nhóm máu mới truyền được.
+3. Các loại xe cần có thời gian chạy rôđa để các chi tiết mòn đều, khớp với nhau.
+4. Các loài vật sống trong môi trường có màu sắc như thế nào thì thường có màu lông, da như thế.
+5. Khi thay dây xích, người ta thay luôn bánh xích để bảo đảm sự tương hợp.
+6. Khi tìm hiểu, lấy lòng đối tượng nào, phải đồng nhất hoàn cảnh, suy nghĩ với đối tượng đó. "Đi với bụt mặc áo cà-sa, đi với ma mặc áo giấy."
 .........
 
 ### Chuyện vui
@@ -1383,19 +1383,19 @@ b) Các phần mất mát của đối tượng phải được phục hồi tr�
 
 Nhận xét
 
-1- Nguyên tắc này là trường hợp đặc biệt của hai nguyên tắc 15. nguyên tắc linh động, 20.nguyên tắc liên tục tác động có ích: khi không còn có ích nữa thì phải linh động biến mất, ngược lại khi cần có tác động có ích thì phải linh động xuất hiện. Như vậy mới thật tối ưu.
-2- Với tinh thần trên, "Nguyên tắc phân hủy hoặc tái sinh các phần" có tính định hướng cao: đưa hệ (đối tượng) về phiá tăng mức độ lý tưởng. Do vậy nguyên tắc này rất có ích trong việc đánh giá, đặt bài toán và dự báo khuynh hướng phát triển của đối tượng....
-3- Cần chú ý tránh tạo ra những tiền lệ khó bỏ, mặc dù đối tượng không còn đóng vai trò gì có ích nữa, nhưng vẫn phải mất chi phí duy trì, bảo quản, chiếm những không gian không cần thiết.... Muốn vậy, cần phải nhìn trước, nghĩ trước, bao quát cả quá trình và những hậu quả có thể có.
-4- Nguyên tắc này hay dùng với các thủ thuật như 2.nguyên tắc 'tách khỏi", 3.nguyên tắc phẩm chất cục bộ, 9 nguyên tắc gây ứng suất sơ bộ. 10. nguyên tắc thực hiện sơ bộ, 11 nguyên tắc dự phòng, 25 nguyên trắc tự phục vụ, 35. Thay đổi các thông số hoá lý của đối tượng, 36. Sử dụng chuyển pha.....
-5- Để thực hiện việc phân hủy hoặc tái sinh , cần chú ý khai thác các nguồn dự trữ có sẵn trong hệ, đặc biệt những nguồn không mất tiền.
+1. Nguyên tắc này là trường hợp đặc biệt của hai nguyên tắc 15. nguyên tắc linh động, 20.nguyên tắc liên tục tác động có ích: khi không còn có ích nữa thì phải linh động biến mất, ngược lại khi cần có tác động có ích thì phải linh động xuất hiện. Như vậy mới thật tối ưu.
+2. Với tinh thần trên, "Nguyên tắc phân hủy hoặc tái sinh các phần" có tính định hướng cao: đưa hệ (đối tượng) về phiá tăng mức độ lý tưởng. Do vậy nguyên tắc này rất có ích trong việc đánh giá, đặt bài toán và dự báo khuynh hướng phát triển của đối tượng....
+3. Cần chú ý tránh tạo ra những tiền lệ khó bỏ, mặc dù đối tượng không còn đóng vai trò gì có ích nữa, nhưng vẫn phải mất chi phí duy trì, bảo quản, chiếm những không gian không cần thiết.... Muốn vậy, cần phải nhìn trước, nghĩ trước, bao quát cả quá trình và những hậu quả có thể có.
+4. Nguyên tắc này hay dùng với các thủ thuật như 2.nguyên tắc 'tách khỏi", 3.nguyên tắc phẩm chất cục bộ, 9 nguyên tắc gây ứng suất sơ bộ. 10. nguyên tắc thực hiện sơ bộ, 11 nguyên tắc dự phòng, 25 nguyên trắc tự phục vụ, 35. Thay đổi các thông số hoá lý của đối tượng, 36. Sử dụng chuyển pha.....
+5. Để thực hiện việc phân hủy hoặc tái sinh , cần chú ý khai thác các nguồn dự trữ có sẵn trong hệ, đặc biệt những nguồn không mất tiền.
 
 ### Các thí dụ:
 
-1- Giấy vệ sinh tự hủy, các loại bao bì tự huỷ mà ko làm hại môi trường.
-2- Chỉ khâu tự tiêu dùng trong phẫu thuật.
-3-Tên lửa nhiều tầng, dùng xong phần nào, vứt bỏ tầng ấy.
-4-Các máy bay khi tham chiến, vứt bỏ các thùng dầu phụ cho nhẹ.
-5- Loại dao tiện gồm nhiều lớp kim loại có độ cứng khác nhau để khi làm việc có độ mòn giống nhau. Kết quả, góc nhọn của lưỡi dao luôn luôn được tái tạo trong quá trình làm việc, do vậy, không cần phải mài lại nên lưỡi dao có thể dùng liên tục.
+1. Giấy vệ sinh tự hủy, các loại bao bì tự huỷ mà ko làm hại môi trường.
+2. Chỉ khâu tự tiêu dùng trong phẫu thuật.
+3. Tên lửa nhiều tầng, dùng xong phần nào, vứt bỏ tầng ấy.
+4. Các máy bay khi tham chiến, vứt bỏ các thùng dầu phụ cho nhẹ.
+5. Loại dao tiện gồm nhiều lớp kim loại có độ cứng khác nhau để khi làm việc có độ mòn giống nhau. Kết quả, góc nhọn của lưỡi dao luôn luôn được tái tạo trong quá trình làm việc, do vậy, không cần phải mài lại nên lưỡi dao có thể dùng liên tục.
 ................
 
 Chuyện vui
@@ -1414,19 +1414,19 @@ d) Thay đổi nhiệt độ, thể tích.
 
 Nhận xét
 
-1- "Trạng thái" cần hiểu theo nghiã rộng, không nhất thiết chỉ có rắn, khí, lòng, plasma.
-2- Khi thay đổi thông số, cần chú ý : lượng đổi, chất đổi" để có được những tính chất mới mà trước đây, đối tượng chưa có.
-3- Cần khắc phục tính ì tâm lý, quen nhìn đối tượng chỉ một trạng thái nào đó hay bắt gặp.
-4- Việc sử dụng các trạng thái khác nhau của đối tượng chính là sự thể hiện cụ thể của "khai thác các nguồn dự trữ có sẵn trong đối tượng".
-5- Người giải có thể áp dụng tinh thần của nguyên tắc này vào chính bản thân mình để có thể chủ động thay đổi các trạng thái tâm lý cho thích hợp với các tình huống, công việc...mà mình phải làm. Nói cách khác, rèn luyện để tự điều chỉnh mình.
+1. "Trạng thái" cần hiểu theo nghiã rộng, không nhất thiết chỉ có rắn, khí, lòng, plasma.
+2. Khi thay đổi thông số, cần chú ý : lượng đổi, chất đổi" để có được những tính chất mới mà trước đây, đối tượng chưa có.
+3. Cần khắc phục tính ì tâm lý, quen nhìn đối tượng chỉ một trạng thái nào đó hay bắt gặp.
+4. Việc sử dụng các trạng thái khác nhau của đối tượng chính là sự thể hiện cụ thể của "khai thác các nguồn dự trữ có sẵn trong đối tượng".
+5. Người giải có thể áp dụng tinh thần của nguyên tắc này vào chính bản thân mình để có thể chủ động thay đổi các trạng thái tâm lý cho thích hợp với các tình huống, công việc...mà mình phải làm. Nói cách khác, rèn luyện để tự điều chỉnh mình.
 
 Các thí dụ
 
-1- Để giữ thực phẩm tươi lâu, không hỏng, người ta làm đông lạnh chúng.
-2- Cũng với mục đích như vậy, người ta phơi khô hoặc ướp muối.
-3- Để dễ rèn, người ta nung sắt nóng đỏ.
-4- Để uốn gỗ, mây tre nứa, người ta đốt nóng chúng.
-5- Trong kỹ thuật, việc làm lạnh sâu có thể mang lại những tính chất mới cho đối tượng. Dây đàn vĩ cầm ngâm trong ni tơ lỏng vài tiếng đồng hồ có âm thanh tốt hơn, có thể sử dụng lâu hơn mà không phải lên dây đàn lại. Banh đánh golf ngâm ni tơ lỏng có thể bay xa hơn banh thường 20-30 mét.
+1. Để giữ thực phẩm tươi lâu, không hỏng, người ta làm đông lạnh chúng.
+2. Cũng với mục đích như vậy, người ta phơi khô hoặc ướp muối.
+3. Để dễ rèn, người ta nung sắt nóng đỏ.
+4. Để uốn gỗ, mây tre nứa, người ta đốt nóng chúng.
+5. Trong kỹ thuật, việc làm lạnh sâu có thể mang lại những tính chất mới cho đối tượng. Dây đàn vĩ cầm ngâm trong ni tơ lỏng vài tiếng đồng hồ có âm thanh tốt hơn, có thể sử dụng lâu hơn mà không phải lên dây đàn lại. Banh đánh golf ngâm ni tơ lỏng có thể bay xa hơn banh thường 20-30 mét.
 .............
 
 Chuyện vui
@@ -1447,18 +1447,18 @@ Sử dụng các hiện tượng nảy sinh trong quá trình chuyển pha như 
 
 Nhận xét
 
-1- Từ "pha" cần hiểu nghiã rộng như "trạng thái" trong thủ thuật 35. Thay đổi các thông số hoá lý của đối tượng.
-2- Nguyên tắc này khác với nguyên tắc 35 ở chỗ, không sử dụng hoặc "pha" này hoặc "pha" kia, mà sử dụng những hiệu ứng nảy sinh chính vào lúc chuyển pha, thường là những hiệu ứng mang tính nhảy vọt.
-3- Ở đây, người giải cần có những kiến thức về quá trình chuyển pha cùng các hiệu ứng để có thể dùng chúng trong lời giải bài toán của mình một cách có ích lợi nhất
-4- "Sử dụng chuyển pha" cũng là một cách cụ thể hoá việc " sử dụng những nguồn dự trữ có sẵn trong đối tượng".
-5- Tinh thần của nguyên tắc này đòi hỏi người giải phải khắc phục tính ì tâm lý, quen nhìn đối tượng ở dạng "trạng thái cân bằng" mà không để ý những gì nảy sinh trong các quá trình chuyển trạng thái, "thời kỳ quá độ". Bản thân quá trình chuyển trạng thái là quá trình phức tạp với những qui luật đặc thù của nó mà trong khuôn khổ của topic này, người viết không đi vào chi tiết.
-6- Đối với người giải, trong quá trình rèn luyện để làm chủ mình, cần có sự chú ý xứng đáng đến những "hiệu ứng" nảy sinh do chuyển trạng thái mà có. Những hiệu ứng này có thể "dương" mà cũng có thể "âm". "Dương" thì cần phát huy khai thác, "âm" cần có biện pháp hạn chế, khắc phục.
+1. Từ "pha" cần hiểu nghiã rộng như "trạng thái" trong thủ thuật 35. Thay đổi các thông số hoá lý của đối tượng.
+2. Nguyên tắc này khác với nguyên tắc 35 ở chỗ, không sử dụng hoặc "pha" này hoặc "pha" kia, mà sử dụng những hiệu ứng nảy sinh chính vào lúc chuyển pha, thường là những hiệu ứng mang tính nhảy vọt.
+3. Ở đây, người giải cần có những kiến thức về quá trình chuyển pha cùng các hiệu ứng để có thể dùng chúng trong lời giải bài toán của mình một cách có ích lợi nhất
+4. "Sử dụng chuyển pha" cũng là một cách cụ thể hoá việc " sử dụng những nguồn dự trữ có sẵn trong đối tượng".
+5. Tinh thần của nguyên tắc này đòi hỏi người giải phải khắc phục tính ì tâm lý, quen nhìn đối tượng ở dạng "trạng thái cân bằng" mà không để ý những gì nảy sinh trong các quá trình chuyển trạng thái, "thời kỳ quá độ". Bản thân quá trình chuyển trạng thái là quá trình phức tạp với những qui luật đặc thù của nó mà trong khuôn khổ của topic này, người viết không đi vào chi tiết.
+6. Đối với người giải, trong quá trình rèn luyện để làm chủ mình, cần có sự chú ý xứng đáng đến những "hiệu ứng" nảy sinh do chuyển trạng thái mà có. Những hiệu ứng này có thể "dương" mà cũng có thể "âm". "Dương" thì cần phát huy khai thác, "âm" cần có biện pháp hạn chế, khắc phục.
 
 Các thí dụ
 
-1- Người ta thường cho nước đá vào các đồ uống giải khát để làm mát chúng. Ở đây sử dụng hiện tượng hấp thu nhiệt lượng khi nước chuyển từ trạng thái rắn sang trạng thái lỏng.
-2- Từ pha lỏng chuyển sang pha khí (nhờ đốt cháy hay đun nóng), thể tích của đối tượng tăng lên nhiều lần, có thể dùng để thực hiện công cơ học. Đây là nguyên tắc của các động cơ như máy hơi nước, động cơ đốt trong, động cơ phản lực.
-3- Trước đây người ta chế tạo lưỡng kim bằng phương pháp đúc, tráng và cán. Sau này người ta chuyển sang phương phápghép các vật liệu bằng cách tạo ra các vụ nổ trong khuôn kín để có thể nhận được các vật liệu nhiều lớp, có độ dày mong muốn.
+1. Người ta thường cho nước đá vào các đồ uống giải khát để làm mát chúng. Ở đây sử dụng hiện tượng hấp thu nhiệt lượng khi nước chuyển từ trạng thái rắn sang trạng thái lỏng.
+2. Từ pha lỏng chuyển sang pha khí (nhờ đốt cháy hay đun nóng), thể tích của đối tượng tăng lên nhiều lần, có thể dùng để thực hiện công cơ học. Đây là nguyên tắc của các động cơ như máy hơi nước, động cơ đốt trong, động cơ phản lực.
+3. Trước đây người ta chế tạo lưỡng kim bằng phương pháp đúc, tráng và cán. Sau này người ta chuyển sang phương phápghép các vật liệu bằng cách tạo ra các vụ nổ trong khuôn kín để có thể nhận được các vật liệu nhiều lớp, có độ dày mong muốn.
 ........
 
 Chuyện vui
@@ -1481,20 +1481,20 @@ b) Nếu đã dùng sự nở nhiệt, sử dụng với vật liệu có các h
 
 Nhận xét
 
-1- Nguyên tắc này liên quan đến việc sử dụng các kiến thức, cụ thể, liên quan đến những hiệu ứng nở (hay co) nhiệt của các vật liệu. Do vậy, người giải cần chú ý "nắm" những kiến thức cần thiết để có thể sử dụng chúng trong quá trình giải các bài toán của mình: các hiệu ứng nói riêng, các kiến thức nói chung đều có tác dụng giải quyết những mâu thuẫn có trong bài toán.
-2- Tuy "nhiệt học" là bộ môn khoa học tương đối cổ nhưng với thời gian nó vẫn phát hiện thêm những hiệu ứng mới, bất ngờ, có nhiều tính chất thú vị, có thể áp dụng trong các sáng chế, ví dụ, hiệu ứng "trí nhớ" của kim loại.....
-3- Cần chú ý khai thác các nguồn tạo nhiệt hoặc hấp thu nhiệt có sẵn trong môi trường xung quanh như ánh sáng mặt trời, nhiệt độ môi trường.....
-4- Sự nở (hay co) nhiệt tạo nên sự thống nhất mới giữa các mặt đối lập như: ngắn và dài, thẳng và cong, nóng và lạnh......
-5- Ngoài ra, thủ thuật này còn khuyên người giải sử dụng kết hợp những vật liệu có các hệ số nở nhiệt khác nhau. Việc kết hợp này có thể làm tăng hiệu quả hoặc có được những tính chất mới.
+1. Nguyên tắc này liên quan đến việc sử dụng các kiến thức, cụ thể, liên quan đến những hiệu ứng nở (hay co) nhiệt của các vật liệu. Do vậy, người giải cần chú ý "nắm" những kiến thức cần thiết để có thể sử dụng chúng trong quá trình giải các bài toán của mình: các hiệu ứng nói riêng, các kiến thức nói chung đều có tác dụng giải quyết những mâu thuẫn có trong bài toán.
+2. Tuy "nhiệt học" là bộ môn khoa học tương đối cổ nhưng với thời gian nó vẫn phát hiện thêm những hiệu ứng mới, bất ngờ, có nhiều tính chất thú vị, có thể áp dụng trong các sáng chế, ví dụ, hiệu ứng "trí nhớ" của kim loại.....
+3. Cần chú ý khai thác các nguồn tạo nhiệt hoặc hấp thu nhiệt có sẵn trong môi trường xung quanh như ánh sáng mặt trời, nhiệt độ môi trường.....
+4. Sự nở (hay co) nhiệt tạo nên sự thống nhất mới giữa các mặt đối lập như: ngắn và dài, thẳng và cong, nóng và lạnh......
+5. Ngoài ra, thủ thuật này còn khuyên người giải sử dụng kết hợp những vật liệu có các hệ số nở nhiệt khác nhau. Việc kết hợp này có thể làm tăng hiệu quả hoặc có được những tính chất mới.
 
 Các thí dụ
 
-1- Các loại nhiệt kế sử dụng hiệu ứng nở nhiệt.
-2- Để tạo chân không trong ống giác, người ta hơ nóng để không khí bên trong nở ra, thoát bớt ra ngoài. Sau đó, người ta áp sát vào đối tượng. Khi ống giác nguội, phần còn lại của không khí trong ống giác co lại, áp suất giảm, tạo nên lực hút.
-3- Đèn kéo quân chuyển động được nhờ đốt nóng không khí và có sự đối lưu.
-4- Quả bóng bàn bị móp méo, để làm tròn lại có thể cho vào nước sôi.
-5- Còi báo hiệu nước sôi gắn trên nắp ấm đun nước
-6- Các loại rờ-le đóng ngắt mạch điện nhờ vào sự giãn nở của tấm kim loại lưỡng kim.....
+1. Các loại nhiệt kế sử dụng hiệu ứng nở nhiệt.
+2. Để tạo chân không trong ống giác, người ta hơ nóng để không khí bên trong nở ra, thoát bớt ra ngoài. Sau đó, người ta áp sát vào đối tượng. Khi ống giác nguội, phần còn lại của không khí trong ống giác co lại, áp suất giảm, tạo nên lực hút.
+3. Đèn kéo quân chuyển động được nhờ đốt nóng không khí và có sự đối lưu.
+4. Quả bóng bàn bị móp méo, để làm tròn lại có thể cho vào nước sôi.
+5. Còi báo hiệu nước sôi gắn trên nắp ấm đun nước
+6. Các loại rờ-le đóng ngắt mạch điện nhờ vào sự giãn nở của tấm kim loại lưỡng kim.....
 
 Chuyện vui
 
@@ -1516,16 +1516,16 @@ d) Thay ôxy giàu ôzôn (hoặc ôxy bị ion hoá) bằng chính ôzôn.
 
 Nhận xét
 
-1- Ôxy rất cần cho sự cháy, nổ, thực hiện các phản ứng cần thiết, cho sự sống, thường được dùng để 1- Làm các quá trình xảy ra nhanh hơn, 2- tạo các lớp ôxít bảo vệ, 3- Cải tạo môi trường bị ô nhiễm, 4- chống các vi trùng kị khí. Hàng năm, riêng các nước phát triển sử dụng tới hơn 50 tỷ mét khối ôxy, gần một nửa là dùng trong luyện kim.
+1. Ôxy rất cần cho sự cháy, nổ, thực hiện các phản ứng cần thiết, cho sự sống, thường được dùng để 1. Làm các quá trình xảy ra nhanh hơn, 2. tạo các lớp ôxít bảo vệ, 3. Cải tạo môi trường bị ô nhiễm, 4. chống các vi trùng kị khí. Hàng năm, riêng các nước phát triển sử dụng tới hơn 50 tỷ mét khối ôxy, gần một nửa là dùng trong luyện kim.
 
-2- Ôxy có trong không khí, trong nước. Do vậy, thủ thuật này cũng mang tính nhắc nhở sử dụng những nguồn dự trữ có sẵn trong môi trường.
+2. Ôxy có trong không khí, trong nước. Do vậy, thủ thuật này cũng mang tính nhắc nhở sử dụng những nguồn dự trữ có sẵn trong môi trường.
 
-3- Chú ý sự tăng "nhịp độ" trong việc sử dụng ôxy: không khí - không khí giàu ôxy - ôxy bị ion hoá- ôzôn. Tinh thần của nhịp độ này, trong nhiều trường hợp, cũng cần áp dụng cho các loại tác động khác. Ở đây có sự chú ý tăng về chất chứ không phải tăng về lượng.
+3. Chú ý sự tăng "nhịp độ" trong việc sử dụng ôxy: không khí - không khí giàu ôxy - ôxy bị ion hoá- ôzôn. Tinh thần của nhịp độ này, trong nhiều trường hợp, cũng cần áp dụng cho các loại tác động khác. Ở đây có sự chú ý tăng về chất chứ không phải tăng về lượng.
 
 Thí dụ:
 
-1- Các bình nén chứa ôxy dùng cho cắt hàn kim loại, dùng cho y tế.
-2- Người Nga đã thí nghiệm thấy rằng, nếu cho heo uống loại nước ga đặc biệt: hỗn hợp nước và ôxy hoà tan thì chúng tăng trọng một cách đáng kể.
+1. Các bình nén chứa ôxy dùng cho cắt hàn kim loại, dùng cho y tế.
+2. Người Nga đã thí nghiệm thấy rằng, nếu cho heo uống loại nước ga đặc biệt: hỗn hợp nước và ôxy hoà tan thì chúng tăng trọng một cách đáng kể.
 (Các ví dụ khác quá chuyên sâu về kỹ thuật công nghiệp nên xin không nêu ra tại đây)
 
 Chuyện vui
@@ -1546,21 +1546,21 @@ c) Thực hiện quá trình trong chân không.
 
 Nhận xét
 
-1- Thủ thuật này có phần ngược với 38. sử dụng các chất ôxy hoá mạnh, được sử dụng để tránh nhũng quá trình ôxy hoá không mong muốn.
-2- Ngoài ra, trong thủ thuật còn có ý sử dụng các chất phụ gia (chất độn), không làm ảnh hưởng xấu, ngược lại bổ sung thêm cho hoạt động của đối tượng. Sử dụng các chất phụ gia thích hợp, người giải có thêm được những tính chất mới, so với việc không dùng chất phụ gia.
-3- Môi trường chân không là môi trường có nhiều ưu điểm như: rất sạch, cách nhiệt, cách điện rất tốt, tạo được lực hút mạnh.....
-4- Thủ thuật, phần nào, cũng cụ thể hoá việc xem xét khả năng và sử dụng các nguồn dự trữ có sẵn để giải bài toán.
-5- "Thay đổi độ trơ" có thể dùng để giải quyết các mâu thuẫn như ít mà nhiều, nhỏ mà lớn...
+1. Thủ thuật này có phần ngược với 38. sử dụng các chất ôxy hoá mạnh, được sử dụng để tránh nhũng quá trình ôxy hoá không mong muốn.
+2. Ngoài ra, trong thủ thuật còn có ý sử dụng các chất phụ gia (chất độn), không làm ảnh hưởng xấu, ngược lại bổ sung thêm cho hoạt động của đối tượng. Sử dụng các chất phụ gia thích hợp, người giải có thêm được những tính chất mới, so với việc không dùng chất phụ gia.
+3. Môi trường chân không là môi trường có nhiều ưu điểm như: rất sạch, cách nhiệt, cách điện rất tốt, tạo được lực hút mạnh.....
+4. Thủ thuật, phần nào, cũng cụ thể hoá việc xem xét khả năng và sử dụng các nguồn dự trữ có sẵn để giải bài toán.
+5. "Thay đổi độ trơ" có thể dùng để giải quyết các mâu thuẫn như ít mà nhiều, nhỏ mà lớn...
 
 Thí dụ
 
-1- Các loại bóng đèn được hút chân không hoặc được bơm các khí trơ.
-2- Các loại bình có hai thành, giữa hút chân không, dùng đựng nước sôi hay giữ các chất lạnh.\
-3- Các cái giác hút dạng phễu, dùng gắn lên kính hay gạch men......
-4- Các biến thế điện ngâm trong môi trường dầu.
-5- Các loại thuốc, ở đó, với mục đích bảo quản tốt, người ta thay không khí thường bằng CO2
-6- Các chất và các cách kìm hãm sự ăn mòn của kim loại trong công nghiệp
-7- Ống hút chân không dạng ống tiêm dùng cho các nhà thám hiểm, hút chất độc nơi vết thương khi bị côn trùng, rắn độc.....cắn.
+1. Các loại bóng đèn được hút chân không hoặc được bơm các khí trơ.
+2. Các loại bình có hai thành, giữa hút chân không, dùng đựng nước sôi hay giữ các chất lạnh.\
+3. Các cái giác hút dạng phễu, dùng gắn lên kính hay gạch men......
+4. Các biến thế điện ngâm trong môi trường dầu.
+5. Các loại thuốc, ở đó, với mục đích bảo quản tốt, người ta thay không khí thường bằng CO2
+6. Các chất và các cách kìm hãm sự ăn mòn của kim loại trong công nghiệp
+7. Ống hút chân không dạng ống tiêm dùng cho các nhà thám hiểm, hút chất độc nơi vết thương khi bị côn trùng, rắn độc.....cắn.
 ............
 
 Chuyện vui
@@ -1583,20 +1583,20 @@ Vật liệu hợp thành (composite), là loại vật liệu gồm nhiều th�
 
 ### Nhận xét:
 
-1- Hướng nghiên cứu, chế tạo các loại vật liệu mới, có những tính chất độc đáo, thoả mãn các nhu cầu phát triển luôn mang tính thời sự. Các vật liệu hợp thành, do tạo được tính hệ thống, càng ngày càng được sử dụng rộng rãi trong kỹ thuật và đời sống.
+1. Hướng nghiên cứu, chế tạo các loại vật liệu mới, có những tính chất độc đáo, thoả mãn các nhu cầu phát triển luôn mang tính thời sự. Các vật liệu hợp thành, do tạo được tính hệ thống, càng ngày càng được sử dụng rộng rãi trong kỹ thuật và đời sống.
 
-2- Tinh thần chung của nguyên tắc này là chú ý đến tính hệ thống (tính chất không thể qui về thành tính chất của từng thành phần riêng rẽ) và tính mới.
+2. Tinh thần chung của nguyên tắc này là chú ý đến tính hệ thống (tính chất không thể qui về thành tính chất của từng thành phần riêng rẽ) và tính mới.
 Một mặt khai thác những nguồn dự trữ có sẵn, bằng cách thay đổi sắp xếp, tổ chức nhằm đạt được những tính chất mới, mặt khác, luôn chú ý đến sự đổi mới vì "những gì đang hoạt động có nghiã là lạc hậu", ở đây có sự chi phối của qui luật "phủ định của phủ định".
 
-3- Thủ thuật này hay dùng với 1.nguyên tắc phân nhỏ, 3. nguyên tắc phẩm chất cục bộ, 5. nguyên tắc kết hợp, 6.nguyên tắc vạn năng, 10.nguyên tắc thực hiện sơ bộ, 25 nguyên tắc tự phục vụ, 27.nguyên tắc "rẻ" thay cho "đắt", 31. sử dụng vật liệu nhiểu lỗ....
+3. Thủ thuật này hay dùng với 1.nguyên tắc phân nhỏ, 3. nguyên tắc phẩm chất cục bộ, 5. nguyên tắc kết hợp, 6.nguyên tắc vạn năng, 10.nguyên tắc thực hiện sơ bộ, 25 nguyên tắc tự phục vụ, 27.nguyên tắc "rẻ" thay cho "đắt", 31. sử dụng vật liệu nhiểu lỗ....
 
 ### Các thí dụ:
 
-1- Nhựa có cốt là sợi cacbon được dùng làm vỏ các động cơ phản lực, các cánh quạt của máy bay trực thăng vì chúng có độ bền cao. Robot có cánh tay máy dùng lắp ráp đồ điện tử, làm từ các loại polime có cốt cacbon, làm việc nhanh hơn, robot nhẹ hơn so với các robot có cánh tay làm bằng kim loại.
+1. Nhựa có cốt là sợi cacbon được dùng làm vỏ các động cơ phản lực, các cánh quạt của máy bay trực thăng vì chúng có độ bền cao. Robot có cánh tay máy dùng lắp ráp đồ điện tử, làm từ các loại polime có cốt cacbon, làm việc nhanh hơn, robot nhẹ hơn so với các robot có cánh tay làm bằng kim loại.
 
-2- Vật liệu trên còn làm gậy trượt tuyết vì bền và nhẹ hơn so với gậy nhôm, gậy trúc. Sào nhảy cao cũng vậy.
+2. Vật liệu trên còn làm gậy trượt tuyết vì bền và nhẹ hơn so với gậy nhôm, gậy trúc. Sào nhảy cao cũng vậy.
 
-3- Nhựa có cốt là sợi thuỷ tinh dùng chế tạo thân tàu ngầm 5 chổ ngồi ở Anh. Đây là tàu ngầm nhẹ nhất, chống ăn mòn cao, cơ động nhanh.
+3. Nhựa có cốt là sợi thuỷ tinh dùng chế tạo thân tàu ngầm 5 chổ ngồi ở Anh. Đây là tàu ngầm nhẹ nhất, chống ăn mòn cao, cơ động nhanh.
 ...............
 
 ### Chuyện vui
