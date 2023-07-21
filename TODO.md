@@ -11,7 +11,9 @@ https://methodpoet.com/best-code-coverage-tools/
 https://github.com/iswunistuttgart/awesome-opcua#test-clients  
 https://github.com/matkonnerth/opcuatesttool  
 https://www.opclabs.com/resources/239-developer-blog/1002-automated-testing-of-opc-clients-using-the-ctt  
-https://opcfoundation.org/developer-tools/certification-test-tools/opc-classic-compliance-test-tool-ctt
+https://opcfoundation.org/developer-tools/certification-test-tools/opc-classic-compliance-test-tool-ctt  
+
+https://katalon.com/resources-center/blog/top-5-free-api-testing-tools
 
 
 ### Asynchronous File I/O
