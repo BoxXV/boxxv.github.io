@@ -7,6 +7,13 @@ https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage
 https://methodpoet.com/best-code-coverage-tools/
 
 
+### Automated Testing of OPC Clients
+https://github.com/iswunistuttgart/awesome-opcua#test-clients  
+https://github.com/matkonnerth/opcuatesttool  
+https://www.opclabs.com/resources/239-developer-blog/1002-automated-testing-of-opc-clients-using-the-ctt  
+https://opcfoundation.org/developer-tools/certification-test-tools/opc-classic-compliance-test-tool-ctt
+
+
 ### Asynchronous File I/O
 https://stackoverflow.com/questions/3507770/write-to-a-file-from-multiple-threads-asynchronously-c-sharp
 https://briancaos.wordpress.com/2021/01/12/write-to-file-from-multiple-threads-async-with-c-and-net-core/
@@ -48,6 +55,7 @@ https://howkteam.vn/course/khoa-hoc-lap-trinh-c-nang-cao/multi-threading-da-luon
 * documentation
 * security
 
+https://web.dev/learn/pwa/offline-data/  
 https://www.mongodb.com/docs/manual/reference/local-database/
 
 
@@ -89,6 +97,10 @@ https://developer.android.com/training/data-storage/room
 
 #### Pocket database
 https://pocketbase.io
+
+
+### ReSharper
+The Visual Studio Extension for .NET Developers
 
 
 ## Doing
