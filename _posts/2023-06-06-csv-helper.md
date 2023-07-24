@@ -90,7 +90,7 @@ Lớp CsvConfiguration có chứa nhiều tùy biến cho việc đọc file CSV
 - HasHeaderRecord: nếu giá trị này là true thì dòng đầu tiên sẽ được coi là dòng tên cột. Giá trị mặc định của tùy biến này là true. Có thể các bạn sẽ nghĩ tất nhiên phải có dòng tên cột, nếu không thì làm sao CsvHelper map được cột với property? Câu trả lời sẽ có ở phần sau.
 - Quote: ký tự quote trong file CSV file. Giá trị mặc định là ".
 - IgnoreBlankLines: nếu giá trị này là true thì các dòng trống sẽ bị bỏ qua. Giá trị mặc định là true.
-- Delimiter: ký tự phân cách giữa các trường. Giá trị mặc định là , (vì CSV là viết tắt của COMMA-separated values).
+- Delimiter: ký tự phân cách giữa các trường. Giá trị mặc định là, (vì CSV là viết tắt của COMMA-separated values).
 - DetectDelimiter: nếu giá trị này là true thì CsvHelper sẽ tự động phát hiện ký tự phân tách mà không dùng giá trị của Delimiter. Giá trị mặc định là false.
 - Encoding: kiểu encoding mà file CSV sử dụng.
 
@@ -315,7 +315,7 @@ Bây giờ, hãy tạo một lớp mô hình có tên là *Employee*. Lớp này
 
 <ins>Lưu ý</ins>: Chúng tôi đã tạo lớp mô hình Nhân viên chỉ cho mục đích trình diễn. Bạn có thể sử dụng bất kỳ lớp mô hình nào bạn cần cho dự án của mình.
 
-Bây giờ, chúng tôi tạo một dịch vụ để đọc các tệp CSV bằng gói CSVHelper NuGet. Đối với điều này, hãy tạo một thư mục có tên *Services* trong thư mục gốc. Sau đó, tạo giao diện có tên `ICSVService` , tương tự như mẫu tiếp theo.
+Bây giờ, chúng tôi tạo một dịch vụ để đọc các tệp CSV bằng gói CSVHelper NuGet. Đối với điều này, hãy tạo một thư mục có tên *Services* trong thư mục gốc. Sau đó, tạo giao diện có tên `ICSVService`, tương tự như mẫu tiếp theo.
 
 {% highlight js %}
 public interface ICSVService
@@ -426,7 +426,7 @@ public class CSVService : ICSVService
 }
 {% endhighlight %}
 
-Trong phương thức WriteCSV , [StreamWriter](https://learn.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=net-6.0) được sử dụng để tạo và ghi tệp theo đường dẫn được chỉ định trong tham số. CsvWriter được sử dụng để tạo các tệp CSV thực bằng cách sử dụng phiên bản StreamWriter đã tạo. Phương thức WriteRecords ghi tất cả dữ liệu vào tệp.
+Trong phương thức *WriteCSV*, [StreamWriter](https://learn.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=net-6.0) được sử dụng để tạo và ghi tệp theo đường dẫn được chỉ định trong tham số. CsvWriter được sử dụng để tạo các tệp CSV thực bằng cách sử dụng phiên bản StreamWriter đã tạo. Phương thức WriteRecords ghi tất cả dữ liệu vào tệp.
 
 Bây giờ, hãy sử dụng `EmployeeController` để tạo yêu cầu HttpPost để tạo và ghi tệp CSV.
 
@@ -482,3 +482,8 @@ Tham khảo:
 - [Đọc file CSV bằng C# với CsvHelper](https://duongnt.com/read-csv-helper-vie/)
 - [Handling CSV Files in ASP.NET Core Web APIs](https://dev.to/syncfusion/handling-csv-files-in-aspnet-core-web-apis-4jj7)
 - [Writing to CSV-file from multiple threads](https://gunnarpeipman.com/write-csv-from-multiple-threads/)
+- [Xem trước nội dung file CSV với papaparse](https://viblo.asia/p/xem-truoc-noi-dung-file-csv-voi-papaparse-157G5n9ZvAje)
+- [Jordan Parses Large CSVs](https://dev.to/aarmora/jordan-parses-large-csvs-3eb2)
+- [Building a Generic CSV Writer/Reader Using Reflection](https://www.pluralsight.com/guides/building-a-generic-csv-writer-reader-using-reflection)
+- [Reading a CSV File](https://joshclose.github.io/CsvHelper/getting-started/#reading-a-csv-file)
+- [The fastest CSV parser in .NET](https://www.joelverhagen.com/blog/2020/12/fastest-net-csv-parsers)
