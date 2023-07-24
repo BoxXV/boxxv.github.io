@@ -17,6 +17,7 @@ Thoạt nghe qua thì việc đọc file CSV không có vẻ gì là khó khăn,
 
 Các bạn có thể tải code ví dụ trong bài này từ link dưới đây. [https://github.com/duongntbk/CsvHelperDemo](https://github.com/duongntbk/CsvHelperDemo)
 
+CSVHelper là một thư viện .NET mã nguồn mở để đọc và ghi các tệp CSV. Nó nhanh chóng, linh hoạt và dễ sử dụng. Chúng tôi có thể đọc và ghi các tệp CSV bằng lớp mô hình. Ngoài ra, một số cấu hình có thể ánh xạ lớp mô hình với các tiêu đề của tệp CSV, nếu được yêu cầu.
 
 ### Cài đặt CsvHelper
 
@@ -25,6 +26,10 @@ Chạy lệnh dưới đây để cài CsvHelper.
 ```bat
 dotnet add package CsvHelper --version 30.0.1
 ```
+
+![CsvHelper](https://boxxv.github.io/img/2023/Installing-the-CSVHelper-package.jpg "CsvHelper")
+
+![CsvHelper](https://boxxv.github.io/img/2023/Navigating-to-the-Browse-tab-in-the-NuGet-section.png "CsvHelper")
 
 
 ### Đọc file CSV bằng CsvHelper
@@ -276,7 +281,7 @@ var data = csv.GetRecords<PersonV2>();
 
 ### Đọc file CSV một cách không đồng bộ
 
-CsvHelper cũng cho phép ta đọc file CSV một cách không đồng bộ. Thay vì dùng hàm GetRecords, ta có thể dùng hàm GetRecordsAsync. Giá trị trả về sẽ có kiểu là IAsyncEnumerable<T>.
+CsvHelper cũng cho phép ta đọc file CSV một cách không đồng bộ. Thay vì dùng hàm `GetRecords`, ta có thể dùng hàm `GetRecordsAsync`. Giá trị trả về sẽ có kiểu là `IAsyncEnumerable<T>`.
 
 {% highlight js %}
 var fileName = @"<đường dẫn tới file CSV>";
@@ -301,7 +306,171 @@ using (var fs = File.Open(fileName, FileMode.Open, FileAccess.Read, FileShare.Re
 }
 {% endhighlight %}
 
-Khi dùng IAsyncEnumerable và await foreach, vòng lặp của ta sẽ không block trong khi đợi đọc phần tử tiếp theo từ data.
+Khi dùng `IAsyncEnumerable` và `await foreach`, vòng lặp của ta sẽ không `block` trong khi đợi đọc phần tử tiếp theo từ data.
+
+
+### Đọc tệp CSV bằng CSVHelper với bất kỳ lớp mô hình nào
+
+Bây giờ, hãy tạo một lớp mô hình có tên là *Employee*. Lớp này được sử dụng để đọc và ghi tệp CSV.
+
+<ins>Lưu ý</ins>: Chúng tôi đã tạo lớp mô hình Nhân viên chỉ cho mục đích trình diễn. Bạn có thể sử dụng bất kỳ lớp mô hình nào bạn cần cho dự án của mình.
+
+Bây giờ, chúng tôi tạo một dịch vụ để đọc các tệp CSV bằng gói CSVHelper NuGet. Đối với điều này, hãy tạo một thư mục có tên *Services* trong thư mục gốc. Sau đó, tạo giao diện có tên `ICSVService` , tương tự như mẫu tiếp theo.
+
+{% highlight js %}
+public interface ICSVService
+{
+   public IEnumerable<T> ReadCSV<T>(Stream file);
+}
+{% endhighlight %}
+
+Tạo một lớp có tên là `CSVService`, kế thừa từ `ICSVService`.
+
+{% highlight js %}
+public class CSVService : ICSVService
+{
+    public IEnumerable<T> ReadCSV<T>(Stream file)
+    {
+        var reader = new StreamReader(file);
+        var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+
+        var records = csv.GetRecords<T>();
+        return records;
+    }
+}
+{% endhighlight %}
+
+Chúng tôi đã sử dụng một chung cấp phương thức để xử lý lớp mô hình. Chúng tôi có thể sử dụng phương pháp này với bất kỳ lớp mô hình nào để đọc tệp CSV. Chúng tôi cũng đã chuyển luồng tệp dưới dạng tham số cho phương thức ReadCSV . StreamReader đọc văn bản và ký tự từ luồng tệp. Sau đó, chúng tôi đã sử dụng CsvReader để chuyển nội dung đã đọc từ StreamReader vào bộ nhớ. Sau đó, phương thức GetRecords trả về dữ liệu của tệp CSV. Chúng tôi không cần bất kỳ cấu hình nào nếu tên thuộc tính lớp của chúng tôi khớp với tiêu đề của tệp CSV.
+
+Sau tất cả những điều này, hãy đăng ký dịch vụ CSV trong Program.cs, như được hiển thị trong mã tiếp theo.
+
+{% highlight js %}
+builder.Services.AddScoped<ICSVService, CSVService>();
+{% endhighlight %}
+
+Tiếp theo, tạo một lớp trình điều khiển có tên là `EmployeeController` bên trong thư mục *Controllers*. Sau đó, tạo yêu cầu HttpPost để đọc tệp CSV bằng `ICSVService`.
+
+{% highlight js %}
+[ApiController]
+[Route("[controller]")]
+public class EmployeeController : Controller
+{
+   private readonly ICSVService _csvService;
+
+   public EmployeeController(ICSVService csvService)
+   {
+       _csvService = csvService;
+   }
+
+   [HttpPost("read-employees-csv")]
+   public async Task<IActionResult> GetEmployeeCSV([FromForm] IFormFileCollection file)
+    {
+        var employees = _csvService.ReadCSV<Employee>(file[0].OpenReadStream());
+
+        return Ok(employees);
+    }
+}
+{% endhighlight %}
+
+Chúng tôi đã thêm `ICSVService` để sử dụng thao tác đọc cho các tệp CSV. Ngoài ra, `EmployeeController` sử dụng thuộc tính `ApiController` để triển khai bộ điều khiển API Web trong ASP.NET Core. Sau đó, chúng tôi đã sử dụng phương thức `ReadCSV` của CSVService để lấy dữ liệu của tệp CSV sau khi đọc.
+
+Đầu tiên, hãy chạy ứng dụng. Sau đây là ảnh chụp màn hình của tệp CSV mà chúng tôi sử dụng để đọc dữ liệu.
+
+![CsvHelper](https://boxxv.github.io/img/2023/Reading-CSV-files-using-CSVHelper.png "CsvHelper")
+
+Sau đó, chạy điểm cuối read-employees-csv để đọc tệp CSV như trong hình dưới đây.
+
+![CsvHelper](https://boxxv.github.io/img/2023/Running-the-read-employees-csv-endpoint-to-read-the-CSV.png "CsvHelper")
+
+Ở đây chúng tôi đã đính kèm tệp CSV mà chúng tôi sử dụng để chạy tệp đọc.
+
+![CsvHelper](https://boxxv.github.io/img/2023/Attaching-the-CSV-file-we-used-to-run-the-read.png "CsvHelper")
+
+Chúng tôi đã nhận được phản hồi sau khi chạy API thành công.
+
+
+### Viết tệp CSV bằng CSVHelper
+
+Chúng tôi sử dụng `CSVService` để tạo phương thức ghi CSV bằng `CSVHelper`. Đối với điều này, hãy thêm một phương thức trừu tượng có tên là `WriteCSV` trong giao diện `ICSVService`.
+
+{% highlight js %}
+public interface ICSVService
+{
+    public IEnumerable<T> ReadCSV<T>(Stream file);
+    void WriteCSV<T>(List<T> records);
+}
+{% endhighlight %}
+
+Sau đó, triển khai phương thức WriteCSV trong lớp CSVService như trong đoạn mã sau.
+
+{% highlight js %}
+public class CSVService : ICSVService
+{
+    public IEnumerable<T> ReadCSV<T>(Stream file)
+    {
+        var reader = new StreamReader(file);
+        var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+
+        var records = csv.GetRecords<T>();
+        return records;
+    }
+
+    public void WriteCSV<T>(List<T> records)
+    {
+        using (var writer = new StreamWriter("D:\\file.csv"))
+        using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+        {
+            csv.WriteRecords(records);
+        }
+    }
+}
+{% endhighlight %}
+
+Trong phương thức WriteCSV , [StreamWriter](https://learn.microsoft.com/en-us/dotnet/api/system.io.streamwriter?view=net-6.0) được sử dụng để tạo và ghi tệp theo đường dẫn được chỉ định trong tham số. CsvWriter được sử dụng để tạo các tệp CSV thực bằng cách sử dụng phiên bản StreamWriter đã tạo. Phương thức WriteRecords ghi tất cả dữ liệu vào tệp.
+
+Bây giờ, hãy sử dụng `EmployeeController` để tạo yêu cầu HttpPost để tạo và ghi tệp CSV.
+
+{% highlight js %}
+[ApiController]
+[Route("[controller]")]
+public class EmployeeController : Controller
+{
+    private readonly ICSVService _csvService;
+
+    public EmployeeController(ICSVService csvService)
+    {
+        _csvService = csvService;
+    }
+
+    [HttpPost("write-employee-csv")]
+    public async Task<IActionResult> WriteEmployeeCSV([FromBody] List<Employee> employees)
+    {
+        _csvService.WriteCSV<Employee>(employees);
+
+        return Ok();
+    }
+
+    [HttpPost("read-employees-csv")]
+    public async Task<IActionResult> GetEmployeeCSV([FromForm] IFormFileCollection file)
+    {
+        var employees = _csvService.ReadCSV<Employee>(file[0].OpenReadStream());
+
+        return Ok(employees);
+    }
+}
+{% endhighlight %}
+
+Chúng tôi đã triển khai yêu cầu HttpPost mới để ghi tệp CSV bằng phương thức `WriteCSV` của CSVService.
+
+Hãy chạy ứng dụng Web API. Sau đó, chúng tôi chạy điểm cuối `write-employee-csv` để kiểm tra dịch vụ.
+
+![CsvHelper](https://boxxv.github.io/img/2023/Writing-CSV-files-using-CSVHelper.png "CsvHelper")
+
+Chúng tôi đã sử dụng Swagger để chạy và kiểm tra API để viết CSV. Chúng tôi đã thông qua một danh sách với hai đối tượng nhân viên.
+
+Và như vậy là chúng ta đã tạo thành công một file CSV trong đường dẫn thư mục. Dữ liệu nhân viên nằm trong tệp CSV, như trong hình tiếp theo.
+
+![CsvHelper](https://boxxv.github.io/img/2023/Output-of-the-created-CSV-file-in-the-directory-path-1.png "CsvHelper")
 
 ### Kết thúc
 
@@ -310,4 +479,6 @@ Tôi đã dùng `CsvHelper` trong nhiều dự án thực tế, và thư viện 
 
 -----
 Tham khảo:
+- [Đọc file CSV bằng C# với CsvHelper](https://duongnt.com/read-csv-helper-vie/)
+- [Handling CSV Files in ASP.NET Core Web APIs](https://dev.to/syncfusion/handling-csv-files-in-aspnet-core-web-apis-4jj7)
 - [Writing to CSV-file from multiple threads](https://gunnarpeipman.com/write-csv-from-multiple-threads/)
