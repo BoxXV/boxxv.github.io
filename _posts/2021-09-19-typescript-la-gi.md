@@ -62,7 +62,7 @@ JavaScript đã đủ tốt và bạn có thể tự hỏi: Liệu tôi có th�
 Cách dễ nhât để thiết lập TypeScript là thông qua npm. Sử dụng lệnh dưới đây có thể cài đặt TypeScript package toàn cục, giúp cho trình biên dịch TypeScript có thể sử dụng trong mọi dự án của chúng ta:
 
 ```bat
-npm install -g typescriptjavascript:void(0)
+npm install -g typescript
 ```
 
 Thử mở một cửa sổ terminal ở bất kỳ đâu và chạy lệnh **tsc -v** , nếu cài đặt thành công màn hình sẽ như thế này:
