@@ -16,7 +16,7 @@ Tôi đang viết [tài liệu và trình xuất siêu dữ liệu](https://gunn
 > Bài đăng này sử dụng thư viện [CsvHelper](https://joshclose.github.io/CsvHelper/) để ghi các đối tượng vào tệp CSV. Lần trước tôi đã đề cập đến thư viện này trong bài đăng trên blog của mình [Tạo tệp CSV trên .NET](https://gunnarpeipman.com/dotnet-csv/).
 
 
-## Vấn đề: ghi vào tập tin từ nhiều luồng
+# Vấn đề: ghi vào tập tin từ nhiều luồng
 
 Tôi có nhiều luồng duyệt qua thư viện tài liệu trên SharePoint và tôi cần tạo nhanh một số báo cáo. Tôi không có tùy chọn để thêm dữ liệu vào một số bộ đệm và xóa nó vào các tệp khi kết thúc dự án vì bộ nhớ máy chủ bị hạn chế.
 
@@ -183,10 +183,141 @@ Task.Run(async () => {
 
 Trong trường hợp của tôi, nó làm dịu việc đọc hàng đợi đồng thời. Thay vào đó, trên 25% CPU, nó vẫn ở mức gần 3% khi hàng đợi đồng thời trống.
 
-## Kết thúc
+
+# IOException: The process cannot access the file ‘file path’ because it is being used by another process
+
+✅ Resolution
+✅ Solution 1 -The file may be in use by some other process
+✅ Solution 2 – Implements IDisposable for Files handles
+✅ Solution 3 – Implement File Lock, Unlock – Thread Synchronization
+✅ Solution 4 – Implement a Retry pattern for File processing
+
+-----
+
+## Mô tả vấn đề
+
+Trong khi thực hiện một thao tác trên tệp sẽ tạo ra lỗi như bên dưới,
+
+> IOException:The process cannot access the file 'file' because it is being used by another process.
+
+![IOException](https://boxxv.github.io/img/2023/IOException-The-process-cannot-access-the-file-1024x284.webp "multiple-threads")
+
+
+## Cách giải quyết
+
+Lỗi này có nghĩa là tệp mà bạn đang cố truy cập không thể truy cập được vì:
+- Tệp có thể đang được sử dụng bởi một số quy trình khác.
+- Tệp được mở bằng quy trình Riêng (có thể do sự cố mã hóa).
+- Thuộc tính tệp được đặt thành không chia sẻ trong khi đọc hoặc ghi tệp.
+
+Sự cố này có thể xảy ra khi thực hiện bất kỳ thao tác nào như
+- Đọc
+- Viết
+- Xóa bỏ
+
+Vấn đề này có thể được giải quyết bằng cách làm theo cẩn thận tất cả các phương pháp có thể dựa trên cách ứng dụng của bạn xử lý các tệp.
+
+
+### Giải pháp 1 – Tệp có thể đang được sử dụng bởi một số quy trình khác
+
+> Vui lòng đảm bảo xác minh rằng tệp không được mở bởi quy trình khác.
+
+Đây có thể là bất kỳ quy trình cụ thể nào trên hệ thống hoặc chương trình mở tệp tại thời điểm chương trình hoặc ứng dụng của bạn đang sử dụng tệp đó.
+
+Điều quan trọng là cách các phương thức khác nhau đang được sử dụng trong mã. Có nhiều cách để xử lý các thao tác Mở, Tạo, Đọc hoặc ghi tệp.
+
+Một vài ví dụ về các phương thức liên quan đến Tệp nhưng không giới hạn như bên dưới:
+- File.Create
+- File.Open
+- File.ReadAllText()
+- File.WriteAllText()
+- File.ReadAllLines()
+- File.WriteAllLines()
+
+#### Example
+
+```cs
+// Create the file, or overwrite if the file exists.
+
+using (FileStream fs = File.Create(path))
+{
+    byte[] info = new UTF8Encoding(true).GetBytes("This is test file.");
+
+    // Add details to the file.
+    fs.Write(info, 0, info.Length);
+}
+```
+
+**Lưu ý:** Khi sử dụng `File.Create`, xin lưu ý rằng giá trị `FileShare` của `Không` được sử dụng làm hành vi mặc định, tức là không có quy trình hoặc mã nào khác có thể truy cập tệp cho đến khi đóng phần xử lý tệp gốc.
+
+Hiểu việc liệt kê tệp để giải quyết các sự cố truy cập tệp,
+
+Trong khi sử dụng lớp FileStream, bạn có khả năng chỉ định loại quyền truy cập FileShare mà một quy trình khác có thể có trong khi xử lý Xử lý tệp. Lớp FileStream hỗ trợ các loại dưới đây,
+
+- FileShare.ReadWrite
+- FileShare.Write
+- FileShare.Read
+- FileShare.None
+
+Để biết thêm thông tin và các phương pháp hay nhất, vui lòng truy cập bài viết bên dưới.
+
+[How to use File – Code Best practices](https://www.thecodebuzz.com/how-to-use-file-in-best-practices-csharp-dotnet-python/)
+
+> Việc sử dụng đúng cách liệt kê `FileShare` sẽ giúp bạn giải quyết các vấn đề phổ biến nhất khi xử lý tệp.
+
+
+### Giải pháp 2 – Triển khai `IDisposable` cho các tệp xử lý
+
+Luôn luôn an toàn khi sử dụng câu lệnh “using” trong khi xử lý các tệp thay vì tự tạo và quản lý phiên bản.
+
+Bọc tất cả mã của bạn bên trong câu lệnh "using".
+
+![IOException](https://boxxv.github.io/img/2023/How-to-File-best-practices-File.Create-always-use-using-768x225.webp "multiple-threads")
+
+Để biết thêm thông tin và các phương pháp hay nhất, vui lòng truy cập bài viết bên dưới.
+
+[How to use File – Code Best practices](https://www.thecodebuzz.com/how-to-use-file-in-best-practices-csharp-dotnet-python/)
+
+
+### Giải pháp 3 – Thực hiện Khóa tệp, Mở khóa – Đồng bộ hóa luồng
+
+- Tệp có thể được truy cập bởi nhiều luồng trong ứng dụng hoặc bởi các luồng quy trình bên ngoài.
+- Nếu bạn có nhiều luồng đang cố truy cập vào cùng một tệp, hãy cân nhắc sử dụng cơ chế Đồng bộ hóa bằng Khóa hoặc cơ chế đồng bộ hóa luồng khác.
+- Người ta có thể khóa hoặc mở khóa tệp theo yêu cầu xử lý tệp đối với Đọc, Viết hoặc Xóa, v.v.
+
+Để biết thêm thông tin và các phương pháp hay nhất, vui lòng truy cập bài viết bên dưới.
+
+[How to File Lock and Unlock in C# .NET](https://www.thecodebuzz.com/file-lock-unlock-read-write-file-c-sharp-thread-safe-net-core/)
+
+
+### Giải pháp 4 – Triển khai mẫu Thử lại để xử lý tệp
+
+Điều này không bắt buộc nhưng luôn hữu ích khi xử lý các ngoại lệ đối với tệp hoặc trục trặc tạm thời khi truy cập tệp.
+
+Để biết thêm thông tin và các phương pháp hay nhất, vui lòng truy cập bài viết bên dưới.
+
+[Implement Simple Retry pattern in C# – Resiliency](https://www.thecodebuzz.com/implement-retry-pattern-in-csharp-dotnet-resiliency/)
+
+
+### Tham khảo:
+
+Để biết thêm thông tin và các phương pháp hay nhất, vui lòng truy cập bài viết bên dưới.
+
+[How to use File – Code Best practices](https://www.thecodebuzz.com/how-to-use-file-in-best-practices-csharp-dotnet-python/)
+
+That’s all! Happy coding!
+
+Điều này có giúp bạn khắc phục sự cố của mình không?
+
+Bạn có giải pháp hay gợi ý nào tốt hơn không? Xin vui lòng tắt ý kiến ​​​​của bạn dưới đây.
+
+
+# Kết thúc
+
 Thay vì phát minh ra các cơ chế tùy chỉnh để xử lý việc ghi đồng thời vào tệp từ nhiều luồng, chúng ta có thể sử dụng các lớp và thành phần đã có sẵn. CsvHelper là thư viện tuyệt vời với hiệu suất tuyệt vời. Lớp ConcurrentQueue<T> đã giúp chúng tôi kiểm soát việc ghi tệp để điều chỉnh mức sử dụng CPU trong quá trình xuất dữ liệu. Cuối cùng, chúng tôi có giải pháp đơn giản và dễ mở rộng mà chúng tôi cũng có thể sử dụng trong các dự án khác.
 
 
 -----
 Tham khảo:
 - [Writing to CSV-file from multiple threads](https://gunnarpeipman.com/write-csv-from-multiple-threads/)
+- [IOException: The process cannot access the file ‘file path’ because it is being used by another process](https://www.thecodebuzz.com/file-error-the-process-cannot-access-the-file-because-it-is-being-used-by-another-process/)
