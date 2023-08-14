@@ -186,10 +186,10 @@ Trong trường hợp của tôi, nó làm dịu việc đọc hàng đợi đ�
 
 # IOException: The process cannot access the file ‘file path’ because it is being used by another process
 
-✅ Resolution
-✅ Solution 1 -The file may be in use by some other process
-✅ Solution 2 – Implements IDisposable for Files handles
-✅ Solution 3 – Implement File Lock, Unlock – Thread Synchronization
+✅ Resolution  
+✅ Solution 1 - The file may be in use by some other process  
+✅ Solution 2 – Implements IDisposable for Files handles  
+✅ Solution 3 – Implement File Lock, Unlock – Thread Synchronization  
 ✅ Solution 4 – Implement a Retry pattern for File processing
 
 -----
@@ -211,9 +211,9 @@ Lỗi này có nghĩa là tệp mà bạn đang cố truy cập không thể tru
 - Thuộc tính tệp được đặt thành không chia sẻ trong khi đọc hoặc ghi tệp.
 
 Sự cố này có thể xảy ra khi thực hiện bất kỳ thao tác nào như
-- Đọc
-- Viết
-- Xóa bỏ
+- Read
+- Write
+- Delete
 
 Vấn đề này có thể được giải quyết bằng cách làm theo cẩn thận tất cả các phương pháp có thể dựa trên cách ứng dụng của bạn xử lý các tệp.
 
