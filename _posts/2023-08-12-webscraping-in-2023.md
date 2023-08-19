@@ -109,7 +109,7 @@ Trước hết mình sẽ giới thiệu qua một số `tool`/`lib`/`framework`
 | Disadvantages | Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | Tiêu tốn RAM, CPU. Chậm |
 | Homepage | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
 
-Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `Python` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, Scrapy là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
+Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `Python` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, `Scrapy` là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
 
 ### Nhập môn thu thập dữ liệu
 
@@ -145,12 +145,19 @@ Trên là những chia sẻ mà mình rút trích được từ những vấn đ
 eBook:
 
 <img align="left" src="https://learning.oreilly.com/library/cover/9781804615317/250w/" alt="Web Scraping Tutorial with Scrapy and Python for Beginners" title="Web Scraping Tutorial with Scrapy and Python for Beginners">_Web Scraping Tutorial with Scrapy and Python for Beginners_
+
 <img align="left" src="https://learning.oreilly.com/library/cover/9781098145347/250w/" alt="Web Scraping with Python, 3rd Edition" title="Web Scraping with Python, 3rd Edition">_Web Scraping with Python, 3rd Edition_
+
 <img align="left" src="https://learning.oreilly.com/library/cover/9781491985564/250w/" alt="Web Scraping with Python, 2nd Edition" title="Web Scraping with Python, 2nd Edition">_Web Scraping with Python, 2nd Edition_
+
 <img align="left" src="https://learning.oreilly.com/library/cover/9781782164364/250w/" alt="Web Scraping with Python" title="Web Scraping with Python">_Web Scraping with Python_
+
 <img align="left" src="https://learning.oreilly.com/library/cover/9781789533392/250w" alt="Hands-On Web Scraping with Python" title="Hands-On Web Scraping with Python">_Hands-On Web Scraping with Python_
+
 <img align="left" src="https://learning.oreilly.com/library/cover/9781787285217/250w/" alt="Python Web Scraping Cookbook" title="Python Web Scraping Cookbook">_Python Web Scraping Cookbook_
+
 <img align="left" src="https://learning.oreilly.com/library/cover/9781789615708/250w/" alt="Go Web Scraping Quick Start Guide" title="Go Web Scraping Quick Start Guide">_Go Web Scraping Quick Start Guide_
+\
 
 -----
 - [Getting Started with Python Web Scraping](https://www.oreilly.com/library/view/getting-started-with/9781787283244/), [Code samples](https://github.com/PacktPublishing/Getting-Started-with-Python-Web-Scraping-V-)
@@ -164,12 +171,36 @@ eBook:
 - [Instant PHP Web Scraping](https://www.amazon.com/Instant-PHP-Scraping-Jacob-Ward/dp/1782164766), [Code samples](https://github.com/freelancerwebro/web-scraping-instant)
 - [50 Hours of Big Data, PySpark, AWS, Scala, and Scraping](https://www.oreilly.com/library/view/50-hours-of/9781803237039/), [Code samples](https://github.com/PacktPublishing/50-Hours-of-Big-Data-PySpark-AWS-Scala-and-Scraping)
 - [R Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/r-web-scraping/9781789138733/), [Code samples](https://github.com/PacktPublishing/R-Web-Scraping-Quick-Start-Guide)
+- [Learning Scrapy - Second Edition](https://www.packtpub.com/product/learning-scrapy-second-edition/9781788627450), [Code samples](https://github.com/scalingexcellence/scrapybook-2nd-edition)
 
 -----
 Tham khảo:
 - [Crawling dữ liệu từ website, tìm hiểu về ScrapingWeb](https://viblo.asia/p/crawling-du-lieu-tu-website-tim-hieu-ve-scrapingweb-1VgZvGo9lAw)
 - [Crawl data - cào dữ liệu có gì khó?](https://www.lhsang.dev/posts/technique/scraping-data-from-websites/)
 - [Tìm hiểu về Web Scraping Bot là gì?](https://securitydaily.net/tim-hieu-ve-web-scraping-bot-la-gi/)
+
+-----
+Python - Scrapy, pyspider, CoCrawler, cola, Demiurge, Scrapely .v.v.
+
+- [Scraping và crawling Web với Scrapy và SQLAlchemy](https://viblo.asia/p/scraping-va-crawling-web-voi-scrapy-va-sqlalchemy-6BkGyxOLM5aV)
+- [Kỹ thuật scraping và crawling Web nâng cao với Scrapy và SQLAlchemy](https://viblo.asia/p/ky-thuat-scraping-va-crawling-web-nang-cao-voi-scrapy-va-sqlalchemy-6BkGyxzeM5aV)
+- []()
+- []()
+- []()
+
+-----
+PHP
+- [Crawl dữ liệu Website sử dụng kỹ thuật phân tích cú pháp XML bằng PHP](https://itnavi.com.vn/blog/crawl-du-lieu-website-su-dung-ky-thuat-phan-tich-cu-phap-xml-bang-php)
+
+-----
+Ruby - Nokogiri, upton, wombat, RubyRetriever, Spidr, Cobweb, mechanize
+- [Thử crawling dữ liệu Viblo bằng Mechanize gem](https://viblo.asia/p/thu-crawling-du-lieu-viblo-bang-mechanize-gem-RQqKLLLrK7z)
+- [Crawl dữ liệu trong Rails với gem Mechanize](https://viblo.asia/p/crawl-du-lieu-trong-rails-voi-gem-mechanize-LzD5dLv05jY)
+- [Xây dựng web crawler cơ bản với mechanize](https://viblo.asia/p/xay-dung-web-crawler-co-ban-voi-mechanize-RnB5pnJYZPG)
+- [Scrape websites with Ruby & Mechanize](https://viblo.asia/p/scrape-websites-with-ruby-mechanize-DzVkpmoKvnW)
+- [Web crawler và scrape data với gem Mechanize](https://viblo.asia/p/web-crawler-va-scrape-data-voi-gem-mechanize-eBYjv410RxpV)
+- [Web crawler nâng cao với Mechanize (P2)](https://viblo.asia/p/web-crawler-nang-cao-voi-mechanize-p2-ojaqG0nVREKw)
+- [Web crawler nâng cao với Mechanize (P1)](https://viblo.asia/p/web-crawler-nang-cao-voi-mechanize-p1-YrEBRAQLR8Zj)
 
 -----
 - [Awesome-Crawler](https://github.com/BruceDone/awesome-crawler)
@@ -181,6 +212,7 @@ Tham khảo:
 - [https://viblo.asia/tags/selenium](https://viblo.asia/tags/selenium)
 - [https://viblo.asia/search?q=Cheerio](https://viblo.asia/search?q=Cheerio)
 - [https://viblo.asia/tags/puppeteer](https://viblo.asia/tags/puppeteer)
+- [https://viblo.asia/tags/mechanize](https://viblo.asia/tags/mechanize)
 
 -----
 - [Web Data Crawling vs Web Data Scraping](https://www.promptcloud.com/blog/data-scraping-vs-data-crawling/)
