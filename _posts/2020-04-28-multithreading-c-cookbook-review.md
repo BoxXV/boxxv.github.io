@@ -260,7 +260,7 @@ Rewritten to the latest C# specification, C# 6, and updated with new and modern 
 6.5 [Creating a scalable crawler with ConcurrentBag](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec62/creating-a-scalable-crawler-with-concurrentbag)
 - Getting ready, How to do it..., How it works...
 
-6.6 [Generalizing asynchronous processing with BlockingCollection ](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec63/generalizing-asynchronous-processing-with-blockingcollection)
+6.6 [Generalizing asynchronous processing with BlockingCollection](https://subscription.packtpub.com/book/programming/9781785881251/6/ch06lvl1sec63/generalizing-asynchronous-processing-with-blockingcollection)
 - Getting ready, How to do it..., How it works...
 
 

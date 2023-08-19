@@ -265,4 +265,4 @@ Cuốn sách này trình bày nội dung của môn học “Trí tuệ Nhân t�
 
 -----
 
-[ Top 20 sách AI - trí tuệ nhân tạo hay nhất không thể bỏ qua ](https://www.trainghiemhay.com/2019/06/top-20-sach-ai-tri-tue-nhan-tao-hay.html)
+[Top 20 sách AI - trí tuệ nhân tạo hay nhất không thể bỏ qua](https://www.trainghiemhay.com/2019/06/top-20-sach-ai-tri-tue-nhan-tao-hay.html)

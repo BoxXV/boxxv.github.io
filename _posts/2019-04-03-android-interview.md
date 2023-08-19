@@ -263,7 +263,7 @@ Bạn nên xác minh rằng nó có `id` hợp lệ. Để hệ thống Android 
 Thêm thông tin có sẵn [ở đây](https://developer.android.com/guide/components/activities/activity-lifecycle).
 
 
-#### 9) DDMS là [Dalvik Debug Monitor Server ](https://developer.android.com/studio/profile/monitor) đi kèm với Android. Nó cung cấp một loạt các tính năng sửa lỗi bao gồm:
+#### 9) DDMS là [Dalvik Debug Monitor Server](https://developer.android.com/studio/profile/monitor) đi kèm với Android. Nó cung cấp một loạt các tính năng sửa lỗi bao gồm:
 - services cổng chuyển tiếp
 - chụp màn hình
 - thông tin thread và heap

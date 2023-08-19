@@ -59,7 +59,7 @@ tags:
 ### [II. Thư viện](#i-thư-viện)
 - #1. [jQuery](#jquery)
 - #2. [React](#react)
-- #3. [Redux ](#redux)
+- #3. [Redux](#redux)
 - #4. [Backbone.js](#backbonejs)
 - #5. [D3.js](#d3js-data-driven-documents)
 - #6. [Underscore.js](https://underscorejs.org)
