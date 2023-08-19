@@ -145,17 +145,21 @@ Trên là những chia sẻ mà mình rút trích được từ những vấn đ
 -----
 Tham khảo:
 - [Crawling dữ liệu từ website, tìm hiểu về ScrapingWeb](https://viblo.asia/p/crawling-du-lieu-tu-website-tim-hieu-ve-scrapingweb-1VgZvGo9lAw)
+- [[Bàn tiếp về Crawling] Quét dữ liệu bất động sản bằng Python](https://viblo.asia/p/ban-tiep-ve-crawling-quet-du-lieu-bat-dong-san-bang-python-RnB5pzo6ZPG)
 - [Crawl data - cào dữ liệu có gì khó?](https://www.lhsang.dev/posts/technique/scraping-data-from-websites/)
+- [Tìm hiểu chung về Web Scraping và các vấn đề cần quan tâm](https://viblo.asia/p/tim-hieu-chung-ve-web-scraping-va-cac-van-de-can-quan-tam-djeZ1yXJZWz)
 - [Tìm hiểu về Web Scraping Bot là gì?](https://securitydaily.net/tim-hieu-ve-web-scraping-bot-la-gi/)
+- [Xây dựng sơ bộ một hệ thống crawler](https://viblo.asia/p/xay-dung-so-bo-mot-he-thong-crawler-aWj538BQK6m)
+- [Panther - thư viện dùng để scrape website](https://viblo.asia/p/panther-thu-vien-dung-de-scrape-website-ORNZqp3bK0n)
+- [Cách mình "hack" được vào hẹ thống của SMAS để xem điểm.](https://viblo.asia/p/cach-minh-hack-duoc-vao-he-thong-cua-smas-de-xem-diem-LzD5d2rYZjY)
+- [Một vài công cụ dò quét lỗ hổng XSS hiệu quả khi săn bug](https://viblo.asia/p/mot-vai-cong-cu-do-quet-lo-hong-xss-hieu-qua-khi-san-bug-x7Z4Djm0LnX)
 
 -----
 Python - Scrapy, pyspider, CoCrawler, cola, Demiurge, Scrapely .v.v.
 
-- []()
 - [Làm một con Crawler đơn giản để cào ebooks với Scrapy và python](https://viblo.asia/p/lam-mot-con-crawler-don-gian-de-cao-ebooks-voi-scrapy-va-python-maGK7qPDlj2)
 - [Thu thập và lưu trữ dữ liệu với scrapy và mysql](https://viblo.asia/p/thu-thap-va-luu-tru-du-lieu-voi-scrapy-va-mysql-yMnKMA9EK7P)
 - [Thu thập dữ liệu tự động cùng với Scrapy, Mongodb và Crontab](https://viblo.asia/p/thu-thap-du-lieu-tu-dong-cung-voi-scrapy-mongodb-va-crontab-RQqKLNrml7z)
-- []()
 - [Tập tành crawl dữ liệu với Scrapy Framework](https://viblo.asia/p/tap-tanh-crawl-du-lieu-voi-scrapy-framework-bWrZnW7rlxw)
 - [Crawl dữ liệu trang web với Scrapy](https://viblo.asia/p/crawl-du-lieu-trang-web-voi-scrapy-E375zWr1KGW)
 - [Sự kết hợp hoàn hảo của Scrapy và Splash - Giải pháp tối ưu với trang web sử dụng Javascript?](https://viblo.asia/p/su-ket-hop-hoan-hao-cua-scrapy-va-splash-giai-phap-toi-uu-voi-trang-web-su-dung-javascript-Qbq5Qa8w5D8)
@@ -168,6 +172,7 @@ Python - Scrapy, pyspider, CoCrawler, cola, Demiurge, Scrapely .v.v.
 - [Scraping và crawling Web với Scrapy và SQLAlchemy](https://viblo.asia/p/scraping-va-crawling-web-voi-scrapy-va-sqlalchemy-6BkGyxOLM5aV)
 - [Kỹ thuật scraping và crawling Web nâng cao với Scrapy và SQLAlchemy](https://viblo.asia/p/ky-thuat-scraping-va-crawling-web-nang-cao-voi-scrapy-va-sqlalchemy-6BkGyxzeM5aV)
 - [Sử dụng proxy trong Scrapy](https://viblo.asia/p/su-dung-proxy-trong-scrapy-maGK780LZj2)
+- [Tìm hiểu cách cào dữ liệu đơn giản với Scapy](https://viblo.asia/p/tim-hieu-cach-cao-du-lieu-don-gian-voi-scapy-3P0lPDA4lox)
 
 Python - Beautiful Soup
 - [PyMOTM: Argparse](https://viblo.asia/p/pymotm-argparse-l5XRBVeVRqPe)
@@ -176,7 +181,18 @@ Python - Beautiful Soup
 - [PyMOTM: Beautiful Soup 4 (Part II)](https://viblo.asia/p/pymotm-beautiful-soup-4-part-ii-amoG81yOvz8P)
 - [PyMOTM: Beautiful Soup 4 (Part III)](https://viblo.asia/p/pymotm-beautiful-soup-4-part-iii-XqaGEBJEeWK)
 - [Cách scrape một trang web bằng python và BeautifulSoup](https://viblo.asia/p/cach-scrape-mot-trang-web-bang-python-va-beautifulsoup-vyDZODwPlwj)
-- []()
+
+-----
+JavaScript
+- ["Đào mỏ" với Puppeteer](https://viblo.asia/p/dao-mo-voi-puppeteer-924lJEg6ZPM)
+- [Web Scraping với Nuxtjs sử dụng Puppeteer](https://viblo.asia/p/web-scraping-voi-nuxtjs-su-dung-puppeteer-gDVK2L8vlLj)
+- [Crawl website sử dụng Node.js và Puppeteer - phần 1](https://viblo.asia/p/crawl-website-su-dung-nodejs-va-puppeteer-phan-1-L4x5xv2wZBM)
+- [Crawl website sử dụng Node.js và Puppeteer - phần 2](https://viblo.asia/p/crawl-website-su-dung-nodejs-va-puppeteer-phan-2-3P0lP1kn5ox)
+- [Crawl data using laravel , proxy and simple html dom](https://viblo.asia/p/crawl-data-using-laravel-proxy-and-simple-html-dom-Az45bojwKxY)
+- [[P1] Tìm hiểu Headless browser & Puppeteer](https://viblo.asia/p/p1-tim-hieu-headless-browser-puppeteer-63vKjngdK2R)
+- [[P2] - Lấy dữ liệu website bằng puppeteer](https://viblo.asia/p/p2-lay-du-lieu-website-bang-puppeteer-YWOZryPvKQ0)
+- [Build extension to check timesheet on WSM (P1)](https://viblo.asia/p/build-extension-to-check-timesheet-on-wsm-p1-aWj538N1K6m)
+- [Xây dựng extension để check timesheet trên WSM (P2)](https://viblo.asia/p/xay-dung-extension-de-check-timesheet-tren-wsm-p2-OeVKB4JMlkW)
 
 -----
 PHP
@@ -191,13 +207,13 @@ Ruby - Nokogiri, upton, wombat, RubyRetriever, Spidr, Cobweb, mechanize
 - [Xây dựng web crawler cơ bản với mechanize](https://viblo.asia/p/xay-dung-web-crawler-co-ban-voi-mechanize-RnB5pnJYZPG)
 - [Scrape websites with Ruby & Mechanize](https://viblo.asia/p/scrape-websites-with-ruby-mechanize-DzVkpmoKvnW)
 - [Web crawler và scrape data với gem Mechanize](https://viblo.asia/p/web-crawler-va-scrape-data-voi-gem-mechanize-eBYjv410RxpV)
-- [Web crawler nâng cao với Mechanize (P2)](https://viblo.asia/p/web-crawler-nang-cao-voi-mechanize-p2-ojaqG0nVREKw)
 - [Web crawler nâng cao với Mechanize (P1)](https://viblo.asia/p/web-crawler-nang-cao-voi-mechanize-p1-YrEBRAQLR8Zj)
+- [Web crawler nâng cao với Mechanize (P2)](https://viblo.asia/p/web-crawler-nang-cao-voi-mechanize-p2-ojaqG0nVREKw)
 
 -----
 Go - pholcus, gocrawl, fetchbot, go_spider, dht, ants-go, scrape, creeper, colly, ferret, Dataflow kit, Hakrawler
 - [Thu thập dữ liệu với Golang Colly](https://viblo.asia/p/thu-thap-du-lieu-voi-golang-colly-924lJ3y85PM)
-- []()
+- [Sử dụng chromedp với golang để crawl các trang web có nội dung được tạo bởi javascript](https://viblo.asia/p/su-dung-chromedp-voi-golang-de-crawl-cac-trang-web-co-noi-dung-duoc-tao-boi-javascript-4P856GWLKY3)
 
 -----
 - [Awesome-Crawler](https://github.com/BruceDone/awesome-crawler)
@@ -245,9 +261,6 @@ eBook:
 
 <img align="right" src="https://learning.oreilly.com/library/cover/9781787285217/250w/" alt="Python Web Scraping Cookbook" title="Python Web Scraping Cookbook">
 
-<img align="right" src="https://learning.oreilly.com/library/cover/9781789615708/250w/" alt="Go Web Scraping Quick Start Guide" title="Go Web Scraping Quick Start Guide">
-
-<br />
+![Go Web Scraping Quick Start Guide](https://learning.oreilly.com/library/cover/9781789615708/250w/ "Go Web Scraping Quick Start Guide")
 
 -----
-<br />
