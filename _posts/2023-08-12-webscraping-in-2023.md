@@ -97,11 +97,17 @@ Cào ở dữ liệu ở đây mình đề cập là dùng một công cụ (too
 
 Trước hết mình sẽ giới thiệu qua một số `tool`/`lib`/`framework` phổ biến để thực hiện thu thập dữ liệu, mặc dù việc cào dữ liệu chỉ đơn thuần là gởi request để lấy nội dung nhưng bạn cũng nên dùng thư viện sẵn có để thu thập (trừ khi các bạn muốn phát triển 1 thư viện mới) thay vì tự gởi request bằng thư viện HTTP trong các ngôn ngữ sẵn có vì các bạn sẽ phải handle rất nhiều thứ từ đa luồng, kiểm soát request, parsing,… rất tốn thời gian để viết lại. Sử dụng các thư viện sẵn có thì bạn cũng không cần lo về khả năng mở rộng, tùy biến của mình, các thư viện đa số đã thiết kế theo kiến trúc mở cung cấp các `middlewares`, `pipelines` cho người dùng tùy biến.
 
-|  | Scrapy | Selenium | Cheerio | Puppeteer |
-| -- | -- | -- | -- | -- |
-| Advantages | - Bất đồng bộ chính là thứ giúp cho scrapy có hiệu năng tuyệt vời. Sử dụng rất ít RAM, CPU. Tài liệu đầy đủ, plugins rất nhiều. Thiết kế theo một kiến trúc khá tốt, dev có thể dễ dàng tùy chỉnh middlewares, pipelines và thêm các function tùy ý. | - Dễ tiếp cận cho beginer. Có thể lấy được nội dung trang render bằng javascript. Có thể thao tác như một người dùng | - Hỗ trợ parse DOM giống như jquery. Bất đồng bộ, khá nhanh | - Giống như selenium, puppeteer cũng sử dụng browser driver để lấy nội dung trang nên có thể lấy được nội dung các trang render bằng js và thao tác như một người dùng. |
-| Disadvantages | - Hơi phức tạp cho beginer. Quá dư thừa chức năng nếu chỉ dùng cho 1 project nhỏ và đơn giản. Không thể lấy nội dung trang được render bằng js, tuy nhiên chúng ta có thể kết hợp với Splash. | - Tiêu tốn nhiều tài nguyên vì nó cần đến một browser driver (tưởng tượng như bạn mở 1 tab chrome thì sẽ tốn bao nhiêu RAM, CPU). Rất chậm, nên selenium không phù hợp với một project cào dữ liệu lớn. | - Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | - Tiêu tốn RAM, CPU. Chậm |
-| Homepage | [scrapy.org](https://scrapy.org) | [selenium.dev](https://www.selenium.dev) | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
+|  | Scrapy | Selenium |
+| -- | -- | -- |
+| Advantages | Bất đồng bộ chính là thứ giúp cho scrapy có hiệu năng tuyệt vời. Sử dụng rất ít RAM, CPU. Tài liệu đầy đủ, plugins rất nhiều. Thiết kế theo một kiến trúc khá tốt, dev có thể dễ dàng tùy chỉnh middlewares, pipelines và thêm các function tùy ý. | Dễ tiếp cận cho beginer. Có thể lấy được nội dung trang render bằng javascript. Có thể thao tác như một người dùng |
+| Disadvantages | Hơi phức tạp cho beginer. Quá dư thừa chức năng nếu chỉ dùng cho 1 project nhỏ và đơn giản. Không thể lấy nội dung trang được render bằng js, tuy nhiên chúng ta có thể kết hợp với Splash. | Tiêu tốn nhiều tài nguyên vì nó cần đến một browser driver (tưởng tượng như bạn mở 1 tab chrome thì sẽ tốn bao nhiêu RAM, CPU). Rất chậm, nên selenium không phù hợp với một project cào dữ liệu lớn. |
+| Homepage | [scrapy.org](https://scrapy.org) | [selenium.dev](https://www.selenium.dev) |
+
+|  | Cheerio | Puppeteer |
+| -- | -- | -- |
+| Advantages | Hỗ trợ parse DOM giống như jquery. Bất đồng bộ, khá nhanh | Giống như selenium, puppeteer cũng sử dụng browser driver để lấy nội dung trang nên có thể lấy được nội dung các trang render bằng js và thao tác như một người dùng. |
+| Disadvantages | Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | Tiêu tốn RAM, CPU. Chậm |
+| Homepage | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
 
 Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `Python` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, Scrapy là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
 
@@ -138,13 +144,13 @@ Trên là những chia sẻ mà mình rút trích được từ những vấn đ
 -----
 eBook:
 
-![Web Scraping Tutorial with Scrapy and Python for Beginners](https://learning.oreilly.com/library/cover/9781804615317/250w/ "Web Scraping Tutorial with Scrapy and Python for Beginners") 
-![Web Scraping with Python, 3rd Edition](https://learning.oreilly.com/library/cover/9781098145347/250w/ "Web Scraping with Python, 3rd Edition") 
-![Web Scraping with Python, 2nd Edition](https://learning.oreilly.com/library/cover/9781491985564/250w/ "Web Scraping with Python, 2nd Edition") 
-![Web Scraping with Python](https://learning.oreilly.com/library/cover/9781782164364/250w/ "Web Scraping with Python") 
-![Hands-On Web Scraping with Python](https://learning.oreilly.com/library/cover/9781789533392/250w/ "Hands-On Web Scraping with Python")
-![Python Web Scraping Cookbook](https://learning.oreilly.com/library/cover/9781787285217/250w/ "Python Web Scraping Cookbook")
-![Go Web Scraping Quick Start Guide](https://learning.oreilly.com/library/cover/9781789615708/250w/ "Go Web Scraping Quick Start Guide")
+<img align="left" src="https://learning.oreilly.com/library/cover/9781804615317/250w/" alt="Web Scraping Tutorial with Scrapy and Python for Beginners" title="Web Scraping Tutorial with Scrapy and Python for Beginners">_Web Scraping Tutorial with Scrapy and Python for Beginners_
+<img align="left" src="https://learning.oreilly.com/library/cover/9781098145347/250w/" alt="Web Scraping with Python, 3rd Edition" title="Web Scraping with Python, 3rd Edition">_Web Scraping with Python, 3rd Edition_
+<img align="left" src="https://learning.oreilly.com/library/cover/9781491985564/250w/" alt="Web Scraping with Python, 2nd Edition" title="Web Scraping with Python, 2nd Edition">_Web Scraping with Python, 2nd Edition_
+<img align="left" src="https://learning.oreilly.com/library/cover/9781782164364/250w/" alt="Web Scraping with Python" title="Web Scraping with Python">_Web Scraping with Python_
+<img align="left" src="https://learning.oreilly.com/library/cover/9781789533392/250w" alt="Hands-On Web Scraping with Python" title="Hands-On Web Scraping with Python">_Hands-On Web Scraping with Python_
+<img align="left" src="https://learning.oreilly.com/library/cover/9781787285217/250w/" alt="Python Web Scraping Cookbook" title="Python Web Scraping Cookbook">_Python Web Scraping Cookbook_
+<img align="left" src="https://learning.oreilly.com/library/cover/9781789615708/250w/" alt="Go Web Scraping Quick Start Guide" title="Go Web Scraping Quick Start Guide">_Go Web Scraping Quick Start Guide_
 
 - [Getting Started with Python Web Scraping](https://www.oreilly.com/library/view/getting-started-with/9781787283244/)
 - Getting Started with Python Web Scraping, [Code samples](https://github.com/PacktPublishing/Getting-Started-with-Python-Web-Scraping-V-)
