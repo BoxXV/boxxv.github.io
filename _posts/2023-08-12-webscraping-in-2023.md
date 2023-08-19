@@ -152,29 +152,18 @@ eBook:
 <img align="left" src="https://learning.oreilly.com/library/cover/9781787285217/250w/" alt="Python Web Scraping Cookbook" title="Python Web Scraping Cookbook">_Python Web Scraping Cookbook_
 <img align="left" src="https://learning.oreilly.com/library/cover/9781789615708/250w/" alt="Go Web Scraping Quick Start Guide" title="Go Web Scraping Quick Start Guide">_Go Web Scraping Quick Start Guide_
 
-- [Getting Started with Python Web Scraping](https://www.oreilly.com/library/view/getting-started-with/9781787283244/)
-- Getting Started with Python Web Scraping, [Code samples](https://github.com/PacktPublishing/Getting-Started-with-Python-Web-Scraping-V-)
-- [Web Scraping Tutorial with Scrapy and Python for Beginners](https://www.oreilly.com/library/view/web-scraping-tutorial/9781804615317/)
-- Web Scraping Tutorial with Scrapy and Python for Beginners, [Code samples](https://github.com/PacktPublishing/Web-Scraping-Tutorial-with-Scrapy-and-Python-for-Beginners-)
-- [Web Scraping with Python](https://www.linkedin.com/learning/web-scraping-with-python)
-- Web Scraping with Python, [Code samples](https://github.com/LinkedInLearning/web-scraping-with-python-2848331)
-- [Web Scraping with Python, 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/)
-- Web Scraping with Python, [Code samples](https://github.com/REMitchell/python-scraping)
-- [Hands-On Web Scraping with Python](https://packt.link/free-ebook/9781789533392)
-- Hands-On Web Scraping with Python, [Code samples](https://github.com/PacktPublishing/Hands-On-Web-Scraping-with-Python)
-- [Python Web Scraping Cookbook](https://www.oreilly.com/library/view/python-web-scraping/9781787285217/)
-- Python Web Scraping Cookbook, [Code samples](https://github.com/PacktPublishing/Python-Web-Scraping-Cookbook/)
-- [Go Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/go-web-scraping/9781789615708/)
-- Go Web Scraping Quick Start Guide, [Code samples](https://github.com/PacktPublishing/Go-Web-Scraping-Quick-Start-Guide)
-- [Website Scraping with Python: Using BeautifulSoup and Scrapy](https://www.oreilly.com/library/view/website-scraping-with/9781484239254/)
-- Website Scraping with Python: Using BeautifulSoup and Scrapy, [Code samples](https://github.com/sanikamal/web-scraping-with-python)
-- [Instant PHP Web Scraping](https://www.amazon.com/Instant-PHP-Scraping-Jacob-Ward/dp/1782164766)
-- Instant PHP Web Scraping, [Code samples](https://github.com/freelancerwebro/web-scraping-instant)
-- [50 Hours of Big Data, PySpark, AWS, Scala, and Scraping](https://www.oreilly.com/library/view/50-hours-of/9781803237039/)
-- 50 Hours of Big Data, PySpark, AWS, Scala, and Scraping, [Code samples](https://github.com/PacktPublishing/50-Hours-of-Big-Data-PySpark-AWS-Scala-and-Scraping)
-- [R Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/r-web-scraping/9781789138733/)
-- R Web Scraping Quick Start Guide, [Code samples](https://github.com/PacktPublishing/R-Web-Scraping-Quick-Start-Guide)
-
+-----
+- [Getting Started with Python Web Scraping](https://www.oreilly.com/library/view/getting-started-with/9781787283244/), [Code samples](https://github.com/PacktPublishing/Getting-Started-with-Python-Web-Scraping-V-)
+- [Web Scraping Tutorial with Scrapy and Python for Beginners](https://www.oreilly.com/library/view/web-scraping-tutorial/9781804615317/), [Code samples](https://github.com/PacktPublishing/Web-Scraping-Tutorial-with-Scrapy-and-Python-for-Beginners-)
+- [Web Scraping with Python](https://www.linkedin.com/learning/web-scraping-with-python), [Code samples](https://github.com/LinkedInLearning/web-scraping-with-python-2848331)
+- [Web Scraping with Python, 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/), [Code samples](https://github.com/REMitchell/python-scraping)
+- [Hands-On Web Scraping with Python](https://packt.link/free-ebook/9781789533392), [Code samples](https://github.com/PacktPublishing/Hands-On-Web-Scraping-with-Python)
+- [Python Web Scraping Cookbook](https://www.oreilly.com/library/view/python-web-scraping/9781787285217/), [Code samples](https://github.com/PacktPublishing/Python-Web-Scraping-Cookbook/)
+- [Go Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/go-web-scraping/9781789615708/), [Code samples](https://github.com/PacktPublishing/Go-Web-Scraping-Quick-Start-Guide)
+- [Website Scraping with Python: Using BeautifulSoup and Scrapy](https://www.oreilly.com/library/view/website-scraping-with/9781484239254/), [Code samples](https://github.com/sanikamal/web-scraping-with-python)
+- [Instant PHP Web Scraping](https://www.amazon.com/Instant-PHP-Scraping-Jacob-Ward/dp/1782164766), [Code samples](https://github.com/freelancerwebro/web-scraping-instant)
+- [50 Hours of Big Data, PySpark, AWS, Scala, and Scraping](https://www.oreilly.com/library/view/50-hours-of/9781803237039/), [Code samples](https://github.com/PacktPublishing/50-Hours-of-Big-Data-PySpark-AWS-Scala-and-Scraping)
+- [R Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/r-web-scraping/9781789138733/), [Code samples](https://github.com/PacktPublishing/R-Web-Scraping-Quick-Start-Guide)
 
 -----
 Tham khảo:
