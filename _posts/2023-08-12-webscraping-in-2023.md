@@ -120,28 +120,55 @@ Luồng hoạt động sẽ diễn ra như sau:
 
 ![Web Scraping](https://boxxv.github.io/img/2023/crawler_simple.png "Web Scraping")
 
-Để làm quen với việc thu thập dữ liệu, mình khuyên các bạn nên làm qua 10 bài thực hành trên trang [Scrapingclub](https://scrapingclub.com) (Learn Web Scraping Using Python For Free) theo bất kỳ thư viện hỗ trợ thu thập dữ liệu nào bạn muốn, solutions thì mình cũng đã làm từ lúc mình học cơ bản https://github.com/lhsang/Spiders (sử dụng scrapy) các bạn có thể tham khảo.
+Để làm quen với việc thu thập dữ liệu, mình khuyên các bạn nên làm qua 10 bài thực hành trên trang [Scrapingclub](https://scrapingclub.com) (Learn Web Scraping Using Python For Free) theo bất kỳ thư viện hỗ trợ thu thập dữ liệu nào bạn muốn, solutions thì mình cũng đã làm từ lúc mình học cơ bản [https://github.com/lhsang/Spiders](https://github.com/lhsang/Spiders) (sử dụng scrapy) các bạn có thể tham khảo.
 
-Về vấn đề thu thập thông tin để tránh vi phạm các tiêu chuẩn, quy định thì các bạn nên phân tích file http://domain.com/robots.txt trước khi cào, file robots.txt sẽ định quy cho biết Crawler của bạn được truy cập những trang nào, không được truy cập trang nào và thời gian delay mỗi request. Ngoài ra user-agent là một header bạn có thể tùy ý, tuy nhiên về vấn đề đạo đức nghề nghiệp các bạn không nên fake giá trị này.
+Về vấn đề thu thập thông tin để tránh vi phạm các tiêu chuẩn, quy định thì các bạn nên phân tích file `http://domain.com/robots.txt` trước khi cào, file robots.txt sẽ định quy cho biết Crawler của bạn được truy cập những trang nào, không được truy cập trang nào và thời gian delay mỗi request. Ngoài ra user-agent là một header bạn có thể tùy ý, tuy nhiên về vấn đề đạo đức nghề nghiệp các bạn không nên fake giá trị này.
 
 Phần tiếp theo mình sẽ nói về một số khó khăn đã gặp và giải pháp trong quá trình thu thập dữ liệu phục vụ cho luận văn tốt nghiệp:
+
+- Các trang hạn chế số lượng truy cập trong một khoảng thời gian: để tránh việc một IP làm quá tải server, các trang thường phải giới hạn số request của một IP trong một phút (thường sẽ họ sẽ cho biết thời gian deplay mỗi request trong file robots.txt), có một số lượng lớn trang cần thu thập thì môi phút vài request thì quá ít cho nhu cầu của mình và thậm chí nếu gửi nhiều hơn quy định, crawler còn có thể bị ban trong vài phút. Giải pháp là mình đã sử dụng thêm proxy server, giá proxy cũng không quá mắc (tầm $0.4 IP/tháng, khuyên các bạn không nên mua của các nhà cung cấp từ Việt Nam - người từng trải), mỗi request mình sẽ đổi IP liên tục thì sẽ tránh được ban IP. Nếu không cần thiết phải đổi IP thì ban có thể tăng thời gian DELAY_REQUEST để cách biệt các request, giảm CONCURRENT_REQUESTS (số request đồng thời) và có thể cheat nhẹ user-agent bất chấp đạo đức :))
+- Nội dung trang render bằng Javascript: vì nhu cầu mình crawl nhiều nên mình chọn Scrapy, tuy nhiên scrapy lại không hỗ trợ lấy dữ liệu ở các trang render bằng js (Ajax, React,…) để biết rằng trang này có render bằng js ra nội dung không, bạn chỉ cần Ctrl+U rồi xem có nội dung html như hiển thị không, hay chỉ là một thẻ body rồi js chèn vào sau. Như đã đề cập scrapy có thể sử dụng kèm với headless browser như Splash để chờ trang web render ra nội dung và cookie, việc này làm tốn thêm một ít thời gian chờ nhưng vẫn nhanh hơn các lựa chọn khác scrapy.
+- Cấu trúc trang thay đổi: đôi lúc sites thay đôỉ cấu trúc (HTML tags thay đổi), chúng ta phải xác định đúng thẻ thì mới lấy được dữ liệu. Nên cài đặt cho crawler cơ chế phát hiện cấu trúc thay đổi và thông báo để chúng ta biết và chỉnh sửa hoặc áp dụng cấu trúc mới để parse đúng dữ liệu.
+- Required đủ cookie, headers: đa số các trang đều yêu cầu một số headers và cookie là phải có trong request, chúng ta có thể dùng Chrome DevTools để xem các header và cookie này, tuy nhiên ở nhiều trang headers, cookie này không được set ngay từ đầu mà trong quá trình request sẽ gởi request đến một URL khác để lấy thông tin headers, cookie hoặc ngay địa chỉ URL của bạn nhưng lần đầu là để lấy headers, cookie lần sau mới lấy nội dung (trường hợp này, nếu không có đủ headers server sẽ buộc crawler request vô hạn). Giải pháp là chúng ta phải biết quan sát mà lấy headers, cookie phù hợp để gắn vào request thôi =))
+- Bất đồng bộ và multithread vẫn chưa đủ: mỗi ngày mình phải gởi hơn vài chục triệu request, scrapy hỗ trợ bất đồng bộ, tuy nhiên một process chưa đủ đáp ứng nhu cầu lớn như vậy trong một ngày, giải pháp là tăng số process lên (có thể cho chạy ở nhiều server), liên quan đến vấn đề xử lý song song các bạn phải tính toán để chia URL ra cho các process hợp lý nhất.
+- Lưu trữ dữ liệu: tùy nhu cầu bạn sẽ chọn hệ quản trị cơ sở dữ liệu phù hợp, với project của mình vì nhu cầu lưu trữ lớn (hơn 11 triệu record mỗi ngày đổ vào database) và cần tốc độ truy vẫn nhanh thì mình chọn mongodb. MongoDB thuộc loại NoSQL lưu trữ theo dạng document (BSON), schema linh hoạt, không phải join, kết hợp với đánh indexes thì tốc độ khá là nhanh (dữ liệu 1 tỷ records mình có thể truy vấn dưới 1s) hơn nữa mongodb còn thiết kế để đáp ứng nhu cầu phân tán nên có thể sharding hay replication để mở rộng, tăng hiệu năng và đảm bảo tính available cho hệ thống. Vấn đề lưu xuống liên tục cũng có thể quá tải database, bạn có thể cache tạm một nơi rồi insert_many thay vì insert_one.
+
+Trên là những chia sẻ mà mình rút trích được từ những vấn đề gặp phải trong quá trình làm luận văn mà mình gặp phải, ngoài ra vẫn còn kha khá issues mà mình chưa gặp phải nữa nếu biết các bạn có thể chia sẻ thêm dưới phần bình luận để cùng tranh luận, cảm ơn các bạn.
 
 -----
 eBook:
 
-![Web Scraping Tutorial with Scrapy and Python for Beginners](https://learning.oreilly.com/library/cover/9781804615317/250w/ "Web Scraping Tutorial with Scrapy and Python for Beginners")
-![Web Scraping with Python, 2nd Edition](https://learning.oreilly.com/library/cover/9781491985564/250w/ "Web Scraping with Python, 2nd Edition")
-![Hands-On Web Scraping with Python](https://static.packt-cdn.com/products/9781789533392/cover/smaller/ "Hands-On Web Scraping with Python")
+![Web Scraping Tutorial with Scrapy and Python for Beginners](https://learning.oreilly.com/library/cover/9781804615317/250w/ "Web Scraping Tutorial with Scrapy and Python for Beginners") 
+![Web Scraping with Python, 3rd Edition](https://learning.oreilly.com/library/cover/9781098145347/250w/ "Web Scraping with Python, 3rd Edition") 
+![Web Scraping with Python, 2nd Edition](https://learning.oreilly.com/library/cover/9781491985564/250w/ "Web Scraping with Python, 2nd Edition") 
+![Web Scraping with Python](https://learning.oreilly.com/library/cover/9781782164364/250w/ "Web Scraping with Python") 
+![Hands-On Web Scraping with Python](https://learning.oreilly.com/library/cover/9781789533392/250w/ "Hands-On Web Scraping with Python")
+![Python Web Scraping Cookbook](https://learning.oreilly.com/library/cover/9781787285217/250w/ "Python Web Scraping Cookbook")
+![Go Web Scraping Quick Start Guide](https://learning.oreilly.com/library/cover/9781789615708/250w/ "Go Web Scraping Quick Start Guide")
 
+- [Getting Started with Python Web Scraping](https://www.oreilly.com/library/view/getting-started-with/9781787283244/)
+- Getting Started with Python Web Scraping, [Code samples](https://github.com/PacktPublishing/Getting-Started-with-Python-Web-Scraping-V-)
 - [Web Scraping Tutorial with Scrapy and Python for Beginners](https://www.oreilly.com/library/view/web-scraping-tutorial/9781804615317/)
-- [Web Scraping Tutorial with Scrapy and Python for Beginners, Code samples](https://github.com/PacktPublishing/Web-Scraping-Tutorial-with-Scrapy-and-Python-for-Beginners-)
+- Web Scraping Tutorial with Scrapy and Python for Beginners, [Code samples](https://github.com/PacktPublishing/Web-Scraping-Tutorial-with-Scrapy-and-Python-for-Beginners-)
 - [Web Scraping with Python](https://www.linkedin.com/learning/web-scraping-with-python)
-- [Web Scraping with Python, Code samples](https://github.com/LinkedInLearning/web-scraping-with-python-2848331)
+- Web Scraping with Python, [Code samples](https://github.com/LinkedInLearning/web-scraping-with-python-2848331)
 - [Web Scraping with Python, 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/)
-- [Web Scraping with Python, Code samples](https://github.com/REMitchell/python-scraping)
+- Web Scraping with Python, [Code samples](https://github.com/REMitchell/python-scraping)
 - [Hands-On Web Scraping with Python](https://packt.link/free-ebook/9781789533392)
-- [Hands-On Web Scraping with Python, Code samples](https://github.com/PacktPublishing/Hands-On-Web-Scraping-with-Python)
-- []()
+- Hands-On Web Scraping with Python, [Code samples](https://github.com/PacktPublishing/Hands-On-Web-Scraping-with-Python)
+- [Python Web Scraping Cookbook](https://www.oreilly.com/library/view/python-web-scraping/9781787285217/)
+- Python Web Scraping Cookbook, [Code samples](https://github.com/PacktPublishing/Python-Web-Scraping-Cookbook/)
+- [Go Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/go-web-scraping/9781789615708/)
+- Go Web Scraping Quick Start Guide, [Code samples](https://github.com/PacktPublishing/Go-Web-Scraping-Quick-Start-Guide)
+- [Website Scraping with Python: Using BeautifulSoup and Scrapy](https://www.oreilly.com/library/view/website-scraping-with/9781484239254/)
+- Website Scraping with Python: Using BeautifulSoup and Scrapy, [Code samples](https://github.com/sanikamal/web-scraping-with-python)
+- [Instant PHP Web Scraping](https://www.amazon.com/Instant-PHP-Scraping-Jacob-Ward/dp/1782164766)
+- Instant PHP Web Scraping, [Code samples](https://github.com/freelancerwebro/web-scraping-instant)
+- [50 Hours of Big Data, PySpark, AWS, Scala, and Scraping](https://www.oreilly.com/library/view/50-hours-of/9781803237039/)
+- 50 Hours of Big Data, PySpark, AWS, Scala, and Scraping, [Code samples](https://github.com/PacktPublishing/50-Hours-of-Big-Data-PySpark-AWS-Scala-and-Scraping)
+- [R Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/r-web-scraping/9781789138733/)
+- R Web Scraping Quick Start Guide, [Code samples](https://github.com/PacktPublishing/R-Web-Scraping-Quick-Start-Guide)
+
 
 -----
 Tham khảo:
