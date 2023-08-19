@@ -153,10 +153,18 @@ Python - Scrapy, pyspider, CoCrawler, cola, Demiurge, Scrapely .v.v.
 
 - []()
 - []()
-- []()
+- [Tập tành crawl dữ liệu với Scrapy Framework](https://viblo.asia/p/tap-tanh-crawl-du-lieu-voi-scrapy-framework-bWrZnW7rlxw)
+- [Crawl dữ liệu trang web với Scrapy](https://viblo.asia/p/crawl-du-lieu-trang-web-voi-scrapy-E375zWr1KGW)
+- [Sự kết hợp hoàn hảo của Scrapy và Splash - Giải pháp tối ưu với trang web sử dụng Javascript?](https://viblo.asia/p/su-ket-hop-hoan-hao-cua-scrapy-va-splash-giai-phap-toi-uu-voi-trang-web-su-dung-javascript-Qbq5Qa8w5D8)
+- [Sự kết hợp hoàn hảo của Scrapy và Splash (Phần 2)](https://viblo.asia/p/su-ket-hop-hoan-hao-cua-scrapy-va-splash-phan-2-1VgZvVApZAw)
+- [Thu thập dữ liệu với Scrapy, Splash - Nội dung được tạo bởi JavaScript](https://viblo.asia/p/thu-thap-du-lieu-voi-scrapy-splash-noi-dung-duoc-tao-boi-javascript-3Q75wBbMlWb)
+- [Ví dụ về việc thu thập dữ liệu Web với Scrapy](https://viblo.asia/p/vi-du-ve-viec-thu-thap-du-lieu-web-voi-scrapy-aWj53kBY56m)
 - [Giới thiệu/hướng dẫn về Crawler với Scrapy Framework](https://viblo.asia/p/gioi-thieuhuong-dan-ve-crawler-voi-scrapy-framework-ByEZkWoEZQ0)
+- [Giới thiệu/hướng dẫn về Crawler với Scrapy Framework (Phần 2)](https://viblo.asia/p/gioi-thieuhuong-dan-ve-crawler-voi-scrapy-framework-phan-2-YWOZry7pKQ0)
+- [Giới thiệu/hướng dẫn về Crawler với Scrapy Framework (Phần 3)](https://viblo.asia/p/gioi-thieuhuong-dan-ve-crawler-voi-scrapy-framework-phan-3-gDVK2kovZLj)
 - [Scraping và crawling Web với Scrapy và SQLAlchemy](https://viblo.asia/p/scraping-va-crawling-web-voi-scrapy-va-sqlalchemy-6BkGyxOLM5aV)
 - [Kỹ thuật scraping và crawling Web nâng cao với Scrapy và SQLAlchemy](https://viblo.asia/p/ky-thuat-scraping-va-crawling-web-nang-cao-voi-scrapy-va-sqlalchemy-6BkGyxzeM5aV)
+- [Sử dụng proxy trong Scrapy](https://viblo.asia/p/su-dung-proxy-trong-scrapy-maGK780LZj2)
 
 -----
 PHP
@@ -204,19 +212,19 @@ eBook:
 - [R Web Scraping Quick Start Guide](https://www.oreilly.com/library/view/r-web-scraping/9781789138733/), [Code samples](https://github.com/PacktPublishing/R-Web-Scraping-Quick-Start-Guide)
 - [Learning Scrapy - Second Edition](https://www.packtpub.com/product/learning-scrapy-second-edition/9781788627450), [Code samples](https://github.com/scalingexcellence/scrapybook-2nd-edition)
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781804615317/250w/" alt="Web Scraping Tutorial with Scrapy and Python for Beginners" title="Web Scraping Tutorial with Scrapy and Python for Beginners">
+<img src="https://learning.oreilly.com/library/cover/9781804615317/250w/" alt="Web Scraping Tutorial with Scrapy and Python for Beginners" title="Web Scraping Tutorial with Scrapy and Python for Beginners">
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781098145347/250w/" alt="Web Scraping with Python, 3rd Edition" title="Web Scraping with Python, 3rd Edition">
+<img src="https://learning.oreilly.com/library/cover/9781098145347/250w/" alt="Web Scraping with Python, 3rd Edition" title="Web Scraping with Python, 3rd Edition">
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781491985564/250w/" alt="Web Scraping with Python, 2nd Edition" title="Web Scraping with Python, 2nd Edition">
+<img src="https://learning.oreilly.com/library/cover/9781491985564/250w/" alt="Web Scraping with Python, 2nd Edition" title="Web Scraping with Python, 2nd Edition">
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781782164364/250w/" alt="Web Scraping with Python" title="Web Scraping with Python">
+<img src="https://learning.oreilly.com/library/cover/9781782164364/250w/" alt="Web Scraping with Python" title="Web Scraping with Python">
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781789533392/250w" alt="Hands-On Web Scraping with Python" title="Hands-On Web Scraping with Python">
+<img src="https://learning.oreilly.com/library/cover/9781789533392/250w" alt="Hands-On Web Scraping with Python" title="Hands-On Web Scraping with Python">
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781787285217/250w/" alt="Python Web Scraping Cookbook" title="Python Web Scraping Cookbook">
+<img src="https://learning.oreilly.com/library/cover/9781787285217/250w/" alt="Python Web Scraping Cookbook" title="Python Web Scraping Cookbook">
 
-<img align="left" src="https://learning.oreilly.com/library/cover/9781789615708/250w/" alt="Go Web Scraping Quick Start Guide" title="Go Web Scraping Quick Start Guide">
+<img src="https://learning.oreilly.com/library/cover/9781789615708/250w/" alt="Go Web Scraping Quick Start Guide" title="Go Web Scraping Quick Start Guide">
 
 \_
 &nbsp;_
