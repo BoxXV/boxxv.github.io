@@ -101,6 +101,9 @@ Trước hết mình sẽ giới thiệu qua một số `tool`/`lib`/`framework`
 | -- | -- | -- | -- | -- |
 | Advantages | - Bất đồng bộ chính là thứ giúp cho scrapy có hiệu năng tuyệt vời. Sử dụng rất ít RAM, CPU. Tài liệu đầy đủ, plugins rất nhiều. Thiết kế theo một kiến trúc khá tốt, dev có thể dễ dàng tùy chỉnh middlewares, pipelines và thêm các function tùy ý. | - Dễ tiếp cận cho beginer. Có thể lấy được nội dung trang render bằng javascript. Có thể thao tác như một người dùng | - Hỗ trợ parse DOM giống như jquery. Bất đồng bộ, khá nhanh | - Giống như selenium, puppeteer cũng sử dụng browser driver để lấy nội dung trang nên có thể lấy được nội dung các trang render bằng js và thao tác như một người dùng. |
 | Disadvantages | - Hơi phức tạp cho beginer. Quá dư thừa chức năng nếu chỉ dùng cho 1 project nhỏ và đơn giản. Không thể lấy nội dung trang được render bằng js, tuy nhiên chúng ta có thể kết hợp với Splash. | - Tiêu tốn nhiều tài nguyên vì nó cần đến một browser driver (tưởng tượng như bạn mở 1 tab chrome thì sẽ tốn bao nhiêu RAM, CPU). Rất chậm, nên selenium không phù hợp với một project cào dữ liệu lớn. | - Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | - Tiêu tốn RAM, CPU. Chậm |
+| Homepage | [scrapy.org](https://scrapy.org) | [selenium.dev](https://www.selenium.dev) | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
+
+Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `**Python**` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, Scrapy là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
 
 
 -----
@@ -108,10 +111,17 @@ Tham khảo:
 - [Crawling dữ liệu từ website, tìm hiểu về ScrapingWeb](https://viblo.asia/p/crawling-du-lieu-tu-website-tim-hieu-ve-scrapingweb-1VgZvGo9lAw)
 - [Crawl data - cào dữ liệu có gì khó?](https://www.lhsang.dev/posts/technique/scraping-data-from-websites/)
 - [Tìm hiểu về Web Scraping Bot là gì?](https://securitydaily.net/tim-hieu-ve-web-scraping-bot-la-gi/)
-- [https://viblo.asia/tags/crawling](https://viblo.asia/tags/crawling)
 
 -----
 - [Awesome-Crawler](https://github.com/BruceDone/awesome-crawler)
+- [https://viblo.asia/tags/crawl](https://viblo.asia/tags/crawl)
+- [https://viblo.asia/tags/crawling](https://viblo.asia/tags/crawling)
+- [https://viblo.asia/tags/web-crawler](https://viblo.asia/tags/web-crawler)
+- [https://viblo.asia/tags/scraping](https://viblo.asia/tags/scraping)
+- [https://viblo.asia/tags/scrapy](https://viblo.asia/tags/scrapy)
+- [https://viblo.asia/tags/selenium](https://viblo.asia/tags/selenium)
+- [https://viblo.asia/search?q=Cheerio](https://viblo.asia/search?q=Cheerio)
+- [https://viblo.asia/tags/puppeteer](https://viblo.asia/tags/puppeteer)
 
 -----
 - [Web Data Crawling vs Web Data Scraping](https://www.promptcloud.com/blog/data-scraping-vs-data-crawling/)
