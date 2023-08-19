@@ -103,8 +103,45 @@ Trước hết mình sẽ giới thiệu qua một số `tool`/`lib`/`framework`
 | Disadvantages | - Hơi phức tạp cho beginer. Quá dư thừa chức năng nếu chỉ dùng cho 1 project nhỏ và đơn giản. Không thể lấy nội dung trang được render bằng js, tuy nhiên chúng ta có thể kết hợp với Splash. | - Tiêu tốn nhiều tài nguyên vì nó cần đến một browser driver (tưởng tượng như bạn mở 1 tab chrome thì sẽ tốn bao nhiêu RAM, CPU). Rất chậm, nên selenium không phù hợp với một project cào dữ liệu lớn. | - Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | - Tiêu tốn RAM, CPU. Chậm |
 | Homepage | [scrapy.org](https://scrapy.org) | [selenium.dev](https://www.selenium.dev) | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
 
-Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `**Python**` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, Scrapy là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
+Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `Python` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, Scrapy là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
 
+### Nhập môn thu thập dữ liệu
+
+Kiến trúc chung của một crawler sẽ gồm 3 phần:
+1. queue chứa URL
+2. downloader
+3. parser
+
+Luồng hoạt động sẽ diễn ra như sau:
+- Cung cấp một URL để start (hoặc một list URL)
+- Downloader tiến hành tải xuống nội dung trang
+- Parser rút trích dữ liệu (store nếu cần) và đồng thời rút trích ra URL kế tiếp và thêm vào queue URL
+- Quá trình sẽ lặp lại cho đến hết URL trong queue
+
+![Web Scraping](https://boxxv.github.io/img/2023/crawler_simple.png "Web Scraping")
+
+Để làm quen với việc thu thập dữ liệu, mình khuyên các bạn nên làm qua 10 bài thực hành trên trang [Scrapingclub](https://scrapingclub.com) (Learn Web Scraping Using Python For Free) theo bất kỳ thư viện hỗ trợ thu thập dữ liệu nào bạn muốn, solutions thì mình cũng đã làm từ lúc mình học cơ bản https://github.com/lhsang/Spiders (sử dụng scrapy) các bạn có thể tham khảo.
+
+Về vấn đề thu thập thông tin để tránh vi phạm các tiêu chuẩn, quy định thì các bạn nên phân tích file http://domain.com/robots.txt trước khi cào, file robots.txt sẽ định quy cho biết Crawler của bạn được truy cập những trang nào, không được truy cập trang nào và thời gian delay mỗi request. Ngoài ra user-agent là một header bạn có thể tùy ý, tuy nhiên về vấn đề đạo đức nghề nghiệp các bạn không nên fake giá trị này.
+
+Phần tiếp theo mình sẽ nói về một số khó khăn đã gặp và giải pháp trong quá trình thu thập dữ liệu phục vụ cho luận văn tốt nghiệp:
+
+-----
+eBook:
+
+![Web Scraping Tutorial with Scrapy and Python for Beginners](https://learning.oreilly.com/library/cover/9781804615317/250w/ "Web Scraping Tutorial with Scrapy and Python for Beginners")
+![Web Scraping with Python, 2nd Edition](https://learning.oreilly.com/library/cover/9781491985564/250w/ "Web Scraping with Python, 2nd Edition")
+![Hands-On Web Scraping with Python](https://static.packt-cdn.com/products/9781789533392/cover/smaller/ "Hands-On Web Scraping with Python")
+
+- [Web Scraping Tutorial with Scrapy and Python for Beginners](https://www.oreilly.com/library/view/web-scraping-tutorial/9781804615317/)
+- [Web Scraping Tutorial with Scrapy and Python for Beginners, Code samples](https://github.com/PacktPublishing/Web-Scraping-Tutorial-with-Scrapy-and-Python-for-Beginners-)
+- [Web Scraping with Python](https://www.linkedin.com/learning/web-scraping-with-python)
+- [Web Scraping with Python, Code samples](https://github.com/LinkedInLearning/web-scraping-with-python-2848331)
+- [Web Scraping with Python, 2nd Edition](https://www.oreilly.com/library/view/web-scraping-with/9781491985564/)
+- [Web Scraping with Python, Code samples](https://github.com/REMitchell/python-scraping)
+- [Hands-On Web Scraping with Python](https://packt.link/free-ebook/9781789533392)
+- [Hands-On Web Scraping with Python, Code samples](https://github.com/PacktPublishing/Hands-On-Web-Scraping-with-Python)
+- []()
 
 -----
 Tham khảo:
