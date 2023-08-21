@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CÔNG NGHỆ LUYỆN CHÌ TINH 99,99 % CÔNG SUẤT 5000 tấn
-subtitle: Luyện chì tinh công suất 5.000 tấn/năm chất lượng 99,9% Pb
+subtitle: Công ty TNHH MTV Kim Loại Màu Thái Nguyên
 tags:
 - luyện chì
 - Pb
@@ -248,3 +248,5 @@ Tham khảo:
 - [Công ty TNHH Hoàng Nam Bắc Kạn: Định hình thương hiệu Ắc quy Bắc Kạn](https://diendandoanhnghiep.vn/cong-ty-tnhh-hoang-nam-bac-kan-dinh-hinh-thuong-hieu-ac-quy-bac-kan-197096.html)
 - [Nhà máy luyện chì cán mốc 1200 tấn kim loại](http://backanco.com/Tin/Tin-tuc/Nha-may-luyen-chi-can-moc-1200-tan-kim-loai.html?ID=253)
 - [Nhà máy tuyển luyện chì, kẽm Lủng Váng: Gây ô nhiễm môi trường](https://www.thiennhien.net/2016/09/23/nha-may-tuyen-luyen-chi-kem-lung-vang-gay-o-nhiem-moi-truong/)
+- [Công ty CP Kim Loại Màu Thái Nguyên](https://kimloaimau.com.vn)
+- [Tổng công ty Khoáng sản – TKV](https://vimico.vn)
