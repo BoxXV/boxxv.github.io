@@ -245,6 +245,8 @@ Trong bộ cô đặc, hạt tinh thể trong dung dịch huyền phù hạt tin
 
 -----
 Tham khảo:
+- [Tuyển nổi quặng chì-kẽm là gì?](https://dasenmining.com/vi/lead-zinc-ore-flotation/)
+- [Hóa Chất Tuyển Nổi Chuyên Dùng Trong Khai Khoáng](http://anquanchem.com/cung-cap-hoa-chat-tuyen-noi-chuyen-dung-trong-khai-khoang/)
 - [Công ty TNHH Hoàng Nam Bắc Kạn: Định hình thương hiệu Ắc quy Bắc Kạn](https://diendandoanhnghiep.vn/cong-ty-tnhh-hoang-nam-bac-kan-dinh-hinh-thuong-hieu-ac-quy-bac-kan-197096.html)
 - [Nhà máy luyện chì cán mốc 1200 tấn kim loại](http://backanco.com/Tin/Tin-tuc/Nha-may-luyen-chi-can-moc-1200-tan-kim-loai.html?ID=253)
 - [Nhà máy tuyển luyện chì, kẽm Lủng Váng: Gây ô nhiễm môi trường](https://www.thiennhien.net/2016/09/23/nha-may-tuyen-luyen-chi-kem-lung-vang-gay-o-nhiem-moi-truong/)
