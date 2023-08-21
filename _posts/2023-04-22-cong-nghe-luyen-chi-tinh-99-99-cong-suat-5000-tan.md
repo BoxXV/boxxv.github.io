@@ -21,7 +21,7 @@ Sản phẩm của dự án bao gồm:
 
 ## 2.1 Mô tả công nghệ
 
-### * Xưởng sản xuất chì thô
+_* Xưởng sản xuất chì thô_
 
 Tinh quặng chì sunfua được trộn với bột đá vôi, bột đá thạch anh, bột mịn chứa chì, quặng vụn hồi liệu... lần lượt được băng tải đưa đến máy hỗn hợp thùng tròn để hỗn hợp trộn và vê viên, sau đó qua băng tải đưa đến bunke nạp liệu của máy thiêu kết, qua máy cấp liệu lắc, rải đều trên xe bàn thiêu kết, qua lò đốt lửa, đốt lửa thiêu kết.
 
@@ -29,11 +29,13 @@ Sau khi thiêu kết xong, quặng thiêu kết được đập vụn và sàng,
 
 Xỉ của lò quạt gió sau khi tháo rút ra từ lò, dùng bơm nước áp lực lớn để nguội và tạo hạt nhỏ, qua hệ thống máng dẫn đến thùng đón sẵn, khi đầy thì dùng palăng đưa lên bunke chứa, tháo vào thùng xe ô tô vận chuyển về Nhà máy kẽm điện phân xử lý thu hồi kẽm tại lò quay xử lý bã. Trong trường hợp chưa có sẵn ô tô vận chuyển, xỉ thải được chưa tạm tại bãi thải xỉ của xưởng. Chì thô sau khi tháo ra khỏi lò được đúc thỏi, vận chuyển về xưởng tinh luyện.
 
-### * Xưởng tinh luyện chì
+_* Xưởng tinh luyện chì_
 
 Tại xưởng tinh luyện Pb chì thỏi thô sẽ được nấu chảy hỏa tinh luyện sơ bộ, sau đó đúc thành tấm A nốt, sử dụng dây chuyền điện phân tinh luyện khử các tạp chất còn lại, thu hồi Ag có trong chì thô. Sản phẩm sau điện phân thu được các tấm chì Katot, đem nấu chảy đúc thành thỏi thành phẩm chì tinh, chất lượng sản phẩm đạt > 99,99% Pb.
 
 Hình 1. Sơ đồ công nghệ sản xuất chì thỏi 5.000 tấn/năm
+
+![Sơ đồ công nghệ sản xuất chì thỏi 5.000 tấn/năm](https://boxxv.github.io/img/2023/5b8061caa200705e2911.jpg "Sơ đồ công nghệ sản xuất chì thỏi 5.000 tấn/năm")
 
 
 ## 2.2. Thuyết minh chi tiết các công đoạn sản xuất
@@ -88,13 +90,13 @@ Thiêu tinh quặng ở nhiệt độ cao, trong thiêu phẩm CuO có thể ở
 
 + Khoáng chất chứa Ag, Au: trong quặng thiêu, Ag ở dạng sunfat hoặc kim loại. Trong tinh quặng chì, vàng ở dạng kim loại quá trình thiêu vàng không bị biến đổi.
 
-Quá trình thiêu kết diễn ra như sau:
+*Quá trình thiêu kết diễn ra như sau:*
 
 Sử dụng máy thiêu kết băng tải để thiêu kết để thiêu kết tinh quặng chì. Máy gồm nhiều xe con chuyển động dựa sát vào nhau theo một khung vòng như 1 cái băng tải. Khung là hai thanh ray nằm song song và ở giữa có những xà ngang giữ cho vững chắc. Khung phía trên đặt ngang, phía dưới mặt dốc từ cuối đến đầu máy. Ở đầu máy thiêu kết có bánh xe lớn răng ăn khớp với bánh xe của xe con. Ở phía dưới khung dọc theo máy có những buồng hút khí.
 
 Khi bánh xe lớn quay răng ăn khớp với bánh xe con và đẩy xe chạy. Trên xe chất đầy nguyên liệu để thiêu kết, được đốt mồi nhờ lò nung phía trên các xe liệu, xe chuyển động từ từ trên hệ thống buồng hút, không khí hút qua lớp nguyên liệu xảy ra sự thiêu. Xe chuyển động đến cuối máy thì tự động trúc xuống đổ quặng thiêu kết ra sau đó chạy bám vào đường ray phía dưới theo độ dốc và sức đẩy liên tục chạy về đầu máy và quá trình cứ thế tuần hoàn.
 
-Các chế độ công nghệ chủ yếu của quá trình thiêu kết:
+*Các chế độ công nghệ chủ yếu của quá trình thiêu kết:*
 
 - Nhiệt độ: đảm bảo nhiệt độ nung 800 - 900ºC. Nếu cao quá thì nguyên liệu có thể chảy ngay từ đầu bao bọc lấy các lớp phía dưới tạo thành lớp vỏ ngăn trở sự oxy hóa có hại cho quá trình thiêu.
 - Gió: Cần dư 5 - 10 lần lớn hơn tính toán lý thuyết, khoảng 0,5 đến 1 m 3 /giây. Nếu ít thì thiêu sẽ chậm hoặc bị ngừng lại. Áp suất không khí phụ thuộc vào độ xốp của nguyên liệu, thường 300 - 500 mm H 2 O.
@@ -102,7 +104,7 @@ Các chế độ công nghệ chủ yếu của quá trình thiêu kết:
 
 - Chiều dầy lớp liệu: Nguyên liệu chứa S lớn và hạt nhỏ thì lớp nguyên liệu phải mỏng, khoảng 100 - 150 mm, khi hạt lớn và ít S thì chiều dầy lớp nguyên liệu phải 250 - 300 mm. Trên máy thiêu kết có bộ phận điều chỉnh độ dầy lớp liệu.
 
-Chỉ tiêu kỹ thuật chủ yếu:
+*Chỉ tiêu kỹ thuật chủ yếu:*
 
 - Năng suất máy thiêu kết: 25 - 30 tấn nguyên liệu/m<sup>2</sup>.24h
 - Nhiên liệu đốt lò nung (loại có nhiệt lượng > 7000 kcal/kg): 1 - 1,5% theo trọng lượng của phối liệu.
@@ -130,7 +132,7 @@ Khi luyện, do trọng lượng riêng khác nhau, sản phẩm lỏng tập tr
 
 Thực chất quá trình luyện chì trong lò quạt gió là hoàn nguyên oxit chì và các kim loại khác, nó được thực hiện trên nhiều thiết bị, nhưng lò quạt gió có ưu điểm hơn do năng suất cao, hoàn nguyên mạnh. Do đó hiện nay trên 90% chì kim loại được sản xuất bởi công nghệ lò quạt gió.
 
-Quá trình biến đổi ở các vùng khác nhau của lò quạt gió:
+*Quá trình biến đổi ở các vùng khác nhau của lò quạt gió:*
 
 Chia ra 5 khu vực:
 - Khu vực 1: Vùng nung nguyên liệu , nhiệt độ từ 190 - 400ºC chủ yếu là nước bốc hơi, có các phản ứng hoàn nguyên PbO tự do.
@@ -143,7 +145,9 @@ Thực tế phản ứng này ở 550 - 630ºC, vùng này có thể tiến hàn
 - Khu vực 4: là vùng nóng chảy 900 - 1300ºC, quá trình tạo xỉ được tiến hành mạnh nhờ SiO<sub>2</sub> và xỉ lỏng, cháy than cốc ở vùng này rất quan trọng. Trong vùng này tất cả các nguyên liệu cần phải chuyển thành thể lỏng và khí, nếu không thì lò sẽ ngừng trệ.
 - Khu vực 5: Là nồi lò, ngoài dạng chảy lỏng còn có những hạt rắn nhỏ, lơ lửng và hòa tan cả khí. Ở vùng này hoàn thành các phản ứng, hình thành các pha và phân chia sản phẩm thành lớp theo tỷ trọng khác nhau.
 
-Cháy than cốc: Cốc cháy phát nhiệt cung cấp cho các phản ứng và làm chảy lỏng liệu, sản phẩm, cung cấp khí CO để hoàn nguyên ra chì và khử một số kim loại khác. Sự biến đổi các chất trong quặng khi luyện:
+*Cháy than cốc*: Cốc cháy phát nhiệt cung cấp cho các phản ứng và làm chảy lỏng liệu, sản phẩm, cung cấp khí CO để hoàn nguyên ra chì và khử một số kim loại khác.
+
+*Sự biến đổi các chất trong quặng khi luyện:*
 
 - Hợp chất chứa chì: trong quặng thiêu kết, chì ở dạng oxit, một số ít dạng sulfua và kim loại Pb. Khi chất vào lò được dòng khí nung nóng, chì được luyện chảy ra, xuống qua lớp nguyên liệu dày, hòa tan kim loại quý và Cu, Pb, Bi chảy vào nồi lò.
 
@@ -174,7 +178,7 @@ Do trong quặng thiêu kết có lượng S nhỏ, để thu được chì hoà
 
 Các sulfua khác thì tạo thành sten. Tỉ trọng phân lớp như sau: chì thô 10,5; sten 5; xỉ 3,5.
 
-Tạo xỉ: Thu được 2,5 - 3 tấn xỉ/1 tấn chì, tỉ trọng của xỉ khoảng 2 - 3 tấn/m<sup>3</sup>.
+*Tạo xỉ*: Thu được 2,5 - 3 tấn xỉ/1 tấn chì, tỉ trọng của xỉ khoảng 2 - 3 tấn/m<sup>3</sup>.
 
 Khi côt liệu hạ thấp dần và được nung nóng, đầu tiên tạo silicat dễ chảy từ silicat sắt, rồi đến silicat canxi. Xỉ tạo thành được nung nóng ở mắt gió và chảy xuống nồi lò, tiếp tục biến đổi hóa lý vừa khuếch tán vừa phân lớp.
 
@@ -184,7 +188,7 @@ Thành phần xỉ gồm: SiO<sub>2</sub>, CaO, FeO và ZnO và một số oxit 
 
 Như vậy khi luyện trong lò quạt gió, môi trường hoàn nguyên, nhiệt độ vừa phải thì hợp chất chỉ được khử tới chì kim loại và có các kim loại quý và một số kim loại khác để khử, những oxit kim loại khác không được khử (CaO, MgO, SiO<sub>2</sub>, Al<sub>2</sub>O<sub>3</sub> ) hoặc chỉ được khử tới oxit thấp hơn như FeO, MgO thì sẽ tạo thành xỉ.
 
-Cấu tạo lò quạt gió
+*Cấu tạo lò quạt gió*
 
 Gồm những thành phần cơ bản: móng, thân và cổ lò.
 
@@ -198,7 +202,7 @@ Gồm những thành phần cơ bản: móng, thân và cổ lò.
 - Thân lò: có 2 loại là loại thân trên xây bằng gạch, dưới bằng két nước và loại toàn bộ bằng két nước. Chiều cao két nước gần 2m, chiều rộng 0,6-1,5m, không gian đựng nước 100 - 130mm. Nhiệt độ nước vào 25ºC, ra 80ºC. Nước làm mát 2 - 3m 3 /tấn nguyên liệu.
 - Lỗ gió: Bằng gang, có van tự động để phòng nổ, trong khí lò có CO khi gió ngừng lại chảy ra ống gió hợp với không khí gây ra nổ.
 
-Thao tác công nghệ
+*Thao tác công nghệ*
 - Khai lò: Gồm 3 giai đoạn chủ yếu là sấy, nung nồi lò, đổ đầy chì thô vào nồi và bắt đầu luyện.
 
 + Sấy lò: Dùng củi tăng dần nhiệt độ, nhiệt độ sấy 200ºC, lò mới thì sấy 3 - 4 ngày, lò cũ sấy 1 - 2 ngày.
@@ -227,7 +231,17 @@ Tháo xỉ và sten qua lỗ tháo và thùng chứa. Cứ 10 phút thì tháo m
 
 #### c.Công nghệ sản xuất amoni sulfat
 
-Khí thải lò thiêu kết và lò quạt gió sau khi được lọc qua hệ thống lọc bụi (lọc xyclon, lọc bụi túi vải) được dẫn xử lý tiếp tại tháp rửa khí và tháp hấp thụ. Khí thải sau khi làm sạch được thải ra ngoài qua ống khói cao 40m bố trí trên đỉnh của tháp hấp thụ. Dung dịch sử dụng cho tháp hấp thụ là dung dịch amoniac, sau khi qua tháp hấp thụ, công đoạn oxy hóa thu được dung dịch amonisulfat. Dung dịch amoni sulfat tiếp tục được dẫn đến công đoạn sản xuất phân đạm với quy trình cụ thể như sau: Công đoạn bay hơi và kết tinh Dung dịch amonisulfat đưa đến từ công đoạn khử lưu huỳnh được chứa trong bể dung dịch amonisulfat dau đó được bơm bổ dung bơm tuần hoàn cưỡng chế vào đường ống bay hơi tuần hoàn. Dung dịch tuần hoàn sau khi đi qua bộ gia nhiệt bị hơi nước gia nhiệt gián tiếp lập tức bay hơi dưới áp suất âm trong bộ bay hơi kết tinh. Dung dịch amonisulfat do nước bị bay hơi mà cô đặc lại, nồng độ tăng cao dần đạt đến bão hòa, cuối cùng tách ra thành hạt tinh thể amonisulfat đạt yêu cầu công nghệ và được xả vào bộ cô đặc. Công đoạn phân ly sấy khô Trong bộ cô đặc, hạt tinh thể trong dung dịch huyền phù hạt tinh thể amonisulfat lắng xuống, tập trung ở phần đáy, dung dịch trong bên trên chảy tràn về bể dung dịch amonisulfat. Hạt tinh thể ở đáy bộ cô đặc xả vào máy li tâm tiến hành phân ly rắn lỏng, kết tinh amonisulfat phân ly ra rơi xuống thiết bị sấy khô phía dưới máy li tâm - giường tầng sôi rung sấy khô, dung dịch lọc chảy về đến bể dung dịch 10 [...]... Cung cấp nước: Cung cấp điện:  Công   suất  tổng lắp máy Kw 912
+Khí thải lò thiêu kết và lò quạt gió sau khi được lọc qua hệ thống lọc bụi (lọc xyclon, lọc bụi túi vải) được dẫn xử lý tiếp tại tháp rửa khí và tháp hấp thụ. Khí thải sau khi làm sạch được thải ra ngoài qua ống khói cao 40m bố trí trên đỉnh của tháp hấp thụ.
+
+Dung dịch sử dụng cho tháp hấp thụ là dung dịch amoniac, sau khi qua tháp hấp thụ, công đoạn oxy hóa thu được dung dịch amonisulfat. Dung dịch amoni sulfat tiếp tục được dẫn đến công đoạn sản xuất phân đạm với quy trình cụ thể như sau:
+
+*Công đoạn bay hơi và kết tinh*
+
+Dung dịch amonisulfat đưa đến từ công đoạn khử lưu huỳnh được chứa trong bể dung dịch amonisulfat dau đó được bơm bổ dung bơm tuần hoàn cưỡng chế vào đường ống bay hơi tuần hoàn. Dung dịch tuần hoàn sau khi đi qua bộ gia nhiệt bị hơi nước gia nhiệt gián tiếp lập tức bay hơi dưới áp suất âm trong bộ bay hơi kết tinh. Dung dịch amonisulfat do nước bị bay hơi mà cô đặc lại, nồng độ tăng cao dần đạt đến bão hòa, cuối cùng tách ra thành hạt tinh thể amonisulfat đạt yêu cầu công nghệ và được xả vào bộ cô đặc.
+
+*Công đoạn phân ly sấy khô*
+
+Trong bộ cô đặc, hạt tinh thể trong dung dịch huyền phù hạt tinh thể amonisulfat lắng xuống, tập trung ở phần đáy, dung dịch trong bên trên chảy tràn về bể dung dịch amonisulfat. Hạt tinh thể ở đáy bộ cô đặc xả vào máy li tâm tiến hành phân ly rắn lỏng, kết tinh amonisulfat phân ly ra rơi xuống thiết bị sấy khô phía dưới máy li tâm - giường tầng sôi rung sấy khô, dung dịch lọc chảy về đến bể dung dịch ...
 
 -----
 Tham khảo:
