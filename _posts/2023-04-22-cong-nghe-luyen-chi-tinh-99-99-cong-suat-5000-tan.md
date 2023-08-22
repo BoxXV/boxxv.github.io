@@ -139,7 +139,7 @@ Chia ra 5 khu vực:
 - Khu vực 2: Gọi là vùng hoàn nguyên trên, nhiệt độ từ 400 - 700ºC, bắt đầu phân hóa cacsbonat và một phần sulfat, bắt đầu quá trình khử sulfat như:
 
 ```math
-PbSO<sub>4</sub> + 4CO = PbS + 4 CO<sub>2</sub>
+PbSO_{4} + 4CO = PbS + 4 CO_{2}
 ```
 
 Thực tế phản ứng này ở 550 - 630ºC, vùng này có thể tiến hành mạnh phản ứng 6 oxy hóa than bằng CO<sub>2</sub>, chì được hoàn nguyên thành giọt và dòng chảy giữa các cục nguyên liệu.
@@ -161,7 +161,7 @@ PbO và PbS tiếp xúc với nhau tạo thành chì kim loại ở > 800ºC
 Silicat thì bị chảy nhanh trong lò, chảy qua mẻ nấu và hòa tan nhiều oxit kim loại khác, do vậy chúng được hoàn nguyên trong lò quạt gió với mức độ đáng kể từ xỉ. dạng tổng quát sau:
 
 ```math
-(MeO)xỉ + CO = Me + CO<sub>2</sub>
+(MeO)xỉ + CO = Me + CO_{2}
 ```
 
 Chì silicat khử ở 750-850ºC Khi có chất bazo mạnh như CaO, CaO sẽ tách PbO ra khỏi silicat.
