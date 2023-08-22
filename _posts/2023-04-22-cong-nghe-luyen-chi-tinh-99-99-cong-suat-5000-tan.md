@@ -99,7 +99,7 @@ Khi bánh xe lớn quay răng ăn khớp với bánh xe con và đẩy xe chạy
 *Các chế độ công nghệ chủ yếu của quá trình thiêu kết:*
 
 - Nhiệt độ: đảm bảo nhiệt độ nung 800 - 900ºC. Nếu cao quá thì nguyên liệu có thể chảy ngay từ đầu bao bọc lấy các lớp phía dưới tạo thành lớp vỏ ngăn trở sự oxy hóa có hại cho quá trình thiêu.
-- Gió: Cần dư 5 - 10 lần lớn hơn tính toán lý thuyết, khoảng 0,5 đến 1 m 3 /giây. Nếu ít thì thiêu sẽ chậm hoặc bị ngừng lại. Áp suất không khí phụ thuộc vào độ xốp của nguyên liệu, thường 300 - 500 mm H 2 O.
+- Gió: Cần dư 5 - 10 lần lớn hơn tính toán lý thuyết, khoảng 0,5 đến 1 m 3 /giây. Nếu ít thì thiêu sẽ chậm hoặc bị ngừng lại. Áp suất không khí phụ thuộc vào độ xốp của nguyên liệu, thường 300 - 500 mm H<sub>2</sub>O.
 - Độ ẩm: cần 10 - 12%. Hạt nguyên liệu nhỏ, chứa nhiều S thì ẩm lớn, hạt lớn và chứa ít S thì yêu cầu ẩm nhỏ hơn (5 - 6 %).
 
 - Chiều dầy lớp liệu: Nguyên liệu chứa S lớn và hạt nhỏ thì lớp nguyên liệu phải mỏng, khoảng 100 - 150 mm, khi hạt lớn và ít S thì chiều dầy lớp nguyên liệu phải 250 - 300 mm. Trên máy thiêu kết có bộ phận điều chỉnh độ dầy lớp liệu.
@@ -137,7 +137,10 @@ Thực chất quá trình luyện chì trong lò quạt gió là hoàn nguyên o
 Chia ra 5 khu vực:
 - Khu vực 1: Vùng nung nguyên liệu , nhiệt độ từ 190 - 400ºC chủ yếu là nước bốc hơi, có các phản ứng hoàn nguyên PbO tự do.
 - Khu vực 2: Gọi là vùng hoàn nguyên trên, nhiệt độ từ 400 - 700ºC, bắt đầu phân hóa cacsbonat và một phần sulfat, bắt đầu quá trình khử sulfat như:
+
+```math
 PbSO<sub>4</sub> + 4CO = PbS + 4 CO<sub>2</sub>
+```
 
 Thực tế phản ứng này ở 550 - 630ºC, vùng này có thể tiến hành mạnh phản ứng 6 oxy hóa than bằng CO<sub>2</sub>, chì được hoàn nguyên thành giọt và dòng chảy giữa các cục nguyên liệu.
 
@@ -157,7 +160,9 @@ PbO và PbS tiếp xúc với nhau tạo thành chì kim loại ở > 800ºC
 
 Silicat thì bị chảy nhanh trong lò, chảy qua mẻ nấu và hòa tan nhiều oxit kim loại khác, do vậy chúng được hoàn nguyên trong lò quạt gió với mức độ đáng kể từ xỉ. dạng tổng quát sau:
 
+```math
 (MeO)xỉ + CO = Me + CO<sub>2</sub>
+```
 
 Chì silicat khử ở 750-850ºC Khi có chất bazo mạnh như CaO, CaO sẽ tách PbO ra khỏi silicat.
 
@@ -166,7 +171,9 @@ Chì silicat khử ở 750-850ºC Khi có chất bazo mạnh như CaO, CaO sẽ 
 
 Khi luyện, một phần PbS tiến hành phản ứng thế:
 
+```math
 PbS+ Fe = FeS + Pb
+```
 
 Do trong quặng thiêu kết có lượng S nhỏ, để thu được chì hoàn toàn hơn, đưa phoi sắt vào lò, tạo điều kiện cho phản ứng trên.
 
