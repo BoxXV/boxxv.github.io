@@ -107,9 +107,12 @@ The Visual Studio Extension for .NET Developers
 
 ## Doing
 
-### a
-+ b
-+ c
+### Material UI theming
++ https://mui.com/material-ui/customization/theming/
++ https://muhimasri.com/blogs/how-to-customize-theme-and-colors-in-material-ui/
++ https://www.geeksforgeeks.org/react-mui-theming/
++ https://bareynol.github.io/mui-theme-creator/
++ https://fullstack.edu.vn/blog/material-ui-custom-theme-voi-typescript.html
 
 
 ## Finished
