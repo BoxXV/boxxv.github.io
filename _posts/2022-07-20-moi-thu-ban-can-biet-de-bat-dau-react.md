@@ -522,7 +522,8 @@ const [state, dispatch] = useReducer(reducer, initialArg, init);
 -----
 Tham khảo:
 - [React homepage](https://reactjs.org)
-- [React roadmap](https://roadmap.sh/react)
+- React [Roadmap](https://roadmap.sh/react)
+- [Awesome React](https://github.com/enaqx/awesome-react)
 - [Redux homepage](https://redux.js.org)
 - [ReactJS là gì? Những điều bạn cần biết về ReactJS](https://200lab.io/blog/reactjs-la-gi/)
 
@@ -596,6 +597,7 @@ Tham khảo:
 -----
 Redux
 - [Tìm hiểu về Redux trong ReactJS](https://viblo.asia/p/tim-hieu-ve-redux-trong-reactjs-GrLZDe7Olk0)
+- [Redux là gì? Hiểu rõ cách hoạt động của Redux](https://200lab.io/blog/redux-la-gi/)
 - [React js: Phân biệt Redux-thunk và Redux saga](https://viblo.asia/p/react-js-phan-biet-redux-thunk-va-redux-saga-eW65Gb1jlDO)
 - [Tổng quan Immutability trong React và Redux!](https://viblo.asia/p/tong-quan-immutability-trong-react-va-redux-maGK77MaKj2)
 - [Một số cách cập nhật state trong Redux!](https://viblo.asia/p/mot-so-cach-cap-nhat-state-trong-redux-07LKXJq2lV4)
