@@ -9,7 +9,9 @@ tags:
 - React
 ---
 
-![React](https://boxxv.github.io/img/posts/react.png "React")
+![React Roadmap](https://boxxv.github.io/img/2023/react.jpg "React Roadmap")
+
+![React Developer Roadmap in 2019](https://raw.githubusercontent.com/adam-golab/react-developer-roadmap/master/roadmap.png "React Developer Roadmap in 2019")
 
 React là thư viện Front End phổ biến nhất hiện nay. React JS là một framework hiển thị view chú ý đến hiệu năng (performance-minded) được tạo ra bởi Facebook. Rất nhiều đối thủ nặng ký về framework MVVM (Model-View-ViewModel) mất một thời gian lớn để hiển thị những lượng data lớn, như trong trường hợp những danh sách (list) và tương tự. Nhưng React đó không còn là vấn đề, vì nó chỉ hiển thị những gì thay đổi.
 
@@ -521,7 +523,21 @@ const [state, dispatch] = useReducer(reducer, initialArg, init);
 Tham khảo:
 - [React homepage](https://reactjs.org)
 - [React roadmap](https://roadmap.sh/react)
-- [Redux homepage](https://redux.js.org/)
+- [Redux homepage](https://redux.js.org)
+- [ReactJS là gì? Những điều bạn cần biết về ReactJS](https://200lab.io/blog/reactjs-la-gi/)
+
+-----
+- [Next.js vs. Remix vs. Gatsby: Which One to Choose for Your Next Project?](https://medium.com/codex/next-js-vs-remix-vs-gatsby-which-one-to-choose-for-your-next-project-ab89fb8e48c4)
+- [Getting Started: Gatsby vs. Next.js vs. Remix](https://satellytes.com/blog/post/getting-started-gatsby-next-remix/)
+- [Popular React Framework Choices to Develop React Apps in 2023](https://hackernoon.com/popular-react-framework-choices-to-develop-react-apps-in-2023)
+- [Next.js vs. Gatsby in 2023](https://prismic.io/blog/compare-nextjs-vs-gatsby)
+- [Next.js, Gatsby, Remix](https://reactbricks.com/features/nextjs-gatsby-remix-cms)
+- [Next.js vs Astro vs Remix: Choosing the Right Front-end Framework](https://strapi.io/blog/nextjs-vs-astro-vs-remix-choosing-the-right-frontend-framework)
+- [Remix vs. Next.js vs. SvelteKit](https://blog.logrocket.com/react-remix-vs-next-js-vs-sveltekit/)
+- [gatsby vs next vs remix](https://npmtrends.com/gatsby-vs-next-vs-remix)
+- [The Tectonic Shift in React Ecosystem: Unearthing the Future with Next.js, Remix, Gatsby, Vite, QGP, and Astro](https://dev.to/jlarky/the-tectonic-shift-in-react-ecosystem-unearthing-the-future-with-nextjs-remix-gatsby-vite-qgp-and-astro-okl)
+
+-----
 - [Viblo React.js Essentitals](https://learn.viblo.asia/courses/reactjs-essentitals-VolejRRejN)
 - [Junior vs Senior React Folder Structure - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Tất cả mọi thứ bạn cần biết để bắt đầu học React](https://viblo.asia/p/tat-ca-moi-thu-ban-can-biet-de-bat-dau-hoc-react-Qbq5QAPR5D8)
