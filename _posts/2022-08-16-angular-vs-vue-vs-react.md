@@ -158,15 +158,29 @@ Tiếp theo hãy cùng đi đến những điểm hay và không hay giữa các
 
 ## Jobs
 
+26/08/2023
+- [`React` are **3,726** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336)
+- [`Vue.js` are **725** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794477273088)
+- [`Angular` are **717** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628012691468)
+- [`Angular JS` are **585** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712877088768)
+- [`Angular 2` are **15** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712818368512)
+- [`Angular 6` are **29** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876959218548736)
+- [`Flutter` are **1,145** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773)
+- [`Next.js` are **1,145** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773)
+- [`Gatsby.js` are **33** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626740685324288)
+- [`Remix` are **30** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580677483941888)
+
 17/08/2022
-- [`React` are **3,667** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336)
-- [`Vue.js` are **862** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794477273088)
-- [`Angular` are **951** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628012691468)
-- [`Angular JS` are **769** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712877088768)
-- [`Angular 2` are **33** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712818368512)
-- [`Angular 6` are **75** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876959218548736)
-- [`Flutter` are **1,036** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773)
-- [`Next.js` are **387** jobs found](https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773)
+- `React` are **3,667** jobs found
+- `Vue.js` are **862** jobs found
+- `Angular` are **951** jobs found
+- `Angular JS` are **769** jobs found
+- `Angular 2` are **33** jobs found
+- `Angular 6` are **75** jobs found
+- `Flutter` are **1,036** jobs found
+- `Next.js` are **387** jobs found
+
+- [Angular vs React vs Vue](https://npmtrends.com/angular-vs-react-vs-vue)
 
 
 ## Tổng kết
