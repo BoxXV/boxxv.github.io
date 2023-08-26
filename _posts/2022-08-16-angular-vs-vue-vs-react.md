@@ -180,7 +180,7 @@ Tiếp theo hãy cùng đi đến những điểm hay và không hay giữa các
 - `Flutter` are **1,036** jobs found
 - `Next.js` are **387** jobs found
 
-- [Angular vs React vs Vue](https://npmtrends.com/angular-vs-react-vs-vue)
+[Angular vs React vs Vue](https://npmtrends.com/angular-vs-react-vs-vue)
 
 
 ## Tổng kết

@@ -174,6 +174,22 @@ Python - Scrapy, pyspider, CoCrawler, cola, Demiurge, Scrapely .v.v.
 - [Sử dụng proxy trong Scrapy](https://viblo.asia/p/su-dung-proxy-trong-scrapy-maGK780LZj2)
 - [Tìm hiểu cách cào dữ liệu đơn giản với Scapy](https://viblo.asia/p/tim-hieu-cach-cao-du-lieu-don-gian-voi-scapy-3P0lPDA4lox)
 
+#### Scrapy for Beginners
+- _John Watson Rooney &#9679; [15 video](https://www.youtube.com/playlist?list=PLRzwgpycm-Fjvdf7RpmxnPMyJ80RecJjv) &#9679; Dec 10, 2020_
+
+#### Scrapy
+- _codeRECODE &#9679; [40 video](https://www.youtube.com/playlist?list=PLj4hN6FewnwoUArmA8kifDHZYvRn6egg5) &#9679; Jun 7, 2023_
+
+#### The Python Scrapy Playbook
+- _ScrapeOps &#9679; [20 video](https://www.youtube.com/playlist?list=PLkhQp3-EGsIi39YF-BE306DDX1xVSTHmn) &#9679; Dec 12, 2020_
+
+#### Python Web Scraping & Crawling using Scrapy
+- _buildwithpython &#9679; [25 video](https://www.youtube.com/playlist?list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t) &#9679; Feb 25, 2019_
+
+- [Scrapy Course – Python Web Scraping for Beginners](https://youtu.be/mBoX_JCKZTE)
+- [Scraping LinkedIn Profiles with Python Scrapy (2022)](https://youtu.be/fg8ZGzueHLk)
+
+
 Python - Beautiful Soup
 - [PyMOTM: Argparse](https://viblo.asia/p/pymotm-argparse-l5XRBVeVRqPe)
 - [PyMOTM: Requests](https://viblo.asia/p/pymotm-requests-zb7vD8wKvjKd)
