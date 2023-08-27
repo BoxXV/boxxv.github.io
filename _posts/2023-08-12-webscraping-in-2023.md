@@ -153,10 +153,12 @@ Tham khảo:
 - [Panther - thư viện dùng để scrape website](https://viblo.asia/p/panther-thu-vien-dung-de-scrape-website-ORNZqp3bK0n)
 - [Cách mình "hack" được vào hẹ thống của SMAS để xem điểm.](https://viblo.asia/p/cach-minh-hack-duoc-vao-he-thong-cua-smas-de-xem-diem-LzD5d2rYZjY)
 - [Một vài công cụ dò quét lỗ hổng XSS hiệu quả khi săn bug](https://viblo.asia/p/mot-vai-cong-cu-do-quet-lo-hong-xss-hieu-qua-khi-san-bug-x7Z4Djm0LnX)
+- [Cách crawl data "no code" đơn giản với Chrome Extension](https://viblo.asia/p/cach-crawl-data-no-code-don-gian-voi-chrome-extension-obA4660w4Kv)
 
 -----
-Python - Scrapy, pyspider, CoCrawler, cola, Demiurge, Scrapely .v.v.
+Python - [Scrapy](https://scrapy.org), [pyspider](http://docs.pyspider.org), [CoCrawler](https://github.com/cocrawler/cocrawler), [cola](https://github.com/qinxuye/cola), [Demiurge](http://demiurge.readthedocs.org/), [Scrapely](https://github.com/scrapy/scrapely) .v.v.
 
+- [Cào dữ liệu với Scrapy](https://phocode.com/python/scrapy/scrapy-gioi-thieu/)
 - [Làm một con Crawler đơn giản để cào ebooks với Scrapy và python](https://viblo.asia/p/lam-mot-con-crawler-don-gian-de-cao-ebooks-voi-scrapy-va-python-maGK7qPDlj2)
 - [Thu thập và lưu trữ dữ liệu với scrapy và mysql](https://viblo.asia/p/thu-thap-va-luu-tru-du-lieu-voi-scrapy-va-mysql-yMnKMA9EK7P)
 - [Thu thập dữ liệu tự động cùng với Scrapy, Mongodb và Crontab](https://viblo.asia/p/thu-thap-du-lieu-tu-dong-cung-voi-scrapy-mongodb-va-crontab-RQqKLNrml7z)
