@@ -125,6 +125,7 @@ Các loại kiểm thử phi chức năng
 -----
 Tham khảo:
 
+- [The Road Map - Software Testing](https://viblo.asia/p/the-road-map-software-testing-OeVKBn0QKkW)
 - [A COMPLETE GUIDE ON SOFTWARE TESTING](https://www.leewayhertz.com/software-testing-process/)
 - [Types of Software Testing](https://www.javatpoint.com/types-of-software-testing)
 - [A Quick Guide to the Software Testing Life Cycle (STLC)](https://jelvix.com/blog/software-testing-life-cycle)
@@ -269,6 +270,43 @@ Tham khảo:
 - [[TEST AUTOMATION] HƯỚNG DẪN CƠ BẢN SELENIUM TRONG PYTHON](https://co-well.vn/nhat-ky-cong-nghe/test-automation-huong-dan-co-ban-selenium-trong-python/)
 - [UNIT TESTING TUTORIAL: LÀM QUEN VỚI PHPUNIT](https://co-well.vn/nhat-ky-cong-nghe/unit-testing-tutorial-lam-quen-voi-phpunit/)
 - [CÁC CHỨNG CHỈ MỘT TESTER NÊN CÓ](https://co-well.vn/nhat-ky-cong-nghe/cac-chung-chi-mot-tester-nen-co-de-thang-tien-su-nghiep/)
+
+-----
+- [API Testing bằng Postman - Khởi đầu mới](https://viblo.asia/p/api-testing-bang-postman-khoi-dau-moi-Qbq5Qp0mlD8)
+- [API Testing bằng Postman - Tạo testcase](https://viblo.asia/p/api-testing-bang-postman-tao-testcase-6J3ZgoExZmB)
+- [API Testing bằng Postman - Collection runner](https://viblo.asia/p/api-testing-bang-postman-collection-runner-eW65G81JKDO)
+- [Postman nâng cao - Viết Tests cho Postman](https://viblo.asia/p/postman-nang-cao-viet-tests-cho-postman-jvElaym4lkw)
+
+-----
+- [Các công cụ kiểm thử tự động nổi bật trong năm 2019 ( Phần 1)](https://viblo.asia/p/cac-cong-cu-kiem-thu-tu-dong-noi-bat-trong-nam-2019-phan-1-924lJL7WKPM)
+- [Các công cụ kiểm thử tự động nổi bật trong năm 2019 ( Phần 2)](https://viblo.asia/p/cac-cong-cu-kiem-thu-tu-dong-noi-bat-trong-nam-2019-phan-2-3Q75wd9eKWb)
+
+- [https://viblo.asia/tags/katalon-studio](https://viblo.asia/tags/katalon-studio)
+- [Giới thiệu về Katalon Studio - Công cụ kiểm thử tự động đến từ Việt Nam](https://viblo.asia/p/gioi-thieu-ve-katalon-studio-cong-cu-kiem-thu-tu-dong-den-tu-viet-nam-1Je5EyQY5nL)
+- [Giới thiệu và tạo new project trong Katalon](https://viblo.asia/p/gioi-thieu-va-tao-new-project-trong-katalon-Az45bmoOlxY)
+- [Tạo test case sử dụng script mode trong Katalon](https://viblo.asia/p/tao-test-case-su-dung-script-mode-trong-katalon-aWj53pYoK6m)
+- [Automation Testing with Cucumber BDD in Katalon](https://viblo.asia/p/automation-testing-with-cucumber-bdd-in-katalon-XL6lANkJ5ek)
+- [REST API và Webservice với Katalon Studio](https://viblo.asia/p/rest-api-va-webservice-voi-katalon-studio-Az45bQvVlxY)
+- [Tạo dự án Mobile Testing với Katalon Studio và tích hợp Kobiton cloud-based device farm](https://viblo.asia/p/tao-du-an-mobile-testing-voi-katalon-studio-va-tich-hop-kobiton-cloud-based-device-farm-OeVKBdJYlkW)
+- [Katalon Studio và so sánh các công cụ kiểm thử tự động phổ biến hiện nay](https://viblo.asia/p/katalon-studio-va-so-sanh-cac-cong-cu-kiem-thu-tu-dong-pho-bien-hien-nay-yMnKMnaDZ7P)
+- [Katalon Studio- Cách cài đặt và cấu hình- Viết một kịch bản test](https://viblo.asia/p/katalon-studio-cach-cai-dat-va-cau-hinh-viet-mot-kich-ban-test-RQqKLEkmZ7z)
+- [Kiểm thử cơ sở dữ liệu trong Katalon Studio](https://viblo.asia/p/kiem-thu-co-so-du-lieu-trong-katalon-studio-GrLZDQpBlk0)
+- [Testing API đơn giản với Katalon Studio](https://viblo.asia/p/testing-api-don-gian-voi-katalon-studio-Eb85opw8K2G)
+- [Tìm hiểu về công cụ Katalon trong kiểm thử phần mềm - tổng quan về Katalon (Phần 1)](https://viblo.asia/p/tim-hieu-ve-cong-cu-katalon-trong-kiem-thu-phan-mem-tong-quan-ve-katalon-phan-1-aWj532EYl6m)
+- [Tìm hiểu về công cụ Katalon trong kiểm thử phần mềm - tổng quan về Katalon (Phần 2)](https://viblo.asia/p/tim-hieu-ve-cong-cu-katalon-trong-kiem-thu-phan-mem-tong-quan-ve-katalon-phan-2-GrLZDpeVZk0)
+- [Tìm hiểu về công cụ Katalon trong kiểm thử phần mềm - tổng quan về Katalon (Phần 3)](https://viblo.asia/p/tim-hieu-ve-cong-cu-katalon-trong-kiem-thu-phan-mem-tong-quan-ve-katalon-phan-3-jvElaEyzlkw)
+- [Tìm hiểu về công cụ Katalon trong kiểm thử phần mềm (Phần 4) - Tips & Tricks](https://viblo.asia/p/tim-hieu-ve-cong-cu-katalon-trong-kiem-thu-phan-mem-phan-4-tips-tricks-XL6lAAzRlek)
+- [Tìm hiểu về testNG framework (Phần 1)](https://viblo.asia/p/tim-hieu-ve-testng-framework-phan-1-aWj53Vyol6m)
+- [Tìm hiểu về testNG framework (Phần 2)](https://viblo.asia/p/tim-hieu-ve-testng-framework-phan-2-gGJ59X6PlX2)
+- [Tìm hiểu về testNG framework (Phần 3)](https://viblo.asia/p/tim-hieu-ve-testng-framework-phan-3-1VgZvByYZAw)
+- [Tìm hiểu về testNG framework (Phần 4)](https://viblo.asia/p/tim-hieu-ve-testng-framework-phan-4-YWOZreG7KQ0)
+- [Tìm hiểu về testNG framework (Phần 5)](https://viblo.asia/p/tim-hieu-ve-testng-framework-phan-5-eW65G2q6lDO)
+- [Tìm hiểu về testNG framework (Phần 6)](https://viblo.asia/p/tim-hieu-ve-testng-framework-phan-6-gGJ592QxKX2)
+- [Kiểm Thử Phần Mềm Dành Cho Người Mới Bắt Đầu - Nhập Môn Kiểm Thử Phần Mềm (Phần I)](https://viblo.asia/p/kiem-thu-phan-mem-danh-cho-nguoi-moi-bat-dau-nhap-mon-kiem-thu-phan-mem-phan-i-gDVK2pqvlLj)
+- [Kiểm Thử Phần Mềm Dành Cho Người Mới Bắt Đầu (Phần II)](https://viblo.asia/p/kiem-thu-phan-mem-danh-cho-nguoi-moi-bat-dau-phan-ii-gDVK23bvZLj)
+- [Kiểm Thử Phần Mềm Dành Cho Người Mới Bắt Đầu (Phần III)](https://viblo.asia/p/kiem-thu-phan-mem-danh-cho-nguoi-moi-bat-dau-phan-iii-WAyK8PkoKxX)
+- [Kiểm Thử Phần Mềm Dành Cho Người Mới Bắt Đầu (Phần IV)](https://viblo.asia/p/kiem-thu-phan-mem-danh-cho-nguoi-moi-bat-dau-phan-iv-YWOZrbQyZQ0)
+- [Làm thế nào để trở thành Tester chuyên nghiệp](https://viblo.asia/p/lam-the-nao-de-tro-thanh-tester-chuyen-nghiep-Qbq5QrMJKD8)
 
 -----
 - [Telegram Automation Testing](https://t.me/+kSUGJ3pVvxkyZWU1)

@@ -612,6 +612,7 @@ Tham khảo:
 
 -----
 - [Tạo ứng dụng ReactJS bằng Create React App](https://viblo.asia/p/tao-ung-dung-reactjs-bang-create-react-app-Eb85oXr0K2G)
+- [Production-grade React frameworks](https://react.dev/learn/start-a-new-react-project)
 - [Reactjs part1: Tạo project và tìm hiểu những kiến thức cơ bản](https://viblo.asia/p/reactjs-part1-tao-project-va-tim-hieu-nhung-kien-thuc-co-ban-4P856z1a5Y3)
 - [Learn ReactJS By Create React App (Part 1)](https://viblo.asia/p/learn-reactjs-by-create-react-app-part-1-924lJpLaKPM)
 - [Learn ReactJS By Create React App (Part 2)](https://viblo.asia/p/learn-reactjs-by-create-react-app-part-2-RnB5pxGw5PG)
