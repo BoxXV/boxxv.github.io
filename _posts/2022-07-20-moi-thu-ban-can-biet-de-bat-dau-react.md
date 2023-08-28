@@ -536,6 +536,8 @@ npm init react-app hello-world
 yarn create react-app hello-world
 ```
 
+Bạn có thể tìm thấy danh sách các mẫu có sẵn bằng cách tìm kiếm "[`cra-template-*`](https://www.npmjs.com/search?q=cra-template-*)" trên npm.
+
 Chạy ứng dụng React
 
 ```bat
@@ -575,6 +577,13 @@ hello-world
     └── setupTests.js
 ```
 
+Ba thư mục con cấp cao nhất:
+
+- `/node_modules`: Nơi chứa tất cả các thư viện bên ngoài được sử dụng để ghép ứng dụng React lại với nhau. Bạn không nên sửa đổi bất kỳ mã nào trong thư mục này vì điều đó sẽ sửa đổi thư viện của bên thứ ba và những thay đổi của bạn sẽ bị ghi đè vào lần tiếp theo khi bạn chạy lệnh npm install.
+- `/public`: Nội dung không được biên dịch hoặc tạo động sẽ được lưu trữ tại đây. Đây có thể là nội dung tĩnh như biểu trưng hoặc tệp robots.txt.
+- `/src`: Nơi chúng ta sẽ dành phần lớn thời gian. Thư mục src hoặc nguồn chứa tất cả các thành phần React, tệp CSS bên ngoài và nội dung động mà chúng tôi sẽ đưa vào các tệp thành phần của mình.
+
+Ở cấp độ cao, React có một trang index.html chứa một phần tử div (nút gốc). Khi ứng dụng React biên dịch, nó sẽ gắn thành phần đầu vào — trong trường hợp của chúng tôi là App.js — vào nút gốc đó bằng JavaScript.
 
 
 
@@ -597,11 +606,11 @@ Tham khảo:
 - [Remix vs. Next.js vs. SvelteKit](https://blog.logrocket.com/react-remix-vs-next-js-vs-sveltekit/)
 - [gatsby vs next vs remix](https://npmtrends.com/gatsby-vs-next-vs-remix)
 - [The Tectonic Shift in React Ecosystem: Unearthing the Future with Next.js, Remix, Gatsby, Vite, QGP, and Astro](https://dev.to/jlarky/the-tectonic-shift-in-react-ecosystem-unearthing-the-future-with-nextjs-remix-gatsby-vite-qgp-and-astro-okl)
-
------
 - [Đi tìm chiếc structure hoàn hảo cho ứng dụng React](https://viblo.asia/p/di-tim-chiec-structure-hoan-hao-cho-ung-dung-react-Az45b41NZxY)
   * [Thinking in React](https://react.dev/learn/thinking-in-react)
   * [File Structure](https://legacy.reactjs.org/docs/faq-structure.html)
+
+-----
 - [Tạo ứng dụng ReactJS bằng Create React App](https://viblo.asia/p/tao-ung-dung-reactjs-bang-create-react-app-Eb85oXr0K2G)
 - [Reactjs part1: Tạo project và tìm hiểu những kiến thức cơ bản](https://viblo.asia/p/reactjs-part1-tao-project-va-tim-hieu-nhung-kien-thuc-co-ban-4P856z1a5Y3)
 - [Learn ReactJS By Create React App (Part 1)](https://viblo.asia/p/learn-reactjs-by-create-react-app-part-1-924lJpLaKPM)
@@ -609,9 +618,11 @@ Tham khảo:
 - [Các khái niệm ban đầu với Reactjs](https://viblo.asia/p/cac-khai-niem-ban-dau-voi-reactjs-gDVK2p9elLj)
 - [Các khái niệm ban đầu với Reactjs (II)](https://viblo.asia/p/cac-khai-niem-ban-dau-voi-reactjs-ii-E375zkqjKGW)
 - [Xây dựng một project React Js cơ bản với Webpack và Babel - Part 1](https://viblo.asia/p/xay-dung-mot-project-react-js-co-ban-voi-webpack-va-babel-part-1-4P856pJaZY3)
-- []()
-- []()
 - [Cài đặt HTTPS ở localhost với create-react-app](https://viblo.asia/p/cai-dat-https-o-localhost-voi-create-react-app-gDVK2nXrKLj)
+- [Best cra-template to start a react project](https://dev.to/gkhan205/created-template-for-most-starred-react-starter-for-cra-39na)
+- [Best Scalable React App Structure 2021](https://codewithghazi.com/best-scalable-react-app-structure-2021/)
+- [https://github.com/gkhan205/cwg-react-starter](https://github.com/gkhan205/cwg-react-starter)
+
 
 -----
 - [Viblo React.js Essentitals](https://learn.viblo.asia/courses/reactjs-essentitals-VolejRRejN)
