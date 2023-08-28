@@ -341,9 +341,9 @@ Một số tính năng:
 - Framekwork này tập trung cao độ vào các chức năng vi mô cho phép bạn làm việc cá nhân với các ứng dụng khác nhau cùng một lúc.
 
 
-## [WebRx](https://riot.js.org)
+## [WebRx](https://github.com/marinels/webrx-react)
 
-![WebRx](https://riot.js.org/img/logo/riot-logo.svg "WebRx")
+![WebRx](https://boxxv.github.io/img/posts/0_h6Cc_Hm7i0begHhE.png "WebRx")
 
 
 # II. Thư viện
