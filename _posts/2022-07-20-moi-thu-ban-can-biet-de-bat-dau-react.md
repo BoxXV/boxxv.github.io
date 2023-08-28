@@ -518,6 +518,65 @@ Hook useReducer được sử dụng để xử lý các state phức tạp và 
 const [state, dispatch] = useReducer(reducer, initialArg, init);
 ```
 
+Updating...
+
+
+## Tạo ứng dụng React mới bằng cách sử dụng Create React App (CRA)
+
+Mở terminal của bạn và chạy lệnh sau:
+
+```bat
+npx create-react-app hello-world
+npx create-react-app hello-world-typescript --template typescript
+npx create-react-app hello-world-empty --template cra-template-empty
+npx create-react-app hello-world-minimal --template cra-template-minimal
+
+npm init react-app hello-world
+
+yarn create react-app hello-world
+```
+
+Chạy ứng dụng React
+
+```bat
+cd hello-world
+cd hello-world-typescript
+cd hello-world-empty
+cd hello-world-minimal
+
+npm start
+```
+
+## Cấu trúc thư mục
+
+Việc chạy bất kỳ lệnh nào trong số này sẽ tạo một thư mục có tên `hello-world` bên trong thư mục hiện tại. Bên trong thư mục đó, nó sẽ tạo cấu trúc dự án ban đầu và cài đặt các phụ thuộc bắc cầu:
+
+```
+hello-world
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── serviceWorker.js
+    └── setupTests.js
+```
+
+
+
 
 -----
 Tham khảo:
@@ -526,6 +585,7 @@ Tham khảo:
 - [Awesome React](https://github.com/enaqx/awesome-react)
 - [Redux homepage](https://redux.js.org)
 - [ReactJS là gì? Những điều bạn cần biết về ReactJS](https://200lab.io/blog/reactjs-la-gi/)
+- [Generate a new React app using Create React App (CRA)](https://create-react-app.dev/)
 
 -----
 - [Next.js vs. Remix vs. Gatsby: Which One to Choose for Your Next Project?](https://medium.com/codex/next-js-vs-remix-vs-gatsby-which-one-to-choose-for-your-next-project-ab89fb8e48c4)
@@ -537,6 +597,21 @@ Tham khảo:
 - [Remix vs. Next.js vs. SvelteKit](https://blog.logrocket.com/react-remix-vs-next-js-vs-sveltekit/)
 - [gatsby vs next vs remix](https://npmtrends.com/gatsby-vs-next-vs-remix)
 - [The Tectonic Shift in React Ecosystem: Unearthing the Future with Next.js, Remix, Gatsby, Vite, QGP, and Astro](https://dev.to/jlarky/the-tectonic-shift-in-react-ecosystem-unearthing-the-future-with-nextjs-remix-gatsby-vite-qgp-and-astro-okl)
+
+-----
+- [Đi tìm chiếc structure hoàn hảo cho ứng dụng React](https://viblo.asia/p/di-tim-chiec-structure-hoan-hao-cho-ung-dung-react-Az45b41NZxY)
+  * [Thinking in React](https://react.dev/learn/thinking-in-react)
+  * [File Structure](https://legacy.reactjs.org/docs/faq-structure.html)
+- [Tạo ứng dụng ReactJS bằng Create React App](https://viblo.asia/p/tao-ung-dung-reactjs-bang-create-react-app-Eb85oXr0K2G)
+- [Reactjs part1: Tạo project và tìm hiểu những kiến thức cơ bản](https://viblo.asia/p/reactjs-part1-tao-project-va-tim-hieu-nhung-kien-thuc-co-ban-4P856z1a5Y3)
+- [Learn ReactJS By Create React App (Part 1)](https://viblo.asia/p/learn-reactjs-by-create-react-app-part-1-924lJpLaKPM)
+- [Learn ReactJS By Create React App (Part 2)](https://viblo.asia/p/learn-reactjs-by-create-react-app-part-2-RnB5pxGw5PG)
+- [Các khái niệm ban đầu với Reactjs](https://viblo.asia/p/cac-khai-niem-ban-dau-voi-reactjs-gDVK2p9elLj)
+- [Các khái niệm ban đầu với Reactjs (II)](https://viblo.asia/p/cac-khai-niem-ban-dau-voi-reactjs-ii-E375zkqjKGW)
+- [Xây dựng một project React Js cơ bản với Webpack và Babel - Part 1](https://viblo.asia/p/xay-dung-mot-project-react-js-co-ban-voi-webpack-va-babel-part-1-4P856pJaZY3)
+- []()
+- []()
+- [Cài đặt HTTPS ở localhost với create-react-app](https://viblo.asia/p/cai-dat-https-o-localhost-voi-create-react-app-gDVK2nXrKLj)
 
 -----
 - [Viblo React.js Essentitals](https://learn.viblo.asia/courses/reactjs-essentitals-VolejRRejN)
