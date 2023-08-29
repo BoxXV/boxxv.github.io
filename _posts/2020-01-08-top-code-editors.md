@@ -146,9 +146,10 @@ Like we said above, JetBrains makes good software. If you’re not a PHP dev, bu
 
 -----
 ### Reference
-[https://www.elegantthemes.com/blog/resources/best-code-editors](https://www.elegantthemes.com/blog/resources/best-code-editors)  
-[https://mythemeshop.com/blog/code-editors/](https://mythemeshop.com/blog/code-editors/)  
-[https://www.guru99.com/best-free-code-editors-windows-mac.html](https://www.guru99.com/best-free-code-editors-windows-mac.html)
+- [https://www.elegantthemes.com/blog/resources/best-code-editors](https://www.elegantthemes.com/blog/resources/best-code-editors)  
+- [https://mythemeshop.com/blog/code-editors/](https://mythemeshop.com/blog/code-editors/)  
+- [https://www.guru99.com/best-free-code-editors-windows-mac.html](https://www.guru99.com/best-free-code-editors-windows-mac.html)
 
-[Top Code Editors and IDE for PHP Development](https://www.cloudways.com/blog/top-ide-and-code-editors-php-development/)
-[Top 7 Python Development IDEs for Python developers in 2020](https://viblo.asia/p/top-7-python-development-ides-for-python-developers-in-2020-Eb85on0Ol2G)
+- [Top Code Editors and IDE for PHP Development](https://www.cloudways.com/blog/top-ide-and-code-editors-php-development/)
+- [Top 7 Python Development IDEs for Python developers in 2020](https://viblo.asia/p/top-7-python-development-ides-for-python-developers-in-2020-Eb85on0Ol2G)
+- [35 thói quen làm cho code khó bảo trì](https://viblo.asia/p/35-thoi-quen-lam-cho-code-kho-bao-tri-V3m5WOoE5O7)

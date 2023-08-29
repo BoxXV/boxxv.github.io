@@ -265,6 +265,9 @@ Chúc bạn vui khi xây dựng một số API mới!
 
 Chúc các bạn thành công trong con đường học tập và tìm hiểu về Django nói chung và Django Rest Framework nói riêng.
 
+Có nhiều công cụ thiết kế API tốt mà giúp tạo ra các tài liệu API rõ ràng như
+- [API Blueprint](https://apiblueprint.org)
+- [Swagger](https://swagger.io)
 
 -----
 Tham khảo:
@@ -274,3 +277,4 @@ Tham khảo:
 - [Xây dựng API với Django Rest Framework](https://viblo.asia/p/xay-dung-api-voi-django-rest-framework-Do754PXJ5M6)
 - [Django Rest Framework Tutorial - Todo API](https://learndjango.com/tutorials/django-rest-framework-tutorial-todo-api)
 - [RESTful API là gì? Cách thiết kế RESTful API](https://topdev.vn/blog/restful-api-la-gi/)
+- [Một vài best practice khi xây dựng REST API](https://viblo.asia/p/mot-vai-best-practice-khi-xay-dung-rest-api-3P0lP36PZox)

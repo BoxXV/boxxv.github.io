@@ -626,6 +626,8 @@ Tham khảo:
 
 
 -----
+- [Một vài best practice khi code React](https://viblo.asia/p/mot-vai-best-practice-khi-code-react-07LKXLzrKV4)
+- [Atomic Design với React](https://viblo.asia/p/atomic-design-voi-react-YWOZrB2pZQ0)
 - [Viblo React.js Essentitals](https://learn.viblo.asia/courses/reactjs-essentitals-VolejRRejN)
 - [Junior vs Senior React Folder Structure - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Tất cả mọi thứ bạn cần biết để bắt đầu học React](https://viblo.asia/p/tat-ca-moi-thu-ban-can-biet-de-bat-dau-hoc-react-Qbq5QAPR5D8)
@@ -651,6 +653,7 @@ Tham khảo:
 - [Tìm hiểu react - part 2](https://viblo.asia/p/tim-hieu-react-part-2-Qbq5QqJm5D8)
 - [Những khái niệm cơ bản trong ReactJS cho người mới bắt đầu](https://viblo.asia/p/nhung-khai-niem-co-ban-trong-reactjs-cho-nguoi-moi-bat-dau-WAyK8pDpKxX)
 - [Những khái niệm cơ bản trong ReactJS cho người mới bắt đầu (Phần 2)](https://viblo.asia/p/nhung-khai-niem-co-ban-trong-reactjs-cho-nguoi-moi-bat-dau-phan-2-eW65GP9aKDO)
+- [Một vài khái niệm nâng cao trong React.js](https://viblo.asia/p/mot-vai-khai-niem-nang-cao-trong-reactjs-oOVlYNqV58W)
 - [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - [Tìm hiểu ReactJS từ con số 0](https://viblo.asia/p/tim-hieu-reactjs-tu-con-so-0-63vKjvn6K2R)
 - [Học ReactJs từ số 0 - P1](https://viblo.asia/p/hoc-reactjs-tu-so-0-p1-jvElaPaoZkw)
@@ -782,6 +785,7 @@ Tips & Tricks
 - [`'overflow-wrap'` in React.js](https://stackoverflow.com/questions/62723863/css-overflow-wrap-does-not-work-in-react-js)
 - [Validate if a start date is after an end date with Yup](https://stackoverflow.com/a/60277510)
 - [Validate two input dates and max/min ranges](https://github.com/jquense/yup/issues/287#issuecomment-501481042)
+- [Tạo sao nên dùng Axios hơn Fetch](https://viblo.asia/p/tao-sao-nen-dung-axios-hon-fetch-1Je5E7GjZnL)
 
 -----
 Debug trong ứng dụng ReactJS

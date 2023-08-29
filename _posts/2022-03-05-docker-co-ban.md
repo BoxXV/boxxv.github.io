@@ -307,6 +307,8 @@ Tham khảo:
 - [Từ phát triển tới triển khai phần 1: Backend, NodeJS, API](https://viblo.asia/p/tu-phat-trien-toi-trien-khai-phan-1-backend-nodejs-api-djeZ1ReJlWz)
 - [Từ phát triển tới triển khai phần 2: Frontend, VueJS, SPA - SSR](https://viblo.asia/p/tu-phat-trien-toi-trien-khai-phan-2-frontend-vuejs-spa-ssr-ByEZkN8AKQ0)
 - [Docker image in production - câu chuyện 1GB hay 100MB](https://viblo.asia/p/docker-image-in-production-cau-chuyen-1gb-hay-100mb-LzD5dXyE5jY)
+- [Thiết lập môi trường phát triển PHP với Docker](https://viblo.asia/p/thiet-lap-moi-truong-phat-trien-php-voi-docker-RQqKLqz0Z7z)
+- [Deploy Serverless với Express và MongoDB](https://viblo.asia/p/deploy-serverless-voi-express-va-mongodb-GrLZDDagZk0)
 
 -----
 
@@ -323,7 +325,6 @@ Tham khảo:
 
 - [Nx, NestJs, React — Docker Deploys](https://medium.com/swlh/nx-nestjs-react-docker-deploys-928a55fc19fd)
 - [Nx and Node Microservices](https://blog.nrwl.io/nx-and-node-microservices-b6df3cd1bad6)
-- []()
 - [Going TypeStack with NX Monorepo and Docker (Part 1)](https://blog.devgenius.io/going-typestack-with-nx-monorepo-and-docker-part-1-d5ff257981f2)
 - [Going TypeStack with NX Monorepo and Docker (Part 2)](https://medium.com/dev-genius/going-typestack-with-nx-monorepo-and-docker-part-2-f66c543c7d8f)
 
