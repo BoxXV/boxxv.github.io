@@ -109,6 +109,20 @@ Trước hết mình sẽ giới thiệu qua một số `tool`/`lib`/`framework`
 | Disadvantages | Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | Tiêu tốn RAM, CPU. Chậm |
 | Homepage | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
 
+#### [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) (BS4)
+
+Beautiful Soup (BS4) là một thư viện phân tích cú pháp có thể sử dụng các parsers khác nhau từ đó có thể trích xuất dữ liệu từ các tài liệu HTML và XML một cách dễ dàng. Về mặc định, Beautiful Soup sử dụng parser cơ bản của Python. Mặc dù khá linh hoạt và dễ sử dụng, parser này là có hiệu năng khá kém do tốc độ xử lý khá chậm. Tin tốt là bạn hoàn toàn có thể hoán đổi trình phân tích cú pháp của nó bằng một trình phân tích cú pháp nhanh hơn nếu bạn cần cải thiện nhiều tốc độ của ứng dụng.
+
+Sau khi phân tích các HTML cũng như XML đầu vào, Beautiful Soup cho phép chúng ta dễ dàng di chuyển, tìm kiếm, thay đổi cũng như trích xuất dữ liệu từ cây cú pháp. Cú pháp rõ ràng linh hoạt tương tự cách chúng ta tương tác với DOM bằng các thư viện JavaScript là một trong những lý do khiến Beautiful Soup trở thành một trong những công cụ phổ biến nhất cho việc thu thập dữ liệu web, bên cạnh sự mạnh mẽ của nó.
+
+#### Selenium
+
+Selenium là một trong những công cụ kiểm thử phần mềm tự động mã nguồn mở mạnh nhất hiện nay cho việc kiểm thử ứng dụng Web. Selenium script có thể chạy được trên hầu hết các trình duyệt như IE, Mozilla FireFox, Chrome, Safari, Opera; và hầu hết các hệ điều hành như Windows, Mac, Linux. Về cơ bản mà nói, quá trình scraping cũng tương tự như quá trình kiểm thử ứng dụng tự động bởi chúng đều thực hiện một chuỗi thao tác tương tác với các trang web một cách tự động và liên tục. Bởi vậy, Selenium thường xuyên được sử dụng nhất là khi cần thu thập từ các trang web SPA - thứ mà khó có thể thu thập được dữ liệu từ nó nếu như phần mã JavaScript của chúng không được thực thi.
+
+#### Scrapy
+
+Về mặt kỹ thuật, Scrapy không phải một thư viện mà là một framework phục vụ mục đích thu thập dữ liệu. Điều đó có nghĩa là bạn có thể sử dụng nó để quản lý các yêu cầu, duy trì các phiên của người dùng, theo dõi chuyển hướng và xử lý các pipelines đầu ra. Nó cũng có nghĩa là bạn có thể hoán đổi các mô-đun riêng lẻ với các thư viện duyệt web Python khác. Ví dụ: nếu bạn cần chèn Selenium để quét các trang web động, bạn có thể làm điều đó.
+
 Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `Python` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, `Scrapy` là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
 
 ### Nhập môn thu thập dữ liệu
@@ -139,13 +153,202 @@ Phần tiếp theo mình sẽ nói về một số khó khăn đã gặp và gi�
 - Bất đồng bộ và multithread vẫn chưa đủ: mỗi ngày mình phải gởi hơn vài chục triệu request, scrapy hỗ trợ bất đồng bộ, tuy nhiên một process chưa đủ đáp ứng nhu cầu lớn như vậy trong một ngày, giải pháp là tăng số process lên (có thể cho chạy ở nhiều server), liên quan đến vấn đề xử lý song song các bạn phải tính toán để chia URL ra cho các process hợp lý nhất.
 - Lưu trữ dữ liệu: tùy nhu cầu bạn sẽ chọn hệ quản trị cơ sở dữ liệu phù hợp, với project của mình vì nhu cầu lưu trữ lớn (hơn 11 triệu record mỗi ngày đổ vào database) và cần tốc độ truy vẫn nhanh thì mình chọn mongodb. MongoDB thuộc loại NoSQL lưu trữ theo dạng document (BSON), schema linh hoạt, không phải join, kết hợp với đánh indexes thì tốc độ khá là nhanh (dữ liệu 1 tỷ records mình có thể truy vấn dưới 1s) hơn nữa mongodb còn thiết kế để đáp ứng nhu cầu phân tán nên có thể sharding hay replication để mở rộng, tăng hiệu năng và đảm bảo tính available cho hệ thống. Vấn đề lưu xuống liên tục cũng có thể quá tải database, bạn có thể cache tạm một nơi rồi insert_many thay vì insert_one.
 
-Trên là những chia sẻ mà mình rút trích được từ những vấn đề gặp phải trong quá trình làm luận văn mà mình gặp phải, ngoài ra vẫn còn kha khá issues mà mình chưa gặp phải nữa nếu biết các bạn có thể chia sẻ thêm dưới phần bình luận để cùng tranh luận, cảm ơn các bạn.
+# Xây dựng sơ bộ một hệ thống crawler
+
+## 1. Lấy xpath như thế nào?
+
+Để lấy được một đoạn mã xpath như thế này:
+
+```html
+//*[@id="aspnetForm"]/div[5]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/h2/a
+```
+
+mình hay dùng extension [Xpath Helper](https://chrome.google.com/webstore/detail/xpath-helper/hgimnogjllphhhkhlmebbmlgjoejdpjl). Tất nhiên mình có clone repo của extension này về và custome lại để cho thuận tiện việc lấy và insert template vào hệ thống. Trong 1 website, 1 xpath có thể đúng với page này nhưng lại không đúng với page kia nên bạn cần tối ưu xpath được suggest từ Xpath Helper sao cho phù hợp với nhiều page nhất.
+
+## 2. Hệ thống quản lý template
+
+### a, Backend
+
+Có thể dùng luôn [Flask](https://flask.palletsprojects.com/en/2.3.x/) để tạo hệ thống api với các chức năng thêm, xóa, sửa, generate file, start, stop một spider cho đỡ mất công học thêm thứ khác. Flask của python dùng thì max nhanh và đơn giản, chỉ cần import là sài thôi. Nên dùng databases NoSQL để lưu trữ thông tin các template vì tính linh động của chúng.
+
+### b, Frontend
+
+React hoặc Angularjs xx . Mình làm backend là chính nên cũng không quan tâm lắm, cứ dễ dùng, nhiều support thì mình sài thôi. Trước thì mình có dùng React, nhưng giờ chuyển qua Angularjs xx rồi (xx là version của Angular nhé 😄)
+
+### c, Quản lý các máy crawler
+
+Khi hệ thống của bạn mở rộng có 2K, 3K site cần crawl mỗi ngày thì bạn sẽ cần phải có nhiều hơn 1 máy crawler. Lúc này cần thêm một việc là quản lý các máy crawler sao cho chúng chạy tối đa công suất có thể và không xảy ra tình trạng 1 site được crawl ở 2 máy khác nhau. Lúc này bạn có thể nghĩ tới Celery, nó sẽ giúp bạn đồng bộ giữa các máy crawler, quản lý dễ hơn và cũng tăng hiệu suất của server hơn. Hoặc to tay thì có thể tự code cũng được, vì về cơ bản thì mỗi máy có 1 cấu hình riêng, công suất riêng nên cứ ném riêng cho 1 file config, cho chúng sync được với một thằng master nào đấy rồi từ thằng master chỉ đạo thằng nào làm gì qua api thôi.
+
+### d, Giám sát hiệu năng của hệ thống
+
+Mình đã dùng [Datadog](https://viblo.asia/p/datadog-cai-dat-va-cau-hinh-cho-rails-application-vyDZOW87Zwj) để tracking xem một ngày hệ thống mình crawl được bao nhiêu item, so sánh với các ngày trước đó. Khi có 1 máy crawler lăn ra chết sẽ có mail báo từ datadog, khi hight CPU..v.v
+
+# Thu thập dữ liệu bằng các ngôn ngữ khác nhau.
+
+
+
+# Crawl Data với Chrome Extension
+
+- [Web Scraper](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en)
+- [Web Scraper intro tutorial](https://youtu.be/n7fob_XVsbY)
+- App [HttpCanary](https://m.apkpure.com/vn/httpcanary-%E2%80%94-http-sniffer-capture-analysis/com.guoshi.httpcanary) để xem phần network của api
+
+- [Python](#python)
+- [Java](#java)
+- [C#](#c)
+- [JavaScript](#javascript)
+- [PHP](#php)
+- [C++](#c-1)
+- [C](#c-2)
+- [Ruby](#ruby)
+- [Rust](#rust)
+- [R](#r)
+- [Erlang](#erlang)
+- [Perl](#perl)
+- [Go](#go)
+- [Scala](#scala)
+
+## Python 
+* [Scrapy](https://github.com/scrapy/scrapy) - Framework quét màn hình và thu thập dữ liệu web cấp cao nhanh chóng.
+    * [django-dynamic-scraper](https://github.com/holgerd77/django-dynamic-scraper) - Tạo Scrapy Scraper thông qua giao diện quản trị Django.
+    * [Scrapy-Redis](https://github.com/rolando/scrapy-redis) - Các thành phần (components) dựa trên Redis cho Scrapy.
+    * [scrapy-cluster](https://github.com/istresearch/scrapy-cluster) - Sử dụng Redis và Kafka để tạo cụm thu thập dữ liệu phân tán theo yêu cầu.
+    * [distribute_crawler](https://github.com/gnemoug/distribute_crawler) - Sử dụng Scrapy, Redis, Mongodb,graphite để tạo ra một con nhện phân tán.
+* [pyspider](https://github.com/binux/pyspider) - Một hệ thống spider mạnh mẽ.
+* [CoCrawler](https://github.com/cocrawler/cocrawler) - Trình thu thập dữ liệu web đa năng được xây dựng bằng các công cụ hiện đại và đồng thời.
+* [cola](https://github.com/chineking/cola) - Framework thu thập thông tin phân tán.
+* [Demiurge](https://github.com/matiasb/demiurge) - Micro-framework quét dựa trên PyQuery.
+* [Scrapely](https://github.com/scrapy/scrapely) - Thư viện quét màn hình HTML thuần Python.
+* [feedparser](http://pythonhosted.org/feedparser/) - Trình phân tích cú pháp nguồn cấp dữ liệu phổ quát.
+* [you-get](https://github.com/soimort/you-get) -  Trình tải xuống Dumb scrapes trang web.
+* [MechanicalSoup](https://github.com/hickford/MechanicalSoup) - Thư viện Python để tự động hóa tương tác với các trang web.
+* [portia](https://github.com/scrapinghub/portia) - Quét hình ảnh cho Scrapy.
+* [crawley](https://github.com/jmg/crawley) - Framework thu thập dữ liệu / thu thập dữ liệu Pythonic dựa trên các hoạt động I/O không chặn.
+* [RoboBrowser](https://github.com/jmcarp/robobrowser) - Một thư viện Pythonic đơn giản để duyệt web mà không cần trình duyệt web độc lập.
+* [MSpider](https://github.com/manning23/MSpider) - Một con nhện đơn giản, dễ dàng sử dụng gevent và js render.
+* [brownant](https://github.com/douban/brownant) - Framework trích xuất dữ liệu web nhẹ.
+* [PSpider](https://github.com/xianhu/PSpider) - Một framework nhện đơn giản trong Python3.
+* [Gain](https://github.com/gaojiuli/gain) - Framework thu thập dữ liệu web dựa trên asyncio cho mọi người.
+* [sukhoi](https://github.com/iogf/sukhoi) - Trình thu thập dữ liệu web tối giản và mạnh mẽ.
+* [spidy](https://github.com/rivermont/spidy) - Trình thu thập dữ liệu web dòng lệnh đơn giản, dễ sử dụng.
+* [newspaper](https://github.com/codelucas/newspaper) - Trích xuất siêu dữ liệu tin tức, toàn văn và bài viết bằng Python 3
+* [aspider](https://github.com/howie6879/aspider) - Một micro-framework quét web không đồng bộ dựa trên asyncio.
+
+## Java
+* [ACHE Crawler](https://github.com/ViDA-NYU/ache) - Trình thu thập dữ liệu web dễ sử dụng để tìm kiếm theo tên miền cụ thể.
+* [Apache Nutch](http://nutch.apache.org/) - Trình thu thập dữ liệu web có khả năng mở rộng cao, có khả năng mở rộng cao cho môi trường sản xuất.
+    * [anthelion](https://github.com/yahoo/anthelion) - Một plugin dành cho Apache Nutch để thu thập thông tin các chú thích ngữ nghĩa trong các trang HTML.
+* [Crawler4j](https://github.com/yasserg/crawler4j) - Trình thu thập dữ liệu web đơn giản và nhẹ.
+* [JSoup](http://jsoup.org/) - Quét, phân tích, thao tác và làm sạch HTML.
+* [websphinx](http://www.cs.cmu.edu/~rcm/websphinx/) - Bộ xử lý dành riêng cho trang web để trích xuất thông tin HTML.
+* [Open Search Server](http://www.opensearchserver.com/) - Tập hợp đầy đủ các chức năng tìm kiếm. Xây dựng chiến lược lập chỉ mục của riêng bạn. Trình phân tích cú pháp trích xuất dữ liệu toàn văn. Trình thu thập thông tin có thể lập chỉ mục mọi thứ.
+* [Gecco](https://github.com/xtuhcy/gecco) - Trình thu thập dữ liệu web nhẹ dễ sử dụng
+* [WebCollector](https://github.com/CrawlScript/WebCollector) - Giao diện đơn giản để thu thập dữ liệu trên Web, bạn có thể thiết lập trình thu thập dữ liệu web đa luồng trong vòng chưa đầy 5 phút.
+* [Webmagic](https://github.com/code4craft/webmagic) - Framework thu thập thông tin có thể mở rộng.
+* [Spiderman](https://git.oschina.net/l-weiwei/spiderman) - Trình thu thập dữ liệu web đa luồng, có thể mở rộng, có thể mở rộng.
+    * [Spiderman2](http://git.oschina.net/l-weiwei/Spiderman2) - Framework thu thập dữ liệu web phân tán, hỗ trợ kết xuất js.
+* [Heritrix3](https://github.com/internetarchive/heritrix3) -  Dự án trình thu thập dữ liệu web có chất lượng lưu trữ, có quy mô web, có thể mở rộng
+* [SeimiCrawler](https://github.com/zhegexiaohuozi/SeimiCrawler) - Một framework thu thập thông tin phân tán, linh hoạt.
+* [StormCrawler](http://github.com/DigitalPebble/storm-crawler/) -  Bộ sưu tập tài nguyên nguồn mở để xây dựng trình thu thập dữ liệu web có độ trễ thấp, có thể mở rộng trên Apache Storm
+* [Spark-Crawler](https://github.com/USCDataScience/sparkler) - Đang phát triển Apache Nutch để chạy trên Spark.
+* [webBee](https://github.com/pkwenda/webBee) - Một con nhện web DFS.
+* [spider-flow](https://github.com/ssssssss-team/spider-flow) - Một framework nhện trực quan, tốt đến mức bạn `không cần phải viết bất kỳ mã nào` để thu thập dữ liệu trang web.
+
+
+## C# 
+* [ccrawler](http://www.findbestopensource.com/product/ccrawler) - Được xây dựng trong phiên bản C# 3.5. nó chứa một phần mở rộng đơn giản của trình phân loại nội dung web, có thể phân tách giữa các trang web tùy thuộc vào nội dung của chúng.
+* [SimpleCrawler](https://github.com/lei-zhu/SimpleCrawler) - Spider đơn giản dựa trên biểu thức đa luồng, regluar.
+* [DotnetSpider](https://github.com/zlzforever/DotnetSpider) - Đây là một spider đa nền tảng, nhẹ được phát triển bởi C#.
+* [Abot](https://github.com/sjdirect/abot) - Trình thu thập dữ liệu web C# được xây dựng để có tốc độ và tính linh hoạt.
+* [Hawk](https://github.com/ferventdesert/Hawk) - Công cụ thu thập thông tin nâng cao và ETL được viết bằng C#/WPF.
+* [SkyScraper](https://github.com/JonCanning/SkyScraper) - Trình quét web / trình thu thập dữ liệu web không đồng bộ sử dụng không đồng bộ / chờ đợi Reactive Extensions.
+* [Infinity Crawler](https://github.com/TurnerSoftware/InfinityCrawler) - Thư viện trình thu thập dữ liệu web đơn giản nhưng mạnh mẽ trong C#.
+
+## JavaScript
+* [scraperjs](https://github.com/ruipgil/scraperjs) - Một công cụ quét web hoàn chỉnh và linh hoạt.
+* [scrape-it](https://github.com/IonicaBizau/scrape-it) - Một công cụ cạp Node.js dành cho con người.
+* [simplecrawler](https://github.com/cgiffard/node-simplecrawler) - Trình thu thập dữ liệu web hướng sự kiện.
+* [node-crawler](https://github.com/bda-research/node-crawler) - Trình thu thập thông tin nút có api đơn giản, rõ ràng.
+* [js-crawler](https://github.com/antivanov/js-crawler) - Trình thu thập thông tin web cho Node.JS, cả HTTP và HTTPS đều được hỗ trợ.
+* [webster](https://github.com/zhuyingda/webster) - Một khung thu thập dữ liệu web đáng tin cậy có thể quét nội dung được hiển thị bằng ajax và js trong một trang web.
+* [x-ray](https://github.com/lapwinglabs/x-ray) - Trình quét web có hỗ trợ phân trang và trình thu thập thông tin.
+* [node-osmosis](https://github.com/rchipka/node-osmosis) - Trình phân tích cú pháp HTML/XML và trình quét web cho Node.js.
+* [web-scraper-chrome-extension](https://github.com/martinsbalodis/web-scraper-chrome-extension) - Công cụ trích xuất dữ liệu web được triển khai dưới dạng tiện ích mở rộng của chrome.
+* [supercrawler](https://github.com/brendonboshell/supercrawler) - Xác định trình xử lý tùy chỉnh để phân tích nội dung. Tuân theo robots.txt, giới hạn tốc độ và giới hạn tương tranh.
+* [headless-chrome-crawler](https://github.com/yujiosaka/headless-chrome-crawler) - Thu thập dữ liệu Headless Chrome với sự hỗ trợ của jQuery
+* [Squidwarc](https://github.com/n0tan3rd/squidwarc) - Trình thu thập thông tin lưu trữ, có độ chính xác cao, có thể sử dụng tập lệnh, sử dụng Chrome hoặc Chrome có hoặc không có phần head
+* [crawlee](https://github.com/apify/crawlee) - Thư viện tự động hóa trình duyệt và quét web dành cho Node.js giúp bạn xây dựng các trình thu thập thông tin đáng tin cậy. Nhanh. 
+
+
+## PHP
+* [Goutte](https://github.com/FriendsOfPHP/Goutte) - Thư viện quét màn hình và thu thập dữ liệu web cho PHP.
+    * [laravel-goutte](https://github.com/dweidner/laravel-goutte) - Laravel 5 Facade cho Goutte.
+* [dom-crawler](https://github.com/symfony/dom-crawler) - Thành phần DomCrawler giúp dễ dàng điều hướng DOM cho các tài liệu HTML và XML.
+* [QueryList](https://github.com/jae-jae/QueryList) - Framework thu thập thông tin PHP lũy tiến.
+* [pspider](https://github.com/hightman/pspider) - Trình thu thập dữ liệu web song song được viết bằng PHP.
+* [php-spider](https://github.com/mvdbos/php-spider) - Một spider web PHP có thể định cấu hình và mở rộng.
+* [spatie/crawler](https://github.com/spatie/crawler) - Một trình thu thập thông tin mạnh mẽ, dễ sử dụng được triển khai trong PHP. Có thể thực thi Javascript.
+* [crawlzone/crawlzone](https://github.com/crawlzone/crawlzone) - Crawlzone là một khung thu thập dữ liệu internet không đồng bộ nhanh chóng dành cho PHP.
+* [PHPScraper](https://github.com/spekulatius/PHPScraper) - PHPScraper là một trình thu thập thông tin & thu thập thông tin được xây dựng để đơn giản hóa.
+
+## C++
+* [open-source-search-engine](https://github.com/gigablast/open-source-search-engine) - Một công cụ tìm kiếm nguồn mở phân tán và trình thu thập thông tin/trình thu thập dữ liệu được viết bằng C/C++.
+
+## C
+* [httrack](https://github.com/xroche/httrack) - Sao chép trang web vào máy tính của bạn.
+
+## Ruby
+* [Nokogiri](https://github.com/sparklemotion/nokogiri) - Rubygem cung cấp trình phân tích cú pháp HTML, XML, SAX và Reader với hỗ trợ bộ chọn XPath và CSS.
+* [upton](https://github.com/propublica/upton) - Một framework bao gồm pin (batteries-included) để quét web dễ dàng. Chỉ cần thêm CSS (Hoặc làm nhiều hơn).
+* [wombat](https://github.com/felipecsl/wombat) - Trình thu thập dữ liệu/quét web Ruby nhẹ với DSL thanh lịch giúp trích xuất dữ liệu có cấu trúc từ các trang.
+* [RubyRetriever](https://github.com/joenorton/rubyretriever) - RubyRetriever là Trình thu thập dữ liệu web, Trình thu thập dữ liệu & Trình thu thập tệp.
+* [Spidr](https://github.com/postmodern/spidr) - Tìm kiếm một trang web, nhiều tên miền, liên kết nhất định hoặc `vô cùng`.
+* [Cobweb](https://github.com/stewartmckee/cobweb) - Trình thu thập dữ liệu web với các tùy chọn thu thập thông tin rất linh hoạt, độc lập hoặc sử dụng sidekiq.
+* [mechanize](https://github.com/sparklemotion/mechanize) - Tương tác và thu thập dữ liệu web tự động.
+
+## Rust
+* [spider](https://github.com/spider-rs/spider) - Trình thu thập thông tin và lập chỉ mục web nhanh nhất.
+* [crawler](https://github.com/a11ywatch/crawler) - Trình lập chỉ mục web gRPC được tính phí cho hiệu suất.
+
+## R
+* [rvest](https://github.com/hadley/rvest) - Quét web đơn giản cho R.
+
+## Erlang 
+* [ebot](https://github.com/matteoredaelli/ebot) - Trình thu thập dữ liệu web có khả năng mở rộng, phân tán và có cấu hình cao.
+
+## Perl
+* [web-scraper](https://github.com/miyagawa/web-scraper) - Bộ công cụ quét web sử dụng Bộ chọn HTML và CSS hoặc biểu thức XPath.
+
+## Go
+* [pholcus](https://github.com/henrylee2cn/pholcus) -  Trình thu thập dữ liệu web mạnh mẽ, có tính đồng thời cao và phân tán.
+* [gocrawl](https://github.com/PuerkitoBio/gocrawl) - Trình thu thập dữ liệu web lịch sự, mỏng và đồng thời.
+* [fetchbot](https://github.com/PuerkitoBio/fetchbot) - Trình thu thập dữ liệu web đơn giản và linh hoạt tuân theo các chính sách của robots.txt và độ trễ thu thập dữ liệu.
+* [go_spider](https://github.com/hu17889/go_spider) - Một framework tuyệt vời dành cho Go concurrent Crawler(spider).
+* [dht](https://github.com/shiyanhui/dht) - Giao thức BitTorrent DHT && DHT Spider.
+* [ants-go](https://github.com/wcong/ants-go) - Một công cụ thu thập thông tin mã nguồn mở, phân tán, restful ở golang.
+* [scrape](https://github.com/yhat/scrape) - Một giao diện đơn giản, cấp độ cao hơn để quét web trên Go.
+* [creeper](https://github.com/wspl/creeper) - Framework thu thập thông tin thế hệ tiếp theo (Go).
+* [colly](https://github.com/asciimoo/colly) - Framework quét nhanh và thanh lịch dành cho Gophers.
+* [ferret](https://github.com/MontFerret/ferret) - Declarative web scraping.
+* [Dataflow kit](https://github.com/slotix/dataflowkit) - Trích xuất dữ liệu có cấu trúc từ các trang web. Các trang web cạo. Web sites scraping.
+* [Hakrawler](https://github.com/hakluke/hakrawler) - Trình thu thập dữ liệu web đơn giản, nhanh chóng được thiết kế để khám phá dễ dàng, nhanh chóng các điểm cuối và nội dung trong ứng dụng web
+
+## Scala
+* [crawler](https://github.com/bplawler/crawler) - Scala DSL để thu thập dữ liệu web.
+* [scrala](https://github.com/gaocegege/scrala) - Khung trình thu thập dữ liệu Scala (nhện), lấy cảm hứng từ Scrapy.
+* [ferrit](https://github.com/reggoodwin/ferrit) - Ferrit là dịch vụ thu thập dữ liệu web được viết bằng Scala sử dụng Akka, Spray và Cassandra.
+
+
+## Tổng kết
+
+Về cơ bản để xây dựng một ứng dụng crawler, có rất nhiều cách và trên đây là cách mình đã tiếp cận. Hy vọng sẽ giúp được bạn xây dựng được một hệ thống crawler như mong muốn.
 
 
 -----
 Tham khảo:
 - [Crawling dữ liệu từ website, tìm hiểu về ScrapingWeb](https://viblo.asia/p/crawling-du-lieu-tu-website-tim-hieu-ve-scrapingweb-1VgZvGo9lAw)
 - [[Bàn tiếp về Crawling] Quét dữ liệu bất động sản bằng Python](https://viblo.asia/p/ban-tiep-ve-crawling-quet-du-lieu-bat-dong-san-bang-python-RnB5pzo6ZPG)
+- [Data Scraping Tools for Scraping Real Estate Data Using Python](https://www.promptcloud.com/blog/scraping-real-estate-data-from-zillow-using-python/)
 - [Crawl data - cào dữ liệu có gì khó?](https://www.lhsang.dev/posts/technique/scraping-data-from-websites/)
 - [Tìm hiểu chung về Web Scraping và các vấn đề cần quan tâm](https://viblo.asia/p/tim-hieu-chung-ve-web-scraping-va-cac-van-de-can-quan-tam-djeZ1yXJZWz)
 - [Tìm hiểu về Web Scraping Bot là gì?](https://securitydaily.net/tim-hieu-ve-web-scraping-bot-la-gi/)
