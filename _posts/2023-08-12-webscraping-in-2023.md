@@ -183,17 +183,13 @@ Khi hệ thống của bạn mở rộng có 2K, 3K site cần crawl mỗi ngày
 
 Mình đã dùng [Datadog](https://viblo.asia/p/datadog-cai-dat-va-cau-hinh-cho-rails-application-vyDZOW87Zwj) để tracking xem một ngày hệ thống mình crawl được bao nhiêu item, so sánh với các ngày trước đó. Khi có 1 máy crawler lăn ra chết sẽ có mail báo từ datadog, khi hight CPU..v.v
 
-# Thu thập dữ liệu bằng các ngôn ngữ khác nhau.
-
-
-
 # Crawl Data với Chrome Extension
 
 - [Web Scraper](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn?hl=en)
 - [Web Scraper intro tutorial](https://youtu.be/n7fob_XVsbY)
 - App [HttpCanary](https://m.apkpure.com/vn/httpcanary-%E2%80%94-http-sniffer-capture-analysis/com.guoshi.httpcanary) để xem phần network của api
 
-# Thu thập dữ liệu webbằng các ngôn ngữ khác nhau
+# Thu thập dữ liệu web bằng các ngôn ngữ khác nhau
 
 - [Python](#python)
 - [Java](#java)
