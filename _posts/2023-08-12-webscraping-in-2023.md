@@ -362,8 +362,10 @@ Python - [Scrapy](https://scrapy.org), [pyspider](http://docs.pyspider.org), [Co
 - [Cào dữ liệu với Scrapy](https://phocode.com/python/scrapy/scrapy-gioi-thieu/)
 - [Làm một con Crawler đơn giản để cào ebooks với Scrapy và python](https://viblo.asia/p/lam-mot-con-crawler-don-gian-de-cao-ebooks-voi-scrapy-va-python-maGK7qPDlj2)
 - [Thu thập và lưu trữ dữ liệu với scrapy và mysql](https://viblo.asia/p/thu-thap-va-luu-tru-du-lieu-voi-scrapy-va-mysql-yMnKMA9EK7P)
+- [Saving Scraped Data To MySQL Database With Scrapy Pipelines](https://scrapeops.io/python-scrapy-playbook/scrapy-save-data-mysql/)
 - [Thu thập dữ liệu tự động cùng với Scrapy, Mongodb và Crontab](https://viblo.asia/p/thu-thap-du-lieu-tu-dong-cung-voi-scrapy-mongodb-va-crontab-RQqKLNrml7z)
-- [[Tutorial - thegioididong] Tập tành crawl dữ liệu với Scrapy Framework](https://viblo.asia/p/tap-tanh-crawl-du-lieu-voi-scrapy-framework-bWrZnW7rlxw)
+- [Web Scraping with Scrapy and MongoDB](https://realpython.com/web-scraping-with-scrapy-and-mongodb/)
+- [[`Tutorial` - thegioididong] Tập tành crawl dữ liệu với Scrapy Framework](https://viblo.asia/p/tap-tanh-crawl-du-lieu-voi-scrapy-framework-bWrZnW7rlxw)
 - [Crawl dữ liệu trang web với Scrapy](https://viblo.asia/p/crawl-du-lieu-trang-web-voi-scrapy-E375zWr1KGW)
 - [Sự kết hợp hoàn hảo của Scrapy và Splash - Giải pháp tối ưu với trang web sử dụng Javascript?](https://viblo.asia/p/su-ket-hop-hoan-hao-cua-scrapy-va-splash-giai-phap-toi-uu-voi-trang-web-su-dung-javascript-Qbq5Qa8w5D8)
 - [Sự kết hợp hoàn hảo của Scrapy và Splash (Phần 2)](https://viblo.asia/p/su-ket-hop-hoan-hao-cua-scrapy-va-splash-phan-2-1VgZvVApZAw)
@@ -377,8 +379,14 @@ Python - [Scrapy](https://scrapy.org), [pyspider](http://docs.pyspider.org), [Co
 - [Sử dụng proxy trong Scrapy](https://viblo.asia/p/su-dung-proxy-trong-scrapy-maGK780LZj2)
 - [Tìm hiểu cách cào dữ liệu đơn giản với Scapy](https://viblo.asia/p/tim-hieu-cach-cao-du-lieu-don-gian-voi-scapy-3P0lPDA4lox)
 
-- [[Tutorial] Scrapy Tutorial](https://www.tutorialspoint.com/scrapy/index.htm)
-- [[Tutorial - scrapeme] Scrapy in Python: Web Scraping Tutorial 2023](https://www.zenrows.com/blog/scrapy-python#what-is-web-scraping)
+- [[`Tutorial`] Scrapy Tutorial](https://www.tutorialspoint.com/scrapy/index.htm)
+- [[`Tutorial` - scrapeme] Scrapy in Python: Web Scraping Tutorial 2023](https://www.zenrows.com/blog/scrapy-python#what-is-web-scraping)
+- [Scrapy Tutorial — Part 1](https://medium.com/@jebaseelanravi96/scrapy-tutorial-part-1-8f8eb2567ff)
+- [Scrapy Tutorial — Part 2](https://medium.com/@jebaseelanravi96/scrapy-tutorial-part-2-edc95ced0cc1)
+- [Scrapy Tutorial — Part 3](https://medium.com/@jebaseelanravi96/15690956be00)
+- [Scrapy Tutorial — Part 4](https://medium.com/@jebaseelanravi96/e363793d4c94)
+- [Scrapy Tutorial — Part 5](https://medium.com/@jebaseelanravi96/scrapy-tutorial-part-5-ab1e04553f82)
+- [[`Tutorial`] Implementing Web Scraping in Python with Scrapy](https://www.geeksforgeeks.org/implementing-web-scraping-python-scrapy/)
 
 #### Scrapy for Beginners
 - _John Watson Rooney &#9679; [15 video](https://www.youtube.com/playlist?list=PLRzwgpycm-Fjvdf7RpmxnPMyJ80RecJjv) &#9679; Dec 10, 2020_
