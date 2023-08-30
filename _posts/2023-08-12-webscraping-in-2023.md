@@ -377,6 +377,8 @@ Python - [Scrapy](https://scrapy.org), [pyspider](http://docs.pyspider.org), [Co
 - [Sử dụng proxy trong Scrapy](https://viblo.asia/p/su-dung-proxy-trong-scrapy-maGK780LZj2)
 - [Tìm hiểu cách cào dữ liệu đơn giản với Scapy](https://viblo.asia/p/tim-hieu-cach-cao-du-lieu-don-gian-voi-scapy-3P0lPDA4lox)
 
+- [Scrapy Tutorial](https://www.tutorialspoint.com/scrapy/index.htm)
+
 #### Scrapy for Beginners
 - _John Watson Rooney &#9679; [15 video](https://www.youtube.com/playlist?list=PLRzwgpycm-Fjvdf7RpmxnPMyJ80RecJjv) &#9679; Dec 10, 2020_
 
