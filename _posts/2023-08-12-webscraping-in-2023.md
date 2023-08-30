@@ -193,6 +193,8 @@ Mình đã dùng [Datadog](https://viblo.asia/p/datadog-cai-dat-va-cau-hinh-cho-
 - [Web Scraper intro tutorial](https://youtu.be/n7fob_XVsbY)
 - App [HttpCanary](https://m.apkpure.com/vn/httpcanary-%E2%80%94-http-sniffer-capture-analysis/com.guoshi.httpcanary) để xem phần network của api
 
+# Thu thập dữ liệu webbằng các ngôn ngữ khác nhau
+
 - [Python](#python)
 - [Java](#java)
 - [C#](#c)
