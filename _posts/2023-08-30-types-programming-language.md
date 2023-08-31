@@ -142,13 +142,19 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 
 # BAN NÊN HỌC
 
+Đánh giá ngôn ngữ lập trình thì [`TIOBE`](http://www.tiobe.com/tiobe-index/) và [`PYPL`](https://pypl.github.io/PYPL.html) được coi là những nguồn có thẩm quyền nhất.
+
+Nguyên tắc làm việc của họ tương tự nhau: Xếp hạng dựa trên tần suất một ngôn ngữ lập trình cụ thể được đề cập trên các phương tiện truyền thông. Dù sao, các phương pháp xếp hạng có một chút mâu thuẫn.
+
 Đánh giá ngôn ngữ lập trình TIOBE hoạt động chủ yếu với kết quả tìm kiếm trên trình duyệt có chứa tên ngôn ngữ. Chỉ mục của họ bao gồm dữ liệu từ các nền tảng như Google, YouTube, Yahoo, Amazon, Wikipedia, v.v.
 
-![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--TIOBE.png "Types of Programming Languages")
+![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--TIOBE.jpg "Types of Programming Languages")
 
 Đánh giá ngôn ngữ lập trình PYPL khai thác sự quan tâm của người dùng đối với các hướng dẫn lập trình nghiên cứu Google Xu hướng.
 
-![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--PYPL.png "Types of Programming Languages")
+![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--PYPL.jpg "Types of Programming Languages")
+
+Đó là lý do tại sao kết quả của họ có thể khác nhau.
 
 
 ## 1. Javascript
@@ -179,7 +185,7 @@ Có nhu cầu cao trên toàn thế giới, dữ liệu lớn, android, tài ch�
 
 ## 2. R
 
-Thống kê, ML, Trực quan hóa dữ liệu, fintech, nghiên cứu, bán lẻ, công nghiệp ô tô, nhưng chậm và sử dụng nhiều dữ liệu.
+R là ngôn ngữ giải quyết bài toán tạo số liệu thống kê. Nó thường được sử dụng trong số các nhà phân tích dữ liệu. Nó cũng hoạt động trên phần mềm MacOS, Linux và Windows. Ngôn ngữ này được áp dụng chủ yếu trong các lĩnh vực chăm sóc sức khỏe, ngân hàng và chính phủ.
 
 ## 3. Kotlin
 
@@ -201,7 +207,7 @@ Quản lý bộ nhớ, lập trình hệ thống, nhân Linux, công cụ trò c
 
 ## 1. Ruby
 
-ứng dụng web, tự động hóa (WATIR), quét dữ liệu, máy chủ, DNS, nhưng các công cụ tốt hơn hiện đã có sẵn. (Sidenote: Github, Gitlab được viết bằng framework Ruby on Rails và vẫn là lựa chọn hàng đầu của nhiều công ty khởi nghiệp vì MVP dễ dàng và triển khai nhanh chóng).
+Ứng dụng web, tự động hóa (WATIR), quét dữ liệu, máy chủ, DNS, nhưng các công cụ tốt hơn hiện đã có sẵn. (Sidenote: Github, Gitlab được viết bằng framework Ruby on Rails và vẫn là lựa chọn hàng đầu của nhiều công ty khởi nghiệp vì MVP dễ dàng và triển khai nhanh chóng).
 
 ## 2. PHP
 
@@ -216,27 +222,8 @@ Cầu nối giữa LLP và HLP, bộ nhớ không an toàn, phát triển công 
 
 Nhưng không có cộng đồng lành mạnh. [Để biết thêm về điều đó, vui lòng tham khảo phần cuối bài viết]
 
------
 
-## R
 
-R là ngôn ngữ giải quyết bài toán tạo số liệu thống kê. Nó thường được sử dụng trong số các nhà phân tích dữ liệu. Nó cũng hoạt động trên phần mềm MacOS, Linux và Windows. Ngôn ngữ này được áp dụng chủ yếu trong các lĩnh vực chăm sóc sức khỏe, ngân hàng và chính phủ.
-
-## Ruby
-
-Ruby on Rails (RoR) được coi là một trong những ngôn ngữ yêu thích của các nhà phát triển web. Ruby là một ngôn ngữ lập trình vui nhộn khiến các nhà phát triển hài lòng trong công việc. Một số thương hiệu lớn như Hulu, Airbnb, Basecamp đã phát triển trang web của họ bằng RoR.
-
-## PHP
-
-PHP là ngôn ngữ được định hướng chung để phát triển các trang web, ứng dụng web, v.v. Nói một cách đơn giản, PHP chịu trách nhiệm cung cấp năng lượng cho hầu hết các trang web. Nhưng thông thường, mã của nó được sử dụng để thêm một số động lực vào trang web.
-
-##  C/C++
-
-C, cũng như C++, thuộc họ C. Dù sao thì chúng cũng có mức độ đánh giá như nhau giữa người dùng. C đã phát triển từ năm 1973 nhưng vẫn là ngôn ngữ dễ sử dụng nhất.
-
-Cũng khá đơn giản để tìm một lập trình viên trong số nhiều chuyên gia thực sự đã có kinh nghiệm về C++/C. C và C++ có những điểm tương đồng, bao gồm cả cú pháp giống nhau. Tuy nhiên, C++ vẫn là ngôn ngữ lập trình hướng đối tượng.
-
-Ứng dụng: Phần mềm Mozilla, Microsoft và các sản phẩm Adobe được xây dựng bằng C++
 
 
 -----
