@@ -117,6 +117,8 @@ Ví dụ về các ngôn ngữ được Thông dịch bao gồm: Python, JavaScr
 
 Ví dụ về các ngôn ngữ được biên dịch bao gồm: C, C++, C#, Rust, Erlang
 
+![Types of Programming Languages](https://boxxv.github.io/img/2023/screenshot-2021-05-24-at-173743.webp "Types of Programming Languages")
+
 ## Ứng dụng của ngôn ngữ lập trình trong cuộc sống
 
 - Phát triển ứng dụng di động: Java, Kotlin, Swift, Objective-C
@@ -128,9 +130,67 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: C, C++, C#, Rust
 - Game development: C++, C#
 - Robotics: C++, Python
 
+![Types of Programming Languages](https://boxxv.github.io/img/2023/python-programming-trends.png "Types of Programming Languages")
+
+# BAN NÊN HỌC
+
+Đánh giá ngôn ngữ lập trình TIOBE hoạt động chủ yếu với kết quả tìm kiếm trên trình duyệt có chứa tên ngôn ngữ. Chỉ mục của họ bao gồm dữ liệu từ các nền tảng như Google, YouTube, Yahoo, Amazon, Wikipedia, v.v.
+
+![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--TIOBE.png "Types of Programming Languages")
+
+Đánh giá ngôn ngữ lập trình PYPL khai thác sự quan tâm của người dùng đối với các hướng dẫn lập trình nghiên cứu Google Xu hướng.
+
+![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--PYPL.png "Types of Programming Languages")
+
+
+## Javascript
+
+Được sử dụng nhiều nhất, linh hoạt, dễ dàng, cộng đồng nhà phát triển lớn và WORA (Write Once Run Anywhere), script, frontend, backend, ML, game, mobile và webApps (hãy lưu ý đến địa ngục phụ thuộc của nó).
+
+## Python
+
+Dễ học, backend, ML, khoa học dữ liệu, trực quan hóa dữ liệu, viết kịch bản, hack, tự động hóa, lĩnh vực giáo dục và tài chính, quét web, áp dụng tiếp tục phát triển.
+
+## Dart
+
+Một cơ sở mã cho ứng dụng Android, iOS, Web App, Windows, macOS (beta), Linux (beta), hệ thống nhúng (không ổn định), máy chủ → Flutter.
+
+## C#
+
+Nền tảng bất khả tri, ngôn ngữ đơn giản, đa năng, máy tính để bàn, bảng điều khiển và ứng dụng web, cửa sổ và dịch vụ web, phát triển trò chơi, VR, AR.
+
+## Go
+
+Giải quyết các vấn đề về khả năng mở rộng, mã đơn giản, dễ học, ngôn ngữ của đám mây, DevOps, chương trình phụ trợ, máy chủ, vi dịch vụ, DNS, phát triển gốc trên nền tảng đám mây. (Uber, Netflix, Docker, Kubernetes, Soundcloud, Prometheus)
+
+## R
+
+R là ngôn ngữ giải quyết bài toán tạo số liệu thống kê. Nó thường được sử dụng trong số các nhà phân tích dữ liệu. Nó cũng hoạt động trên phần mềm MacOS, Linux và Windows. Ngôn ngữ này được áp dụng chủ yếu trong các lĩnh vực chăm sóc sức khỏe, ngân hàng và chính phủ.
+
+## Ruby
+
+Ruby on Rails (RoR) được coi là một trong những ngôn ngữ yêu thích của các nhà phát triển web. Ruby là một ngôn ngữ lập trình vui nhộn khiến các nhà phát triển hài lòng trong công việc. Một số thương hiệu lớn như Hulu, Airbnb, Basecamp đã phát triển trang web của họ bằng RoR.
+
+## PHP
+
+PHP là ngôn ngữ được định hướng chung để phát triển các trang web, ứng dụng web, v.v. Nói một cách đơn giản, PHP chịu trách nhiệm cung cấp năng lượng cho hầu hết các trang web. Nhưng thông thường, mã của nó được sử dụng để thêm một số động lực vào trang web.
+
+##  C/C++
+
+C, cũng như C++, thuộc họ C. Dù sao thì chúng cũng có mức độ đánh giá như nhau giữa người dùng. C đã phát triển từ năm 1973 nhưng vẫn là ngôn ngữ dễ sử dụng nhất.
+
+Cũng khá đơn giản để tìm một lập trình viên trong số nhiều chuyên gia thực sự đã có kinh nghiệm về C++/C. C và C++ có những điểm tương đồng, bao gồm cả cú pháp giống nhau. Tuy nhiên, C++ vẫn là ngôn ngữ lập trình hướng đối tượng.
+
+Ứng dụng: Phần mềm Mozilla, Microsoft và các sản phẩm Adobe được xây dựng bằng C++
+
+
 -----
 Tham khảo:
 - [5 Types of Programming Languages](https://www.coursera.org/articles/types-programming-language)
 - [5 loại ngôn ngữ lập trình cần thành thạo trong năm 2023 cho Developer](https://amela.vn/5-loai-ngon-ngu-lap-trinh-can-thanh-thao-trong-nam-2023-cho-developer/)
-- []()
+- [Top 10 Best Programming Languages for 2023 (Rating included)](https://www.creative-tim.com/blog/educational-tech/best-programming-languages-for-2023/)
+- [Best Programming Languages for the Future](https://www.linkedin.com/pulse/best-programming-languages-future-casper-badenhorst)
+- [Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
+- [40 most popular programming languages 2023](https://raygun.com/blog/programming-languages/)
+- [Top Programming Languages That Will Rule in 2023](https://fireart.studio/blog/top-programming-languages-that-will-rule-in-2021/)
 - [Compiled và interpreted là gì? Ưu điểm và nhược điểm?](https://howkteam.vn/course/goc-lap-trinh-vien/compiled-va-interpreted-la-gi-uu-diem-va-nhuoc-diem-3927)
