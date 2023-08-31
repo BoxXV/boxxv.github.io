@@ -105,27 +105,35 @@ Thay vì ra lệnh cho máy tính phải làm gì, ngôn ngữ lập trình logi
 
 ## Ngôn ngữ front-end và back-end
 
-Một số ví dụ về ngôn ngữ lập trình front-end bao gồm: HTML, CSS, JavaScript, React
+Một số ví dụ về ngôn ngữ lập trình front-end bao gồm: `HTML`, `CSS`, `JavaScript`, `React`
 
-Một số ví dụ về ngôn ngữ lập trình back-end bao gồm: JavaScript, PHP, Java, Python, Ruby, C#
+Một số ví dụ về ngôn ngữ lập trình back-end bao gồm: `JavaScript`, `PHP`, `Java`, `Python`, `Ruby`, `C#`
 
 ## Ngôn ngữ cấp cao và ngôn ngữ cấp thấp
 
+Các từ "bậc cao" và "bậc thấp" còn sử dụng với ý nghĩa tương đối; một lập trình viên Java có thể xem ngôn ngữ C là ngôn ngữ lập trình bậc thấp.
+
+Các ngôn ngữ lập trình bậc thấp thường được chia thành hai loại: thế hệ thứ nhất và thế hệ thứ hai.
+
+**Ngôn ngữ lập trình thế hệ thứ nhất là mã máy**. Nó là ngôn ngữ duy nhất mà bộ vi xử lý có thể hiểu. Hiện nay các lập trình viên hầu như không bao giờ viết chương trình trực tiếp bằng ngôn ngữ máy vì nó không chỉ yêu cầu chú ý nhiều đến các chi tiết mà một ngôn ngữ bậc cao xử lý một cách tự động mà còn yêu cầu ghi nhớ và tìm những mã lệnh bằng số cho mỗi chỉ thị được sử dụng.
+
+**Ngôn ngữ lập trình thế hệ thứ hai là ngôn ngữ Assembly**. Nó được xem là ngôn ngữ thế hệ thứ hai vì mặc dù nó không phải là ngôn ngữ máy nhưng lập trình viên vẫn phải hiểu về kiến trúc của bộ vi xử lý (như các thanh ghi và các lệnh của bộ vi xử lý). Những câu lệnh đơn giản được dịch trực tiếp ra mã máy.
+
 ## Ngôn ngữ Thông dịch (Interpreted) và Biên dịch (Compiled).
 
-Ví dụ về các ngôn ngữ được Thông dịch bao gồm: Python, JavaScript, PHP, Ruby
+Ví dụ về các ngôn ngữ được Thông dịch bao gồm: `Python`, `JavaScript`, `PHP`, `Ruby`
 
-Ví dụ về các ngôn ngữ được biên dịch bao gồm: C, C++, C#, Rust, Erlang
+Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`, `Rust`, `Erlang`
 
 ![Types of Programming Languages](https://boxxv.github.io/img/2023/screenshot-2021-05-24-at-173743.webp "Types of Programming Languages")
 
 ## Ứng dụng của ngôn ngữ lập trình trong cuộc sống
 
-- Phát triển ứng dụng di động: Java, Kotlin, Swift, Objective-C
-- Phát triển trang web: HTML, CSS, JavaScript, Java, C#, Python, SQL
-- Phân tích dữ liệu: Python, R
+- Phát triển ứng dụng di động: Java, `Kotlin`, `Swift`, Objective-C
+- Phát triển trang web: HTML, CSS, **JavaScript**, `Java`, C#, Python, SQL
+- Phân tích dữ liệu: **Python**, `R`
 - Trí tuệ nhân tạo và học máy: Python, C++
-- Kỹ thuật phần mềm: C++, C#, Java
+- Kỹ thuật phần mềm: C++, **C#**, Java
 - Internet of Things (IoT): C, Python
 - Game development: C++, C#
 - Robotics: C++, Python
@@ -143,25 +151,72 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: C, C++, C#, Rust
 ![Types of Programming Languages](https://boxxv.github.io/img/2023/Top-programming-languages--PYPL.png "Types of Programming Languages")
 
 
-## Javascript
+## 1. Javascript
 
 Được sử dụng nhiều nhất, linh hoạt, dễ dàng, cộng đồng nhà phát triển lớn và WORA (Write Once Run Anywhere), script, frontend, backend, ML, game, mobile và webApps (hãy lưu ý đến địa ngục phụ thuộc của nó).
 
-## Python
+## 2. Python
 
 Dễ học, backend, ML, khoa học dữ liệu, trực quan hóa dữ liệu, viết kịch bản, hack, tự động hóa, lĩnh vực giáo dục và tài chính, quét web, áp dụng tiếp tục phát triển.
 
-## Dart
+## 3. Dart
 
 Một cơ sở mã cho ứng dụng Android, iOS, Web App, Windows, macOS (beta), Linux (beta), hệ thống nhúng (không ổn định), máy chủ → Flutter.
 
-## C#
+## 4. C#
 
 Nền tảng bất khả tri, ngôn ngữ đơn giản, đa năng, máy tính để bàn, bảng điều khiển và ứng dụng web, cửa sổ và dịch vụ web, phát triển trò chơi, VR, AR.
 
-## Go
+## 5. Go
 
 Giải quyết các vấn đề về khả năng mở rộng, mã đơn giản, dễ học, ngôn ngữ của đám mây, DevOps, chương trình phụ trợ, máy chủ, vi dịch vụ, DNS, phát triển gốc trên nền tảng đám mây. (Uber, Netflix, Docker, Kubernetes, Soundcloud, Prometheus)
+
+# BẠN NÊN XEM XÉT HỌC TẬP
+
+## 1. Java
+
+Có nhu cầu cao trên toàn thế giới, dữ liệu lớn, android, tài chính, cơ sở dữ liệu, phần mềm hệ thống, công cụ kiểm tra, vua doanh nghiệp, ngôn ngữ cốt lõi của các công cụ tiêu chuẩn ngành như Apache Kafka, spark, hive, MTLAB là các ứng dụng phân tán, dựa trên Java, IoT , Hadoop, v.v.
+
+## 2. R
+
+Thống kê, ML, Trực quan hóa dữ liệu, fintech, nghiên cứu, bán lẻ, công nghiệp ô tô, nhưng chậm và sử dụng nhiều dữ liệu.
+
+## 3. Kotlin
+
+Phía máy chủ, web phía máy khách và Android, (sắp có hệ thống nhúng, macOS và iOS), plugin gradle, microservice, hợp đồng thông minh, phụ trợ, khoa học dữ liệu.
+
+## 4. Swift
+
+Phát triển cho mọi thứ có  trên đó (iPhone, iPad, macOS, watchOS, tvOS và ứng dụng cho tất cả chúng) linh hoạt, đơn giản hóa các phương pháp phát triển ứng dụng gốc hiện có, hiệu quả hơn obj-C
+
+## 5. Rust
+
+Quản lý bộ nhớ, lập trình hệ thống, nhân Linux, công cụ trò chơi, hệ điều hành, hệ thống tệp, thành phần trình duyệt và công cụ mô phỏng cho thực tế ảo. Mất một ít thời gian để tìm hiểu (so với cờ vây). Trả lương tốt.
+
+## Những người khác
+
+→ C và Julia.
+
+# BẠN KHÔNG NÊN XEM XÉT
+
+## 1. Ruby
+
+ứng dụng web, tự động hóa (WATIR), quét dữ liệu, máy chủ, DNS, nhưng các công cụ tốt hơn hiện đã có sẵn. (Sidenote: Github, Gitlab được viết bằng framework Ruby on Rails và vẫn là lựa chọn hàng đầu của nhiều công ty khởi nghiệp vì MVP dễ dàng và triển khai nhanh chóng).
+
+## 2. PHP
+
+PHP ban đầu là viết tắt của Trang chủ cá nhân, nhưng bây giờ nó là viết tắt của chủ nghĩa khởi tạo đệ quy, Bộ tiền xử lý siêu văn bản.
+→ GUI trên máy tính để bàn, phần phụ trợ web, thiếu công cụ sửa lỗi tốt (so với các ngôn ngữ khác), lương tương đối thấp, vẫn phổ biến rộng rãi, cạnh tranh gay gắt từ java, Thương mại điện tử và các trang web công cộng King. [Các phiên bản PHP trước đây ít chú ý đến tính năng bảo mật hơn, hiện tại nó mạnh mẽ như bất kỳ ngôn ngữ nào khác]
+
+## 3. C++
+
+Cầu nối giữa LLP và HLP, bộ nhớ không an toàn, phát triển công cụ trò chơi, cấp độ hệ điều hành, nhúng, fintech, giao dịch, trình biên dịch, trình duyệt, VM, có thể gây khó chịu khi làm việc. (Visa, Mastercard, Amex đều sử dụng C++ cho hệ thống phụ trợ của họ). Đừng xem xét C++ nếu việc chơi game và lập trình phần cứng không khiến bạn quan tâm.
+
+## 4. Các ngôn ngữ siêu mới và rất đặc thù
+
+Nhưng không có cộng đồng lành mạnh. [Để biết thêm về điều đó, vui lòng tham khảo phần cuối bài viết]
+
+-----
 
 ## R
 
@@ -187,6 +242,7 @@ Cũng khá đơn giản để tìm một lập trình viên trong số nhiều c
 -----
 Tham khảo:
 - [5 Types of Programming Languages](https://www.coursera.org/articles/types-programming-language)
+- [Programming Languages to Avoid and Learn in 2022.](https://zriyansh.medium.com/programming-languages-to-avoid-and-learn-in-2022-c8e2a1cdf427)
 - [5 loại ngôn ngữ lập trình cần thành thạo trong năm 2023 cho Developer](https://amela.vn/5-loai-ngon-ngu-lap-trinh-can-thanh-thao-trong-nam-2023-cho-developer/)
 - [Top 10 Best Programming Languages for 2023 (Rating included)](https://www.creative-tim.com/blog/educational-tech/best-programming-languages-for-2023/)
 - [Best Programming Languages for the Future](https://www.linkedin.com/pulse/best-programming-languages-future-casper-badenhorst)
