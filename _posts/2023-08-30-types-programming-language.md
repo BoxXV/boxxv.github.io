@@ -48,6 +48,8 @@ Cho dù bạn học ngôn ngữ nào, bạn có thể thấy hữu ích khi ghi 
 
 Trong bài viết này, chúng ta sẽ khám phá một số loại ngôn ngữ lập trình phổ biến nhất và cung cấp cho bạn một số tài nguyên mà bạn có thể sử dụng để bắt đầu học.
 
+![Types of Programming Languages](https://boxxv.github.io/img/2023/0_kRgts_7sXohzUcnF.webp "Types of Programming Languages")
+
 # 5 loại ngôn ngữ lập trình chính
 
 Mặc dù bạn sẽ tìm thấy hàng tá cách để phân loại các ngôn ngữ lập trình khác nhau nhưng chúng thường rơi vào năm loại chính. Hãy nhớ rằng một số ngôn ngữ có thể thuộc nhiều loại.
@@ -70,6 +72,8 @@ Thay vì tập trung vào việc thực thi các câu lệnh, các ngôn ngữ c
 - Haskell
 - Elixir
 - F#
+
+Scala không còn được đưa vào bảng xếp hạng ngôn ngữ lập trình Statista nữa, mặc dù năm 2020 nó có 3,6%. Tuy nhiên, nhiều nhà phát triển cho rằng ngôn ngữ lập trình trong tương lai phải có Scala vì đây là ngôn ngữ mạnh và đầy hứa hẹn. Theo trang web chính thức, Scala là ngôn ngữ lập trình cấp cao và ngắn gọn, kết hợp giữa lập trình chức năng và hướng đối tượng. Được phát hành chính thức vào năm 2004, Scala hiện được sử dụng bởi LinkedIn (đã chuyển sang nó vào năm 2019), Twitter (đã chuyển sang nó từ Ruby on Rails vào năm 2009), Sony, Netflix, Tumblr, Foursquare.
 
 ## 3. Ngôn ngữ lập trình hướng đối tượng (Object-oriented)
 
@@ -130,13 +134,26 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 ## Ứng dụng của ngôn ngữ lập trình trong cuộc sống
 
 - Phát triển ứng dụng di động: Java, `Kotlin`, `Swift`, Objective-C
+    + Native-Platform: Java or Kotlin (Android Studio), Swift or Objective C (Xcode, for iOS and macOS)
+    + Cross-Platform (Platform Independent): Dart (for Flutter), Javascript (for React Native and Ionic), C#(Xamarin).
+    + Đề cập đặc biệt - Delphi (Android, iOS and desktop apps).
 - Phát triển trang web: HTML, CSS, **JavaScript**, `Java`, C#, Python, SQL
-- Phân tích dữ liệu: **Python**, `R`
-- Trí tuệ nhân tạo và học máy: Python, C++
-- Kỹ thuật phần mềm: C++, **C#**, Java
+    + Frontend: Javascript (React, Angular, Vue, preact), Elm, ReasonML
+    + Backend: Javascript (Node.js), Python (flask, django), Go (gin, gorilla), Ruby(Ruby on rails), Java(Spring Boot), C#(.NET framework), PHP
+    + DevOps: Go, Python, Bash
+- 
+- Kỹ thuật phần mềm Desktop App/Software: C++(Qt), **C#**(.NET framework), Java, Delphi, Dart (Flutter), Swift(XCode), Python (Kivy, Tkinter)
+- Game development: C++(Unreal engine, 4A engine), C#(Unity, CryEngine), Java(LibGdx, Ardor3D), Javascript(A‑Frame (VR), ImpactJS), LUA(Leadwerks)
 - Internet of Things (IoT): C, Python
-- Game development: C++, C#
 - Robotics: C++, Python
+- AR/VR/Metaverse Developers: C++, C#, Java, Javascript(AR.js), Python(VRED), Solidity(Metamask), Rust, Swift(ARKit)
+- Systems Programming: Go, C, C++, Rust, Erlang
+- Trí tuệ nhân tạo và học máy: Python, C++
+    + Artificial Intelligence/Machine Learning/Deep Learning: Python(Tensorflow, Keras), LISP(CUDA SDK), Javascript(Tensorflow.js, brain.js), Swift(Core ML)
+    + Data Science and Analytics, Phân tích dữ liệu: **Python**(Scrapy, Pandas), `R`(ggplot2, dplyr), Julia(Flux, Mocha.jl)
+- Big Data: Java(Apache Hadoop, Hive, Storm), Scala(Apache Spark, Kafka)
+- Cyber security: Python, Bash, PHP
+
 
 ![Types of Programming Languages](https://boxxv.github.io/img/2023/python-programming-trends.png "Types of Programming Languages")
 
@@ -187,6 +204,8 @@ Có nhu cầu cao trên toàn thế giới, dữ liệu lớn, android, tài ch�
 
 R là ngôn ngữ giải quyết bài toán tạo số liệu thống kê. Nó thường được sử dụng trong số các nhà phân tích dữ liệu. Nó cũng hoạt động trên phần mềm MacOS, Linux và Windows. Ngôn ngữ này được áp dụng chủ yếu trong các lĩnh vực chăm sóc sức khỏe, ngân hàng và chính phủ.
 
+Ngôn ngữ lập trình này ít được các chuyên gia ưa chuộng hơn nhiều và chỉ được 5% chuyên gia trên thế giới sử dụng. Nhưng có lý do cho điều này - R là ngôn ngữ phù hợp với tính toán thống kê và đồ họa. Nó được sử dụng để phân tích và trực quan hóa dữ liệu cũng như cho các thử nghiệm khác nhau với dữ liệu. Ngoài ra, theo các chuyên gia, nó có ngưỡng đầu vào cao hơn so với Python tương tự.
+
 ## 3. Kotlin
 
 Phía máy chủ, web phía máy khách và Android, (sắp có hệ thống nhúng, macOS và iOS), plugin gradle, microservice, hợp đồng thông minh, phụ trợ, khoa học dữ liệu.
@@ -231,6 +250,8 @@ Tham khảo:
 - [5 Types of Programming Languages](https://www.coursera.org/articles/types-programming-language)
 - [Programming Languages to Avoid and Learn in 2022.](https://zriyansh.medium.com/programming-languages-to-avoid-and-learn-in-2022-c8e2a1cdf427)
 - [5 loại ngôn ngữ lập trình cần thành thạo trong năm 2023 cho Developer](https://amela.vn/5-loai-ngon-ngu-lap-trinh-can-thanh-thao-trong-nam-2023-cho-developer/)
+- [Tìm hiểu sâu về những ngôn ngữ lập trình phổ biến trong phát triển Fullstack: Java, JavaScript (Node.js), Python và Ruby](https://viblo.asia/p/tim-hieu-sau-ve-nhung-ngon-ngu-lap-trinh-pho-bien-trong-phat-trien-fullstack-java-javascript-nodejs-python-va-ruby-pgjLNmEWJ32)
+- [Python Java C# JavaScript PHP site:viblo.asia](https://www.google.com/search?q=Python+Java+C%23+JavaScript+PHP+site%3Aviblo.asia)
 - [Top 10 Best Programming Languages for 2023 (Rating included)](https://www.creative-tim.com/blog/educational-tech/best-programming-languages-for-2023/)
 - [Best Programming Languages for the Future](https://www.linkedin.com/pulse/best-programming-languages-future-casper-badenhorst)
 - [Which programming language is fastest?](https://benchmarksgame-team.pages.debian.net/benchmarksgame/index.html)
