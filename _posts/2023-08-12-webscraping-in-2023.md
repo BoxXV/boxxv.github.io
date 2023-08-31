@@ -64,7 +64,7 @@ Khi cào dữ liệu thì bạn có thể gặp những websites sử dụng cá
 - Phát hiện IPs truy cập nhiều, giả sử 5 requests/s --> Giải pháp: dùng các dịch vụ IP rotator cho mỗi lần request. Mình dùng stormproxies.com.
 - Phát hiện người dùng thật qua Javascript, đa số bot ko hỗ trợ JS mà --> Giải pháp: dùng headless browser như Splash, Selenium, PhantomJS, Puppeter,... Có khá nhiều sites mình gặp dùng JS để detect robot như similarweb.com,...
 - Sử dụng honeypot traps: ví dụ như các links bẩy đính kèm display:none, visibility: hidden,... --> cài đặt cơ chế phát hiện các traps thôi ^^
-- Sử dụng cookie, captcha để chặn, đa số sites dùng Cloudflare để chặn bot --> có vài script bypass Cloudflare rồi, sử dụng như https://github.com/Anorov/cloudflare-scrape (script này bypass cookie của Cloudflare nhưng chưa có cơ chế bypass captcha của Cloudflare nhé).
+- Sử dụng cookie, captcha để chặn, đa số sites dùng Cloudflare để chặn bot --> có vài script bypass Cloudflare rồi, sử dụng như [https://github.com/Anorov/cloudflare-scrape](https://github.com/Anorov/cloudflare-scrape) (script này bypass cookie của Cloudflare nhưng chưa có cơ chế bypass captcha của Cloudflare nhé).
 
 ### Ghi kết quả dữ liệu (scraped data) quá nhiều
 
@@ -109,23 +109,23 @@ Trước hết mình sẽ giới thiệu qua một số `tool`/`lib`/`framework`
 | Disadvantages | Chỉ đơn thuần là trình phân tích (parser). Không thể lấy nội dung trang được render bằng js | Tiêu tốn RAM, CPU. Chậm |
 | Homepage | [cheerio.js.org](https://cheerio.js.org) | [pptr.dev](https://pptr.dev) |
 
-#### [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) (BS4)
+### [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) (BS4)
 
 Beautiful Soup (BS4) là một thư viện phân tích cú pháp có thể sử dụng các parsers khác nhau từ đó có thể trích xuất dữ liệu từ các tài liệu HTML và XML một cách dễ dàng. Về mặc định, Beautiful Soup sử dụng parser cơ bản của Python. Mặc dù khá linh hoạt và dễ sử dụng, parser này là có hiệu năng khá kém do tốc độ xử lý khá chậm. Tin tốt là bạn hoàn toàn có thể hoán đổi trình phân tích cú pháp của nó bằng một trình phân tích cú pháp nhanh hơn nếu bạn cần cải thiện nhiều tốc độ của ứng dụng.
 
 Sau khi phân tích các HTML cũng như XML đầu vào, Beautiful Soup cho phép chúng ta dễ dàng di chuyển, tìm kiếm, thay đổi cũng như trích xuất dữ liệu từ cây cú pháp. Cú pháp rõ ràng linh hoạt tương tự cách chúng ta tương tác với DOM bằng các thư viện JavaScript là một trong những lý do khiến Beautiful Soup trở thành một trong những công cụ phổ biến nhất cho việc thu thập dữ liệu web, bên cạnh sự mạnh mẽ của nó.
 
-#### Selenium
+### Selenium
 
 Selenium là một trong những công cụ kiểm thử phần mềm tự động mã nguồn mở mạnh nhất hiện nay cho việc kiểm thử ứng dụng Web. Selenium script có thể chạy được trên hầu hết các trình duyệt như IE, Mozilla FireFox, Chrome, Safari, Opera; và hầu hết các hệ điều hành như Windows, Mac, Linux. Về cơ bản mà nói, quá trình scraping cũng tương tự như quá trình kiểm thử ứng dụng tự động bởi chúng đều thực hiện một chuỗi thao tác tương tác với các trang web một cách tự động và liên tục. Bởi vậy, Selenium thường xuyên được sử dụng nhất là khi cần thu thập từ các trang web SPA - thứ mà khó có thể thu thập được dữ liệu từ nó nếu như phần mã JavaScript của chúng không được thực thi.
 
-#### Scrapy
+### Scrapy
 
 Về mặt kỹ thuật, Scrapy không phải một thư viện mà là một framework phục vụ mục đích thu thập dữ liệu. Điều đó có nghĩa là bạn có thể sử dụng nó để quản lý các yêu cầu, duy trì các phiên của người dùng, theo dõi chuyển hướng và xử lý các pipelines đầu ra. Nó cũng có nghĩa là bạn có thể hoán đổi các mô-đun riêng lẻ với các thư viện duyệt web Python khác. Ví dụ: nếu bạn cần chèn Selenium để quét các trang web động, bạn có thể làm điều đó.
 
 Hầu hết các ngôn ngữ lập trình đều có những thư viện hỗ trợ thu thập dữ liệu, tuy nhiên `Python` sẽ là ngôn ngữ  mà mình gợi ý các bạn nên chọn cho dự án thu thập dữ liệu của mình, `Scrapy` là một framework trong python hỗ trợ thu thập dữ liệu cực mạnh, hơn nữa python có hỗ trợ khá nhiều thư viện để xử lý dữ liệu.
 
-### Nhập môn thu thập dữ liệu
+## Nhập môn thu thập dữ liệu
 
 Kiến trúc chung của một crawler sẽ gồm 3 phần:
 1. queue chứa URL
@@ -402,7 +402,7 @@ Python - [Scrapy](https://scrapy.org), [pyspider](http://docs.pyspider.org), [Co
 
 - [Scrapy Course – Python Web Scraping for Beginners](https://youtu.be/mBoX_JCKZTE)
 - [Scraping LinkedIn Profiles with Python Scrapy (2022)](https://youtu.be/fg8ZGzueHLk)
-
+- [How to crawl data on website by Spring Boot](https://youtu.be/MI998lw0xc8)
 
 Python - Beautiful Soup
 - [PyMOTM: Argparse](https://viblo.asia/p/pymotm-argparse-l5XRBVeVRqPe)
