@@ -153,7 +153,7 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 - C++ (Qt)
 - Java
 - Dart (Flutter)
-- Swift(XCode)
+- Swift (XCode)
 - Python (Kivy, Tkinter)
 - Delphi
 
@@ -162,7 +162,7 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 - C# (Unity, CryEngine)
 - Java (LibGdx, Ardor3D)
 - Javascript (A-Frame (VR), ImpactJS)
-- LUA(Leadwerks)
+- LUA (Leadwerks)
 
 ### Internet of Things (IoT)
 - C
@@ -179,7 +179,7 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 - Python (VRED)
 - Solidity (Metamask)
 - `Rust`
-- Swift(ARKit)
+- Swift (ARKit)
 
 ### Systems Programming
 - `Go`
@@ -194,12 +194,12 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 - Swift (Core ML)
 
 ### Data Science and Analytics, Phân tích dữ liệu
-- **Python**(Scrapy, Pandas)
-- `R`(ggplot2, dplyr)
-- Julia(Flux, Mocha.jl)
+- **Python** (Scrapy, Pandas)
+- `R` (ggplot2, dplyr)
+- Julia (Flux, Mocha.jl)
 
 ###  Big Data
-- Scala(Apache Spark, Kafka)
+- Scala (Apache Spark, Kafka)
 - Java (Apache Hadoop, Hive, Storm)
 
 ### Cyber security
@@ -213,7 +213,7 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 - Marketing: SQL
 - Science: MATLAB
 - Embedded System: C/C++
-- Linux Programming(Kernel): C, `Rust`
+- Linux Programming (Kernel): C, `Rust`
 - Cloud and web APIs: `Go`, Elixir (Phoenix, ecto)
 - Finance: F#
 
