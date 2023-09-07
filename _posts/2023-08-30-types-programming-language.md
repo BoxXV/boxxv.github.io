@@ -133,26 +133,89 @@ Ví dụ về các ngôn ngữ được biên dịch bao gồm: `C`, `C++`, `C#`
 
 ## Ứng dụng của ngôn ngữ lập trình trong cuộc sống
 
-- Phát triển ứng dụng di động: Java, `Kotlin`, `Swift`, Objective-C
-    + Native-Platform: Java or Kotlin (Android Studio), Swift or Objective C (Xcode, for iOS and macOS)
-    + Cross-Platform (Platform Independent): Dart (for Flutter), Javascript (for React Native and Ionic), C#(Xamarin).
-    + Đề cập đặc biệt - Delphi (Android, iOS and desktop apps).
-- Phát triển trang web: HTML, CSS, **JavaScript**, `Java`, C#, Python, SQL
-    + Frontend: Javascript (React, Angular, Vue, preact), Elm, ReasonML
-    + Backend: Javascript (Node.js), Python (flask, django), Go (gin, gorilla), Ruby(Ruby on rails), Java(Spring Boot), C#(.NET framework), PHP
-    + DevOps: Go, Python, Bash
-- 
-- Kỹ thuật phần mềm Desktop App/Software: C++(Qt), **C#**(.NET framework), Java, Delphi, Dart (Flutter), Swift(XCode), Python (Kivy, Tkinter)
-- Game development: C++(Unreal engine, 4A engine), C#(Unity, CryEngine), Java(LibGdx, Ardor3D), Javascript(A‑Frame (VR), ImpactJS), LUA(Leadwerks)
-- Internet of Things (IoT): C, Python
-- Robotics: C++, Python
-- AR/VR/Metaverse Developers: C++, C#, Java, Javascript(AR.js), Python(VRED), Solidity(Metamask), Rust, Swift(ARKit)
-- Systems Programming: Go, C, C++, Rust, Erlang
-- Trí tuệ nhân tạo và học máy: Python, C++
-    + Artificial Intelligence/Machine Learning/Deep Learning: Python(Tensorflow, Keras), LISP(CUDA SDK), Javascript(Tensorflow.js, brain.js), Swift(Core ML)
-    + Data Science and Analytics, Phân tích dữ liệu: **Python**(Scrapy, Pandas), `R`(ggplot2, dplyr), Julia(Flux, Mocha.jl)
-- Big Data: Java(Apache Hadoop, Hive, Storm), Scala(Apache Spark, Kafka)
-- Cyber security: Python, Bash, PHP
+### Phát triển trang web
+- Frontend: HTML, CSS, Javascript (React, Angular, Vue, preact), Elm, ReasonML
+- Backend: Javascript (Node.js), Python (flask, django), Go (gin, gorilla), Ruby(Ruby on rails), Java(Spring Boot), C#(.NET framework), PHP
+- DevOps: Go, Python, Bash
+
+> Bạn có biết rằng React ban đầu được viết bằng OCaml và chỉ sau đó mới được chuyển sang JavaScript để hỗ trợ việc áp dụng?
+
+    + Elm và ReasonML là các ngôn ngữ chức năng, biên dịch thành js.
+    + Trước Angular, React và Vue, thế giới đã sử dụng Backbone.js và Ember.js
+
+### Phát triển ứng dụng di động
+- Native-Platform: Java or Kotlin (Android Studio), Swift or Objective C (Xcode, for iOS and macOS)
+- Cross-Platform (Platform Independent): Dart (for Flutter), Javascript (for React Native and Ionic), C#(Xamarin).
+- Đề cập đặc biệt - Delphi (Android, iOS and desktop apps).
+
+### Kỹ thuật phần mềm Desktop App/Software
+- **C#** (.NET framework)
+- C++ (Qt)
+- Java
+- Dart (Flutter)
+- Swift(XCode)
+- Python (Kivy, Tkinter)
+- Delphi
+
+### Game development
+- C++ (Unreal engine, 4A engine)
+- C# (Unity, CryEngine)
+- Java (LibGdx, Ardor3D)
+- Javascript (A-Frame (VR), ImpactJS)
+- LUA(Leadwerks)
+
+### Internet of Things (IoT)
+- C
+- Python
+
+### Robotics
+- C++
+- Python
+
+### AR/VR/Metaverse Developers
+- C++, C#
+- Java
+- Javascript (AR.js)
+- Python (VRED)
+- Solidity (Metamask)
+- `Rust`
+- Swift(ARKit)
+
+### Systems Programming
+- `Go`
+- C, C++
+- **Rust**
+- Erlang
+
+### Trí tuệ nhân tạo và học máy Artificial Intelligence/Machine Learning/Deep Learning
+- Python (Tensorflow, Keras)
+- LISP (CUDA SDK)
+- Javascript (Tensorflow.js, brain.js)
+- Swift (Core ML)
+
+### Data Science and Analytics, Phân tích dữ liệu
+- **Python**(Scrapy, Pandas)
+- `R`(ggplot2, dplyr)
+- Julia(Flux, Mocha.jl)
+
+###  Big Data
+- Scala(Apache Spark, Kafka)
+- Java (Apache Hadoop, Hive, Storm)
+
+### Cyber security
+- Python
+- Bash
+- PHP
+
+### Những thứ khác
+- Automotive Industry: C/C++
+- Healthcare: Python
+- Marketing: SQL
+- Science: MATLAB
+- Embedded System: C/C++
+- Linux Programming(Kernel): C, `Rust`
+- Cloud and web APIs: `Go`, Elixir (Phoenix, ecto)
+- Finance: F#
 
 
 ![Types of Programming Languages](https://boxxv.github.io/img/2023/python-programming-trends.png "Types of Programming Languages")
