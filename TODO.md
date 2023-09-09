@@ -121,6 +121,18 @@ The Visual Studio Extension for .NET Developers
 
 ## Doing
 
+### Most Popular API Architecture Styles
+
+- [Top 6 Most Popular API Architecture Styles🕱](https://medium.com/@masterrajpatel/top-6-most-popular-api-architecture-styles-99a061ee87e3)
+- [Top 6 Most Popular API Architecture Styles](https://youtu.be/4vLxWqE94l4)
+- [Top Architectural Styles for APIs in 2023](https://nordicapis.com/top-architectural-styles-for-apis-in-2023/)
+- [Top API Architectural Styles](https://www.devopsschool.com/blog/top-api-architectural-styles/)
+- [API và những kiến trúc API phổ biến](https://zodinet.com/api-va-nhung-kien-truc-api-pho-bien/)
+- [Các loại kiến trúc API phổ biến mà bạn nên biết](https://viblo.asia/p/cac-loai-kien-truc-api-pho-bien-ma-ban-nen-biet-m2vJPx9oJeK)
+- [Các loại APIs: Web và Web Service](https://devera.vn/blog/our-blog-1/post/cac-loai-apis-web-va-web-service-90)
+- [API là gì? Các loại kiến trúc API phổ biến](https://200lab.io/blog/api-la-gi/)
+
+
 ### Material UI theming
 + https://mui.com/material-ui/customization/theming/
 + https://muhimasri.com/blogs/how-to-customize-theme-and-colors-in-material-ui/
