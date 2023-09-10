@@ -36,6 +36,51 @@ tags:
 - Scratch
 ---
 
+- [5 loại ngôn ngữ lập trình chính](#5-loại-ngôn-ngữ-lập-trình-chính)
+  - [1. Ngôn ngữ lập trình thủ tục (Procedural)](#1-ngôn-ngữ-lập-trình-thủ-tục-procedural)
+  - [2. Ngôn ngữ lập trình hàm (Functional)](#2-ngôn-ngữ-lập-trình-hàm-functional)
+  - [3. Ngôn ngữ lập trình hướng đối tượng (Object-oriented)](#3-ngôn-ngữ-lập-trình-hướng-đối-tượng-object-oriented)
+  - [4. Ngôn ngữ kịch bản](#4-ngôn-ngữ-kịch-bản)
+  - [5. Ngôn ngữ lập trình logic](#5-ngôn-ngữ-lập-trình-logic)
+- [Các cách khác để phân loại ngôn ngữ lập trình](#các-cách-khác-để-phân-loại-ngôn-ngữ-lập-trình)
+  - [Ngôn ngữ front-end và back-end](#ngôn-ngữ-front-end-và-back-end)
+  - [Ngôn ngữ cấp cao và ngôn ngữ cấp thấp](#ngôn-ngữ-cấp-cao-và-ngôn-ngữ-cấp-thấp)
+  - [Ngôn ngữ Thông dịch (Interpreted) và Biên dịch (Compiled).](#ngôn-ngữ-thông-dịch-interpreted-và-biên-dịch-compiled)
+  - [Ứng dụng của ngôn ngữ lập trình trong cuộc sống](#ứng-dụng-của-ngôn-ngữ-lập-trình-trong-cuộc-sống)
+    - [Phát triển trang web](#phát-triển-trang-web)
+    - [Phát triển ứng dụng di động](#phát-triển-ứng-dụng-di-động)
+    - [Kỹ thuật phần mềm Desktop App/Software](#kỹ-thuật-phần-mềm-desktop-appsoftware)
+    - [Game development](#game-development)
+    - [Internet of Things (IoT)](#internet-of-things-iot)
+    - [Robotics](#robotics)
+    - [AR/VR/Metaverse Developers](#arvrmetaverse-developers)
+    - [Systems Programming](#systems-programming)
+    - [Trí tuệ nhân tạo và học máy Artificial Intelligence/Machine Learning/Deep Learning](#trí-tuệ-nhân-tạo-và-học-máy-artificial-intelligencemachine-learningdeep-learning)
+    - [Data Science and Analytics, Phân tích dữ liệu](#data-science-and-analytics-phân-tích-dữ-liệu)
+    - [Big Data](#big-data)
+    - [Cyber security](#cyber-security)
+    - [Những thứ khác](#những-thứ-khác)
+- [BAN NÊN HỌC](#ban-nên-học)
+  - [1. Javascript](#1-javascript)
+  - [2. Python](#2-python)
+  - [3. Dart](#3-dart)
+  - [4. C#](#4-c)
+  - [5. Go](#5-go)
+- [BẠN NÊN XEM XÉT HỌC TẬP](#bạn-nên-xem-xét-học-tập)
+  - [1. Java](#1-java)
+  - [2. R](#2-r)
+  - [3. Kotlin](#3-kotlin)
+  - [4. Swift](#4-swift)
+  - [5. Rust](#5-rust)
+  - [6. Những thứ khác](#6-những-thứ-khác)
+- [BẠN KHÔNG NÊN XEM XÉT](#bạn-không-nên-xem-xét)
+  - [1. Ruby](#1-ruby)
+  - [2. PHP](#2-php)
+  - [3. C++](#3-c)
+  - [4. Các ngôn ngữ siêu mới và rất đặc thù](#4-các-ngôn-ngữ-siêu-mới-và-rất-đặc-thù)
+- [Một chút lịch sử về các ngôn ngữ lập trình phổ biến.](#một-chút-lịch-sử-về-các-ngôn-ngữ-lập-trình-phổ-biến)
+
+
 ![Types of Programming Languages](https://boxxv.github.io/img/2023/be-your-dedicated-php-laravel-developer.jpeg "Types of Programming Languages")
 
 Tìm hiểu thêm về một số danh mục ngôn ngữ lập trình phổ biến để lấy cảm hứng bắt đầu viết mã.
@@ -281,7 +326,7 @@ Phát triển cho mọi thứ có  trên đó (iPhone, iPad, macOS, watchOS, 
 
 Quản lý bộ nhớ, lập trình hệ thống, nhân Linux, công cụ trò chơi, hệ điều hành, hệ thống tệp, thành phần trình duyệt và công cụ mô phỏng cho thực tế ảo. Mất một ít thời gian để tìm hiểu (so với cờ vây). Trả lương tốt.
 
-## Những người khác
+## 6. Những thứ khác
 
 → C và Julia.
 
@@ -304,9 +349,50 @@ Cầu nối giữa LLP và HLP, bộ nhớ không an toàn, phát triển công 
 
 Nhưng không có cộng đồng lành mạnh. [Để biết thêm về điều đó, vui lòng tham khảo phần cuối bài viết]
 
+# Một chút lịch sử về các ngôn ngữ lập trình phổ biến.
 
-
-
+```
+1951 — Regional Assembly Language
+1957 — FORTRAN (first compiler)
+1958 — LISP
+1958 — ALGOL 58
+1959 — COBOL
+1962 - Simula
+1964 - IBM Basic Assembly Language
+1964 — BASIC
+1964 - PL/I (Programming Language One)
+1969 — B (forerunner to C)
+1970 — Pascal
+1972 — C
+1972 - Smalltalk
+1972 - SPL
+1976 - S
+1978 — SQL
+1980 — C++ (as C with classes, renamed in 1983)
+1984 — MATLAB
+1985 - Eiffel
+1986 — Objective-C
+1986 — Erlang
+1987 — Perl
+1990 — Haskell
+1990 — Python
+1991 — Visual Basic
+1993 — R (influenced by S, 1976)
+1995 - Delphi
+1995 — Ruby
+1995 — Java
+1995 — JavaScript
+1995 — PHP
+2001 — C#
+2002 — Scratch
+2003 — Scala
+2006 — PowerShell
+2007 — Clojure
+2008 — Nim
+2010 — Rust
+2011 — Elixir
+2012 — JuliaOther new programming languages include Red, Crystal, Elm, Hack, Haxe, Zig, Reason, and Ballerina.
+```
 
 -----
 Tham khảo:
