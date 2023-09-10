@@ -36,6 +36,8 @@ tags:
 - Scratch
 ---
 
+# Table of contents
+- [Table of contents](#table-of-contents)
 - [5 loại ngôn ngữ lập trình chính](#5-loại-ngôn-ngữ-lập-trình-chính)
   - [1. Ngôn ngữ lập trình thủ tục (Procedural)](#1-ngôn-ngữ-lập-trình-thủ-tục-procedural)
   - [2. Ngôn ngữ lập trình hàm (Functional)](#2-ngôn-ngữ-lập-trình-hàm-functional)

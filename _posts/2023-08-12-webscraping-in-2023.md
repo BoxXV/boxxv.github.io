@@ -13,6 +13,8 @@ tags:
 - Technology
 ---
 
+## Mục lục
+
 - [Crawl data - cào dữ liệu có gì khó?](#crawl-data---cào-dữ-liệu-có-gì-khó)
     - [Beautiful Soup (BS4)](#beautiful-soup-bs4)
     - [Selenium](#selenium)
@@ -31,6 +33,8 @@ tags:
 - [Tổng kết](#tổng-kết)
 
 
+![Web Scraping](https://boxxv.github.io/img/2023/9LFFMbOMFJ3P7xs2yGHrDQukzea6scjQ8E20oyx2.jpeg "Web Scraping")
+
 Dữ liệu đã và đang trở thành một phần chính trong chiến lược tăng trưởng của mọi công ty. Các dữ liệu này bao gồm:
 - Dữ liệu công khai.
 - Dữ liệu thông tin người dùng.
@@ -39,8 +43,6 @@ Dữ liệu đã và đang trở thành một phần chính trong chiến lượ
 - Dữ liệu sản phẩm.
 - Dữ liệu công việc.
 - Dữ liệu dự báo thời tiết v...v...
-
-![Web Scraping](https://boxxv.github.io/img/2023/9LFFMbOMFJ3P7xs2yGHrDQukzea6scjQ8E20oyx2.jpeg "Web Scraping")
 
 ## Crawl là gì? Web Crawler là gì?
 
