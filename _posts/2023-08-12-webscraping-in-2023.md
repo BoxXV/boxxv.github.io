@@ -13,6 +13,24 @@ tags:
 - Technology
 ---
 
+- [Crawl data - cào dữ liệu có gì khó?](#crawl-data---cào-dữ-liệu-có-gì-khó)
+    - [Beautiful Soup (BS4)](#beautiful-soup-bs4)
+    - [Selenium](#selenium)
+    - [Scrapy](#scrapy)
+  - [Nhập môn thu thập dữ liệu](#nhập-môn-thu-thập-dữ-liệu)
+- [Xây dựng sơ bộ một hệ thống crawler](#xây-dựng-sơ-bộ-một-hệ-thống-crawler)
+  - [1. Lấy xpath như thế nào?](#1-lấy-xpath-như-thế-nào)
+  - [2. Hệ thống quản lý template](#2-hệ-thống-quản-lý-template)
+    - [a, Backend](#a-backend)
+    - [b, Frontend](#b-frontend)
+    - [c, Quản lý các máy crawler](#c-quản-lý-các-máy-crawler)
+    - [d, Giám sát hiệu năng của hệ thống](#d-giám-sát-hiệu-năng-của-hệ-thống)
+- [Crawl Data với Chrome Extension](#crawl-data-với-chrome-extension)
+- [Thu thập dữ liệu web bằng các ngôn ngữ khác nhau](#thu-thập-dữ-liệu-web-bằng-các-ngôn-ngữ-khác-nhau)
+  - [Python](#python), [Java](#java), [C#](#c), [JavaScript](#javascript), [PHP](#php), [C++](#c-1), [C](#c-2), [Ruby](#ruby), [Rust](#rust), [R](#r), [Erlang](#erlang), [Perl](#perl), [Go](#go), [Scala](#scala)
+- [Tổng kết](#tổng-kết)
+
+
 Dữ liệu đã và đang trở thành một phần chính trong chiến lược tăng trưởng của mọi công ty. Các dữ liệu này bao gồm:
 - Dữ liệu công khai.
 - Dữ liệu thông tin người dùng.
@@ -337,7 +355,7 @@ Mình đã dùng [Datadog](https://viblo.asia/p/datadog-cai-dat-va-cau-hinh-cho-
 * [ferrit](https://github.com/reggoodwin/ferrit) - Ferrit là dịch vụ thu thập dữ liệu web được viết bằng Scala sử dụng Akka, Spray và Cassandra.
 
 
-## Tổng kết
+# Tổng kết
 
 Về cơ bản để xây dựng một ứng dụng crawler, có rất nhiều cách và trên đây là cách mình đã tiếp cận. Hy vọng sẽ giúp được bạn xây dựng được một hệ thống crawler như mong muốn.
 
@@ -388,16 +406,16 @@ Python - [Scrapy](https://scrapy.org), [pyspider](http://docs.pyspider.org), [Co
 - [Scrapy Tutorial — Part 5](https://medium.com/@jebaseelanravi96/scrapy-tutorial-part-5-ab1e04553f82)
 - [[`Tutorial`] Implementing Web Scraping in Python with Scrapy](https://www.geeksforgeeks.org/implementing-web-scraping-python-scrapy/)
 
-#### Scrapy for Beginners
+**Scrapy for Beginners**
 - _John Watson Rooney &#9679; [15 video](https://www.youtube.com/playlist?list=PLRzwgpycm-Fjvdf7RpmxnPMyJ80RecJjv) &#9679; Dec 10, 2020_
 
-#### Scrapy
+**Scrapy**
 - _codeRECODE &#9679; [40 video](https://www.youtube.com/playlist?list=PLj4hN6FewnwoUArmA8kifDHZYvRn6egg5) &#9679; Jun 7, 2023_
 
-#### The Python Scrapy Playbook
+**The Python Scrapy Playbook**
 - _ScrapeOps &#9679; [20 video](https://www.youtube.com/playlist?list=PLkhQp3-EGsIi39YF-BE306DDX1xVSTHmn) &#9679; Dec 12, 2020_
 
-#### Python Web Scraping & Crawling using Scrapy
+**Python Web Scraping & Crawling using Scrapy**
 - _buildwithpython &#9679; [25 video](https://www.youtube.com/playlist?list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t) &#9679; Feb 25, 2019_
 
 - [Scrapy Course – Python Web Scraping for Beginners](https://youtu.be/mBoX_JCKZTE)
