@@ -30,8 +30,8 @@ tags:
 - [Crawl Data với Chrome Extension](#crawl-data-với-chrome-extension)
 - [Thu thập dữ liệu web bằng các ngôn ngữ khác nhau](#thu-thập-dữ-liệu-web-bằng-các-ngôn-ngữ-khác-nhau)
   - [Python](#python), [Java](#java), [C#](#c), [JavaScript](#javascript), [PHP](#php), [C++](#c-1), [C](#c-2), [Ruby](#ruby), [Rust](#rust), [R](#r), [Erlang](#erlang), [Perl](#perl), [Go](#go), [Scala](#scala)
+- [Đảm bảo tính chính xác và độ tin cậy của dữ liệu](#đảm-bảo-tính-chính-xác-và-độ-tin-cậy-của-dữ-liệu)
 - [Tổng kết](#tổng-kết)
-
 
 ![Web Scraping](https://boxxv.github.io/img/2023/9LFFMbOMFJ3P7xs2yGHrDQukzea6scjQ8E20oyx2.jpeg "Web Scraping")
 
@@ -356,6 +356,17 @@ Mình đã dùng [Datadog](https://viblo.asia/p/datadog-cai-dat-va-cau-hinh-cho-
 * [scrala](https://github.com/gaocegege/scrala) - Khung trình thu thập dữ liệu Scala (nhện), lấy cảm hứng từ Scrapy.
 * [ferrit](https://github.com/reggoodwin/ferrit) - Ferrit là dịch vụ thu thập dữ liệu web được viết bằng Scala sử dụng Akka, Spray và Cassandra.
 
+# Đảm bảo tính chính xác và độ tin cậy của dữ liệu
+
+Bạn nên đảm bảo tính chính xác và độ tin cậy của đường ống dữ liệu của chúng tôi bằng cách nào?
+
+Những tác vụ thiết yếu này trong Đường ống dữ liệu sẽ giúp bạn đảm bảo độ chính xác và độ tin cậy.  
+🔹 Xác thực: Đảm bảo dữ liệu của bạn chính xác và phù hợp là bước đầu tiên trong bất kỳ quy trình mạnh mẽ nào  
+🔹 Sạch sẽ: Việc loại bỏ những điểm bất thường và không nhất quán là rất quan trọng để duy trì tính toàn vẹn của dữ liệu  
+🔹 Chuẩn hóa: Tạo định dạng thống nhất giúp dữ liệu của bạn dễ phân tích và chia sẻ hơn  
+🔹 Giám tuyển: Bước cuối cùng liên quan đến việc tổ chức dữ liệu của bạn theo cách giúp người dùng cuối có thể truy cập và hữu ích
+
+![Web Scraping](https://boxxv.github.io/img/2023/1693992176605.gif "Web Scraping")
 
 # Tổng kết
 

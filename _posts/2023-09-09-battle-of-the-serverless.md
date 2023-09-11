@@ -304,6 +304,7 @@ Nếu bạn đang tìm cho mình môi trường đáng học hỏi, có cơ hộ
 -----
 Tham khảo:
 - [Khám phá những ngôn ngữ lập trình: Rust, Go, Kotlin, Scala và F#](https://viblo.asia/p/kham-pha-nhung-ngon-ngu-lap-trinh-rust-go-kotlin-scala-va-f-38X4EPlzVN2)
+- [Battle of the Serverless — Part 1: Rust vs Go vs Kotlin vs F# vs C#](https://shouldroforion.medium.com/battle-of-the-serverless-part-1-rust-vs-go-vs-kotlin-vs-f-vs-c-32a66613f919)
 - [Serverless là gì? Hãy sẵn sàng với serverless!](https://fullstackstation.com/serverless-la-gi/)
 - [5 Types of Programming Languages](https://www.coursera.org/articles/types-programming-language)
 - [Programming Languages to Avoid and Learn in 2022.](https://zriyansh.medium.com/programming-languages-to-avoid-and-learn-in-2022-c8e2a1cdf427)
