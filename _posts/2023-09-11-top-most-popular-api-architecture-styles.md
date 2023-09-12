@@ -29,6 +29,11 @@ tags:
   - [4. SOAP](#4-soap)
   - [5. gRPC](#5-grpc)
   - [6. Websocket](#6-websocket)
+  - [7. MQTT (Truyền tải từ xa xếp hàng tin nhắn)](#7-mqtt-truyền-tải-từ-xa-xếp-hàng-tin-nhắn)
+  - [8. AMQP (Giao thức xếp hàng tin nhắn nâng cao)](#8-amqp-giao-thức-xếp-hàng-tin-nhắn-nâng-cao)
+  - [9. JSON-RPC](#9-json-rpc)
+  - [10. OData (Giao thức dữ liệu mở)](#10-odata-giao-thức-dữ-liệu-mở)
+  - [11. Falcor](#11-falcor)
 - [Tổng kết](#tổng-kết)
 
 
@@ -61,6 +66,10 @@ Dựa vào kết quả này, ta có thể thấy kết quả cho tới thời đ
 # Các kiểu kiến trúc API phổ biến
 
 Tùy theo nhu cầu cầu của mỗi website mà các nhà lập trình lựa chọn kiểu kiến trúc API phù hợp. Mỗi kiểu API đều sẽ có những ưu, nhược điểm và đặc trưng khác nhau. Một số kiểu kiến trúc API phổ biến nhất hiện nay có thể kể đến:
+
+![API](https://boxxv.github.io/img/2023/Top-API-Architectural-Styles-1024x848.jpg "API")
+
+![API](https://boxxv.github.io/img/2023/1532072deae23fbc66f3.jpg "API")
 
 ## 1. RESTful
 
@@ -197,6 +206,41 @@ WebSoket là công nghệ hỗ trợ giao tiếp hai chiều (full-duplex) giữ
 
 Kiến trúc WebSockets thường được sử dụng trong các ứng dụng cần truyền thông tin thời gian thực (real-time) với tốc độ kết nối cao như trò chuyện trực tuyến, trò chơi trực tuyến, các ứng dụng video và âm nhạc trực tuyến, hệ thống đánh giá thời gian thực và các ứng dụng khác cần truyền thông tin nhanh và chính xác.
 
+## 7. MQTT (Truyền tải từ xa xếp hàng tin nhắn)
+
+MQTT là một trình nhắn tin nhẹ, được thiết kế dành riêng cho các môi trường có tài nguyên hạn chế, băng thông thấp và mạng không đáng tin cậy. Hãy hình dung nó như một nhân viên bưu điện quyết tâm chuyển thư của bạn, dù mưa hay nắng.
+
+## 8. AMQP (Giao thức xếp hàng tin nhắn nâng cao)
+
+Một giao thức mạnh mẽ và được tiêu chuẩn hóa, AMQP vượt trội trong môi trường phần mềm trung gian với khả năng nhắn tin đáng tin cậy. Nó giống như một dây chuyền lắp ráp được bôi trơn tốt, di chuyển các thông điệp đến nơi cần đến một cách hiệu quả.
+
+Kiểu kiến trúc API tốt nhất cho một ứng dụng cụ thể sẽ phụ thuộc vào các yêu cầu cụ thể của ứng dụng, chẳng hạn như -
+
+1. Loại dữ liệu sẽ được trao đổi giữa API và máy khách
+2. Yêu cầu về hiệu năng của API
+3. Yêu cầu bảo mật của API
+4. Yêu cầu về khả năng mở rộng của API
+
+## 9. JSON-RPC
+
+JSON-RPC là giao thức gọi thủ tục từ xa (RPC) được mã hóa bằng JSON.
+
+Nó cho phép khách hàng gọi các phương thức trên máy chủ từ xa bằng cách sử dụng các thông báo dựa trên JSON qua HTTP hoặc các giao thức truyền tải khác.
+
+## 10. OData (Giao thức dữ liệu mở)
+
+OData là một giao thức để xây dựng và sử dụng API RESTful.
+
+Nó tập trung vào việc hiển thị và sử dụng dữ liệu dưới dạng tài nguyên, hỗ trợ lọc, sắp xếp và truy vấn dữ liệu.
+
+OData nhằm mục đích chuẩn hóa cách truy cập và thao tác dữ liệu trên web.
+
+## 11. Falcor
+
+Falcor là thư viện JavaScript được Netflix phát triển để tìm nạp dữ liệu hiệu quả.
+
+Nó cho phép khách hàng yêu cầu các phần dữ liệu cụ thể từ một điểm cuối duy nhất, giảm số lượng yêu cầu mạng.
+
 # Tổng kết
 
 Như bạn có thể thấy, có rất nhiều điều cần lưu ý khi sử dụng API, không chỉ riêng REST, mặc dù REST vẫn là kiến trúc dẫn đầu với khoảng cách rất xa so với các kiến trúc khác. Có thể nói rằng khi các giải pháp như microservices, headless và serverless trở nên phổ biến hơn, chúng ta cũng sẽ thấy sự gia tăng về việc sử dụng một số kiến trúc API khác.
@@ -208,9 +252,14 @@ Mong rằng, bài viết này có thể giúp bạn hình dung được các ki�
 Cảm ơn mọi người đã dành thời gian theo dõi bài viết này 🙇
 
 -----
-Tham khảo:
+Tham khảo: Most Popular API Architecture Styles
 - [API và những kiến trúc API phổ biến](https://zodinet.com/api-va-nhung-kien-truc-api-pho-bien/)
 - [Các loại kiến trúc API phổ biến mà bạn nên biết](https://viblo.asia/p/cac-loai-kien-truc-api-pho-bien-ma-ban-nen-biet-m2vJPx9oJeK)
-- []()
+- [Các loại APIs: Web và Web Service](https://devera.vn/blog/our-blog-1/post/cac-loai-apis-web-va-web-service-90)
+- [API là gì? Các loại kiến trúc API phổ biến](https://200lab.io/blog/api-la-gi/)
 - [Webhooks vs API - Sự khác biệt là gì?](https://viblo.asia/p/webhooks-vs-api-su-khac-biet-la-gi-Qbq5QQkG5D8)
-- []()
+- [Top 6 Most Popular API Architecture Styles🕱](https://medium.com/@masterrajpatel/top-6-most-popular-api-architecture-styles-99a061ee87e3)
+- [Top 6 Most Popular API Architecture Styles](https://youtu.be/4vLxWqE94l4)
+- [Top Architectural Styles for APIs in 2023](https://nordicapis.com/top-architectural-styles-for-apis-in-2023/)
+- [Top API Architectural Styles](https://www.devopsschool.com/blog/top-api-architectural-styles/)
+- [Top 7 Ways to 10x Your API Performance](https://youtu.be/zvWKqUiovAM)
