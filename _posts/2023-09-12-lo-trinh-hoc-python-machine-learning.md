@@ -41,13 +41,14 @@ tags:
 - [Mục lục](#mục-lục)
 - [I. Định hướng nghề nghiệp](#i-định-hướng-nghề-nghiệp)
 	- [1. Python Developer](#1-python-developer)
-	- [2. Web Scraping, Web Crawling](#2-web-scraping-web-crawling)
-	- [3. Scripting](#3-scripting)
+	- [2. Test Automation](#2-test-automation)
+	- [3. Web Scraping, Web Crawling](#3-web-scraping-web-crawling)
+	- [4. Scripting](#4-scripting)
 		- [System Admin](#system-admin)
 		- [DevOps](#devops)
-	- [4. Machine Learning](#4-machine-learning)
-	- [5. Data Science](#5-data-science)
-	- [6. Big Data](#6-big-data)
+	- [5. Machine Learning](#5-machine-learning)
+	- [6. Data Science](#6-data-science)
+	- [7. Big Data](#7-big-data)
 - [7 bước học Python: Từ cơ bản đến nâng cao](#7-bước-học-python-từ-cơ-bản-đến-nâng-cao)
 	- [1. Tìm hiểu các nguyên tắc cơ bản của Python](#1-tìm-hiểu-các-nguyên-tắc-cơ-bản-của-python)
 	- [2. Bắt đầu xây dựng dự án và thiết lập portfolio](#2-bắt-đầu-xây-dựng-dự-án-và-thiết-lập-portfolio)
@@ -81,19 +82,23 @@ Thành thạo Python sẽ mở ra rất nhiều cơ hội sự nghiệp đắt g
 
 # I. Định hướng nghề nghiệp
 
+![Python](https://boxxv.github.io/img/2023/cceed13feeef3bb162fe.jpg "Python")
+
 ## 1. Python Developer
 
 Python Developer được biết đến là lập trình web trong Python đảm nhận việc phân tích, thu thập dữ liệu và thiết kế các khuôn khổ cho các dự án khác nhau. Họ sẽ tạo một web app hay là ứng dụng web có thể chạy được trên Client Browser (trình duyệt web của người dùng).
 
 Mà để có thể tạo được web app thì các developer phải biết cách lập trình server, trong Python có 2 framework nổi tiếng là Django (web framework bậc cao) và Flask.
 
-Python Software Engineer Test Automation là kỹ sư phần mềm mảng kiểm tra tự động, họ  kiểm tra code một cách tự động. Khi công ty ra feature (tính năng) mới cho ứng dụng, họ sẽ cần có người kiểm tra xem tính năng mới có ảnh hưởng đến soft code của ứng dụng hay không.
+## 2. Test Automation
+
+Test Automation là kỹ sư phần mềm mảng kiểm tra tự động, họ  kiểm tra code một cách tự động. Khi công ty ra feature (tính năng) mới cho ứng dụng, họ sẽ cần có người kiểm tra xem tính năng mới có ảnh hưởng đến soft code của ứng dụng hay không.
 
 Vì ứng dụng rất lớn mà tính năng gây ra lỗi thì sẽ rất nguy hiểm đến app. Vì thế cần test trước khi tích hợp mainline (tích hợp code) vào trong toàn bộ app.
 
-Ví dụ: Khi facebook ra icon mới thì họ sẽ test thử xem có ảnh hưởng đến nút like, haha hay nút thả tim hay không. Vì thế, Python cung cấp Pytest, Selenium, Robot Framework, Unittest dùng để test code một cách tự động.
+Ví dụ: Khi facebook ra icon mới thì họ sẽ test thử xem có ảnh hưởng đến nút like, haha hay nút thả tim hay không. Vì thế, Python cung cấp `Pytest`, `Selenium`, `Robot Framework`, `unittest` dùng để test code một cách tự động.
 
-## 2. Web Scraping, Web Crawling
+## 3. Web Scraping, Web Crawling
 
 Web Scraping hay còn biết đến là khai thác dữ liệu web, là một chương trình viết ra để tải xuống, sắp xếp và cấu trúc dữ liệu đó một cách hợp lý.
 
@@ -103,7 +108,7 @@ Bên cạnh Web Scraping, Python còn có Web Crawling hay còn gọi là cào d
 
 Ví dụ: Khi bạn nhập từ khoá “Web Crawling là gì” trên Google, Google sẽ cào toàn bộ các web trên Internet xuống, sau đó họ sẽ tìm kiếm keywork mà bạn tìm kiếm qua các web mà họ đã cào.
 
-## 3. Scripting
+## 4. Scripting
 
 Scripting là công việc viết những chương trình nhỏ bằng Python để tự động hoá những công việc, nhiệm vụ hàng ngày mà bạn muốn hệ thống máy tính công ty tự động thực hiện task đó.
 
@@ -117,19 +122,19 @@ DevOps là kết hợp giữa Develop và Operate là trung gian giữa System A
 
 Tiếp đến, chúng ta sẽ đến với 3 định hướng nghề nghiệp phổ biến và trending nhất mà bất kỳ một Python Developer nào cũng muốn học.
 
-## 4. Machine Learning
+## 5. Machine Learning
 
 Machine Learning Engineer sẽ làm nhiệm vụ lấy dữ liệu có sẵn để xây dựng nên một mô hình machine learning nhằm tạo ra một giá trị mới cho doanh nghiệp như phân tích, dự đoán, phân loại.
 
 Các machine model này sẽ được xây dựng dựa trên python packages, chẳng hạn như: TensorFlow, Scikit-Learn, Keras, PyTorch. Những packages này sẽ giúp bạn xây dựng mô hình machine learning một cách nhanh chóng và hiệu quả.
 
-## 5. Data Science
+## 6. Data Science
 
 Data Science hay còn gọi là khoa học dữ liệu, là một lĩnh vực liên quan đến việc sử dụng các công cụ máy tính kết hợp với kiến thức toán học, thống kê để chuyển hoá dữ liệu thành những thông tin quan trọng và có ích cho công ty.
 
 Dưới đây là những thư viện được sử dụng nhiều nhất, mà một data science cần biết NumPy, Pandas, SciPy, Bokeh, Matplotlib, Seaborn.
 
-## 6. Big Data
+## 7. Big Data
 
 Big Data Engineer là một kỹ sư dữ liệu. Nhiệm vụ của họ là xây dựng các cơ sở hạ tầng có sẵn hoặc khuôn khổ phù hợp cần thiết để sẵn sàng cho việc tạo ra các dữ liệu. Họ thường làm việc thiên về kiến trúc của dữ liệu như thu thập, lưu trữ , và quản lý dữ liệu trong nhiều nhiệm vụ khác nhau.
 
