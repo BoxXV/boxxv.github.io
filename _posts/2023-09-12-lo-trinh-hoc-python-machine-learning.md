@@ -49,7 +49,23 @@ tags:
 	- [5. Data Science](#5-data-science)
 	- [6. Big Data](#6-big-data)
 - [7 bước học Python: Từ cơ bản đến nâng cao](#7-bước-học-python-từ-cơ-bản-đến-nâng-cao)
+	- [1. Tìm hiểu các nguyên tắc cơ bản của Python](#1-tìm-hiểu-các-nguyên-tắc-cơ-bản-của-python)
+	- [2. Bắt đầu xây dựng dự án và thiết lập portfolio](#2-bắt-đầu-xây-dựng-dự-án-và-thiết-lập-portfolio)
+	- [3. Đi sâu hơn vào các chủ đề Python nâng cao](#3-đi-sâu-hơn-vào-các-chủ-đề-python-nâng-cao)
+	- [4. Tham gia vào cộng đồng trực tuyến và tham dự các buổi gặp mặt](#4-tham-gia-vào-cộng-đồng-trực-tuyến-và-tham-dự-các-buổi-gặp-mặt)
+	- [5. Tham gia hackathons, thử thách viết mã và đóng ghóp mã nguồn mở](#5-tham-gia-hackathons-thử-thách-viết-mã-và-đóng-ghóp-mã-nguồn-mở)
+	- [6. Tiếp tục học bằng cách lấy chứng chỉ chuyên môn](#6-tiếp-tục-học-bằng-cách-lấy-chứng-chỉ-chuyên-môn)
+	- [7. Bám sát các xu hướng mới nhất của ngành](#7-bám-sát-các-xu-hướng-mới-nhất-của-ngành)
 - [Lộ trình học lập trình Python](#lộ-trình-học-lập-trình-python)
+	- [Python level 1](#python-level-1)
+	- [Python Level 2](#python-level-2)
+	- [Làm game 2D với Pygame](#làm-game-2d-với-pygame)
+	- [Xây dựng game Flappy bird hoàn chỉnh với Django và Pygame](#xây-dựng-game-flappy-bird-hoàn-chỉnh-với-django-và-pygame)
+- [Thị trường việc làm ngành CNTT năm 2023](#thị-trường-việc-làm-ngành-cntt-năm-2023)
+	- [7 xu hướng chính trên toàn cầu thúc đẩy ngành CNTT phát triển](#7-xu-hướng-chính-trên-toàn-cầu-thúc-đẩy-ngành-cntt-phát-triển)
+	- [Các vị trí tuyển dụng IT phổ biến](#các-vị-trí-tuyển-dụng-it-phổ-biến)
+- [Khóa học lập trình Python](#khóa-học-lập-trình-python)
+- [Sách học lập trình Python cơ bản](#sách-học-lập-trình-python-cơ-bản)
 - [Tổng kết](#tổng-kết)
 
 
@@ -129,29 +145,30 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
 
 # 7 bước học Python: Từ cơ bản đến nâng cao
 
-1. Tìm hiểu các nguyên tắc cơ bản của Python
+## 1. Tìm hiểu các nguyên tắc cơ bản của Python
    - Cài đặt Python
    - Visual Studio Code
    - PyCharm Community Edition
    - Cú pháp và các thành phần cơ bản của Python
    - NumPy, Lambda, JSON, modules...
-2. Bắt đầu xây dựng dự án và thiết lập portfolio
+   - [SoloLearn](https://www.sololearn.com)
+## 2. Bắt đầu xây dựng dự án và thiết lập portfolio
    - Thực hiện các dự án mà bạn có thể thêm vào portfolio trực tuyến của mình trên một trang web như GitHub
    - Tập trung vào những dự án thu hút sự quan tâm và thách thức bạn
-3. Đi sâu hơn vào các chủ đề Python nâng cao
+## 3. Đi sâu hơn vào các chủ đề Python nâng cao
    - Object-oriented programming
    - Data structures and algorithms
    - Software design patterns
-4. Tham gia vào cộng đồng trực tuyến và tham dự các buổi gặp mặt
+## 4. Tham gia vào cộng đồng trực tuyến và tham dự các buổi gặp mặt
    - [PySlackers](https://pyslackers.com/web)
    - 
-6. Tham gia hackathons và thử thách viết mã
+## 5. Tham gia hackathons, thử thách viết mã và đóng ghóp mã nguồn mở
    - [Hackathon](https://www.eventyco.com/events/conferences/tech~python~hackathon)
-7. Tiếp tục học bằng cách lấy chứng chỉ chuyên môn
+## 6. Tiếp tục học bằng cách lấy chứng chỉ chuyên môn
    - [Certified Associate in Python Programming (PCAP)](https://pythoninstitute.org/pcap)
    - [Professional Certified in Python Programming (PCPP)](https://pythoninstitute.org/pcpp1), [PCPP2™](https://pythoninstitute.org/pcpp2)
    - 
-8. Bám sát các xu hướng mới nhất của ngành
+## 7. Bám sát các xu hướng mới nhất của ngành
    - Blogs
    - Social media accounts
    - Podcasts
@@ -163,7 +180,7 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
 
 # Lộ trình học lập trình Python
 
-Python level 1
+## Python level 1
 - [Làm quen với Python](https://300baicodethieunhi.github.io/assets/pdf/techmaster/python01.pdf)
   + Giới thiệu ngôn ngữ lập trình Python
   + Cài đặt Python và các công cụ lập trình
@@ -296,7 +313,7 @@ Python level 1
 - Quản trị rủi ro và Danh mục đầu tư
 - Quản trị danh mục đầu tư
 
-Python Level 2
+## Python Level 2
 - OOP Python Overview và Data Analysis Review
 - Machine Learning cơ bản
 - Các mô hình học máy có giám sát
@@ -305,7 +322,7 @@ Python Level 2
 - Xử lý ngôn ngữ tự nhiên
 - Thị giác máy tính
 
-Làm game 2D với Pygame
+## Làm game 2D với Pygame
 - Tổng quan về game và thư viện Pygame
 - Game loop và các class quan trọng
 - Hiển thị nhân vật và điều khiển di chuyển
@@ -314,7 +331,7 @@ Làm game 2D với Pygame
 - Trí tuệ nhân tạo và Bot trong game
 - Game bắn Zombie
 - Quiz
-Kết hợp lại: xây dựng game Flappy bird hoàn chỉnh với Django và Pygame
+## Xây dựng game Flappy bird hoàn chỉnh với Django và Pygame
 - Quy trình phát triển dự án phần mềm
 - Phân tích thiết kế yêu cầu
 - Xây dựng models cho game
@@ -333,6 +350,97 @@ Power BI
 - Sử dụng map và tạo calculated columns
 - Trích xuất và chia sẻ báo cáo
 
+# Thị trường việc làm ngành CNTT năm 2023
+
+## 7 xu hướng chính trên toàn cầu thúc đẩy ngành CNTT phát triển
+
+1. Chuyển đổi số
+   - Kỹ thuật số
+   - Chuyển đổi số
+   - Kỹ thuật mô phỏng
+   - Ảo hóa
+   - Tự động hóa các quy trình…
+2. Artificial Intelligence
+   - Học máy (machine learning)
+   - Học sâu (deep learning)
+   - Nhận thức điện toán (cognitive Computing)
+   - Xử lý ngôn ngữ tự nhiên
+   - Thị giác máy tính
+3. Internet of Things
+   - Nhà máy thông minh (Smart Factory) 
+   - Tòa nhà thông minh (Smart Building)
+   - Sổ khám bệnh điện tử
+   - Sổ theo giỏi sức khỏe người bệnh hàng ngày
+4. DevOps và Machine Learning
+5. Tăng trưởng về dịch vụ điện toán đám mây
+   - Amazon AWS
+   - Microsoft Azure
+   - Google Cloud
+   - Oracle Cloud
+   - IBM Cloud
+   - Hotmail, SaleForce, Dropbox
+6. Bảo mật hệ thống
+7. Người máy, ChatGPT, trí tuệ nhân tạo thay thế con người
+
+## Các vị trí tuyển dụng IT phổ biến
+
+1. Lập trình Mobile (Web/ ứng dụng)
+2. Lập trình Back-end
+3. Lập trình Full-stack
+4. Lập trình Front-end
+5. Phát triển phần mềm
+6. Việc làm Data
+   - Data Science
+   - Data Engineer
+   - Data Analytics
+   - Big Data
+7. DevOps
+   - Python, R
+   - Coding & Scripting
+   - Git và Jenkins
+   - Làm chủ trong Linux hoặc UNIX System
+   - Hiểu biết sâu sắc về các best practice của DevOps
+8. Cloud Architect
+   - Python, Ruby
+   - Nguyên tắc cơ bản lưu trữ dữ liệu
+   - Route 53 (DNS)
+   - CloudFront (CDN)
+   - Virtual Private Cloud (VPC)
+   - Các khuôn mẫu và công nghệ cụ thể của Cloud
+9.  Blockchain Developer
+   - C++, Java, Python, JavaScript và C#
+   - Làm việc với các cơ sở mã, kiến thức tốt về thuật toán và cấu trúc dữ liệu.
+10. AI / Machine Learning / Deep Learning
+
+# Khóa học lập trình Python
+
+1. [Microsoft - Python for beginners](https://learn.microsoft.com/en-us/training/paths/beginner-python/)
+2. [Tutorialspoint - Python Basic Tutorial](https://www.tutorialspoint.com/python/index.htm)
+3. [Google's Python Class](https://developers.google.com/edu/python)
+4. [Python 3 Programming Introduction Tutorial](https://pythonprogramming.net/beginner-python-programming-tutorials/)
+5. [Udemy - Introduction To Python Programming](https://www.udemy.com/course/pythonforbeginnersintro/)
+6. [The Complete Python Bootcamp From Zero to Hero in Python](https://www.udemy.com/course/complete-python-bootcamp/)
+7. [Python Mega Course: Learn Python in 60 Days, Build 20 Apps](https://www.udemy.com/course/the-python-mega-course/)
+8. [Learn Python Programming Masterclass](https://www.udemy.com/course/python-the-complete-python-developer-course/)
+9. [Machine Learning, Data Science and Generative AI with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
+10. [Python and Django Full Stack Web Developer Bootcamp](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/)
+11. [The Data Science MicroDegree: Data Analysis & Visualization](https://www.udemy.com/course/datasciencemicrodegree/)
+12. [Learn Python Hard Way](https://www.amazon.com/Learn-Python-Hard-Way-Introduction/dp/0321884914/)
+13. Coursera
+14. Codecademy
+15. edX
+
+# Sách học lập trình Python cơ bản
+
+1. Python Programming and Computer Science
+2. Python Crash Course & Project-Based Introduction to Programming
+3. Programming Python: Object-Oriented Programming
+4. Grokking Algorithms
+5. Head-First Python
+6. Learn Python the Hard Way
+7. Learning with Python
+8. 
+
 # Tổng kết
 
 Bên cạnh lập trình thì Python cũng được ứng dụng khá nhiều trong lĩnh vực phân tích dữ liệu. Sở hữu các kiến thức cần thiết và thông thạo công cụ Python sẽ mang đến cho bạn cơ hội tìm kiếm việc làm và phát triển chuyên môn quan trọng.
@@ -344,5 +452,6 @@ Tham khảo
 - [Lộ trình trở thành lập trình viên Python](https://howkteam.vn/course/danh-cho-nguoi-moi/lo-trinh-tro-thanh-lap-trinh-vien-python-2627)
 - [Lộ Trình Tự Học Lập Trình PYTHON Cho Người Mới Bắt Đầu](https://youtu.be/O5AsvA9OGhM)
 - [Lập Trình Cơ Bản PYTHON Tự Học Cho Người Mới Bắt Đầu](https://youtu.be/oFgg7K2tpfk)
+- [Khóa học lập trình Python miễn phí. Đăng ký, Download Free](https://chiasepremium.com/khoa-hoc-lap-trinh-python-mien-phi/)
 - []()
 - [7 steps to learn Python: From beginner to advanced](https://www.educative.io/blog/learn-python-from-beginner-to-advanced-level)
