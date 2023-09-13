@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lộ trình học Python Cơ Bản đến Nâng Cao
-subtitle: 7 steps to learn Python: From beginner to advanced
+subtitle: 7 steps to learn Python - From beginner to advanced
 author: "TAn"
 image: "img/lonely.jpg"
 tags:
@@ -48,6 +48,7 @@ tags:
 	- [4. Machine Learning](#4-machine-learning)
 	- [5. Data Science](#5-data-science)
 	- [6. Big Data](#6-big-data)
+- [7 bước học Python: Từ cơ bản đến nâng cao](#7-bước-học-python-từ-cơ-bản-đến-nâng-cao)
 - [Lộ trình học lập trình Python](#lộ-trình-học-lập-trình-python)
 - [Tổng kết](#tổng-kết)
 
@@ -125,6 +126,40 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
 Để trở thành một kỹ sư dữ liệu lớn bạn phải nắm được thế nào là Hadoop và MapReduce.
 
 ![AI](https://boxxv.github.io/img/2023/ai-data-scientist.jpg "AI")
+
+# 7 bước học Python: Từ cơ bản đến nâng cao
+
+1. Tìm hiểu các nguyên tắc cơ bản của Python
+   - Cài đặt Python
+   - Visual Studio Code
+   - PyCharm Community Edition
+   - Cú pháp và các thành phần cơ bản của Python
+   - NumPy, Lambda, JSON, modules...
+2. Bắt đầu xây dựng dự án và thiết lập portfolio
+   - Thực hiện các dự án mà bạn có thể thêm vào portfolio trực tuyến của mình trên một trang web như GitHub
+   - Tập trung vào những dự án thu hút sự quan tâm và thách thức bạn
+3. Đi sâu hơn vào các chủ đề Python nâng cao
+   - Object-oriented programming
+   - Data structures and algorithms
+   - Software design patterns
+4. Tham gia vào cộng đồng trực tuyến và tham dự các buổi gặp mặt
+   - [PySlackers](https://pyslackers.com/web)
+   - 
+6. Tham gia hackathons và thử thách viết mã
+   - [Hackathon](https://www.eventyco.com/events/conferences/tech~python~hackathon)
+7. Tiếp tục học bằng cách lấy chứng chỉ chuyên môn
+   - [Certified Associate in Python Programming (PCAP)](https://pythoninstitute.org/pcap)
+   - [Professional Certified in Python Programming (PCPP)](https://pythoninstitute.org/pcpp1), [PCPP2™](https://pythoninstitute.org/pcpp2)
+   - 
+8. Bám sát các xu hướng mới nhất của ngành
+   - Blogs
+   - Social media accounts
+   - Podcasts
+   - Online communities
+   - [PyCon](https://pycon.org)
+   - [PyData](https://pydata.org)
+   - [EuroPython](https://europython.eu)
+   - []()
 
 # Lộ trình học lập trình Python
 
