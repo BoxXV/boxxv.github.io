@@ -191,9 +191,7 @@ Trong các dạng học máy, học có giám sát là dạng phổ biến, có 
 -----
 Tham khảo
 - [Sự khác nhau giữa AI, ML, DL](https://www.linkedin.com/pulse/s%E1%BB%B1-kh%C3%A1c-nhau-gi%E1%BB%AFa-ai-ml-dl-hu%C3%A2n-b%C3%B9i-%C4%91%C3%ACnh)
-- [Học máy (machine learning) là gì? Ứng dụng và phân loại](https://lytuong.net/hoc-may-machine-learning-la-gi/)
-- [Lộ Trình Học Machine Learning Python Cho Newbies](https://www.mcivietnam.com/blog-detail/lo-trinh-hoc-python-machine-learning-cho-newbies/)
-- []()
+- [Con đường trở thành Master Artificial Intelligence (AI)](https://viblo.asia/p/con-duong-tro-thanh-master-artificial-intelligence-ai-aWj53LooK6m)
 - [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p1)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp1-eW65G8nxKDO)
     1. Why Is Python Best For AI?
     2. Demand for AI
@@ -219,18 +217,35 @@ Tham khảo
     3.  Natural Language Processing Applications
     4.  Thuật ngữ trong xử lý ngôn ngữ tự nhiên
 - [Artificial Intelligence With Python: A Comprehensive Guide](https://www.edureka.co/blog/artificial-intelligence-with-python/)
+- [[Deeplearning-1] Giải thích Machine Learning và Deep Learning bằng ngôn ngữ đại chúng](https://viblo.asia/p/deeplearning-1-giai-thich-machine-learning-va-deep-learning-bang-ngon-ngu-dai-chung-PAoJe5aAJ1j)
+
+-----
+Machine Learning
+- [Học máy (machine learning) là gì? Ứng dụng và phân loại](https://lytuong.net/hoc-may-machine-learning-la-gi/)
+- [Lộ Trình Học Machine Learning Python Cho Newbies](https://www.mcivietnam.com/blog-detail/lo-trinh-hoc-python-machine-learning-cho-newbies/)
+- [Machine Learning - Tổng quan về Machine Learning](https://viblo.asia/p/machine-learning-tong-quan-ve-machine-learning-RQqKLxaOK7z)
+- [Tất tần tật về Machine Learning và ứng dụng trong những ngành công nghiệp lớn](https://viblo.asia/p/tat-tan-tat-ve-machine-learning-va-ung-dung-trong-nhung-nganh-cong-nghiep-lon-gDVK2pOjlLj)
+- [Ai cũng có thể hiểu được Machine Learning 🤖👶Phần 1: Tại sao Machine Learning lại được quan tâm hơn bao giờ hết](https://viblo.asia/p/ai-cung-co-the-hieu-duoc-machine-learning-phan-1-tai-sao-machine-learning-lai-duoc-quan-tam-hon-bao-gio-het-RQqKLArrZ7z)
+- [20+ Resources To Learn and Start Your Career In Artificial Intelligence (AI)](https://viblo.asia/p/20-resources-to-learn-and-start-your-career-in-artificial-intelligence-ai-YWOZr23PZQ0)
+- [Tự học Machine Learning với 4 khoá học online hoàn toàn miễn phí](https://viblo.asia/p/tu-hoc-machine-learning-voi-4-khoa-hoc-online-hoan-toan-mien-phi-1VgZvOw2lAw)
+- [Cùng đi học Machine Learning - Phần 1 - Machine Learning là cái gì ?](https://viblo.asia/p/cung-di-hoc-machine-learning-phan-1-machine-learning-la-cai-gi-maGK78ExZj2)
+- [Cùng đi học Machine Learning - Phần 2 - Machine Learning Algorithms](https://viblo.asia/p/cung-di-hoc-machine-learning-phan-2-machine-learning-algorithms-m68Z0OMdKkG)
+- []()
+- [Trả lời một số câu hỏi interview Machine Learning & Deep Learning](https://viblo.asia/p/tra-loi-mot-so-cau-hoi-interview-machine-learning-deep-learning-BQyJKmjWVMe)
+- [Machine Learning với Javascript](https://viblo.asia/p/machine-learning-voi-javascript-1VgZvwvmlAw)
+
 - [Machine Learning hoạt động như thế nào? Thần thoại và sự thật](https://viblo.asia/p/machine-learning-hoat-dong-nhu-the-nao-than-thoai-va-su-that-bJzKm76rl9N)
 - [Fact vs. Fiction: How Does Machine Learning Actually Work?](https://www.expert.ai/blog/how-does-machine-learning-work/)
 - [Soon We Won't Program Computers. We'll Train Them Like Dogs](https://www.wired.com/2016/05/the-end-of-code/)
 - [IBM Watson | Full Q&A | Oxford Union](https://youtu.be/rXVoRyIGGhU)
 - [Lộ Trình Tự Học Lập Trình PYTHON Cho Người Mới Bắt Đầu](https://youtu.be/O5AsvA9OGhM)
-- [Lập Trình Cơ Bản PYTHON Tự Học Cho Người Mới Bắt Đầu](https://youtu.be/oFgg7K2tpfk)
 - [Khóa học lập trình Python miễn phí. Đăng ký, Download Free](https://chiasepremium.com/khoa-hoc-lap-trinh-python-mien-phi/)
 
 Video
 - [AI For Everyone - Andrew Ng](https://www.coursera.org/learn/ai-for-everyone)
 - [Machine learning Vietsub - Andrew Ng](https://www.youtube.com/playlist?list=PLDpRz2wA0qZzTcDLeXP5PSCfmQ96l9-Qr)
 - [Tự Học Data Science Cho Người Mới Bắt Đầu](https://www.youtube.com/playlist?list=PLJcWUrckOCKKwjjHALg6fnyQCHv8z92rs)
+- [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning)
 - []()
 
 Thực hành
