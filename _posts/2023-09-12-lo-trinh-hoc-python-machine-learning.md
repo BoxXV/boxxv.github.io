@@ -163,17 +163,131 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
 
 # Lộ trình học lập trình Python
 
-Power BI
-- Làm quen với Power BI
-- Xử lý dữ liệu cơ bản và ngôn ngữ M
-- Sử dụng bộ lọc và slicers
-- Xử lý dữ liệu bằng Drill-down và Drillthrough
-- Sử dụng map và tạo calculated columns
-- Trích xuất và chia sẻ báo cáo
-
 Python level 1
-- Làm quen với Python
+- [Làm quen với Python](https://300baicodethieunhi.github.io/assets/pdf/techmaster/python01.pdf)
+  + Giới thiệu ngôn ngữ lập trình Python
+  + Cài đặt Python và các công cụ lập trình
+  + Làm quen với các công cụ lập trình
+  + Viết chương trình Python đầu tiên
+  + Chạy chương trình và tìm hiểu cách hoạt động
+  + Biến và kiểu dữ liệu
+  + Quy tắc, quy ước đặt tên cho biến
+  + Nhập giá trị từ bàn phím
+  + In ra màn hình sử dụng print()
+  + Các hàm có sẵn
+- Kiểu dữ liệu number và string
+  + Các kiểu dữ liệu số
+  + Các dạng toán tử
+  + Một số hàm số học
+  + Chuyển đổi (ép) kiểu dữ liệu
+  + Module math, random
+  + String và các cú pháp làm việc với string
+  + Format với f-string
+  + Một số phương thức thường dùng với string
+- [Cấu trúc điều khiển](https://300baicodethieunhi.github.io/assets/pdf/techmaster/python02.pdf)
+  + Cấu trúc điều kiện if else
+  + Toán tử so sánh
+  + Toán tử logic
+  + Cấu trúc so sánh match case
+  + Vòng lặp for
+  + Vòng lặp while
+  + Điều khiển vòng lặp với break, continue
+- Các kiểu danh sách
+  + List
+  + Comprehensions
+  + Tupple
+  + Set
+  + Dictionary
+- [Function](https://300baicodethieunhi.github.io/assets/pdf/techmaster/python03.pdf)
+  + Hàm và cách hoạt động của hàm
+  + Cú pháp khai báo và gọi hàm
+  + Docstring
+  + Phạm vi của biến
+  + Tham số, đối số hàm
+- Module vs Package
+  + Module
+  + Cú pháp import
+  + Package
+  + Giới thiệu một số builtins module, package
+  + Kiểu dữ liệu datetime
+  + Builtins module xử lý datetime
+  + Các phương thức xử lý, tính toán dữ liệu datetime
+  + Quy trình làm việc với file
+  + Đọc file
+  + Các phương thức xử lý file và thư mục
+  + Giới thiệu một số package xử lý datetime khác
+  + Kỹ thuật đọc ghi file hiệu quả
+  + Xử lý file CSV, JSON
+  + Cài đặt package từ PyPi
+  + Virtual Environment
+- Lập trình hướng đối tượng
+  + Class vs Object
+  + Properties vs Methods
+  + Hàm tạo __init__()
+  + Data hiding - @property
+  + Class variables, class methods
+  + Magic methods
+  + Tìm hiểu về các tính chất trong lập trình hướng đối tượng
+  + Encapsulation - Tính đóng gói
+  + Inheritance - Tính kế thừa
+  + Polymorphism - Tính đa hình
+  + Abstraction - Tính trừu tượng
+- Xử lý ngoại lệ - Exception
+  + Các loại lỗi phổ biến
+  + Xử lý lỗi với try except
+  + User-defined exception - lỗi tự định nghĩa
+  + Raise exception
+  + Decorators
+  + Generators
+  + Lambda functions
+- Làm quen framework Django
+  + Giới thiệu web framework Django
+  + Khởi tạo dự án Django sử dụng Cookiecutter
+  + Mô hình ORM trong Django
+  + Khởi tạo cơ sở dữ liệu quản lý sách
+  + Kiến trúc MVC trong Django
+  + Tạo trang web hiển thị danh mục sách
+  + Viết unit test sử dụng pytest
+  + Quiz
+- Xây dựng website quản lý sách với Django
+  + Phân tích yêu cầu xây dựng website bằng UML
+  + Thiết kế cơ sở dữ liệu bằng biểu đồ ER
+  + Xây dựng models cho website quản lý sách
+  + Quản lý models sử dụng Django Admin
+  + Khởi tạo dữ liệu cho thư viện sách sử dụng Django Admin
+  + Xây dựng trang login, log out
+  + Xây dựng trang hiển thị danh mục sách
+  + Xây dựng trang thêm mới sách
+  + Xây dựng trang chỉnh sửa thông tin sách
+  + Quiz
+- Xây dựng API Gateway và Deploy dự án Django
+  + API và mô hình Client-Server
+  + Sử dụng Django như API Framework
+  + Cài đặt và sử dụng Postman để test API
+  + Viết API tìm kiếm đầu sách
+  + Viết API thêm mới sách
+  + Viết API chỉnh sửa thông tin sách
+  + Kĩ thuật deploy và phân tải backend Django
+  + Deploy Django lên Heroku
+  + Quiz
+- Web Automation với Selenium
+  + Giới thiệu về Web Automation và Xpath
+  + Thao thác tự động trên trang web sử dụng DevTool Chrome
+  + Webdriver và thư viện Selenium
+  + Thu thập toàn bộ tiêu đề bài báo trên vnepxress.net
+  + Browser profile và headless mode
+  + Thu thập các bài viết trong group Facebook
+  + Quiz
 - Xử lý và phân tích dữ liệu với Numpy và Pandas
+  + Tổng quan về phân tích dữ liệu
+  + Thư viện pandas và cấu trúc dữ liệu DataFrame
+  + Đọc dữ liệu điểm thi đại học từ file csv
+  + Truy cập và biến đổi dữ liệu trên DataFrame
+  + Tính điểm trung bình của mỗi thí sinh
+  + Tìm top 100 thí sinh có tổng điểm cao nhất
+  + Data Visualization với Matplotlib
+  + Vẽ đồ thị phân bố điểm của các thí sinh thi đại học
+  + Quiz
 - Tải dữ liệu, lưu trữ và làm sạch, chuẩn bị dữ liệu
 - Xử lý và Biểu diễn dữ liệu
 - Xử lý và phân tích dữ liệu
@@ -191,10 +305,44 @@ Python Level 2
 - Xử lý ngôn ngữ tự nhiên
 - Thị giác máy tính
 
+Làm game 2D với Pygame
+- Tổng quan về game và thư viện Pygame
+- Game loop và các class quan trọng
+- Hiển thị nhân vật và điều khiển di chuyển
+- Xử lý va chạm và tính toán quỹ đạo chuyển động
+- Ping pong game
+- Trí tuệ nhân tạo và Bot trong game
+- Game bắn Zombie
+- Quiz
+Kết hợp lại: xây dựng game Flappy bird hoàn chỉnh với Django và Pygame
+- Quy trình phát triển dự án phần mềm
+- Phân tích thiết kế yêu cầu
+- Xây dựng models cho game
+- Xây dựng các APIs cần trong game
+- Tạo game playground
+- Tạo nhân vật và điều khiển nhân vật
+- Tính năng tính điểm
+- Tính năng bảng xếp hạng
+- Quiz
+
+Power BI
+- Làm quen với Power BI
+- Xử lý dữ liệu cơ bản và ngôn ngữ M
+- Sử dụng bộ lọc và slicers
+- Xử lý dữ liệu bằng Drill-down và Drillthrough
+- Sử dụng map và tạo calculated columns
+- Trích xuất và chia sẻ báo cáo
+
 # Tổng kết
 
 Bên cạnh lập trình thì Python cũng được ứng dụng khá nhiều trong lĩnh vực phân tích dữ liệu. Sở hữu các kiến thức cần thiết và thông thạo công cụ Python sẽ mang đến cho bạn cơ hội tìm kiếm việc làm và phát triển chuyên môn quan trọng.
 
 -----
-Tham khảo: Most Popular API Architecture Styles
+Tham khảo
+- [Lộ trình học Python cho người mới bắt đầu cực hữu ích](https://200lab.io/blog/lo-trinh-hoc-python-cho-nguoi-moi/)
+- [Python cho người mới bắt đầu](https://python.techmaster.vn/)
+- [Lộ trình trở thành lập trình viên Python](https://howkteam.vn/course/danh-cho-nguoi-moi/lo-trinh-tro-thanh-lap-trinh-vien-python-2627)
+- [Lộ Trình Tự Học Lập Trình PYTHON Cho Người Mới Bắt Đầu](https://youtu.be/O5AsvA9OGhM)
+- [Lập Trình Cơ Bản PYTHON Tự Học Cho Người Mới Bắt Đầu](https://youtu.be/oFgg7K2tpfk)
 - []()
+- [7 steps to learn Python: From beginner to advanced](https://www.educative.io/blog/learn-python-from-beginner-to-advanced-level)
