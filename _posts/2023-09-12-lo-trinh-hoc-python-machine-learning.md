@@ -146,8 +146,6 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
 
 Để trở thành một kỹ sư dữ liệu lớn bạn phải nắm được thế nào là Hadoop và MapReduce.
 
-![AI](https://boxxv.github.io/img/2023/ai-data-scientist.jpg "AI")
-
 # 7 bước học Python: Từ cơ bản đến nâng cao
 
 ## 1. Tìm hiểu các nguyên tắc cơ bản của Python
@@ -161,9 +159,13 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
    - Thực hiện các dự án mà bạn có thể thêm vào portfolio trực tuyến của mình trên một trang web như GitHub
    - Tập trung vào những dự án thu hút sự quan tâm và thách thức bạn
 ## 3. Đi sâu hơn vào các chủ đề Python nâng cao
-   - Object-oriented programming
-   - Data structures and algorithms
+Những Kiến Thức về Khoa Học Máy Tính Cơ Bản
    - Software design patterns
+   - Object-oriented programming
+   - Cấu Trúc Dữ Liệu (Data Structures)
+   - Thuật Toán (Algorithms)
+   - Time Complexity
+   - Space Complexity
 ## 4. Tham gia vào cộng đồng trực tuyến và tham dự các buổi gặp mặt
    - [PySlackers](https://pyslackers.com/web)
    - 
@@ -336,6 +338,7 @@ Họ không thể nào chứa hết được các dữ liệu đó trên cùng m
 - Trí tuệ nhân tạo và Bot trong game
 - Game bắn Zombie
 - Quiz
+
 ## Xây dựng game Flappy bird hoàn chỉnh với Django và Pygame
 - Quy trình phát triển dự án phần mềm
 - Phân tích thiết kế yêu cầu
