@@ -57,6 +57,65 @@ tags:
 		- [AutoML](#automl)
 		- [Neural Network Console](#neural-network-console)
 		- [AI maker](#ai-maker)
+- [Cập nhật kiến thức trong lĩnh vực Machine Learning](#cập-nhật-kiến-thức-trong-lĩnh-vực-machine-learning)
+	- [Blog](#blog)
+		- [Machine Learning cơ bản](#machine-learning-cơ-bản)
+		- [CS231n](#cs231n)
+		- [Understanding LSTM Networks](#understanding-lstm-networks)
+		- [The Unreasonable Effectiveness of Recurrent Neural Networks](#the-unreasonable-effectiveness-of-recurrent-neural-networks)
+		- [Exploring LSTMs](#exploring-lstms)
+		- [Toward Data Science](#toward-data-science)
+		- [InsightData](#insightdata)
+		- [OpenAI](#openai)
+		- [WildML](#wildml)
+		- [Distill.pub](#distillpub)
+		- [Colah's blog](#colahs-blog)
+		- [Lilianweng's blog](#lilianwengs-blog)
+		- [Ruder's blog](#ruders-blog)
+		- [Echen's blog](#echens-blog)
+		- [AI Google Blog](#ai-google-blog)
+	- [Newsletter](#newsletter)
+		- [DataMachina](#datamachina)
+		- [Analytic Vidhya](#analytic-vidhya)
+		- [Paper with code](#paper-with-code)
+		- [Data Elixir](#data-elixir)
+		- [AI Weekly](#ai-weekly)
+		- [Sebastian Ruder](#sebastian-ruder)
+		- [Mybridge](#mybridge)
+		- [...](#)
+		- [HackerNews](#hackernews)
+		- [Python Weekly](#python-weekly)
+	- [Social network](#social-network)
+		- [Twitter](#twitter)
+			- [Yann Lecun: Chief Artificial Intelligence Scientist at Facebook AI Research (FAIR)](#yann-lecun-chief-artificial-intelligence-scientist-at-facebook-ai-research-fair)
+			- [Ian Goodfellow: Google Brain Researcher. Tác giả cuốn sách nổi tiếng trong giới Deep Learning: Deep Learning Book](#ian-goodfellow-google-brain-researcher-tác-giả-cuốn-sách-nổi-tiếng-trong-giới-deep-learning-deep-learning-book)
+			- [Fchollet: Deep Learning Researcher at Google. Tác giả thư viện Deep Learning Keras.](#fchollet-deep-learning-researcher-at-google-tác-giả-thư-viện-deep-learning-keras)
+			- [Jakevdp: Tác giả cuốn sách được recommend rất nhiều trong giới Data Science: Python DataScience Handbook](#jakevdp-tác-giả-cuốn-sách-được-recommend-rất-nhiều-trong-giới-data-science-python-datascience-handbook)
+			- [PyImageSearch: Computer Vision Researcher. Tác giả nổi tiếng trong giới Computer Vision. Tác giả 2 cuốn sách bestseller: Deep Learning for Computer Vision và Practical Computer Vision with Python and Opencv](#pyimagesearch-computer-vision-researcher-tác-giả-nổi-tiếng-trong-giới-computer-vision-tác-giả-2-cuốn-sách-bestseller-deep-learning-for-computer-vision-và-practical-computer-vision-with-python-and-opencv)
+			- [Jeremy Phoward: Founder của fast.ai, khoá MOOC về Deep Learning và thư viện mã nguồn mở nổi tiếng fastai, base trên nền Pytorch.](#jeremy-phoward-founder-của-fastai-khoá-mooc-về-deep-learning-và-thư-viện-mã-nguồn-mở-nổi-tiếng-fastai-base-trên-nền-pytorch)
+		- [Medium](#medium)
+		- [Reddit](#reddit)
+			- [r/MachineLearning](#rmachinelearning)
+		- [Quora](#quora)
+		- [Facebook](#facebook)
+			- [Forum Machine Learning cơ bản](#forum-machine-learning-cơ-bản)
+			- [MontrealAI](#montrealai)
+			- [Data Science and Big Data Vietnam](#data-science-and-big-data-vietnam)
+			- [Cộng đồng xử lí ngôn ngữ tự nhiên](#cộng-đồng-xử-lí-ngôn-ngữ-tự-nhiên)
+		- [Youtube](#youtube)
+			- [Two Minute Papers - Paper review channel. 1 trong những channel mình thấy thích nhất. Channel tập trung làm các video ngắn, trên dưới 5 phút, nhằm review qua các paper đạt được các thành tựu nhất định trong thời gian gần đây.](#two-minute-papers---paper-review-channel-1-trong-những-channel-mình-thấy-thích-nhất-channel-tập-trung-làm-các-video-ngắn-trên-dưới-5-phút-nhằm-review-qua-các-paper-đạt-được-các-thành-tựu-nhất-định-trong-thời-gian-gần-đây)
+			- [Giant Neural Network - Introduction to Neural Network. Ô này có loạt bài giới thiệu về Neural Network, các bạn có thể xem tại đây](#giant-neural-network---introduction-to-neural-network-ô-này-có-loạt-bài-giới-thiệu-về-neural-network-các-bạn-có-thể-xem-tại-đây)
+			- [Deep Learning dot AI - Deep Learning course by Andrew Y. Ng (Stanford). Gồm các video bài giảng trong khoá học về Deep Learning của Andrew Y. Ng trên coursena, các bạn có thể tham khảo khoá học tại đây](#deep-learning-dot-ai---deep-learning-course-by-andrew-y-ng-stanford-gồm-các-video-bài-giảng-trong-khoá-học-về-deep-learning-của-andrew-y-ng-trên-coursena-các-bạn-có-thể-tham-khảo-khoá-học-tại-đây)
+			- [Hvass Laboratories - Tensorflow Tutorial. Ô này có loạt bài về Tensorflow mà mình thấy vô cùng ưng ý.](#hvass-laboratories---tensorflow-tutorial-ô-này-có-loạt-bài-về-tensorflow-mà-mình-thấy-vô-cùng-ưng-ý)
+			- [Code Bullet - Reinforcement Learning](#code-bullet---reinforcement-learning)
+			- [3Blue1Brown - Introduction to Neural Network](#3blue1brown---introduction-to-neural-network)
+			- [DeepMind](#deepmind)
+	- [Các phương tiện khác](#các-phương-tiện-khác)
+		- [Github](#github)
+		- [Google Scholar](#google-scholar)
+		- [Antiny-Sanity](#antiny-sanity)
+		- [Facebook Research](#facebook-research)
+		- [Researchgate](#researchgate)
 - [Tổng kết](#tổng-kết)
 
 
@@ -221,7 +280,7 @@ Các hàm được dựng sẵn trong thư viện cho từng bài toán cho phé
 
 ## List software sử dụng để tạo ra AI
 
-Đến đây chúng ta đã nắm được phần nào về cách phát triển AI thông qua các tool, lib... . Vậy liệu có phầm mềm nào giúp chúng ra trong việc ạo AI hay không ? Chắc hẳn không ít người thắc mắc câu hỏi này. Tuỳ theo việc phát tiển theo các lĩnh vực khác nhau. Chúng tôi xin phép giói thiệu một số Web service tiện lợi dưới đây.
+Đến đây chúng ta đã nắm được phần nào về cách phát triển AI thông qua các tool, lib... . Vậy liệu có phầm mềm nào giúp chúng ra trong việc tạo AI hay không ? Chắc hẳn không ít người thắc mắc câu hỏi này. Tuỳ theo việc phát tiển theo các lĩnh vực khác nhau. Chúng tôi xin phép giói thiệu một số Web service tiện lợi dưới đây.
 
 ### AutoML
 
@@ -242,6 +301,100 @@ Tựu lại để tạo ra AI có thể hình dung gồm 3 công đoạn sau đ�
 ② Tiến hành train model bởi machine learning  
 ③ Đặt câu hỏi với train model và đưa ra kết qủa.
 
+# Cập nhật kiến thức trong lĩnh vực Machine Learning
+
+## Blog
+
+### [Machine Learning cơ bản](https://machinelearningcoban.com)
+### [CS231n](https://cs231n.github.io/convolutional-networks/)
+### [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+### [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+### [Exploring LSTMs](http://blog.echen.me/2017/05/30/exploring-lstms/)
+### [Toward Data Science](https://towardsdatascience.com)
+### [InsightData](https://blog.insightdatascience.com)
+### [OpenAI](https://openai.com/blog)
+### [WildML](https://dennybritz.com)
+### [Distill.pub](https://distill.pub)
+### [Colah's blog](http://colah.github.io)
+### [Lilianweng's blog](https://lilianweng.github.io)
+### [Ruder's blog](https://www.ruder.io)
+### [Echen's blog](http://blog.echen.me)
+### [AI Google Blog](https://blog.research.google)
+
+## Newsletter
+
+### [DataMachina](https://datamachina.com)
+### [Analytic Vidhya](https://www.analyticsvidhya.com)
+### [Paper with code](https://paperswithcode.com)
+### [Data Elixir](https://dataelixir.com)
+### [AI Weekly](https://aiweekly.co)
+### [Sebastian Ruder](https://www.ruder.io)
+### [Mybridge](https://medium.mybridge.co)
+### [...]()
+
+Một vài newsletter liên quan khác:
+
+### [HackerNews](https://hackernewsletter.com)
+### [Python Weekly](https://www.pythonweekly.com)
+
+## Social network
+
+### Twitter
+
+#### [Yann Lecun](https://twitter.com/ylecun): Chief Artificial Intelligence Scientist at Facebook AI Research (FAIR)
+#### [Ian Goodfellow](https://twitter.com/goodfellow_ian): Google Brain Researcher. Tác giả cuốn sách nổi tiếng trong giới Deep Learning: [Deep Learning Book](https://www.deeplearningbook.org/)
+#### [Fchollet](https://twitter.com/fchollet): Deep Learning Researcher at Google. Tác giả thư viện Deep Learning Keras.
+#### [Jakevdp](https://twitter.com/jakevdp): Tác giả cuốn sách được recommend rất nhiều trong giới Data Science: [Python DataScience Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+#### [PyImageSearch](https://twitter.com/PyImageSearch): Computer Vision Researcher. Tác giả nổi tiếng trong giới Computer Vision. Tác giả 2 cuốn sách bestseller: [Deep Learning for Computer Vision](https://pyimagesearch.com/deep-learning-computer-vision-python-book/) và [Practical Computer Vision with Python and Opencv](https://pyimagesearch.com/practical-python-opencv/)
+#### [Jeremy Phoward](https://twitter.com/jeremyphoward): Founder của [fast.ai](https://www.fast.ai/), khoá MOOC về Deep Learning và thư viện mã nguồn mở nổi tiếng fastai, base trên nền Pytorch.
+
+Các bạn có thể tham khảo những tác giả, nhân vật nổi tiếng trong giới ML, DL trong link sau: [50 AI Influencers to follow on Twitter](https://www.cognilytica.com/wp-content/uploads/2018/06/50-AI-Influencer-For-image-version-copy-2.pdf)
+
+Hoặc mọi người có thể follow mình trên Twitter, mình tweet và retweet khá nhiều các bài post về ML, DL mà mình thấy hay và có hứng thú: [__phanhoang__](https://twitter.com/__phanhoang__)
+
+### Medium
+
+### Reddit
+
+#### [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
+
+### Quora
+
+### Facebook
+
+#### [Forum Machine Learning cơ bản](https://www.facebook.com/groups/machinelearningcoban)
+#### [MontrealAI](https://www.facebook.com/groups/MontrealAI/)
+#### [Data Science and Big Data Vietnam](https://www.facebook.com/groups/870665749718859)
+#### [Cộng đồng xử lí ngôn ngữ tự nhiên](https://www.facebook.com/groups/vietnlp)
+
+### Youtube
+
+#### [Two Minute Papers](https://www.youtube.com/user/keeroyz) - Paper review channel. 1 trong những channel mình thấy thích nhất. Channel tập trung làm các video ngắn, trên dưới 5 phút, nhằm review qua các paper đạt được các thành tựu nhất định trong thời gian gần đây.
+#### [Giant Neural Network](https://www.youtube.com/channel/UCrBzGHKmGDcwLFnQGHJ3XYg) - Introduction to Neural Network. Ô này có loạt bài giới thiệu về Neural Network, các bạn có thể xem tại đây
+#### [Deep Learning dot AI](https://www.youtube.com/channel/UCcIXc5mJsHVYTZR1maL5l9w) - Deep Learning course by Andrew Y. Ng (Stanford). Gồm các video bài giảng trong khoá học về Deep Learning của Andrew Y. Ng trên coursena, các bạn có thể tham khảo khoá học tại đây
+#### [Hvass Laboratories](https://www.youtube.com/channel/UCbba38V6vcglqVL--8kVVmg) - Tensorflow Tutorial. Ô này có loạt bài về Tensorflow mà mình thấy vô cùng ưng ý.
+#### [Code Bullet](https://www.youtube.com/channel/UC0e3QhIYukixgh5VVpKHH9Q) - Reinforcement Learning
+#### [3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) - Introduction to Neural Network
+#### [DeepMind](https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A)
+
+## Các phương tiện khác
+
+### [Github](https://github.com)
+
+Bằng việc follow các tác giả nổi tiếng hay main contributor của các project, mỗi khi họ tạo mới, commit, push, cho star hay fork bất kì 1 repo sẽ đều hiện lên bảng tin bên github của bạn. 1 cách thức khác các bạn có thể thực hiện là nhấn Watch đối với những repo bạn quan tâm hoặc muốn contributor cho project đó; bất kì 1 commit nào được thực hiện trên repo gốc, bạn sẽ đều nhận được thông báo.
+
+### [Google Scholar](https://scholar.google.ca)
+
+Bạn follow các tác giả mà bạn quan tâm, có thể tuỳ chọn thông báo qua email về các bài viết mới, các lời trích dẫn đến tác giả hoặc các bài viết mới liên quan đến nghiên cứu của tác giả này.
+
+### [Antiny-Sanity](https://arxiv-sanity-lite.com)
+
+Gồm các paper trending theo thời gian. 1 điểm khá hay là tác giả cũng build 1 mục recommend các paper có liên quan dựa trên các paper bạn đã save lại.
+
+### [Facebook Research](https://research.fb.com/)
+
+### [Researchgate](https://www.researchgate.net/)
+
 # Tổng kết
 
 Bài viết khá ngắn, với mong muốn chỉ là tóm gọn các nội dung cơ bản của Machine Learning và ứng dụng tuyệt vời của nó hiện tại và tương lai của chúng ta. Rất mong sẽ còn được gặp lại các bạn trong những phần tiếp theo của series về machine learning, cám ơn.
@@ -251,6 +404,8 @@ Tham khảo
 - [Sự khác nhau giữa AI, ML, DL](https://www.linkedin.com/pulse/s%E1%BB%B1-kh%C3%A1c-nhau-gi%E1%BB%AFa-ai-ml-dl-hu%C3%A2n-b%C3%B9i-%C4%91%C3%ACnh)
 - [Con đường trở thành Master Artificial Intelligence (AI)](https://viblo.asia/p/con-duong-tro-thanh-master-artificial-intelligence-ai-aWj53LooK6m)
 - [Hiểu về trí tuệ nhân tạo chỉ với 5 phút cuộc đời](https://viblo.asia/p/hieu-ve-tri-tue-nhan-tao-chi-voi-5-phut-cuoc-doi-E375z4x1ZGW)
+- [Làm thế nào để luôn cập nhật kiến thức trong lĩnh vực Machine Learning](https://viblo.asia/p/question-lam-the-nao-de-luon-cap-nhat-kien-thuc-trong-linh-vuc-machine-learning-maGK7mBxlj2)
+- [[Deeplearning-1] Giải thích Machine Learning và Deep Learning bằng ngôn ngữ đại chúng](https://viblo.asia/p/deeplearning-1-giai-thich-machine-learning-va-deep-learning-bang-ngon-ngu-dai-chung-PAoJe5aAJ1j)
 
 -----
 Machine Learning
@@ -264,8 +419,9 @@ Machine Learning
 - [Cùng đi học Machine Learning - Phần 1 - Machine Learning là cái gì ?](https://viblo.asia/p/cung-di-hoc-machine-learning-phan-1-machine-learning-la-cai-gi-maGK78ExZj2)
 - [Cùng đi học Machine Learning - Phần 2 - Machine Learning Algorithms](https://viblo.asia/p/cung-di-hoc-machine-learning-phan-2-machine-learning-algorithms-m68Z0OMdKkG)
 - []()
-- [Trả lời một số câu hỏi interview Machine Learning & Deep Learning](https://viblo.asia/p/tra-loi-mot-so-cau-hoi-interview-machine-learning-deep-learning-BQyJKmjWVMe)
 - [Machine Learning với Javascript](https://viblo.asia/p/machine-learning-voi-javascript-1VgZvwvmlAw)
+- [Trả lời một số câu hỏi interview Machine Learning & Deep Learning](https://viblo.asia/p/tra-loi-mot-so-cau-hoi-interview-machine-learning-deep-learning-BQyJKmjWVMe)
+- [Machine Learning & Deep Learning Interview Questions (P1)](https://viblo.asia/p/machine-learning-deep-learning-interview-questions-p1-63vKjOXbZ2R)
 
 - [Machine Learning hoạt động như thế nào? Thần thoại và sự thật](https://viblo.asia/p/machine-learning-hoat-dong-nhu-the-nao-than-thoai-va-su-that-bJzKm76rl9N)
 - [Fact vs. Fiction: How Does Machine Learning Actually Work?](https://www.expert.ai/blog/how-does-machine-learning-work/)
@@ -283,6 +439,7 @@ Video
 
 Thực hành
 - [Chihuahua or muffin? My search for the best computer vision API](https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/)
+- [Dùng thử xem Machine Learning có gì ghê gớm](https://viblo.asia/p/dung-thu-xem-machine-learning-co-gi-ghe-gom-m68Z08jMZkG)
 
 - [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p1)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp1-eW65G8nxKDO)
     1. Why Is Python Best For AI?
@@ -309,4 +466,3 @@ Thực hành
     3.  Natural Language Processing Applications
     4.  Thuật ngữ trong xử lý ngôn ngữ tự nhiên
 - [Artificial Intelligence With Python: A Comprehensive Guide](https://www.edureka.co/blog/artificial-intelligence-with-python/)
-- [[Deeplearning-1] Giải thích Machine Learning và Deep Learning bằng ngôn ngữ đại chúng](https://viblo.asia/p/deeplearning-1-giai-thich-machine-learning-va-deep-learning-bang-ngon-ngu-dai-chung-PAoJe5aAJ1j)
