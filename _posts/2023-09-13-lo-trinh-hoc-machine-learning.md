@@ -48,6 +48,15 @@ tags:
 		- [Học bán giám sát (semi-supervised learning)](#học-bán-giám-sát-semi-supervised-learning)
 		- [Học tăng cường (reinforcement learning)](#học-tăng-cường-reinforcement-learning)
 - [Lộ trình học machine learning](#lộ-trình-học-machine-learning)
+- [Muốn tạo AI, cần phải chuẩn bị những gì, env như thế nào](#muốn-tạo-ai-cần-phải-chuẩn-bị-những-gì-env-như-thế-nào)
+	- [Những tool tiện lợi trong quá trình phát triển AI](#những-tool-tiện-lợi-trong-quá-trình-phát-triển-ai)
+		- [Anaconda](#anaconda)
+	- [Library sử dụng trong machine learning](#library-sử-dụng-trong-machine-learning)
+		- [TensorFlow](#tensorflow)
+	- [List software sử dụng để tạo ra AI](#list-software-sử-dụng-để-tạo-ra-ai)
+		- [AutoML](#automl)
+		- [Neural Network Console](#neural-network-console)
+		- [AI maker](#ai-maker)
 - [Tổng kết](#tổng-kết)
 
 
@@ -185,39 +194,63 @@ Trong các dạng học máy, học có giám sát là dạng phổ biến, có 
    + Dev.to
    + Quora
 
+# Muốn tạo AI, cần phải chuẩn bị những gì, env như thế nào
+
+## Những tool tiện lợi trong quá trình phát triển AI
+
+### Anaconda
+
+`Anaconda`: Tập hợp rất nhiều tool tiện lợi trong quá trình phát triển machine learning và data science. Bao gồm cả môi trường phát triển với Python, và các tool editer. Có thể install các tool cần thiết từ Anaconda.
+
+Lợi ích của Anaconda:
+- Dễ dàng tải 1500+ packages về Python/R cho data science
+- Quản lý thư viện, môi trường và dependency giữa các thư viện dễ dàng
+- Dễ dàng phát triển mô hình machine learning và deep learning với scikit-learn, tensorflow, keras
+- Xử lý dữ liệu tốc độ cao với numpy, pandas
+- Hiện thị kết quả với Matplotlib, Bokeh
+
+## Library sử dụng trong machine learning
+
+### TensorFlow
+
+`TensorFlow` chính là thư viện mã nguồn mở cho machine learning nổi tiếng nhất thế giới, được phát triển bởi các nhà nghiên cứu từ Google. Việc hỗ trợ mạnh mẽ các phép toán học để tính toán trong machine learning và deep learning đã giúp việc tiếp cận các bài toán trở nên đơn giản, nhanh chóng và tiện lợi hơn nhiều.
+
+Các hàm được dựng sẵn trong thư viện cho từng bài toán cho phép TensorFlow xây dựng được nhiều neural network. Nó còn cho phép bạn tính toán song song trên nhiều máy tính khác nhau, thậm chí trên nhiều CPU, GPU trong cùng 1 máy hay tạo ra các dataflow graph – đồ thị luồng dữ liệu để dựng nên các model. Nếu bạn muốn chọn con đường sự nghiệp trong lĩnh vực A.I. này, nắm rõ những điều cơ bản của TensorFlow thực sự rất quan trọng.
+
+Được viết bằng C++ và thao tác interface bằng Python nên phần performance của TensorFlow cực kỳ tốt. Đối tượng sử dụng nó cũng đa dạng không kém: từ các nhà nghiên cứu, nhà khoa học dữ liệu và dĩ nhiên không thể thiếu các lập trình viên.
+
+## List software sử dụng để tạo ra AI
+
+Đến đây chúng ta đã nắm được phần nào về cách phát triển AI thông qua các tool, lib... . Vậy liệu có phầm mềm nào giúp chúng ra trong việc ạo AI hay không ? Chắc hẳn không ít người thắc mắc câu hỏi này. Tuỳ theo việc phát tiển theo các lĩnh vực khác nhau. Chúng tôi xin phép giói thiệu một số Web service tiện lợi dưới đây.
+
+### AutoML
+
+AutoML tiện lợi trong việc tạo model
+
+Model được ví như đầu não trong AI . Ứng với việc input data nguồn sẽ xuất ra câu trả lời tương ứng. AutoML là web service được Google cung cấp, bạn không cần có kiến thức về machine learning. Chỉ với lượng data cần tiết, có thể hoàn toàn tự động tạo model machine learning.
+
+### Neural Network Console
+
+Neural Network Console là môi trường tích hợp có thể tạo ra các program Deep learning được cung cấp bởi Sony. Một ví dụ về Deep learning: Chúng ta đang muốn học sâu hơn về đối tượng "con mèo đen". Thì khi tiến hành học sâu sẽ là, nhìn con mèo đen ở trong bóng tối thì màu sắc sẽ khác con mèo đen ở nơi có ánh sáng. Mặc dù cùng là con mèo đen. Vì vậy cần phải thiết lập sao cho, độ ưu tiên liên quan đến màu sắc của con mèo ở những vùng ánh sáng khác nhau để model sẽ hiểu rõ và phân biệt một cách chính xác hơn. Đây là một ví dụ nói về mối liên hệ giữa thông tin với thông tin With neural network.
+
+### AI maker
+
+Là một flatform mà khi sử dụng nó ai cũng có thể phát triển machine learning một cách nhẹ nhàng. Bạn có thể tìm hiểu sâu hơn tại : https://aimaker.io/
+
+Tựu lại để tạo ra AI có thể hình dung gồm 3 công đoạn sau đây:  
+① Chuẩn bị lượng data lớn để tiến hành cho learning.  
+② Tiến hành train model bởi machine learning  
+③ Đặt câu hỏi với train model và đưa ra kết qủa.
+
 # Tổng kết
 
+Bài viết khá ngắn, với mong muốn chỉ là tóm gọn các nội dung cơ bản của Machine Learning và ứng dụng tuyệt vời của nó hiện tại và tương lai của chúng ta. Rất mong sẽ còn được gặp lại các bạn trong những phần tiếp theo của series về machine learning, cám ơn.
 
 -----
 Tham khảo
 - [Sự khác nhau giữa AI, ML, DL](https://www.linkedin.com/pulse/s%E1%BB%B1-kh%C3%A1c-nhau-gi%E1%BB%AFa-ai-ml-dl-hu%C3%A2n-b%C3%B9i-%C4%91%C3%ACnh)
 - [Con đường trở thành Master Artificial Intelligence (AI)](https://viblo.asia/p/con-duong-tro-thanh-master-artificial-intelligence-ai-aWj53LooK6m)
-- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p1)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp1-eW65G8nxKDO)
-    1. Why Is Python Best For AI?
-    2. Demand for AI
-    3. What Is Artificial Intelligence?
-    4. Types Of Artificial Intelligence
-- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p2)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp2-eW65G89LKDO)
-    1. Machine Learning Basics
-    2. Types Of Machine Learning
-    3. What Problems Can Machine Learning Solve?
-    4. Machine Learning Process Steps
-- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p3)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp3-gDVK2mbA5Lj)
-    1. Machine Learning With Python
-    2.  Limitations Of Machine Learning
-    3.  Why Deep Learning?
-    4.  How Deep Learning Works?
-    5.  What Is Deep Learning?
-    6.  Deep Learning Use Case
-    7.  What Is A Perceptron?
-    8.  Multilayer Perceptrons
-- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p4)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp4-Ljy5VyqVlra)
-    1.  Deep Learning With Python
-    2.  Introduction To Natural Language Processing (NLP)
-    3.  Natural Language Processing Applications
-    4.  Thuật ngữ trong xử lý ngôn ngữ tự nhiên
-- [Artificial Intelligence With Python: A Comprehensive Guide](https://www.edureka.co/blog/artificial-intelligence-with-python/)
-- [[Deeplearning-1] Giải thích Machine Learning và Deep Learning bằng ngôn ngữ đại chúng](https://viblo.asia/p/deeplearning-1-giai-thich-machine-learning-va-deep-learning-bang-ngon-ngu-dai-chung-PAoJe5aAJ1j)
+- [Hiểu về trí tuệ nhân tạo chỉ với 5 phút cuộc đời](https://viblo.asia/p/hieu-ve-tri-tue-nhan-tao-chi-voi-5-phut-cuoc-doi-E375z4x1ZGW)
 
 -----
 Machine Learning
@@ -250,3 +283,30 @@ Video
 
 Thực hành
 - [Chihuahua or muffin? My search for the best computer vision API](https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/)
+
+- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p1)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp1-eW65G8nxKDO)
+    1. Why Is Python Best For AI?
+    2. Demand for AI
+    3. What Is Artificial Intelligence?
+    4. Types Of Artificial Intelligence
+- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p2)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp2-eW65G89LKDO)
+    1. Machine Learning Basics
+    2. Types Of Machine Learning
+    3. What Problems Can Machine Learning Solve?
+    4. Machine Learning Process Steps
+- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p3)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp3-gDVK2mbA5Lj)
+    1. Machine Learning With Python
+    2.  Limitations Of Machine Learning
+    3.  Why Deep Learning?
+    4.  How Deep Learning Works?
+    5.  What Is Deep Learning?
+    6.  Deep Learning Use Case
+    7.  What Is A Perceptron?
+    8.  Multilayer Perceptrons
+- [Hướng dẫn toàn diện về Trí tuệ nhân tạo với Python (Dịch.p4)](https://viblo.asia/p/huong-dan-toan-dien-ve-tri-tue-nhan-tao-voi-python-dichp4-Ljy5VyqVlra)
+    1.  Deep Learning With Python
+    2.  Introduction To Natural Language Processing (NLP)
+    3.  Natural Language Processing Applications
+    4.  Thuật ngữ trong xử lý ngôn ngữ tự nhiên
+- [Artificial Intelligence With Python: A Comprehensive Guide](https://www.edureka.co/blog/artificial-intelligence-with-python/)
+- [[Deeplearning-1] Giải thích Machine Learning và Deep Learning bằng ngôn ngữ đại chúng](https://viblo.asia/p/deeplearning-1-giai-thich-machine-learning-va-deep-learning-bang-ngon-ngu-dai-chung-PAoJe5aAJ1j)
