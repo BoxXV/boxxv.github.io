@@ -133,6 +133,7 @@ tags:
 			- [Antiny-Sanity](#antiny-sanity)
 			- [Facebook Research](#facebook-research)
 			- [Researchgate](#researchgate)
+			- [Sun\* AI Research Team](#sun-ai-research-team)
 	- [5. Nhà tuyển dụng cần gì](#5-nhà-tuyển-dụng-cần-gì)
 - [Tổng kết](#tổng-kết)
 
@@ -502,6 +503,8 @@ Gồm các paper trending theo thời gian. 1 điểm khá hay là tác giả c�
 
 #### [Researchgate](https://www.researchgate.net/)
 
+#### [Sun* AI Research Team](https://viblo.asia/o/sun-ai-research-team)
+
 ## 5. Nhà tuyển dụng cần gì
 
 Sun* Inc. (Sun Asterisk Inc.) - Fresher Machine Learning (Full Time)
@@ -561,6 +564,13 @@ Tham khảo
 - [Làm thế nào để luôn cập nhật kiến thức trong lĩnh vực Machine Learning](https://viblo.asia/p/question-lam-the-nao-de-luon-cap-nhat-kien-thuc-trong-linh-vuc-machine-learning-maGK7mBxlj2)
 - [[Deeplearning-1] Giải thích Machine Learning và Deep Learning bằng ngôn ngữ đại chúng](https://viblo.asia/p/deeplearning-1-giai-thich-machine-learning-va-deep-learning-bang-ngon-ngu-dai-chung-PAoJe5aAJ1j)
 - [Hỡi các ML Learners, nhà tuyển dụng cần gì?](https://viblo.asia/p/hoi-cac-ml-learners-nha-tuyen-dung-can-gi-gGJ59ryxKX2)
+- [[ML System Design] Tổng quan về Machine Learning System Design](https://viblo.asia/p/ml-system-design-tong-quan-ve-machine-learning-system-design-3P0lP8Lnlox)
+- [Tóm tắt vài mô hình Text-To-Speech (p1) - Tacotron và Tacotron2](https://viblo.asia/p/tom-tat-vai-mo-hinh-text-to-speech-p1-tacotron-va-tacotron2-E375zApqlGW)
+- [Tóm tắt vài mô hình Text-To-Speech (p2) - FastSpeech](https://viblo.asia/p/tom-tat-vai-mo-hinh-text-to-speech-p2-fastspeech-jvElaRVx5kw)
+- [Tóm tắt vài mô hình Text-to-Speech (p3) - FastSpeech2](https://viblo.asia/p/tom-tat-vai-mo-hinh-text-to-speech-p3-fastspeech2-6J3ZgRvBKmB)
+- [Tóm tắt vài mô hình Text-to-Speech (p4) - GlowTTS](https://viblo.asia/p/tom-tat-vai-mo-hinh-text-to-speech-p4-glowtts-Do754LBJ5M6)
+- [Evaluating and Testing models - có vẻ phức tạp hơn bạn nghĩ](https://viblo.asia/p/evaluating-and-testing-models-co-ve-phuc-tap-hon-ban-nghi-vlZL9bRZVQK)
+- [Sun* AI Research Team](https://viblo.asia/o/sun-ai-research-team)
 
 -----
 Machine Learning
@@ -575,6 +585,8 @@ Machine Learning
 - [Cùng đi học Machine Learning - Phần 2 - Machine Learning Algorithms](https://viblo.asia/p/cung-di-hoc-machine-learning-phan-2-machine-learning-algorithms-m68Z0OMdKkG)
 - [10 sự thật thú vị về Machine Learning mà bạn nên biết](https://viblo.asia/p/10-su-that-thu-vi-ve-machine-learning-ma-ban-nen-biet-gGJ59e4a5X2)
 - [Tìm niềm cảm hứng để bắt đầu học Deep Learning](https://viblo.asia/p/tim-niem-cam-hung-de-bat-dau-hoc-deep-learning-bWrZnPo95xw)
+- [Bóc trần hệ thống gợi ý của Twitter - một cú lừa ngày cá tháng tư???](https://viblo.asia/p/boc-tran-he-thong-goi-y-cua-twitter-mot-cu-lua-ngay-ca-thang-tu-7ymJXx8qJkq)
+- [[Paper Explain] Clustering trong Computer Vision: Hướng đi mới thay thế CNN và Transformer?](https://viblo.asia/p/paper-explain-clustering-trong-computer-vision-huong-di-moi-thay-the-cnn-va-transformer-0gdJz7pvLz5)
 - []()
 - [Machine Learning với Javascript](https://viblo.asia/p/machine-learning-voi-javascript-1VgZvwvmlAw)
 - [Trả lời một số câu hỏi interview Machine Learning & Deep Learning](https://viblo.asia/p/tra-loi-mot-so-cau-hoi-interview-machine-learning-deep-learning-BQyJKmjWVMe)
