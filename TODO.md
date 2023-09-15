@@ -121,6 +121,73 @@ The Visual Studio Extension for .NET Developers
 
 ## Doing
 
+### Automation tools for Desktop Applications (Windows)
+
+https://www.askui.com/blog-posts/top-10-automation-tools-for-desktop-applications-windows
+https://viblo.asia/p/mot-so-automation-test-tool-cho-ung-dung-desktop-ByEZk9m45Q0
+https://viblo.asia/p/automation-test-voi-robot-framework-yMnKM10AK7P
+https://viblo.asia/p/tim-hieu-ve-appium-p2-GrLZDR4V5k0
+
+https://viblo.asia/p/cac-cong-cu-kiem-thu-tu-dong-noi-bat-trong-nam-2019-phan-1-924lJL7WKPM
+https://viblo.asia/p/cac-cong-cu-kiem-thu-tu-dong-noi-bat-trong-nam-2019-phan-2-3Q75wd9eKWb
+
+https://viblo.asia/p/top-5-cong-cu-kiem-thu-api-RQqKLOXz57z
+https://viblo.asia/p/21-cong-cu-kiem-tra-api-tot-nhat-part1-Qpmle1LNlrd
+https://viblo.asia/p/21-cong-cu-kiem-tra-api-tot-nhat-part2-Eb85oOAj52G
+
+https://viblo.asia/p/5-cong-cu-kiem-thu-phan-mem-hieu-qua-bJzKmRorZ9N
+https://viblo.asia/p/top-10-cong-cu-kiem-tra-trinh-duyet-nam-2019-GrLZDOweKk0
+https://viblo.asia/p/top-15-cong-cu-kiem-tra-hieu-suat-tot-nhat-nam-2019-yMnKMn6NZ7P
+https://viblo.asia/p/top-15-cong-cu-kiem-thu-hieu-nang-cua-nam-2017-4P856XG9ZY3
+
+https://viblo.asia/p/gioi-thieu-35-cong-cu-kiem-tra-gui-tot-nhat-Az45bgyoKxY
+https://viblo.asia/p/top-50-phan-mem-test-huu-ich-cho-testerqa-phan-1-maGK7pMxZj2
+https://viblo.asia/p/top-50-phan-mem-test-huu-ich-cho-testerqa-phan-2-oOVlYNR458W
+https://viblo.asia/p/top-50-phan-mem-test-huu-ich-cho-testerqa-phan-3-4dbZNw0QlYM
+https://viblo.asia/p/top-50-phan-mem-test-huu-ich-cho-testerqa-phan-4-924lJE8bZPM
+
+https://viblo.asia/p/top-50-tools-kiem-thu-phan-mem-nam-2019phan-1-naQZRYaPKvx
+https://viblo.asia/p/top-50-tools-kiem-thu-phan-mem-nam-2019phan-2-07LKXMLrZV4
+https://viblo.asia/p/top-50-tools-kiem-thu-phan-mem-nam-2019phan-3-3P0lP4wPlox
+https://viblo.asia/p/top-50-tools-kiem-thu-phan-mem-nam-2019phan-4-RQqKLw9057z
+https://viblo.asia/p/top-50-tools-kiem-thu-phan-mem-nam-2019phan-5-GrLZDQbOlk0
+https://viblo.asia/p/top-50-tools-kiem-thu-phan-mem-nam-2019phan-cuoi-Ljy5VX4bZra
+
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-i-RQqKLMjbZ7z
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-ii-GrLZDVDB5k0
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-iii-YWOZrM4RKQ0
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-iv-Ljy5VrDo5ra
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-v-jvElaXxoZkw
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-vi-oOVlY1d4l8W
+https://viblo.asia/p/100-cong-cu-kiem-thu-phan-mem-phan-vii-3P0lPyab5ox
+
+
+https://viblo.asia/p/150-cau-hoi-va-cau-tra-loi-phong-van-kiem-thu-phan-mem-hang-dau-phan-i-eW65GRQ6lDO
+https://viblo.asia/p/150-cau-hoi-va-cau-tra-loi-phong-van-kiem-thu-phan-mem-hang-dau-phan-2-V3m5WxWyKO7
+https://viblo.asia/p/150-cau-hoi-va-cau-tra-loi-phong-van-kiem-thu-phan-mem-hang-dau-phan-3-3P0lPYnP5ox
+https://viblo.asia/p/150-cau-hoi-va-cau-tra-loi-phong-van-kiem-thu-phan-mem-hang-dau-phan-4-oOVlYLgQZ8W
+
+https://viblo.asia/p/kiem-tra-co-so-du-lieu-du-lieu-voi-cac-mau-thu-nghiem-phan-i-aWj532qel6m
+https://viblo.asia/p/kiem-tra-co-so-du-lieu-du-lieu-voi-cac-mau-thu-nghiem-phan-ii-RQqKLzYpl7z
+
+https://viblo.asia/p/nen-kiem-thu-tu-dong-hay-kiem-thu-thu-cong-LzD5dD1d5jY
+https://viblo.asia/p/phuong-phap-tao-test-plan-hieu-qua-6J3ZgJDAKmB
+https://viblo.asia/p/tim-hieu-cac-loai-test-cases-trong-kiem-thu-phan-mem-gAm5yoxEZdb
+https://viblo.asia/p/testing-cross-site-scripting-4P8566jL5Y3
+
+Kiểm thử hệ thống bán lẻ POS
+https://viblo.asia/p/kiem-thu-he-thong-ban-le-pos-1Je5EJAwKnL
+
+Automation test mà không cần code
+https://viblo.asia/p/automation-test-ma-khong-can-code-phan-1-3P0lP3mbZox
+https://viblo.asia/p/automation-test-ma-khong-can-code-phan-2-924lJjRNlPM
+https://viblo.asia/p/automation-test-ma-khong-can-code-phan-3-debug-trong-selenium-ide-bJzKmo2Ol9N
+
+https://viblo.asia/p/automation-test-voi-robotframework-su-dung-eclipse-phan-1-cau-hinh-va-cai-dat-3P0lPDavlox
+https://viblo.asia/p/automation-test-voi-robotframework-su-dung-eclipse-phan-2-tich-hop-selenium-07LKXbVplV4
+
+https://viblo.asia/p/10-bai-hoc-lon-ve-qua-trinh-dac-ta-yeu-cau-phan-mem-phan-1-3P0lPE8n5ox  
+https://viblo.asia/p/xay-dung-van-hoa-phan-mem-chat-luong-m68Z0pyQZkG
 
 
 ### Material UI theming
