@@ -197,6 +197,11 @@ https://viblo.asia/p/xay-dung-van-hoa-phan-mem-chat-luong-m68Z0pyQZkG
 + https://bareynol.github.io/mui-theme-creator/
 + https://fullstack.edu.vn/blog/material-ui-custom-theme-voi-typescript.html
 
+### Embedded 
+
+https://circuitdigest.com/article/comparision-between-popular-iot-operating-systems
+https://www.embedded.com/embedded-survey-2023-more-ip-reuse-as-workloads-surge/
+https://www.linux.com/news/linux-and-open-source-move-embedded-says-survey/
 
 ## Finished
 
