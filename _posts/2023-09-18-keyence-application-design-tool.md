@@ -61,8 +61,8 @@ Bằng cách xây dựng trên các mẫu được tạo từ nhiều năm kinh 
 
 Công nghệ OCR (Nhận dạng ký tự quang học) của chúng tôi có khả năng đọc nhiều ký tự bất kể phông chữ là gì.
 
-![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_03-01_1975303.webp"BT-W Series")
-![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_03-02_1975304.webp"BT-W Series")
+![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_03-01_1975303.webp "BT-W Series")
+![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_03-02_1975304.webp "BT-W Series")
 
 ## Chống chịu tác động mạnh và hư hỏng khi sử dụng hằng ngày
 
