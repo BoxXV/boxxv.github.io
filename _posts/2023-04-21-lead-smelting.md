@@ -17,7 +17,7 @@ Quặng galen thường chứa một lượng bạc đáng kể ở dạng pha k
 
 Khoáng chất chì chính và sơ cấp là galena (công thức hóa học = PbS) bao gồm 86,6% Chì. Để nấu chảy khoáng chất này, cần phải sử dụng lò cao. Lò cao là một lò khổng lồ được sử dụng để thực hiện các quá trình nấu chảy. Quá trình nấu chảy galena đòi hỏi hai phản ứng hóa học quan trọng xảy ra trong lò.
 
-## Sử dụng Lò cao
+## I. Sử dụng Lò cao
 
 Galena được nung (phản ứng với O<sub>2</sub>) để loại bỏ thành phần lưu huỳnh (sulfur) của sunfua kim loại. Nung là phương pháp trong đó quặng sunfua (tức là quặng chứa PbS) được nung nóng trong không khí để chuyển đổi sunfua kim loại thành oxit kim loại hoặc chính kim loại.
 
@@ -41,7 +41,7 @@ Chì (II) Oxit + Cacbon = Chì + Cacbon Dioxit
 
 2PbO + C = 2Pb + CO<sub>2</sub>
 
-# 2. Nấu chảy
+## II. Nấu chảy
 
 Có một quá trình khác trong đó khoáng chất galena có thể được nấu chảy. Nó cũng đòi hỏi hai phản ứng hóa học xảy ra trong lò.
 
