@@ -114,14 +114,14 @@ Hiện tại, OpenSea Pro chưa công bố chính thức về các đối tác c
 
 Dưới đây là những cột mốc đáng chú ý của OpenSea Pro:
 
-    20/1/2022: Gem chính thức ra mainnet.
-    8/3/2022: Tích hợp NFT marketplace LooksRare.
-    31/3/2022: Hợp tác với X2Y2.
-    25/4/2022: Gem được mua lại bởi OpenSea.
-    19/5/2022: Ra mắt tính năng Batch Transfer (Chuyển NFT số lượng lớn).
+    20/01/2022: Gem chính thức ra mainnet.
+    08/03/2022: Tích hợp NFT marketplace LooksRare.
+    31/03/2022: Hợp tác với X2Y2.
+    25/04/2022: Gem được mua lại bởi OpenSea.
+    19/05/2022: Ra mắt tính năng Batch Transfer (Chuyển NFT số lượng lớn).
     29/11/2022: Ra mắt phiên bản Beta của Gem V2.
-    22/2/2023: Tích hợp thêm NFT marketplace Rarible.
-    5/4/2023: Chính thức đổi tên thành OpenSea Pro.
+    22/02/2023: Tích hợp thêm NFT marketplace Rarible.
+    05/04/2023: Chính thức đổi tên thành OpenSea Pro.
 
 ## Dự án tương tự OpenSea Pro
 

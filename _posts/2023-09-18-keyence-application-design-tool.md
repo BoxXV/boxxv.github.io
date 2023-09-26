@@ -104,7 +104,43 @@ Phần mềm này được sử dụng để gửi và nhận dữ liệu.
 
 ### USB driver
 
-
+```
+USBDriver/
+│
+├── BT-600/
+│   ├── ResourceCHN.dll
+│   ├── ResourceENG.dll
+│   ├── ResourceJP.dll
+│   ├── UC6UDriverInst.dat
+│   └── UC6UDriverInst.exe
+├── BT-1000_1500/
+│   ├── x64/
+│   │   ├── DPInst_WDK6001.18001/
+│   │   │   └── DPInst.exe
+│   │   ├── DPInst_WDK7600.16385.0/
+│   │   │   └── dpinst.exe
+│   │   ├── silabenm.sys
+│   │   ├── silabser.sys
+│   │   └── WdfCoInstaller01009.dll
+│   ├── x86/
+│   │   ├── DPInst_WDK6001.18001/
+│   │   │   └── DPInst.exe
+│   │   ├── DPInst_WDK7600.16385.0/
+│   │   │   └── dpinst.exe
+│   │   ├── silabenm.sys
+│   │   ├── silabser.sys
+│   │   └── WdfCoInstaller01009.dll
+│   ├── Installer.bat
+│   ├── silabbus.cat
+│   └── silabbus.inf
+└── BT-W_Series/
+    ├── dpinst.xml
+    ├── dpinst_x64.exe
+    ├── dpinst_x86.exe
+    ├── Installer.bat
+    ├── usbser.cat
+    └── usbser.inf
+```
 
 Trình điều khiển này phải được cài đặt khi thực hiện giao tiếp thông qua thiết bị giao tiếp USB.
 
