@@ -1,14 +1,24 @@
-# See Event Parameters in Google Analytics 4 Reports
+---
+layout: post
+title: See Event Parameters in Google Analytics 4 Reports
+subtitle: Cách xem các thông số sự kiện trong báo cáo Google Analytics 4
+
+tags:
+- Analytics
+- Tracking
+- Event
+- GA4
+---
 
 ## I. Reports
 
-### Reports Realtime
+### 1. Reports Realtime
 
 You can see your event parameters in the real-time reports. In the image below, you can see the event parameters for the "Click" event, that track outbound links.
 
 ![Reports Realtime](https://boxxv.github.io/img/ga/event-realtime.png "Reports Realtime")
 
-### Engagement Report
+### 2. Engagement Report
 
 This event will also show up in the "Events" report as well as in the Engagement Report
 
@@ -22,7 +32,7 @@ Clicking on the event name will take you to the Engagement report, which will sh
 
 ## II. Custom Report
 
-### Register Event Parameters as Custom Dimensions
+### 1. Register Event Parameters as Custom Dimensions
 
 Since there is a limit on the number of Custom Dimensions you can use, you have to thoroughly think through what parameter you want to register before going through the following steps
 
@@ -39,13 +49,14 @@ The event parameters can take up to 24 hours to show up in the reports so you mi
 
 ![Custom Dimensions](https://boxxv.github.io/img/ga/custom-definitions.png "Custom Dimensions")
 
-### Using Event Parameters in Reports
+### 2. Using Event Parameters in Reports
 
-1. Click on "Analysis Hub" in the left navigation bar ( Analysis --> Analysis Hub)
-2. Click to create a new report create report using the "Exploration" technique.
-3. Click on + sign next to Dimension to add new dimensions
-4. Make sure to check the box next to "Event Name" and the event parameters that you want to use. This will make them available in the dimension section.
-5. Drag and drop appropriate dimensions e.g. Event Name and Paramaters in this example on your report.
-6. Add desired metrics
+Explorations Reports is Previously Analysis Hub
+
+1. Click to create a new report create report using the "Exploration" technique.
+2. Click on + sign next to Dimension to add new dimensions
+3. Make sure to check the box next to "Event Name" and the event parameters that you want to use. This will make them available in the dimension section.
+4. Drag and drop appropriate dimensions e.g. Event Name and Paramaters in this example on your report.
+5. Add desired metrics
 
 ![Event Parameters](https://boxxv.github.io/img/ga/exploration.png "Event Parameters")
