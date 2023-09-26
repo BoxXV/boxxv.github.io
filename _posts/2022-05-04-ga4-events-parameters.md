@@ -37,6 +37,8 @@ Since there is a limit on the number of Custom Dimensions you can use, you have 
 
 The event parameters can take up to 24 hours to show up in the reports so you might have to wait before you proceed with creating reports.
 
+![Custom Dimensions](https://boxxv.github.io/img/ga/custom-definitions.png "Custom Dimensions")
+
 ### Using Event Parameters in Reports
 
 1. Click on "Analysis Hub" in the left navigation bar ( Analysis --> Analysis Hub)
@@ -46,3 +48,4 @@ The event parameters can take up to 24 hours to show up in the reports so you mi
 5. Drag and drop appropriate dimensions e.g. Event Name and Paramaters in this example on your report.
 6. Add desired metrics
 
+![Event Parameters](https://boxxv.github.io/img/ga/exploration.png "Event Parameters")

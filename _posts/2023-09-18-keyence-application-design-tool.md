@@ -24,6 +24,7 @@ tags:
 	- [Giải mã](#giải-mã)
 	- [Đọc ngay lập tức văn bản và ngày không có mã vạch](#đọc-ngay-lập-tức-văn-bản-và-ngày-không-có-mã-vạch)
 	- [Chống chịu tác động mạnh và hư hỏng khi sử dụng hằng ngày](#chống-chịu-tác-động-mạnh-và-hư-hỏng-khi-sử-dụng-hằng-ngày)
+- [](#)
 - [Tổng kết](#tổng-kết)
 
 Công cụ thiết kế ứng dụng BT (BT Application Design Tool) được phát triển bởi Tập đoàn KEYENCE. Phiên bản phổ biến nhất của sản phẩm này đối với người dùng của chúng tôi là 2.3. Tên của tệp thực thi chương trình là BTApplicationDesignTool.exe.
@@ -57,18 +58,31 @@ Bằng cách xây dựng trên các mẫu được tạo từ nhiều năm kinh 
 - Vết trầy xước
 - Biến dạng
 
+![Vết dầu](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_02-01_1975298.webp "Vết dầu")
+
+
 ## Đọc ngay lập tức văn bản và ngày không có mã vạch
 
 Công nghệ OCR (Nhận dạng ký tự quang học) của chúng tôi có khả năng đọc nhiều ký tự bất kể phông chữ là gì.
 
 ![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_03-01_1975303.webp "BT-W Series")
-![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_03-02_1975304.webp "BT-W Series")
+![Màng bọc](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_02-02_1975299.webp "Màng bọc")
+![Vết nhăn](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_02-03_1975300.webp "Vết nhăn")
+![Vết trầy xước](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_02-04_1975301.webp "Vết trầy xước")
+![Biến dạng](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_02-05_1975302.webp "Biến dạng")
 
 ## Chống chịu tác động mạnh và hư hỏng khi sử dụng hằng ngày
 
-[Chống chịu tác động vượt trội 20000 tác động, Độ cao chịu lực rơi 3,0m]
+Chống chịu tác động vượt trội 20000 tác động, Độ cao chịu lực rơi 3,0m.
 
 Cấu trúc chống chịu tác động có thể giảm hư hỏng do rơi và hư hỏng do sử dụng trong thời gian dài, nhờ đó giảm tần số hỏng hóc.
+
+![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_04-01_1975305.webp "BT-W Series")
+
+![BT-W Series](https://boxxv.github.io/img/2023/series_bt-w300_w200_features_04-02_1975306.webp "BT-W Series")
+
+
+# 
 
 # Tổng kết
 
