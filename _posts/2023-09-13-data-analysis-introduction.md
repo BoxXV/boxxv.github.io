@@ -27,6 +27,11 @@ tags:
 - [Statistic](#statistic)
 - [TOOL visualize dữ liệu](#tool-visualize-dữ-liệu)
 - [Python](#python)
+- [ALL ABOUT DATA](#all-about-data)
+- [ALL ABOUT ANALYTICS](#all-about-analytics)
+- [DATA \& ANALYTICS IN EXCEL](#data--analytics-in-excel)
+- [POWER BI \& TABLEAU](#power-bi--tableau)
+- [CODING](#coding)
 - [Tổng kết](#tổng-kết)
 
 Chào mọi người, dạo gần đây mình có thời gian nên tìm hiểu bài bản vể việc học DA từ đầu nên bắt đầu như thế nào, Vì vậy hôm nay mình cũng viết bài chia sẻ những gì mình đã tìm hiểu trong thời gian vừa qua.
@@ -65,6 +70,36 @@ Có rất nhiều tool có sẵn để bạn trực quan hóa dữ liệu cũng 
 # Python
 
 Bên cạnh tool trực quan hóa dữ liệu thì bạn có thể dùng code để tự trực quan hóa dữ liệu, với python mình sẽ làm chủ dữ liệu tốt hơn và visualize data theoys mình mong muốn tốt hơn. Mình để python sau cùng vì nó sẽ khá khó với những bạn Nontech còn với những bạn dân IT hay Tech thì sẽ nhẹ nhàng hơn. Python có thư viện Pandas support cực kì mạnh và mọi người có thể tham khảo khóa, Pandas for Data Analysis của team mình.
+
+# ALL ABOUT DATA
+1. Practical data literacy - https://bit.ly/3ZYiQcY
+2. Introduction to Data Analytics - https://bit.ly/3KSZZf8
+3. Basic data cleaning - https://bit.ly/3GzJ0vE
+4. A guide to data collection - https://bit.ly/43rUICg
+
+# ALL ABOUT ANALYTICS
+1. The four levels of analytics - https://bit.ly/3KOlkFl
+2. The Data Analytics Marathon - https://bit.ly/3MBkqOW
+3. Business analytics - https://bit.ly/40Yu56r
+4. A guide to data & analytics - https://bit.ly/3zPNwCt
+
+# DATA & ANALYTICS IN EXCEL
+1. Processing data in Excel - https://bit.ly/3m4imUw
+2. Intro to Power Query - https://bit.ly/3KOKJQm
+3. Data analysis in Excel - https://bit.ly/3ZGg7oe
+4. How to use Analysis Toolpak - https://bit.ly/3KwyHK4
+
+# POWER BI & TABLEAU
+1. Introduction to PowerBI - https://bit.ly/3U4TJUs
+2. Advanced Analytics with PowerBI - https://bit.ly/3Kwu1F5
+3. Tableau for beginners - https://bit.ly/3Ku0KcX
+4. Tableau analytics tutorial - https://bit.ly/3ZWAgXf
+
+# CODING
+1. Learning SQL - https://bit.ly/3MdVRHo
+2. An introduction to R - https://bit.ly/43nR50g
+3. Python for Data Analysis - https://bit.ly/3ZYEgXh
+4. Data Analytics with Pandas - https://bit.ly/3Usylsh
 
 # Tổng kết
 
