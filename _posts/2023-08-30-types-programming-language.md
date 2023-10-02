@@ -91,7 +91,7 @@ Lập trình là một kỹ năng ngày càng được săn đón trên thị tr
 
 Nhưng bạn nên học ngôn ngữ nào? Bạn sẽ tìm thấy vô số ngôn ngữ lập trình miễn phí để học và phát triển dự án trực tuyến. Với lĩnh vực công nghệ đang phát triển theo cấp số nhân mỗi năm, internet là nơi tuyệt vời để bắt đầu khi cố gắng khám phá những phát triển mới nhất hoặc khám phá một kỹ năng mới. 
 
-Cho dù bạn học ngôn ngữ nào, bạn có thể thấy hữu ích khi ghi chú hoặc vẽ sơ đồ nêu chi tiết các bước bạn đang thực hiện và lý do. Điều quan trọng đối với các lập trình viên là có thể truyền đạt quy trình của họ tới những bên liên quan không liên quan đến kỹ thuật, nhưng việc ghi chú cũng có thể là một công cụ học tập tuyệt vời. Eric Hartzog, kỹ sư phần mềm tại Meta , cho biết: "Hóa ra điều này thường hữu ích không chỉ vì mục đích tạo tài liệu mà còn giúp giải quyết một nhiệm vụ hoặc vấn đề duy nhất mà công nghệ cơ bản khó hiểu" .
+Cho dù bạn học ngôn ngữ nào, bạn có thể thấy hữu ích khi ghi chú hoặc vẽ sơ đồ nêu chi tiết các bước bạn đang thực hiện và lý do. Điều quan trọng đối với các lập trình viên là có thể truyền đạt quy trình của họ tới những bên liên quan không liên quan đến kỹ thuật, nhưng việc ghi chú cũng có thể là một công cụ học tập tuyệt vời. Eric Hartzog, kỹ sư phần mềm tại Meta, cho biết: "Hóa ra điều này thường hữu ích không chỉ vì mục đích tạo tài liệu mà còn giúp giải quyết một nhiệm vụ hoặc vấn đề duy nhất mà công nghệ cơ bản khó hiểu" .
 
 Trong bài viết này, chúng ta sẽ khám phá một số loại ngôn ngữ lập trình phổ biến nhất và cung cấp cho bạn một số tài nguyên mà bạn có thể sử dụng để bắt đầu học.
 
@@ -308,7 +308,7 @@ Giải quyết các vấn đề về khả năng mở rộng, mã đơn giản, 
 
 ## 1. Java
 
-Có nhu cầu cao trên toàn thế giới, dữ liệu lớn, android, tài chính, cơ sở dữ liệu, phần mềm hệ thống, công cụ kiểm tra, vua doanh nghiệp, ngôn ngữ cốt lõi của các công cụ tiêu chuẩn ngành như Apache Kafka, spark, hive, MTLAB là các ứng dụng phân tán, dựa trên Java, IoT , Hadoop, v.v.
+Có nhu cầu cao trên toàn thế giới, dữ liệu lớn, android, tài chính, cơ sở dữ liệu, phần mềm hệ thống, công cụ kiểm tra, vua doanh nghiệp, ngôn ngữ cốt lõi của các công cụ tiêu chuẩn ngành như Apache Kafka, spark, hive, MTLAB là các ứng dụng phân tán, dựa trên Java, IoT, Hadoop, v.v.
 
 ## 2. R
 

@@ -151,7 +151,7 @@ c) Mỗi phần của đối tượng phải ở trong những điều kiện th
 
 ### Các thí dụ:
 
-1. Các tờ lịch dùng để chỉ ngày, thứ trong tuần, nhưng các ngày không giống nhau: có ngày làm việc, chủ nhật và ngày lễ nghỉ. Để phân biệt điều ấy , các ngày nghỉ được in mực đỏ.
+1. Các tờ lịch dùng để chỉ ngày, thứ trong tuần, nhưng các ngày không giống nhau: có ngày làm việc, chủ nhật và ngày lễ nghỉ. Để phân biệt điều ấy, các ngày nghỉ được in mực đỏ.
 2. 37°C là thân nhiệt của người khỏe mạnh. Thân nhiệt thấp hoặc cao hơn nhiệt độ này là “có vấn đề”. Để nhần mạnh điều này, trên các cặp nhiệt độ, 37oC được ghi bằng màu đỏ.
 3. Để bảo vệ sách tốt, bìa thường được làm dày hơn nhiều so với trang sách. Cẩn thận hơn nữa, bề mặt của bìa còn được phủ một lớp nhựa trong suốt để bảo vệ.
 4. Quần áo mặc thường rách trước tại những chỗ như đầu gối, khuỷu tay, vai, nách, các đường chỉ may. Do vậy, đặc biệt với quần áo bảo hộ lao động những chỗ nói trên thường được làm dày hơn và may thành gân ở những chỗ ghép các mảnh vải.
@@ -300,7 +300,7 @@ b) Một đối tượng chuyển động xuyên suốt bên trong đối tượ
 1. Loại ăngten dùng cho máy thu thanh, thu hình, khi cần có thể kéo dài hoặc thu ngắn lại nhờ những ống kim loại đặt bên trong nhau.
 2. Loại tay cầm dùng cho tuốc-nơ-vít, khoan tay...bên trong rỗng, có nắp vặn, đóng vai trò cái hộp đựng đầu tuốc-nơ-vít, mũi khoan.
 3. Tủ đặt trong tường nhà.
-4. Loại cửa đóng , mở chạy từ trong tường ra.
+4. Loại cửa đóng, mở chạy từ trong tường ra.
 5. Vận chuyển vật liệu trong các đường ống
 
 ................
@@ -443,7 +443,7 @@ Bù đắp độ tin cậy không lớn của đối tượng bằng cách chu�
 ### Nhận xét
 
 1. Ít có công việc nào, có thể thực hiện với độ tin cậy tuyệt đối. Đấy chưa kể, điều kiện, môi trường, hoàn cảnh với thời gian cũng thay đổi. Do vậy cần tiên liệu trước những mạo hiểm, rủi ro, tai nạn, ốm đau, bệnh tật, thiên tai có thể xảy ra mà có những biện pháp dự phòng từ trước.
-2. Ngoài ra , cần chú ý đến các hậu quả xấu có thể có do kết quả công việc mang lại: mọi cái đều có phạm vi áp dụng của nó, nếu đi ra ngoài phạm vi áp dụng này, lợi có thể biến thành hại; trong cái lợi có thể có cái hại; có thể lợi về mặt này nhưng hại về mặt khác.
+2. Ngoài ra, cần chú ý đến các hậu quả xấu có thể có do kết quả công việc mang lại: mọi cái đều có phạm vi áp dụng của nó, nếu đi ra ngoài phạm vi áp dụng này, lợi có thể biến thành hại; trong cái lợi có thể có cái hại; có thể lợi về mặt này nhưng hại về mặt khác.
 3. Có thể nói, chi phí cho dự phòng là chi phí thêm, không mong muốn. Khuynh hướng phát triển là tăng độ tin cậy của đối tượng, công việc. Để làm điều đó cần sử dụng các vật liệu mới, các hiệu ứng mới, cách tổ chức mới.....
 4. Tinh thần chung của nguyên tắc này là cảnh giác và chuẩn bị biện pháp đối phó từ trước.
 
@@ -758,7 +758,7 @@ c) Chuyển chuyển động tịnh tiến qua lại thành chuyển động qua
 
 ### Nhận xét
 
-1. Máy móc sinh ra để làm việc và đem lại lợi ích, vậy phải cải tiến sao cho đến từng bộ phận của máy phải luôn luôn làm việc để đem lại lợi ích và lợi ích ngày càng tăng cao. Điều này thể hiện ở chổ tăng năng suất, hiệu quả, tiết kiệm, thời gian, tăng tính tương hợp, độ bền , tuổi thọ....
+1. Máy móc sinh ra để làm việc và đem lại lợi ích, vậy phải cải tiến sao cho đến từng bộ phận của máy phải luôn luôn làm việc để đem lại lợi ích và lợi ích ngày càng tăng cao. Điều này thể hiện ở chổ tăng năng suất, hiệu quả, tiết kiệm, thời gian, tăng tính tương hợp, độ bền, tuổi thọ....
 2. Nguyên tắc này phản ánh khuynh hướng phát triển, do vậy rất có tác dụng trong việc đánh giá, phê bình những giải pháp đã có, đặt và lực chọn những bài toán, dự báo về sự phát triển.
 3. Nguyên tắc liên tục tác động có ích - mang tính định hướng cao nên cần, nên cần biến nó thành cách nhìn, cách nghĩ, cách tiếp cận vấn đề mang tính thường trực và khỏi phát.
 4. Nguyên tắc này hay dùng với các thủ thuật khác như 1. nguyên tắc phân nhỏ, 2. nguyên tắc tách khỏi, 3. nguyên tắc phẩm chất cục bộ, 5. nguyên tắc kết hợp, 6. nguyên tắc vạn năng, 15. nguyên tắc linh động, 25. nguyên tắc tự phục vụ...
@@ -881,7 +881,7 @@ Thông thường, mỗi đối tượng (hệ thống) thực hiện một công
 2. Các loại rờle đóng ngắt tự động cho máy làm việc hay ngừng; tùy theo nhiệt độ, cường độ dòng điện, mực nước, áp suất, độ ẩm.....
 3. Kính đeo mắt thay đổi độ trong suốt tùy theo cường độ ánh nắng mặt trời.
 4. Tên lửa tự tìm mục tiêu.
-5. Các cuộc thăm dò ý kiến, điều tra xã hội học, trưng cầu dân ý nhằm xây dựng chính sách , quyết định của nhà nước.
+5. Các cuộc thăm dò ý kiến, điều tra xã hội học, trưng cầu dân ý nhằm xây dựng chính sách, quyết định của nhà nước.
 6. Mối quan hệ cung-cầu trong kinh tế.
 7. Động vật máu nóng, cơ thể có cơ chế tự động điều chỉnh để duy trì thân nhiệt ở một nhiệt độ nhất định.
 8. Xe máy tay ga tự động điều chỉnh cấp số truyền động theo tải và tốc độ.
@@ -943,7 +943,7 @@ b) Sử dụng phế liệu, chát thải, năng lượng dư.
 
 ### Nhận xét
 
-1. Để đối tượng, ngoài việc thực hiện chức năng chính, còn thực hiện thêm những chức năng phụ trợ, cần chú ý sử dụng các nguồn dự trữ có sẵn trong hệ, đặc biệt, những nguồn dự trữ trời cho không mất tiền như lực trọng trường, nhiệt độ môi trường , độ ẩm, không khí....
+1. Để đối tượng, ngoài việc thực hiện chức năng chính, còn thực hiện thêm những chức năng phụ trợ, cần chú ý sử dụng các nguồn dự trữ có sẵn trong hệ, đặc biệt, những nguồn dự trữ trời cho không mất tiền như lực trọng trường, nhiệt độ môi trường, độ ẩm, không khí....
 2. Do sự ô nhiễm môi trường, sự cạn kiệt dần các nguồn cung cấp tự nhiên, vấn đề sử dụng phế liệu, chất thải năng lượng dư ngày càng được chú ý giải quyết và đây cũng là một loại nguồn dự trữ cần khai thác. Về mặt lý tưởng, cần có một chu trình sản xuất khép kín.
 3. Nguyên tắc này hay được dùng với các nguyên tắc 2. nguyên tắc tách khỏi, 6. nguyên tắc vạn năng, 23. nguyên tắc quan hệ phản hồi...
 4. Nguyên tắc tự phục vụ phản ánh khuynh hướng phát triển: đối tượng dần tiến đến tự động thực hiện công việc hoàn toàn, nói cách khác, vai trò tham gia của con người sẽ dần tiến tới không. Cao hơn nữa, khi các đối tượng nhân tạo được thay thế bằng các quá trình có sẵn trong tự nhiên thì "tự phục vụ" sẽ đạt được mức lý tưởng.
@@ -1261,7 +1261,7 @@ b) Các phần mất mát của đối tượng phải được phục hồi tr�
 2. Với tinh thần trên, "Nguyên tắc phân hủy hoặc tái sinh các phần" có tính định hướng cao: đưa hệ (đối tượng) về phiá tăng mức độ lý tưởng. Do vậy nguyên tắc này rất có ích trong việc đánh giá, đặt bài toán và dự báo khuynh hướng phát triển của đối tượng....
 3. Cần chú ý tránh tạo ra những tiền lệ khó bỏ, mặc dù đối tượng không còn đóng vai trò gì có ích nữa, nhưng vẫn phải mất chi phí duy trì, bảo quản, chiếm những không gian không cần thiết.... Muốn vậy, cần phải nhìn trước, nghĩ trước, bao quát cả quá trình và những hậu quả có thể có.
 4. Nguyên tắc này hay dùng với các thủ thuật như 2.nguyên tắc 'tách khỏi", 3.nguyên tắc phẩm chất cục bộ, 9 nguyên tắc gây ứng suất sơ bộ. 10. nguyên tắc thực hiện sơ bộ, 11 nguyên tắc dự phòng, 25 nguyên trắc tự phục vụ, 35. Thay đổi các thông số hoá lý của đối tượng, 36. Sử dụng chuyển pha.....
-5. Để thực hiện việc phân hủy hoặc tái sinh , cần chú ý khai thác các nguồn dự trữ có sẵn trong hệ, đặc biệt những nguồn không mất tiền.
+5. Để thực hiện việc phân hủy hoặc tái sinh, cần chú ý khai thác các nguồn dự trữ có sẵn trong hệ, đặc biệt những nguồn không mất tiền.
 
 ### Các thí dụ:
 
@@ -1416,7 +1416,7 @@ Thưa diễn giả đáng kính, thế trước đó người ta thở bằng g�
 ### Nội dung
 
 a) Thay môi trường thông thường bằng môi trường trung hoà.
-b) Đưa thêm vào đối tượng các phần , các chất , phụ gia trung hoà.
+b) Đưa thêm vào đối tượng các phần, các chất, phụ gia trung hoà.
 c) Thực hiện quá trình trong chân không.
 
 ### Nhận xét

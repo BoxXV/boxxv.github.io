@@ -70,7 +70,7 @@ image: "img/post-book-cover.png"
 11. Thực hành xây dựng broadcast lắng nghe các thao tác của người dùng, xây dựng Servicelocal và remote.
 12. Lấy và hiển thị danh sách các bài hát trong bộ nhớ External bằng ListView, xây dựng giao diện chơi nhạc, sử dụng MediaPlayer.
 13. Thực hành sử dụng đối tượng SoudPool để chơi các bài nhạc game, Xây dựng LiveWallPaper ứng dụng
-14. Viết ứng dụng đa phương tiện với Đối tượng GoogleMap, thực hành lồng khung tranh vào layout và chụp ảnh bằng đối tượng CameraCamera , xây dựng View để soạn tin nhắn, nhắn tin trên screen, sử dụng WindowManager và Service WindowManager,.....
+14. Viết ứng dụng đa phương tiện với Đối tượng GoogleMap, thực hành lồng khung tranh vào layout và chụp ảnh bằng đối tượng CameraCamera, xây dựng View để soạn tin nhắn, nhắn tin trên screen, sử dụng WindowManager và Service WindowManager,.....
 15. Xây dựng các phương thức đổi màu background của layout để test bộ cảm biến trên thiết bị.
 16. Thực hành xây dựng kết nối client-server để chat text
 17. Xây dựng các ứng dụng App/ Game chất lượng cao, fix bug.

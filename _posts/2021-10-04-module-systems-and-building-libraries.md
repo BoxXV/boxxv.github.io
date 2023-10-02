@@ -273,7 +273,7 @@ Chúng ta nên có các tập lệnh khác nhau cho từng hệ thống đích t
 - License
 - README
 - Changelog
-- Metadata(`main` , `module`, `bin`) — package.json
+- Metadata(`main`, `module`, `bin`) — package.json
 - Control through **package.json** `files` property
 
 Trong `package.json`, trường `"tệp"` là một mảng các mẫu tệp mô tả các mục nhập sẽ được đưa vào khi gói của bạn được cài đặt dưới dạng phụ thuộc. Nếu bạn đặt tên một thư mục trong mảng, thì nó cũng sẽ bao gồm các tệp bên trong thư mục đó.

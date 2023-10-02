@@ -387,7 +387,7 @@ $ celery -A picha worker -l info
 $ celery -A picha beat -l info
 ```
 
-Khi bạn truy cập trang web trên [http://127.0.0.1:8000/](http://127.0.0.1:8000/) , bây giờ bạn sẽ thấy một hình ảnh. Ứng dụng của chúng tôi nhận được một hình ảnh từ Flickr cứ sau 15 phút:
+Khi bạn truy cập trang web trên [http://127.0.0.1:8000/](http://127.0.0.1:8000/), bây giờ bạn sẽ thấy một hình ảnh. Ứng dụng của chúng tôi nhận được một hình ảnh từ Flickr cứ sau 15 phút:
 
 Hãy nhìn vào `photos/tasks.py` để xem mã. Nhấp vào nút “Feedback” cho phép bạn… gửi một số phản hồi:
 

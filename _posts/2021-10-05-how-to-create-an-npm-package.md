@@ -32,7 +32,7 @@ Tình huống này sẽ là một cơn ác mộng để quản lý thủ công. 
 
 Khi bạn tạo một thư viện `npm`, bạn sẽ tạo một tệp json được gọi `package.json` trong đó bạn chỉ định những phụ thuộc nào mà thư viện JS của bạn có.
 
-Đồng thời, các phụ thuộc trong thư viện của bạn sẽ có các `package.json` tệp riêng của chúng , tạo ra một cây phụ thuộc đầy đủ.
+Đồng thời, các phụ thuộc trong thư viện của bạn sẽ có các `package.json` tệp riêng của chúng, tạo ra một cây phụ thuộc đầy đủ.
 
 Nếu ai đó muốn thêm thư viện của bạn vào dự án của họ, thì họ sẽ chỉ cần chạy:
 

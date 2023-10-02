@@ -136,7 +136,7 @@ Dưới đây là những thư viện được sử dụng nhiều nhất, mà m
 
 ## 7. Big Data
 
-Big Data Engineer là một kỹ sư dữ liệu. Nhiệm vụ của họ là xây dựng các cơ sở hạ tầng có sẵn hoặc khuôn khổ phù hợp cần thiết để sẵn sàng cho việc tạo ra các dữ liệu. Họ thường làm việc thiên về kiến trúc của dữ liệu như thu thập, lưu trữ , và quản lý dữ liệu trong nhiều nhiệm vụ khác nhau.
+Big Data Engineer là một kỹ sư dữ liệu. Nhiệm vụ của họ là xây dựng các cơ sở hạ tầng có sẵn hoặc khuôn khổ phù hợp cần thiết để sẵn sàng cho việc tạo ra các dữ liệu. Họ thường làm việc thiên về kiến trúc của dữ liệu như thu thập, lưu trữ, và quản lý dữ liệu trong nhiều nhiệm vụ khác nhau.
 
 Trong đó, trọng tâm chính của họ là quản lý các cơ sở dữ liệu và công nghệ khai thác dữ liệu lớn hay Big Data. Đáng chú ý nhất có lẽ là việc quản lý và lưu trữ Big Data do đây là dữ liệu có khối lương khổng lồ và tốc độ tăng lên tính tối thiểu theo giây.
 

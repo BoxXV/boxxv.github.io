@@ -207,7 +207,7 @@ Một lần nữa, không có gì đặc biệt, chỉ đáng chú ý rằng, đ
 
 ### Sockets
 
-Windows không hỗ trợ họ ổ cắm AF_UNIX, chỉ hỗ trợ TCP/IP, vì vậy, để minh họa giao tiếp mạng IP, tôi có thể chọn [TCP](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes) hoặc [UDP](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes) , nhưng tôi đã chọn UDP vì hiệu suất tốt hơn và vì tính đơn giản tương đối mà ví dụ này yêu cầu.
+Windows không hỗ trợ họ ổ cắm AF_UNIX, chỉ hỗ trợ TCP/IP, vì vậy, để minh họa giao tiếp mạng IP, tôi có thể chọn [TCP](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes) hoặc [UDP](https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/tcp-classes), nhưng tôi đã chọn UDP vì hiệu suất tốt hơn và vì tính đơn giản tương đối mà ví dụ này yêu cầu.
 
 
 ### .NET Remoting
@@ -271,7 +271,7 @@ COM có khái niệm về một nhà máy lớp, được sử dụng để xây
 
 ### WM_COPYDATA
 
-WM_COPYDATA có thể không nói nhiều với các nhà phát triển .NET, nhưng đối với các nhà phát triển Win32 C/C++ kiểu cũ thì chắc chắn là có! Về cơ bản, đó là cách mà người ta có thể gửi dữ liệu tùy ý, bao gồm cả dữ liệu có cấu trúc, giữa các quy trình (thực ra, nói đúng ra là cửa sổ). Một người sẽ gửi một thông báo WM_COPYDATA tới một tay cầm cửa sổ, đang chạy trên bất kỳ quy trình nào và Windows sẽ đảm nhận việc sắp xếp lại dữ liệu để nó có sẵn bên ngoài không gian địa chỉ của quy trình gửi. Thậm chí có thể gửi nó tới tất cả các quy trình, sử dụng HWND_BROADCAST , nhưng điều đó có lẽ sẽ không khôn ngoan, bởi vì các ứng dụng khác nhau có thể có cách hiểu khác nhau về nó. Ngoài ra, nó cần được chuyển bằng SendMessage , PostMessage sẽ không hoạt động.
+WM_COPYDATA có thể không nói nhiều với các nhà phát triển .NET, nhưng đối với các nhà phát triển Win32 C/C++ kiểu cũ thì chắc chắn là có! Về cơ bản, đó là cách mà người ta có thể gửi dữ liệu tùy ý, bao gồm cả dữ liệu có cấu trúc, giữa các quy trình (thực ra, nói đúng ra là cửa sổ). Một người sẽ gửi một thông báo WM_COPYDATA tới một tay cầm cửa sổ, đang chạy trên bất kỳ quy trình nào và Windows sẽ đảm nhận việc sắp xếp lại dữ liệu để nó có sẵn bên ngoài không gian địa chỉ của quy trình gửi. Thậm chí có thể gửi nó tới tất cả các quy trình, sử dụng HWND_BROADCAST, nhưng điều đó có lẽ sẽ không khôn ngoan, bởi vì các ứng dụng khác nhau có thể có cách hiểu khác nhau về nó. Ngoài ra, nó cần được chuyển bằng SendMessage, PostMessage sẽ không hoạt động.
 
 > [Inter-Process Communication with C#](https://www.codeproject.com/Articles/19570/Inter-Process-Communication-with-C)
 

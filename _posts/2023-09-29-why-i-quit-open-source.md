@@ -26,7 +26,7 @@ GitHub đã xuất bản một bài viết gây tò mò về việc tránh tình
 
 Bài viết có cái nhìn tổng quan về các nguyên nhân có thể dẫn đến kiệt sức và đưa ra một số gợi ý về cách tránh nó. Tuy nhiên, tôi cảm thấy mục tiêu chính của bài viết là thuyết phục những người bảo trì tiếp tục làm những gì họ đang làm càng lâu càng tốt, nghĩa là tiếp tục làm việc miễn phí. Bài báo đề cập ngắn gọn đến việc tài trợ nhưng đối với hầu hết những người bảo trì, việc dựa vào tài trợ hoặc quyên góp là không thực tế.
 
-Tôi nghĩ giải pháp lành mạnh nhất để tránh tình trạng kiệt sức của người bảo trì là loại bỏ hoàn toàn nguồn mở , ít nhất đó là giải pháp hiệu quả với tôi. Thật không may, bản thân tôi đã phải đạt đến trạng thái kiệt sức để hiểu điều đó, và sau đó tôi phải mất một thời gian dài để hồi phục (hoặc thay thế tình trạng kiệt sức của người bảo trì bằng tình trạng kiệt sức ở các lĩnh vực khác của cuộc sống).
+Tôi nghĩ giải pháp lành mạnh nhất để tránh tình trạng kiệt sức của người bảo trì là loại bỏ hoàn toàn nguồn mở, ít nhất đó là giải pháp hiệu quả với tôi. Thật không may, bản thân tôi đã phải đạt đến trạng thái kiệt sức để hiểu điều đó, và sau đó tôi phải mất một thời gian dài để hồi phục (hoặc thay thế tình trạng kiệt sức của người bảo trì bằng tình trạng kiệt sức ở các lĩnh vực khác của cuộc sống).
 
 Trước đây tôi đã nói về lý do tại sao nguồn mở lại hấp dẫn tôi và một chút về lý do tại sao tôi đóng góp ít hơn và cuối cùng từ bỏ nguồn mở .
 
@@ -41,7 +41,7 @@ Mọi người dường như nhớ rằng bạn đang thực hiện những dự
 
 Họ nhớ rằng bạn có thể là người duy nhất làm việc trong dự án, rằng bạn không phải là thành viên của một nhóm lớn được trả tiền để làm việc toàn thời gian nhằm duy trì dự án và giải quyết các vấn đề của người dùng.
 
-Bằng cách nào đó, nguồn mở đã trở thành từ đồng nghĩa với lao động tự do , không chỉ mã miễn phí , và nó có hại cho cả cộng đồng mà chủ yếu là có hại cho những người duy trì các dự án nguồn mở.
+Bằng cách nào đó, nguồn mở đã trở thành từ đồng nghĩa với lao động tự do, không chỉ mã miễn phí, và nó có hại cho cả cộng đồng mà chủ yếu là có hại cho những người duy trì các dự án nguồn mở.
 
 Và sau đó, có tất cả những bình luận độc hại ( chỉ xem một vài ví dụ ) cho bạn biết rằng phần mềm của bạn là rác rưởi và bạn chỉ nêntự sátbỏ lập trình, tất cả những điều bổ ích (“Tôi gặp vấn đề tương tự”), tất cả các ping (“có cập nhật nào về điều này không?”) và các nhận xét spam khác không mang lại bất kỳ giá trị nào…
 
@@ -63,7 +63,7 @@ Hầu hết các dự án của tôi không bao giờ trở nên phổ biến b�
 
 Dự án cuối cùng của tôi, chủ đề màu Squirrelsong là một ví dụ điển hình ở đây. Tôi đã đầu tư rất nhiều thời gian để tạo chủ đề này và tôi nghĩ nó đủ tốt hơn và khác biệt hơn nhiều chủ đề hiện có, tuy nhiên, có vẻ như tôi là người dùng duy nhất.
 
-Dự án nguồn mở phổ biến nhất của tôi, React Styleguidist , có hơn 10 nghìn sao trên GitHub, tuy nhiên, tôi không thể quản lý để xây dựng một cộng đồng xung quanh nó và làm cho nó trở nên tự cung tự cấp. Dự án quá lớn để một người có thể xây dựng nó cũng như quản lý các vấn đề và lấy yêu cầu.
+Dự án nguồn mở phổ biến nhất của tôi, React Styleguidist, có hơn 10 nghìn sao trên GitHub, tuy nhiên, tôi không thể quản lý để xây dựng một cộng đồng xung quanh nó và làm cho nó trở nên tự cung tự cấp. Dự án quá lớn để một người có thể xây dựng nó cũng như quản lý các vấn đề và lấy yêu cầu.
 
 Tôi đã có một số đóng góp tích cực trong nhiều năm trong nhiều dự án khác nhau, nhưng hầu hết chúng đều đòi hỏi sự cộng tác rất nhiều từ phía tôi. Một số người quan tâm đến việc duy trì một số dự án của tôi, nhưng một lần nữa, họ cần rất nhiều sự hướng dẫn từ phía tôi, vì vậy tôi chưa bao giờ cảm thấy điều đó giúp tôi tiết kiệm thời gian và công sức.
 

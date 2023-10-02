@@ -449,7 +449,7 @@ JavaScript
 - [Web Scraping với Nuxtjs sử dụng Puppeteer](https://viblo.asia/p/web-scraping-voi-nuxtjs-su-dung-puppeteer-gDVK2L8vlLj)
 - [Crawl website sử dụng Node.js và Puppeteer - phần 1](https://viblo.asia/p/crawl-website-su-dung-nodejs-va-puppeteer-phan-1-L4x5xv2wZBM)
 - [Crawl website sử dụng Node.js và Puppeteer - phần 2](https://viblo.asia/p/crawl-website-su-dung-nodejs-va-puppeteer-phan-2-3P0lP1kn5ox)
-- [Crawl data using laravel , proxy and simple html dom](https://viblo.asia/p/crawl-data-using-laravel-proxy-and-simple-html-dom-Az45bojwKxY)
+- [Crawl data using laravel, proxy and simple html dom](https://viblo.asia/p/crawl-data-using-laravel-proxy-and-simple-html-dom-Az45bojwKxY)
 - [[P1] Tìm hiểu Headless browser & Puppeteer](https://viblo.asia/p/p1-tim-hieu-headless-browser-puppeteer-63vKjngdK2R)
 - [[P2] - Lấy dữ liệu website bằng puppeteer](https://viblo.asia/p/p2-lay-du-lieu-website-bang-puppeteer-YWOZryPvKQ0)
 - [Build extension to check timesheet on WSM (P1)](https://viblo.asia/p/build-extension-to-check-timesheet-on-wsm-p1-aWj538N1K6m)

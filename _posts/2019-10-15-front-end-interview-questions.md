@@ -160,7 +160,7 @@ Iframe là một văn bản HTML (HTML document) được nhúng vào một tran
 ### 4. Mục đích của thuộc tính alt trong thẻ img?
 Thuộc tính alt cung cấp thông tin về hình ảnh trong trường hợp người dùng không xem được ảnh (sai đường dẫn hoặc ảnh không tìm thấy).
 
-Thuộc tính alt thường được dùng để mô tả thông tin hình ảnh , một số trường hợp thuộc tính alt được dùng trong mục đích trang trí, một số trường hợp thuộc tính alt có thể bị bỏ trống.
+Thuộc tính alt thường được dùng để mô tả thông tin hình ảnh, một số trường hợp thuộc tính alt được dùng trong mục đích trang trí, một số trường hợp thuộc tính alt có thể bị bỏ trống.
 
 ### 5. Khai báo `DOCTYPE` dùng để làm gì?
 Để trình duyệt nhận biết trang html đó được viết ở phiên bản nào.

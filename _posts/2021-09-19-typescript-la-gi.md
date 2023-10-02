@@ -65,7 +65,7 @@ Cách dễ nhât để thiết lập TypeScript là thông qua npm. Sử dụng 
 npm install -g typescript
 ```
 
-Thử mở một cửa sổ terminal ở bất kỳ đâu và chạy lệnh **tsc -v** , nếu cài đặt thành công màn hình sẽ như thế này:
+Thử mở một cửa sổ terminal ở bất kỳ đâu và chạy lệnh **tsc -v**, nếu cài đặt thành công màn hình sẽ như thế này:
 
 ```bat
 tsc -v

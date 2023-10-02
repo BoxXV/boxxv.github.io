@@ -16,7 +16,8 @@ Bài viết này mô tả quy trình bạn sẽ cần làm theo để cho phép 
 ## Cấu hình Firewall Rule trong Google Cloud Platform
 
 #### 1. Mở bảng điều khiển GCP console
-#### 2. Trong thanh công cụ bên trái, chọn `VPC network` , sau đó chọn `Firewall`
+
+#### 2. Trong thanh công cụ bên trái, chọn `VPC network`, sau đó chọn `Firewall`
 ![Dedicated server IP on Google](https://boxxv.github.io/img/gcp/01 Dedicated server IP on Google.png "Dedicated server IP on Google")
 
 #### 3. Chọn `Create Firewall Rule` và điền vào các thông tin sau:

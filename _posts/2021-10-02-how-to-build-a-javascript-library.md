@@ -256,7 +256,7 @@ Bây giờ người dùng sẽ phải tham chiếu đến **.js** cũng như cá
 
 Đó là về nó. Có một số hàm nhỏ hơn mà tôi không đề cập ở đây như `getCurrentImageIndex()`, .v.v. vì chúng không thực sự quan trọng để hiểu quy trình làm việc. Bạn vẫn có thể kiểm tra những điều đó trong [Github Repo](https://github.com/FaisalST32/fs-lightbox).
 
-Vì chúng tôi đã hoàn thành việc xây dựng thư viện của mình, chúng tôi cần hiểu cách xuất bản nó để những người dùng khác có thể sử dụng nó. Chúng tôi có nhiều lựa chọn cho điều đó. Chúng ta có thể sử dụng GitHub , npm , v.v. để lưu trữ thư viện của mình. Luôn nhớ bao gồm một tệp readme nhỏ ghi chi tiết cách sử dụng của thư viện. Bạn có thể tìm thấy ví dụ trong cùng Repo Github. Để biết thêm về việc xuất bản Thư viện, hãy theo dõi blog này. Tôi sẽ sớm viết một bài về nó.
+Vì chúng tôi đã hoàn thành việc xây dựng thư viện của mình, chúng tôi cần hiểu cách xuất bản nó để những người dùng khác có thể sử dụng nó. Chúng tôi có nhiều lựa chọn cho điều đó. Chúng ta có thể sử dụng GitHub, npm, v.v. để lưu trữ thư viện của mình. Luôn nhớ bao gồm một tệp readme nhỏ ghi chi tiết cách sử dụng của thư viện. Bạn có thể tìm thấy ví dụ trong cùng Repo Github. Để biết thêm về việc xuất bản Thư viện, hãy theo dõi blog này. Tôi sẽ sớm viết một bài về nó.
 
 Dài quá; đừng đọc; Để tạo thư viện JavaScript, bạn cần lưu ý đóng gói mã để nó không can thiệp vào mã người dùng, làm cho nó đơn giản và dễ sử dụng và cố gắng đảm bảo rằng nó không có bất kỳ phụ thuộc nào. Bạn làm theo những điều này và bạn sẽ ổn thôi.
 

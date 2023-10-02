@@ -326,13 +326,13 @@ class App extends React.Component {
 	constructor(){
 		super(); 
 		this.state = {
-			person : {name : "" , city : ""}
+			person : {name : "", city : ""}
 		};
 	}
 	componentDidMount(){
 		//make any ajax request
 	 this.setState({
-			person : {name : "Abdul Moiz",city : "Karachi"}
+			person : {name : "Abdul Moiz", city : "Karachi"}
 		});
 	}
 	componentDidUpdate(){
@@ -469,7 +469,7 @@ Một số helper của generator function được redux saga sử dụng:
 
 | So sánh | Redux Thunk | Rudux-saga |
 | -- | -- | -- |
-| Ưu điểm | Đơn giản, mạnh mẽ, dễ sử dụng , dễ tiếp cận đối với các bạn là mới học React | Đối với những dự án phức tạp sử dụng redux-saga code sẽ clean và dễ test hơn so với redux-thunk, giải quyết được những vấn đề về chains of promises |
+| Ưu điểm | Đơn giản, mạnh mẽ, dễ sử dụng, dễ tiếp cận đối với các bạn là mới học React | Đối với những dự án phức tạp sử dụng redux-saga code sẽ clean và dễ test hơn so với redux-thunk, giải quyết được những vấn đề về chains of promises |
 | Nhược điểm | Chỉ phù hợp với các dự án nhỏ, xử lý logic đơn giản. Còn đối với những dự án phức tạp sử dụng redux-thunk sẽ phải tốn nhiều dòng code và gây khó khăn cho việc test các action | Phức tạp, tốn thời gian cho member mới vào team, nặng về xử lý logic, không dành cho những ứng dụng đơn giản |
 
 Trên đây là mình đã chia sẻ về redux-thunk và resux-saga. Đây là 2 middleware library được dùng nhiều trong Reactjs, việc lựa chọn redux-thunk hay redux-saga còn tùy thuộc vào project.

@@ -228,7 +228,7 @@ Chúng ta nên nhớ rằng:
 - Design Pattern được tạo ra để giải quyết vấn đề, chứ không phải để phức tạp hóa nó.
 - Design Pattern giúp code được tối ưu hóa, dễ tái sử dụng, dễ hiểu, dễ nâng cấp sửa chữa.
 
-Qua bài này mình hi vọng mọi người có thể hiểu hơn về design pattern và ưu điểm của nó. Bài tiếp theo chúng ta sẽ đi vào tìm hiểu từng mẫu Design Patterns. Vào chi tiết, nội dung tôi sẽ sử dụng thông tin chủ yếu từ trang SourceMaking, TutorialsPoint , sách Design Patterns – Elements of Reusable Object-Oriented Software (GOF), Design Pattern for dummies và tìm hiểu thêm những kiến thức từ nhiều trang khác để các bạn dễ hiểu hơn. Vì đây là những kiến thức nâng cao nên tôi cũng phải tìm hiểu từ rất nhiều nguồn để tổng hợp lại, cũng như những kinh nghiệm trong các dự án thực tế vào bài viết để giúp cho các bạn dễ tiếp cận nhất có thể. Mong nhận được sự phản hồi và góp ý của các bạn. Thanks a lot!!!
+Qua bài này mình hi vọng mọi người có thể hiểu hơn về design pattern và ưu điểm của nó. Bài tiếp theo chúng ta sẽ đi vào tìm hiểu từng mẫu Design Patterns. Vào chi tiết, nội dung tôi sẽ sử dụng thông tin chủ yếu từ trang SourceMaking, TutorialsPoint, sách Design Patterns – Elements of Reusable Object-Oriented Software (GOF), Design Pattern for dummies và tìm hiểu thêm những kiến thức từ nhiều trang khác để các bạn dễ hiểu hơn. Vì đây là những kiến thức nâng cao nên tôi cũng phải tìm hiểu từ rất nhiều nguồn để tổng hợp lại, cũng như những kinh nghiệm trong các dự án thực tế vào bài viết để giúp cho các bạn dễ tiếp cận nhất có thể. Mong nhận được sự phản hồi và góp ý của các bạn. Thanks a lot!!!
 
 
 

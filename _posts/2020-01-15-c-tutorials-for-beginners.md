@@ -32,8 +32,8 @@ title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng
 
 -----
 ### Lập trình C# trong 5 tuần – Cơ bản
-Lập trình C# trong 5 tuần – Cơ bản khóa họctrang bị cho học viên trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
-- Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
+Lập trình C# trong 5 tuần – Cơ bản khóa họctrang bị cho học viên trọn bộ kiến thức cơ bản của lập trình C#, học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
+- Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C#, học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
 - Cung cấp những cơ hội thực hành tạo ứng dụng C# ngay trong quá trình học
 - Sau khi hoàn thành khóa học, có thể xin việc vào các công ty sử dụng công nghệ .Net
 - Học viên có thể tiếp tục học C# nâng cao với phần tương tác cơ sở dữ liệu
@@ -73,7 +73,7 @@ Lập trình C# trong 5 tuần – Nâng cao khóa học cung cấp kiến thứ
 - Xây dựng được kiến trúc đa tầng trong C#
 - Là cơ sở để lập trình di động đa nền tảng với Xamarin
 - Là cơ sở để tiếp tục nghiên cứu công nghệ mới LINQ
-- Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
+- Khóa học cung cấp trọn bộ kiến thức cơ bản của lập trình C#, học viên có thể tạo ra một ứng dụng C# hoàn chỉnh sau khi hoàn thành khóa học
 - Cung cấp những cơ hội thực hành tạo ứng dụng C# ngay trong quá trình học
 - Sau khi hoàn thành khóa học, có thể xin việc vào các công ty sử dụng công nghệ .Net
 - Học viên có thể tiếp tục học C# nâng cao với phần tương tác cơ sở dữ liệu
@@ -114,7 +114,7 @@ Làm chủ C/C++ trong 4 tuần  khóa học cung cấp trọn bộ kiến th
 
 -----
 ### Thành thạo C++ qua 108 bài học
-Thành thạo C++ qua 108 bài học cung cấp và trang bị trọn bộ kiến thức ngôn ngữ lập trình c++ từ cơ bản đến nâng cao , giúp học viên có thể tạo ra một chương trình một ứng dụng hoàn chỉnh và có thể tự tin đi xin việc
+Thành thạo C++ qua 108 bài học cung cấp và trang bị trọn bộ kiến thức ngôn ngữ lập trình c++ từ cơ bản đến nâng cao, giúp học viên có thể tạo ra một chương trình một ứng dụng hoàn chỉnh và có thể tự tin đi xin việc
 - Tìm hiểu cơ bản về ngôn ngữ lập trình C++(Từ định nghĩa đến kiểu dữ liệu, biến, câu lệnh, mảng, chuỗi … cấu trúc điều khiển, cấu trúc vòng lặp trong C++…)
 - Cách tạo và gọi hàm trong C++
 - Xử lý mảng
@@ -223,7 +223,7 @@ Học thiết kế Website động với ASP.NET WebForm và SQL Server khóa h�
 
 -----
 ### Thành thạo LinQ trong 6 tuần
-Thành thạo LinQ trong 6 tuần  Khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình C# , học viên có thể tạo ra một ứng dụng C# hoàn chỉnh
+Thành thạo LinQ trong 6 tuần  Khóa học cung cấp trọn bộ kiến thức từ cơ bản đến nâng cao của lập trình C#, học viên có thể tạo ra một ứng dụng C# hoàn chỉnh
 - Có được kiến thức toàn diện về ngôn ngữ lập trình C#
 - Có khả năng phát triển phần mềm tương tác cơ sở dữ liệu bằng C#
 - Thành thạo LinQ: LinQ to Object, LinQ to SQL

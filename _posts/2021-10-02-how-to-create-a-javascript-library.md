@@ -28,7 +28,7 @@ Trong khi các nền tảng khác, như Android hoặc iOS, nêu rõ thư viện
 
 ## Ok, Vậy Thư viện Javascript là gì?
 
-Cho dù bạn tạo thư viện của mình bằng cách sử dụng cấu trúc npm hay các [tiêu chuẩn hiện đại](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) khác , nó có thể bao gồm bất kỳ thành phần phát triển chung nào, chẳng hạn như một thể hiện, một lớp, một hàm, một nguyên thủy hoặc một đối tượng (thậm chí là một đối tượng chứa tất cả các mục được liệt kê trước).
+Cho dù bạn tạo thư viện của mình bằng cách sử dụng cấu trúc npm hay các [tiêu chuẩn hiện đại](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) khác, nó có thể bao gồm bất kỳ thành phần phát triển chung nào, chẳng hạn như một thể hiện, một lớp, một hàm, một nguyên thủy hoặc một đối tượng (thậm chí là một đối tượng chứa tất cả các mục được liệt kê trước).
 
 Thư viện JS có thể phức tạp như một đối tượng Singleton, với vòng đời riêng của nó và chạy các tác vụ của nó trong các luồng riêng biệt hoặc đơn giản như một tệp chứa một bộ công cụ tiện dụng.
 
@@ -41,7 +41,7 @@ Trước đây, bạn sẽ tạo một tệp mới, dán mã của bạn và đ�
 
 Vì lý do này, cách phổ biến nhất để tạo thư viện hiện nay là sử dụng `npm`. Các thư viện được tạo cho npm phải tuân theo một quy ước chính xác liên quan đến cấu trúc của chúng, vì vậy phải rõ ràng thư viện làm gì và những phụ thuộc nào khác được yêu cầu.
 
-Chúng tôi đã viết một hướng dẫn đầy đủ về [cách tạo và phân phối thư viện JavaScript trong gói npm](https://boxxv.github.io/2021/10/05/how-to-create-an-npm-package/) , trong đó chúng tôi kết hợp quy trình làm việc chính thức với nhiều mẹo mà chúng tôi đã học được khi phát triển Bugfender JS.
+Chúng tôi đã viết một hướng dẫn đầy đủ về [cách tạo và phân phối thư viện JavaScript trong gói npm](https://boxxv.github.io/2021/10/05/how-to-create-an-npm-package/), trong đó chúng tôi kết hợp quy trình làm việc chính thức với nhiều mẹo mà chúng tôi đã học được khi phát triển Bugfender JS.
 
 
 ### Nếu tôi không muốn sử dụng npm thì sao?
