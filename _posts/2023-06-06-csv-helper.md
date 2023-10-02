@@ -340,7 +340,7 @@ public class CSVService : ICSVService
 }
 {% endhighlight %}
 
-Chúng tôi đã sử dụng một chung cấp phương thức để xử lý lớp mô hình. Chúng tôi có thể sử dụng phương pháp này với bất kỳ lớp mô hình nào để đọc tệp CSV. Chúng tôi cũng đã chuyển luồng tệp dưới dạng tham số cho phương thức ReadCSV . StreamReader đọc văn bản và ký tự từ luồng tệp. Sau đó, chúng tôi đã sử dụng CsvReader để chuyển nội dung đã đọc từ StreamReader vào bộ nhớ. Sau đó, phương thức GetRecords trả về dữ liệu của tệp CSV. Chúng tôi không cần bất kỳ cấu hình nào nếu tên thuộc tính lớp của chúng tôi khớp với tiêu đề của tệp CSV.
+Chúng tôi đã sử dụng một chung cấp phương thức để xử lý lớp mô hình. Chúng tôi có thể sử dụng phương pháp này với bất kỳ lớp mô hình nào để đọc tệp CSV. Chúng tôi cũng đã chuyển luồng tệp dưới dạng tham số cho phương thức ReadCSV. StreamReader đọc văn bản và ký tự từ luồng tệp. Sau đó, chúng tôi đã sử dụng CsvReader để chuyển nội dung đã đọc từ StreamReader vào bộ nhớ. Sau đó, phương thức GetRecords trả về dữ liệu của tệp CSV. Chúng tôi không cần bất kỳ cấu hình nào nếu tên thuộc tính lớp của chúng tôi khớp với tiêu đề của tệp CSV.
 
 Sau tất cả những điều này, hãy đăng ký dịch vụ CSV trong Program.cs, như được hiển thị trong mã tiếp theo.
 

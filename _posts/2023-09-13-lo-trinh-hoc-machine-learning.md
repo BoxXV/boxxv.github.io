@@ -312,7 +312,7 @@ Các hàm được dựng sẵn trong thư viện cho từng bài toán cho phé
 
 AutoML tiện lợi trong việc tạo model
 
-Model được ví như đầu não trong AI . Ứng với việc input data nguồn sẽ xuất ra câu trả lời tương ứng. AutoML là web service được Google cung cấp, bạn không cần có kiến thức về machine learning. Chỉ với lượng data cần tiết, có thể hoàn toàn tự động tạo model machine learning.
+Model được ví như đầu não trong AI. Ứng với việc input data nguồn sẽ xuất ra câu trả lời tương ứng. AutoML là web service được Google cung cấp, bạn không cần có kiến thức về machine learning. Chỉ với lượng data cần tiết, có thể hoàn toàn tự động tạo model machine learning.
 
 #### Neural Network Console
 

@@ -193,7 +193,7 @@ Có thể dùng luôn [Flask](https://flask.palletsprojects.com/en/2.3.x/) để
 
 ### b, Frontend
 
-React hoặc Angularjs xx . Mình làm backend là chính nên cũng không quan tâm lắm, cứ dễ dùng, nhiều support thì mình sài thôi. Trước thì mình có dùng React, nhưng giờ chuyển qua Angularjs xx rồi (xx là version của Angular nhé 😄)
+React hoặc Angularjs xx. Mình làm backend là chính nên cũng không quan tâm lắm, cứ dễ dùng, nhiều support thì mình sài thôi. Trước thì mình có dùng React, nhưng giờ chuyển qua Angularjs xx rồi (xx là version của Angular nhé 😄)
 
 ### c, Quản lý các máy crawler
 

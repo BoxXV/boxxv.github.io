@@ -18,7 +18,7 @@ Nhưng đó không phải là lỗi của họ, những thứ xấu xí mà mọ
 
 Chúng tôi sẽ sử dụng PyQt (sớm nói thêm về điều đó) thay vì Tkinter gần như đã bị xóa khỏi danh sách các thư viện tiêu chuẩn python vì đã lỗi thời.
 
-PyQt là gì (phát âm: pie-cute). Nó là một trong hai cổng của một framework, Qt (phát âm là: dễ thương) từ C++, . Khung đó được gọi là khung cần thiết cho các nhà phát triển C++. Đó là khuôn khổ đằng sau máy xay sinh tố3d, Tableau, Telegram, Anaconda Navigator, IPython, Jupyter Notebook, VirtualBox, VLC, v.v. Chúng tôi sẽ sử dụng nó thay vì Tkinter đáng xấu hổ.
+PyQt là gì (phát âm: pie-cute). Nó là một trong hai cổng của một framework, Qt (phát âm là: dễ thương) từ C++. Khung đó được gọi là khung cần thiết cho các nhà phát triển C++. Đó là khuôn khổ đằng sau máy xay sinh tố3d, Tableau, Telegram, Anaconda Navigator, IPython, Jupyter Notebook, VirtualBox, VLC, v.v. Chúng tôi sẽ sử dụng nó thay vì Tkinter đáng xấu hổ.
 
 Hai cổng của Qt là PySide và PyQt. Cả 2 giống nhau đến 99%. PyQt là cách dễ nhất trong hai cách cài đặt.
 

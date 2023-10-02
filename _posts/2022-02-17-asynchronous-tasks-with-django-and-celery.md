@@ -101,7 +101,7 @@ helloworld/
 
 ### Bước 3: Cài đặt Redis với tư cách là Celery “Broker”
 
-Celery sử dụng "[brokers](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/index.html)" để chuyển các thông điệp giữa Dự án Django và các [workers](https://docs.celeryproject.org/en/latest/userguide/workers.html) Celery . Trong hướng dẫn này, chúng tôi sẽ sử dụng `Redis` làm message broker.
+Celery sử dụng "[brokers](https://docs.celeryproject.org/en/latest/getting-started/backends-and-brokers/index.html)" để chuyển các thông điệp giữa Dự án Django và các [workers](https://docs.celeryproject.org/en/latest/userguide/workers.html) Celery. Trong hướng dẫn này, chúng tôi sẽ sử dụng `Redis` làm message broker.
 
 Đầu tiên, cài đặt [Redis](https://redis.io) từ trang tải xuống chính thức hoặc qua brew (`brew install redis`), sau đó chuyển sang terminal của bạn, trong cửa sổ đầu cuối mới, kích hoạt máy chủ:
 

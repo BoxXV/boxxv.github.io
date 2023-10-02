@@ -21,7 +21,7 @@ Bài đăng này là tổng hợp các mẹo và kiến ​​thức từ nhóm 
 
 ## Cách tốt nhất để tạo một thư viện JavaScript là gì?
 
-Thư viện là một khái niệm mờ trong JavaScript hoặc jQuery . Không có bất kỳ định dạng cụ thể nào cho nó. Tuy nhiên, có nhiều thông số kỹ thuật (mặc dù npm là tiêu chuẩn trên thực tế).
+Thư viện là một khái niệm mờ trong JavaScript hoặc jQuery. Không có bất kỳ định dạng cụ thể nào cho nó. Tuy nhiên, có nhiều thông số kỹ thuật (mặc dù npm là tiêu chuẩn trên thực tế).
 
 Trong khi các nền tảng khác, như Android hoặc iOS, nêu rõ thư viện là gì, định dạng nó phải có và cách tích hợp nó vào một dự án, JavaScript không cung cấp bất kỳ cơ chế tích hợp nào. Nếu bạn là một nhà phát triển thiết bị di động và bạn đang tìm kiếm thứ gì đó giống như `JAR` hoặc `xcframeworks`, bạn sẽ không tìm thấy nó.
 

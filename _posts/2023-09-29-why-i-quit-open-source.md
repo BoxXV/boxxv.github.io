@@ -67,13 +67,13 @@ Dự án nguồn mở phổ biến nhất của tôi, React Styleguidist, có h�
 
 Tôi đã có một số đóng góp tích cực trong nhiều năm trong nhiều dự án khác nhau, nhưng hầu hết chúng đều đòi hỏi sự cộng tác rất nhiều từ phía tôi. Một số người quan tâm đến việc duy trì một số dự án của tôi, nhưng một lần nữa, họ cần rất nhiều sự hướng dẫn từ phía tôi, vì vậy tôi chưa bao giờ cảm thấy điều đó giúp tôi tiết kiệm thời gian và công sức.
 
-Cần có đủ người tích cực làm việc trong dự án để giải quyết các vấn đề, xem xét các yêu cầu kéo và làm việc trên các tính năng mới, vì vậy ngay cả khi một số người trong số họbị xe buýt đâmkhông thể làm việc trên một dự án ngay bây giờ, nó sẽ tiếp tục. Tuy nhiên, trên thực tế, nếu tôi không làm mọi việc, các dự án sẽ dừng hoàn toàn và các vấn đề sẽ bắt đầu chồng chất.
+Cần có đủ người tích cực làm việc trong dự án để giải quyết các vấn đề, xem xét các yêu cầu kéo và làm việc trên các tính năng mới, vì vậy ngay cả khi một số người trong số họ bị xe buýt đâm không thể làm việc trên một dự án ngay bây giờ, nó sẽ tiếp tục. Tuy nhiên, trên thực tế, nếu tôi không làm mọi việc, các dự án sẽ dừng hoàn toàn và các vấn đề sẽ bắt đầu chồng chất.
 
 # Thiếu bồi thường
 
 Duy trì một dự án nguồn mở là một công việc khó khăn và đòi hỏi khắt khe, giống như bất kỳ công việc nào khác. Sự khác biệt là chúng tôi thường được trả tiền để làm các công việc khác chứ không phải cho nguồn mở. Rất ít nhà phát triển có thể kiếm sống (hoặc ít nhất là bất kỳ khoản tiền đáng kể nào) bằng nguồn mở, đối với phần lớn chúng ta, điều đó chẳng là gì ngoài sự thất vọng.
 
-Số tiền nhiều nhất tôi nhận được cho công việc nguồn mở của mình là cho React Styleguidist thông qua Open Collective . Và thỉnh thoảng chỉ mua một gói nhãn dán là đủ. Ngân sách hàng tháng hiện tại của dự án là 8 USD.
+Số tiền nhiều nhất tôi nhận được cho công việc nguồn mở của mình là cho React Styleguidist thông qua Open Collective. Và thỉnh thoảng chỉ mua một gói nhãn dán là đủ. Ngân sách hàng tháng hiện tại của dự án là 8 USD.
 
 Tôi đã thử các nhà tài trợ GitHub nhưng không có kết quả, ngoại trừ khoản đóng góp một lần trị giá 550 USD từ chính GitHub đã bị hủy bỏ một cách bí ẩn cùng ngày.
 
@@ -89,7 +89,7 @@ Có hai vấn đề với công cụ mà những người bảo trì nguồn m�
 - Việc nâng cấp phần phụ thuộc thường mất nhiều thời gian và nếu bạn có nhiều dự án, nó có thể trở thành một cuộc phiêu lưu kéo dài cả năm (tôi thậm chí còn tạo ra một công cụ để trợ giúp việc đó).
 - Nói chung, số lượng cấu hình (TypeScript, linters, bộ đóng gói, bản phát hành, phần phụ thuộc, thử nghiệm, tiếp tục tích hợp, tạo nhật ký thay đổi, v.v., v.v., v.v.) nhanh chóng vượt quá tầm kiểm soát.
 
-Thứ hai, GitHub có thể làm được nhiều hơn thế (còn hơn là không làm gì) để bảo vệ người dùng khỏi những kẻ độc hại . Ví dụ: GitHub có thể:
+Thứ hai, GitHub có thể làm được nhiều hơn thế (còn hơn là không làm gì) để bảo vệ người dùng khỏi những kẻ độc hại. Ví dụ: GitHub có thể:
 
 - Phát hiện các nhận xét độc hại và tự động xóa chúng hoặc đánh dấu chúng để xem xét thủ công.
 - Xóa các nhận xét spam và chuyển đổi các nhận xét cộng thành phản ứng thích.

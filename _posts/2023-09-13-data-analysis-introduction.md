@@ -65,7 +65,7 @@ Hoặc mọi người có thể tham khảo khóa học này của coursera
 
 # TOOL visualize dữ liệu
 
-Có rất nhiều tool có sẵn để bạn trực quan hóa dữ liệu cũng như tạo Dashboard để show cho sếp hay khách hàng. Hoặc như một số bạn bên kinh tế thường hay dùng Excel để tạo báo cáo. CÒn những Tool hiện đại hơn thì có Power BI, Tableau ( mọi người có thể xem mấy bài viết về tableau của mình ở đây) . Mấy tool này mình nghĩ mọi người xem youtube rồi tự thực hành khoảng 1 vài tuần là sẽ ok hơn thôi 😃).
+Có rất nhiều tool có sẵn để bạn trực quan hóa dữ liệu cũng như tạo Dashboard để show cho sếp hay khách hàng. Hoặc như một số bạn bên kinh tế thường hay dùng Excel để tạo báo cáo. CÒn những Tool hiện đại hơn thì có Power BI, Tableau ( mọi người có thể xem mấy bài viết về tableau của mình ở đây). Mấy tool này mình nghĩ mọi người xem youtube rồi tự thực hành khoảng 1 vài tuần là sẽ ok hơn thôi 😃).
 
 # Python
 

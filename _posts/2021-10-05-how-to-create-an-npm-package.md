@@ -109,7 +109,7 @@ Xác định `API` công khai của bạn với `module.exports`
 
 Cách mà bạn cho npm biết thư viện của bạn đang hiển thị những gì bằng cách sử dụng `module.exports`, một đối tượng phải có mặt trong điểm nhập của thư viện của bạn (thường là `index.js` ).
 
-Bạn có thể chỉ định bất cứ điều gì bạn muốn trong `module.exports`. Nó có thể là một số, một hàm, một lớp… Hãy tưởng tượng bạn đang xây dựng mô-đun từ _bugfender-coffee-machine_ mẫu trước đó . Khi người dùng nhập:
+Bạn có thể chỉ định bất cứ điều gì bạn muốn trong `module.exports`. Nó có thể là một số, một hàm, một lớp… Hãy tưởng tượng bạn đang xây dựng mô-đun từ _bugfender-coffee-machine_ mẫu trước đó. Khi người dùng nhập:
 
 {% highlight js %}
 const coffeMachine = require('bugfender-coffee-machine');

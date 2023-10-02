@@ -32,7 +32,7 @@ Hiểu biết cơ bản về internet, trình duyệt, mạng và các kiến th
 
 HTML cung cấp khung của một trang web. Tìm hiểu kiến thức cơ bản về HTML; tìm hiểu các thẻ cơ bản, học cách viết HTML ngữ nghĩa, hiểu SEO cơ bản, tìm hiểu cách chia các trang của bạn thành các phần sẽ giúp bạn tạo kiểu cho chúng.
 
-Hãy biết rằng tôi đã đặt nhiều liên kết cho mỗi tài nguyên. Mặc dù bạn có thể chọn một cái gì đó mới trong khi xem qua từng thứ, nhưng bạn không cần phải xem qua tất cả chúng - nếu bạn cảm thấy như bạn đã hiểu các khái niệm và chỉ đang lặp lại những gì bạn đã học, bạn có thể bỏ qua tài nguyên và chuyển sang phần bài tập . 
+Hãy biết rằng tôi đã đặt nhiều liên kết cho mỗi tài nguyên. Mặc dù bạn có thể chọn một cái gì đó mới trong khi xem qua từng thứ, nhưng bạn không cần phải xem qua tất cả chúng - nếu bạn cảm thấy như bạn đã hiểu các khái niệm và chỉ đang lặp lại những gì bạn đã học, bạn có thể bỏ qua tài nguyên và chuyển sang phần bài tập.
 
 - `Watch` [HTML Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=UB1O30fR-EE)
 - `Read` [W3Schools – HTML Tutorial](https://www.w3schools.com/html/default.asp)

@@ -41,7 +41,7 @@ Những dịch vụ Google Cloud cấp cao
 Google liệt kê hơn [100 sản phẩm](https://cloud.google.com/products) dưới thương hiệu Google Cloud. Một số dịch vụ chính được liệt kê dưới đây.
 
 ### Tính toán
-- App Engine - Nền tảng là một Dịch vụ để triển khai Java, PHP, Node.js, Python, C #, . Các ứng dụng Net, Ruby và Go.
+- App Engine - Nền tảng là một Dịch vụ để triển khai Java, PHP, Node.js, Python, C#. Các ứng dụng Net, Ruby và Go.
 - Compute Engine - Cơ sở hạ tầng như một Dịch vụ để chạy các máy ảo Microsoft Windows và Linux.
 - Kubernetes Engine - Container như một dịch vụ dựa trên Kubernetes.
 - Cloud Functions - Chức năng như một Dịch vụ để chạy mã theo sự kiện được viết bằng Node.js hoặc Python.
