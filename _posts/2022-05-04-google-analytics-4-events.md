@@ -415,3 +415,5 @@ Cuối cùng, bạn cần phải đảm bảo rằng những gì bạn theo dõi
 Tham khảo:
 - [Google Analytics 4 Event Tracking: Your Complete Guide](https://www.lovesdata.com/blog/google-analytics-4-events)
 - [How to See Event Parameters in Google Analytics 4 Reports](https://www.optizent.com/how-to-see-event-parameters-in-google-analytics-4-reports/)
+- [How to Track Events with Google Analytics 4 and Google Tag Manager](https://www.analyticsmania.com/post/how-to-track-events-with-google-analytics-4-and-google-tag-manager/)
+- [Setting Up Custom Dimensions in Google Analytics 4](https://www.kristaseiden.com/setting-up-custom-dimensions-in-google-analytics-4/)
