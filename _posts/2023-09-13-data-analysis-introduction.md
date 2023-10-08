@@ -110,4 +110,14 @@ Trên đây là những kĩ năng skill mình thấy cần trong công việc ph
 -----
 Tham khảo
 - [Học Data Analysis bắt đầu từ con số 0](https://viblo.asia/p/hoc-data-analysis-bat-dau-tu-con-so-0-aAY4qvdQJPw)
+- [Full lộ trình để trở thành 1 Data Scientist](https://youtu.be/dXODkwN6ovo)
+- [Practical Statistics for Data Scientists](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/)
+- [CS229: Machine Learning](https://cs229.stanford.edu/)
+- [Machine Learning for Everybody – Full Course](https://youtu.be/i_LwzRVP7bg)
+- [Công việc hàng ngày của kỹ sư AI](https://youtu.be/rAns6zHkx1w)
+- [Computer Vision Annotation Tool (CVAT)](https://github.com/opencv/cvat)
+- [NVIDIA Jetson Nano 2GB Developer Kit](https://pivietnam.com.vn/nvidia-jetson-nano-2gb-developer-kit-voi-muc-gia-chi-59-lieu-co-tao-nen-su-khac-biet-pivietnam-com-vn.html)
+- [NVIDIA Jetson Nano 2GB Developer Kit](https://hshop.vn/products/may-tinh-ai-nvidia-jetson-nano-2gb-developer-kit)
+- [Object Detection using SSD Mobilenet V2](https://vidishmehta204.medium.com/object-detection-using-ssd-mobilenet-v2-7ff3543d738d)
+- [TPU (Tensor Processing Unit) là gì và được sử dụng như thế nào?](https://quantrimang.com/cong-nghe/tpu-tensor-processing-unit-la-gi-191441)
 - []()
