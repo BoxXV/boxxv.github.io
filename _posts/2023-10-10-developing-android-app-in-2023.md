@@ -365,6 +365,32 @@ Tôi thực sự khuyên bạn nên xem [khóa học miễn phí](https://www.ud
 - [Kodeco](https://www.kodeco.com)
 - [How to Build an Android App in 2023](https://www.spaceotechnologies.com/blog/how-to-build-an-android-app/)
 
+For beginners
+- [Android Training courses](https://developer.android.com/courses)
+
+For beginners
+- [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
+- [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
+
+For experienced Android developers
+- [Jetpack Compose for Android developers](https://developer.android.com/courses/jetpack-compose/course)
+- [Modern Android app architecture](https://developer.android.com/courses/pathways/android-architecture)
+- []()
+- []()
+
+Kotlin language training
+- []()
+- []()
+
+For Android Java developers
+- []()
+- []()
+
+Certification and degree programs
+- []()
+- []()
+- []()
+
 # Tổng kết
 
 Cảm ơn bạn đã đọc. Nếu bạn thích bài viết này, hãy thích, để lại phản hồi và chia sẻ nó với bạn bè của bạn. Happy coding - Lập trình vui vẻ!
@@ -378,6 +404,7 @@ Tham khảo
   + [Behaviour Components of Android Jetpack](https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/)
   + [Behaviour Components of Android Jetpack](https://www.geeksforgeeks.org/ui-components-of-android-jetpack/)
 - [Android Jetpack Compose – Interoperability Using Compose in XML Layouts](https://www.geeksforgeeks.org/android-jetpack-compose-interoperability-using-compose-in-xml-layouts/)
+- [Architecture Components in Android Jetpack](https://www.scaler.com/topics/architecture-components-in-android-jetpack/)
 
 - [Android Jetpack là gì? Tại sao bạn nên biết](https://vntalking.com/android-jetpack-la-gi.html)
 - [Thông Thạo Jetpack – Phần 1 – Jetpack Là Gì?](https://yellowcodebooks.com/2021/04/07/thong_thao_jetpack_phan_1_jetpack_la_gi/)
