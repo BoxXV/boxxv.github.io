@@ -21,36 +21,37 @@ tags:
 	- [Android Jetpack là gì?](#android-jetpack-là-gì)
 		- [Ưu điểm của Android Jetpack](#ưu-điểm-của-android-jetpack)
 		- [Lợi ích của Android Jetpack](#lợi-ích-của-android-jetpack)
+		- [What's new in Jetpack?](#whats-new-in-jetpack)
 	- [I. Architecture](#i-architecture)
-		- [Data Binding](#data-binding)
-		- [Lifecycles](#lifecycles)
-		- [LiveData](#livedata)
-		- [Navigation](#navigation)
-		- [Paging](#paging)
-		- [Room](#room)
-		- [ViewModel](#viewmodel)
-		- [WorkManager](#workmanager)
+		- [1. Data Binding](#1-data-binding)
+		- [2. Lifecycles](#2-lifecycles)
+		- [3. LiveData](#3-livedata)
+		- [4. Navigation](#4-navigation)
+		- [5. Paging](#5-paging)
+		- [6. Room](#6-room)
+		- [7. ViewModel](#7-viewmodel)
+		- [8. WorkManager](#8-workmanager)
 	- [II. Foundation](#ii-foundation)
-		- [AppCompat](#appcompat)
-		- [Android KTX](#android-ktx)
-		- [Multidex](#multidex)
+		- [1. AppCompat](#1-appcompat)
+		- [2. Android KTX](#2-android-ktx)
+		- [3. Multidex](#3-multidex)
 		- [Test](#test)
 	- [III. UI](#iii-ui)
-		- [Animation \& transitions](#animation--transitions)
-		- [Auto](#auto)
-		- [Emoji](#emoji)
-		- [Fragment](#fragment)
-		- [Layout](#layout)
-		- [Palette](#palette)
-		- [TV](#tv)
-		- [Wear OS by Google](#wear-os-by-google)
+		- [1. Animation \& transitions](#1-animation--transitions)
+		- [2. Auto](#2-auto)
+		- [3. Emoji](#3-emoji)
+		- [4. Fragment](#4-fragment)
+		- [5. Layout](#5-layout)
+		- [6. Palette](#6-palette)
+		- [7. TV](#7-tv)
+		- [8. Wear OS by Google](#8-wear-os-by-google)
 	- [IV. Behavior](#iv-behavior)
 		- [Download manager](#download-manager)
-		- [Media \& playback](#media--playback)
-		- [Notifications](#notifications)
-		- [Permissions](#permissions)
-		- [Sharing](#sharing)
-		- [Slices](#slices)
+		- [1. Media \& playback](#1-media--playback)
+		- [2. Notifications](#2-notifications)
+		- [3. Permissions](#3-permissions)
+		- [4. Sharing](#4-sharing)
+		- [5. Slices](#5-slices)
 	- [Jetpack Compose](#jetpack-compose)
 - [Kotlin Coroutines](#kotlin-coroutines)
 - [Asynchronous Flow](#asynchronous-flow)
@@ -127,23 +128,27 @@ Tuy nhiên, bạn không phải bắt buộc phải sử dụng tất cả chún
 
 - **Tăng trải nghiệm người dùng**: Nhờ vào các thành phần Behavior như Navigation và Paging, Android Jetpack giúp tạo ra trải nghiệm người dùng tốt hơn, dễ dàng điều hướng và tiếp cận nội dung.
 
+### What's new in Jetpack? 
+
+- [What's new in Jetpack?](https://viblo.asia/p/whats-new-in-jetpack-maGK76yL5j2)
+
 
 ## I. [Architecture](https://developer.android.com/topic/architecture)
 
 Các thành phần ở nhóm này sẽ tập trung vào việc làm sao có thể xây dựng một ứng dụng nhanh chóng, dễ dàng kiểm lỗi cũng như dễ bảo trì, sữa chữa sau này. Có thể kể đến các thành phần này bao gồm `Data Binding`, `Lifecycles`, `LiveData`, `Navigation`, `Paging`, `Room`, `ViewModel`, `WorkManager`, ….
 
-### [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
+### 1. [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
 
 
-### [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle)
+### 2. [Lifecycles](https://developer.android.com/topic/libraries/architecture/lifecycle)
 
 Quản lý vòng đời Activity và fragment
 
-### [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+### 3. [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
 
 Notify views khi dữ liệu bên dưới thay đổi
 
-### [Navigation](https://developer.android.com/topic/libraries/architecture/navigation.html)
+### 4. [Navigation](https://developer.android.com/topic/libraries/architecture/navigation.html)
 
 Handle tất cả các chức năng liên quan tới Navigation
 
@@ -164,7 +169,9 @@ Mình có thể liệt kê một số tính năng hay ho của Navigation compon
 
 Cuối cùng, trình chỉnh sửa Navigation Editor trong Android Studio 3.2 còn cho phép bạn xem và quản lý các navigation properties của mình một cách rất trực quan.
 
-### [Paging](https://developer.android.com/topic/libraries/architecture/paging)
+- [Android Navigation Component](https://www.youtube.com/playlist?list=PLRoAKls-7kksIt8rkahuC6erNcQy45NYk)
+
+### 5. [Paging](https://developer.android.com/topic/libraries/architecture/paging)
 
 Phân trang theo yêu cầu từ data source
 
@@ -174,15 +181,15 @@ Paging component giúp việc tải dữ liệu trở nên dễ dàng. Đồng t
 
 Paging component có thể tải dữ liệu phân trang từ bộ nhớ cục bộ, mạng hoặc cả hai. Nó hoạt động hiệu quả hơn hẳn so với Room, LiveData và RxJava.
 
-### [Room](https://developer.android.com/training/data-storage/room)
+### 6. [Room](https://developer.android.com/training/data-storage/room)
 
 Hỗ trợ truy cập và điều khiển dễ dàng hơn trong SQLite database
 
-### [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
+### 7. [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel)
 
 Quản lý dữ liệu liên quan đến giao diện người dùng theo vòng đời
 
-### [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
+### 8. [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
 
 Quản lý các công việc trong Android background
 
@@ -201,11 +208,11 @@ Foundation components cung cấp core system capabilities, các extensions của
 
 Các thành phần ở nhóm này được gọi là các thành phần nền tảng. Cũng như tên gọi, chúng sẽ là các thư viện giúp tác động đến nền tảng của Android, như thư viện tương thích ngược, các thư viện hỗ trợ Kotlin cũng như hỗ trợ cho việc testing. Chúng bao gồm `App Compat`, `Android KTX`, `Multidex`, `Test`, ….
 
-### [AppCompat](https://developer.android.com/topic/libraries/support-library/packages.html#v7-appcompat)
+### 1. [AppCompat](https://developer.android.com/topic/libraries/support-library/packages.html#v7-appcompat)
 
 Tương thích ngược với các phiên bản cũ của android
 
-### [Android KTX](https://developer.android.com/kotlin/ktx.html)
+### 2. [Android KTX](https://developer.android.com/kotlin/ktx.html)
 
 Viết code Kotlin ngắn gọn, dễ hiểu hơn
 
@@ -228,7 +235,7 @@ thành mã ngắn gọn hơn rất nhiều:
 view.doOnPreDraw { actionToBeTriggered() }
 ```
 
-### [Multidex](https://developer.android.com/build/multidex)
+### 3. [Multidex](https://developer.android.com/build/multidex)
 
 Cung cấp khả năng hỗ trợ cho apps apps với multiple DEX files
 
@@ -241,35 +248,35 @@ Framwork cho Android testing bao gồm unit và runtime UI tests
 
 Nó giúp chúng ta xây dựng nên ứng dụng với giao diện đẹp hơn, chuyên nghiệp hơn và sáng sủa hơn. Như `Animation and transitions`, `Auto`, `Emoji`, `Fragment`, `Layout`, `Palette`, `TV`, `Wear`, ….
 
-### [Animation & transitions](https://developer.android.com/develop/ui/views/animations)
+### 1. [Animation & transitions](https://developer.android.com/develop/ui/views/animations)
 
 Di chuyển widgets và các transition giữa các màn hình
 
-### [Auto](https://developer.android.com/cars)
+### 2. [Auto](https://developer.android.com/cars)
 
 Thành phần giúp phát triển ứng dụng cho Android Auto.
 
-### [Emoji](https://developer.android.com/develop/ui/views/text-and-emoji/emoji-compat)
+### 3. [Emoji](https://developer.android.com/develop/ui/views/text-and-emoji/emoji-compat)
 
 Kích hoạt và cập nhật các emoji cho các nền tảng cũ
 
-### [Fragment](https://developer.android.com/guide/fragments)
+### 4. [Fragment](https://developer.android.com/guide/fragments)
 
 Một thành phần cơ bản trong UI
 
-### [Layout](https://developer.android.com/develop/ui/views/layout/declaring-layout)
+### 5. [Layout](https://developer.android.com/develop/ui/views/layout/declaring-layout)
 
 Bố trí các widgets bằng cách sử dụng thuật toán khác nhau
 
-### [Palette](https://developer.android.com/develop/ui/views/graphics/palette-colors)
+### 6. [Palette](https://developer.android.com/develop/ui/views/graphics/palette-colors)
 
 Trình chọn màu
 
-### [TV](https://developer.android.com/tv)
+### 7. [TV](https://developer.android.com/tv)
 
 Thành phần giúp phát triển ứng dụng cho Android TV.
 
-### [Wear OS by Google](https://developer.android.com/wear)
+### 8. [Wear OS by Google](https://developer.android.com/wear)
 
 Thành phần giúp phát triển ứng dụng cho Wear.
 
@@ -282,23 +289,23 @@ Các thành phần ở nhóm này sẽ giúp ứng dụng của chúng ta có th
 
 Đặt lịch & quản lý các tác vụ tải xuống
 
-### [Media & playback](https://developer.android.com/guide/topics/media/legacy)
+### 1. [Media & playback](https://developer.android.com/guide/topics/media/legacy)
 
 Hỗ trợ tương thích ngược cho việc phát media và routing (bao gồm cả Google Cast)
 
-### [Notifications](https://developer.android.com/develop/ui/views/notifications)
+### 2. [Notifications](https://developer.android.com/develop/ui/views/notifications)
 
 Cung cấp các API tương thích ngược cho việc hiển thị thông báo, hỗ trợ cả Wear và Auto
 
-### [Permissions](https://developer.android.com/guide/topics/permissions/overview)
+### 3. [Permissions](https://developer.android.com/guide/topics/permissions/overview)
 
 Cung cấp các API cho việc kiểm tra và yêu cầu các quyền trong android
 
-### [Sharing](https://developer.android.com/training/sharing)
+### 4. [Sharing](https://developer.android.com/training/sharing)
 
 Cung cấp các hành động chia sẻ phù hợp với action bar của ứng dụng
 
-### [Slices](https://developer.android.com/guide/slices)
+### 5. [Slices](https://developer.android.com/guide/slices)
 
 Tạo các UI linh hoạt có thể hiển thị dữ liệu ứng dụng bên ngoài ứng dụng.
 
@@ -313,6 +320,20 @@ Tạo các UI linh hoạt có thể hiển thị dữ liệu ứng dụng bên n
 [Jetpack Compose](https://developer.android.com/jetpack/compose) là bộ công cụ hiện đại được Android khuyên dùng để xây dựng giao diện người dùng gốc. Nó đủ trưởng thành và cho phép bạn xây dựng giao diện người dùng dễ dàng hơn, nhanh hơn và ít mã hơn. Hơn nữa, bố cục XML dựa trên Soạn thảo và Chế độ xem có thể được kết hợp. Bạn có thể thêm giao diện người dùng Compose vào một ứng dụng hiện có sử dụng thiết kế dựa trên Chế độ xem hoặc bao gồm hệ phân cấp Chế độ xem Android trong giao diện người dùng Compose. Cách tiếp cận này đặc biệt hữu ích nếu bạn muốn sử dụng các thành phần giao diện người dùng chưa có trong Compose, như AdView hoặc MediaPlayer. Khi bạn bắt đầu một dự án mới, không có lý do gì để sử dụng bố cục XML nữa.
 
 - [MDC for Android](https://m3.material.io/develop/android/mdc-android)
+- [25 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLHRvASjG6y05T7jdDC4YTwhTAT28rbYI1)
+- [35 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+- [93 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLSrm9z4zp4mEWwyiuYgVMWcDFdsebhM-r)
+- [Android - Jetpack Compose](https://viblo.asia/p/android-jetpack-compose-L4x5x4qr5BM)
+- [Cơ bản về Jetpack Compose](https://viblo.asia/p/co-ban-ve-jetpack-compose-Qbq5QQB35D8)
+- [Jetpack Compose - UI Framework mới của Android ](https://viblo.asia/p/jetpack-compose-ui-framework-moi-cua-android-oOVlYoJoK8W)
+- [Sử dụng Jetpack Compose để dựng UI trong Android](https://viblo.asia/p/su-dung-jetpack-compose-de-dung-ui-trong-android-m68Z07MMKkG)
+- [Sử dụng Jetpack Compose cho project Android với mô hình MVVM](https://viblo.asia/p/su-dung-jetpack-compose-cho-project-android-voi-mo-hinh-mvvm-OeVKBJg0KkW)
+- [Jetpack Compose cho người mới bắt đầu](https://viblo.asia/p/jetpack-compose-cho-nguoi-moi-bat-dau-phan-1-RnB5ppp75PG)
+- [Jetpack Compose Tutorial - Step by Step Guide](https://viblo.asia/p/jetpack-compose-tutorial-step-by-step-guide-phan-1-924lJmraZPM)
+- [Tản mạn về Jetpack Compose - Phần I](https://viblo.asia/p/tan-man-ve-jetpack-compose-maGK76qD5j2)
+- [Tản mạn về Jetpack Compose - Phần II](https://viblo.asia/p/tan-man-ve-jetpack-compose-RnB5pp6d5PG)
+- [Material theme trong jetpack compose](https://viblo.asia/p/material-theme-trong-jetpack-compose-jvEla9Nmlkw)
+
 
 # Kotlin Coroutines
 
