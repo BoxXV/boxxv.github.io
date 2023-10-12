@@ -21,7 +21,7 @@ tags:
 	- [Android Jetpack là gì?](#android-jetpack-là-gì)
 		- [Ưu điểm của Android Jetpack](#ưu-điểm-của-android-jetpack)
 		- [Lợi ích của Android Jetpack](#lợi-ích-của-android-jetpack)
-	- [Architecture](#architecture)
+	- [I. Architecture](#i-architecture)
 		- [Data Binding](#data-binding)
 		- [Lifecycles](#lifecycles)
 		- [LiveData](#livedata)
@@ -30,12 +30,12 @@ tags:
 		- [Room](#room)
 		- [ViewModel](#viewmodel)
 		- [WorkManager](#workmanager)
-	- [Foundation](#foundation)
+	- [II. Foundation](#ii-foundation)
 		- [AppCompat](#appcompat)
 		- [Android KTX](#android-ktx)
 		- [Multidex](#multidex)
 		- [Test](#test)
-	- [UI](#ui)
+	- [III. UI](#iii-ui)
 		- [Animation \& transitions](#animation--transitions)
 		- [Auto](#auto)
 		- [Emoji](#emoji)
@@ -44,7 +44,7 @@ tags:
 		- [Palette](#palette)
 		- [TV](#tv)
 		- [Wear OS by Google](#wear-os-by-google)
-	- [Behavior](#behavior)
+	- [IV. Behavior](#iv-behavior)
 		- [Download manager](#download-manager)
 		- [Media \& playback](#media--playback)
 		- [Notifications](#notifications)
@@ -80,7 +80,7 @@ Nếu bạn thực sự không biết thì đã vài năm trôi qua kể từ kh
 
 ## Android Jetpack là gì?
 
-Android Jetpack là một tập hợp các components, tools giúp bạn nhanh chóng tạo ra các ứng dụng Android tuyệt vời. Các components này kết hợp giữa Support Library và Architecture Components.
+Jetpack là một bộ các thư viện được Google giới thiệu từ tháng 5 năm 2018. Android Jetpack là một tập hợp các components, tools giúp bạn nhanh chóng tạo ra các ứng dụng Android tuyệt vời. Các components này kết hợp giữa Support Library và Architecture Components.
 
 Có thể phân loại Android Jetpack thành 4 thành phần chính:
 
@@ -91,28 +91,28 @@ Có thể phân loại Android Jetpack thành 4 thành phần chính:
 
 ![Jetpack](https://boxxv.github.io/img/2023/36.png "Jetpack")
 
-Nên nhớ đây chỉ là mô hình ở lần giới thiệu đầu tiên của Google về Jetpack. Những thư viện được đánh dấu là new! là những thứ mới toanh từ ngày ra mắt, số còn lại thì đã có sẵn rồi.
+Nên nhớ đây chỉ là mô hình ở lần giới thiệu đầu tiên của Google về Jetpack. Những thư viện được đánh dấu là `new!` là những thứ mới toanh từ ngày ra mắt, số còn lại thì đã có sẵn rồi.
 
 Một năm sau đó, Google bổ sung vào bộ sưu tập Jetpack này một loạt thư viện nữa. Bao gồm CameraX hay các thư viện nâng cấp cho các thư viện trước đây. Và đặc biệt, thời gian này còn có một khái niệm mới ra đời, đó là Jetpack Compose (đây là gì thì mình sẽ có loạt bài viết riêng, mặc dù chúng cũng nằm trong họ Jetpack nhưng kiến thức về chúng là rất nhiều, do đó mình phải tách ra nói riêng thôi).
 
 ### Ưu điểm của Android Jetpack
 
-1. Tính “mở”: 
+- **1. Tính “mở”**: 
 Để hiểu kỹ hơn và trả lời câu hỏi Android Jetpack là gì? thì hãy xem xét: Các Android Jetpack components được cung cấp dưới dạng các thư viện “mở”, không phải là một phần của nền tảng Android cơ bản. Điều này có nghĩa là bạn có thể dễ dàng áp dụng từng component.
 
 Mỗi khi Android Jetpack có thêm một tính năng mới, bạn có thể dễ dàng thêm nó vào trong ứng dụng của mình, triển khai ứng dụng trên Play Store và cung cấp cho người dùng tất cả các tính năng mới chỉ trong một ngày. Các thư viện mở sẽ được chuyển vào androidx.* namespace mới.
 
-2. Tính tương thích ngược: 
+- **2. Tính tương thích ngược**: 
 Ngoài ra, ứng dụng của bạn có thể chạy mượt mà trên nhiều phiên bản của Android mà không lo lắng về tính tương thích. Tại sao ư?
 
 Vì đơn giản là Android Jetpack được xây dựng dựa trên Support Library. Mà các thư viện này được các nhà phát triển Android  tạo ra để cung cấp các chức năng độc lập với các phiên Android, và có tính tương thích ngược rất tốt.
 
 Ví dụ như: Ứng dụng của bạn sử dụng Fragment mà lại muốn hỗ trợ Android 3.0 trở xuống? Chính là lúc bạn nghĩ tới Support Library đấy.
 
-3. Dễ dàng testing: 
+- **3. Dễ dàng testing**: 
 Hơn nữa, Android Jetpack còn có thiết kế rất tốt cho việc testing. Nó tách biệt giữa phần chức năng và phần test. Điều này giúp bạn dễ dàng kiểm tra, nâng cao chất lượng ứng dụng.
 
-4. Các component độc lập với nhau: 
+- **4. Các component độc lập với nhau**: 
 Mặc dù các components của Android Jetpack được xây dựng để hoạt động cùng nhau. Ví dụ: lifecycle awareness và live data.
 
 Tuy nhiên, bạn không phải bắt buộc phải sử dụng tất cả chúng. Bạn có thể tích hợp từng phần của Android Jetpack để giải quyết một vấn đề của bạn. Điều này giúp cho ứng dụng trở nên nhẹ nhàng.
@@ -128,9 +128,9 @@ Tuy nhiên, bạn không phải bắt buộc phải sử dụng tất cả chún
 - **Tăng trải nghiệm người dùng**: Nhờ vào các thành phần Behavior như Navigation và Paging, Android Jetpack giúp tạo ra trải nghiệm người dùng tốt hơn, dễ dàng điều hướng và tiếp cận nội dung.
 
 
-## [Architecture](https://developer.android.com/topic/architecture)
+## I. [Architecture](https://developer.android.com/topic/architecture)
 
-Các thành phần ở nhóm này sẽ tập trung vào việc làm sao có thể xây dựng một ứng dụng nhanh chóng, dễ dàng kiểm lỗi cũng như dễ bảo trì, sữa chữa sau này.
+Các thành phần ở nhóm này sẽ tập trung vào việc làm sao có thể xây dựng một ứng dụng nhanh chóng, dễ dàng kiểm lỗi cũng như dễ bảo trì, sữa chữa sau này. Có thể kể đến các thành phần này bao gồm `Data Binding`, `Lifecycles`, `LiveData`, `Navigation`, `Paging`, `Room`, `ViewModel`, `WorkManager`, ….
 
 ### [Data Binding](https://developer.android.com/topic/libraries/data-binding/)
 
@@ -168,6 +168,12 @@ Cuối cùng, trình chỉnh sửa Navigation Editor trong Android Studio 3.2 c�
 
 Phân trang theo yêu cầu từ data source
 
+Thông thường, người ta sẽ không tải toàn bộ dữ liệu và hiển thị ra màn hình. Vì điều đó sẽ vừa tốn thời gian lấy dữ liệu, vừa tốn thời gian và tài nguyên để hiển thị. Do vậy, người ta chỉ tải từng phần của dữ liệu. Đây chính là khái niệm paging.
+
+Paging component giúp việc tải dữ liệu trở nên dễ dàng. Đồng thời giúp việc hiển thị các tập dữ liệu lớn với tốc độ cuộn nhanh hơn, không giới hạn với RecyclerView.
+
+Paging component có thể tải dữ liệu phân trang từ bộ nhớ cục bộ, mạng hoặc cả hai. Nó hoạt động hiệu quả hơn hẳn so với Room, LiveData và RxJava.
+
 ### [Room](https://developer.android.com/training/data-storage/room)
 
 Hỗ trợ truy cập và điều khiển dễ dàng hơn trong SQLite database
@@ -189,7 +195,11 @@ WorkManager cung cấp một API có khả năng làm việc trên các thiết 
 Ngoài ra, WorkManager còn có khả năng tạo biểu đồ công việc và truy vấn trạng thái công việc của bạn.
 
 
-## Foundation
+## II. Foundation
+
+Foundation components cung cấp core system capabilities, các extensions của Kotlin cùng với việc hỗ trợ multidex và automated testing.
+
+Các thành phần ở nhóm này được gọi là các thành phần nền tảng. Cũng như tên gọi, chúng sẽ là các thư viện giúp tác động đến nền tảng của Android, như thư viện tương thích ngược, các thư viện hỗ trợ Kotlin cũng như hỗ trợ cho việc testing. Chúng bao gồm `App Compat`, `Android KTX`, `Multidex`, `Test`, ….
 
 ### [AppCompat](https://developer.android.com/topic/libraries/support-library/packages.html#v7-appcompat)
 
@@ -198,6 +208,25 @@ Tương thích ngược với các phiên bản cũ của android
 ### [Android KTX](https://developer.android.com/kotlin/ktx.html)
 
 Viết code Kotlin ngắn gọn, dễ hiểu hơn
+
+Android KTX cho phép bạn chuyển đổi mã Kotlin từ như thế này:
+
+```java
+view.viewTreeObserver.addOnPreDrawListener(
+  object : ViewTreeObserver.OnPreDrawListener {
+    override fun onPreDraw(): Boolean {
+      viewTreeObserver.removeOnPreDrawListener(this)
+      actionToBeTriggered()
+      return true
+    }
+});
+```
+
+thành mã ngắn gọn hơn rất nhiều:
+
+```kotlin
+view.doOnPreDraw { actionToBeTriggered() }
+```
 
 ### [Multidex](https://developer.android.com/build/multidex)
 
@@ -208,7 +237,9 @@ Cung cấp khả năng hỗ trợ cho apps apps với multiple DEX files
 Framwork cho Android testing bao gồm unit và runtime UI tests
 
 
-## UI
+## III. UI
+
+Nó giúp chúng ta xây dựng nên ứng dụng với giao diện đẹp hơn, chuyên nghiệp hơn và sáng sủa hơn. Như `Animation and transitions`, `Auto`, `Emoji`, `Fragment`, `Layout`, `Palette`, `TV`, `Wear`, ….
 
 ### [Animation & transitions](https://developer.android.com/develop/ui/views/animations)
 
@@ -243,7 +274,9 @@ Thành phần giúp phát triển ứng dụng cho Android TV.
 Thành phần giúp phát triển ứng dụng cho Wear.
 
 
-## Behavior
+## IV. Behavior
+
+Các thành phần ở nhóm này sẽ giúp ứng dụng của chúng ta có thể kết nối dễ dàng đến các dịch vụ của hệ thống. Bao gồm `Download Manager`, `Media & Playback`, `CameraX`, `Notifications`, `Permissions`, `Preferences`, `Sharing`, `Slices`, ….
 
 ### [Download manager](https://developer.android.com/reference/android/app/DownloadManager)
 
@@ -269,6 +302,11 @@ Cung cấp các hành động chia sẻ phù hợp với action bar của ứng 
 
 Tạo các UI linh hoạt có thể hiển thị dữ liệu ứng dụng bên ngoài ứng dụng.
 
+Để hoàn thiện bộ các tính năng mới ra mắt của Android Jetpack thì không thể không nhắc đến Slices component.
+
+“Slice” là cách để hiển thị UI của ứng dụng bên trong Google Assistant.
+
+-----
 
 ## Jetpack Compose
 
@@ -349,6 +387,7 @@ Tham khảo
 - [Thông Thạo Jetpack – Phần 5 – Navigation (Tập 3)](https://yellowcodebooks.com/2021/06/24/thong-thao-jetpack-phan-5-navigation-tap-3/)
 - [Thông Thạo Jetpack – Phần 6 – Navigation (Tập Cuối)](https://yellowcodebooks.com/2021/08/31/thong-thao-jetpack-phan-6-navigation-tap-cuoi/)
 - [Android Architecture Component](https://yellowcodebooks.com/category/lap-trinh-android/android-nang-cao/android-nang-cao-android-architecture-component/)
+
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 1: Giới Thiệu Các Mô Hình Kiến Trúc](https://yellowcodebooks.com/2020/04/22/modern-android-architectures-mvc-mvp-mvvm-phan-1-gioi-thieu-cac-mo-hinh-kien-truc/)
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 2: Kiến Trúc MVC](https://yellowcodebooks.com/2020/05/27/modern-android-architectures-mvc-mvp-mvvm-phan-2-kien-truc-mvc/)
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 3: Kiến Trúc MVP](https://yellowcodebooks.com/2022/03/06/modern-android-architectures-mvc-mvp-mvvm-phan-3-kien-truc-mvp/)
