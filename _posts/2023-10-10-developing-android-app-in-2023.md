@@ -170,6 +170,10 @@ Mình có thể liệt kê một số tính năng hay ho của Navigation compon
 Cuối cùng, trình chỉnh sửa Navigation Editor trong Android Studio 3.2 còn cho phép bạn xem và quản lý các navigation properties của mình một cách rất trực quan.
 
 - [Android Navigation Component](https://www.youtube.com/playlist?list=PLRoAKls-7kksIt8rkahuC6erNcQy45NYk)
+- [Migrate Jetpack Navigation to Navigation Compose](https://developer.android.com/jetpack/compose/migrate/migration-scenarios/navigation)
+- [Codelabs - Navigate between screens with Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation)
+- [Effortless Navigation with Compose](https://blog.stackademic.com/effortless-navigation-with-compose-30d37ddf5625)
+
 
 ### 5. [Paging](https://developer.android.com/topic/libraries/architecture/paging)
 
@@ -333,6 +337,12 @@ Tạo các UI linh hoạt có thể hiển thị dữ liệu ứng dụng bên n
 - [Tản mạn về Jetpack Compose - Phần I](https://viblo.asia/p/tan-man-ve-jetpack-compose-maGK76qD5j2)
 - [Tản mạn về Jetpack Compose - Phần II](https://viblo.asia/p/tan-man-ve-jetpack-compose-RnB5pp6d5PG)
 - [Material theme trong jetpack compose](https://viblo.asia/p/material-theme-trong-jetpack-compose-jvEla9Nmlkw)
+
+- [Codelabs - Navigate between screens with Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation)
+- [Effortless Navigation with Compose](https://blog.stackademic.com/effortless-navigation-with-compose-30d37ddf5625)
+- [Navigation Basics in Jetpack Compose](https://youtu.be/glyqjzkc4fk)
+- [Full Guide to Nested Navigation Graphs in Jetpack Compose](https://youtu.be/FIEnIBq7Ups)
+- [Migrate Jetpack Navigation to Navigation Compose](https://developer.android.com/jetpack/compose/migrate/migration-scenarios/navigation)
 
 
 # Kotlin Coroutines

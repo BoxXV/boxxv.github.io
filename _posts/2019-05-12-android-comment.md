@@ -10,7 +10,17 @@ tags:
 modified: 2019-05-13
 ---
 
+# Mục lục
+
+- [Mục lục](#mục-lục)
+- [File header](#file-header)
+- [TODO comments](#todo-comments)
+- [Warning of Consequence](#warning-of-consequence)
+- [Explanation of Intent](#explanation-of-intent)
+- [Legal Comments](#legal-comments)
+
 Một chú thích trong Android phải đứng trước khai báo lớp (class), trường, hàm tạo hoặc phương thức. Nó được tạo thành từ hai phần: một mô tả theo sau là các block tags. Trong ví dụ này, các block tags là `@param`, `@return` và `@see`.
+
 ```java
 /**
  * Returns an Image object that can then be painted on the screen. 
@@ -36,7 +46,39 @@ Một chú thích trong Android phải đứng trước khai báo lớp (class),
  }
 ```
 
-## TODO comments
+# File header
+
+```java
+//===============================================================================================================
+// System  : ${USER} on $Date
+// File    : Master.cs
+// Author  : Mr. Smith (mrsmith@example.com)
+// Updated : $Date
+// Note    : Copyright 2018-2023, Microsoft, All rights reserved
+//
+// This file contains the main logic for the application.
+//
+//    Date     Who  Comments
+// ==============================================================================================================
+// $Date  Mr. Smith  Created the code
+// $Date  Mrs. Smith  Add update API Report
+//===============================================================================================================
+```
+
+【Ví dụ】
+
+```c
+//------------------------------------------------------------------------------------------------------------
+// FileName: PLCComm.cs
+// Author: Mr. Smith（RFVN.com）
+// CreateDate: 2014/05/21
+// Version: 1.0.0
+// Summary: Class kết nối PLC
+// Update: 1.0.0 2014/05/21 Mr. Smith（Microsoft.com)） Create
+//------------------------------------------------------------------------------------------------------------
+```
+
+# TODO comments
 Chúng ta nên viết chú thích TODO để lưu ý điều gì đó mà chúng ta sẽ làm trong fuction
 ```java
 // TODO-MdM these are not needed
@@ -46,7 +88,7 @@ protected VersionInfo makeVersion() throws Exception {
 }
 ```
 
-## Warning of Consequence
+# Warning of Consequence
 Cảnh báo về hậu quả là tốt nếu chúng ta sử dụng chú thích để giải thích một số lý do đặc biệt
 ```java
 public static SimpleDateFormat makeStandardHttpDateFormat() {
@@ -58,7 +100,7 @@ public static SimpleDateFormat makeStandardHttpDateFormat() {
 }
 ```
 
-## Explanation of Intent
+# Explanation of Intent
 Trong ví dụ dưới đây, sẽ tốt hơn nếu chúng ta có thể thay đổi giá trị trả về rõ ràng hơn. Nhưng khi nó là một phần của thư viện chuẩn hoặc trong mã mà bạn không thể thay đổi thì một chú thích về ý định có thể hữu ích
 ```java
 assertTrue(a.compareTo(a) == 0); // a == a
@@ -66,7 +108,7 @@ assertTrue(a.compareTo(b) != 0);  // a != b
 assertTrue(ab.compareTo(ab) == 0); // ab == ab
 ```
 
-## Legal Comments
+# Legal Comments
 Chú thích pháp lý giúp người khác biết mã nguồn đến từ đâu và khi nào
 ```java
 // Copyright (C) 2003,2004,2005 by Object Mentor, Inc. All rights reserved.
