@@ -16,10 +16,39 @@ tags:
 # Mục lục
 
 - [Mục lục](#mục-lục)
-- [Java đã chết, Kotlin trường tồn](#java-đã-chết-kotlin-trường-tồn)
-- [Jetpack](#jetpack)
-  - [Android Jetpack là gì?](#android-jetpack-là-gì)
-  - [Jetpack Compose](#jetpack-compose)
+- [Tổng quan](#tổng-quan)
+  - [Giải quyết vấn đề với Jetpack Compose](#giải-quyết-vấn-đề-với-jetpack-compose)
+  - [Đặc điểm cơ bản của Jetpack Compose](#đặc-điểm-cơ-bản-của-jetpack-compose)
+- [Các thành phần của Jetpack Compose](#các-thành-phần-của-jetpack-compose)
+  - [1. Surface](#1-surface)
+  - [2. Scaffold](#2-scaffold)
+  - [3. TopAppBar](#3-topappbar)
+  - [4. FloatingActionButton](#4-floatingactionbutton)
+  - [5. Card](#5-card)
+  - [6. Box](#6-box)
+  - [7. Row](#7-row)
+  - [8. Column](#8-column)
+  - [9. Spacer](#9-spacer)
+  - [10. Text](#10-text)
+  - [11. TextButton](#11-textbutton)
+  - [12. TextField](#12-textfield)
+  - [13. Button](#13-button)
+  - [14. Image](#14-image)
+  - [15. Icon](#15-icon)
+  - [16. LazyColumn](#16-lazycolumn)
+  - [17. LazyRow](#17-lazyrow)
+  - [18. LazyVerticalGrid](#18-lazyverticalgrid)
+  - [19. AlertDialog](#19-alertdialog)
+  - [20. CircularProgressIndicator](#20-circularprogressindicator)
+  - [21. LinearProgressIndicator](#21-linearprogressindicator)
+  - [22. CheckBox](#22-checkbox)
+  - [23. RadioButton](#23-radiobutton)
+  - [24. Slider](#24-slider)
+  - [25. Switch](#25-switch)
+  - [26. SnackBar](#26-snackbar)
+  - [27. Divider](#27-divider)
+  - [28. DropDownMenu](#28-dropdownmenu)
+  - [Live Preview](#live-preview)
 - [Example App](#example-app)
 - [Free Resources](#free-resources)
 - [Ứng dụng được xây dựng bằng Compose](#ứng-dụng-được-xây-dựng-bằng-compose)
@@ -29,37 +58,175 @@ tags:
 
 ![Compose](https://boxxv.github.io/img/2023/android-tips-for-working-with-preview-in-jetpack-compose.png "Compose")
 
-Trong bài viết ngắn này, tôi tóm tắt một số đề xuất cũng như thực tiễn tốt nhất và phổ biến mới dành cho nhà phát triển ứng dụng Android. Hãy thoải mái sử dụng chúng khi bạn xây dựng một dự án greenfield mới hoặc khi bạn muốn loại bỏ giao diện cũ khỏi các ứng dụng hiện có của mình.
+# Tổng quan
 
-# Java đã chết, Kotlin trường tồn
+Tại Google I/O 2019, Google đã giới thiệu Jetpack Compose. Cùng với đó, Android Studio 4.0 (phiên bản thử nghiệm) cũng đã hỗ trợ phát triển ứng dụng sử dụng Jetpack Compose.
 
-Nếu bạn thực sự không biết thì đã vài năm trôi qua kể từ khi Google [thông báo](https://developer.android.com/kotlin/first) rằng việc phát triển Android sẽ ưu tiên Kotlin lên hàng đầu. Kotlin không chỉ an toàn hơn, được thiết kế tốt hơn và ít dài dòng hơn Java mà không có Kotlin trong cơ sở mã của bạn, bạn sẽ không thể sử dụng các công cụ và thư viện hiện đại như Jetpack Compose hoặc lập trình không đồng bộ bằng Coroutines.
+[`Jetpack Compose`](https://developer.android.com/jetpack/compose?hl=vi) là một bộ công cụ hiện đại, được khuyên dùng cho Android để xây dựng giao diện người dùng gốc (native). Công cụ này đơn giản hoá và đẩy nhanh quá trình phát triển giao diện người dùng trên Android. Nhanh chóng đưa ứng dụng vào hoạt động với mã ngắn gọn hơn, các công cụ mạnh mẽ và API Kotlin trực quan. Đối với ai từng lập trình Flutter hoặc React Native thì sẽ dễ dàng hơn rất nhiều vì ý tưởng của compose cũng dựa trên việc thiết kế UI theo dạng cây.
 
-![Kotlin-first](https://boxxv.github.io/img/2023/5b84c1f10041d41f8d50.jpg "Kotlin-first")
+- [Thiết lập môi trường](https://developer.android.com/jetpack/compose/setup?hl=vi) phát triển và dùng Compose.
 
-- [Kotlin Foundation](https://kotlinfoundation.org)
-- [Android's commitment to Kotlin](https://android-developers.googleblog.com/2019/12/androids-commitment-to-kotlin.html)
+![Java đã chết, Kotlin trường tồn](https://boxxv.github.io/img/2023/5b84c1f10041d41f8d50.jpg "Java đã chết, Kotlin trường tồn")
 
-# Jetpack
+## Giải quyết vấn đề với Jetpack Compose
 
-## Android Jetpack là gì?
+Compose có cơ chế khá giống với các khung UI framework hiện có như React, Litho hoặc Flutter.
 
-Jetpack là một bộ các thư viện được Google giới thiệu từ tháng 5 năm 2018. Android Jetpack là một tập hợp các components, tools giúp bạn nhanh chóng tạo ra các ứng dụng Android tuyệt vời. Các components này kết hợp giữa Support Library và Architecture Components.
+UI framework hiện tại của Android đã có từ năm 2008 và theo thời gian, nó đã trở nên phức tạp hơn rất nhiều. Jetpack Compose ra đời nhằm mục đích bắt đầu sự mới mẻ trong việc thiết kế giao diện dựa trên các component. Framework này được viết với các mục tiêu chính:
 
-Có thể phân loại Android Jetpack thành 4 thành phần chính:
+- **Tách biệt khỏi các bản platform release**: Điều này cho phép việc sửa lỗi và release sản phẩm nhanh chóng hơn vì nó độc lập với các bản phát hành Android mới.
+- **Ít các thành phần giao diện hơn**: Không bắt buộc bạn phải sử dụng View hay Fragment khi tạo giao diện người dùng của mình. Tất cả mọi thứ là một component và có thể được kết hợp tự do với nhau.
+- **Làm rõ quyền sở hữu trạng thái (state) và xử lý sự kiện**: Một trong những điều quan trọng và phức tạp nhất để có trong các ứng dụng lớn là việc xử lý luồng dữ liệu và trạng thái trong giao diện người dùng của bạn. Compose cho ta biết rõ cái gì đang chịu trách nhiệm về trạng thái và cách xử lý các sự kiện, tương tự như cách React xử lý việc này.
+- **Viết ít mã hơn**: Viết UI trong Android thường yêu cầu RẤT NHIỀU mã, đặc biệt là khi tạo bố cục phức tạp hơn (ví dụ với RecyclerView chẳng hạn). Compose đơn giản hóa đáng kể cách bạn xây dựng giao diện người dùng của mình.
 
-- Foumdation components (Ví dụ: ktx, appcompat, multidex, test)
-- Architecture components (Ví dụ: Data Binding, Lifecycles, ViewModel, Livedata, Room, Paging, Navigation, WorkManager)
-- Behavior components (Ví dụ: Download manager, Media, Notifications, Permissions, Sharing, Slices)
-- UI components (Ví dụ: Animations, Auto, Emoji, Fragment, Layout, Palette, TV, Wear OS )
+Điều này giúp ta dễ dàng tạo các thành phần biệt lập và có thể tái sử dụng, khiến việc tạo một màn hình mới với các thành phần hiện có trở nên dễ dàng hơn. Giúp bạn có nhiều thời gian hơn tập trung vào việc tạo trải nghiệm người dùng tuyệt vời thay vì cố gắng giữ giữ View hierarchy thật phẳng.
 
-![Jetpack](https://boxxv.github.io/img/2023/36.png "Jetpack")
+## Đặc điểm cơ bản của Jetpack Compose
 
-Nên nhớ đây chỉ là mô hình ở lần giới thiệu đầu tiên của Google về Jetpack. Những thư viện được đánh dấu là `new!` là những thứ mới toanh từ ngày ra mắt, số còn lại thì đã có sẵn rồi.
+- `@Composable` là annotation dùng để đánh dấu một function là compose function.
+- `@Model` là annotation được dùng để đánh dấu một class sẽ làm cho ui tương ứng với class đó được cập nhật khi giá trị của model thay đổi.
+- Luồng của dữ liệu luôn luôn là từ trên xuống dưới. Do đó, trong mô hình MVVM dữ liệu sẽ đi từ Repository -> ViewModel -> Activity và từ Activity thì stateModel được update, từ đó UI được update.
+- Để có thể xử lý các sự kiện từ UI như là click button, chúng ta sẽ sử dụng biểu thức lambda để cập nhật Activity mà sự kiện này xảy ra. Từ Activity, luồng sự kiện sẽ là Activity -> ViewModel -> Repository và từ Repository dữ liệu sẽ được gửi trở về bằng luồng đã được nhắc tới ở trên.
+- Ứng dụng này chỉ sử dụng cho mục đích demo là chủ yếu, do đó mình sẽ cố gắng sử dụng ít code nhất có thể. Cùng với đó, mình sẽ không sử dụng Repository Pattern mà thay vào đó là dữ liệu tĩnh được khởi tạo trục tiếp từ trong ViewModel.
 
-Một năm sau đó, Google bổ sung vào bộ sưu tập Jetpack này một loạt thư viện nữa. Bao gồm CameraX hay các thư viện nâng cấp cho các thư viện trước đây. Và đặc biệt, thời gian này còn có một khái niệm mới ra đời, đó là Jetpack Compose (đây là gì thì mình sẽ có loạt bài viết riêng, mặc dù chúng cũng nằm trong họ Jetpack nhưng kiến thức về chúng là rất nhiều, do đó mình phải tách ra nói riêng thôi).
+# Các thành phần của Jetpack Compose
 
-## Jetpack Compose
+Jetpack Compose có nhiều thành phần khác nhau và linh hoạt để soạn giao diện người dùng của bạn trên màn hình và trên blog này chúng tôi sẽ khám phá từng thành phần một, vì vậy, không chần chừ gì nữa, hãy chuyển sang phần tiếp theo và bắt đầu khám phá !!!
+
+> Lưu ý: Giống như mọi thứ trong Flutter đều là Widget, hầu hết mọi thứ trong Compose đều có thể kết hợp hoặc nằm trong một hàm được chú thích bằng `@Composable`. Giống như ví dụ dưới đây:
+
+```kotlin
+@Composable
+fun YourComposable() {
+    //Your implementation on composable or UI components placed together in it.
+}
+```
+
+## 1. Surface
+
+> A Surface is anything on which you can place any other components or apply some property on it to give some shape or look.
+
+Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành phần nào khác lên đó hoặc áp dụng một số thuộc tính lên nó để tạo ra một số hình dạng hoặc diện mạo.
+
+
+## 2. Scaffold
+
+> Scaffold is kind of a basic structure that any app can have in general. For example, Toolbar or TopAppBar, Side Drawer, Bottom Navigation Menu, FloatingActionButton, Main Content, etc.
+
+
+## 3. TopAppBar
+
+> TopAppBar as the name suggests stays at the top of your screen and acts a Toolbar in Android from where you can handle back navigation(s), options menu and things like that.
+
+
+## 4. FloatingActionButton
+
+> A FloatingActionButton or FAB acts as the floating button in your screen which you can keep to allow user to perform some quick action or jump into next screen.
+
+## 5. Card
+
+> A Card is a that layout which we can use to display a particular part of our screen little bit elevated or with rounded corners mostly we use this to design our list’s single row item.
+
+## 6. Box
+
+> A Box in Compose is a layout which renders its child components stack over each other and provides various properties to align its children according to the requirement. It is similar to Stack in Flutter and FrameLayout in Android XML.
+
+## 7. Row
+
+> A Row places its child components in horizontal manner as the name suggests and similar to LinearLayout with “horizontal” orientation in Android XML.
+
+## 8. Column
+
+> A Column places its child components in vertical manner as the name suggests and similar to LinearLayout with “vertical” orientation in Android XML.
+
+## 9. Spacer
+
+> A Spacer is that component which we can use it for providing space between different components. It is similar to View in Android XML.
+
+## 10. Text
+
+> A Text is a simple label or text you want to display on screen to portray or convey something.
+
+## 11. TextButton
+
+> A TextButton is a mix of Text and Button component means it will look like a Text but it can be clickable as well.
+
+## 12. TextField
+
+> A TextField in Compose is similar to EditText in Android and it allows user to input some value in it.
+
+## 13. Button
+
+> A Button in Compose is a way to show an actionable component which can be clicked and can perform some given action.
+
+## 14. Image
+
+> An Image in Compose is used to display image or picture from remote URL, drawable, or, app assets. You can use Coil Compose library to display remote image URL in your Image component.
+
+## 15. Icon
+
+> An Icon is used to display various different icons to provide some added information about that field or label. You can also wrap Icon under IconButton component to upgrade that icon to make it clickable as well.
+
+## 16. LazyColumn
+
+> A LazyColumn represents a list of data displayed in vertical manner and it is similar to RecyclerView with a vertical LinearLayout orientation.
+
+## 17. LazyRow
+
+> A LazyRow represents a list of data displayed in horizontal manner and it is similar to RecyclerView with a horizontal LinearLayout orientation.
+
+## 18. LazyVerticalGrid
+
+> A LazyVerticalGrid represents a grid of data displayed in vertical manner and it is similar to RecyclerView with a vertical GridLayoutManager.
+
+## 19. AlertDialog
+
+> An AlertDialog in Compose serves the similar purpose as in other languages of showing a dialog or popup to the user on performing some action on the app components.
+
+## 20. CircularProgressIndicator
+
+> A CircularProgressIndicator is a component used to show any kind of progress in circular or circle shaped indicator. It can be determinate and indeterminate.
+
+## 21. LinearProgressIndicator
+
+> A LinearProgressIndicator is a component used to show any kind of progress in linear or horizontally placed indicator. It can also be determinate and indeterminate.
+
+## 22. CheckBox
+
+> A Checkbox component in Compose provides functionality of choosing multiple items from given list of items for example selection of hobbies.
+
+## 23. RadioButton
+
+> A RadioButton component in Compose provides functionality of choosing single item from given list of items for example selection of gender.
+
+## 24. Slider
+
+> A Slider component in Compose provides functionality of choosing some value by sliding through one horizontal slider for example choosing price from low to high.
+
+## 25. Switch
+
+> A Switch component in Compose provides functionality of choosing from two possible options for example enable push notifications or not.
+
+## 26. SnackBar
+
+> A SnackBar component in Compose provides functionality of showing a minimal popup kind of layout for temporary basis to convey some information to the user like showing — Your post is updated !!!
+
+## 27. Divider
+
+> A Divider component in Compose provides functionality of showing a horizontal or vertical line in between some components in your screen to convey some partition or difference.
+
+## 28. DropDownMenu
+
+> A DropDownMenu component in Compose provides functionality of choosing single item from list of related items like choosing profession from dropdown menu.
+
+
+## Live Preview
+
+Live Preview là một tính năng của ANdorid Studio cho phép bạn kiểm tra và so sánh các composable functions thông qua orientation, kích thước font và theme mà không cần phải deploy lại ứng dụng.
+
+Để tạo một live preview, tạo mới một composable function không có tham số bao gồm annotation `@Preview` ở bên trên annotation `@Composable``:
+
+- [Android - Jetpack Compose](https://viblo.asia/p/android-jetpack-compose-L4x5x4qr5BM)
 
 [Jetpack Compose](https://developer.android.com/jetpack/compose) là bộ công cụ hiện đại được Android khuyên dùng để xây dựng giao diện người dùng gốc. Nó đủ trưởng thành và cho phép bạn xây dựng giao diện người dùng dễ dàng hơn, nhanh hơn và ít mã hơn. Hơn nữa, bố cục XML dựa trên Soạn thảo và Chế độ xem có thể được kết hợp. Bạn có thể thêm giao diện người dùng Compose vào một ứng dụng hiện có sử dụng thiết kế dựa trên Chế độ xem hoặc bao gồm hệ phân cấp Chế độ xem Android trong giao diện người dùng Compose. Cách tiếp cận này đặc biệt hữu ích nếu bạn muốn sử dụng các thành phần giao diện người dùng chưa có trong Compose, như AdView hoặc MediaPlayer. Khi bạn bắt đầu một dự án mới, không có lý do gì để sử dụng bố cục XML nữa.
 
@@ -127,7 +294,15 @@ Tham khảo
 - [Tips for working with Preview in Jetpack Compose](https://nimblehq.co/blog/tips-for-working-with-preview-in-jetpack-compose)
 - [Jetpack Compose 1.4 Essentials: Developing Android Apps with Jetpack Compose 1.4, Android Studio, and Kotlin](https://www.amazon.com/Jetpack-Compose-1-4-Essentials-Developing-ebook/dp/B0CHMSDJDY/)
 - [Jetpack Compose by Tutorials (Second Edition): Building Beautiful UI With Jetpack Compose](https://www.amazon.com/Jetpack-Compose-Tutorials-Second-Beautiful/dp/1950325830/)
+- [Cheat sheet for Jetpack Compose](https://proandroiddev.com/cheat-sheet-for-jetpack-compose-7a197909fa42)
+- [The Ultimate Jetpack Compose Cheat Sheet](https://hackernoon.com/the-ultimate-jetpack-compose-cheat-sheet)
+- [Jetpack Compose Cheat Sheet: Part One](https://medium.com/jetpack-composers/jetpack-compose-cheat-sheet-part-one-263e0a26a844)
+- [Jetpack Compose Cheat Sheet: Part Two](https://medium.com/jetpack-composers/jetpack-compose-cheat-sheet-part-two-6321f8c5d980)
+- [Jetpack Compose Cheat Sheet: Part Three](https://medium.com/jetpack-composers/jetpack-compose-cheat-sheet-part-three-299cd6e21872)
+- [Jetpack Compose Cheat Sheet: Part Four](https://dharmeshbasapati.medium.com/jetpack-compose-cheat-sheet-part-four-10b713e7790a)
 - []()
+- [Animation cheat sheet](https://developer.android.com/jetpack/compose/animation/resources)
+- [Testing cheatsheet](https://developer.android.com/jetpack/compose/testing-cheatsheet)
 
 - [MDC for Android](https://m3.material.io/develop/android/mdc-android)
 - [25 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLHRvASjG6y05T7jdDC4YTwhTAT28rbYI1)
@@ -138,6 +313,7 @@ Tham khảo
 - [Jetpack Compose - UI Framework mới của Android ](https://viblo.asia/p/jetpack-compose-ui-framework-moi-cua-android-oOVlYoJoK8W)
 - [Sử dụng Jetpack Compose để dựng UI trong Android](https://viblo.asia/p/su-dung-jetpack-compose-de-dung-ui-trong-android-m68Z07MMKkG)
 - [Sử dụng Jetpack Compose cho project Android với mô hình MVVM](https://viblo.asia/p/su-dung-jetpack-compose-cho-project-android-voi-mo-hinh-mvvm-OeVKBJg0KkW)
+- [Jetpack Compose With MVVM](https://medium.com/@kushaldave2011/jetpack-compose-with-mvvm-5c8b0ad00e50)
 - [Jetpack Compose cho người mới bắt đầu](https://viblo.asia/p/jetpack-compose-cho-nguoi-moi-bat-dau-phan-1-RnB5ppp75PG)
 - [Jetpack Compose Tutorial - Step by Step Guide](https://viblo.asia/p/jetpack-compose-tutorial-step-by-step-guide-phan-1-924lJmraZPM)
 - [Tản mạn về Jetpack Compose - Phần I](https://viblo.asia/p/tan-man-ve-jetpack-compose-maGK76qD5j2)
