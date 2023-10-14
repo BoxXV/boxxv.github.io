@@ -35,9 +35,9 @@ tags:
 		- [1. AppCompat](#1-appcompat)
 		- [2. Android KTX](#2-android-ktx)
 		- [3. Multidex](#3-multidex)
-		- [Test](#test)
+		- [4. Test](#4-test)
 	- [III. UI](#iii-ui)
-		- [1. Animation \& transitions](#1-animation--transitions)
+		- [1. Animation and transitions](#1-animation-and-transitions)
 		- [2. Auto](#2-auto)
 		- [3. Emoji](#3-emoji)
 		- [4. Fragment](#4-fragment)
@@ -248,7 +248,7 @@ view.doOnPreDraw { actionToBeTriggered() }
 
 Cung cấp khả năng hỗ trợ cho apps apps với multiple DEX files
 
-### [Test](https://developer.android.com/training/testing)
+### 4. [Test](https://developer.android.com/training/testing)
 
 Framwork cho Android testing bao gồm unit và runtime UI tests
 
@@ -257,7 +257,7 @@ Framwork cho Android testing bao gồm unit và runtime UI tests
 
 Nó giúp chúng ta xây dựng nên ứng dụng với giao diện đẹp hơn, chuyên nghiệp hơn và sáng sủa hơn. Như `Animation and transitions`, `Auto`, `Emoji`, `Fragment`, `Layout`, `Palette`, `TV`, `Wear`, ….
 
-### 1. [Animation & transitions](https://developer.android.com/develop/ui/views/animations)
+### 1. [Animation and transitions](https://developer.android.com/develop/ui/views/animations)
 
 Di chuyển widgets và các transition giữa các màn hình
 

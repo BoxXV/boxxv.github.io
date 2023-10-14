@@ -119,6 +119,17 @@ fun YourComposable() {
 Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành phần nào khác lên đó hoặc áp dụng một số thuộc tính lên nó để tạo ra một số hình dạng hoặc diện mạo.
 
 ```kotlin
+@Composable
+fun ShowSurfaceSample() {
+    Surface(
+        modifier = Modifier.padding(8.dp),
+        border = BorderStroke(2.dp, Color.Black),
+        contentColor = Color.White,
+        elevation = 8.dp,
+        shape = RoundedCornerShape(10.dp),
+        color = Color.DarkGray
+    ) {}
+}
 ```
 
 ## 2. Scaffold
@@ -126,6 +137,26 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > Scaffold is kind of a basic structure that any app can have in general. For example, Toolbar or TopAppBar, Side Drawer, Bottom Navigation Menu, FloatingActionButton, Main Content, etc.
 
 ```kotlin
+@Composable
+fun ShowScaffoldSample() {
+    Surface(modifier = Modifier.padding(20.dp)) {
+        Scaffold(
+            topBar = {
+                TopAppBar(
+                    title = { Text(text = "App Toolbar") },
+                )
+            },
+            content = {
+                Surface(color = Color.DarkGray, modifier = Modifier.fillMaxSize()) {}
+            },
+            floatingActionButton = {
+                FloatingActionButton(onClick = { someActionOnFabClick() }) {
+                    Icon(painter = painterResource(id = R.drawable.sample_image), contentDescription = null)
+                }
+            }
+        )
+    }
+}
 ```
 
 ## 3. TopAppBar
@@ -133,6 +164,21 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > TopAppBar as the name suggests stays at the top of your screen and acts a Toolbar in Android from where you can handle back navigation(s), options menu and things like that.
 
 ```kotlin
+@Composable
+fun TopAppBarWithBackArrow() {
+    TopAppBar(
+        title = { Text(text = "Toolbar Title") },
+        navigationIcon = {
+            IconButton(onClick = { goBackToPreviousScreen() }) {
+                Icon(
+                    Icons.Filled.ArrowBack,
+                    contentDescription = null,
+                    tint = Color.White
+                )
+            }
+        }
+    )
+}
 ```
 
 ## 4. FloatingActionButton
@@ -140,6 +186,21 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A FloatingActionButton or FAB acts as the floating button in your screen which you can keep to allow user to perform some quick action or jump into next screen.
 
 ```kotlin
+@Composable
+fun ShowFABSample() {
+    Scaffold(
+        content = {
+            Surface(color = Color.DarkGray, modifier = Modifier.fillMaxSize()) {}
+        },
+        floatingActionButton = {
+            FloatingActionButton(onClick = { toast(mContext, "FAB Clicked") }) {
+                Text("Add")
+                //or
+                Icon(painter = painterResource(id = R.drawable.ic_add_user), contentDescription = null)
+            }
+        }
+    )
+}
 ```
 
 ## 5. Card
@@ -147,13 +208,44 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A Card is a that layout which we can use to display a particular part of our screen little bit elevated or with rounded corners mostly we use this to design our list’s single row item.
 
 ```kotlin
+@Composable
+fun ShowCardSample() {
+    Card(
+        elevation = 5.dp,
+        modifier = Modifier
+            .padding(5.dp)
+            .wrapContentHeight()
+    ) {
+        Text(text = "Text inside Card", Modifier.padding(15.dp))
+    }
+}
 ```
 
 ## 6. Box
 
 > A Box in Compose is a layout which renders its child components stack over each other and provides various properties to align its children according to the requirement. It is similar to Stack in Flutter and FrameLayout in Android XML.
 
+![Compose](https://boxxv.github.io/img/2023/4d191637aaecf374_856.png "Compose")
+
 ```kotlin
+@Composable
+fun ShowBoxSample() {
+    Box(modifier = Modifier.size(200.dp)) {
+        Surface(
+            color = Color.Black, modifier = Modifier
+                .size(150.dp)
+                .align(alignment = Alignment.Center)
+        ) {}
+        Icon(
+            Icons.Filled.CheckCircle,
+            contentDescription = null,
+            tint = Color.Yellow,
+            modifier = Modifier
+                .align(alignment = Alignment.Center)
+                .size(50.dp)
+        )
+    }
+}
 ```
 
 ## 7. Row
@@ -161,15 +253,40 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A Row places its child components in horizontal manner as the name suggests and similar to LinearLayout with “horizontal” orientation in Android XML.
 
 ```kotlin
+@Composable
+fun ShowRowSample(modifier: Modifier = Modifier) {
+    Surface(
+            modifier
+            .fillMaxWidth()
+            .padding(20.dp)
+    ) {
+        Row {
+            Text(text = "Item 1")
+            Text(text = "Item 2")
+            Text(text = "Item 3")
+        }
+     } 
+}
 ```
 
-![Row](https://boxxv.github.io/img/2023/51c199c8a23bd6a8_856.png "Row")
+![Compose](https://boxxv.github.io/img/2023/51c199c8a23bd6a8_856.png "Compose")
 
 ## 8. Column
 
 > A Column places its child components in vertical manner as the name suggests and similar to LinearLayout with “vertical” orientation in Android XML.
 
 ```kotlin
+@Composable
+fun ShowColumnSample(modifier: Modifier = Modifier) {
+    Surface(
+      modifier.padding(20.dp)) {
+        Column {
+            Text(text = "Item 1")
+            Text(text = "Item 2")
+            Text(text = "Item 3")
+        }
+     } 
+}
 ```
 
 ## 9. Spacer
@@ -177,6 +294,24 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A Spacer is that component which we can use it for providing space between different components. It is similar to View in Android XML.
 
 ```kotlin
+@Composable
+fun ShowSpacerSample() {
+    Column(Modifier.padding(20.dp)) {
+        Column {
+            Text("Layout with 40 DP height as space between buttons")
+            Button(onClick = {}) { Text("Button One") }
+            Spacer(Modifier.height(40.dp))
+            Button(onClick = {}) { Text("Button Two") }
+        }
+        Spacer(Modifier.height(40.dp))
+        Text("Layout with 40 DP width as space between buttons")
+        Row {
+            Button(onClick = {}) { Text("Button One") }
+            Spacer(Modifier.width(40.dp))
+            Button(onClick = {}) { Text("Button Two") }
+        }
+    }
+}
 ```
 
 ## 10. Text
@@ -184,6 +319,16 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A Text is a simple label or text you want to display on screen to portray or convey something.
 
 ```kotlin
+@Composable
+fun ShowTextSample() {
+    Text(
+        text = "This is the sample to show text in action",
+        fontWeight = FontWeight.Bold,
+        fontSize = 30.sp,
+        fontFamily = FontFamily.Cursive,
+        color = Color.Green,
+    )
+}
 ```
 
 ## 11. TextButton
@@ -191,6 +336,18 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A TextButton is a mix of Text and Button component means it will look like a Text but it can be clickable as well.
 
 ```kotlin
+@Composable
+fun ShowTextButtonSample(modifier: Modifier = Modifier) {
+    val mContext = LocalContext.current
+    TextButton(
+        modifier = modifier
+            .padding(20.dp)
+            .fillMaxWidth()
+            .wrapContentHeight(),
+        onClick = { toast(mContext, "You clicked TextButton") }) {
+        Text("I'm a Text Button")
+    }
+}
 ```
 
 ## 12. TextField
@@ -198,6 +355,42 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A TextField in Compose is similar to EditText in Android and it allows user to input some value in it.
 
 ```kotlin
+@Composable
+fun ShowTextFieldSample(modifier: Modifier = Modifier) {
+    var basicTextField by remember { mutableStateOf("") }
+    var outlinedTextField by remember { mutableStateOf("") }
+    var paswword by remember { mutableStateOf("") }
+
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(20.dp),
+        verticalArrangement = Arrangement.Top
+    ) {
+        TextField(
+            value = basicTextField,
+            onValueChange = { basicTextField = it },
+            label = { Text("Basic Label") },
+            modifier = modifier.fillMaxWidth()
+        )
+        Spacer(modifier.height(20.dp))
+        OutlinedTextField(
+            value = outlinedTextField,
+            onValueChange = { outlinedTextField = it },
+            label = { Text("Outlined Label") },
+            modifier = modifier.fillMaxWidth()
+        )
+        Spacer(modifier.height(20.dp))
+        OutlinedTextField(
+            value = paswword,
+            onValueChange = { paswword = it },
+            label = { Text("Password") },
+            visualTransformation = PasswordVisualTransformation(),
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+            modifier = modifier.fillMaxWidth()
+        )
+    }
+}
 ```
 
 ## 13. Button
@@ -205,6 +398,23 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > A Button in Compose is a way to show an actionable component which can be clicked and can perform some given action.
 
 ```kotlin
+@Composable
+fun ShowButtonSample() {
+    val mContext = LocalContext.current
+    Column(
+        modifier = Modifier
+            .padding(20.dp)
+            .fillMaxWidth()
+    ) {
+        Button(onClick = { toast(mContext, "You clicked simple button") }) {
+            Text("Button Text")
+        }
+        Spacer(modifier = Modifier.height(20.dp))
+        OutlinedButton(onClick = { toast(mContext, "You clicked outlined button") }) {
+            Text("Outlined Button Text")
+        }
+    }
+}
 ```
 
 ## 14. Image
@@ -212,6 +422,24 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > An Image in Compose is used to display image or picture from remote URL, drawable, or, app assets. You can use Coil Compose library to display remote image URL in your Image component.
 
 ```kotlin
+@Composable
+fun ShowImageSample() {
+    val image: Painter = painterResource(id = R.drawable.sample_image)
+    Column(
+        modifier = Modifier
+            .padding(20.dp)
+            .fillMaxSize()
+    ) {
+        Image(
+            painter = image,
+            contentDescription = "",
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(200.dp),
+            contentScale = ContentScale.Crop
+        )
+    }
+}
 ```
 
 ## 15. Icon
@@ -219,6 +447,37 @@ Surface là bất cứ thứ gì mà bạn có thể đặt bất kỳ thành ph
 > An Icon is used to display various different icons to provide some added information about that field or label. You can also wrap Icon under IconButton component to upgrade that icon to make it clickable as well.
 
 ```kotlin
+@Composable
+fun ShowIconSample() {
+    val mContext = LocalContext.current
+    Column(Modifier.padding(20.dp)) {
+        Text("Normal Icon")
+        Spacer(modifier = Modifier.height(10.dp))
+        Icon(
+            Icons.Filled.Face,
+            contentDescription = null,
+            tint = Color.Black,
+            modifier = Modifier
+                .size(100.dp)
+        )
+        Spacer(modifier = Modifier.height(20.dp))
+        Text("Icon with clickable action")
+        Spacer(modifier = Modifier.height(10.dp))
+        IconButton(
+            onClick = { toast(mContext, "You clicked IconButton with refresh icon") },
+            modifier = Modifier
+                .wrapContentSize()
+        ) {
+            Icon(
+                Icons.Filled.Refresh,
+                contentDescription = null,
+                tint = Color.Black,
+                modifier = Modifier
+                    .size(100.dp)
+            )
+        }
+    }
+}
 ```
 
 ## 16. LazyColumn
@@ -317,6 +576,59 @@ fun ShowLazyVerticalGridSample() {
 > An AlertDialog in Compose serves the similar purpose as in other languages of showing a dialog or popup to the user on performing some action on the app components.
 
 ```kotlin
+@Composable
+fun AlertDialogSample() {
+    val showDialog = remember { mutableStateOf(false) }
+    if (showDialog.value) {
+        ShowAlertDialogSample(
+            showDialog = showDialog.value,
+            onDismiss = { showDialog.value = false })
+    }
+    Column(
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Button(
+            onClick = {
+                showDialog.value = true
+            }
+        ) {
+            Text(
+                text = "Show Dialog",
+                fontSize = 16.sp,
+            )
+        }
+    }
+}
+
+@Composable
+fun ShowAlertDialogSample(
+    showDialog: Boolean,
+    onDismiss: () -> Unit
+) {
+
+    if (showDialog) {
+        AlertDialog(
+            title = {
+                Text("Alert Title", style = MaterialTheme.typography.body2)
+            },
+            text = {
+                Text(text = "Are you sure?")
+            },
+            onDismissRequest = onDismiss,
+            confirmButton = {
+                TextButton(onClick = onDismiss) {
+                    Text("Yes")
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = onDismiss) {
+                    Text("No")
+                }
+            }
+        )
+    }
+}
 ```
 
 ## 20. CircularProgressIndicator
@@ -324,6 +636,23 @@ fun ShowLazyVerticalGridSample() {
 > A CircularProgressIndicator is a component used to show any kind of progress in circular or circle shaped indicator. It can be determinate and indeterminate.
 
 ```kotlin
+@Composable
+fun ShowCircularProgressSample() {
+    val progress by remember { mutableStateOf(0.5f) }
+    val animatedProgress = animateFloatAsState(
+        targetValue = progress,
+        animationSpec = ProgressIndicatorDefaults.ProgressAnimationSpec
+    ).value
+
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Spacer(Modifier.height(10.dp))
+        Text("Indeterminate CircularProgressIndicator")
+        CircularProgressIndicator()
+        Spacer(Modifier.height(40.dp))
+        Text("Determinate CircularProgressIndicator")
+        CircularProgressIndicator(progress = animatedProgress)
+    }
+}
 ```
 
 ## 21. LinearProgressIndicator
@@ -331,6 +660,23 @@ fun ShowLazyVerticalGridSample() {
 > A LinearProgressIndicator is a component used to show any kind of progress in linear or horizontally placed indicator. It can also be determinate and indeterminate.
 
 ```kotlin
+@Composable
+fun ShowLinearProgressSample() {
+    val progress by remember { mutableStateOf(0.5f) }
+    val animatedProgress = animateFloatAsState(
+        targetValue = progress,
+        animationSpec = ProgressIndicatorDefaults.ProgressAnimationSpec
+    ).value
+
+    Column(horizontalAlignment = Alignment.CenterHorizontally) {
+        Spacer(Modifier.height(10.dp))
+        Text("Indeterminate LinearProgressIndicator")
+        LinearProgressIndicator()
+        Spacer(Modifier.height(30.dp))
+        Text("Determinate LinearProgressIndicator")
+        LinearProgressIndicator(progress = animatedProgress)
+    }
+}
 ```
 
 ## 22. CheckBox
@@ -338,6 +684,48 @@ fun ShowLazyVerticalGridSample() {
 > A Checkbox component in Compose provides functionality of choosing multiple items from given list of items for example selection of hobbies.
 
 ```kotlin
+@Composable
+fun ShowCheckBoxSample() {
+
+    val cricketState = remember { mutableStateOf(false) }
+    val hockeyState = remember { mutableStateOf(false) }
+    val footballState = remember { mutableStateOf(false) }
+
+    Column(verticalArrangement = Arrangement.Center) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable { cricketState.value = !cricketState.value }) {
+            Checkbox(
+                checked = cricketState.value,
+                onCheckedChange = { cricketState.value = it },
+            )
+            Text("Cricket")
+        }
+        Row(verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable { hockeyState.value = !hockeyState.value }) {
+            Checkbox(
+                checked = hockeyState.value,
+                onCheckedChange = { hockeyState.value = it },
+            )
+            Text("Hockey")
+        }
+        Row(verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable { footballState.value = !footballState.value }) {
+            Checkbox(
+                checked = footballState.value,
+                onCheckedChange = { footballState.value = it },
+            )
+            Text("Football")
+        }
+
+    }
+}
 ```
 
 ## 23. RadioButton
@@ -345,6 +733,36 @@ fun ShowLazyVerticalGridSample() {
 > A RadioButton component in Compose provides functionality of choosing single item from given list of items for example selection of gender.
 
 ```kotlin
+@Composable
+fun ShowRadioButtonSample() {
+    val genderRadioOptions = listOf("Male", "Female", "Transgender")
+    val (selectedOption, onOptionSelected) = remember { mutableStateOf(genderRadioOptions[1]) }
+    Column(verticalArrangement = Arrangement.Center) {
+        genderRadioOptions.forEach { text ->
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .selectable(
+                        selected = (text == selectedOption),
+                        onClick = {
+                            onOptionSelected(text)
+                        }
+                    )
+                    .padding(horizontal = 16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                RadioButton(
+                    selected = (text == selectedOption),
+                    onClick = { onOptionSelected(text) }
+                )
+                Text(
+                    text = text,
+                    modifier = Modifier.padding(start = 16.dp)
+                )
+            }
+        }
+    }
+}
 ```
 
 ## 24. Slider
@@ -352,6 +770,14 @@ fun ShowLazyVerticalGridSample() {
 > A Slider component in Compose provides functionality of choosing some value by sliding through one horizontal slider for example choosing price from low to high.
 
 ```kotlin
+@Composable
+fun ShowSliderSample() {
+    var sliderPosition by remember { mutableStateOf(0f) }
+    Column(verticalArrangement = Arrangement.Center) {
+        Text(text = "Slider Value - $sliderPosition")
+        Slider(value = sliderPosition, onValueChange = { sliderPosition = it })
+    }
+}
 ```
 
 ## 25. Switch
@@ -359,6 +785,21 @@ fun ShowLazyVerticalGridSample() {
 > A Switch component in Compose provides functionality of choosing from two possible options for example enable push notifications or not.
 
 ```kotlin
+@Composable
+fun ShowSwitchSample() {
+    val checkedState = remember { mutableStateOf(true) }
+    Row(
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.padding(20.dp)
+    ) {
+        Text("Enable Switch")
+        Switch(
+            checked = checkedState.value,
+            onCheckedChange = { checkedState.value = it }
+        )
+    }
+}
 ```
 
 ## 26. SnackBar
@@ -366,6 +807,36 @@ fun ShowLazyVerticalGridSample() {
 > A SnackBar component in Compose provides functionality of showing a minimal popup kind of layout for temporary basis to convey some information to the user like showing — Your post is updated !!!
 
 ```kotlin
+@Composable
+fun ShowSnackBarSample() {
+
+    val (snackBarVisibleState, setSnackBarState) = remember { mutableStateOf(false) }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        Button(
+            onClick = { setSnackBarState(!snackBarVisibleState) },
+            modifier = Modifier.align(Alignment.Center)
+        ) {
+            if (snackBarVisibleState) {
+                Text("Hide SnackBar")
+            } else {
+                Text("Show SnackBar")
+            }
+        }
+        if (snackBarVisibleState) {
+            Snackbar(
+                action = {
+                    Button(onClick = {}) {
+                        Text("MyAction")
+                    }
+                },
+                modifier = Modifier
+                    .padding(8.dp)
+                    .align(Alignment.BottomCenter)
+            ) { Text(text = "This is a SnackBar!") }
+        }
+    }
+}
 ```
 
 ## 27. Divider
@@ -373,6 +844,20 @@ fun ShowLazyVerticalGridSample() {
 > A Divider component in Compose provides functionality of showing a horizontal or vertical line in between some components in your screen to convey some partition or difference.
 
 ```kotlin
+@Composable
+fun ShowDividerSample() {
+    Column(modifier = Modifier.padding(20.dp)) {
+        Text("Profile")
+        Spacer(Modifier.height(10.dp))
+        Divider(startIndent = 0.dp, thickness = 2.dp, color = Color.DarkGray)
+        Spacer(Modifier.height(10.dp))
+        Text("Account")
+        Spacer(Modifier.height(10.dp))
+        Divider(startIndent = 0.dp, thickness = 2.dp, color = Color.DarkGray)
+        Spacer(Modifier.height(10.dp))
+        Text("Settings")
+    }
+}
 ```
 
 ## 28. DropDownMenu
@@ -380,6 +865,48 @@ fun ShowLazyVerticalGridSample() {
 > A DropDownMenu component in Compose provides functionality of choosing single item from list of related items like choosing profession from dropdown menu.
 
 ```kotlin
+@Composable
+fun ShowDropDownSample() {
+    var expanded by remember { mutableStateOf(false) }
+    val items = listOf("HR", "Marketing", "Accounts", "Development", "Sales", "Management")
+    var selectedIndex by remember { mutableStateOf(0) }
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .wrapContentSize(Alignment.TopStart)
+            .padding(20.dp)
+    ) {
+        Text(
+            items[selectedIndex],
+            modifier = Modifier
+                .fillMaxWidth()
+                .clickable(onClick = { expanded = true })
+                .background(
+                    Color.White
+                ),
+            color = Color.Black
+        )
+        DropdownMenu(
+            expanded = expanded,
+            onDismissRequest = { expanded = false },
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(20.dp)
+                .background(
+                    Color.White
+                )
+        ) {
+            items.forEachIndexed { index, s ->
+                DropdownMenuItem(onClick = {
+                    selectedIndex = index
+                    expanded = false
+                }, contentPadding = PaddingValues(10.dp)) {
+                    Text(text = s, color = Color.Black)
+                }
+            }
+        }
+    }
+}
 ```
 
 -----
@@ -390,9 +917,97 @@ fun ShowLazyVerticalGridSample() {
 
 Friendly Note: The ordering of properties in modifier matters, it can change the whole complexion of the composable. Try to experiment and explore it yourself.
 
+```kotlin
+@Composable
+fun ShowScrollableSample(modifier: Modifier = Modifier) {
+    //To make your Column scrollable
+    Column(modifier.verticalScroll(rememberScrollState())) {
+        //Child Components in Column
+    }
+}
+
+@Composable
+fun ShowClickableSample(modifier: Modifier = Modifier) {
+    //To make your Column or any composable clickable
+    Row(modifier.clickable { onColumnClicked() }) {
+        //Child Components in Row
+    }
+}
+
+@Composable
+fun ShowPaddingSample(modifier: Modifier = Modifier) {
+    //To provide padding to your composables
+    Box(modifier.padding(all = 20.dp)) {
+        //Child Components in Box
+    }
+    Box(modifier.padding(start = 10.dp, top = 10.dp, end = 10.dp, bottom = 10.dp)) {
+        //Child Components in Box
+    }
+    Box(modifier.padding(horizontal = 10.dp, vertical = 10.dp)) {
+        //Child Components in Box
+    }
+}
+
+@Composable
+fun ShowFillOrWrapSample(modifier: Modifier = Modifier) {
+    //To fill or wrap your composable to content or device width and height
+    Surface(
+        modifier
+            .fillMaxWidth()
+            .fillMaxHeight()
+    ) {
+        Column(
+            modifier
+                .wrapContentWidth()
+                .wrapContentHeight()
+        ) {
+
+        }
+    }
+}
+
+@Composable
+fun ShowHeightWidthSizeSample(modifier: Modifier = Modifier) {
+    //To apply height, width, or size to your composables
+    Box(
+        modifier
+            .height(100.dp)
+            .width(200.dp)){
+        Icon(
+            painterResource(id = R.drawable.sample_image),
+            contentDescription = "sample icon",
+            modifier.size(100.dp),
+        )
+    }
+}
+```
+
 ## 2. remember
 
 > remember in Compose is mainly used to perform local state management means to preserve values in the screen while user is interacting with those values. It can used to perform operations like tracking textfield while user types in it, or showing alert dialog on some button click, etc.
+
+```kotlin
+@Composable
+fun ShowRememberSampleWithTextField(modifier: Modifier = Modifier) {
+
+    var basicTextField by remember { mutableStateOf("") }
+
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(20.dp),
+        verticalArrangement = Arrangement.Top
+    ) {
+        TextField(
+            value = basicTextField,
+            onValueChange = { basicTextField = it },
+            label = { Text("Basic Label") },
+            modifier = modifier.fillMaxWidth()
+        )
+    }
+    
+}
+```
 
 ## 3. rememberSaveable
 
@@ -400,16 +1015,104 @@ Friendly Note: The ordering of properties in modifier matters, it can change the
 
 Friendly Note: Try to rotate the screen and observe revenue variable is retaining the current revenue and not vanishing to 0 again on configuration change.
 
+```kotlin
+@Composable
+fun ShowRememberSaveableSample(modifier: Modifier = Modifier) {
+
+    var revenue by rememberSaveable { mutableStateOf(0) }
+    
+    Column {
+        
+        Button(onClick = { revenue += 1000 }) {
+            Text("Increase Revenue")
+        }
+        Spacer(modifier.height(20.dp))
+        Text("Current Revenue = Rs.$revenue")
+        
+    }
+
+}
+```
+
 ## 4. animateContentSize
 
 > Animations are the fun part and of course Compose provides it too. But one of my favorite animation provided by Compose is animateContentSize and the beauty of this animation is how smoothly it gives the transition when size changes in any composable.
-> And fun fact is it comes as a simple property in our beloved Modifiers. You just have to append this in your modifier property and provide some animation values. Thats it.
+
+And fun fact is it comes as a simple property in our beloved Modifiers. You just have to append this in your modifier property and provide some animation values. Thats it.
+
+```kotlin
+@Composable
+fun ShowAnimateContentSizeSample(modifier: Modifier = Modifier) {
+
+    var expanded by remember { mutableStateOf(false) }
+
+    Column(
+        modifier = Modifier
+            .padding(20.dp)
+            .clickable {
+                expanded = !expanded
+            }
+            .animateContentSize(
+                animationSpec = spring(
+                    dampingRatio = Spring.DampingRatioMediumBouncy,
+                    stiffness = Spring.StiffnessLow
+                )
+            )
+    ) {
+        Text("Text which is showing all the time")
+        Spacer(modifier.height(20.dp))
+        if (expanded) {
+            Text("Some text to show or hide with animation as the column is clicked")
+        }
+    }
+
+}
+```
 
 ## 5. Shape
 
 > We all love to shape our components in our UIs. Thus Compose also gives us the handy shapes to work out and upgrade our boring existing composables into rectangle, circle, rounded rectangle, or, cut corner shapes.
 
 Friendly Note: You can’t just provide shapes to your composables using clip property in modifier but you have to just check whether any component provide “shape” property in their methods or not and if you found “shape” in it you can directly give any shape like we gave in clip property.
+
+```kotlin
+@Composable
+fun ShowShapesSample(modifier: Modifier = Modifier) {
+
+    Column(modifier = Modifier
+        .fillMaxWidth()
+        .wrapContentSize(Alignment.Center)) {
+        Box(
+            modifier = Modifier
+                .size(100.dp)
+                .clip(RectangleShape)
+                .background(Color.Green)
+        )
+        Spacer(modifier.height(20.dp))
+        Box(
+            modifier = Modifier
+                .size(100.dp)
+                .clip(CircleShape)
+                .background(Color.Green)
+        )
+        Spacer(modifier.height(20.dp))
+        Box(
+            modifier = Modifier
+                .size(100.dp)
+                .clip(RoundedCornerShape(20.dp))
+                .background(Color.Green)
+        )
+        Spacer(modifier.height(20.dp))
+        Box(
+            modifier = Modifier
+                .size(100.dp)
+                .clip(CutCornerShape(20.dp))
+                .background(Color.Green)
+        )
+    }
+    
+}
+```
 
 -----
 
