@@ -13,11 +13,54 @@ modified: 2019-05-13
 # Mục lục
 
 - [Mục lục](#mục-lục)
+- [Để lại ghi chú trong mã của bạn](#để-lại-ghi-chú-trong-mã-của-bạn)
 - [File header](#file-header)
 - [TODO comments](#todo-comments)
 - [Warning of Consequence](#warning-of-consequence)
 - [Explanation of Intent](#explanation-of-intent)
 - [Legal Comments](#legal-comments)
+
+# Để lại ghi chú trong mã của bạn
+
+Khi viết mã, có một phương pháp hay khác mà bạn nên làm theo là thêm ghi chú để mô tả chức năng của mã. Ghi chú có thể giúp người đọc hiểu mã dễ dàng hơn. Hai dấu gạch chéo lên (`//`) cho biết phần văn bản còn lại trên dòng là một ghi chú. Vì vậy, phần văn bản không bị hiểu nhầm là mã. Thường thì bạn nên thêm dấu cách sau hai dấu gạch chéo lên.
+
+```java
+// This is a comment.
+```
+
+Ghi chú cũng có thể bắt đầu ở giữa dòng mã. Trong ví dụ này, `height = 1` là một câu lệnh lập trình thông thường. Mọi nội dung sau `//` hoặc `Assume the height is 1 to start with` được hiểu là một ghi chú và không được xem là một phần của mã.
+
+```kotlin
+height = 1 // Assume the height is 1 to start with.
+```
+Nếu bạn muốn mô tả chi tiết hơn về mã bằng ghi chú dài quá 100 ký tự trên một dòng, hãy ghi chú nhiều dòng. Bắt đầu ghi chú có nhiều dòng với dấu gạch chéo lên (`/`) và dấu hoa thị (`*`) như sau: `/*`. Thêm một dấu hoa thị ở đầu mỗi dòng ghi chú tiếp sau. Cuối cùng, hãy kết thúc ghi chú đó bằng dấu hoa thị và dấu gạch chéo lên */.
+
+```kotlin
+/*
+ * This is a very long comment that can
+ * take up multiple lines.
+ */
+```
+
+Chương trình này có các ghi chú một dòng và nhiều dòng mô tả những gì đang diễn ra:
+
+```kotlin
+/**
+ * This program displays the number of messages
+ * in the user's inbox.
+ */
+fun main() {
+    // Create a variable for the number of unread messages.
+    var count = 10
+    println("You have $count unread messages.")
+
+    // Decrease the number of messages by 1.
+    count--
+    println("You have $count unread messages.")
+}
+```
+
+-----
 
 Một chú thích trong Android phải đứng trước khai báo lớp (class), trường, hàm tạo hoặc phương thức. Nó được tạo thành từ hai phần: một mô tả theo sau là các block tags. Trong ví dụ này, các block tags là `@param`, `@return` và `@see`.
 
@@ -115,6 +158,7 @@ Chú thích pháp lý giúp người khác biết mã nguồn đến từ đâu 
 // Released under the terms of the GNU General Public License version 2 or later.
 ```
 
+-----
 Tham khảo:
 - [Code Conventions for the Java Programming Language: Comments](https://www.oracle.com/technetwork/java/codeconventions-141999.html#385)
 - [How to Write Doc Comments for the Javadoc Tool](https://www.oracle.com/technetwork/java/javase/documentation/index-137868.html)

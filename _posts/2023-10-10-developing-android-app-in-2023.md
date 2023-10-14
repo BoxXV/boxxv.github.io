@@ -171,9 +171,14 @@ Cuối cùng, trình chỉnh sửa Navigation Editor trong Android Studio 3.2 c�
 
 - [Android Navigation Component](https://www.youtube.com/playlist?list=PLRoAKls-7kksIt8rkahuC6erNcQy45NYk)
 - [Migrate Jetpack Navigation to Navigation Compose](https://developer.android.com/jetpack/compose/migrate/migration-scenarios/navigation)
+
+- [Navigation in Jetpack Compose](https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-2)
 - [Codelabs - Navigate between screens with Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation)
 - [Effortless Navigation with Compose](https://blog.stackademic.com/effortless-navigation-with-compose-30d37ddf5625)
-
+- [Navigation Basics in Jetpack Compose](https://youtu.be/glyqjzkc4fk)
+- [Full Guide to Nested Navigation Graphs in Jetpack Compose](https://youtu.be/FIEnIBq7Ups)
+- [Modular Navigation with Jetpack Compose](https://medium.com/google-developer-experts/modular-navigation-with-jetpack-compose-fda9f6b2bef7)
+- [Nested Navigation Graph in Jetpack Compose with Bottom Navigation](https://medium.com/@mathroda/nested-navigation-graph-in-jetpack-compose-with-bottom-navigation-d983c2d4119f)
 
 ### 5. [Paging](https://developer.android.com/topic/libraries/architecture/paging)
 
@@ -396,31 +401,41 @@ Tôi thực sự khuyên bạn nên xem [khóa học miễn phí](https://www.ud
 - [Kodeco](https://www.kodeco.com)
 - [How to Build an Android App in 2023](https://www.spaceotechnologies.com/blog/how-to-build-an-android-app/)
 
-For beginners
+Training courses
 - [Android Training courses](https://developer.android.com/courses)
 
 For beginners
 - [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
+  + Unit 1: Your first Android app
+  + Unit 2: Building app UI
+  + Unit 3: Display lists and use Material Design
+  + Unit 4: Navigation and app architecture
+  + Unit 5: Connect to the internet
+  + Unit 6: Data persistence
+  + Unit 7: WorkManager
+  + Unit 8: Views and Compose
+
+
 - [Android Basics in Kotlin](https://developer.android.com/courses/android-basics-kotlin/course)
 
 For experienced Android developers
 - [Jetpack Compose for Android developers](https://developer.android.com/courses/jetpack-compose/course)
 - [Modern Android app architecture](https://developer.android.com/courses/pathways/android-architecture)
-- []()
-- []()
+- [Make your Android app more accessible](https://developer.android.com/courses/pathways/make-your-android-app-accessible)
+- [Use coroutines in common Android use cases](https://developer.android.com/courses/pathways/android-coroutines)
 
 Kotlin language training
-- []()
-- []()
+- [Kotlin Bootcamp for Programmers](https://developer.android.com/courses/kotlin-bootcamp/overview)
+- [Kotlin for Java developers](https://developer.android.com/courses/pathways/kotlin-for-java)
 
 For Android Java developers
-- []()
-- []()
+- [Android Room with a View - Java](https://developer.android.com/codelabs/android-room-with-a-view)
+- [Background Work with WorkManager - Java](https://developer.android.com/codelabs/android-workmanager-java)
 
 Certification and degree programs
-- []()
-- []()
-- []()
+- [Associate Android Developer](https://developers.google.com/certification/associate-android-developer)
+- [Google Play Store Listing Certificate](https://playacademy.withgoogle.com/intl/vi/certificate/)
+- [Android Kotlin Developer](https://www.udacity.com/course/android-kotlin-developer-nanodegree--nd940)
 
 # Tổng kết
 
@@ -450,9 +465,7 @@ Tham khảo
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 2: Kiến Trúc MVC](https://yellowcodebooks.com/2020/05/27/modern-android-architectures-mvc-mvp-mvvm-phan-2-kien-truc-mvc/)
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 3: Kiến Trúc MVP](https://yellowcodebooks.com/2022/03/06/modern-android-architectures-mvc-mvp-mvvm-phan-3-kien-truc-mvp/)
 - [Cơ Bản – Bài Học Theo Chương Trình (36B)](https://yellowcodebooks.com/category/lap-trinh-android/android-co-ban-bai-hoc-theo-chuong-trinh/)
-- []()
 
 -----
 - [Phát triển ứng dụng Android - 34 điều tôi đã rút ra được kinh nghiệm](https://viblo.asia/p/phat-trien-ung-dung-android-34-dieu-toi-da-rut-ra-duoc-kinh-nghiem-OeVKBxX0lkW)
 - [Android Adaptive Launcher Icon – Tất Cả Thông Tin Bạn Cần Biết](https://yellowcodebooks.com/2023/05/23/android-adaptive-launcher-icon-tat-ca-thong-tin-ban-can-biet/)
-- []()
