@@ -433,7 +433,7 @@ Tham khảo
   + [Foundation Components of Android Jetpack](https://www.geeksforgeeks.org/foundation-components-of-android-jetpack/)
   + [Jetpack Architecture Components in Android](https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/)
   + [Behaviour Components of Android Jetpack](https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/)
-  + [Behaviour Components of Android Jetpack](https://www.geeksforgeeks.org/ui-components-of-android-jetpack/)
+  + [UI Components of Android Jetpack](https://www.geeksforgeeks.org/ui-components-of-android-jetpack/)
 - [Android Jetpack Compose – Interoperability Using Compose in XML Layouts](https://www.geeksforgeeks.org/android-jetpack-compose-interoperability-using-compose-in-xml-layouts/)
 - [Architecture Components in Android Jetpack](https://www.scaler.com/topics/architecture-components-in-android-jetpack/)
 

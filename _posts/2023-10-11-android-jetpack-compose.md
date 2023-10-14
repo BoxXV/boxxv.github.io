@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Phát triển ứng dụng Android năm 2023
-subtitle: Developing Android App in 2023
-description: Các phương pháp hay nhất và đề xuất phổ biến và mới nhất mà mọi nhà phát triển Android nên biết vào năm 2023
-author: "Juraj Kušnier"
-image: "img/android-bg.jpg"
+title: Jetpack Compose
+subtitle: Phát triển ứng dụng Android năm 2023
+description: Sử dụng Jetpack Compose để dựng UI trong Android
+author: AndroidDev
+image: "img/2023/1_tDFPLaEDlaW5dtsfv4sd0A.webp"
 tags:
 - Android
 - Kotlin
@@ -18,15 +18,16 @@ tags:
 - [Mục lục](#mục-lục)
 - [Java đã chết, Kotlin trường tồn](#java-đã-chết-kotlin-trường-tồn)
 - [Jetpack](#jetpack)
-	- [Android Jetpack là gì?](#android-jetpack-là-gì)
-	- [Jetpack Compose](#jetpack-compose)
+  - [Android Jetpack là gì?](#android-jetpack-là-gì)
+  - [Jetpack Compose](#jetpack-compose)
 - [Example App](#example-app)
 - [Free Resources](#free-resources)
+- [Ứng dụng được xây dựng bằng Compose](#ứng-dụng-được-xây-dựng-bằng-compose)
 - [Tổng kết](#tổng-kết)
 
 
 
-![Android](https://boxxv.github.io/img/2023/android-14-h.jpeg "Android")
+![Compose](https://boxxv.github.io/img/2023/android-tips-for-working-with-preview-in-jetpack-compose.png "Compose")
 
 Trong bài viết ngắn này, tôi tóm tắt một số đề xuất cũng như thực tiễn tốt nhất và phổ biến mới dành cho nhà phát triển ứng dụng Android. Hãy thoải mái sử dụng chúng khi bạn xây dựng một dự án greenfield mới hoặc khi bạn muốn loại bỏ giao diện cũ khỏi các ứng dụng hiện có của mình.
 
@@ -61,27 +62,6 @@ Một năm sau đó, Google bổ sung vào bộ sưu tập Jetpack này một lo
 ## Jetpack Compose
 
 [Jetpack Compose](https://developer.android.com/jetpack/compose) là bộ công cụ hiện đại được Android khuyên dùng để xây dựng giao diện người dùng gốc. Nó đủ trưởng thành và cho phép bạn xây dựng giao diện người dùng dễ dàng hơn, nhanh hơn và ít mã hơn. Hơn nữa, bố cục XML dựa trên Soạn thảo và Chế độ xem có thể được kết hợp. Bạn có thể thêm giao diện người dùng Compose vào một ứng dụng hiện có sử dụng thiết kế dựa trên Chế độ xem hoặc bao gồm hệ phân cấp Chế độ xem Android trong giao diện người dùng Compose. Cách tiếp cận này đặc biệt hữu ích nếu bạn muốn sử dụng các thành phần giao diện người dùng chưa có trong Compose, như AdView hoặc MediaPlayer. Khi bạn bắt đầu một dự án mới, không có lý do gì để sử dụng bố cục XML nữa.
-
-- [MDC for Android](https://m3.material.io/develop/android/mdc-android)
-- [25 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLHRvASjG6y05T7jdDC4YTwhTAT28rbYI1)
-- [35 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
-- [93 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLSrm9z4zp4mEWwyiuYgVMWcDFdsebhM-r)
-- [Android - Jetpack Compose](https://viblo.asia/p/android-jetpack-compose-L4x5x4qr5BM)
-- [Cơ bản về Jetpack Compose](https://viblo.asia/p/co-ban-ve-jetpack-compose-Qbq5QQB35D8)
-- [Jetpack Compose - UI Framework mới của Android ](https://viblo.asia/p/jetpack-compose-ui-framework-moi-cua-android-oOVlYoJoK8W)
-- [Sử dụng Jetpack Compose để dựng UI trong Android](https://viblo.asia/p/su-dung-jetpack-compose-de-dung-ui-trong-android-m68Z07MMKkG)
-- [Sử dụng Jetpack Compose cho project Android với mô hình MVVM](https://viblo.asia/p/su-dung-jetpack-compose-cho-project-android-voi-mo-hinh-mvvm-OeVKBJg0KkW)
-- [Jetpack Compose cho người mới bắt đầu](https://viblo.asia/p/jetpack-compose-cho-nguoi-moi-bat-dau-phan-1-RnB5ppp75PG)
-- [Jetpack Compose Tutorial - Step by Step Guide](https://viblo.asia/p/jetpack-compose-tutorial-step-by-step-guide-phan-1-924lJmraZPM)
-- [Tản mạn về Jetpack Compose - Phần I](https://viblo.asia/p/tan-man-ve-jetpack-compose-maGK76qD5j2)
-- [Tản mạn về Jetpack Compose - Phần II](https://viblo.asia/p/tan-man-ve-jetpack-compose-RnB5pp6d5PG)
-- [Material theme trong jetpack compose](https://viblo.asia/p/material-theme-trong-jetpack-compose-jvEla9Nmlkw)
-
-- [Codelabs - Navigate between screens with Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation)
-- [Effortless Navigation with Compose](https://blog.stackademic.com/effortless-navigation-with-compose-30d37ddf5625)
-- [Navigation Basics in Jetpack Compose](https://youtu.be/glyqjzkc4fk)
-- [Full Guide to Nested Navigation Graphs in Jetpack Compose](https://youtu.be/FIEnIBq7Ups)
-- [Migrate Jetpack Navigation to Navigation Compose](https://developer.android.com/jetpack/compose/migrate/migration-scenarios/navigation)
 
 # Example App
 
@@ -131,37 +111,61 @@ Certification and degree programs
 - []()
 - []()
 
+#  Ứng dụng được xây dựng bằng Compose
+
+![Compose](https://boxxv.github.io/img/2023/d825a7a669eebeb0e7ff.jpg "Compose")
+
 # Tổng kết
 
 Cảm ơn bạn đã đọc. Nếu bạn thích bài viết này, hãy thích, để lại phản hồi và chia sẻ nó với bạn bè của bạn. Happy coding - Lập trình vui vẻ!
 
 -----
 Tham khảo
+- [Complete Jetpack Compose Tutorial For Beginners](https://appdevnotes.com/complete-jetpack-compose-tutorial-for-beginners/)
+- [The Journey of Jetpack 🚀 — Compose](https://proandroiddev.com/the-journey-of-jetpack-compose-i-eef660bc546b)
+- []()
+- [Tips for working with Preview in Jetpack Compose](https://nimblehq.co/blog/tips-for-working-with-preview-in-jetpack-compose)
+- [Jetpack Compose 1.4 Essentials: Developing Android Apps with Jetpack Compose 1.4, Android Studio, and Kotlin](https://www.amazon.com/Jetpack-Compose-1-4-Essentials-Developing-ebook/dp/B0CHMSDJDY/)
+- [Jetpack Compose by Tutorials (Second Edition): Building Beautiful UI With Jetpack Compose](https://www.amazon.com/Jetpack-Compose-Tutorials-Second-Beautiful/dp/1950325830/)
+- []()
+
+- [MDC for Android](https://m3.material.io/develop/android/mdc-android)
+- [25 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLHRvASjG6y05T7jdDC4YTwhTAT28rbYI1)
+- [35 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+- [93 Videos - Jetpack Compose](https://www.youtube.com/playlist?list=PLSrm9z4zp4mEWwyiuYgVMWcDFdsebhM-r)
+- [Android - Jetpack Compose](https://viblo.asia/p/android-jetpack-compose-L4x5x4qr5BM)
+- [Cơ bản về Jetpack Compose](https://viblo.asia/p/co-ban-ve-jetpack-compose-Qbq5QQB35D8)
+- [Jetpack Compose - UI Framework mới của Android ](https://viblo.asia/p/jetpack-compose-ui-framework-moi-cua-android-oOVlYoJoK8W)
+- [Sử dụng Jetpack Compose để dựng UI trong Android](https://viblo.asia/p/su-dung-jetpack-compose-de-dung-ui-trong-android-m68Z07MMKkG)
+- [Sử dụng Jetpack Compose cho project Android với mô hình MVVM](https://viblo.asia/p/su-dung-jetpack-compose-cho-project-android-voi-mo-hinh-mvvm-OeVKBJg0KkW)
+- [Jetpack Compose cho người mới bắt đầu](https://viblo.asia/p/jetpack-compose-cho-nguoi-moi-bat-dau-phan-1-RnB5ppp75PG)
+- [Jetpack Compose Tutorial - Step by Step Guide](https://viblo.asia/p/jetpack-compose-tutorial-step-by-step-guide-phan-1-924lJmraZPM)
+- [Tản mạn về Jetpack Compose - Phần I](https://viblo.asia/p/tan-man-ve-jetpack-compose-maGK76qD5j2)
+- [Tản mạn về Jetpack Compose - Phần II](https://viblo.asia/p/tan-man-ve-jetpack-compose-RnB5pp6d5PG)
+- [Material theme trong jetpack compose](https://viblo.asia/p/material-theme-trong-jetpack-compose-jvEla9Nmlkw)
+
+- [Codelabs - Navigate between screens with Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation)
+- [Effortless Navigation with Compose](https://blog.stackademic.com/effortless-navigation-with-compose-30d37ddf5625)
+- [Navigation Basics in Jetpack Compose](https://youtu.be/glyqjzkc4fk)
+- [Full Guide to Nested Navigation Graphs in Jetpack Compose](https://youtu.be/FIEnIBq7Ups)
+- [Migrate Jetpack Navigation to Navigation Compose](https://developer.android.com/jetpack/compose/migrate/migration-scenarios/navigation)
+
+-----
 - [Developing Android App in 2023](https://medium.com/@jurajkunier/developing-android-app-in-2023-60504dd76e38)
 - [Introduction to Android Jetpack](https://www.geeksforgeeks.org/introduction-to-android-jetpack/)
   + [Foundation Components of Android Jetpack](https://www.geeksforgeeks.org/foundation-components-of-android-jetpack/)
   + [Jetpack Architecture Components in Android](https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/)
   + [Behaviour Components of Android Jetpack](https://www.geeksforgeeks.org/jetpack-architecture-components-in-android/)
-  + [Behaviour Components of Android Jetpack](https://www.geeksforgeeks.org/ui-components-of-android-jetpack/)
+  + [UI Components of Android Jetpack](https://www.geeksforgeeks.org/ui-components-of-android-jetpack/)
 - [Android Jetpack Compose – Interoperability Using Compose in XML Layouts](https://www.geeksforgeeks.org/android-jetpack-compose-interoperability-using-compose-in-xml-layouts/)
 - [Architecture Components in Android Jetpack](https://www.scaler.com/topics/architecture-components-in-android-jetpack/)
-
 - [Android Jetpack là gì? Tại sao bạn nên biết](https://vntalking.com/android-jetpack-la-gi.html)
 - [Thông Thạo Jetpack – Phần 1 – Jetpack Là Gì?](https://yellowcodebooks.com/2021/04/07/thong_thao_jetpack_phan_1_jetpack_la_gi/)
 - [Thông Thạo Jetpack – Phần 2 – Android KTX](https://yellowcodebooks.com/2021/04/14/thong_thao_jetpack_phan_2_android_ktx/)
-- [Thông Thạo Jetpack – Phần 3 – Navigation](https://yellowcodebooks.com/2021/05/26/thong-thao-jetpack-phan-3-navigation/)
-- [Thông Thạo Jetpack – Phần 4 – Navigation (Tập 2)](https://yellowcodebooks.com/2021/06/09/thong-thao-jetpack-phan-4-navigation-tap-2/)
-- [Thông Thạo Jetpack – Phần 5 – Navigation (Tập 3)](https://yellowcodebooks.com/2021/06/24/thong-thao-jetpack-phan-5-navigation-tap-3/)
-- [Thông Thạo Jetpack – Phần 6 – Navigation (Tập Cuối)](https://yellowcodebooks.com/2021/08/31/thong-thao-jetpack-phan-6-navigation-tap-cuoi/)
 - [Android Architecture Component](https://yellowcodebooks.com/category/lap-trinh-android/android-nang-cao/android-nang-cao-android-architecture-component/)
-
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 1: Giới Thiệu Các Mô Hình Kiến Trúc](https://yellowcodebooks.com/2020/04/22/modern-android-architectures-mvc-mvp-mvvm-phan-1-gioi-thieu-cac-mo-hinh-kien-truc/)
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 2: Kiến Trúc MVC](https://yellowcodebooks.com/2020/05/27/modern-android-architectures-mvc-mvp-mvvm-phan-2-kien-truc-mvc/)
 - [Modern Android Architectures – MVC/MVP/MVVM – Phần 3: Kiến Trúc MVP](https://yellowcodebooks.com/2022/03/06/modern-android-architectures-mvc-mvp-mvvm-phan-3-kien-truc-mvp/)
 - [Cơ Bản – Bài Học Theo Chương Trình (36B)](https://yellowcodebooks.com/category/lap-trinh-android/android-co-ban-bai-hoc-theo-chuong-trinh/)
-- []()
-
------
 - [Phát triển ứng dụng Android - 34 điều tôi đã rút ra được kinh nghiệm](https://viblo.asia/p/phat-trien-ung-dung-android-34-dieu-toi-da-rut-ra-duoc-kinh-nghiem-OeVKBxX0lkW)
 - [Android Adaptive Launcher Icon – Tất Cả Thông Tin Bạn Cần Biết](https://yellowcodebooks.com/2023/05/23/android-adaptive-launcher-icon-tat-ca-thong-tin-ban-can-biet/)
-- []()
