@@ -1220,11 +1220,13 @@ Tham khảo
 - [Navigation in Jetpack Compose](https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-2)
 - [Codelabs - Navigate between screens with Compose](https://developer.android.com/codelabs/basic-android-kotlin-compose-navigation)
 - [Effortless Navigation with Compose](https://blog.stackademic.com/effortless-navigation-with-compose-30d37ddf5625)
-- [Navigation Basics in Jetpack Compose](https://youtu.be/glyqjzkc4fk)
 - [Full Guide to Nested Navigation Graphs in Jetpack Compose](https://youtu.be/FIEnIBq7Ups)
 - [Modular Navigation with Jetpack Compose](https://medium.com/google-developer-experts/modular-navigation-with-jetpack-compose-fda9f6b2bef7)
 - [Nested Navigation Graph in Jetpack Compose with Bottom Navigation](https://medium.com/@mathroda/nested-navigation-graph-in-jetpack-compose-with-bottom-navigation-d983c2d4119f)
 - [Migrate Jetpack Navigation to Navigation Compose](https://developer.android.com/jetpack/compose/migrate/migration-scenarios/navigation)
+
+Truyền navController dưới dạng tham số cho từng compose
+- [Navigation Basics in Jetpack Compose](https://youtu.be/glyqjzkc4fk)
 
 -----
 - [Developing Android App in 2023](https://medium.com/@jurajkunier/developing-android-app-in-2023-60504dd76e38)
