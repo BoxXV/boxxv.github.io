@@ -136,6 +136,11 @@ fun ShowSurfaceSample() {
 
 > Scaffold is kind of a basic structure that any app can have in general. For example, Toolbar or TopAppBar, Side Drawer, Bottom Navigation Menu, FloatingActionButton, Main Content, etc.
 
+Compose cung cấp các bố cục thuận tiện cho việc kết hợp các thành phần Material vào các mẫu màn hình phổ biến. Các thành phần kết hợp như `Scaffold` cung cấp các khe cho nhiều loại thành phần và các thành phần màn hình khác.
+
+- [Thành phần và bố cục Material](https://developer.android.com/jetpack/compose/layouts/material?hl=vi)
+- [Scaffold](https://developer.android.com/jetpack/compose/components/scaffold)
+
 ```kotlin
 @Composable
 fun ShowScaffoldSample() {

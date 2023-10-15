@@ -21,8 +21,10 @@ tags:
   - [Techical Stack](#techical-stack)
 - [Hướng dẫn từng bước](#hướng-dẫn-từng-bước)
   - [Xác định tuyến (routes) cho các đích đến (destinations) trong ứng dụng](#xác-định-tuyến-routes-cho-các-đích-đến-destinations-trong-ứng-dụng)
-  - [Thêm NavHost vào ứng dụng](#thêm-navhost-vào-ứng-dụng)
-  - [Xử lý các tuyến (route) trong NavHost](#xử-lý-các-tuyến-route-trong-navhost)
+    - [Thêm NavHost vào ứng dụng](#thêm-navhost-vào-ứng-dụng)
+    - [Xử lý các tuyến (route) trong NavHost](#xử-lý-các-tuyến-route-trong-navhost)
+  - [Di chuyển giữa các tuyến](#di-chuyển-giữa-các-tuyến)
+    - [Thêm trình xử lý nút vào StartOrderScreen](#thêm-trình-xử-lý-nút-vào-startorderscreen)
 - [Tổng kết](#tổng-kết)
 
 ![Navigation](https://boxxv.github.io/img/2023/1_7v6mG_QL5vriYBdwkTLRww.webp "Navigation")
@@ -82,7 +84,7 @@ enum class CupcakeScreen() {
 }
 ```
 
-## Thêm NavHost vào ứng dụng
+### Thêm NavHost vào ứng dụng
 
 `NavHost` là một thành phần kết hợp (Composable) cho thấy các đích đến có thể kết hợp khác (composable destinations), dựa trên một tuyến (`route`) được cung cấp. Ví dụ: nếu tuyến là `Flavor`, thì `NavHost` sẽ hiển thị màn hình để bạn chọn hương vị bánh nướng. Nếu tuyến là `Summary` thì ứng dụng sẽ cho thấy màn hình tóm tắt (summary screen).
 
@@ -101,8 +103,9 @@ Giống như các thành phần kết hợp khác, `NavHost` cũng lấy tham s�
 
 Bạn sẽ thêm NavHost vào thành phần kết hợp CupcakeApp trong CupcakeScreen.kt. Trước tiên, bạn cần tham chiếu đến trình điều khiển điều hướng. Bạn có thể sử dụng trình điều khiển điều hướng trong cả NavHost bạn đang thêm và AppBar mà bạn sẽ thêm ở bước sau. Do đó, bạn nên khai báo biến trong thành phần kết hợp CupcakeApp().
 
-1. Mở `CupcakeScreen.kt`.
-2. Phía trên biến `viewModel` trong thành phần kết hợp `CupcakeApp`, hãy tạo một biến mới bằng cách sử dụng val có tên `navController` và đặt biến bằng với kết quả của lệnh gọi `rememberNavController()`.
+1) Mở `CupcakeScreen.kt`.
+
+2) Phía trên biến `viewModel` trong thành phần kết hợp `CupcakeApp`, hãy tạo một biến mới bằng cách sử dụng val có tên `navController` và đặt biến bằng với kết quả của lệnh gọi `rememberNavController()`.
 
 ```kotlin
 @Composable
@@ -113,7 +116,7 @@ fun CupcakeApp(modifier: Modifier = Modifier){
 }
 ```
 
-3. Trong `Scaffold`, bên dưới biến `uiState`, hãy thêm một thành phần kết hợp `NavHost`.
+3) Trong `Scaffold`, bên dưới biến `uiState`, hãy thêm một thành phần kết hợp `NavHost`.
 
 ```kotlin
 Scaffold(
@@ -125,7 +128,7 @@ Scaffold(
 }
 ```
 
-4. Truyền biến `navController` cho tham số `navController` và `CupcakeScreen.Start.name` cho tham số `startDestination`. Truyền đối tượng sửa đổi đã truyền vào `CupcakeApp()` cho tham số của đối tượng sửa đổi. Truyền trailing lambda (lambda theo sau) trống cho thông số cuối cùng.
+4) Truyền biến `navController` cho tham số `navController` và `CupcakeScreen.Start.name` cho tham số `startDestination`. Truyền đối tượng sửa đổi đã truyền vào `CupcakeApp()` cho tham số của đối tượng sửa đổi. Truyền trailing lambda (lambda theo sau) trống cho thông số cuối cùng.
 
 ```kotlin
 NavHost(
@@ -136,7 +139,7 @@ NavHost(
 }
 ```
 
-## Xử lý các tuyến (route) trong NavHost
+### Xử lý các tuyến (route) trong NavHost
 
 Giống như những thành phần kết hợp (composable) khác, NavHost có một hàm để khai báo content cho nó.
 
@@ -151,7 +154,7 @@ Bạn sẽ gọi hàm `composable()` một lần cho mỗi tuyến.
 
 > Lưu ý: Hàm `composable()` là một hàm mở rộng của `NavGraphBuilder`.
 
-1. Gọi hàm `composable()`, truyền `CupcakeScreen.Start.name` cho `route`.
+1) Gọi hàm `composable()`, truyền `CupcakeScreen.Start.name` cho `route`.
 
 ```kotlin
 NavHost(
@@ -165,7 +168,7 @@ NavHost(
 }
 ```
 
-2. Trong trailing lambda (lambda theo sau), gọi thành phần kết hợp `StartOrderScreen` để truyền `quantityOptions` cho thuộc tính `quantityOptions`.
+2) Trong trailing lambda (lambda theo sau), gọi thành phần kết hợp `StartOrderScreen` để truyền `quantityOptions` cho thuộc tính `quantityOptions`.
 
 ```kotlin
 NavHost(
@@ -183,14 +186,15 @@ NavHost(
 
 > Lưu ý: Thuộc tính `quantityOptions` bắt nguồn từ việc gọi `collectAsState()` ở dòng trước `NavHost`. Các thuộc tính khác trong mô hình chế độ xem sẽ được truy cập theo cách tương tự.
 
-3. Bên dưới lệnh gọi đầu tiên tới `composable()`, hãy gọi lại `composable()`, truyền `CupcakeScreen.Flavor.name` cho `route`.
+3) Bên dưới lệnh gọi đầu tiên tới `composable()`, hãy gọi lại `composable()`, truyền `CupcakeScreen.Flavor.name` cho `route`.
 
 ```kotlin
 composable(route = CupcakeScreen.Flavor.name) {
 
 }
 ```
-4. Trong trailing lambda, hãy tham chiếu đến `LocalContext.current` và lưu trữ nó trong một biến có tên là `context`. Bạn có thể sử dụng biến này để lấy chuỗi từ danh sách mã nhận dạng tài nguyên trong mô hình chế độ xem để hiện danh sách các hương vị.
+
+4) Trong trailing lambda, hãy tham chiếu đến `LocalContext.current` và lưu trữ nó trong một biến có tên là `context`. Bạn có thể sử dụng biến này để lấy chuỗi từ danh sách mã nhận dạng tài nguyên trong mô hình chế độ xem để hiện danh sách các hương vị.
 
 ```kotlin
 composable(route = CupcakeScreen.Flavor.name) {
@@ -199,7 +203,7 @@ composable(route = CupcakeScreen.Flavor.name) {
 }
 ```
 
-5. Gọi thành phần kết hợp `SelectOptionScreen`.
+5) Gọi thành phần kết hợp `SelectOptionScreen`.
 
 ```kotlin
 composable(route = CupcakeScreen.Flavor.name) {
@@ -210,7 +214,7 @@ composable(route = CupcakeScreen.Flavor.name) {
 }
 ```
 
-6. Màn hình hương vị cần hiển thị và cập nhật tổng giá tiền khi người dùng chọn hương vị. Truyền vào `uiState.price` cho tham số `subtotal`.
+6) Màn hình hương vị cần hiển thị và cập nhật tổng giá tiền khi người dùng chọn hương vị. Truyền vào `uiState.price` cho tham số `subtotal`.
 
 ```kotlin
 composable(route = CupcakeScreen.Flavor.name) {
@@ -221,7 +225,7 @@ composable(route = CupcakeScreen.Flavor.name) {
 }
 ```
 
-7. Màn hình hương vị lấy danh sách các hương vị từ tài nguyên chuỗi của ứng dụng. Tạo một danh sách các chuỗi từ danh sách hương vị trong mô hình chế độ xem. Bạn có thể chuyển đổi danh sách mã nhận dạng tài nguyên thành danh sách các chuỗi bằng cách sử dụng hàm `map()` và gọi `stringResource()`.
+7) Màn hình hương vị lấy danh sách các hương vị từ tài nguyên chuỗi của ứng dụng. Tạo một danh sách các chuỗi từ danh sách hương vị trong mô hình chế độ xem. Bạn có thể chuyển đổi danh sách mã nhận dạng tài nguyên thành danh sách các chuỗi bằng cách sử dụng hàm `map()` và gọi `stringResource()`.
 
 ```kotlin
 composable(route = CupcakeScreen.Flavor.name) {
@@ -233,7 +237,7 @@ composable(route = CupcakeScreen.Flavor.name) {
 }
 ```
 
-8. Đối với tham số `onSelectionChanged`, hãy truyền biểu thức lambda gọi `setFlavor()` trên mô hình chế độ xem, truyền vào `it` (đối số đã truyền vào `onSelectionChanged()`).
+8) Đối với tham số `onSelectionChanged`, hãy truyền biểu thức lambda gọi `setFlavor()` trên mô hình chế độ xem, truyền vào `it` (đối số đã truyền vào `onSelectionChanged()`).
 
 ```kotlin
 composable(route = CupcakeScreen.Flavor.name) {
@@ -248,7 +252,7 @@ composable(route = CupcakeScreen.Flavor.name) {
 
 Màn hình ngày lấy hàng cũng tương tự như màn hình hương vị. Điểm khác biệt duy nhất là dữ liệu được truyền vào thành phần kết hợp `SelectOptionScreen`.
 
-9. Gọi lại hàm `composable()`, truyền `CupcakeScreen.Pickup.name` cho tham số `route`.
+9) Gọi lại hàm `composable()`, truyền `CupcakeScreen.Pickup.name` cho tham số `route`.
 
 ```kotlin
 composable(route = CupcakeScreen.Pickup.name) {
@@ -256,7 +260,7 @@ composable(route = CupcakeScreen.Pickup.name) {
 }
 ```
 
-10. Trong trailing lambda, hãy gọi thành phần kết hợp `SelectOptionScreen` và truyền `uiState.price` vào `subtotal` như trước. Truyền `uiState.pickupOptions` cho tham số `options` và biểu thức lambda gọi `setDate()` trên `viewModel` cho tham số `onSelectionChanged`.
+10) Trong trailing lambda, hãy gọi thành phần kết hợp `SelectOptionScreen` và truyền `uiState.price` vào `subtotal` như trước. Truyền `uiState.pickupOptions` cho tham số `options` và biểu thức lambda gọi `setDate()` trên `viewModel` cho tham số `onSelectionChanged`.
 
 ```kotlin
 SelectOptionScreen(
@@ -266,7 +270,7 @@ SelectOptionScreen(
 )
 ```
 
-11. Gọi `composable()` lại một lần nữa, truyền `CupcakeScreen.Summary.name` cho `route`.
+11) Gọi `composable()` lại một lần nữa, truyền `CupcakeScreen.Summary.name` cho `route`.
 
 ```kotlin
 composable(route = CupcakeScreen.Summary.name) {
@@ -274,7 +278,7 @@ composable(route = CupcakeScreen.Summary.name) {
 }
 ```
 
-12. Trong trailing lambda, hãy gọi thành phần kết hợp `OrderSummaryScreen()`, truyền vào biến `uiState` cho tham số `orderUiState`.
+12) Trong trailing lambda, hãy gọi thành phần kết hợp `OrderSummaryScreen()`, truyền vào biến `uiState` cho tham số `orderUiState`.
 
 ```kotlin
 composable(route = CupcakeScreen.Summary.name) {
@@ -285,6 +289,39 @@ composable(route = CupcakeScreen.Summary.name) {
 ```
 
 Đó là các bước để thiết lập `NavHost`. Ở phần tiếp theo, bạn sẽ làm cho ứng dụng thay đổi các tuyến và di chuyển giữa các màn hình khi người dùng nhấn vào từng nút.
+
+## Di chuyển giữa các tuyến
+
+Bây giờ, khi bạn đã xác định và ánh xạ các tuyến tới thành phần kết hợp trong `NavHost`, đã đến lúc điều hướng giữa các màn hình. Thuộc tính `NavHostController` (thuộc tính `navController` từ việc gọi `rememberNavController()`) chịu trách nhiệm di chuyển giữa các tuyến. Tuy nhiên, hãy lưu ý rằng, thuộc tính này được xác định trong thành phần kết hợp `CupcakeApp`. Bạn cần có cách để truy cập ứng dụng từ các màn hình khác nhau trong ứng dụng của mình.
+
+Thật dễ dàng đúng không? Bạn chỉ cần ~~truyền `navController` dưới dạng tham số cho từng thành phần kết hợp~~.
+
+Mặc dù có thể dùng phương pháp này, nhưng **đây không phải là cách lý tưởng** để cấu trúc ứng dụng. Do đó, một trong những lợi ích của việc sử dụng NavHost để xử lý hoạt động điều hướng là logic **điều hướng được tách khỏi giao diện người dùng**. Tuỳ chọn này _tránh được một số hạn chế lớn khi truyền navController dưới dạng tham số_.
+
+- Logic điều hướng được lưu giữ tại cùng địa điểm, giúp mã dễ bảo trì hơn và ngăn lỗi bằng cách không vô tình cung cấp cho các màn hình quyền tự do điều hướng trong ứng dụng.
+- Đối với ứng dụng cần hoạt động trên nhiều kiểu dáng (như điện thoại ở chế độ dọc, điện thoại có thể gập lại hoặc máy tính bảng màn hình lớn), một nút có thể hoặc không thể kích hoạt tính năng điều hướng, tuỳ thuộc vào bố cục ứng dụng. Mỗi màn hình riêng lẻ phải độc lập và không cần nhận biết màn hình khác trong ứng dụng.
+
+Thay vào đó, cách tiếp cận của chúng ta là truyền một loại hàm vào từng thành phần kết hợp cho những gì sẽ xảy ra khi người dùng nhấp vào nút. Theo đó, thành phần kết hợp và bất kỳ thành phần kết hợp con nào của nó sẽ quyết định thời điểm gọi hàm. Tuy nhiên, logic điều hướng không thể hiện trên mỗi màn hình trong ứng dụng. Tất cả hành vi điều hướng đều được xử lý trong NavHost.
+
+### Thêm trình xử lý nút vào StartOrderScreen
+
+Bạn sẽ bắt đầu bằng cách thêm một tham số loại hàm được gọi khi người dùng nhấn một trong các nút số lượng ở màn hình đầu tiên. Hàm này được truyền vào thành phần kết hợp StartOrderScreen, chịu trách nhiệm cập nhật viewmodel và chuyển đến màn hình tiếp theo.
+
+1. Mở `StartOrderScreen.kt`.
+2. Bên dưới tham số `quantityOptions` và trước tham số sửa đổi, hãy thêm tham số có tên là `onNextButtonClicked` thuộc loại `() -> Unit`.
+
+```kotlin
+@Composable
+fun StartOrderScreen(
+    quantityOptions: List<Pair<Int, Int>>,
+    onNextButtonClicked: () -> Unit,
+    modifier: Modifier = Modifier
+){
+...
+}
+```
+
+
 
 # Tổng kết
 

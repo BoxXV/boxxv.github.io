@@ -47,7 +47,7 @@ tags:
 		- [8. Wear OS by Google](#8-wear-os-by-google)
 	- [IV. Behavior](#iv-behavior)
 		- [Download manager](#download-manager)
-		- [1. Media \& playback](#1-media--playback)
+		- [1. Media and playback](#1-media-and-playback)
 		- [2. Notifications](#2-notifications)
 		- [3. Permissions](#3-permissions)
 		- [4. Sharing](#4-sharing)
@@ -298,7 +298,7 @@ Các thành phần ở nhóm này sẽ giúp ứng dụng của chúng ta có th
 
 Đặt lịch & quản lý các tác vụ tải xuống
 
-### 1. [Media & playback](https://developer.android.com/guide/topics/media/legacy)
+### 1. [Media and playback](https://developer.android.com/guide/topics/media/legacy)
 
 Hỗ trợ tương thích ngược cho việc phát media và routing (bao gồm cả Google Cast)
 
