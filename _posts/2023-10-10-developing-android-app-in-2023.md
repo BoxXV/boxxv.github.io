@@ -68,6 +68,9 @@ tags:
 
 Trong bài viết ngắn này, tôi tóm tắt một số đề xuất cũng như thực tiễn tốt nhất và phổ biến mới dành cho nhà phát triển ứng dụng Android. Hãy thoải mái sử dụng chúng khi bạn xây dựng một dự án greenfield mới hoặc khi bạn muốn loại bỏ giao diện cũ khỏi các ứng dụng hiện có của mình.
 
+- [Android Roadmap mind map](https://mind42.com/mindmap/95590371-4d95-4f66-91da-a7afc8e1b198)
+- [JetPack compose mind map](https://mind42.com/mindmap/78ed0932-fa34-49a6-b0ab-b330b0ac54ab)
+
 # Java đã chết, Kotlin trường tồn
 
 Nếu bạn thực sự không biết thì đã vài năm trôi qua kể từ khi Google [thông báo](https://developer.android.com/kotlin/first) rằng việc phát triển Android sẽ ưu tiên Kotlin lên hàng đầu. Kotlin không chỉ an toàn hơn, được thiết kế tốt hơn và ít dài dòng hơn Java mà không có Kotlin trong cơ sở mã của bạn, bạn sẽ không thể sử dụng các công cụ và thư viện hiện đại như Jetpack Compose hoặc lập trình không đồng bộ bằng Coroutines.
