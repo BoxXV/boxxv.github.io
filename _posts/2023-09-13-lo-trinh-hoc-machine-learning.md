@@ -140,6 +140,8 @@ tags:
 
 Trí tuệ nhân tạo (Aritifical Intelligient), Máy học (Machine learning), Học sâu (Deep Learning) là 3 thuật ngữ rất hot trong những năm gần đây.
 
+![Andrew Ng](https://boxxv.github.io/img/ai/383785053_3647796478810524_1790389580654847815_n.jpg "Andrew Ng")
+
 # II. Giới thiệu
 
 Phân biệt Artificial Intelligence, Machine Learning và Deep Learning
