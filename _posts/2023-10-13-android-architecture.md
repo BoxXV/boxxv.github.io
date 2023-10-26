@@ -26,6 +26,7 @@ tags:
 - [Cấu trúc ứng dụng được đề xuất](#cấu-trúc-ứng-dụng-được-đề-xuất)
 - [Sử dụng Hilt trong Ứng dụng Android](#sử-dụng-hilt-trong-ứng-dụng-android)
   - [Chèn phần phụ thuộc](#chèn-phần-phụ-thuộc)
+  - [Triển khai Hilt trong Retrofit](#triển-khai-hilt-trong-retrofit)
 - [Tổng kết](#tổng-kết)
 
 ![Architecture](https://boxxv.github.io/img/2023/001.png "Architecture")
@@ -133,6 +134,16 @@ Cấu trúc ứng dụng đề xuất của Android khuyến khích việc chia 
 
 ![Architecture](https://boxxv.github.io/img/2023/final-architecture.png "Architecture")
 
+## Triển khai Hilt trong Retrofit
+
+**Project Structure**
+
+![Architecture](https://boxxv.github.io/img/2023/1bzauaaaepvkr9hk5w3c.png "Architecture")
+
+**Bản tóm tắt về chú thích Hilt và Dagger**
+
+![Architecture](https://boxxv.github.io/img/2023/hilt-cheatsheet.png "Architecture")
+
 
 # Tổng kết
 
@@ -145,9 +156,14 @@ Tham khảo
 - [Hướng dẫn về cấu trúc ứng dụng](https://developer.android.com/topic/architecture?hl=vi)
 - [UI layer - Lớp giao diện người dùng](https://developer.android.com/jetpack/guide/ui-layer?hl=vi)
 - [Chèn phần phụ thuộc trong Android](https://developer.android.com/training/dependency-injection?hl=vi)
-- []()
+- [Chèn phần phụ thuộc bằng Hilt](https://developer.android.com/training/dependency-injection/hilt-android?hl=vi)
+- [Implementation of Hilt in Retrofit](https://dev.to/krisrajkumar/implementation-of-hilt-in-retrofit-154f)
+
+- [Tổng quan về Hilt trong loạt bài kỹ năng Modern Android Development (MAD)](https://viblo.asia/p/tong-quan-ve-hilt-trong-loat-bai-ky-nang-modern-android-development-mad-Do754zeQZM6)
+- [What's new in Jetpack?](https://viblo.asia/p/whats-new-in-jetpack-maGK76yL5j2)
+- [What’s new in Jetpack](https://viblo.asia/p/whats-new-in-jetpack-Ljy5VqXblra)
+
 - [Android Unidirectional Data Flow with LiveData](https://viblo.asia/p/android-unidirectional-data-flow-with-livedata-vyDZO767Zwj)
 - [Binding Android UI with Kotlin Flow](https://viblo.asia/p/binding-android-ui-with-kotlin-flow-eW65GWyY5DO)
 - [25 thư viện và project sample Android hay nhất năm 2020](https://viblo.asia/p/25-thu-vien-va-project-sample-android-hay-nhat-nam-2020-1Je5Ey015nL)
-- []()
 
