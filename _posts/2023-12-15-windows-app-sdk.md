@@ -76,11 +76,15 @@ Tham khảo
 - [Windows Software Development Kit là gì? Ưu nhược điểm của Windows SDK](https://wiki.tino.org/windows-software-development-kit-la-gi/)
 - [Microsoft bỏ hỗ trợ UWP trên Windows 11: Đây là lý do](https://suachualaptop24h.com/tin-cong-nghe-trong-ngay/microsoft-bo-ho-tro-uwp-tren-windows-11-day-la-ly-do-n8008.html)
 - [Windows App SDK 1.2 hiện đã khả dụng, có gì đáng chú ý?](https://nhuttran.vn/tin-tuc-su-kien/windows-app-sdk-12-hien-da-kha-dung-co-gi-dang-chu-y)
-- [Title bar](https://learn.microsoft.com/en-us/windows/apps/design/basics/titlebar-design)
-- [Title bar customization](https://learn.microsoft.com/en-us/windows/apps/develop/title-bar)
+
+-----
 - [Develop Windows desktop apps](https://learn.microsoft.com/en-us/windows/apps/develop/)
 - [Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/)
+- [Install tools for the Windows App SDK](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/set-up-your-development-environment)
 - [Visual Studio project and item templates for Windows apps](https://learn.microsoft.com/en-us/windows/apps/desktop/visual-studio-templates)
+- [Build a Hello World app using C# and WinUI 3 / Windows App SDK](https://learn.microsoft.com/vi-vn/windows/apps/how-tos/hello-world-winui3)
+
+-----
+- [Title bar](https://learn.microsoft.com/en-us/windows/apps/design/basics/titlebar-design)
+- [Title bar customization](https://learn.microsoft.com/en-us/windows/apps/develop/title-bar)
 - [Developing for Windows 11: Like developing for Windows 10, but with rounded corners?](https://www.theregister.com/2021/06/28/developing_for_windows_11/)
-- []()
-- []()
