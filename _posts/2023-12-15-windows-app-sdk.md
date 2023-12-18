@@ -12,6 +12,12 @@ tags:
 - [Mục lục](#mục-lục)
 - [Giới thiệu](#giới-thiệu)
 - [Windows App SDK 1.2](#windows-app-sdk-12)
+- [Cài đặt Windows App SDK](#cài-đặt-windows-app-sdk)
+  - [Cài đặt Visual Studio](#cài-đặt-visual-studio)
+    - [Workloads và Components cần thiết](#workloads-và-components-cần-thiết)
+      - [Để phát triển ứng dụng C# bằng Windows App SDK](#để-phát-triển-ứng-dụng-c-bằng-windows-app-sdk)
+      - [Để phát triển ứng dụng C++ bằng Windows App SDK](#để-phát-triển-ứng-dụng-c-bằng-windows-app-sdk-1)
+      - [Để phát triển ứng dụng Universal Windows Platform (UWP)](#để-phát-triển-ứng-dụng-universal-windows-platform-uwp)
 - [Tổng kết](#tổng-kết)
 
 # Giới thiệu
@@ -31,6 +37,34 @@ Một số thay đổi đáng chú ý khác cần phải kể tới trong Window
 Windows App SDK 1.2 HDR và ​​Auto Color Management (ACM) hiện cũng được hỗ trợ thông qua lớp DisplayInformation của Windows App SDK. Nó cho phép các ứng dụng khách theo dõi mọi thay đổi liên quan đến chế độ xem cũng như giao diện một cách tương đối dễ dàng. Và nếu bạn đang sử dụng Visual Studio 17.3 Preview 2 trở lên, sẽ có thêm một mục thú vị khác là khả năng phát triển nguyên bản cho kiến ​​trúc Arm64.
 
 Một số thay đổi đáng chú ý khác cần phải kể tới trong Windows App SDK 1.2 bao gồm việc ứng dụng .NET, Dynamic Refresh Rate(DRR) trong Windows 11 và thành phần AppNotificationBuilder để dễ dàng tạo và xác định thông báo đều đã được tinh giản. Microsoft cũng nhấn mạnh rằng binary footprint x64 của Windows App SDK 1.2 hiện đã nhỏ hơn 11% so với phiên bản cũ 1.1.5
+
+# Cài đặt Windows App SDK
+
+## Cài đặt Visual Studio
+
+Cài đặt Visual Studio 2022 (được khuyến nghị) hoặc Visual Studio 2019. Bạn có thể chọn giữa Visual Studio Community Edition, Visual Studio Professional hoặc Visual Studio Enterprise miễn phí.
+
+> Quan trọng: Visual Studio 2019 chỉ hỗ trợ Windows App SDK 1.1 trở về trước. Visual Studio 2022 được khuyên dùng để phát triển ứng dụng với tất cả các phiên bản SDK ứng dụng Windows.
+
+### Workloads và Components cần thiết
+
+#### Để phát triển ứng dụng C# bằng Windows App SDK
+
+- .NET Desktop Development
+- Windows App SDK C# Templates
+
+#### Để phát triển ứng dụng C++ bằng Windows App SDK
+
+- Desktop development with C++
+- Windows App SDK C++ Templates
+
+#### Để phát triển ứng dụng Universal Windows Platform (UWP)
+
+- Universal Windows Platform development
+- C++ (v143) Universal Windows Platform tools
+
+> Note: Trên tab **Individual components** của hộp thoại cài đặt, trong **SDKs, libraries, and frameworks**, hãy đảm bảo **Windows 10 SDK (10.0.19041.0)** được chọn.
+
 
 # Tổng kết
 
