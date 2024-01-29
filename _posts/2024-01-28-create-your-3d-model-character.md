@@ -35,3 +35,5 @@ Chúc bạn thành công!
 -----
 Tham khảo:
 - [(Hướng dẫn) Tạo nhân vật Vroid Model của riêng mình](https://youtu.be/EEX08LOMJFA)
+- [Hướng dẫn xuất model 3D từ phần mềm Vroid sang Blender](https://youtu.be/6V92wt_MmGc)
+- [MAKE AMAZING ANIMATIONS FOR FREE! (XR animator tutorial)](https://youtu.be/fYHCRTKwAa0)
