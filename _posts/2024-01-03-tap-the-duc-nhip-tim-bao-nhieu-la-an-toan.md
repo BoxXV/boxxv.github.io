@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ttập Thể dục nhịp tim bao nhiêu là an toàn?
+title: Tập Thể dục nhịp tim bao nhiêu là an toàn?
 image: "img/run.jpg"
 tags:
 - chạy bộ
@@ -13,10 +13,11 @@ tags:
 
 - [Mục lục](#mục-lục)
 - [Giới thiệu](#giới-thiệu)
-- [1. Khi tập thể dục nhịp tim bao nhiêu là an toàn?](#1-khi-tập-thể-dục-nhịp-tim-bao-nhiêu-là-an-toàn)
-	- [1.1. Nhịp tim khi tập thể dục phụ thuộc vào những yếu tố nào?](#11-nhịp-tim-khi-tập-thể-dục-phụ-thuộc-vào-những-yếu-tố-nào)
-	- [1.2. Khi bạn tập thể dục nhịp tim bao nhiêu là an toàn?](#12-khi-bạn-tập-thể-dục-nhịp-tim-bao-nhiêu-là-an-toàn)
-- [2. Tim đập quá nhanh khi chạy bộ gây ảnh hưởng như thế nào đến sức khỏe?](#2-tim-đập-quá-nhanh-khi-chạy-bộ-gây-ảnh-hưởng-như-thế-nào-đến-sức-khỏe)
+- [I. Khi tập thể dục nhịp tim bao nhiêu là an toàn?](#i-khi-tập-thể-dục-nhịp-tim-bao-nhiêu-là-an-toàn)
+	- [1. Nhịp tim khi tập thể dục phụ thuộc vào những yếu tố nào?](#1-nhịp-tim-khi-tập-thể-dục-phụ-thuộc-vào-những-yếu-tố-nào)
+	- [2. Khi bạn tập thể dục nhịp tim bao nhiêu là an toàn?](#2-khi-bạn-tập-thể-dục-nhịp-tim-bao-nhiêu-là-an-toàn)
+- [II. Tim đập quá nhanh khi chạy bộ gây ảnh hưởng như thế nào đến sức khỏe?](#ii-tim-đập-quá-nhanh-khi-chạy-bộ-gây-ảnh-hưởng-như-thế-nào-đến-sức-khỏe)
+- [III. Chạy ở "vùng 2"](#iii-chạy-ở-vùng-2)
 - [Lời kết](#lời-kết)
 
 
@@ -26,9 +27,9 @@ Nhịp tim là một trong những chỉ số sức khỏe quan trọng mà tấ
 
 ![Ở người trưởng thành, tim sẽ đập từ 60 đến 100 nhịp/ phút](https://medlatec.vn/ImagePath/images/20211201/20211201_tap-the-duc-nhip-tim-bao-nhieu-la-an-toan-3.jpg "Ở người trưởng thành, tim sẽ đập từ 60 đến 100 nhịp/ phút")
 
-# 1. Khi tập thể dục nhịp tim bao nhiêu là an toàn?
+# I. Khi tập thể dục nhịp tim bao nhiêu là an toàn?
 
-## 1.1. Nhịp tim khi tập thể dục phụ thuộc vào những yếu tố nào?
+## 1. Nhịp tim khi tập thể dục phụ thuộc vào những yếu tố nào?
 
 Ở người trưởng thành, tim sẽ đập từ 60 đến 100 nhịp/ phút. Khi chúng ta chạy bộ nhịp tim sẽ nhanh hơn do sự lưu thông máu đến các cơ bắp tăng mạnh để đảm bảo cơ thể nhận được đủ oxy và lượng dưỡng chất cần thiết.
 
@@ -39,7 +40,7 @@ Tuy nhiên sự gia tăng nhịp tim ở mỗi người lại khác nhau và ph�
 - Mức độ tập luyện
 - Sử dụng thuốc: Một số loại thuốc có thể làm tăng nhịp tim khi thể dục chẳng hạn như thuốc điều trị các bệnh lý tuyến giáp, nhưng cũng có những loại thuốc lại làm tim đập chậm lại khi vận động.
 
-## 1.2. Khi bạn tập thể dục nhịp tim bao nhiêu là an toàn?
+## 2. Khi bạn tập thể dục nhịp tim bao nhiêu là an toàn?
 
 Đối với những vận động viên điền kinh trong độ tuổi từ 20 đến 45 tuổi, nhịp tim trung bình của họ khi chạy là ở mức 100 – 160 bpm. Tuy nhiên rất khó để trả lời rằng đây đã phải là nhịp tim lý tưởng khi chạy bộ hay chưa. Nguyên nhân vì mức tính nhịp tim lý tưởng, an toàn khi tập luyện còn phụ thuộc vào nhiều yếu tố chủ quan. 
 
@@ -49,13 +50,13 @@ Có một công thức giúp bạn xác định nhịp tim an toàn khi tập th
 
 Vậy cụ thể khi bạn **tập thể dục nhịp tim bao nhiêu là an toàn?**
 
-- Đối với những người ở độ tuổi 20 tuổi: Nhịp tim tối đa trong khi tập thể dục là 100 đến 170 bpm.
-- Đối với những người ở độ tuổi 30 tuổi: Nhịp tim tối đa trong khi tập thể dục là 95 đến 162 bpm.
-- Đối với những người ở độ tuổi 35 tuổi: Nhịp tim tối đa trong khi tập thể dục là 93 đến 157 bpm.
-- Đối với những người ở độ tuổi 40 tuổi: Nhịp tim tối đa trong khi tập thể dục là 90 đến 153 bpm.
-- Đối với những người ở độ tuổi 45 tuổi: Nhịp tim tối đa trong khi tập thể dục là 88 đến 149 bpm.
-- Đối với những người ở độ tuổi 50 tuổi: Nhịp tim tối đa trong khi tập thể dục là 85 đến 145 bpm.
-- Đối với những người ở độ tuổi 60 tuổi: Nhịp tim tối đa trong khi tập thể dục là 80 đến 136 bpm.
+- Đối với những người 20 tuổi: Nhịp tim tối đa trong khi tập thể dục là 100 đến 170 bpm.
+- Đối với những người 30 tuổi: Nhịp tim tối đa trong khi tập thể dục là 95 đến 162 bpm.
+- Đối với những người 35 tuổi: Nhịp tim tối đa trong khi tập thể dục là 93 đến 157 bpm.
+- Đối với những người 40 tuổi: Nhịp tim tối đa trong khi tập thể dục là 90 đến 153 bpm.
+- Đối với những người 45 tuổi: Nhịp tim tối đa trong khi tập thể dục là 88 đến 149 bpm.
+- Đối với những người 50 tuổi: Nhịp tim tối đa trong khi tập thể dục là 85 đến 145 bpm.
+- Đối với những người 60 tuổi: Nhịp tim tối đa trong khi tập thể dục là 80 đến 136 bpm.
 
 Việc xác định nhịp tim tối đa trong quá trình tập luyện là rất quan trọng. Đó là một mốc để chúng ta có thể dựa vào đó để điều chỉnh cường độ tập luyện phù hợp so với sức khỏe. Qua đó, bạn sẽ đạt được hiệu quả cao nhất sau quá trình tập luyện.
 
@@ -103,7 +104,7 @@ Việc xác định nhịp tim tối đa trong quá trình tập luyện là r�
 
 Trên đây chỉ là những con số tham khảo. Tùy vào sức khỏe hiện tại mà nhịp tim của bạn cũng có thể thay đổi đôi chút. Tuy nhiên, nếu nhịp tim của bạn quá nhanh khi tập luyện thì nên đi khám để được các bác sĩ thăm khám và tư vấn điều trị.
 
-# 2. Tim đập quá nhanh khi chạy bộ gây ảnh hưởng như thế nào đến sức khỏe?
+# II. Tim đập quá nhanh khi chạy bộ gây ảnh hưởng như thế nào đến sức khỏe?
 
 Nếu để `tim đập nhanh` khi chạy bộ trong suốt một thời gian dài, bạn sẽ có nguy cơ mắc phải một số bệnh tim mạch mạn tính trong tương lai. Một số vấn đề về tim mạch có thể xảy ra nếu nhịp tim quá nhanh khi tập luyện như: `đau ngực`, rối loạn nhịp tim, `khó thở`,… Do vậy, bạn cần quan tâm và điều chỉnh nhịp tim tối đa khi chạy về mức phù hợp.
 
@@ -116,6 +117,34 @@ Nếu tim đập quá nhanh khi tập thể dục, bạn nên đi khám sớm
 - Nên tập thể dục sau ăn ít nhất 1,5 tiếng.
 - Dành thời gian 5 phút để khởi động kéo căng cơ và đợi thêm 5 phút để cơ thể của bạn có thể hạ nhiệt sau vận động.
 - Nên tập luyện với mức độ ổn định nghĩa là bạn có thể nói chuyện mà vẫn duy trì tốc độ tập.
+
+# III. Chạy ở "vùng 2"
+
+Phân tích trên chuyên san khoa học The Conversation, các nhà nghiên cứu từ Đại học Angila Ruskin (Anh), dẫn đầu bởi PGS Dan Gordon, nhấn mạnh rằng việc quá chú tâm vào việc tăng tốc độ chạy bộ có thể là một sai lầm lớn.
+
+Bởi lẽ, theo nhiều bằng chứng khoa học, tốc độ chạy bộ lý tưởng nhất cho việc đốt mỡ và tăng cường sức khỏe hệ tim mạch - hệ hô hấp có thể chậm hơn bạn tưởng rất nhiều.
+
+Trên thực tế, khảo sát các vận động viên chạy bộ ưu tú nhất, người ta nhận ra họ dành khoảng 80% thời gian tập luyện để chạy ở "vùng 2" (`zone 2`).
+
+Đây là vùng được xác định khi chúng ta chạy nhẹ nhàng hoặc thực hiện các bài tập tương tự khác với nhịp độ thoải mái, đòi hỏi thở sâu chỉ một chút và vẫn đủ sức để nói chuyện khi đang tập.
+
+Tốc độ chạy khá chậm này đem lại nhiều lợi ích đáng ngạc nhiên.
+
+`Thứ nhất`, khi tốc độ chạy bộ tăng lên, cơ thể càng phải chịu nhiều áp lực hơn. Cơ thể càng căng thẳng thì nguy cơ mắc bệnh, nhiễm trùng và chấn thương càng cao, có thể khiến bạn phải nghỉ vài buổi tập.
+
+`Thứ hai`, chạy ở zone 2 lại tốt cho sức khỏe tim mạch - hô hấp hơn.
+
+Với mức độ căng thẳng sinh lý tương đối thấp của zone 2, lượng máu được cung cấp oxy rời khỏi tim ở mỗi nhịp đập vẫn gần hoặc ở mức tối đa. Mặc dù khả năng bơm của tim thích ứng được với việc tập luyện nhưng cường độ cao hơn không giúp tăng ngưỡng này. 
+
+Các nghiên cứu cũng chỉ ra rằng mức tăng VO2 tối đa (công suất oxy) và tốc độ khi chạy đua sẽ cao hơn khoảng 1% ở những vận động viên thường xuyên tập luyện ở tốc độ chậm.
+
+`Thứ ba`, người chạy bộ chậm có thể giảm béo tốt hơn. Bởi lẽ, tốc độ chậm sẽ khiến cơ thể sử dụng chất béo dự trữ để làm năng lượng, trái ngược với việc huy động carbohydrate từ thực phẩm bạn ăn hằng ngày.
+
+Trong quá trình này, đốt cháy chất béo về mặt trao đổi chất hiệu quả hơn nhiều so với huy động năng lượng từ carbohydrate. Bạn sẽ ít mệt mỏi hơn trong khi mỡ thừa tan biến nhanh hơn.
+
+Cách đơn giản để biết mình có đang chạy ở zone 2 hay không là khi bạn chạy mà vẫn dễ dàng nói chuyện với bạn bè hoặc hát to cho chính mình nghe mà không thấy hụt hơi.
+
+Nếu bạn chạy quá nhanh, ngoài cảm giác khó hát, nói chuyện, bạn cũng sẽ cảm thấy hai chân mình nặng nề. Điều này xảy ra khi tốc độ chạy vượt quá zone 2, đồng thời vượt ngưỡng lactate - một loại axit mà cơ thể tạo ra khi bắt đầu dùng đến carbohydrate để lấy năng lượng.
 
 # Lời kết
 
