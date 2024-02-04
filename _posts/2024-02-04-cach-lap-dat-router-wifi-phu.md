@@ -26,6 +26,7 @@ tags:
 	- [Bước 5: Kết nối hai Router với nhau](#bước-5-kết-nối-hai-router-với-nhau)
 	- [Bước 6: Kích hoạt tính năng WDS trên Router chính](#bước-6-kích-hoạt-tính-năng-wds-trên-router-chính)
 	- [Bước 7: Vô hiệu hóa DHCP Server trên Router phụ](#bước-7-vô-hiệu-hóa-dhcp-server-trên-router-phụ)
+- [Một số khái niệm](#một-số-khái-niệm)
 - [Tổng kết](#tổng-kết)
 
 
@@ -107,6 +108,14 @@ Lặp lại quá trình kích hoạt tại Bước 4 và Bước 5 trên Router 
 
 Cuối cùng, hãy quay lại trình cài đặt của Router phụ dựa vào địa chỉ IP cố định trước đó. Vào mục DHCP Setting và chọn Disable DHCP để vô hiệu hóa tính năng cấp phát IP của Router phụ.
 
+# Một số khái niệm
+
+`Giao thức DHCP` (Dynamic Host Configuration Protocol), tạm dịch là giao thức cấu hình máy chủ, đây là một giao thức quản lý mạng được sử dụng để chỉ định IP cho bất kỳ thiết bị hoặc nút nào trên mạng để chúng có thể giao tiếp với nhau bằng IP. DHCP tự động hóa và quản lý tập trung các cấu hình này thay vì yêu cầu quản trị viên mạng gán địa chỉ IP theo cách thủ công cho tất cả các thiết bị mạng. DHCP có thể được thực hiện trên các mạng cục bộ nhỏ cũng như các mạng doanh nghiệp lớn.
+
+`Cáp Ethernet RJ45` là loại dây cáp kết nối giữa các thiết bị như: Máy tính, laptop, tivi,... với modem mạng thông qua cổng Ethernet để các thiết bị này có thể truy cập Internet.
+
+
+
 # Tổng kết
 
 Trên đây là 03 cách cài đặt và sử dụng Router wifi phụ mà Nhà An Toàn đã chia sẻ tới người dùng. Hy vọng các kiến thức trong bài sẽ giúp bạn tự lắp đặt và kết nối được hai Router. Nếu vẫn còn băn khoăn, hãy liên hệ ngay với Nhà An Toàn để được tư vấn và hỗ trợ nhanh nhất. 
@@ -115,4 +124,5 @@ Chúc bạn thành công!
 
 -----
 Tham khảo:
-- [DCode™ – Timestamp Decoder](https://www.digital-detective.net/dcode/)
+- [03 cách lắp đặt Router wifi phụ chi tiết từ A đến Z](https://nhaantoan.com/tin-tuc/03-cach-lap-dat-router-wifi-phu-chi-tiet-tu-a-den-z.html)
+- [RJ45 là gì? Chuẩn mạng RJ45 là gì? Cách bấm đầu dây RJ45 theo chuẩn](https://www.thegioididong.com/hoi-dap/lan-la-gi-rj-45-la-cai-gi-743872)
