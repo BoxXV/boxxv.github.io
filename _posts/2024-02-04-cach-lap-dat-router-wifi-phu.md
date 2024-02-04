@@ -27,6 +27,13 @@ tags:
 	- [Bước 6: Kích hoạt tính năng WDS trên Router chính](#bước-6-kích-hoạt-tính-năng-wds-trên-router-chính)
 	- [Bước 7: Vô hiệu hóa DHCP Server trên Router phụ](#bước-7-vô-hiệu-hóa-dhcp-server-trên-router-phụ)
 - [Một số khái niệm](#một-số-khái-niệm)
+	- [DHCP](#dhcp)
+	- [Access Point](#access-point)
+		- [Cấu tạo của Access Point](#cấu-tạo-của-access-point)
+			- [Chế độ cầu nối - `Bridge`](#chế-độ-cầu-nối---bridge)
+			- [Chế độ lặp](#chế-độ-lặp)
+	- [Chế độ hoạt động](#chế-độ-hoạt-động)
+	- [RJ45](#rj45)
 - [Tổng kết](#tổng-kết)
 
 
@@ -48,7 +55,7 @@ Truy cập vào web quản trị mà nhà sản xuất cung cấp, thông thư�
 
 ## Bước 2: Lựa chọn chế độ hoạt động cho Router wifi phụ
 
-Mỗi Router sẽ có các chế độ hoạt động khác nhau phụ thuộc vào cách thiết lập của nhà sản xuất. Vì vậy, bạn cần lựa chọn đúng chế độ hoạt động để cả hệ thống Router luôn hoạt động ổn định. Đối với thiết bị có Operation Mode, bạn chỉ cần tắt DHCP Server tại mục WAN Setting. Còn đối với thiết bị phân chia chế độ hoạt động, hãy truy cập vào thẻ Operation Mode và chọn chế độ Access Point hoặc Bridge.
+Mỗi Router sẽ có các chế độ hoạt động khác nhau phụ thuộc vào cách thiết lập của nhà sản xuất. Vì vậy, bạn cần lựa chọn đúng chế độ hoạt động để cả hệ thống Router luôn hoạt động ổn định. Đối với thiết bị có Operation Mode, bạn chỉ cần tắt DHCP Server tại mục WAN Setting. Còn đối với thiết bị phân chia chế độ hoạt động, hãy truy cập vào thẻ Operation Mode và chọn chế độ `Access Point` hoặc `Bridge`.
 
 ## Bước 3: Cài đặt thông tin chi tiết
 
@@ -110,7 +117,56 @@ Cuối cùng, hãy quay lại trình cài đặt của Router phụ dựa vào �
 
 # Một số khái niệm
 
-`Giao thức DHCP` (Dynamic Host Configuration Protocol), tạm dịch là giao thức cấu hình máy chủ, đây là một giao thức quản lý mạng được sử dụng để chỉ định IP cho bất kỳ thiết bị hoặc nút nào trên mạng để chúng có thể giao tiếp với nhau bằng IP. DHCP tự động hóa và quản lý tập trung các cấu hình này thay vì yêu cầu quản trị viên mạng gán địa chỉ IP theo cách thủ công cho tất cả các thiết bị mạng. DHCP có thể được thực hiện trên các mạng cục bộ nhỏ cũng như các mạng doanh nghiệp lớn.
+## DHCP
+
+`Giao thức DHCP` là viết tắt của Dynamic Host Configuration Protocol, một giao thức cho phép máy chủ cấu hình động tự động, cung cấp địa chỉ IP cùng với các thông số mạng khác như subnet mask và gateway mặc định.. DHCP có thể được thực hiện trên các mạng cục bộ nhỏ cũng như các mạng doanh nghiệp lớn.
+
+Giao thức này giúp cung cấp các địa chỉ IP để chúng ta có thể truy cập internet. Mục đích quan trọng nhất của giao thức này là tránh xảy ra trường hợp hai máy tính khác nhau sử dụng cùng một địa chỉ IP.
+
+Trong trường hợp máy tính không sử dụng giao thức này, ta có thể cấu hình địa chỉ IP thủ công (còn được gọi là cấu hình IP tĩnh). Hiện nay, giao thức này có hai phiên bản sử dụng cho IPv4 và IPv6.
+
+Nhược điểm
+
+- IP động của Dynamic Host Configuration Protocol không phù hợp với các thiết bị cố định và cần duy trì kết nối liên tục như máy in, máy chủ tập tin (file server).
+- Giao thức này thường chỉ được sử dụng trong các hộ gia đình hoặc mô hình mạng nhỏ.
+
+## Access Point
+
+Chế độ điểm truy cập / Điểm truy cập không dây
+
+Access Point là một thiết bị mạng có khả năng tạo ra `WLAN`, hay còn gọi là **mạng không dây cục bộ**. Access Point thường được dùng tại môi trường công sở, nhà hàng, tiệc cưới hay các tòa nhà lớn nhằm tạo ra không gian sử dụng mạng rộng rãi mà không làm suy giảm tốc độ của mạng.
+
+Ngoài ra, Access Point còn khả năng chuyển đổi mạng có dây thành mạng không dây, từ đây mà các thiết bị có thể dễ dàng kết nối được. Có thể hiểu Access Point là một loại thiết bị thu phát WiFi. Tuy nhiên, không vì thế mà tính bảo mật trên không gian mạng bị suy giảm theo, điều này giúp bạn có thể yên tâm sử dụng thiết bị.
+
+Một chức năng ưu việt của Access Point đó là khả năng liên kết các máy tính tại nơi làm việc, từ đó sẽ giúp việc kiểm soát và truyền tải dữ liệu trở nên đơn giản hơn.
+
+### Cấu tạo của Access Point
+
+Về cơ bản, Access Point có cách hoạt động tương tự như cổng chia mạng Switch, nhưng điểm đặc biệt là nó được trang bị thêm khả năng phát WiFi.
+
+#### Chế độ cầu nối - `Bridge`
+
+Chỉ một số Access Point có hỗ trợ chế độ này
+
+Đúng như tên gọi, ở chế độ này thì Access Point đóng vai trò như kênh trung gian tiếp nhận và truyền tải tín hiệu. Cầu nối này sẽ được hình thành với mục đích hợp nhất 2 hoặc nhiều đoạn mạng lại với nhau dưới dạng kết nối không dây. Cũng nhờ vậy mà không gian tín hiệu Internet được mở rộng ra.
+
+#### Chế độ lặp
+
+Ở chế độ này, Access Point sẽ giúp cung cấp một đường truyền kết nối không dây tồn tại song song với mạng có dây.
+
+## Chế độ hoạt động
+
+`Router Wi-Fi` (Mặc định): Trong chế độ này, thiết bị cho phép nhiều người dùng chia sẻ kết nối Internet qua Modem ADSL/Cáp. Các thiết bị LAN chia sẻ cùng một IP từ ISP qua cổng Wi-Fi. Trong khi kết nối với Internet, cổng Ethernet LAN / WAN hoạt động như một cổng WAN ở chế độ Router Wi-Fi.
+
+`WISP`: Ở chế độ này, thiết bị cho phép nhiều người dùng chia sẻ kết nối Internet từ WISP. Cổng LAN của thiết bị chia sẻ cùng địa chỉ IP từ WISP qua cổng Wi-Fi. Trong khi kết nối với WISP, cổng Wi-Fi hoạt động như cổng WAN ở chế độ Router Client WISP. Cổng Ethernet hoạt động như cổng LAN.
+
+`Điểm truy cập`: Trong chế độ này, thiết bị có thể kết nối với mạng dây và chuyển đổi truy cập dây sang Wi-Fi cho phép nhiều thiết bị chia sẻ với nhau, đặc biệt cho gia đình, văn phòng hoặc khách sạn nơi chỉ có mạng dây.
+
+`Mở rộng sóng`: Trong chế độ này, thiết bị này có thể sao chép và tăng cường tín hiệu Wi-Fi hiện có để mở rộng vùng phủ sóng của tín hiệu, đặc biệt là cho một không gian rộng lớn để loại bỏ các góc tín hiệu yếu.
+
+![Router](https://boxxv.github.io/img/2024/TL-WR840N.png "Router")
+
+## RJ45
 
 `Cáp Ethernet RJ45` là loại dây cáp kết nối giữa các thiết bị như: Máy tính, laptop, tivi,... với modem mạng thông qua cổng Ethernet để các thiết bị này có thể truy cập Internet.
 
