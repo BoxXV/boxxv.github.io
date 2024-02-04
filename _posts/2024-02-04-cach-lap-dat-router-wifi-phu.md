@@ -115,7 +115,4 @@ Chúc bạn thành công!
 
 -----
 Tham khảo:
-- [Decoding binary data structure](https://reverseengineering.stackexchange.com/questions/15969/decoding-binary-data-structure)
-- [Understanding and Decoding a JPEG Image using Python](https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/)
 - [DCode™ – Timestamp Decoder](https://www.digital-detective.net/dcode/)
-- [图片的 Metadata 与网站性能优化](https://github.com/shfshanyue/blog/blob/master/web-performance/image-metadata.md)
