@@ -294,7 +294,7 @@ Google Cloud SQL cung cấp tính năng sao lưu tự động, sao chép để c
 
 **Giá cả:**
 
-Giá của Google Cloud SQL bắt đầu từ $7/người dùng/tháng. Chi phí chính xác phụ thuộc vào công cụ cơ sở dữ liệu, khu vực, loại phiên bản đã chọn và các yếu tố khác. Có nhiều mô hình giá khác nhau để phục vụ cho các nhu cầu và sở thích khác nhau.
+Giá của Google Cloud SQL bắt đầu từ `$7`/người dùng/tháng. Chi phí chính xác phụ thuộc vào công cụ cơ sở dữ liệu, khu vực, loại phiên bản đã chọn và các yếu tố khác. Có nhiều mô hình giá khác nhau để phục vụ cho các nhu cầu và sở thích khác nhau.
 
 **Ưu điểm:**
 
@@ -329,7 +329,7 @@ Microsoft SQL Server tự hào có các tính năng như xử lý trong bộ nh�
 
 **Giá cả:**
 
-Chi tiết về giá của Microsoft SQL Server có thể khác nhau tùy theo phiên bản và mô hình cấp phép đã chọn. Giá khởi điểm là "Từ $7/người dùng/tháng", nhưng điều cần thiết là phải tham khảo trang định giá hoặc đại diện bán hàng của họ để biết các trường hợp cụ thể. Một số phiên bản cũng có thể có các sắc thái cấp phép ảnh hưởng đến chi phí cuối cùng.
+Chi tiết về giá của Microsoft SQL Server có thể khác nhau tùy theo phiên bản và mô hình cấp phép đã chọn. Giá khởi điểm là "Từ `$7`/người dùng/tháng", nhưng điều cần thiết là phải tham khảo trang định giá hoặc đại diện bán hàng của họ để biết các trường hợp cụ thể. Một số phiên bản cũng có thể có các sắc thái cấp phép ảnh hưởng đến chi phí cuối cùng.
 
 **Ưu điểm:**
 
@@ -401,7 +401,7 @@ Cơ sở dữ liệu cũng tích hợp với bộ sản phẩm riêng của Orac
 
 **Giá cả:**
 
-Cơ sở dữ liệu Oracle cung cấp nhiều lựa chọn về giá phù hợp với các nhu cầu khác nhau. Giá khởi điểm cho Oracle Standard Edition 2 là "Từ $17/người dùng/tháng" (thanh toán hàng năm), với các phiên bản cấp doanh nghiệp khác có sẵn ở mức giá cao hơn. Chi tiết về giá có thể được tìm thấy trên trang web chính thức của họ để phù hợp với yêu cầu kinh doanh cụ thể.
+Cơ sở dữ liệu Oracle cung cấp nhiều lựa chọn về giá phù hợp với các nhu cầu khác nhau. Giá khởi điểm cho Oracle Standard Edition 2 là "Từ `$17`/người dùng/tháng" (thanh toán hàng năm), với các phiên bản cấp doanh nghiệp khác có sẵn ở mức giá cao hơn. Chi tiết về giá có thể được tìm thấy trên trang web chính thức của họ để phù hợp với yêu cầu kinh doanh cụ thể.
 
 **Ưu điểm:**
 
