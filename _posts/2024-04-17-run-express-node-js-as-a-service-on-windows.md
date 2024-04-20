@@ -93,6 +93,9 @@ Trong Đường dẫn bạn sẽ đặt đường dẫn của app.exe của chú
 
 Trong tên dịch vụ, bạn sẽ đặt tên dịch vụ mà bạn sẽ thấy trong các dịch vụ windows.
 
+
+> Lưu ý: Không xóa file nssm.exe đi, vì mỗi lần service start sẽ dùng file này để chạy.
+
 Sau đó bắt đầu dịch vụ của bạn:
 
 ```bat
@@ -110,10 +113,14 @@ nssm remove app-service
 
 Và bạn có thể thấy dịch vụ từ Task manager trong tab services.
 
+Trên đây là hướng dẫn cách deploy ứng dụng node.js dạng Windows Service, bạn có thể áp dụng cách này để triển khai bất kỳ file .bat hay .exe nào dưới dạng Windows Service.
+
 Cảm ơn bạn đã đọc bài viết này của tôi, hy vọng rằng nó sẽ hữu ích và giúp bạn hiểu rõ hơn để lựa chọn tốt nhất trong công việc của mình.
 
 -----
 - [Run Express (Node.js) as a service on Windows](https://medium.com/@yazanuneisi/run-express-node-js-as-a-service-on-windows-5356cdab66ac)
 - [Express/Node introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
 - [How to broadcast your Nodejs server across your LAN](https://medium.com/@ashaymurceilago/how-to-broadcast-your-nodejs-server-across-your-lan-2ae93af01626)
+- [Chạy chương trình node.js dạng Windows Service](https://liemmaster.wordpress.com/2016/04/02/chay-chuong-trinh-node-js-dang-windows-service/)
+- [Running Node.js Web Apps on IIS with HttpPlatformHandler](https://docs.lextudio.com/blog/running-nodejs-web-apps-on-iis-with-httpplatformhandler/)
 - []()
