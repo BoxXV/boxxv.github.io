@@ -123,4 +123,8 @@ Cảm ơn bạn đã đọc bài viết này của tôi, hy vọng rằng nó s�
 - [How to broadcast your Nodejs server across your LAN](https://medium.com/@ashaymurceilago/how-to-broadcast-your-nodejs-server-across-your-lan-2ae93af01626)
 - [Chạy chương trình node.js dạng Windows Service](https://liemmaster.wordpress.com/2016/04/02/chay-chuong-trinh-node-js-dang-windows-service/)
 - [Running Node.js Web Apps on IIS with HttpPlatformHandler](https://docs.lextudio.com/blog/running-nodejs-web-apps-on-iis-with-httpplatformhandler/)
+- [Deploy Node JS application on IIS](https://medium.com/@adarsh-d/deploy-node-js-application-on-iis-9703d5dfcaca)
+- [How to run Node JS Application With IIS](https://www.linkedin.com/pulse/how-run-node-js-application-iis-rashid-bilgrami/)
+- [Deploying a Node.js application on Windows IIS using a reverse proxy](https://alex.domenici.net/archive/deploying-a-node-js-application-on-windows-iis-using-a-reverse-proxy)
+- [Installing and Running node.js applications within IIS on Windows](https://www.hanselman.com/blog/installing-and-running-nodejs-applications-within-iis-on-windows-are-you-mad)
 - []()
