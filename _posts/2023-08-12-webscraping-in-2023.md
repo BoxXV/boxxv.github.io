@@ -444,6 +444,35 @@ Python - Beautiful Soup
 - [PyMOTM: Beautiful Soup 4 (Part III)](https://viblo.asia/p/pymotm-beautiful-soup-4-part-iii-XqaGEBJEeWK)
 - [Cách scrape một trang web bằng python và BeautifulSoup](https://viblo.asia/p/cach-scrape-mot-trang-web-bang-python-va-beautifulsoup-vyDZODwPlwj)
 
+Python - Selenium
+- [Crawl data đầy đủ hơn với thư viện selenium](https://viblo.asia/p/crawl-data-day-du-hon-voi-thu-vien-selenium-EbNVQ5GmVvR)
+- [Làm việc với pseudo-elements (phần tử giả) trong Selenium](https://viblo.asia/p/lam-viec-voi-pseudo-elements-phan-tu-gia-trong-selenium-07LKXo1e5V4)
+- [Implicit Wait và Explicit Wait trong Selenium WebDriver](https://viblo.asia/p/implicit-wait-va-explicit-wait-trong-selenium-webdriver-WAyK87vp5xX)
+- [Tìm hiểu về XPath Axes](https://viblo.asia/p/tim-hieu-ve-xpath-axes-6J3Zgz3WKmB)
+- [Các trình định vị Selenium : Sử dụng XPath để định vị các phần tử trong Selenium](https://viblo.asia/p/cac-trinh-dinh-vi-selenium-su-dung-xpath-de-dinh-vi-cac-phan-tu-trong-selenium-aWj536bYl6m)
+- [Cách sử dụng CSS Selector để xác định các phần tử Web trong các kịch bản Selenium](https://viblo.asia/p/cach-su-dung-css-selector-de-xac-dinh-cac-phan-tu-web-trong-cac-kich-ban-selenium-gDVK2mow5Lj)
+- [Cách định vị các thành phần trong trình duyệt Chrome và IE để xây dựng tập lệnh Selenium](https://viblo.asia/p/cach-dinh-vi-cac-thanh-phan-trong-trinh-duyet-chrome-va-ie-de-xay-dung-tap-lenh-selenium-924lJJwYlPM)
+- [Xử lý Dropdown list với Selenium Webdriver](https://viblo.asia/p/xu-ly-dropdown-list-voi-selenium-webdriver-bWrZn0Em5xw)
+- [Xử lý Table, Frame và Dynamic Element của Web trong Selenium Script – Selenium Tutorial #18](https://viblo.asia/p/xu-ly-table-frame-va-dynamic-element-cua-web-trong-selenium-script-selenium-tutorial-18-3P0lP1A85ox)
+- [Những Selenium Exception thường gặp và cách xử lý chúng – Selenium Tutorial #19](https://viblo.asia/p/nhung-selenium-exception-thuong-gap-va-cach-xu-ly-chung-selenium-tutorial-19-924lJ286lPM)
+- [Selenium Tutorials - 31+ Bài hướng dẫn học Selenium](https://viblo.asia/p/selenium-tutorials-31-bai-huong-dan-hoc-selenium-eW65Gx8PKDO)
+- [Top 25 Selenium WebDriver Command nên biết](https://viblo.asia/p/top-25-selenium-webdriver-command-nen-biet-YWOZrNjpZQ0)
+- [Crawl data với Selenium Django PostgreSQL](https://viblo.asia/p/crawl-data-voi-selenium-django-postgresql-RnB5pMeDKPG)
+- [Làm Thế Nào Để Đếm Được Line of Code của 10 000 Pull Requests ?](https://viblo.asia/p/lam-the-nao-de-dem-duoc-line-of-code-cua-10-000-pull-requests-gGJ592BaKX2)
+- [Làm thế nào để đổi mật khẩu 5000 Gmail?](https://viblo.asia/p/lam-the-nao-de-doi-mat-khau-5000-gmail-gGJ59a9G5X2)
+- [Mẹo nhỏ bạn có thể kiểm tra broken link của trang web sử dụng Selenium](https://viblo.asia/p/meo-nho-ban-co-the-kiem-tra-broken-link-cua-trang-web-su-dung-selenium-djeZ1vyRlWz)
+- [Tôi đã enroll các khóa học trên Udemy một cách TỰ ĐỘNG như thế nào](https://viblo.asia/p/toi-da-enroll-cac-khoa-hoc-tren-udemy-mot-cach-tu-dong-nhu-the-nao-ORNZqe73Z0n)
+- [Làm Thế Nào Crawl 1 Triệu Comments Trên Facebook ?](https://viblo.asia/p/lam-the-nao-crawl-1-trieu-comments-tren-facebook-Qpmle1NVlrd)
+- [Làm thế nào để crawl hết tất cả bài viết trên Group, Fanpage Facebook ?](https://viblo.asia/p/lam-the-nao-de-crawl-het-tat-ca-bai-viet-tren-group-fanpage-facebook-ORNZqA23Z0n)
+- [Tạo một trợ lý ảo trên facebook tự động gửi tin tức mới nhất hằng ngày bằng python selenium](https://viblo.asia/p/tao-mot-tro-ly-ao-tren-facebook-tu-dong-gui-tin-tuc-moi-nhat-hang-ngay-bang-python-selenium-eW65G1L9ZDO)
+- ["Have fun" cùng với Selenium: Developer v Tester](https://viblo.asia/p/have-fun-cung-voi-selenium-developer-v-tester-Az45b49gZxY)
+- [Tạo MV style của Em bỏ hút thuốc chưa với Selenium](https://viblo.asia/p/tao-mv-style-cua-em-bo-hut-thuoc-chua-voi-selenium-Qbq5Q0X3lD8)
+- [Tìm hiểu testing Web Automation với Selenium Webdriver và Python](https://viblo.asia/p/tim-hieu-testing-web-automation-voi-selenium-webdriver-va-python-Qbq5Q46RlD8)
+- [Selenium là gì và ứng dụng](https://viblo.asia/p/selenium-la-gi-va-ung-dung-gAm5y7kDZdb)
+- [Làm quen với Trình kiểm thử tự động Selenium](https://viblo.asia/p/lam-quen-voi-trinh-kiem-thu-tu-dong-selenium-GrLZDQ8wlk0)
+- [Hướng dẫn cài đặt và một số chỉ dẫn đối với Selenium IDE](https://viblo.asia/p/huong-dan-cai-dat-va-mot-so-chi-dan-doi-voi-selenium-ide-gGJ59eXD5X2)
+- [Giới thiệu về Selenium WebDriver – Selenium Tutorial #8](https://viblo.asia/p/gioi-thieu-ve-selenium-webdriver-selenium-tutorial-8-bWrZn77vlxw)
+
 -----
 JavaScript
 - ["Đào mỏ" với Puppeteer](https://viblo.asia/p/dao-mo-voi-puppeteer-924lJEg6ZPM)
@@ -456,6 +485,7 @@ JavaScript
 - [Build extension to check timesheet on WSM (P1)](https://viblo.asia/p/build-extension-to-check-timesheet-on-wsm-p1-aWj538N1K6m)
 - [Xây dựng extension để check timesheet trên WSM (P2)](https://viblo.asia/p/xay-dung-extension-de-check-timesheet-tren-wsm-p2-OeVKB4JMlkW)
 - [[`Tutorial` - viblo] Thử crawl data trên viblo](https://viblo.asia/p/thu-crawl-data-tren-viblo-vyDZObyRKwj)
+- [[Nodejs] Dùng selenium, cheerio để crawl dữ liệu](https://viblo.asia/p/nodejs-dung-selenium-cheerio-de-crawl-du-lieu-4dbZNDGq5YM)
 
 -----
 PHP
