@@ -380,6 +380,7 @@ Tham khảo:
 - [Data Scraping Tools for Scraping Real Estate Data Using Python](https://www.promptcloud.com/blog/scraping-real-estate-data-from-zillow-using-python/)
 - [Crawl data - cào dữ liệu có gì khó?](https://www.lhsang.dev/posts/technique/scraping-data-from-websites/)
 - [Tìm hiểu chung về Web Scraping và các vấn đề cần quan tâm](https://viblo.asia/p/tim-hieu-chung-ve-web-scraping-va-cac-van-de-can-quan-tam-djeZ1yXJZWz)
+- ["Cào" dữ liệu doanh nghiệp với Beautiful Soup một cách cực kỳ đơn giản](https://viblo.asia/p/cao-du-lieu-doanh-nghiep-voi-beautiful-soup-mot-cach-cuc-ky-don-gian-V3m5WjgblO7)
 - [Tìm hiểu về Web Scraping Bot là gì?](https://securitydaily.net/tim-hieu-ve-web-scraping-bot-la-gi/)
 - [Xây dựng sơ bộ một hệ thống crawler](https://viblo.asia/p/xay-dung-so-bo-mot-he-thong-crawler-aWj538BQK6m)
 - [Panther - thư viện dùng để scrape website](https://viblo.asia/p/panther-thu-vien-dung-de-scrape-website-ORNZqp3bK0n)
