@@ -126,9 +126,21 @@ Về mặt kỹ thuật, Scrapy không phải một thư viện mà là một fr
 
 Bài viết này trình bày một số kiến thức cơ bản về Web Scraping và các vấn đề cần giải quyết để hệ thống Web Scraping hoạt động hiệu quả cũng như giới thiệu qua về một số thư viện/framework của Python thường được sử dụng nhằm mục đích thu thập dữ liệu. Có thể thấy rằng trong thời điểm hiện tại, dữ liệu đóng vai trò tối quan trọng trong kỷ nguyên số. Việc tận dụng được nguồn tài nguyên này giúp chúng ta có thể tạo ra rất nhiều giá trị hữu ích cho bản thân và mọi người xung quanh. Tuy nhiên để có thể xây dựng và vận hành một hệ thống thu thập dữ liệu web một cách hiệu quả, người phát triển không chỉ cần tập trung đến các vấn đề về công nghệ mà cần quan tâm cả đến các vấn đề về tính hợp pháp do không phải loại dữ liệu nào có thể được thu thập. Bài viết đến đây là kết thúc cảm ơn mọi người đã giành thời gian đọc.
 
+Keyword: Web Scraping Challenges Solutions
 
 -----
 Tham khảo:
 - [Tìm hiểu chung về Web Scraping và các vấn đề cần quan tâm](https://viblo.asia/p/tim-hieu-chung-ve-web-scraping-va-cac-van-de-can-quan-tam-djeZ1yXJZWz)
 - [5 killer problems with web scrapers, and how to solve them](https://axiom.ai/blog/5-problems-webscrapers)
-- []()
+- [5 Main Web Scraping Challenges & Solutions](https://oxylabs.io/blog/web-scraping-challenges)
+- [Top 5 Challenges in Web Scraping: Solutions and Best Practices](https://rayobyte.com/blog/web-scraping-solutions/)
+- [6 Main Web Scraping Challenges & Practical Solutions in 2024](https://research.aimultiple.com/web-scraping-challenges/)
+- [8 Main Web Scraping Challenges And Their Solutions](https://www.joinmassive.com/blog/8-main-web-scraping-challenges-and-their-solutions)
+- [9 Common Web Scraping Challenges And How To Overcome Them](https://octaitech.com/blog/web-scraping-challenges/)
+- [9 Web Scraping Challenges You Should Know](https://www.octoparse.com/blog/9-web-scraping-challenges)
+- [10 Web Scraping Challenges You Should Know](https://www.zenrows.com/blog/web-scraping-challenges#what-are-web-scraping-challenges)
+- [Web Scraping Challenges & Their Cost-Efficient Solutions](https://www.zyte.com/blog/web-scraping-challenges/)
+- [Web Scraping Challenges](https://brightdata.com/blog/web-data/web-scraping-challenges)
+- [Common Web Scraping Challenges & How to Solve Them](https://scrapingrobot.com/blog/web-scraping-challenges/)
+- [Data Scraping - Challenges and Best Practices](https://www.binaryfolks.com/blog/challenges-and-best-practices-for-data-scraping)
+- [Solving Web Scraping Problems](https://laerciosantanna.medium.com/overcoming-obstacles-in-web-scraping-a-comprehensive-guide-721f3324df03)
