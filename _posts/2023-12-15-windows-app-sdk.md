@@ -211,9 +211,9 @@ Tham khảo
 - [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C#](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-wasdk)
 - [Build a Hello World app using C# and WinUI 3 / Windows App SDK](https://learn.microsoft.com/vi-vn/windows/apps/how-tos/hello-world-winui3)
 - [Create your first WinUI 3 (Windows App SDK) project](https://learn.microsoft.com/en-us/windows/apps/winui/winui3/create-your-first-winui3-app)
-- [Learn Live: Create a simple Windows App with WinUI | CLL04](https://youtu.be/FKuzzC-FFbQ)
-- [WinUI 3 | XAML | Tutorial - Excel-like Splittable DataGrid | C#](https://youtu.be/0ZrLIy4sZK0?list=PLWyJQIhN3vyP6mcB6eoIFRHv3klSrijUu)
-- [Windows UI 3 : Build a Hello World app | Windows App SDK](https://youtu.be/kGrv5TSX5n0)
+- [Learn Live: Create a simple Windows App with WinUI, CLL04](https://youtu.be/FKuzzC-FFbQ)
+- [WinUI 3, XAML, Tutorial - Excel-like Splittable DataGrid - C#](https://youtu.be/0ZrLIy4sZK0?list=PLWyJQIhN3vyP6mcB6eoIFRHv3klSrijUu)
+- [Windows UI 3 : Build a Hello World app - Windows App SDK](https://youtu.be/kGrv5TSX5n0)
 
 -----
 - [Title bar](https://learn.microsoft.com/en-us/windows/apps/design/basics/titlebar-design)
