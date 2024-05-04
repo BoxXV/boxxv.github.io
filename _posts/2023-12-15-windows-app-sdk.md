@@ -25,6 +25,7 @@ tags:
       - [Để phát triển ứng dụng C++ bằng Windows App SDK](#để-phát-triển-ứng-dụng-c-bằng-windows-app-sdk-1)
       - [Để phát triển ứng dụng Universal Windows Platform (UWP)](#để-phát-triển-ứng-dụng-universal-windows-platform-uwp)
 - [Win UI](#win-ui)
+- [.NET Community Toolkit](#net-community-toolkit)
 - [Tổng kết](#tổng-kết)
 
 ![Windows App SDK](https://boxxv.github.io/img/2023/c34818e8dd8375dd2c92.jpg "Windows App SDK")
@@ -188,6 +189,14 @@ Cài đặt Visual Studio 2022 (được khuyến nghị) hoặc Visual Studio 2
 # Win UI
 
 ![Windows App SDK](https://boxxv.github.io/img/2023/29a5f105346e9c30c57f.jpg "Windows App SDK")
+
+# .NET Community Toolkit
+
+Bộ thư viện .NET ban đầu được phát triển cho Windows Community Toolkit, hiện có thể được sử dụng đa dạng với các UI framework.
+
+Microsoft đã chính thức trình diện phiên bản .NET Community Toolkit, nhằm cung cấp cho lập trình viên .NET các phương thức trợ giúp và API. Microsoft cho biết bản phát hành cập nhật của MVVM toolkit (model-view view-model) là tính năng mới lớn nhất.
+
+Bản .NET Community Toolkit 8.0.0 đã được công bố vào ngày 04 - 08, sau giai đoạn thử nghiệm từ tháng 01, còn có thể được truy cập từ GitHub. Đi kèm với MVVM toolkit là các source generators mới nhằm giảm thiểu đáng kể các đoạn mã soạn sẵn để thiết lập một ứng dụng tận dụng MVVM. Qua đó, việc viết các thuộc tính có thể quan sát được trở nên đơn giản hơn, các lập trình viên C# cũng được nâng cấp về mặt kĩ thuật và các phương thức giao tiếp API cũng được cải thiện cho các ứng dụng MVVM.
 
 # Tổng kết
 
