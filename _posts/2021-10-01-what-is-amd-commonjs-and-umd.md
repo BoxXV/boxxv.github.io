@@ -250,7 +250,7 @@ module.log();
 
 ## SystemJS & ES6 module’s
 
-Giai đoạn tiếp theo trong quá trình phát triển và mẫu mô-đun trường hợp hiện đại nhất và tốt nhất để sử dụng ngày nay, tính đến năm 2020, được gọi là Hệ thống, System.registerhoặc đơn giản là mô-đun ES6. Điều này làm cho việc sử dụng cú pháp import ... from './module'. Nó được thiết kế để hỗ trợ cú pháp mô-đun ES6 trong môi trường JavaScript ES5. Cú pháp về cơ bản giống với cú pháp của mô-đun ES6, vì vậy tôi đã gộp các ví dụ này lại với nhau ở đây để đơn giản hóa. Mẫu này thường được sử dụng làm tiêu chuẩn vàng trong một ứng dụng được xây dựng bằng TypeScript.
+Giai đoạn tiếp theo trong quá trình phát triển và mẫu mô-đun trường hợp hiện đại nhất và tốt nhất để sử dụng ngày nay, tính đến năm 2020, được gọi là `System`, `System.register` hoặc đơn giản là mô-đun ES6. Điều này làm cho việc sử dụng cú pháp `import ... from './module'`. Nó được thiết kế để hỗ trợ cú pháp mô-đun ES6 trong môi trường JavaScript ES5. Cú pháp về cơ bản giống với cú pháp của mô-đun ES6, vì vậy tôi đã gộp các ví dụ này lại với nhau ở đây để đơn giản hóa. Mẫu này thường được sử dụng làm tiêu chuẩn vàng trong một ứng dụng được xây dựng bằng TypeScript.
 
 #### Tạo mô-đun
 {% highlight js %}
