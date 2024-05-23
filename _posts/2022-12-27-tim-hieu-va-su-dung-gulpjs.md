@@ -11,6 +11,31 @@ tags:
 
 ![Gulp](https://boxxv.github.io/img/posts/Essential-JavaScript-Frameworls-Libraries-Tools-Gulp.jpg "Gulp")
 
+## Mục lục
+
+- [Mục lục](#mục-lục)
+- [1. Gulp là gì?](#1-gulp-là-gì)
+- [2. Cách cài đặt](#2-cách-cài-đặt)
+- [3. Các thành phần chính của Gulp](#3-các-thành-phần-chính-của-gulp)
+  - [3.1. gulp.task](#31-gulptask)
+  - [3.2. gulp.src](#32-gulpsrc)
+  - [3.3. gulp.dest](#33-gulpdest)
+  - [3.4. gulp.watch](#34-gulpwatch)
+- [4. Sử dụng Gulp](#4-sử-dụng-gulp)
+  - [Streams](#streams)
+  - [Gulp.src()](#gulpsrc)
+  - [Defining Tasks](#defining-tasks)
+  - [Default tasks](#default-tasks)
+  - [Plugins](#plugins)
+  - [Gulp-load-plugins](#gulp-load-plugins)
+  - [Watching files](#watching-files)
+- [5. Tự động refresh browser](#5-tự-động-refresh-browser)
+  - [LiveReload](#livereload)
+  - [BrowserSync](#browsersync)
+  - [Minify css, js](#minify-css-js)
+- [Tổng kết](#tổng-kết)
+
+
 Tối ưu hóa tài sản trang web và thử nghiệm thiết kế trên nhiều trình duyệt khác nhau chắc chắn không phải là một phần thú vị nhất của quá trình thiết kế. Công việc trên gồm các nhiệm vụ lặp đi lặp lại, rất nhàm chán và thiếu tính hiệu quả. May mắn thay, ta có thể dùng các công cụ để giải quyết công việc mang tính lặp đi lặp lại này nhằm tăng hiệu suất công việc. Gulp là một công cụ như thế. Nó thường được sử dụng để làm các tác vụ front end như:
 - Tạo ra một web server
 - Reload trình duyệt một cách tự động bất cứ khi nào một file được lưu
