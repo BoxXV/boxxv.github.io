@@ -341,3 +341,14 @@ Trong bài viết này, tôi đã cố gắng chỉ ra một con chim tốt là 
 -----
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
+- [NLog - Tutorial](https://github.com/NLog/NLog/wiki/Tutorial)
+- [NLog - Configuration file](https://github.com/NLog/NLog/wiki/Configuration-file)
+- [NLog - File target](https://github.com/NLog/NLog/wiki/File-target)
+- [NLog - FileTarget Archive Examples](https://github.com/NLog/NLog/wiki/FileTarget-Archive-Examples)
+- [Use NLog to log](https://sorceryforce.net/en/tips/asp-net-core-log-n-log)
+- [How To Start Logging With NLog](https://betterstack.com/community/guides/logging/how-to-start-logging-with-nlog/)
+- [NLog C# (How it Works for Developers)](https://ironpdf.com/blog/net-help/nlog-csharp-guide/)
+- [How to log errors in WinForms using NLog](https://grantwinney.com/log-errors-in-winforms-with-nlog/)
+- [How to log messages to multiple targets with NLog](https://grantwinney.com/how-to-log-messages-to-multiple-targets-with-nlog/)
+- [Basic Understanding Of NLog](https://www.c-sharpcorner.com/article/basic-understanding-of-nlog/)
+- []()
