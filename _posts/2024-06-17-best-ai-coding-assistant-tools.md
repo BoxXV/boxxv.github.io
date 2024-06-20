@@ -26,7 +26,79 @@ Dưới đây là một số [ví dụ sử dụng khác của Bito](https://doc
 
 ## Tabnine
 
+Hoạt động của Tabnine tương tự như Copilot. Tuy nhiên, một số ưu điểm của nó bao gồm các mô hình AI được cá nhân hóa, tự lưu trữ, truy cập ngoại tuyến và quyền riêng tư về mã.
 
+Gói miễn phí của họ chỉ cung cấp tính năng hoàn thành mã cơ bản. Nó gợi ý từng dòng mã.
+
+Để nhận được đề xuất tốt hơn từ Tabnine, bạn phải cung cấp cho tabnine một số ngữ cảnh bằng lời nhắc bằng ngôn ngữ tự nhiên và mã của riêng bạn.
+
+## Amazon CodeWhisperer
+
+Amazon CodeWhisperer đề xuất toàn bộ chức năng và đoạn mã (tối đa 10–15 dòng mã) trong thời gian thực.
+
+Nó được tối ưu hóa để sử dụng với các API AWS như Amazon EC2, AWS Lambda và Amazon S3.
+
+Amazon CodeWhisperer cũng có thể quét mã nguồn của bạn để phát hiện các lỗ hổng bảo mật. Nó tuân theo các phương pháp thực hành tốt nhất được nêu ra bởi Dự án bảo mật ứng dụng toàn cầu mở (OWASP).
+
+## Codeium
+
+Codeium là người bạn đồng hành mã hóa AI được hỗ trợ bởi các mô hình và cơ sở hạ tầng AI tổng hợp nội bộ. Các mô hình AI được đào tạo bằng hơn 70 ngôn ngữ lập trình phổ biến.
+
+Nó cung cấp tính năng tự động hoàn thành mã, tìm kiếm thông minh (tìm tệp và mã trong thư mục dự án bằng lời nhắc ngôn ngữ tự nhiên) và Trò chuyện được hỗ trợ bởi AI.
+
+Họ cũng có một sân chơi trực tuyến để kiểm tra chức năng của Codeium mà không cần đăng ký.
+
+## Cody
+
+Cody là một trợ lý mã hóa AI nguồn mở được tạo bởi Sourcegraph. Nó sử dụng Mô hình ngôn ngữ lớn với API đồ thị mã của Sourcegraph để cung cấp hỗ trợ mã hóa.
+
+Chatbot của nó có thể trả lời các câu hỏi kỹ thuật của bạn ngay trong Mã VS. Cody cũng cung cấp tính năng tự động hoàn thành khi bạn nhập mã vào trình chỉnh sửa.
+
+Cody có thể dễ dàng hiểu được các cơ sở mã phức tạp. Cho phép bạn đặt câu hỏi liên quan đến mã của bạn.
+
+## FauxPilot
+
+FauxPilot là một giải pháp mã nguồn mở thay thế cho GitHub Copilot. Bạn có thể lưu trữ nó trên máy chủ của mình hoặc sử dụng nó ngoại tuyến trên máy tính.
+
+Không giống như GitHub Copilot sử dụng OpenAI Codex, FauxPilot được hỗ trợ bởi các mô hình SalesForce CodeGen có tính cạnh tranh rất cao với OpenAI Codex.
+
+Theo mặc định, FauxPilot không cung cấp tiện ích mở rộng cho Mã VS. Tuy nhiên, một nhà phát triển khác đã tạo [tiện ích mở rộng FauxPilot cho VS Code](https://github.com/Venthe/vscode-fauxpilot) và cũng biến nó thành nguồn mở.
+
+Tôi chỉ khuyên bạn nên sử dụng tính năng này nếu bạn cảm thấy thoải mái khi làm việc với Docker vì các bước cài đặt của FauxPilot có thể hơi phức tạp.
+
+Nếu bạn đang dùng Windows, hãy sử dụng [kho lưu trữ này](https://github.com/Frederisk/fauxpilot-windows) để cài đặt FauxPilot.
+
+## Tabby
+
+Tabby là một trợ lý mã hóa AI tự lưu trữ mã nguồn mở. Nó có thể đề xuất toàn bộ chức năng hoặc đoạn mã nhiều dòng khi bạn nhập. Nó lấy bối cảnh từ mã và nhận xét của bạn.
+
+Điều tốt nhất về Tabby là nó có thể được tinh chỉnh cho bất kỳ dự án nào. Để huấn luyện Tabby, bạn cần một PC có bộ tăng tốc GPU tốt (ví dụ RTX 3080). Quá trình đào tạo có thể được cấu hình bằng tệp YAML.
+
+Bạn cũng có thể dùng thử Tabby trong trình duyệt mà không cần đăng ký.
+
+## CodeGeeX
+
+CodeGeeX là mô hình tạo mã nguồn mở được đào tạo bằng hơn 20 ngôn ngữ lập trình (ví dụ: Python, JavaScript, Java, C++/C, Go, v.v.). Nó sử dụng 13 tỷ thông số và tạo ra kết quả chất lượng rất cao.
+
+Nó có thể được sử dụng để gợi ý mã, dịch thuật, giải thích và tóm tắt.
+
+Bạn cũng có thể [đọc tài liệu nghiên cứu CodeGeeX](https://arxiv.org/abs/2303.17568) để biết thêm thông tin kỹ thuật.
+
+## AskCodi
+
+AskCodi là một giải pháp thay thế miễn phí cho GitHub Copilot dành cho Mã VS. Nó sử dụng OpenAI Codex để thực hiện nhiều nhiệm vụ của trợ lý mã AI.
+
+Ví dụ: nó có thể được sử dụng để đề xuất mã, tài liệu phần mềm, giải thích mã, kiểm tra, v.v. Bạn cũng có thể sử dụng tính năng trò chuyện của nó để bắt đầu cuộc trò chuyện với lập trình viên cặp AI của mình.
+
+AskCodi ưu tiên quyền riêng tư của mã. Nó không lưu mã bạn truyền vào nó hoặc mã mà nó tạo ra.
+
+## Blackbox AI
+
+Blackbox AI được tích hợp nhiều tính năng như tự động hoàn thành mã, tìm kiếm mã và tìm kiếm kho lưu trữ. Nó được tạo ra để tăng tốc độ phát triển phần mềm bằng cách tăng năng suất của các nhà phát triển.
+
+Tính năng tự động hoàn thành mã cung cấp các đề xuất bằng hơn 20 ngôn ngữ lập trình dựa trên thông tin đầu vào của nhà phát triển. Tìm kiếm kho lưu trữ cho phép các nhà phát triển tìm kiếm trực tiếp qua hàng triệu tệp kho lưu trữ mã nguồn mở trong môi trường phát triển tích hợp (IDE) của họ. Tính năng tìm kiếm mã giúp nhà phát triển tìm đoạn mã cho dự án của họ bằng cách nhập câu hỏi hoặc truy vấn.
+
+Những tính năng này cũng có sẵn trong Jupyter Lab và Jupyter Notebooks.
 
 ## Kết luận
 
