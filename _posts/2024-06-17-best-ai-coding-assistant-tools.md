@@ -10,6 +10,8 @@ tags:
 
 Trong bài viết này, tôi đã biên soạn một danh sách về các lựa chọn thay thế GitHub Copilot miễn phí cho Visual Studio Code. Một số công cụ này thậm chí còn là nguồn mở.
 
+![AI](https://boxxv.github.io/img/ai/54fae9f34711e44fbd00.jpg "AI")
+
 ## Bito
 
 Không giống như GitHub Copilot, Bito hiểu codebase cục bộ của bạn bên trong VS Code bằng cách tận dụng sức mạnh của các phần nhúng và cơ sở dữ liệu vectơ. Nó cung cấp khả năng hoàn thành mã AI có liên quan cao khi bạn nhập hoặc thông qua nhận xét mã. Nó có một chatbot được hỗ trợ bởi AI, nơi bạn có thể đặt câu hỏi liên quan đến toàn bộ codebase của mình. Nó cũng duy trì lịch sử các cuộc hội thoại của bạn, từ đó tạo ra các câu trả lời nhận biết ngữ cảnh tốt hơn.
