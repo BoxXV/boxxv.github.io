@@ -28,6 +28,10 @@ tags:
 	- [SQLAI](#sqlai)
 	- [Snyk powered by DeepCode AI](#snyk-powered-by-deepcode-ai)
 	- [Gemini in Android Studio](#gemini-in-android-studio)
+- [Testing LLMs on Solving Leetcode Problems](#testing-llms-on-solving-leetcode-problems)
+	- [Datasets](#datasets)
+	- [Results](#results)
+	- [Future considerations](#future-considerations)
 - [Kết luận](#kết-luận)
 
 
@@ -238,6 +242,49 @@ Các tính năng chính:
 - Được phát triển bởi Google và được tích hợp vào Android Studio – một IDE chính thức để phát triển ứng dụng Android và Flutter gốc.
 - Yêu cầu đăng nhập vào Tài khoản Google.
 
+## Testing LLMs on Solving Leetcode Problems
+
+Tôi chọn  Leetcode  làm nguồn gốc của các vấn đề cho điểm chuẩn này vì một số lý do:
+
+- Các bài toán Leetcode được sử dụng trong các cuộc phỏng vấn thực tế cho các vị trí kỹ sư phần mềm.
+- Sinh viên khoa học máy tính học cách giải quyết các vấn đề tương tự trong quá trình học tập của họ.
+- Nó có một thẩm phán trực tuyến có thể kiểm tra xem giải pháp có đúng hay không chỉ sau vài giây.
+- Hiệu suất của người dùng về vấn đề này cũng có sẵn.
+
+### Datasets
+
+Tôi muốn chạy LLM trên hai nhóm vấn đề:
+- những bài toán "`nổi tiếng`" không chỉ được xuất bản từ lâu mà còn được sử dụng thường xuyên nhất trong các cuộc phỏng vấn phần mềm—do đó, các giải pháp đều có sẵn rộng rãi.
+- Các vấn đề "`không thể nhìn thấy`" mà bản thân chúng không có trong dữ liệu LLM và giải pháp của chúng không được các LLM thử nghiệm quan sát được
+
+![Datasets](https://boxxv.github.io/img/ai/tUyDy3WCvhMrS9XRgsoD10WmU5k2-mz932g0.jpeg "Datasets")
+
+Việc truy xuất các báo cáo vấn đề và đoạn mã từ Leetcode là một thách thức đáng chú ý nhưng cuối cùng mọi thứ cũng được giải quyết. Mã nguồn [công cụ kiểm tra của tôi có sẵn trên GitHub](https://github.com/whisk/leetgptsolver) cho bất kỳ ai quan tâm.
+
+### Results
+
+Tất cả các giải pháp được thu thập từ LLM và gửi đến hệ thống đánh giá trực tuyến Leetcode. Tôi tập hợp các kết quả lại với nhau trong một bảng duy nhất. Như đã đề cập trước đó, các vấn đề về hình ảnh và nhiều chức năng cần triển khai đã được miễn trừ.
+
+![Results](https://boxxv.github.io/img/ai/tUyDy3WCvhMrS9XRgsoD10WmU5k2-j39327u.png "Results")
+
+Những phát hiện chính là:
+
+- Có một khoảng cách đáng kể về hiệu suất của tất cả các LLM trên các tập hợp vấn đề "nổi tiếng" và "không nhìn thấy".
+- Tất cả các LLM đều có chung một mô hình hoạt động tương tự: chúng tạo ra kết quả tốt đối với các vấn đề “nổi tiếng” nhưng lại gặp khó khăn với các vấn đề “không nhìn thấy được”.
+- ChatGPT-4, Claude Opus và Gemini 1.5 rất thân thiết với nhau; Gemini 1.0 Pro kém xa.
+- Các vấn đề "khó nhìn thấy" gần như không thể tiếp cận được đối với LLM: Claude 3 Opus chỉ giải quyết được một trong số chúng, còn những vấn đề khác thì không giải quyết được.
+
+Để chống lại giả thuyết cho rằng những vấn đề “không nhìn thấy” phức tạp hơn những vấn đề “nổi tiếng”, chúng ta nên đánh giá tỷ lệ chấp nhận của người dùng. Nó thấp hơn đối với các vấn đề mới nhưng vẫn tương đối cao so với tỷ lệ chấp nhận của LLM. Tôi đưa ra giả thuyết rằng những vấn đề phổ biến có tỷ lệ chấp nhận cao hơn bởi vì người dùng cố gắng hết sức để giải quyết chúng một cách xuất sắc để chuẩn bị cho các cuộc phỏng vấn xin việc.
+
+### Future considerations
+
+Mặc dù kết quả của LLM về các vấn đề không nhìn thấy được nhìn chung là quá kém để được coi là kỹ năng kỹ thuật phần mềm vững chắc, nhưng chúng vẫn ở trên mức 0—một kết quả chưa từng có đối với bất kỳ công cụ phần mềm nào. Điều đáng nói là những kết quả đó đạt được nhanh hơn nhiều so với những gì con người có thể làm được. Có cách nào để cải thiện những vấn đề chưa được nhìn thấy? Có lẽ là có, theo ba cách:
+
+- Cải thiện lời nhắc ban đầu và điều chỉnh nó cho từng kiểu máy riêng biệt. Lời nhắc của tôi hoàn toàn chung chung và không có "kỹ thuật nhắc nhở" trong đó.
+- Cung cấp phản hồi về những nỗ lực không thành công để cải thiện kết quả dần dần. Điều đó sẽ làm cho quá trình giải quyết trở nên gần gũi hơn với bối cảnh thực tế.
+- Chuẩn bị các mô tả vấn đề, làm cho chúng trở nên “phù hợp” hơn để các mô hình tiếp thu. Tôi không thích ý tưởng rằng LLM chỉ nên nhận các báo cáo vấn đề được chuẩn bị đặc biệt; thay vào đó, họ nên xem một mô hình nhỏ hơn để cải thiện các mô tả để phù hợp hơn cho việc giải quyết. Một số mối lo ngại xuất phát từ thực tế là các vấn đề Leetcode mới khiến các giải pháp được công bố nhanh chóng, do đó khiến chúng có sẵn cho LLM. Một cách giải quyết tiềm năng là sử dụng LLM để tạo ra các vấn đề mới.
+
+Những ý tưởng này cần được nghiên cứu sâu hơn và tôi hy vọng rằng ai đó hoặc tôi có thể tìm hiểu chúng.
 
 ## Kết luận
 
@@ -254,4 +301,7 @@ Bây giờ là lúc thử nghiệm các trợ lý mã hóa AI khác nhau trong t
 - [Codeium](https://codeium.com) - [Free AI Code Completion &amp; Chat](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 - [Cody](https://sourcegraph.com/cody) - [AI coding assistant](https://github.com/sourcegraph/cody)
 - [Tabnine](https://www.tabnine.com) - The AI code assistant that you control
-- Snyk powered by DeepCode AI
+- [Testing LLMs on Code Generation with Varying Levels of Prompt Specificity](https://arxiv.org/pdf/2311.07599?ref=hackernoon.com)
+- [An introduction to code LLM benchmarks for software engineers](https://blog.continue.dev/an-introduction-to-code-llm-benchmarks-for-software-engineers/)
+- [LLM Benchmarks: Understanding Language Model Performance](https://humanloop.com/blog/llm-benchmarks)
+- []()
