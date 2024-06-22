@@ -43,7 +43,7 @@ tags:
 
 Trong bài viết này, tôi đã biên soạn một danh sách về các lựa chọn thay thế GitHub Copilot miễn phí cho Visual Studio Code. Một số công cụ này thậm chí còn là nguồn mở.
 
-![AI](https://boxxv.github.io/img/ai/54fae9f34711e44fbd00.jpg "AI")
+![AI](https://boxxv.github.io/img/ai/7e04cd1f179bb4c5ed8a.jpg "AI")
 
 ## 🎯Feature Guides
 
@@ -123,6 +123,8 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Unit Test: `NUnit` for C#
 
 ## So sánh
+
+![AI](https://boxxv.github.io/img/ai/54fae9f34711e44fbd00.jpg "AI")
 
 ### 1. GitHub Copilot
 
@@ -418,6 +420,8 @@ Tóm lại, tôi có thể nói rằng điều này khá tiện lợi trong vi�
 -----
 - [10 Free GitHub Copilot Alternatives for VS Code 2024](https://bito.ai/blog/free-github-copilot-alternatives-for-vs-code/)
 - [10 Best AI Coding Assistant Tools in 2024– Guide for Developers](https://www.thedroidsonroids.com/blog/best-ai-coding-assistant-tools)
+- [AI Code Assistants: Head to Head](https://codeium.com/blog/code-assistant-comparison-copilot-tabnine-ghostwriter-codeium)
+- [Codeium vs Amazon CodeWhisperer](https://codeium.com/compare/comparison-codewhisperer-codeium)
 - [Testing LLMs on Solving Leetcode Problems](https://hackernoon.com/testing-llms-on-solving-leetcode-problems)
 - [Testing LLMs on Code Generation with Varying Levels of Prompt Specificity](https://arxiv.org/pdf/2311.07599?ref=hackernoon.com)
 - [An introduction to code LLM benchmarks for software engineers](https://blog.continue.dev/an-introduction-to-code-llm-benchmarks-for-software-engineers/)
