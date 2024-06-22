@@ -11,13 +11,17 @@ tags:
 ## Mục lục
 
 - [Mục lục](#mục-lục)
-- [So sánh](#so-sánh)
-	- [GitHub Copilot](#github-copilot)
-	- [Bito](#bito)
-	- [Tabnine](#tabnine)
-	- [Amazon CodeWhisperer](#amazon-codewhisperer)
+- [🎯Feature Guides](#feature-guides)
 	- [Codeium](#codeium)
 	- [Cody](#cody)
+	- [Bito](#bito)
+- [So sánh](#so-sánh)
+	- [GitHub Copilot](#github-copilot)
+	- [Bito](#bito-1)
+	- [Tabnine](#tabnine)
+	- [Amazon CodeWhisperer](#amazon-codewhisperer)
+	- [Codeium](#codeium-1)
+	- [Cody](#cody-1)
 	- [FauxPilot](#fauxpilot)
 	- [Tabby](#tabby)
 	- [CodeGeeX](#codegeex)
@@ -39,6 +43,81 @@ tags:
 Trong bài viết này, tôi đã biên soạn một danh sách về các lựa chọn thay thế GitHub Copilot miễn phí cho Visual Studio Code. Một số công cụ này thậm chí còn là nguồn mở.
 
 ![AI](https://boxxv.github.io/img/ai/54fae9f34711e44fbd00.jpg "AI")
+
+## 🎯Feature Guides
+
+### Codeium
+
+![Codeium](https://boxxv.github.io/img/ai/Codeium Context Menus.jpg "Codeium")
+
+- Refactor Selected Code Block
+- Explain Slected Code Block
+
+- Add `comments` and `docstrings` to the code
+- Add `logging` statements so that it can be easily debugged
+- `Clean` up this code
+- `Check` for bugs and null pointers
+- `Implement` the code for the `TODO comment`
+- Generate `unit tests`
+- Make this code strongly typed
+- Make this faster and more efficient
+
+![Codeium](https://boxxv.github.io/img/ai/Codeium Context Menus.png "Codeium")
+
+- Rapid code autocomplete
+- In-editor AI chat assistant
+- `Unlimited usage`
+- Trained on permissive data
+- Support via Discord
+- Encryption in transit
+- Supports 21+ Programming Languages: Visual Studio Code, JetBrain IDEs, Vim/Neovim, `Visual Studio`, Emacs, Chrome Extension, Jupyter Notebooks, Google Colab, Deepnote, Databricks, `Xcode`, `Sublime Text`, `Eclipse`, IntelliJ, PyCharm, WebStorm, GoLand, PhpStorm, CLion, Android Studio
+- Unit Test: `Xunit`
+
+### Cody
+
+![Cody](https://boxxv.github.io/img/ai/Cody Context Menus.jpg "Cody")
+
+- Edit Code
+- New Chat
+- Document Code
+- Explain Code
+- Find Code Smells
+- Generate Unit Tests
+- Custom Commands
+
+![Cody](https://boxxv.github.io/img/ai/Cody Context Menus.png "Cody")
+
+- AI models: Free for `Claude 3 Sonnet`
+- `500 Autocompletions` per month
+- `20 Messages and commands` per month
+- Unit Test: `MSTest`
+
+### Bito
+
+![Bito](https://boxxv.github.io/img/ai/Bito Context Menus.jpg "Bito")
+
+- Insert code into Bito
+- `Explain` this Code
+- Generate `Comment`
+- `Performance` Check
+- `Security` Check
+- `Style` Check
+- Improve Readablity
+- `Clean` Code
+- Generate `Unit Test`
+- Run Custom Prompt Template
+
+![Bito](https://boxxv.github.io/img/ai/Bito Context Menus.png "Bito")
+
+- AI models: GPT 3.5, Chat-bison from Google and other similar models
+- Limited usage on chat and CLI: `20 AI requests per day`, One-click pre-defined and custom templates
+- AI code completions: `100 per month`
+- Max context length: `40,000 characters`
+- Intelligent AI automation agents: Documentation, tests, etc
+- Supports 4+ Programming Languages: Visual Studio Code, JetBrain IDEs, Chrome Extension, Vim/Neovim Plugin
+- Supports 50+ Programming Languages (JS, Go, C++, SQL, etc)
+- Supports 25 spoken languages (English, French, Chinese, etc)
+- Unit Test: `NUnit`
 
 ## So sánh
 
@@ -137,7 +216,7 @@ Các tính năng chính:
 - Trò chuyện được hỗ trợ bởi AI để giải thích cấu trúc dự án và mục đích của từng tệp mã nguồn.
 - Tạo mã dựa trên hướng dẫn.
 - Hỗ trợ ngôn ngữ của con người bằng cách sử dụng xử lý ngôn ngữ tự nhiên.
-- Free for [Claude 3 Sonnet]()
+- Free for [Claude 3 Sonnet](https://poe.com/Claude-3-Sonnet)
 
 > [Install](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
 
