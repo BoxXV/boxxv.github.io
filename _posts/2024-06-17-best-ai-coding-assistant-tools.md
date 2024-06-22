@@ -157,7 +157,7 @@ Dưới đây là một số [ví dụ sử dụng khác của Bito](https://doc
 
 > [Install](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
 
-### 3. Tabnine
+### 3. [Tabnine](https://www.tabnine.com)
 
 Tabnine là một trợ lý mã hóa AI đáng tin cậy được thiết kế tập trung vào quyền riêng tư và bảo mật. Nó được đào tạo về một loạt mã hiện có bằng cách sử dụng các giấy phép nguồn mở dễ dãi, giảm thiểu mọi lo ngại về quyền riêng tư, bảo mật và tuân thủ. May mắn thay, điều này cũng bao gồm các vấn đề về copyleft. Việc tuân thủ các phương pháp hay nhất này được củng cố hơn nữa nhờ việc tuân thủ SOC-2. Tabnine cung cấp khả năng phản ánh kiến ​​thức chung của tổ chức. Nó điều chỉnh hỗ trợ cho cơ sở mã cụ thể của bạn, phù hợp với phong cách mã hóa và các phương pháp hay nhất của nhóm bạn mà không làm lộ mã nhạy cảm.
 
@@ -177,6 +177,7 @@ Các tính năng chính:
 - Tài liệu mã tự động.
 - Tích hợp với nhiều IDE (Sản phẩm Neovim, IntelliJ, VS Code, Eclipse và Sublime).
 
+> [Install](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 
 ### 4. Amazon CodeWhisperer
 
@@ -435,6 +436,7 @@ Tóm lại, tôi có thể nói rằng điều này khá tiện lợi trong vi�
 - [Codeium](https://codeium.com) - [Free AI Code Completion &amp; Chat](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 - [Cody](https://sourcegraph.com/cody) - [AI coding assistant](https://github.com/sourcegraph/cody)
 - [Tabnine](https://www.tabnine.com) - The AI code assistant that you control
+- [Dùng AI để viết code không còn là viễn tưởng](https://viblo.asia/p/dung-ai-de-viet-code-khong-con-la-vien-tuong-LzD5d9q4KjY)
 - AmazonQ
 - [Copilot for Xcode lovers](https://viblo.asia/p/copilot-for-xcode-lovers-m2vJPk0n4eK)
 - [Tổng hợp Visual Studio Code Extensions](https://viblo.asia/p/tong-hop-visual-studio-code-extensions-Ny0VGnwYLPA)
@@ -443,3 +445,4 @@ Tóm lại, tôi có thể nói rằng điều này khá tiện lợi trong vi�
 - [Exploring the Claude 3 Opus, Sonnet, and Haiku Models](https://damiandabrowski.medium.com/exploring-the-claude-3-opus-sonnet-and-haiku-models-adbf9c74acaa)
 - [So sánh 3 model mới nhất của Claude 3: Haiku vs Sonnet vs Opus](https://tenten.vn/ai/so-sanh-3-model-moi-nhat-cua-claude-3-haiku-vs-sonnet-vs-opus/)
 - [Chấn động làng AI: Claude 3 ra mắt với hiệu suất vượt trội hơn cả Gemini và ChatGPT](https://www.thegioididong.com/tin-tuc/claude-3-ra-mat-voi-hieu-suat-vuot-troi-hon-ca-gemini-va-chatgpt-1562285)
+- [Anthropic ra mắt Claude 3.5 Sonnet: Mô hình AI siêu nhanh, thông minh hơn cả GPT-4o](https://vnreview.vn/threads/anthropic-ra-mat-claude-3-5-sonnet-mo-hinh-ai-sieu-nhanh-thong-minh-hon-ca-gpt-4o.43393/)
