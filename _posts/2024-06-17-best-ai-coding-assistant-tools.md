@@ -30,6 +30,7 @@ tags:
 	- [Gemini in Android Studio](#gemini-in-android-studio)
 - [Testing LLMs on Solving Leetcode Problems](#testing-llms-on-solving-leetcode-problems)
 	- [Datasets](#datasets)
+	- [Prompts and code generation](#prompts-and-code-generation)
 	- [Results](#results)
 	- [Future considerations](#future-considerations)
 - [Kết luận](#kết-luận)
@@ -118,6 +119,8 @@ Nó cung cấp tính năng tự động hoàn thành mã, tìm kiếm thông min
 
 Họ cũng có một sân chơi trực tuyến để kiểm tra chức năng của Codeium mà không cần đăng ký.
 
+> [Install](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
+
 ### Cody
 
 Cody là một trợ lý mã hóa AI được thiết kế để nâng cao tốc độ và khả năng hiểu biết về phát triển phần mềm. Với sự hiểu biết sâu sắc về cơ sở mã của bạn, nó cung cấp khả năng tự động hoàn thành tuyệt vời được hỗ trợ bởi AI. Đề xuất mã thông minh của nó không chỉ hoàn thiện các dòng mã mà còn toàn bộ chức năng. Tính năng này hoạt động trên nhiều ngôn ngữ, tệp cấu hình hoặc tài liệu.
@@ -134,6 +137,9 @@ Các tính năng chính:
 - Trò chuyện được hỗ trợ bởi AI để giải thích cấu trúc dự án và mục đích của từng tệp mã nguồn.
 - Tạo mã dựa trên hướng dẫn.
 - Hỗ trợ ngôn ngữ của con người bằng cách sử dụng xử lý ngôn ngữ tự nhiên.
+- Free for [Claude 3 Sonnet]()
+
+> [Install](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
 
 ### FauxPilot
 
@@ -244,45 +250,67 @@ Các tính năng chính:
 
 ## Testing LLMs on Solving Leetcode Problems
 
-Tôi chọn  Leetcode  làm nguồn gốc của các vấn đề cho điểm chuẩn này vì một số lý do:
+Tôi chọn  Leetcode  làm nguồn gốc của các bài toán cho điểm chuẩn này vì một số lý do:
 
 - Các bài toán Leetcode được sử dụng trong các cuộc phỏng vấn thực tế cho các vị trí kỹ sư phần mềm.
-- Sinh viên khoa học máy tính học cách giải quyết các vấn đề tương tự trong quá trình học tập của họ.
+- Sinh viên khoa học máy tính học cách giải quyết các bài toán tương tự trong quá trình học tập của họ.
 - Nó có một thẩm phán trực tuyến có thể kiểm tra xem giải pháp có đúng hay không chỉ sau vài giây.
-- Hiệu suất của người dùng về vấn đề này cũng có sẵn.
+- Hiệu suất của người dùng về bài toán này cũng có sẵn.
 
 ### Datasets
 
-Tôi muốn chạy LLM trên hai nhóm vấn đề:
+Tôi muốn chạy LLM trên hai nhóm bài toán:
 - những bài toán "`nổi tiếng`" không chỉ được xuất bản từ lâu mà còn được sử dụng thường xuyên nhất trong các cuộc phỏng vấn phần mềm—do đó, các giải pháp đều có sẵn rộng rãi.
-- Các vấn đề "`không thể nhìn thấy`" mà bản thân chúng không có trong dữ liệu LLM và giải pháp của chúng không được các LLM thử nghiệm quan sát được
+- Các bài toán "`không thể nhìn thấy`" mà bản thân chúng không có trong dữ liệu LLM và giải pháp của chúng không được các LLM thử nghiệm quan sát được
 
 ![Datasets](https://boxxv.github.io/img/ai/tUyDy3WCvhMrS9XRgsoD10WmU5k2-mz932g0.jpeg "Datasets")
 
-Việc truy xuất các báo cáo vấn đề và đoạn mã từ Leetcode là một thách thức đáng chú ý nhưng cuối cùng mọi thứ cũng được giải quyết. Mã nguồn [công cụ kiểm tra của tôi có sẵn trên GitHub](https://github.com/whisk/leetgptsolver) cho bất kỳ ai quan tâm.
+Việc truy xuất các báo cáo bài toán và đoạn mã từ Leetcode là một thách thức đáng chú ý nhưng cuối cùng mọi thứ cũng được giải quyết. Mã nguồn [công cụ kiểm tra của tôi có sẵn trên GitHub](https://github.com/whisk/leetgptsolver) cho bất kỳ ai quan tâm.
+
+### Prompts and code generation
+
+Hệ thống phán đoán trực tuyến của Leetcode hỗ trợ nhiều ngôn ngữ lập trình khác nhau, cho phép bạn chọn ngôn ngữ nào bạn thích. Không ngần ngại, tôi quyết định gắn bó với Python 3 vì mọi bài toán trên Leetcode đều có đoạn mã tương ứng. Cú pháp của nó thiên về giải quyết các bài toán thuật toán: không bắt buộc phải gõ, thao tác mảng và bản đồ dễ dàng (hoặc "danh sách" và "từ điển" theo thuật ngữ Python), và nó cũng là một trong những ngôn ngữ phổ biến nhất trên chính Leetcode. Vì vậy, những gì tốt cho con người phải phù hợp với một LLM giả vờ là một lập trình viên.
+
+Tôi đã sử dụng cùng một lời nhắc cho mọi LLM và mọi bài toán:
+
+```highlight
+Hi, this is a coding interview. I will give you a problem statement with sample test cases and a code snippet. I expect you to write the most effective working code using C#. Here is the problem statement: 
+
+<problem statement>
+
+Please do not alter function signature(s) in the code snippet. Please output only valid source code which could be run as-is without any fixes, improvements or changes. Good luck!
+```
+
+Lời nhắc này không được tinh chỉnh bằng cách sử dụng bất kỳ kỹ thuật "kỹ thuật nhắc nhở" nào và cách diễn đạt của nó được cố ý tạo ra để phù hợp với một cuộc phỏng vấn viết mã trực tiếp ngoài đời thực.
+
+Không giống như các cuộc phỏng vấn thực tế, điểm chuẩn được thiết kế theo cách này: LLM chỉ thực hiện một lần thử tạo mã mà không có bất kỳ thông tin nào trước đó về vấn đề và không biết các trường hợp thử nghiệm của nó. Không có cơ chế cung cấp phản hồi hoặc sửa mã sau khi được tạo.
+
+Tôi đã sử dụng hạt giống ngẫu nhiên không đổi cho ChatGPT và thông số nhiệt độ thấp nhất có thể cho mô hình Gemini và Claude để làm cho đầu ra của mô hình mang tính xác định nhất có thể.
+
+LLM được yêu cầu chỉ xuất mã đang hoạt động mà không có bất kỳ văn bản nào trước đó, điều này không đúng trong nhiều trường hợp. Một quá trình dọn dẹp cơ bản đã được triển khai và mọi thứ ngoài mã thực tế đều bị xóa và không được gửi.
 
 ### Results
 
-Tất cả các giải pháp được thu thập từ LLM và gửi đến hệ thống đánh giá trực tuyến Leetcode. Tôi tập hợp các kết quả lại với nhau trong một bảng duy nhất. Như đã đề cập trước đó, các vấn đề về hình ảnh và nhiều chức năng cần triển khai đã được miễn trừ.
+Tất cả các giải pháp được thu thập từ LLM và gửi đến hệ thống đánh giá trực tuyến Leetcode. Tôi tập hợp các kết quả lại với nhau trong một bảng duy nhất. Như đã đề cập trước đó, các bài toán về hình ảnh và nhiều chức năng cần triển khai đã được miễn trừ.
 
 ![Results](https://boxxv.github.io/img/ai/tUyDy3WCvhMrS9XRgsoD10WmU5k2-j39327u.png "Results")
 
 Những phát hiện chính là:
 
-- Có một khoảng cách đáng kể về hiệu suất của tất cả các LLM trên các tập hợp vấn đề "nổi tiếng" và "không nhìn thấy".
-- Tất cả các LLM đều có chung một mô hình hoạt động tương tự: chúng tạo ra kết quả tốt đối với các vấn đề “nổi tiếng” nhưng lại gặp khó khăn với các vấn đề “không nhìn thấy được”.
+- Có một khoảng cách đáng kể về hiệu suất của tất cả các LLM trên các tập hợp bài toán "nổi tiếng" và "không nhìn thấy".
+- Tất cả các LLM đều có chung một mô hình hoạt động tương tự: chúng tạo ra kết quả tốt đối với các bài toán “nổi tiếng” nhưng lại gặp khó khăn với các bài toán “không nhìn thấy được”.
 - ChatGPT-4, Claude Opus và Gemini 1.5 rất thân thiết với nhau; Gemini 1.0 Pro kém xa.
-- Các vấn đề "khó nhìn thấy" gần như không thể tiếp cận được đối với LLM: Claude 3 Opus chỉ giải quyết được một trong số chúng, còn những vấn đề khác thì không giải quyết được.
+- Các bài toán "khó nhìn thấy" gần như không thể tiếp cận được đối với LLM: Claude 3 Opus chỉ giải quyết được một trong số chúng, còn những bài toán khác thì không giải quyết được.
 
-Để chống lại giả thuyết cho rằng những vấn đề “không nhìn thấy” phức tạp hơn những vấn đề “nổi tiếng”, chúng ta nên đánh giá tỷ lệ chấp nhận của người dùng. Nó thấp hơn đối với các vấn đề mới nhưng vẫn tương đối cao so với tỷ lệ chấp nhận của LLM. Tôi đưa ra giả thuyết rằng những vấn đề phổ biến có tỷ lệ chấp nhận cao hơn bởi vì người dùng cố gắng hết sức để giải quyết chúng một cách xuất sắc để chuẩn bị cho các cuộc phỏng vấn xin việc.
+Để chống lại giả thuyết cho rằng những bài toán “không nhìn thấy” phức tạp hơn những bài toán “nổi tiếng”, chúng ta nên đánh giá tỷ lệ chấp nhận của người dùng. Nó thấp hơn đối với các bài toán mới nhưng vẫn tương đối cao so với tỷ lệ chấp nhận của LLM. Tôi đưa ra giả thuyết rằng những bài toán phổ biến có tỷ lệ chấp nhận cao hơn bởi vì người dùng cố gắng hết sức để giải quyết chúng một cách xuất sắc để chuẩn bị cho các cuộc phỏng vấn xin việc.
 
 ### Future considerations
 
-Mặc dù kết quả của LLM về các vấn đề không nhìn thấy được nhìn chung là quá kém để được coi là kỹ năng kỹ thuật phần mềm vững chắc, nhưng chúng vẫn ở trên mức 0—một kết quả chưa từng có đối với bất kỳ công cụ phần mềm nào. Điều đáng nói là những kết quả đó đạt được nhanh hơn nhiều so với những gì con người có thể làm được. Có cách nào để cải thiện những vấn đề chưa được nhìn thấy? Có lẽ là có, theo ba cách:
+Mặc dù kết quả của LLM về các bài toán không nhìn thấy được nhìn chung là quá kém để được coi là kỹ năng kỹ thuật phần mềm vững chắc, nhưng chúng vẫn ở trên mức 0—một kết quả chưa từng có đối với bất kỳ công cụ phần mềm nào. Điều đáng nói là những kết quả đó đạt được nhanh hơn nhiều so với những gì con người có thể làm được. Có cách nào để cải thiện những bài toán chưa được nhìn thấy? Có lẽ là có, theo ba cách:
 
 - Cải thiện lời nhắc ban đầu và điều chỉnh nó cho từng kiểu máy riêng biệt. Lời nhắc của tôi hoàn toàn chung chung và không có "kỹ thuật nhắc nhở" trong đó.
 - Cung cấp phản hồi về những nỗ lực không thành công để cải thiện kết quả dần dần. Điều đó sẽ làm cho quá trình giải quyết trở nên gần gũi hơn với bối cảnh thực tế.
-- Chuẩn bị các mô tả vấn đề, làm cho chúng trở nên “phù hợp” hơn để các mô hình tiếp thu. Tôi không thích ý tưởng rằng LLM chỉ nên nhận các báo cáo vấn đề được chuẩn bị đặc biệt; thay vào đó, họ nên xem một mô hình nhỏ hơn để cải thiện các mô tả để phù hợp hơn cho việc giải quyết. Một số mối lo ngại xuất phát từ thực tế là các vấn đề Leetcode mới khiến các giải pháp được công bố nhanh chóng, do đó khiến chúng có sẵn cho LLM. Một cách giải quyết tiềm năng là sử dụng LLM để tạo ra các vấn đề mới.
+- Chuẩn bị các mô tả bài toán, làm cho chúng trở nên “phù hợp” hơn để các mô hình tiếp thu. Tôi không thích ý tưởng rằng LLM chỉ nên nhận các báo cáo bài toán được chuẩn bị đặc biệt; thay vào đó, họ nên xem một mô hình nhỏ hơn để cải thiện các mô tả để phù hợp hơn cho việc giải quyết. Một số mối lo ngại xuất phát từ thực tế là các bài toán Leetcode mới khiến các giải pháp được công bố nhanh chóng, do đó khiến chúng có sẵn cho LLM. Một cách giải quyết tiềm năng là sử dụng LLM để tạo ra các bài toán mới.
 
 Những ý tưởng này cần được nghiên cứu sâu hơn và tôi hy vọng rằng ai đó hoặc tôi có thể tìm hiểu chúng.
 
@@ -304,4 +332,9 @@ Bây giờ là lúc thử nghiệm các trợ lý mã hóa AI khác nhau trong t
 - [Testing LLMs on Code Generation with Varying Levels of Prompt Specificity](https://arxiv.org/pdf/2311.07599?ref=hackernoon.com)
 - [An introduction to code LLM benchmarks for software engineers](https://blog.continue.dev/an-introduction-to-code-llm-benchmarks-for-software-engineers/)
 - [LLM Benchmarks: Understanding Language Model Performance](https://humanloop.com/blog/llm-benchmarks)
+
+-----
+- [Exploring the Claude 3 Opus, Sonnet, and Haiku Models](https://damiandabrowski.medium.com/exploring-the-claude-3-opus-sonnet-and-haiku-models-adbf9c74acaa)
+- [So sánh 3 model mới nhất của Claude 3: Haiku vs Sonnet vs Opus](https://tenten.vn/ai/so-sanh-3-model-moi-nhat-cua-claude-3-haiku-vs-sonnet-vs-opus/)
+- [Chấn động làng AI: Claude 3 ra mắt với hiệu suất vượt trội hơn cả Gemini và ChatGPT](https://www.thegioididong.com/tin-tuc/claude-3-ra-mat-voi-hieu-suat-vuot-troi-hon-ca-gemini-va-chatgpt-1562285)
 - []()
