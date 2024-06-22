@@ -72,9 +72,9 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Trained on permissive data
 - Support via Discord
 - Encryption in transit
-- Supports 21+ Programming Languages: Visual Studio Code, JetBrain IDEs, Vim/Neovim, `Visual Studio`, Emacs, Chrome Extension, Jupyter Notebooks, Google Colab, Deepnote, Databricks, `Xcode`, `Sublime Text`, `Eclipse`, IntelliJ, PyCharm, WebStorm, GoLand, PhpStorm, CLion, Android Studio
+- Supports 21+ Programming Languages: Visual Studio Code, JetBrain IDEs, Vim/Neovim, `Visual Studio`, Emacs, Chrome Extension, Jupyter Notebooks, Google Colab, Deepnote, Databricks, `Xcode`, `Sublime Text`, `Eclipse`, IntelliJ, PyCharm, WebStorm, GoLand, PhpStorm, CLion, `Android Studio`
 - Supports 70+ Programming Languages (JS, Go, C++, SQL, etc)
-- Unit Test: `Xunit`
+- Unit Test: `Xunit` for C#
 
 ### Cody
 
@@ -93,7 +93,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - AI models: Free for `Claude 3 Sonnet`
 - `500 Autocompletions` per month
 - `20 Messages and commands` per month
-- Unit Test: `MSTest`
+- Unit Test: `MSTest` for C#
 
 ### Bito
 
@@ -120,7 +120,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Supports 4+ Programming Languages: Visual Studio Code, JetBrain IDEs, Chrome Extension, Vim/Neovim Plugin
 - Supports 50+ Programming Languages (JS, Go, C++, SQL, etc)
 - Supports 25 spoken languages (English, French, Chinese, etc)
-- Unit Test: `NUnit`
+- Unit Test: `NUnit` for C#
 
 ## So sánh
 
@@ -406,6 +406,14 @@ Những ý tưởng này cần được nghiên cứu sâu hơn và tôi hy vọ
 Có nhiều lựa chọn thay thế miễn phí cho GitHub Copilot có thể được tích hợp với Visual Studio Code. Mỗi lựa chọn thay thế này đều cung cấp các tính năng và khả năng riêng biệt, đáp ứng các nhu cầu và sở thích mã hóa khác nhau. Cho dù bạn muốn có trợ lý mã hóa giống như chatbot, mô hình AI được cá nhân hóa, quyền truy cập ngoại tuyến, quyền riêng tư của mã hay hỗ trợ chuyên biệt cho API AWS, thì vẫn có một giải pháp thay thế phù hợp với yêu cầu của bạn.
 
 Bây giờ là lúc thử nghiệm các trợ lý mã hóa AI khác nhau trong trình soạn thảo Visual Studio Code của bạn, tìm ra trợ lý phù hợp nhất với phong cách và quy trình mã hóa của bạn. Tận dụng sức mạnh của AI trong hành trình mã hóa của bạn và đưa quá trình phát triển của bạn lên một tầm cao mới.
+
+Codeium nổi lên như một giải pháp thay thế miễn phí đáng chú ý cho GitHub Copilot, cung cấp cho các nhà phát triển một giải pháp mạnh mẽ và tiết kiệm chi phí để hoàn thiện và hỗ trợ mã. Với khả năng ấn tượng và giao diện thân thiện với người dùng, Codeium trao quyền cho các lập trình viên ở mọi cấp độ để hợp lý hóa quy trình công việc của họ, tăng năng suất và giải phóng tiềm năng mã hóa của họ mà không bị ràng buộc bởi đăng ký trả phí.
+
+Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình viết mã, việc khám phá Codeium có thể là yếu tố thay đổi cuộc chơi cho quá trình phát triển của bạn. Khả năng hiểu ngữ cảnh và đưa ra các đề xuất thông minh của nó có thể giúp bạn tiết kiệm vô số giờ viết mã tẻ nhạt, cho phép bạn tập trung vào các khía cạnh sáng tạo hơn trong dự án của mình.
+
+Để thực sự khai thác toàn bộ tiềm năng của Codeium và khám phá thêm các mẹo, thủ thuật và phương pháp hay nhất, chúng tôi mời bạn tìm hiểu sâu hơn về bộ sưu tập blog phong phú của chúng tôi. Hãy theo dõi các bài viết sâu sắc sẽ hướng dẫn bạn tận dụng các tính năng của Codeium, tích hợp nó một cách liền mạch vào quy trình làm việc của bạn và tối đa hóa tác động của nó đối với nỗ lực viết mã của bạn.
+
+Tóm lại, tôi có thể nói rằng điều này khá tiện lợi trong việc tiết kiệm thời gian của bạn và chỉ tập trung vào phần logic. Nó cũng giúp bạn cập nhật những điều này, điều này sẽ giúp cuộc sống của Nhà phát triển hiệu quả hơn.
 
 -----
 - [10 Free GitHub Copilot Alternatives for VS Code 2024](https://bito.ai/blog/free-github-copilot-alternatives-for-vs-code/)
