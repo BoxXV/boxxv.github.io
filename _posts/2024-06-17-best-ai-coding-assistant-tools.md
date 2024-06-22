@@ -16,22 +16,23 @@ tags:
 	- [Cody](#cody)
 	- [Bito](#bito)
 - [So sánh](#so-sánh)
-	- [GitHub Copilot](#github-copilot)
-	- [Bito](#bito-1)
-	- [Tabnine](#tabnine)
-	- [Amazon CodeWhisperer](#amazon-codewhisperer)
-	- [Codeium](#codeium-1)
-	- [Cody](#cody-1)
-	- [FauxPilot](#fauxpilot)
-	- [Tabby](#tabby)
-	- [CodeGeeX](#codegeex)
-	- [AskCodi](#askcodi)
-	- [Blackbox AI](#blackbox-ai)
-	- [Replit AI](#replit-ai)
-	- [Cursor](#cursor)
-	- [SQLAI](#sqlai)
-	- [Snyk powered by DeepCode AI](#snyk-powered-by-deepcode-ai)
-	- [Gemini in Android Studio](#gemini-in-android-studio)
+	- [1. GitHub Copilot](#1-github-copilot)
+	- [2. Bito](#2-bito)
+	- [3. Tabnine](#3-tabnine)
+	- [4. Amazon CodeWhisperer](#4-amazon-codewhisperer)
+	- [5. Codiumate](#5-codiumate)
+	- [6. Codeium](#6-codeium)
+	- [7. Cody](#7-cody)
+	- [8. FauxPilot](#8-fauxpilot)
+	- [9. Tabby](#9-tabby)
+	- [10. CodeGeeX](#10-codegeex)
+	- [11. AskCodi](#11-askcodi)
+	- [12. Blackbox AI](#12-blackbox-ai)
+	- [13. Replit AI](#13-replit-ai)
+	- [14. Cursor](#14-cursor)
+	- [15. SQLAI](#15-sqlai)
+	- [16. Snyk powered by DeepCode AI](#16-snyk-powered-by-deepcode-ai)
+	- [17. Gemini in Android Studio](#17-gemini-in-android-studio)
 - [Testing LLMs on Solving Leetcode Problems](#testing-llms-on-solving-leetcode-problems)
 	- [Datasets](#datasets)
 	- [Prompts and code generation](#prompts-and-code-generation)
@@ -61,6 +62,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Generate `unit tests`
 - Make this code strongly typed
 - Make this faster and more efficient
+- Verbosely comment this code so that I can understand what's going on
 
 ![Codeium](https://boxxv.github.io/img/ai/Codeium Context Menus.png "Codeium")
 
@@ -71,6 +73,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Support via Discord
 - Encryption in transit
 - Supports 21+ Programming Languages: Visual Studio Code, JetBrain IDEs, Vim/Neovim, `Visual Studio`, Emacs, Chrome Extension, Jupyter Notebooks, Google Colab, Deepnote, Databricks, `Xcode`, `Sublime Text`, `Eclipse`, IntelliJ, PyCharm, WebStorm, GoLand, PhpStorm, CLion, Android Studio
+- Supports 70+ Programming Languages (JS, Go, C++, SQL, etc)
 - Unit Test: `Xunit`
 
 ### Cody
@@ -121,7 +124,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 
 ## So sánh
 
-### GitHub Copilot
+### 1. GitHub Copilot
 
 GitHub Copilot là một công cụ hoàn thiện mã được ra đời từ sự hợp tác giữa GitHub, OpenAI và Microsoft. Nó sử dụng AI tiên tiến để cung cấp hỗ trợ mã hóa, hiểu bối cảnh bạn đang viết mã. Được đào tạo về rất nhiều mã từ các dự án nguồn mở trên GitHub, Copilot nâng cao quá trình phát triển bằng cách cung cấp các giải thích và hoàn thành mã thông minh trực tiếp trong IDE.
 
@@ -138,7 +141,7 @@ Các tính năng chính:
 - Có thể chặn các đề xuất mã phù hợp với đoạn mã công khai. Điều này rất quan trọng để tránh vô tình vi phạm giấy phép nguồn mở.
 
 
-### Bito
+### 2. [Bito](https://bito.ai)
 
 Không giống như GitHub Copilot, Bito hiểu codebase cục bộ của bạn bên trong VS Code bằng cách tận dụng sức mạnh của các phần nhúng và cơ sở dữ liệu vectơ. Nó cung cấp khả năng hoàn thành mã AI có liên quan cao khi bạn nhập hoặc thông qua nhận xét mã. Nó có một chatbot được hỗ trợ bởi AI, nơi bạn có thể đặt câu hỏi liên quan đến toàn bộ codebase của mình. Nó cũng duy trì lịch sử các cuộc hội thoại của bạn, từ đó tạo ra các câu trả lời nhận biết ngữ cảnh tốt hơn.
 
@@ -152,7 +155,7 @@ Dưới đây là một số [ví dụ sử dụng khác của Bito](https://doc
 
 > [Install](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
 
-### Tabnine
+### 3. Tabnine
 
 Tabnine là một trợ lý mã hóa AI đáng tin cậy được thiết kế tập trung vào quyền riêng tư và bảo mật. Nó được đào tạo về một loạt mã hiện có bằng cách sử dụng các giấy phép nguồn mở dễ dãi, giảm thiểu mọi lo ngại về quyền riêng tư, bảo mật và tuân thủ. May mắn thay, điều này cũng bao gồm các vấn đề về copyleft. Việc tuân thủ các phương pháp hay nhất này được củng cố hơn nữa nhờ việc tuân thủ SOC-2. Tabnine cung cấp khả năng phản ánh kiến ​​thức chung của tổ chức. Nó điều chỉnh hỗ trợ cho cơ sở mã cụ thể của bạn, phù hợp với phong cách mã hóa và các phương pháp hay nhất của nhóm bạn mà không làm lộ mã nhạy cảm.
 
@@ -173,7 +176,7 @@ Các tính năng chính:
 - Tích hợp với nhiều IDE (Sản phẩm Neovim, IntelliJ, VS Code, Eclipse và Sublime).
 
 
-### Amazon CodeWhisperer
+### 4. Amazon CodeWhisperer
 
 Amazon CodeWhisperer là một công cụ tạo mã dựa trên máy học. Nó cung cấp các đề xuất mã hóa theo thời gian thực phù hợp với phong cách cá nhân và công việc hiện tại của bạn. Khi bạn nhập văn bản, CodeWhisperer sẽ đưa ra các đề xuất mã có liên quan. Chúng có thể bao gồm từ các đoạn mã đơn giản đến toàn bộ hàm, tùy thuộc vào ngữ cảnh của mã hiện tại và dữ liệu đầu vào trước đây của bạn. CodeWhisperer cũng có thể tạo nhận xét và tài liệu mã.
 
@@ -190,7 +193,12 @@ Các tính năng chính:
 - Đề xuất mã chính xác trong thời gian thực.
 - Quét an ninh.
 
-### Codeium
+### 5. [Codiumate](https://www.codium.ai)
+
+
+> [Install](https://marketplace.visualstudio.com/items?itemName=Codium.codium)
+
+### 6. [Codeium](https://codeium.com)
 
 Codeium là người bạn đồng hành mã hóa AI được hỗ trợ bởi các mô hình và cơ sở hạ tầng AI tổng hợp nội bộ. Các mô hình AI được đào tạo bằng hơn 70 ngôn ngữ lập trình phổ biến.
 
@@ -200,7 +208,7 @@ Họ cũng có một sân chơi trực tuyến để kiểm tra chức năng c�
 
 > [Install](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 
-### Cody
+### 7. [Cody](https://sourcegraph.com/cody)
 
 Cody là một trợ lý mã hóa AI được thiết kế để nâng cao tốc độ và khả năng hiểu biết về phát triển phần mềm. Với sự hiểu biết sâu sắc về cơ sở mã của bạn, nó cung cấp khả năng tự động hoàn thành tuyệt vời được hỗ trợ bởi AI. Đề xuất mã thông minh của nó không chỉ hoàn thiện các dòng mã mà còn toàn bộ chức năng. Tính năng này hoạt động trên nhiều ngôn ngữ, tệp cấu hình hoặc tài liệu.
 
@@ -220,7 +228,7 @@ Các tính năng chính:
 
 > [Install](https://marketplace.visualstudio.com/items?itemName=sourcegraph.cody-ai)
 
-### FauxPilot
+### 8. FauxPilot
 
 FauxPilot là một giải pháp mã nguồn mở thay thế cho GitHub Copilot. Bạn có thể lưu trữ nó trên máy chủ của mình hoặc sử dụng nó ngoại tuyến trên máy tính.
 
@@ -232,7 +240,7 @@ Tôi chỉ khuyên bạn nên sử dụng tính năng này nếu bạn cảm th�
 
 Nếu bạn đang dùng Windows, hãy sử dụng [kho lưu trữ này](https://github.com/Frederisk/fauxpilot-windows) để cài đặt FauxPilot.
 
-### Tabby
+### 9. Tabby
 
 Tabby là một trợ lý mã hóa AI tự lưu trữ mã nguồn mở. Nó có thể đề xuất toàn bộ chức năng hoặc đoạn mã nhiều dòng khi bạn nhập. Nó lấy bối cảnh từ mã và nhận xét của bạn.
 
@@ -240,7 +248,7 @@ Tabby là một trợ lý mã hóa AI tự lưu trữ mã nguồn mở. Nó có 
 
 Bạn cũng có thể dùng thử Tabby trong trình duyệt mà không cần đăng ký.
 
-### CodeGeeX
+### 10. CodeGeeX
 
 CodeGeeX là mô hình tạo mã nguồn mở được đào tạo bằng hơn 20 ngôn ngữ lập trình (ví dụ: Python, JavaScript, Java, C++/C, Go, v.v.). Nó sử dụng 13 tỷ thông số và tạo ra kết quả chất lượng rất cao.
 
@@ -248,7 +256,7 @@ Nó có thể được sử dụng để gợi ý mã, dịch thuật, giải th
 
 Bạn cũng có thể [đọc tài liệu nghiên cứu CodeGeeX](https://arxiv.org/abs/2303.17568) để biết thêm thông tin kỹ thuật.
 
-### AskCodi
+### 11. AskCodi
 
 AskCodi là trợ lý mã hóa được hỗ trợ bởi AI dựa trên OpenAI GPT. Nó cung cấp một bộ chức năng, chẳng hạn như tạo mã, kiểm tra đơn vị, tài liệu và dịch ngôn ngữ. Khi nói đến môi trường phát triển, nó cũng hỗ trợ các tùy chọn phổ biến như Visual Studio Code, Sublime và bộ JetBrains. Với Codi Chat, các nhà phát triển có thể tham gia vào các cuộc đối thoại mã hóa được hỗ trợ bởi AI. Ứng dụng Dịch đơn giản hóa việc chuyển đổi giữa các ngôn ngữ lập trình khác nhau. Ngoài ra, AskCodi hỗ trợ nhiều ngôn ngữ lập trình chính.
 
@@ -264,7 +272,7 @@ Các tính năng chính:
 - Tích hợp với các IDE phổ biến
 - Dịch văn bản sang mã và chuyển mã sang văn bản qua WorkBook
 
-### Blackbox AI
+### 12. Blackbox AI
 
 Blackbox AI được tích hợp nhiều tính năng như tự động hoàn thành mã, tìm kiếm mã và tìm kiếm kho lưu trữ. Nó được tạo ra để tăng tốc độ phát triển phần mềm bằng cách tăng năng suất của các nhà phát triển.
 
@@ -272,7 +280,7 @@ Tính năng tự động hoàn thành mã cung cấp các đề xuất bằng h�
 
 Những tính năng này cũng có sẵn trong Jupyter Lab và Jupyter Notebooks.
 
-### Replit AI
+### 13. Replit AI
 
 Replit AI là tập hợp các công cụ mã AI được thiết kế để nâng cao trải nghiệm mã hóa trên nền tảng của Replit. Bộ phần mềm này bao gồm một số tính năng, trong đó tính năng hoàn thành mã thông minh là chức năng hàng đầu của nó. Replit cũng có thể tạo mã giống như các công cụ mã AI khác trong danh sách này. Cuối cùng, nó cũng cung cấp giải thích về mã. Cần nhấn mạnh rằng tất cả các công cụ này đều hoạt động đồng bộ. Chúng không chỉ hợp lý hóa quá trình phát triển mà còn cung cấp những giải thích và sửa đổi sâu sắc cho mã.
 
@@ -285,7 +293,7 @@ Các tính năng chính:
 - Gỡ lỗi mã chủ động. AI khắc phục sự cố cho bạn mà không cần phân tích thông báo lỗi theo cách thủ công.
 - Trò chuyện AI trong IDE.
 
-### Cursor
+### 14. Cursor
 
 Cursor là trình soạn thảo mã dành riêng cho việc lập trình ghép nối với AI. Nó hỗ trợ tạo mã và đề xuất tự động hoàn thành. Ngoài ra còn có một cuộc trò chuyện để nói chuyện với AI tính đến tệp hiện đang mở. Con trỏ có thể thu thập thông tin tài liệu của thư viện bên thứ ba.
 
@@ -295,7 +303,7 @@ Các tính năng chính:
 - Ghép nối lập trình với AI.
 - Khả năng sử dụng hình ảnh trong lời nhắc.
 
-### SQLAI
+### 15. SQLAI
 
 SQLAI là một công cụ tạo truy vấn cho cơ sở dữ liệu SQL và NoSQL. Nền tảng này mang lại kết quả ngay lập tức và cung cấp thư viện cá nhân để lưu trữ và chia sẻ các đoạn mã SQL và NoSQL tùy chỉnh. Nó tự hào có khả năng tích hợp dễ dàng chỉ bằng 1 cú nhấp chuột với các cơ sở dữ liệu phổ biến như MySQL, Postgres, Oracle, SQL Server và MongoDB. Tuy nhiên, nó cũng hỗ trợ các kết nối thủ công, bao gồm cả nhập CSV, để có khả năng tương thích rộng hơn.
 
@@ -305,7 +313,7 @@ Các tính năng chính:
 - Công cụ dành cho cơ sở dữ liệu SQL và NoSQL, không dành cho ngôn ngữ lập trình.
 - Tập trung vào kết quả nhanh chóng.
 
-### Snyk powered by DeepCode AI
+### 16. Snyk powered by DeepCode AI
 
 DeepCode AI là một thành phần của nền tảng Snyk SAST . Nó được trang bị nhiều mô hình AI, mỗi mô hình được cung cấp thông tin bằng một bộ dữ liệu tập trung vào bảo mật mở rộng và chuyên môn của các nhà nghiên cứu bảo mật hàng đầu. DeepCode AI được thiết kế để xác định và khắc phục các lỗ hổng bảo mật cũng như quản lý nợ kỹ thuật một cách hiệu quả.
 
@@ -315,7 +323,7 @@ Các tính năng chính:
 - Tích hợp với hệ sinh thái Snyk.
 - Tập trung vào kiểm tra an ninh.
 
-### Gemini in Android Studio
+### 17. Gemini in Android Studio
 
 Gemini đóng vai trò là trợ lý hỗ trợ AI trong Android Studio. Nó được thiết kế để tăng năng suất thông qua khả năng diễn giải và đáp ứng các yêu cầu phát triển bằng ngôn ngữ tự nhiên. Điều này cho phép người dùng đặt câu hỏi bằng tiếng Anh đơn giản và nhận được hỗ trợ về việc tạo mã và vị trí tài nguyên. Nó cũng có thể hướng các nhà phát triển tới những phương pháp thực hành tốt nhất, tiết kiệm thời gian quý báu và giảm bớt sự thất vọng của họ.
 
@@ -336,7 +344,7 @@ Tôi chọn  Leetcode  làm nguồn gốc của các bài toán cho điểm chu�
 - Nó có một thẩm phán trực tuyến có thể kiểm tra xem giải pháp có đúng hay không chỉ sau vài giây.
 - Hiệu suất của người dùng về bài toán này cũng có sẵn.
 
-### Datasets
+###  Datasets
 
 Tôi muốn chạy LLM trên hai nhóm bài toán:
 - những bài toán "`nổi tiếng`" không chỉ được xuất bản từ lâu mà còn được sử dụng thường xuyên nhất trong các cuộc phỏng vấn phần mềm—do đó, các giải pháp đều có sẵn rộng rãi.
@@ -368,7 +376,7 @@ Tôi đã sử dụng hạt giống ngẫu nhiên không đổi cho ChatGPT và 
 
 LLM được yêu cầu chỉ xuất mã đang hoạt động mà không có bất kỳ văn bản nào trước đó, điều này không đúng trong nhiều trường hợp. Một quá trình dọn dẹp cơ bản đã được triển khai và mọi thứ ngoài mã thực tế đều bị xóa và không được gửi.
 
-### Results
+###  Results
 
 Tất cả các giải pháp được thu thập từ LLM và gửi đến hệ thống đánh giá trực tuyến Leetcode. Tôi tập hợp các kết quả lại với nhau trong một bảng duy nhất. Như đã đề cập trước đó, các bài toán về hình ảnh và nhiều chức năng cần triển khai đã được miễn trừ.
 
@@ -403,17 +411,23 @@ Bây giờ là lúc thử nghiệm các trợ lý mã hóa AI khác nhau trong t
 - [10 Free GitHub Copilot Alternatives for VS Code 2024](https://bito.ai/blog/free-github-copilot-alternatives-for-vs-code/)
 - [10 Best AI Coding Assistant Tools in 2024– Guide for Developers](https://www.thedroidsonroids.com/blog/best-ai-coding-assistant-tools)
 - [Testing LLMs on Solving Leetcode Problems](https://hackernoon.com/testing-llms-on-solving-leetcode-problems)
+- [Testing LLMs on Code Generation with Varying Levels of Prompt Specificity](https://arxiv.org/pdf/2311.07599?ref=hackernoon.com)
+- [An introduction to code LLM benchmarks for software engineers](https://blog.continue.dev/an-introduction-to-code-llm-benchmarks-for-software-engineers/)
+- [LLM Benchmarks: Understanding Language Model Performance](https://humanloop.com/blog/llm-benchmarks)
 - [My opinion after testing some AI code assistant](https://www.jujens.eu/posts/en/2023/Aug/21/ai-tests/)
+
+-----
+- [Discover the Ultimate Free Copilot Solution](https://www.valuebound.com/resources/blog/discover-ultimate-free-copilot-solution)
+- [How is Codeium Free?](https://codeium.com/blog/how-is-codeium-free)
 - [Bito](https://bito.ai) - [Become a 10X Dev with Bito](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)
 - [Codeium](https://codeium.com) - [Free AI Code Completion &amp; Chat](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium)
 - [Cody](https://sourcegraph.com/cody) - [AI coding assistant](https://github.com/sourcegraph/cody)
 - [Tabnine](https://www.tabnine.com) - The AI code assistant that you control
-- [Testing LLMs on Code Generation with Varying Levels of Prompt Specificity](https://arxiv.org/pdf/2311.07599?ref=hackernoon.com)
-- [An introduction to code LLM benchmarks for software engineers](https://blog.continue.dev/an-introduction-to-code-llm-benchmarks-for-software-engineers/)
-- [LLM Benchmarks: Understanding Language Model Performance](https://humanloop.com/blog/llm-benchmarks)
+- AmazonQ
+- [Copilot for Xcode lovers](https://viblo.asia/p/copilot-for-xcode-lovers-m2vJPk0n4eK)
+- [Tổng hợp Visual Studio Code Extensions](https://viblo.asia/p/tong-hop-visual-studio-code-extensions-Ny0VGnwYLPA)
 
 -----
 - [Exploring the Claude 3 Opus, Sonnet, and Haiku Models](https://damiandabrowski.medium.com/exploring-the-claude-3-opus-sonnet-and-haiku-models-adbf9c74acaa)
 - [So sánh 3 model mới nhất của Claude 3: Haiku vs Sonnet vs Opus](https://tenten.vn/ai/so-sanh-3-model-moi-nhat-cua-claude-3-haiku-vs-sonnet-vs-opus/)
 - [Chấn động làng AI: Claude 3 ra mắt với hiệu suất vượt trội hơn cả Gemini và ChatGPT](https://www.thegioididong.com/tin-tuc/claude-3-ra-mat-voi-hieu-suat-vuot-troi-hon-ca-gemini-va-chatgpt-1562285)
-- []()
