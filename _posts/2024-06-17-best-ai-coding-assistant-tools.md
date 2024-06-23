@@ -423,6 +423,8 @@ Mặc dù kết quả của LLM về các bài toán không nhìn thấy đượ
 
 Những ý tưởng này cần được nghiên cứu sâu hơn và tôi hy vọng rằng ai đó hoặc tôi có thể tìm hiểu chúng.
 
+![Claude Sonnet 3.5](https://boxxv.github.io/img/ai/UVMjGHgzyLTVNpe8tVLGDGlCYw52-us93q77.png "Claude Sonnet 3.5")
+
 ## Kết luận
 
 Có nhiều lựa chọn thay thế miễn phí cho GitHub Copilot có thể được tích hợp với Visual Studio Code. Mỗi lựa chọn thay thế này đều cung cấp các tính năng và khả năng riêng biệt, đáp ứng các nhu cầu và sở thích mã hóa khác nhau. Cho dù bạn muốn có trợ lý mã hóa giống như chatbot, mô hình AI được cá nhân hóa, quyền truy cập ngoại tuyến, quyền riêng tư của mã hay hỗ trợ chuyên biệt cho API AWS, thì vẫn có một giải pháp thay thế phù hợp với yêu cầu của bạn.
