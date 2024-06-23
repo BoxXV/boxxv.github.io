@@ -51,6 +51,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 
 ![Codeium](https://boxxv.github.io/img/ai/Codeium Context Menus.jpg "Codeium")
 
+**Function:**
 - Refactor Selected Code Block
 - Explain Slected Code Block
 
@@ -66,6 +67,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 
 ![Codeium](https://boxxv.github.io/img/ai/Codeium Context Menus.png "Codeium")
 
+**Feature:**
 - Rapid code autocomplete
 - In-editor AI chat assistant
 - `Unlimited usage`
@@ -74,12 +76,16 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Encryption in transit
 - Supports 21+ Programming Languages: Visual Studio Code, JetBrain IDEs, Vim/Neovim, `Visual Studio`, Emacs, Chrome Extension, Jupyter Notebooks, Google Colab, Deepnote, Databricks, `Xcode`, `Sublime Text`, `Eclipse`, IntelliJ, PyCharm, WebStorm, GoLand, PhpStorm, CLion, `Android Studio`
 - Supports 70+ Programming Languages (JS, Go, C++, SQL, etc)
+- Coding: Viết mã lập trình
+- Multilingual: Xử lý ngôn ngữ đa ngữ
+- Creative writing: N/A
 - Unit Test: `Xunit` for C#
 
 ### Cody
 
 ![Cody](https://boxxv.github.io/img/ai/Cody Context Menus.jpg "Cody")
 
+**Function:**
 - Edit Code
 - New Chat
 - Document Code
@@ -90,15 +96,20 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 
 ![Cody](https://boxxv.github.io/img/ai/Cody Context Menus.png "Cody")
 
+**Feature:**
 - AI models: Free for `Claude 3 Sonnet`
 - `500 Autocompletions` per month
 - `20 Messages and commands` per month
+- Coding: Viết mã lập trình
+- Multilingual: Xử lý ngôn ngữ đa ngữ
+- Creative writing: Viết sáng tạo
 - Unit Test: `MSTest` for C#
 
 ### Bito
 
 ![Bito](https://boxxv.github.io/img/ai/Bito Context Menus.jpg "Bito")
 
+**Function:**
 - Insert code into Bito
 - `Explain` this Code
 - Generate `Comment`
@@ -112,6 +123,7 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 
 ![Bito](https://boxxv.github.io/img/ai/Bito Context Menus.png "Bito")
 
+**Feature:**
 - AI models: GPT 3.5, Chat-bison from Google and other similar models
 - Limited usage on chat and CLI: `20 AI requests per day`, One-click pre-defined and custom templates
 - AI code completions: `100 per month`
@@ -120,6 +132,9 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 - Supports 4+ Programming Languages: Visual Studio Code, JetBrain IDEs, Chrome Extension, Vim/Neovim Plugin
 - Supports 50+ Programming Languages (JS, Go, C++, SQL, etc)
 - Supports 25 spoken languages (English, French, Chinese, etc)
+- Coding: Viết mã lập trình
+- Multilingual: Xử lý ngôn ngữ đa ngữ
+- Creative writing: Viết sáng tạo
 - Unit Test: `NUnit` for C#
 
 ## So sánh
@@ -176,6 +191,10 @@ Các tính năng chính:
 - Có thể được triển khai tại chỗ và trên VPC.
 - Tài liệu mã tự động.
 - Tích hợp với nhiều IDE (Sản phẩm Neovim, IntelliJ, VS Code, Eclipse và Sublime).
+- Coding: Viết mã lập trình
+- Multilingual: Xử lý ngôn ngữ đa ngữ
+- Creative writing: Viết sáng tạo
+- Unit Test: `NUnit` for C#
 
 > [Install](https://marketplace.visualstudio.com/items?itemName=TabNine.tabnine-vscode)
 

@@ -115,6 +115,12 @@ Và bạn có thể thấy dịch vụ từ Task manager trong tab services.
 
 Trên đây là hướng dẫn cách deploy ứng dụng node.js dạng Windows Service, bạn có thể áp dụng cách này để triển khai bất kỳ file .bat hay .exe nào dưới dạng Windows Service.
 
+# Deploy Node JS application on IIS
+
+- [IISNode](https://github.com/Azure/iisnode)
+- [URL Rewrite](https://www.iis.net/downloads/microsoft/url-rewrite)
+- []()
+
 Cảm ơn bạn đã đọc bài viết này của tôi, hy vọng rằng nó sẽ hữu ích và giúp bạn hiểu rõ hơn để lựa chọn tốt nhất trong công việc của mình.
 
 -----
