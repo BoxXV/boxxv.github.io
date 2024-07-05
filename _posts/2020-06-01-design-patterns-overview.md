@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tổng quan về Design Pattern
-subtitle: 33 Dạng Thức Triển Khai Design Patterns trong OOP
+subtitle: 23 Dạng Thức Triển Khai Design Patterns trong OOP
 tags:
 - Design Pattern
 - Creational
@@ -2099,7 +2099,7 @@ Circle::Draw() [ Color: White, x: 75, y: 74, radius: 100 ]
 -----
 Tham khảo:
 - [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
-- [Hướng Dẫn Cơ Bản Design Patterns - 33 Dạng Thức Triển Khai Trong OOP](https://viblo.asia/p/design-patterns-gioi-thieu-tong-quan-YWOZrAWrKQ0)
+- [Hướng Dẫn Cơ Bản Design Patterns - 23 Dạng Thức Triển Khai Trong OOP](https://viblo.asia/p/design-patterns-gioi-thieu-tong-quan-YWOZrAWrKQ0)
 - [Giới thiệu Design Patterns](https://gpcoder.com/4164-gioi-thieu-design-patterns/)
 - [Nhập môn Design Pattern (Phong cách kiếm hiệp)](https://toidicodedao.com/2016/03/01/nhap-mon-design-pattern-phong-cach-kiem-hiep/)
 - [Tổng quan về Design Pattern](https://www.swiftyvn.com/2018/09/tong-quan-ve-design-pattern/#ph%C3%A2n-lo%E1%BA%A1i-design-pattern)
