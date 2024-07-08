@@ -11,12 +11,15 @@ tags:
 ## Mục lục
 
 - [Mục lục](#mục-lục)
+- [Tâm sự cùng AI](#tâm-sự-cùng-ai)
 - [Wix](#wix)
 - [Inno Setup](#inno-setup)
 - [NSIS](#nsis)
 - [MS Visual Studio Installer Projects](#ms-visual-studio-installer-projects)
 - [Kết luận](#kết-luận)
 
+
+## Tâm sự cùng AI
 
 `Người dùng bình thường`: Best installers for Windows machine
 
