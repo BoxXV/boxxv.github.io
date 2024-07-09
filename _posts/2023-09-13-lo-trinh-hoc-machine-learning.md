@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [AI]  Lộ trình học Machine Learning Cơ Bản đến Nâng Cao
+title: AI - Lộ trình học Machine Learning Cơ Bản đến Nâng Cao
 subtitle: Artificial Intelligence - A Comprehensive Guide
 author: "TAn"
 image: "img/lonely.jpg"
