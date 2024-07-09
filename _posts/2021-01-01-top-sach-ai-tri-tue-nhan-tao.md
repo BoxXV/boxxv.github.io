@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cuốn sách về chủ đề TRÍ TUỆ NHÂN TẠO mà bạn nên đọc
+title: [AI] Cuốn sách về chủ đề TRÍ TUỆ NHÂN TẠO mà bạn nên đọc
 subtitle: Top sách AI trí tuệ nhân tạo hay nhất không thể bỏ qua
 image: "img/projects-bg.jpg"
 ---

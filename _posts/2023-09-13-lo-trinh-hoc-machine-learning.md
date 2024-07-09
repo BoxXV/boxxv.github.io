@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lộ trình học Machine Learning Cơ Bản đến Nâng Cao
+title: [AI]  Lộ trình học Machine Learning Cơ Bản đến Nâng Cao
 subtitle: Artificial Intelligence - A Comprehensive Guide
 author: "TAn"
 image: "img/lonely.jpg"
@@ -572,7 +572,9 @@ Tham khảo
 - [Tóm tắt vài mô hình Text-to-Speech (p3) - FastSpeech2](https://viblo.asia/p/tom-tat-vai-mo-hinh-text-to-speech-p3-fastspeech2-6J3ZgRvBKmB)
 - [Tóm tắt vài mô hình Text-to-Speech (p4) - GlowTTS](https://viblo.asia/p/tom-tat-vai-mo-hinh-text-to-speech-p4-glowtts-Do754LBJ5M6)
 - [Evaluating and Testing models - có vẻ phức tạp hơn bạn nghĩ](https://viblo.asia/p/evaluating-and-testing-models-co-ve-phuc-tap-hon-ban-nghi-vlZL9bRZVQK)
-- [Sun* AI Research Team](https://viblo.asia/o/sun-ai-research-team)
+- [Sun* AI Research Team](https://sun-ai.viblo.asia)
+- [Sun* AI Research Team](https://viblo.asia/o/sun-ai)
+- [Viblo AI](https://ai.viblo.asia)
 
 -----
 Machine Learning
@@ -589,7 +591,6 @@ Machine Learning
 - [Tìm niềm cảm hứng để bắt đầu học Deep Learning](https://viblo.asia/p/tim-niem-cam-hung-de-bat-dau-hoc-deep-learning-bWrZnPo95xw)
 - [Bóc trần hệ thống gợi ý của Twitter - một cú lừa ngày cá tháng tư???](https://viblo.asia/p/boc-tran-he-thong-goi-y-cua-twitter-mot-cu-lua-ngay-ca-thang-tu-7ymJXx8qJkq)
 - [[Paper Explain] Clustering trong Computer Vision: Hướng đi mới thay thế CNN và Transformer?](https://viblo.asia/p/paper-explain-clustering-trong-computer-vision-huong-di-moi-thay-the-cnn-va-transformer-0gdJz7pvLz5)
-- []()
 - [Machine Learning với Javascript](https://viblo.asia/p/machine-learning-voi-javascript-1VgZvwvmlAw)
 - [Trả lời một số câu hỏi interview Machine Learning & Deep Learning](https://viblo.asia/p/tra-loi-mot-so-cau-hoi-interview-machine-learning-deep-learning-BQyJKmjWVMe)
 - [Machine Learning & Deep Learning Interview Questions (P1)](https://viblo.asia/p/machine-learning-deep-learning-interview-questions-p1-63vKjOXbZ2R)
@@ -606,7 +607,6 @@ Video
 - [Machine learning Vietsub - Andrew Ng](https://www.youtube.com/playlist?list=PLDpRz2wA0qZzTcDLeXP5PSCfmQ96l9-Qr)
 - [Tự Học Data Science Cho Người Mới Bắt Đầu](https://www.youtube.com/playlist?list=PLJcWUrckOCKKwjjHALg6fnyQCHv8z92rs)
 - [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning)
-- []()
 
 Thực hành
 - [Chihuahua or muffin? My search for the best computer vision API](https://www.freecodecamp.org/news/chihuahua-or-muffin-my-search-for-the-best-computer-vision-api-cbda4d6b425d/)
