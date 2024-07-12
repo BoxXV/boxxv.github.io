@@ -23,9 +23,7 @@ tags:
 
 `Người dùng bình thường`: Best installers for Windows machine
 
-`Claude-3-Sonnet`: Để thực hiện automation testing trong ứng dụng WinForm, có một số công cụ và framework phổ biến có thể sử dụng. Dưới đây là một số gợi ý:
-
-Khi cài đặt phần mềm trên máy tính Windows, có một số tùy chọn trình cài đặt phổ biến sau đây:
+`Claude-3-Sonnet`: Khi cài đặt phần mềm trên máy tính Windows, có một số tùy chọn trình cài đặt phổ biến sau đây:
 
 1. [**MSI (Microsoft Installer)**](https://learn.microsoft.com/en-us/windows/win32/msi/windows-installer-portal): MSI là một định dạng gói cài đặt phần mềm và dịch vụ được Microsoft phát triển. Đây là định dạng được khuyến nghị để cài đặt ứng dụng trên hệ thống Windows, vì nó cung cấp trải nghiệm cài đặt nhất quán và đáng tin cậy. Các gói MSI có thể được tùy chỉnh và triển khai thông qua các phương thức khác nhau, bao gồm cài đặt cục bộ, triển khai qua mạng hoặc các công cụ phân phối phần mềm như System Center Configuration Manager (SCCM) hoặc Microsoft Endpoint Manager.
 2. [**NSIS (Nullsoft Scriptable Install System)**](https://nsis.sourceforge.io/Main_Page): NSIS là một hệ thống cài đặt mã nguồn mở miễn phí dựa trên kịch bản cho Windows. Nó nhẹ, có khả năng tùy chỉnh cao và hỗ trợ nhiều tính năng như nén, hỗ trợ đa ngôn ngữ và cài đặt im lặng. NSIS thường được sử dụng bởi các nhà phát triển và nhà cung cấp phần mềm để phân phối ứng dụng của họ.
@@ -41,6 +39,11 @@ Việc lựa chọn trình cài đặt thường phụ thuộc vào các yếu t
 WiX Toolset (Windows Installer XML Toolset) là một bộ công cụ mã nguồn mở được sử dụng để tạo ra các gói cài đặt phần mềm cho hệ điều hành Windows. WiX sử dụng XML để định nghĩa cấu hình và các thành phần của gói cài đặt. Dưới đây là một số điểm chính về WiX Toolset:
 
 ![Wix](https://learn.microsoft.com/en-us/dotnet/core/extensions/media/workers/new-wix-setup-project.png "Wix")
+
+`HeatWave` là tiện ích mở rộng Visual Studio của `FireGiant` dành cho **WiX v4, v5** và phiên bản mới hơn. Phiên bản Cộng đồng HeatWave được cung cấp miễn phí và cung cấp:
+
+Download [HeatWave for Visual Studio 2022 here](https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17).
+Download [HeatWave for Visual Studio 2019 here](https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev16).
 
 - Mã nguồn mở: WiX là một dự án mã nguồn mở, điều này có nghĩa là nó miễn phí và có thể được cộng đồng phát triển và cải tiến.
 - Ngôn ngữ XML: WiX sử dụng ngôn ngữ XML để mô tả cấu trúc và các thành phần của gói cài đặt. Điều này cho phép các nhà phát triển dễ dàng quản lý và tùy chỉnh các tệp cài đặt của họ.
@@ -180,6 +183,7 @@ Advanced Installer có [phiên bản miễn phí](https://www.advancedinstaller.
 - [3 cách tạo File cài đặt EXE đơn giản không cần lập trình 2024](https://anonyviet.com/3-cach-tao-file-cai-dat-exe-don-gian-khong-can-lap-trinh/)
 - [Đóng gói ứng dụng ngay trong phiên bản Visual Studio 2019](https://youtu.be/v26TVMtPHlI)
 - [Cách đóng gói code Project thành file EXE bằng MS Visual Studio](https://blogchiasekienthuc.com/thu-thuat-hay/cach-dong-goi-code-project-thanh-file-exe.html)
+- [Create a User's Desktop Shortcut and User's Program Menu by using VS setup and Deployment Project - Step by Step](https://www.dotnetfunda.com/articles/show/2334/create-a-user39s-desktop-shortcut-and-user39s-program-menu-by-using-vs)
 - [Microsoft Visual Studio Installer Projects 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2022InstallerProjects)
 - [Visual Studio Installer Deployment](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/2kt85ked(v%3dvs.100))
 
