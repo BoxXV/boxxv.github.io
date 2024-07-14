@@ -42,7 +42,7 @@ WiX Toolset (Windows Installer XML Toolset) là một bộ công cụ mã nguồ
 
 `HeatWave` là tiện ích mở rộng Visual Studio của `FireGiant` dành cho **WiX v4, v5** và phiên bản mới hơn. Phiên bản Cộng đồng HeatWave được cung cấp miễn phí và cung cấp:
 
-Download [HeatWave for Visual Studio 2022 here](https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17).
+Download [HeatWave for Visual Studio 2022 here](https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev17).  
 Download [HeatWave for Visual Studio 2019 here](https://marketplace.visualstudio.com/items?itemName=FireGiant.FireGiantHeatWaveDev16).
 
 - Mã nguồn mở: WiX là một dự án mã nguồn mở, điều này có nghĩa là nó miễn phí và có thể được cộng đồng phát triển và cải tiến.
@@ -172,14 +172,12 @@ Advanced Installer có [phiên bản miễn phí](https://www.advancedinstaller.
 -----
 - [Best installers for Windows machine](https://www.reddit.com/r/csharp/comments/b49son/best_installers_for_windows_machine/)
 - [Installers: WIX or Inno Setup?](https://stackoverflow.com/questions/6245260/installers-wix-or-inno-setup)
-- [WiX ToolSet là cái gì?](https://mn.com.vn/hoc-net/wix-toolset-la-cai-gi/)
 - [Inno Setup](https://jrsoftware.org/isinfo.php)
 - [Đóng gói, tạo file exe bằng Inno Setup](https://thuthuat.taimienphi.vn/dong-goi-tao-file-exe-bang-inno-setup-2084n.aspx)
 - [Hướng dẫn đóng gói chương trình chuyên nghiệp với INNO SETUP](https://nguyenduydai.wordpress.com/2013/11/09/huong-dan-dong-goi-phan-mem-chuyen-nghiep-voi-inno-setup/)
 - [Việt hóa inno setup](https://innosetup03.wordpress.com/viet-hoa-inno-setup/)
 - [Hướng dẫn đóng gói phần mềm với NSIS (Nullsoft Scriptable Install System)](https://trungnhan.name.vn/huong-dan-dong-goi-phan-mem-voi-nsis-nullsoft-scriptable-install-system/)
 - [UserBenchmark bị hiểu lầm là phần mềm độc hại](https://thanhnien.vn/userbenchmark-bi-hieu-lam-la-phan-mem-doc-hai-1851404092.htm)
-- [How to Create A Windows Installer for Dynamsoft Service and .NET Document Scanner Application](https://dev.to/yushulx/how-to-create-a-windows-installer-for-dynamsoft-service-and-net-document-scanner-application-1mhp)
 - [3 cách tạo File cài đặt EXE đơn giản không cần lập trình 2024](https://anonyviet.com/3-cach-tao-file-cai-dat-exe-don-gian-khong-can-lap-trinh/)
 - [Đóng gói ứng dụng ngay trong phiên bản Visual Studio 2019](https://youtu.be/v26TVMtPHlI)
 - [Cách đóng gói code Project thành file EXE bằng MS Visual Studio](https://blogchiasekienthuc.com/thu-thuat-hay/cach-dong-goi-code-project-thanh-file-exe.html)
@@ -188,13 +186,19 @@ Advanced Installer có [phiên bản miễn phí](https://www.advancedinstaller.
 - [Visual Studio Installer Deployment](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2010/2kt85ked(v%3dvs.100))
 
 -----
+- [WiX ToolSet là cái gì?](https://mn.com.vn/hoc-net/wix-toolset-la-cai-gi/)
+- [WiX Toolset v4 and v5 Tutorial](https://www.firegiant.com/docs/wix/tutorial/)
+- [WiX schema documentation](https://wixtoolset.org/docs/schema/)
+- [How to Create A Windows Installer for Dynamsoft Service and .NET Document Scanner Application](https://dev.to/yushulx/how-to-create-a-windows-installer-for-dynamsoft-service-and-net-document-scanner-application-1mhp)
+- []()
+
+-----
 - [How to create Setup file for Windows Service](https://youtu.be/86Y9WhQc4TQ)
 - [Create a Windows Service installer](https://learn.microsoft.com/en-us/dotnet/core/extensions/windows-service-with-installer?tabs=wix)
 - [C# - How to Create a Setup Project to Deploy Windows Services - Part 3/3](https://youtu.be/cp2aFNtcZfk?list=PLt2cGgt6G8WrItA7KTI5m6EFniMfphWJC)
 - [Create Simple Windows Service And Setup Project With Installation](https://www.c-sharpcorner.com/UploadFile/b7531b/create-simple-window-service-and-setup-project-with-installa/)
 - [Creating a Windows Service and Installer](https://www.developer.com/design/creating-a-windows-service-and-installer/)
 - [Automating Windows Service Installation](https://www.endpointdev.com/blog/2021/04/automating-windows-service-installation/)
-- []()
 - [Tutorial: Create a Windows service app](https://learn.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer)
 - [Advanced Installer](https://www.advancedinstaller.com/how-to-create-an-installer-for-a-net-windows-service.html) - [How to create an installer for a .net Windows service app using Visual Studio](https://youtu.be/jNbI2r5YNYs)
 - [How to create Setup file for Windows Service](https://www.google.com/search?q=How+to+create+Setup+file+for+Windows+Service)
