@@ -10,6 +10,7 @@ tags:
 
 - [Best tool to record screen free](#best-tool-to-record-screen-free)
 - [Website chia sẻ doanh thu khi tải video lên](#website-chia-sẻ-doanh-thu-khi-tải-video-lên)
+- [Buy Me a Coffee hay Patreon hay dịch vụ nào tốt nhất?](#buy-me-a-coffee-hay-patreon-hay-dịch-vụ-nào-tốt-nhất)
 
 
 ![Talk with AI](https://boxxv.github.io/img/2024/talk-ai-generation-robot-talking-human-ai-robot_741910-34039.jpg "Talk with AI")
@@ -40,6 +41,34 @@ Tôi hiểu bạn đang hỏi về các trang web cho phép chia sẻ doanh thu 
 - `Patreon`: Không phải là nền tảng video trực tiếp, nhưng cho phép người sáng tạo nhận hỗ trợ trực tiếp từ người hâm mộ.
 
 Mỗi nền tảng có các yêu cầu và điều kiện riêng để được chia sẻ doanh thu. Thông thường, bạn cần đạt được một số lượng người xem hoặc người đăng ký nhất định và tuân thủ các quy tắc cộng đồng của nền tảng.
+
+### Buy Me a Coffee hay Patreon hay dịch vụ nào tốt nhất?
+
+Cả Buy Me a Coffee và Patreon đều là nền tảng tốt để nhận hỗ trợ tài chính từ người hâm mộ, nhưng chúng có những đặc điểm khác nhau. Tôi sẽ so sánh chúng và một số dịch vụ khác để bạn có cái nhìn tổng quan:
+
+1. `Buy Me a Coffee`:
+	+ Ưu điểm: Đơn giản, dễ sử dụng, phí thấp (5%), thanh toán một lần hoặc định kỳ.
+	+ Nhược điểm: Ít tính năng hơn so với Patreon, ít phổ biến hơn.
+2. `Patreon`:
+	+ Ưu điểm: Nền tảng lớn và uy tín, nhiều tính năng, hỗ trợ nhiều mức đóng góp, cộng đồng lớn.
+	+ Nhược điểm: Phí cao hơn (5-12%), có thể phức tạp cho người mới bắt đầu.
+3. `Ko-fi`:
+	+ Ưu điểm: Miễn phí cơ bản (0% phí), đơn giản như Buy Me a Coffee.
+	+ Nhược điểm: Ít tính năng hơn Patreon, ít phổ biến hơn.
+4. `Gumroad`:
+	+ Ưu điểm: Tốt cho bán sản phẩm số, phí thấp (3.5% + $0.30 mỗi giao dịch).
+	+ Nhược điểm: Không tập trung vào việc nhận đóng góp định kỳ.
+5. `GitHub Sponsors`:
+	+ Ưu điểm: Tích hợp tốt với GitHub, không mất phí.
+	+ Nhược điểm: Chỉ phù hợp với các dự án mã nguồn mở.
+
+Lựa chọn tốt nhất phụ thuộc vào nhu cầu cụ thể của bạn:
+- Nếu bạn muốn một giải pháp đơn giản và nhanh chóng: Buy Me a Coffee hoặc Ko-fi.
+- Nếu bạn cần nhiều tính năng và muốn xây dựng cộng đồng: Patreon.
+- Nếu bạn là nhà phát triển phần mềm mã nguồn mở: GitHub Sponsors.
+- Nếu bạn muốn bán sản phẩm số: Gumroad.
+
+Cuối cùng, bạn nên xem xét đối tượng khán giả của mình và chọn nền tảng mà họ có khả năng sử dụng nhất. Bạn cũng có thể sử dụng nhiều nền tảng cùng lúc để tối đa hóa cơ hội nhận được sự hỗ trợ.
 
 
 -----
