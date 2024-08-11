@@ -10,6 +10,7 @@ tags:
 
 - [Best tool to record screen free](#best-tool-to-record-screen-free)
 - [Website chia sẻ doanh thu khi tải video lên](#website-chia-sẻ-doanh-thu-khi-tải-video-lên)
+- [Phần mềm chỉnh sửa video miễn phí tốt nhất trên PC](#phần-mềm-chỉnh-sửa-video-miễn-phí-tốt-nhất-trên-pc)
 - [Buy Me a Coffee hay Patreon hay dịch vụ nào tốt nhất?](#buy-me-a-coffee-hay-patreon-hay-dịch-vụ-nào-tốt-nhất)
 
 
@@ -41,6 +42,50 @@ Tôi hiểu bạn đang hỏi về các trang web cho phép chia sẻ doanh thu 
 - `Patreon`: Không phải là nền tảng video trực tiếp, nhưng cho phép người sáng tạo nhận hỗ trợ trực tiếp từ người hâm mộ.
 
 Mỗi nền tảng có các yêu cầu và điều kiện riêng để được chia sẻ doanh thu. Thông thường, bạn cần đạt được một số lượng người xem hoặc người đăng ký nhất định và tuân thủ các quy tắc cộng đồng của nền tảng.
+
+
+### Phần mềm chỉnh sửa video miễn phí tốt nhất trên PC
+
+`DaVinci Resolve`:
+
+- Phần mềm chuyên nghiệp với nhiều tính năng nâng cao
+- Giao diện người dùng mạnh mẽ
+- Hỗ trợ chỉnh màu chuyên nghiệp
+
+`OpenShot`:
+
+- Đơn giản, dễ sử dụng cho người mới bắt đầu
+- Giao diện trực quan
+- Hỗ trợ nhiều định dạng video
+
+`Kdenlive`:
+
+- Phần mềm mã nguồn mở đa nền tảng
+- Nhiều hiệu ứng và chuyển cảnh
+- Hỗ trợ chỉnh sửa đa track
+
+`Shotcut`:
+
+- Giao diện đơn giản nhưng đầy đủ tính năng
+- Hỗ trợ nhiều định dạng
+- Có thể chạy trên các hệ điều hành khác nhau
+
+`VSDC` Free Video Editor:
+
+- Nhiều tính năng nâng cao như chroma key, color correction
+- Hỗ trợ xuất video chất lượng cao
+- Có thể xử lý các định dạng video 4K
+
+`HitFilm Express`
+
+- Cung cấp nhiều hiệu ứng đặc biệt và công cụ chỉnh sửa mạnh mẽ.
+- Phù hợp cho cả người mới bắt đầu và người dùng nâng cao.
+
+`Lightworks`
+
+- Cung cấp nhiều công cụ chỉnh sửa chuyên nghiệp.
+- Phiên bản miễn phí giới hạn một số tính năng nhưng vẫn rất mạnh mẽ.
+
 
 ### Buy Me a Coffee hay Patreon hay dịch vụ nào tốt nhất?
 
