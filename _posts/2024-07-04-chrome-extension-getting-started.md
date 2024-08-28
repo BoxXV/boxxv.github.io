@@ -4,7 +4,8 @@ title: Xây dựng ứng dụng Chrome Extension
 subtitle: Chrome Extension Getting Started
 image: "img/2024/1277070923.png"
 tags:
-- Mạt Code
+- Chrome
+- Extension
 - lập trình
 ---
 
