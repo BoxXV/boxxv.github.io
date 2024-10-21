@@ -208,8 +208,10 @@ Thực hiện: Vào trang dashboard của extension: https://chrome.google.com/w
 Để tạo môt extension và publish lên rất là đơn giản nhưng để làm được một extension hữu ích cho người sử dụng thì còn cần rất nhiều kiến thức mà trong thời gian cho phép mình chưa thể tìm hiểu hết được. Hy vọng trong các bài report tháng tới sẽ nghiên cứu và viết được mốt số extension hay ho (yaoming)
 
 -----
+- https://developer.chrome.com/docs/extensions/reference/manifest
+- https://chromewebstore.google.com/search/text%20symbol%20to%20copy%20and%20paste?utm_source=ext_app_menu
+- https://viblo.asia/search?q=chrome%20extension
 - [Tiện ích Hello World (Xin chào thế giới)](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=vi)
-- []()
 - [Cách viết một chrome extentions](https://viblo.asia/p/cach-viet-mot-chrome-extentions-ByEZkOBqZQ0)
 - [Tự tạo Chrome Extension cho riêng mình](https://viblo.asia/p/tu-tao-chrome-extension-cho-rieng-minh-1VgZv4rM5Aw)
 - [Hướng dẫn viết một Extension trên Chrome](https://viblo.asia/p/huong-dan-viet-mot-extension-tren-chrome-924lJqaWZPM)
@@ -220,6 +222,7 @@ Thực hiện: Vào trang dashboard của extension: https://chrome.google.com/w
 - [Make a simple Chrome Extension - Cute Cat](https://viblo.asia/p/make-a-simple-chrome-extension-cute-cat-maGK7k7BKj2)
 - [Viết Chrome Extension bằng VueJS](https://viblo.asia/p/viet-chrome-extension-bang-vuejs-Ljy5VoVjKra)
 - [Xây dựng một Chrome Extension bằng ReactJs (Phần 1 - Tổng quan)](https://viblo.asia/p/xay-dung-mot-chrome-extension-bang-reactjs-phan-1-tong-quan-924lJAxNZPM)
+- [Xây dựng một Chrome Extension bằng ReactJs - Xem điểm cá nhân Unipos](https://viblo.asia/p/xay-dung-mot-chrome-extension-bang-reactjs-xem-diem-ca-nhan-unipos-3P0lPQOn5ox)
 - [Tạo ứng dụng Todo trên Chrome Extension với React](https://viblo.asia/p/tao-ung-dung-todo-tren-chrome-extension-voi-react-bWrZnObblxw)
 - [Tạo một Google Chrome Extension với React](https://viblo.asia/p/tao-mot-google-chrome-extension-voi-react-Az45byVNlxY)
 - [[Chrome Extension] Hướng dẫn tạo ứng dụng đầu tay](https://viblo.asia/p/chrome-extension-huong-dan-tao-ung-dung-dau-tay-QpmlegykKrd)
@@ -227,19 +230,36 @@ Thực hiện: Vào trang dashboard của extension: https://chrome.google.com/w
 - [Tạo ứng dụng Chrome extension](https://viblo.asia/p/tao-ung-dung-chrome-extension-al5XRBZkRqPe)
 - [Newbie tập viết extension trên chrome](https://viblo.asia/p/newbie-tap-viet-extension-tren-chrome-07LKXw4k5V4)
 - [Cần học gì để tự làm một Chrome Extension?](https://viblo.asia/p/can-hoc-gi-de-tu-lam-mot-chrome-extension-3P0lPE245ox)
-- []()
 - [Chrome Extension: Xây dựng một Trading BOT cơ bản](https://viblo.asia/p/chrome-extension-xay-dung-mot-trading-bot-co-ban-GrLZDOeEKk0)
 - [Giới thiệu extension Chat++++](https://viblo.asia/p/gioi-thieu-extension-chat-Qpmle9Brlrd)
 - [Chrome exension và viết extension skip quảng cáo trên Youtube](https://viblo.asia/p/chrome-exension-va-viet-extension-skip-quang-cao-tren-youtube-vyDZO7GQZwj)
 - [Tạo 1 Notification Extension đơn giản trên Chrome](https://viblo.asia/p/tao-1-notification-extension-don-gian-tren-chrome-djeZ1yd3ZWz)
 - [Tạo extension "NOTE" của riêng bạn](https://viblo.asia/p/tao-extension-note-cua-rieng-ban-bJzKmoeXl9N)
-- [Ghi chép về Browser Extension đầu tiên](https://viblo.asia/p/ghi-chep-ve-browser-extension-dau-tien-1VgZvrymZAw)
 - [Developer mà vẫn chưa biết những Chrome Extensions này thì... giờ biết rồi nhé!!!](https://viblo.asia/p/developer-ma-van-chua-biet-nhung-chrome-extensions-nay-thi-gio-biet-roi-nhe-6J3Zg3zAZmB)
-- [Tôi đã viết Chrome extension đầu tiên của mình bằng Github Copilot như thế nào?](https://viblo.asia/p/toi-da-viet-chrome-extension-dau-tien-cua-minh-bang-github-copilot-nhu-the-nao-GyZJZd18Vjm)
 - [[Small Project] - Chrome Extension - Chia sẻ cuộc hội thoại ChatGPT](https://viblo.asia/p/small-project-chrome-extension-chia-se-cuoc-hoi-thoai-chatgpt-AZoJjYX24Y7)
-- []()
 - [[Selenium Webdriver] How to add chrome extension and access link in selenium.](https://viblo.asia/p/selenium-webdriver-how-to-add-chrome-extension-and-access-link-in-selenium-Do754JJVZM6)
 - [How to create a chrome extension](https://viblo.asia/p/how-to-create-a-chrome-extension-QWkwGnYqM75g)
 - [How to create a Google Chrome Extension : case study "Chatwork Emoticons Plus"](https://viblo.asia/p/how-to-create-a-google-chrome-extension-case-study-chatwork-emoticons-plus-AeJ1vOYQMkby)
 - [Chrome Extension: Getting Started](https://viblo.asia/p/chrome-extension-getting-started-djeZ1p8GKWz)
 - [hello-world-chrome-extension](https://github.com/gitfaf/hello-world-chrome-extension)
+- [Let's build browser addon for Khmer WS](https://viblo.asia/p/lets-build-browser-addon-for-khmer-ws-jvElaDboZkw)
+- [Sử dụng VPN extension thay thế cho proxy trong automation (thao tác với extension pop-up)](https://viblo.asia/p/su-dung-vpn-extension-thay-the-cho-proxy-trong-automation-thao-tac-voi-extension-pop-up-aWj53BPPl6m)
+- [VPN Chrome Extension hoạt động như thế nào?](https://viblo.asia/p/vpn-chrome-extension-hoat-dong-nhu-the-nao-GyZJZnREJjm)
+- [Cách crawl data "no code" đơn giản với Chrome Extension](https://viblo.asia/p/cach-crawl-data-no-code-don-gian-voi-chrome-extension-obA4660w4Kv)
+- [✨ChatGPT4 will be able to make design and apps📱](https://viblo.asia/p/chatgpt4-will-be-able-to-make-design-and-apps-EoW4og994ml)
+- [How to Create a Chrome Extension in 10 Minutes Flat](https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/)
+- [Top 21 Chrome Extensions for Designers and Developers in 2023](https://devdojo.com/rahulism/top-21-chrome-extensions-for-designers-and-developers-in-2023)
+- [Tôi đã viết Chrome extension đầu tiên của mình bằng Github Copilot như thế nào?](https://viblo.asia/p/toi-da-viet-chrome-extension-dau-tien-cua-minh-bang-github-copilot-nhu-the-nao-GyZJZd18Vjm)
+
+-----
+- https://extensionworkshop.com/documentation/publish/add-on-policies/
+- https://extensionworkshop.com/documentation/publish/firefox-add-on-distribution-agreement/
+- https://viblo.asia/search?q=Firefox%20extension
+- [How to create a Firefox Add-on : case study "Chatwork Emoticons Plus"](https://viblo.asia/p/how-to-create-a-firefox-add-on-case-study-chatwork-emoticons-plus-73KbvZeyGmWB)
+- [Ghi chép về Browser Extension đầu tiên](https://viblo.asia/p/ghi-chep-ve-browser-extension-dau-tien-1VgZvrymZAw)
+- [Viết extension cho Firefox để sửa response data của request](https://viblo.asia/p/viet-extension-cho-firefox-de-sua-response-data-cua-request-QpmleM19lrd)
+- [Tự tạo Add-ons cho FireFox](https://www.junookyo.com/2012/02/tut-tu-tao-add-ons-cho-firefox.html)
+
+-----
+- https://dev.to/search?utf8=%E2%9C%93&q=chrome+extention
+- []()
