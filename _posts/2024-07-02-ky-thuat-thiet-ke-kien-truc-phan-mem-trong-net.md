@@ -15,6 +15,7 @@ tags:
 	- [CQRS (Command Query Responsibility Segregation)](#cqrs-command-query-responsibility-segregation)
 	- [Event-Driven](#event-driven)
 	- [Domain-Driven Design (DDD)](#domain-driven-design-ddd)
+	- [Clean Architecture](#clean-architecture)
 	- [Kết luận](#kết-luận)
 
 Trong thế giới lập trình hiện đại, việc hiểu rõ về kỹ thuật thiết kế kiến trúc phần mềm không chỉ giúp chúng ta phát triển sản phẩm mạnh mẽ, linh hoạt mà còn giúp đáp ứng nhanh chóng trước yêu cầu thay đổi từ phía khách hàng. Trong bài viết này, mình sẽ đi sâu vào phân tích các khuôn mẫu thiết kế kiến trúc phổ biến như [Microservices](https://itbeesolutions.vn/tan-dung-loi-ich-cua-net-framework-trong-phat-trien-ung-dung-doanh-nghiep/), [CQRS](https://topdev.vn/blog/cqrs-pattern-la-gi-vi-du-de-hieu-ve-cqrs-pattern/), [Event-Driven](https://viblo.asia/p/kien-truc-huong-su-kien-event-driven-architecture-zXRJ8n2dVGq) và [Domain-Driven Design (DDD)](https://viblo.asia/p/domain-driven-design-phan-1-mrDGMOExkzL), cũng như cách áp dụng chúng trong .NET.
@@ -94,6 +95,25 @@ Domain-Driven Design (DDD) là một phương pháp tiếp cận thiết kế ph
 
 ![DDD](https://images.viblo.asia/bd72ae51-ee5a-4683-a22a-1b0b3e236d50.png "DDD")
 
+**Kiến trúc phân lớp**
+
+Phân chia một chương trình phức tạp thành các LỚP. Phát triển một thiết kế cho mỗi LỚP để chúng trở nên gắn kết và chỉ phụ thuộc vào các tầng bên dưới. Dưới đây là giải pháp kiến trúc chung cho DDD.
+
+![DDD](https://images.viblo.asia/15e94d23-9cf3-4a72-864a-ce68ddc855fe.jpg "DDD")
+
+Ở đây mô hình DDD vẫn giữ lại những ưu điểm của mô hình kiến trúc phân lớp (Layered Archiecture) để đảm bảo nguyên lý Seperation of Concerns. Các phần logic xử lý khác nhau sẽ được cô lập ra khỏi các phần khác làm tăng tính Lose Coupling của ứng dụng và tính dễ đọc và dễ bảo trì cũng như ứng dụng khi có thay đổi logic của từng layer thì không ảnh hướng đến các layer khác.
+
+- `User Interface`: Chịu trách nhiệm trình bày thông tin tới người sử dụng và thông dịch lệnh của người dùng. Có thể hiểu là các sự kiện xảy ra trên giao diện khi được trigger sẽ được dịch thành lệnh và xử lý ở các tầng dưới.
+
+- `Applicatioin` Layer: Tầng này được thiết kế khá mỏng (ít xử lý logic) phối hợp các hoạt động của ứng dụng. Nó không chứa logic nghiệp vụ. Nó không lưu giữ trạng thái của các đối tượng nghiệp vụ nhưng nó có thể giữ trạng thái một tiến trình của ứng dụng. Chúng ta có thể hình dung phần này gần giống với các Controller trong mô hình MVC chỉ làm nhiệm vụ chuyển tiếp các task đến nơi cần xử lý.
+
+- `Domain` Layer: Tầng này chứa thông tin về các lĩnh vực. Đây chính là trái tim của phần mềm. Trạng thái của đối tượng nghiệp vụ được giữ tại đây.
+
+- `Infrastructure` Layer: Tầng này đóng vai trò như một thư viện hỗ trợ cho tất cả các tầng còn lại. Nó cung cấp thông tin liên lạc giữa các lớp, cung cấp chức năng lưu trữ các đối tượng nghiệp vụ, chứa các thư viện hỗ trợ cho tầng giao diện người dùng...
+
+Đến đây thì chúng ta sẽ thấy kiến trúc của DDD tuy mới nhìn có vẻ lạ nhưng chỉ đơn giản là nó tùy biến lại mô hình kiến trúc 3 lớp (3-tier architecture) cho linh hoạt hơn. Tính linh hoạt này được tạo ra từ hệ quả của việc tái tổ chức lại các layer từ mô hình ba lớp, nó thể hiện ở data flow và control flow giữa 2 mô hình.
+
+
 **1. Xác định Ubiquitous Language:**
 
 Ngôn ngữ đồng nhất (Ubiquitous Language) là một tập hợp các từ ngữ được chia sẻ giữa nhóm phát triển và các bên liên quan để mô tả vấn đề kinh doanh. Nó giúp đảm bảo rằng mọi người đều hiểu đúng về domain và nó được diễn đạt qua mã nguồn.
@@ -111,6 +131,10 @@ Repositories là những đối tượng giúp truy xuất dữ liệu từ ngu�
 Domain Events là những sự kiện xảy ra trong domain, thường liên quan đến việc thay đổi trạng thái của một entity hoặc aggregate. Chúng giúp bạn thiết kế các hệ thống phản ứng và không đồng bộ.
 
 Ví dụ minh họa: Trong một ứng dụng quản lý bệnh viện, "Bệnh nhân", "Bác sĩ", và "Hóa đơn" có thể là các Entities, trong khi "Địa chỉ" có thể là một Value Object. Các hành động như "Tiếp nhận bệnh nhân", "Chẩn đoán bệnh", v.v. có thể được xử lý trong các Services. Khi một bệnh nhân được tiếp nhận, một "Bệnh nhân được tiếp nhận" (PatientAdmitted) Domain Event có thể được phát đi. Event này có thể kích hoạt một loạt các hành động khác như gửi thông báo tới bác sĩ chăm sóc, cập nhật thông tin bệnh nhân vào hệ thống, v.v. Tất cả những khái niệm này giúp mã nguồn phản ánh chính xác những gì đang diễn ra trong vấn đề kinh doanh thực tế, làm cho mã nguồn dễ đọc, dễ bảo dưỡng, và dễ mở rộng.
+
+## Clean Architecture
+
+![Clean Architecture](https://boxxv.github.io/img/2024/clean-architecture-4.jpg "Clean Architecture")
 
 ## Kết luận
 
@@ -131,3 +155,5 @@ Hy vọng thông qua bài viết này, bạn đã có cái nhìn rõ nét hơn v
 
 -----
 - [Kỹ thuật thiết kế kiến trúc phần mềm trong .NET: Phân tích sâu về khuôn mẫu thiết kế kiến trúc phổ biến.](https://viblo.asia/p/ky-thuat-thiet-ke-kien-truc-phan-mem-trong-net-phan-tich-sau-ve-khuon-mau-thiet-ke-kien-truc-pho-bien-GAWVpOY3L05)
+- [Domain Driven Design (Phần 1)](https://viblo.asia/p/domain-driven-design-phan-1-mrDGMOExkzL)
+- [Clean Architecture là gì? Lợi ích của việc sử dụng Clean Architecture trong phát triển phần mềm](https://fptshop.com.vn/tin-tuc/danh-gia/clean-architecture-180441)
