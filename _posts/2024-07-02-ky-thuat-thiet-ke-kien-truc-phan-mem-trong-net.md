@@ -4,8 +4,12 @@ title: Kỹ thuật thiết kế kiến trúc phần mềm trong .NET
 subtitle: Phân tích sâu về khuôn mẫu thiết kế kiến trúc phổ biến
 image: "img/2024/1277070923.png"
 tags:
-- Mạt Code
-- lập trình
+- Microservices
+- CQRS
+- Event-Driven
+- DDD
+- Clean
+- Architecture
 ---
 
 # Mục lục
@@ -156,4 +160,5 @@ Hy vọng thông qua bài viết này, bạn đã có cái nhìn rõ nét hơn v
 -----
 - [Kỹ thuật thiết kế kiến trúc phần mềm trong .NET: Phân tích sâu về khuôn mẫu thiết kế kiến trúc phổ biến.](https://viblo.asia/p/ky-thuat-thiet-ke-kien-truc-phan-mem-trong-net-phan-tich-sau-ve-khuon-mau-thiet-ke-kien-truc-pho-bien-GAWVpOY3L05)
 - [Domain Driven Design (Phần 1)](https://viblo.asia/p/domain-driven-design-phan-1-mrDGMOExkzL)
+- [Hiểu Domain Design theo cách bá đạo - part 1](https://www.giaosucan.com/2018/08/hieu-domain-design-theo-cach-ba-ao-part.html)
 - [Clean Architecture là gì? Lợi ích của việc sử dụng Clean Architecture trong phát triển phần mềm](https://fptshop.com.vn/tin-tuc/danh-gia/clean-architecture-180441)
