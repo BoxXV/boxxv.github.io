@@ -116,7 +116,7 @@ sudo nano /etc/postgresql/14/main/pg_hba.conf
 Và thêm vào dòng sau:
 ```txt
 host    all             all              0.0.0.0/0                       md5
-host    all             all              0.0.0.0/0                       md5
+host    all             all              ::/0                            md5
 
 hoặc
 
