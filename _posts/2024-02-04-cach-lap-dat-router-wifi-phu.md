@@ -38,7 +38,7 @@ tags:
 		- [3. `Điểm truy cập` (AP Access Point)](#3-điểm-truy-cập-ap-access-point)
 		- [4. `Mở rộng sóng` (Repeater/Range Extender)](#4-mở-rộng-sóng-repeaterrange-extender)
 		- [5. `Cầu nối` (Bridge)](#5-cầu-nối-bridge)
-		- [6. Máy khách (Client)](#6-máy-khách-client)
+		- [6. `Máy khách` (Client)](#6-máy-khách-client)
 	- [RJ45](#rj45)
 - [Tổng kết](#tổng-kết)
 
@@ -210,7 +210,7 @@ Yêu cầu mạng: Nếu bạn muốn kết hợp hai mạng qua kết nối kh�
 
 > Lưu ý: Tín hiệu không dây của thiết bị ở chế độ Cầu nối / Lặp sóng thường yếu hơn ở các chế độ khác. Chúng tôi khuyên bạn nên sử dụng hai thiết bị ở chế độ Máy khách và Điểm truy cập tương ứng để thay thế thiết bị ở chế độ Cầu nối / Lặp sóng.
 
-### 6. Máy khách (Client)
+### 6. `Máy khách` (Client)
 
 Chế độ máy khách được sử dụng để chuyển kết nối không dây thành kết nối có dây. Ở chế độ Máy khách, thiết bị hoạt động như một bộ chuyển đổi không dây. Nó nhận tín hiệu không dây từ AP gốc hoặc trạm và cung cấp mạng có dây cho người dùng.
 
@@ -220,6 +220,8 @@ Yêu cầu mạng: Kết nối các thiết bị chỉ áp dụng cho mạng có
 
 
 ![Router](https://boxxv.github.io/img/2024/TL-WR840N.png "Router")
+
+![Router](https://boxxv.github.io/img/2024/How_to_configure_the_Access_Point_mode_on_the_TL-WA7210Nimage006.jpg "Router")
 
 
 ## RJ45
