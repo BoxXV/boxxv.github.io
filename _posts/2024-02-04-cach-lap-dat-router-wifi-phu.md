@@ -33,6 +33,12 @@ tags:
 			- [Chế độ cầu nối - `Bridge`](#chế-độ-cầu-nối---bridge)
 			- [Chế độ lặp](#chế-độ-lặp)
 	- [Chế độ hoạt động](#chế-độ-hoạt-động)
+		- [1. `Router Wi-Fi` (Router AP Mặc định)](#1-router-wi-fi-router-ap-mặc-định)
+		- [2. `WISP Client` (Router Máy Khách AP)](#2-wisp-client-router-máy-khách-ap)
+		- [3. `Điểm truy cập` (AP Access Point)](#3-điểm-truy-cập-ap-access-point)
+		- [4. `Mở rộng sóng` (Repeater/Range Extender)](#4-mở-rộng-sóng-repeaterrange-extender)
+		- [5. `Cầu nối` (Bridge)](#5-cầu-nối-bridge)
+		- [6. Máy khách (Client)](#6-máy-khách-client)
 	- [RJ45](#rj45)
 - [Tổng kết](#tổng-kết)
 
@@ -156,15 +162,65 @@ Chỉ một số Access Point có hỗ trợ chế độ này
 
 ## Chế độ hoạt động
 
-`Router Wi-Fi` (Mặc định): Trong chế độ này, thiết bị cho phép nhiều người dùng chia sẻ kết nối Internet qua Modem ADSL/Cáp. Các thiết bị LAN chia sẻ cùng một IP từ ISP qua cổng Wi-Fi. Trong khi kết nối với Internet, cổng Ethernet LAN / WAN hoạt động như một cổng WAN ở chế độ Router Wi-Fi.
+Các sản phẩm thuộc dòng Pharos của TP-Link hỗ trợ sáu chế độ hoạt động để đáp ứng yêu cầu mạng của người dùng, bao gồm chế độ Access Point, Client, Repeater, Bridge, AP Router và AP Client Router (WISP Client).
 
-`WISP`: Ở chế độ này, thiết bị cho phép nhiều người dùng chia sẻ kết nối Internet từ WISP. Cổng LAN của thiết bị chia sẻ cùng địa chỉ IP từ WISP qua cổng Wi-Fi. Trong khi kết nối với WISP, cổng Wi-Fi hoạt động như cổng WAN ở chế độ Router Client WISP. Cổng Ethernet hoạt động như cổng LAN.
+### 1. `Router Wi-Fi` (Router AP Mặc định)
 
-`Điểm truy cập`: Trong chế độ này, thiết bị có thể kết nối với mạng dây và chuyển đổi truy cập dây sang Wi-Fi cho phép nhiều thiết bị chia sẻ với nhau, đặc biệt cho gia đình, văn phòng hoặc khách sạn nơi chỉ có mạng dây.
+Thiết bị ở chế độ router AP hoạt động như một router không dây gia đình bình thường nhưng cung cấp phạm vi mạng không dây rộng hơn. Nó có thể kết nối với mạng có dây thông qua PPPoE, L2TP, PPTP, IP động và IP tĩnh, đồng thời cung cấp quyền truy cập không dây cho các máy khách.
 
-`Mở rộng sóng`: Trong chế độ này, thiết bị này có thể sao chép và tăng cường tín hiệu Wi-Fi hiện có để mở rộng vùng phủ sóng của tín hiệu, đặc biệt là cho một không gian rộng lớn để loại bỏ các góc tín hiệu yếu.
+Trong chế độ này, thiết bị cho phép nhiều người dùng chia sẻ kết nối Internet qua Modem ADSL/Cáp. Các thiết bị LAN chia sẻ cùng một IP từ ISP qua cổng Wi-Fi. Trong khi kết nối với Internet, cổng Ethernet LAN / WAN hoạt động như một cổng WAN ở chế độ Router Wi-Fi.
+
+![Router AP](https://boxxv.github.io/img/2024/image005_1518432118981v.png "Router AP")
+
+Yêu cầu mạng: Trong khuôn viên, cộng đồng, khu công nghiệp hoặc nơi công cộng khác chỉ có sẵn mạng có dây, hãy thiết lập vùng phủ sóng mạng không dây để cung cấp truy cập không dây cho người dùng. Không giống như chế độ Điểm truy cập, thiết bị ở chế độ Router AP có thể kết nối trực tiếp với modem mà không cần router.
+
+### 2. `WISP Client` (Router Máy Khách AP)
+
+Ở chế độ này, thiết bị cho phép nhiều người dùng chia sẻ kết nối Internet từ WISP. Cổng LAN của thiết bị chia sẻ cùng địa chỉ IP từ WISP qua cổng Wi-Fi. Trong khi kết nối với WISP, cổng Wi-Fi hoạt động như cổng WAN ở chế độ Router Client WISP. Cổng Ethernet hoạt động như cổng LAN.
+
+Chế độ Router Máy khách AP được sử dụng để truy cập internet do WISP (Nhà cung cấp dịch vụ Internet không dây) cung cấp thông qua kết nối không dây. Đối với các máy khách downstream, thiết bị hoạt động như một router wifi gia đình bình thường và có thể cung cấp kết nối có dây và kết nối không dây đồng thời.
+
+![WISP](https://boxxv.github.io/img/2024/image006_1518432127480a.png "WISP")
+
+Yêu cầu mạng: Nếu bạn muốn nhận dịch vụ internet từ WISP, bạn có thể đặt thiết bị làm Chế độ ứng dụng khách AP. Thiết bị kết nối không dây với thiết bị ngược dòng thông qua PPPoE, L2TP, PPTP, IP động và IP tĩnh, đồng thời cung cấp cả truy cập có dây và truy cập không dây cho người dùng.
+
+### 3. `Điểm truy cập` (AP Access Point)
+
+Trong chế độ này, thiết bị có thể kết nối với mạng dây và chuyển đổi truy cập dây sang Wi-Fi cho phép nhiều thiết bị chia sẻ với nhau, đặc biệt cho gia đình, văn phòng hoặc khách sạn nơi chỉ có mạng dây. Ở chế độ AP, thiết bị hoạt động như một trung tâm trung tâm và cung cấp điểm truy cập không dây cho các máy khách không dây.
+
+![Access Point](https://boxxv.github.io/img/2024/image001_1518432078213k.png "Access Point")
+
+Yêu cầu mạng: Trong khuôn viên, cộng đồng, khu công nghiệp hoặc nơi công cộng khác chỉ có sẵn mạng có dây, hãy thiết lập vùng phủ sóng của mạng không dây để cung cấp truy cập không dây cho người dùng.
+
+### 4. `Mở rộng sóng` (Repeater/Range Extender)
+
+Trong chế độ này, thiết bị này có thể sao chép và tăng cường tín hiệu Wi-Fi hiện có để mở rộng vùng phủ sóng của tín hiệu, đặc biệt là cho một không gian rộng lớn để loại bỏ các góc tín hiệu yếu. SSID và loại mã hóa của thiết bị phải giống với SSID và loại mã hóa của AP gốc.
+
+![Repeater/Range Extender](https://boxxv.github.io/img/2024/image003_1518432094612u.png "Repeater/Range Extender")
+
+Yêu cầu mạng: Nếu bạn muốn kết hợp hai mạng qua kết nối không dây nhưng khoảng cách nằm ngoài phạm vi phủ sóng không dây của mạng, bạn có thể đặt một hoặc nhiều thiết bị ở chế độ lặp sóng dọc theo đường để lặp lại tín hiệu không dây và mở rộng phạm vi truyền không dây.
+
+### 5. `Cầu nối` (Bridge)
+
+Chế độ cầu nối được sử dụng để mở rộng vùng phủ sóng không dây của mạng không dây hiện có. SSID và loại mã hóa của thiết bị có thể khác với SSID của AP gốc.
+
+![Bridge](https://boxxv.github.io/img/2024/image004_1518432110219a.png "Bridge")
+
+Yêu cầu mạng: Nếu bạn muốn kết hợp hai mạng qua kết nối không dây nhưng khoảng cách nằm ngoài phạm vi phủ sóng không dây của mạng, bạn có thể đặt một hoặc nhiều thiết bị ở chế độ Cầu nối dọc theo đường để lặp lại tín hiệu không dây và mở rộng phạm vi truyền không dây. Người dùng có thể sử dụng SSID và kiểu mã hóa khác từ AP gốc để truy cập mạng.
+
+> Lưu ý: Tín hiệu không dây của thiết bị ở chế độ Cầu nối / Lặp sóng thường yếu hơn ở các chế độ khác. Chúng tôi khuyên bạn nên sử dụng hai thiết bị ở chế độ Máy khách và Điểm truy cập tương ứng để thay thế thiết bị ở chế độ Cầu nối / Lặp sóng.
+
+### 6. Máy khách (Client)
+
+Chế độ máy khách được sử dụng để chuyển kết nối không dây thành kết nối có dây. Ở chế độ Máy khách, thiết bị hoạt động như một bộ chuyển đổi không dây. Nó nhận tín hiệu không dây từ AP gốc hoặc trạm và cung cấp mạng có dây cho người dùng.
+
+![Client](https://boxxv.github.io/img/2024/image002_1518432086090e.png "Client")
+
+Yêu cầu mạng: Kết nối các thiết bị chỉ áp dụng cho mạng có dây, chẳng hạn như Smart TV, Media Player với mạng không dây.
+
 
 ![Router](https://boxxv.github.io/img/2024/TL-WR840N.png "Router")
+
 
 ## RJ45
 
@@ -182,3 +238,4 @@ Chúc bạn thành công!
 Tham khảo:
 - [03 cách lắp đặt Router wifi phụ chi tiết từ A đến Z](https://nhaantoan.com/tin-tuc/03-cach-lap-dat-router-wifi-phu-chi-tiet-tu-a-den-z.html)
 - [RJ45 là gì? Chuẩn mạng RJ45 là gì? Cách bấm đầu dây RJ45 theo chuẩn](https://www.thegioididong.com/hoi-dap/lan-la-gi-rj-45-la-cai-gi-743872)
+- [Làm thế nào để Chọn Chế độ Hoạt động của các Sản phẩm Dòng Pharos?](https://www.tp-link.com/vn/support/faq/2090/)
