@@ -8,6 +8,7 @@ tags:
 - lập trình
 ---
 
+- [Host Postgres miễn phí không yêu cầu credit card](#host-postgres-miễn-phí-không-yêu-cầu-credit-card)
 - [Chạy background process với ASP.NET triển khai trên IIS?](#chạy-background-process-với-aspnet-triển-khai-trên-iis)
 - [Best tool to record screen free](#best-tool-to-record-screen-free)
 - [Website chia sẻ doanh thu khi tải video lên](#website-chia-sẻ-doanh-thu-khi-tải-video-lên)
@@ -16,6 +17,71 @@ tags:
 
 
 ![Talk with AI](https://boxxv.github.io/img/2024/talk-ai-generation-robot-talking-human-ai-robot_741910-34039.jpg "Talk with AI")
+
+## Host Postgres miễn phí không yêu cầu credit card
+
+**1. ElephantSQL**
+
+Nền tảng cung cấp dịch vụ hosting PostgreSQL miễn phí với gói Tiny Turtle.
+
+Đặc điểm nổi bật:
+- Miễn phí 20 MB dung lượng.
+- Không yêu cầu thẻ tín dụng khi đăng ký.
+- Giao diện trực quan, dễ sử dụng.
+
+Hạn chế:
+- Dung lượng hạn chế, phù hợp với học tập và thử nghiệm.
+
+**2. Supabase**
+
+Nền tảng mã nguồn mở tương tự Firebase, sử dụng PostgreSQL làm cơ sở dữ liệu chính.
+
+Đặc điểm nổi bật:
+- Miễn phí tới 500 MB dung lượng.
+- Không yêu cầu thẻ tín dụng khi đăng ký.
+- Tích hợp API tự động và hỗ trợ các tính năng nâng cao.
+
+Hạn chế:
+- Giới hạn tài nguyên trong gói miễn phí.
+
+**3. [Neon](https://neon.tech)**
+
+Dịch vụ PostgreSQL hiện đại, tối ưu hóa cho serverless.
+
+Đặc điểm nổi bật:
+- Miễn phí 0.5 GB dung lượng, 190 compute hours.
+- Không yêu cầu thẻ tín dụng khi đăng ký.
+- Tính năng serverless, hỗ trợ autoscaling.
+
+Hạn chế:
+- Tính năng còn mới, đang phát triển thêm.
+
+**4. Railway**
+
+Nền tảng hosting ứng dụng và cơ sở dữ liệu với giao diện đơn giản.
+
+Đặc điểm nổi bật:
+- Miễn phí $5 tín dụng hàng tháng (tương đương 500 MB cơ sở dữ liệu).
+- Không yêu cầu thẻ tín dụng khi đăng ký.
+- Dễ dàng triển khai và tích hợp với các ứng dụng.
+
+Hạn chế:
+- Dừng hoạt động nếu hết tín dụng miễn phí.
+
+**5. Render**
+
+Dịch vụ đám mây hỗ trợ hosting cơ sở dữ liệu PostgreSQL miễn phí.
+
+Đặc điểm nổi bật:
+- Miễn phí 1 GB dung lượng.
+- Không yêu cầu thẻ tín dụng khi đăng ký.
+- Tích hợp tốt với các ứng dụng trên Render.
+
+Hạn chế:
+- Hiệu suất giới hạn trong gói miễn phí.
+
+[Neon: Does Going Serverless Solve Fixed Expenses for Postgres?](https://medium.com/@alexeylark/neon-serverless-postgres-cost-comparison-b54786af3f40)
+[Neon vs. Supabase](https://www.reddit.com/r/PostgreSQL/comments/1autrr5/neon_vs_supabase/)
 
 ## Chạy background process với ASP.NET triển khai trên IIS?
 
