@@ -353,5 +353,6 @@ Cuối cùng, bạn nên xem xét đối tượng khán giả của mình và ch
 
 
 -----
-- [Claude-3.5-Sonnet](https://poe.com/Claude-3.5-Sonnet)
+- [Copilot](https://github.com/copilot)
 - [ChatGPT Plus](https://chatgpt.com)
+- [Claude-3.5-Sonnet](https://poe.com/Claude-3.5-Sonnet)
