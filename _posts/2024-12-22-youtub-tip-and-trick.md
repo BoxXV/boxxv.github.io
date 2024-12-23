@@ -309,14 +309,14 @@ Việt Nam
     - Liệt kê mỗi kênh 10 - 20 video có view cao nhất
       - lọc theo thời gian gân nhất
       - lọc theo toàn thời gian
-    - SHU (sao chép) - REMAKE (làm lại) - SWIPE (chuyển thể) Các video đó
+    - SHU (Shuhari sao chép) - REMAKE (làm lại) - SWIPE (chuyển thể báo sang video) Các video đó
       - 99%
       - Không tự sáng tạo khi mới bắt đầu
   - Nên tạo kênh mới hay mua kênh/ dùng kênh có sẵn trước đây?
     - Tạo mới nha
     - Youtube tạo điều kiện tăng đề xuất cho các video mới của kênh mới
     - Kênh bạn định mua có thể bị bơm subs để bán, đều đó rất tệ
-      - vì nick clone thì không có hành vì nào cả, youtube k biết nên đề xuất kênh bạn cho tệp khán giả nào
+      - vì nick clone thì không có hành vì nào cả, youtube không biết nên đề xuất kênh bạn cho tệp khán giả nào
     - Kênh cũ của bạn khách tệp hành vi khán giả
   - Địa chỉ IP
     - Không cần fake/ không cần đổi/ cứ để VN
@@ -328,14 +328,15 @@ Việt Nam
           - 3 ngày sau đăng xuất
             - 3 hôm sau đăng nhập VPS (tránh chết kênh)
   - Thời gian đăng
-    - Lấy theo múi giờ của nước ngoài
+    - Lấy theo múi giờ của nước ngoài (Hoa Kỳ)
+      - 8 giờ tối xem nhiều nhất => đăng lý 7h, 7h15 hoặc 7h30
     - Sau này có nhiều view rồi, thì dựa trên cơ sở hành vi thời gian xem trong
       - Youtube studio
         - Phân tích kênh
           - Đối tượng hành vi
             - Thời gian
   - Có nên xóa bình luận tiêu cực không ?
-    - Có thể xóa (k ảnh hưởng kênh)
+    - Có thể xóa (không ảnh hưởng kênh)
     - Có thể giữ (kích thích comment tranh cãi)
   - Cách vượt video TOP
     - Làm nội dung dài hơn đối thủ 20%
@@ -343,7 +344,7 @@ Việt Nam
       - mình 12 phút
   - Nếu làm video dài, thì tập trung video dài riêng
     - Hạn chế dùng short
-      - vì hành vi của người dùng shorts là k kiên trì, dẫn đến khi họ sang video dài sẽ phá đề xuất vì xem được 1 ít rồi bỏ đi
+      - vì hành vi của người dùng shorts là không kiên trì, dẫn đến khi họ sang video dài sẽ phá đề xuất vì xem được 1 ít rồi bỏ đi
   - Tìm mua gmail seeding ở đâu?
     - các group bán gmail (taphoammo; học viện youtube;...)
     - khoảng 10 - 20k / cái
