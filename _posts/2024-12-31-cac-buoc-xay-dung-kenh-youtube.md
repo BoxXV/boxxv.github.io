@@ -3,7 +3,7 @@ layout: post
 title: Các bước xây dựng kênh video
 subtitle: Các bước để xây dựng kênh Youtube, Tiktok, Facebook Watch, Vimeo, Dailymotion, Twitch
 image: "img/2024/ai-tech-businessman-show-virtual-600nw-2253228203.webp"
-date: 2024-12-19 12:00:00
+date: 2025-01-02 12:00:00
 timestamp: 2024-12-18T02:50:27.012Z
 tags:
 - Video
