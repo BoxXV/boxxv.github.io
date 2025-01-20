@@ -192,5 +192,5 @@ Việc hướng dẫn sử dụng thiết bị này có thể giúp người dù
 Tham khảo:
 - [Flipper ZeroMulti-tool Device for Geeks](https://flipperzero.one/)
 - [Flipper Zero - một công cụ hacking thật tuyệt vời](https://whitehat.vn/threads/flipper-zero-mot-cong-cu-hacking-that-tuyet-voi.17956/)
-- [Cảnh báo sử dụng trái phép Flipper Zero | VTV24](https://youtu.be/X6TxYUGlKtU)
+- [Cảnh báo sử dụng trái phép Flipper Zero VTV24](https://youtu.be/X6TxYUGlKtU)
 - []()
