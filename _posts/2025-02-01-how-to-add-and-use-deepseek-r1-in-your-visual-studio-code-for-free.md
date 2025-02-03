@@ -38,7 +38,7 @@ Chúng ta hãy tiến hành cài đặt Deepseek-r1 trong môi trường mã hó
 
 ### Bước 1: Cài đặt Ollama
 
-Để bắt đầu, bạn sẽ cần Ollama, một nền tảng nhẹ cho phép bạn chạy LLM cục bộ. Ollama là xương sống của thiết lập Deepseek-r1 của bạn vì nó sẽ cho phép bạn quản lý và chạy Deepseek-r1 dễ dàng trên máy tính của bạn.
+Để bắt đầu, bạn sẽ cần `Ollama`, một nền tảng nhẹ cho phép bạn chạy LLM cục bộ. Ollama là xương sống của thiết lập Deepseek-r1 của bạn vì nó sẽ cho phép bạn quản lý và chạy Deepseek-r1 dễ dàng trên máy tính của bạn.
 
 Để cài đặt Ollama, hãy truy cập trang web chính thức của [Ollama](https://ollama.com) và tải xuống phiên bản dành cho hệ điều hành của bạn. Sau đó, hãy xem hướng dẫn cài đặt để bắt đầu và chạy.
 
@@ -70,7 +70,7 @@ Và thêm lời nhắc kiểm tra của bạn:
 
 ### Bước 3: Cài đặt tiện ích mở rộng Continue.dev
 
-Bây giờ, hãy đưa Deepseek-r1 vào Visual Studio Code. Đối với điều này, chúng ta sẽ sử dụng [Continue.dev](http://continue.dev), một tiện ích mở rộng tuyệt vời kết nối VS Code với các LLM như Deepseek-r1. Tiện ích mở rộng này sẽ hoạt động như một cầu nối giữa VS Code và Ollama, cho phép bạn tương tác trực tiếp với Deepseek-r1 trong môi trường mã hóa của mình. Để cài đặt Continue.dev Extension, hãy làm theo các bước sau:
+Bây giờ, hãy đưa Deepseek-r1 vào Visual Studio Code. Đối với điều này, chúng ta sẽ sử dụng [Continue.dev](http://continue.dev), một tiện ích mở rộng tuyệt vời kết nối VS Code với các LLM như Deepseek-r1. Tiện ích mở rộng này sẽ hoạt động như một cầu nối giữa VS Code và Ollama, cho phép bạn tương tác trực tiếp với Deepseek-r1 trong môi trường mã hóa của mình. Để cài đặt `Continue.dev` Extension, hãy làm theo các bước sau:
 
 1. Mở VS Code và vào Extensions Marketplace.
 2. Tìm Continue.dev và nhấn cài đặt.
