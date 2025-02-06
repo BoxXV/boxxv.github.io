@@ -45,6 +45,15 @@ Trong bài viết này, tôi đã biên soạn một danh sách về các lựa 
 
 ![AI](https://boxxv.github.io/img/ai/7e04cd1f179bb4c5ed8a.jpg "AI")
 
+> [Best AI Code Generator in 2025](https://dev.to/potpie/best-ai-code-generator-in-2025-1poc)
+
+- GitHub Copilot
+- Tabnine
+- Cody
+- Windsurf (Codeium)
+- Cursor
+- Potpie
+
 ## 🎯Feature Guides
 
 ### Codeium
