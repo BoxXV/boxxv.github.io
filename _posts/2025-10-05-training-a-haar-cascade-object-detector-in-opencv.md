@@ -191,4 +191,9 @@ Trong bài viết này, bạn đã học cách huấn luyện bộ phát hiện 
 -----
 Tham khảo:
 - [Training a Haar Cascade Object Detector in OpenCV](https://machinelearningmastery.com/training-a-haar-cascade-object-detector-in-opencv/)
+- [Official tutorial on training a Cascade Classifier](https://docs.opencv.org/4.12.0/dc/d88/tutorial_traincascade.html)
+- [Training a Cascade Classifier - OpenCV Object Detection in Games #8](https://youtu.be/XrCAvs9AePM)
+- [OpenCV Object Detection in Games](https://www.youtube.com/playlist?list=PL1m2M8LQlzfKtkKq2lK5xko4X-8EZzFPI)
+- [How to install OpenCV on Windows | 2025](https://youtu.be/EqoH3gspQGg)
+- [Training your own Cascade/Classifier/Detector — OpenCV](https://dikshit18.medium.com/training-your-own-cascade-classifier-detector-opencv-9ea6055242c2)
 - []()
