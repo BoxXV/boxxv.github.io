@@ -130,10 +130,37 @@ Với windows 11 24H2
 
 ```bat
 opencv_traincascade -data data -vec cars.vec -bg bg.txt -numPos 500 -numNeg 500 -numStages 10 -w 48 -h 24 -featureType LBP
-.\opencv_traincascade -data data -vec cars.vec -bg bg.txt -numPos 500 -numNeg 500 -numStages 10 -w 48 -h 24 -featureType LBP
+.\opencv_traincascade -data data -vec cars.vec -bg bg.txt -numPos 500 -numNeg 500 -numStages 10 -w 48 -h 24 -featureType Haar
 ```
 
 Số lượng numStages càng nhiều thì mô hình của chúng ta càng tốt.
+
+Phân tích từng tham số:
+
+| Tham số | Upvotes |
+| -- | -- |
+| opencv_traincascade  | Công cụ training cascade classifier |
+| -data data | Thư mục lưu model đã train (output) |
+| -vec cars.vec | File chứa ảnh positive samples (ảnh có xe) |
+| -bg bg.txt | File text liệt kê đường dẫn ảnh negative (không có xe) |
+| -numPos 500 | Số ảnh positive dùng mỗi stage |
+| -numNeg 500 | Số ảnh negative dùng mỗi stage |
+| -numStages 10 | Số stages của cascade (10 tầng lọc) |
+| -w 48 | Chiều rộng cửa sổ training (48 pixels) |
+| -h 24 | Chiều cao cửa sổ training (24 pixels) |
+| -featureType LBP | Dùng LBP features (nhanh hơn Haar) |
+
+Quy trình hoạt động:
+1. **Load dữ liệu**: Đọc 500 ảnh positive từ `cars.vec` và 500 ảnh negative từ `bg.txt`
+2. **Training 10 stages**: Mỗi stage học phân biệt xe/không phải xe
+3. **Tạo cascade**: Các stage xếp tầng - ảnh phải qua hết 10 stage mới được xác định là xe
+4. **Output**: File `cascade.xml` trong thư mục `data/` để dùng cho detection
+
+Thời gian training:
+- **LBP**: ~vài giờ đến 1 ngày
+- **Haar**: ~vài ngày đến 1 tuần
+
+Haartraining được cho là mang lại kết quả tốt hơn traincascade nhưng lại cực kỳ chậm. Đôi khi có thể mất một đến hai tuần để đào tạo một bộ phân loại.
 
 ## Bước 6
 
