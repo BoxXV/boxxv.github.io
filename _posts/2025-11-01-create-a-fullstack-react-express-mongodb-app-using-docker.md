@@ -16,7 +16,16 @@ tags:
 - [Container Docker ở khắp mọi nơi!](#container-docker-ở-khắp-mọi-nơi)
 - [Container hóa Client](#container-hóa-client)
 - [Container hóa API của bạn](#container-hóa-api-của-bạn)
+- [Docker-Compose](#docker-compose)
+- [Thêm cơ sở dữ liệu MongoDB](#thêm-cơ-sở-dữ-liệu-mongodb)
+- [Tạo một mạng chia sẻ cho các container của bạn](#tạo-một-mạng-chia-sẻ-cho-các-container-của-bạn)
+- [Chạy các container của bạn](#chạy-các-container-của-bạn)
+- [Kết nối API của bạn với MongoDB](#kết-nối-api-của-bạn-với-mongodb)
+- [Gửi yêu cầu từ React đến Cơ sở dữ liệu](#gửi-yêu-cầu-từ-react-đến-cơ-sở-dữ-liệu)
+- [Cuối cùng, chúng ta hãy xem mọi thứ có hoạt động không](#cuối-cùng-chúng-ta-hãy-xem-mọi-thứ-có-hoạt-động-không)
+- [Xin chúc mừng!!!](#xin-chúc-mừng)
 
+----
 
 ![Docker](https://boxxv.github.io/img/2025/MERN-Tech-Visual.png "MERN")
 
@@ -126,7 +135,7 @@ CMD ["npm", "start"]
 Lệnh này sẽ hướng dẫn Docker xây dựng một image (sử dụng các cấu hình này) cho API của chúng ta. Bạn có thể đọc toàn bộ về Dokerfile [tại đây](https://docs.docker.com/reference/dockerfile#usage).
 
 
-# Docker-Compose
+## Docker-Compose
 
 Bạn có thể chạy từng container riêng lẻ bằng Dokerfiles. Trong trường hợp này, chúng ta có 3 container cần quản lý, vì vậy chúng ta sẽ sử dụng docker-compose. Compose là một công cụ để định nghĩa và chạy các ứng dụng Docker đa container.
 
@@ -329,7 +338,7 @@ API đang hoạt động bình thường
 Đã kết nối với Cơ sở dữ liệu
 Đại loại như thế này:
 
-![http://localhost:3000](https://boxxv.github.io/img/2025/11_0fTn6ATAKntrKlBqcwjawg.png "MERN")
+![http://localhost:3000](https://boxxv.github.io/img/2025/1_0fTn6ATAKntrKlBqcwjawg.png "MERN")
 
 
 ## Xin chúc mừng!!!
