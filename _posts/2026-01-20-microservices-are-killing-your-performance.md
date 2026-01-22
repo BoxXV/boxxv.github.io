@@ -50,6 +50,13 @@ Hãy cùng xem xét các con số thực tế.
 - [Tóm lại](#tóm-lại)
 
 
+![Monolith vs Microservices vs Modular Monoliths](https://boxxv.github.io/img/2026/66d12ddc-2abe-4a98-82d5-ee177e80487c_1470x1600.png "Monolith vs Microservices vs Modular Monoliths")
+
+![Modular Monolith](https://boxxv.github.io/img/2026/Modular-Monolith.webp "Modular Monolith")
+
+<!-- ![Modular Monolith](https://boxxv.github.io/img/2026/c2a0e8e9-9f9b-43de-b067-bad366303919_1994x1010.png "Modular Monolith") -->
+
+![Modular Monolith là gì và tại sao bạn nên cân nhắc sử dụng?](https://boxxv.github.io/img/2026/ntech-1.jpeg "Modular Monolith là gì và tại sao bạn nên cân nhắc sử dụng?")
 
 ---
 
@@ -832,3 +839,8 @@ Nếu không: Hãy sử dụng kiến ​​trúc nguyên khối dạng mô-đun
 ---
 Tham khảo:
 - [Microservices Are Killing Your Performance (And Here's the Math)](https://dev.to/polliog/microservices-are-killing-your-performance-and-heres-the-math-21op)
+- [Monolith vs Microservices vs Modular Monoliths: What's the Right Choice](https://blog.bytebytego.com/p/monolith-vs-microservices-vs-modular)
+- [Architecture 101: Modular Monolith — A Primer](https://anjireddy-kata.medium.com/architecture-101-modular-monolith-a-primer-36864f045697)
+- [What is a Modular Monolith?](https://newsletter.techworld-with-milan.com/p/what-is-a-modular-monolith)
+- [What Is a Modular Monolith?](https://www.geeksforgeeks.org/system-design/what-is-a-modular-monolith)
+- [Modular Monolith là gì và tại sao bạn nên cân nhắc sử dụng?](https://blog.ntechdevelopers.com/modular-monolith-la-gi-va-tai-sao-ban-nen-can-nhac-su-dung/)
