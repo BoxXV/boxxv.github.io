@@ -42,7 +42,7 @@ https://www.moonshot.ai/
 
 ### Grok Code Fast 1 - August 2025
 
-![Grok Code Fast 1](https://boxxv.github.io/img/2026/O1CN01S9RxBZ1tf4xExqMQA_!!6000000005928-2-tps-936-538.png_.webp "Qwen3-Coder")
+![Grok Code Fast 1](https://boxxv.github.io/img/2026/5d5f3fe3a19d2fc3768c.jpg "Grok Code Fast 1")
 
 https://x.ai/news/grok-code-fast-1
 
@@ -61,14 +61,30 @@ Chúng tôi đã hợp tác với một số đối tác ra mắt được lựa
 
 https://www.alibabacloud.com/en/press-room/alibaba-unveils-cutting-edge-ai-coding-model-qwen3
 
-unsloth/Qwen3-Coder-480B-A35B-Instruct-GGUF - 149 GB
+unsloth/Qwen3-Coder-480B-A35B-Instruct-GGUF - 149 GB  
 unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF - 13 GB
+
+
+**Cách triển khai nhanh Qwen 3 tại máy cục bộ**
+
+Việc triển khai các mô hình lớn chưa bao giờ là dễ dàng, thường liên quan đến việc thiết lập môi trường phức tạp, quản lý các dependency và tương thích phần cứng. Tôi khuyên bạn nên sử dụng `ServBay` + `Ollama` để đơn giản hóa toàn bộ quá trình triển khai.
+
+- `Cài đặt ServBay`: Tải ứng dụng từ trang web chính thức của ServBay (https://www.servbay.com). Đây là một môi trường phát triển cục bộ tích hợp các công cụ phổ biến, quản lý dịch vụ và dependency, giúp bạn dễ dàng thiết lập môi trường phát triển trên cả macOS và Windows.
+- `Cài đặt Ollama`: Trong menu điều hướng bên trái, nhấp vào "Packages," tìm Ollama và nhấp vào cài đặt. ServBay sẽ tự động xử lý cấu hình môi trường cho nó. Sau khi cài đặt xong, đừng quên nhấp vào nút kích hoạt để khởi động Ollama.
+- `Cài đặt Qwen 3`: Nhấp vào "AI" trong menu điều hướng bên trái, tìm qwen3, và cài đặt nó chỉ bằng một cú nhấp chuột.
+
+![Qwen3-Coder](https://boxxv.github.io/img/2026/sg8l2cj1x12wk6heyl55.png "Qwen3-Coder")
+![Qwen3-Coder](https://boxxv.github.io/img/2026/6moz74du617ph6r1sl8l.png "Qwen3-Coder")
+
+
+Quy trình này bỏ qua hầu hết các bước cấu hình thủ công. Bạn không cần phải lo lắng về các dependency phức tạp hay các tệp cấu hình; ServBay và Ollama đã dọn đường sẵn cho bạn.
+
 
 
 ### Kimi K2 (246 GB) - July 2025
 
-Kimi K2 Thinking - 2025-11-06
-Kimi-K2-Instruct - 2025-09-05
+Kimi K2 Thinking - 2025-11-06  
+Kimi-K2-Instruct - 2025-09-05  
 Kimi K2 - 2025-07-11
 
 https://huggingface.co/collections/moonshotai/kimi-k2
