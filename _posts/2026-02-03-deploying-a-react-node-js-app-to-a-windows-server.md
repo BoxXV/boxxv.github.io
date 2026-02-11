@@ -3,7 +3,7 @@ layout: post
 title: Triển khai ứng dụng React & Node.js lên máy chủ Windows
 subtitle: Deploying a React & Node.js App to a Windows Server
 image: "img/2026/t392wch6e9zj6ff1a1q2.png"
-date: 2026-02-01 10:11:12
+date: 2026-02-03 10:11:12
 tags:
 - React
 - Node.js

@@ -9,6 +9,25 @@ tags:
 - Coding Conventions
 ---
 
+- [Các nơi có thể ghi Log - Logging Target Types](#các-nơi-có-thể-ghi-log---logging-target-types)
+- [Structured Logging Revolution](#structured-logging-revolution)
+- [Logging Frameworks](#logging-frameworks)
+	- [log4net](#log4net)
+	- [NLog](#nlog)
+	- [Serilog](#serilog)
+- [Which to choose?](#which-to-choose)
+- [Microsoft.Extensions.Logging (aka ASP.NET Core Logging)](#microsoftextensionslogging-aka-aspnet-core-logging)
+- [Có nên sử dụng Microsoft.Extensions.Logging trong tất cả các ứng dụng ASP.NET Core không?](#có-nên-sử-dụng-microsoftextensionslogging-trong-tất-cả-các-ứng-dụng-aspnet-core-không)
+- [Logging Best Practices](#logging-best-practices)
+	- [1. Sử dụng Log Levels một cách thích hợp](#1-sử-dụng-log-levels-một-cách-thích-hợp)
+	- [2. Chỉ kích hoạt các Log mức độ nghiêm trọng cao trong Production](#2-chỉ-kích-hoạt-các-log-mức-độ-nghiêm-trọng-cao-trong-production)
+	- [3. Log Exceptions](#3-log-exceptions)
+	- [4. Log Context](#4-log-context)
+	- [5. Sử dụng ghi Log có cấu trúc](#5-sử-dụng-ghi-log-có-cấu-trúc)
+	- [6. Redact Sensitive Information](#6-redact-sensitive-information)
+- [Tổng kết](#tổng-kết)
+
+
 Ghi Log là một phần quan trọng của phát triển phần mềm trong nhiều năm nay. Người ta có thể lập luận rằng một cơ chế ghi Log là một phần bắt buộc phải có của bất kỳ ứng dụng hoặc thư viện nào.  
 
 Ghi Log có một phần quan trọng để chạy trong kịch bản mà bạn có thể sử dụng gỡ lỗi tương tác (nghĩa là đính kèm trình gỡ lỗi như Visual Studio). Nó cho phép chúng ta điều tra lỗi sau khi sự cố đã xảy ra. Trong một số trường hợp, như Gỡ lỗi sản phẩm, Log có thể là thông tin duy nhất bạn có.
@@ -341,6 +360,22 @@ Trong bài viết này, tôi đã cố gắng chỉ ra một con chim tốt là 
 -----
 Tham khảo:
 - [Logging in C# .NET Modern-day Practices: The Complete Guide](https://michaelscodingspot.com/logging-in-dotnet/)
+- [Why I Chose Serilog Over NLog in My Dot Net Core 8 Project](https://medium.com/@arttech/why-i-chose-serilog-over-nlog-in-my-dot-net-core-8-project-c0264bceaf49)
+- [Serilog, log4net and NLog Comparison: Logging Libraries for .NET Applications](https://www.bytehide.com/blog/serilog-log4net-nlog-comparison)
+- [Serilog vs NLog](https://dev.to/thomasardal/serilog-vs-nlog-2ojf)
+- [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
+- [A Deep Dive into .NET Logging: Serilog, log4net, and NLog](https://www.c-sharpcorner.com/article/a-deep-dive-into-net-logging-serilog-log4net-and-nlog/)
+- []()
+
+-----
+Serilog:
+- [https://github.com/serilog/serilog](https://github.com/serilog/serilog)
+- [https://github.com/serilog/serilog-aspnetcore](https://github.com/serilog/serilog-aspnetcore)
+- []()
+- []()
+
+-----
+NLog:
 - [NLog - Tutorial](https://github.com/NLog/NLog/wiki/Tutorial)
 - [NLog - Configuration file](https://github.com/NLog/NLog/wiki/Configuration-file)
 - [NLog - File target](https://github.com/NLog/NLog/wiki/File-target)
@@ -351,4 +386,3 @@ Tham khảo:
 - [How to log errors in WinForms using NLog](https://grantwinney.com/log-errors-in-winforms-with-nlog/)
 - [How to log messages to multiple targets with NLog](https://grantwinney.com/how-to-log-messages-to-multiple-targets-with-nlog/)
 - [Basic Understanding Of NLog](https://www.c-sharpcorner.com/article/basic-understanding-of-nlog/)
-- []()
