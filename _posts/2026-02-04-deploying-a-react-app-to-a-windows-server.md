@@ -12,6 +12,8 @@ tags:
 
 Đây là hướng dẫn đầy đủ để triển khai React app lên Windows Server IIS:
 
+![Node IIS](https://boxxv.github.io/img/2026/Node-IIS.png "Node IIS")
+
 - [Bước 1: Build React app](#bước-1-build-react-app)
 - [Bước 2: Cài URL Rewrite Module](#bước-2-cài-url-rewrite-module)
 - [Bước 3: Cài URL Rewrite Module](#bước-3-cài-url-rewrite-module)
