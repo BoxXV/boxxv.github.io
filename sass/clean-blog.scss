@@ -573,7 +573,7 @@ input.gsc-search-button-v2,
 
 /* Markdown tables in posts */
 article table {
-  width: 100%;
+  width: max-content;
   max-width: 100%;
   margin: 20px 0;
   border: 1px solid #ddd;

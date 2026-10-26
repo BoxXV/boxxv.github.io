@@ -4709,7 +4709,7 @@ div.highlight[data-language]::before {
 
 /* Markdown tables in posts */
 article table {
-  width: 100%;
+  width: max-content;
   max-width: 100%;
   margin: 20px 0;
   border: 1px solid #ddd;
