@@ -595,4 +595,12 @@ article table tbody tr:nth-child(even) {
   background-color: #fafafa;
 }
 
+/* Mermaid diagrams */
+pre.mermaid {
+  background: transparent;
+  border: none;
+  text-align: center;
+  margin: 20px 0;
+}
+
 @import "prism";

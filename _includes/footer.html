@@ -61,4 +61,21 @@
 <!-- Prism Code Highlighter -->
 <script src="{{ "/js/prism.js " | prepend: site.baseurl }}"></script>
 
+<!-- Mermaid: render ```mermaid code blocks as diagrams/charts -->
+<script type="module">
+  const blocks = document.querySelectorAll('.language-mermaid code, code.language-mermaid');
+  if (blocks.length) {
+    blocks.forEach(code => {
+      const wrapper = code.closest('div.language-mermaid') || code.closest('pre') || code;
+      const el = document.createElement('pre');
+      el.className = 'mermaid';
+      el.textContent = code.textContent;
+      wrapper.replaceWith(el);
+    });
+    const { default: mermaid } = await import('https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs');
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    await mermaid.run({ querySelector: 'pre.mermaid' });
+  }
+</script>
+
 {% include analytics.html %}
