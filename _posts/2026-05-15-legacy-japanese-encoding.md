@@ -184,3 +184,6 @@ Tham khảo:
 - [Japanese Character Encodings](https://docs.tailor.tech/reference/concepts/character-encodings.html)
 - [Character encoding](https://nozer0.github.io/en/technology/system/character-encoding/)
 - [Convert legacy Japanese encoding by Red](https://dev.to/kobayu/my-red-story-3-converting-legacy-japanese-encoding-to-utf-8-31d6)
+- [SHIFT JIS và Rank MS932](https://viblo.asia/p/shift-jis-va-rank-ms932-gGJ596N1KX2)
+- [SHIFT-JIS](https://viblo.asia/tags/shift-jis)
+- [CP932](https://viblo.asia/tags/cp932)
