@@ -4,32 +4,34 @@
     include.items  : site.tags hoặc site.categories
     include.label  : nhãn hiển thị (ví dụ "thẻ", "danh mục")
 {% endcomment %}
-{% assign groups = include.items | sort %}
+{% comment %} Tên thẻ có thể là số (vd: 2024) nên luôn ép về chuỗi bằng append: "" {% endcomment %}
+{% capture name_list %}{% for group in include.items %}{{ group[0] | append: "" }}~~{% endfor %}{% endcapture %}
+{% assign names = name_list | split: "~~" | sort_natural %}
 <section class="taxonomy">
-	{% if groups.size == 0 %}
+	{% if names.size == 0 %}
 	<p>Chưa có {{ include.label }} nào.</p>
 	{% else %}
 	<p class="taxonomy-cloud">
-		{% for group in groups %}
-		{% assign name = group[0] %}
-		<a class="taxonomy-tag" href="#{{ name | slugify: 'latin' }}" data-target="{{ name | slugify: 'latin' }}">{{ name }} <span class="taxonomy-count">{{ group[1].size }}</span></a>
+		{% for name in names %}
+		{% assign slug = name | slugify: 'latin' %}
+		{% assign count = 0 %}
+		{% for group in include.items %}{% assign gname = group[0] | append: "" %}{% if gname == name %}{% assign count = group[1].size %}{% endif %}{% endfor %}
+		<a class="taxonomy-tag" href="#{{ slug }}" data-target="{{ slug }}">{{ name }} <span class="taxonomy-count">{{ count }}</span></a>
 		{% endfor %}
 	</p>
 	<p class="taxonomy-reset" hidden><a href="#" data-target="">&larr; Xem tất cả {{ include.label }}</a></p>
 	<hr>
-	{% assign seen = "|" %}
-	{% for group in groups %}
-	{% assign name = group[0] %}
+	{% for name in names %}
 	{% assign slug = name | slugify: 'latin' %}
-	{% capture key %}|{{ slug }}|{% endcapture %}
-	<div class="taxonomy-group" data-slug="{{ slug }}"{% unless seen contains key %} id="{{ slug }}"{% endunless %}>
-	{% assign seen = seen | append: slug | append: "|" %}
+	<div class="taxonomy-group" data-slug="{{ slug }}">
+		{% for group in include.items %}{% assign gname = group[0] | append: "" %}{% if gname == name %}
 		<h3>{{ name }} <small>({{ group[1].size }})</small></h3>
 		<ul>
 			{% for post in group[1] %}
 			<li><time>{{ post.date | date: "%d/%m/%Y" }}</time>: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
 			{% endfor %}
 		</ul>
+		{% endif %}{% endfor %}
 	</div>
 	{% endfor %}
 	{% endif %}
