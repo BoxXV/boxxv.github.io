@@ -7,9 +7,11 @@
 {% comment %} Tên thẻ có thể là số (vd: 2024) nên luôn ép về chuỗi bằng append: "" {% endcomment %}
 {% capture name_list %}{% for group in include.items %}{{ group[0] | append: "" }}~~{% endfor %}{% endcapture %}
 {% assign names = name_list | split: "~~" | sort_natural %}
-<section class="taxonomy">
+<section class="taxonomy" id="taxonomy">
+	<div class="taxonomy-nav">
 	{% if names.size == 0 %}
 	<p>Chưa có {{ include.label }} nào.</p>
+	</div>
 	{% else %}
 	<p class="taxonomy-cloud">
 		{% for name in names %}
@@ -21,6 +23,8 @@
 	</p>
 	<p class="taxonomy-reset" hidden><a href="#" data-target="">&larr; Xem tất cả {{ include.label }}</a></p>
 	<hr>
+	</div>
+	<div class="taxonomy-list">
 	{% for name in names %}
 	{% assign slug = name | slugify: 'latin' %}
 	<div class="taxonomy-group" data-slug="{{ slug }}">
@@ -34,10 +38,13 @@
 		{% endif %}{% endfor %}
 	</div>
 	{% endfor %}
+	</div>
 	{% endif %}
 </section>
 
 <style>
+	.taxonomy { display: flex; flex-direction: column; }
+	.taxonomy.has-selection .taxonomy-list { order: -1; margin-bottom: 20px; }
 	.taxonomy-cloud { line-height: 2.4; }
 	.taxonomy-tag { display: inline-block; margin: 0 6px 6px 0; padding: 2px 10px; border: 1px solid #ddd; border-radius: 14px; font-size: 15px; text-decoration: none; white-space: nowrap; }
 	.taxonomy-tag:hover, .taxonomy-tag.active { border-color: #0085a1; background: #0085a1; color: #fff; text-decoration: none; }
@@ -57,6 +64,8 @@
 			for (var i = 0; i < groups.length; i++) groups[i].hidden = found ? groups[i].getAttribute('data-slug') !== id : false;
 			for (var j = 0; j < tags.length; j++) tags[j].classList.toggle('active', !!found && tags[j].getAttribute('data-target') === id);
 			if (reset) reset.hidden = !found;
+			document.getElementById('taxonomy').classList.toggle('has-selection', found);
+			if (found) window.scrollTo(0, 0);
 		}
 		if (reset) reset.querySelector('a').addEventListener('click', function (e) {
 			e.preventDefault();
