@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sự nghiệp & Phỏng vấn"]
 title: Một số câu hỏi phỏng vấn Android bạn nên lưu ý
 subtitle: Vì một tương lai lương Android cao hơn iOS
 tags:

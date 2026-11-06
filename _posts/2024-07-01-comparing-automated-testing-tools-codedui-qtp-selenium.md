@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: So sánh Tool test tự động Coded UI Test, Selenium và QTP
 subtitle: Comparison of Automated Testing Tools, Coded UI Test, Selenium and QTP
 image: "img/2024/f915c918009ca0c2f98d.jpg"

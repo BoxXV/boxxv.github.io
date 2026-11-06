@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: Advanced Robotics Command Language
 subtitle: Omron Reference Guide
 tags:

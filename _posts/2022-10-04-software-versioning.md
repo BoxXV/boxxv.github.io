@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tìm hiểu về cách đánh version phiên bản phần mềm
 subtitle: Software Versioning And Release Numbers
 tags:

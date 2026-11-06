@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: 11 nguyên tắc sống bạn nên đọc ít nhất một lần trong đời
 tags: [nguyên tắc sống]
 ---

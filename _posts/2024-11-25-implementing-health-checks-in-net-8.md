@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Thực hiện Kiểm tra tình trạng hệ thống trong .NET 8
 subtitle: Implementing Health Checks in .NET 8
 image: "img/techskills.jpg"

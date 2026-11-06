@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title:      "Example Content"
 description: This is a modified version of Clean Blog Jekyll to be compatible with GitHub Pages. Modified by Thanh Tran for his own blog.
 date:     2016-09-20T11:29:15+07:00

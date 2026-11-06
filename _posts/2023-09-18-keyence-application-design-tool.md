@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: BT Application Design Tool
 subtitle: Manufacturing Made Smarter
 author: "TAn"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Top Web HTML5 Video Players for implement an advertising system.
 subtitle: Search a player for easily to integrate advertising on your video content.
 ---

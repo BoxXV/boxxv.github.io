@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Giới thiệu về Windows App SDK
 subtitle: Introducing the Windows App SDK
 description: Windows App SDK có gì đáng chú ý?

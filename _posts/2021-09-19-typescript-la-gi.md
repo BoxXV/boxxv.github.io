@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tìm hiểu về TypeScript
 subtitle: What Is TypeScript? Pros and Cons of TypeScript vs. JavaScript
 image: "img/js.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Envato là gì?
 image: "img/projects-bg.jpg"
 tags:

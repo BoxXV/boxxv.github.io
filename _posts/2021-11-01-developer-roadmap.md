@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Lộ trình cho mọi lập trình viên web
 subtitle: Roadmap to becoming a web developer in 2021
 

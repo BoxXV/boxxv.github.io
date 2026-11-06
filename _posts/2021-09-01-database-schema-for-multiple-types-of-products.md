@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Thiết kế CSDL sản phẩm cho nhiều loại sản phẩm
 subtitle: Database Schema for Multiple Types of Products
 image: "img/projects-bg.jpg"

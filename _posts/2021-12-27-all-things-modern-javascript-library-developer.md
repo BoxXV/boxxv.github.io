@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tổng hợp về Thư viện JavaScript hiện đại
 subtitle: The Modern JavaScript Library Tutorial
 

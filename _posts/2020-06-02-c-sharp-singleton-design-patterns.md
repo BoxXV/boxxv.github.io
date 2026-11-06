@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Singleton Pattern in C# 
 subtitle: Hướng dẫn C# Design Pattern - Singleton
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Function Pattern trong Javascript
 subtitle: Function Pattern in Javascript
 image: "img/js.jpg"

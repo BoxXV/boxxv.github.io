@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Chạy tập lệnh Python trên GPU bằng CUDA và Numba
 subtitle: Running Python script on GPU using CUDA and Numba
 

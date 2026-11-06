@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Build Javascript library và publish lên NPM
 subtitle: How to create a JavaScript library and publish it to npm
 image: "img/js.jpg"

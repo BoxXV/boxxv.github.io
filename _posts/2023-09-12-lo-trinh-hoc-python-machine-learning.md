@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Lộ trình học Python Cơ Bản đến Nâng Cao
 subtitle: 7 steps to learn Python - From beginner to advanced
 author: "TAn"

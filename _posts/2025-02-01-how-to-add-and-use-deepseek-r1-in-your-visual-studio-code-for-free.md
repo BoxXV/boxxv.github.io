@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Cách thêm và sử dụng Deepseek-r1 trong Visual Studio Code
 subtitle: How to Add and Use Deepseek-r1 in Your Visual Studio Code (For Free!)
 date: 2025-02-01 11:00:00

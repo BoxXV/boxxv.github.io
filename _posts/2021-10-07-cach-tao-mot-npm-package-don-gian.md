@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Cách tạo một NPM package đơn giản
 subtitle: Creating a simple npm library to use in and out of the browser
 

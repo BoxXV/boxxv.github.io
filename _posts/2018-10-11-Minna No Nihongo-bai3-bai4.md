@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tiếng Nhật"]
 title: Minna No Nihongo Bài 3 + Bài 4
 description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.

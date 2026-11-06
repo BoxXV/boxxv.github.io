@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Lịch sử và quà trình hình thành Co-well
 subtitle: Tản mạn kỳ №1
 ---

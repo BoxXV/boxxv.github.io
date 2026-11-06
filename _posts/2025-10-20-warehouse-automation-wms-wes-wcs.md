@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: "Tự động hóa kho hàng: sự khác biệt giữa WMS, WES và WCS là gì?"
 subtitle: "Warehouse Automation: what is the difference between a WMS, WES, and WCS?"
 date: 2025-10-20 01:00:00

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Make thread-safe calls to Windows Forms controls
 subtitle: C# Programming Tips & Tricks
 tags:

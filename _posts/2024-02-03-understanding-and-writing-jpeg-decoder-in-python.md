@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Hiểu và giải mã hình ảnh JPEG bằng Python
 subtitle: Understanding and Decoding a JPEG Image using Python
 image: "img/2024/reverse_engineering_intro_featured.jpg"

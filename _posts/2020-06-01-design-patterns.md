@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tổng hợp về Design Pattern
 subtitle: Nhập môn Design Patterns
 tags:

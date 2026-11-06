@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tiếng Nhật"]
 title: Cách sử dụng trợ từ trong Tiếng Nhật
 description: に を へ が
 subtitle: Cách sử dụng trợ từ に を へ が

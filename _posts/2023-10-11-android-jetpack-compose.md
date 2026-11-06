@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Jetpack Compose
 subtitle: Phát triển ứng dụng Android năm 2023
 description: Sử dụng Jetpack Compose để dựng UI trong Android

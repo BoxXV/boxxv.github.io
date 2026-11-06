@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Tổng quan về 12 phần mềm cơ sở dữ liệu quan hệ tốt nhất
 subtitle: 12 Best Relational Database Software Shortlist
 image: "img/projects-bg.jpg"

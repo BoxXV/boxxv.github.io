@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: "Vai trò của các kỹ sư phần mềm trong kỷ nguyên AI"
 subtitle: "The Software Engineers' Role in the AI Era"
 date: 2026-10-17 10:11:12

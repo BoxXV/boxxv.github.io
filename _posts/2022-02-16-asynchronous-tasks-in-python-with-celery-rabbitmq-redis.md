@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Asynchronous Tasks với Django, Celery, RabbitMQ và Redis
 subtitle: Tác vụ không đồng bộ với Django, Celery, RabbitMQ và Redis
 

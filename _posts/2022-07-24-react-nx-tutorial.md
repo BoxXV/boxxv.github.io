@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Hướng dẫn sử dụng React với Nx 
 subtitle: React Nx Tutorial
 

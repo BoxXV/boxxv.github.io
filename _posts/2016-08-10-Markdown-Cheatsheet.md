@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: "Markdown Cheatsheet"
 subtitle: A dummy post to test Vietnamese text display
 description: "Một bài viết để tham khảo việc hiển thị Tiếng Việt"

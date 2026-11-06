@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Triển khai ứng dụng React & Node.js lên máy chủ Windows
 subtitle: Deploying a React & Node.js App to a Windows Server
 image: "img/2026/gtp1ukda88hjpf3qoski.png"

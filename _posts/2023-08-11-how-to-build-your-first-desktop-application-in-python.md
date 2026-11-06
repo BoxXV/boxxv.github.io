@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Xây dựng Ứng dụng máy tính để bàn bằng Python
 subtitle: How to build your first Desktop Application in Python
 image: "img/technology.png"

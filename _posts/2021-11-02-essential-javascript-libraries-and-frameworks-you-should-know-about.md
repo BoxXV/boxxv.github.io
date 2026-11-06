@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Thư Viện Và Framework Javascript quan trọng bạn cần biết
 subtitle: Essential JavaScript Libraries and Frameworks You Should Know About
 

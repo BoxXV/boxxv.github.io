@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: CÔNG NGHỆ LUYỆN CHÌ TINH 99,99 % CÔNG SUẤT 5000 tấn
 subtitle: Công ty TNHH MTV Kim Loại Màu Thái Nguyên
 tags:

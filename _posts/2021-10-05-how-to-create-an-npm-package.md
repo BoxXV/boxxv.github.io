@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tạo gói npm sẵn sàng phân phối từ đầu
 subtitle: Tạo thư viện JavaScript hiện đại
 image: "img/javascript-mastery.png"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Cấu trúc xây dựng Phễu Sản phẩm
 subtitle: Product Funnel structure
 image: "img/projects-bg.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: Review Android 9 Development Cookbook
 subtitle: Over 100 recipes and solutions to solve the most common problems faced by Android developers, 3rd Edition
 ---

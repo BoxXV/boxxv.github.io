@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Hệ thống mô-đun JavaScript và xây dựng thư viện của riêng bạn
 subtitle: Learn the basics of the JavaScript module system and build your own library
 image: "img/javascript-mastery.png"

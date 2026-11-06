@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tìm hiểu về Codeigniter Framework
 subtitle: CodeIgniter Tutorial The Complete Guide
 tags:

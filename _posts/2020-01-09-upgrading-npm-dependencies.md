@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Upgrading npm dependencies
 subtitle: Cập nhật các thư viện phụ thuộc trong NPM
 ---

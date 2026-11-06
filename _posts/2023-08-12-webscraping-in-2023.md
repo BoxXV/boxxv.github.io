@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Crawling dữ liệu từ website
 subtitle: Web scraping in 2023
 author: "Deepak Bhardwaj"

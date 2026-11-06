@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Comment trong Android
 subtitle: Vì một tương lai lương Android cao hơn iOS
 tags:

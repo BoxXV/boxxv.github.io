@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Kiến trúc Microservices đang giết chết hiệu năng của bạn
 subtitle: và đây là số liệu thống kê
 image: "img/2026/xpahcwyrj4grkljj25kz.jpg"

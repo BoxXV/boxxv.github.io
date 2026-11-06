@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Con đã nhìn thấy đại dương
 description: 100 Truyện Ngắn Hay Trung Quốc - Tập 1
 author: A CHÂN

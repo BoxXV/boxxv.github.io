@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: "Cập nhật bảo mật quan trọng 2026"
 subtitle: "Important Security Update 2026"
 date: 2026-10-21 10:11:12

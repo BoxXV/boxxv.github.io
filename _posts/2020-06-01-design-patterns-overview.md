@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tổng quan về Design Pattern
 subtitle: 23 Dạng Thức Triển Khai Design Patterns trong OOP
 tags:

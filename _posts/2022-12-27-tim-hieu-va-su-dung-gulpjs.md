@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tìm hiểu và sử dụng Gulp JS
 subtitle: Building với Gulp
 image: "img/projects-bg.jpg"

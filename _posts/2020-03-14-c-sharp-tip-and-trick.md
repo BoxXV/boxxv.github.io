@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: C# Programming Tips & Tricks
 subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
 tags:

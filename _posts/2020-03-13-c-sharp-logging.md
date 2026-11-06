@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Logging trong C#
 subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
 tags:

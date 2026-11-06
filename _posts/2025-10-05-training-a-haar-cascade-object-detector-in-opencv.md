@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Đào tạo Trình phát hiện đối tượng Haar Cascade trong OpenCV
 subtitle: Training a Haar Cascade Object Detector in OpenCV
 date: 2025-10-05 01:00:00

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Học Data Analysis bắt đầu từ con số 0
 subtitle: Data Analysis Introduction
 author: "TAn"

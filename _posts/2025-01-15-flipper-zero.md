@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: Flipper Zero - một công cụ hacking thật tuyệt vời
 subtitle: Multi-tool Device for Geeks
 date: 2025-01-15 11:00:00

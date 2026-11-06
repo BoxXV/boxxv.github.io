@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Xây dựng một trang web tĩnh cực nhanh với Hugo
 subtitle: How To Build a Blazing Fast Static Site With Hugo
 image: "img/home-bg.jpg"

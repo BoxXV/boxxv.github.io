@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: FileZilla - The free FTP solution
 subtitle: Cài đặt mô phỏng FTP server với phần mềm FileZilla Server
 date: 2025-03-17 01:00:00

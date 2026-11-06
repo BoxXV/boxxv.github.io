@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Youtube Tips & Tricks
 subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
 date: 2025-01-03 01:00:00

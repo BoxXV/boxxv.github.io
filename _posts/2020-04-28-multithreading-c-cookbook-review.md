@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: Multithreading with C# Cookbook
 subtitle: Over 70 recipes to get you writing powerful and efficient multithreaded, asynchronous, and parallel programs in C# 6.0
 ---

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Top 10 Open Source HTML5 Video Players
 image: "img/hello_world.jpeg"
 ---

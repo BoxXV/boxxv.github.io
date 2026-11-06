@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Testing Best Practices
 subtitle: Kiến thức cần biết để kỹ sư kiểm thử phần mềm
 image: "img/tdd.png"

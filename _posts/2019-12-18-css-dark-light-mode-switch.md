@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: CSS Dark, Light mode switch in CSS 
 subtitle: How to create a Dark, Light mode switch in CSS 
 image: "img/hello_world.jpeg"

@@ -30,6 +30,16 @@ layout: default
 				<!-- Begin post content -->
 				{{ content }}
 				<!-- End post content -->
+				{% if page.categories.size > 0 or page.tags.size > 0 %}
+				<p class="post-taxonomy">
+					{% if page.categories.size > 0 %}<i class="fa fa-folder-open"></i>
+					{% for c in page.categories %}<a href="{{ site.baseurl }}/categories/#{{ c | slugify: 'latin' }}">{{ c }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+					&nbsp;{% endif %}
+					{% if page.tags.size > 0 %}<i class="fa fa-tags"></i>
+					{% for t in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ t | slugify: 'latin' }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+					{% endif %}
+				</p>
+				{% endif %}
 				{% if page.modified %}
 				<p class="text-right update-note"><small class="text-muted">Updated on {{ page.modified | date:"%d/%m/%Y" }}.</small></p>
 				{% endif %}

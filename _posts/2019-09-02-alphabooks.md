@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: Alpha Books - Danh Mục Sách Kỹ Năng
 description: Alpha Books - Danh Mục Sách Kỹ Năng
 image: "img/post-book-cover.png"

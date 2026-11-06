@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: "Claude Skills Đáng Dùng và Cách Cài Đặt (2026)"
 subtitle: "Best Claude Skills: Worth Adding, and How to Install Them"
 date: 2026-11-06 09:00:00 +0700

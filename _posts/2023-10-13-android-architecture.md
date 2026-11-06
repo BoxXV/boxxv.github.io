@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Android Architecture
 subtitle: Xây dựng một ứng dụng có thể mở rộng, được mô-đun hóa và có thể thử nghiệm ngay từ đầu
 description: Building a scalable, modularized, testable app from scratch

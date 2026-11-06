@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Builder Pattern in C#
 subtitle: Hướng dẫn C# Design Pattern - Builder
 tags:

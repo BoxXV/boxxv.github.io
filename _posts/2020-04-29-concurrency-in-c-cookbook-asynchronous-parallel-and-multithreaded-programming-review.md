@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: Concurrency in C# Cookbook - Asynchronous, Parallel, and Multithreaded Programming
 subtitle: If you’re one of many developers still uncertain about concurrent and multithreaded development, this practical cookbook will change your mind. With more than 85 code-rich recipes in this updated second edition, author Stephen Cleary demonstrates parallel processing and asynchronous programming techniques using libraries and language features in .NET and C# 8.0.
 ---

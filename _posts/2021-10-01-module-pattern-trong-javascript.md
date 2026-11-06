@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Closures, IIFEs, module pattern trong Javascript
 subtitle: Module Pattern in Javascript
 image: "img/js.jpg"

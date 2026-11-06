@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Videos Học Lập Trình SQL, SQL server, MySQL và Oracle
 ---
 

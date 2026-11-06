@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Triển khai mẫu Singleton trong C#
 subtitle: Implementing the Singleton Pattern in C#
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Why Django?
 subtitle: Build a website with Django 3
 image: "img/projects-bg.jpg"

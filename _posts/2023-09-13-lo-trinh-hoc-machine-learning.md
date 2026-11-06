@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: AI - Lộ trình học Machine Learning Cơ Bản đến Nâng Cao
 subtitle: Artificial Intelligence - A Comprehensive Guide
 author: "TAn"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: SCADA và MES khác nhau ở đâu?
 subtitle: Lợi ích khi tích hợp 2 hệ thống này
 image: "img/webpc-passthru.webp"

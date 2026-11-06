@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Tạo nhân vật 3D Model của riêng mình
 subtitle: Create your own Vroid Model character
 image: "img/2024/f43ed041837443cca1e4b6443858bc70.jpeg"

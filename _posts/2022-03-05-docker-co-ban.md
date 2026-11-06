@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Docker cơ bản
 subtitle: Docker và những điều cần biết
 

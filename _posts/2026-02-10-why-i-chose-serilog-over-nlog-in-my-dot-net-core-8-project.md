@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Lý do tôi chọn Serilog thay vì NLog trong dự án .NET Core 8
 subtitle: Why I Chose Serilog Over NLog in My Dot Net Core 8 Project
 date: 2026-02-10 10:11:12

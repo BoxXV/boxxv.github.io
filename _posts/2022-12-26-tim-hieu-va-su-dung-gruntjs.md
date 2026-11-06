@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tìm hiểu và sử dụng Grunt JS
 subtitle: Building với Grunt
 image: "img/projects-bg.jpg"

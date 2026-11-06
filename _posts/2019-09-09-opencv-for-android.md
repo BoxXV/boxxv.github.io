@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: OpenCV for android
 subtitle: Gần đây khi mình bắt đầu làm việc với OpenCV trên Android. Trong quá trình tìm kiếm việc tích hợp OpenCV vào Android Studio mình gặp rất nhiều khó khăn do các bài hướng dẫn đã lỗi thời không còn phù hợp với hiện tại. Vì vậy mình quyết định viết một hướng dẫn đơn giản về việc này.
 ---

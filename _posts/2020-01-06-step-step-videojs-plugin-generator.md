@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Các bước để tạo plugin cho video.js
 ---
 

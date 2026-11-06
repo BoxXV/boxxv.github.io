@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Ghi vào tệp CSV bằng C# với CsvHelper
 subtitle: Handling CSV Files in ASP.NET Core Web APIs
 image: "img/technology.png"

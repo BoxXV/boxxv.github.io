@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Tâm sự cùng AI
 subtitle: Talk with AI
 image: "img/2024/ai-tech-businessman-show-virtual-600nw-2253228203.webp"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Inter-Process Communication với C#
 subtitle: Local Machine Interprocess Communication with .NET
 image: "img/technology.png"

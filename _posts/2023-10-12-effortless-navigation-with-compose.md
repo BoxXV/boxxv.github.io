@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Điều hướng dễ dàng với Jetpack Compose
 subtitle: Full Guide to Navigation in Jetpack Compose
 description: Hướng dẫn từng bước để có trải nghiệm người dùng mượt mà

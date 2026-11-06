@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Ghi vào tệp CSV từ nhiều luồng
 subtitle: Writing to CSV-file from multiple threads
 image: "img/technology.png"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Lựa chọn thay thế GitHub Copilot miễn phí cho VS Code
 subtitle: Công cụ AI hỗ trợ lập trình
 image: "img/2024/f915c918009ca0c2f98d.jpg"

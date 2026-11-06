@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Django Programming Tips & Tricks
 subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
 tags:

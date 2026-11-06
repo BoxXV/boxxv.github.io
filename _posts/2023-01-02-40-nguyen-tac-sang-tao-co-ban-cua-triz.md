@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: 40 Nguyên tắc sáng tạo cơ bản của Triz
 subtitle: GS-PTS Phan Dũng - TRUNG TÂM SÁNG TẠO KHOA HỌC KỸ THUẬT (TSK) thuộc Đại Học Tự nhiên
 image: "img/run.jpg"

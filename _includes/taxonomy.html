@@ -1,0 +1,67 @@
+{% comment %}
+  Liệt kê danh mục hoặc thẻ kèm các bài viết liên quan.
+  Tham số:
+    include.items  : site.tags hoặc site.categories
+    include.label  : nhãn hiển thị (ví dụ "thẻ", "danh mục")
+{% endcomment %}
+{% assign groups = include.items | sort %}
+<section class="taxonomy">
+	{% if groups.size == 0 %}
+	<p>Chưa có {{ include.label }} nào.</p>
+	{% else %}
+	<p class="taxonomy-cloud">
+		{% for group in groups %}
+		{% assign name = group[0] %}
+		<a class="taxonomy-tag" href="#{{ name | slugify: 'latin' }}" data-target="{{ name | slugify: 'latin' }}">{{ name }} <span class="taxonomy-count">{{ group[1].size }}</span></a>
+		{% endfor %}
+	</p>
+	<p class="taxonomy-reset" hidden><a href="#" data-target="">&larr; Xem tất cả {{ include.label }}</a></p>
+	<hr>
+	{% assign seen = "|" %}
+	{% for group in groups %}
+	{% assign name = group[0] %}
+	{% assign slug = name | slugify: 'latin' %}
+	{% capture key %}|{{ slug }}|{% endcapture %}
+	<div class="taxonomy-group" data-slug="{{ slug }}"{% unless seen contains key %} id="{{ slug }}"{% endunless %}>
+	{% assign seen = seen | append: slug | append: "|" %}
+		<h3>{{ name }} <small>({{ group[1].size }})</small></h3>
+		<ul>
+			{% for post in group[1] %}
+			<li><time>{{ post.date | date: "%d/%m/%Y" }}</time>: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	{% endfor %}
+	{% endif %}
+</section>
+
+<style>
+	.taxonomy-cloud { line-height: 2.4; }
+	.taxonomy-tag { display: inline-block; margin: 0 6px 6px 0; padding: 2px 10px; border: 1px solid #ddd; border-radius: 14px; font-size: 15px; text-decoration: none; white-space: nowrap; }
+	.taxonomy-tag:hover, .taxonomy-tag.active { border-color: #0085a1; background: #0085a1; color: #fff; text-decoration: none; }
+	.taxonomy-count { opacity: .65; font-size: 12px; }
+	.taxonomy-group { scroll-margin-top: 80px; }
+</style>
+
+<script>
+	(function () {
+		var groups = document.querySelectorAll('.taxonomy-group');
+		var tags = document.querySelectorAll('.taxonomy-tag');
+		var reset = document.querySelector('.taxonomy-reset');
+		function show() {
+			var id = decodeURIComponent(location.hash.slice(1));
+			var found = false;
+			for (var k = 0; k < groups.length; k++) if (id && groups[k].getAttribute('data-slug') === id) found = true;
+			for (var i = 0; i < groups.length; i++) groups[i].hidden = found ? groups[i].getAttribute('data-slug') !== id : false;
+			for (var j = 0; j < tags.length; j++) tags[j].classList.toggle('active', !!found && tags[j].getAttribute('data-target') === id);
+			if (reset) reset.hidden = !found;
+		}
+		if (reset) reset.querySelector('a').addEventListener('click', function (e) {
+			e.preventDefault();
+			history.pushState(null, '', location.pathname);
+			show();
+		});
+		window.addEventListener('hashchange', show);
+		show();
+	})();
+</script>

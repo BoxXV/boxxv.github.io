@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Bảng Chữ Cái Cho Người Thích Note Đẹp
 subtitle: Tips viết chữ cho người thích viết note sạch đẹp
 image: "img/projects-bg.jpg"

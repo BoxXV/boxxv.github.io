@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Google Cloud là gì?
 subtitle: Google Cloud Platform (GCP)
 image: "img/projects-bg.jpg"

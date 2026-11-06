@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tiếng Nhật"]
 title: Encoding Tiếng Nhật
 subtitle: "Traditional Japanese Encoding: Hiragana, Katakana, Kanji"
 date: 2026-05-19 10:11:12

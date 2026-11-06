@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sự nghiệp & Phỏng vấn"]
 title: Top 22 câu hỏi phỏng vấn thường gặp & câu trả lời hoàn hảo (Mọi ngành)
 subtitle: Vì một tương lai rạng ngời
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tài nguyên hữu ích cho Front-End developer
 subtitle: <pre>[Updating] Front-End Resources</pre>
 

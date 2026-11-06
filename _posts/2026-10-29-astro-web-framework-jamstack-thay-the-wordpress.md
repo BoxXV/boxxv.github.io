@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: "Astro - Web Framework Jamstack thay Thế WordPress"
 subtitle: "Astro: The Web Framework for Content-Driven Websites"
 date: 2026-10-29 08:00:00 +0700
@@ -438,6 +439,8 @@ Trước khi dùng theme, hãy kiểm tra **giấy phép** (MIT, GPL...), **ngà
   - [Starlight](https://starlight.astro.build)
   - [Astro trên GitHub](https://github.com/withastro/astro)
   - [Getting Started with Astro JS: A Walkthrough of Its Installation and Core Features](https://www.startechup.com/en_au/blog/astro-js/)
+  - [New to Jamstack? Everything You Need to Know to Get Started](https://snipcart.com/blog/jamstack)
+  - [Lộ trình tự học Jamstack - kiến trúc web hiện đại](https://viblo.asia/p/lo-trinh-tu-hoc-jamstack-kien-truc-web-hien-dai-gwd430aKJX9)
 - Cộng đồng và học tập
   - [Astro Discord](https://astro.build/chat)
 - Công cụ liên quan

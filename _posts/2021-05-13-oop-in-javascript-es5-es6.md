@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Object-Oriented Programming in Javascript(ES5 & ES6) EXPLAINED
 subtitle: Lập trình hướng đối tượng với ES5 và ES6
 image: "img/projects-bg.jpg"

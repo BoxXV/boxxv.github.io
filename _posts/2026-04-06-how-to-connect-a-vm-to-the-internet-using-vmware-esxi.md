@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Hướng dẫn cấu hình Networking trên VMware ESXi 8.0
 subtitle: How to connect a VM to the internet using VMware ESXi
 date: 2026-04-06 10:11:12

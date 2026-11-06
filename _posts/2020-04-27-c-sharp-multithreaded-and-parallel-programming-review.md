@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: C# Multithreaded and Parallel Programming
 subtitle: Develop powerful C# applications to take advantage of today's multicore hardware
 ---

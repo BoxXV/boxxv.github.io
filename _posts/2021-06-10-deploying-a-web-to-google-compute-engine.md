@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Triển khai ứng dụng Web Python trên Google Compute Engine
 subtitle: Deploying with a Python web app and Google Compute Engine
 image: "img/projects-bg.jpg"

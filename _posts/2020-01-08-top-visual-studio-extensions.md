@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: Top Visual Studio Extensions for Developers
 subtitle: Những công cụ tôi ước giá như mình biết sớm hơn
 image: "img/projects-bg.jpg"

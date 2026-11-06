@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Phát triển ứng dụng Android năm 2023
 subtitle: Developing Android App in 2023
 description: Các phương pháp hay nhất và đề xuất phổ biến và mới nhất mà mọi nhà phát triển Android nên biết vào năm 2023

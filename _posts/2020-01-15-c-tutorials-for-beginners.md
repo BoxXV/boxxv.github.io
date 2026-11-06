@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Videos Học Lập Trình C, C plus plus và C sharp Căn Bản và Nâng cao
 ---
 

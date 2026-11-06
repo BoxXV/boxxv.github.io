@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sự nghiệp & Phỏng vấn"]
 title: Tổng hợp những câu hỏi phỏng vấn SQL
 subtitle: Vì một tương lai lương cao ngất
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: 8 ways to Stream IP Camera to web browser
 image: "img/hello_world.jpeg"
 tags:

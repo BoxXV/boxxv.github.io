@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: SQL Server Replication
 subtitle: Kỹ thuật Replication trong MS SQL Server
 date: 2025-02-14 01:00:00

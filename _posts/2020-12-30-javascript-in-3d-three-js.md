@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Hiển thị 3D trong JavaScript với Three.js
 subtitle: JavaScript in 3D with Three.js
 tags:

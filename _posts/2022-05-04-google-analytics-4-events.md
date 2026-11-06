@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Google Analytics 4 Event Tracking
 subtitle: Cách xem các thông số sự kiện trong báo cáo Google Analytics 4
 

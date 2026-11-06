@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: 03 cách lắp đặt Router wifi phụ chi tiết từ A đến Z
 subtitle: Dịch ngược mã nguồn
 image: "img/2024/router-2048px-7062-2x1-1.webp"

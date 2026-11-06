@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Tìm hiểu chung về Web Scraping và các vấn đề cần quan tâm
 subtitle: 5 killer problems with web scrapers, and how to solve them
 author: "Trần Đức Trung"

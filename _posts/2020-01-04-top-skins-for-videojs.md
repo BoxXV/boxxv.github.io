@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Top 18 Skins for Video.js
 image: "img/projects-bg.jpg"
 ---

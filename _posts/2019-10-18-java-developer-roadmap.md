@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Lộ trình học Java Web
 subtitle: Vì một tương lai lương Java cao ngất
 tags:

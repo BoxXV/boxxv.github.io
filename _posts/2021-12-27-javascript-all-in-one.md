@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: JavaScript All in One
 subtitle: Tất cả các kiến thức cần biết về JavaScript
 image: "img/js.jpg"

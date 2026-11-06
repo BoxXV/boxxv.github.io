@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Hướng dẫn đầu tư chứng khoán cơ bản từ A-Z
 subtitle: Chứng khoán Việt Nam 101
 image: "img/projects-bg.jpg"

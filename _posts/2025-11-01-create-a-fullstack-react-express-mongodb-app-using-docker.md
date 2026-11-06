@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: "Cách tạo ứng dụng React/Express/MongoDB đầy đủ bằng Docker"
 subtitle: "How to create a full stack React/Express/MongoDB app using Docker"
 date: 2025-11-01 01:00:00

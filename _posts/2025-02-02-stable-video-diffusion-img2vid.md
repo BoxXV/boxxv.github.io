@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Cách chạy Stable Video Diffusion img2vid
 subtitle: How to run Stable Video Diffusion img2vid
 date: 2025-02-02 11:00:00

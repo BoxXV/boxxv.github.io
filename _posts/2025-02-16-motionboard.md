@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: MotionBoard
 subtitle: BI dashboard Aggregates and visualizes data to bring about action
 date: 2025-02-16 01:00:00

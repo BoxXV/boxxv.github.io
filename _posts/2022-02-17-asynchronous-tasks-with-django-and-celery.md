@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Asynchronous Tasks với Django và Celery
 subtitle: Tác vụ không đồng bộ với Django và Celery
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Tập Thể dục nhịp tim bao nhiêu là an toàn?
 image: "img/run.jpg"
 tags:

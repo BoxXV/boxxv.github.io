@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Kỹ thuật thiết kế kiến trúc phần mềm trong .NET
 subtitle: Phân tích sâu về khuôn mẫu thiết kế kiến trúc phổ biến
 image: "img/2024/1277070923.png"

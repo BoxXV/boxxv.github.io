@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: Kết nối và xem camera từ xa
 subtitle: Giải pháp kết nối camera từ xa về đầu ghi qua internet
 image: "img/projects-bg.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tìm hiểu về Kiểm Thử Tự Động
 subtitle: 7 bước để trở thành một Automation Testing Engineer
 image: "img/tdd.png"

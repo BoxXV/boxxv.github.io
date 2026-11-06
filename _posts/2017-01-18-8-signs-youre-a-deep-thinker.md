@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: 8 Dấu Hiệu Bạn Là Người Có Tư Duy Sâu Sắc (Deep-thinker)
 image: "img/hello_world.jpeg"
 ---

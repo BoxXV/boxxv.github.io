@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tìm hiểu về Technical Stack
 subtitle: Cách Chọn Công Nghệ Phù Hợp Cho Doanh Nghiệp Của Bạn
 

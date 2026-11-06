@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Top Skins for JW Player
 image: "img/projects-bg.jpg"
 ---

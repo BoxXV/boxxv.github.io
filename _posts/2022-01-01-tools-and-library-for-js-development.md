@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Công cụ và Thư viện cần thiết cho Fullstack
 subtitle: Tools and Library required for Fullstack
 

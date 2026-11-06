@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Triển khai ứng dụng web Python Flask trên Google App Engine
 subtitle: Deploying with a Python Flask web app and Google
 image: "img/projects-bg.jpg"

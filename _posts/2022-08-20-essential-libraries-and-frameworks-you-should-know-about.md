@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Thư Viện Và Framework quan trọng bạn cần biết 2022
 subtitle: The Best Libraries and Frameworks for 2022
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: The Best 21 Code Editors Available in 2020
 image: "img/projects-bg.jpg"
 ---

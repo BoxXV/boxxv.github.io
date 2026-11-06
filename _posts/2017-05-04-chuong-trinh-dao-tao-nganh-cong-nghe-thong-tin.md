@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sự nghiệp & Phỏng vấn"]
 title: Tổng hợp Chương trình đào tạo ngành Công nghệ thông tin
 subtitle: Vì một tương lai rạng ngời
 description: Vì một tương lai rạng ngời

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Top 21 Web HTML5 Video Players
 image: "img/hello_world.jpeg"
 ---

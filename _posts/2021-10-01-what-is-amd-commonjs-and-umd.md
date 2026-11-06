@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: IIFEs, AMD, CommonJS và UMD là gì?
 subtitle: Sự phát triển của các mẫu mô-đun JavaScript
 image: "img/js.jpg"

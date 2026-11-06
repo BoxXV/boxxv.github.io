@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Cách bán NFT trên OpenSea
 subtitle: How to sell NFT on OpenSea
 

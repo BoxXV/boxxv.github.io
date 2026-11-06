@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: 5 loại ngôn ngữ lập trình
 subtitle: 5 loại ngôn ngữ lập trình cần thành thạo cho Developer
 author: "Coursera"

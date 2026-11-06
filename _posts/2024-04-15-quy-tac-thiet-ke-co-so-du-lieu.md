@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Quy tắc thiết kế Cơ sở dữ liệu
 subtitle: Database Designing Rules
 image: "img/sql-database-design.png"

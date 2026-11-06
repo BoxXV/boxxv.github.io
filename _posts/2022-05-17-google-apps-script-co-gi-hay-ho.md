@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: Google Apps Script có gì hay ho?!
 subtitle: Google Apps Script
 

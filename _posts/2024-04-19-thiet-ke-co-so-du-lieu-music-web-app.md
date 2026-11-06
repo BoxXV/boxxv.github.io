@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Thiết kế Cơ sở dữ liệu cho ứng dụng website nghe nhạc trực tuyến
 subtitle: Design a Database for Music Streaming App
 image: "img/sql-database-design.png"

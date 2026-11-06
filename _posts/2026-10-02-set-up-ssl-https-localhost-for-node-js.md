@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: "Cấu hình SSL HTTPS cho Localhost trong Node.js"
 subtitle: "Config SSL HTTPS Localhost For Node.JS"
 date: 2026-10-01 10:11:12

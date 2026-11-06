@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Giới thiệu Celery
 subtitle: Giới thiệu Celery 5 mới nhất 2022
 

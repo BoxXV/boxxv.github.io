@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: Head First Design Patterns Tiếng Việt
 subtitle: Your brain on Design Patterns
 ---

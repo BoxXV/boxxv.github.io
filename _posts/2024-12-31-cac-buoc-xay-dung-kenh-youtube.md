@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Các bước xây dựng kênh video
 subtitle: Các bước để xây dựng kênh Youtube, Tiktok, Facebook Watch, Vimeo, Dailymotion, Twitch
 image: "img/2024/ai-tech-businessman-show-virtual-600nw-2253228203.webp"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: Kết nối và xem máy chấm công từ xa
 subtitle: Giải pháp chấm công đa điểm qua mạng internet
 image: "img/projects-bg.jpg"

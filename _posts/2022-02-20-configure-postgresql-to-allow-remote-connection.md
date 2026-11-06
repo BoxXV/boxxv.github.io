@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Cấu hình để kết nối với PostgreSQL từ bên ngoài
 subtitle: Configure PostgreSQL to allow remote connection
 

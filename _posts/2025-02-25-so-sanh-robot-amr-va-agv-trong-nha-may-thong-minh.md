@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: Các loại Robot Công Nghiệp 
 subtitle: 10 loại robot công nghiệp phổ biến
 date: 2025-02-25 01:00:00

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Xây dựng API với Django Rest Framework
 subtitle: Creating a REST API using Django Rest Framework
 

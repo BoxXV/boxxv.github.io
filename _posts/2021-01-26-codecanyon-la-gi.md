@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: Kiếm tiền trên Codecanyon như thế nào?
 image: "img/projects-bg.jpg"
 tags:

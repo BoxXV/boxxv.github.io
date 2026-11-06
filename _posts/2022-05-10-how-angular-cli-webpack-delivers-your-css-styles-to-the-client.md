@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Cách angular-cli/webpack cấp các CSS của bạn cho client
 subtitle: How angular-cli/webpack delivers your CSS styles to the client
 

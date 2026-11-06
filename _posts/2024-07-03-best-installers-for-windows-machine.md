@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: Bộ cài đặt tốt nhất cho máy Windows
 subtitle: Best installers for Windows machine
 image: "img/2024/1277070923.png"

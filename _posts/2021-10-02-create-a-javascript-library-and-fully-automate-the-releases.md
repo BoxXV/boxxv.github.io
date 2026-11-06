@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tạo thư viện JavaScript 2021
 subtitle: Tự động hóa hoàn toàn các bản phát hành
 image: "img/javascript-mastery.png"

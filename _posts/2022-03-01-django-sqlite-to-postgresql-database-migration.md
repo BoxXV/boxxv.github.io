@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Cơ sở dữ liệu"]
 title: Di chuyển cơ sở dữ liệu Django từ SQLite sang PostgreSQL
 subtitle: Django SQLite to PostgreSQL database migration
 

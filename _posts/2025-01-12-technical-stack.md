@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tìm hiểu về Technical Stack 2025
 subtitle: 2025’s Must-Know Tech Stacks
 date: 2025-01-12 11:00:00

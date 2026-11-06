@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Các mô hình AI tốt nhất cho lập trình Vibe 2026
 subtitle: Best AI Models for Agentic Vibe Coding in 2026+
 image: "img/2026/t392wch6e9zj6ff1a1q2.png"

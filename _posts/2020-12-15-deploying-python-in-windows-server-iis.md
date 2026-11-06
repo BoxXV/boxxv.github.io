@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Deploy Python on Windows Server IIS
 subtitle: How to Deploy Python on Microsoft Windows Server IIS
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Sử dụng Django kết hợp cùng Celery, Docker, PostgreSQL, Redis
 subtitle: Distributed Task Queue
 

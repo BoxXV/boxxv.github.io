@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Responsive Layout and Fill Mode on Video.js
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Cho phép IP máy chủ chuyên dụng trên Google Cloud
 subtitle: Allowlisting dedicated server IP on Google Cloud
 

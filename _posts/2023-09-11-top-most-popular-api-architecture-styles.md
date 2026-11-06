@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: API và những kiến trúc API phổ biến
 subtitle: Top Architectural Styles for APIs
 author: "TAn"

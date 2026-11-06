@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Viết thư viện cho JavaScript với Rollup
 subtitle: Bundling your own JS library with Rollup
 image: "img/js.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Cách tạo Thư viện JavaScript
 title: Cách xây dựng Thư viện JavaScript
 subtitle: Viết thư viện Lightbox hình ảnh không có phụ thuộc đơn giản

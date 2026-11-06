@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: "Điều khiển PLC bằng C#: Các phương thức TCP/IP và OPC UA"
 subtitle: "Controlling PLC with C#: TCP/IP and OPC UA Methods"
 date: 2026-09-29 10:11:12

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Module Javascript
 subtitle: Hướng dẫn cho người mới
 image: "img/js.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Pass by Value và Pass by Reference trong Java
 subtitle: Vì một tương lai lương Java cao ngất
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Tao nên về họp lớp với mày không
 subtitle: và 7 bài thơ họa lại hay nhất
 description: Họp lớp

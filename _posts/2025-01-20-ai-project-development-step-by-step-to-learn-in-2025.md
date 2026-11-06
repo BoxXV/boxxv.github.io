@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Hướng dẫn phát triển dự án AI từng bước để học vào năm 2025
 subtitle: AI Project Development Step By Step to learn in 2025
 date: 2025-01-20 11:00:00

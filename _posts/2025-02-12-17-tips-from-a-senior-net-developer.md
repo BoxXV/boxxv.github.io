@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: 17 lời khuyên từ một nhà phát triển .NET cao cấp
 subtitle: 17 Tips from a Senior .NET Developer
 date: 2025-02-12 11:00:00

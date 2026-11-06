@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: 17 thói quen đang rút cạn năng lượng của bạn mỗi ngày
 subtitle: ... or not to be?
 image: "img/post-bg-01.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kinh doanh & Kiếm tiền"]
 title: OpenSea Pro là gì?
 subtitle: Nước đi tiếp theo của gã khổng lồ OpenSea
 author: "NguyenNSH"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: String concatenate, StringBuilder hay StringBuffer
 subtitle: Vì một tương lai lương Java cao ngất
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Thiết kế 3D với Python và FreeCAD
 subtitle: 3D design with Python and FreeCAD
 tags:

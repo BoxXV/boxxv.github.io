@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tìm hiểu về Reverse Engineering
 subtitle: Dịch ngược mã nguồn
 image: "img/2024/reverse_engineering_intro_featured.jpg"

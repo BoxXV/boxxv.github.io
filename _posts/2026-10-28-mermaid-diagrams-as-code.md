@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: "Vẽ diagram bằng code với Mermaid"
 subtitle: "Diagrams as Code: Mermaid và các lựa chọn phổ biến"
 date: 2026-10-28 08:00:00 +0700

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["C# & .NET"]
 title: Tình hình của WPF vào năm 2026
 subtitle: và đây là số liệu thống kê
 image: "img/2026/xpahcwyrj4grkljj25kz.jpg"

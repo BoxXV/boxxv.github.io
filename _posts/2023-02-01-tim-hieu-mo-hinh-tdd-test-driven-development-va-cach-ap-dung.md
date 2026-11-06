@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Tìm hiểu mô hình TDD (Test - Driven Development) và cách áp dụng
 subtitle: Lập trình TDD, có nên hay không?
 image: "img/tdd.png"

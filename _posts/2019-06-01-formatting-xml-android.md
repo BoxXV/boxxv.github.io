@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Android & Java"]
 title: Formatting xml layout trong Android Studio
 subtitle: Formatting xml layout files for Android
 image: "img/hello_world.jpeg"

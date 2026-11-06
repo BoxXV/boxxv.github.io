@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Kiến trúc & Kiểm thử"]
 title: Công cụ giám sát và kiểm tra hiệu suất mã nguồn mở Node.js
 subtitle: Node.js Open Source Monitoring, Performance Testing and Tuning
 image: "img/projects-bg.jpg"

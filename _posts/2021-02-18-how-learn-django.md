@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Lộ trình học Django
 subtitle: How to Learn Django
 image: "img/projects-bg.jpg"

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Tự động hóa công nghiệp"]
 title: Thuật toán sắp xếp sản xuất
 subtitle: "Production Scheduling Algorithms: A Practical Guide"
 date: 2026-08-05 10:11:12
@@ -28,7 +29,6 @@ Bài toán lập lịch (Scheduling / Load Balancing / Job Assignment) với cá
 Đây không còn là thuật toán tuần tự đơn giản mà là `Constraint Scheduling` / `Backtracking` / `Optimization Problem`.
 
 ![Scheduling](https://boxxv.github.io/img/2026/so_do_gan_may_uu_tien.svg "Scheduling")
-
 ![Load Balancing](https://boxxv.github.io/img/2026/so_do_can_bang_tai_khi_qua_tai.svg "Load Balancing")
 
 ## Gởi ý

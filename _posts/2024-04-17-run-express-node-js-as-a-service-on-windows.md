@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: Chạy Express (Node.js) dưới dạng dịch vụ trên Windows
 subtitle: Run Express (Node.js) as a service on Windows
 image: "img/home-bg.jpg"

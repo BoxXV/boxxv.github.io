@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Videos Học Lập Trình NodeJS Căn Bản
 ---
 

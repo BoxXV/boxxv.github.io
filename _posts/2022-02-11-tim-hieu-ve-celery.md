@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Python & Django"]
 title: Tìm hiểu về Celery
 subtitle: Distributed Task Queue
 

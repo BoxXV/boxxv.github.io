@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["DevOps & Hạ tầng"]
 title: See Event Parameters in Google Analytics 4 Reports
 subtitle: Cách xem các thông số sự kiện trong báo cáo Google Analytics 4
 

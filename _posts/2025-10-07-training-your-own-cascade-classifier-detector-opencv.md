@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: "Đào tạo Cascade/Classifier/Detector của riêng bạn trong OpenCV"
 subtitle: "Training your own Cascade/Classifier/Detector — OpenCV"
 date: 2025-10-07 01:00:00

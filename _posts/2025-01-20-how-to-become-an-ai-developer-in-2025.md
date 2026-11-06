@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Trở thành nhà phát triển AI vào năm 2025
 subtitle: Hướng dẫn đầy đủ cùng Tài nguyên
 date: 2025-01-19 11:00:00

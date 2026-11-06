@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Quote of Day
 subtitle: ... or not to be?
 tags: [books, shakespeare, test]

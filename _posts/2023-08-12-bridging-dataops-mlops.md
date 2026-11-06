@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Trí tuệ nhân tạo & Dữ liệu"]
 title: Bridging DataOps and MLOps
 subtitle: Critical Components of MLOps
 author: "Deepak Bhardwaj"

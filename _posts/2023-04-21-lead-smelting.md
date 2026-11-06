@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Phản ứng hóa học của Luyện Chì
 subtitle: Chemical Reactions of Lead Smelting
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Tạo thư viện JavaScript cho người mới
 subtitle: How to publish a package with TypeScript, testing, GitHub Actions, and auto-publish to NPM
 image: "img/js.jpg"

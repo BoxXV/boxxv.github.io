@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Series JSON Web Token
 subtitle: Thực tiễn hiện đại, Hướng dẫn đầy đủ
 tags:

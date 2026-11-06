@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Công cụ & Tổng hợp"]
 title: Serverless - Rust, Go, Kotlin, Scala và F#
 subtitle: Rust vs Go vs Kotlin vs F# vs C#
 author: "TAn"

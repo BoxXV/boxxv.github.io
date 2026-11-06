@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Sách & Review"]
 title: Review Android Cookbook, 2nd Edition
 subtitle: Problems and Solutions for Android Developers
 ---

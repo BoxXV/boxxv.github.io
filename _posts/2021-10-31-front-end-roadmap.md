@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Web & Frontend"]
 title: Front End Roadmap
 subtitle: Step by step guide to becoming a modern frontend developer
 tags:

@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: ["Đời sống & Tản mạn"]
 title: Why I quit open source
 subtitle: Tại sao tôi bỏ mã nguồn mở
 description: "#opensource #mentalhealth #burnout #hobbies"
