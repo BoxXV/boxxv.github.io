@@ -6,6 +6,7 @@ subtitle: "Config SSL HTTPS Localhost For Node.JS"
 date: 2026-10-01 10:11:12
 tags:
 - SSL
+- OpenSSL
 - HTTPS
 - Localhost
 - Nodejs
@@ -35,6 +36,9 @@ Trong bài viết này, tôi sẽ hướng dẫn bạn cách cấu hình HTTPS c
 # Cấu hình HTTPS cho Localhost
 
 Để bật HTTPS trên localhost, hãy tạo chứng chỉ SSL tự ký bằng **OpenSSL**. Cài đặt **mkcert**, tạo Certificate Authority (CA) cục bộ bằng lệnh `mkcert create-ca`, sau đó tạo chứng chỉ SSL tự ký cho localhost bằng lệnh `mkcert create-cert`. Cấu hình máy chủ Node.js của bạn với chứng chỉ và khóa đã tạo cho HTTPS.
+
+![OpenSSL LTS](/img/2026/release_life_cycle.svg "OpenSSL Release life cycle")
+![OpenSSL LTS](/img/2026/release_plan_2026.svg "Release plan")
 
 **Bước 1:** Cài đặt gói mkcert ở chế độ toàn cục.
 
@@ -158,3 +162,7 @@ Tham khảo:
 - [Hướng dẫn cài đặt OpenSSL trên Windows 10](https://topdev.vn/blog/huong-dan-cai-dat-openssl-tren-windows-10/)
 - [Cách làm HTTPS hoạt động trên local trong 5 phút](https://topdev.vn/blog/cach-lam-https-hoat-dong-tren-local-trong-5-phut/)
 - [https://github.com/FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
+- [OpenSSL Roadmap](https://openssl-library.org/roadmap/)
+- [Win32/Win64 OpenSSL](https://slproweb.com/products/Win32OpenSSL.html)
+- [Win64 OpenSSL v3.5.9 Light EXE](https://slproweb.com/download/Win64OpenSSL_Light-3_5_9.exe)
+- [Win64 OpenSSL v3.5.9 Light MSI](https://slproweb.com/download/Win64OpenSSL_Light-3_5_9.msi)
