@@ -76,8 +76,8 @@ flowchart LR
   end
   S -- "copy server.key + server.crt" --> APP
   K -. "chỉ rootCA.crt" .-> B
-  B -- "https://192.168.1.2:3443" --> H2
-  B -. "http://192.168.1.2:3000" .-> H1
+  B -- "HTTPS 192.168.1.2:3443" --> H2
+  B -. "HTTP 192.168.1.2:3000" .-> H1
 ```
 
 Ý tưởng cốt lõi: **trình duyệt không tin server, trình duyệt tin Root CA**. Ta tự làm một Root CA, cài nó vào kho tin cậy của client, rồi dùng nó ký chứng chỉ cho server. Muốn thêm server khác chỉ việc ký thêm, client không phải cài lại gì.

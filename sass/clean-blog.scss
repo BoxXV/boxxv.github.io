@@ -603,4 +603,12 @@ pre.mermaid {
   margin: 20px 0;
 }
 
+/* Wider container on large screens (Bootstrap default is 1170px) */
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    max-width: 1400px;
+  }
+}
+
 @import "prism";
