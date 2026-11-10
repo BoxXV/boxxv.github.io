@@ -1,0 +1,363 @@
+{
+ "schema_version": 1,
+ "diagram_type": "architecture",
+ "meta": {
+  "title": "Kiến trúc AI chăm sóc khách hàng (RAG)",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "01-architecture-rag.html",
+  "quality_profile": "showcase"
+ },
+ "components": [
+  {
+   "id": "user",
+   "type": "external",
+   "label": "Khách hàng",
+   "sublabel": "web / Zalo / app",
+   "pos": [
+    40,
+    200
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "widget",
+   "type": "frontend",
+   "label": "Chat Widget",
+   "sublabel": "giao diện hội thoại",
+   "pos": [
+    260,
+    200
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "gateway",
+   "type": "cloud",
+   "label": "API Gateway",
+   "sublabel": "rate limit",
+   "pos": [
+    480,
+    200
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "orch",
+   "type": "backend",
+   "label": "RAG Orchestrator",
+   "sublabel": "ghép prompt",
+   "pos": [
+    700,
+    200
+   ],
+   "size": [
+    140,
+    64
+   ],
+   "tag": "LangChain"
+  },
+  {
+   "id": "llm",
+   "type": "cloud",
+   "label": "LLM API",
+   "sublabel": "sinh câu trả lời",
+   "pos": [
+    920,
+    200
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "guard",
+   "type": "security",
+   "label": "Guardrails",
+   "sublabel": "lọc PII, chủ đề",
+   "pos": [
+    700,
+    40
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "human",
+   "type": "external",
+   "label": "Nhân viên CSKH",
+   "sublabel": "tiếp nhận chuyển giao",
+   "pos": [
+    920,
+    40
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "retriever",
+   "type": "backend",
+   "label": "Retriever",
+   "sublabel": "hybrid search",
+   "pos": [
+    700,
+    360
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "vectordb",
+   "type": "database",
+   "label": "Vector DB",
+   "sublabel": "embedding tài liệu",
+   "pos": [
+    920,
+    360
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "history",
+   "type": "database",
+   "label": "Lịch sử chat",
+   "sublabel": "PostgreSQL",
+   "pos": [
+    480,
+    360
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "docs",
+   "type": "external",
+   "label": "Kho tri thức",
+   "sublabel": "FAQ, chính sách, PDF",
+   "pos": [
+    700,
+    520
+   ],
+   "size": [
+    140,
+    64
+   ]
+  },
+  {
+   "id": "embed",
+   "type": "backend",
+   "label": "Embedding Job",
+   "sublabel": "chunk + vector hoá",
+   "pos": [
+    920,
+    520
+   ],
+   "size": [
+    140,
+    64
+   ]
+  }
+ ],
+ "boundaries": [
+  {
+   "kind": "region",
+   "label": "Hạ tầng cloud của doanh nghiệp",
+   "wraps": [
+    "gateway",
+    "orch",
+    "guard",
+    "retriever",
+    "history"
+   ]
+  }
+ ],
+ "connections": [
+  {
+   "id": "c1",
+   "from": "user",
+   "to": "widget",
+   "label": "câu hỏi",
+   "variant": "emphasis"
+  },
+  {
+   "id": "c2",
+   "from": "widget",
+   "to": "gateway",
+   "label": "HTTPS",
+   "variant": "emphasis"
+  },
+  {
+   "id": "c3",
+   "from": "gateway",
+   "to": "orch",
+   "label": "REST",
+   "variant": "emphasis"
+  },
+  {
+   "id": "c4",
+   "from": "orch",
+   "to": "llm",
+   "label": "prompt",
+   "variant": "emphasis"
+  },
+  {
+   "id": "c5",
+   "from": "orch",
+   "to": "guard",
+   "label": "kiểm duyệt",
+   "variant": "security"
+  },
+  {
+   "id": "c6",
+   "from": "guard",
+   "to": "human",
+   "label": "chuyển người",
+   "variant": "security"
+  },
+  {
+   "id": "c7",
+   "from": "orch",
+   "to": "retriever",
+   "label": "truy vấn"
+  },
+  {
+   "id": "c8",
+   "from": "retriever",
+   "to": "vectordb",
+   "label": "top-k"
+  },
+  {
+   "id": "c9",
+   "from": "gateway",
+   "to": "history",
+   "label": "lưu phiên",
+   "variant": "dashed"
+  },
+  {
+   "id": "c10",
+   "from": "docs",
+   "to": "embed",
+   "label": "đồng bộ",
+   "variant": "dashed"
+  },
+  {
+   "id": "c11",
+   "from": "embed",
+   "to": "vectordb",
+   "label": "upsert",
+   "variant": "dashed"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "Luồng chính",
+   "items": [
+    "Câu hỏi đi qua Gateway tới Orchestrator",
+    "Retriever lấy top-k đoạn tài liệu liên quan",
+    "LLM trả lời dựa trên ngữ cảnh đã truy xuất"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "An toàn",
+   "items": [
+    "Guardrails lọc PII và câu hỏi ngoài phạm vi",
+    "Câu hỏi khó được chuyển cho nhân viên CSKH"
+   ]
+  },
+  {
+   "dot": "orange",
+   "title": "Nạp tri thức",
+   "items": [
+    "Embedding Job chạy định kỳ khi tài liệu thay đổi"
+   ]
+  }
+ ]
+}

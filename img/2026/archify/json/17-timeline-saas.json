@@ -1,0 +1,180 @@
+{
+ "schema_version": 1,
+ "diagram_type": "timeline",
+ "meta": {
+  "title": "Lộ trình ra mắt sản phẩm SaaS năm 2027",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "17-timeline-saas.html",
+  "quality_profile": "showcase",
+  "evidence": "illustrative",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "subtitle": "Kế hoạch minh hoạ, không phải mốc thực tế."
+ },
+ "lanes": [
+  {
+   "id": "prod",
+   "label": "Sản phẩm"
+  },
+  {
+   "id": "eng",
+   "label": "Kỹ thuật"
+  },
+  {
+   "id": "gtm",
+   "label": "Go-to-market"
+  }
+ ],
+ "events": [
+  {
+   "id": "t1",
+   "at": "2027-01-15T09:00:00+07:00",
+   "title": "Chốt PRD & pricing",
+   "lane": "prod",
+   "kind": "action",
+   "detail": "Xác định ICP, gói Free/Pro/Business."
+  },
+  {
+   "id": "t2",
+   "at": "2027-02-26T09:00:00+07:00",
+   "title": "Kiến trúc multi-tenant",
+   "lane": "eng",
+   "kind": "change",
+   "detail": "Tách tenant theo schema, CI/CD."
+  },
+  {
+   "id": "t3",
+   "at": "2027-04-01T09:00:00+07:00",
+   "title": "Closed Alpha",
+   "lane": "prod",
+   "kind": "change",
+   "detail": "10 khách hàng thân thiết."
+  },
+  {
+   "id": "t4",
+   "at": "2027-05-20T09:00:00+07:00",
+   "title": "Pen-test & bảo mật",
+   "lane": "eng",
+   "kind": "alert",
+   "detail": "Kiểm thử xâm nhập, chuẩn bị SOC 2."
+  },
+  {
+   "id": "t5",
+   "at": "2027-06-15T09:00:00+07:00",
+   "title": "Public Beta",
+   "lane": "prod",
+   "kind": "change",
+   "detail": "Mở đăng ký, thu phản hồi."
+  },
+  {
+   "id": "t6",
+   "at": "2027-07-01T09:00:00+07:00",
+   "title": "Landing page + waitlist",
+   "lane": "gtm",
+   "kind": "action"
+  },
+  {
+   "id": "t7",
+   "at": "2027-08-16T09:00:00+07:00",
+   "title": "Billing & thanh toán",
+   "lane": "eng",
+   "kind": "change",
+   "detail": "Subscription, hoá đơn điện tử."
+  },
+  {
+   "id": "t8",
+   "at": "2027-09-09T09:00:00+07:00",
+   "title": "GA v1.0",
+   "lane": "prod",
+   "kind": "recovery",
+   "detail": "Phát hành chính thức."
+  },
+  {
+   "id": "t9",
+   "at": "2027-09-20T09:00:00+07:00",
+   "title": "Chiến dịch ra mắt",
+   "lane": "gtm",
+   "kind": "action",
+   "detail": "Webinar, PR, ưu đãi năm đầu."
+  },
+  {
+   "id": "t10",
+   "at": "2027-11-02T09:00:00+07:00",
+   "title": "Marketplace tích hợp",
+   "lane": "prod",
+   "kind": "change"
+  },
+  {
+   "id": "t11",
+   "at": "2027-12-10T09:00:00+07:00",
+   "title": "Tổng kết & kế hoạch 2028",
+   "lane": "gtm",
+   "kind": "default"
+  }
+ ]
+}

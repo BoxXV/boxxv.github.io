@@ -1,0 +1,172 @@
+{
+ "schema_version": 1,
+ "diagram_type": "tree",
+ "meta": {
+  "title": "Cây phân cấp vị trí trong kho (WMS)",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "16-tree-wms.html",
+  "quality_profile": "showcase",
+  "subtitle": "Kho → khu → dãy → kệ → ô; mỗi vị trí chỉ có một cha."
+ },
+ "layout": {
+  "direction": "right"
+ },
+ "nodes": [
+  {
+   "id": "wh",
+   "label": "Kho HCM-01",
+   "sublabel": "12.000 m²"
+  },
+  {
+   "id": "rcv",
+   "label": "Khu nhận hàng",
+   "parent": "wh",
+   "sublabel": "RCV"
+  },
+  {
+   "id": "sto",
+   "label": "Khu lưu trữ",
+   "parent": "wh",
+   "sublabel": "STO"
+  },
+  {
+   "id": "pck",
+   "label": "Khu picking",
+   "parent": "wh",
+   "sublabel": "PCK"
+  },
+  {
+   "id": "shp",
+   "label": "Khu xuất hàng",
+   "parent": "wh",
+   "sublabel": "SHP"
+  },
+  {
+   "id": "dock_in",
+   "label": "Dock nhập 1–4",
+   "parent": "rcv"
+  },
+  {
+   "id": "qc",
+   "label": "Khu cách ly QC",
+   "parent": "rcv"
+  },
+  {
+   "id": "aisle_a",
+   "label": "Dãy A",
+   "parent": "sto",
+   "sublabel": "hàng khô"
+  },
+  {
+   "id": "aisle_c",
+   "label": "Dãy C",
+   "parent": "sto",
+   "sublabel": "kho lạnh 2–8°C"
+  },
+  {
+   "id": "rack_a1",
+   "label": "Kệ A-01",
+   "parent": "aisle_a",
+   "sublabel": "5 tầng"
+  },
+  {
+   "id": "bin1",
+   "label": "Ô A-01-01",
+   "parent": "rack_a1",
+   "sublabel": "pallet"
+  },
+  {
+   "id": "bin2",
+   "label": "Ô A-01-02",
+   "parent": "rack_a1",
+   "sublabel": "pallet"
+  },
+  {
+   "id": "rack_c1",
+   "label": "Kệ C-01",
+   "parent": "aisle_c"
+  },
+  {
+   "id": "fast",
+   "label": "Kệ hàng bán chạy",
+   "parent": "pck",
+   "sublabel": "pick face"
+  },
+  {
+   "id": "pack",
+   "label": "Bàn đóng gói",
+   "parent": "shp"
+  },
+  {
+   "id": "dock_out",
+   "label": "Dock xuất 1–6",
+   "parent": "shp"
+  }
+ ]
+}

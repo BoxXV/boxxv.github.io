@@ -1,0 +1,227 @@
+{
+ "schema_version": 3,
+ "diagram_type": "lifecycle",
+ "meta": {
+  "title": "Vòng đời mô hình Machine Learning (MLOps)",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "09-lifecycle-mlops.html",
+  "quality_profile": "showcase"
+ },
+ "mainPath": [
+  "data",
+  "training",
+  "evaluating",
+  "staging",
+  "production"
+ ],
+ "states": [
+  {
+   "id": "data",
+   "type": "start",
+   "label": "Chuẩn bị dữ liệu",
+   "sublabel": "thu thập, gán nhãn",
+   "tag": "dataset",
+   "step": "01"
+  },
+  {
+   "id": "training",
+   "type": "active",
+   "label": "Huấn luyện",
+   "sublabel": "pipeline GPU",
+   "tag": "running",
+   "step": "02"
+  },
+  {
+   "id": "evaluating",
+   "type": "decision",
+   "label": "Đánh giá",
+   "sublabel": "metric + bias",
+   "tag": "gate",
+   "step": "03"
+  },
+  {
+   "id": "staging",
+   "type": "active",
+   "label": "Staging",
+   "sublabel": "shadow / A-B",
+   "tag": "canary",
+   "step": "04"
+  },
+  {
+   "id": "production",
+   "type": "success",
+   "label": "Production",
+   "sublabel": "phục vụ online",
+   "tag": "live",
+   "step": "05"
+  },
+  {
+   "id": "rejected",
+   "type": "failure",
+   "label": "Bị loại",
+   "sublabel": "không đạt",
+   "tag": "terminal"
+  },
+  {
+   "id": "drift",
+   "type": "waiting",
+   "label": "Phát hiện drift",
+   "sublabel": "giám sát",
+   "tag": "observe"
+  },
+  {
+   "id": "retired",
+   "type": "neutral",
+   "label": "Ngừng sử dụng",
+   "sublabel": "lưu trữ",
+   "tag": "terminal"
+  }
+ ],
+ "transitions": [
+  {
+   "id": "l1",
+   "from": "data",
+   "to": "training",
+   "label": "dataset v1"
+  },
+  {
+   "id": "l2",
+   "from": "training",
+   "to": "evaluating",
+   "label": "xong"
+  },
+  {
+   "id": "l3",
+   "from": "evaluating",
+   "to": "staging",
+   "label": "đạt + duyệt"
+  },
+  {
+   "id": "l5",
+   "from": "staging",
+   "to": "production",
+   "label": "promote"
+  },
+  {
+   "id": "l6",
+   "from": "evaluating",
+   "to": "training",
+   "label": "tinh chỉnh"
+  },
+  {
+   "id": "l7",
+   "from": "evaluating",
+   "to": "rejected",
+   "label": "kém",
+   "variant": "security"
+  },
+  {
+   "id": "l8",
+   "from": "staging",
+   "to": "evaluating",
+   "label": "thua A/B"
+  },
+  {
+   "id": "l9",
+   "from": "production",
+   "to": "drift",
+   "label": "drift alert",
+   "variant": "dashed"
+  },
+  {
+   "id": "l10",
+   "from": "drift",
+   "to": "data",
+   "label": "retrain",
+   "variant": "emphasis"
+  },
+  {
+   "id": "l11",
+   "from": "drift",
+   "to": "retired",
+   "label": "thay thế"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "cyan",
+   "title": "Đường chính",
+   "items": [
+    "Dữ liệu → huấn luyện → đánh giá → staging → production"
+   ]
+  },
+  {
+   "dot": "amber",
+   "title": "Vòng lặp",
+   "items": [
+    "Drift kích hoạt thu thập dữ liệu và huấn luyện lại"
+   ]
+  }
+ ]
+}

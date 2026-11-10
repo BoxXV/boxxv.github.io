@@ -1,0 +1,268 @@
+{
+ "schema_version": 2,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "Mô hình Thác nước (Waterfall) cho dự án phần mềm WMS",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "19-waterfall-sdlc.html",
+  "quality_profile": "showcase"
+ },
+ "lanes": [
+  {
+   "id": "req",
+   "label": "Yêu cầu"
+  },
+  {
+   "id": "des",
+   "label": "Thiết kế"
+  },
+  {
+   "id": "dev",
+   "label": "Lập trình"
+  },
+  {
+   "id": "test",
+   "label": "Kiểm thử"
+  },
+  {
+   "id": "dep",
+   "label": "Triển khai"
+  },
+  {
+   "id": "ops",
+   "label": "Bảo trì"
+  }
+ ],
+ "phases": [
+  {
+   "id": "w1",
+   "label": "Tuần 1–4",
+   "fromCol": 0,
+   "toCol": 0
+  },
+  {
+   "id": "w2",
+   "label": "Tuần 5–8",
+   "fromCol": 1,
+   "toCol": 1
+  },
+  {
+   "id": "w3",
+   "label": "Tuần 9–20",
+   "fromCol": 2,
+   "toCol": 2,
+   "variant": "emphasis"
+  },
+  {
+   "id": "w4",
+   "label": "Tuần 21–26",
+   "fromCol": 3,
+   "toCol": 3
+  },
+  {
+   "id": "w5",
+   "label": "Tuần 27–28",
+   "fromCol": 4,
+   "toCol": 4
+  },
+  {
+   "id": "w6",
+   "label": "Sau go-live",
+   "fromCol": 5,
+   "toCol": 5,
+   "variant": "dashed"
+  }
+ ],
+ "mainPath": [
+  "s1",
+  "s2",
+  "s3",
+  "s4",
+  "s5",
+  "s6"
+ ],
+ "nodes": [
+  {
+   "id": "s1",
+   "lane": "req",
+   "col": 0,
+   "type": "external",
+   "label": "Phân tích yêu cầu",
+   "sublabel": "SRS nhập / xuất / tồn",
+   "tag": "BA"
+  },
+  {
+   "id": "s2",
+   "lane": "des",
+   "col": 1,
+   "type": "frontend",
+   "label": "Thiết kế",
+   "sublabel": "kiến trúc, ERD, UI",
+   "tag": "SA"
+  },
+  {
+   "id": "s3",
+   "lane": "dev",
+   "col": 2,
+   "type": "backend",
+   "label": "Lập trình",
+   "sublabel": "module WMS + PDA",
+   "tag": "Dev"
+  },
+  {
+   "id": "s4",
+   "lane": "test",
+   "col": 3,
+   "type": "security",
+   "label": "Kiểm thử",
+   "sublabel": "SIT + UAT tại kho",
+   "tag": "QA"
+  },
+  {
+   "id": "s5",
+   "lane": "dep",
+   "col": 4,
+   "type": "cloud",
+   "label": "Triển khai",
+   "sublabel": "cutover, đào tạo",
+   "tag": "go-live"
+  },
+  {
+   "id": "s6",
+   "lane": "ops",
+   "col": 5,
+   "type": "database",
+   "label": "Bảo trì",
+   "sublabel": "hỗ trợ, CR",
+   "tag": "SLA"
+  }
+ ],
+ "edges": [
+  {
+   "id": "x1",
+   "from": "s1",
+   "to": "s2",
+   "label": "SRS ký duyệt",
+   "variant": "emphasis"
+  },
+  {
+   "id": "x2",
+   "from": "s2",
+   "to": "s3",
+   "label": "thiết kế chốt",
+   "variant": "emphasis"
+  },
+  {
+   "id": "x3",
+   "from": "s3",
+   "to": "s4",
+   "label": "bản build",
+   "variant": "emphasis"
+  },
+  {
+   "id": "x4",
+   "from": "s4",
+   "to": "s5",
+   "label": "UAT đạt",
+   "variant": "emphasis"
+  },
+  {
+   "id": "x5",
+   "from": "s5",
+   "to": "s6",
+   "label": "nghiệm thu",
+   "variant": "emphasis"
+  },
+  {
+   "id": "x6",
+   "from": "s4",
+   "to": "s3",
+   "label": "lỗi",
+   "variant": "dashed",
+   "role": "return"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "cyan",
+   "title": "Đặc điểm",
+   "items": [
+    "Giai đoạn sau chỉ bắt đầu khi giai đoạn trước được ký duyệt",
+    "Phù hợp dự án WMS có phạm vi và quy trình kho rõ ràng"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "Rủi ro",
+   "items": [
+    "Lỗi yêu cầu phát hiện muộn ở UAT rất tốn kém"
+   ]
+  }
+ ]
+}

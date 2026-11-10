@@ -1,0 +1,287 @@
+{
+ "schema_version": 2,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "Quy trình xử lý đơn hàng và đổi trả (E-commerce)",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "03-workflow-ecommerce.html",
+  "quality_profile": "showcase"
+ },
+ "lanes": [
+  {
+   "id": "cust",
+   "label": "Khách hàng"
+  },
+  {
+   "id": "shop",
+   "label": "Hệ thống TMĐT"
+  },
+  {
+   "id": "wh",
+   "label": "Kho & vận chuyển"
+  },
+  {
+   "id": "ret",
+   "label": "Đổi trả & ngoại lệ",
+   "variant": "exception"
+  }
+ ],
+ "phases": [
+  {
+   "id": "p1",
+   "label": "Đặt hàng",
+   "fromCol": 0,
+   "toCol": 2,
+   "variant": "emphasis"
+  },
+  {
+   "id": "p2",
+   "label": "Hoàn tất đơn",
+   "fromCol": 3,
+   "toCol": 4
+  },
+  {
+   "id": "p3",
+   "label": "Nhận & đổi trả",
+   "fromCol": 5,
+   "toCol": 5,
+   "variant": "dashed"
+  }
+ ],
+ "mainPath": [
+  "order",
+  "pay",
+  "confirm",
+  "pick",
+  "ship",
+  "receive"
+ ],
+ "nodes": [
+  {
+   "id": "order",
+   "lane": "cust",
+   "col": 0,
+   "type": "external",
+   "label": "Đặt hàng",
+   "sublabel": "giỏ hàng"
+  },
+  {
+   "id": "pay",
+   "lane": "shop",
+   "col": 1,
+   "type": "security",
+   "label": "Thanh toán",
+   "sublabel": "ví / thẻ / COD"
+  },
+  {
+   "id": "confirm",
+   "lane": "shop",
+   "col": 2,
+   "type": "backend",
+   "label": "Xác nhận đơn",
+   "sublabel": "giữ tồn"
+  },
+  {
+   "id": "pick",
+   "lane": "wh",
+   "col": 3,
+   "type": "messagebus",
+   "label": "Lấy & đóng gói",
+   "sublabel": "in vận đơn"
+  },
+  {
+   "id": "ship",
+   "lane": "wh",
+   "col": 4,
+   "type": "cloud",
+   "label": "Giao hàng",
+   "sublabel": "đơn vị vận chuyển"
+  },
+  {
+   "id": "receive",
+   "lane": "cust",
+   "col": 5,
+   "type": "external",
+   "label": "Nhận hàng",
+   "sublabel": "trong 7 ngày"
+  },
+  {
+   "id": "cancel",
+   "lane": "ret",
+   "col": 1,
+   "type": "security",
+   "label": "Huỷ đơn",
+   "sublabel": "thanh toán lỗi"
+  },
+  {
+   "id": "inspect",
+   "lane": "ret",
+   "col": 5,
+   "type": "security",
+   "label": "Đổi/trả",
+   "sublabel": "kiểm tra hàng"
+  },
+  {
+   "id": "restock",
+   "lane": "wh",
+   "col": 5,
+   "type": "messagebus",
+   "label": "Nhập lại kho"
+  },
+  {
+   "id": "refund",
+   "lane": "shop",
+   "col": 5,
+   "type": "backend",
+   "label": "Hoàn tiền",
+   "sublabel": "về nguồn"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e1",
+   "from": "order",
+   "to": "pay",
+   "variant": "emphasis"
+  },
+  {
+   "id": "e2",
+   "from": "pay",
+   "to": "confirm",
+   "label": "thành công",
+   "variant": "emphasis"
+  },
+  {
+   "id": "e3",
+   "from": "confirm",
+   "to": "pick",
+   "variant": "emphasis"
+  },
+  {
+   "id": "e4",
+   "from": "pick",
+   "to": "ship",
+   "variant": "emphasis"
+  },
+  {
+   "id": "e5",
+   "from": "ship",
+   "to": "receive",
+   "variant": "emphasis"
+  },
+  {
+   "id": "e6",
+   "from": "pay",
+   "to": "cancel",
+   "label": "thất bại",
+   "variant": "security",
+   "role": "error"
+  },
+  {
+   "id": "e7",
+   "from": "receive",
+   "to": "inspect",
+   "variant": "dashed",
+   "role": "branch",
+   "fromSide": "right",
+   "toSide": "right",
+   "route": "outside-right"
+  },
+  {
+   "id": "e9",
+   "from": "inspect",
+   "to": "restock",
+   "label": "đạt",
+   "variant": "default"
+  },
+  {
+   "id": "e10",
+   "from": "restock",
+   "to": "refund",
+   "variant": "default"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "Đường chính",
+   "items": [
+    "Đặt hàng → thanh toán → giữ tồn → đóng gói → giao"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "Ngoại lệ",
+   "items": [
+    "Thanh toán lỗi thì huỷ đơn, nhả tồn",
+    "Hàng trả phải qua kiểm tra trước khi hoàn tiền"
+   ]
+  }
+ ]
+}

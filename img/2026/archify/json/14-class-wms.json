@@ -1,0 +1,337 @@
+{
+ "schema_version": 1,
+ "diagram_type": "class",
+ "meta": {
+  "title": "Domain model cốt lõi của WMS",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "14-class-wms.html",
+  "quality_profile": "showcase"
+ },
+ "layout": {
+  "mode": "grid"
+ },
+ "types": [
+  {
+   "id": "warehouse",
+   "label": "Warehouse",
+   "kind": "class",
+   "row": 0,
+   "col": 0,
+   "sublabel": "Một kho vật lý",
+   "attributes": [
+    {
+     "name": "code",
+     "type": "string",
+     "visibility": "private"
+    },
+    {
+     "name": "locations",
+     "type": "Location[]",
+     "visibility": "private"
+    }
+   ],
+   "methods": [
+    {
+     "name": "findLocation",
+     "returns": "Location",
+     "visibility": "public",
+     "parameters": "sku"
+    }
+   ]
+  },
+  {
+   "id": "order",
+   "label": "OutboundOrder",
+   "kind": "class",
+   "row": 0,
+   "col": 1,
+   "sublabel": "Đơn xuất kho",
+   "attributes": [
+    {
+     "name": "orderNo",
+     "type": "string",
+     "visibility": "private"
+    },
+    {
+     "name": "status",
+     "type": "OrderStatus",
+     "visibility": "private"
+    }
+   ],
+   "methods": [
+    {
+     "name": "allocate",
+     "returns": "PickTask[]",
+     "visibility": "public"
+    }
+   ]
+  },
+  {
+   "id": "ostatus",
+   "label": "OrderStatus",
+   "kind": "enum",
+   "row": 0,
+   "col": 2,
+   "sublabel": "NEW, ALLOCATED, PICKING, SHIPPED"
+  },
+  {
+   "id": "location",
+   "label": "Location",
+   "kind": "class",
+   "row": 1,
+   "col": 0,
+   "sublabel": "Ô kệ / vị trí",
+   "attributes": [
+    {
+     "name": "code",
+     "type": "string",
+     "visibility": "private"
+    },
+    {
+     "name": "capacity",
+     "type": "int",
+     "visibility": "private"
+    }
+   ],
+   "methods": [
+    {
+     "name": "canStore",
+     "returns": "bool",
+     "visibility": "public",
+     "parameters": "qty"
+    }
+   ]
+  },
+  {
+   "id": "line",
+   "label": "OrderLine",
+   "kind": "class",
+   "row": 1,
+   "col": 1,
+   "sublabel": "Dòng hàng",
+   "attributes": [
+    {
+     "name": "product",
+     "type": "Product",
+     "visibility": "private"
+    },
+    {
+     "name": "qty",
+     "type": "int",
+     "visibility": "private"
+    }
+   ]
+  },
+  {
+   "id": "strategy",
+   "label": "AllocationStrategy",
+   "kind": "interface",
+   "row": 1,
+   "col": 2,
+   "sublabel": "Chọn tồn để lấy",
+   "methods": [
+    {
+     "name": "allocate",
+     "returns": "PickTask[]",
+     "visibility": "public",
+     "parameters": "line",
+     "abstract": true
+    }
+   ]
+  },
+  {
+   "id": "item",
+   "label": "InventoryItem",
+   "kind": "class",
+   "row": 2,
+   "col": 0,
+   "sublabel": "Tồn theo lô tại ô",
+   "attributes": [
+    {
+     "name": "lotNo",
+     "type": "string",
+     "visibility": "private"
+    },
+    {
+     "name": "qtyOnHand",
+     "type": "int",
+     "visibility": "private"
+    }
+   ],
+   "methods": [
+    {
+     "name": "reserve",
+     "returns": "void",
+     "visibility": "public",
+     "parameters": "qty"
+    }
+   ]
+  },
+  {
+   "id": "task",
+   "label": "PickTask",
+   "kind": "class",
+   "row": 2,
+   "col": 1,
+   "sublabel": "Nhiệm vụ lấy hàng",
+   "attributes": [
+    {
+     "name": "qty",
+     "type": "int",
+     "visibility": "private"
+    },
+    {
+     "name": "status",
+     "type": "TaskStatus",
+     "visibility": "private"
+    }
+   ],
+   "methods": [
+    {
+     "name": "confirm",
+     "returns": "void",
+     "visibility": "public",
+     "parameters": "scan"
+    }
+   ]
+  },
+  {
+   "id": "fefo",
+   "label": "FefoStrategy",
+   "kind": "class",
+   "row": 2,
+   "col": 2,
+   "sublabel": "Hết hạn trước, xuất trước",
+   "methods": [
+    {
+     "name": "allocate",
+     "returns": "PickTask[]",
+     "visibility": "public",
+     "parameters": "line"
+    }
+   ]
+  }
+ ],
+ "relationships": [
+  {
+   "id": "w1",
+   "from": "warehouse",
+   "to": "location",
+   "kind": "composition",
+   "label": "gồm"
+  },
+  {
+   "id": "w2",
+   "from": "location",
+   "to": "item",
+   "kind": "aggregation",
+   "label": "chứa"
+  },
+  {
+   "id": "w3",
+   "from": "order",
+   "to": "line",
+   "kind": "composition",
+   "label": "gồm"
+  },
+  {
+   "id": "w4",
+   "from": "order",
+   "to": "ostatus",
+   "kind": "dependency"
+  },
+  {
+   "id": "w5",
+   "from": "order",
+   "to": "strategy",
+   "kind": "dependency",
+   "label": "dùng"
+  },
+  {
+   "id": "w6",
+   "from": "line",
+   "to": "task",
+   "kind": "association",
+   "label": "sinh ra"
+  },
+  {
+   "id": "w7",
+   "from": "task",
+   "to": "item",
+   "kind": "association",
+   "label": "lấy từ"
+  },
+  {
+   "id": "w8",
+   "from": "fefo",
+   "to": "strategy",
+   "kind": "realization"
+  }
+ ]
+}

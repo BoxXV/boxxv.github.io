@@ -1,0 +1,254 @@
+{
+ "schema_version": 2,
+ "diagram_type": "workflow",
+ "meta": {
+  "title": "Quy trình nhập kho (Inbound) trong WMS",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "04-workflow-wms.html",
+  "quality_profile": "showcase"
+ },
+ "lanes": [
+  {
+   "id": "sup",
+   "label": "Nhà cung cấp"
+  },
+  {
+   "id": "wms",
+   "label": "Hệ thống WMS"
+  },
+  {
+   "id": "staff",
+   "label": "Nhân viên kho"
+  },
+  {
+   "id": "qc",
+   "label": "QC & ngoại lệ",
+   "variant": "exception"
+  }
+ ],
+ "phases": [
+  {
+   "id": "q1",
+   "label": "Chuẩn bị",
+   "fromCol": 0,
+   "toCol": 1
+  },
+  {
+   "id": "q2",
+   "label": "Nhận hàng",
+   "fromCol": 2,
+   "toCol": 3,
+   "variant": "emphasis"
+  },
+  {
+   "id": "q3",
+   "label": "Cất hàng",
+   "fromCol": 4,
+   "toCol": 5
+  }
+ ],
+ "mainPath": [
+  "asn",
+  "dock",
+  "receive",
+  "match",
+  "putaway",
+  "post"
+ ],
+ "nodes": [
+  {
+   "id": "asn",
+   "lane": "sup",
+   "col": 0,
+   "type": "external",
+   "label": "Gửi ASN",
+   "sublabel": "thông báo giao hàng"
+  },
+  {
+   "id": "dock",
+   "lane": "wms",
+   "col": 1,
+   "type": "backend",
+   "label": "Xếp lịch dock",
+   "sublabel": "khung giờ nhận"
+  },
+  {
+   "id": "receive",
+   "lane": "staff",
+   "col": 2,
+   "type": "frontend",
+   "label": "Nhận & quét",
+   "sublabel": "PDA quét barcode"
+  },
+  {
+   "id": "match",
+   "lane": "wms",
+   "col": 3,
+   "type": "security",
+   "label": "Đối chiếu ASN",
+   "sublabel": "SL, lô, hạn dùng"
+  },
+  {
+   "id": "putaway",
+   "lane": "staff",
+   "col": 4,
+   "type": "frontend",
+   "label": "Cất hàng",
+   "sublabel": "theo vị trí gợi ý"
+  },
+  {
+   "id": "post",
+   "lane": "wms",
+   "col": 5,
+   "type": "database",
+   "label": "Cập nhật tồn",
+   "sublabel": "báo ERP"
+  },
+  {
+   "id": "diff",
+   "lane": "qc",
+   "col": 3,
+   "type": "security",
+   "label": "Lệch / hư hỏng",
+   "sublabel": "giữ khu cách ly"
+  },
+  {
+   "id": "report",
+   "lane": "qc",
+   "col": 4,
+   "type": "messagebus",
+   "label": "Lập biên bản",
+   "sublabel": "trả NCC"
+  }
+ ],
+ "edges": [
+  {
+   "id": "i1",
+   "from": "asn",
+   "to": "dock",
+   "variant": "emphasis"
+  },
+  {
+   "id": "i2",
+   "from": "dock",
+   "to": "receive",
+   "variant": "emphasis"
+  },
+  {
+   "id": "i3",
+   "from": "receive",
+   "to": "match",
+   "variant": "emphasis"
+  },
+  {
+   "id": "i4",
+   "from": "match",
+   "to": "putaway",
+   "label": "khớp",
+   "variant": "emphasis"
+  },
+  {
+   "id": "i6",
+   "from": "putaway",
+   "to": "post",
+   "variant": "emphasis"
+  },
+  {
+   "id": "i7",
+   "from": "match",
+   "to": "diff",
+   "label": "lệch",
+   "variant": "security",
+   "role": "error"
+  },
+  {
+   "id": "i8",
+   "from": "diff",
+   "to": "report",
+   "variant": "dashed",
+   "role": "branch"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "Đường chính",
+   "items": [
+    "ASN → nhận hàng → đối chiếu → cất hàng → ghi tồn"
+   ]
+  },
+  {
+   "dot": "rose",
+   "title": "Ngoại lệ",
+   "items": [
+    "Hàng lệch số lượng hoặc hư hỏng được giữ ở khu cách ly"
+   ]
+  }
+ ]
+}

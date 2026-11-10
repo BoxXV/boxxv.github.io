@@ -1,0 +1,287 @@
+{
+ "schema_version": 1,
+ "diagram_type": "dataflow",
+ "meta": {
+  "title": "Luồng dữ liệu tồn kho trong WMS",
+  "locale": "vi",
+  "translations": {
+   "legend.title": "Chú giải",
+   "legend.architecture.frontend": "Frontend",
+   "legend.architecture.backend": "Backend",
+   "legend.architecture.database": "Cơ sở dữ liệu",
+   "legend.architecture.cloud": "Cloud",
+   "legend.architecture.security": "Bảo mật",
+   "legend.architecture.messagebus": "Message bus",
+   "legend.architecture.external": "Bên ngoài",
+   "legend.workflow.frontend": "Giao diện",
+   "legend.workflow.backend": "Xử lý nghiệp vụ",
+   "legend.workflow.security": "Kiểm soát",
+   "legend.workflow.messagebus": "Tác vụ",
+   "legend.workflow.database": "Dữ liệu",
+   "legend.workflow.cloud": "Dịch vụ cloud",
+   "legend.workflow.external": "Đối tượng ngoài",
+   "legend.sequence.emphasis": "yêu cầu chính",
+   "legend.sequence.return": "phản hồi",
+   "legend.sequence.security": "bảo mật",
+   "legend.sequence.dashed": "bất đồng bộ",
+   "legend.sequence.default": "thông điệp",
+   "legend.dataflow.emphasis": "dữ liệu chính",
+   "legend.dataflow.security": "chính sách / PII",
+   "legend.dataflow.dashed": "batch / bất đồng bộ",
+   "legend.dataflow.database": "kho dữ liệu",
+   "legend.dataflow.default": "luồng dữ liệu",
+   "legend.lifecycle.start": "trạng thái đầu",
+   "legend.lifecycle.active": "đang xử lý",
+   "legend.lifecycle.waiting": "chờ",
+   "legend.lifecycle.decision": "quyết định",
+   "legend.lifecycle.success": "thành công",
+   "legend.lifecycle.failure": "thất bại / thoát",
+   "legend.lifecycle.neutral": "trung tính",
+   "legend.lifecycle.external": "bên ngoài",
+   "legend.lifecycle.final": "trạng thái kết thúc",
+   "legend.erd.pk": "Khoá chính",
+   "legend.erd.fk": "Khoá ngoại",
+   "legend.erd.uk": "Khoá duy nhất",
+   "legend.erd.one": "Một",
+   "legend.erd.many": "Nhiều",
+   "legend.erd.optional": "Tuỳ chọn",
+   "legend.class.dependency": "Phụ thuộc",
+   "legend.class.association": "Liên kết",
+   "legend.class.inheritance": "Kế thừa",
+   "legend.class.realization": "Hiện thực",
+   "legend.class.composition": "Hợp thành",
+   "legend.class.aggregation": "Kết tập",
+   "legend.timeline.default": "Sự kiện",
+   "legend.timeline.change": "Thay đổi",
+   "legend.timeline.alert": "Cảnh báo",
+   "legend.timeline.action": "Hành động",
+   "legend.timeline.recovery": "Phục hồi",
+   "timeline.axis": "Thời gian",
+   "timeline.evidence.observed": "Sự kiện ghi nhận",
+   "timeline.evidence.illustrative": "Dữ liệu minh hoạ",
+   "legend.waterfall.ok": "Hoàn tất",
+   "legend.waterfall.error": "Lỗi",
+   "legend.waterfall.cancelled": "Đã huỷ",
+   "legend.waterfall.incomplete": "Chưa kết thúc",
+   "waterfall.evidence.measured": "Thời gian đo thực tế",
+   "waterfall.evidence.illustrative": "Thời gian minh hoạ",
+   "waterfall.wall": "Tổng thời gian {duration}",
+   "waterfall.share": "{percent} trên {total} tổng thời gian",
+   "waterfall.operation": "Thao tác",
+   "waterfall.incomplete": "chưa kết thúc, ≥ {duration}"
+  },
+  "output": "08-dataflow-wms.html",
+  "quality_profile": "showcase"
+ },
+ "stages": [
+  {
+   "label": "Nguồn"
+  },
+  {
+   "label": "Thu nhận"
+  },
+  {
+   "label": "Xử lý"
+  },
+  {
+   "label": "Lưu trữ"
+  },
+  {
+   "label": "Sử dụng"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "pda",
+   "type": "frontend",
+   "label": "PDA",
+   "sublabel": "quét barcode",
+   "stage": 0,
+   "row": 0
+  },
+  {
+   "id": "rfid",
+   "type": "external",
+   "label": "Cổng RFID",
+   "sublabel": "đọc tag EPC",
+   "stage": 0,
+   "row": 1
+  },
+  {
+   "id": "erp",
+   "type": "external",
+   "label": "ERP",
+   "sublabel": "PO / SO",
+   "stage": 0,
+   "row": 2
+  },
+  {
+   "id": "api",
+   "type": "backend",
+   "label": "WMS API",
+   "sublabel": "giao dịch kho",
+   "stage": 1,
+   "row": 0
+  },
+  {
+   "id": "integ",
+   "type": "messagebus",
+   "label": "Integration",
+   "sublabel": "nhận đơn ERP",
+   "stage": 1,
+   "row": 2
+  },
+  {
+   "id": "engine",
+   "type": "backend",
+   "label": "Inventory Engine",
+   "sublabel": "ghi sổ tồn",
+   "stage": 2,
+   "row": 1,
+   "tag": "ACID"
+  },
+  {
+   "id": "db",
+   "type": "database",
+   "label": "Inventory DB",
+   "sublabel": "PostgreSQL",
+   "stage": 3,
+   "row": 0
+  },
+  {
+   "id": "events",
+   "type": "messagebus",
+   "label": "Event Bus",
+   "sublabel": "StockChanged",
+   "stage": 3,
+   "row": 1
+  },
+  {
+   "id": "dwh",
+   "type": "database",
+   "label": "Data Warehouse",
+   "sublabel": "lịch sử",
+   "stage": 3,
+   "row": 2
+  },
+  {
+   "id": "dash",
+   "type": "frontend",
+   "label": "Dashboard tồn",
+   "sublabel": "realtime",
+   "stage": 4,
+   "row": 0
+  },
+  {
+   "id": "erpsync",
+   "type": "external",
+   "label": "ERP sync",
+   "sublabel": "đối soát",
+   "stage": 4,
+   "row": 1
+  },
+  {
+   "id": "forecast",
+   "type": "backend",
+   "label": "Dự báo",
+   "sublabel": "nhu cầu, ROP",
+   "stage": 4,
+   "row": 2
+  }
+ ],
+ "flows": [
+  {
+   "id": "d1",
+   "from": "pda",
+   "to": "api",
+   "label": "quét SKU / ô",
+   "variant": "emphasis"
+  },
+  {
+   "id": "d2",
+   "from": "rfid",
+   "to": "api",
+   "label": "tag EPC",
+   "variant": "default"
+  },
+  {
+   "id": "d3",
+   "from": "erp",
+   "to": "integ",
+   "label": "PO / SO",
+   "variant": "default"
+  },
+  {
+   "id": "d4",
+   "from": "api",
+   "to": "engine",
+   "label": "giao dịch",
+   "variant": "emphasis"
+  },
+  {
+   "id": "d5",
+   "from": "integ",
+   "to": "engine",
+   "label": "đơn cần xử lý",
+   "variant": "default"
+  },
+  {
+   "id": "d6",
+   "from": "engine",
+   "to": "db",
+   "label": "ghi tồn",
+   "variant": "emphasis"
+  },
+  {
+   "id": "d7",
+   "from": "engine",
+   "to": "events",
+   "label": "sự kiện",
+   "variant": "dashed"
+  },
+  {
+   "id": "d8",
+   "from": "db",
+   "to": "dash",
+   "label": "tồn hiện tại",
+   "variant": "default"
+  },
+  {
+   "id": "d9",
+   "from": "events",
+   "to": "erpsync",
+   "label": "đồng bộ",
+   "variant": "dashed"
+  },
+  {
+   "id": "d10",
+   "from": "events",
+   "to": "dwh",
+   "label": "ETL",
+   "variant": "dashed"
+  },
+  {
+   "id": "d11",
+   "from": "dwh",
+   "to": "forecast",
+   "label": "lịch sử xuất",
+   "variant": "dashed"
+  }
+ ],
+ "cards": [
+  {
+   "dot": "emerald",
+   "title": "Dữ liệu chính",
+   "items": [
+    "Mọi lượt quét đi qua Inventory Engine trước khi ghi tồn"
+   ]
+  },
+  {
+   "dot": "orange",
+   "title": "Bất đồng bộ",
+   "items": [
+    "ERP và Data Warehouse nhận thay đổi qua Event Bus"
+   ]
+  }
+ ]
+}
