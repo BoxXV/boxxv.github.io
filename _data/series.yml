@@ -1,0 +1,13 @@
+# Mô tả cho từng series (tùy chọn). Khóa là đúng tên `series` trong front matter của bài viết.
+"Học tiếng Nhật sơ cấp":
+  description: "Từ bảng chữ cái Hiragana, Katakana đến ngữ pháp và từ vựng Minna No Nihongo sơ cấp."
+"HTML5 Video Player":
+  description: "Tổng hợp các trình phát video HTML5, skin cho Video.js / JW Player và cách tùy biến Video.js."
+"Phỏng vấn IT":
+  description: "Chuẩn bị CV và các bộ câu hỏi phỏng vấn Android, Front-end, SQL, Java."
+"Android Cookbook Review":
+  description: "Review các cuốn sách Android Cookbook."
+"Triển khai React & Node.js":
+  description: "Triển khai ứng dụng React, Node.js lên Windows Server và cấu hình HTTPS cho localhost."
+"Year Plans":
+  description: "Kế hoạch năm từ 2024 đến 2026: mục tiêu, thói quen và lời nhắn cho cả năm."

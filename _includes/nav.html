@@ -18,7 +18,7 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
-                {% for page in site.pages %}
+                {% for nav_title in site.data.navigation %}{% for page in site.pages %}{% if page.title == nav_title %}
                 {% if page.title == 'Search' %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}"><i class="fa fa-search hidden-xs"></i><span class="visible-xs">Search</span></a>
@@ -27,7 +27,7 @@
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
-                {% endif %}{% endfor %}
+                {% endif %}{% endif %}{% endfor %}{% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

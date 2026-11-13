@@ -3,6 +3,8 @@ layout: post
 categories: ["Web & Frontend"]
 title: Top Skins for JW Player
 image: "img/projects-bg.jpg"
+series: "HTML5 Video Player"
+series_order: 5
 ---
 
 ### 1. [Tube skin](https://codecanyon.net/item/tube-skin-retina-for-jw7/18213167)

@@ -3,6 +3,8 @@ layout: post
 categories: ["Sách & Review"]
 title: Review Android Application Development Cookbook
 subtitle: 93 Recipes for Building Winning Apps, 1st Edition
+series: "Android Cookbook Review"
+series_order: 2
 ---
 
 ✅ Publisher: 	[Wrox](http://www.wrox.com/WileyCDA/)

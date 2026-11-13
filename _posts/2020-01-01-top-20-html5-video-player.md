@@ -3,6 +3,8 @@ layout: post
 categories: ["Web & Frontend"]
 title: Top 21 Web HTML5 Video Players
 image: "img/hello_world.jpeg"
+series: "HTML5 Video Player"
+series_order: 1
 ---
 
 # Top 21 Web Players

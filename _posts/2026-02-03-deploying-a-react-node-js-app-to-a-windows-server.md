@@ -9,6 +9,8 @@ tags:
 - React
 - Node.js
 - Windows Server
+series: "Triển khai React & Node.js"
+series_order: 1
 ---
 
 Tay cầm cốc cà phê gần cạn, tim đập thình thịch vì hồi hộp… vẻ mặt bạn hiện lên vẻ tự mãn (tôi cho rằng hầu hết các lập trình viên đều biết cảm giác này). Bạn nhấp một ngụm cà phê trong khi ngắm nhìn ứng dụng web vừa hoàn thành. Bạn đã dành hàng ngày, hàng tháng, thậm chí hàng năm trời để làm việc với nó, và cuối cùng, nó đã xong rồi 🍾😄.

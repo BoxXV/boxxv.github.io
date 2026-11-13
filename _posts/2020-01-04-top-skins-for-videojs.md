@@ -3,6 +3,8 @@ layout: post
 categories: ["Web & Frontend"]
 title: Top 18 Skins for Video.js
 image: "img/projects-bg.jpg"
+series: "HTML5 Video Player"
+series_order: 4
 ---
 
 ### 1. [Flat skin](https://codecanyon.net/item/flat-skin-retina-for-jw-player/12752001)

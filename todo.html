@@ -1,0 +1,165 @@
+---
+layout: page
+title: "To-Do List"
+subtitle: "Những việc đang chờ, đang làm và đã xong."
+description: "Danh sách việc cần làm và tài liệu tham khảo, hiển thị dạng bảng Kanban."
+image: "img/contact-bg.jpg"
+---
+{% comment %}
+  Nội dung lấy trực tiếp từ TODO.md (giữ TODO.md là Markdown thuần, không thêm front matter).
+  Quy ước trong TODO.md: "## Pending / Doing / Finished" là cột, "### ..." là một thẻ việc.
+  Không có JavaScript thì trang vẫn hiển thị nội dung Markdown như bình thường.
+{% endcomment %}
+{% capture todo_md %}{% include_relative TODO.md %}{% endcapture %}
+<div class="todo-source">
+{{ todo_md | markdownify }}
+</div>
+
+<style>
+	.todo-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 16px; }
+	.todo-toolbar input { flex: 1 1 220px; padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 15px; }
+	.todo-toolbar button { padding: 6px 10px; border: 1px solid #ccc; border-radius: 4px; background: #fff; font-size: 13px; }
+	.todo-board { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; align-items: start; }
+	.todo-column { padding: 10px; border-radius: 6px; background: #f4f5f7; border-top: 4px solid #999; }
+	.todo-column.todo-pending { border-top-color: #f0ad4e; }
+	.todo-column.todo-doing { border-top-color: #0085a1; }
+	.todo-column.todo-finished { border-top-color: #5cb85c; }
+	.todo-column-head { display: flex; justify-content: space-between; align-items: center; margin: 0 0 10px; font-size: 16px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+	.todo-count { min-width: 26px; padding: 1px 8px; border-radius: 12px; background: #fff; font-size: 13px; text-align: center; }
+	.todo-card { margin-bottom: 8px; border: 1px solid #e1e4e8; border-radius: 4px; background: #fff; font-size: 15px; }
+	.todo-card-simple { padding: 8px 10px; font-weight: 600; line-height: 1.35; }
+	.todo-card summary { padding: 8px 10px; cursor: pointer; font-weight: 600; line-height: 1.35; }
+	.todo-card summary .todo-meta { display: block; font-size: 12px; font-weight: 400; color: #999; }
+	.todo-card-body { padding: 0 10px 8px; border-top: 1px solid #eee; overflow-wrap: anywhere; }
+	.todo-card-body h4 { margin: 12px 0 6px; font-size: 15px; }
+	.todo-card-body p, .todo-card-body ul { margin: 6px 0; }
+	.todo-card-body ul { padding-left: 18px; }
+	.todo-card-body li { margin-bottom: 3px; }
+	.todo-link-host { color: #999; font-size: 12px; }
+	.todo-empty { margin: 4px 0; font-size: 14px; color: #999; }
+</style>
+
+<script>
+	(function () {
+		var source = document.querySelector('.todo-source');
+		if (!source) return;
+		var STATUS = { pending: 'todo-pending', doing: 'todo-doing', finished: 'todo-finished' };
+
+		// Biến URL trần (http...) trong đoạn văn thành link, hiển thị tên miền cho dễ đọc
+		function linkify(root) {
+			var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null, false);
+			var nodes = [], n;
+			while ((n = walker.nextNode())) if (/https?:\/\//.test(n.nodeValue) && !n.parentNode.closest('a, code, pre')) nodes.push(n);
+			nodes.forEach(function (node) {
+				var frag = document.createDocumentFragment();
+				node.nodeValue.split(/(https?:\/\/[^\s<]+)/).forEach(function (part) {
+					if (!/^https?:\/\//.test(part)) { if (part) frag.appendChild(document.createTextNode(part)); return; }
+					var a = document.createElement('a');
+					a.href = part;
+					try {
+						var u = new URL(part);
+						a.textContent = (u.hostname.replace(/^www\./, '') + decodeURIComponent(u.pathname)).replace(/\/$/, '');
+					} catch (e) { a.textContent = part; }
+					frag.appendChild(a);
+				});
+				node.parentNode.replaceChild(frag, node);
+			});
+			root.querySelectorAll('a[href^="http"]').forEach(function (a) { a.target = '_blank'; a.rel = 'noopener'; });
+		}
+
+		// Tách nội dung Markdown đã render: h2 = cột, h3 = thẻ, phần còn lại thuộc thẻ gần nhất
+		var columns = [], column = null, card = null;
+		Array.prototype.slice.call(source.children).forEach(function (el) {
+			var tag = el.tagName;
+			if (tag === 'H1') return;
+			if (tag === 'H2') {
+				column = { title: el.textContent.trim(), cards: [], intro: [] };
+				columns.push(column); card = null; return;
+			}
+			if (!column) return;
+			if (tag === 'H3') {
+				card = { title: el.textContent.trim(), body: [] };
+				column.cards.push(card); return;
+			}
+			(card ? card.body : column.intro).push(el);
+		});
+		if (!columns.length) return;
+
+		var toolbar = document.createElement('div');
+		toolbar.className = 'todo-toolbar';
+		toolbar.innerHTML = '<input type="search" placeholder="Lọc theo từ khóa..." aria-label="Lọc">' +
+			'<button type="button" data-open="1">Mở tất cả</button><button type="button" data-open="0">Thu gọn</button>';
+		var board = document.createElement('div');
+		board.className = 'todo-board';
+
+		columns.forEach(function (col) {
+			var box = document.createElement('section');
+			box.className = 'todo-column ' + (STATUS[col.title.toLowerCase()] || '');
+			var head = document.createElement('h2');
+			head.className = 'todo-column-head';
+			head.innerHTML = '<span></span><span class="todo-count"></span>';
+			head.firstChild.textContent = col.title;
+			box.appendChild(head);
+			col.intro.forEach(function (el) {
+				// Danh sách nằm ngay dưới cột (vd. mục Finished): mỗi dòng là một thẻ đơn giản
+				if (el.tagName !== 'UL' && el.tagName !== 'OL') { box.appendChild(el); return; }
+				Array.prototype.slice.call(el.children).forEach(function (li) {
+					var item = document.createElement('div');
+					item.className = 'todo-card todo-card-simple';
+					while (li.firstChild) item.appendChild(li.firstChild);
+					linkify(item);
+					box.appendChild(item);
+				});
+			});
+			col.cards.forEach(function (c) {
+				var d = document.createElement('details');
+				d.className = 'todo-card';
+				var s = document.createElement('summary');
+				s.textContent = c.title;
+				var body = document.createElement('div');
+				body.className = 'todo-card-body';
+				c.body.forEach(function (el) { body.appendChild(el); });
+				linkify(body);
+				var links = body.querySelectorAll('a').length;
+				var meta = document.createElement('span');
+				meta.className = 'todo-meta';
+				meta.textContent = links ? links + ' liên kết' : (body.textContent.trim() ? 'Ghi chú' : 'Chưa có nội dung');
+				s.appendChild(meta);
+				d.appendChild(s);
+				d.appendChild(body);
+				box.appendChild(d);
+			});
+			var empty = document.createElement('p');
+			empty.className = 'todo-empty';
+			empty.textContent = 'Chưa có mục nào.';
+			box.appendChild(empty);
+			board.appendChild(box);
+		});
+
+		function refresh() {
+			var q = toolbar.querySelector('input').value.trim().toLowerCase();
+			board.querySelectorAll('.todo-column').forEach(function (box) {
+				var shown = 0;
+				box.querySelectorAll('.todo-card').forEach(function (d) {
+					var match = !q || d.textContent.toLowerCase().indexOf(q) !== -1;
+					d.hidden = !match;
+					if (match) shown++;
+					if (q && match) d.open = true;
+				});
+				box.querySelector('.todo-count').textContent = shown;
+				box.querySelector('.todo-empty').hidden = shown > 0;
+			});
+		}
+		toolbar.querySelector('input').addEventListener('input', refresh);
+		toolbar.addEventListener('click', function (e) {
+			var v = e.target.getAttribute('data-open');
+			if (v === null) return;
+			board.querySelectorAll('.todo-card').forEach(function (d) { if (!d.hidden) d.open = v === '1'; });
+		});
+
+		source.parentNode.insertBefore(toolbar, source);
+		source.parentNode.insertBefore(board, source);
+		source.parentNode.removeChild(source);
+		refresh();
+	})();
+</script>

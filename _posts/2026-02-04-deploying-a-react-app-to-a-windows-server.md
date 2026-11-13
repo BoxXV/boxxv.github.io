@@ -9,6 +9,8 @@ tags:
 - React
 - Node.js
 - Windows Server
+series: "Triển khai React & Node.js"
+series_order: 2
 ---
 
 Đây là hướng dẫn đầy đủ để triển khai React app lên Windows Server IIS:

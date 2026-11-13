@@ -4,6 +4,8 @@ categories: ["Tiếng Nhật"]
 title: Minna No Nihongo Ngữ pháp tiếng Nhật sơ cấp
 description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
+series: "Học tiếng Nhật sơ cấp"
+series_order: 3
 ---
 
 ### 1. Mẫu câu khẳng định, Dùng để nói tên, nghề nghiệp, quốc tịch

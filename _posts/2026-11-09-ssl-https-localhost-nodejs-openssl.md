@@ -13,6 +13,8 @@ tags:
 - Nodejs
 - Express
 - Windows
+series: "Triển khai React & Node.js"
+series_order: 4
 ---
 
 - [Tổng quan](#tổng-quan)

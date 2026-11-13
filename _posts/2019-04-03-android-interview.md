@@ -10,6 +10,8 @@ tags:
 - Questions
 - Answers
 modified: 2019-04-21
+series: "Phỏng vấn IT"
+series_order: 3
 ---
 ## Mục lục
 ✅ Voz: Tổng hợp các câu hỏi phỏng vấn Android Dev

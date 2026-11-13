@@ -8,6 +8,8 @@ tags:
 - Interview
 - Questions
 - Answers
+series: "Phỏng vấn IT"
+series_order: 2
 ---
 Sau đây là một số câu hỏi thường gặp khi đi phỏng vấn về vị trí lập trình Android mà mình tổng hợp lại được. Trước khi bước vào buổi phỏng vấn hãy review lại một lần nhé, biết đâu lại gặp phải "câu tủ". Mình sẽ bỏ qua một số câu hỏi định nghĩa cơ bản như `activity` là gì, hay liệt kê vòng đời của `activity` và `fragment`, ... mà tập trung vào các câu hỏi thường bị bỏ qua. Các câu trả lời sẽ tập trung vào các ý chính một cách vắn tắt, bạn có thể tìm hiểu chi tiết hơn sử dụng các từ khóa chính trong câu hỏi.
 

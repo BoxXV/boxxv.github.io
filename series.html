@@ -1,0 +1,39 @@
+---
+layout: page
+title: "Series"
+subtitle: "Các chuỗi bài viết theo chủ đề, nên đọc theo thứ tự."
+description: "Danh sách các chuỗi bài viết (series) và các phần của từng series."
+image: "img/about-bg.jpg"
+---
+{% comment %} Gom tên series từ front matter `series` của bài viết; sắp xếp các phần theo `series_order`. {% endcomment %}
+{% capture name_list %}{% for post in site.posts %}{% if post.series %}{{ post.series | append: "" }}~~{% endif %}{% endfor %}{% endcapture %}
+{% assign names = name_list | split: "~~" | uniq | sort_natural %}
+<section class="series-index">
+	{% if names.size == 0 %}
+	<p>Chưa có series nào.</p>
+	{% endif %}
+	{% for name in names %}
+	{% assign slug = name | slugify: 'latin' %}
+	{% assign parts = site.posts | where: "series", name | sort: "series_order", "last" %}
+	{% assign info = site.data.series[name] %}
+	<div class="series-card" id="{{ slug }}">
+		<h3><a href="#{{ slug }}">{{ name }}</a> <small>({{ parts.size }} bài)</small></h3>
+		{% if info.description %}<p class="series-desc">{{ info.description }}</p>{% endif %}
+		<ol>
+			{% for post in parts %}
+			<li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <time>{{ post.date | date: "%d/%m/%Y" }}</time></li>
+			{% endfor %}
+		</ol>
+	</div>
+	{% endfor %}
+</section>
+
+<style>
+	.series-card { margin-bottom: 24px; padding: 4px 20px 10px; border: 1px solid #ddd; border-left: 4px solid #0085a1; border-radius: 4px; scroll-margin-top: 80px; }
+	.series-card:target { background: #f2fafc; }
+	.series-card h3 a { color: inherit; }
+	.series-desc { margin: 0 0 10px; font-size: 16px; color: #777; }
+	.series-card ol { padding-left: 22px; }
+	.series-card li { margin-bottom: 4px; }
+	.series-card time { font-size: 13px; color: #999; white-space: nowrap; }
+</style>

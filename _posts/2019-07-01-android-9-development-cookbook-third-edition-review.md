@@ -3,6 +3,8 @@ layout: post
 categories: ["Sách & Review"]
 title: Review Android 9 Development Cookbook
 subtitle: Over 100 recipes and solutions to solve the most common problems faced by Android developers, 3rd Edition
+series: "Android Cookbook Review"
+series_order: 3
 ---
 
 ✅ Publisher: 	[Packt Publishing](https://www.packtpub.com/application-development/android-9-development-cookbook-third-edition)

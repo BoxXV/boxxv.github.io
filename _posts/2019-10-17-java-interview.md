@@ -8,6 +8,8 @@ tags:
 - Interview
 - Questions
 - Answers
+series: "Phỏng vấn IT"
+series_order: 7
 ---
 Trong bài viết này, tôi sẽ tổng hợp lại những kiến thức về Spring Framework, mà có thể các bạn sẽ được hỏi khi đi phỏng vấn. Những chủ đề thường được hỏi sẽ về các vấn đề chính như sau.
 - Spring overview

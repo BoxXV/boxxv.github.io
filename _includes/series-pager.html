@@ -1,0 +1,24 @@
+{% comment %}
+  Điều hướng Bài trước / Bài sau trong cùng series (khác với pager Previous/Next Post theo thời gian).
+  Style nằm trong series-nav.html.
+{% endcomment %}
+{% assign series_name = page.series | append: "" %}
+{% assign series_slug = series_name | slugify: 'latin' %}
+{% assign series_posts = site.posts | where: "series", page.series | sort: "series_order", "last" %}
+{% assign series_index = 0 %}
+{% for p in series_posts %}{% if p.url == page.url %}{% assign series_index = forloop.index %}{% endif %}{% endfor %}
+{% assign series_prev = nil %}
+{% assign series_next = nil %}
+{% if series_index > 1 %}{% assign i = series_index | minus: 2 %}{% assign series_prev = series_posts[i] %}{% endif %}
+{% if series_index > 0 and series_index < series_posts.size %}{% assign series_next = series_posts[series_index] %}{% endif %}
+<nav class="series-pager">
+	<div class="series-pager-head"><i class="fa fa-list-ol"></i> Series <a href="{{ site.baseurl }}/series/#{{ series_slug }}">{{ series_name }}</a> &middot; Phần {{ series_index }}/{{ series_posts.size }}</div>
+	<div class="series-pager-links">
+		{% if series_prev %}
+		<a class="series-prev" href="{{ series_prev.url | prepend: site.baseurl }}"><small>&larr; Bài trước</small>{{ series_prev.title }}</a>
+		{% endif %}
+		{% if series_next %}
+		<a class="series-next" href="{{ series_next.url | prepend: site.baseurl }}"><small>Bài tiếp theo &rarr;</small>{{ series_next.title }}</a>
+		{% endif %}
+	</div>
+</nav>

@@ -23,13 +23,15 @@ layout: default
 </header>
 
 <!-- Post Content -->
-<article>
+<article{% if page.series %} class="post-with-series"{% endif %}>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+			<div class="{% if page.series %}col-lg-8 col-lg-offset-1 col-md-8{% else %}col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1{% endif %}">
+				{% if page.series %}<div class="hidden-md hidden-lg">{% include series-nav.html collapsible=true %}</div>{% endif %}
 				<!-- Begin post content -->
 				{{ content }}
 				<!-- End post content -->
+				{% if page.series %}{% include series-pager.html %}{% endif %}
 				{% if page.categories.size > 0 or page.tags.size > 0 %}
 				<p class="post-taxonomy">
 					{% if page.categories.size > 0 %}<i class="fa fa-folder-open"></i>
@@ -59,6 +61,11 @@ layout: default
 				</ul>
 
 			</div>
+			{% if page.series %}
+			<aside class="col-lg-3 col-md-4 hidden-xs hidden-sm series-sidebar">
+				{% include series-nav.html %}
+			</aside>
+			{% endif %}
 		</div>
 	</div><!-- /.container -->
 

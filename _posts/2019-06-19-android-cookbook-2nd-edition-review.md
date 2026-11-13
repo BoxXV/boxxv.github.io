@@ -3,6 +3,8 @@ layout: post
 categories: ["Sách & Review"]
 title: Review Android Cookbook, 2nd Edition
 subtitle: Problems and Solutions for Android Developers
+series: "Android Cookbook Review"
+series_order: 1
 ---
 
 ✅ Publisher: 	[O'Reilly Media](https://learning.oreilly.com/library/publisher/oreilly-media-inc/)

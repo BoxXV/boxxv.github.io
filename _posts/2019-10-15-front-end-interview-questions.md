@@ -11,6 +11,8 @@ tags:
 - Interview
 - Questions
 - Answers
+series: "Phỏng vấn IT"
+series_order: 5
 ---
 Trong bài viết này, tôi sẽ tổng hợp lại những kiến thức về Front-end, mà có thể các bạn sẽ được hỏi khi đi phỏng vấn.
 

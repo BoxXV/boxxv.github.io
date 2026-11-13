@@ -2,6 +2,8 @@
 layout: post
 categories: ["Web & Frontend"]
 title: Các bước để tạo plugin cho video.js
+series: "HTML5 Video Player"
+series_order: 6
 ---
 
 ### Mục lục

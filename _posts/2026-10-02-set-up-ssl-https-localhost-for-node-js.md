@@ -10,6 +10,8 @@ tags:
 - HTTPS
 - Localhost
 - Nodejs
+series: "Triển khai React & Node.js"
+series_order: 3
 ---
 
 - [Tổng quan](#tổng-quan)

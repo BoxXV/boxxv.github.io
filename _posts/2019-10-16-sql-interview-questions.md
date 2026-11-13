@@ -8,6 +8,8 @@ tags:
 - Interview
 - Questions
 - Answers
+series: "Phỏng vấn IT"
+series_order: 6
 ---
 Trong bài viết này, tôi sẽ tổng hợp lại những kiến thức về SQL, mà có thể các bạn sẽ được hỏi khi đi phỏng vấn.
 

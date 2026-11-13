@@ -2,6 +2,8 @@
 layout: post
 categories: ["Web & Frontend"]
 title: Responsive Layout and Fill Mode on Video.js
+series: "HTML5 Video Player"
+series_order: 7
 ---
 
 > Video.js release v7.3.0 brings a long wanted feature: Responsive Layout. In addition, Fill Mode has been promoted to a first-class feature

@@ -4,6 +4,8 @@ categories: ["Tiếng Nhật"]
 title: Minna No Nihongo Bài 1 + Bài 2
 description: みんな の 日本語
 subtitle: Minna No Nihongo là cuốn sách được đông đảo người học tiếng Nhật lựa chọn khi mới bắt đầu.
+series: "Học tiếng Nhật sơ cấp"
+series_order: 4
 ---
 
 | Từ vựng || Phiên âm || Dịch nghĩa |

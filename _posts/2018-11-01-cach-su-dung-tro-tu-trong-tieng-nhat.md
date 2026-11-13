@@ -4,6 +4,8 @@ categories: ["Tiếng Nhật"]
 title: Cách sử dụng trợ từ trong Tiếng Nhật
 description: に を へ が
 subtitle: Cách sử dụng trợ từ に を へ が
+series: "Học tiếng Nhật sơ cấp"
+series_order: 6
 ---
 
 ### 1. Cách sử dụng trợ từ `が`
