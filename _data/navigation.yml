@@ -1,10 +1,10 @@
 # Thứ tự các mục trên header (sau "Home").
 # Mỗi mục khớp với `title` trong front matter của trang; trang "Search" hiển thị dạng icon.
-- About
 - Archive
 - Series
 - Categories
 - Tags
 - To-Do List
+- About
 - Contact
 - Search
