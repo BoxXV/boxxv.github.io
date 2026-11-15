@@ -1,5 +1,7 @@
 ---
 layout: post
+series: "API & Tích hợp"
+series_order: 4
 categories: ["Kiến trúc & Kiểm thử"]
 title: "Các thuật ngữ thường gặp khi thiết kế và tích hợp hệ thống API"
 subtitle: "API Design & Integration Glossary: REST, SOAP, WSDL, WADL, OpenAPI, gRPC, GraphQL..."

@@ -15,3 +15,5 @@
   description: "Bốn bài cho người mới: kỹ năng và sách nên đọc, bốn kiểu viết, tránh giọng văn AI kèm lộ trình, và thực hành với 41 video TRIZ."
 "Hướng nghiệp":
   description: "Định hướng ngành nghề cho con: từ 12 tuổi (G1) đến lúc chọn ngành, bối cảnh AI và robot hình người thay đổi thị trường việc làm (G2)."
+"API & Tích hợp":
+  description: "Các bài về API: xây dựng REST API với Django, các kiến trúc API phổ biến, công cụ kiểm thử API và thuật ngữ khi thiết kế, tích hợp hệ thống API (REST, SOAP, WSDL, WADL, gRPC, GraphQL)."

@@ -1,5 +1,7 @@
 ---
 layout: post
+series: "API & Tích hợp"
+series_order: 3
 categories: ["Kiến trúc & Kiểm thử"]
 title: So sánh công cụ kiểm thử API
 subtitle: A Free Solution with the Best Alternative
