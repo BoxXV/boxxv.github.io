@@ -2,6 +2,19 @@
 
 ## Pending
 
+### Year Plans for 2027 (ưu tiên cao nhất)
+
+Kế hoạch năm 2027: 4 chu kỳ 12 tuần, làm ngoài giờ hành chính, mỗi chu kỳ 1–2 mục tiêu chính.
+
+- [Bài viết: Year Plans for 2027](/2027/01/01/2027-year-plans/)
+- Chu kỳ 1 (28/12/2026 – 21/03/2027): nền tảng AI local, thói quen viết
+- Chu kỳ 2 (29/03/2027 – 20/06/2027): ra mắt kênh YouTube và Facebook
+- Chu kỳ 3 (28/06/2027 – 19/09/2027): sản phẩm số đầu tiên, blog và affiliate
+- Chu kỳ 4 (27/09/2027 – 19/12/2027): freelance và tư vấn, chuẩn bị 2028
+- Chạy nền suốt năm: thể dục, tiếng Anh giao tiếp, tiếng Nhật đọc viết
+- Mỗi tối chủ nhật: cập nhật % Đạt và Trạng thái trong bài viết
+
+
 ### Unit test reports
 - https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage?tabs=windows
 - https://methodpoet.com/best-code-coverage-tools/
